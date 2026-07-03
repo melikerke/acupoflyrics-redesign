@@ -12,7 +12,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { spotifyApiGet } from "./spotify.js";
+import { searchTrackMeta, spotifyApiGet } from "./spotify.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_FILE = path.join(ROOT, "src/data/musicLists.json");
@@ -156,7 +156,7 @@ async function fetchSpotifyGlobalFallback() {
 async function fetchSpotifyGlobal(spotifyCreds) {
   try {
     const data = await spotifyApiGet(
-      `/playlists/${SPOTIFY_GLOBAL_TOP_50}/tracks?limit=${LIMIT}&fields=items(track(name,artists(name)))`,
+      `/playlists/${SPOTIFY_GLOBAL_TOP_50}/tracks?limit=${LIMIT}&fields=items(track(name,artists(name),album(name,images,external_urls),external_urls))`,
       spotifyCreds,
     );
     const items = (data?.items || []).filter((item) => item?.track?.name);
@@ -165,10 +165,45 @@ async function fetchSpotifyGlobal(spotifyCreds) {
       rank: index + 1,
       title: item.track.name,
       artist: item.track.artists.map((a) => a.name).join(" & "),
+      cover: item.track.album?.images?.slice().sort((a, b) => (b.width || 0) - (a.width || 0))[0]?.url || null,
+      spotifyUrl: item.track.external_urls?.spotify || null,
+      album: item.track.album?.name || null,
+      albumUrl: item.track.album?.external_urls?.spotify || null,
     }));
   } catch (e) {
     return fetchSpotifyGlobalFallback();
   }
+}
+
+async function enrichEntriesWithSpotify(entries, spotifyCreds) {
+  if (!spotifyCreds?.clientId || !spotifyCreds?.clientSecret) return entries;
+  const enriched = [];
+  for (const entry of entries) {
+    if (entry.cover) {
+      enriched.push(entry);
+      continue;
+    }
+    try {
+      const match = await searchTrackMeta(
+        { artist: entry.artist, title: entry.title },
+        { clientId: spotifyCreds.clientId, clientSecret: spotifyCreds.clientSecret },
+      );
+      enriched.push(
+        match.matched
+          ? {
+              ...entry,
+              cover: match.cover,
+              spotifyUrl: match.spotifyUrl,
+              album: match.album,
+              albumUrl: match.albumUrl,
+            }
+          : entry,
+      );
+    } catch {
+      enriched.push(entry);
+    }
+  }
+  return enriched;
 }
 
 // Fetch every automatable list and rewrite musicLists.json.
@@ -195,9 +230,15 @@ export async function updateCharts({ spotify, write = true } = {}) {
     }
     try {
       const entries = await fetcher();
-      list.entries = entries;
+      list.entries = await enrichEntriesWithSpotify(entries, spotify);
       changed = true;
-      summary.push({ id: list.id, name: list.name, ok: true, count: entries.length });
+      summary.push({
+        id: list.id,
+        name: list.name,
+        ok: true,
+        count: list.entries.length,
+        covers: list.entries.filter((entry) => entry.cover).length,
+      });
     } catch (e) {
       summary.push({ id: list.id, name: list.name, ok: false, error: e.message || "bilinmeyen hata" });
     }

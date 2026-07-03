@@ -50,7 +50,7 @@ async function getToken(clientId, clientSecret) {
 async function api(path, token, attempts = 0) {
   const res = await fetch(`${API}${path}`, { headers: { Authorization: `Bearer ${token}` } });
   if (res.status === 429) {
-    if (attempts >= 3) {
+    if (attempts >= 5) {
       throw new Error(`Spotify API rate limit (${path}). Biraz sonra tekrar deneyin.`);
     }
     const retryAfter = Number(res.headers.get("retry-after") || "2");
@@ -84,7 +84,7 @@ function norm(s) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/\(.*?\)|\[.*?\]/g, "")
     .replace(/feat\.?.*$/i, "")
-    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -100,6 +100,27 @@ function scoreTrackCandidate(track, artist, title) {
   if (artistNames.includes(wantedArtist)) score += 4;
   else if (artistNames.some((name) => name.includes(wantedArtist) || wantedArtist.includes(name))) score += 2;
   return score;
+}
+
+async function searchTrackItems({ artist, title }, token, limit = 8) {
+  const queries = [
+    [artist ? `artist:${artist}` : "", `track:${title}`].filter(Boolean).join(" "),
+    [artist, title].filter(Boolean).join(" "),
+    title,
+  ].filter(Boolean);
+
+  const seen = new Set();
+  const items = [];
+  for (const query of queries) {
+    const search = await api(`/search?type=track&limit=${limit}&q=${encodeURIComponent(query)}`, token);
+    for (const item of search.tracks?.items || []) {
+      if (seen.has(item.id)) continue;
+      seen.add(item.id);
+      items.push(item);
+    }
+    if (items.length >= limit) break;
+  }
+  return items;
 }
 
 // Spotify only exposes album_type = single | album | compilation. The user
@@ -206,9 +227,7 @@ export async function fetchTrackBundle(input, { clientId, clientSecret }) {
 export async function searchTrackBundle({ artist, title }, { clientId, clientSecret }) {
   if (!title) throw new Error("Spotify araması için şarkı adı gerekli.");
   const token = await getToken(clientId, clientSecret);
-  const query = [artist ? `artist:${artist}` : "", `track:${title}`].filter(Boolean).join(" ");
-  const search = await api(`/search?type=track&limit=8&q=${encodeURIComponent(query)}`, token);
-  const items = search.tracks?.items || [];
+  const items = await searchTrackItems({ artist, title }, token);
   if (!items.length) return { matched: false, candidates: [] };
 
   let best = items[0];
@@ -221,7 +240,8 @@ export async function searchTrackBundle({ artist, title }, { clientId, clientSec
     }
   }
 
-  if (bestScore < 4) {
+  const minimumScore = artist ? 6 : 4;
+  if (bestScore < minimumScore) {
     return {
       matched: false,
       candidates: items.map((item) => ({
@@ -246,6 +266,50 @@ export async function searchTrackBundle({ artist, title }, { clientId, clientSec
       url: item.external_urls?.spotify || null,
       score: scoreTrackCandidate(item, artist, title),
     })),
+  };
+}
+
+export async function searchTrackMeta({ artist, title }, { clientId, clientSecret }) {
+  if (!title) throw new Error("Spotify araması için şarkı adı gerekli.");
+  const token = await getToken(clientId, clientSecret);
+  const items = await searchTrackItems({ artist, title }, token);
+  if (!items.length) return { matched: false, candidates: [] };
+
+  let best = items[0];
+  let bestScore = -1;
+  for (const item of items) {
+    const score = scoreTrackCandidate(item, artist, title);
+    if (score > bestScore) {
+      bestScore = score;
+      best = item;
+    }
+  }
+
+  const minimumScore = artist ? 6 : 4;
+  if (bestScore < minimumScore) {
+    return {
+      matched: false,
+      candidates: items.slice(0, 5).map((item) => ({
+        id: item.id,
+        title: item.name,
+        artist: item.artists?.map((a) => a.name).join(", "),
+        cover: largestImage(item.album?.images),
+        spotifyUrl: item.external_urls?.spotify || null,
+        score: scoreTrackCandidate(item, artist, title),
+      })),
+    };
+  }
+
+  return {
+    matched: true,
+    score: bestScore,
+    id: best.id,
+    title: best.name,
+    artist: best.artists?.map((a) => a.name).join(", "),
+    cover: largestImage(best.album?.images),
+    spotifyUrl: best.external_urls?.spotify || null,
+    album: best.album?.name || null,
+    albumUrl: best.album?.external_urls?.spotify || null,
   };
 }
 

@@ -11,47 +11,83 @@
         {
           "rank": 1,
           "title": "Choosin' Texas",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
+          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
+          "album": "Choosin' Texas",
+          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
         },
         {
           "rank": 2,
           "title": "I Knew It, I Knew You",
-          "artist": "Taylor Swift"
+          "artist": "Taylor Swift",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+          "spotifyUrl": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+          "album": "I Knew It, I Knew You (From \"Toy Story 5\")",
+          "albumUrl": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6"
         },
         {
           "rank": 3,
           "title": "Be Her",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
+          "spotifyUrl": "https://open.spotify.com/track/05CjWFAcAlY6O9po6Qwakk",
+          "album": "Be Her",
+          "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
         },
         {
           "rank": 4,
           "title": "Stupid Song",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
           "rank": 5,
           "title": "Drop Dead",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c25b53f0a34aa1bb4f77cb3e",
+          "spotifyUrl": "https://open.spotify.com/track/6gkbtMtioHgtyGjrMel6ei",
+          "album": "drop dead",
+          "albumUrl": "https://open.spotify.com/album/4OMvPbXaYlbUm6TnwyXGct"
         },
         {
           "rank": 6,
           "title": "Janice STFU",
-          "artist": "Drake"
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
           "rank": 7,
           "title": "Hate That I Made You Love Me",
-          "artist": "Ariana Grande"
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 8,
           "title": "Man I Need",
-          "artist": "Olivia Dean"
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "album": "Man I Need",
+          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
         },
         {
           "rank": 9,
           "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen"
+          "artist": "Ella Langley & Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 10,
@@ -80,22 +116,38 @@
         {
           "rank": 3,
           "title": "Dandelion",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
+          "spotifyUrl": "https://open.spotify.com/track/7FudQLDIYCX6F7ruexVn2X",
+          "album": "Dandelion",
+          "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4"
         },
         {
           "rank": 4,
           "title": "I'm The Problem",
-          "artist": "Morgan Wallen"
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
+          "spotifyUrl": "https://open.spotify.com/track/7AeM1BGYM7emrqmQn1PuWv",
+          "album": "I’m The Problem",
+          "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
         },
         {
           "rank": 5,
           "title": "The Great Divide",
-          "artist": "Noah Kahan"
+          "artist": "Noah Kahan",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273a47374027a9f559917ba66ba",
+          "spotifyUrl": "https://open.spotify.com/track/77zqs8ucHCSk5jh9TYec4b",
+          "album": "The Great Divide",
+          "albumUrl": "https://open.spotify.com/album/1VfncK0Rpng2xCmfkKfO7N"
         },
         {
           "rank": 6,
           "title": "Thriller",
-          "artist": "Michael Jackson"
+          "artist": "Michael Jackson",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+          "spotifyUrl": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC",
+          "album": "Thriller",
+          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
           "rank": 7,
@@ -105,12 +157,20 @@
         {
           "rank": 8,
           "title": "One Thing At A Time",
-          "artist": "Morgan Wallen"
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738337dd45f445c35f7292a81e",
+          "spotifyUrl": "https://open.spotify.com/track/5vYtElD9hKn73Kh4YcnNFN",
+          "album": "One Thing At A Time",
+          "albumUrl": "https://open.spotify.com/album/7c1wEzhXamUm7Lh9zqVMl9"
         },
         {
           "rank": 9,
           "title": "The Art Of Loving",
-          "artist": "Olivia Dean"
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
+          "spotifyUrl": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
+          "album": "The Art of Loving",
+          "albumUrl": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
         },
         {
           "rank": 10,
@@ -134,12 +194,20 @@
         {
           "rank": 2,
           "title": "Golden",
-          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast"
+          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+          "spotifyUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
+          "album": "Golden (from the Netflix film KPop Demon Hunters)",
+          "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
         },
         {
           "rank": 3,
           "title": "ICONIC BY MISTAKE",
-          "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE"
+          "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
+          "spotifyUrl": "https://open.spotify.com/track/6fl4Gu0lJm5hc8FM5JzCZD",
+          "album": "ICONIC BY MISTAKE",
+          "albumUrl": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam"
         },
         {
           "rank": 4,
@@ -154,12 +222,20 @@
         {
           "rank": 6,
           "title": "LEMONADE",
-          "artist": "aespa"
+          "artist": "aespa",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+          "spotifyUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+          "album": "LEMONADE - The 2nd Album",
+          "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm"
         },
         {
           "rank": 7,
           "title": "APT.",
-          "artist": "로제 (ROSE), Bruno Mars"
+          "artist": "로제 (ROSE), Bruno Mars",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
+          "spotifyUrl": "https://open.spotify.com/track/5vNRhkKd0yEAg8suGBpjeY",
+          "album": "APT.",
+          "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
         },
         {
           "rank": 8,
@@ -188,52 +264,92 @@
         {
           "rank": 1,
           "title": "Janice STFU",
-          "artist": "Drake"
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
           "rank": 2,
           "title": "Choosin' Texas",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
+          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
+          "album": "Choosin' Texas",
+          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
         },
         {
           "rank": 3,
           "title": "Shabang",
-          "artist": "Drake"
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/6vjpQIdABqntoe3zPazPec",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
           "rank": 4,
           "title": "Be Her",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
+          "spotifyUrl": "https://open.spotify.com/track/05CjWFAcAlY6O9po6Qwakk",
+          "album": "Be Her",
+          "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
         },
         {
           "rank": 5,
           "title": "stupid song",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
           "rank": 6,
           "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen"
+          "artist": "Ella Langley & Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 7,
           "title": "Spend Dat",
-          "artist": "Yung Miami"
+          "artist": "Yung Miami",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c26b2162d8efc2dc7d64e9e4",
+          "spotifyUrl": "https://open.spotify.com/track/0LWIiBYFmOnkqysugp0VKo",
+          "album": "Spend Dat",
+          "albumUrl": "https://open.spotify.com/album/4bHuSvx7cbXCmVj5Y4XzFC"
         },
         {
           "rank": 8,
           "title": "Ran To Atlanta",
-          "artist": "Drake, Future & Molly Santana"
+          "artist": "Drake, Future & Molly Santana",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/3DK90400cDlV5WUJPraMph",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
           "rank": 9,
           "title": "20 Cigarettes",
-          "artist": "Morgan Wallen"
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
+          "spotifyUrl": "https://open.spotify.com/track/0YsIYFRoxkmEvbKCwTp0Tg",
+          "album": "I’m The Problem",
+          "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
         },
         {
           "rank": 10,
           "title": "Whisper My Name",
-          "artist": "Drake"
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/7KGHenqXZofXNm5MKDbT3J",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         }
       ]
     },
@@ -247,52 +363,92 @@
         {
           "rank": 1,
           "title": "hate that i made you love me",
-          "artist": "Ariana Grande"
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 2,
           "title": "Dai Dai",
-          "artist": "Shakira & Burna Boy"
+          "artist": "Shakira & Burna Boy",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
+          "spotifyUrl": "https://open.spotify.com/track/0kosUz0jePvjiz4ctmR6wL",
+          "album": "Dai Dai",
+          "albumUrl": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8"
         },
         {
           "rank": 3,
           "title": "stupid song",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
           "rank": 4,
           "title": "Beauty And A Beat",
-          "artist": "Justin Bieber & Nicki Minaj"
+          "artist": "Justin Bieber & Nicki Minaj",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
+          "spotifyUrl": "https://open.spotify.com/track/190jyVPHYjAqEaOGmMzdyk",
+          "album": "Believe (Deluxe Edition)",
+          "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
         },
         {
           "rank": 5,
           "title": "Billie Jean",
-          "artist": "Michael Jackson"
+          "artist": "Michael Jackson",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+          "album": "Thriller",
+          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
           "rank": 6,
           "title": "SWIM",
-          "artist": "BTS"
+          "artist": "BTS",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
+          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
+          "album": "ARIRANG",
+          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
         },
         {
           "rank": 7,
           "title": "Earrings",
-          "artist": "Malcolm Todd"
+          "artist": "Malcolm Todd",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+          "album": "Sweet Boy",
+          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         },
         {
           "rank": 8,
           "title": "Babydoll",
-          "artist": "Dominic Fike"
+          "artist": "Dominic Fike",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+          "album": "Don't Forget About Me, Demos",
+          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         },
         {
           "rank": 9,
           "title": "drop dead",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c25b53f0a34aa1bb4f77cb3e",
+          "spotifyUrl": "https://open.spotify.com/track/6gkbtMtioHgtyGjrMel6ei",
+          "album": "drop dead",
+          "albumUrl": "https://open.spotify.com/album/4OMvPbXaYlbUm6TnwyXGct"
         },
         {
           "rank": 10,
           "title": "the cure",
-          "artist": "Olivia Rodrigo"
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+          "spotifyUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
+          "album": "the cure",
+          "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y"
         }
       ]
     }

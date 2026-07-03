@@ -34,7 +34,10 @@ export default function MusicListsPage() {
   }, []);
 
   const collage = useMemo(
-    () => [...matches.values()].filter(Boolean).slice(0, 4).map((p) => p.cover),
+    () => listsData.lists
+      .flatMap((list) => list.entries.map((entry) => matches.get(`${list.id}-${entry.rank}`)?.cover || entry.cover))
+      .filter(Boolean)
+      .slice(0, 4),
     [matches],
   );
 
@@ -94,11 +97,12 @@ export default function MusicListsPage() {
         <div className="site-rows" style={{ marginTop: 18 }}>
           {active.entries.map((entry) => {
             const post = matches.get(`${active.id}-${entry.rank}`);
+            const cover = post?.cover || entry.cover;
             return (
               <div key={entry.rank} className="site-row" style={{ cursor: "default" }}>
                 <span className="site-row-no">{String(entry.rank).padStart(2, "0")}</span>
                 <span className="site-row-cover">
-                  {post && <img src={post.cover} alt="" loading="lazy" />}
+                  {cover && <img src={cover} alt="" loading="lazy" />}
                 </span>
                 <span className="site-row-main">
                   <span className="site-row-title">{entry.title}</span>

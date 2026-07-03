@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "vite";
-import { searchTrackBundle } from "../server/spotify.js";
+import { searchTrackMeta } from "../server/spotify.js";
 
 const ROOT = process.cwd();
 const POST_FILES = ["src/data/posts.json", "data/content/posts.json"];
@@ -15,20 +15,24 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function flatSpotify(bundle) {
-  const cover = bundle.album?.cover || null;
+function flatSpotifyMeta(meta) {
   return {
-    ...bundle,
-    trackUrl: bundle.track?.url || null,
-    albumUrl: bundle.album?.url || null,
-    artistUrl: bundle.artist?.url || null,
-    albumName: bundle.album?.name || null,
-    albumType: bundle.album?.albumType || null,
-    releaseDate: bundle.album?.releaseDate || null,
-    duration: bundle.track?.duration || null,
-    isrc: bundle.track?.isrc || null,
-    label: bundle.album?.label || null,
-    coverUrl: cover,
+    track: {
+      id: meta.id,
+      name: meta.title,
+      url: meta.spotifyUrl,
+    },
+    artist: { name: meta.artist },
+    album: {
+      name: meta.album,
+      url: meta.albumUrl,
+      cover: meta.cover,
+    },
+    trackUrl: meta.spotifyUrl,
+    albumUrl: meta.albumUrl,
+    albumName: meta.album,
+    coverUrl: meta.cover,
+    fetchedAt: new Date().toISOString(),
   };
 }
 
@@ -53,19 +57,19 @@ async function main() {
 
     attempted += 1;
     try {
-      const result = await searchTrackBundle(
+      const result = await searchTrackMeta(
         { artist: post.artist, title: post.song },
         { clientId: env.SPOTIFY_CLIENT_ID, clientSecret: env.SPOTIFY_CLIENT_SECRET }
       );
       if (!result.matched) {
         console.log(`skip: ${post.artist} - ${post.song}`);
         nextPosts.push(post);
-        await sleep(90);
+        await sleep(700);
         continue;
       }
 
       matched += 1;
-      const spotify = flatSpotify(result.bundle);
+      const spotify = flatSpotifyMeta(result);
       const cover = spotify.album?.cover || post.cover || post.image;
       nextPosts.push({
         ...post,
@@ -74,12 +78,12 @@ async function main() {
         spotify,
         source: post.source || "wordpress-spotify",
       });
-      console.log(`match: ${post.artist} - ${post.song} -> ${result.bundle.track.name}`);
+      console.log(`match: ${post.artist} - ${post.song} -> ${result.title}`);
     } catch (error) {
       console.log(`error: ${post.artist} - ${post.song}: ${error.message}`);
       nextPosts.push(post);
     }
-    await sleep(90);
+    await sleep(700);
   }
 
   if (!dryRun) {
