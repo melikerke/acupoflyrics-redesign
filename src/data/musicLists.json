@@ -1,0 +1,300 @@
+{
+  "updated": "2026-07-03",
+  "lists": [
+    {
+      "id": "billboard-hot-100",
+      "name": "Billboard Hot 100",
+      "description": "ABD'nin en popüler şarkıları",
+      "sourceUrl": "https://www.billboard.com/charts/hot-100/",
+      "icon": "note",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "Choosin' Texas",
+          "artist": "Ella Langley"
+        },
+        {
+          "rank": 2,
+          "title": "I Knew It, I Knew You",
+          "artist": "Taylor Swift"
+        },
+        {
+          "rank": 3,
+          "title": "Be Her",
+          "artist": "Ella Langley"
+        },
+        {
+          "rank": 4,
+          "title": "Stupid Song",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 5,
+          "title": "Drop Dead",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 6,
+          "title": "Janice STFU",
+          "artist": "Drake"
+        },
+        {
+          "rank": 7,
+          "title": "Hate That I Made You Love Me",
+          "artist": "Ariana Grande"
+        },
+        {
+          "rank": 8,
+          "title": "Man I Need",
+          "artist": "Olivia Dean"
+        },
+        {
+          "rank": 9,
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen"
+        },
+        {
+          "rank": 10,
+          "title": "Dracula",
+          "artist": "Tame Impala & JENNIE"
+        }
+      ]
+    },
+    {
+      "id": "billboard-200",
+      "name": "Billboard 200",
+      "description": "En çok satan albümler",
+      "sourceUrl": "https://www.billboard.com/charts/billboard-200/",
+      "icon": "disc",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "you seem pretty sad for a girl so in love",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 2,
+          "title": "ICEMAN",
+          "artist": "Drake"
+        },
+        {
+          "rank": 3,
+          "title": "Dandelion",
+          "artist": "Ella Langley"
+        },
+        {
+          "rank": 4,
+          "title": "I'm The Problem",
+          "artist": "Morgan Wallen"
+        },
+        {
+          "rank": 5,
+          "title": "The Great Divide",
+          "artist": "Noah Kahan"
+        },
+        {
+          "rank": 6,
+          "title": "Thriller",
+          "artist": "Michael Jackson"
+        },
+        {
+          "rank": 7,
+          "title": "Number Ones",
+          "artist": "Michael Jackson"
+        },
+        {
+          "rank": 8,
+          "title": "One Thing At A Time",
+          "artist": "Morgan Wallen"
+        },
+        {
+          "rank": 9,
+          "title": "The Art Of Loving",
+          "artist": "Olivia Dean"
+        },
+        {
+          "rank": 10,
+          "title": "ARIRANG",
+          "artist": "BTS"
+        }
+      ]
+    },
+    {
+      "id": "circle-chart",
+      "name": "Circle Chart (Gaon)",
+      "description": "Güney Kore'nin resmi müzik listesi",
+      "sourceUrl": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
+      "icon": "sparkle",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "SWIM",
+          "artist": "방탄소년단"
+        },
+        {
+          "rank": 2,
+          "title": "Golden",
+          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast"
+        },
+        {
+          "rank": 3,
+          "title": "ICONIC BY MISTAKE",
+          "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE"
+        },
+        {
+          "rank": 4,
+          "title": "REDRED",
+          "artist": "CORTIS (코르티스)"
+        },
+        {
+          "rank": 5,
+          "title": "It`s Me",
+          "artist": "아일릿(ILLIT)"
+        },
+        {
+          "rank": 6,
+          "title": "LEMONADE",
+          "artist": "aespa"
+        },
+        {
+          "rank": 7,
+          "title": "APT.",
+          "artist": "로제 (ROSE), Bruno Mars"
+        },
+        {
+          "rank": 8,
+          "title": "Come Over",
+          "artist": "방탄소년단"
+        },
+        {
+          "rank": 9,
+          "title": "Body to Body",
+          "artist": "방탄소년단"
+        },
+        {
+          "rank": 10,
+          "title": "2.0",
+          "artist": "방탄소년단"
+        }
+      ]
+    },
+    {
+      "id": "apple-music-top-100",
+      "name": "Apple Music Top 100",
+      "description": "Global Apple Music listesi",
+      "sourceUrl": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
+      "icon": "headphones",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "Janice STFU",
+          "artist": "Drake"
+        },
+        {
+          "rank": 2,
+          "title": "Choosin' Texas",
+          "artist": "Ella Langley"
+        },
+        {
+          "rank": 3,
+          "title": "Shabang",
+          "artist": "Drake"
+        },
+        {
+          "rank": 4,
+          "title": "Be Her",
+          "artist": "Ella Langley"
+        },
+        {
+          "rank": 5,
+          "title": "stupid song",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 6,
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen"
+        },
+        {
+          "rank": 7,
+          "title": "Spend Dat",
+          "artist": "Yung Miami"
+        },
+        {
+          "rank": 8,
+          "title": "Ran To Atlanta",
+          "artist": "Drake, Future & Molly Santana"
+        },
+        {
+          "rank": 9,
+          "title": "20 Cigarettes",
+          "artist": "Morgan Wallen"
+        },
+        {
+          "rank": 10,
+          "title": "Whisper My Name",
+          "artist": "Drake"
+        }
+      ]
+    },
+    {
+      "id": "spotify-global-50",
+      "name": "Spotify Global Top 50",
+      "description": "Dünya genelinde en çok dinlenenler",
+      "sourceUrl": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
+      "icon": "headphones",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "hate that i made you love me",
+          "artist": "Ariana Grande"
+        },
+        {
+          "rank": 2,
+          "title": "Dai Dai",
+          "artist": "Shakira & Burna Boy"
+        },
+        {
+          "rank": 3,
+          "title": "stupid song",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 4,
+          "title": "Beauty And A Beat",
+          "artist": "Justin Bieber & Nicki Minaj"
+        },
+        {
+          "rank": 5,
+          "title": "Billie Jean",
+          "artist": "Michael Jackson"
+        },
+        {
+          "rank": 6,
+          "title": "SWIM",
+          "artist": "BTS"
+        },
+        {
+          "rank": 7,
+          "title": "Earrings",
+          "artist": "Malcolm Todd"
+        },
+        {
+          "rank": 8,
+          "title": "Babydoll",
+          "artist": "Dominic Fike"
+        },
+        {
+          "rank": 9,
+          "title": "drop dead",
+          "artist": "Olivia Rodrigo"
+        },
+        {
+          "rank": 10,
+          "title": "the cure",
+          "artist": "Olivia Rodrigo"
+        }
+      ]
+    }
+  ]
+}
