@@ -2,14 +2,21 @@
 // server/apiPlugin.js). All secrets live server-side; the browser only ever
 // hits these same-origin routes.
 
+async function readResponseJson(res, fallback) {
+  const text = await res.text();
+  if (!text.trim()) {
+    throw new Error(`Sunucudan boş yanıt geldi (${res.status}). Sayfayı yenileyip tekrar dene.`);
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error(fallback || `Beklenmeyen yanıt (${res.status})`);
+  }
+}
+
 async function getJson(url) {
   const res = await fetch(url, { credentials: "include" });
-  let data;
-  try {
-    data = await res.json();
-  } catch {
-    throw new Error(`Beklenmeyen yanıt (${res.status})`);
-  }
+  const data = await readResponseJson(res, `Beklenmeyen yanıt (${res.status})`);
   if (!res.ok) throw new Error(data?.error || `İstek başarısız (${res.status})`);
   return data;
 }
@@ -31,30 +38,29 @@ export function fetchGeniusMatch(artist, title) {
 // Spotify). Writes src/data/musicLists.json server-side; returns a summary.
 export async function refreshCharts() {
   const res = await fetch("/api/charts/refresh", { method: "POST", credentials: "include" });
-  let data;
-  try {
-    data = await res.json();
-  } catch {
-    throw new Error(`Beklenmeyen yanıt (${res.status})`);
-  }
+  const data = await readResponseJson(res, `Beklenmeyen yanıt (${res.status})`);
   if (!res.ok) throw new Error(data?.error || `Güncelleme başarısız (${res.status})`);
   return data;
 }
 
 // Publish an admin export record into the site's data files. Returns { slug }.
 export async function publishRecord(record) {
+  let body;
+  try {
+    body = JSON.stringify(record);
+  } catch {
+    throw new Error("Yayın verisi hazırlanamadı. Sayfayı yenileyip tekrar dene.");
+  }
+  if (!body || body === "null") {
+    throw new Error("Yayınlanacak veri boş. Önce Spotify ve çeviri adımlarını tamamla.");
+  }
   const res = await fetch("/api/publish", {
     method: "POST",
     credentials: "include",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(record),
+    body,
   });
-  let data;
-  try {
-    data = await res.json();
-  } catch {
-    throw new Error(`Beklenmeyen yanıt (${res.status})`);
-  }
+  const data = await readResponseJson(res, `Yayın endpoint'i beklenmeyen yanıt döndürdü (${res.status})`);
   if (!res.ok) throw new Error(data?.error || `Yayınlanamadı (${res.status})`);
   return data;
 }

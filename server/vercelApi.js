@@ -36,13 +36,39 @@ export function assertMethod(req, allowed) {
 }
 
 export async function readJsonBody(req) {
-  if (req.body) {
-    return typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+  if (Object.prototype.hasOwnProperty.call(req, "body") && req.body != null) {
+    if (typeof req.body === "string" || Buffer.isBuffer(req.body)) {
+      const rawBody = String(req.body).trim();
+      if (!rawBody) {
+        const error = new Error("Yayın verisi boş geldi. Sayfayı yenileyip tekrar deneyin.");
+        error.statusCode = 400;
+        throw error;
+      }
+      try {
+        return JSON.parse(rawBody);
+      } catch {
+        const error = new Error("Yayın verisi geçerli JSON değil. Sayfayı yenileyip tekrar deneyin.");
+        error.statusCode = 400;
+        throw error;
+      }
+    }
+    return req.body;
   }
   const chunks = [];
   for await (const chunk of req) chunks.push(Buffer.from(chunk));
-  const raw = Buffer.concat(chunks).toString("utf8");
-  return raw ? JSON.parse(raw) : {};
+  const raw = Buffer.concat(chunks).toString("utf8").trim();
+  if (!raw) {
+    const error = new Error("Yayın verisi boş geldi. Sayfayı yenileyip tekrar deneyin.");
+    error.statusCode = 400;
+    throw error;
+  }
+  try {
+    return JSON.parse(raw);
+  } catch {
+    const error = new Error("Yayın verisi geçerli JSON değil. Sayfayı yenileyip tekrar deneyin.");
+    error.statusCode = 400;
+    throw error;
+  }
 }
 
 export function serverlessWriteError() {

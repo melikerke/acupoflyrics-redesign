@@ -24,6 +24,22 @@ function readBody(req) {
   });
 }
 
+function parseRequestJson(raw) {
+  const text = String(raw || "").trim();
+  if (!text) {
+    const error = new Error("Yayın verisi boş geldi. Sayfayı yenileyip tekrar deneyin.");
+    error.statusCode = 400;
+    throw error;
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    const error = new Error("Yayın verisi geçerli JSON değil. Sayfayı yenileyip tekrar deneyin.");
+    error.statusCode = 400;
+    throw error;
+  }
+}
+
 export function apiPlugin(env) {
   const spotify = {
     clientId: env.SPOTIFY_CLIENT_ID,
@@ -72,12 +88,7 @@ export function apiPlugin(env) {
 
       if (url.pathname === "/api/publish" && req.method === "POST") {
         const raw = await readBody(req);
-        let record;
-        try {
-          record = JSON.parse(raw);
-        } catch {
-          return send(res, 400, { error: "Gövde geçerli JSON değil." });
-        }
+        const record = parseRequestJson(raw);
         const result = await publishRecord(record);
         return send(res, 200, result);
       }
@@ -85,7 +96,7 @@ export function apiPlugin(env) {
       return send(res, 404, { error: "Bilinmeyen uç nokta." });
     } catch (e) {
       // Surface the message to the admin UI so the translator can see what broke.
-      return send(res, 500, { error: e.message || "Sunucu hatası." });
+      return send(res, e.statusCode || 500, { error: e.message || "Sunucu hatası." });
     }
   };
 
