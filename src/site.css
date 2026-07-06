@@ -1301,6 +1301,10 @@
     display: none;
   }
 
+  .site-main {
+    padding-bottom: calc(118px + env(safe-area-inset-bottom));
+  }
+
   .site-hero-inner,
   .site-hero.is-topic .site-hero-inner,
   .site-hero.is-collection .site-hero-inner {
@@ -1332,6 +1336,11 @@
     gap: 12px;
   }
 
+  .site-row-cover {
+    width: 46px;
+    height: 46px;
+  }
+
   .site-row-artist,
   .site-row .site-row-stat:last-of-type {
     display: none;
@@ -1343,6 +1352,10 @@
 }
 
 @media (max-width: 520px) {
+  .site-main {
+    padding-inline: 16px;
+  }
+
   .site-album-editorial,
   .site-collection-editorial {
     border-radius: 18px;
@@ -1388,16 +1401,70 @@
     padding-inline: 12px;
   }
 
+  .site-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-inline: -16px !important;
+    padding: 0 16px 8px;
+    scroll-padding-inline: 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .site-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-filter {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding-inline: 18px;
+  }
+
   .site-masonry {
     columns: 1;
   }
 
   .site-row {
-    grid-template-columns: 30px minmax(0, 1fr) 18px;
+    grid-template-columns: 28px 44px minmax(0, 1fr);
+    align-items: start;
+    gap: 10px;
+    padding: 12px 8px;
   }
 
-  .site-row-cover,
+  .site-row-no {
+    padding-top: 14px;
+  }
+
+  .site-row-cover {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+  }
+
+  .site-row-main {
+    padding-top: 2px;
+  }
+
+  .site-row-title {
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  .site-row-sub {
+    white-space: normal;
+    line-height: 1.35;
+  }
+
   .site-row-stat {
+    grid-column: 3;
+    justify-self: start;
+    margin-top: 6px;
+    white-space: normal !important;
+    font-size: 11.5px;
+  }
+
+  .site-row-arrow {
     display: none;
   }
 

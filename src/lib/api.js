@@ -3,7 +3,7 @@
 // hits these same-origin routes.
 
 async function getJson(url) {
-  const res = await fetch(url);
+  const res = await fetch(url, { credentials: "include" });
   let data;
   try {
     data = await res.json();
@@ -30,7 +30,7 @@ export function fetchGeniusMatch(artist, title) {
 // Refresh the /listeler chart data from live sources (Billboard, Apple RSS,
 // Spotify). Writes src/data/musicLists.json server-side; returns a summary.
 export async function refreshCharts() {
-  const res = await fetch("/api/charts/refresh", { method: "POST" });
+  const res = await fetch("/api/charts/refresh", { method: "POST", credentials: "include" });
   let data;
   try {
     data = await res.json();
@@ -45,6 +45,7 @@ export async function refreshCharts() {
 export async function publishRecord(record) {
   const res = await fetch("/api/publish", {
     method: "POST",
+    credentials: "include",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(record),
   });
