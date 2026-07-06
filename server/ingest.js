@@ -124,8 +124,11 @@ export function upsertRecordData(record, posts, artists) {
   const existingIdx = posts.findIndex((p) => p.slug === post.slug);
   const isNew = existingIdx < 0;
   const nextPosts = [...posts];
-  if (!isNew) nextPosts.splice(existingIdx, 1);
-  nextPosts.unshift(post);
+  if (isNew) {
+    nextPosts.unshift(post);
+  } else {
+    nextPosts[existingIdx] = post;
+  }
 
   const nextArtists = [...artists];
   const art = recordToArtist(record);

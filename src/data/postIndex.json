@@ -5895,8 +5895,8 @@
     "artist": "Dua Lipa",
     "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
     "date": "Sun, 05 Jan 2025 14:02:02 +0000",
-    "reading_time": 4,
-    "excerpt": "If you wanna run away with me, I know a galaxy And I can take you for a ride",
+    "reading_time": 5,
+    "excerpt": "If you wanna run away with me, I know a galaxy",
     "categories": [
       "Dua Lipa",
       "Future Nostalgia"
@@ -5937,9 +5937,14 @@
       }
     },
     "youtubeUrl": null,
+    "annotations": {
+      "sugarboo": "Dua Lipa’nın uydurduğu, \"sugar\" (şeker) ve \"boo\" (sevgili) kelimelerinin birleşimi olan sevimli bir hitap. Türkçede bu samimiyeti \"Tatlı belam\" veya \"Biriciğim\" ile karşılayabiliriz.",
+      "dance my ass off": "Çok yoğun, enerjik ve kendini kaybederek dans etmek anlamındaki bu argoyu \"pistin tozunu attırmak\" veya \"çatlayana kadar dans etmek\" olarak yerelleştirdik."
+    },
+    "difficulty_note": null,
     "firstPair": {
       "en": "If you wanna run away with me, I know a galaxy",
-      "tr": "Eğer benimle kaçmak istersen, seni götüreceğim bir galaksi biliyorum"
+      "tr": "Eğer benimle kaçmak istersen, bir galaksi biliyorum;"
     }
   },
   {
