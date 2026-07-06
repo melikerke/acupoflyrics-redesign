@@ -48,6 +48,6 @@ export async function readJsonBody(req) {
 export function serverlessWriteError() {
   return {
     error:
-      "Vercel canlı ortamı veri çekebilir; ancak dosyaya kalıcı yazamaz. Kalıcı yayın için GitHub commit veya CMS bağlantısı kurmamız gerekiyor.",
+      "Vercel canlı ortamı dosyaya kalıcı yazamaz. Yayınlamak için Vercel Environment Variables içine GITHUB_TOKEN eklememiz gerekiyor.",
   };
 }

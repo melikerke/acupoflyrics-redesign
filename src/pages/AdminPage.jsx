@@ -75,6 +75,58 @@ function parseStanzas(text) {
     .filter((s) => s.section || s.lines.length);
 }
 
+function normaliseSection(section) {
+  return (section || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function parseNoteLine(line) {
+  const raw = line.replace(/^\s*\|\|\|\s*/, "").trim();
+  const colon = raw.indexOf(":");
+  if (colon < 0) return { word: "", text: raw };
+  return {
+    word: raw.slice(0, colon).trim().replace(/^["“”']+|["“”']+$/g, ""),
+    text: raw.slice(colon + 1).trim(),
+  };
+}
+
+function parseTranslationBlocks(text) {
+  const blocks = [];
+  let current = null;
+
+  for (const rawLine of (text || "").split("\n")) {
+    const line = rawLine.trim();
+    const heading = line.match(/^\[(.+?)\]$/);
+    if (heading) {
+      current = { section: heading[1].trim(), lines: [], notes: [] };
+      blocks.push(current);
+      continue;
+    }
+    if (!current) {
+      if (!line) continue;
+      current = { section: null, lines: [], notes: [] };
+      blocks.push(current);
+    }
+    if (line.startsWith("|||")) {
+      current.notes.push(parseNoteLine(line));
+    } else {
+      current.lines.push(rawLine.replace(/\s+$/g, ""));
+    }
+  }
+
+  return blocks
+    .map((block) => ({
+      ...block,
+      lines: block.lines.join("\n").trim(),
+      notes: block.notes.filter((note) => note.text),
+    }))
+    .filter((block) => block.section || block.lines || block.notes.length);
+}
+
 // ---- /listeler yönetimi: tek tuşla Billboard + Circle + Apple + Spotify güncellemesi.
 // Dosya yazılınca Vite sayfayı yeniler ve yeni veriler görünür.
 function ChartsPanel() {
@@ -145,6 +197,8 @@ export default function AdminPage() {
   const [translatorNote, setTranslatorNote] = useState("");
   const [youtubeUrl, setYoutubeUrl] = useState("");
   const [lyrics, setLyrics] = useState(""); // editable original lyrics (from Genius)
+  const [bulkTranslation, setBulkTranslation] = useState("");
+  const [bulkStatus, setBulkStatus] = useState("");
   // Stanza-by-stanza translation editor (built from `lyrics`).
   // Each: { section, original: string[], translation, hasNote, noteWord, noteText }
   const [stanzas, setStanzas] = useState([]);
@@ -177,6 +231,55 @@ export default function AdminPage() {
 
   const updateStanza = (i, patch) =>
     setStanzas((prev) => prev.map((s, idx) => (idx === i ? { ...s, ...patch } : s)));
+
+  const applyBulkTranslation = () => {
+    const blocks = parseTranslationBlocks(bulkTranslation);
+    if (!blocks.length) {
+      setBulkStatus("Yapıştırılan metinde çeviri bloğu bulamadım.");
+      return;
+    }
+    if (!stanzas.length) {
+      setBulkStatus("Önce Genius sözlerini çekip kıtalara böl.");
+      return;
+    }
+
+    const bySection = new Map();
+    blocks.forEach((block, index) => {
+      const key = normaliseSection(block.section);
+      if (!bySection.has(key)) bySection.set(key, []);
+      bySection.get(key).push(index);
+    });
+
+    const used = new Set();
+    let matched = 0;
+    let notes = 0;
+    const nextStanzas = stanzas.map((stanza) => {
+      const key = normaliseSection(stanza.section);
+      let blockIndex = bySection.get(key)?.find((index) => !used.has(index)) ?? -1;
+      if (blockIndex < 0) blockIndex = blocks.findIndex((_, index) => !used.has(index));
+      if (blockIndex < 0) return stanza;
+
+      const block = blocks[blockIndex];
+      used.add(blockIndex);
+      matched += 1;
+      const firstNote = block.notes[0];
+      if (firstNote) notes += 1;
+      return {
+        ...stanza,
+        translation: block.lines || stanza.translation,
+        hasNote: firstNote ? true : stanza.hasNote,
+        noteWord: firstNote ? firstNote.word : stanza.noteWord,
+        noteText: firstNote
+          ? block.notes.map((note) => note.word ? `${note.word}: ${note.text}` : note.text).join("\n\n")
+          : stanza.noteText,
+      };
+    });
+
+    setStanzas(nextStanzas);
+
+    const unmatched = blocks.length - used.size;
+    setBulkStatus(`${matched} kıta yerleştirildi${notes ? `, ${notes} açıklama eklendi` : ""}${unmatched ? `, ${unmatched} blok eşleşmedi` : ""}.`);
+  };
 
   const runGenius = async (artistName, title) => {
     setGnLoading(true);
@@ -330,6 +433,8 @@ export default function AdminPage() {
     setTranslatorNote("");
     setYoutubeUrl("");
     setLyrics("");
+    setBulkTranslation("");
+    setBulkStatus("");
     setStanzas([]);
     setShowJson(false);
     setCopied(false);
@@ -671,6 +776,32 @@ export default function AdminPage() {
                 {missingTranslationCount ? ` · ${missingTranslationCount} eksik` : " · tamam"}
               </span>
             )}
+          </div>
+
+          <div className="admin-bulk-translation">
+            <label className="admin-preview-field">
+              <span>Toplu çeviriyi yapıştır</span>
+              <textarea
+                value={bulkTranslation}
+                onChange={(e) => {
+                  setBulkTranslation(e.target.value);
+                  setBulkStatus("");
+                }}
+                rows={8}
+                placeholder={"[Verse 1]\nÇeviri satırları...\n||| “kelime”: açıklama\n\n[Chorus]\nÇeviri satırları..."}
+              />
+            </label>
+            <div className="admin-bulk-actions">
+              <button
+                className="admin-preview-action"
+                type="button"
+                onClick={applyBulkTranslation}
+                disabled={!bulkTranslation.trim() || !stanzas.length}
+              >
+                Çeviriyi kıtalara dağıt
+              </button>
+              {bulkStatus && <p className="admin-status admin-status-warn">{bulkStatus}</p>}
+            </div>
           </div>
 
           {stanzas.length === 0 ? (

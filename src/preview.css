@@ -3029,6 +3029,35 @@ body:has(.home-preview-container) {
   color: #be185d;
 }
 
+.admin-bulk-translation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, 0.28fr);
+  gap: 14px;
+  align-items: end;
+  margin-bottom: 16px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.admin-bulk-translation .admin-preview-field {
+  margin: 0;
+}
+
+.admin-bulk-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-bulk-actions .admin-preview-action {
+  width: 100%;
+}
+
+.admin-bulk-actions .admin-status {
+  margin: 0;
+}
+
 .admin-stanzas {
   display: flex;
   flex-direction: column;
@@ -3188,6 +3217,7 @@ body:has(.home-preview-container) {
 
 @media (max-width: 820px) {
   .admin-stanza-grid,
+  .admin-bulk-translation,
   .admin-stanza-note-grid {
     grid-template-columns: 1fr;
   }

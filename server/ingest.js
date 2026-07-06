@@ -120,6 +120,37 @@ export function recordToArtist(record) {
   return { slug: slugify(name), name, count: 1, image: sp.artist?.image || null };
 }
 
+export function upsertRecordData(record, posts, artists) {
+  const post = recordToPost(record, posts);
+
+  const existingIdx = posts.findIndex((p) => p.slug === post.slug);
+  const isNew = existingIdx < 0;
+  const nextPosts = [...posts];
+  if (!isNew) nextPosts.splice(existingIdx, 1);
+  nextPosts.unshift(post);
+
+  const nextArtists = [...artists];
+  const art = recordToArtist(record);
+  if (art) {
+    const ai = nextArtists.findIndex((a) => a.slug === art.slug);
+    if (ai >= 0) {
+      nextArtists[ai] = {
+        ...nextArtists[ai],
+        count: (nextArtists[ai].count || 0) + (isNew ? 1 : 0),
+        image: nextArtists[ai].image || art.image,
+      };
+    } else {
+      nextArtists.push(art);
+    }
+  }
+
+  return {
+    posts: nextPosts,
+    artists: nextArtists,
+    result: { slug: post.slug, id: post.id, title: post.title, updated: !isNew },
+  };
+}
+
 async function readJson(p) {
   return JSON.parse(await fs.readFile(p, "utf8"));
 }
@@ -145,30 +176,10 @@ export async function publishRecord(record, root = process.cwd()) {
   const posts = await readJson(postsPath);
   const artists = await readJson(artistsPath);
 
-  const post = recordToPost(record, posts);
+  const updated = upsertRecordData(record, posts, artists);
 
-  // Replace an existing entry with the same slug, else add as newest.
-  const existingIdx = posts.findIndex((p) => p.slug === post.slug);
-  const isNew = existingIdx < 0;
-  if (!isNew) posts.splice(existingIdx, 1);
-  posts.unshift(post);
+  await writeAll(FILES.posts, updated.posts, root);
+  await writeAll(FILES.artists, updated.artists, root);
 
-  const art = recordToArtist(record);
-  if (art) {
-    const ai = artists.findIndex((a) => a.slug === art.slug);
-    if (ai >= 0) {
-      artists[ai] = {
-        ...artists[ai],
-        count: (artists[ai].count || 0) + (isNew ? 1 : 0),
-        image: artists[ai].image || art.image,
-      };
-    } else {
-      artists.push(art);
-    }
-  }
-
-  await writeAll(FILES.posts, posts, root);
-  await writeAll(FILES.artists, artists, root);
-
-  return { slug: post.slug, id: post.id, title: post.title, updated: !isNew };
+  return updated.result;
 }
