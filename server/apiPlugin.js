@@ -95,7 +95,7 @@ export function apiPlugin(env) {
             writePublishData(updated).catch((error) => {
               console.error("Local publish write failed", error);
             });
-          }, 1200);
+          }, 5000);
         });
         send(res, 200, updated.result);
         return;

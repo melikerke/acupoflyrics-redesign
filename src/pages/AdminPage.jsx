@@ -220,7 +220,13 @@ function lyricsFromStanzas(stanzas) {
 async function fetchExistingPost(slug) {
   const res = await fetch(`/data/posts/${slug}.json`, { cache: "no-store", credentials: "include" });
   if (!res.ok) throw new Error(`Çeviri dosyası açılamadı (${res.status}).`);
-  return res.json();
+  const text = await res.text();
+  if (!text.trim()) throw new Error("Çeviri dosyası boş geldi. Sayfayı yenileyip tekrar dene.");
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error("Çeviri dosyası okunamadı. Sayfayı yenileyip tekrar dene.");
+  }
 }
 
 // ---- /listeler yönetimi: tek tuşla Billboard + Circle + Apple + Spotify güncellemesi.

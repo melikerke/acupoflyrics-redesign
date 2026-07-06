@@ -107,7 +107,7 @@ export function recordToPost(record, existingPosts = []) {
     },
     genius: record.genius ? { ...record.genius } : null,
     youtubeUrl: record.youtubeUrl || null,
-    source: "spotify-genius",
+    source: existing?.source || "spotify-genius",
   };
 }
 
@@ -150,7 +150,20 @@ export function upsertRecordData(record, posts, artists) {
 }
 
 async function readJson(p) {
-  return JSON.parse(await fs.readFile(p, "utf8"));
+  const raw = await fs.readFile(p, "utf8");
+  try {
+    return JSON.parse(raw);
+  } catch {
+    const error = new Error("İçerik dosyası şu an okunamadı. Birkaç saniye sonra tekrar deneyin.");
+    error.statusCode = 503;
+    throw error;
+  }
+}
+
+async function writeJsonAtomic(abs, json) {
+  const tmp = `${abs}.${process.pid}.${Date.now()}.tmp`;
+  await fs.writeFile(tmp, `${json}\n`, "utf8");
+  await fs.rename(tmp, abs);
 }
 
 async function writeAll(relPaths, data, root) {
@@ -158,7 +171,7 @@ async function writeAll(relPaths, data, root) {
   for (const rel of relPaths) {
     const abs = path.join(root, rel);
     try {
-      await fs.writeFile(abs, json);
+      await writeJsonAtomic(abs, json);
     } catch {
       /* a mirror file may not exist; ignore */
     }
