@@ -16,8 +16,9 @@ const SearchPage = lazy(() => import("./pages/SearchPage"));
 const MusicListsPage = lazy(() => import("./pages/MusicListsPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
-// The admin studio is a local editing tool — never part of the public build.
-const AdminPage = import.meta.env.DEV ? lazy(() => import("./pages/AdminPage")) : null;
+// The admin studio is included in production, but Vercel middleware protects
+// /admin and /api/* before the React app loads.
+const AdminPage = lazy(() => import("./pages/AdminPage"));
 
 class ErrorBoundary extends Component {
   state = { hasError: false, error: null };
@@ -116,7 +117,7 @@ export default function App() {
             <Route path="/home-preview" element={<Navigate to="/" replace />} />
             <Route path="/kesfet" element={<Navigate to="/discover" replace />} />
 
-            {AdminPage && <Route path="/admin" element={<AdminPage />} />}
+            <Route path="/admin" element={<AdminPage />} />
             <Route path="/:slug" element={<LyricDetail />} />
           </Routes>
         </ErrorBoundary>
