@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "import:wp-seo": "node scripts/importWpSeo.js",
     "backfill:spotify": "node scripts/backfillSpotify.js",
+    "publish:translation": "node scripts/publishTranslation.js",
     "update:charts": "node scripts/updateCharts.js"
   },
   "dependencies": {
