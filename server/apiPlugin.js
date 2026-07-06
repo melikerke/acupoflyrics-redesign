@@ -4,7 +4,7 @@
 
 import { fetchTrackBundle, searchTrackBundle } from "./spotify.js";
 import { geniusMatch } from "./genius.js";
-import { publishRecord } from "./ingest.js";
+import { preparePublishRecord, writePublishData } from "./ingest.js";
 
 function send(res, status, body) {
   res.statusCode = status;
@@ -89,8 +89,14 @@ export function apiPlugin(env) {
       if (url.pathname === "/api/publish" && req.method === "POST") {
         const raw = await readBody(req);
         const record = parseRequestJson(raw);
-        const result = await publishRecord(record);
-        return send(res, 200, result);
+        const updated = await preparePublishRecord(record);
+        send(res, 200, updated.result);
+        setTimeout(() => {
+          writePublishData(updated).catch((error) => {
+            console.error("Local publish write failed", error);
+          });
+        }, 50);
+        return;
       }
 
       return send(res, 404, { error: "Bilinmeyen uç nokta." });

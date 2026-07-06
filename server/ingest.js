@@ -167,7 +167,7 @@ async function writeAll(relPaths, data, root) {
   }
 }
 
-export async function publishRecord(record, root = process.cwd()) {
+export async function preparePublishRecord(record, root = process.cwd()) {
   if (!record || (!record.spotify && !record.song)) {
     throw new Error("Geçersiz kayıt: Spotify verisi yok.");
   }
@@ -178,8 +178,16 @@ export async function publishRecord(record, root = process.cwd()) {
 
   const updated = upsertRecordData(record, posts, artists);
 
+  return updated;
+}
+
+export async function writePublishData(updated, root = process.cwd()) {
   await writeAll(FILES.posts, updated.posts, root);
   await writeAll(FILES.artists, updated.artists, root);
+}
 
+export async function publishRecord(record, root = process.cwd()) {
+  const updated = await preparePublishRecord(record, root);
+  await writePublishData(updated, root);
   return updated.result;
 }
