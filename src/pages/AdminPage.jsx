@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { fetchSpotifyTrack, fetchGeniusMatch, publishRecord, refreshCharts } from "../lib/api";
 import musicLists from "../data/musicLists.json";
+import postIndex from "../data/postIndex.json";
 import { postPath } from "../lib/content";
 import "../preview.css";
 
@@ -127,6 +128,101 @@ function parseTranslationBlocks(text) {
     .filter((block) => block.section || block.lines || block.notes.length);
 }
 
+function postToAdminBundle(post) {
+  const sp = post.spotify || {};
+  const track = sp.track || {};
+  const artist = sp.artist || {};
+  const album = sp.album || {};
+  return {
+    track: {
+      name: post.song || post.title,
+      url: track.url || sp.trackUrl || null,
+      duration: track.duration || sp.duration || null,
+      isrc: track.isrc || null,
+      explicit: track.explicit || false,
+      popularity: track.popularity ?? null,
+    },
+    artist: {
+      name: post.artist,
+      url: artist.url || sp.artistUrl || null,
+      image: artist.image || null,
+      genres: artist.genres || [],
+      popularity: artist.popularity ?? null,
+    },
+    album: {
+      name: album.name || sp.albumName || post.categories?.find((name) => name !== post.artist) || null,
+      url: album.url || sp.albumUrl || null,
+      cover: album.cover || sp.coverUrl || post.cover || post.image || null,
+      releaseDate: album.releaseDate || sp.releaseDate || null,
+      releaseDatePrecision: album.releaseDatePrecision || "day",
+      albumType: album.albumType || sp.albumType || null,
+      label: album.label || sp.label || null,
+      copyrights: album.copyrights || [],
+      tracks: album.tracks || [],
+      totalTracks: album.totalTracks || null,
+    },
+  };
+}
+
+function stanzasFromPost(post) {
+  const annotations = Object.entries(post.annotations || {});
+  const usedAnnotations = new Set();
+  const stanzas = [];
+  let pendingOriginal = [];
+
+  const noteFor = (lines) => {
+    const text = lines.join("\n");
+    const found = annotations.find(([word]) => word && !usedAnnotations.has(word) && text.includes(word));
+    if (!found) return null;
+    usedAnnotations.add(found[0]);
+    return { word: found[0], text: found[1] };
+  };
+
+  for (const block of post.blocks || []) {
+    const lines = Array.isArray(block.lines) ? block.lines : [];
+    if (block.original) {
+      pendingOriginal = lines;
+      continue;
+    }
+    const note = noteFor([...pendingOriginal, ...lines]);
+    stanzas.push({
+      section: null,
+      original: pendingOriginal,
+      translation: lines.join("\n"),
+      hasNote: Boolean(note),
+      noteWord: note?.word || "",
+      noteText: note?.text || "",
+    });
+    pendingOriginal = [];
+  }
+
+  if (pendingOriginal.length) {
+    stanzas.push({
+      section: null,
+      original: pendingOriginal,
+      translation: "",
+      hasNote: false,
+      noteWord: "",
+      noteText: "",
+    });
+  }
+
+  return stanzas;
+}
+
+function lyricsFromStanzas(stanzas) {
+  return stanzas
+    .map((stanza) => stanza.original.join("\n"))
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+async function fetchExistingPost(slug) {
+  const res = await fetch(`/data/posts/${slug}.json`, { cache: "no-store", credentials: "include" });
+  if (!res.ok) throw new Error(`Çeviri dosyası açılamadı (${res.status}).`);
+  return res.json();
+}
+
 // ---- /listeler yönetimi: tek tuşla Billboard + Circle + Apple + Spotify güncellemesi.
 // Dosya yazılınca Vite sayfayı yeniler ve yeni veriler görünür.
 function ChartsPanel() {
@@ -199,6 +295,10 @@ export default function AdminPage() {
   const [lyrics, setLyrics] = useState(""); // editable original lyrics (from Genius)
   const [bulkTranslation, setBulkTranslation] = useState("");
   const [bulkStatus, setBulkStatus] = useState("");
+  const [existingQuery, setExistingQuery] = useState("");
+  const [editingPost, setEditingPost] = useState(null);
+  const [existingLoading, setExistingLoading] = useState("");
+  const [existingError, setExistingError] = useState("");
   // Stanza-by-stanza translation editor (built from `lyrics`).
   // Each: { section, original: string[], translation, hasNote, noteWord, noteText }
   const [stanzas, setStanzas] = useState([]);
@@ -213,6 +313,13 @@ export default function AdminPage() {
   const track = data?.track;
   const artist = data?.artist;
   const album = data?.album;
+  const normalizedExistingQuery = existingQuery.trim().toLowerCase();
+  const existingMatches = postIndex
+    .filter((post) => {
+      if (!normalizedExistingQuery) return true;
+      return `${post.artist} ${post.song} ${post.title}`.toLowerCase().includes(normalizedExistingQuery);
+    })
+    .slice(0, normalizedExistingQuery ? 8 : 5);
 
   // Build the stanza editor from lyrics text, preserving any translations/notes
   // the user already typed (matched by the stanza's original lines).
@@ -299,6 +406,36 @@ export default function AdminPage() {
     }
   };
 
+  const loadExisting = async (post) => {
+    setExistingLoading(post.slug);
+    setExistingError("");
+    setPublishError("");
+    setPublished(null);
+    try {
+      const fullPost = await fetchExistingPost(post.slug);
+      const existingStanzas = stanzasFromPost(fullPost);
+      setEditingPost(fullPost);
+      setSpotifyUrl(fullPost.spotify?.trackUrl || fullPost.spotify?.track?.url || "");
+      setData(postToAdminBundle(fullPost));
+      setGenius(null);
+      setGnError("");
+      setSpError("");
+      setTranslatorNote(fullPost.difficulty_note || "");
+      setYoutubeUrl(fullPost.youtubeUrl || "");
+      setLyrics(lyricsFromStanzas(existingStanzas));
+      setBulkTranslation("");
+      setBulkStatus("");
+      setStanzas(existingStanzas);
+      setShowJson(false);
+      setCopied(false);
+      setTimeout(() => jumpTo("translation-step"), 80);
+    } catch (e) {
+      setExistingError(e.message || "Mevcut çeviri açılamadı.");
+    } finally {
+      setExistingLoading("");
+    }
+  };
+
   const loadSpotify = async () => {
     if (!spotifyUrl.trim()) return;
     setSpLoading(true);
@@ -354,6 +491,15 @@ export default function AdminPage() {
   // The exported record — stanza-aligned original/translation pairs plus an
   // optional per-stanza note, ready to render on the site.
   const buildRecord = () => ({
+    id: editingPost?.id || null,
+    slug: editingPost?.slug || null,
+    date: editingPost?.date || null,
+    categories: editingPost?.categories || null,
+    category_slugs: editingPost?.category_slugs || null,
+    image: editingPost?.image || null,
+    cover: editingPost?.cover || null,
+    oldUrl: editingPost?.oldUrl || null,
+    seo: editingPost?.seo || null,
     song: track?.name || null,
     artist: artist?.name || null,
     spotify: data,
@@ -435,6 +581,8 @@ export default function AdminPage() {
     setLyrics("");
     setBulkTranslation("");
     setBulkStatus("");
+    setEditingPost(null);
+    setExistingError("");
     setStanzas([]);
     setShowJson(false);
     setCopied(false);
@@ -511,6 +659,50 @@ export default function AdminPage() {
 
       <section className="admin-charts-section">
         <ChartsPanel />
+      </section>
+
+      <section className="admin-existing-section">
+        <div className="admin-preview-panel admin-existing-panel">
+          <div className="admin-preview-panel-head">
+            <span className="admin-preview-step">✎</span>
+            <div>
+              <h2>Mevcut çeviriyi düzenle</h2>
+              <p>Eski bir çeviriyi aç; sözleri, Türkçeyi, açıklamaları ve linkleri aynı editörde güncelle.</p>
+            </div>
+          </div>
+          <label className="admin-preview-field">
+            <span>Şarkı veya sanatçı ara</span>
+            <input
+              value={existingQuery}
+              onChange={(e) => setExistingQuery(e.target.value)}
+              placeholder="TWICE, Tate McRae, Divine..."
+            />
+          </label>
+          {editingPost && (
+            <p className="admin-status admin-status-ok">
+              Düzenleniyor: <strong>{editingPost.artist} - {editingPost.song}</strong>
+            </p>
+          )}
+          {existingError && <p className="admin-status admin-status-error">{existingError}</p>}
+          <div className="admin-existing-list">
+            {existingMatches.map((post) => (
+              <button
+                key={post.slug}
+                className={editingPost?.slug === post.slug ? "admin-existing-item is-active" : "admin-existing-item"}
+                type="button"
+                onClick={() => loadExisting(post)}
+                disabled={Boolean(existingLoading)}
+              >
+                <img src={post.cover || PLACEHOLDER_COVER} alt="" />
+                <span>
+                  <strong>{post.song || post.title}</strong>
+                  <em>{post.artist}</em>
+                </span>
+                <small>{existingLoading === post.slug ? "Açılıyor..." : "Düzenle"}</small>
+              </button>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section className="admin-preview-grid">

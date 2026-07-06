@@ -25,27 +25,26 @@ export function slugify(s) {
     .replace(/^-+|-+$/g, "");
 }
 
-// Stanzas → two index-aligned blocks (all EN lines / all TR lines). Each stanza
-// is padded to its own max length so the line-by-line reader keeps EN↔TR pairs
-// aligned even when a stanza's translation has a different line count.
+// Stanzas → alternating original / translation blocks. This matches the
+// WordPress import shape and keeps the detail reader split into real sections.
 function stanzasToBlocks(stanzas = []) {
   const en = [];
   const tr = [];
+  const blocks = [];
   const annotations = {};
   for (const st of stanzas) {
     const o = st.original || [];
     const t = st.translation || [];
-    const n = Math.max(o.length, t.length);
-    for (let i = 0; i < n; i++) {
-      en.push(o[i] || "");
-      tr.push(t[i] || "");
-    }
+    en.push(...o);
+    tr.push(...t);
+    blocks.push({ original: true, lines: o });
+    blocks.push({ original: false, lines: t });
     if (st.note && st.note.text) {
       const word = (st.note.word || "").trim();
       if (word) annotations[word] = st.note.text.trim();
     }
   }
-  return { en, tr, annotations };
+  return { en, tr, blocks, annotations };
 }
 
 export function recordToPost(record, existingPosts = []) {
@@ -57,9 +56,10 @@ export function recordToPost(record, existingPosts = []) {
 
   const artistSlug = slugify(artistName);
   const albumSlug = albumName ? slugify(albumName) : null;
-  const slug = slugify(`${artistName} ${song} turkce ceviri`);
+  const slug = record.slug || slugify(`${artistName} ${song} turkce ceviri`);
+  const existing = existingPosts.find((p) => p.slug === slug);
 
-  const { en, tr, annotations } = stanzasToBlocks(record.stanzas);
+  const { en, tr, blocks, annotations } = stanzasToBlocks(record.stanzas);
 
   const words = [...en, ...tr].join(" ").split(/\s+/).filter(Boolean).length;
   const reading_time = Math.max(1, Math.round(words / 200));
@@ -70,23 +70,21 @@ export function recordToPost(record, existingPosts = []) {
   }, 0);
 
   return {
-    id: String(maxId + 1),
+    ...(existing || {}),
+    id: String(record.id || existing?.id || maxId + 1),
     title: `${artistName} ${song} Türkçe Çeviri`,
     song,
     slug,
-    date: record.savedAt || new Date().toISOString(),
+    date: record.date || existing?.date || record.savedAt || new Date().toISOString(),
     artist: artistName,
     // Artist slug first so artistSlugFor() (category_slugs[0]) resolves to the
     // artist, not the album.
-    categories: [artistName, albumName].filter(Boolean),
-    category_slugs: [artistSlug, albumSlug].filter(Boolean),
-    image: cover,
-    cover,
+    categories: record.categories || [artistName, albumName].filter(Boolean),
+    category_slugs: record.category_slugs || [artistSlug, albumSlug].filter(Boolean),
+    image: cover || record.image || existing?.image || null,
+    cover: cover || record.cover || existing?.cover || null,
     reading_time,
-    blocks: [
-      { original: true, lines: en },
-      { original: false, lines: tr },
-    ],
+    blocks,
     excerpt: en.find(Boolean) || "",
     // Per-line translator notes, keyed by word → shown on the detail page.
     annotations,
@@ -169,7 +167,9 @@ async function writeAll(relPaths, data, root) {
 
 export async function preparePublishRecord(record, root = process.cwd()) {
   if (!record || (!record.spotify && !record.song)) {
-    throw new Error("Geçersiz kayıt: Spotify verisi yok.");
+    const error = new Error("Geçersiz kayıt: Spotify verisi yok.");
+    error.statusCode = 400;
+    throw error;
   }
   const postsPath = path.join(root, FILES.posts[0]);
   const artistsPath = path.join(root, FILES.artists[0]);

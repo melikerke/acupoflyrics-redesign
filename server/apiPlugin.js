@@ -90,12 +90,14 @@ export function apiPlugin(env) {
         const raw = await readBody(req);
         const record = parseRequestJson(raw);
         const updated = await preparePublishRecord(record);
+        res.once("finish", () => {
+          setTimeout(() => {
+            writePublishData(updated).catch((error) => {
+              console.error("Local publish write failed", error);
+            });
+          }, 1200);
+        });
         send(res, 200, updated.result);
-        setTimeout(() => {
-          writePublishData(updated).catch((error) => {
-            console.error("Local publish write failed", error);
-          });
-        }, 50);
         return;
       }
 
