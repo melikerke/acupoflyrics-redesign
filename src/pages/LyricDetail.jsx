@@ -217,17 +217,14 @@ async function createLyricCardBlob({ post, card }) {
   ctx.strokeRect(56, 56, 968, 1238);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "900 32px Inter, system-ui, sans-serif";
+  ctx.font = "900 32px Programme, Inter, system-ui, sans-serif";
   ctx.fillText("acupoflyrics", 112, 132);
-  ctx.fillStyle = "rgba(247,243,236,0.56)";
-  ctx.font = "800 24px Inter, system-ui, sans-serif";
-  ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 112, 182);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = "700 96px Georgia, serif";
   ctx.fillText("“", 112, 330);
 
-  ctx.font = "900 50px Inter, system-ui, sans-serif";
+  ctx.font = "760 50px Programme, Inter, system-ui, sans-serif";
   let y = 418;
   for (const selectedLine of selectedLines) {
     const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
@@ -247,10 +244,10 @@ async function createLyricCardBlob({ post, card }) {
   drawCover(ctx, cover, 760, 1038, 180);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "900 30px Inter, system-ui, sans-serif";
+  ctx.font = "850 30px Programme, Inter, system-ui, sans-serif";
   ctx.fillText(post.song, 112, 1156);
   ctx.fillStyle = "rgba(247,243,236,0.66)";
-  ctx.font = "750 24px Inter, system-ui, sans-serif";
+  ctx.font = "700 24px Programme, Inter, system-ui, sans-serif";
   ctx.fillText(post.artist, 112, 1196);
 
   ctx.fillStyle = "rgba(247,243,236,0.82)";
@@ -528,7 +525,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
             >
               <div className="detail-card-brand">
                 <span>acupoflyrics</span>
-                <small>{card.section.label} · {cardLanguageLabel(card.language)}</small>
               </div>
               <img src={post.cover} alt="" className="detail-card-cover" />
               <div className="detail-card-lines">

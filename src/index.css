@@ -2129,16 +2129,9 @@ body {
 }
 
 .detail-card-brand span {
+  font-family: "Programme", "Inter", system-ui, sans-serif;
   font-size: 22px;
   font-weight: 900;
-}
-
-.detail-card-brand small {
-  color: rgba(247, 243, 236, 0.56);
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .detail-card-cover {
@@ -2171,8 +2164,9 @@ body {
 
 .detail-card-lines p {
   margin: 0;
+  font-family: "Programme", "Inter", system-ui, sans-serif;
   font-size: clamp(23px, 6vw, 34px);
-  font-weight: 520;
+  font-weight: 680;
   letter-spacing: 0;
   line-height: 1.08;
 }
@@ -2185,6 +2179,7 @@ body {
   margin-right: 108px;
   padding-top: 16px;
   border-top: 1px solid rgba(247, 243, 236, 0.24);
+  font-family: "Programme", "Inter", system-ui, sans-serif;
   font-size: 16px;
   font-weight: 850;
 }
