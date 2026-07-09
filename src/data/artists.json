@@ -44,7 +44,7 @@
   {
     "slug": "ariana-grande",
     "name": "Ariana Grande",
-    "count": 13,
+    "count": 14,
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ariana-grande-scaled.jpg"
   },
   {
@@ -1012,5 +1012,29 @@
     "name": "Harry Styles",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
+  },
+  {
+    "slug": "temper-city",
+    "name": "Temper City",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3"
+  },
+  {
+    "slug": "olivia-rodrigo",
+    "name": "Olivia Rodrigo",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+  },
+  {
+    "slug": "shakira",
+    "name": "Shakira",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
+  },
+  {
+    "slug": "drake",
+    "name": "Drake",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
   }
 ]

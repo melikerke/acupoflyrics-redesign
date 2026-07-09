@@ -1,5 +1,299 @@
 [
   {
+    "id": "4697",
+    "slug": "ariana-grande-hate-that-i-made-you-love-me-turkce-ceviri",
+    "title": "Ariana Grande hate that i made you love me Türkçe Çeviri",
+    "song": "hate that i made you love me",
+    "artist": "Ariana Grande",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+    "date": "2026-07-09T11:11:17.347Z",
+    "reading_time": 3,
+    "excerpt": "i can’t tell you why",
+    "categories": [
+      "Ariana Grande",
+      "hate that i made you love me"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "hate-that-i-made-you-love-me"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+      "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "hate that i made you love me",
+      "releaseDate": "2026-05-29",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+      "duration": "3:18",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+        "isrc": "USUM72601821",
+        "duration": "3:18",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87"
+      },
+      "album": {
+        "name": "hate that i made you love me",
+        "url": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+        "releaseDate": "2026-05-29",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Bee stuck in honey": "Sevgilinin, kadının cazibesine (bal) kapılıp orada mahsur kalmasını ve bu tatlılığın onu yavaş yavaş boğmasını anlatan harika bir metafor.",
+      "Held your projections": "Karşı tarafın kendi kusurlarını ve güvensizliklerini şarkıcıya yüklemesi (psikolojik projeksiyon) durumuna yapılan sert bir atıf."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "i can’t tell you why",
+      "tr": "Nedenini anlatamam sana,"
+    }
+  },
+  {
+    "id": "4696",
+    "slug": "drake-janice-stfu-turkce-ceviri",
+    "title": "Drake Janice STFU Türkçe Çeviri",
+    "song": "Janice STFU",
+    "artist": "Drake",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+    "date": "2026-07-09T11:10:39.995Z",
+    "reading_time": 6,
+    "excerpt": "Emiliana, it's been so long since you texted me",
+    "categories": [
+      "Drake",
+      "ICEMAN"
+    ],
+    "category_slugs": [
+      "drake",
+      "iceman"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+      "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY",
+      "artistUrl": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+      "albumName": "ICEMAN",
+      "releaseDate": "2026-05-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+      "duration": "3:57",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+        "isrc": "USUG12604763",
+        "duration": "3:57",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "Drake",
+        "url": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+      },
+      "album": {
+        "name": "ICEMAN",
+        "url": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+        "releaseDate": "2026-05-15",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Emiliana, it's been so long since you texted me",
+      "tr": "Emiliana, bana mesaj atmayalı çok uzun zaman oldu..."
+    }
+  },
+  {
+    "id": "4695",
+    "slug": "shakira-dai-dai-turkce-ceviri",
+    "title": "Shakira Dai Dai Türkçe Çeviri",
+    "song": "Dai Dai",
+    "artist": "Shakira",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
+    "date": "2026-07-09T11:10:39.655Z",
+    "reading_time": 4,
+    "excerpt": "Oe oe e oe Oe oe e oe",
+    "categories": [
+      "Shakira",
+      "Dai Dai"
+    ],
+    "category_slugs": [
+      "shakira",
+      "dai-dai"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0kosUz0jePvjiz4ctmR6wL",
+      "albumUrl": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8",
+      "artistUrl": "https://open.spotify.com/artist/0EmeFodog0BfCgMzAIvKQp",
+      "albumName": "Dai Dai",
+      "releaseDate": "2026-05-14",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
+      "duration": "3:43",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/0kosUz0jePvjiz4ctmR6wL",
+        "isrc": "USQX92602558",
+        "duration": "3:43",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Shakira",
+        "url": "https://open.spotify.com/artist/0EmeFodog0BfCgMzAIvKQp",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
+      },
+      "album": {
+        "name": "Dai Dai",
+        "url": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
+        "releaseDate": "2026-05-14",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Dai dai iko": "Japonca \"Hadi, git/başla\" anlamında bir motivasyon nidasıdır. “Dale/Ale”: İspanyolca ve Fransızca kökenli \"Hadi, yürü/devam et\" anlamındaki klasik stadyum tezahüratlarıdır.",
+      "From dirt to gold": "Yokluktan ve zorluktan büyük bir başarı yaratma (simya) metaforu. “More than flesh and bone”: İnsanın fiziksel sınırlarının ötesinde, ruhsal bir güce sahip olduğu vurgusu."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oe oe e oe Oe oe e oe",
+      "tr": "Oe oe e oe..."
+    }
+  },
+  {
+    "id": "4694",
+    "slug": "olivia-rodrigo-stupid-song-turkce-ceviri",
+    "title": "Olivia Rodrigo stupid song Türkçe Çeviri",
+    "song": "stupid song",
+    "artist": "Olivia Rodrigo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736949b83f85d782b21ce70583",
+    "date": "2026-07-09T11:10:39.373Z",
+    "reading_time": 4,
+    "excerpt": "New York City’s never looked so blue",
+    "categories": [
+      "Olivia Rodrigo",
+      "you seem pretty sad for a girl so in love"
+    ],
+    "category_slugs": [
+      "olivia-rodrigo",
+      "you-seem-pretty-sad-for-a-girl-so-in-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
+      "albumUrl": "https://open.spotify.com/album/18qJgKH8dyYe2RRp6TbnNY",
+      "artistUrl": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+      "albumName": "you seem pretty sad for a girl so in love",
+      "releaseDate": "2026-06-11",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736949b83f85d782b21ce70583",
+      "duration": "3:30",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
+        "isrc": "USUG12601723",
+        "duration": "3:30",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+      },
+      "album": {
+        "name": "you seem pretty sad for a girl so in love",
+        "url": "https://open.spotify.com/album/18qJgKH8dyYe2RRp6TbnNY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736949b83f85d782b21ce70583",
+        "releaseDate": "2026-06-11",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "New York City’s never looked so blue",
+      "tr": "New York hiç bu kadar \"mavi\" (hüzünlü) görünmemişti,"
+    }
+  },
+  {
+    "id": "4693",
+    "slug": "temper-city-self-aware-turkce-ceviri",
+    "title": "Temper City Self Aware Türkçe Çeviri",
+    "song": "Self Aware",
+    "artist": "Temper City",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
+    "date": "2026-07-09T11:10:37.749Z",
+    "reading_time": 2,
+    "excerpt": "No smoke with no fire",
+    "categories": [
+      "Temper City",
+      "Self Aware"
+    ],
+    "category_slugs": [
+      "temper-city",
+      "self-aware"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
+      "albumUrl": "https://open.spotify.com/album/7Cdqksm4yTfiq0EfKPa86M",
+      "artistUrl": "https://open.spotify.com/artist/5mHUmlJWkcoOk1NbjfrXWz",
+      "albumName": "Self Aware",
+      "releaseDate": "2026-02-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
+      "duration": "3:01",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
+        "isrc": "QZHN52696246",
+        "duration": "3:01",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Temper City",
+        "url": "https://open.spotify.com/artist/5mHUmlJWkcoOk1NbjfrXWz",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3"
+      },
+      "album": {
+        "name": "Self Aware",
+        "url": "https://open.spotify.com/album/7Cdqksm4yTfiq0EfKPa86M",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
+        "releaseDate": "2026-02-15",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Put me out": "Hem bir ateşi söndürmek hem de birini hayatından çıkarmak veya nakavt etmek anlamında kullanılan zekice bir kelime oyunu.",
+      "Buradaki trajedi şu": "Şarkıcı sevgilinin yalan söylediğini biliyor ama o yalanın içindeki güzelliğe hayran kalıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "No smoke with no fire",
+      "tr": "Ateş olmayan yerden duman çıkmaz,"
+    }
+  },
+  {
     "id": "4691",
     "slug": "stray-kids-divine-turkce-ceviri",
     "title": "Stray Kids Divine Türkçe Çeviri",
