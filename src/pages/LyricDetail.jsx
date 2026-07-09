@@ -18,13 +18,8 @@ import { albumPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
-function prettyTag(slug) {
-  return slug
-    .split("-")
-    .filter(Boolean)
-    .slice(0, 3)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function MetaRow({ label, value }) {
@@ -267,7 +262,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   const [cardStatus, setCardStatus] = useState("");
   const [cardBusy, setCardBusy] = useState(false);
   const keys = Object.keys(notes);
-  const findKey = (line) => line ? keys.find((key) => line.includes(key)) : undefined;
+  const findKey = (line) => {
+    if (!line) return undefined;
+    const normalizedLine = line.toLocaleLowerCase("tr-TR");
+    return keys.find((key) => normalizedLine.includes(key.toLocaleLowerCase("tr-TR")));
+  };
   const normalizedQuery = query.trim().toLowerCase();
   const activeSection = sections[activeIndex] || sections[0];
 
@@ -401,7 +400,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   const renderLine = (line, id) => {
     const key = findKey(line);
     if (!key) return line || "—";
-    const [before, after] = line.split(key);
+    const match = line.match(new RegExp(escapeRegExp(key), "i"));
+    if (!match || match.index == null) return line || "—";
+    const before = line.slice(0, match.index);
+    const marked = line.slice(match.index, match.index + match[0].length);
+    const after = line.slice(match.index + match[0].length);
     return (
       <button
         type="button"
@@ -410,7 +413,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         aria-pressed={selectedKey === key}
       >
         {before}
-        <span>{key}</span>
+        <span>{marked}</span>
         {after}
       </button>
     );
@@ -736,7 +739,7 @@ export default function LyricDetail() {
   const light = !isDark(accent);
   const top = shade(accent, light ? 0.42 : 0.64);
   const bottom = shade(accent, light ? 0.20 : 0.32);
-  const tags = post.category_slugs.filter((s) => s !== artistSlug).slice(0, 3);
+  const tags = [post.artist, post.song].filter(Boolean);
   const videoEmbedUrl = youtubeEmbedUrl(post.youtubeUrl || post.youtube?.url);
   const scrollToReader = () => readerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   const albumName = albumNameFor(post);
@@ -830,7 +833,7 @@ export default function LyricDetail() {
           <div className="detail-tag-block">
             <span>Etiketler</span>
             <div>
-              {tags.length ? tags.map((tag) => <b key={tag}>{prettyTag(tag)}</b>) : <b>Türkçe Çeviri</b>}
+              {tags.length ? tags.map((tag) => <b key={tag}>{tag}</b>) : <b>Türkçe Çeviri</b>}
             </div>
           </div>
           <div className="detail-translator">
