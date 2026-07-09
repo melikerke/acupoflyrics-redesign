@@ -149,19 +149,13 @@ function wrapCanvasText(ctx, text, maxWidth) {
 }
 
 const CARD_MAX_LINES = 3;
-const CARD_DESIGNS = [
-  { id: "spotlight", label: "Spotlight" },
-  { id: "split", label: "Split" },
-  { id: "stack", label: "Stack" },
-  { id: "poster", label: "Poster" },
-];
 
 function cardLanguageLabel(language) {
   return language === "tr" ? "Türkçe" : "Original";
 }
 
 function lyricCardFilename(post, card) {
-  return `${post.artist}-${post.song}-${card.section.label}-${card.language}-${card.design}`
+  return `${post.artist}-${post.song}-${card.section.label}-${card.language}`
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -171,10 +165,6 @@ function lyricCardFilename(post, card) {
 
 function cssRgb(color) {
   return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
-}
-
-function contrastColor(color) {
-  return isDark(color) ? "#fffaf2" : "#121212";
 }
 
 function loadCanvasImage(src) {
@@ -208,61 +198,64 @@ async function createLyricCardBlob({ post, card }) {
   const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
   const cover = await loadCanvasImage(post.cover);
   const color = card.color || [218, 60, 120];
-  const ink = contrastColor(color);
-  const muted = isDark(color) ? "rgba(255,250,242,0.7)" : "rgba(18,18,18,0.62)";
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
   canvas.height = 1350;
   const ctx = canvas.getContext("2d");
-  ctx.fillStyle = cssRgb(color);
+  ctx.fillStyle = "#0e1018";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = isDark(color) ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)";
-  ctx.fillRect(56, 56, 968, 1238);
 
-  if (card.design === "split" && cover) {
-    ctx.globalAlpha = 0.24;
-    ctx.drawImage(cover, -120, 0, 1320, 1320);
-    ctx.globalAlpha = 1;
-    ctx.fillStyle = cssRgb(color);
-    ctx.globalAlpha = 0.84;
-    ctx.fillRect(0, 0, 1080, 1350);
-    ctx.globalAlpha = 1;
-  }
+  const glow = ctx.createRadialGradient(780, 820, 20, 780, 820, 640);
+  glow.addColorStop(0, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.42)`);
+  glow.addColorStop(0.48, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.16)`);
+  glow.addColorStop(1, "rgba(14, 16, 24, 0)");
+  ctx.fillStyle = glow;
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  const coverSize = card.design === "poster" ? 238 : 180;
-  const coverX = card.design === "split" ? 688 : 112;
-  const coverY = card.design === "stack" ? 130 : 118;
-  drawCover(ctx, cover, coverX, coverY, coverSize);
+  ctx.strokeStyle = "rgba(255,255,255,0.16)";
+  ctx.lineWidth = 2;
+  ctx.strokeRect(56, 56, 968, 1238);
 
-  ctx.fillStyle = ink;
+  ctx.fillStyle = "#f7f3ec";
   ctx.font = "900 32px Inter, system-ui, sans-serif";
-  ctx.fillText("acupoflyrics", 112, card.design === "stack" ? 76 : 90);
-  ctx.fillStyle = muted;
+  ctx.fillText("acupoflyrics", 112, 132);
+  ctx.fillStyle = "rgba(247,243,236,0.56)";
   ctx.font = "800 24px Inter, system-ui, sans-serif";
-  ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 112, card.design === "stack" ? 112 : 330);
+  ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 112, 182);
 
-  ctx.fillStyle = ink;
-  ctx.font = card.design === "poster" ? "950 46px Inter, system-ui, sans-serif" : "950 50px Inter, system-ui, sans-serif";
-  const textX = card.design === "split" ? 112 : 112;
-  let y = card.design === "stack" ? 420 : card.design === "poster" ? 470 : 450;
-  const maxWidth = card.design === "split" ? 860 : 840;
+  ctx.fillStyle = "#f7f3ec";
+  ctx.font = "700 96px Georgia, serif";
+  ctx.fillText("“", 112, 330);
+
+  ctx.font = "900 50px Inter, system-ui, sans-serif";
+  let y = 418;
   for (const selectedLine of selectedLines) {
-    const lines = wrapCanvasText(ctx, selectedLine, maxWidth).slice(0, 3);
+    const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
     for (const line of lines) {
-      ctx.fillText(line, textX, y);
-      y += card.design === "poster" ? 58 : 64;
+      ctx.fillText(line, 112, y);
+      y += 64;
     }
-    y += 18;
+    y += 14;
   }
 
-  ctx.fillStyle = ink;
-  ctx.font = "900 34px Inter, system-ui, sans-serif";
-  ctx.fillText(post.song, 112, 1166);
-  ctx.fillStyle = muted;
-  ctx.font = "800 28px Inter, system-ui, sans-serif";
-  ctx.fillText(post.artist, 112, 1212);
-  ctx.font = "800 22px Inter, system-ui, sans-serif";
-  ctx.fillText(card.design, 112, 1252);
+  ctx.strokeStyle = "rgba(247,243,236,0.26)";
+  ctx.beginPath();
+  ctx.moveTo(112, 1078);
+  ctx.lineTo(620, 1078);
+  ctx.stroke();
+
+  drawCover(ctx, cover, 760, 1038, 180);
+
+  ctx.fillStyle = "#f7f3ec";
+  ctx.font = "900 30px Inter, system-ui, sans-serif";
+  ctx.fillText(post.song, 112, 1156);
+  ctx.fillStyle = "rgba(247,243,236,0.66)";
+  ctx.font = "750 24px Inter, system-ui, sans-serif";
+  ctx.fillText(post.artist, 112, 1196);
+
+  ctx.fillStyle = "rgba(247,243,236,0.82)";
+  ctx.font = "700 52px Georgia, serif";
+  ctx.fillText("✦", 944, 144);
 
   return new Promise((resolve) => {
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
@@ -306,7 +299,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     setCardDraft({
       section,
       language,
-      design: CARD_DESIGNS[0].id,
       colorIndex: 0,
       selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
     });
@@ -340,11 +332,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     });
   };
 
-  const setCardDesign = (design) => {
-    setCardStatus("");
-    setCardDraft((draft) => (draft ? { ...draft, design } : draft));
-  };
-
   const setCardColor = (colorIndex) => {
     setCardStatus("");
     setCardDraft((draft) => (draft ? { ...draft, colorIndex } : draft));
@@ -360,7 +347,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       ...draft,
       colorIndex,
       color: palette[colorIndex],
-      design: draft.design || CARD_DESIGNS[0].id,
       lines,
       palette,
       selectedLines,
@@ -521,18 +507,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>TR</button>
               <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>EN</button>
             </div>
-            <div className="detail-card-designs" aria-label="Kart tasarımı">
-              {CARD_DESIGNS.map((design) => (
-                <button
-                  key={design.id}
-                  type="button"
-                  className={card.design === design.id ? "is-active" : ""}
-                  onClick={() => setCardDesign(design.id)}
-                >
-                  {design.label}
-                </button>
-              ))}
-            </div>
             <div className="detail-card-swatches" aria-label="Kart rengi">
               {card.palette.map((color, colorIndex) => (
                 <button
@@ -546,12 +520,10 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               ))}
             </div>
             <div
-              className={`detail-card-preview is-${card.language} is-${card.design}`}
+              className={`detail-card-preview is-${card.language}`}
               style={{
                 "--card-tone": rgb(card.color),
-                "--card-tone-soft": rgb(card.color, 0.14),
-                "--card-ink": contrastColor(card.color),
-                "--card-muted": isDark(card.color) ? "rgba(255,250,242,0.7)" : "rgba(18,18,18,0.62)",
+                "--card-tone-soft": rgb(card.color, 0.28),
               }}
             >
               <div className="detail-card-brand">
