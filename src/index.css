@@ -2252,7 +2252,8 @@ body {
   margin: 0;
   font-family: "Programme", "Helvetica Neue", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   font-size: clamp(20px, 5vw, 28px);
-  font-weight: 800;
+  font-style: italic;
+  font-weight: 650;
   letter-spacing: 0;
   line-height: 1.15;
 }
