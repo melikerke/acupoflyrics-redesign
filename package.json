@@ -8,6 +8,7 @@
     "build": "node scripts/generatePostIndex.js && vite build && node scripts/prerenderSeo.js",
     "preview": "vite preview",
     "import:wp-seo": "node scripts/importWpSeo.js",
+    "backfill:youtube": "node scripts/backfillYoutubeFromWp.js",
     "backfill:spotify": "node scripts/backfillSpotify.js",
     "publish:translation": "node scripts/publishTranslation.js",
     "update:charts": "node scripts/updateCharts.js"

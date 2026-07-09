@@ -16,7 +16,7 @@ import {
 } from "../lib/content";
 import { albumPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
-import { isDark, rgb, shade, useAlbumColor } from "../lib/color";
+import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function prettyTag(slug) {
   return slug
@@ -149,13 +149,19 @@ function wrapCanvasText(ctx, text, maxWidth) {
 }
 
 const CARD_MAX_LINES = 3;
+const CARD_DESIGNS = [
+  { id: "spotlight", label: "Spotlight" },
+  { id: "split", label: "Split" },
+  { id: "stack", label: "Stack" },
+  { id: "poster", label: "Poster" },
+];
 
 function cardLanguageLabel(language) {
   return language === "tr" ? "Türkçe" : "Original";
 }
 
 function lyricCardFilename(post, card) {
-  return `${post.artist}-${post.song}-${card.section.label}-${card.language}`
+  return `${post.artist}-${post.song}-${card.section.label}-${card.language}-${card.design}`
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -163,61 +169,107 @@ function lyricCardFilename(post, card) {
     .replace(/^-+|-+$/g, "") || "lyric-card";
 }
 
-function createLyricCardBlob({ post, card }) {
+function cssRgb(color) {
+  return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+}
+
+function contrastColor(color) {
+  return isDark(color) ? "#fffaf2" : "#121212";
+}
+
+function loadCanvasImage(src) {
   return new Promise((resolve) => {
-    const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
-    const isTurkish = card.language === "tr";
-    const canvas = document.createElement("canvas");
-    canvas.width = 1080;
-    canvas.height = 1350;
-    const ctx = canvas.getContext("2d");
-    const gradient = ctx.createLinearGradient(0, 0, 1080, 1350);
-    gradient.addColorStop(0, isTurkish ? "#ff5c9f" : "#1ed760");
-    gradient.addColorStop(0.5, isTurkish ? "#d83c78" : "#159947");
-    gradient.addColorStop(1, "#101010");
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-    ctx.fillStyle = "rgba(0, 0, 0, 0.18)";
-    ctx.fillRect(74, 74, 932, 1202);
-    ctx.fillStyle = "rgba(255, 255, 255, 0.92)";
-    ctx.fillRect(74, 74, 932, 8);
-
-    ctx.fillStyle = "#121212";
-    ctx.font = "900 32px Inter, system-ui, sans-serif";
-    ctx.fillText("acupoflyrics", 116, 154);
-
-    ctx.fillStyle = "rgba(18, 18, 18, 0.68)";
-    ctx.font = "800 24px Inter, system-ui, sans-serif";
-    ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 116, 212);
-
-    ctx.fillStyle = "#121212";
-    ctx.font = "900 66px Inter, system-ui, sans-serif";
-    let y = 360;
-    for (const selectedLine of selectedLines) {
-      const lines = wrapCanvasText(ctx, selectedLine, 848).slice(0, 3);
-      for (const line of lines) {
-        ctx.fillText(line, 116, y);
-        y += 78;
-      }
-      y += 24;
+    if (!src) {
+      resolve(null);
+      return;
     }
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = src;
+  });
+}
 
-    ctx.fillStyle = "#121212";
-    ctx.font = "900 34px Inter, system-ui, sans-serif";
-    ctx.fillText(post.song, 116, 1144);
-    ctx.fillStyle = "rgba(18, 18, 18, 0.72)";
-    ctx.font = "700 28px Inter, system-ui, sans-serif";
-    ctx.fillText(post.artist, 116, 1192);
-    ctx.fillStyle = "rgba(18, 18, 18, 0.52)";
-    ctx.font = "700 24px Inter, system-ui, sans-serif";
-    ctx.fillText("lyrics card", 116, 1236);
+function drawCover(ctx, image, x, y, size) {
+  ctx.save();
+  ctx.beginPath();
+  ctx.roundRect(x, y, size, size, 26);
+  ctx.clip();
+  if (image) ctx.drawImage(image, x, y, size, size);
+  else {
+    ctx.fillStyle = "rgba(255,255,255,0.2)";
+    ctx.fillRect(x, y, size, size);
+  }
+  ctx.restore();
+}
 
+async function createLyricCardBlob({ post, card }) {
+  const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
+  const cover = await loadCanvasImage(post.cover);
+  const color = card.color || [218, 60, 120];
+  const ink = contrastColor(color);
+  const muted = isDark(color) ? "rgba(255,250,242,0.7)" : "rgba(18,18,18,0.62)";
+  const canvas = document.createElement("canvas");
+  canvas.width = 1080;
+  canvas.height = 1350;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = cssRgb(color);
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = isDark(color) ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)";
+  ctx.fillRect(56, 56, 968, 1238);
+
+  if (card.design === "split" && cover) {
+    ctx.globalAlpha = 0.24;
+    ctx.drawImage(cover, -120, 0, 1320, 1320);
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = cssRgb(color);
+    ctx.globalAlpha = 0.84;
+    ctx.fillRect(0, 0, 1080, 1350);
+    ctx.globalAlpha = 1;
+  }
+
+  const coverSize = card.design === "poster" ? 238 : 180;
+  const coverX = card.design === "split" ? 688 : 112;
+  const coverY = card.design === "stack" ? 130 : 118;
+  drawCover(ctx, cover, coverX, coverY, coverSize);
+
+  ctx.fillStyle = ink;
+  ctx.font = "900 32px Inter, system-ui, sans-serif";
+  ctx.fillText("acupoflyrics", 112, card.design === "stack" ? 76 : 90);
+  ctx.fillStyle = muted;
+  ctx.font = "800 24px Inter, system-ui, sans-serif";
+  ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 112, card.design === "stack" ? 112 : 330);
+
+  ctx.fillStyle = ink;
+  ctx.font = card.design === "poster" ? "950 58px Inter, system-ui, sans-serif" : "950 64px Inter, system-ui, sans-serif";
+  const textX = card.design === "split" ? 112 : 112;
+  let y = card.design === "stack" ? 420 : card.design === "poster" ? 470 : 450;
+  const maxWidth = card.design === "split" ? 860 : 840;
+  for (const selectedLine of selectedLines) {
+    const lines = wrapCanvasText(ctx, selectedLine, maxWidth).slice(0, 3);
+    for (const line of lines) {
+      ctx.fillText(line, textX, y);
+      y += card.design === "poster" ? 70 : 78;
+    }
+    y += 18;
+  }
+
+  ctx.fillStyle = ink;
+  ctx.font = "900 34px Inter, system-ui, sans-serif";
+  ctx.fillText(post.song, 112, 1166);
+  ctx.fillStyle = muted;
+  ctx.font = "800 28px Inter, system-ui, sans-serif";
+  ctx.fillText(post.artist, 112, 1212);
+  ctx.font = "800 22px Inter, system-ui, sans-serif";
+  ctx.fillText(card.design, 112, 1252);
+
+  return new Promise((resolve) => {
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
   });
 }
 
-function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
+function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardPalette }) {
   const [viewMode, setViewMode] = useState("both");
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
@@ -254,6 +306,8 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
     setCardDraft({
       section,
       language,
+      design: CARD_DESIGNS[0].id,
+      colorIndex: 0,
       selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
     });
   };
@@ -286,11 +340,31 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
     });
   };
 
+  const setCardDesign = (design) => {
+    setCardStatus("");
+    setCardDraft((draft) => (draft ? { ...draft, design } : draft));
+  };
+
+  const setCardColor = (colorIndex) => {
+    setCardStatus("");
+    setCardDraft((draft) => (draft ? { ...draft, colorIndex } : draft));
+  };
+
   const buildCard = (draft) => {
     if (!draft) return null;
     const lines = draft.section[draft.language].filter(Boolean);
     const selectedLines = draft.selected.map((index) => lines[index]).filter(Boolean);
-    return { ...draft, lines, selectedLines };
+    const palette = cardPalette?.length ? cardPalette : [[218, 60, 120], [30, 215, 96], [38, 40, 56]];
+    const colorIndex = Math.min(draft.colorIndex || 0, palette.length - 1);
+    return {
+      ...draft,
+      colorIndex,
+      color: palette[colorIndex],
+      design: draft.design || CARD_DESIGNS[0].id,
+      lines,
+      palette,
+      selectedLines,
+    };
   };
 
   const shareCard = async () => {
@@ -447,11 +521,44 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
               <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>TR</button>
               <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>EN</button>
             </div>
-            <div className={`detail-card-preview is-${card.language}`}>
+            <div className="detail-card-designs" aria-label="Kart tasarımı">
+              {CARD_DESIGNS.map((design) => (
+                <button
+                  key={design.id}
+                  type="button"
+                  className={card.design === design.id ? "is-active" : ""}
+                  onClick={() => setCardDesign(design.id)}
+                >
+                  {design.label}
+                </button>
+              ))}
+            </div>
+            <div className="detail-card-swatches" aria-label="Kart rengi">
+              {card.palette.map((color, colorIndex) => (
+                <button
+                  key={color.join("-")}
+                  type="button"
+                  className={card.colorIndex === colorIndex ? "is-active" : ""}
+                  style={{ background: rgb(color) }}
+                  onClick={() => setCardColor(colorIndex)}
+                  aria-label={`Renk ${colorIndex + 1}`}
+                />
+              ))}
+            </div>
+            <div
+              className={`detail-card-preview is-${card.language} is-${card.design}`}
+              style={{
+                "--card-tone": rgb(card.color),
+                "--card-tone-soft": rgb(card.color, 0.14),
+                "--card-ink": contrastColor(card.color),
+                "--card-muted": isDark(card.color) ? "rgba(255,250,242,0.7)" : "rgba(18,18,18,0.62)",
+              }}
+            >
               <div className="detail-card-brand">
                 <span>acupoflyrics</span>
                 <small>{card.section.label} · {cardLanguageLabel(card.language)}</small>
               </div>
+              <img src={post.cover} alt="" className="detail-card-cover" />
               <div className="detail-card-lines">
                 {card.selectedLines.map((line, lineIndex) => <p key={`${line}-${lineIndex}`}>{line}</p>)}
               </div>
@@ -557,6 +664,7 @@ export default function LyricDetail() {
   const [fullPost, setFullPost] = useState(null);
   const post = indexedPost ? { ...indexedPost, ...fullPost, song: indexedPost.song, no: indexedPost.no, voice: indexedPost.voice } : null;
   const accent = useAlbumColor(post?.cover);
+  const cardPalette = useAlbumPalette(post?.cover, [accent, shade(accent, 0.72), shade(accent, 0.46)]);
   const readerRef = useRef(null);
   const [shared, setShared] = useState(false);
   const [selectedNote, setSelectedNote] = useState(null);
@@ -750,7 +858,6 @@ export default function LyricDetail() {
           <MetaRow label="Sanatçı" value={post.artist} />
           <MetaRow label="Yayın" value={year ? String(year) : ""} />
           <MetaRow label="Okuma" value={post.reading_time ? `${post.reading_time} dk` : ""} />
-          <MetaRow label="Çeviri" value={`No. ${post.no}`} />
           <MetaRow label="Tarih" value={formatDate(post.date)} />
           <div className="detail-tag-block">
             <span>Etiketler</span>
@@ -771,7 +878,7 @@ export default function LyricDetail() {
           {isLyricsLoading ? (
             <LyricsSkeleton />
           ) : (
-            <DetailLyricsTable post={post} sections={sections} notes={notes} selectedKey={selectedNote?.key} onSelect={setSelectedNote} />
+            <DetailLyricsTable post={post} sections={sections} notes={notes} selectedKey={selectedNote?.key} onSelect={setSelectedNote} cardPalette={cardPalette} />
           )}
 
           <div className="detail-reader-signoff" style={{ display: "flex", justifyContent: "flex-end", paddingRight: "16px" }}>
