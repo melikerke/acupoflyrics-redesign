@@ -590,9 +590,6 @@ export default function LyricDetail() {
 
       <SuggestEdit post={post} />
 
-      <button type="button" className="detail-floating-reader-cta" onClick={scrollToReader}>
-        Çeviriyi oku
-      </button>
       <SiteFooter />
       <MobileTabBar />
     </motion.main>
