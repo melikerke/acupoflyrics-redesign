@@ -2129,7 +2129,7 @@ body {
 }
 
 .detail-card-brand span {
-  font-family: "Programme", "Inter", system-ui, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   font-size: 22px;
   font-weight: 900;
 }
@@ -2164,9 +2164,9 @@ body {
 
 .detail-card-lines p {
   margin: 0;
-  font-family: "Programme", "Inter", system-ui, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   font-size: clamp(23px, 6vw, 34px);
-  font-weight: 680;
+  font-weight: 760;
   letter-spacing: 0;
   line-height: 1.08;
 }
@@ -2179,7 +2179,7 @@ body {
   margin-right: 108px;
   padding-top: 16px;
   border-top: 1px solid rgba(247, 243, 236, 0.24);
-  font-family: "Programme", "Inter", system-ui, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   font-size: 16px;
   font-weight: 850;
 }
