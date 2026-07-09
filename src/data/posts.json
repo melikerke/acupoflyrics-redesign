@@ -21,45 +21,46 @@
       {
         "original": true,
         "lines": [
-          "i can’t tell you why",
-          "but something inside",
-          "is dancing with fire",
-          "eyes lit like the sky",
-          "turned tears into diamonds",
-          "got good at goodbyes",
-          "just know that i will find my way from you",
-          "like flowers from a tomb",
-          "while you decide who you are",
-          "and i can see right through",
-          "like shadows on the moon",
-          "and it’s all bad news"
+          "I can't tell you why",
+          "But something inside is dancing with fire",
+          "Eyes lit like the sky",
+          "Turned tears into diamonds, got good at goodbyes"
         ]
       },
       {
         "original": false,
         "lines": [
           "Nedenini anlatamam sana,",
-          "Ama içimde bir yerlerde",
-          "Ateşle dans eden bir şeyler var...",
+          "Ama içimde bir yerlerde ateşle dans eden bir şeyler var...",
           "Gözlerim gökyüzü gibi ışıl ışıl;",
-          "Gözyaşlarımı pırlantaya çevirdim,",
-          "Vedalar konusunda ustalaştım artık.",
+          "Gözyaşlarımı pırlantaya çevirdim, vedalar konusunda ustalaştım artık."
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Just know that I will find my way from you",
+          "Like flowers from a tomb while you decide who you are",
+          "And I can see right through, ooh-ooh, like shadows on the moon",
+          "And it's all bad news"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
           "Sadece bil ki; bir yolunu bulup senden uzaklaşacağım,",
-          "Tıpkı bir mezardan yükselen çiçekler gibi...",
-          "Sen kim olduğuna karar vermeye çalışırken;",
-          "Ben her şeyi net bir şekilde görebiliyorum,",
-          "Ay üzerindeki o gölgeler gibi...",
+          "Tıpkı bir mezardan yükselen çiçekler gibi, sen kim olduğuna karar vermeye çalışırken...",
+          "Ben her şeyi net bir şekilde görebiliyorum, ay üzerindeki o gölgeler gibi...",
           "Ve gelen haberlerin hepsi kötü."
         ]
       },
       {
         "original": true,
         "lines": [
-          "yeah i i i",
-          "hate that i made you love me",
-          "sorry if i made me your type",
-          "yeah i i hate that i made you love me",
-          "cause i barely tried"
+          "Yeah, I, I, I hate that I made you love me",
+          "Sorry if I made me your type",
+          "Yeah, I, I hate that I made you love me",
+          "'Cause I barely tried, yeah, I, I, I"
         ]
       },
       {
@@ -74,29 +75,34 @@
       {
         "original": true,
         "lines": [
-          "what’s happening now ?",
-          "you studied my crown",
-          "and borrowed my body",
-          "warm, kissed by the sun",
-          "then cold like the wind",
-          "a bee stuck in honey",
-          "know that i will find my way from you",
-          "i guess it’s kinda cute",
-          "how you like me where you are",
-          "but i can see right through",
-          "just don’t eclipse the moon",
-          "cause it’s all bad news"
+          "What's happening now?",
+          "You studied my crown and borrowed my body",
+          "Warm, kissed by the sun, then cold like the wind",
+          "A bee stuck in honey"
         ]
       },
       {
         "original": false,
         "lines": [
           "Şimdi neler oluyor peki?",
-          "Tacımı (gücümü) inceledin,",
-          "Bedenimi ödünç aldın...",
-          "Önce güneş tarafından öpülmüş gibi sıcacıktın,",
-          "Sonra rüzgar gibi buz kestin;",
-          "Balın içine hapsolmuş bir arı gibisin şimdi.",
+          "Tacımı (gücümü) inceledin, bedenimi ödünç aldın...",
+          "Önce güneş tarafından öpülmüş gibi sıcacıktın, sonra rüzgar gibi buz kestin;",
+          "Balın içine hapsolmuş bir arı gibisin şimdi."
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Know that I will find my way (My way) from you (From you)",
+          "I guess it's kind of cute how you like me where you are",
+          "But I can see right through (Right through), ooh-ooh (Ooh-ooh)",
+          "Just don't eclipse the moon",
+          "'Cause it's all bad news"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
           "Biliyorum, bir yolunu bulup senden gideceğim;",
           "Aslında olduğun yerde beni sevmen biraz \"tatlı\" (cute) sayılır...",
           "Ama ben senin ne mal olduğunu (see right through) biliyorum;",
@@ -107,11 +113,10 @@
       {
         "original": true,
         "lines": [
-          "yeah i i i",
-          "hate that i made you love me",
-          "sorry if i made me your type",
-          "yeah i i hate that i made you love me",
-          "cause i barely tried"
+          "Yeah, I, I, I hate that I made you love me",
+          "Sorry if I made me your type",
+          "Yeah, I, I hate that I made you love me (Hate that I made you)",
+          "'Cause I barely tried, yeah, I, I, I (Ooh, I made)"
         ]
       },
       {
@@ -126,13 +131,11 @@
       {
         "original": true,
         "lines": [
-          "i’ve held your projections when you’ve felt so insecure",
-          "tell me why is it this way",
-          "why you so hate to see women endure",
-          "is it really my fault",
-          "you all gave me your hearts",
-          "of your own accord ?",
-          "i don’t really think so"
+          "I've held your projections when you've felt so insecure",
+          "Tell me, why is it this way?",
+          "Why you so hate to see women endure?",
+          "Is it really my fault you all gave me your hearts of your own accord?",
+          "I don't really think so"
         ]
       },
       {
@@ -141,36 +144,41 @@
           "Sen kendini güvensiz hissettiğinde, senin o \"yansıttığın\" tüm dertleri ben göğüsledim.",
           "Anlat bana, mevzu neden hep buraya geliyor?",
           "Kadınların (acıya) göğüs gerdiğini görmekten neden bu kadar nefret ediyorsunuz?",
-          "Gerçekten benim suçum mu yani?",
-          "Tüm kalbinizi bana vermeniz,",
-          "Tamamen kendi rızanızla (accord) değil miydi sanki?",
+          "Gerçekten benim suçum mu yani? Tüm kalbinizi bana vermeniz, tamamen kendi rızanızla (accord) değil miydi sanki?",
           "Pek sanmıyorum..."
         ]
       },
       {
         "original": true,
         "lines": [
-          "i i i",
-          "hate that i made you love me",
-          "sorry if i made me your type",
-          "yeah i i hate that i made you love me",
-          "cause i barely tried"
+          "I, I hate that I made you love me (Made you love me, baby)",
+          "Sorry if I made me your type",
+          "Yeah, I, I hate that I made you love me",
+          "'Cause I barely tried",
+          "Yeah, I, I, I hate that I made you love me (You love me, baby)",
+          "Sorry if I made me your type (Sorry if I made me your type)",
+          "Yeah, I, I hate that I made you love me (Ooh)",
+          "'Cause I barely tried, yeah, I, I, I"
         ]
       },
       {
         "original": false,
         "lines": [
           "Seni kendime aşık ettiğim için nefret ediyorum;",
-          "Seni kendime bağladığım için...",
+          "Eğer seni tam \"benlik\" biri yaptıysam kusura bakma.",
+          "Evet, seni kendime bağladığım için nefret ediyorum;",
           "Çünkü bunun için hiç çabalamadım.",
+          "Seni kendime aşık ettiğim için nefret ediyorum;",
+          "Eğer seni tam \"benlik\" biri yaptıysam kusura bakma.",
+          "Evet, seni kendime bağladığım için nefret ediyorum;",
           "Zerre uğraşmadım bile."
         ]
       }
     ],
-    "excerpt": "i can’t tell you why",
+    "excerpt": "I can't tell you why",
     "annotations": {
-      "Bee stuck in honey": "Sevgilinin, kadının cazibesine (bal) kapılıp orada mahsur kalmasını ve bu tatlılığın onu yavaş yavaş boğmasını anlatan harika bir metafor.",
-      "Held your projections": "Karşı tarafın kendi kusurlarını ve güvensizliklerini şarkıcıya yüklemesi (psikolojik projeksiyon) durumuna yapılan sert bir atıf."
+      "bee stuck in honey": "Sevgilinin, kadının cazibesine kapılıp orada mahsur kalmasını ve bu tatlılığın onu yavaş yavaş boğmasını anlatan harika bir metafor.",
+      "held your projections": "Karşı tarafın kendi kusurlarını ve güvensizliklerini şarkıcıya yüklemesi, yani psikolojik projeksiyon durumuna yapılan sert bir atıf."
     },
     "difficulty_note": null,
     "spotify": {
@@ -431,7 +439,6 @@
           "Benim tarzım, benim ağırlığım (sauce and the spill) budur işte!",
           "Bu sürtükler benim harbi olduğumu iyi bilirler...",
           "Evet, harbi olduğumu biliyorlar.",
-          "",
           "Bir haftada çok fazla kazandım;",
           "En az iki yüz elli binlik bir balya...",
           "Sanki para ağaçta yetişiyormuş gibi,",
@@ -741,42 +748,36 @@
       {
         "original": true,
         "lines": [
-          "Oe oe e oe Oe oe e oe",
-          "You knew from the day you were born",
-          "That here in this place you belong",
-          "You been this brave all along",
-          "What broke you once made you strong"
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)",
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh"
         ]
       },
       {
         "original": false,
         "lines": [
-          "Oe oe e oe...",
-          "Doğduğun günden beri biliyordun;",
-          "Buraya, tam da bu yere ait olduğunu.",
-          "Baştan beri bu kadar cesurdun işte;",
-          "Seni bir kez yıkan ne varsa, aslında güçlendirdi seni."
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)",
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh"
         ]
       },
       {
         "original": true,
         "lines": [
-          "Dai dai iko",
-          "Dale ale lets go",
-          "Dai dai iko",
-          "Dale ale lets go!",
-          "Dai dai iko",
-          "Dale ale lets go",
-          "Dai dai iko",
-          "Dale ale lets go!"
+          "You knew from the day you were born",
+          "That here, in this place, you belong",
+          "You've been this brave all along",
+          "What broke you once made you strong",
+          "Dai, dai, ikou, dale, allez, let's go",
+          "Dai, dai, ikou, dale, allez, let's go"
         ]
       },
       {
         "original": false,
         "lines": [
+          "Doğduğun günden beri biliyordun;",
+          "Buraya, tam da bu yere ait olduğunu.",
+          "Baştan beri bu kadar cesurdun işte;",
+          "Seni bir kez yıkan ne varsa, aslında güçlendirdi seni.",
           "Dai dai iko! (Hadi, durma başla!)",
-          "Dale ale, hadi gidelim!",
-          "Dai dai iko!",
           "Dale ale, hadi gidelim!"
         ]
       },
@@ -784,12 +785,12 @@
         "original": true,
         "lines": [
           "Come follow your desire",
-          "Theres a will there way",
+          "Where there's a will, there's a way",
           "You are the owner of that fire",
           "No one can take it away",
           "Sweat and blood to write your story",
           "That is how you paved the way",
-          "You are about to reach the glory",
+          "You're about to reach the glory",
           "Only one step away"
         ]
       },
@@ -811,13 +812,12 @@
         "lines": [
           "All the highs and lows",
           "All the tears and the pain",
-          "You been there thru it all",
-          "Been thru it all",
+          "You been there through it all, been through it all",
           "Just do it again",
-          "Now you got to believe (I believe)",
-          "Cuz you know what it takes",
-          "To be living the dream",
-          "At top of your game."
+          "Now you got to believe, I believe",
+          "'Cause you know what it takes",
+          "To be living my dream",
+          "At the top of your game"
         ]
       },
       {
@@ -836,12 +836,14 @@
       {
         "original": true,
         "lines": [
-          "Feel it, got everything you needed",
-          "now bring it like you mean it",
-          "just like you mean it",
-          "Dale, no olvides lo que vales",
-          "Juega como tu sabes",
-          "Como tu sabes."
+          "Feel it",
+          "Got everything you needed",
+          "Now, bring it like you mean it",
+          "Just like you mean it",
+          "Dale",
+          "No olvide' lo que vales",
+          "Juega como tú sabes",
+          "Como tú sabe'"
         ]
       },
       {
@@ -858,16 +860,11 @@
       {
         "original": true,
         "lines": [
-          "Energy is contagious you know",
-          "And it never fails no no",
-          "No one’s getting tired I know",
-          "Cuz you got that fire eio",
-          "Dream a little higher",
-          "Lets go lets go lets go",
-          "We’ve taken all that our hearts can hold",
-          "We can’t hold on to the past no more",
-          "From the dirt and the tears you make gold",
-          "You are more than flesh and bone"
+          "Energy's contagious, you know",
+          "And it never fails, no, no",
+          "No one's getting tired, I know",
+          "'Cause you got that fire, ayo",
+          "Dream a little higher, let's go, let's go, let's go"
         ]
       },
       {
@@ -878,7 +875,35 @@
           "Kimse yorulmuyor, görebiliyorum;",
           "Çünkü o ateş var içinde!",
           "Hayallerini biraz daha yükseğe taşı;",
-          "Hadi, hadi, gidelim!",
+          "Hadi, hadi, gidelim!"
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Ayo",
+          "Ayo"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Ayo",
+          "Ayo"
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "We've taken all that our hearts can hold",
+          "And we can't hold on to the past no more (Mmm)",
+          "From the dirt and the tears, we make gold",
+          "And we are more than flesh and bones"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
           "Kalbimizin taşıyabileceği kadar yük yüklendik;",
           "Artık geçmişe tutunup kalamayız.",
           "O toz topraktan ve gözyaşından altın var ediyorsun;",
@@ -888,15 +913,14 @@
       {
         "original": true,
         "lines": [
-          "All the highs and lows",
+          "All the highs and lows (Highs and lows)",
           "All the tears and the pain",
-          "You been there thru it all",
-          "Been thru it all",
+          "You been there through it all, been through it all",
           "Just do it again",
-          "Now you got to believe ( I believe)",
-          "Cus you know what it takes",
-          "To be living the dream",
-          "At top of your game"
+          "Now, you got to believe (I believe)",
+          "'Cause you know what it takes",
+          "To be living my dream",
+          "At the top of your game"
         ]
       },
       {
@@ -915,49 +939,38 @@
       {
         "original": true,
         "lines": [
-          "Feel it, got everything you needed",
-          "Now bring it like you mean it",
+          "Feel it",
+          "Got everything you needed",
+          "Now, bring it like you mean it",
           "Just like you mean it",
-          "Dale no olvides lo que vales",
-          "juega como tu sabes",
-          "como tu sabes"
+          "Dale",
+          "No olvide' lo que vales",
+          "Juega como tú sabes",
+          "Como tú sabe'"
         ]
       },
       {
         "original": false,
         "lines": [
           "Hisset bunu! İhtiyacın olan her şeye sahipsin;",
-          "Şimdi hakkını vererek yap,",
+          "Şimdi hakkını vererek yap (like you mean it),",
           "Gerçekten isteyerek...",
-          "Hadi, değerini sakın unutma;",
-          "Bildiğin gibi oyna,",
+          "Hadi (Dale!), değerini sakın unutma;",
+          "Bildiğin gibi oyna (juega),",
           "En iyi bildiğin gibi!"
         ]
       },
       {
         "original": true,
         "lines": [
-          "Pele, Maradona",
-          "Maldini",
-          "Romario",
-          "Cristiano",
-          "Ronaldo",
-          "El Pibe",
-          "Iniesta",
-          "Beckham y Kaka",
-          "Messi",
-          "Mbape",
-          "Salá",
-          "Brazil",
-          "Uruguay",
-          "Argentina",
-          "Colombia",
-          "US",
-          "England",
-          "Germany",
-          "France",
-          "España Italia Mejico Japan",
-          "Korea/England Netherlands/Senegal"
+          "Pelé, Maradona, Maldini, Romário",
+          "Cristiano Ronaldo",
+          "El Pibe, Iniesta, Beckham y Kaká",
+          "Messi, Mbappé, Salah",
+          "Brasil, Uruguay, Argentina, Colombia",
+          "US, England, Germany, France",
+          "South Africa, España, México, Japan",
+          "Korea, Netherlands"
         ]
       },
       {
@@ -974,19 +987,28 @@
       {
         "original": true,
         "lines": [
-          "Oe oe e oe",
-          "You knew from the day you were born",
-          "That here in this place you belong",
-          "You been this brave all along",
-          "What broke you once made you strong",
-          "Dai dai iko",
-          "Dale ale lets go",
-          "Dai dai iko",
-          "Dale ale lets go!",
-          "Dai dai iko",
-          "Dale ale lets go",
-          "Dai dai iko",
-          "Dale ale lets go!"
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh",
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh",
+          "Oh-eh-oh-eh (Oh-eh), eh-oh-eh"
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Knew from the day you were born",
+          "Here, in this place, you belong",
+          "You've been this brave all along",
+          "What broke you once made you strong (Ow)",
+          "Dai, dai, ikou, dale, allez, let's go",
+          "Dai, dai, ikou, dale, allez, let's go",
+          "Dai, dai, ikou, dale, allez, let's go",
+          "Dai, dai, ikou, dale, allez, let's go"
         ]
       },
       {
@@ -996,14 +1018,18 @@
           "Buraya ait olduğunu.",
           "Seni bir kez yıkan şey, aslında güçlendirdi.",
           "Hadi, durma git!",
-          "Zafere doğru!"
+          "Zafere doğru!",
+          "Dai dai iko!",
+          "Dale ale, hadi gidelim!",
+          "Dai dai iko!",
+          "Dale ale, hadi gidelim!"
         ]
       }
     ],
-    "excerpt": "Oe oe e oe Oe oe e oe",
+    "excerpt": "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)",
     "annotations": {
-      "Dai dai iko": "Japonca \"Hadi, git/başla\" anlamında bir motivasyon nidasıdır. “Dale/Ale”: İspanyolca ve Fransızca kökenli \"Hadi, yürü/devam et\" anlamındaki klasik stadyum tezahüratlarıdır.",
-      "From dirt to gold": "Yokluktan ve zorluktan büyük bir başarı yaratma (simya) metaforu. “More than flesh and bone”: İnsanın fiziksel sınırlarının ötesinde, ruhsal bir güce sahip olduğu vurgusu."
+      "Dai, dai, ikou": "Japonca \"Hadi, git/başla\" anlamında bir motivasyon nidasıdır. “Dale/Ale”: İspanyolca ve Fransızca kökenli \"Hadi, yürü/devam et\" anlamındaki klasik stadyum tezahüratlarıdır.",
+      "From the dirt and the tears": "Yokluktan ve zorluktan büyük bir başarı yaratma metaforu. “More than flesh and bone” ise insanın fiziksel sınırlarının ötesinde, ruhsal bir güce sahip olduğu vurgusudur."
     },
     "difficulty_note": null,
     "spotify": {
@@ -1109,14 +1135,12 @@
       {
         "original": true,
         "lines": [
-          "New York City’s never looked so blue",
+          "New York City's never looked so blue",
           "My friends are smoking blunts in the bathroom",
-          "They say that honest love",
-          "Is a cage that makes you feel free",
+          "They say that honest love is a cage that makes you feel free",
           "And all the girls at this party are so cool",
-          "That’s never been a thing that I could do",
-          "But I can’t help but imagine",
-          "What you say when you speak with me"
+          "That's never been a thing that I could do",
+          "But I can't help but imagine what you say when you speak with me"
         ]
       },
       {
@@ -1135,22 +1159,14 @@
       {
         "original": true,
         "lines": [
-          "You’re a spark in the dark",
-          "And my clothes all caught aflame",
-          "You should feel how I feel",
-          "When somebody says your name",
-          "I’m a car speeding down",
-          "The boulevard without a brake",
-          "And I want you more than",
-          "Any stupid song could ever say",
-          "I’m a heart made of wax",
-          "And I’m melting in the sun",
-          "I’m a thread on your shirt",
-          "That is coming undone",
-          "I feel right, I feel wrong",
-          "I feel totally insane",
-          "And I want you more than",
-          "Any stupid song could ever say"
+          "You're a spark in the dark and my clothes all caught aflame",
+          "You should feel how I feel when somebody says your name",
+          "I'm a car speeding down the boulevard without a brake",
+          "And I want you more than any stupid song could ever say",
+          "I'm a heart made of wax and I'm melting in the sun",
+          "I'm a thread on your shirt that is coming undone",
+          "I feel right, I feel wrong, I feel totally insane",
+          "And I want you more than any stupid song could ever say"
         ]
       },
       {
@@ -1179,13 +1195,10 @@
         "lines": [
           "Walking through the park with my head high",
           "Past all the college girls and the drunk guys",
-          "And if there is a God",
-          "He’s the bond that’s between us two",
+          "And if there is a god, he's the bond that's between us two",
           "Seven nights alone and a skipped meal",
-          "I’m sleeping in my dress and my high heels",
-          "And I’m too shy to say what I see",
-          "When I dream of you",
-          "When I dream of you"
+          "I'm sleeping in my dress and my high heels",
+          "And I'm too shy to say what I see when I dream of you (When I dream of you)"
         ]
       },
       {
@@ -1205,22 +1218,14 @@
       {
         "original": true,
         "lines": [
-          "You’re a spark in the dark",
-          "And my clothes all caught aflame",
-          "You should feel how I feel",
-          "When somebody says your name",
-          "I’m a car speeding down",
-          "The boulevard without a brake",
-          "And I want you more than",
-          "Any stupid song could ever say",
-          "I’m a heart made of wax",
-          "And I’m melting in the sun",
-          "I’m a thread on your shirt",
-          "That is coming undone",
-          "I feel right, I feel wrong",
-          "I feel totally insane",
-          "And I want you more than",
-          "Any stupid song could ever say"
+          "You're a spark in the dark and my clothes all caught aflame",
+          "You should feel how I feel when somebody says your name",
+          "I'm a car speeding down the boulevard without a brake",
+          "And I want you more than any stupid song could ever say",
+          "I'm a heart made of wax and I'm melting in the sun",
+          "I'm a thread on your shirt that is coming undone",
+          "I feel right, I feel wrong, I feel totally insane",
+          "And I want you more than any stupid song could ever say"
         ]
       },
       {
@@ -1250,16 +1255,14 @@
           "Every night like the one before",
           "Dream of you from like 1 to 4",
           "Positively and truly sure",
-          "Nobody’s wanted somebody more",
-          "It’s a thing that I can’t ignore",
-          "Tell your friends that you’re mine",
-          "I’m yours",
-          "With the hand on my heart I swore",
-          "Nobody’s wanted somebody more",
-          "It’s a thing that I can’t ignore",
-          "Tell your friends that you’re mine",
-          "I’m yours",
-          "With a hand on my heart I swore"
+          "Nobody's wanted somebody more",
+          "It's a thing that I can't ignore",
+          "Tell your friends that you're mine, I'm yours",
+          "With a hand on my heart, I swore",
+          "Nobody's wanted somebody more",
+          "It's a thing that I can't ignore",
+          "Tell your friends that you're mine, I'm yours",
+          "With a hand on my heart, I swore"
         ]
       },
       {
@@ -1273,15 +1276,18 @@
           "Arkadaşlarına benim olduğunu söyle,",
           "Ben seninim...",
           "Elim kalbimde yemin ederim ki;",
-          "Kimse birini bu kadar çok arzulamamıştır."
+          "Kimse birini bu kadar çok arzulamamıştır.",
+          "Bu, görmezden gelebileceğim bir şey değil;",
+          "Arkadaşlarına benim olduğunu söyle,",
+          "Ben seninim...",
+          "Elim kalbimde yemin ederim ki..."
         ]
       },
       {
         "original": true,
         "lines": [
-          "I’m going crazy",
-          "I’m going mad",
-          "I want you baby so bad"
+          "I'm going crazy, I'm going mad",
+          "I want you, baby, so bad"
         ]
       },
       {
@@ -1295,22 +1301,14 @@
       {
         "original": true,
         "lines": [
-          "You’re a spark in the dark",
-          "And my clothes all caught aflame",
-          "You should feel how I feel",
-          "When somebody says your name",
-          "I’m a car speeding down",
-          "The boulevard without a brake",
-          "And I want you more than",
-          "Any stupid song could ever say",
-          "I’m a heart made of wax",
-          "And I’m melting in the sun",
-          "I’m a thread on your shirt",
-          "That is coming undone",
-          "I feel right, I feel wrong",
-          "I feel totally insane",
-          "And I want you more than",
-          "Any stupid song could ever say"
+          "You're a spark in the dark and my clothes all caught aflame",
+          "You should feel how I feel when somebody says your name",
+          "I'm a car speeding down the boulevard without a brake",
+          "And I want you more than any stupid song could ever say",
+          "I'm a heart made of wax and I'm melting in the sun",
+          "I'm a thread on your shirt that is coming undone",
+          "I feel right, I feel wrong, I feel totally insane",
+          "And I want you more than any stupid song could ever say"
         ]
       },
       {
@@ -1323,11 +1321,19 @@
           "Bulvarda freni patlamış,",
           "Son sürat giden bir araba gibiyim;",
           "Ve seni, o aptal şarkıların anlatabileceğinden",
+          "Çok daha fazla istiyorum!",
+          "Balmumundan bir kalbim var benim,",
+          "Ve güneşin altında eriyorum...",
+          "Gömleğindeki bir iplik parçasıyım,",
+          "Yavaş yavaş sökülen...",
+          "Doğru mu yapıyorum, yanlış mı bilmiyorum;",
+          "Tamamen zıvanadan çıkmış gibiyim;",
+          "Ve seni, herhangi bir aptal şarkının anlatabileceğinden",
           "Çok daha fazla istiyorum!"
         ]
       }
     ],
-    "excerpt": "New York City’s never looked so blue",
+    "excerpt": "New York City's never looked so blue",
     "annotations": {},
     "difficulty_note": null,
     "spotify": {
@@ -1559,15 +1565,31 @@
     ],
     "image": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
     "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
-    "reading_time": 2,
+    "reading_time": 3,
     "blocks": [
       {
         "original": true,
         "lines": [
+          "Oh (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Oh (Oh)"
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
           "No smoke with no fire",
-          "No silence if there’s no sound",
+          "No silence if there's no sound",
           "One way or another",
-          "You’re going to put me out"
+          "You're going to put me out",
+          "Drinks flowing like water",
+          "Too drunk to turn off the light",
+          "Stay under the covers (Oh)",
+          "Who knows how we'll end the night"
         ]
       },
       {
@@ -1576,21 +1598,7 @@
           "Ateş olmayan yerden duman çıkmaz,",
           "Ses yoksa sessizlik de olmaz...",
           "Öyle ya da böyle,",
-          "Sonunda beni \"söndüreceksin\" (put me out)."
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
-          "Drinks flowing like water",
-          "Too drunk to turn off the light",
-          "Stay under the covers",
-          "Who knows how we’ll end the night"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
+          "Sonunda beni \"söndüreceksin\" (put me out).",
           "İçki su gibi akıyor,",
           "Işığı kapatamayacak kadar sarhoşuz artık.",
           "Yorganın altında kalalım böylece...",
@@ -1601,8 +1609,9 @@
         "original": true,
         "lines": [
           "Just don't hang your hopes on me",
-          "I want to feel something",
-          "God you look so pretty when you tell me that you love me"
+          "I wanna feel something",
+          "God, you look so pretty",
+          "When you tell me that you love me"
         ]
       },
       {
@@ -1617,15 +1626,14 @@
       {
         "original": true,
         "lines": [
-          "I wish that i could lie",
-          "but my mind gets in the way",
-          "I know you think that i’m",
-          "always way too self aware",
-          "Oh we could never",
-          "Be together",
-          "But it’s nice to play pretend",
-          "I wish that i could lie",
-          "But i’m way too self aware"
+          "I wish that I could lie",
+          "But my mind gets in the way",
+          "I know you think that I'm",
+          "Always way too self-aware",
+          "Oh, we could never be together",
+          "But it's nice to play pretend",
+          "I wish that I could lie",
+          "But I'm way too self-aware"
         ]
       },
       {
@@ -1635,21 +1643,20 @@
           "Ama zihnim hep ayak bağı oluyor bana.",
           "Biliyorum, senin gözünde ben;",
           "Her şeyin her zaman \"fazla farkında\" olan o kişiyim.",
-          "Oh, biz asla",
-          "Birlikte olamayız aslında...",
-          "Ama \"mış gibi yapmak\" (play pretend) yine de güzel.",
+          "Oh, biz asla birlikte olamayız aslında...",
+          "Ama \"mış gibi yapmak\" yine de güzel.",
           "Keşke yalan söyleyebilseydim,",
-          "Ama her şeyin çok fazla farkındayım (self aware)."
+          "Ama her şeyin çok fazla farkındayım."
         ]
       },
       {
         "original": true,
         "lines": [
           "Mood swings like the weather",
-          "Body’s Under pressure",
-          "Oh i love the way you’re using your imagination",
+          "Body's under pressure",
+          "Oh, I love the way you're using your imagination",
           "Laws of attraction",
-          "Put em into practice"
+          "Put 'em into practice (Oh)"
         ]
       },
       {
@@ -1666,8 +1673,9 @@
         "original": true,
         "lines": [
           "Just don't hang your hopes on me",
-          "I want to feel something",
-          "God you look so pretty when you tell me that you love me"
+          "I wanna feel something",
+          "God, you look so pretty",
+          "When you tell me that you love me"
         ]
       },
       {
@@ -1682,15 +1690,14 @@
       {
         "original": true,
         "lines": [
-          "I wish that i could lie",
-          "but my mind gets in the way",
-          "I know you think that i’m",
-          "always way too self aware",
-          "Oh we could never",
-          "Be together",
-          "But it’s nice to play pretend",
-          "I wish that i could lie",
-          "But i’m way too self aware"
+          "I wish that I could lie",
+          "But my mind gets in the way",
+          "I know you think that I'm",
+          "Always way too self-aware",
+          "Oh, we could never be together",
+          "But it's nice to play pretend",
+          "I wish that I could lie",
+          "But I'm way too self-aware"
         ]
       },
       {
@@ -1700,18 +1707,73 @@
           "Ama zihnim hep ayak bağı oluyor bana.",
           "Biliyorum, senin gözünde ben;",
           "Her şeyin her zaman \"fazla farkında\" olan o kişiyim.",
-          "Oh, biz asla",
-          "Birlikte olamayız aslında...",
+          "Oh, biz asla birlikte olamayız aslında...",
+          "Ama \"mış gibi yapmak\" yine de güzel.",
+          "Keşke yalan söyleyebilseydim,",
+          "Ama her şeyin çok fazla farkındayım."
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Instrumental Break"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Enstrümantal ara"
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "Just don't hang your hopes on me",
+          "I wanna feel something",
+          "God, you look so pretty",
+          "When you tell me that you love me (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Sadece... Sakın bana umut bağlama;",
+          "Ben sadece bir şeyler hissetmek istiyorum.",
+          "Tanrım, bana \"seni seviyorum\" derken",
+          "O kadar güzel görünüyorsun ki..."
+        ]
+      },
+      {
+        "original": true,
+        "lines": [
+          "I wish that I could lie",
+          "But my mind gets in the way",
+          "I know you think that I'm",
+          "Always way too self-aware",
+          "Oh, we could never be together",
+          "But it's nice to play pretend",
+          "I wish that I could lie",
+          "But I'm way too self-aware"
+        ]
+      },
+      {
+        "original": false,
+        "lines": [
+          "Keşke yalan söyleyebilseydim,",
+          "Ama zihnim hep ayak bağı oluyor bana.",
+          "Biliyorum, senin gözünde ben;",
+          "Her şeyin her zaman \"fazla farkında\" olan o kişiyim.",
+          "Oh, biz asla birlikte olamayız aslında...",
           "Ama \"mış gibi yapmak\" yine de güzel.",
           "Keşke yalan söyleyebilseydim,",
           "Ama her şeyin çok fazla farkındayım."
         ]
       }
     ],
-    "excerpt": "No smoke with no fire",
+    "excerpt": "Oh (Oh)",
     "annotations": {
-      "Put me out": "Hem bir ateşi söndürmek hem de birini hayatından çıkarmak veya nakavt etmek anlamında kullanılan zekice bir kelime oyunu.",
-      "Buradaki trajedi şu": "Şarkıcı sevgilinin yalan söylediğini biliyor ama o yalanın içindeki güzelliğe hayran kalıyor."
+      "put me out": "Hem bir ateşi söndürmek hem de birini hayatından çıkarmak veya nakavt etmek anlamında kullanılan zekice bir kelime oyunu.",
+      "God, you look so pretty": "Buradaki trajedi şu: Şarkıcı sevgilinin yalan söylediğini biliyor ama o yalanın içindeki güzelliğe hayran kalıyor."
     },
     "difficulty_note": null,
     "spotify": {

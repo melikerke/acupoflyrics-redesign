@@ -77,8 +77,8 @@ export function firstPair(post) {
 }
 
 export const featured = enriched[0];
-// The hero's featured translation — chosen for emotional + cinematic weight.
-export const heroPost = enriched.find((p) => p.slug.includes("the-weeknd-hurry-up-tomorrow")) || enriched[0];
+// The hero follows the newest published translation.
+export const heroPost = enriched[0];
 export const recent = enriched.slice(0, 12);
 
 // All Turkish lines of a post, in order (for hero line + teaser).
