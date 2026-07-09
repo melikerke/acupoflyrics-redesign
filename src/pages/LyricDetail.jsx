@@ -182,12 +182,23 @@ async function createLyricCardBlob({ post, card }) {
   const color = card.color || [218, 60, 120];
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
-  canvas.height = 1350;
-  const ctx = canvas.getContext("2d");
+  let ctx = canvas.getContext("2d");
+  const sans = "Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  ctx.font = `700 39px ${sans}`;
+  const lyricLines = selectedLines.flatMap((selectedLine, index) => {
+    const lines = wrapCanvasText(ctx, selectedLine, 830).slice(0, 3);
+    return index < selectedLines.length - 1 ? [...lines, ""] : lines;
+  });
+  while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
+  const lineHeight = 52;
+  const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
+  canvas.height = Math.min(1350, Math.max(860, blockHeight + 650));
+  ctx = canvas.getContext("2d");
   ctx.fillStyle = "#0e1018";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  const glow = ctx.createRadialGradient(780, 820, 20, 780, 820, 640);
+  const glowY = canvas.height * 0.68;
+  const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
   glow.addColorStop(0, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.42)`);
   glow.addColorStop(0.48, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.16)`);
   glow.addColorStop(1, "rgba(14, 16, 24, 0)");
@@ -196,28 +207,20 @@ async function createLyricCardBlob({ post, card }) {
 
   ctx.strokeStyle = "rgba(255,255,255,0.16)";
   ctx.lineWidth = 2;
-  ctx.strokeRect(56, 56, 968, 1238);
+  ctx.strokeRect(56, 56, 968, canvas.height - 112);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "900 32px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  ctx.font = `800 31px ${sans}`;
   ctx.fillText("acupoflyrics", 112, 132);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = "700 96px Georgia, serif";
-  ctx.fillText("“", 112, 292);
+  ctx.fillText("“", 112, 278);
 
-  ctx.font = "780 42px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  const lyricLines = selectedLines.flatMap((selectedLine, index) => {
-    const lines = wrapCanvasText(ctx, selectedLine, 830).slice(0, 3);
-    return index < selectedLines.length - 1 ? [...lines, ""] : lines;
-  });
-  while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
-  const lineHeight = 56;
-  const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
-  const lyricAreaTop = 338;
-  const lyricAreaBottom = 930;
-  let y = Math.round(lyricAreaTop + (lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 42;
-  y = Math.max(350, y);
+  ctx.font = `700 39px ${sans}`;
+  const lyricAreaTop = 314;
+  const lyricAreaBottom = canvas.height - 356;
+  let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 38;
   for (const line of lyricLines) {
     if (!line) {
       y += 18;
@@ -229,18 +232,18 @@ async function createLyricCardBlob({ post, card }) {
 
   ctx.strokeStyle = "rgba(247,243,236,0.26)";
   ctx.beginPath();
-  ctx.moveTo(112, 1018);
-  ctx.lineTo(624, 1018);
+  ctx.moveTo(112, canvas.height - 260);
+  ctx.lineTo(624, canvas.height - 260);
   ctx.stroke();
 
-  drawCover(ctx, cover, 782, 982, 172);
+  drawCover(ctx, cover, 796, canvas.height - 286, 156);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "850 28px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.fillText(post.song, 112, 1092);
+  ctx.font = `760 27px ${sans}`;
+  ctx.fillText(post.song, 112, canvas.height - 186);
   ctx.fillStyle = "rgba(247,243,236,0.66)";
-  ctx.font = "700 23px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.fillText(post.artist, 112, 1130);
+  ctx.font = `650 22px ${sans}`;
+  ctx.fillText(post.artist, 112, canvas.height - 150);
 
   ctx.fillStyle = "rgba(247,243,236,0.82)";
   ctx.font = "700 52px Georgia, serif";
@@ -496,6 +499,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       {cardDraft && (() => {
         const card = buildCard(cardDraft);
         if (!card) return null;
+        const previewHeight = Math.min(540, Math.max(380, 318 + card.selectedLines.join(" ").length * 1.05));
         return (
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
           <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
@@ -521,6 +525,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               style={{
                 "--card-tone": rgb(card.color),
                 "--card-tone-soft": rgb(card.color, 0.28),
+                "--card-preview-height": `${previewHeight}px`,
               }}
             >
               <div className="detail-card-brand">
