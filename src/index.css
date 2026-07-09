@@ -1419,12 +1419,87 @@ body {
 }
 
 .detail-lyric-annot span {
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  margin: 0 1px;
+  border-bottom: 2px dotted var(--detail-accent);
+  border-radius: 5px;
+  padding: 0 0.12em 0.04em;
+  background: linear-gradient(180deg, transparent 46%, var(--detail-accent-soft) 46%);
   color: var(--detail-accent-deep);
-  border-bottom: 1.5px dotted var(--detail-accent);
+  box-shadow: inset 0 -0.34em 0 var(--detail-accent-soft);
+  transition: background 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
+}
+
+.detail-lyric-annot:hover span,
+.detail-lyric-annot:focus-visible span,
+.detail-lyric-annot[aria-pressed="true"] span {
+  background: var(--detail-accent-soft);
+  box-shadow: inset 0 -1.5em 0 var(--detail-accent-soft);
 }
 
 .detail-annotation-panel {
   border-left: 3px solid var(--detail-accent);
+}
+
+.detail-note-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+
+.detail-note-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(7, 10, 12, 0.46);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.detail-note-popover {
+  position: relative;
+  width: min(520px, 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  padding: 28px clamp(22px, 4vw, 34px) 30px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.28);
+}
+
+.detail-note-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(20, 23, 31, 0.11);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--color-ink);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.detail-note-popover h3 {
+  margin: 8px 34px 0 0;
+  color: var(--detail-accent-deep);
+  font-size: clamp(26px, 4vw, 38px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.detail-note-popover p {
+  margin: 18px 0 0;
+  color: var(--color-ink);
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .detail-side-title {

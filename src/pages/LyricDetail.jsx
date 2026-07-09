@@ -86,15 +86,14 @@ function youtubeEmbedUrl(url) {
   return id ? `https://www.youtube-nocookie.com/embed/${id}` : null;
 }
 
-function AnnotationPanel({ selected, count }) {
+function AnnotationDialog({ selected, onClose }) {
+  if (!selected) return null;
   return (
-    <aside className="detail-annotation-panel">
-      <div className="detail-side-title">
-        <h2 className="font-serif">Çevirmenin Notu</h2>
-        <span>✦</span>
-      </div>
-      {selected ? (
-        <>
+    <div className="detail-note-modal" role="dialog" aria-modal="true" aria-label="Kelime açıklaması">
+      <button type="button" className="detail-note-backdrop" aria-label="Açıklamayı kapat" onClick={onClose} />
+      <div className="detail-note-popover">
+        <button type="button" className="detail-note-close" aria-label="Açıklamayı kapat" onClick={onClose}>×</button>
+        <div>
           <div className="detail-selected-label">Seçili ifade</div>
           <h3 className="font-serif">“{selected.display || selected.key}”</h3>
           <p>{selected.note}</p>
@@ -108,21 +107,9 @@ function AnnotationPanel({ selected, count }) {
             <span aria-hidden />
             melike
           </div>
-        </>
-      ) : (
-        <>
-          <h3 className="font-serif">Satırın arkasındaki anlam</h3>
-          <p>
-            İşaretli bir kelimeye dokunduğunda çeviri tercihi, alternatif anlam
-            ve küçük notlar burada açılır.
-          </p>
-          <div className="detail-note-source">
-            <span>bu çeviride</span>
-            <em>{count ? `${count} not var` : "notlar yakında"}</em>
-          </div>
-        </>
-      )}
-    </aside>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -675,20 +662,14 @@ export default function LyricDetail() {
   }, []);
 
   const notes = useMemo(() => (post ? { ...annotationsFor(post.slug), ...(post.annotations || {}) } : {}), [post]);
-  const noteKeys = useMemo(() => Object.keys(notes), [notes]);
 
   useEffect(() => {
     if (post) addHistory(post.slug);
   }, [post, slug]);
 
   useEffect(() => {
-    if (!noteKeys.length) {
-      setSelectedNote(null);
-      return;
-    }
-    const key = noteKeys[0];
-    setSelectedNote({ key, note: notes[key] });
-  }, [noteKeys, notes, slug]);
+    setSelectedNote(null);
+  }, [slug]);
 
   const sharePost = async () => {
     const url = window.location.href;
@@ -823,7 +804,7 @@ export default function LyricDetail() {
 
       <DetailVideo post={post} embedUrl={videoEmbedUrl} onRead={scrollToReader} />
 
-      <section className={`detail-reading-shell${noteKeys.length > 0 ? " has-notes" : ""}`}>
+      <section className="detail-reading-shell">
         <aside className="detail-info-panel">
           <h2 className="font-serif">Şarkı Bilgisi</h2>
           <MetaRow label="Sanatçı" value={post.artist} />
@@ -857,8 +838,9 @@ export default function LyricDetail() {
           </div>
         </div>
 
-        {noteKeys.length > 0 && <AnnotationPanel selected={selectedNote} count={noteKeys.length} />}
       </section>
+
+      <AnnotationDialog selected={selectedNote} onClose={() => setSelectedNote(null)} />
 
       <section className="detail-related">
         {related.length > 0 && (
