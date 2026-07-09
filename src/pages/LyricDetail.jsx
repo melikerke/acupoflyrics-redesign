@@ -96,7 +96,7 @@ function AnnotationPanel({ selected, count }) {
       {selected ? (
         <>
           <div className="detail-selected-label">Seçili ifade</div>
-          <h3 className="font-serif">“{selected.key}”</h3>
+          <h3 className="font-serif">“{selected.display || selected.key}”</h3>
           <p>{selected.note}</p>
           {selected.line && (
             <div className="detail-note-source">
@@ -409,7 +409,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       <button
         type="button"
         className="detail-lyric-annot"
-        onClick={() => onSelect({ key, note: notes[key], line })}
+        onClick={() => onSelect({ key, display: marked, note: notes[key], line })}
         aria-pressed={selectedKey === key}
       >
         {before}
@@ -674,7 +674,7 @@ export default function LyricDetail() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const notes = useMemo(() => (post ? annotationsFor(post.slug) : {}), [post]);
+  const notes = useMemo(() => (post ? { ...annotationsFor(post.slug), ...(post.annotations || {}) } : {}), [post]);
   const noteKeys = useMemo(() => Object.keys(notes), [notes]);
 
   useEffect(() => {
