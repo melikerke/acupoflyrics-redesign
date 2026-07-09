@@ -2150,10 +2150,10 @@ body {
 
 .detail-card-lines p {
   margin: 0;
-  font-size: clamp(29px, 7.4vw, 43px);
+  font-size: clamp(22px, 5.8vw, 34px);
   font-weight: 950;
   letter-spacing: 0;
-  line-height: 1.05;
+  line-height: 1.12;
 }
 
 .detail-card-preview strong {
@@ -2417,7 +2417,7 @@ body {
   }
 
   .detail-card-lines p {
-    font-size: clamp(25px, 7vw, 32px);
+    font-size: clamp(20px, 5.8vw, 27px);
   }
 
   .detail-card-line-picker {

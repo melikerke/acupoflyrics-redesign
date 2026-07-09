@@ -242,7 +242,7 @@ async function createLyricCardBlob({ post, card }) {
   ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 112, card.design === "stack" ? 112 : 330);
 
   ctx.fillStyle = ink;
-  ctx.font = card.design === "poster" ? "950 58px Inter, system-ui, sans-serif" : "950 64px Inter, system-ui, sans-serif";
+  ctx.font = card.design === "poster" ? "950 46px Inter, system-ui, sans-serif" : "950 50px Inter, system-ui, sans-serif";
   const textX = card.design === "split" ? 112 : 112;
   let y = card.design === "stack" ? 420 : card.design === "poster" ? 470 : 450;
   const maxWidth = card.design === "split" ? 860 : 840;
@@ -250,7 +250,7 @@ async function createLyricCardBlob({ post, card }) {
     const lines = wrapCanvasText(ctx, selectedLine, maxWidth).slice(0, 3);
     for (const line of lines) {
       ctx.fillText(line, textX, y);
-      y += card.design === "poster" ? 70 : 78;
+      y += card.design === "poster" ? 58 : 64;
     }
     y += 18;
   }
