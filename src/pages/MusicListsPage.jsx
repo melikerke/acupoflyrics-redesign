@@ -98,8 +98,14 @@ export default function MusicListsPage() {
           {active.entries.map((entry) => {
             const post = matches.get(`${active.id}-${entry.rank}`);
             const cover = post?.cover || entry.cover;
+            const target = post ? songPath(post) : searchPath(entry.title);
             return (
-              <div key={entry.rank} className="site-row" style={{ cursor: "default" }}>
+              <Link
+                key={entry.rank}
+                to={target}
+                className={`site-row${post ? " has-translation" : ""}`}
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
                 <span className="site-row-no">{String(entry.rank).padStart(2, "0")}</span>
                 <span className="site-row-cover">
                   {cover && <img src={cover} alt="" loading="lazy" />}
@@ -110,16 +116,16 @@ export default function MusicListsPage() {
                 </span>
                 <span className="site-row-artist" />
                 {post ? (
-                  <Link to={songPath(post)} className="site-row-stat" style={{ whiteSpace: "nowrap" }}>
+                  <span className="site-row-stat" style={{ whiteSpace: "nowrap" }}>
                     Çeviriyi oku →
-                  </Link>
+                  </span>
                 ) : (
-                  <Link to={searchPath(entry.title)} className="site-row-stat" style={{ whiteSpace: "nowrap", opacity: 0.7 }}>
+                  <span className="site-row-stat" style={{ whiteSpace: "nowrap", opacity: 0.7 }}>
                     Çeviri ara
-                  </Link>
+                  </span>
                 )}
                 <span className="site-row-arrow" />
-              </div>
+              </Link>
             );
           })}
         </div>

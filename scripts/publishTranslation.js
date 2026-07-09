@@ -5,6 +5,7 @@ import path from "node:path";
 import { fetchTrackBundle } from "../server/spotify.js";
 import { geniusMatch } from "../server/genius.js";
 import { publishRecord } from "../server/ingest.js";
+import { updateCharts } from "../server/charts.js";
 
 function loadEnv() {
   for (const file of [".env.local", ".env"]) {
@@ -230,6 +231,20 @@ async function main() {
   const result = await publishRecord(record);
   console.log(`\nYazıldı: ${result.title}`);
   console.log(`URL: /${result.slug}/`);
+
+  if (args["skip-charts"]) {
+    console.log("\nMüzik listeleri güncellemesi atlandı.");
+  } else {
+    console.log("\nMüzik listeleri güncelleniyor...");
+    try {
+      const charts = await updateCharts({ spotify });
+      const ok = charts.lists.filter((list) => list.ok);
+      const failed = charts.lists.filter((list) => !list.ok);
+      console.log(`Listeler: ${ok.length} kaynak güncellendi${failed.length ? `, ${failed.length} kaynak atlandı` : ""}.`);
+    } catch (error) {
+      console.warn(`Müzik listeleri güncellenemedi: ${error.message}`);
+    }
+  }
 
   if (args.commit) {
     run("npm", ["run", "build"], "build");
