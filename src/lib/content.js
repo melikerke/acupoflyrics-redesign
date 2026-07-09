@@ -124,7 +124,7 @@ export function primaryArtistSlug(post) {
 
 export function getArtist(slug) {
   const meta = artistBySlug.get(slug);
-  const list = enriched.filter((p) => p.category_slugs.includes(slug) || primaryArtistSlug(p) === slug);
+  const list = enriched.filter((p) => primaryArtistSlug(p) === slug);
   const name = meta ? meta.name : list[0] ? list[0].artist : slug;
   const albums = albumIndex.filter((a) => a.artistSlug === slug);
   const sortedByDate = [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -146,8 +146,7 @@ export function getArtist(slug) {
 }
 
 export function artistSlugFor(post) {
-  // First category slug usually maps to the artist.
-  return post.category_slugs[0];
+  return primaryArtistSlug(post);
 }
 
 const STOP = new Set("the a an and or but of to in on at for with i you he she it we they me my your his her our their is am are was were be been being do does did this that these those so no not all up out as if then than from into your".split(" "));

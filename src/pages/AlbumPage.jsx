@@ -2,11 +2,10 @@ import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   formatDate,
+  artistAlbums,
   getAlbum,
-  latestTranslations,
   moreFromArtist,
   readingMinutes,
-  relatedAlbums,
 } from "../lib/content";
 import { albumPath, artistPath, canonical } from "../lib/paths";
 import { useAlbumColor } from "../lib/color";
@@ -20,7 +19,6 @@ import NotFound from "../components/site/NotFound";
 
 function AlbumEditorialPanel({ album }) {
   const minutes = readingMinutes(album.tracks);
-  const firstTrack = album.tracks[0];
 
   return (
     <section className="site-album-editorial" aria-label="Albüm özeti">
@@ -46,7 +44,6 @@ function AlbumEditorialPanel({ album }) {
           {album.year && <div><dt>Yıl</dt><dd>{album.year}</dd></div>}
           {album.typeLabel && <div><dt>Tip</dt><dd>{album.typeLabel}</dd></div>}
           {album.label && <div><dt>Label</dt><dd>{album.label}</dd></div>}
-          {firstTrack?.spotify?.track?.isrc && <div><dt>İlk ISRC</dt><dd>{firstTrack.spotify.track.isrc}</dd></div>}
         </dl>
         {album.spotifyUrl && (
           <a className="site-album-source" href={album.spotifyUrl} target="_blank" rel="noopener noreferrer">
@@ -65,9 +62,8 @@ export default function AlbumPage() {
   const theme = useMemo(() => themeFromColor(color), [color]);
 
   const trackSlugs = useMemo(() => album?.tracks.map((t) => t.slug) || [], [album]);
-  const related = useMemo(() => (album ? relatedAlbums(album, 6) : []), [album]);
+  const related = useMemo(() => (album ? artistAlbums(album.artistSlug, album.slug).slice(0, 6) : []), [album]);
   const more = useMemo(() => (album ? moreFromArtist(album.artistSlug, trackSlugs, 6) : []), [album, trackSlugs]);
-  const latest = useMemo(() => latestTranslations(8, trackSlugs), [trackSlugs]);
 
   const path = albumPath(slug);
   useSeo({
@@ -151,7 +147,7 @@ export default function AlbumPage() {
       </Section>
 
       {related.length > 0 && (
-        <Section title="İlgili albümler" to="/discover#albums">
+        <Section title={`${album.artist}'den daha fazla albüm`} to={artistPath(album.artistSlug)}>
           <Grid min={170}>
             {related.map((a) => <AlbumCard key={a.slug} album={a} />)}
           </Grid>
@@ -166,11 +162,6 @@ export default function AlbumPage() {
         </Section>
       )}
 
-      <Section title="Son çeviriler" to="/discover">
-        <Shelf>
-          {latest.map((post) => <SongCard key={post.slug} post={post} />)}
-        </Shelf>
-      </Section>
     </SiteShell>
   );
 }
