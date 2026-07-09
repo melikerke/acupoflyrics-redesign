@@ -204,33 +204,43 @@ async function createLyricCardBlob({ post, card }) {
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = "700 96px Georgia, serif";
-  ctx.fillText("“", 112, 330);
+  ctx.fillText("“", 112, 292);
 
-  ctx.font = "820 50px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  let y = 418;
-  for (const selectedLine of selectedLines) {
-    const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
-    for (const line of lines) {
-      ctx.fillText(line, 112, y);
-      y += 64;
+  ctx.font = "780 42px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  const lyricLines = selectedLines.flatMap((selectedLine, index) => {
+    const lines = wrapCanvasText(ctx, selectedLine, 830).slice(0, 3);
+    return index < selectedLines.length - 1 ? [...lines, ""] : lines;
+  });
+  while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
+  const lineHeight = 56;
+  const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
+  const lyricAreaTop = 338;
+  const lyricAreaBottom = 930;
+  let y = Math.round(lyricAreaTop + (lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 42;
+  y = Math.max(350, y);
+  for (const line of lyricLines) {
+    if (!line) {
+      y += 18;
+      continue;
     }
-    y += 14;
+    ctx.fillText(line, 112, y);
+    y += lineHeight;
   }
 
   ctx.strokeStyle = "rgba(247,243,236,0.26)";
   ctx.beginPath();
-  ctx.moveTo(112, 1078);
-  ctx.lineTo(620, 1078);
+  ctx.moveTo(112, 1018);
+  ctx.lineTo(624, 1018);
   ctx.stroke();
 
-  drawCover(ctx, cover, 760, 1038, 180);
+  drawCover(ctx, cover, 782, 982, 172);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "850 30px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.fillText(post.song, 112, 1156);
+  ctx.font = "850 28px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  ctx.fillText(post.song, 112, 1092);
   ctx.fillStyle = "rgba(247,243,236,0.66)";
-  ctx.font = "700 24px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.fillText(post.artist, 112, 1196);
+  ctx.font = "700 23px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  ctx.fillText(post.artist, 112, 1130);
 
   ctx.fillStyle = "rgba(247,243,236,0.82)";
   ctx.font = "700 52px Georgia, serif";

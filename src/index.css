@@ -2173,7 +2173,7 @@ body {
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto minmax(260px, 1fr) auto;
   gap: 20px;
   min-height: 520px;
   padding: 28px;
@@ -2236,7 +2236,8 @@ body {
   z-index: 1;
   align-self: center;
   display: grid;
-  gap: 9px;
+  gap: 8px;
+  padding-top: 24px;
 }
 
 .detail-card-lines::before {
@@ -2250,10 +2251,10 @@ body {
 .detail-card-lines p {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  font-size: clamp(23px, 6vw, 34px);
+  font-size: clamp(21px, 5.4vw, 30px);
   font-weight: 760;
   letter-spacing: 0;
-  line-height: 1.08;
+  line-height: 1.12;
 }
 
 .detail-card-preview strong {
