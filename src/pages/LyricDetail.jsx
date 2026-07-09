@@ -183,7 +183,7 @@ async function createLyricCardBlob({ post, card }) {
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
   let ctx = canvas.getContext("2d");
-  const sans = "Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  const sans = "Programme, Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
   ctx.font = `700 39px ${sans}`;
   const lyricLines = selectedLines.flatMap((selectedLine, index) => {
     const lines = wrapCanvasText(ctx, selectedLine, 830).slice(0, 3);
