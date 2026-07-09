@@ -148,8 +148,14 @@ function wrapCanvasText(ctx, text, maxWidth) {
   return lines;
 }
 
-function lyricCardFilename(post, section) {
-  return `${post.artist}-${post.song}-${section.label}`
+const CARD_MAX_LINES = 3;
+
+function cardLanguageLabel(language) {
+  return language === "tr" ? "Türkçe" : "Original";
+}
+
+function lyricCardFilename(post, card) {
+  return `${post.artist}-${post.song}-${card.section.label}-${card.language}`
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -157,69 +163,55 @@ function lyricCardFilename(post, section) {
     .replace(/^-+|-+$/g, "") || "lyric-card";
 }
 
-function createLyricCardBlob({ post, section }) {
+function createLyricCardBlob({ post, card }) {
   return new Promise((resolve) => {
+    const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
+    const isTurkish = card.language === "tr";
     const canvas = document.createElement("canvas");
     canvas.width = 1080;
     canvas.height = 1350;
     const ctx = canvas.getContext("2d");
     const gradient = ctx.createLinearGradient(0, 0, 1080, 1350);
-    gradient.addColorStop(0, "#21151f");
-    gradient.addColorStop(0.48, "#3f2433");
-    gradient.addColorStop(1, "#0c1113");
+    gradient.addColorStop(0, isTurkish ? "#ff5c9f" : "#1ed760");
+    gradient.addColorStop(0.5, isTurkish ? "#d83c78" : "#159947");
+    gradient.addColorStop(1, "#101010");
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx.fillStyle = "rgba(255, 255, 255, 0.045)";
-    for (let x = 54; x < 1080; x += 54) {
-      for (let y = 54; y < 1350; y += 54) {
-        ctx.beginPath();
-        ctx.arc(x, y, 2.2, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
+    ctx.fillStyle = "rgba(0, 0, 0, 0.18)";
+    ctx.fillRect(74, 74, 932, 1202);
+    ctx.fillStyle = "rgba(255, 255, 255, 0.92)";
+    ctx.fillRect(74, 74, 932, 8);
 
-    ctx.fillStyle = "rgba(255, 255, 255, 0.09)";
-    ctx.fillRect(86, 92, 908, 1166);
-    ctx.strokeStyle = "rgba(255, 255, 255, 0.22)";
-    ctx.lineWidth = 2;
-    ctx.strokeRect(86, 92, 908, 1166);
+    ctx.fillStyle = "#121212";
+    ctx.font = "900 32px Inter, system-ui, sans-serif";
+    ctx.fillText("acupoflyrics", 116, 154);
 
-    ctx.fillStyle = "#f7f0e8";
-    ctx.font = "42px Georgia, serif";
-    ctx.fillText("acupoflyrics", 132, 172);
+    ctx.fillStyle = "rgba(18, 18, 18, 0.68)";
+    ctx.font = "800 24px Inter, system-ui, sans-serif";
+    ctx.fillText(`${card.section.label.toUpperCase()} · ${cardLanguageLabel(card.language).toUpperCase()}`, 116, 212);
 
-    ctx.fillStyle = "#f05b9d";
-    ctx.font = "700 28px Inter, system-ui, sans-serif";
-    ctx.letterSpacing = "2px";
-    ctx.fillText(section.label.toUpperCase(), 132, 264);
-
-    ctx.fillStyle = "#fffaf2";
-    ctx.font = "54px Georgia, serif";
-    const trLines = wrapCanvasText(ctx, section.tr.join(" / "), 816).slice(0, 8);
+    ctx.fillStyle = "#121212";
+    ctx.font = "900 66px Inter, system-ui, sans-serif";
     let y = 360;
-    for (const line of trLines) {
-      ctx.fillText(line, 132, y);
-      y += 76;
-    }
-
-    if (section.en.length) {
-      ctx.fillStyle = "rgba(255, 250, 242, 0.62)";
-      ctx.font = "30px Georgia, serif";
-      const enLines = wrapCanvasText(ctx, `“${section.en.join(" / ")}”`, 816).slice(0, 4);
-      y += 26;
-      for (const line of enLines) {
-        ctx.fillText(line, 132, y);
-        y += 46;
+    for (const selectedLine of selectedLines) {
+      const lines = wrapCanvasText(ctx, selectedLine, 848).slice(0, 3);
+      for (const line of lines) {
+        ctx.fillText(line, 116, y);
+        y += 78;
       }
+      y += 24;
     }
 
-    ctx.fillStyle = "rgba(255, 250, 242, 0.78)";
+    ctx.fillStyle = "#121212";
+    ctx.font = "900 34px Inter, system-ui, sans-serif";
+    ctx.fillText(post.song, 116, 1144);
+    ctx.fillStyle = "rgba(18, 18, 18, 0.72)";
     ctx.font = "700 28px Inter, system-ui, sans-serif";
-    ctx.fillText(`${post.artist} - ${post.song}`, 132, 1152);
-    ctx.fillStyle = "rgba(255, 250, 242, 0.5)";
-    ctx.font = "24px Inter, system-ui, sans-serif";
-    ctx.fillText("Türkçe çeviri kartı", 132, 1196);
+    ctx.fillText(post.artist, 116, 1192);
+    ctx.fillStyle = "rgba(18, 18, 18, 0.52)";
+    ctx.font = "700 24px Inter, system-ui, sans-serif";
+    ctx.fillText("lyrics card", 116, 1236);
 
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
   });
@@ -229,7 +221,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
   const [viewMode, setViewMode] = useState("both");
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
-  const [cardSection, setCardSection] = useState(null);
+  const [cardDraft, setCardDraft] = useState(null);
   const [cardStatus, setCardStatus] = useState("");
   const [cardBusy, setCardBusy] = useState(false);
   const keys = Object.keys(notes);
@@ -256,17 +248,64 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
     document.getElementById(`lyric-section-${index}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const shareSection = async (section) => {
-    const text = `${post.artist} - ${post.song}\n${section.label}\n\n${section.tr.join("\n")}\n\nacupoflyrics`;
+  const openCard = (section, language) => {
+    const lines = section[language].filter(Boolean);
+    setCardStatus("");
+    setCardDraft({
+      section,
+      language,
+      selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
+    });
+  };
+
+  const setCardLanguage = (language) => {
+    setCardStatus("");
+    setCardDraft((draft) => {
+      if (!draft) return draft;
+      const lines = draft.section[language].filter(Boolean);
+      return {
+        ...draft,
+        language,
+        selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
+      };
+    });
+  };
+
+  const toggleCardLine = (index) => {
+    setCardStatus("");
+    setCardDraft((draft) => {
+      if (!draft) return draft;
+      if (draft.selected.includes(index)) {
+        return { ...draft, selected: draft.selected.filter((item) => item !== index) };
+      }
+      if (draft.selected.length >= CARD_MAX_LINES) {
+        setCardStatus("En fazla 3 satır seçebilirsin.");
+        return draft;
+      }
+      return { ...draft, selected: [...draft.selected, index].sort((a, b) => a - b) };
+    });
+  };
+
+  const buildCard = (draft) => {
+    if (!draft) return null;
+    const lines = draft.section[draft.language].filter(Boolean);
+    const selectedLines = draft.selected.map((index) => lines[index]).filter(Boolean);
+    return { ...draft, lines, selectedLines };
+  };
+
+  const shareCard = async () => {
+    const card = buildCard(cardDraft);
+    if (!card) return;
+    const text = `${post.artist} - ${post.song}\n${card.section.label} · ${cardLanguageLabel(card.language)}\n\n${card.selectedLines.join("\n")}\n\nacupoflyrics`;
     setCardBusy(true);
     setCardStatus("");
     try {
-      const blob = await createLyricCardBlob({ post, section });
-      const file = new File([blob], `${lyricCardFilename(post, section)}.png`, { type: "image/png" });
+      const blob = await createLyricCardBlob({ post, card });
+      const file = new File([blob], `${lyricCardFilename(post, card)}.png`, { type: "image/png" });
       if (navigator.canShare?.({ files: [file] })) {
-        await navigator.share({ files: [file], title: `${post.song} - ${section.label}`, text });
+        await navigator.share({ files: [file], title: `${post.song} - ${card.section.label}`, text });
       } else if (navigator.share) {
-        await navigator.share({ title: `${post.song} - ${section.label}`, text, url: window.location.href });
+        await navigator.share({ title: `${post.song} - ${card.section.label}`, text, url: window.location.href });
       } else {
         await navigator.clipboard.writeText(`${text}\n${window.location.href}`);
         setCardStatus("Kart metni kopyalandı.");
@@ -278,15 +317,17 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
     }
   };
 
-  const downloadSection = async (section) => {
+  const downloadCard = async () => {
+    const card = buildCard(cardDraft);
+    if (!card) return;
     setCardBusy(true);
     setCardStatus("");
     try {
-      const blob = await createLyricCardBlob({ post, section });
+      const blob = await createLyricCardBlob({ post, card });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `${lyricCardFilename(post, section)}.png`;
+      a.download = `${lyricCardFilename(post, card)}.png`;
       a.click();
       URL.revokeObjectURL(url);
       setCardStatus("PNG indirildi.");
@@ -350,6 +391,8 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
           const trKey = findKey(trText);
           const key = trKey || enKey;
           const active = key && selectedKey === key;
+          const hasEn = section.en.some(Boolean);
+          const hasTr = section.tr.some(Boolean);
           return (
             <article
               className={`detail-lyric-section${active ? " is-active" : ""}`}
@@ -360,18 +403,23 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
               <header className="detail-section-head">
                 <span className="detail-section-pill">{section.label}</span>
                 <i aria-hidden />
-                <button type="button" onClick={() => setCardSection(section)}>Lyric card</button>
               </header>
               <div className={`detail-section-copy is-${viewMode}`}>
                 {viewMode !== "tr" && (
                   <div className="detail-section-col is-en">
-                    <span className="detail-col-tag">ORİJİNAL</span>
+                    <div className="detail-col-head">
+                      <span className="detail-col-tag">ORİJİNAL</span>
+                      {hasEn && <button type="button" onClick={() => openCard(section, "en")}>Lyric card</button>}
+                    </div>
                     <p className="detail-section-en">{renderLine(enText, `en-${index}`)}</p>
                   </div>
                 )}
                 {viewMode !== "en" && (
                   <div className="detail-section-col is-tr">
-                    <span className="detail-col-tag">TÜRKÇE</span>
+                    <div className="detail-col-head">
+                      <span className="detail-col-tag">TÜRKÇE</span>
+                      {hasTr && <button type="button" onClick={() => openCard(section, "tr")}>Lyric card</button>}
+                    </div>
                     <p className="detail-section-tr">{renderLine(trText, `tr-${index}`)}</p>
                   </div>
                 )}
@@ -388,32 +436,55 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect }) {
           <button type="button" className={viewMode === "tr" ? "is-active" : ""} onClick={() => setViewMode("tr")}>TR</button>
         </div>
       </div>
-      {cardSection && (
+      {cardDraft && (() => {
+        const card = buildCard(cardDraft);
+        if (!card) return null;
+        return (
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
-          <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardSection(null)} />
+          <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
           <div className="detail-card-dialog">
-            <div className="detail-card-preview">
-              <span>acupoflyrics</span>
-              <small>{cardSection.label}</small>
-              <p>{cardSection.tr.join(" / ")}</p>
-              <em>“{cardSection.en.join(" / ")}”</em>
-              <strong>{post.artist} - {post.song}</strong>
+            <div className="detail-card-language-switch" aria-label="Kart dili">
+              <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>TR</button>
+              <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>EN</button>
+            </div>
+            <div className={`detail-card-preview is-${card.language}`}>
+              <div className="detail-card-brand">
+                <span>acupoflyrics</span>
+                <small>{card.section.label} · {cardLanguageLabel(card.language)}</small>
+              </div>
+              <div className="detail-card-lines">
+                {card.selectedLines.map((line, lineIndex) => <p key={`${line}-${lineIndex}`}>{line}</p>)}
+              </div>
+              <strong>{post.song}<em>{post.artist}</em></strong>
+            </div>
+            <div className="detail-card-line-picker" aria-label="Kart satırları">
+              {card.lines.map((line, lineIndex) => (
+                <button
+                  key={`${line}-${lineIndex}`}
+                  type="button"
+                  className={card.selected.includes(lineIndex) ? "is-selected" : ""}
+                  onClick={() => toggleCardLine(lineIndex)}
+                >
+                  {line}
+                </button>
+              ))}
             </div>
             <div className="detail-card-actions">
-              <button type="button" onClick={() => downloadSection(cardSection)} disabled={cardBusy}>
+              <button type="button" onClick={downloadCard} disabled={cardBusy || !card.selectedLines.length}>
                 PNG indir
               </button>
-              <button type="button" onClick={() => shareSection(cardSection)} disabled={cardBusy}>
+              <button type="button" onClick={shareCard} disabled={cardBusy || !card.selectedLines.length}>
                 Paylaş
               </button>
-              <button type="button" className="is-ghost" onClick={() => setCardSection(null)}>
+              <button type="button" className="is-ghost" onClick={() => setCardDraft(null)}>
                 Kapat
               </button>
             </div>
             {cardStatus && <p className="detail-card-status">{cardStatus}</p>}
           </div>
         </div>
-      )}
+        );
+      })()}
     </div>
   );
 }
