@@ -406,8 +406,8 @@
   {
     "id": "4667",
     "slug": "jisoo-zayn-eyes-closed-turkce-ceviri",
-    "title": "JISOO, ZAYN EYES CLOSED (with ZAYN) Türkçe Çeviri",
-    "song": "EYES CLOSED (with ZAYN)",
+    "title": "JISOO, ZAYN EYES CLOSED Türkçe Çeviri",
+    "song": "EYES CLOSED",
     "artist": "JISOO, ZAYN",
     "cover": "https://i.scdn.co/image/ab67616d0000b2731bc666f3fa4156c40c6f90d2",
     "date": "Thu, 09 Oct 2025 20:15:30 +0000",
@@ -1140,8 +1140,8 @@
   {
     "id": "4558",
     "slug": "j-hope-glorilla-killin-it-girl-turkce-ceviri",
-    "title": "j-hope, GloRilla Killin' It Girl (feat. GloRilla) Türkçe Çeviri",
-    "song": "Killin' It Girl (feat. GloRilla)",
+    "title": "j-hope, GloRilla Killin' It Girl Türkçe Çeviri",
+    "song": "Killin' It Girl",
     "artist": "j-hope, GloRilla",
     "cover": "https://i.scdn.co/image/ab67616d0000b273d4d5c6bf0536bc4df8cfca2f",
     "date": "Fri, 13 Jun 2025 06:50:08 +0000",
@@ -1509,8 +1509,8 @@
   {
     "id": "4520",
     "slug": "jin-ft-yena-loser-turkce-ceviri",
-    "title": "Jin, YENA Loser (feat. YENA) Türkçe Çeviri",
-    "song": "Loser (feat. YENA)",
+    "title": "Jin, YENA Loser Türkçe Çeviri",
+    "song": "Loser",
     "artist": "Jin, YENA",
     "cover": "https://i.scdn.co/image/ab67616d0000b27389228504f700641956e29f5d",
     "date": "Fri, 30 May 2025 07:13:27 +0000",
@@ -1891,8 +1891,8 @@
   {
     "id": "4464",
     "slug": "maroon-5-lisa-priceless-turkce-ceviri",
-    "title": "Maroon 5, LISA Priceless (feat. LISA) Türkçe Çeviri",
-    "song": "Priceless (feat. LISA)",
+    "title": "Maroon 5, LISA Priceless Türkçe Çeviri",
+    "song": "Priceless",
     "artist": "Maroon 5, LISA",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732c9214c857ff01deccc34592",
     "date": "Fri, 02 May 2025 07:25:56 +0000",
@@ -2107,20 +2107,28 @@
   {
     "id": "4427",
     "slug": "coldplay-twice-we-pray-turkce-ceviri",
-    "title": "Coldplay , TWICE, Little Simz, Burna Boy, Elyanna & TINI WE PRAY Türkçe Çeviri",
-    "song": ", TWICE, Little Simz, Burna Boy, Elyanna & TINI WE PRAY",
-    "artist": "Coldplay",
+    "title": "Coldplay, TWICE, Little Simz, Burna Boy, Elyanna, TINI WE PRAY Türkçe Çeviri",
+    "song": "WE PRAY",
+    "artist": "Coldplay, TWICE, Little Simz, Burna Boy, Elyanna, TINI",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2025/04/coldplay-twice-we-pray-turkce-ceviri.jpg",
     "date": "Fri, 18 Apr 2025 09:49:40 +0000",
     "reading_time": 4,
     "excerpt": "Oh And so we pray",
     "categories": [
       "Coldplay",
-      "TWICE"
+      "TWICE",
+      "Little Simz",
+      "Burna Boy",
+      "Elyanna",
+      "TINI"
     ],
     "category_slugs": [
       "coldplay",
-      "twice"
+      "twice",
+      "little-simz",
+      "burna-boy",
+      "elyanna",
+      "tini"
     ],
     "spotify": {
       "track": {},
@@ -2672,8 +2680,8 @@
   {
     "id": "4365",
     "slug": "j-hope-miguel-sweet-dreams-turkce-ceviri",
-    "title": "j-hope, Miguel Sweet Dreams (feat. Miguel) (Johnny GOLD Remix) Türkçe Çeviri",
-    "song": "Sweet Dreams (feat. Miguel) (Johnny GOLD Remix)",
+    "title": "j-hope, Miguel Sweet Dreams (Johnny GOLD Remix) Türkçe Çeviri",
+    "song": "Sweet Dreams (Johnny GOLD Remix)",
     "artist": "j-hope, Miguel",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a",
     "date": "Fri, 07 Mar 2025 14:38:47 +0000",
@@ -3002,8 +3010,8 @@
   {
     "id": "4340",
     "slug": "jennie-childish-gambino-kali-uchis-damn-right-turkce-ceviri",
-    "title": "JENNIE, Childish Gambino, Kali Uchis Damn Right (feat. Childish Gambino & Kali Uchis) Türkçe Çeviri",
-    "song": "Damn Right (feat. Childish Gambino & Kali Uchis)",
+    "title": "JENNIE, Childish Gambino, Kali Uchis Damn Right Türkçe Çeviri",
+    "song": "Damn Right",
     "artist": "JENNIE, Childish Gambino, Kali Uchis",
     "cover": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
     "date": "Fri, 07 Mar 2025 11:53:04 +0000",
@@ -3116,8 +3124,8 @@
   {
     "id": "4326",
     "slug": "jennie-dua-lipa-handlebars-turkce-ceviri",
-    "title": "JENNIE, Dua Lipa Handlebars (feat. Dua Lipa) Türkçe Çeviri",
-    "song": "Handlebars (feat. Dua Lipa)",
+    "title": "JENNIE, Dua Lipa Handlebars Türkçe Çeviri",
+    "song": "Handlebars",
     "artist": "JENNIE, Dua Lipa",
     "cover": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
     "date": "Thu, 06 Mar 2025 23:27:02 +0000",
@@ -3283,19 +3291,21 @@
   {
     "id": "4304",
     "slug": "jennie-ft-fkj-intro-jane-turkce-ceviri",
-    "title": "JENNIE ft FKJ Intro JANE Türkçe Çeviri",
-    "song": "ft FKJ Intro JANE",
-    "artist": "JENNIE",
+    "title": "JENNIE, FKJ Intro : JANE Türkçe Çeviri",
+    "song": "Intro : JANE",
+    "artist": "JENNIE, FKJ",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2025/03/jennie-ft-fkj-intro-jane-turkce-ceviri.jpg",
     "date": "Thu, 06 Mar 2025 11:51:59 +0000",
     "reading_time": 1,
     "excerpt": "Run like this, run, I Run like this, run, love you",
     "categories": [
       "JENNIE",
+      "FKJ",
       "RUBY"
     ],
     "category_slugs": [
       "jennie",
+      "fkj",
       "ruby"
     ],
     "spotify": {
@@ -3699,8 +3709,8 @@
   {
     "id": "4226",
     "slug": "lisa-ft-tyla-when-im-with-you-turkce-ceviri",
-    "title": "LISA, Tyla When I'm With You (feat. Tyla) Türkçe Çeviri",
-    "song": "When I'm With You (feat. Tyla)",
+    "title": "LISA, Tyla When I'm With You Türkçe Çeviri",
+    "song": "When I'm With You",
     "artist": "LISA, Tyla",
     "cover": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
     "date": "Thu, 27 Feb 2025 22:34:54 +0000",
@@ -3962,8 +3972,8 @@
   {
     "id": "4202",
     "slug": "lisa-ft-megan-thee-stallion-rapunzel-turkce-ceviri",
-    "title": "LISA, Megan Thee Stallion Rapunzel (feat. Megan Thee Stallion) Türkçe Çeviri",
-    "song": "Rapunzel (feat. Megan Thee Stallion)",
+    "title": "LISA, Megan Thee Stallion Rapunzel Türkçe Çeviri",
+    "song": "Rapunzel",
     "artist": "LISA, Megan Thee Stallion",
     "cover": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756",
     "date": "Thu, 27 Feb 2025 09:53:06 +0000",
@@ -4005,8 +4015,8 @@
   {
     "id": "4196",
     "slug": "lisa-ft-future-fxck-up-the-world-turkce-ceviri",
-    "title": "LISA, Future FXCK UP THE WORLD (feat. Future) Türkçe Çeviri",
-    "song": "FXCK UP THE WORLD (feat. Future)",
+    "title": "LISA, Future FXCK UP THE WORLD Türkçe Çeviri",
+    "song": "FXCK UP THE WORLD",
     "artist": "LISA, Future",
     "cover": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
     "date": "Thu, 27 Feb 2025 09:37:11 +0000",
@@ -4103,8 +4113,8 @@
   {
     "id": "4178",
     "slug": "selena-gomez-benny-blanco-gracie-abrams-call-me-when-you-break-up-turkce-ceviri",
-    "title": "Selena Gomez, benny blanco, Gracie Abrams Call Me When You Break Up (with Gracie Abrams) Türkçe Çeviri",
-    "song": "Call Me When You Break Up (with Gracie Abrams)",
+    "title": "Selena Gomez, benny blanco, Gracie Abrams Call Me When You Break Up Türkçe Çeviri",
+    "song": "Call Me When You Break Up",
     "artist": "Selena Gomez, benny blanco, Gracie Abrams",
     "cover": "https://i.scdn.co/image/ab67616d0000b273c6db47ceb1b9a67b04859558",
     "date": "Thu, 20 Feb 2025 21:41:35 +0000",
@@ -4148,8 +4158,8 @@
   {
     "id": "4174",
     "slug": "don-toliver-j-hope-lv-bag-turkce-ceviri",
-    "title": "Don Toliver, Speedy, j-hope, Pharrell Williams LV Bag (feat. j-hope of BTS & Pharrell Williams) Türkçe Çeviri",
-    "song": "LV Bag (feat. j-hope of BTS & Pharrell Williams)",
+    "title": "Don Toliver, Speedy, j-hope, Pharrell Williams LV Bag Türkçe Çeviri",
+    "song": "LV Bag",
     "artist": "Don Toliver, Speedy, j-hope, Pharrell Williams",
     "cover": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f",
     "date": "Fri, 21 Feb 2025 11:27:49 +0000",
@@ -4207,8 +4217,8 @@
   {
     "id": "4168",
     "slug": "jennie-doechii-extral-turkce-ceviri",
-    "title": "JENNIE, Doechii ExtraL (feat. Doechii) Türkçe Çeviri",
-    "song": "ExtraL (feat. Doechii)",
+    "title": "JENNIE, Doechii ExtraL Türkçe Çeviri",
+    "song": "ExtraL",
     "artist": "JENNIE, Doechii",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579",
     "date": "Thu, 20 Feb 2025 12:33:48 +0000",
@@ -4626,8 +4636,8 @@
   {
     "id": "4095",
     "slug": "lisa-doja-cat-raye-born-again-turkce-ceviri",
-    "title": "LISA, Doja Cat, RAYE Born Again (feat. Doja Cat & RAYE) Türkçe Çeviri",
-    "song": "Born Again (feat. Doja Cat & RAYE)",
+    "title": "LISA, Doja Cat, RAYE Born Again Türkçe Çeviri",
+    "song": "Born Again",
     "artist": "LISA, Doja Cat, RAYE",
     "cover": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
     "date": "Thu, 06 Feb 2025 09:16:06 +0000",
@@ -5343,22 +5353,22 @@
   {
     "id": "4026",
     "slug": "the-weeknd-the-abyss-turkce-ceviri-ft-lana-del-rey",
-    "title": "The Weeknd The Abyss Türkçe Çeviri (ft. Lana Del Rey)",
-    "song": "The Abyss Türkçe Çeviri (ft. Lana Del Rey)",
-    "artist": "The Weeknd",
+    "title": "The Weeknd, Lana Del Rey The Abyss Türkçe Çeviri",
+    "song": "The Abyss",
+    "artist": "The Weeknd, Lana Del Rey",
     "cover": "https://i.scdn.co/image/ab67616d0000b273de79f330bc297af3fae736da",
     "date": "Fri, 31 Jan 2025 12:19:18 +0000",
     "reading_time": 2,
     "excerpt": "I tried my best to not let you go I don't like the view",
     "categories": [
-      "Hurry Up Tomorrow",
+      "The Weeknd",
       "Lana Del Rey",
-      "The Weeknd"
+      "Hurry Up Tomorrow"
     ],
     "category_slugs": [
-      "hurry-up-tomorrow",
+      "the-weeknd",
       "lana-del-rey",
-      "the-weeknd"
+      "hurry-up-tomorrow"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/5ZDKPFRZC6QlJpf8bCIXTs",
@@ -5386,20 +5396,22 @@
   {
     "id": "4022",
     "slug": "the-weeknd-enjoy-the-show-turkce-ceviri-ft-future",
-    "title": "The Weeknd Enjoy The Show Türkçe Çeviri (ft. Future)",
-    "song": "Enjoy The Show Türkçe Çeviri (ft. Future)",
-    "artist": "The Weeknd",
+    "title": "The Weeknd, Future Enjoy The Show Türkçe Çeviri",
+    "song": "Enjoy The Show",
+    "artist": "The Weeknd, Future",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2025/01/the-weeknd-wake-me-up-turkce-ceviri.jpg",
     "date": "Fri, 31 Jan 2025 11:54:01 +0000",
     "reading_time": 3,
     "excerpt": "I need you 'Cause baby, I need you (Ooh)",
     "categories": [
-      "Hurry Up Tomorrow",
-      "The Weeknd"
+      "The Weeknd",
+      "Future",
+      "Hurry Up Tomorrow"
     ],
     "category_slugs": [
-      "hurry-up-tomorrow",
-      "the-weeknd"
+      "the-weeknd",
+      "future",
+      "hurry-up-tomorrow"
     ],
     "spotify": {
       "track": {},
@@ -5415,20 +5427,22 @@
   {
     "id": "4018",
     "slug": "the-weeknd-reflections-laughing-turkce-ceviri-ft-travis-scott",
-    "title": "The Weeknd Reflections Laughing Türkçe Çeviri (ft. Travis Scott)",
-    "song": "Reflections Laughing Türkçe Çeviri (ft. Travis Scott)",
-    "artist": "The Weeknd",
+    "title": "The Weeknd, Travis Scott Reflections Laughing Türkçe Çeviri",
+    "song": "Reflections Laughing",
+    "artist": "The Weeknd, Travis Scott",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2025/01/the-weeknd-wake-me-up-turkce-ceviri.jpg",
     "date": "Fri, 31 Jan 2025 11:19:46 +0000",
     "reading_time": 3,
     "excerpt": "Don't you let me down If you let me drown",
     "categories": [
-      "Hurry Up Tomorrow",
-      "The Weeknd"
+      "The Weeknd",
+      "Travis Scott",
+      "Hurry Up Tomorrow"
     ],
     "category_slugs": [
-      "hurry-up-tomorrow",
-      "the-weeknd"
+      "the-weeknd",
+      "travis-scott",
+      "hurry-up-tomorrow"
     ],
     "spotify": {
       "track": {},
@@ -6100,8 +6114,8 @@
   {
     "id": "3925",
     "slug": "flo-rida-enhypen-paul-russell-confessions-turkce-ceviri",
-    "title": "Flo Rida ENHYPEN Paul Russell Confessions Türkçe Çeviri",
-    "song": " ENHYPEN Paul Russell Confessions",
+    "title": "Flo Rida ENHYPEN Paul Russell Confessions Türkçe Çeviri",
+    "song": "ENHYPEN Paul Russell Confessions",
     "artist": "Flo Rida",
     "cover": "https://i.scdn.co/image/ab67616d0000b2734bb9cdf7a8bcbe8c81c20d57",
     "date": "Fri, 10 Jan 2025 11:52:48 +0000",
@@ -8392,8 +8406,8 @@
   {
     "id": "3589",
     "slug": "gracie-abrams-thats-so-true-turkce-ceviri",
-    "title": "Gracie Abrams That's So True Türkçe Çeviri",
-    "song": " That's So True",
+    "title": "Gracie Abrams That's So True Türkçe Çeviri",
+    "song": "That's So True",
     "artist": "Gracie Abrams",
     "cover": "https://i.scdn.co/image/ab67616d0000b2731dac3694b3289cd903cb3acf",
     "date": "Sat, 09 Nov 2024 16:30:46 +0000",
@@ -9354,9 +9368,9 @@
   {
     "id": "3450",
     "slug": "katseye-ft-yeonjun-touch-turkce-ceviri",
-    "title": "KATSEYE ft Yeonjun Touch Türkçe Çeviri",
-    "song": "ft Yeonjun Touch",
-    "artist": "KATSEYE",
+    "title": "KATSEYE, YEONJUN Touch Türkçe Çeviri",
+    "song": "Touch",
+    "artist": "KATSEYE, YEONJUN",
     "cover": "https://i.scdn.co/image/ab67616d0000b2735223b9eade57195e39f63ddd",
     "date": "Thu, 10 Oct 2024 14:00:21 +0000",
     "reading_time": 3,
@@ -10826,20 +10840,22 @@
   {
     "id": "3270",
     "slug": "katy-perry-doechii-im-his-hes-mine",
-    "title": "Katy Perry Doechii I'M HIS, HE'S MINE ",
-    "song": "Doechii I'M HIS, HE'S MINE",
-    "artist": "Katy Perry",
+    "title": "Katy Perry, Doechii I'M HIS, HE'S MINE Türkçe Çeviri",
+    "song": "I'M HIS, HE'S MINE",
+    "artist": "Katy Perry, Doechii",
     "cover": "https://i.scdn.co/image/ab67616d0000b273a47fcd1670a5a92d5936c3ef",
     "date": "Sat, 14 Sep 2024 16:43:01 +0000",
     "reading_time": 3,
     "excerpt": "Do-Do-Do-Do-Do, Doechii and Katy up in the spot Doechii and Katy",
     "categories": [
-      "143",
-      "Katy Perry"
+      "Katy Perry",
+      "Doechii",
+      "143"
     ],
     "category_slugs": [
-      "143",
-      "katy-perry"
+      "katy-perry",
+      "doechii",
+      "143"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3NPY62YGNoM3lALLaKWiFL",
@@ -11113,16 +11129,18 @@
     "id": "3200",
     "slug": "baekhyun-pineapple-slice-turkce-ceviri",
     "title": "BAEKHYUN Pineapple Slice Türkçe Çeviri",
-    "song": "BAEKHYUN Pineapple Slice",
-    "artist": "Hello, World",
+    "song": "Pineapple Slice",
+    "artist": "BAEKHYUN",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2024/09/baekhyun-pineapple-slice-turkce-ceviri.jpg",
     "date": "Thu, 05 Sep 2024 08:02:38 +0000",
     "reading_time": 3,
     "excerpt": "Tell me the taste ain’t good to ya You know the taste is real",
     "categories": [
+      "BAEKHYUN",
       "Hello, World"
     ],
     "category_slugs": [
+      "baekhyun",
       "hello-world"
     ],
     "spotify": {
@@ -11906,18 +11924,22 @@
   {
     "id": "3061",
     "slug": "bi-soulja-boy-btbt-ft-devita-turkce-ceviri",
-    "title": "BI Soulja Boy BTBT ft DeVita Türkçe Çeviri",
-    "song": "BI Soulja Boy BTBT ft DeVita",
-    "artist": "B.I",
+    "title": "B.I, Soulja Boy, DeVita BTBT Türkçe Çeviri",
+    "song": "BTBT",
+    "artist": "B.I, Soulja Boy, DeVita",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2024/08/bi-soulja-boy-btbt-ft-devita-turkce-ceviri-1.jpg",
     "date": "Wed, 28 Aug 2024 14:03:52 +0000",
     "reading_time": 4,
     "excerpt": "When my eyes are on you Sum makildeuthan jeonyul",
     "categories": [
-      "B.I"
+      "B.I",
+      "Soulja Boy",
+      "DeVita"
     ],
     "category_slugs": [
-      "bi"
+      "b-i",
+      "soulja-boy",
+      "devita"
     ],
     "spotify": {
       "track": {},
@@ -13322,20 +13344,20 @@
   {
     "id": "2812",
     "slug": "lady-gaga-bruno-mars-die-with-a-smile-turkce-ceviri",
-    "title": "Lady Gaga Bruno Mars Die With A Smile Türkçe Çeviri",
-    "song": "Bruno Mars Die With A Smile",
-    "artist": "Lady Gaga",
+    "title": "Lady Gaga, Bruno Mars Die With A Smile Türkçe Çeviri",
+    "song": "Die With A Smile",
+    "artist": "Lady Gaga, Bruno Mars",
     "cover": "https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45",
     "date": "Fri, 16 Aug 2024 11:54:24 +0000",
     "reading_time": 2,
     "excerpt": "I, I just woke up from a dream Where you and I had to say goodbye",
     "categories": [
-      "Bruno Mars",
-      "Lady Gaga"
+      "Lady Gaga",
+      "Bruno Mars"
     ],
     "category_slugs": [
-      "bruno-mars",
-      "lady-gaga"
+      "lady-gaga",
+      "bruno-mars"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe",
@@ -13638,8 +13660,8 @@
   {
     "id": "2694",
     "slug": "karina-up-turkce-ceviri-yayinlanmamis-sarki",
-    "title": "KARINA UP Türkçe Çeviri (Yayınlanmamış Şarkı)",
-    "song": "KARINA UP Türkçe Çeviri (Yayınlanmamış Şarkı)",
+    "title": "Aespa KARINA UP (Yayınlanmamış Şarkı) Türkçe Çeviri",
+    "song": "KARINA UP (Yayınlanmamış Şarkı)",
     "artist": "Aespa",
     "cover": "https://acupoflyrics.com/wp-content/uploads/2024/08/karina-up-turkce-ceviri.jpg",
     "date": "Mon, 12 Aug 2024 08:54:34 +0000",
@@ -13899,20 +13921,20 @@
   {
     "id": "2312",
     "slug": "charli-xcx-ft-billie-eilish-guess-turkce-ceviri",
-    "title": "Charli XCX ft Billie Eilish Guess Türkçe Çeviri",
-    "song": "ft Billie Eilish Guess",
-    "artist": "Charli XCX",
+    "title": "Charli XCX, Billie Eilish Guess Türkçe Çeviri",
+    "song": "Guess",
+    "artist": "Charli XCX, Billie Eilish",
     "cover": "https://i.scdn.co/image/ab67616d0000b2738ac99f88ebc09b1f1637dc00",
     "date": "Fri, 09 Aug 2024 08:57:43 +0000",
     "reading_time": 3,
     "excerpt": "Hey, Billie, you there? Uh-uh",
     "categories": [
-      "Billie Eilish",
-      "Charli XCX"
+      "Charli XCX",
+      "Billie Eilish"
     ],
     "category_slugs": [
-      "billie-eilish",
-      "charli-xcx"
+      "charli-xcx",
+      "billie-eilish"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/0IsIY8pfu1yaGkPUD7pkDx",
