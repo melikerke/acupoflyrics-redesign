@@ -49,6 +49,7 @@ function ArtistLinks({ artists }) {
 function lyricSections(blocks) {
   const out = [];
   let pendingEn = [];
+  let pendingLabel = "";
   let verseCount = 0;
   let chorusCount = 0;
   let sectionCount = 0;
@@ -77,14 +78,16 @@ function lyricSections(blocks) {
     const lines = Array.isArray(block.lines) ? block.lines : [];
     if (block.original) {
       pendingEn = lines.slice();
+      pendingLabel = block.label || "";
       continue;
     }
     out.push({
-      label: labelFor(lines),
+      label: block.label || pendingLabel || labelFor(lines),
       en: pendingEn.filter(Boolean),
       tr: lines.filter(Boolean),
     });
     pendingEn = [];
+    pendingLabel = "";
   }
   return out.filter((section) => section.en.length || section.tr.length);
 }

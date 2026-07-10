@@ -115338,40 +115338,169 @@
     "reading_time": 2,
     "blocks": [
       {
+        "label": "Verse 1",
         "original": true,
         "lines": [
           "You were riding your bike to the sound of \"It's No Big Deal\"",
           "And you're trying to lift off the ground on those old two wheels",
           "Nothing 'bout the way that you were treated ever seemed especially alarming till now",
-          "So you tie up your hair and you smile like it's no big deal",
+          "So you tie up your hair and you smile like it's no big deal"
+        ]
+      },
+      {
+        "label": "Verse 1",
+        "original": false,
+        "lines": [
+          "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,",
+          "Ve o eski iki tekerleğin üzerinde, ayaklarını yerden kesmeye çalışıyordun.",
+          "Sana karşı olan tüm o davranışlar, düne kadar sana pek de korkutucu gelmemişti...",
+          "Bu yüzden saçlarını topluyor ve sanki hiçbir sorun yokmuş gibi gülümsüyorsun."
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": true,
+        "lines": [
           "You can let it go",
           "You can throw a party full of everyone you know",
           "And not invite your family 'cause they never showed you love",
-          "You don't have to be sorry for leavin' and growin' up, mmm",
+          "You don't have to be sorry for leavin' and growin' up, mmm"
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": false,
+        "lines": [
+          "Artık bunu serbest bırakabilirsin (let it go)...",
+          "Tanıdığın herkesin olduğu devasa bir parti verebilirsin;",
+          "Ve aileni davet etmezsin, çünkü onlar sana asla sevgi göstermediler.",
+          "Çekip gittiğin ve büyüdüğün için kimseden özür dilemek zorunda değilsin."
+        ]
+      },
+      {
+        "label": "Verse 2",
+        "original": true,
+        "lines": [
           "Matilda, you talk of the pain like it's all alright",
           "But I know that you feel like a piece of you's dead insidе",
           "You showed me a power that is strong еnough to bring sun to the darkest days",
-          "It's none of my business, but it's just been on my mind",
+          "It's none of my business, but it's just been on my mind"
+        ]
+      },
+      {
+        "label": "Verse 2",
+        "original": false,
+        "lines": [
+          "Matilda, o acılardan sanki her şey yolundaymış gibi bahsediyorsun;",
+          "Ama biliyorum, içinden bir parçanın öldüğünü hissediyorsun.",
+          "Bana, en karanlık günlere bile güneş doğduracak kadar güçlü bir irade gösterdin...",
+          "Aslında üzerime vazife değil ama zihnimi kurcalayıp duruyor bu durum."
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": true,
+        "lines": [
           "You can let it go",
           "You can throw a party full of everyone you know",
           "And not invite your family 'cause they never showed you love",
-          "You don't have to be sorry for leavin' and growin' up",
+          "You don't have to be sorry for leavin' and growin' up"
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": false,
+        "lines": [
+          "Bunu serbest bırakabilirsin artık...",
+          "Tanıdığın herkesin olduğu bir parti verebilirsin;",
+          "Ve aileni oraya çağırmazsın, çünkü onlar sana asla sevgi göstermediler.",
+          "Gidip büyüdüğün için suçluluk hissetmek zorunda değilsin."
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": true,
+        "lines": [
           "You can see the world, following the seasons",
           "Anywhere you go, you don't need a reason",
           "'Cause they never showed you love",
-          "You don't have to be sorry for doin' it on your own",
+          "You don't have to be sorry for doin' it on your own"
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": false,
+        "lines": [
+          "Mevsimlerin peşinden gidip dünyayı görebilirsin;",
+          "Nereye gidersen git, bir nedene ihtiyacın yok senin.",
+          "Çünkü onlar sana sevgiyi hiç öğretmediler;",
+          "Kendi başına başardığın için kimseden özür dilemen gerekmiyor."
+        ]
+      },
+      {
+        "label": "Bridge",
+        "original": true,
+        "lines": [
           "You're just in time, make your tea and your toast",
           "You framed all your posters and dyed your clothes, ooh",
           "You don't have to go",
           "You don't have to go home",
-          "Oh, there's a long way to go",
+          "Oh, there's a long way to go"
+        ]
+      },
+      {
+        "label": "Bridge",
+        "original": false,
+        "lines": [
+          "Tam vaktinde geldin; çayını demle, ekmeğini kızart...",
+          "Posterlerini çerçeveletmişsin, kıyafetlerini boyamışsın (kendine bir dünya kurmuşsun).",
+          "Gitmek zorunda değilsin;",
+          "O \"eve\" dönmek zorunda değilsin artık.",
+          "Oh, önünde daha gidilecek çok yol var..."
+        ]
+      },
+      {
+        "label": "Bridge",
+        "original": true,
+        "lines": [
           "I don't believe that time will change your mind",
           "In other words, I know they won't hurt you anymore",
-          "As long as you can let them go",
+          "As long as you can let them go"
+        ]
+      },
+      {
+        "label": "Bridge",
+        "original": false,
+        "lines": [
+          "Zamanın fikrini değiştireceğine inanmıyorum pek;",
+          "Başka bir deyişle, biliyorum ki artık seni incitemeyecekler...",
+          "Tabii onları serbest bırakabildiğin sürece."
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": true,
+        "lines": [
           "You can let it go",
           "You can throw a party full of everyone you know",
           "You can start a family who will always show you love",
-          "You don't have to be sorry for doin' it on your own",
+          "You don't have to be sorry for doin' it on your own"
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": false,
+        "lines": [
+          "Artık bırakabilirsin geçmişi...",
+          "Sevdiğin herkesin olduğu bir şölen kurabilirsin;",
+          "Sana her zaman sevgi gösterecek kendi aileni kurabilirsin.",
+          "Bunu tek başına yaptığın için pişmanlık duyma sakın."
+        ]
+      },
+      {
+        "label": "Chorus",
+        "original": true,
+        "lines": [
           "You can let it go",
           "You can throw a party full of everyone you know",
           "You can start a family who will always show you love",
@@ -115379,48 +115508,17 @@
         ]
       },
       {
+        "label": "Chorus",
         "original": false,
         "lines": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Bırak gitsin artık...",
+          "Sevdiğin herkesin olduğu bir şölen kurabilirsin;",
+          "Seni her zaman sevecek bir yuva kurabilirsin.",
+          "Özür dilemene gerek yok, hayır..."
         ]
       }
     ],
-    "excerpt": "You were riding your bike to the sound of \"It's No Big Deal\"",
+    "excerpt": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,",
     "annotations": {},
     "difficulty_note": null,
     "spotify": {
@@ -115632,6 +115730,7 @@
       "songId": 8017385,
       "description": "“Matilda” is the seventh track off Harry’s House, the third studio album by Harry Styles.In the song, Harry somberly sings to somebody whose family did not treat her well. He takes inspiration from the Roald Dahl book Matilda and/or its movie adaptation of the same name, about a girl with telekinesis who was mistreated by her principal and parents. Though Roald Dahl’s character Matilda is gendered as female, Styles purposefully does not assign a label to the person he sings to. The song asserts a common theme in the album that home is not a place, but a state of mind. Styles does this by showing how Matilda’s house was not a home to her."
     },
-    "source": "spotify-genius"
+    "source": "spotify-genius",
+    "youtubeUrl": "https://youtu.be/lVnzO7opqNs?si=KynaiHctdIfoIGlm"
   }
 ]
