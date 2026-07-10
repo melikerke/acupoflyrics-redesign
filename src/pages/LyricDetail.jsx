@@ -148,12 +148,9 @@ function wrapCanvasText(ctx, text, maxWidth) {
 }
 
 const CARD_MAX_LINES = 3;
-const CARD_HIGHLIGHT_STOP = new Set(
-  "the a an and or but if then than with without into onto from your yours you me my mine our ours they them their this that these those was were are is am be been being have has had do does did can could should would will just not don't dont i i'm im i've ive you're youre it's its it ooh yeah oh bir ve veya ama gibi icin ile seni sana bana benim senin onun bunu bunu bu su o da de ki mi ne no to in on at of all up out as so her his she he we us".split(" "),
-);
 
 function cardLanguageLabel(language) {
-  return language === "tr" ? "Translated TR" : "Original";
+  return language === "tr" ? "Türkçe" : "Original";
 }
 
 function lyricCardFilename(post, card) {
@@ -179,49 +176,6 @@ function cardThemeColors(color) {
   const glow = mixColor(color, [245, 238, 226], 0.12);
   const stroke = mixColor(color, [255, 244, 224], 0.22);
   return { base, shadow, glow, stroke };
-}
-
-function cleanHighlightToken(value) {
-  return String(value || "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/^['"“”‘’([{]+|['"“”‘’.,!?;:)\]}]+$/g, "")
-    .toLowerCase();
-}
-
-function pickCardHighlight(lines) {
-  const candidates = [];
-  for (const line of lines) {
-    for (const match of String(line || "").matchAll(/[\p{L}\p{N}'’.-]+/gu)) {
-      const raw = match[0];
-      const clean = cleanHighlightToken(raw);
-      if (clean.length < 5 || CARD_HIGHLIGHT_STOP.has(clean)) continue;
-      candidates.push({ raw, clean, score: clean.length + (/['’.-]/.test(raw) ? 1.5 : 0) });
-    }
-  }
-  return candidates.sort((a, b) => b.score - a.score)[0]?.raw || "";
-}
-
-function highlightMatch(line, highlight) {
-  if (!highlight) return null;
-  const escaped = escapeRegExp(highlight);
-  return String(line || "").match(new RegExp(`(^|[^\\p{L}\\p{N}])(${escaped})(?=[^\\p{L}\\p{N}]|$)`, "iu"));
-}
-
-function renderCardLine(line, highlight, used) {
-  if (used.current) return line;
-  const match = highlightMatch(line, highlight);
-  if (!match || match.index == null) return line;
-  const start = match.index + match[1].length;
-  const end = start + match[2].length;
-  used.current = true;
-  return (
-    <>
-      {line.slice(0, start)}
-      <span className="detail-card-highlight">{line.slice(start, end)}</span>
-      {line.slice(end)}
-    </>
-  );
 }
 
 function loadCanvasImage(src) {
@@ -251,51 +205,6 @@ function drawCover(ctx, image, x, y, size) {
   ctx.restore();
 }
 
-function drawImageCover(ctx, image, x, y, width, height) {
-  if (!image) return;
-  const scale = Math.max(width / image.width, height / image.height);
-  const drawWidth = image.width * scale;
-  const drawHeight = image.height * scale;
-  const drawX = x + (width - drawWidth) / 2;
-  const drawY = y + (height - drawHeight) / 2;
-  ctx.drawImage(image, drawX, drawY, drawWidth, drawHeight);
-}
-
-function drawHandOval(ctx, x, y, width, height, color) {
-  ctx.save();
-  ctx.translate(x + width / 2, y + height / 2);
-  ctx.rotate(-0.08);
-  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.72)`;
-  ctx.lineWidth = 3;
-  ctx.beginPath();
-  ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.26)`;
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.ellipse(2, -1, width / 2 + 7, height / 2 + 3, 0, 0.16, Math.PI * 2 + 0.12);
-  ctx.stroke();
-  ctx.restore();
-}
-
-function drawLyricWave(ctx, x, y, width, color) {
-  const bars = [0.28, 0.54, 0.36, 0.72, 0.92, 0.58, 0.42, 0.78, 0.5, 0.32, 0.66, 0.44];
-  const gap = width / (bars.length * 2 - 1);
-  ctx.save();
-  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.62)`;
-  ctx.lineWidth = 3;
-  ctx.lineCap = "round";
-  bars.forEach((bar, index) => {
-    const cx = x + index * gap * 2;
-    const h = 34 * bar;
-    ctx.beginPath();
-    ctx.moveTo(cx, y - h / 2);
-    ctx.lineTo(cx, y + h / 2);
-    ctx.stroke();
-  });
-  ctx.restore();
-}
-
 function drawNoise(ctx, width, height) {
   let seed = 42;
   const random = () => {
@@ -317,7 +226,6 @@ async function createLyricCardBlob({ post, card }) {
   const cover = await loadCanvasImage(post.cover);
   const color = card.color || [218, 60, 120];
   const theme = cardThemeColors(color);
-  const highlight = pickCardHighlight(selectedLines);
   const scale = 2;
   const designWidth = 1080;
   const canvas = document.createElement("canvas");
@@ -345,25 +253,6 @@ async function createLyricCardBlob({ post, card }) {
   ctx.fillStyle = bg;
   ctx.fillRect(0, 0, designWidth, designHeight);
 
-  if (cover) {
-    ctx.save();
-    ctx.globalAlpha = 0.14;
-    ctx.filter = "blur(44px) saturate(1.28)";
-    drawImageCover(ctx, cover, -80, -80, designWidth + 160, designHeight + 160);
-    ctx.restore();
-    ctx.filter = "none";
-    ctx.fillStyle = `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0.56)`;
-    ctx.fillRect(0, 0, designWidth, designHeight);
-
-    ctx.save();
-    ctx.globalAlpha = 0.18;
-    ctx.filter = "saturate(1.08) contrast(1.06)";
-    drawImageCover(ctx, cover, 700, 92, 450, 450);
-    ctx.restore();
-    ctx.fillStyle = `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0.48)`;
-    ctx.fillRect(660, 40, 470, 560);
-  }
-
   const glowY = designHeight * 0.68;
   const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
   glow.addColorStop(0, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.34)`);
@@ -382,20 +271,6 @@ async function createLyricCardBlob({ post, card }) {
   ctx.fillStyle = "#f7f3ec";
   ctx.font = `850 30px ${sans}`;
   ctx.fillText("acupoflyrics", 112, 132);
-  ctx.fillStyle = "rgba(247,243,236,0.56)";
-  ctx.font = `650 17px ${sans}`;
-  ctx.fillText("Translated lyrics", 112, 160);
-
-  ctx.fillStyle = `rgba(${theme.stroke[0]}, ${theme.stroke[1]}, ${theme.stroke[2]}, 0.16)`;
-  ctx.beginPath();
-  ctx.roundRect(804, 104, 170, 42, 21);
-  ctx.fill();
-  ctx.strokeStyle = `rgba(${theme.stroke[0]}, ${theme.stroke[1]}, ${theme.stroke[2]}, 0.36)`;
-  ctx.lineWidth = 1.5;
-  ctx.stroke();
-  ctx.fillStyle = "rgba(247,243,236,0.82)";
-  ctx.font = `760 18px ${sans}`;
-  ctx.fillText(cardLanguageLabel(card.language), 826, 131);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = "700 82px Georgia, serif";
@@ -405,7 +280,6 @@ async function createLyricCardBlob({ post, card }) {
   const lyricAreaTop = 330;
   const lyricAreaBottom = designHeight - 330;
   let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
-  let highlighted = false;
   const firstLyricLine = lyricLines.find(Boolean);
   for (const line of lyricLines) {
     if (!line) {
@@ -413,16 +287,6 @@ async function createLyricCardBlob({ post, card }) {
       continue;
     }
     ctx.font = line === firstLyricLine ? `720 42px ${sans}` : `560 42px ${sans}`;
-    const match = highlighted ? null : highlightMatch(line, highlight);
-    if (match && match.index != null) {
-      const start = match.index + match[1].length;
-      const before = line.slice(0, start);
-      const marked = line.slice(start, start + match[2].length);
-      const x = 112 + ctx.measureText(before).width;
-      const width = ctx.measureText(marked).width;
-      drawHandOval(ctx, x - 17, y - 43, width + 34, 50, theme.stroke);
-      highlighted = true;
-    }
     ctx.fillText(line, 112, y);
     y += lineHeight;
   }
@@ -438,7 +302,7 @@ async function createLyricCardBlob({ post, card }) {
   ctx.lineTo(660, metaRuleY);
   ctx.stroke();
 
-  drawCover(ctx, cover, 800, designHeight - 286, 174);
+  drawCover(ctx, cover, 748, designHeight - 330, 300);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = `820 31px ${sans}`;
@@ -452,8 +316,6 @@ async function createLyricCardBlob({ post, card }) {
     ctx.font = `650 18px ${sans}`;
     ctx.fillText(albumMeta, 112, designHeight - 88);
   }
-
-  drawLyricWave(ctx, 816, 146, 138, theme.stroke);
 
   ctx.strokeStyle = "rgba(247,243,236,0.16)";
   ctx.lineWidth = 2;
@@ -711,8 +573,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         if (!card) return null;
         const previewHeight = Math.min(540, Math.max(380, 318 + card.selectedLines.join(" ").length * 1.05));
         const previewTheme = cardThemeColors(card.color);
-        const previewHighlight = pickCardHighlight(card.selectedLines);
-        const previewHighlightUsed = { current: false };
         const albumMeta = post.spotify?.album?.name
           ? `${new Date(post.spotify?.album?.releaseDate || post.date).getFullYear()} • ${post.spotify.album.name}`
           : "";
@@ -750,18 +610,13 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                 "--card-preview-height": `${previewHeight}px`,
               }}
             >
-              <img src={post.cover} alt="" className="detail-card-bg-art" />
-              <img src={post.cover} alt="" className="detail-card-bg-cover" />
-              <span className="detail-card-badge">{cardLanguageLabel(card.language)}</span>
-              <span className="detail-card-wave" aria-hidden />
               <div className="detail-card-brand">
                 <span>acupoflyrics</span>
-                <small>Translated lyrics</small>
               </div>
               <img src={post.cover} alt="" className="detail-card-cover" />
               <div className="detail-card-lines">
                 {card.selectedLines.map((line, lineIndex) => (
-                  <p key={`${line}-${lineIndex}`}>{renderCardLine(line, previewHighlight, previewHighlightUsed)}</p>
+                  <p key={`${line}-${lineIndex}`}>{line}</p>
                 ))}
               </div>
               <strong>{post.song}<em>{post.artist}</em>{albumMeta && !albumMeta.includes("NaN") ? <small>{albumMeta}</small> : null}</strong>
