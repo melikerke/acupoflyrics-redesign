@@ -166,6 +166,17 @@ function cssRgb(color) {
   return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
 }
 
+function mixColor(from, to, amount) {
+  return from.map((value, index) => Math.round(value + (to[index] - value) * amount));
+}
+
+function cardThemeColors(color) {
+  const base = mixColor(color, [13, 15, 23], 0.42);
+  const shadow = shade(base, 0.52);
+  const glow = mixColor(color, base, 0.18);
+  return { base, shadow, glow };
+}
+
 function loadCanvasImage(src) {
   return new Promise((resolve) => {
     if (!src) {
@@ -197,6 +208,7 @@ async function createLyricCardBlob({ post, card }) {
   const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
   const cover = await loadCanvasImage(post.cover);
   const color = card.color || [218, 60, 120];
+  const theme = cardThemeColors(color);
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
   let ctx = canvas.getContext("2d");
@@ -211,14 +223,17 @@ async function createLyricCardBlob({ post, card }) {
   const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
   canvas.height = Math.min(1350, Math.max(860, blockHeight + 650));
   ctx = canvas.getContext("2d");
-  ctx.fillStyle = "#0e1018";
+  const bg = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+  bg.addColorStop(0, cssRgb(theme.base));
+  bg.addColorStop(1, cssRgb(theme.shadow));
+  ctx.fillStyle = bg;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   const glowY = canvas.height * 0.68;
   const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
-  glow.addColorStop(0, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.42)`);
-  glow.addColorStop(0.48, `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.16)`);
-  glow.addColorStop(1, "rgba(14, 16, 24, 0)");
+  glow.addColorStop(0, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.34)`);
+  glow.addColorStop(0.48, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.13)`);
+  glow.addColorStop(1, `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0)`);
   ctx.fillStyle = glow;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -517,6 +532,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         const card = buildCard(cardDraft);
         if (!card) return null;
         const previewHeight = Math.min(540, Math.max(380, 318 + card.selectedLines.join(" ").length * 1.05));
+        const previewTheme = cardThemeColors(card.color);
         return (
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
           <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
@@ -541,7 +557,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               className={`detail-card-preview is-${card.language}`}
               style={{
                 "--card-tone": rgb(card.color),
-                "--card-tone-soft": rgb(card.color, 0.28),
+                "--card-bg": rgb(previewTheme.base),
+                "--card-shadow": rgb(previewTheme.shadow),
+                "--card-shadow-deep": rgb(previewTheme.shadow, 0.58),
+                "--card-glow": rgb(previewTheme.glow, 0.34),
+                "--card-glow-soft": rgb(previewTheme.glow, 0.13),
                 "--card-preview-height": `${previewHeight}px`,
               }}
             >
