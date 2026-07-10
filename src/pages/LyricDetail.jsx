@@ -148,6 +148,9 @@ function wrapCanvasText(ctx, text, maxWidth) {
 }
 
 const CARD_MAX_LINES = 3;
+const CARD_HIGHLIGHT_STOP = new Set(
+  "the a an and or but if then than with without into onto from your yours you me my mine our ours they them their this that these those was were are is am be been being have has had do does did can could should would will just not don't dont i i'm im i've ive you're youre it's its it ooh yeah oh bir ve veya ama gibi icin ile seni sana bana benim senin onun bunu bunu bu su o da de ki mi ne no to in on at of all up out as so her his she he we us".split(" "),
+);
 
 function cardLanguageLabel(language) {
   return language === "tr" ? "Türkçe" : "Original";
@@ -177,6 +180,49 @@ function cardThemeColors(color) {
   return { base, shadow, glow };
 }
 
+function cleanHighlightToken(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/^['"“”‘’([{]+|['"“”‘’.,!?;:)\]}]+$/g, "")
+    .toLowerCase();
+}
+
+function pickCardHighlight(lines) {
+  const candidates = [];
+  for (const line of lines) {
+    for (const match of String(line || "").matchAll(/[\p{L}\p{N}'’.-]+/gu)) {
+      const raw = match[0];
+      const clean = cleanHighlightToken(raw);
+      if (clean.length < 5 || CARD_HIGHLIGHT_STOP.has(clean)) continue;
+      candidates.push({ raw, clean, score: clean.length + (/['’.-]/.test(raw) ? 1.5 : 0) });
+    }
+  }
+  return candidates.sort((a, b) => b.score - a.score)[0]?.raw || "";
+}
+
+function highlightMatch(line, highlight) {
+  if (!highlight) return null;
+  const escaped = escapeRegExp(highlight);
+  return String(line || "").match(new RegExp(`(^|[^\\p{L}\\p{N}])(${escaped})(?=[^\\p{L}\\p{N}]|$)`, "iu"));
+}
+
+function renderCardLine(line, highlight, used) {
+  if (used.current) return line;
+  const match = highlightMatch(line, highlight);
+  if (!match || match.index == null) return line;
+  const start = match.index + match[1].length;
+  const end = start + match[2].length;
+  used.current = true;
+  return (
+    <>
+      {line.slice(0, start)}
+      <span className="detail-card-highlight">{line.slice(start, end)}</span>
+      {line.slice(end)}
+    </>
+  );
+}
+
 function loadCanvasImage(src) {
   return new Promise((resolve) => {
     if (!src) {
@@ -204,24 +250,42 @@ function drawCover(ctx, image, x, y, size) {
   ctx.restore();
 }
 
+function drawHandOval(ctx, x, y, width, height, color) {
+  ctx.save();
+  ctx.translate(x + width / 2, y + height / 2);
+  ctx.rotate(-0.12);
+  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.92)`;
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.42)`;
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.ellipse(2, -1, width / 2 + 8, height / 2 + 4, 0, 0.16, Math.PI * 2 + 0.12);
+  ctx.stroke();
+  ctx.restore();
+}
+
 async function createLyricCardBlob({ post, card }) {
   const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
   const cover = await loadCanvasImage(post.cover);
   const color = card.color || [218, 60, 120];
   const theme = cardThemeColors(color);
+  const highlight = pickCardHighlight(selectedLines);
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
   let ctx = canvas.getContext("2d");
   const sans = "Programme, Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.font = `italic 650 39px ${sans}`;
+  ctx.font = `italic 650 42px ${sans}`;
   const lyricLines = selectedLines.flatMap((selectedLine, index) => {
-    const lines = wrapCanvasText(ctx, selectedLine, 830).slice(0, 3);
+    const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
     return index < selectedLines.length - 1 ? [...lines, ""] : lines;
   });
   while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
-  const lineHeight = 52;
+  const lineHeight = 55;
   const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
-  canvas.height = Math.min(1350, Math.max(860, blockHeight + 650));
+  canvas.height = Math.min(1180, Math.max(760, blockHeight + 560));
   ctx = canvas.getContext("2d");
   const bg = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
   bg.addColorStop(0, cssRgb(theme.base));
@@ -237,26 +301,33 @@ async function createLyricCardBlob({ post, card }) {
   ctx.fillStyle = glow;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.strokeStyle = "rgba(255,255,255,0.16)";
-  ctx.lineWidth = 2;
-  ctx.strokeRect(56, 56, 968, canvas.height - 112);
-
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = `800 31px ${sans}`;
+  ctx.font = `850 30px ${sans}`;
   ctx.fillText("acupoflyrics", 112, 132);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = "700 96px Georgia, serif";
+  ctx.font = "700 82px Georgia, serif";
   ctx.fillText("“", 112, 278);
 
-  ctx.font = `italic 650 39px ${sans}`;
-  const lyricAreaTop = 314;
-  const lyricAreaBottom = canvas.height - 356;
-  let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 38;
+  ctx.font = `italic 650 42px ${sans}`;
+  const lyricAreaTop = 330;
+  const lyricAreaBottom = canvas.height - 250;
+  let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
+  let highlighted = false;
   for (const line of lyricLines) {
     if (!line) {
       y += 18;
       continue;
+    }
+    const match = highlighted ? null : highlightMatch(line, highlight);
+    if (match && match.index != null) {
+      const start = match.index + match[1].length;
+      const before = line.slice(0, start);
+      const marked = line.slice(start, start + match[2].length);
+      const x = 112 + ctx.measureText(before).width;
+      const width = ctx.measureText(marked).width;
+      drawHandOval(ctx, x - 16, y - 42, width + 32, 58, color);
+      highlighted = true;
     }
     ctx.fillText(line, 112, y);
     y += lineHeight;
@@ -268,14 +339,14 @@ async function createLyricCardBlob({ post, card }) {
   ctx.lineTo(624, canvas.height - 260);
   ctx.stroke();
 
-  drawCover(ctx, cover, 796, canvas.height - 286, 156);
+  drawCover(ctx, cover, 792, canvas.height - 230, 120);
 
   ctx.fillStyle = "#f7f3ec";
-  ctx.font = `760 27px ${sans}`;
-  ctx.fillText(post.song, 112, canvas.height - 186);
+  ctx.font = `780 27px ${sans}`;
+  ctx.fillText(post.song, 112, canvas.height - 146);
   ctx.fillStyle = "rgba(247,243,236,0.66)";
   ctx.font = `650 22px ${sans}`;
-  ctx.fillText(post.artist, 112, canvas.height - 150);
+  ctx.fillText(post.artist, 112, canvas.height - 112);
 
   ctx.fillStyle = "rgba(247,243,236,0.82)";
   ctx.font = "700 52px Georgia, serif";
@@ -533,6 +604,8 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         if (!card) return null;
         const previewHeight = Math.min(540, Math.max(380, 318 + card.selectedLines.join(" ").length * 1.05));
         const previewTheme = cardThemeColors(card.color);
+        const previewHighlight = pickCardHighlight(card.selectedLines);
+        const previewHighlightUsed = { current: false };
         return (
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
           <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
@@ -570,7 +643,9 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               </div>
               <img src={post.cover} alt="" className="detail-card-cover" />
               <div className="detail-card-lines">
-                {card.selectedLines.map((line, lineIndex) => <p key={`${line}-${lineIndex}`}>{line}</p>)}
+                {card.selectedLines.map((line, lineIndex) => (
+                  <p key={`${line}-${lineIndex}`}>{renderCardLine(line, previewHighlight, previewHighlightUsed)}</p>
+                ))}
               </div>
               <strong>{post.song}<em>{post.artist}</em></strong>
             </div>
