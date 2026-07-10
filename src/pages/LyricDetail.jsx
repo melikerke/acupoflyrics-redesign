@@ -174,10 +174,11 @@ function mixColor(from, to, amount) {
 }
 
 function cardThemeColors(color) {
-  const base = mixColor(color, [13, 15, 23], 0.42);
-  const shadow = shade(base, 0.52);
-  const glow = mixColor(color, base, 0.18);
-  return { base, shadow, glow };
+  const base = mixColor(color, [9, 10, 14], 0.68);
+  const shadow = shade(base, 0.46);
+  const glow = mixColor(color, [245, 238, 226], 0.12);
+  const stroke = mixColor(color, [255, 244, 224], 0.22);
+  return { base, shadow, glow, stroke };
 }
 
 function cleanHighlightToken(value) {
@@ -250,12 +251,22 @@ function drawCover(ctx, image, x, y, size) {
   ctx.restore();
 }
 
+function drawImageCover(ctx, image, x, y, width, height) {
+  if (!image) return;
+  const scale = Math.max(width / image.width, height / image.height);
+  const drawWidth = image.width * scale;
+  const drawHeight = image.height * scale;
+  const drawX = x + (width - drawWidth) / 2;
+  const drawY = y + (height - drawHeight) / 2;
+  ctx.drawImage(image, drawX, drawY, drawWidth, drawHeight);
+}
+
 function drawHandOval(ctx, x, y, width, height, color) {
   ctx.save();
   ctx.translate(x + width / 2, y + height / 2);
   ctx.rotate(-0.12);
   ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.92)`;
-  ctx.lineWidth = 5;
+  ctx.lineWidth = 4;
   ctx.beginPath();
   ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
   ctx.stroke();
@@ -276,8 +287,10 @@ async function createLyricCardBlob({ post, card }) {
   const canvas = document.createElement("canvas");
   canvas.width = 1080;
   let ctx = canvas.getContext("2d");
-  const sans = "Programme, Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.font = `italic 650 42px ${sans}`;
+  await document.fonts?.load?.("620 42px Hanken Grotesk");
+  await document.fonts?.load?.("850 30px Hanken Grotesk");
+  const sans = "Hanken Grotesk, Inter, Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
+  ctx.font = `620 42px ${sans}`;
   const lyricLines = selectedLines.flatMap((selectedLine, index) => {
     const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
     return index < selectedLines.length - 1 ? [...lines, ""] : lines;
@@ -292,6 +305,17 @@ async function createLyricCardBlob({ post, card }) {
   bg.addColorStop(1, cssRgb(theme.shadow));
   ctx.fillStyle = bg;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  if (cover) {
+    ctx.save();
+    ctx.globalAlpha = 0.16;
+    ctx.filter = "blur(42px) saturate(1.18)";
+    drawImageCover(ctx, cover, -80, -80, canvas.width + 160, canvas.height + 160);
+    ctx.restore();
+    ctx.filter = "none";
+    ctx.fillStyle = `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0.56)`;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
 
   const glowY = canvas.height * 0.68;
   const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
@@ -309,7 +333,7 @@ async function createLyricCardBlob({ post, card }) {
   ctx.font = "700 82px Georgia, serif";
   ctx.fillText("“", 112, 278);
 
-  ctx.font = `italic 650 42px ${sans}`;
+  ctx.font = `620 42px ${sans}`;
   const lyricAreaTop = 330;
   const lyricAreaBottom = canvas.height - 250;
   let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
@@ -326,7 +350,7 @@ async function createLyricCardBlob({ post, card }) {
       const marked = line.slice(start, start + match[2].length);
       const x = 112 + ctx.measureText(before).width;
       const width = ctx.measureText(marked).width;
-      drawHandOval(ctx, x - 16, y - 42, width + 32, 58, color);
+      drawHandOval(ctx, x - 18, y - 46, width + 36, 54, theme.stroke);
       highlighted = true;
     }
     ctx.fillText(line, 112, y);
@@ -351,6 +375,10 @@ async function createLyricCardBlob({ post, card }) {
   ctx.fillStyle = "rgba(247,243,236,0.82)";
   ctx.font = "700 52px Georgia, serif";
   ctx.fillText("✦", 944, 144);
+
+  ctx.strokeStyle = "rgba(247,243,236,0.16)";
+  ctx.lineWidth = 2;
+  ctx.strokeRect(56, 56, 968, canvas.height - 112);
 
   return new Promise((resolve) => {
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
@@ -635,9 +663,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                 "--card-shadow-deep": rgb(previewTheme.shadow, 0.58),
                 "--card-glow": rgb(previewTheme.glow, 0.34),
                 "--card-glow-soft": rgb(previewTheme.glow, 0.13),
+                "--card-stroke": rgb(previewTheme.stroke),
                 "--card-preview-height": `${previewHeight}px`,
               }}
             >
+              <img src={post.cover} alt="" className="detail-card-bg-art" />
               <div className="detail-card-brand">
                 <span>acupoflyrics</span>
               </div>
