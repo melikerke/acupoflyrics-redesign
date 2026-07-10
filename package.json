@@ -10,6 +10,7 @@
     "import:wp-seo": "node scripts/importWpSeo.js",
     "backfill:youtube": "node scripts/backfillYoutubeFromWp.js",
     "backfill:spotify": "node scripts/backfillSpotify.js",
+    "audit:content": "node scripts/auditContent.js",
     "publish:translation": "node scripts/publishTranslation.js",
     "update:charts": "node scripts/updateCharts.js"
   },
