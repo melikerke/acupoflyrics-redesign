@@ -101,6 +101,19 @@ export function apiPlugin(env) {
         return;
       }
 
+      if (url.pathname === "/api/comments" && req.method === "GET") {
+        const { listComments } = await import("./commentsStore.js");
+        const comments = await listComments(url.searchParams.get("slug") || "");
+        return send(res, 200, { comments });
+      }
+
+      if (url.pathname === "/api/comments" && req.method === "POST") {
+        const { addComment } = await import("./commentsStore.js");
+        const raw = await readBody(req);
+        const comment = await addComment(parseRequestJson(raw));
+        return send(res, 201, { comment });
+      }
+
       return send(res, 404, { error: "Bilinmeyen uç nokta." });
     } catch (e) {
       // Surface the message to the admin UI so the translator can see what broke.

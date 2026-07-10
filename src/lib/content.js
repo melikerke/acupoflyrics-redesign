@@ -122,9 +122,37 @@ export function primaryArtistSlug(post) {
   return post.category_slugs?.[0] || albumSlugFor(post.artist);
 }
 
+export function creditedArtistsFor(post) {
+  const rawNames = String(post?.artist || "")
+    .split(/\s*,\s*/)
+    .map((name) => name.trim())
+    .filter(Boolean);
+  const names = rawNames.length ? rawNames : [post?.artist || ""].filter(Boolean);
+  const seen = new Set();
+  return names
+    .map((name) => {
+      const byName = artistByName.get(name.toLowerCase());
+      const bySlug = (post?.category_slugs || [])
+        .map((slug) => artistBySlug.get(slug))
+        .find((meta) => meta?.name.toLowerCase() === name.toLowerCase());
+      const slug = byName?.slug || bySlug?.slug || albumSlugFor(name);
+      return { name, slug };
+    })
+    .filter((artist) => {
+      if (!artist.name || seen.has(artist.slug)) return false;
+      seen.add(artist.slug);
+      return true;
+    });
+}
+
+function hasArtistCredit(post, slug) {
+  if (!slug) return false;
+  return primaryArtistSlug(post) === slug || (post.category_slugs || []).includes(slug);
+}
+
 export function getArtist(slug) {
   const meta = artistBySlug.get(slug);
-  const list = enriched.filter((p) => primaryArtistSlug(p) === slug);
+  const list = enriched.filter((p) => hasArtistCredit(p, slug));
   const name = meta ? meta.name : list[0] ? list[0].artist : slug;
   const albums = albumIndex.filter((a) => a.artistSlug === slug);
   const sortedByDate = [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -575,7 +603,7 @@ export function relatedAlbums(album, n = 6) {
 // More translated songs from this artist (flat list of posts).
 export function moreFromArtist(artistSlug, excludeSlugs = [], n = 6) {
   const skip = new Set(excludeSlugs);
-  return enriched.filter((p) => primaryArtistSlug(p) === artistSlug && !skip.has(p.slug)).slice(0, n);
+  return enriched.filter((p) => hasArtistCredit(p, artistSlug) && !skip.has(p.slug)).slice(0, n);
 }
 
 // Latest translations overall (newest first) — for "latest translations" rails.

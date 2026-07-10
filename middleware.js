@@ -34,6 +34,11 @@ function readBasicAuth(request) {
 }
 
 export default function middleware(request) {
+  const pathname = new URL(request.url).pathname;
+  if (pathname === "/api/comments") {
+    return next();
+  }
+
   const expectedUsername = process.env.ADMIN_USER || "melike";
   const expectedPassword = process.env.ADMIN_PASSWORD;
 

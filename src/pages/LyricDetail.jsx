@@ -7,7 +7,7 @@ import {
   albumNameFor,
   albumSlugFor,
   annotationsFor,
-  artistSlugFor,
+  creditedArtistsFor,
   firstPair,
   formatDate,
   getPost,
@@ -29,6 +29,20 @@ function MetaRow({ label, value }) {
       <span>{label}</span>
       <strong>{value}</strong>
     </div>
+  );
+}
+
+function ArtistLinks({ artists }) {
+  if (!artists?.length) return null;
+  return (
+    <span className="detail-artist-links">
+      {artists.map((artist, index) => (
+        <span key={artist.slug || artist.name} className="detail-artist-link-item">
+          {index > 0 && <span className="detail-artist-separator">,</span>}
+          <Link to={artist.slug ? `/sanatci/${artist.slug}` : "/"}>{artist.name}</Link>
+        </span>
+      ))}
+    </span>
   );
 }
 
@@ -630,6 +644,141 @@ function SuggestEdit({ post }) {
   );
 }
 
+function Stars({ value, onChange, disabled = false }) {
+  return (
+    <div className="detail-stars" aria-label={`${value} yıldız`}>
+      {[1, 2, 3, 4, 5].map((star) => (
+        <button
+          key={star}
+          type="button"
+          className={star <= value ? "is-active" : ""}
+          onClick={() => onChange?.(star)}
+          disabled={disabled}
+          aria-label={`${star} yıldız`}
+        >
+          ★
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function CommentsSection({ post }) {
+  const [comments, setComments] = useState([]);
+  const [form, setForm] = useState({ name: "", body: "", rating: 5, website: "" });
+  const [status, setStatus] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    setStatus("");
+    fetch(`/api/comments?slug=${encodeURIComponent(post.slug)}`)
+      .then(async (response) => {
+        const data = await response.json();
+        if (!response.ok) throw new Error(data?.error || "Yorumlar yüklenemedi.");
+        return data;
+      })
+      .then((data) => {
+        if (!cancelled) setComments(Array.isArray(data.comments) ? data.comments : []);
+      })
+      .catch(() => {
+        if (!cancelled) setComments([]);
+      });
+    return () => { cancelled = true; };
+  }, [post.slug]);
+
+  const average = comments.length
+    ? (comments.reduce((sum, comment) => sum + Number(comment.rating || 0), 0) / comments.length).toFixed(1)
+    : "";
+
+  const update = (key, value) => {
+    setStatus("");
+    setForm((current) => ({ ...current, [key]: value }));
+  };
+
+  const submit = async (event) => {
+    event.preventDefault();
+    setBusy(true);
+    setStatus("");
+    try {
+      const response = await fetch("/api/comments", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, slug: post.slug }),
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data?.error || "Yorum eklenemedi.");
+      setComments((current) => [data.comment, ...current]);
+      setForm({ name: "", body: "", rating: 5, website: "" });
+      setStatus("Yorumun eklendi.");
+    } catch (error) {
+      setStatus(error.message || "Yorum eklenemedi.");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return (
+    <section className="detail-comments" aria-label="Yorumlar">
+      <div className="detail-comments-head">
+        <div>
+          <span>Okur yorumları</span>
+          <h2 className="font-serif">Bu çeviri sende nasıl kaldı?</h2>
+        </div>
+        {average && (
+          <div className="detail-rating-summary">
+            <strong>{average}</strong>
+            <span>{comments.length} yorum</span>
+          </div>
+        )}
+      </div>
+
+      <form onSubmit={submit}>
+        <input
+          value={form.name}
+          onChange={(event) => update("name", event.target.value)}
+          placeholder="İsim"
+          maxLength={48}
+          required
+        />
+        <Stars value={form.rating} onChange={(rating) => update("rating", rating)} />
+        <textarea
+          value={form.body}
+          onChange={(event) => update("body", event.target.value)}
+          placeholder="Yorumunu yaz..."
+          maxLength={900}
+          required
+        />
+        <input
+          className="detail-comment-honeypot"
+          value={form.website}
+          onChange={(event) => update("website", event.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
+        <button type="submit" disabled={busy}>{busy ? "Ekleniyor" : "Yorum yap"}</button>
+        {status && <p className="detail-comment-status">{status}</p>}
+      </form>
+
+      <div className="detail-comment-list">
+        {comments.length ? comments.map((comment) => (
+          <article key={comment.id} className="detail-comment-card">
+            <header>
+              <strong>{comment.name}</strong>
+              <Stars value={Number(comment.rating) || 0} disabled />
+            </header>
+            <p>{comment.body}</p>
+            {comment.createdAt && <time>{formatDate(comment.createdAt)}</time>}
+          </article>
+        )) : (
+          <p className="detail-comment-empty">İlk yorum senden gelsin.</p>
+        )}
+      </div>
+    </section>
+  );
+}
+
 export default function LyricDetail() {
   const { slug } = useParams();
   const cleanSlug = (slug || "").replace(/\/$/, "");
@@ -727,7 +876,7 @@ export default function LyricDetail() {
           !sameArtistRelated.some((item) => item.slug === candidate.slug)
         )),
   ].slice(0, 4);
-  const artistSlug = artistSlugFor(post);
+  const artistLinks = creditedArtistsFor(post);
   const sections = lyricSections(post.blocks);
   const isLyricsLoading = indexedPost && fullPost === null;
   const parsedYear = new Date(post.date).getFullYear();
@@ -790,7 +939,7 @@ export default function LyricDetail() {
             <div className="detail-hero-copy">
               <h1 className="font-serif">{post.song}</h1>
               <div className="detail-artist-line">
-                <Link to={artistSlug ? `/sanatci/${artistSlug}` : "/"}>{post.artist}</Link>
+                <ArtistLinks artists={artistLinks} />
               </div>
 
               <div className="detail-hero-meta">
@@ -822,7 +971,7 @@ export default function LyricDetail() {
       <section className="detail-reading-shell">
         <aside className="detail-info-panel">
           <h2 className="font-serif">Şarkı Bilgisi</h2>
-          <MetaRow label="Sanatçı" value={post.artist} />
+          <MetaRow label="Sanatçı" value={<ArtistLinks artists={artistLinks} />} />
           <MetaRow label="Yayın" value={year ? String(year) : ""} />
           <MetaRow label="Okuma" value={post.reading_time ? `${post.reading_time} dk` : ""} />
           <MetaRow label="Tarih" value={formatDate(post.date)} />
@@ -883,6 +1032,7 @@ export default function LyricDetail() {
       </section>
 
       <SuggestEdit post={post} />
+      <CommentsSection post={post} />
 
       <SiteFooter />
       <MobileTabBar />
