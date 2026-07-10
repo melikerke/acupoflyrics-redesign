@@ -264,16 +264,16 @@ function drawImageCover(ctx, image, x, y, width, height) {
 function drawHandOval(ctx, x, y, width, height, color) {
   ctx.save();
   ctx.translate(x + width / 2, y + height / 2);
-  ctx.rotate(-0.12);
-  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.92)`;
-  ctx.lineWidth = 4;
+  ctx.rotate(-0.08);
+  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.72)`;
+  ctx.lineWidth = 3;
   ctx.beginPath();
   ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
   ctx.stroke();
-  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.42)`;
+  ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.26)`;
   ctx.lineWidth = 2;
   ctx.beginPath();
-  ctx.ellipse(2, -1, width / 2 + 8, height / 2 + 4, 0, 0.16, Math.PI * 2 + 0.12);
+  ctx.ellipse(2, -1, width / 2 + 7, height / 2 + 3, 0, 0.16, Math.PI * 2 + 0.12);
   ctx.stroke();
   ctx.restore();
 }
@@ -284,8 +284,10 @@ async function createLyricCardBlob({ post, card }) {
   const color = card.color || [218, 60, 120];
   const theme = cardThemeColors(color);
   const highlight = pickCardHighlight(selectedLines);
+  const scale = 2;
+  const designWidth = 1080;
   const canvas = document.createElement("canvas");
-  canvas.width = 1080;
+  canvas.width = designWidth;
   let ctx = canvas.getContext("2d");
   await document.fonts?.load?.("620 42px Hanken Grotesk");
   await document.fonts?.load?.("850 30px Hanken Grotesk");
@@ -298,32 +300,35 @@ async function createLyricCardBlob({ post, card }) {
   while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
   const lineHeight = 55;
   const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
-  canvas.height = Math.min(1180, Math.max(760, blockHeight + 560));
+  const designHeight = Math.min(1180, Math.max(760, blockHeight + 600));
+  canvas.width = designWidth * scale;
+  canvas.height = designHeight * scale;
   ctx = canvas.getContext("2d");
-  const bg = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+  ctx.scale(scale, scale);
+  const bg = ctx.createLinearGradient(0, 0, designWidth, designHeight);
   bg.addColorStop(0, cssRgb(theme.base));
   bg.addColorStop(1, cssRgb(theme.shadow));
   ctx.fillStyle = bg;
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillRect(0, 0, designWidth, designHeight);
 
   if (cover) {
     ctx.save();
     ctx.globalAlpha = 0.16;
     ctx.filter = "blur(42px) saturate(1.18)";
-    drawImageCover(ctx, cover, -80, -80, canvas.width + 160, canvas.height + 160);
+    drawImageCover(ctx, cover, -80, -80, designWidth + 160, designHeight + 160);
     ctx.restore();
     ctx.filter = "none";
     ctx.fillStyle = `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0.56)`;
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillRect(0, 0, designWidth, designHeight);
   }
 
-  const glowY = canvas.height * 0.68;
+  const glowY = designHeight * 0.68;
   const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
   glow.addColorStop(0, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.34)`);
   glow.addColorStop(0.48, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.13)`);
   glow.addColorStop(1, `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0)`);
   ctx.fillStyle = glow;
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillRect(0, 0, designWidth, designHeight);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = `850 30px ${sans}`;
@@ -335,7 +340,7 @@ async function createLyricCardBlob({ post, card }) {
 
   ctx.font = `620 42px ${sans}`;
   const lyricAreaTop = 330;
-  const lyricAreaBottom = canvas.height - 250;
+  const lyricAreaBottom = designHeight - 330;
   let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
   let highlighted = false;
   for (const line of lyricLines) {
@@ -350,27 +355,29 @@ async function createLyricCardBlob({ post, card }) {
       const marked = line.slice(start, start + match[2].length);
       const x = 112 + ctx.measureText(before).width;
       const width = ctx.measureText(marked).width;
-      drawHandOval(ctx, x - 18, y - 46, width + 36, 54, theme.stroke);
+      drawHandOval(ctx, x - 17, y - 43, width + 34, 50, theme.stroke);
       highlighted = true;
     }
     ctx.fillText(line, 112, y);
     y += lineHeight;
   }
 
-  ctx.strokeStyle = "rgba(247,243,236,0.26)";
+  const metaRuleY = designHeight - 202;
+  ctx.strokeStyle = "rgba(247,243,236,0.18)";
+  ctx.lineWidth = 1.25;
   ctx.beginPath();
-  ctx.moveTo(112, canvas.height - 260);
-  ctx.lineTo(624, canvas.height - 260);
+  ctx.moveTo(112, metaRuleY);
+  ctx.lineTo(612, metaRuleY);
   ctx.stroke();
 
-  drawCover(ctx, cover, 792, canvas.height - 230, 120);
+  drawCover(ctx, cover, 792, designHeight - 230, 120);
 
   ctx.fillStyle = "#f7f3ec";
   ctx.font = `780 27px ${sans}`;
-  ctx.fillText(post.song, 112, canvas.height - 146);
+  ctx.fillText(post.song, 112, designHeight - 146);
   ctx.fillStyle = "rgba(247,243,236,0.66)";
   ctx.font = `650 22px ${sans}`;
-  ctx.fillText(post.artist, 112, canvas.height - 112);
+  ctx.fillText(post.artist, 112, designHeight - 112);
 
   ctx.fillStyle = "rgba(247,243,236,0.82)";
   ctx.font = "700 52px Georgia, serif";
@@ -378,7 +385,7 @@ async function createLyricCardBlob({ post, card }) {
 
   ctx.strokeStyle = "rgba(247,243,236,0.16)";
   ctx.lineWidth = 2;
-  ctx.strokeRect(56, 56, 968, canvas.height - 112);
+  ctx.strokeRect(56, 56, 968, designHeight - 112);
 
   return new Promise((resolve) => {
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
