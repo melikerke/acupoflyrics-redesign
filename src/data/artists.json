@@ -1054,5 +1054,65 @@
     "name": "Muse",
     "count": 1,
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/jimin-turkce-ceviri.jpeg"
+  },
+  {
+    "slug": "anderson-paak",
+    "name": "Anderson .Paak",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273e1b8e368ceafe1117e846859"
+  },
+  {
+    "slug": "benny-blanco",
+    "name": "benny blanco",
+    "count": 4,
+    "image": "https://i.scdn.co/image/ab67616d0000b2736680b3854ec9cd3db9a94cc2"
+  },
+  {
+    "slug": "childish-gambino",
+    "name": "Childish Gambino",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
+  },
+  {
+    "slug": "doechii",
+    "name": "Doechii",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579"
+  },
+  {
+    "slug": "glorilla",
+    "name": "GloRilla",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273d4d5c6bf0536bc4df8cfca2f"
+  },
+  {
+    "slug": "kali-uchis",
+    "name": "Kali Uchis",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
+  },
+  {
+    "slug": "miguel",
+    "name": "Miguel",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a"
+  },
+  {
+    "slug": "pharrell-williams",
+    "name": "Pharrell Williams",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
+  },
+  {
+    "slug": "speedy",
+    "name": "Speedy",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
+  },
+  {
+    "slug": "yena",
+    "name": "YENA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b27389228504f700641956e29f5d"
   }
 ]
