@@ -241,7 +241,7 @@ export const legacyCategoryRedirects = {
   "tzuyu": "/artist/tzuyu",
   "ubermensch": "/album/g-dragon-ubermensch",
   "uncategorized": "/discover",
-  "unknown": "/artist/unknown",
+  "unknown": "/discover",
   "v": "/artist/v",
   "wait-on-me": "/discover",
   "we-are": "/discover",

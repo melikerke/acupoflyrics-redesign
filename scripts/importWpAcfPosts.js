@@ -49,6 +49,17 @@ function itemBlocks(xml) {
   return xml.match(/<item>.*?<\/item>/gs) || [];
 }
 
+function attachmentMap(xml) {
+  const attachments = new Map();
+  for (const item of itemBlocks(xml)) {
+    if (!item.includes("<![CDATA[attachment]]></wp:post_type>")) continue;
+    const id = plain("wp:post_id", item);
+    const url = cdata("wp:attachment_url", item);
+    if (id && url) attachments.set(id, url);
+  }
+  return attachments;
+}
+
 function stripTurkishSuffix(title) {
   return String(title || "").replace(/\s*T[üu]rk[çc]e\s+[ÇC]eviri\s*$/i, "").trim();
 }
@@ -148,7 +159,37 @@ function rankMathTitle(title, artist, song) {
   return `${fromMeta} Türkçe Çeviri`.replace(/\s+/g, " ").trim();
 }
 
-function postFromItem(item, existingPosts) {
+function artistFromSeoTitle(item) {
+  const title = meta("rank_math_title", item);
+  const artist = title.match(/^(.+?)\s+-\s+/)?.[1]?.trim();
+  if (!artist || artist.includes("%")) return "";
+  return artist;
+}
+
+function youtubeThumbnail(url) {
+  const raw = String(url || "").trim();
+  const id =
+    raw.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/)?.[1]
+    || raw.match(/[?&]v=([A-Za-z0-9_-]{6,})/)?.[1]
+    || raw.match(/\/embed\/([A-Za-z0-9_-]{6,})/)?.[1];
+  return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : null;
+}
+
+function featuredImage(item, attachments, youtubeUrl) {
+  const thumbnailId = meta("_thumbnail_id", item);
+  const attachment = attachments.get(thumbnailId) || null;
+  const usableAttachment = attachment && !/acupoflyrics\.com\/wp-content\/uploads\//i.test(attachment)
+    ? attachment
+    : null;
+  return youtubeThumbnail(youtubeUrl) || usableAttachment;
+}
+
+function usableImage(url) {
+  if (!url || /acupoflyrics\.com\/wp-content\/uploads\//i.test(url)) return null;
+  return url;
+}
+
+function postFromItem(item, existingPosts, attachments) {
   const originalText = meta("orijinal_sozler", item);
   const translationText = meta("turkce_ceviri", item);
   if (!originalText || !translationText) return null;
@@ -156,7 +197,7 @@ function postFromItem(item, existingPosts) {
   const title = decode(cdata("title", item) || plain("title", item));
   const oldSlug = cdata("wp:post_name", item);
   const oldUrl = plain("link", item);
-  const artist = meta("sanatci_adi", item).trim();
+  const artist = meta("sanatci_adi", item).trim() || artistFromSeoTitle(item);
   const album = meta("album_adi", item).trim();
   const youtubeUrl = meta("youtube_linki", item).trim() || null;
   const postId = plain("wp:post_id", item);
@@ -170,7 +211,9 @@ function postFromItem(item, existingPosts) {
   if (!song) song = title;
 
   const slug = slugify(`${artist} ${song} turkce ceviri`);
-  if (!slug || existingPosts.some((post) => post.slug === slug)) return null;
+  if (!slug) return null;
+  const existing = existingPosts.find((post) => post.slug === slug || post.oldSlug === oldSlug);
+  if (existing && existing.source !== "wordpress-acf" && existing.oldSlug !== oldSlug) return null;
 
   const { blocks, annotations } = buildBlocks(originalText, translationText);
   if (!blocks.some((block) => !block.original && block.lines?.length)) return null;
@@ -178,8 +221,10 @@ function postFromItem(item, existingPosts) {
   const artistNames = splitCreditNames(artist || "Unknown");
   const categories = [artist || "Unknown", album].filter(Boolean);
   const categorySlugs = [slugify(artist || "unknown"), album ? slugify(album) : null].filter(Boolean);
+  const image = featuredImage(item, attachments, youtubeUrl);
 
-  return {
+  const post = {
+    ...(existing || {}),
     id: postId,
     title: rankMathTitle(title, artist, song),
     song,
@@ -189,8 +234,8 @@ function postFromItem(item, existingPosts) {
     artists: artistNames.map((name) => ({ name, slug: slugify(name) })),
     categories,
     category_slugs: categorySlugs,
-    image: null,
-    cover: null,
+    image: usableImage(existing?.image) || image,
+    cover: usableImage(existing?.cover) || image,
     reading_time: readingTime(blocks),
     blocks,
     excerpt: firstOriginalLine(blocks),
@@ -205,12 +250,15 @@ function postFromItem(item, existingPosts) {
       canonical: `https://www.acupoflyrics.com/${slug}/`,
     },
     spotify: {
+      ...(existing?.spotify || {}),
       albumName: album || null,
       releaseDate: date ? String(date).slice(0, 10) : null,
-      coverUrl: null,
+      coverUrl: usableImage(existing?.spotify?.coverUrl) || image,
     },
     source: "wordpress-acf",
   };
+
+  return { post, isNew: !existing, previousSlug: existing?.slug };
 }
 
 async function readJson(rel) {
@@ -240,19 +288,22 @@ function upsertArtists(artists, postsToAdd) {
 const xml = await readFile(XML_PATH, "utf8");
 const posts = await readJson(FILES.posts[0]);
 const artists = await readJson(FILES.artists[0]);
+const attachments = attachmentMap(xml);
 
-const additions = itemBlocks(xml)
+const changes = itemBlocks(xml)
   .filter((item) => item.includes("<![CDATA[post]]></wp:post_type>"))
   .filter((item) => item.includes("<![CDATA[publish]]></wp:status>"))
-  .map((item) => postFromItem(item, posts))
+  .map((item) => postFromItem(item, posts, attachments))
   .filter(Boolean);
 
-if (!additions.length) {
-  console.log("No missing WordPress ACF posts to import.");
+if (!changes.length) {
+  console.log("No WordPress ACF posts to import or update.");
   process.exit(0);
 }
 
-const nextPosts = [...additions, ...posts].sort((a, b) => {
+const updates = new Map(changes.filter((change) => !change.isNew).map((change) => [change.previousSlug || change.post.slug, change.post]));
+const additions = changes.filter((change) => change.isNew).map((change) => change.post);
+const nextPosts = [...additions, ...posts.map((post) => updates.get(post.slug) || post)].sort((a, b) => {
   const aId = Number.parseInt(a.id, 10) || 0;
   const bId = Number.parseInt(b.id, 10) || 0;
   return bId - aId;
@@ -266,3 +317,4 @@ console.log(`Imported ${additions.length} missing WordPress ACF posts:`);
 for (const post of additions) {
   console.log(`- /${post.oldSlug}/ -> /${post.slug}/`);
 }
+console.log(`Updated ${updates.size} existing WordPress ACF posts.`);
