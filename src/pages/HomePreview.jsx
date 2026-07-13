@@ -10,7 +10,6 @@ import {
   heroPost,
   kpopShelf,
   lyricsQuote,
-  melikePicks,
   metricsFor,
   moodGroups,
   newReleases,
@@ -21,9 +20,7 @@ import {
   releaseYear,
   rockShelf,
   songOfTheDay,
-  translatorNotes,
 } from "../lib/content";
-import upcoming from "../data/upcoming.json";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath } from "../lib/paths";
@@ -126,31 +123,6 @@ function NewTranslations({ items }) {
   );
 }
 
-function PickCard({ item }) {
-  const { p, note } = item;
-  return (
-    <Link to={postPath(p)} className="acl-pick-card">
-      <span className="acl-quote-mark">“</span>
-      <p>“{note}”</p>
-      <div>
-        <span className="acl-initial" aria-hidden>m</span>
-        <span>melike · {p.artist}</span>
-      </div>
-    </Link>
-  );
-}
-
-function EditorsPicks({ items }) {
-  return (
-    <section className="acl-section" id="editors-picks">
-      <SectionHead title="Melike'nin Seçtikleri" />
-      <div className="acl-pick-grid">
-        {items.map((item) => <PickCard key={item.p.slug} item={item} />)}
-      </div>
-    </section>
-  );
-}
-
 // Real, date-based lists — no invented view counts or trend scores.
 function RankedSection({ newest, updated }) {
   const [activeTab, setActiveTab] = useState("newest");
@@ -189,25 +161,6 @@ function RankedSection({ newest, updated }) {
               <small style={{ display: "block", fontSize: "11px", color: "var(--acl-faint)", marginTop: "4px" }}>{formatDate(activeTab === "newest" ? p.date : metricsFor(p).updatedDate)}</small>
             </div>
           </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-// Upcoming translations — hand-maintained in src/data/upcoming.json.
-function UpcomingSection({ items }) {
-  if (!items?.length) return null;
-  return (
-    <section className="acl-section">
-      <SectionHead title="Yakında Gelecek" to={discoverPath()} />
-      <div className="acl-upcoming-grid">
-        {items.map((item) => (
-          <div className="acl-upcoming-card" key={`${item.artist}-${item.song}`}>
-            <span className="acl-upcoming-date">{item.date}</span>
-            <strong>{item.song}</strong>
-            <span className="acl-upcoming-artist">{item.artist}</span>
-          </div>
         ))}
       </div>
     </section>
@@ -329,23 +282,6 @@ function ArtistSpotlight({ artist }) {
   );
 }
 
-function DiarySection({ notes }) {
-  return (
-    <section className="acl-section">
-      <SectionHead title="Çevirmen Günlüğü" />
-      <div className="acl-diary-grid">
-        {notes.slice(0, 3).map((note) => (
-          <Link to={postPath(note.p)} className="acl-diary-card" key={`${note.p.slug}-${note.word}`}>
-            <span>{note.word}</span>
-            <p>{note.note}</p>
-            <small>{note.p.artist} · {note.p.song}</small>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
-
 function MagazineSplit({ quote, day }) {
   return (
     <section className="acl-section">
@@ -411,7 +347,6 @@ export default function HomePreview() {
   const color = useAlbumColor(heroPost.cover, [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
   const latest = useMemo(() => newReleases.slice(0, 8), []);
-  const picks = useMemo(() => melikePicks.slice(0, 4), []);
 
   return (
     <div className={`acl-home ${theme.dark ? "is-dark" : "is-light"}`} style={theme.vars}>
@@ -428,9 +363,6 @@ export default function HomePreview() {
           <CollectionsSection items={collections} />
           <ArtistSpotlight artist={artistSpotlight} />
           <MagazineSplit quote={lyricsQuote} day={songOfTheDay} />
-          <UpcomingSection items={upcoming} />
-          <EditorsPicks items={picks} />
-          <DiarySection notes={translatorNotes} />
           <ExploreGrid title="Mood'a Göre Keşfet" groups={moodGroups} type="mood" />
         </div>
       </main>

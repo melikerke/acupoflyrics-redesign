@@ -373,13 +373,6 @@ export const rockShelf = enriched.filter((p) => genreFor(p) === "Rock").slice(0,
 export const rbShelf = enriched.filter((p) => genreFor(p) === "R&B").slice(0, 14);
 
 const pickSlug = (frag) => enriched.find((p) => p.slug.includes(frag));
-// Melike's picks — real songs, short editorial voice (sample copy).
-export const melikePicks = [
-  { p: pickSlug("rose-messy"), note: "Türkçesi orijinalinden daha çıplak çıktı — “tangled” yerine “dolanmak” bedeni de işin içine katıyor." },
-  { p: pickSlug("jennie-twin"), note: "Bütün şarkı tek bir satırın etrafında dönüyor: bir itiraf değil, bir taslak." },
-  { p: pickSlug("the-weeknd-hurry-up-tomorrow"), note: "Bir günah çıkarma. “Günah” kelimesini koymakla koymamak arasında çok düşündüm." },
-].filter((x) => x.p);
-
 // "Because you liked X" — a curated reference + neighbours.
 export const becauseYouLiked = {
   ref: pickSlug("rose-messy"),
@@ -391,13 +384,6 @@ export const sameFeeling = {
   residue: "özlem",
   items: ["jennie-twin", "jimin-who", "ariana-grande-the-boy-is-mine", "the-weeknd-hurry-up-tomorrow"].map(pickSlug).filter(Boolean),
 };
-
-// Translator's notes — sample editorial voice on real songs.
-export const translatorNotes = [
-  { word: "“sins”", note: "Türkçede “günah” dini bir ağırlık taşıyor; Weeknd’in kastettiği suçluluk daha dünyevi. İkisinin arasında durdum.", p: pickSlug("the-weeknd-hurry-up-tomorrow") },
-  { word: "çeviremedim", note: "“Rapunzel gibi hissediyorum” — özgürlük çağrışımı için masalı bilmek gerekiyor.", p: pickSlug("lisa-rapunzel") },
-  { word: "soneul jaba", note: "Koreceden doğrudan taşıdım: “tut elimi”. İngilizceye uğramadan, aceleyi koruyarak.", p: pickSlug("twice-mars") },
-].filter((x) => x.p);
 
 export const recentlyUpdated = [...enriched]
   .sort((a, b) => new Date(metricsFor(b).updatedDate) - new Date(metricsFor(a).updatedDate))
