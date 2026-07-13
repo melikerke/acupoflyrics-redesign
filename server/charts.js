@@ -20,6 +20,7 @@ const LIMIT = 10;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 const SPOTIFY_GLOBAL_TOP_50 = "37i9dQZEVXbMDoHDwVN2tF";
 const CIRCLE = "https://circlechart.kr";
+const FETCH_TIMEOUT_MS = 15000;
 
 function decodeEntities(value) {
   return String(value)
@@ -35,8 +36,33 @@ function stripTags(value) {
   return decodeEntities(String(value).replace(/<[^>]+>/g, " "));
 }
 
+async function fetchWithTimeout(url, options = {}, timeoutMs = FETCH_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } catch (error) {
+    if (error?.name === "AbortError") throw new Error(`${url} zaman aşımına uğradı`);
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function withTimeout(promise, label, timeoutMs = FETCH_TIMEOUT_MS) {
+  let timeout;
+  const timer = new Promise((_, reject) => {
+    timeout = setTimeout(() => reject(new Error(`${label} zaman aşımına uğradı`)), timeoutMs);
+  });
+  try {
+    return await Promise.race([promise, timer]);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function fetchJson(url, options) {
-  const res = await fetch(url, options);
+  const res = await fetchWithTimeout(url, options);
   if (!res.ok) throw new Error(`${url} ${res.status}`);
   return res.json();
 }
@@ -55,7 +81,7 @@ async function postCircle(pathname, data, referer) {
 }
 
 async function fetchBillboard(chart) {
-  const res = await fetch(`https://www.billboard.com/charts/${chart}/`, {
+  const res = await fetchWithTimeout(`https://www.billboard.com/charts/${chart}/`, {
     headers: { "User-Agent": UA, Accept: "text/html" },
   });
   if (!res.ok) throw new Error(`billboard.com ${res.status}`);
@@ -83,7 +109,7 @@ async function fetchBillboard(chart) {
 }
 
 async function fetchAppleMostPlayed() {
-  const res = await fetch(`https://rss.applemarketingtools.com/api/v2/us/music/most-played/${LIMIT}/songs.json`, {
+  const res = await fetchWithTimeout(`https://rss.applemarketingtools.com/api/v2/us/music/most-played/${LIMIT}/songs.json`, {
     headers: { "User-Agent": UA },
   });
   if (!res.ok) throw new Error(`Apple RSS ${res.status}`);
@@ -131,7 +157,7 @@ function parseKworbTitle(raw) {
 }
 
 async function fetchSpotifyGlobalFallback() {
-  const res = await fetch("https://kworb.net/spotify/country/global_daily.html", {
+  const res = await fetchWithTimeout("https://kworb.net/spotify/country/global_daily.html", {
     headers: { "User-Agent": UA, Accept: "text/html" },
   });
   if (!res.ok) throw new Error(`Kworb Spotify ${res.status}`);
@@ -155,9 +181,12 @@ async function fetchSpotifyGlobalFallback() {
 
 async function fetchSpotifyGlobal(spotifyCreds) {
   try {
-    const data = await spotifyApiGet(
-      `/playlists/${SPOTIFY_GLOBAL_TOP_50}/tracks?limit=${LIMIT}&fields=items(track(name,artists(name),album(name,images,external_urls),external_urls))`,
-      spotifyCreds,
+    const data = await withTimeout(
+      spotifyApiGet(
+        `/playlists/${SPOTIFY_GLOBAL_TOP_50}/tracks?limit=${LIMIT}&fields=items(track(name,artists(name),album(name,images,external_urls),external_urls))`,
+        spotifyCreds,
+      ),
+      "Spotify Global Top 50",
     );
     const items = (data?.items || []).filter((item) => item?.track?.name);
     if (!items.length) throw new Error("Spotify listesi boş döndü");
@@ -184,9 +213,12 @@ async function enrichEntriesWithSpotify(entries, spotifyCreds) {
       continue;
     }
     try {
-      const match = await searchTrackMeta(
-        { artist: entry.artist, title: entry.title },
-        { clientId: spotifyCreds.clientId, clientSecret: spotifyCreds.clientSecret },
+      const match = await withTimeout(
+        searchTrackMeta(
+          { artist: entry.artist, title: entry.title },
+          { clientId: spotifyCreds.clientId, clientSecret: spotifyCreds.clientSecret },
+        ),
+        `Spotify metadata: ${entry.artist} - ${entry.title}`,
       );
       enriched.push(
         match.matched
@@ -229,7 +261,7 @@ export async function updateCharts({ spotify, write = true } = {}) {
       continue;
     }
     try {
-      const entries = await fetcher();
+      const entries = await withTimeout(fetcher(), list.name);
       list.entries = await enrichEntriesWithSpotify(entries, spotify);
       changed = true;
       summary.push({

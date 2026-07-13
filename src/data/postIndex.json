@@ -1,5 +1,68 @@
 [
   {
+    "id": "5017",
+    "slug": "tame-impala-jennie-dracula-turkce-ceviri",
+    "title": "Tame Impala, JENNIE Dracula Türkçe Çeviri",
+    "song": "Dracula",
+    "artist": "Tame Impala, JENNIE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676",
+    "date": "2026-07-13T13:03:29.597Z",
+    "reading_time": 4,
+    "excerpt": "Oh (You and me)",
+    "categories": [
+      "Tame Impala",
+      "JENNIE",
+      "Dracula (Remix)"
+    ],
+    "category_slugs": [
+      "tame-impala",
+      "jennie",
+      "dracula-remix"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5yvVYFDUpbnjcnRBgjwTzM",
+      "albumUrl": "https://open.spotify.com/album/6KFq3hJB6JnNvDbEHRvPoK",
+      "artistUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+      "albumName": "Dracula (Remix)",
+      "releaseDate": "2026-02-06",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676",
+      "duration": "3:30",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5yvVYFDUpbnjcnRBgjwTzM",
+        "isrc": "USQX92600464",
+        "duration": "3:30",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Tame Impala",
+        "url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
+      },
+      "album": {
+        "name": "Dracula (Remix)",
+        "url": "https://open.spotify.com/album/6KFq3hJB6JnNvDbEHRvPoK",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676",
+        "releaseDate": "2026-02-06",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Shadows keep me pretty": "Işık kusurları açığa çıkarırken, gölgelerin bir gizem ve güzellik katması durumuna atıf. “Morning light is turning blue”: Şafak sökmeden önceki o soğuk, mavi saati tasvir ediyor.",
+      "Mr. Charisma / Pablo Escobar": "Karanlığa girdiği an özgüveninin tavan yapmasını ve o \"dokunulmaz, patron\" edasını simgeliyor.",
+      "Sinking in my teeth / Buy time": "Vampir metaforu üzerinden, ana/hayata dişlerini geçirmeyi yani o andan kopmamayı, zamanı yavaşlatmayı temsil ediyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oh (You and me)",
+      "tr": "Oh (Sen ve ben)"
+    }
+  },
+  {
     "id": "5016",
     "slug": "bts-into-the-sun-turkce-ceviri",
     "title": "BTS Into the Sun Türkçe Çeviri",
