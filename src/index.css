@@ -2238,6 +2238,31 @@ body {
   box-shadow: 0 28px 74px rgba(0, 0, 0, 0.34);
 }
 
+.detail-card-focus-shape {
+  position: absolute;
+  z-index: 1;
+  left: 24%;
+  top: 42%;
+  width: 58%;
+  height: 82px;
+  border: 1.5px solid var(--card-stroke-soft, rgba(247, 243, 236, 0.28));
+  border-radius: 999px;
+  box-shadow:
+    0 0 0 7px rgba(255, 255, 255, 0.025),
+    0 0 34px var(--card-glow-soft, rgba(255, 255, 255, 0.12));
+  opacity: 0.9;
+  pointer-events: none;
+  transform: rotate(-5deg) skewX(-7deg);
+}
+
+.detail-card-focus-shape::after {
+  content: "";
+  position: absolute;
+  inset: 7px 10px;
+  border: 1px solid rgba(247, 243, 236, 0.11);
+  border-radius: inherit;
+}
+
 .detail-card-lines {
   position: relative;
   z-index: 2;
@@ -2439,6 +2464,13 @@ body {
     right: -14px;
     bottom: -16px;
     width: 124px;
+  }
+
+  .detail-card-focus-shape {
+    left: 20%;
+    top: 43%;
+    width: 68%;
+    height: 72px;
   }
 
   .detail-card-lines {

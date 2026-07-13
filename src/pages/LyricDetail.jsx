@@ -221,6 +221,24 @@ function drawNoise(ctx, width, height) {
   ctx.restore();
 }
 
+function drawEditorialRing(ctx, x, y, width, height, theme) {
+  ctx.save();
+  ctx.translate(x + width / 2, y + height / 2);
+  ctx.rotate(-0.08);
+  ctx.scale(1, 0.58);
+  ctx.strokeStyle = `rgba(${theme.stroke[0]}, ${theme.stroke[1]}, ${theme.stroke[2]}, 0.36)`;
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.strokeStyle = `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.18)`;
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, width / 2 - 8, height / 2 - 8, 0, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.restore();
+}
+
 async function createLyricCardBlob({ post, card }) {
   const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
   const cover = await loadCanvasImage(post.cover);
@@ -280,6 +298,8 @@ async function createLyricCardBlob({ post, card }) {
   const lyricAreaTop = 330;
   const lyricAreaBottom = designHeight - 330;
   let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
+  const ringY = Math.max(lyricAreaTop + 22, y + Math.min(lyricLines.filter(Boolean).length, 2) * lineHeight - 48);
+  drawEditorialRing(ctx, 250, ringY, 560, 108, theme);
   const firstLyricLine = lyricLines.find(Boolean);
   for (const line of lyricLines) {
     if (!line) {
@@ -613,6 +633,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               <div className="detail-card-brand">
                 <span>acupoflyrics</span>
               </div>
+              <span className="detail-card-focus-shape" aria-hidden="true" />
               <img src={post.cover} alt="" className="detail-card-cover" />
               <div className="detail-card-lines">
                 {card.selectedLines.map((line, lineIndex) => (

@@ -10,22 +10,14 @@ const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), 
 const artistsRaw = JSON.parse(await readFile(path.join(ROOT, "src/data/artists.json"), "utf8"));
 const template = await readFile(path.join(DIST, "index.html"), "utf8");
 
-const collectionNames = [
-  "Kalp Kırıklığı",
-  "Gece Yarısı",
-  "Yağmurlu Gün",
-  "İyileşme",
-  "Gym Playlist",
-  "Summer Songs",
-  "Sad Girl Playlist",
-  "Villain Energy",
-  "Taylor Lore",
-  "K-pop Essentials",
-  "Coffee Shop",
-  "Driving",
-  "Breakup",
-  "First Love",
-];
+function releaseYearFor(post) {
+  const raw = post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date;
+  const parsed = new Date(raw);
+  return Number.isNaN(parsed.getTime()) ? "" : String(parsed.getFullYear());
+}
+
+const collectionYears = [...new Set(posts.map(releaseYearFor).filter((year) => /^\d{4}$/.test(year)))]
+  .sort((a, b) => Number(b) - Number(a));
 const moodNames = ["Love", "Sad", "Happy", "Healing", "Dark", "Motivation", "Party", "Lonely", "Dreamy", "Night"];
 const genreNames = ["Pop", "Rock", "Hip Hop", "Alternative", "K-pop", "R&B", "EDM", "Indie"];
 
@@ -56,8 +48,55 @@ function albumNameFor(post) {
 }
 
 function primaryArtistSlug(post) {
-  const exact = artistsRaw.find((a) => a.name.toLowerCase() === String(post.artist || "").toLowerCase());
+  const exact = preferredArtistByName.get(String(post.artist || "").trim().toLowerCase());
   return exact?.slug || post.category_slugs?.[0] || slugify(post.artist);
+}
+
+const performerNames = new Set(
+  posts.flatMap((post) => String(post.artist || "")
+    .split(/\s*,\s*/)
+    .map((name) => name.trim().toLowerCase())
+    .filter(Boolean)),
+);
+const categorySlugUse = new Map();
+for (const post of posts) {
+  const credits = new Set(String(post.artist || "").split(/\s*,\s*/).map((name) => name.trim().toLowerCase()));
+  for (let index = 0; index < (post.category_slugs || []).length; index += 1) {
+    const slug = post.category_slugs[index];
+    const name = String(post.categories?.[index] || "").trim().toLowerCase();
+    if (!credits.has(name)) continue;
+    const key = `${name}::${slug}`;
+    categorySlugUse.set(key, (categorySlugUse.get(key) || 0) + 1);
+  }
+}
+const preferredArtistByName = new Map();
+for (const artist of artistsRaw) {
+  const key = String(artist.name || "").trim().toLowerCase();
+  if (!performerNames.has(key)) continue;
+  const current = preferredArtistByName.get(key);
+  if (!current || (categorySlugUse.get(`${key}::${artist.slug}`) || 0) > (categorySlugUse.get(`${key}::${current.slug}`) || 0)) {
+    preferredArtistByName.set(key, artist);
+  }
+}
+
+function creditedArtists(post) {
+  return String(post.artist || "")
+    .split(/\s*,\s*/)
+    .map((name) => name.trim())
+    .filter(Boolean)
+    .map((name) => {
+      const key = name.toLowerCase();
+      const categoryIndex = (post.categories || []).findIndex(
+        (category) => String(category || "").trim().toLowerCase() === key,
+      );
+      const categorySlug = categoryIndex >= 0 ? post.category_slugs?.[categoryIndex] : null;
+      const meta = preferredArtistByName.get(key);
+      return {
+        slug: categorySlug || meta?.slug || slugify(name),
+        name: meta?.name || name,
+        image: meta?.image,
+      };
+    });
 }
 
 function firstPair(post) {
@@ -155,9 +194,17 @@ for (const post of posts) {
 
 const artists = new Map();
 for (const post of posts) {
-  const slug = primaryArtistSlug(post);
-  if (!artists.has(slug)) artists.set(slug, { slug, name: post.artist, cover: post.spotify?.artist?.image || post.cover, count: 0 });
-  artists.get(slug).count += 1;
+  for (const credit of creditedArtists(post)) {
+    if (!artists.has(credit.slug)) {
+      artists.set(credit.slug, {
+        slug: credit.slug,
+        name: credit.name,
+        cover: credit.image || post.spotify?.artist?.image || post.cover,
+        count: 0,
+      });
+    }
+    artists.get(credit.slug).count += 1;
+  }
 }
 for (const artist of artists.values()) {
   routes.push(route(
@@ -187,8 +234,15 @@ for (const album of albums.values()) {
   ));
 }
 
-for (const name of collectionNames) {
-  routes.push(route(`/collection/${slugify(name)}`, `${name} — Şarkı Çevirileri Koleksiyonu | acupoflyrics`, `${name} hissi için seçilmiş Türkçe şarkı çevirileri.`, posts[0]?.cover));
+for (const year of collectionYears) {
+  const name = `${year} Şarkıları`;
+  const yearPosts = posts.filter((post) => releaseYearFor(post) === year);
+  routes.push(route(
+    `/collection/${slugify(name)}`,
+    `${name} — Türkçe Şarkı Çevirileri | acupoflyrics`,
+    `${year} yılında yayımlanan ve acupoflyrics arşivinde Türkçeye çevrilen ${yearPosts.length} şarkı.`,
+    yearPosts[0]?.cover,
+  ));
 }
 for (const name of moodNames) {
   routes.push(route(`/mood/${slugify(name)}`, `${name} Mood Şarkı Çevirileri | acupoflyrics`, `${name} hissi taşıyan şarkıların Türkçe çevirileri.`, posts[0]?.cover));

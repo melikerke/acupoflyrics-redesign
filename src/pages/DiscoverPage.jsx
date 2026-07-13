@@ -74,7 +74,7 @@ export default function DiscoverPage() {
         </Grid>
       </Section>
 
-      <Section title="Koleksiyonlar" kicker="Editörün seçtikleri" id="collections">
+      <Section title="Yıllara göre" kicker="Çıkış yılına göre arşiv" id="collections">
         <Grid min={220}>
           {collections.map((c) => <CollectionCard key={c.slug} collection={c} />)}
         </Grid>

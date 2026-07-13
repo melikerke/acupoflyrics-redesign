@@ -287,7 +287,7 @@ function AlbumShelf({ items }) {
 function CollectionsSection({ items }) {
   return (
     <section className="acl-section">
-      <SectionHead title="Koleksiyonlar" to="/discover#collections" />
+      <SectionHead title="Yıllara Göre" to="/discover#collections" />
       <div className="acl-collection-grid">
         {items.slice(0, 12).map((collection) => (
           <Link to={collectionPath(collection)} className="acl-collection-card" key={collection.slug}>

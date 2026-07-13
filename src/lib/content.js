@@ -50,7 +50,39 @@ const enriched = posts.map((p, i) => ({
 }));
 
 export const allPosts = enriched;
-export const allArtists = artistsRaw;
+
+// The WordPress category export mixed real performers with album/song
+// categories. Only expose names that are actually credited as performers on a
+// post. When the export contains duplicate entries for the same artist, prefer
+// the slug that is used by that post's category data.
+const performerNames = new Set(
+  posts.flatMap((post) => String(post.artist || "")
+    .split(/\s*,\s*/)
+    .map((name) => name.trim().toLowerCase())
+    .filter(Boolean)),
+);
+const categorySlugUse = new Map();
+for (const post of posts) {
+  const credits = new Set(String(post.artist || "").split(/\s*,\s*/).map((name) => name.trim().toLowerCase()));
+  for (let index = 0; index < (post.category_slugs || []).length; index += 1) {
+    const slug = post.category_slugs[index];
+    const name = String(post.categories?.[index] || "").trim().toLowerCase();
+    if (!credits.has(name)) continue;
+    const key = `${name}::${slug}`;
+    categorySlugUse.set(key, (categorySlugUse.get(key) || 0) + 1);
+  }
+}
+const performersByName = new Map();
+for (const artist of artistsRaw) {
+  const key = String(artist.name || "").trim().toLowerCase();
+  if (!performerNames.has(key)) continue;
+  const current = performersByName.get(key);
+  if (!current || (categorySlugUse.get(`${key}::${artist.slug}`) || 0) > (categorySlugUse.get(`${key}::${current.slug}`) || 0)) {
+    performersByName.set(key, artist);
+  }
+}
+
+export const allArtists = [...performersByName.values()];
 export const totalPosts = total;
 
 export const getPost = (slug) => enriched.find((p) => p.slug === slug);
@@ -392,25 +424,15 @@ export const artistCollections = allArtists
   })
   .filter((a) => a.cover);
 
-const collectionDefs = [
-  ["Kalp Kırıklığı", (p) => moodFor(p) === "Sad" || /break|heart|messy|lonely/.test(p.slug)],
-  ["Gece Yarısı", (p) => moodFor(p) === "Night" || p.artist === "The Weeknd"],
-  ["Yağmurlu Gün", (p) => ["Sad", "Dreamy", "Lonely"].includes(moodFor(p))],
-  ["İyileşme", (p) => moodFor(p) === "Healing"],
-  ["Gym Playlist", (p) => ["Party", "Motivation", "Dark"].includes(moodFor(p))],
-  ["Summer Songs", (p) => /summer|hot|party|dance/.test(`${p.slug} ${p.excerpt || ""}`.toLowerCase())],
-  ["Sad Girl Playlist", (p) => ["Sad", "Lonely"].includes(moodFor(p)) && ["Pop", "R&B"].includes(genreFor(p))],
-  ["Villain Energy", (p) => moodFor(p) === "Dark"],
-  ["Taylor Lore", (p) => p.artist.toLowerCase().includes("taylor swift")],
-  ["K-pop Essentials", (p) => genreFor(p) === "K-pop"],
-  ["Coffee Shop", (p) => ["Dreamy", "Healing", "Love"].includes(moodFor(p))],
-  ["Driving", (p) => ["Pop", "Rock", "EDM"].includes(genreFor(p))],
-  ["Breakup", (p) => /break|cry|alone|messy|sad/.test(`${p.slug} ${p.excerpt || ""}`.toLowerCase())],
-  ["First Love", (p) => moodFor(p) === "Love"],
-];
+const archiveYears = [...new Set(enriched.map((post) => releaseYear(post)).filter((year) => /^\d{4}$/.test(year)))]
+  .sort((a, b) => Number(b) - Number(a));
+const collectionDefs = archiveYears.map((year) => [
+  `${year} Şarkıları`,
+  (post) => releaseYear(post) === year,
+]);
 
 export const collections = collectionDefs.map(([name, test]) => {
-  const items = enriched.filter(test).slice(0, 8);
+  const items = enriched.filter(test);
   return {
     name,
     slug: albumSlugFor(name),
@@ -638,24 +660,6 @@ export function relatedArtists(slug, n = 8) {
   return out;
 }
 
-// ---- Editorial copy (Turkish) for the curated content types ----
-export const collectionDescriptions = {
-  "kalp-kirikligi": "Bittikten sonra çalmaya devam eden şarkılar. Ayrılığın, özlemin ve “keşke”lerin Türkçesi.",
-  "gece-yarisi": "Işıklar kapandıktan sonra dinlenen sözler — kuytu, içe dönük ve biraz tedirgin.",
-  "yagmurlu-gun": "Cama vuran yağmurun ritmine eşlik eden, melankoliyle barışık çeviriler.",
-  "iyilesme": "Kırıldıktan sonra toparlanmanın sözleri. Umuda, ışığa ve yeniden başlamaya dair.",
-  "gym-playlist": "Tempoyu yükselten, motivasyon ve “villain energy” taşıyan parçalar.",
-  "summer-songs": "Sıcak, ışıltılı ve dans ettiren yaz şarkılarının Türkçesi.",
-  "sad-girl-playlist": "Hüznü estetiğe çeviren pop ve R&B parçaları — ağlamak da bir tür bakım.",
-  "villain-energy": "Karanlık, iddialı ve özür dilemeyen sözler. Kötü adam koltuğuna otur.",
-  "taylor-lore": "Taylor Swift evreninin katman katman açılan anlatısı.",
-  "k-pop-essentials": "K-pop dünyasından mutlaka okunması gereken çeviriler.",
-  "coffee-shop": "Sabah ışığı ve sıcak fincan hissi taşıyan, yumuşak ve hayalperest sözler.",
-  "driving": "Yol, hız ve açık pencere için seçilmiş çeviriler.",
-  "breakup": "Ayrılığın tam ortasından gelen sözler — öfke, yas ve serbest bırakış.",
-  "first-love": "İlk kez âşık olmanın saf, çekingen ve büyülü Türkçesi.",
-};
-
 export const moodDescriptions = {
   Love: "Âşık olmanın her hâli — çekingenliğinden tutkusuna. Sevginin Türkçeye taşınmış sözleri.",
   Sad: "Hüznün dürüst sözleri. Ağlamak isteyince açılan çeviriler.",
@@ -700,7 +704,11 @@ export function getCollection(slug) {
   const [name, test] = def;
   let items = enriched.filter(test);
   if (!items.length) items = enriched.slice(stableHash(name) % 16, (stableHash(name) % 16) + 8);
-  return decorate(name, slug, items, collectionDescriptions[slug] || `${name} için seçilmiş çeviriler.`);
+  const year = name.match(/^\d{4}/)?.[0];
+  const description = year
+    ? `${year} yılında yayımlanan ve acupoflyrics arşivinde Türkçeye çevrilen ${items.length} şarkı.`
+    : `${name} için seçilmiş çeviriler.`;
+  return decorate(name, slug, items, description);
 }
 
 export function getMood(slug) {

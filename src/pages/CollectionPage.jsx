@@ -14,10 +14,10 @@ import NotFound from "../components/site/NotFound";
 function CollectionEditorialPanel({ collection }) {
   const sample = collection.items.slice(0, 5);
   return (
-    <section className="site-collection-editorial" aria-label="Koleksiyon özeti">
+    <section className="site-collection-editorial" aria-label="Yıl arşivi özeti">
       <div>
-        <span className="site-kicker">Koleksiyon Notu</span>
-        <h2 className="font-serif">Bu liste nasıl okunmalı?</h2>
+        <span className="site-kicker">Yıl Arşivi</span>
+        <h2 className="font-serif">O yılın çevirileri</h2>
         <p>{collection.description}</p>
       </div>
       <div className="site-collection-strip" aria-hidden>
@@ -36,7 +36,7 @@ export default function CollectionPage() {
 
   const path = collectionPath(slug);
   useSeo({
-    title: collection ? `${collection.name} — Şarkı Çevirileri Koleksiyonu | acupoflyrics` : "Koleksiyon bulunamadı",
+    title: collection ? `${collection.name} — Türkçe Şarkı Çevirileri | acupoflyrics` : "Yıl arşivi bulunamadı",
     description: collection?.description,
     path,
     image: collection?.cover,
@@ -59,7 +59,7 @@ export default function CollectionPage() {
       : null,
   });
 
-  if (!collection) return <NotFound theme={theme} title="Koleksiyon bulunamadı." />;
+  if (!collection) return <NotFound theme={theme} title="Yıl arşivi bulunamadı." />;
 
   return (
     <SiteShell theme={theme} wide>
@@ -69,10 +69,10 @@ export default function CollectionPage() {
         variant="collection"
         bg={collection.cover}
         collage={collection.covers}
-        kicker="Koleksiyon"
+        kicker="Yıl Arşivi"
         title={collection.name}
         titleSerif
-        meta={["Editör seçkisi", "Tematik okuma listesi"]}
+        meta={["Çıkış yılına göre", "Türkçe çeviri arşivi"]}
         description={collection.description}
         stats={[
           { value: collection.count, label: "şarkı", icon: "note" },
@@ -82,14 +82,14 @@ export default function CollectionPage() {
 
       <CollectionEditorialPanel collection={collection} />
 
-      <Section title="Bu koleksiyondaki çeviriler" kicker="Satır satır">
+      <Section title="Bu yıldaki çeviriler" kicker="Satır satır">
         <div className="site-masonry">
           {collection.items.map((post) => <QuoteCard key={post.slug} post={post} />)}
         </div>
       </Section>
 
       {others.length > 0 && (
-        <Section title="Diğer koleksiyonlar" to="/discover#collections">
+        <Section title="Diğer yıllar" to="/discover#collections">
           <Grid min={220}>
             {others.map((c) => <CollectionCard key={c.slug} collection={c} />)}
           </Grid>
