@@ -74,7 +74,11 @@
         {
           "rank": 8,
           "title": "Dracula",
-          "artist": "Tame Impala & JENNIE"
+          "artist": "Tame Impala & JENNIE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+          "spotifyUrl": "https://open.spotify.com/track/1NXbNEAcPvY5G1xvfN57aA",
+          "album": "Deadbeat",
+          "albumUrl": "https://open.spotify.com/album/5WulAOx9ilWy1h8UGZ1gkI"
         },
         {
           "rank": 9,

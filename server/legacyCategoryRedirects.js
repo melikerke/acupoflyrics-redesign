@@ -32,6 +32,7 @@ export const legacyCategoryRedirects = {
   "benny-blanco": "/artist/benny-blanco",
   "bi": "/artist/b-i",
   "billie-eilish": "/artist/billie-eilish",
+  "bitch-better-have-my-money": "/album/rihanna-bitch-better-have-my-money",
   "black-out": "/discover",
   "blackpink": "/artist/blackpink",
   "bruno-mars": "/artist/bruno-mars",
