@@ -1,9 +1,27 @@
 import { next } from "@vercel/functions";
+import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
 
 export const config = {
-  matcher: ["/admin/:path*", "/api/:path*"],
+  matcher: [
+    "/admin/:path*",
+    "/api/:path*",
+    "/category/:path*",
+    "/tag/:path*",
+    "/author/:path*",
+  ],
   runtime: "nodejs",
 };
+
+function permanentRedirect(request, destination) {
+  const url = new URL(destination, request.url);
+  return new Response(null, {
+    status: 308,
+    headers: {
+      Location: url.toString(),
+      "Cache-Control": "public, max-age=0, s-maxage=86400",
+    },
+  });
+}
 
 function unauthorized() {
   return new Response("Authentication required.", {
@@ -35,6 +53,22 @@ function readBasicAuth(request) {
 
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
+
+  const categoryMatch = pathname.match(/^\/category\/([^/]+)\/?$/);
+  if (categoryMatch) {
+    const slug = decodeURIComponent(categoryMatch[1]).toLowerCase();
+    return permanentRedirect(request, legacyCategoryRedirects[slug] || "/discover");
+  }
+  if (pathname === "/category" || pathname === "/category/") {
+    return permanentRedirect(request, "/discover");
+  }
+  if (pathname.startsWith("/tag/")) {
+    return permanentRedirect(request, "/discover");
+  }
+  if (pathname.startsWith("/author/")) {
+    return permanentRedirect(request, "/hakkimizda");
+  }
+
   if (pathname === "/api/comments") {
     return next();
   }

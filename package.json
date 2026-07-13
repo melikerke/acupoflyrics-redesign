@@ -10,7 +10,11 @@
     "import:wp-seo": "node scripts/importWpSeo.js",
     "backfill:youtube": "node scripts/backfillYoutubeFromWp.js",
     "backfill:spotify": "node scripts/backfillSpotify.js",
+    "backfill:artist-images": "node scripts/backfillArtistImages.js",
     "audit:content": "node scripts/auditContent.js",
+    "generate:legacy-redirects": "node scripts/generateLegacyCategoryRedirects.js",
+    "fix:artist-credits": "node scripts/fixImportedArtistCredits.js",
+    "repair:track-metadata": "node scripts/repairImportedTrackMetadata.js",
     "publish:translation": "node scripts/publishTranslation.js",
     "update:charts": "node scripts/updateCharts.js"
   },

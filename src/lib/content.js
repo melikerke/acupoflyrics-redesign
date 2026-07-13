@@ -191,7 +191,11 @@ export function getArtist(slug) {
   const latestRelease = [...list].sort(
     (a, b) => new Date(releaseDateOf(b)) - new Date(releaseDateOf(a)),
   )[0];
-  const image = meta?.image || list.find((p) => p.spotify?.artist?.image)?.spotify?.artist?.image || list[0]?.cover;
+  const matchingSpotifyArtist = list.find((post) => (
+    post.spotify?.artist?.image
+    && post.spotify?.artist?.name?.trim().toLowerCase() === name.trim().toLowerCase()
+  ))?.spotify?.artist;
+  const image = matchingSpotifyArtist?.image || meta?.image || list[0]?.cover;
   return {
     name,
     slug,
@@ -200,7 +204,7 @@ export function getArtist(slug) {
     recent: sortedByDate,
     albums,
     latestRelease,
-    spotifyUrl: list.find((p) => p.spotify?.artist?.url)?.spotify?.artist?.url,
+    spotifyUrl: matchingSpotifyArtist?.url,
     count: list.length,
   };
 }

@@ -25,6 +25,10 @@ export function slugify(s) {
     .replace(/^-+|-+$/g, "");
 }
 
+function isLegacyWordPressImage(url = "") {
+  return /\/wp-content\/uploads\//i.test(url);
+}
+
 // Stanzas → alternating original / translation blocks. This matches the
 // WordPress import shape and keeps the detail reader split into real sections.
 function stanzasToBlocks(stanzas = []) {
@@ -135,10 +139,13 @@ export function upsertRecordData(record, posts, artists) {
   if (art) {
     const ai = nextArtists.findIndex((a) => a.slug === art.slug);
     if (ai >= 0) {
+      const currentImage = nextArtists[ai].image;
       nextArtists[ai] = {
         ...nextArtists[ai],
         count: (nextArtists[ai].count || 0) + (isNew ? 1 : 0),
-        image: nextArtists[ai].image || art.image,
+        image: art.image && (!currentImage || isLegacyWordPressImage(currentImage))
+          ? art.image
+          : currentImage || art.image,
       };
     } else {
       nextArtists.push(art);
