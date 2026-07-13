@@ -1,5 +1,952 @@
 [
   {
+    "id": "5016",
+    "slug": "bts-into-the-sun-turkce-ceviri",
+    "title": "BTS Into the Sun Türkçe Çeviri",
+    "song": "Into the Sun",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 09:34:39",
+    "reading_time": 3,
+    "excerpt": "Baby, you remind me",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/N_Id6KNQtLw?si=bz_UMyaltVjenoqZ",
+    "annotations": {
+      "Into the sun": "Güneşe, yani kurtuluşa ve aydınlığa doğru gitmek. \"Just wait, dawn\": Şafağın sökmesi zorlukların bitişini simgeler. Sanatçı partnerine \"dayan\" mesajı veriyor.",
+      "24/7 feel like 24": "Zamanın geçmek bilmediği, acının uzadığı anları temsil eder. Güneşin (umudun) uzak görünse de şafağın kaçınılmaz olduğunu hatırlatıyor.",
+      "개와 늑대의 시간 (L'heure entre chien et loup)": "Fransızca kökenli bir deyim. Gün batımı ile karanlık arasındaki alaca karanlık vaktini anlatır. Uzaktan gelen karaltının sadık bir köpek mi yoksa vahşi bir kurt mı olduğunu anlayamazsınız.",
+      "불을 건네줘, 이 기름 속 (Ateşi ver bana, bu yağın içinde)": "Patlamaya hazır bir tutkuyu ve her şeyi yakıp aydınlatma arzusunu simgeler."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Baby, you remind me",
+      "tr": "Bebeğim, hep hatırlatıyorsun bana;"
+    }
+  },
+  {
+    "id": "5014",
+    "slug": "bts-please-turkce-ceviri",
+    "title": "BTS Please Türkçe Çeviri",
+    "song": "Please",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 09:19:43",
+    "reading_time": 4,
+    "excerpt": "If you wanna, if you wanna, I'll do the thing for you",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/JW679z4iPN0?si=Iz5h4lwEHsHuV5Tn",
+    "annotations": {
+      "Even hell, I'm down": "Aşkı uğruna her türlü bedeli ödemeye, cehennem bile olsa girmeye hazır olduğunu anlatan güçlü bir sadakat ifadesi.",
+      "가시밭길 (Dikenli yol)": "Ünlü Koreli şair Kim Sowol'un \"Açelya\" şiirine bir gönderme. \"Üzerine basıp geçmek\" ifadesi; büyük bir acıyı sevilen kişi uğruna şikâyet etmeden göğüslemek anlamına gelir.",
+      "내 잔이 넘치니 (Kadehim taşıyor)": "İncil'deki 23. Mezmur'a bir atıf; bereket, şükran ve sevginin bolluğunu temsil eder. j-hope burada aşkının onu nasıl beslediğini ve bu sevgiyi paylaşmak istediğini anlatıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "If you wanna, if you wanna, I'll do the thing for you",
+      "tr": "Eğer istersen, eğer gerçekten istersen; senin için her şeyi yaparım."
+    }
+  },
+  {
+    "id": "5011",
+    "slug": "bts-one-more-night-turkce-ceviri",
+    "title": "BTS One More Night Türkçe Çeviri",
+    "song": "One More Night",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 08:58:47",
+    "reading_time": 3,
+    "excerpt": "Eonjenga neoro inhae",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/471JvbFq1Mw?si=q-4DhBnLO8SMDlv_",
+    "annotations": {
+      "너무 닮아버린 그림자 (Birbirine benzeyen gölgeler)": "İki insanın kaderlerinin iç içe geçmesi. RM burada, bu güzel hayalin sonunda getireceği hüznü şimdiden hissettiğini anlatıyor.",
+      "24 hours in the tub": "Küvet burada dünyadan soyutlanmayı ve sadece sevilen kişiye odaklanılan o huzur anını temsil eder.",
+      "Cloud nine": "Mutluluğun en üst seviyesi, \"dokuzuncu bulut.\" SUGA burada sakin, huzurlu ve gösterişten uzak bir sevgi dilini kullanıyor.",
+      "한여름 밤의 꿈 (Bir Yaz Gecesi Rüyası)": "Shakespeare'e atıf; büyüleyici ama geçici bir aşk hikâyesini simgeler.",
+      "Bad morning": "Rüyanın bittiği ve gerçek dünyaya dönüldüğü sabah, âşık için \"kötü bir sabah\"tır.",
+      "Selene": "Yunan mitolojisinde Ay Tanrıçası. j-hope burada partnerini karanlıkta yol gösteren, ulaşılmaz bir gök cismi gibi konumlandırıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Eonjenga neoro inhae",
+      "tr": "Bir gün senin yüzünden"
+    }
+  },
+  {
+    "id": "5009",
+    "slug": "bts-they-don-t-know-bout-us-turkce-ceviri",
+    "title": "BTS they don't know 'bout us Türkçe Çeviri",
+    "song": "they don't know 'bout us",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 08:44:12",
+    "reading_time": 4,
+    "excerpt": "They don't know about us",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/Dt2P9jRa7w0?si=p8fFLyMoT3gTINN9",
+    "annotations": {
+      "촌놈 (Chonnom)": "Korecede \"taşralı, köylü\" anlamında aşağılayıcı bir tabir. BTS (üyelerin çoğu Busan, Daegu, Gwangju gibi taşra şehirlerinden geldiği için) bu kelimeyi bir gurur madalyası gibi taşır.",
+      "오지랖 (Ojirap)": "Korecede \"başkasının işine burnunu sokmak\" anlamındaki deyim. RM, grubun başarısını analiz etmeye çalışan \"uzmanlara\" \"Pasifik kadar büyük bir cüret\" atfında bulunuyor.",
+      "Asian Heroes": "Batı medyasının BTS'i \"insan\" olmaktan çıkarıp birer \"Asyalı temsilcisi/kahramanı\" olarak etiketlemesine bir eleştiri. \"Biz sadece yedi arkadaşız\" diyerek bu yükü reddediyorlar."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "They don't know about us",
+      "tr": "Bizim hakkımızda hiçbir şey bilmiyorlar"
+    }
+  },
+  {
+    "id": "5007",
+    "slug": "bts-like-animals-turkce-ceviri",
+    "title": "BTS Like Animals Türkçe Çeviri",
+    "song": "Like Animals",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 08:31:44",
+    "reading_time": 2,
+    "excerpt": "Oh-oh-oh",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/1BiWkZDiY7s?si=SLQZ9zO4GdCcFoag",
+    "annotations": {
+      "Shadow's a mess / My own dirt": "Jungyen psikolojisine (gölge benlik) bir atıf. Kusurları gizlemek yerine onları kucaklamayı; herkesin kendi karanlığı ve geçmişinden gelen bir \"kiri\" olduğunu vurguluyor.",
+      "Animals / Eat this life": "Toplumsal nezaket maskelerini atıp en saf, en hayvani ve tutkulu hale dönmek. Hayatı sadece \"yaşamak\" değil, bir avcı iştahıyla \"tüketmek\" ve her anın tadını sonuna kadar çıkarmak.",
+      "Six feet down": "Genellikle mezar derinliğini simgeler ama burada ruhun en gizli köşelerinde saklanan gerçek benlikten bahsediyor. ||| \"Beauty outside control\": Güzelliğin kusursuzlukta değil, kuralsızlıkta ve vahşilikte olduğunu savunuyor.",
+      "None of us are tameable": "Endüstrinin veya toplumun onları bir kafese koyamayacağını, pençeleri ve dişleriyle her zaman özgür kalacaklarını simgeliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oh-oh-oh",
+      "tr": "Oh-oh-oh"
+    }
+  },
+  {
+    "id": "5005",
+    "slug": "bts-normal-turkce-ceviri",
+    "title": "BTS Normal Türkçe Çeviri",
+    "song": "Normal",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 07:49:43",
+    "reading_time": 4,
+    "excerpt": "Kerosene, dopamine, chemical-induced",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/Qye9VHIv6qM?si=jRi-rbaQKoarZiWn",
+    "annotations": {
+      "Kerosene / Dopamine": "Kerosen (uçak yakıtı) patlayıcı ve uçucu bir enerjiyi, dopamin ise beynin ödül mekanizmasını (alkışlar, beğeni) simgeler. Sanatçı, hayatının doğal değil, dışarıdan enjekte edilen kimyasal bir süreç gibi hissettirdiğini vurguluyor. ||| \"Bulletproof\": Grubun ismi olan \"Bangtan\" (Kurşun Geçirmez) imgesine bir atıf; hem bir zırh hem de bir hapishane vurgusu var.",
+      "Heavy is the head": "\"Taç giyen baş ağırlaşır\" (şöhretin sorumluluğu) deyimine bir gönderme. ||| \"Red / Blue\": Öfke-hırs (kırmızı) ve hüzün-yalnızlık (mavi) arasındaki gidip gelmeleri temsil eder.",
+      "Heart of steel": "Duygusuz veya sarsılmaz olma çabası.",
+      "What is even all of me?": "Hayranların veya medyanın sanatçının her şeyine sahip olma isteğine karşı, sanatçının kendi kimliğini sorgulaması."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Kerosene, dopamine, chemical-induced",
+      "tr": "Kerosen, dopamin; tamamen kimyasal tetiklemeli"
+    }
+  },
+  {
+    "id": "5001",
+    "slug": "bts-merry-go-round-turkce-ceviri",
+    "title": "BTS Merry Go Round Türkçe Çeviri",
+    "song": "Merry Go Round",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 07:24:50",
+    "reading_time": 3,
+    "excerpt": "I wish that I could tell you that it's over (Over)",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/skVrhdkjmlk?si=JojKMhT7N9L3qYnd",
+    "annotations": {
+      "Merry-go-round (Atlıkarınca)": "Hayatın sürekli aynı yere dönen, renkli ama aslında sahte ve hapsedici döngüsünü simgeler. Durmak istese de sistemin onu döndürmeye devam etmesi, kontrol kaybını anlatır.",
+      "쳇바퀴 (Hamster Wheel)": "Korecede \"hamster çarkı\" tabiri, bitmek bilmeyen monoton iş hayatı ve kısır döngü için kullanılan yaygın bir deyimdir.",
+      "동심 (Dongsim)": "Çocuksu masumiyet, içimizdeki çocuk. Sanatçı burada, hayatın ağırlığından yorulan o saf tarafının kurtarılma çığlığını dile getiriyor.",
+      "My bed is my coffin": "Depresyon ve tükenmişlik sendromunda yatağın hem bir sığınak hem de bir hapis olması durumuna atıf.",
+      "Thinking about not thinking": "\"Overthinking\" (aşırı düşünme) sarmalını mükemmel özetleyen bir paradoks."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I wish that I could tell you that it's over (Over)",
+      "tr": "Keşke sana her şeyin bittiğini söyleyebilsem"
+    }
+  },
+  {
+    "id": "4999",
+    "slug": "bts-2-0-turkce-ceviri",
+    "title": "BTS 2.0 Türkçe Çeviri",
+    "song": "2.0",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 07:10:45",
+    "reading_time": 3,
+    "excerpt": "(EarDrummers)",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/YF4EN5YwjpA?si=V3FYk5Gn2hH8Ohh0",
+    "annotations": {
+      "뜀틀 (Vaulting Horse)": "Jimnastikte kullanılan atlama beygiri. BTS'in çıkış dönemindeki akrobatik koreografilerine ve kariyerlerindeki engelleri aşmalarına bir gönderme. ||| \"어림 반 푼어치\": \"Yanına bile yaklaşamazsın\" anlamında bir Korece deyim.",
+      "Pull up at your block": "Hip-hop jargonunda birinin bölgesine, mahallesine araçla gelmek/meydan okumak.",
+      "brand new": "Yepyeni ama aynı zamanda \"yeni level / yeni dönem\" anlamında kullanılır.",
+      "2.0 Update": "Grubun yeni bir evreye geçtiğini ve çok daha güçlü olduğunu vurgular.",
+      "폐품 (Waste/Scraps)": "Rakiplerini veya eskimiş zihniyetleri \"hurda\" olarak tanımlayıp, kendisinin onları \"temizlemeye\" geldiğini söyleyerek üstünlük taslıyor.",
+      "Hit a lick": "Hip-hop jargonunda \"büyük bir vurgun yapmak\" veya \"tek seferde büyük başarı kazanmak\" anlamında kullanılır. ||| \"Let it bleed\": Yarayı deşmekten veya sert olmaktan çekinmediğini belirtir."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(EarDrummers)",
+      "tr": "(EarDrummers)"
+    }
+  },
+  {
+    "id": "4997",
+    "slug": "bts-fya-turkce-ceviri",
+    "title": "BTS FYA Türkçe Çeviri",
+    "song": "FYA",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 06:56:54",
+    "reading_time": 3,
+    "excerpt": "Everything lit, it's fire",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/QWDayFgPDjQ?si=OfDHLmn86M8-fTeZ",
+    "annotations": {
+      "Lit / Fire": "Hip-hop argosunda bir şeyin mükemmel, heyecan verici veya \"yıkılıyor\" olduğunu ifade eder.",
+      "Gas": "Çok kaliteli, yoğun veya etkileyici olan her şey için kullanılan bir tabirdir.",
+      "Slime": "Young Thug tarafından popülerleşen, \"çok yakın dost, ekip arkadaşı\" anlamında kullanılan bir jargon.",
+      "Thriller": "Michael Jackson'ın ikonik şarkısı ve klibine atıf; gece boyu sürecek efsanevi bir enerjiyi simgeler. ||| \"Hit me with it one more time\": Britney Spears'ın meşhur şarkısına ve 2000'ler pop kültürünün o çılgın dönemine selam durur.",
+      "엉뜨 (Eong-tte)": "Korece \"ısıtmalı koltuk\" kelimesinin kısaltması. Ortamın o kadar sıcak olduğunu, en soğuk kış günü bile ısıtıcıya ihtiyaç duyulmadığını vurguluyor.",
+      "번지 (Bungee)": "Bungee jumping yapar gibi tereddüt etmeden eğlenceye atlamayı ifade eder."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Everything lit, it's fire",
+      "tr": "Her şey ışıl ışıl, alev alev"
+    }
+  },
+  {
+    "id": "4993",
+    "slug": "bts-aliens-turkce-ceviri",
+    "title": "BTS Aliens Türkçe Çeviri",
+    "song": "Aliens",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 06:38:32",
+    "reading_time": 4,
+    "excerpt": "(Ear Drummers)",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/EC9_h_elSAY?si=Ny03j6vkf7w1d5Ch",
+    "annotations": {
+      "중모리 (Jungmori)": "Geleneksel Kore müziğinde (Gugak) kullanılan 12 vuruşluk orta hızda bir ritim kalıbıdır. BTS, modern beat ile geleneksel Kore ruhunu birleştiriyor.",
+      "가나 to the 하 (Gana-Ha)": "Kore alfabesinin (Hangul) ilk ve son harflerine atıf. \"Baştan sona\" anlamında kullanılır. ||| \"신발은 벗어놔 (Ayakkabılarını çıkar)\": Asya kültüründeki eve girme geleneği üzerinden \"sınırlarını bil ve saygı göster\" mesajı verilir.",
+      "해는 동쪽에서 risin' (sun rises in the east)": "Doğu'nun (Kore/Asya) kültürel ve küresel yükselişini simgeler.",
+      "김구 선생님 (Kim Gu)": "Kore bağımsızlık hareketinin lideri. Kim Gu, Kore'nin askeri değil \"kültürel bir güç\" olmasını hayal etmişti; RM burada bu hayali gerçekleştirdiklerini söylüyor. ||| \"영어는 또 나밖에 못 해 (İngilizce)\": RM'in gruptaki tek akıcı İngilizce konuşan üye olarak röportajları omuzlamasına esprili bir gönderme.",
+      "헛 둘 (Heot dul)": "Askeri ritim sayımı (1-2). Disiplinli ve kararlı bir ilerleyişi simgeler."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(Ear Drummers)",
+      "tr": "(Ear Drummers)"
+    }
+  },
+  {
+    "id": "4991",
+    "slug": "bts-hooligan-turkce-ceviri",
+    "title": "BTS Hooligan Türkçe Çeviri",
+    "song": "Hooligan",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 06:26:06",
+    "reading_time": 3,
+    "excerpt": "Watch this, watch this beat goin' hooligan",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/lKgzkmTKvHU?si=N6xt4VcwrdRfMTrk",
+    "annotations": {
+      "beat goin' hooligan": "Müziğin kontrolsüz, çılgın ve agresif bir enerjiye ulaşmasını ifade eder. \"Hooligan (holigan)\" burada kaos ve sınır tanımayan bir vibe anlamına gelir.",
+      "Chopped & screwed": "Houston kökenli bir hip-hop tekniği. Şarkının temposu yavaşlatılır ve ses kalınlaştırılır, ortaya ağır ve \"kafa yapan\" bir sound çıkar.",
+      "얼쑤 (eolssu)": "Kore geleneksel müziğinde coşku anında atılan bir nara. \"Hadi!\" veya \"Heeyt!\" gibi bir hype ifadesidir.",
+      "muse": "İlham kaynağı demektir. Sanatçı burada kalabalıktaki herkesi kendisine ilham veren kişiler olarak görüyor; yani izleyici de yaratımın bir parçası.",
+      "campus": "Genç, kalabalık ve enerjik bir ortamı temsil eder. Konser kalabalığının yoğunluğunu anlatır.",
+      "Bassline": "Şarkının alt frekanslarını oluşturan ritim. Burada fiziksel olarak hissedilecek kadar güçlü bir beat vurgulanıyor.",
+      "El Cucuy": "Latin kültüründe çocukları korkutmak için anlatılan efsanevi bir \"öcü\" figürü. Burada korku salan ve durdurulamaz bir karakteri temsil eder. ||| \"hooligan\": Kuralsız, asi ve yıkıcı davranışları ifade eder. Burada tamamen özgür ve agresif bir tavır vurgulanıyor. ||| \"all clear\": Genelde askeri bir terimdir. \"Her şey kontrol altında, yol açık\" anlamına gelir.",
+      "round the clock": "Sürekli, aralıksız anlamına gelir. Şarkının etkisinin durmaksızın devam edeceğini anlatır."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Watch this, watch this beat goin' hooligan",
+      "tr": "İzle bunu, izle; beat kontrolden çıktı"
+    }
+  },
+  {
+    "id": "4989",
+    "slug": "bts-body-to-body-turkce-ceviri",
+    "title": "BTS Body to Body Türkçe Çeviri",
+    "song": "Body to Body",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 05:59:09",
+    "reading_time": 3,
+    "excerpt": "I need",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/RBaSiVjtKR4?si=sReMc7Y5rBrGM9JA",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I need",
+      "tr": "İhtiyacım var"
+    }
+  },
+  {
+    "id": "4982",
+    "slug": "bts-swim-turkce-ceviri",
+    "title": "BTS SWIM Türkçe Çeviri",
+    "song": "SWIM",
+    "artist": "BTS",
+    "cover": null,
+    "date": "2026-03-20 05:40:35",
+    "reading_time": 3,
+    "excerpt": "Swim, swim",
+    "categories": [
+      "BTS",
+      "Arirang"
+    ],
+    "category_slugs": [
+      "bts",
+      "arirang"
+    ],
+    "spotify": {
+      "albumName": "Arirang",
+      "releaseDate": "2026-03-20",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/b4iVv91Z6lY?si=1UG5DbpHYiTISkLp",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Swim, swim",
+      "tr": "Yüz, yüz..."
+    }
+  },
+  {
+    "id": "4973",
+    "slug": "blackpink-fxxxboy-turkce-ceviri",
+    "title": "BLACKPINK Fxxxboy Türkçe Çeviri",
+    "song": "Fxxxboy",
+    "artist": "BLACKPINK",
+    "cover": null,
+    "date": "2026-02-27 09:25:51",
+    "reading_time": 4,
+    "excerpt": "Everybody needs love",
+    "categories": [
+      "BLACKPINK",
+      "DEADLINE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "deadline"
+    ],
+    "spotify": {
+      "albumName": "DEADLINE",
+      "releaseDate": "2026-02-27",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/FI8j4lW9BvU?si=pNdOMdQTIeyH7E7J",
+    "annotations": {
+      "Fuckboy kısaca": "duygularınla oynayan, sadakatsiz, sadece kendi çıkarını düşünen erkek tipi 🚩 Tipik fuckboy davranışları: birden fazla kişiyle aynı anda ilgilenme, karışık sinyaller verme, gece geç saatte mesaj atma, ilişki istemeden duygusal bağ kurma..."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Everybody needs love",
+      "tr": "Herkesin sevgiye ihtiyacı var, değil mi?"
+    }
+  },
+  {
+    "id": "4971",
+    "slug": "blackpink-champion-turkce-ceviri",
+    "title": "BLACKPINK Champion Türkçe Çeviri",
+    "song": "Champion",
+    "artist": "BLACKPINK",
+    "cover": null,
+    "date": "2026-02-27 09:04:39",
+    "reading_time": 2,
+    "excerpt": "Ain't quitting, I trust my intuition (Okay)",
+    "categories": [
+      "BLACKPINK",
+      "DEADLINE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "deadline"
+    ],
+    "spotify": {
+      "albumName": "DEADLINE",
+      "releaseDate": "2026-02-27",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/qE2ljjTFNII?si=g0R9v09wZdtZUEMv",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Ain't quitting, I trust my intuition (Okay)",
+      "tr": "Vazgeçmiyorum, sezgilerime güveniyorum (okay)"
+    }
+  },
+  {
+    "id": "4967",
+    "slug": "blackpink-me-and-my-turkce-ceviri",
+    "title": "BLACKPINK Me and my Türkçe Çeviri",
+    "song": "Me and my",
+    "artist": "BLACKPINK",
+    "cover": null,
+    "date": "2026-02-27 08:56:13",
+    "reading_time": 4,
+    "excerpt": "We outside every night, just me and my girls, ayy",
+    "categories": [
+      "BLACKPINK",
+      "DEADLINE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "deadline"
+    ],
+    "spotify": {
+      "albumName": "DEADLINE",
+      "releaseDate": "2026-02-27",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/99GWRRn1-7g?si=LJGcmXibkxHPAd73",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "We outside every night, just me and my girls, ayy",
+      "tr": "Dışarıdayız, piyasadayız her gece, sadece ben ve kızlarım, ayy"
+    }
+  },
+  {
+    "id": "4962",
+    "slug": "blackpink-go-turkce-ceviri",
+    "title": "BLACKPINK GO Türkçe Çeviri",
+    "song": "GO",
+    "artist": "BLACKPINK",
+    "cover": null,
+    "date": "2026-02-27 08:37:03",
+    "reading_time": 2,
+    "excerpt": "(You ready?)",
+    "categories": [
+      "BLACKPINK",
+      "DEADLINE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "deadline"
+    ],
+    "spotify": {
+      "albumName": "DEADLINE",
+      "releaseDate": "2026-02-27",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/2GJfWMYCWY0?si=ei37L8Bqx_fdz4A_",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(You ready?)",
+      "tr": "(Hazır mısın?)"
+    }
+  },
+  {
+    "id": "4956",
+    "slug": "taylor-swift-opalite-turkce-ceviri",
+    "title": "Taylor Swift Opalite Türkçe Çeviri",
+    "song": "Opalite",
+    "artist": "Taylor Swift",
+    "cover": null,
+    "date": "2026-02-08 13:52:28",
+    "reading_time": 4,
+    "excerpt": "I had a bad habit",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl"
+    ],
+    "spotify": {
+      "albumName": "The Life of a Showgirl",
+      "releaseDate": "2026-02-08",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/1FVF-9KQiPo?si=-ojGLeEpw-FrTD4V",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I had a bad habit",
+      "tr": "Kötü bir alışkanlığım vardı;"
+    }
+  },
+  {
+    "id": "4950",
+    "slug": "one-or-eight-tokyo-drift-turkce-ceviri",
+    "title": "ONE OR EIGHT TOKYO DRIFT Türkçe Çeviri",
+    "song": "TOKYO DRIFT",
+    "artist": "ONE OR EIGHT",
+    "cover": null,
+    "date": "2026-01-29 08:59:27",
+    "reading_time": 5,
+    "excerpt": "Wonder if you know",
+    "categories": [
+      "ONE OR EIGHT",
+      "GATHER"
+    ],
+    "category_slugs": [
+      "one-or-eight",
+      "gather"
+    ],
+    "spotify": {
+      "albumName": "GATHER",
+      "releaseDate": "2026-01-29",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/Qcz-7evvAqY?si=qX5gMENfSXwQlPQ_",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Wonder if you know",
+      "tr": "Merak ediyorum, acaba biliyor musun..."
+    }
+  },
+  {
+    "id": "4941",
+    "slug": "i-dle-mono-turkce-ceviri",
+    "title": "i-dle Mono Türkçe Çeviri",
+    "song": "Mono",
+    "artist": "i-dle",
+    "cover": null,
+    "date": "2026-01-27 18:29:53",
+    "reading_time": 5,
+    "excerpt": "Ooh, ooh",
+    "categories": [
+      "i-dle"
+    ],
+    "category_slugs": [
+      "i-dle"
+    ],
+    "spotify": {
+      "albumName": null,
+      "releaseDate": "2026-01-27",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/DYgE3SGPEqk?si=dVQ7Bl8ST6f-rCqS",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Ooh, ooh",
+      "tr": "Ooh, ooh"
+    }
+  },
+  {
+    "id": "4931",
+    "slug": "die-for-me-turkce-ceviri",
+    "title": "Die For Me Türkçe Çeviri",
+    "song": "Die For Me",
+    "artist": "Unknown",
+    "cover": null,
+    "date": "2026-01-25 17:46:14",
+    "reading_time": 3,
+    "excerpt": "Good times and bad times, I gave you my everything",
+    "categories": [
+      "Unknown"
+    ],
+    "category_slugs": [
+      "unknown"
+    ],
+    "spotify": {
+      "albumName": null,
+      "releaseDate": "2026-01-25",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": null,
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Good times and bad times, I gave you my everything",
+      "tr": "İyi zamanlarında da kötü zamanlarında da yanındaydım"
+    }
+  },
+  {
+    "id": "4920",
+    "slug": "harry-styles-aperture-turkce-ceviri",
+    "title": "Harry Styles Aperture Türkçe Çeviri",
+    "song": "Aperture",
+    "artist": "Harry Styles",
+    "cover": null,
+    "date": "2026-01-23 09:00:19",
+    "reading_time": 4,
+    "excerpt": "Take no prisoners for me",
+    "categories": [
+      "Harry Styles",
+      "Kiss All The Time. Disco, Occasionally."
+    ],
+    "category_slugs": [
+      "harry-styles",
+      "kiss-all-the-time-disco-occasionally"
+    ],
+    "spotify": {
+      "albumName": "Kiss All The Time. Disco, Occasionally.",
+      "releaseDate": "2026-01-23",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/rA_eCxPay7E?si=Gv9baDKOpTFnBevv",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Take no prisoners for me",
+      "tr": "Bana acıma sakın ha"
+    }
+  },
+  {
+    "id": "4915",
+    "slug": "exo-crown-turkce-ceviri",
+    "title": "EXO Crown Türkçe Çeviri",
+    "song": "Crown",
+    "artist": "EXO",
+    "cover": null,
+    "date": "2026-01-19 13:53:23",
+    "reading_time": 4,
+    "excerpt": "Yeah, ne ape naeryeowa (Yeah)",
+    "categories": [
+      "EXO",
+      "REVERXE"
+    ],
+    "category_slugs": [
+      "exo",
+      "reverxe"
+    ],
+    "spotify": {
+      "albumName": "REVERXE",
+      "releaseDate": "2026-01-19",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/BWfKkqo1Mk8?si=nlGS5dBooNIIMtL2",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Yeah, ne ape naeryeowa (Yeah)",
+      "tr": "Evet, iniyorum işte karşına"
+    }
+  },
+  {
+    "id": "4910",
+    "slug": "exo-i-m-home-turkce-ceviri",
+    "title": "EXO I'm Home Türkçe Çeviri",
+    "song": "I'm Home",
+    "artist": "EXO",
+    "cover": null,
+    "date": "2026-01-19 11:58:59",
+    "reading_time": 2,
+    "excerpt": "Mm, yeah",
+    "categories": [
+      "EXO",
+      "REVERXE"
+    ],
+    "category_slugs": [
+      "exo",
+      "reverxe"
+    ],
+    "spotify": {
+      "albumName": "REVERXE",
+      "releaseDate": "2026-01-19",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/7hTbNeHqGD8?si=qvfKYx8QD65anCxy",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Mm, yeah",
+      "tr": "Mm, evet"
+    }
+  },
+  {
+    "id": "4902",
+    "slug": "lngshot-moonwalkin-turkce-ceviri",
+    "title": "LNGSHOT Moonwalkin' Türkçe Çeviri",
+    "song": "Moonwalkin'",
+    "artist": "LNGSHOT",
+    "cover": null,
+    "date": "2026-01-18 15:51:03",
+    "reading_time": 4,
+    "excerpt": "Moonwalkin'",
+    "categories": [
+      "LNGSHOT",
+      "SHOT CALLERS"
+    ],
+    "category_slugs": [
+      "lngshot",
+      "shot-callers"
+    ],
+    "spotify": {
+      "albumName": "SHOT CALLERS",
+      "releaseDate": "2026-01-18",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/HJgdT15UT4k?si=g1fjTXtWJeY5l2-k",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Moonwalkin'",
+      "tr": "Moonwalk yapıyoruz"
+    }
+  },
+  {
+    "id": "4809",
+    "slug": "enhypen-knife-turkce-ceviri",
+    "title": "ENHYPEN Knife Türkçe Çeviri",
+    "song": "Knife",
+    "artist": "ENHYPEN",
+    "cover": null,
+    "date": "2026-01-16 13:24:42",
+    "reading_time": 3,
+    "excerpt": "It’s a knife seoseul peoreon kalnal wieseo",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : VANISH"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-vanish"
+    ],
+    "spotify": {
+      "albumName": "THE SIN : VANISH",
+      "releaseDate": "2026-01-16",
+      "coverUrl": null,
+      "track": {},
+      "artist": {},
+      "album": {}
+    },
+    "youtubeUrl": "https://youtu.be/R6e4tBWxIxE?si=Bp8GxjRtjb7TO9ai",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "It’s a knife seoseul peoreon kalnal wieseo",
+      "tr": "Bu bir bıçak sırtı, buz gibi keskinliğin üstündeyiz"
+    }
+  },
+  {
     "id": "4697",
     "slug": "ariana-grande-hate-that-i-made-you-love-me-turkce-ceviri",
     "title": "Ariana Grande hate that i made you love me Türkçe Çeviri",
@@ -293,6 +1240,63 @@
     "firstPair": {
       "en": "Oh (Oh)",
       "tr": "Oh (Oh)"
+    }
+  },
+  {
+    "id": "4692",
+    "slug": "harry-styles-matilda-turkce-ceviri",
+    "title": "Harry Styles Matilda Türkçe Çeviri",
+    "song": "Matilda",
+    "artist": "Harry Styles",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
+    "date": "2026-06-30T06:57:50.913Z",
+    "reading_time": 2,
+    "excerpt": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,",
+    "categories": [
+      "Harry Styles",
+      "Harry's House"
+    ],
+    "category_slugs": [
+      "harry-styles",
+      "harry-s-house"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6uvh0In7u1Xn4HgxOfAn8O",
+      "albumUrl": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h",
+      "artistUrl": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
+      "albumName": "Harry's House",
+      "releaseDate": "2022-05-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
+      "duration": "4:06",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6uvh0In7u1Xn4HgxOfAn8O",
+        "isrc": "USSM12200615",
+        "duration": "4:06",
+        "previewUrl": null,
+        "trackNumber": 7
+      },
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
+      },
+      "album": {
+        "name": "Harry's House",
+        "url": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
+        "releaseDate": "2022-05-20",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/lVnzO7opqNs?si=KynaiHctdIfoIGlm",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "You were riding your bike to the sound of \"It's No Big Deal\"",
+      "tr": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,"
     }
   },
   {
@@ -15393,63 +16397,6 @@
     "firstPair": {
       "en": "We never met, but she's all I see at night",
       "tr": "Hiç tanışmadık ama geceleri gördüğüm tek kişi o"
-    }
-  },
-  {
-    "id": "4692",
-    "slug": "harry-styles-matilda-turkce-ceviri",
-    "title": "Harry Styles Matilda Türkçe Çeviri",
-    "song": "Matilda",
-    "artist": "Harry Styles",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
-    "date": "2026-06-30T06:57:50.913Z",
-    "reading_time": 2,
-    "excerpt": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,",
-    "categories": [
-      "Harry Styles",
-      "Harry's House"
-    ],
-    "category_slugs": [
-      "harry-styles",
-      "harry-s-house"
-    ],
-    "spotify": {
-      "trackUrl": "https://open.spotify.com/track/6uvh0In7u1Xn4HgxOfAn8O",
-      "albumUrl": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h",
-      "artistUrl": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
-      "albumName": "Harry's House",
-      "releaseDate": "2022-05-20",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
-      "duration": "4:06",
-      "albumType": "Album",
-      "label": null,
-      "track": {
-        "url": "https://open.spotify.com/track/6uvh0In7u1Xn4HgxOfAn8O",
-        "isrc": "USSM12200615",
-        "duration": "4:06",
-        "previewUrl": null,
-        "trackNumber": 7
-      },
-      "artist": {
-        "name": "Harry Styles",
-        "url": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
-      },
-      "album": {
-        "name": "Harry's House",
-        "url": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h",
-        "cover": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
-        "releaseDate": "2022-05-20",
-        "albumType": "Album",
-        "label": null
-      }
-    },
-    "youtubeUrl": "https://youtu.be/lVnzO7opqNs?si=KynaiHctdIfoIGlm",
-    "annotations": {},
-    "difficulty_note": null,
-    "firstPair": {
-      "en": "You were riding your bike to the sound of \"It's No Big Deal\"",
-      "tr": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,"
     }
   }
 ]

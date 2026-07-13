@@ -9,6 +9,7 @@ export const config = {
     "/category/:path*",
     "/tag/:path*",
     "/author/:path*",
+    "/:legacySlug",
     "/:legacyPrefix/:legacySlug",
   ],
   runtime: "nodejs",
@@ -53,8 +54,18 @@ function readBasicAuth(request) {
   }
 }
 
+const staticLegacyRedirects = {
+  "/muzik-listeleri": "/listeler",
+  "/sanatcilar": "/discover",
+};
+
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
+  const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+
+  if (staticLegacyRedirects[normalizedPath]) {
+    return permanentRedirect(request, staticLegacyRedirects[normalizedPath]);
+  }
 
   const categoryMatch = pathname.match(/^\/category\/([^/]+)\/?$/);
   if (categoryMatch) {
@@ -76,6 +87,13 @@ export default function middleware(request) {
     const slug = decodeURIComponent(nestedPostMatch[1]).toLowerCase();
     const destination = legacyPostRedirects[slug];
     if (destination) return permanentRedirect(request, destination);
+  }
+
+  const rootPostMatch = pathname.match(/^\/([^/]+)\/?$/);
+  if (rootPostMatch) {
+    const slug = decodeURIComponent(rootPostMatch[1]).toLowerCase();
+    const destination = legacyPostRedirects[slug];
+    if (destination && destination !== pathname) return permanentRedirect(request, destination);
   }
 
   if (pathname === "/api/comments") {

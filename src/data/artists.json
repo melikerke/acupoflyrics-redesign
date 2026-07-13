@@ -1,5 +1,11 @@
 [
   {
+    "slug": "bts",
+    "name": "BTS",
+    "count": 25,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
+  },
+  {
     "slug": "the-weeknd",
     "name": "The Weeknd",
     "count": 25,
@@ -30,16 +36,16 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
   },
   {
-    "slug": "ruby",
-    "name": "RUBY",
-    "count": 15,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/jennie-ruby.jpeg"
-  },
-  {
     "slug": "rose",
     "name": "ROSÉ",
     "count": 15,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcfb4350222919670128ff2dc"
+  },
+  {
+    "slug": "ruby",
+    "name": "RUBY",
+    "count": 15,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/jennie-ruby.jpeg"
   },
   {
     "slug": "ariana-grande",
@@ -54,22 +60,16 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/rosie-scaled.jpeg"
   },
   {
-    "slug": "bts",
-    "name": "BTS",
-    "count": 12,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
-  },
-  {
     "slug": "stray-kids",
     "name": "Stray Kids",
     "count": 12,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
   },
   {
-    "slug": "g-dragon",
-    "name": "G-DRAGON",
-    "count": 8,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb783a6a578e8eb992bfd74765"
+    "slug": "twice",
+    "name": "TWICE",
+    "count": 9,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d8820046fd455b38d644864"
   },
   {
     "slug": "eternal-sunshine",
@@ -84,16 +84,22 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2025/03/eternal-sunshine-deluxe.jpeg"
   },
   {
+    "slug": "exo",
+    "name": "EXO",
+    "count": 8,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/exo-turkce-ceviri.jpeg"
+  },
+  {
+    "slug": "g-dragon",
+    "name": "G-DRAGON",
+    "count": 8,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb783a6a578e8eb992bfd74765"
+  },
+  {
     "slug": "ubermensch",
     "name": "Übermensch",
     "count": 8,
     "image": "https://acupoflyrics.com/wp-content/uploads/2025/03/ubermensch.png"
-  },
-  {
-    "slug": "jin",
-    "name": "JIN",
-    "count": 7,
-    "image": "https://i.scdn.co/image/ab67616d0000b27395225518b75ecfe32a2e8558"
   },
   {
     "slug": "echo",
@@ -102,28 +108,22 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2025/05/echo-scaled.jpeg"
   },
   {
+    "slug": "jin",
+    "name": "JIN",
+    "count": 7,
+    "image": "https://i.scdn.co/image/ab67616d0000b27395225518b75ecfe32a2e8558"
+  },
+  {
     "slug": "black-out",
     "name": "Black Out",
     "count": 6,
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/chanyeol-black-out.jpeg"
   },
   {
-    "slug": "exo",
-    "name": "EXO",
+    "slug": "chanyeol",
+    "name": "CHANYEOL",
     "count": 6,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/exo-turkce-ceviri.jpeg"
-  },
-  {
-    "slug": "jisoo",
-    "name": "JISOO",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab"
-  },
-  {
-    "slug": "twice",
-    "name": "TWICE",
-    "count": 9,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3d8820046fd455b38d644864"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad793cef19a94d1a6bf73cd6"
   },
   {
     "slug": "happy",
@@ -132,10 +132,10 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/10/jin-happy-scaled.jpeg"
   },
   {
-    "slug": "le-sserafim",
-    "name": "LE SSERAFIM",
+    "slug": "blackpink",
+    "name": "BLACKPINK",
     "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
   },
   {
     "slug": "crazy",
@@ -144,10 +144,64 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/le-sserafim-crazy-scaled.jpeg"
   },
   {
-    "slug": "selena-gomez",
-    "name": "Selena Gomez",
+    "slug": "hop",
+    "name": "HOP",
+    "count": 5,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/12/sray-kids-hop-turkce-ceviri.png"
+  },
+  {
+    "slug": "jisoo",
+    "name": "JISOO",
+    "count": 5,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab"
+  },
+  {
+    "slug": "le-sserafim",
+    "name": "LE SSERAFIM",
+    "count": 5,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
+  },
+  {
+    "slug": "amortage",
+    "name": "AMORTAGE",
     "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb815e520e3ce7fe210046ba66"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/AMORTAGE.jpeg"
+  },
+  {
+    "slug": "benny-blanco",
+    "name": "benny blanco",
+    "count": 4,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbeaa76c01198c79968de6f97"
+  },
+  {
+    "slug": "billie-eilish",
+    "name": "Billie Eilish",
+    "count": 4,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da"
+  },
+  {
+    "slug": "rap-line-bts",
+    "name": "BTS Rap Line",
+    "count": 4,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/bts-rap-line-1.jpg"
+  },
+  {
+    "slug": "i-said-i-love-you-first",
+    "name": "I Said I Love You First",
+    "count": 4,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/i-said-i-love-you-first.jpeg"
+  },
+  {
+    "slug": "j-hope",
+    "name": "j-hope",
+    "count": 4,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff9ce914c873a6879cf78f38"
+  },
+  {
+    "slug": "megan-thee-stallion",
+    "name": "Megan Thee Stallion",
+    "count": 4,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb65a9ac943abab7c9935ea282"
   },
   {
     "slug": "meovv",
@@ -162,22 +216,10 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb78e45cfa4697ce3c437cb455"
   },
   {
-    "slug": "this-is-for",
-    "name": "THIS IS FOR",
+    "slug": "selena-gomez",
+    "name": "Selena Gomez",
     "count": 4,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/07/this-is-for-scaled.jpeg"
-  },
-  {
-    "slug": "i-said-i-love-you-first",
-    "name": "I Said I Love You First",
-    "count": 4,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/i-said-i-love-you-first.jpeg"
-  },
-  {
-    "slug": "amortage",
-    "name": "AMORTAGE",
-    "count": 4,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/AMORTAGE.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb815e520e3ce7fe210046ba66"
   },
   {
     "slug": "short-n-sweet",
@@ -186,22 +228,10 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/sabrina-carpenter-short-n-sweet.jpeg"
   },
   {
-    "slug": "rap-line-bts",
-    "name": "BTS Rap Line",
+    "slug": "this-is-for",
+    "name": "THIS IS FOR",
     "count": 4,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/bts-rap-line-1.jpg"
-  },
-  {
-    "slug": "ateez",
-    "name": "ATEEZ",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
-  },
-  {
-    "slug": "katseye",
-    "name": "KATSEYE",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/07/this-is-for-scaled.jpeg"
   },
   {
     "slug": "aespa",
@@ -210,22 +240,10 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b"
   },
   {
-    "slug": "j-hope",
-    "name": "j-hope",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebff9ce914c873a6879cf78f38"
-  },
-  {
-    "slug": "tate-mcrae",
-    "name": "Tate Mcrae",
+    "slug": "ateez",
+    "name": "ATEEZ",
     "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbed8016bd64422793ff3bc75"
-  },
-  {
-    "slug": "lady-gaga",
-    "name": "Lady Gaga",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
   },
   {
     "slug": "ayliva",
@@ -240,22 +258,16 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb6fa76436a2bba83b9f1d6fd1"
   },
   {
-    "slug": "billie-eilish",
-    "name": "Billie Eilish",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da"
+    "slug": "dua-lipa",
+    "name": "Dua Lipa",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d"
   },
   {
-    "slug": "katy-perry",
-    "name": "Katy Perry",
+    "slug": "enhypen",
+    "name": "ENHYPEN",
     "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
-  },
-  {
-    "slug": "in-liebe",
-    "name": "In Liebe",
-    "count": 3,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ayliva-in-liebe-turkce-ceviri.jpg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb590b808769f5826ce94d1dd4"
   },
   {
     "slug": "hit-me-hard-and-soft",
@@ -264,58 +276,22 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/hit-me-hard-and-snow-scaled.jpeg"
   },
   {
-    "slug": "seventeen",
-    "name": "SEVENTEEN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c"
-  },
-  {
-    "slug": "maroon-5",
-    "name": "Maroon 5",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77"
-  },
-  {
-    "slug": "coldplay",
-    "name": "Coldplay",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb"
-  },
-  {
-    "slug": "tyla",
-    "name": "Tyla",
+    "slug": "in-liebe",
+    "name": "In Liebe",
     "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb69719e4164b893213a525d25"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ayliva-in-liebe-turkce-ceviri.jpg"
   },
   {
-    "slug": "anne-marie",
-    "name": "Anne-Marie",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf94a7e185158d0950f07310b"
-  },
-  {
-    "slug": "dua-lipa",
-    "name": "Dua Lipa",
+    "slug": "katseye",
+    "name": "KATSEYE",
     "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6"
   },
   {
-    "slug": "agust-d",
-    "name": "Agust D",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
-  },
-  {
-    "slug": "hop",
-    "name": "HOP",
-    "count": 5,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/12/sray-kids-hop-turkce-ceviri.png"
-  },
-  {
-    "slug": "taylor-swift",
-    "name": "Taylor Swift",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
+    "slug": "katy-perry",
+    "name": "Katy Perry",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
   },
   {
     "slug": "kendrick-lamar",
@@ -324,88 +300,34 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918"
   },
   {
-    "slug": "linkin-park",
-    "name": "LINKIN PARK",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb527d95dabbe8b8b527e8136f"
+    "slug": "lady-gaga",
+    "name": "Lady Gaga",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6"
   },
   {
-    "slug": "xg",
-    "name": "XG",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3402cc21386cdeb1608ebb37"
+    "slug": "rihanna",
+    "name": "Rihanna",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac"
   },
   {
-    "slug": "babymonster",
-    "name": "BABYMONSTER",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271"
+    "slug": "tate-mcrae",
+    "name": "Tate Mcrae",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbed8016bd64422793ff3bc75"
   },
   {
-    "slug": "megan-thee-stallion",
-    "name": "Megan Thee Stallion",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb65a9ac943abab7c9935ea282"
+    "slug": "taylor-swift",
+    "name": "Taylor Swift",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
   },
   {
-    "slug": "one-direction",
-    "name": "One Direction",
-    "count": 2,
-    "image": "https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8"
-  },
-  {
-    "slug": "justin-bieber",
-    "name": "Justin Bieber",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
-  },
-  {
-    "slug": "shawn-mendes",
-    "name": "Shawn Mendes",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb58b4b9419486550f6fda0535"
-  },
-  {
-    "slug": "zara-larsson",
-    "name": "Zara Larsson",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd519a7e349541cba8f85e965"
-  },
-  {
-    "slug": "do-it",
-    "name": "Do It",
-    "count": 2,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/11/stray-kids-do-it-scaled.jpeg"
-  },
-  {
-    "slug": "karma",
-    "name": "KARMA",
-    "count": 2,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/08/karma-scaled.jpeg"
-  },
-  {
-    "slug": "golden-hour-part-3",
-    "name": "GOLDEN HOUR : Part.3",
-    "count": 2,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/06/golden-hour-part-3-scaled.jpeg"
-  },
-  {
-    "slug": "tomorrow-x-together",
-    "name": "TOMORROW X TOGETHER",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
-  },
-  {
-    "slug": "if-youre-looking-for-a-new-best-friend",
-    "name": "If You’re Looking For A New Best Friend",
-    "count": 2,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/if-youre-looking-for-a-new-best-friend.jpeg"
-  },
-  {
-    "slug": "bruno-mars",
-    "name": "Bruno Mars",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
+    "slug": "tyla",
+    "name": "Tyla",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69719e4164b893213a525d25"
   },
   {
     "slug": "143",
@@ -414,40 +336,208 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/katy-perry-143-turkce-ceviri.jpeg"
   },
   {
+    "slug": "anne-marie",
+    "name": "Anne-Marie",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf94a7e185158d0950f07310b"
+  },
+  {
+    "slug": "babymonster",
+    "name": "BABYMONSTER",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271"
+  },
+  {
+    "slug": "bruno-mars",
+    "name": "Bruno Mars",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
+  },
+  {
+    "slug": "coldplay",
+    "name": "Coldplay",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb"
+  },
+  {
+    "slug": "do-it",
+    "name": "Do It",
+    "count": 2,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/11/stray-kids-do-it-scaled.jpeg"
+  },
+  {
+    "slug": "doechii",
+    "name": "Doechii",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579"
+  },
+  {
+    "slug": "future",
+    "name": "Future",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
+  },
+  {
     "slug": "golden",
     "name": "Golden",
     "count": 2,
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/jungkook-turkce-ceviri-scaled.jpeg"
   },
   {
-    "slug": "drake",
-    "name": "Drake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+    "slug": "golden-hour-part-3",
+    "name": "GOLDEN HOUR : Part.3",
+    "count": 2,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/06/golden-hour-part-3-scaled.jpeg"
   },
   {
-    "slug": "shakira",
-    "name": "Shakira",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
+    "slug": "gracie-abrams",
+    "name": "Gracie Abrams",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e"
   },
   {
-    "slug": "olivia-rodrigo",
-    "name": "Olivia Rodrigo",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+    "slug": "harry-styles",
+    "name": "Harry Styles",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
   },
   {
-    "slug": "temper-city",
-    "name": "Temper City",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3"
+    "slug": "if-youre-looking-for-a-new-best-friend",
+    "name": "If You’re Looking For A New Best Friend",
+    "count": 2,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/if-youre-looking-for-a-new-best-friend.jpeg"
   },
   {
-    "slug": "blackpink",
-    "name": "BLACKPINK",
+    "slug": "if-you-re-looking-for-a-new-best-friend",
+    "name": "If You’re Looking For A New Best Friend",
+    "count": 2,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/anne-marie-dont-panic-turkce-ceviri.jpg"
+  },
+  {
+    "slug": "justin-bieber",
+    "name": "Justin Bieber",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
+  },
+  {
+    "slug": "karma",
+    "name": "KARMA",
+    "count": 2,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/08/karma-scaled.jpeg"
+  },
+  {
+    "slug": "lana-del-rey",
+    "name": "Lana Del Rey",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261"
+  },
+  {
+    "slug": "linkin-park",
+    "name": "LINKIN PARK",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb527d95dabbe8b8b527e8136f"
+  },
+  {
+    "slug": "maroon-5",
+    "name": "Maroon 5",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77"
+  },
+  {
+    "slug": "one-direction",
+    "name": "One Direction",
+    "count": 2,
+    "image": "https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8"
+  },
+  {
+    "slug": "raye",
+    "name": "RAYE",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9"
+  },
+  {
+    "slug": "seventeen",
+    "name": "SEVENTEEN",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c"
+  },
+  {
+    "slug": "shawn-mendes",
+    "name": "Shawn Mendes",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb58b4b9419486550f6fda0535"
+  },
+  {
+    "slug": "xg",
+    "name": "XG",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3402cc21386cdeb1608ebb37"
+  },
+  {
+    "slug": "yeonjun",
+    "name": "YEONJUN",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf4741dbec1334756811e019b"
+  },
+  {
+    "slug": "zara-larsson",
+    "name": "Zara Larsson",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd519a7e349541cba8f85e965"
+  },
+  {
+    "slug": "zayn",
+    "name": "ZAYN",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb830845d2fa6c5c7874176951"
+  },
+  {
+    "slug": "o",
+    "name": "[O]",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/O.jpeg"
+  },
+  {
+    "slug": "nsync",
+    "name": "*NSYNC",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9414ef07d0ca697726912df1"
+  },
+  {
+    "slug": "070-shake",
+    "name": "070 Shake",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6338990250f5d5a447650ba9"
+  },
+  {
+    "slug": "25",
+    "name": "25",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/adele-25.jpg"
+  },
+  {
+    "slug": "aboutzu",
+    "name": "abouTZU",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/tzuyu-scaled.jpeg"
+  },
+  {
+    "slug": "adele",
+    "name": "Adele",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17"
+  },
+  {
+    "slug": "agust-d",
+    "name": "Agust D",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
+  },
+  {
+    "slug": "agust-d-2",
+    "name": "Agust D",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
   },
   {
     "slug": "alex-warren",
@@ -462,82 +552,28 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb1c4e96c09862074fddbbbf1f"
   },
   {
-    "slug": "tomorrow-x-together",
-    "name": "TOMORROW X TOGETHER",
+    "slug": "amber-coffman",
+    "name": "Amber Coffman",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
+    "image": "https://i.scdn.co/image/ab6772690000c46cb4acd2212654689d3039df24"
   },
   {
-    "slug": "tablo",
-    "name": "TABLO",
+    "slug": "anderson-paak",
+    "name": "Anderson .Paak",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3a38127e499b6f18e2deaecd"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496"
   },
   {
-    "slug": "kai",
-    "name": "KAI",
+    "slug": "anitta",
+    "name": "Anitta",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2b654ee59c4ced1cc0012d8a"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb777419bf9a701a78fdd6515f"
   },
   {
-    "slug": "ed-sheeran",
-    "name": "Ed Sheeran",
+    "slug": "apache-207",
+    "name": "Apache 207",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec"
-  },
-  {
-    "slug": "don-toliver",
-    "name": "Don Toliver",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc52b798deb89eb8414a51b7b"
-  },
-  {
-    "slug": "ive",
-    "name": "IVE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840"
-  },
-  {
-    "slug": "conan-gray",
-    "name": "Conan Gray",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4c2b62d4748524454a6f99b0"
-  },
-  {
-    "slug": "gims",
-    "name": "GIMS",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb77144f838397a467e807df65"
-  },
-  {
-    "slug": "eminem",
-    "name": "Eminem",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
-  },
-  {
-    "slug": "got7",
-    "name": "GOT7",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb51636490d389e8d2ab96026e"
-  },
-  {
-    "slug": "flo-rida",
-    "name": "Flo Rida",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb655ca8f3196953554b479452"
-  },
-  {
-    "slug": "minnie",
-    "name": "MINNIE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb63660addb22072fb9aa2b104"
-  },
-  {
-    "slug": "indila",
-    "name": "Indila",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6cd07d169e7e2ec94193a1d2"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8b08d3199d2bd40f909e449"
   },
   {
     "slug": "arcane",
@@ -546,160 +582,16 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eba056b2ecc1a70ab57cdcc10b"
   },
   {
-    "slug": "dove-cameron",
-    "name": "Dove Cameron",
+    "slug": "ate",
+    "name": "ATE",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5fcd837c1420d97f500ef9"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/stray-kids-ate-turkce-ceviri.jpeg"
   },
   {
-    "slug": "v",
-    "name": "V",
+    "slug": "awe",
+    "name": "AWE",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb89a07818e5d02039a6ef3181"
-  },
-  {
-    "slug": "itzy",
-    "name": "ITZY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba60be8af61d6184cd0402f80"
-  },
-  {
-    "slug": "cl",
-    "name": "CL",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc67fe879798c208fcf056dde"
-  },
-  {
-    "slug": "enhypen",
-    "name": "ENHYPEN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb590b808769f5826ce94d1dd4"
-  },
-  {
-    "slug": "gracie-abrams",
-    "name": "Gracie Abrams",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e"
-  },
-  {
-    "slug": "kiss-of-life",
-    "name": "KISS OF LIFE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb94f24a151ca1320ec2f3ed92"
-  },
-  {
-    "slug": "chezile",
-    "name": "Chezile",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb1593dbc8b1c5ee3c62b55a1"
-  },
-  {
-    "slug": "haute-couture",
-    "name": "HAUTE COUTURE",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/10/misamo-scaled.jpeg"
-  },
-  {
-    "slug": "slimane",
-    "name": "Slimane",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb345072876c875cd6bc6f396b"
-  },
-  {
-    "slug": "j-cole",
-    "name": "J. Cole",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2"
-  },
-  {
-    "slug": "ckay",
-    "name": "CKay",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba6145d4dcd91e2d660983970"
-  },
-  {
-    "slug": "jade",
-    "name": "JADE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb6fff16f1d7f5569cbdf42ac"
-  },
-  {
-    "slug": "monsta-x",
-    "name": "Monsta X",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7b2d6acfa19934dad2fb2140"
-  },
-  {
-    "slug": "zayn",
-    "name": "ZAYN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb830845d2fa6c5c7874176951"
-  },
-  {
-    "slug": "justin-timberlake",
-    "name": "Justin Timberlake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e"
-  },
-  {
-    "slug": "yeonjun",
-    "name": "YEONJUN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf4741dbec1334756811e019b"
-  },
-  {
-    "slug": "hwasa",
-    "name": "HWASA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0e82a43b4f076a736c515e6f"
-  },
-  {
-    "slug": "chappell-roan",
-    "name": "Chappell Roan",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd258ecb0d66244e6300bcf64"
-  },
-  {
-    "slug": "raye",
-    "name": "RAYE",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9"
-  },
-  {
-    "slug": "aboutzu",
-    "name": "abouTZU",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/tzuyu-scaled.jpeg"
-  },
-  {
-    "slug": "hello-world",
-    "name": "Hello, World",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/baekhyun.jpg"
-  },
-  {
-    "slug": "lp",
-    "name": "LP",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb433c36d13316024feb02e3bf"
-  },
-  {
-    "slug": "lana-del-rey",
-    "name": "Lana Del Rey",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261"
-  },
-  {
-    "slug": "woosung",
-    "name": "WOOSUNG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6030f28e5236ab125c73e255"
-  },
-  {
-    "slug": "sam-smith",
-    "name": "Sam Smith",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0e64fb94acbb752960c823e9"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/AWE-scaled.jpeg"
   },
   {
     "slug": "b-i",
@@ -708,34 +600,16 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a"
   },
   {
-    "slug": "chung-ha",
-    "name": "CHUNG HA",
+    "slug": "bi",
+    "name": "B.I",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a"
   },
   {
-    "slug": "nsync",
-    "name": "*NSYNC",
+    "slug": "baekhyun",
+    "name": "BAEKHYUN",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9414ef07d0ca697726912df1"
-  },
-  {
-    "slug": "chase-atlantic",
-    "name": "Chase Atlantic",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba4e2d7045cbcca592ba6c7dd"
-  },
-  {
-    "slug": "nct-dream",
-    "name": "NCT DREAM",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebed95357b2b295b2be5058b0b"
-  },
-  {
-    "slug": "rihanna",
-    "name": "Rihanna",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7d4e246f8c54be347e06bffe"
   },
   {
     "slug": "bayanni",
@@ -744,94 +618,118 @@
     "image": "https://i.scdn.co/image/ab6761610000e5ebec9db3d4de7709c1425c9e92"
   },
   {
-    "slug": "jordan-adetunji",
-    "name": "Jordan Adetunji",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6087e9ef4651828659a066be"
-  },
-  {
     "slug": "bebe-rexha",
     "name": "Bebe Rexha",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7623b3d99b9adc3200b834de"
   },
   {
-    "slug": "nmixx",
-    "name": "NMIXX",
+    "slug": "burna-boy",
+    "name": "Burna Boy",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5dff706e8c9ec07f7850f014"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f"
   },
   {
-    "slug": "sza",
-    "name": "SZA",
+    "slug": "camila-cabello",
+    "name": "Camila Cabello",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb76470faf6330235edbcb90a9"
   },
   {
-    "slug": "nf",
-    "name": "NF",
+    "slug": "chappell-roan",
+    "name": "Chappell Roan",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8fcc5c49d2116d7251ecbd65"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd258ecb0d66244e6300bcf64"
   },
   {
-    "slug": "kard",
-    "name": "KARD",
+    "slug": "chase-atlantic",
+    "name": "Chase Atlantic",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb009b63b797a0690e0bf530a2"
+    "image": "https://i.scdn.co/image/ab6761610000e5eba4e2d7045cbcca592ba6c7dd"
   },
   {
-    "slug": "adele",
-    "name": "Adele",
+    "slug": "chemtrails-over-the-country-club",
+    "name": "Chemtrails Over The Country Club",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/lana-del-rey-chemtrails-over-the-country-club.jpeg"
   },
   {
-    "slug": "teddy-swims",
-    "name": "Teddy Swims",
+    "slug": "chezile",
+    "name": "Chezile",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb36eb08698aa7794372c97b97"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb1593dbc8b1c5ee3c62b55a1"
   },
   {
-    "slug": "harry-styles",
-    "name": "Harry Styles",
+    "slug": "childish-gambino",
+    "name": "Childish Gambino",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
   },
   {
-    "slug": "happy-burstday",
-    "name": "HAPPY BURSTDAY",
+    "slug": "chung-ha",
+    "name": "CHUNG HA",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/05/happy-burstday-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79"
   },
   {
-    "slug": "rm",
-    "name": "RM",
+    "slug": "ckay",
+    "name": "CKay",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb943d108210401e2086bc4279"
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6145d4dcd91e2d660983970"
   },
   {
-    "slug": "wait-on-me",
-    "name": "Wait On Me",
+    "slug": "cl",
+    "name": "CL",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/04/kai-wait-on-me-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc67fe879798c208fcf056dde"
   },
   {
-    "slug": "mixtape-dominate",
-    "name": "Mixtape : dominATE",
+    "slug": "clean-bandit",
+    "name": "Clean Bandit",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/03/mixtape-dominate-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf995542c4f68f8ae4f05b5f6"
   },
   {
-    "slug": "future",
-    "name": "Future",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
+    "slug": "conan-gray",
+    "name": "Conan Gray",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4c2b62d4748524454a6f99b0"
   },
   {
-    "slug": "sean-paul",
-    "name": "Sean Paul",
+    "slug": "cordae",
+    "name": "Cordae",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/sean-paul.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9161ad9d53d8c24e2c79d5a5"
+  },
+  {
+    "slug": "cults",
+    "name": "Cults",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb92ec52fb43fbd4d2511a9d1d"
+  },
+  {
+    "slug": "daesung",
+    "name": "DAESUNG",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcebb44ed3b29601d68cac28a"
+  },
+  {
+    "slug": "dai-dai",
+    "name": "Dai Dai",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4"
+  },
+  {
+    "slug": "devita",
+    "name": "DeVita",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b85e8af86e410e9df38c227"
+  },
+  {
+    "slug": "dj-khaled",
+    "name": "DJ Khaled",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd445349a29400dd5f5180c0f"
   },
   {
     "slug": "doja-cat",
@@ -840,34 +738,46 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb8a0644455ebfa7d3976f5101"
   },
   {
-    "slug": "ive-empathy",
-    "name": "IVE EMPATHY",
+    "slug": "dominic-fike",
+    "name": "Dominic Fike",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/ive-empathy-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
   },
   {
-    "slug": "winter-heptagon",
-    "name": "WINTER HEPTAGON",
+    "slug": "don-toliver",
+    "name": "Don Toliver",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/winter-heptagon.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc52b798deb89eb8414a51b7b"
   },
   {
-    "slug": "her",
-    "name": "HER",
+    "slug": "dove-cameron",
+    "name": "Dove Cameron",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/her.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5fcd837c1420d97f500ef9"
   },
   {
-    "slug": "future-nostalgia",
-    "name": "Future Nostalgia",
+    "slug": "drake",
+    "name": "Drake",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/future-nostalgia.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
   },
   {
-    "slug": "agust-d-2",
-    "name": "Agust D",
+    "slug": "ed-sheeran",
+    "name": "Ed Sheeran",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec"
+  },
+  {
+    "slug": "elyanna",
+    "name": "Elyanna",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88b64e15982a3e8177913573"
+  },
+  {
+    "slug": "eminem",
+    "name": "Eminem",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
   },
   {
     "slug": "evermore",
@@ -876,16 +786,52 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/12/evermore.jpeg"
   },
   {
-    "slug": "khalid",
-    "name": "Khalid",
+    "slug": "f1-the-album",
+    "name": "F1 The Album",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8f77c3eddc1869e9542b04bc"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7f4f23b9eba34d35ac86e6a8"
   },
   {
-    "slug": "strategy",
-    "name": "Strategy",
+    "slug": "fkj",
+    "name": "FKJ",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/12/twice-strategy-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6e6973a01eb04abf32b58bb"
+  },
+  {
+    "slug": "flo-rida",
+    "name": "Flo Rida",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb655ca8f3196953554b479452"
+  },
+  {
+    "slug": "florence-the-machine",
+    "name": "Florence + The Machine",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb836eb0a7a82eb8f4133ee04d"
+  },
+  {
+    "slug": "future-nostalgia",
+    "name": "Future Nostalgia",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/future-nostalgia.jpeg"
+  },
+  {
+    "slug": "gims",
+    "name": "GIMS",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb77144f838397a467e807df65"
+  },
+  {
+    "slug": "giorgio-moroder",
+    "name": "Giorgio Moroder",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ae53e43ad044fe30298ac986a606bef7db4617bb"
+  },
+  {
+    "slug": "glorilla",
+    "name": "GloRilla",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc33cf3ad025517202d8efbc0"
   },
   {
     "slug": "gnx",
@@ -906,214 +852,22 @@
     "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/ateez-turkce-ceviri-scaled.jpeg"
   },
   {
-    "slug": "awe",
-    "name": "AWE",
+    "slug": "got7",
+    "name": "GOT7",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/AWE-scaled.jpeg"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb51636490d389e8d2ab96026e"
   },
   {
-    "slug": "radical-optimism",
-    "name": "Radical Optimism",
+    "slug": "happy-burstday",
+    "name": "HAPPY BURSTDAY",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/radical-optimism.jpeg"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/05/happy-burstday-scaled.jpeg"
   },
   {
-    "slug": "spill-the-feels",
-    "name": "Spill The Feels",
+    "slug": "harry-s-house",
+    "name": "Harry's House",
     "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/10/spill-the-feels.png"
-  },
-  {
-    "slug": "jcole",
-    "name": "J.Cole",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2"
-  },
-  {
-    "slug": "sia",
-    "name": "Sia",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcc1806f0a2f6c9e449de9d3c"
-  },
-  {
-    "slug": "camila-cabello",
-    "name": "Camila Cabello",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb76470faf6330235edbcb90a9"
-  },
-  {
-    "slug": "o",
-    "name": "[O]",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/O.jpeg"
-  },
-  {
-    "slug": "young-forever",
-    "name": "The most beautiful moment in life : YOUNG FOREVER",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/young-forever.jpg"
-  },
-  {
-    "slug": "chemtrails-over-the-country-club",
-    "name": "Chemtrails Over The Country Club",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/lana-del-rey-chemtrails-over-the-country-club.jpeg"
-  },
-  {
-    "slug": "bi",
-    "name": "B.I",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a"
-  },
-  {
-    "slug": "my-everything",
-    "name": "My Everything",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ariana-grande-my-everything.png"
-  },
-  {
-    "slug": "sweetener",
-    "name": "Sweetener",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ariana-grande-sweetener.jpeg"
-  },
-  {
-    "slug": "nct",
-    "name": "NCT",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/nct-turkce-ceviri.png"
-  },
-  {
-    "slug": "loud",
-    "name": "Loud",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/rihanna-loud-scaled.jpg"
-  },
-  {
-    "slug": "the-tortured-poets-department",
-    "name": "The Tortured Poets Department.",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/The-Tortured-Poets-Department-scaled.jpeg"
-  },
-  {
-    "slug": "jason-derulo",
-    "name": "Jason Derulo",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfb65e1af01cf95c25bd29ed1"
-  },
-  {
-    "slug": "kehlani",
-    "name": "Kehlani",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcf865d7d399a41e1bd036149"
-  },
-  {
-    "slug": "sos",
-    "name": "SOS",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/sza.jpg"
-  },
-  {
-    "slug": "hope",
-    "name": "Hope",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/nf-hope-scaled.jpeg"
-  },
-  {
-    "slug": "rosalia",
-    "name": "ROSALÍA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9354faf80eb87961466edfbf"
-  },
-  {
-    "slug": "where-to-now",
-    "name": "Where To Now? (Part.1 : Yellow Light)",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/kard-turkce-ceviri.jpeg"
-  },
-  {
-    "slug": "25",
-    "name": "25",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/adele-25.jpg"
-  },
-  {
-    "slug": "ate",
-    "name": "ATE",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/stray-kids-ate-turkce-ceviri.jpeg"
-  },
-  {
-    "slug": "shawn",
-    "name": "Shawn",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/shawn-turkce-ceviri-scaled.jpeg"
-  },
-  {
-    "slug": "muse",
-    "name": "Muse",
-    "count": 1,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/jimin-turkce-ceviri.jpeg"
-  },
-  {
-    "slug": "anderson-paak",
-    "name": "Anderson .Paak",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496"
-  },
-  {
-    "slug": "benny-blanco",
-    "name": "benny blanco",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbeaa76c01198c79968de6f97"
-  },
-  {
-    "slug": "childish-gambino",
-    "name": "Childish Gambino",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
-  },
-  {
-    "slug": "doechii",
-    "name": "Doechii",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579"
-  },
-  {
-    "slug": "glorilla",
-    "name": "GloRilla",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc33cf3ad025517202d8efbc0"
-  },
-  {
-    "slug": "kali-uchis",
-    "name": "Kali Uchis",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
-  },
-  {
-    "slug": "miguel",
-    "name": "Miguel",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a"
-  },
-  {
-    "slug": "pharrell-williams",
-    "name": "Pharrell Williams",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
-  },
-  {
-    "slug": "speedy",
-    "name": "Speedy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
-  },
-  {
-    "slug": "yena",
-    "name": "YENA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba0cbe5ecc3014288c0bbbf4d"
+    "image": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee"
   },
   {
     "slug": "hate-that-i-made-you-love-me",
@@ -1122,28 +876,172 @@
     "image": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c"
   },
   {
+    "slug": "haute-couture",
+    "name": "HAUTE COUTURE",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/10/misamo-scaled.jpeg"
+  },
+  {
+    "slug": "hello-world",
+    "name": "Hello, World",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/baekhyun.jpg"
+  },
+  {
+    "slug": "her",
+    "name": "HER",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/her.jpeg"
+  },
+  {
+    "slug": "hope",
+    "name": "Hope",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/nf-hope-scaled.jpeg"
+  },
+  {
+    "slug": "hwasa",
+    "name": "HWASA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e82a43b4f076a736c515e6f"
+  },
+  {
+    "slug": "i-dle",
+    "name": "i-dle",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "indila",
+    "name": "Indila",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6cd07d169e7e2ec94193a1d2"
+  },
+  {
+    "slug": "itzy",
+    "name": "ITZY",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba60be8af61d6184cd0402f80"
+  },
+  {
+    "slug": "ive",
+    "name": "IVE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840"
+  },
+  {
+    "slug": "ive-empathy",
+    "name": "IVE EMPATHY",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/ive-empathy-scaled.jpeg"
+  },
+  {
+    "slug": "j-cole",
+    "name": "J. Cole",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2"
+  },
+  {
+    "slug": "jcole",
+    "name": "J.Cole",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2"
+  },
+  {
+    "slug": "jade",
+    "name": "JADE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6fff16f1d7f5569cbdf42ac"
+  },
+  {
     "slug": "janice-stfu",
     "name": "Janice STFU",
     "count": 1,
     "image": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c"
   },
   {
-    "slug": "dai-dai",
-    "name": "Dai Dai",
+    "slug": "jason-derulo",
+    "name": "Jason Derulo",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb65e1af01cf95c25bd29ed1"
   },
   {
-    "slug": "stupid-song",
-    "name": "stupid song",
+    "slug": "jimin",
+    "name": "Jimin",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2736949b83f85d782b21ce70583"
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf3a9c35db52ba44f3b921e3"
   },
   {
-    "slug": "self-aware",
-    "name": "Self Aware",
+    "slug": "jordan-adetunji",
+    "name": "Jordan Adetunji",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6087e9ef4651828659a066be"
+  },
+  {
+    "slug": "jung-kook",
+    "name": "Jung Kook",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71089d18c93e3a51e70ff0dc"
+  },
+  {
+    "slug": "justice",
+    "name": "Justice",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf140c161d9f9cc9afe85b6ed"
+  },
+  {
+    "slug": "justin-timberlake",
+    "name": "Justin Timberlake",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e"
+  },
+  {
+    "slug": "kai",
+    "name": "KAI",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2b654ee59c4ced1cc0012d8a"
+  },
+  {
+    "slug": "kali-uchis",
+    "name": "Kali Uchis",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
+  },
+  {
+    "slug": "kanye-west",
+    "name": "Kanye West",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a"
+  },
+  {
+    "slug": "kard",
+    "name": "KARD",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb009b63b797a0690e0bf530a2"
+  },
+  {
+    "slug": "kehlani",
+    "name": "Kehlani",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf865d7d399a41e1bd036149"
+  },
+  {
+    "slug": "khalid",
+    "name": "Khalid",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f77c3eddc1869e9542b04bc"
+  },
+  {
+    "slug": "kiss-of-life",
+    "name": "KISS OF LIFE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb94f24a151ca1320ec2f3ed92"
+  },
+  {
+    "slug": "lily-rose-depp",
+    "name": "Lily-Rose Depp",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc2fb4b8e035fbdad27da865f"
   },
   {
     "slug": "little-simz",
@@ -1152,16 +1050,298 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0"
   },
   {
-    "slug": "burna-boy",
-    "name": "Burna Boy",
+    "slug": "lngshot",
+    "name": "LNGSHOT",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f"
+    "image": null
   },
   {
-    "slug": "elyanna",
-    "name": "Elyanna",
+    "slug": "loud",
+    "name": "Loud",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb88b64e15982a3e8177913573"
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/rihanna-loud-scaled.jpg"
+  },
+  {
+    "slug": "lp",
+    "name": "LP",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb433c36d13316024feb02e3bf"
+  },
+  {
+    "slug": "miguel",
+    "name": "Miguel",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a"
+  },
+  {
+    "slug": "minnie",
+    "name": "MINNIE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63660addb22072fb9aa2b104"
+  },
+  {
+    "slug": "misamo",
+    "name": "MISAMO",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5177c8768acaa8f5bd1c22d6"
+  },
+  {
+    "slug": "mixtape-dominate",
+    "name": "Mixtape : dominATE",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/03/mixtape-dominate-scaled.jpeg"
+  },
+  {
+    "slug": "monsta-x",
+    "name": "Monsta X",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7b2d6acfa19934dad2fb2140"
+  },
+  {
+    "slug": "muse",
+    "name": "Muse",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/jimin-turkce-ceviri.jpeg"
+  },
+  {
+    "slug": "my-everything",
+    "name": "My Everything",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ariana-grande-my-everything.png"
+  },
+  {
+    "slug": "nct",
+    "name": "NCT",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/nct-turkce-ceviri.png"
+  },
+  {
+    "slug": "nct-dream",
+    "name": "NCT DREAM",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed95357b2b295b2be5058b0b"
+  },
+  {
+    "slug": "nf",
+    "name": "NF",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8fcc5c49d2116d7251ecbd65"
+  },
+  {
+    "slug": "nmixx",
+    "name": "NMIXX",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5dff706e8c9ec07f7850f014"
+  },
+  {
+    "slug": "olivia-rodrigo",
+    "name": "Olivia Rodrigo",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+  },
+  {
+    "slug": "one-or-eight",
+    "name": "ONE OR EIGHT",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "park-hyo-shin",
+    "name": "Park Hyo Shin",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a7d4f77e962baf427eeea80"
+  },
+  {
+    "slug": "paul-russell",
+    "name": "Paul Russell",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71f849bbbce2b7415e0cf51b"
+  },
+  {
+    "slug": "pharrell-williams",
+    "name": "Pharrell Williams",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
+  },
+  {
+    "slug": "pierre-de-maere",
+    "name": "Pierre de Maere",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb736cfd6b66dd328050be02cd"
+  },
+  {
+    "slug": "playboi-carti",
+    "name": "Playboi Carti",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
+  },
+  {
+    "slug": "pomme",
+    "name": "Pomme",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaf000b2968ec1c7a7262454"
+  },
+  {
+    "slug": "radical-optimism",
+    "name": "Radical Optimism",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/11/radical-optimism.jpeg"
+  },
+  {
+    "slug": "rm",
+    "name": "RM",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb943d108210401e2086bc4279"
+  },
+  {
+    "slug": "rosalia",
+    "name": "ROSALÍA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9354faf80eb87961466edfbf"
+  },
+  {
+    "slug": "sam-smith",
+    "name": "Sam Smith",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e64fb94acbb752960c823e9"
+  },
+  {
+    "slug": "sean-paul",
+    "name": "Sean Paul",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/sean-paul.jpeg"
+  },
+  {
+    "slug": "self-aware",
+    "name": "Self Aware",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc"
+  },
+  {
+    "slug": "shakira",
+    "name": "Shakira",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
+  },
+  {
+    "slug": "shawn",
+    "name": "Shawn",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/shawn-turkce-ceviri-scaled.jpeg"
+  },
+  {
+    "slug": "sia",
+    "name": "Sia",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc1806f0a2f6c9e449de9d3c"
+  },
+  {
+    "slug": "slimane",
+    "name": "Slimane",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb345072876c875cd6bc6f396b"
+  },
+  {
+    "slug": "sos",
+    "name": "SOS",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/sza.jpg"
+  },
+  {
+    "slug": "soulja-boy",
+    "name": "Soulja Boy",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34"
+  },
+  {
+    "slug": "speedy",
+    "name": "Speedy",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
+  },
+  {
+    "slug": "spill-the-feels",
+    "name": "Spill The Feels",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/10/spill-the-feels.png"
+  },
+  {
+    "slug": "strategy",
+    "name": "Strategy",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/12/twice-strategy-scaled.jpeg"
+  },
+  {
+    "slug": "stromae",
+    "name": "Stromae",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2"
+  },
+  {
+    "slug": "stupid-song",
+    "name": "stupid song",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2736949b83f85d782b21ce70583"
+  },
+  {
+    "slug": "supreme-boi",
+    "name": "Supreme Boi",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273aed258d044bcd33cc71e0ab6"
+  },
+  {
+    "slug": "sweetener",
+    "name": "Sweetener",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/ariana-grande-sweetener.jpeg"
+  },
+  {
+    "slug": "sza",
+    "name": "SZA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
+  },
+  {
+    "slug": "tablo",
+    "name": "TABLO",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a38127e499b6f18e2deaecd"
+  },
+  {
+    "slug": "taeyang",
+    "name": "TAEYANG",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7418a76d26fdc76f7b9ffa23"
+  },
+  {
+    "slug": "taeyeon",
+    "name": "TAEYEON",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd3cee7772514a1bcef46a9b6"
+  },
+  {
+    "slug": "teddy-swims",
+    "name": "Teddy Swims",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36eb08698aa7794372c97b97"
+  },
+  {
+    "slug": "temper-city",
+    "name": "Temper City",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3"
+  },
+  {
+    "slug": "young-forever",
+    "name": "The most beautiful moment in life : YOUNG FOREVER",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/09/young-forever.jpg"
+  },
+  {
+    "slug": "the-tortured-poets-department",
+    "name": "The Tortured Poets Department.",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/The-Tortured-Poets-Department-scaled.jpeg"
   },
   {
     "slug": "tini",
@@ -1170,22 +1350,88 @@
     "image": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca"
   },
   {
-    "slug": "fkj",
-    "name": "FKJ",
+    "slug": "tomorrow-x-together",
+    "name": "TOMORROW X TOGETHER",
     "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba6e6973a01eb04abf32b58bb"
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
   },
   {
-    "slug": "if-you-re-looking-for-a-new-best-friend",
-    "name": "If You’re Looking For A New Best Friend",
-    "count": 2,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2025/02/anne-marie-dont-panic-turkce-ceviri.jpg"
+    "slug": "tomorrow-x-together",
+    "name": "TOMORROW X TOGETHER",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
   },
   {
     "slug": "travis-scott",
     "name": "Travis Scott",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71"
+  },
+  {
+    "slug": "troye-sivan",
+    "name": "Troye Sivan",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b"
+  },
+  {
+    "slug": "tzuyu",
+    "name": "TZUYU",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe039b9b9ba211f98b42eb0d5"
+  },
+  {
+    "slug": "unknown",
+    "name": "Unknown",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "v",
+    "name": "V",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb89a07818e5d02039a6ef3181"
+  },
+  {
+    "slug": "wait-on-me",
+    "name": "Wait On Me",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/04/kai-wait-on-me-scaled.jpeg"
+  },
+  {
+    "slug": "wendy",
+    "name": "WENDY",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a2756203f547d1a758ede7a"
+  },
+  {
+    "slug": "where-to-now",
+    "name": "Where To Now? (Part.1 : Yellow Light)",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/kard-turkce-ceviri.jpeg"
+  },
+  {
+    "slug": "winter-heptagon",
+    "name": "WINTER HEPTAGON",
+    "count": 1,
+    "image": "https://acupoflyrics.com/wp-content/uploads/2025/01/winter-heptagon.jpeg"
+  },
+  {
+    "slug": "woosung",
+    "name": "WOOSUNG",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6030f28e5236ab125c73e255"
+  },
+  {
+    "slug": "yena",
+    "name": "YENA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0cbe5ecc3014288c0bbbf4d"
+  },
+  {
+    "slug": "bts-rap-line",
+    "name": "BTS Rap Line",
+    "count": 0,
+    "image": ""
   },
   {
     "slug": "golden-hour-part-2",
@@ -1200,231 +1446,9 @@
     "image": ""
   },
   {
-    "slug": "baekhyun",
-    "name": "BAEKHYUN",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7d4e246f8c54be347e06bffe"
-  },
-  {
-    "slug": "soulja-boy",
-    "name": "Soulja Boy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34"
-  },
-  {
-    "slug": "devita",
-    "name": "DeVita",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6b85e8af86e410e9df38c227"
-  },
-  {
-    "slug": "bts-rap-line",
-    "name": "BTS Rap Line",
-    "count": 0,
-    "image": ""
-  },
-  {
     "slug": "where-to-now-part-1-yellow-light",
     "name": "Where To Now? (Part.1 : Yellow Light)",
     "count": 0,
     "image": ""
-  },
-  {
-    "slug": "harry-s-house",
-    "name": "Harry's House",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee"
-  },
-  {
-    "slug": "chanyeol",
-    "name": "CHANYEOL",
-    "count": 6,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebad793cef19a94d1a6bf73cd6"
-  },
-  {
-    "slug": "wendy",
-    "name": "WENDY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9a2756203f547d1a758ede7a"
-  },
-  {
-    "slug": "misamo",
-    "name": "MISAMO",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5177c8768acaa8f5bd1c22d6"
-  },
-  {
-    "slug": "tzuyu",
-    "name": "TZUYU",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe039b9b9ba211f98b42eb0d5"
-  },
-  {
-    "slug": "florence-the-machine",
-    "name": "Florence + The Machine",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb836eb0a7a82eb8f4133ee04d"
-  },
-  {
-    "slug": "jung-kook",
-    "name": "Jung Kook",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb71089d18c93e3a51e70ff0dc"
-  },
-  {
-    "slug": "jimin",
-    "name": "Jimin",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcf3a9c35db52ba44f3b921e3"
-  },
-  {
-    "slug": "f1-the-album",
-    "name": "F1 The Album",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7f4f23b9eba34d35ac86e6a8"
-  },
-  {
-    "slug": "giorgio-moroder",
-    "name": "Giorgio Moroder",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ae53e43ad044fe30298ac986a606bef7db4617bb"
-  },
-  {
-    "slug": "justice",
-    "name": "Justice",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf140c161d9f9cc9afe85b6ed"
-  },
-  {
-    "slug": "dominic-fike",
-    "name": "Dominic Fike",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
-  },
-  {
-    "slug": "paul-russell",
-    "name": "Paul Russell",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb71f849bbbce2b7415e0cf51b"
-  },
-  {
-    "slug": "park-hyo-shin",
-    "name": "Park Hyo Shin",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a7d4f77e962baf427eeea80"
-  },
-  {
-    "slug": "pierre-de-maere",
-    "name": "Pierre de Maere",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb736cfd6b66dd328050be02cd"
-  },
-  {
-    "slug": "anitta",
-    "name": "Anitta",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb777419bf9a701a78fdd6515f"
-  },
-  {
-    "slug": "dj-khaled",
-    "name": "DJ Khaled",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd445349a29400dd5f5180c0f"
-  },
-  {
-    "slug": "playboi-carti",
-    "name": "Playboi Carti",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
-  },
-  {
-    "slug": "lily-rose-depp",
-    "name": "Lily-Rose Depp",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc2fb4b8e035fbdad27da865f"
-  },
-  {
-    "slug": "troye-sivan",
-    "name": "Troye Sivan",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b"
-  },
-  {
-    "slug": "taeyeon",
-    "name": "TAEYEON",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd3cee7772514a1bcef46a9b6"
-  },
-  {
-    "slug": "supreme-boi",
-    "name": "Supreme Boi",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273aed258d044bcd33cc71e0ab6"
-  },
-  {
-    "slug": "stromae",
-    "name": "Stromae",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2"
-  },
-  {
-    "slug": "pomme",
-    "name": "Pomme",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcaf000b2968ec1c7a7262454"
-  },
-  {
-    "slug": "taeyang",
-    "name": "TAEYANG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7418a76d26fdc76f7b9ffa23"
-  },
-  {
-    "slug": "daesung",
-    "name": "DAESUNG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcebb44ed3b29601d68cac28a"
-  },
-  {
-    "slug": "cults",
-    "name": "Cults",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb92ec52fb43fbd4d2511a9d1d"
-  },
-  {
-    "slug": "amber-coffman",
-    "name": "Amber Coffman",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6772690000c46cb4acd2212654689d3039df24"
-  },
-  {
-    "slug": "kanye-west",
-    "name": "Kanye West",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a"
-  },
-  {
-    "slug": "070-shake",
-    "name": "070 Shake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6338990250f5d5a447650ba9"
-  },
-  {
-    "slug": "clean-bandit",
-    "name": "Clean Bandit",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf995542c4f68f8ae4f05b5f6"
-  },
-  {
-    "slug": "cordae",
-    "name": "Cordae",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9161ad9d53d8c24e2c79d5a5"
-  },
-  {
-    "slug": "apache-207",
-    "name": "Apache 207",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd8b08d3199d2bd40f909e449"
   }
 ]
