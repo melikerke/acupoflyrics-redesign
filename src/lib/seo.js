@@ -23,6 +23,20 @@ function setCanonical(href) {
   el.setAttribute("href", href);
 }
 
+function setRobots(noindex) {
+  let el = document.head.querySelector('meta[name="robots"]');
+  if (!noindex) {
+    el?.remove();
+    return;
+  }
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute("name", "robots");
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", "noindex, follow");
+}
+
 function setJsonLd(id, data) {
   const old = document.getElementById(id);
   if (old) old.remove();
@@ -44,6 +58,7 @@ export function useSeo({
   path,
   image,
   type = "website",
+  noindex = false,
   breadcrumbs = [],
   jsonLd = null,
 }) {
@@ -62,6 +77,7 @@ export function useSeo({
     setMeta("twitter:description", description);
     if (image) setMeta("twitter:image", image);
     setCanonical(url);
+    setRobots(noindex);
 
     setJsonLd(
       "apl-breadcrumbs",
@@ -81,5 +97,5 @@ export function useSeo({
     setJsonLd("apl-structured-data", jsonLd);
     // Re-run whenever the serialisable inputs change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title, description, path, image, type, JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
+  }, [title, description, path, image, type, noindex, JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
 }

@@ -139,7 +139,7 @@ for it in re.findall(r"<item>.*?</item>", data, re.S):
         "seo": {
             "title": title,
             "description": meta("rank_math_description", it),
-            "canonical": meta("rank_math_canonical_url", it) or f"https://acupoflyrics.com/{slug}/",
+            "canonical": meta("rank_math_canonical_url", it) or f"https://www.acupoflyrics.com/{slug}/",
         },
         "youtubeUrl": meta("youtube_linki", it) or None,
     })

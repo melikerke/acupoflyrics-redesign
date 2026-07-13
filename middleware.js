@@ -1,5 +1,6 @@
 import { next } from "@vercel/functions";
 import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
+import { legacyPostRedirects } from "./server/legacyPostRedirects.js";
 
 export const config = {
   matcher: [
@@ -8,6 +9,7 @@ export const config = {
     "/category/:path*",
     "/tag/:path*",
     "/author/:path*",
+    "/:legacyPrefix/:legacySlug",
   ],
   runtime: "nodejs",
 };
@@ -69,7 +71,18 @@ export default function middleware(request) {
     return permanentRedirect(request, "/hakkimizda");
   }
 
+  const nestedPostMatch = pathname.match(/^\/[^/]+\/([^/]+)\/?$/);
+  if (nestedPostMatch) {
+    const slug = decodeURIComponent(nestedPostMatch[1]).toLowerCase();
+    const destination = legacyPostRedirects[slug];
+    if (destination) return permanentRedirect(request, destination);
+  }
+
   if (pathname === "/api/comments") {
+    return next();
+  }
+
+  if (!pathname.startsWith("/admin") && !pathname.startsWith("/api/")) {
     return next();
   }
 

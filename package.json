@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generatePostIndex.js && vite build && node scripts/prerenderSeo.js",
+    "build": "node scripts/generatePostIndex.js && node scripts/generateLegacyCategoryRedirects.js && vite build && node scripts/prerenderSeo.js",
     "preview": "vite preview",
     "import:wp-seo": "node scripts/importWpSeo.js",
     "backfill:youtube": "node scripts/backfillYoutubeFromWp.js",

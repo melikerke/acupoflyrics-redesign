@@ -71,6 +71,7 @@ export default function SearchPage() {
       ? `“${q}” aramasıyla eşleşen şarkılar, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`
       : "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — iki dilde.",
     path: searchPath(q),
+    noindex: true,
     breadcrumbs: [
       { name: "Ana sayfa", path: "/" },
       { name: "Arama", path: searchPath() },

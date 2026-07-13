@@ -24,5 +24,5 @@ export const genrePath = (genreOrSlug) => `/genre/${slugOf(genreOrSlug)}`;
 export const discoverPath = () => "/discover";
 export const searchPath = (q) => (q ? `/search?q=${encodeURIComponent(q)}` : "/search");
 
-export const ORIGIN = "https://acupoflyrics.com";
+export const ORIGIN = "https://www.acupoflyrics.com";
 export const canonical = (path) => `${ORIGIN}${path}`;

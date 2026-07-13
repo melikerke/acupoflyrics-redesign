@@ -4,6 +4,7 @@ import { fetchSpotifyTrack, fetchGeniusMatch, publishRecord, refreshCharts } fro
 import musicLists from "../data/musicLists.json";
 import postIndex from "../data/postIndex.json";
 import { postPath } from "../lib/content";
+import { useSeo } from "../lib/seo";
 import "../preview.css";
 
 const PLACEHOLDER_COVER = "/covers/the-weeknd-hurry-up-tomorrow-turkce-ceviri.jpg";
@@ -287,6 +288,13 @@ function ChartsPanel() {
 }
 
 export default function AdminPage() {
+  useSeo({
+    title: "Admin — acupoflyrics",
+    description: "acupoflyrics çeviri ve liste yönetim paneli.",
+    path: "/admin",
+    noindex: true,
+  });
+
   const [spotifyUrl, setSpotifyUrl] = useState("");
   const [data, setData] = useState(null); // Spotify bundle
   const [spLoading, setSpLoading] = useState(false);

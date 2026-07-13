@@ -4,7 +4,7 @@ import path from "node:path";
 const ROOT = process.cwd();
 const XML_PATH = process.argv[2] || "/Users/melike/Downloads/acupoflyrics.WordPress.2026-06-30.xml";
 const POST_FILES = ["src/data/posts.json", "data/content/posts.json"];
-const SITE = "https://acupoflyrics.com";
+const SITE = "https://www.acupoflyrics.com";
 
 function decode(value = "") {
   return value

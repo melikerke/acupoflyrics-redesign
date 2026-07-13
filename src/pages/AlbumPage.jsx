@@ -72,6 +72,7 @@ export default function AlbumPage() {
     path,
     image: album?.cover,
     type: "music.album",
+    noindex: Boolean(album && album.tracks.length < 2),
     breadcrumbs: album
       ? [
           { name: "Ana sayfa", path: "/" },

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
-const SITE = "https://acupoflyrics.com";
+const SITE = "https://www.acupoflyrics.com";
 
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
 const artistsRaw = JSON.parse(await readFile(path.join(ROOT, "src/data/artists.json"), "utf8"));
@@ -136,7 +136,7 @@ function htmlFor(route) {
   const tags = `
     <title>${escapeHtml(route.title)}</title>
     <meta name="description" content="${escapeHtml(route.description)}" />
-    ${route.noindex ? '<meta name="robots" content="noindex, nofollow" />' : ""}
+    ${route.noindex ? '<meta name="robots" content="noindex, follow" />' : ""}
     <link rel="canonical" href="${escapeHtml(canonical)}" />
     <meta property="og:title" content="${escapeHtml(route.title)}" />
     <meta property="og:description" content="${escapeHtml(route.description)}" />
@@ -158,7 +158,7 @@ function route(path, title, description, image, extra = {}) {
 const routes = [
   route("/", "acupoflyrics — şarkı sözleri & Türkçe çeviri", "En sevdiğin şarkıların sözleri ve özenli Türkçe çevirileri. Spotify metadata ile zenginleşen premium müzik okuma deneyimi.", posts[0]?.cover),
   route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} Türkçe şarkı çevirisini mood, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
-  route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem Türkçe çeviride.", posts[0]?.cover),
+  route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem Türkçe çeviride.", posts[0]?.cover, { noindex: true }),
   route("/listeler", "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics", "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların Türkçe çevirilerini arşivde bul.", posts[0]?.cover),
   route("/admin", "Admin — acupoflyrics", "acupoflyrics çeviri ve liste yönetim paneli.", posts[0]?.cover, { noindex: true }),
   route("/albumler", "Albümler — Türkçe Şarkı Çevirileri | acupoflyrics", "Çevirisi bulunan albümler: kapaklar, çıkış yılları ve albümdeki tüm Türkçe çeviriler tek sayfada.", posts[0]?.cover),
@@ -230,7 +230,7 @@ for (const album of albums.values()) {
     `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`,
     `${album.artist} ${album.name} albümündeki şarkıların Türkçe çevirileri, Spotify metadata ve albüm bağlamıyla.`,
     album.cover,
-    { type: "music.album", lastmod: album.releaseDate },
+    { type: "music.album", lastmod: album.releaseDate, noindex: album.count < 2 },
   ));
 }
 
@@ -258,7 +258,16 @@ for (const routeData of byPath.values()) {
   await writeFile(file, htmlFor(routeData), "utf8");
 }
 
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...byPath.values()].map((r) => `  <url>\n    <loc>${escapeHtml(`${SITE}${r.path}`)}</loc>\n    <lastmod>${new Date(r.lastmod || Date.now()).toISOString()}</lastmod>\n  </url>`).join("\n")}\n</urlset>\n`;
+const indexableRoutes = [...byPath.values()].filter((routeData) => !routeData.noindex);
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexableRoutes.map((r) => `  <url>\n    <loc>${escapeHtml(`${SITE}${r.path}`)}</loc>${r.lastmod ? `\n    <lastmod>${new Date(r.lastmod).toISOString()}</lastmod>` : ""}\n  </url>`).join("\n")}\n</urlset>\n`;
+
+const robots = `User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: ${SITE}/sitemap.xml
+`;
 
 const redirectLines = [
   "/api/* /.netlify/functions/api/:splat 200",
@@ -322,9 +331,12 @@ ${feedPosts.map((post) => `    <item>
 await writeFile(path.join(DIST, "sitemap.xml"), sitemap, "utf8");
 await writeFile(path.join(DIST, "_redirects"), redirects, "utf8");
 await writeFile(path.join(DIST, "feed.xml"), feed, "utf8");
+await writeFile(path.join(DIST, "robots.txt"), robots, "utf8");
 await writeFile(path.join(ROOT, "public/sitemap.xml"), sitemap, "utf8");
 await writeFile(path.join(ROOT, "public/_redirects"), redirects, "utf8");
 await writeFile(path.join(ROOT, "public/feed.xml"), feed, "utf8");
+await writeFile(path.join(ROOT, "public/robots.txt"), robots, "utf8");
 
 console.log(`Generated static SEO HTML for ${byPath.size} routes.`);
-console.log(`Generated sitemap.xml, feed.xml and _redirects with ${redirectLines.length} redirect rules.`);
+console.log(`Generated sitemap.xml with ${indexableRoutes.length} indexable routes.`);
+console.log(`Generated robots.txt, feed.xml and _redirects with ${redirectLines.length} redirect rules.`);
