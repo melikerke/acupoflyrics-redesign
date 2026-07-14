@@ -1,5 +1,65 @@
 [
   {
+    "id": "5022",
+    "slug": "bts-louder-than-bombs-turkce-ceviri",
+    "title": "BTS Louder than bombs Türkçe Çeviri",
+    "song": "Louder than bombs",
+    "artist": "BTS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273505190077497c230422f2934",
+    "date": "2026-07-14T14:46:45.370Z",
+    "reading_time": 3,
+    "excerpt": "ijen neomu seonmyeonghaejyeosseo",
+    "categories": [
+      "BTS",
+      "MAP OF THE SOUL : 7"
+    ],
+    "category_slugs": [
+      "bts",
+      "map-of-the-soul-7"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4Aw8n6r2vuU0KUo1a2nftp",
+      "albumUrl": "https://open.spotify.com/album/5W1XY5ucNATjTULERvXx9j",
+      "artistUrl": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+      "albumName": "MAP OF THE SOUL : 7",
+      "releaseDate": "2020-02-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273505190077497c230422f2934",
+      "duration": "3:37",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4Aw8n6r2vuU0KUo1a2nftp",
+        "isrc": "QM4TX2001948",
+        "duration": "3:37",
+        "previewUrl": null,
+        "trackNumber": 10
+      },
+      "artist": {
+        "name": "BTS",
+        "url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
+      },
+      "album": {
+        "name": "MAP OF THE SOUL : 7",
+        "url": "https://open.spotify.com/album/5W1XY5ucNATjTULERvXx9j",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273505190077497c230422f2934",
+        "releaseDate": "2020-02-21",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/4ZSVbrV4-Xs?si=O9NLxMiwtMLD1wdY",
+    "annotations": {
+      "We picked this game": "BTS'in zorluklarla dolu bu yolu (idollüğü ve getirdiği sorumlulukları) bilerek ve isteyerek seçtiğine dair güçlü bir kabulleniş.",
+      "똥밭": "Korecede çok zorlu ve aşağılayıcı şartlar altında hayatta kalmaya çalışmak anlamındaki sert bir deyimdir. Suga burada şöhretin getirdiği o \"kirli\" ve zorlu mücadeleyi \"biz yapmazsak kim yapacak?\" diyerek sahipleniyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "ijen neomu seonmyeonghaejyeosseo",
+      "tr": "Artık her şey çok daha net görünüyor"
+    }
+  },
+  {
     "id": "5021",
     "slug": "taylor-swift-the-fate-of-ophelia-turkce-ceviri",
     "title": "Taylor Swift The Fate of Ophelia Türkçe Çeviri",

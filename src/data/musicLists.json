@@ -37,24 +37,6 @@
         },
         {
           "rank": 4,
-          "title": "Janice STFU",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
-          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
-          "album": "ICEMAN",
-          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
-        },
-        {
-          "rank": 5,
-          "title": "Man I Need",
-          "artist": "Olivia Dean",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
-          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-          "album": "Man I Need",
-          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
-        },
-        {
-          "rank": 6,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
@@ -63,7 +45,16 @@
           "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
-          "rank": 7,
+          "rank": 5,
+          "title": "Dracula",
+          "artist": "Tame Impala & JENNIE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
+          "spotifyUrl": "https://open.spotify.com/track/709ZIqPHyFOpx2QdjmeWAM",
+          "album": "Dracula",
+          "albumUrl": "https://open.spotify.com/album/2kCjkEVRnLdEV5UOaQSAG4"
+        },
+        {
+          "rank": 6,
           "title": "Hate That I Made You Love Me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -72,31 +63,40 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 8,
-          "title": "Dracula",
-          "artist": "Tame Impala & JENNIE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-          "spotifyUrl": "https://open.spotify.com/track/1NXbNEAcPvY5G1xvfN57aA",
-          "album": "Deadbeat",
-          "albumUrl": "https://open.spotify.com/album/5WulAOx9ilWy1h8UGZ1gkI"
-        },
-        {
-          "rank": 9,
-          "title": "Drop Dead",
-          "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273c25b53f0a34aa1bb4f77cb3e",
-          "spotifyUrl": "https://open.spotify.com/track/6gkbtMtioHgtyGjrMel6ei",
-          "album": "drop dead",
-          "albumUrl": "https://open.spotify.com/album/4OMvPbXaYlbUm6TnwyXGct"
-        },
-        {
-          "rank": 10,
+          "rank": 7,
           "title": "I Just Might",
           "artist": "Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b273e7623a0a60f330ee2b24d498",
           "spotifyUrl": "https://open.spotify.com/track/12bYYQaLqHliSXvRIYlq8G",
           "album": "I Just Might",
           "albumUrl": "https://open.spotify.com/album/2YOfpbW6kCd2XHW2Ln2Uih"
+        },
+        {
+          "rank": 8,
+          "title": "Janice STFU",
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
+        },
+        {
+          "rank": 9,
+          "title": "So Easy (To Fall In Love)",
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
+          "spotifyUrl": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
+          "album": "The Art of Loving",
+          "albumUrl": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
+        },
+        {
+          "rank": 10,
+          "title": "Man I Need",
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "album": "Man I Need",
+          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
         }
       ]
     },
@@ -109,8 +109,8 @@
       "entries": [
         {
           "rank": 1,
-          "title": "GOLDEN HOUR : PART.5 (EP)",
-          "artist": "ATEEZ"
+          "title": "Confessions II",
+          "artist": "Madonna"
         },
         {
           "rank": 2,
@@ -128,17 +128,17 @@
         },
         {
           "rank": 4,
-          "title": "ICEMAN",
-          "artist": "Drake"
-        },
-        {
-          "rank": 5,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
           "spotifyUrl": "https://open.spotify.com/track/7AeM1BGYM7emrqmQn1PuWv",
           "album": "I’m The Problem",
           "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
+        },
+        {
+          "rank": 5,
+          "title": "ICEMAN",
+          "artist": "Drake"
         },
         {
           "rank": 6,
@@ -151,6 +151,11 @@
         },
         {
           "rank": 7,
+          "title": "xperiment",
+          "artist": "Ken Carson"
+        },
+        {
+          "rank": 8,
           "title": "Thriller",
           "artist": "Michael Jackson",
           "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
@@ -159,27 +164,18 @@
           "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
-          "rank": 8,
-          "title": "Number Ones",
-          "artist": "Michael Jackson"
-        },
-        {
           "rank": 9,
-          "title": "One Thing At A Time",
-          "artist": "Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2738337dd45f445c35f7292a81e",
-          "spotifyUrl": "https://open.spotify.com/track/5vYtElD9hKn73Kh4YcnNFN",
-          "album": "One Thing At A Time",
-          "albumUrl": "https://open.spotify.com/album/7c1wEzhXamUm7Lh9zqVMl9"
+          "title": "Visitor",
+          "artist": "Sienna Spiro",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273ef729e70c894394c1a4461fb",
+          "spotifyUrl": "https://open.spotify.com/track/36OpC3NK7kQzcOo8qiCHaA",
+          "album": "The Visitor",
+          "albumUrl": "https://open.spotify.com/album/1vcbnpnQfghE8vRxhvUF60"
         },
         {
           "rank": 10,
-          "title": "The Art Of Loving",
-          "artist": "Olivia Dean",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
-          "spotifyUrl": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
-          "album": "The Art of Loving",
-          "albumUrl": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
+          "title": "35 Biggest Hits",
+          "artist": "Toby Keith"
         }
       ]
     },
@@ -217,10 +213,10 @@
           "rank": 4,
           "title": "REDRED",
           "artist": "CORTIS (코르티스)",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
-          "spotifyUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
-          "album": "REDRED",
-          "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737a702a4c3a18c1439fdc29ff",
+          "spotifyUrl": "https://open.spotify.com/track/4BnDAG8QyfWirLFdGuV99x",
+          "album": "GREENGREEN",
+          "albumUrl": "https://open.spotify.com/album/2zEdi42kfgLEySoikGJMFT"
         },
         {
           "rank": 5,
@@ -249,10 +245,10 @@
           "rank": 8,
           "title": "LEMONADE",
           "artist": "aespa",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27379fedd48b9bb3353ce47fb78",
-          "spotifyUrl": "https://open.spotify.com/track/3YEjWhAEz9dtA0BED9Iy8b",
-          "album": "LEMONADE (Zedd Extended Mix)",
-          "albumUrl": "https://open.spotify.com/album/0xK6jNYasbNFAym06O7rx7"
+          "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+          "spotifyUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+          "album": "LEMONADE - The 2nd Album",
+          "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm"
         },
         {
           "rank": 9,

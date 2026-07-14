@@ -162,6 +162,7 @@ export const legacyCategoryRedirects = {
   "love-yourself-her": "/discover",
   "lp": "/artist/lp",
   "manchild": "/album/sabrina-carpenter-manchild",
+  "map-of-the-soul-7": "/album/bts-map-of-the-soul-7",
   "maroon-5": "/artist/maroon-5",
   "megan-thee-stallion": "/artist/megan-thee-stallion",
   "meovv": "/artist/meovv",
