@@ -9,6 +9,8 @@ export const popGundemiArticles = [
     readTime: "4 dk",
     image: "https://i.scdn.co/image/ab6761610000e5eb3d8820046fd455b38d644864",
     accent: "#7ec7d8",
+    artistSlug: "twice",
+    artistName: "TWICE",
     excerpt:
       "Jihyo, Tzuyu, Jeongyeon ve Chaeyoung etrafında dönen JYP sözleşme haberlerinde doğrulananlar, rapor edilenler ve henüz kesinleşmeyenler.",
     dek:

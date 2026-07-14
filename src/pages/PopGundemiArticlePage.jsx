@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { getPopGundemiArticle } from "../data/popGundemi";
-import { discoverPath, popJournalPath } from "../lib/paths";
+import { artistPath, popJournalPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import SiteShell from "../components/site/SiteShell";
@@ -112,7 +112,11 @@ export default function PopGundemiArticlePage() {
         </section>
 
         <div className="site-hero-actions pop-article-actions">
-          <Link className="site-btn" to={discoverPath()}>TWICE çevirilerini keşfet</Link>
+          {article.artistSlug && (
+            <Link className="site-btn" to={artistPath(article.artistSlug)}>
+              {article.artistName || "Sanatçı"} çevirilerini keşfet
+            </Link>
+          )}
           <Link className="site-btn-ghost" to={popJournalPath()}>Pop Günlüğü</Link>
         </div>
       </article>
