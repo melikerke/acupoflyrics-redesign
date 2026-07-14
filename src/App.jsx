@@ -16,6 +16,8 @@ const SearchPage = lazy(() => import("./pages/SearchPage"));
 const MusicListsPage = lazy(() => import("./pages/MusicListsPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
+const PopGundemiPage = lazy(() => import("./pages/PopGundemiPage"));
+const PopGundemiArticlePage = lazy(() => import("./pages/PopGundemiArticlePage"));
 // The admin studio is included in production, but Vercel middleware protects
 // /admin and /api/* before the React app loads.
 const AdminPage = lazy(() => import("./pages/AdminPage"));
@@ -111,6 +113,8 @@ export default function App() {
             <Route path="/listeler" element={<MusicListsPage />} />
             <Route path="/hakkimizda" element={<AboutPage />} />
             <Route path="/iletisim" element={<ContactPage />} />
+            <Route path="/pop-gunlugu" element={<PopGundemiPage />} />
+            <Route path="/pop-gunlugu/:slug" element={<PopGundemiArticlePage />} />
 
             {/* Legacy aliases from earlier iterations. */}
             <Route path="/old-home" element={<Navigate to="/" replace />} />

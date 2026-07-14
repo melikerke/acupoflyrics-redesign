@@ -20,6 +20,10 @@ export const albumPath = (albumOrSlug) => `/album/${slugOf(albumOrSlug)}`;
 export const collectionPath = (collectionOrSlug) => `/collection/${slugOf(collectionOrSlug)}`;
 export const moodPath = (moodOrSlug) => `/mood/${slugOf(moodOrSlug)}`;
 export const genrePath = (genreOrSlug) => `/genre/${slugOf(genreOrSlug)}`;
+export const popJournalPath = (articleOrSlug) => {
+  const slug = slugOf(articleOrSlug);
+  return slug ? `/pop-gunlugu/${slug}` : "/pop-gunlugu";
+};
 
 export const discoverPath = () => "/discover";
 export const searchPath = (q) => (q ? `/search?q=${encodeURIComponent(q)}` : "/search");

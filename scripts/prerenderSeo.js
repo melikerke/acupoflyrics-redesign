@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { popGundemiArticles } from "../src/data/popGundemi.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
@@ -164,7 +165,33 @@ const routes = [
   route("/albumler", "Albümler — Türkçe Şarkı Çevirileri | acupoflyrics", "Çevirisi bulunan albümler: kapaklar, çıkış yılları ve albümdeki tüm Türkçe çeviriler tek sayfada.", posts[0]?.cover),
   route("/hakkimizda", "Hakkımızda | acupoflyrics", "acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyan bağımsız bir çeviri arşividir.", posts[0]?.cover),
   route("/iletisim", "İletişim | acupoflyrics", "Çeviri talebi, düzeltme önerisi ya da iş birliği için acupoflyrics ile iletişime geç.", posts[0]?.cover),
+  route("/pop-gunlugu", "Pop Günlüğü | acupoflyrics", "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla, sakin ve anlaşılır notlarla takip et.", popGundemiArticles[0]?.image),
 ];
+
+for (const article of popGundemiArticles) {
+  routes.push(route(
+    `/pop-gunlugu/${article.slug}`,
+    `${article.shortTitle} | Pop Günlüğü`,
+    article.excerpt,
+    article.image,
+    {
+      type: "article",
+      lastmod: article.updatedAt || article.date,
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        headline: article.title,
+        description: article.excerpt,
+        image: article.image,
+        datePublished: article.date,
+        dateModified: article.updatedAt || article.date,
+        author: { "@type": "Organization", name: "acupoflyrics" },
+        publisher: { "@type": "Organization", name: "acupoflyrics" },
+        mainEntityOfPage: `${SITE}/pop-gunlugu/${article.slug}`,
+      },
+    },
+  ));
+}
 
 for (const post of posts) {
   const canonicalPath = postPath(post);

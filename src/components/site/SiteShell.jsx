@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { totalPosts } from "../../lib/content";
-import { discoverPath, searchPath } from "../../lib/paths";
+import { discoverPath, popJournalPath, searchPath } from "../../lib/paths";
 import { Icon } from "./ui";
 import "../../preview.css";
 import "../../site.css";
@@ -28,6 +28,7 @@ export function SiteNav() {
         <Link to={`${discoverPath()}#artists`}>Sanatçılar</Link>
         <Link to={`${discoverPath()}#moods`}>Mood</Link>
         <Link to="/listeler">Listeler</Link>
+        <Link to={popJournalPath()}>Pop Günlüğü</Link>
       </nav>
       <div className="acl-nav-actions">
         <button className="acl-search" type="button" aria-label="Ara" onClick={openSearch}>
@@ -82,7 +83,7 @@ export function SiteFooter() {
           <p>Özenli Türkçe çeviriler — {totalPosts} şarkı.</p>
         </div>
         <FooterCol title="Keşfet" items={[["Keşfet", discoverPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
-        <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"]]} />
+        <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />
         <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
       </div>
       <div className="site-footer-base">
