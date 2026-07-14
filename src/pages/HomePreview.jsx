@@ -23,7 +23,8 @@ import {
 } from "../lib/content";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
-import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath } from "../lib/paths";
+import { latestPopGundemi } from "../data/popGundemi";
+import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath, popJournalPath } from "../lib/paths";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
 import "../preview.css";
 import "../site.css";
@@ -94,6 +95,35 @@ function SectionHead({ title, to = discoverPath() }) {
       <h2>{title}</h2>
       <Link to={to}>Tümünü gör <Arrow /></Link>
     </div>
+  );
+}
+
+function PopNewsBanner({ article }) {
+  if (!article) return null;
+
+  const highlight = article.summary?.[1] || article.excerpt;
+
+  return (
+    <section className="acl-news-banner-section" aria-label="Pop gündemi">
+      <Link
+        to={popJournalPath(article)}
+        className="acl-news-banner"
+        style={{ "--pop-accent": article.accent || "var(--acl-accent)" }}
+      >
+        <span className="acl-news-banner-image" aria-hidden>
+          <img src={article.image} alt="" loading="lazy" />
+        </span>
+        <span className="acl-news-banner-copy">
+          <span className="acl-news-banner-kicker">Şu an neler oluyor?</span>
+          <strong>{article.shortTitle || article.title}</strong>
+          <em>{highlight}</em>
+        </span>
+        <span className="acl-news-banner-action">
+          Son durumu oku
+          <Arrow />
+        </span>
+      </Link>
+    </section>
   );
 }
 
@@ -356,6 +386,7 @@ export default function HomePreview() {
           <div className="hero-ambient-glow" />
           <div className="hero-ambient-glow-2" />
           <Hero post={heroPost} />
+          <PopNewsBanner article={latestPopGundemi} />
           <NewTranslations items={latest} />
           <RankedSection newest={newReleases} updated={recentlyUpdated} />
           <GenreFilterShelf />
