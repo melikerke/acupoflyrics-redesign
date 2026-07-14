@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "lists": [
     {
       "id": "billboard-hot-100",
@@ -74,11 +74,7 @@
         {
           "rank": 8,
           "title": "Dracula",
-          "artist": "Tame Impala & JENNIE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-          "spotifyUrl": "https://open.spotify.com/track/1NXbNEAcPvY5G1xvfN57aA",
-          "album": "Deadbeat",
-          "albumUrl": "https://open.spotify.com/album/5WulAOx9ilWy1h8UGZ1gkI"
+          "artist": "Tame Impala & JENNIE"
         },
         {
           "rank": 9,
@@ -192,17 +188,17 @@
       "entries": [
         {
           "rank": 1,
-          "title": "SWIM",
-          "artist": "방탄소년단"
-        },
-        {
-          "rank": 2,
           "title": "Golden",
           "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
           "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
           "spotifyUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
           "album": "Golden (from the Netflix film KPop Demon Hunters)",
           "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
+        },
+        {
+          "rank": 2,
+          "title": "SWIM",
+          "artist": "방탄소년단"
         },
         {
           "rank": 3,
@@ -216,24 +212,14 @@
         {
           "rank": 4,
           "title": "REDRED",
-          "artist": "CORTIS (코르티스)"
+          "artist": "CORTIS (코르티스)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+          "spotifyUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+          "album": "REDRED",
+          "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
         },
         {
           "rank": 5,
-          "title": "It`s Me",
-          "artist": "아일릿(ILLIT)"
-        },
-        {
-          "rank": 6,
-          "title": "LEMONADE",
-          "artist": "aespa",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
-          "spotifyUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
-          "album": "LEMONADE - The 2nd Album",
-          "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm"
-        },
-        {
-          "rank": 7,
           "title": "APT.",
           "artist": "로제 (ROSE), Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
@@ -242,19 +228,41 @@
           "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
         },
         {
+          "rank": 6,
+          "title": "It`s Me",
+          "artist": "아일릿(ILLIT)"
+        },
+        {
+          "rank": 7,
+          "title": "BAD",
+          "artist": "ATEEZ (에이티즈)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2734ebd68a063228fefd98a1cf2",
+          "spotifyUrl": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+          "album": "GOLDEN HOUR : Part.5",
+          "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
+        },
+        {
           "rank": 8,
+          "title": "LEMONADE",
+          "artist": "aespa",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27379fedd48b9bb3353ce47fb78",
+          "spotifyUrl": "https://open.spotify.com/track/3YEjWhAEz9dtA0BED9Iy8b",
+          "album": "LEMONADE (Zedd Extended Mix)",
+          "albumUrl": "https://open.spotify.com/album/0xK6jNYasbNFAym06O7rx7"
+        },
+        {
+          "rank": 9,
           "title": "Come Over",
           "artist": "방탄소년단"
         },
         {
-          "rank": 9,
-          "title": "Body to Body",
-          "artist": "방탄소년단"
-        },
-        {
           "rank": 10,
-          "title": "2.0",
-          "artist": "방탄소년단"
+          "title": "Soda Pop",
+          "artist": "KPop Demon Hunters Cast, 대니 정, Saja Boys, Andrew Choi, Neckwav, Kevin Woo, samUIL Lee",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2734dcb6c5df15cf74596ab25a4",
+          "spotifyUrl": "https://open.spotify.com/track/02sy7FAs8dkDNYsHp4Ul3f",
+          "album": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+          "albumUrl": "https://open.spotify.com/album/14JkAa6IiFaOh5s0nMyMU9"
         }
       ]
     },
@@ -287,30 +295,30 @@
           "rank": 3,
           "title": "California Girls",
           "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
           "spotifyUrl": "https://open.spotify.com/track/5Rv0O0Bv90IqC97T68zesG",
           "album": "The Real Me",
           "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
         },
         {
           "rank": 4,
-          "title": "F**k A Interview",
-          "artist": "Future"
-        },
-        {
-          "rank": 5,
           "title": "Konnichiwa",
           "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
           "spotifyUrl": "https://open.spotify.com/track/2d0UrqT7OYP0gcntGV2rsp",
           "album": "The Real Me",
           "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
         },
         {
+          "rank": 5,
+          "title": "F**k A Interview",
+          "artist": "Future"
+        },
+        {
           "rank": 6,
           "title": "One Two",
           "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
           "spotifyUrl": "https://open.spotify.com/track/7Aj7gSqpF1HdkftImtgil8",
           "album": "The Real Me",
           "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
@@ -319,7 +327,7 @@
           "rank": 7,
           "title": "Snow in Skyami",
           "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
           "spotifyUrl": "https://open.spotify.com/track/2nGzxt4Ww10tUoyDdkNqWq",
           "album": "The Real Me",
           "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
@@ -328,28 +336,28 @@
           "rank": 8,
           "title": "Tank Top Pluto",
           "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
           "spotifyUrl": "https://open.spotify.com/track/0wLCuuprBD0HYiMZCHcdB6",
           "album": "The Real Me",
           "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
         },
         {
           "rank": 9,
-          "title": "Weight Up",
-          "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732d931c30331d82c992daf5c2",
-          "spotifyUrl": "https://open.spotify.com/track/2MJZJ6aXqsgDra1pQt9WLT",
-          "album": "The Real Me",
-          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
-        },
-        {
-          "rank": 10,
           "title": "Radio",
           "artist": "Future",
           "cover": "https://i.scdn.co/image/ab67616d0000b273e90daf000a15c27bbaa8e176",
           "spotifyUrl": "https://open.spotify.com/track/4WtMTAplAbnTaFuSxVphOj",
           "album": "Radio",
           "albumUrl": "https://open.spotify.com/album/4Fdsn3xJZC7VwCsjzNz9jR"
+        },
+        {
+          "rank": 10,
+          "title": "Weight Up",
+          "artist": "Future",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
+          "spotifyUrl": "https://open.spotify.com/track/2MJZJ6aXqsgDra1pQt9WLT",
+          "album": "The Real Me",
+          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
         }
       ]
     },
@@ -371,6 +379,15 @@
         },
         {
           "rank": 2,
+          "title": "Wonderwall - Remastered",
+          "artist": "Oasis",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+          "spotifyUrl": "https://open.spotify.com/track/5qqabIl2vWzo9ApSC317sa",
+          "album": "(What's The Story) Morning Glory? [Remastered]",
+          "albumUrl": "https://open.spotify.com/album/1VW1MFNstaJuygaoTPkdCk"
+        },
+        {
+          "rank": 3,
           "title": "Billie Jean",
           "artist": "Michael Jackson",
           "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
@@ -379,7 +396,7 @@
           "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Beauty And A Beat",
           "artist": "Justin Bieber & Nicki Minaj",
           "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
@@ -388,7 +405,7 @@
           "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "hate that i made you love me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -397,7 +414,7 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Earrings",
           "artist": "Malcolm Todd",
           "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
@@ -406,7 +423,7 @@
           "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Babydoll",
           "artist": "Dominic Fike",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
@@ -415,7 +432,7 @@
           "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "SWIM",
           "artist": "BTS",
           "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
@@ -424,31 +441,22 @@
           "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
         },
         {
-          "rank": 8,
-          "title": "Self Aware",
-          "artist": "Temper City",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
-          "spotifyUrl": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
-          "album": "Self Aware",
-          "albumUrl": "https://open.spotify.com/album/7Cdqksm4yTfiq0EfKPa86M"
-        },
-        {
           "rank": 9,
-          "title": "The One That Got Away",
-          "artist": "Katy Perry",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
-          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
-          "album": "Teenage Dream: The Complete Confection",
-          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
-        },
-        {
-          "rank": 10,
           "title": "stupid song",
           "artist": "Olivia Rodrigo",
           "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
           "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
           "album": "you seem pretty sad for a girl so in love",
           "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
+        },
+        {
+          "rank": 10,
+          "title": "The One That Got Away",
+          "artist": "Katy Perry",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+          "album": "Teenage Dream: The Complete Confection",
+          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
         }
       ]
     }

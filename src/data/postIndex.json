@@ -1,5 +1,64 @@
 [
   {
+    "id": "5019",
+    "slug": "olivia-rodrigo-the-cure-turkce-ceviri",
+    "title": "Olivia Rodrigo The Cure Türkçe Çeviri",
+    "song": "The Cure",
+    "artist": "Olivia Rodrigo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+    "date": "2026-07-14T06:51:27.642Z",
+    "reading_time": 3,
+    "excerpt": "All the pretty girls in the foreground of my mind",
+    "categories": [
+      "Olivia Rodrigo",
+      "The Cure"
+    ],
+    "category_slugs": [
+      "olivia-rodrigo",
+      "the-cure"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
+      "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y",
+      "artistUrl": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+      "albumName": "the cure",
+      "releaseDate": "2026-05-22",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+      "duration": "4:57",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
+        "isrc": "USUG12601729",
+        "duration": "4:57",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+      },
+      "album": {
+        "name": "the cure",
+        "url": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+        "releaseDate": "2026-05-22",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "İplik iplik sökülüyorum": "“Unraveled” hem bir kıyafetin sökülmesini hem de birinin zihinsel olarak dağılmasını anlatır. Türkçede bu görseli \"iplik iplik sökülmek\" deyimiyle koruduk."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "All the pretty girls in the foreground of my mind",
+      "tr": "Zihnimin en önünde o güzel kızlar beliriyor yine"
+    }
+  },
+  {
     "id": "5018",
     "slug": "rihanna-bitch-better-have-my-money-turkce-ceviri",
     "title": "Rihanna Bitch Better Have My Money Türkçe Çeviri",

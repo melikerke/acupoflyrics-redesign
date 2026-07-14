@@ -228,6 +228,7 @@ export const legacyCategoryRedirects = {
   "taylor-swift": "/artist/taylor-swift",
   "teddy-swims": "/artist/teddy-swims",
   "temper-city": "/artist/temper-city",
+  "the-cure": "/album/olivia-rodrigo-the-cure",
   "the-life-of-a-showgirl": "/album/taylor-swift-the-life-of-a-showgirl",
   "the-most-beautiful-moment-in-life-young-forever": "/discover",
   "the-sin-vanish": "/album/enhypen-the-sin-vanish",
