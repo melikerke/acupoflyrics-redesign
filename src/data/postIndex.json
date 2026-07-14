@@ -1,5 +1,122 @@
 [
   {
+    "id": "5021",
+    "slug": "taylor-swift-the-fate-of-ophelia-turkce-ceviri",
+    "title": "Taylor Swift The Fate of Ophelia Türkçe Çeviri",
+    "song": "The Fate of Ophelia",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902",
+    "date": "2026-07-14T07:23:52.560Z",
+    "reading_time": 4,
+    "excerpt": "I heard you calling on the megaphone",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/53iuhJlwXhSER5J2IYYv1W",
+      "albumUrl": "https://open.spotify.com/album/4a6NzYL1YHRUgx9e3YZI6I",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl",
+      "releaseDate": "2025-10-03",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902",
+      "duration": "3:46",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/53iuhJlwXhSER5J2IYYv1W",
+        "isrc": "USUG12506436",
+        "duration": "3:46",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
+      },
+      "album": {
+        "name": "The Life of a Showgirl",
+        "url": "https://open.spotify.com/album/4a6NzYL1YHRUgx9e3YZI6I",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902",
+        "releaseDate": "2025-10-03",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/ko70cExuzZM?si=PJhYCY_ug2d67EHQ",
+    "annotations": {
+      "benliğime, kendime ve şahsıma": "Me, myself and I ifadesindeki tek başınalık vurgusunu Türkçede kararlı ve biraz teatral bir dille karşıladık.",
+      "Ophelia’nın kaderinden": "Shakespeare’in Hamlet’inde aşk acısıyla aklını yitiren ve nehirde boğulan Ophelia’ya gönderme. Şarkıcı, bu boğulma ve delirme kaderinden kurtarıldığını söylüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I heard you calling on the megaphone",
+      "tr": "Megafondan seslendiğini duydum"
+    }
+  },
+  {
+    "id": "5020",
+    "slug": "sabrina-carpenter-manchild-turkce-ceviri",
+    "title": "Sabrina Carpenter Manchild Türkçe Çeviri",
+    "song": "Manchild",
+    "artist": "Sabrina Carpenter",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273062c6573009fdebd43de443b",
+    "date": "2026-07-14T07:22:56.304Z",
+    "reading_time": 3,
+    "excerpt": "Oh boy",
+    "categories": [
+      "Sabrina Carpenter",
+      "Manchild"
+    ],
+    "category_slugs": [
+      "sabrina-carpenter",
+      "manchild"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/42UBPzRMh5yyz0EDPr6fr1",
+      "albumUrl": "https://open.spotify.com/album/3wRHV5fOeUcM5hvYzWZsic",
+      "artistUrl": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B",
+      "albumName": "Manchild",
+      "releaseDate": "2025-06-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273062c6573009fdebd43de443b",
+      "duration": "3:34",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/42UBPzRMh5yyz0EDPr6fr1",
+        "isrc": "USUM72504354",
+        "duration": "3:34",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "url": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb78e45cfa4697ce3c437cb455"
+      },
+      "album": {
+        "name": "Manchild",
+        "url": "https://open.spotify.com/album/3wRHV5fOeUcM5hvYzWZsic",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273062c6573009fdebd43de443b",
+        "releaseDate": "2025-06-05",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/aSugSGCC12I?si=8intB8aO_PEU6i6L",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oh boy",
+      "tr": "Ah be çocuk..."
+    }
+  },
+  {
     "id": "5019",
     "slug": "olivia-rodrigo-the-cure-turkce-ceviri",
     "title": "Olivia Rodrigo The Cure Türkçe Çeviri",
@@ -48,7 +165,7 @@
         "label": null
       }
     },
-    "youtubeUrl": null,
+    "youtubeUrl": "https://youtu.be/B402rKl4bUg?si=EcV5f2TeTH-LxvWk",
     "annotations": {
       "İplik iplik sökülüyorum": "“Unraveled” hem bir kıyafetin sökülmesini hem de birinin zihinsel olarak dağılmasını anlatır. Türkçede bu görseli \"iplik iplik sökülmek\" deyimiyle koruduk."
     },

@@ -74,7 +74,11 @@
         {
           "rank": 8,
           "title": "Dracula",
-          "artist": "Tame Impala & JENNIE"
+          "artist": "Tame Impala & JENNIE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+          "spotifyUrl": "https://open.spotify.com/track/1NXbNEAcPvY5G1xvfN57aA",
+          "album": "Deadbeat",
+          "albumUrl": "https://open.spotify.com/album/5WulAOx9ilWy1h8UGZ1gkI"
         },
         {
           "rank": 9,
@@ -334,21 +338,21 @@
         },
         {
           "rank": 8,
-          "title": "Tank Top Pluto",
-          "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
-          "spotifyUrl": "https://open.spotify.com/track/0wLCuuprBD0HYiMZCHcdB6",
-          "album": "The Real Me",
-          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
-        },
-        {
-          "rank": 9,
           "title": "Radio",
           "artist": "Future",
           "cover": "https://i.scdn.co/image/ab67616d0000b273e90daf000a15c27bbaa8e176",
           "spotifyUrl": "https://open.spotify.com/track/4WtMTAplAbnTaFuSxVphOj",
           "album": "Radio",
           "albumUrl": "https://open.spotify.com/album/4Fdsn3xJZC7VwCsjzNz9jR"
+        },
+        {
+          "rank": 9,
+          "title": "Tank Top Pluto",
+          "artist": "Future",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2731cdbf497474485c6bf5645a0",
+          "spotifyUrl": "https://open.spotify.com/track/0wLCuuprBD0HYiMZCHcdB6",
+          "album": "The Real Me",
+          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
         },
         {
           "rank": 10,
