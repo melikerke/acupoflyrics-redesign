@@ -45,7 +45,7 @@ export default function PopGundemiArticlePage() {
   if (!article) return <NotFound />;
 
   return (
-    <SiteShell theme={LIGHT_THEME}>
+    <SiteShell theme={LIGHT_THEME} wide>
       <article className="pop-article" style={{ "--pop-accent": article.accent }}>
         <Breadcrumbs
           items={[
@@ -58,18 +58,31 @@ export default function PopGundemiArticlePage() {
         <header className="pop-article-hero">
           <div className="pop-article-copy">
             <span className="site-kicker">{article.kicker} · {formatDate(article.date)} · {article.readTime}</span>
-            <h1 className="font-serif">{article.title}</h1>
+            <h1 className="font-serif">{article.shortTitle}</h1>
+            <p className="pop-article-subtitle">{article.title}</p>
             <p>{article.dek}</p>
           </div>
-          <div className="pop-article-visual" aria-hidden>
+          <div className="pop-article-visual">
             <img src={article.image} alt="" />
             <span>acupoflyrics</span>
           </div>
         </header>
 
+        <section className="pop-live-panel" aria-label="Güncel durum">
+          <div>
+            <span className="site-kicker">14 Temmuz 2026 itibarıyla</span>
+            <h2>Son durum</h2>
+          </div>
+          <div className="pop-live-items">
+            <p><strong>Resmi açıklama:</strong> JYP, görüşmelerin sürdüğünü söylüyor.</p>
+            <p><strong>Yeni rapor:</strong> JoyNews24, Jihyo'nun bireysel olarak ayrılabileceğini yazdı.</p>
+            <p><strong>Grup tarafı:</strong> Haberlere göre TWICE üyeliğinin sürmesi bekleniyor.</p>
+          </div>
+        </section>
+
         <section className="pop-brief">
           <div>
-            <span className="site-kicker">Son durum</span>
+            <span className="site-kicker">Özet</span>
             <h2>Kısa özet</h2>
           </div>
           <ul>
@@ -86,20 +99,6 @@ export default function PopGundemiArticlePage() {
             </div>
           ))}
         </section>
-
-        <div className="pop-article-body">
-          {article.sections.map((section) => (
-            <section key={section.heading}>
-              <h2>{section.heading}</h2>
-              {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </section>
-          ))}
-        </div>
-
-        <aside className="pop-story-share">
-          <span className="site-kicker">Instagram hikaye metni</span>
-          <p>{article.storyShare}</p>
-        </aside>
 
         <section className="pop-sources">
           <span className="site-kicker">Kaynaklar</span>
