@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { getPopGundemiArticle } from "../data/popGundemi";
-import { artistPath, popJournalPath } from "../lib/paths";
+import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import SiteShell from "../components/site/SiteShell";
@@ -14,11 +14,23 @@ function formatDate(value) {
 export default function PopGundemiArticlePage() {
   const { slug } = useParams();
   const article = getPopGundemiArticle(slug);
+  const articlePath = article ? popJournalPath(article) : popJournalPath();
+  const articleUrl = `${ORIGIN}${articlePath}`;
+  const articleKeywords = article
+    ? [
+        article.artistName,
+        article.shortTitle,
+        article.kicker,
+        "Pop Günlüğü",
+        "müzik gündemi",
+        "Türkçe çeviri",
+      ].filter(Boolean)
+    : [];
 
   useSeo({
     title: article ? `${article.shortTitle} | Pop Günlüğü` : "Pop Günlüğü | acupoflyrics",
     description: article?.excerpt,
-    path: article ? popJournalPath(article) : popJournalPath(),
+    path: articlePath,
     image: article?.image,
     type: "article",
     noindex: !article,
@@ -30,14 +42,26 @@ export default function PopGundemiArticlePage() {
     jsonLd: article
       ? {
           "@context": "https://schema.org",
-          "@type": "NewsArticle",
+          "@type": "Article",
+          mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
           headline: article.title,
+          alternativeHeadline: article.shortTitle,
           description: article.excerpt,
-          image: article.image,
+          url: articleUrl,
+          image: [article.image],
+          thumbnailUrl: article.image,
+          inLanguage: "tr-TR",
+          isAccessibleForFree: true,
+          articleSection: article.kicker,
+          keywords: articleKeywords,
           datePublished: article.date,
           dateModified: article.updatedAt,
-          author: { "@type": "Organization", name: "acupoflyrics" },
-          publisher: { "@type": "Organization", name: "acupoflyrics" },
+          author: { "@type": "Organization", name: "acupoflyrics", url: ORIGIN },
+          publisher: { "@type": "Organization", name: "acupoflyrics", url: ORIGIN },
+          about: article.artistName
+            ? [{ "@type": "MusicGroup", name: article.artistName }]
+            : undefined,
+          citation: article.sources?.map((source) => source.url),
         }
       : null,
   });

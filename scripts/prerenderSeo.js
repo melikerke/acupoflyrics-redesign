@@ -169,8 +169,19 @@ const routes = [
 ];
 
 for (const article of popGundemiArticles) {
+  const articlePath = `/pop-gunlugu/${article.slug}`;
+  const articleUrl = `${SITE}${articlePath}`;
+  const articleKeywords = [
+    article.artistName,
+    article.shortTitle,
+    article.kicker,
+    "Pop Günlüğü",
+    "müzik gündemi",
+    "Türkçe çeviri",
+  ].filter(Boolean);
+
   routes.push(route(
-    `/pop-gunlugu/${article.slug}`,
+    articlePath,
     `${article.shortTitle} | Pop Günlüğü`,
     article.excerpt,
     article.image,
@@ -179,15 +190,26 @@ for (const article of popGundemiArticles) {
       lastmod: article.updatedAt || article.date,
       jsonLd: {
         "@context": "https://schema.org",
-        "@type": "NewsArticle",
+        "@type": "Article",
+        mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
         headline: article.title,
+        alternativeHeadline: article.shortTitle,
         description: article.excerpt,
-        image: article.image,
+        url: articleUrl,
+        image: [article.image],
+        thumbnailUrl: article.image,
+        inLanguage: "tr-TR",
+        isAccessibleForFree: true,
+        articleSection: article.kicker,
+        keywords: articleKeywords,
         datePublished: article.date,
         dateModified: article.updatedAt || article.date,
-        author: { "@type": "Organization", name: "acupoflyrics" },
-        publisher: { "@type": "Organization", name: "acupoflyrics" },
-        mainEntityOfPage: `${SITE}/pop-gunlugu/${article.slug}`,
+        author: { "@type": "Organization", name: "acupoflyrics", url: SITE },
+        publisher: { "@type": "Organization", name: "acupoflyrics", url: SITE },
+        about: article.artistName
+          ? [{ "@type": "MusicGroup", name: article.artistName }]
+          : undefined,
+        citation: article.sources?.map((source) => source.url),
       },
     },
   ));

@@ -127,6 +127,38 @@ function PopNewsBanner({ article }) {
   );
 }
 
+function RisingSongFeature({ post, article }) {
+  if (!post) return null;
+
+  const reason =
+    article?.livePanel?.items?.[1]?.text ||
+    article?.summary?.[0] ||
+    "Dinleme listelerinde yeniden görünür olan şarkı, arama tarafında da yükselişe geçti.";
+
+  return (
+    <section className="acl-rising-section" aria-label="Günün yükselen şarkısı">
+      <div className="acl-rising-card" style={{ "--pop-accent": article?.accent || "var(--acl-accent)" }}>
+        <Link to={postPath(post)} className="acl-rising-cover" aria-label={`${post.artist} ${post.song} çevirisi`}>
+          <img src={post.cover} alt={`${post.artist} - ${post.song}`} loading="lazy" />
+        </Link>
+        <div className="acl-rising-copy">
+          <span className="acl-rising-kicker">Günün yükselen şarkısı</span>
+          <h2>{post.song}</h2>
+          <p>{post.artist} · {releaseYear(post)}</p>
+        </div>
+        <div className="acl-rising-reason">
+          <span>Neden gündemde?</span>
+          <p>{reason}</p>
+          <div className="acl-rising-actions">
+            <Link to={postPath(post)}>Çeviriye git <Arrow /></Link>
+            {article && <Link to={popJournalPath(article)}>Gündemi oku</Link>}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function TranslationCard({ post }) {
   const metrics = metricsFor(post);
   return (
@@ -377,6 +409,10 @@ export default function HomePreview() {
   const color = useAlbumColor(heroPost.cover, [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
   const latest = useMemo(() => newReleases.slice(0, 8), []);
+  const risingPost = useMemo(
+    () => newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri") || latest[0],
+    [latest],
+  );
 
   return (
     <div className={`acl-home ${theme.dark ? "is-dark" : "is-light"}`} style={theme.vars}>
@@ -387,6 +423,7 @@ export default function HomePreview() {
           <div className="hero-ambient-glow-2" />
           <Hero post={heroPost} />
           <PopNewsBanner article={latestPopGundemi} />
+          <RisingSongFeature post={risingPost} article={latestPopGundemi} />
           <NewTranslations items={latest} />
           <RankedSection newest={newReleases} updated={recentlyUpdated} />
           <GenreFilterShelf />
