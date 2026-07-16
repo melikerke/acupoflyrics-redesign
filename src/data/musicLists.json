@@ -48,10 +48,10 @@
           "rank": 5,
           "title": "Dracula",
           "artist": "Tame Impala & JENNIE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-          "spotifyUrl": "https://open.spotify.com/track/1NXbNEAcPvY5G1xvfN57aA",
-          "album": "Deadbeat",
-          "albumUrl": "https://open.spotify.com/album/5WulAOx9ilWy1h8UGZ1gkI"
+          "cover": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
+          "spotifyUrl": "https://open.spotify.com/track/709ZIqPHyFOpx2QdjmeWAM",
+          "album": "Dracula",
+          "albumUrl": "https://open.spotify.com/album/2kCjkEVRnLdEV5UOaQSAG4"
         },
         {
           "rank": 6,
@@ -276,11 +276,7 @@
         {
           "rank": 1,
           "title": "Choosin' Texas",
-          "artist": "Ella Langley",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
-          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
-          "album": "Choosin' Texas",
-          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
+          "artist": "Ella Langley"
         },
         {
           "rank": 2,
@@ -338,21 +334,21 @@
         },
         {
           "rank": 8,
-          "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
-          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
-          "album": "I Can't Love You Anymore",
-          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
-        },
-        {
-          "rank": 9,
           "title": "Spend Dat",
           "artist": "Yung Miami",
           "cover": "https://i.scdn.co/image/ab67616d0000b273c26b2162d8efc2dc7d64e9e4",
           "spotifyUrl": "https://open.spotify.com/track/0LWIiBYFmOnkqysugp0VKo",
           "album": "Spend Dat",
           "albumUrl": "https://open.spotify.com/album/4bHuSvx7cbXCmVj5Y4XzFC"
+        },
+        {
+          "rank": 9,
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 10,
@@ -456,11 +452,7 @@
         {
           "rank": 10,
           "title": "stupid song",
-          "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
-          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
-          "album": "you seem pretty sad for a girl so in love",
-          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
+          "artist": "Olivia Rodrigo"
         }
       ]
     }

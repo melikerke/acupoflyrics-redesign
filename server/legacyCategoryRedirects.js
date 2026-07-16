@@ -119,6 +119,7 @@ export const legacyCategoryRedirects = {
   "i-said-i-love-you-first": "/album/selena-gomez-benny-blanco-i-said-i-love-you-first",
   "if-you-re-looking-for-a-new-best-friend": "/discover",
   "if-youre-looking-for-a-new-best-friend": "/discover",
+  "illuminate": "/album/shawn-mendes-illuminate",
   "in-liebe": "/album/ayliva-in-liebe",
   "indila": "/artist/indila",
   "itzy": "/artist/itzy",
