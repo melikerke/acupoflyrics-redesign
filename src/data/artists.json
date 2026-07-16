@@ -416,7 +416,7 @@
   {
     "slug": "justin-bieber",
     "name": "Justin Bieber",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
   },
   {
@@ -1136,7 +1136,7 @@
   {
     "slug": "olivia-rodrigo",
     "name": "Olivia Rodrigo",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
   },
   {
@@ -1456,5 +1456,17 @@
     "name": "Tame Impala",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
+  },
+  {
+    "slug": "oasis",
+    "name": "Oasis",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb4ddbc39706ef0f2ae0f7c9b"
+  },
+  {
+    "slug": "malcolm-todd",
+    "name": "Malcolm Todd",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9f6f7c2d12975d2a4b3a0fd8"
   }
 ]
