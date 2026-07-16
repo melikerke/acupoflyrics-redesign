@@ -11,17 +11,29 @@
         {
           "rank": 1,
           "title": "Choosin' Texas",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
+          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
+          "album": "Choosin' Texas",
+          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
         },
         {
           "rank": 2,
           "title": "I Knew It, I Knew You",
-          "artist": "Taylor Swift"
+          "artist": "Taylor Swift",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+          "spotifyUrl": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+          "album": "I Knew It, I Knew You (From \"Toy Story 5\")",
+          "albumUrl": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6"
         },
         {
           "rank": 3,
           "title": "Be Her",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
+          "spotifyUrl": "https://open.spotify.com/track/05CjWFAcAlY6O9po6Qwakk",
+          "album": "Be Her",
+          "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
         },
         {
           "rank": 4,
@@ -44,7 +56,11 @@
         {
           "rank": 6,
           "title": "Hate That I Made You Love Me",
-          "artist": "Ariana Grande"
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 7,
@@ -173,7 +189,11 @@
         {
           "rank": 1,
           "title": "Golden",
-          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast"
+          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+          "spotifyUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
+          "album": "Golden (from the Netflix film KPop Demon Hunters)",
+          "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
         },
         {
           "rank": 2,
@@ -400,12 +420,20 @@
         {
           "rank": 6,
           "title": "Billie Jean",
-          "artist": "Michael Jackson"
+          "artist": "Michael Jackson",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+          "album": "Thriller",
+          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
           "rank": 7,
           "title": "SWIM",
-          "artist": "BTS"
+          "artist": "BTS",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
+          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
+          "album": "ARIRANG",
+          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
         },
         {
           "rank": 8,

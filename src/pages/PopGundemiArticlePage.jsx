@@ -43,6 +43,15 @@ export default function PopGundemiArticlePage() {
   });
 
   if (!article) return <NotFound />;
+  const livePanel = article.livePanel || {
+    label: "14 Temmuz 2026 itibarıyla",
+    title: "Son durum",
+    items: [
+      { label: "Resmi açıklama", text: "JYP, görüşmelerin sürdüğünü söylüyor." },
+      { label: "Yeni rapor", text: "JoyNews24, Jihyo'nun bireysel olarak ayrılabileceğini yazdı." },
+      { label: "Grup tarafı", text: "Haberlere göre TWICE üyeliğinin sürmesi bekleniyor." },
+    ],
+  };
 
   return (
     <SiteShell theme={LIGHT_THEME} wide>
@@ -70,13 +79,13 @@ export default function PopGundemiArticlePage() {
 
         <section className="pop-live-panel" aria-label="Güncel durum">
           <div>
-            <span className="site-kicker">14 Temmuz 2026 itibarıyla</span>
-            <h2>Son durum</h2>
+            <span className="site-kicker">{livePanel.label}</span>
+            <h2>{livePanel.title}</h2>
           </div>
           <div className="pop-live-items">
-            <p><strong>Resmi açıklama:</strong> JYP, görüşmelerin sürdüğünü söylüyor.</p>
-            <p><strong>Yeni rapor:</strong> JoyNews24, Jihyo'nun bireysel olarak ayrılabileceğini yazdı.</p>
-            <p><strong>Grup tarafı:</strong> Haberlere göre TWICE üyeliğinin sürmesi bekleniyor.</p>
+            {livePanel.items.map((item) => (
+              <p key={`${item.label}-${item.text}`}><strong>{item.label}:</strong> {item.text}</p>
+            ))}
           </div>
         </section>
 

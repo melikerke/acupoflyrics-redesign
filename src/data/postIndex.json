@@ -1,5 +1,67 @@
 [
   {
+    "id": "5027",
+    "slug": "olivia-dean-man-i-need-turkce-ceviri",
+    "title": "Olivia Dean Man I Need Türkçe Çeviri",
+    "song": "Man I Need",
+    "artist": "Olivia Dean",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+    "date": "2026-07-16T10:58:34.936Z",
+    "reading_time": 4,
+    "excerpt": "Talk to me, talk to me",
+    "categories": [
+      "Olivia Dean",
+      "Man I Need"
+    ],
+    "category_slugs": [
+      "olivia-dean",
+      "man-i-need"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+      "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a",
+      "artistUrl": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+      "albumName": "Man I Need",
+      "releaseDate": "2025-08-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+      "duration": "3:04",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+        "isrc": "GBUM72503089",
+        "duration": "3:04",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Olivia Dean",
+        "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1"
+      },
+      "album": {
+        "name": "Man I Need",
+        "url": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+        "releaseDate": "2025-08-15",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/oIv_Y2RPQ_A?si=ZSEcvlnbYu3FWVzY",
+    "annotations": {
+      "alchemy": "Sıradan bir yakınlaşmanın büyülü, dönüştürücü bir şeye dönüşmesini anlatan simya metaforu.",
+      "same page": "İki kişinin aynı beklentide, aynı anlayışta buluşması anlamına gelir.",
+      "slot right in": "Bir ortama hiç zorlanmadan uyum sağlamak, boşluğu varmış gibi yerine oturmak anlamında kullanılır.",
+      "read between the lines": "Birinin açıkça söylemediği şeyi ima ve davranışlardan anlamaya çalışmak demektir."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Talk to me, talk to me",
+      "tr": "Konuş benimle, anlat bana"
+    }
+  },
+  {
     "id": "5026",
     "slug": "olivia-rodrigo-drop-dead-turkce-ceviri",
     "title": "Olivia Rodrigo drop dead Türkçe Çeviri",
@@ -525,7 +587,7 @@
         "label": null
       }
     },
-    "youtubeUrl": null,
+    "youtubeUrl": "https://youtu.be/B3eAMGXFw1o?si=CLDMtFhoKPKNHczh",
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -584,7 +646,7 @@
         "label": null
       }
     },
-    "youtubeUrl": null,
+    "youtubeUrl": "https://youtu.be/0UPDBODtxzw?si=221UUU5j4oHuon6e",
     "annotations": {
       "Gölgeler": "“Shadows keep me pretty”: Işık kusurları açığa çıkarırken, gölgelerin bir gizem ve güzellik katması durumuna atıf. “Morning light is turning blue”: Şafak sökmeden önceki o soğuk, mavi saati tasvir ediyor.",
       "Bay Karizma": "“Mr. Charisma / Pablo Escobar”: Karanlığa girdiği an özgüveninin tavan yapmasını ve o \"dokunulmaz, patron\" edasını simgeliyor.",
@@ -1375,7 +1437,7 @@
         "cover": "https://i.scdn.co/image/ab67616d0000b273b41473426071968f6162204f"
       }
     },
-    "youtubeUrl": null,
+    "youtubeUrl": "https://youtu.be/LoElk8clGVg?si=4YBdKYwurkJkxGYv",
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {

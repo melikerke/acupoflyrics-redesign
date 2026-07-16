@@ -1,5 +1,50 @@
 export const popGundemiArticles = [
   {
+    slug: "wonderwall-neden-yeniden-yukseldi",
+    title: "Oasis klasiği Wonderwall neden yeniden yükseldi? Dünya Kupası etkisi, nostalji ve chart dönüşü",
+    shortTitle: "Wonderwall neden yeniden yükseldi?",
+    kicker: "Pop gündemi",
+    date: "2026-07-16",
+    updatedAt: "2026-07-16T12:20:00+03:00",
+    readTime: "3 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+    accent: "#d2a45f",
+    artistSlug: "oasis",
+    artistName: "Oasis",
+    excerpt:
+      "Wonderwall, 2026 yazında yeniden chart gündemine döndü: futbol kültürü, nostalji akışı ve sosyal medyadaki ortak hafıza aynı anda çalışıyor.",
+    dek:
+      "1995 çıkışlı Wonderwall bu yaz yalnızca eski bir hit gibi değil, tribünlerden playlist'lere uzanan ortak bir pop hafızası gibi yeniden dolaşımda.",
+    livePanel: {
+      label: "16 Temmuz 2026 itibarıyla",
+      title: "Son durum",
+      items: [
+        { label: "Chart sinyali", text: "Spotify global listelerinde Wonderwall yeniden görünür hale geldi; arama ve dinleme ilgisi yükseliyor." },
+        { label: "Futbol etkisi", text: "2026 Dünya Kupası atmosferi, İngiltere taraftar kültürü ve Oasis nostaljisi şarkıyı yeniden dolaşıma soktu." },
+        { label: "Site tarafı", text: "Wonderwall Türkçe çevirisi artık acupoflyrics arşivinde; ana sayfadan da gündem yazısına bağlanıyor." },
+      ],
+    },
+    summary: [
+      "Wonderwall'un yeniden yükselişi tek bir viral videodan değil, birkaç dalganın üst üste binmesinden geliyor.",
+      "Şarkı zaten İngiltere futbol kültüründe güçlü bir ortak hafızaya sahip; Dünya Kupası döneminde bu hafıza yeniden tetiklendi.",
+      "Spotify ve chart takiplerinde şarkının yeniden görünür olması, nostalji dinlemelerinin sadece sosyal medya hissi olmadığını gösteriyor.",
+      "Oasis'in katalog gücü burada önemli: Wonderwall, yeni kuşak için de kolay yakalanan, birlikte söylenebilen bir marş gibi çalışıyor.",
+      "Bu yüzden Wonderwall'u sadece 'eski şarkı geri döndü' diye değil, pop kültürünün belli anlarda eski şarkıları yeniden bugüne çağırması gibi okumak daha doğru.",
+    ],
+    memberStatus: [
+      { name: "Futbol hafızası", status: "Ana tetikleyici", detail: "Şarkı, İngiltere taraftar kültüründe kolay söylenen ve hemen tanınan bir ortak marş gibi çalışıyor." },
+      { name: "Nostalji akışı", status: "Güçlü destek", detail: "90'lar Britpop hafızası, kısa video ve playlist akışlarında yeniden görünürlük kazanıyor." },
+      { name: "Çeviri fırsatı", status: "SEO değeri", detail: "Wonderwall Türkçe çeviri araması, hem eski hayranı hem yeni keşfeden dinleyiciyi yakalayabilecek güçlü bir sayfa." },
+    ],
+    sources: [
+      { name: "Official Charts", url: "https://www.officialcharts.com/" },
+      { name: "The Guardian", url: "https://www.theguardian.com/music" },
+      { name: "Kworb Spotify Global", url: "https://kworb.net/spotify/country/global_daily.html" },
+    ],
+    storyShare:
+      "Wonderwall yeniden yükseliyor: 2026 Dünya Kupası atmosferi, İngiltere taraftar kültürü ve 90'lar nostaljisi Oasis klasiğini tekrar gündeme taşıdı. Çevirisi acupoflyrics'te.",
+  },
+  {
     slug: "twice-jyp-sozlesme-yenileme-iddialari",
     title: "TWICE üyeleri JYP'den ayrılıyor mu? Jihyo, Tzuyu, Chaeyoung ve Jeongyeon iddialarında son durum",
     shortTitle: "TWICE ve JYP sözleşme gündemi",
