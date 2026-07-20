@@ -11,6 +11,8 @@ export const config = {
     "/author/:path*",
     "/:legacySlug",
     "/:legacyPrefix/:legacySlug",
+    "/:legacyPrefix/:legacyMiddle/:legacySlug",
+    "/:legacyPrefix/:legacyMiddle/:legacyExtra/:legacySlug",
   ],
   runtime: "nodejs",
 };
@@ -80,6 +82,13 @@ export default function middleware(request) {
   }
   if (pathname.startsWith("/author/")) {
     return permanentRedirect(request, "/hakkimizda");
+  }
+
+  const deepNestedPostMatch = pathname.match(/^\/(?:[^/]+\/){2,}([^/]+)\/?$/);
+  if (deepNestedPostMatch) {
+    const slug = decodeURIComponent(deepNestedPostMatch[1]).toLowerCase();
+    const destination = legacyPostRedirects[slug];
+    if (destination) return permanentRedirect(request, destination);
   }
 
   const nestedPostMatch = pathname.match(/^\/[^/]+\/([^/]+)\/?$/);
