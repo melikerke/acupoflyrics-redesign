@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-20",
   "lists": [
     {
       "id": "billboard-hot-100",
@@ -202,24 +202,6 @@
         },
         {
           "rank": 3,
-          "title": "ICONIC BY MISTAKE",
-          "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
-          "spotifyUrl": "https://open.spotify.com/track/6fl4Gu0lJm5hc8FM5JzCZD",
-          "album": "ICONIC BY MISTAKE",
-          "albumUrl": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam"
-        },
-        {
-          "rank": 4,
-          "title": "REDRED",
-          "artist": "CORTIS (코르티스)",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
-          "spotifyUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
-          "album": "REDRED",
-          "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
-        },
-        {
-          "rank": 5,
           "title": "BAD",
           "artist": "ATEEZ (에이티즈)",
           "cover": "https://i.scdn.co/image/ab67616d0000b2734ebd68a063228fefd98a1cf2",
@@ -228,18 +210,36 @@
           "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
         },
         {
-          "rank": 6,
-          "title": "It`s Me",
-          "artist": "아일릿(ILLIT)"
+          "rank": 4,
+          "title": "ICONIC BY MISTAKE",
+          "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
+          "spotifyUrl": "https://open.spotify.com/track/6fl4Gu0lJm5hc8FM5JzCZD",
+          "album": "ICONIC BY MISTAKE",
+          "albumUrl": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam"
         },
         {
-          "rank": 7,
+          "rank": 5,
+          "title": "REDRED",
+          "artist": "CORTIS (코르티스)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+          "spotifyUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+          "album": "REDRED",
+          "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
+        },
+        {
+          "rank": 6,
           "title": "APT.",
           "artist": "로제 (ROSE), Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
           "spotifyUrl": "https://open.spotify.com/track/5vNRhkKd0yEAg8suGBpjeY",
           "album": "APT.",
           "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
+        },
+        {
+          "rank": 7,
+          "title": "It`s Me",
+          "artist": "아일릿(ILLIT)"
         },
         {
           "rank": 8,
@@ -252,17 +252,13 @@
         },
         {
           "rank": 9,
-          "title": "Come Over",
+          "title": "NORMAL (Explicit Ver.)",
           "artist": "방탄소년단"
         },
         {
           "rank": 10,
-          "title": "LOVE ATTACK",
-          "artist": "RESCENE (리센느)",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
-          "spotifyUrl": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
-          "album": "SCENEDROME",
-          "albumUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH"
+          "title": "Body to Body",
+          "artist": "방탄소년단"
         }
       ]
     },
@@ -276,7 +272,11 @@
         {
           "rank": 1,
           "title": "Choosin' Texas",
-          "artist": "Ella Langley"
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
+          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
+          "album": "Choosin' Texas",
+          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
         },
         {
           "rank": 2,
@@ -289,51 +289,15 @@
         },
         {
           "rank": 3,
-          "title": "California Girls",
-          "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2d807413ab3b35a3297c02c",
-          "spotifyUrl": "https://open.spotify.com/track/5Rv0O0Bv90IqC97T68zesG",
-          "album": "The Real Me",
-          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
+          "title": "Dead Fresh",
+          "artist": "Lil Baby",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27399f0c412a5d80626ae972cf4",
+          "spotifyUrl": "https://open.spotify.com/track/5ZAMlvo6ZUjVRZOGu2bJib",
+          "album": "Dead Fresh",
+          "albumUrl": "https://open.spotify.com/album/6DuuzOm5bLRIg4CVBQx136"
         },
         {
           "rank": 4,
-          "title": "Shabang",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
-          "spotifyUrl": "https://open.spotify.com/track/6vjpQIdABqntoe3zPazPec",
-          "album": "ICEMAN",
-          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
-        },
-        {
-          "rank": 5,
-          "title": "Konnichiwa",
-          "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2d807413ab3b35a3297c02c",
-          "spotifyUrl": "https://open.spotify.com/track/2d0UrqT7OYP0gcntGV2rsp",
-          "album": "The Real Me",
-          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
-        },
-        {
-          "rank": 6,
-          "title": "Be Her",
-          "artist": "Ella Langley",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
-          "spotifyUrl": "https://open.spotify.com/track/05CjWFAcAlY6O9po6Qwakk",
-          "album": "Be Her",
-          "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
-        },
-        {
-          "rank": 7,
-          "title": "stupid song",
-          "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
-          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
-          "album": "you seem pretty sad for a girl so in love",
-          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
-        },
-        {
-          "rank": 8,
           "title": "Spend Dat",
           "artist": "Yung Miami",
           "cover": "https://i.scdn.co/image/ab67616d0000b273c26b2162d8efc2dc7d64e9e4",
@@ -342,7 +306,25 @@
           "albumUrl": "https://open.spotify.com/album/4bHuSvx7cbXCmVj5Y4XzFC"
         },
         {
-          "rank": 9,
+          "rank": 5,
+          "title": "Be Her",
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
+          "spotifyUrl": "https://open.spotify.com/track/05CjWFAcAlY6O9po6Qwakk",
+          "album": "Be Her",
+          "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
+        },
+        {
+          "rank": 6,
+          "title": "Shabang",
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/6vjpQIdABqntoe3zPazPec",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
+        },
+        {
+          "rank": 7,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
@@ -351,13 +333,31 @@
           "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
+          "rank": 8,
+          "title": "stupid song",
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
+        },
+        {
+          "rank": 9,
+          "title": "20 Cigarettes",
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
+          "spotifyUrl": "https://open.spotify.com/track/0YsIYFRoxkmEvbKCwTp0Tg",
+          "album": "I’m The Problem",
+          "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
+        },
+        {
           "rank": 10,
-          "title": "Snow in Skyami",
-          "artist": "Future",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2d807413ab3b35a3297c02c",
-          "spotifyUrl": "https://open.spotify.com/track/2nGzxt4Ww10tUoyDdkNqWq",
-          "album": "The Real Me",
-          "albumUrl": "https://open.spotify.com/album/0pFlE0rc68RS8f3UHzioQY"
+          "title": "Ran To Atlanta",
+          "artist": "Drake, Future & Molly Santana",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/3DK90400cDlV5WUJPraMph",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         }
       ]
     },
@@ -379,12 +379,12 @@
         },
         {
           "rank": 2,
-          "title": "hate that i made you love me",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
-          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
-          "album": "hate that i made you love me",
-          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
+          "title": "Beauty And A Beat",
+          "artist": "Justin Bieber & Nicki Minaj",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
+          "spotifyUrl": "https://open.spotify.com/track/190jyVPHYjAqEaOGmMzdyk",
+          "album": "Believe (Deluxe Edition)",
+          "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
         },
         {
           "rank": 3,
@@ -397,24 +397,15 @@
         },
         {
           "rank": 4,
-          "title": "Beauty And A Beat",
-          "artist": "Justin Bieber & Nicki Minaj",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
-          "spotifyUrl": "https://open.spotify.com/track/190jyVPHYjAqEaOGmMzdyk",
-          "album": "Believe (Deluxe Edition)",
-          "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
+          "title": "hate that i made you love me",
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 5,
-          "title": "Earrings",
-          "artist": "Malcolm Todd",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
-          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
-          "album": "Sweet Boy",
-          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
-        },
-        {
-          "rank": 6,
           "title": "Billie Jean",
           "artist": "Michael Jackson",
           "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
@@ -423,16 +414,16 @@
           "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
-          "rank": 7,
-          "title": "SWIM",
-          "artist": "BTS",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
-          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
-          "album": "ARIRANG",
-          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
+          "rank": 6,
+          "title": "Earrings",
+          "artist": "Malcolm Todd",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+          "album": "Sweet Boy",
+          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "Babydoll",
           "artist": "Dominic Fike",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
@@ -441,18 +432,31 @@
           "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         },
         {
+          "rank": 8,
+          "title": "SWIM",
+          "artist": "BTS",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
+          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
+          "album": "ARIRANG",
+          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
+        },
+        {
           "rank": 9,
-          "title": "Self Aware",
-          "artist": "Temper City",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
-          "spotifyUrl": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
-          "album": "Self Aware",
-          "albumUrl": "https://open.spotify.com/album/7Cdqksm4yTfiq0EfKPa86M"
+          "title": "The One That Got Away",
+          "artist": "Katy Perry",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+          "album": "Teenage Dream: The Complete Confection",
+          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
         },
         {
           "rank": 10,
-          "title": "stupid song",
-          "artist": "Olivia Rodrigo"
+          "title": "Iris",
+          "artist": "The Goo Goo Dolls",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+          "spotifyUrl": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+          "album": "Dizzy up the Girl",
+          "albumUrl": "https://open.spotify.com/album/4UMjBXcRqIgMZ1XumU2x5T"
         }
       ]
     }

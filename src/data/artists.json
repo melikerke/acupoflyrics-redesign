@@ -2,7 +2,7 @@
   {
     "slug": "bts",
     "name": "BTS",
-    "count": 26,
+    "count": 27,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
   },
   {
@@ -356,7 +356,7 @@
   {
     "slug": "coldplay",
     "name": "Coldplay",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb"
   },
   {
@@ -416,7 +416,7 @@
   {
     "slug": "justin-bieber",
     "name": "Justin Bieber",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
   },
   {
@@ -1474,5 +1474,11 @@
     "name": "Olivia Dean",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1"
+  },
+  {
+    "slug": "madonna",
+    "name": "Madonna",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
   }
 ]

@@ -1,5 +1,234 @@
 [
   {
+    "id": "5032",
+    "slug": "coldplay-we-dance-turkce-ceviri",
+    "title": "Coldplay We Dance Türkçe Çeviri",
+    "song": "We Dance",
+    "artist": "Coldplay",
+    "cover": "https://i.ytimg.com/vi/E1OaW2HcyZk/hqdefault.jpg",
+    "date": "2026-07-20T10:57:16.283Z",
+    "reading_time": 1,
+    "excerpt": "Brothers, sisters, who are we?",
+    "categories": [
+      "Coldplay",
+      "FIFA"
+    ],
+    "category_slugs": [
+      "coldplay",
+      "fifa"
+    ],
+    "spotify": {
+      "trackUrl": null,
+      "albumUrl": null,
+      "artistUrl": null,
+      "albumName": "FIFA",
+      "releaseDate": "2026",
+      "coverUrl": "https://i.ytimg.com/vi/E1OaW2HcyZk/hqdefault.jpg",
+      "duration": null,
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": null
+      },
+      "artist": {
+        "name": "Coldplay",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb"
+      },
+      "album": {
+        "name": "FIFA",
+        "cover": "https://i.ytimg.com/vi/E1OaW2HcyZk/hqdefault.jpg",
+        "releaseDate": "2026",
+        "albumType": "Single"
+      }
+    },
+    "youtubeUrl": "https://youtu.be/E1OaW2HcyZk?si=7Zn5r6a_FthIGLGu",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Brothers, sisters, who are we?",
+      "tr": "Erkek kardeşlerim, kız kardeşlerim; kimiz biz?"
+    }
+  },
+  {
+    "id": "5031",
+    "slug": "justin-bieber-everything-hallelujah-turkce-ceviri",
+    "title": "Justin Bieber EVERYTHING HALLELUJAH Türkçe Çeviri",
+    "song": "EVERYTHING HALLELUJAH",
+    "artist": "Justin Bieber",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a958d093e94944dd0e7258b2",
+    "date": "2026-07-20T10:56:06.911Z",
+    "reading_time": 3,
+    "excerpt": "Good morning, caught us dancing in the sunrise",
+    "categories": [
+      "Justin Bieber",
+      "SWAG II"
+    ],
+    "category_slugs": [
+      "justin-bieber",
+      "swag-ii"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
+      "albumUrl": "https://open.spotify.com/album/2KrREEyHxkdFGYAd1DmMdS",
+      "artistUrl": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+      "albumName": "SWAG II",
+      "releaseDate": "2025-09-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a958d093e94944dd0e7258b2",
+      "duration": "4:09",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
+        "isrc": "USUG12508134",
+        "duration": "4:09",
+        "previewUrl": null,
+        "trackNumber": 22
+      },
+      "artist": {
+        "name": "Justin Bieber",
+        "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
+      },
+      "album": {
+        "name": "SWAG II",
+        "url": "https://open.spotify.com/album/2KrREEyHxkdFGYAd1DmMdS",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a958d093e94944dd0e7258b2",
+        "releaseDate": "2025-09-05",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/8lxMKZVChvE?si=CAu48kM0SgvvFt8-",
+    "annotations": {
+      "Hallelujah": "İbranice kökenli, \"Tanrı’ya hamdolsun / Şükürler olsun\" anlamındaki evrensel nida."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Good morning, caught us dancing in the sunrise",
+      "tr": "Günaydın; gündoğumunda dans ederken yakaladı güneş bizi"
+    }
+  },
+  {
+    "id": "5030",
+    "slug": "bts-dynamite-turkce-ceviri",
+    "title": "BTS Dynamite Türkçe Çeviri",
+    "song": "Dynamite",
+    "artist": "BTS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c07d5d2fdc02ae252fcd07e5",
+    "date": "2026-07-20T10:54:26.477Z",
+    "reading_time": 4,
+    "excerpt": "'Cause I, I, I'm in the stars tonight",
+    "categories": [
+      "BTS",
+      "BE"
+    ],
+    "category_slugs": [
+      "bts",
+      "be"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW",
+      "albumUrl": "https://open.spotify.com/album/6nYfHQnvkvOTNHnOhDT3sr",
+      "artistUrl": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+      "albumName": "BE",
+      "releaseDate": "2020-11-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c07d5d2fdc02ae252fcd07e5",
+      "duration": "3:19",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW",
+        "isrc": "QM7282022872",
+        "duration": "3:19",
+        "previewUrl": null,
+        "trackNumber": 8
+      },
+      "artist": {
+        "name": "BTS",
+        "url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
+      },
+      "album": {
+        "name": "BE",
+        "url": "https://open.spotify.com/album/6nYfHQnvkvOTNHnOhDT3sr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c07d5d2fdc02ae252fcd07e5",
+        "releaseDate": "2020-11-20",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/gdZLi9oWNZg?si=sGzxl1uq3qlUWZig",
+    "annotations": {
+      "Rolling Stone": "Hem efsanevi rock grubuna hem de \"yuvarlanan taş yosun tutmaz\" deyimine atıf.",
+      "LeBron": "NBA yıldızı LeBron James; başarıyı ve zirveyi simgeliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "'Cause I, I, I'm in the stars tonight",
+      "tr": "Çünkü ben, bu gece yıldızların arasındayım"
+    }
+  },
+  {
+    "id": "5029",
+    "slug": "madonna-music-turkce-ceviri",
+    "title": "Madonna Music Türkçe Çeviri",
+    "song": "Music",
+    "artist": "Madonna",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+    "date": "2026-07-20T10:47:56.982Z",
+    "reading_time": 2,
+    "excerpt": "Hey, Mr. DJ, put a record on",
+    "categories": [
+      "Madonna",
+      "Music"
+    ],
+    "category_slugs": [
+      "madonna",
+      "music"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
+      "albumUrl": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
+      "artistUrl": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+      "albumName": "Music",
+      "releaseDate": "2000-09-19",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+      "duration": "3:46",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
+        "isrc": "USWB10002371",
+        "duration": "3:46",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Madonna",
+        "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
+      },
+      "album": {
+        "name": "Music",
+        "url": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+        "releaseDate": "2000-09-19",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/Sdz2oW0NMFk?si=CoBzDeGDbiRZpP5t",
+    "annotations": {
+      "Boogie-woogie / Acid rock": "Farklı dönemlere ve türlere ait müzik/dans stilleri. Madonna burada müziğin her türünün eğlence için bir araç olduğunu vurguluyor.",
+      "Bourgeoisie": "Burjuvazi; toplumun üst/orta sınıfını, yani elit kesimi temsil eder. Şarkı, müziğin zenginle fakir, elit ile aykırı arasındaki duvarları yıktığını söylüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Hey, Mr. DJ, put a record on",
+      "tr": "Hey Bay DJ, koy bir plak"
+    }
+  },
+  {
     "id": "5028",
     "slug": "shawn-mendes-treat-you-better-turkce-ceviri",
     "title": "Shawn Mendes Treat You Better Türkçe Çeviri",
