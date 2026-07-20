@@ -1,5 +1,65 @@
 [
   {
+    "id": "5029",
+    "slug": "madonna-music-turkce-ceviri",
+    "title": "Madonna Music Türkçe Çeviri",
+    "song": "Music",
+    "artist": "Madonna",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+    "date": "2026-07-20T11:17:26.995Z",
+    "reading_time": 2,
+    "excerpt": "Hey, Mr. DJ, put a record on",
+    "categories": [
+      "Madonna",
+      "Music"
+    ],
+    "category_slugs": [
+      "madonna",
+      "music"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
+      "albumUrl": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
+      "artistUrl": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+      "albumName": "Music",
+      "releaseDate": "2000-09-19",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+      "duration": "3:46",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
+        "isrc": "USWB10002371",
+        "duration": "3:46",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Madonna",
+        "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
+      },
+      "album": {
+        "name": "Music",
+        "url": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
+        "releaseDate": "2000-09-19",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/Sdz2oW0NMFk?si=CoBzDeGDbiRZpP5t",
+    "annotations": {
+      "Boogie-woogie / Acid rock": "Farklı dönemlere ve türlere ait müzik/dans stilleri. Madonna burada müziğin her türünün eğlence için bir araç olduğunu vurguluyor.",
+      "Bourgeoisie": "Burjuvazi; toplumun üst/orta sınıfını, yani elit kesimi temsil eder. Şarkı, müziğin zenginle fakir, elit ile aykırı arasındaki duvarları yıktığını söylüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Hey, Mr. DJ, put a record on",
+      "tr": "Hey Bay DJ, koy bir plak"
+    }
+  },
+  {
     "id": "5032",
     "slug": "coldplay-we-dance-turkce-ceviri",
     "title": "Coldplay We Dance Türkçe Çeviri",
@@ -166,66 +226,6 @@
     "firstPair": {
       "en": "'Cause I, I, I'm in the stars tonight",
       "tr": "Çünkü ben, bu gece yıldızların arasındayım"
-    }
-  },
-  {
-    "id": "5029",
-    "slug": "madonna-music-turkce-ceviri",
-    "title": "Madonna Music Türkçe Çeviri",
-    "song": "Music",
-    "artist": "Madonna",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
-    "date": "2026-07-20T10:47:56.982Z",
-    "reading_time": 2,
-    "excerpt": "Hey, Mr. DJ, put a record on",
-    "categories": [
-      "Madonna",
-      "Music"
-    ],
-    "category_slugs": [
-      "madonna",
-      "music"
-    ],
-    "spotify": {
-      "trackUrl": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
-      "albumUrl": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
-      "artistUrl": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
-      "albumName": "Music",
-      "releaseDate": "2000-09-19",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
-      "duration": "3:46",
-      "albumType": "Album",
-      "label": null,
-      "track": {
-        "url": "https://open.spotify.com/track/2fzykVsO2Di5jnofUNX3YE",
-        "isrc": "USWB10002371",
-        "duration": "3:46",
-        "previewUrl": null,
-        "trackNumber": 1
-      },
-      "artist": {
-        "name": "Madonna",
-        "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
-      },
-      "album": {
-        "name": "Music",
-        "url": "https://open.spotify.com/album/1V342k6sinWc4y4R2iReOu",
-        "cover": "https://i.scdn.co/image/ab67616d0000b273ae80b0a207008fe96637032c",
-        "releaseDate": "2000-09-19",
-        "albumType": "Album",
-        "label": null
-      }
-    },
-    "youtubeUrl": "https://youtu.be/Sdz2oW0NMFk?si=CoBzDeGDbiRZpP5t",
-    "annotations": {
-      "Boogie-woogie / Acid rock": "Farklı dönemlere ve türlere ait müzik/dans stilleri. Madonna burada müziğin her türünün eğlence için bir araç olduğunu vurguluyor.",
-      "Bourgeoisie": "Burjuvazi; toplumun üst/orta sınıfını, yani elit kesimi temsil eder. Şarkı, müziğin zenginle fakir, elit ile aykırı arasındaki duvarları yıktığını söylüyor."
-    },
-    "difficulty_note": null,
-    "firstPair": {
-      "en": "Hey, Mr. DJ, put a record on",
-      "tr": "Hey Bay DJ, koy bir plak"
     }
   },
   {
