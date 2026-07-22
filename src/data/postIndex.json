@@ -1,5 +1,63 @@
 [
   {
+    "id": "5033",
+    "slug": "jennie-less-than-a-lover-turkce-ceviri",
+    "title": "JENNIE Less Than A Lover Türkçe Çeviri",
+    "song": "Less Than A Lover",
+    "artist": "JENNIE",
+    "cover": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
+    "date": "2026-07-22T07:05:18.456Z",
+    "reading_time": 2,
+    "excerpt": "Don't rush (Don't rush)",
+    "categories": [
+      "JENNIE",
+      "Less Than A Lover"
+    ],
+    "category_slugs": [
+      "jennie",
+      "less-than-a-lover"
+    ],
+    "spotify": {
+      "trackUrl": null,
+      "albumUrl": null,
+      "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "albumName": "Less Than A Lover",
+      "releaseDate": "2026-07-24",
+      "coverUrl": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
+      "duration": null,
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": null,
+        "isrc": null,
+        "duration": null,
+        "trackNumber": null
+      },
+      "artist": {
+        "name": "JENNIE",
+        "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
+      },
+      "album": {
+        "name": "Less Than A Lover",
+        "url": null,
+        "cover": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
+        "releaseDate": "2026-07-24",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/PX6h9Sx5kGw?si=rHuKeMkrmzerykNx",
+    "annotations": {
+      "Less than a lover, more than another": "Şarkının ana felsefesi. Ciddi bir ilişki yükü istemiyor ama sıradan bir yabancı kadar da uzak olmak istemiyor. Bu orta yolu korumak için bir tık azı/fazlası vurgusunu kullandık."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Don't rush (Don't rush)",
+      "tr": "Acele etme (Acele etme...)"
+    }
+  },
+  {
     "id": "5029",
     "slug": "madonna-music-turkce-ceviri",
     "title": "Madonna Music Türkçe Çeviri",

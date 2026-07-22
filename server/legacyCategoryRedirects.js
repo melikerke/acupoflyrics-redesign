@@ -157,6 +157,7 @@ export const legacyCategoryRedirects = {
   "lady-gaga": "/artist/lady-gaga",
   "lana-del-rey": "/artist/lana-del-rey",
   "le-sserafim": "/artist/le-sserafim",
+  "less-than-a-lover": "/album/jennie-less-than-a-lover",
   "lily-rose-depp": "/artist/lily-rose-depp",
   "linkin-park": "/artist/linkin-park",
   "lisa": "/artist/lisa",
