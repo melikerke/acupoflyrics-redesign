@@ -1,5 +1,66 @@
 [
   {
+    "id": "5034",
+    "slug": "one-direction-no-control-turkce-ceviri",
+    "title": "One Direction No Control Türkçe Çeviri",
+    "song": "No Control",
+    "artist": "One Direction",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27334a29f220057810cce98e1b4",
+    "date": "2026-07-22T10:52:21.517Z",
+    "reading_time": 2,
+    "excerpt": "Oh",
+    "categories": [
+      "One Direction",
+      "FOUR (Deluxe)"
+    ],
+    "category_slugs": [
+      "one-direction",
+      "four-deluxe"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4JaLkM90MJutDAl5jD9BZX",
+      "albumUrl": "https://open.spotify.com/album/4gCNyS7pidfK3rKWhB3JOY",
+      "artistUrl": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+      "albumName": "FOUR (Deluxe)",
+      "releaseDate": "2014-11-17",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27334a29f220057810cce98e1b4",
+      "duration": "3:20",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4JaLkM90MJutDAl5jD9BZX",
+        "isrc": "GBHMU1400166",
+        "duration": "3:20",
+        "previewUrl": null,
+        "trackNumber": 8
+      },
+      "artist": {
+        "name": "One Direction",
+        "url": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+        "image": "https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8"
+      },
+      "album": {
+        "name": "FOUR (Deluxe)",
+        "url": "https://open.spotify.com/album/4gCNyS7pidfK3rKWhB3JOY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27334a29f220057810cce98e1b4",
+        "releaseDate": "2014-11-17",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/pW7W8hbdhX8?si=l9V9cGcqsVI4c8LP",
+    "annotations": {
+      "loaded gun": "Tutkunun patlamaya hazır, kontrol edilemeyen bir enerjiye dönüşmesini anlatan metafor.",
+      "pedal's down": "Gaz pedalına sonuna kadar basmak; kendini tutmadan, frensizce ilerlemek anlamında.",
+      "holding me ransom": "Birinin kokusunun/varlığının kişiyi esir alması, ondan kopamama hissi."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oh",
+      "tr": "Oh"
+    }
+  },
+  {
     "id": "5033",
     "slug": "jennie-less-than-a-lover-turkce-ceviri",
     "title": "JENNIE Less Than A Lover Türkçe Çeviri",

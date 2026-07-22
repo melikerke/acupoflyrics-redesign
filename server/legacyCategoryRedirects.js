@@ -88,6 +88,7 @@ export const legacyCategoryRedirects = {
   "flo-rida": "/artist/flo-rida",
   "florence-the-machine": "/artist/florence-the-machine",
   "folklore": "/discover",
+  "four-deluxe": "/album/one-direction-four-deluxe",
   "future": "/artist/future",
   "future-nostalgia": "/album/dua-lipa-future-nostalgia",
   "g-dragon": "/artist/g-dragon",

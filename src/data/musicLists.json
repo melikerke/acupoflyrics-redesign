@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-22",
   "lists": [
     {
       "id": "billboard-hot-100",
@@ -37,12 +37,12 @@
         },
         {
           "rank": 4,
-          "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
-          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
-          "album": "I Can't Love You Anymore",
-          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
+          "title": "Hate That I Made You Love Me",
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 5,
@@ -55,30 +55,30 @@
         },
         {
           "rank": 6,
-          "title": "Hate That I Made You Love Me",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
-          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
-          "album": "hate that i made you love me",
-          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
+          "title": "Boston",
+          "artist": "Stella Lefty",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+          "spotifyUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+          "album": "Boston",
+          "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
         },
         {
           "rank": 7,
-          "title": "I Just Might",
-          "artist": "Bruno Mars",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e7623a0a60f330ee2b24d498",
-          "spotifyUrl": "https://open.spotify.com/track/12bYYQaLqHliSXvRIYlq8G",
-          "album": "I Just Might",
-          "albumUrl": "https://open.spotify.com/album/2YOfpbW6kCd2XHW2Ln2Uih"
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 8,
-          "title": "Janice STFU",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
-          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
-          "album": "ICEMAN",
-          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
+          "title": "Man I Need",
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "album": "Man I Need",
+          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
         },
         {
           "rank": 9,
@@ -91,12 +91,12 @@
         },
         {
           "rank": 10,
-          "title": "Man I Need",
-          "artist": "Olivia Dean",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
-          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-          "album": "Man I Need",
-          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
+          "title": "I Just Might",
+          "artist": "Bruno Mars",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e7623a0a60f330ee2b24d498",
+          "spotifyUrl": "https://open.spotify.com/track/12bYYQaLqHliSXvRIYlq8G",
+          "album": "I Just Might",
+          "albumUrl": "https://open.spotify.com/album/2YOfpbW6kCd2XHW2Ln2Uih"
         }
       ]
     },
@@ -109,8 +109,12 @@
       "entries": [
         {
           "rank": 1,
-          "title": "Confessions II",
-          "artist": "Madonna"
+          "title": "The Real Me",
+          "artist": "Future",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c64062196630be5cee367ee8",
+          "spotifyUrl": "https://open.spotify.com/track/4pXiV088jJbJzQgU9XcZXQ",
+          "album": "BEASTMODE 2",
+          "albumUrl": "https://open.spotify.com/album/6Ew52HWkgfbth9ihRAq2Xd"
         },
         {
           "rank": 2,
@@ -119,15 +123,6 @@
         },
         {
           "rank": 3,
-          "title": "Dandelion",
-          "artist": "Ella Langley",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
-          "spotifyUrl": "https://open.spotify.com/track/7FudQLDIYCX6F7ruexVn2X",
-          "album": "Dandelion",
-          "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4"
-        },
-        {
-          "rank": 4,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
@@ -136,12 +131,16 @@
           "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
         },
         {
-          "rank": 5,
-          "title": "ICEMAN",
-          "artist": "Drake"
+          "rank": 4,
+          "title": "Dandelion",
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
+          "spotifyUrl": "https://open.spotify.com/track/7FudQLDIYCX6F7ruexVn2X",
+          "album": "Dandelion",
+          "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
           "cover": "https://i.scdn.co/image/ab67616d0000b273a47374027a9f559917ba66ba",
@@ -150,12 +149,22 @@
           "albumUrl": "https://open.spotify.com/album/1VfncK0Rpng2xCmfkKfO7N"
         },
         {
+          "rank": 6,
+          "title": "ICEMAN",
+          "artist": "Drake"
+        },
+        {
           "rank": 7,
-          "title": "xperiment",
-          "artist": "Ken Carson"
+          "title": "Foreign Tongues",
+          "artist": "Rolling Stones"
         },
         {
           "rank": 8,
+          "title": "Heated Rivalry (Original Series Soundtrack)",
+          "artist": "Soundtrack"
+        },
+        {
+          "rank": 9,
           "title": "Thriller",
           "artist": "Michael Jackson",
           "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
@@ -164,18 +173,13 @@
           "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
-          "rank": 9,
-          "title": "Visitor",
-          "artist": "Sienna Spiro",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273ef729e70c894394c1a4461fb",
-          "spotifyUrl": "https://open.spotify.com/track/36OpC3NK7kQzcOo8qiCHaA",
-          "album": "The Visitor",
-          "albumUrl": "https://open.spotify.com/album/1vcbnpnQfghE8vRxhvUF60"
-        },
-        {
           "rank": 10,
-          "title": "35 Biggest Hits",
-          "artist": "Toby Keith"
+          "title": "One Thing At A Time",
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738337dd45f445c35f7292a81e",
+          "spotifyUrl": "https://open.spotify.com/track/5vYtElD9hKn73Kh4YcnNFN",
+          "album": "One Thing At A Time",
+          "albumUrl": "https://open.spotify.com/album/7c1wEzhXamUm7Lh9zqVMl9"
         }
       ]
     },
@@ -257,8 +261,12 @@
         },
         {
           "rank": 10,
-          "title": "Body to Body",
-          "artist": "방탄소년단"
+          "title": "Soda Pop",
+          "artist": "KPop Demon Hunters Cast, 대니 정, Saja Boys, Andrew Choi, Neckwav, Kevin Woo, samUIL Lee",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2734dcb6c5df15cf74596ab25a4",
+          "spotifyUrl": "https://open.spotify.com/track/02sy7FAs8dkDNYsHp4Ul3f",
+          "album": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+          "albumUrl": "https://open.spotify.com/album/14JkAa6IiFaOh5s0nMyMU9"
         }
       ]
     },
@@ -271,24 +279,6 @@
       "entries": [
         {
           "rank": 1,
-          "title": "Choosin' Texas",
-          "artist": "Ella Langley",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
-          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
-          "album": "Choosin' Texas",
-          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
-        },
-        {
-          "rank": 2,
-          "title": "Janice STFU",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
-          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
-          "album": "ICEMAN",
-          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
-        },
-        {
-          "rank": 3,
           "title": "Dead Fresh",
           "artist": "Lil Baby",
           "cover": "https://i.scdn.co/image/ab67616d0000b27399f0c412a5d80626ae972cf4",
@@ -297,16 +287,25 @@
           "albumUrl": "https://open.spotify.com/album/6DuuzOm5bLRIg4CVBQx136"
         },
         {
-          "rank": 4,
-          "title": "Spend Dat",
-          "artist": "Yung Miami",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273c26b2162d8efc2dc7d64e9e4",
-          "spotifyUrl": "https://open.spotify.com/track/0LWIiBYFmOnkqysugp0VKo",
-          "album": "Spend Dat",
-          "albumUrl": "https://open.spotify.com/album/4bHuSvx7cbXCmVj5Y4XzFC"
+          "rank": 2,
+          "title": "Choosin' Texas",
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27390958927fbba47a62c3e63f8",
+          "spotifyUrl": "https://open.spotify.com/track/65DbTqJKhbwqYbZ1Okr0rc",
+          "album": "Choosin' Texas",
+          "albumUrl": "https://open.spotify.com/album/4ggV0IaczfDFjVSwBM8yvi"
         },
         {
-          "rank": 5,
+          "rank": 3,
+          "title": "Janice STFU",
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
+        },
+        {
+          "rank": 4,
           "title": "Be Her",
           "artist": "Ella Langley",
           "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
@@ -315,7 +314,7 @@
           "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "Shabang",
           "artist": "Drake",
           "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
@@ -324,13 +323,22 @@
           "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
           "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
           "album": "I Can't Love You Anymore",
           "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
+        },
+        {
+          "rank": 7,
+          "title": "Spend Dat",
+          "artist": "Yung Miami",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c26b2162d8efc2dc7d64e9e4",
+          "spotifyUrl": "https://open.spotify.com/track/0LWIiBYFmOnkqysugp0VKo",
+          "album": "Spend Dat",
+          "albumUrl": "https://open.spotify.com/album/4bHuSvx7cbXCmVj5Y4XzFC"
         },
         {
           "rank": 8,
@@ -388,15 +396,6 @@
         },
         {
           "rank": 3,
-          "title": "Wonderwall - Remastered",
-          "artist": "Oasis",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
-          "spotifyUrl": "https://open.spotify.com/track/5qqabIl2vWzo9ApSC317sa",
-          "album": "(What's The Story) Morning Glory? [Remastered]",
-          "albumUrl": "https://open.spotify.com/album/1VW1MFNstaJuygaoTPkdCk"
-        },
-        {
-          "rank": 4,
           "title": "hate that i made you love me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -405,16 +404,7 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 5,
-          "title": "Billie Jean",
-          "artist": "Michael Jackson",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
-          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
-          "album": "Thriller",
-          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
-        },
-        {
-          "rank": 6,
+          "rank": 4,
           "title": "Earrings",
           "artist": "Malcolm Todd",
           "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
@@ -423,13 +413,31 @@
           "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         },
         {
-          "rank": 7,
+          "rank": 5,
+          "title": "Wonderwall - Remastered",
+          "artist": "Oasis",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+          "spotifyUrl": "https://open.spotify.com/track/5qqabIl2vWzo9ApSC317sa",
+          "album": "(What's The Story) Morning Glory? [Remastered]",
+          "albumUrl": "https://open.spotify.com/album/1VW1MFNstaJuygaoTPkdCk"
+        },
+        {
+          "rank": 6,
           "title": "Babydoll",
           "artist": "Dominic Fike",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
           "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
           "album": "Don't Forget About Me, Demos",
           "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
+        },
+        {
+          "rank": 7,
+          "title": "Billie Jean",
+          "artist": "Michael Jackson",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+          "album": "Thriller",
+          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
         },
         {
           "rank": 8,
@@ -451,12 +459,12 @@
         },
         {
           "rank": 10,
-          "title": "Iris",
-          "artist": "The Goo Goo Dolls",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
-          "spotifyUrl": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
-          "album": "Dizzy up the Girl",
-          "albumUrl": "https://open.spotify.com/album/4UMjBXcRqIgMZ1XumU2x5T"
+          "title": "stupid song",
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         }
       ]
     }
