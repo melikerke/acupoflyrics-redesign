@@ -10,8 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Google Consent Mode v2 + Google Tag Manager -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+      (function () {
+        var storedConsent = null;
+        try { storedConsent = window.localStorage.getItem("acl_analytics_consent_v1"); } catch (_) {}
+        window.gtag("consent", "default", {
+          analytics_storage: storedConsent === "granted" ? "granted" : "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          functionality_storage: "granted",
+          security_storage: "granted",
+          wait_for_update: storedConsent ? 0 : 500
+        });
+        window.gtag("set", "ads_data_redaction", true);
+      })();
+    </script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+      new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+      "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,"script","dataLayer","GTM-52NLCJFG");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52NLCJFG"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

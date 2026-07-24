@@ -1,6 +1,8 @@
 import { lazy, Suspense, useEffect, useState, Component } from "react";
 import { Navigate, Routes, Route, useLocation } from "react-router-dom";
 import Loader from "./components/Loader";
+import ConsentBanner from "./components/ConsentBanner";
+import { trackPageView } from "./lib/analytics";
 
 const SearchOverlay = lazy(() => import("./components/SearchOverlay"));
 const Home = lazy(() => import("./pages/HomePreview"));
@@ -16,6 +18,7 @@ const SearchPage = lazy(() => import("./pages/SearchPage"));
 const MusicListsPage = lazy(() => import("./pages/MusicListsPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
+const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const PopGundemiPage = lazy(() => import("./pages/PopGundemiPage"));
 const PopGundemiArticlePage = lazy(() => import("./pages/PopGundemiArticlePage"));
 // The admin studio is included in production, but Vercel middleware protects
@@ -69,6 +72,13 @@ export default function App() {
   // the new page opened mid-way.
   useEffect(() => { window.scrollTo({ top: 0, left: 0, behavior: "instant" }); }, [location.pathname]);
 
+  // GTM's Google tag has automatic page views disabled. Send one deliberate
+  // page_view after each SPA navigation, once page-level SEO has updated.
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => trackPageView(location.pathname));
+    return () => window.cancelAnimationFrame(frame);
+  }, [location.pathname]);
+
   // Global ⌘K / Ctrl-K.
   useEffect(() => {
     const onKey = (e) => {
@@ -86,6 +96,7 @@ export default function App() {
   return (
     <>
       <Loader />
+      <ConsentBanner />
       <Suspense fallback={<RouteFallback />}>
         {searchOpen && (
           <ErrorBoundary>
@@ -113,6 +124,7 @@ export default function App() {
             <Route path="/listeler" element={<MusicListsPage />} />
             <Route path="/hakkimizda" element={<AboutPage />} />
             <Route path="/iletisim" element={<ContactPage />} />
+            <Route path="/gizlilik" element={<PrivacyPage />} />
             <Route path="/pop-gunlugu" element={<PopGundemiPage />} />
             <Route path="/pop-gunlugu/:slug" element={<PopGundemiArticlePage />} />
 

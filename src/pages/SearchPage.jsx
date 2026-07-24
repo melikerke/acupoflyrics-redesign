@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { allPosts, searchAll } from "../lib/content";
+import { trackEvent } from "../lib/analytics";
 import { loadSearchLines } from "../lib/searchLines";
 import { searchPath, songPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
@@ -85,7 +86,20 @@ export default function SearchPage() {
         <h1 className="font-serif" style={{ margin: "0 0 18px", fontSize: "clamp(34px,5vw,58px)", fontWeight: 300 }}>
           Ne arıyorsun?
         </h1>
-        <form className="site-search-form" onSubmit={(e) => { e.preventDefault(); setParams(term ? { q: term } : {}); }}>
+        <form
+          className="site-search-form"
+          onSubmit={(e) => {
+            e.preventDefault();
+            const cleaned = term.trim();
+            if (cleaned) {
+              trackEvent("view_search_results", {
+                search_term_length: cleaned.length,
+                result_count: visibleTotal,
+              });
+            }
+            setParams(cleaned ? { q: cleaned } : {});
+          }}
+        >
           <Icon name="search" size={18} />
           <input
             autoFocus

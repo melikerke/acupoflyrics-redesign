@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { trackEvent } from "../lib/analytics";
 import { search } from "../lib/content";
 import { linesLoaded, loadSearchLines } from "../lib/searchLines";
 import { albumPath, artistPath, collectionPath, genrePath, moodPath, searchPath, songPath } from "../lib/paths";
@@ -24,19 +25,33 @@ export default function SearchOverlay({ open, onClose }) {
     return () => { cancelled = true; };
   }, [open, linesReady]);
 
-  const go = (to) => { onClose(); navigate(to); };
-  const seeAll = () => { onClose(); navigate(searchPath(q)); };
+  const go = (to, contentType = "search_result") => {
+    trackEvent("select_content", {
+      content_type: contentType,
+      item_id: to,
+    });
+    onClose();
+    navigate(to);
+  };
+  const seeAll = () => {
+    trackEvent("view_search_results", {
+      search_term_length: q.trim().length,
+      result_count: results.total,
+    });
+    onClose();
+    navigate(searchPath(q));
+  };
 
   // Flatten grouped results into one navigable list (keeps render order).
   // Each result type resolves to its OWN destination — never the first song.
   const items = useMemo(() => {
     const arr = [];
-    results.songs.forEach((p) => arr.push({ id: "opt-s-" + p.slug, run: () => go(songPath(p)) }));
-    results.lines.forEach(({ post }, i) => arr.push({ id: "opt-l-" + i, run: () => go(songPath(post)) }));
-    results.artists.forEach((a) => arr.push({ id: "opt-a-" + a.slug, run: () => go(artistPath(a)) }));
-    results.albums.forEach((a) => arr.push({ id: "opt-al-" + a.slug, run: () => go(albumPath(a)) }));
-    results.collections.forEach((c) => arr.push({ id: "opt-c-" + c.slug, run: () => go(collectionPath(c)) }));
-    results.topics.forEach((t) => arr.push({ id: "opt-t-" + t.slug, run: () => go(t.kind === "mood" ? moodPath(t) : genrePath(t)) }));
+    results.songs.forEach((p) => arr.push({ id: "opt-s-" + p.slug, run: () => go(songPath(p), "song") }));
+    results.lines.forEach(({ post }, i) => arr.push({ id: "opt-l-" + i, run: () => go(songPath(post), "lyric_line") }));
+    results.artists.forEach((a) => arr.push({ id: "opt-a-" + a.slug, run: () => go(artistPath(a), "artist") }));
+    results.albums.forEach((a) => arr.push({ id: "opt-al-" + a.slug, run: () => go(albumPath(a), "album") }));
+    results.collections.forEach((c) => arr.push({ id: "opt-c-" + c.slug, run: () => go(collectionPath(c), "collection") }));
+    results.topics.forEach((t) => arr.push({ id: "opt-t-" + t.slug, run: () => go(t.kind === "mood" ? moodPath(t) : genrePath(t), t.kind) }));
     return arr;
   }, [results]);
 
@@ -125,37 +140,37 @@ export default function SearchOverlay({ open, onClose }) {
               {!q && <Hint />}
               {q && <Group label="Şarkılar" show={results.songs.length}>
                 {results.songs.map((p, i) => (
-                  <Row key={p.slug} id={"opt-s-" + p.slug} active={active === songOff + i} onActivate={() => setActive(songOff + i)} onClick={() => go(songPath(p))} cover={p.cover}
+                  <Row key={p.slug} id={"opt-s-" + p.slug} active={active === songOff + i} onActivate={() => setActive(songOff + i)} onClick={() => go(songPath(p), "song")} cover={p.cover}
                     title={hl(p.song)} sub={p.artist} />
                 ))}
               </Group>}
               {q && <Group label="Dizeler" show={results.lines.length}>
                 {results.lines.map(({ line, post }, i) => (
-                  <Row key={i} id={"opt-l-" + i} active={active === lineOff + i} onActivate={() => setActive(lineOff + i)} onClick={() => go(songPath(post))} quote
+                  <Row key={i} id={"opt-l-" + i} active={active === lineOff + i} onActivate={() => setActive(lineOff + i)} onClick={() => go(songPath(post), "lyric_line")} quote
                     title={<span className="font-serif" style={{ fontStyle: "italic" }}>“{hl(line)}”</span>} sub={`${post.artist} — ${post.song}`} />
                 ))}
               </Group>}
               {q && <Group label="Sanatçılar" show={results.artists.length}>
                 {results.artists.map((a, i) => (
-                  <Row key={a.slug} id={"opt-a-" + a.slug} active={active === artistOff + i} onActivate={() => setActive(artistOff + i)} onClick={() => go(artistPath(a))} round cover={a.image}
+                  <Row key={a.slug} id={"opt-a-" + a.slug} active={active === artistOff + i} onActivate={() => setActive(artistOff + i)} onClick={() => go(artistPath(a), "artist")} round cover={a.image}
                     title={a.name} sub={`${a.count} çeviri`} />
                 ))}
               </Group>}
               {q && <Group label="Albümler" show={results.albums.length}>
                 {results.albums.map((a, i) => (
-                  <Row key={a.slug} id={"opt-al-" + a.slug} active={active === albumOff + i} onActivate={() => setActive(albumOff + i)} onClick={() => go(albumPath(a))} cover={a.cover}
+                  <Row key={a.slug} id={"opt-al-" + a.slug} active={active === albumOff + i} onActivate={() => setActive(albumOff + i)} onClick={() => go(albumPath(a), "album")} cover={a.cover}
                     title={a.name} sub={`${a.artist} — ${a.tracks.length} çeviri`} />
                 ))}
               </Group>}
               {q && <Group label="Koleksiyonlar" show={results.collections.length}>
                 {results.collections.map((c, i) => (
-                  <Row key={c.slug} id={"opt-c-" + c.slug} active={active === collectionOff + i} onActivate={() => setActive(collectionOff + i)} onClick={() => go(collectionPath(c))} quote
+                  <Row key={c.slug} id={"opt-c-" + c.slug} active={active === collectionOff + i} onActivate={() => setActive(collectionOff + i)} onClick={() => go(collectionPath(c), "collection")} quote
                     title={c.name} sub={`${c.items.length} çeviri`} />
                 ))}
               </Group>}
               {q && <Group label="Mood ve Türler" show={results.topics.length}>
                 {results.topics.map((t, i) => (
-                  <Row key={t.slug} id={"opt-t-" + t.slug} active={active === topicOff + i} onActivate={() => setActive(topicOff + i)} onClick={() => go(t.kind === "mood" ? moodPath(t) : genrePath(t))} cover={t.cover}
+                  <Row key={t.slug} id={"opt-t-" + t.slug} active={active === topicOff + i} onActivate={() => setActive(topicOff + i)} onClick={() => go(t.kind === "mood" ? moodPath(t) : genrePath(t), t.kind)} cover={t.cover}
                     title={t.name} sub={`${t.items.length} öneri · ${t.kind === "mood" ? "Mood" : "Tür"}`} />
                 ))}
               </Group>}

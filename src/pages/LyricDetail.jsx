@@ -16,6 +16,7 @@ import {
 } from "../lib/content";
 import { albumPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
+import { trackEvent } from "../lib/analytics";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function escapeRegExp(value) {
@@ -930,12 +931,19 @@ export default function LyricDetail() {
     const url = window.location.href;
     const title = post ? `${post.artist} - ${post.song} | Türkçe çeviri` : "acupoflyrics";
     try {
-      if (navigator.share) await navigator.share({ title, url });
-      else {
+      const method = navigator.share ? "web_share" : "clipboard";
+      if (navigator.share) {
+        await navigator.share({ title, url });
+      } else {
         await navigator.clipboard.writeText(url);
         setShared(true);
         setTimeout(() => setShared(false), 2000);
       }
+      trackEvent("share", {
+        method,
+        content_type: "translation",
+        item_id: post?.slug,
+      });
     } catch {
       /* user cancelled */
     }
@@ -977,7 +985,13 @@ export default function LyricDetail() {
   const bottom = shade(accent, light ? 0.20 : 0.32);
   const tags = [post.artist, post.song].filter(Boolean);
   const videoEmbedUrl = youtubeEmbedUrl(post.youtubeUrl || post.youtube?.url);
-  const scrollToReader = () => readerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const scrollToReader = () => {
+    trackEvent("select_content", {
+      content_type: "translation_reader",
+      item_id: post.slug,
+    });
+    readerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   const albumName = albumNameFor(post);
   const hasAlbum = albumName && albumName !== "Tekli";
   const albumSlug = hasAlbum ? albumSlugFor(`${post.artist}-${albumName}`) : "";

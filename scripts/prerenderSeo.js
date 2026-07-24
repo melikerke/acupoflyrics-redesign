@@ -165,6 +165,7 @@ const routes = [
   route("/albumler", "Albümler — Türkçe Şarkı Çevirileri | acupoflyrics", "Çevirisi bulunan albümler: kapaklar, çıkış yılları ve albümdeki tüm Türkçe çeviriler tek sayfada.", posts[0]?.cover),
   route("/hakkimizda", "Hakkımızda | acupoflyrics", "acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyan bağımsız bir çeviri arşividir.", posts[0]?.cover),
   route("/iletisim", "İletişim | acupoflyrics", "Çeviri talebi, düzeltme önerisi ya da iş birliği için acupoflyrics ile iletişime geç.", posts[0]?.cover),
+  route("/gizlilik", "Gizlilik ve çerezler | acupoflyrics", "acupoflyrics üzerindeki Google Analytics ölçümü, çerez tercihi ve veri kullanımı hakkında bilgi.", posts[0]?.cover),
   route("/pop-gunlugu", "Pop Günlüğü | acupoflyrics", "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla, sakin ve anlaşılır notlarla takip et.", popGundemiArticles[0]?.image),
 ];
 
@@ -347,6 +348,7 @@ redirectLines.push(`/muzik-listeleri /listeler 301`);
 redirectLines.push(`/muzik-listeleri/ /listeler 301`);
 redirectLines.push(`/hakkimizda/ /hakkimizda 301`);
 redirectLines.push(`/iletisim/ /iletisim 301`);
+redirectLines.push(`/gizlilik/ /gizlilik 301`);
 
 const redirects = `${[...new Set(redirectLines)].join("\n")}\n`;
 

@@ -10,6 +10,10 @@ function openSearch() {
   window.dispatchEvent(new CustomEvent("acupoflyrics:open-search"));
 }
 
+function openConsentPreferences() {
+  window.dispatchEvent(new CustomEvent("acupoflyrics:open-consent"));
+}
+
 export function SiteNav() {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
@@ -84,11 +88,16 @@ export function SiteFooter() {
         </div>
         <FooterCol title="Keşfet" items={[["Keşfet", discoverPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
         <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />
-        <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
+        <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Gizlilik ve çerezler", "/gizlilik"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
       </div>
       <div className="site-footer-base">
         <span>© {new Date().getFullYear()} acupoflyrics · İki dil arasında.</span>
-        <span>Kaynak bağlantıları ilgili platformlara gider.</span>
+        <span>
+          Kaynak bağlantıları ilgili platformlara gider.
+          <button type="button" className="site-footer-consent" onClick={openConsentPreferences}>
+            Çerez ayarları
+          </button>
+        </span>
       </div>
     </footer>
   );
