@@ -14,6 +14,7 @@ export const legacyCategoryRedirects = {
   "amber-coffman": "/artist/amber-coffman",
   "amortage": "/album/jisoo-amortage",
   "anderson-paak": "/artist/anderson-paak",
+  "animal": "/album/katseye-animal",
   "anitta": "/artist/anitta",
   "anne-marie": "/artist/anne-marie",
   "apache-207": "/artist/apache-207",

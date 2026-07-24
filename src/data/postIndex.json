@@ -1,5 +1,62 @@
 [
   {
+    "id": "5035",
+    "slug": "katseye-animal-turkce-ceviri",
+    "title": "KATSEYE Animal Türkçe Çeviri",
+    "song": "Animal",
+    "artist": "KATSEYE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739e8d48f27391ce383862b8e8",
+    "date": "2026-07-24T07:18:48.502Z",
+    "reading_time": 3,
+    "excerpt": "Mm-mm",
+    "categories": [
+      "KATSEYE",
+      "Animal"
+    ],
+    "category_slugs": [
+      "katseye",
+      "animal"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3ouNEk0tv5TTi8VWMe1xbX",
+      "albumUrl": "https://open.spotify.com/album/3ybCwWDhYDt2GYSCYFiF83",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "Animal",
+      "releaseDate": "2026-07-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e8d48f27391ce383862b8e8",
+      "duration": "2:38",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/3ouNEk0tv5TTi8VWMe1xbX",
+        "isrc": "USUM72602757",
+        "duration": "2:38",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe4892ff677f801f85814a02d"
+      },
+      "album": {
+        "name": "Animal",
+        "url": "https://open.spotify.com/album/3ybCwWDhYDt2GYSCYFiF83",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739e8d48f27391ce383862b8e8",
+        "releaseDate": "2026-07-24",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/m7k9UMcHbr0?si=6b7RE5nZLUVD7U7T",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Mm-mm",
+      "tr": "Mm-mm..."
+    }
+  },
+  {
     "id": "5034",
     "slug": "one-direction-no-control-turkce-ceviri",
     "title": "One Direction No Control Türkçe Çeviri",
@@ -66,53 +123,54 @@
     "title": "JENNIE Less Than A Lover Türkçe Çeviri",
     "song": "Less Than A Lover",
     "artist": "JENNIE",
-    "cover": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
-    "date": "2026-07-22T07:05:18.456Z",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731568796289f10031724bc780",
+    "date": "2026-07-24T07:18:48.502Z",
     "reading_time": 2,
     "excerpt": "Don't rush (Don't rush)",
     "categories": [
       "JENNIE",
-      "Less Than A Lover"
+      "Less than a Lover"
     ],
     "category_slugs": [
       "jennie",
       "less-than-a-lover"
     ],
     "spotify": {
-      "trackUrl": null,
-      "albumUrl": null,
+      "trackUrl": "https://open.spotify.com/track/19UnXjpLshSLobPspdyxlD",
+      "albumUrl": "https://open.spotify.com/album/3YelZbxAGXdkKUP6pMXsrn",
       "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
-      "albumName": "Less Than A Lover",
+      "albumName": "Less than a Lover",
       "releaseDate": "2026-07-24",
-      "coverUrl": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
-      "duration": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731568796289f10031724bc780",
+      "duration": "2:26",
       "albumType": "Single",
       "label": null,
       "track": {
-        "url": null,
-        "isrc": null,
-        "duration": null,
-        "trackNumber": null
+        "url": "https://open.spotify.com/track/19UnXjpLshSLobPspdyxlD",
+        "isrc": "USQX92604129",
+        "duration": "2:26",
+        "previewUrl": null,
+        "trackNumber": 1
       },
       "artist": {
         "name": "JENNIE",
         "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
-        "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1baf2b14cf78bad62d01a8cd"
       },
       "album": {
-        "name": "Less Than A Lover",
-        "url": null,
-        "cover": "https://i.ytimg.com/vi/ArKm1yNlsLU/maxresdefault.jpg",
+        "name": "Less than a Lover",
+        "url": "https://open.spotify.com/album/3YelZbxAGXdkKUP6pMXsrn",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2731568796289f10031724bc780",
         "releaseDate": "2026-07-24",
         "albumType": "Single",
         "label": null
       }
     },
-    "youtubeUrl": "https://youtu.be/PX6h9Sx5kGw?si=rHuKeMkrmzerykNx",
+    "youtubeUrl": "https://youtu.be/_IT83Y_HcAw?si=RM39op7Y6eqxd4n0",
     "annotations": {
-      "less than a lover": "Şarkının ana felsefesi. Ciddi bir ilişki (sevgili) yükü istemiyor ama sıradan bir yabancı kadar da uzak olmak istemiyor. Bu \"orta yolu\" korumak için \"bir tık azı/fazlası\" vurgusunu kullandık.",
-      "more than another": "Şarkının ana felsefesi. Ciddi bir ilişki (sevgili) yükü istemiyor ama sıradan bir yabancı kadar da uzak olmak istemiyor. Bu \"orta yolu\" korumak için \"bir tık azı/fazlası\" vurgusunu kullandık.",
-      "Bir sevgiliden": "Şarkının ana felsefesi. Ciddi bir ilişki (sevgili) yükü istemiyor ama sıradan bir yabancı kadar da uzak olmak istemiyor. Bu \"orta yolu\" korumak için \"bir tık azı/fazlası\" vurgusunu kullandık."
+      "less than a lover": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
+      "more than another": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
+      "Bir sevgiliden": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor."
     },
     "difficulty_note": null,
     "firstPair": {
