@@ -58,7 +58,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
     en: cleanHeroLine(rawPair.en),
     tr: cleanHeroLine(rawPair.tr),
   };
-  const titleClass = pair.tr.length > 72 ? "is-extra-long" : pair.tr.length > 48 ? "is-long" : "";
+  const titleClass = pair.tr.length > 64 ? "is-extra-long" : pair.tr.length > 40 ? "is-long" : "";
   const album = post.spotify?.albumName || post.categories?.[1] || "Tekli";
   const year = (post.spotify?.releaseDate || post.date || "").slice(0, 4);
   const spotifyUrl = post.spotify?.track?.url || post.spotify?.trackUrl;
