@@ -7,7 +7,6 @@ import {
   firstPair,
   formatDate,
   genreGroups,
-  heroPost,
   kpopShelf,
   lyricsQuote,
   metricsFor,
@@ -46,17 +45,39 @@ function PlayIcon() {
   );
 }
 
-function Hero({ post }) {
-  const pair = firstPair(post);
+function cleanHeroLine(value) {
+  return String(value || "")
+    .replace(/\s*\((?:mm[-\s]*|oh[-\s]*|ah[-\s]*)+\)\s*$/i, "")
+    .trim();
+}
+
+function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
+  const post = posts[activeIndex];
+  const rawPair = post.heroPair || firstPair(post);
+  const pair = {
+    en: cleanHeroLine(rawPair.en),
+    tr: cleanHeroLine(rawPair.tr),
+  };
+  const titleClass = pair.tr.length > 72 ? "is-extra-long" : pair.tr.length > 48 ? "is-long" : "";
   const album = post.spotify?.albumName || post.categories?.[1] || "Tekli";
   const year = (post.spotify?.releaseDate || post.date || "").slice(0, 4);
   const spotifyUrl = post.spotify?.track?.url || post.spotify?.trackUrl;
+  const previous = () => onSelect((activeIndex - 1 + posts.length) % posts.length);
+  const next = () => onSelect((activeIndex + 1) % posts.length);
 
   return (
-    <section className="acl-hero">
-      <img className="acl-hero-bg" src={post.cover} alt="" aria-hidden />
+    <section
+      className="acl-hero"
+      onMouseEnter={() => onPauseChange(true)}
+      onMouseLeave={() => onPauseChange(false)}
+      onFocusCapture={() => onPauseChange(true)}
+      onBlurCapture={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) onPauseChange(false);
+      }}
+    >
+      <img key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} alt="" aria-hidden />
       <div className="acl-hero-vignette" aria-hidden />
-      <div className="acl-hero-copy">
+      <div key={`copy-${post.slug}`} className={`acl-hero-copy ${titleClass}`}>
         <div className="acl-kicker">
           <span>Haftanın Çevirisi</span>
           <i />
@@ -77,13 +98,19 @@ function Hero({ post }) {
           )}
         </div>
       </div>
-      <Link to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
+      <Link key={`art-${post.slug}`} to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
         <img src={post.cover} alt={`${post.artist} - ${post.song}`} />
       </Link>
-      <div className="acl-hero-count" aria-hidden>
-        <span>1</span>
+      <div className="acl-hero-count" role="group" aria-label="Haftanın çevirisi slaytları">
+        <button type="button" onClick={previous} aria-label="Önceki çeviri">
+          <Arrow />
+        </button>
+        <span aria-live="polite">{activeIndex + 1}</span>
         <i />
-        <span>5</span>
+        <span>{posts.length}</span>
+        <button type="button" onClick={next} aria-label="Sonraki çeviri">
+          <Arrow />
+        </button>
       </div>
     </section>
   );
@@ -406,13 +433,26 @@ function ArtistGrid({ items }) {
 }
 
 export default function HomePreview() {
-  const color = useAlbumColor(heroPost.cover, [36, 22, 20]);
+  const heroPosts = useMemo(() => newReleases.slice(0, 5), []);
+  const [heroIndex, setHeroIndex] = useState(0);
+  const [heroPaused, setHeroPaused] = useState(false);
+  const activeHero = heroPosts[heroIndex] || heroPosts[0];
+  const color = useAlbumColor(activeHero?.cover, [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
   const latest = useMemo(() => newReleases.slice(0, 8), []);
   const risingPost = useMemo(
     () => newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri") || latest[0],
     [latest],
   );
+
+  useEffect(() => {
+    if (heroPaused || heroPosts.length < 2) return undefined;
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return undefined;
+    const timer = window.setInterval(() => {
+      setHeroIndex((current) => (current + 1) % heroPosts.length);
+    }, 7000);
+    return () => window.clearInterval(timer);
+  }, [heroPaused, heroPosts.length]);
 
   return (
     <div className={`acl-home ${theme.dark ? "is-dark" : "is-light"}`} style={theme.vars}>
@@ -421,7 +461,12 @@ export default function HomePreview() {
         <div className="acl-main-column" style={{ position: "relative" }}>
           <div className="hero-ambient-glow" />
           <div className="hero-ambient-glow-2" />
-          <Hero post={heroPost} />
+          <Hero
+            posts={heroPosts}
+            activeIndex={heroIndex}
+            onSelect={setHeroIndex}
+            onPauseChange={setHeroPaused}
+          />
           <PopNewsBanner article={latestPopGundemi} />
           <RisingSongFeature post={risingPost} article={latestPopGundemi} />
           <NewTranslations items={latest} />

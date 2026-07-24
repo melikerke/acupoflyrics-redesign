@@ -54,6 +54,10 @@
     "firstPair": {
       "en": "Mm-mm",
       "tr": "Mm-mm..."
+    },
+    "heroPair": {
+      "en": "You move like an animal (Mm-mm)",
+      "tr": "Sen ise vahşi bir hayvan (animal) gibi hareket ediyorsun... (Mm-mm)"
     }
   },
   {
@@ -115,6 +119,10 @@
     "firstPair": {
       "en": "Oh",
       "tr": "Oh"
+    },
+    "heroPair": {
+      "en": "I'm all yours, I've got no control, no control",
+      "tr": "Tamamen seninim, kontrolüm yok artık, ipler bende değil"
     }
   },
   {
@@ -176,6 +184,10 @@
     "firstPair": {
       "en": "Don't rush (Don't rush)",
       "tr": "Acele etme (Acele etme...)"
+    },
+    "heroPair": {
+      "en": "Is a little bit less than a lover",
+      "tr": "Bir sevgiliden bir tık daha azı..."
     }
   },
   {
@@ -236,6 +248,10 @@
     "firstPair": {
       "en": "Hey, Mr. DJ, put a record on",
       "tr": "Hey Bay DJ, koy bir plak"
+    },
+    "heroPair": {
+      "en": "And when the music starts, I never wanna stop",
+      "tr": "Ve müzik başladığında, hiç durmak istemiyorum"
     }
   },
   {
@@ -286,6 +302,10 @@
     "firstPair": {
       "en": "Brothers, sisters, who are we?",
       "tr": "Erkek kardeşlerim, kız kardeşlerim; kimiz biz?"
+    },
+    "heroPair": {
+      "en": "We dance, we dance, we dance, we dance",
+      "tr": "Dans ediyoruz, dans ediyoruz, dans ediyoruz!"
     }
   },
   {
@@ -345,6 +365,10 @@
     "firstPair": {
       "en": "Good morning, caught us dancing in the sunrise",
       "tr": "Günaydın; gündoğumunda dans ederken yakaladı güneş bizi"
+    },
+    "heroPair": {
+      "en": "Everything hallelujah",
+      "tr": "Her şey için Haleluya"
     }
   },
   {
@@ -405,6 +429,10 @@
     "firstPair": {
       "en": "'Cause I, I, I'm in the stars tonight",
       "tr": "Çünkü ben, bu gece yıldızların arasındayım"
+    },
+    "heroPair": {
+      "en": "So I'ma light it up like dynamite, woah-oh-oh",
+      "tr": "Öyleyse her yeri bir dinamit gibi patlatacağım (aydınlatacağım)!"
     }
   },
   {
@@ -463,6 +491,10 @@
     "firstPair": {
       "en": "I won't lie to you",
       "tr": "Sana yalan söylemeyeceğim"
+    },
+    "heroPair": {
+      "en": "I know I can treat you better than he can",
+      "tr": "Sana ondan çok daha iyi davranabileceğimi (bakabileceğimi) biliyorum"
     }
   },
   {
@@ -525,6 +557,10 @@
     "firstPair": {
       "en": "Talk to me, talk to me",
       "tr": "Konuş benimle, anlat bana"
+    },
+    "heroPair": {
+      "en": "Just come be the man I need",
+      "tr": "Sadece gel ve ihtiyacım olan o adam ol"
     }
   },
   {
@@ -585,6 +621,10 @@
     "firstPair": {
       "en": "I know that the bar closes at 11",
       "tr": "Biliyorum bar saat 11'de kapanıyor"
+    },
+    "heroPair": {
+      "en": "Kiss me and I might drop dead",
+      "tr": "Beni öpersen, şuracıkta ölüp gidebilirim"
     }
   },
   {
@@ -646,6 +686,10 @@
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
+    },
+    "heroPair": {
+      "en": "Is a beauty and a beat",
+      "tr": "Bir güzel kadın ve sağlam bir ritim"
     }
   },
   {
@@ -707,6 +751,10 @@
     "firstPair": {
       "en": "Her love is in your head",
       "tr": "Onun aşkı sadece senin zihninde..."
+    },
+    "heroPair": {
+      "en": "You lost your earrings in her bed",
+      "tr": "Küpelerini onun yatağında kaybettin."
     }
   },
   {
@@ -766,6 +814,10 @@
     "firstPair": {
       "en": "Today is gonna be the day",
       "tr": "Bugün, o gün olacak;"
+    },
+    "heroPair": {
+      "en": "You're my wonderwall",
+      "tr": "Sen benim hayat dayanağımsın (wonderwall)."
     }
   },
   {
@@ -826,6 +878,10 @@
     "firstPair": {
       "en": "ijen neomu seonmyeonghaejyeosseo",
       "tr": "Artık her şey çok daha net görünüyor"
+    },
+    "heroPair": {
+      "en": "Louder than bombs, I break (Ah)",
+      "tr": "Bombalardan daha gürültülü bir sesle yıkılıyorum (Ah)"
     }
   },
   {
@@ -886,6 +942,10 @@
     "firstPair": {
       "en": "I heard you calling on the megaphone",
       "tr": "Megafondan seslendiğini duydum"
+    },
+    "heroPair": {
+      "en": "Saved my heart from the fate of Ophelia (Ophelia)",
+      "tr": "Ve kalbimi o hazin kaderinden kurtardın;"
     }
   },
   {
@@ -941,6 +1001,10 @@
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
+      "en": "Oh boy",
+      "tr": "Ah be çocuk..."
+    },
+    "heroPair": {
       "en": "Oh boy",
       "tr": "Ah be çocuk..."
     }
@@ -1002,6 +1066,10 @@
     "firstPair": {
       "en": "All the pretty girls in the foreground of my mind",
       "tr": "Zihnimin en önünde o güzel kızlar beliriyor yine"
+    },
+    "heroPair": {
+      "en": "It'll never be the cure",
+      "tr": "Çünkü asla asıl çare (cure) olmayacak"
     }
   },
   {
@@ -1059,6 +1127,10 @@
     "firstPair": {
       "en": "Yayo, yayo",
       "tr": "Yayo, yayo (Malı getir, parayı getir)"
+    },
+    "heroPair": {
+      "en": "Bitch better have my money",
+      "tr": "O sürtük paramı getirse iyi olur"
     }
   },
   {
@@ -1122,6 +1194,10 @@
     "firstPair": {
       "en": "Oh (You and me)",
       "tr": "Oh (Sen ve ben)"
+    },
+    "heroPair": {
+      "en": "(Dracula)",
+      "tr": "(Dracula)"
     }
   },
   {
@@ -1161,6 +1237,10 @@
     "firstPair": {
       "en": "Baby, you remind me",
       "tr": "Bebeğim, hep hatırlatıyorsun bana;"
+    },
+    "heroPair": {
+      "en": "Neol jikimyeo into the sun, uh, uh (Ooh)",
+      "tr": "Seni koruyarak yürüyeceğim o güneşe doğru."
     }
   },
   {
@@ -1199,6 +1279,10 @@
     "firstPair": {
       "en": "If you wanna, if you wanna, I'll do the thing for you",
       "tr": "Eğer istersen, eğer gerçekten istersen; senin için her şeyi yaparım."
+    },
+    "heroPair": {
+      "en": "Baby, oh, please",
+      "tr": "Bebeğim, yalvarırım..."
     }
   },
   {
@@ -1240,6 +1324,10 @@
     "firstPair": {
       "en": "Eonjenga neoro inhae",
       "tr": "Bir gün senin yüzünden"
+    },
+    "heroPair": {
+      "en": "Let's repeat it one more night (Ayy)",
+      "tr": "Hadi, bir gece daha tekrarlayalım bunu"
     }
   },
   {
@@ -1278,6 +1366,10 @@
     "firstPair": {
       "en": "They don't know about us",
       "tr": "Bizim hakkımızda hiçbir şey bilmiyorlar"
+    },
+    "heroPair": {
+      "en": "They don't know 'bout us, they don't know 'bout us (Oh-oh)",
+      "tr": "Bizim hakkımızda hiçbir şey bilmiyorlar, bizi tanımıyorlar"
     }
   },
   {
@@ -1315,6 +1407,10 @@
     },
     "difficulty_note": null,
     "firstPair": {
+      "en": "Oh-oh-oh",
+      "tr": "Oh-oh-oh"
+    },
+    "heroPair": {
       "en": "Oh-oh-oh",
       "tr": "Oh-oh-oh"
     }
@@ -1356,6 +1452,10 @@
     "firstPair": {
       "en": "Kerosene, dopamine, chemical-induced",
       "tr": "Kerosen, dopamin; tamamen kimyasal tetiklemeli"
+    },
+    "heroPair": {
+      "en": "Yeah, we call this shit normal (Woo-woo)",
+      "tr": "Evet, biz bu saçmalığa \"normal\" diyoruz artık"
     }
   },
   {
@@ -1396,6 +1496,10 @@
     "firstPair": {
       "en": "I wish that I could tell you that it's over (Over)",
       "tr": "Keşke sana her şeyin bittiğini söyleyebilsem"
+    },
+    "heroPair": {
+      "en": "I can't get off this merry-go-round",
+      "tr": "Bu atlıkarıncadan inemiyorum bir türlü"
     }
   },
   {
@@ -1435,6 +1539,10 @@
     },
     "difficulty_note": null,
     "firstPair": {
+      "en": "(EarDrummers)",
+      "tr": "(EarDrummers)"
+    },
+    "heroPair": {
       "en": "(EarDrummers)",
       "tr": "(EarDrummers)"
     }
@@ -1478,6 +1586,10 @@
     "firstPair": {
       "en": "Everything lit, it's fire",
       "tr": "Her şey ışıl ışıl, alev alev"
+    },
+    "heroPair": {
+      "en": "Everything lit, it's fire",
+      "tr": "Her şey ışıl ışıl, alev alev"
     }
   },
   {
@@ -1518,6 +1630,10 @@
     "firstPair": {
       "en": "(Ear Drummers)",
       "tr": "(Ear Drummers)"
+    },
+    "heroPair": {
+      "en": "Taesaengbuteo dareun seven aliens (Ayy, ayy)",
+      "tr": "Doğuştan farklı biz yedi uzaylı"
     }
   },
   {
@@ -1561,6 +1677,10 @@
     "firstPair": {
       "en": "Watch this, watch this beat goin' hooligan",
       "tr": "İzle bunu, izle; beat kontrolden çıktı"
+    },
+    "heroPair": {
+      "en": "Watch this, watch this beat goin' hooligan",
+      "tr": "İzle bunu, izle; beat kontrolden çıktı"
     }
   },
   {
@@ -1595,6 +1715,10 @@
     "firstPair": {
       "en": "I need",
       "tr": "İhtiyacım var"
+    },
+    "heroPair": {
+      "en": "I need some body to body",
+      "tr": "Ten tene, vücut vücuda"
     }
   },
   {
@@ -1627,6 +1751,10 @@
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
+      "en": "Swim, swim",
+      "tr": "Yüz, yüz..."
+    },
+    "heroPair": {
       "en": "Swim, swim",
       "tr": "Yüz, yüz..."
     }
@@ -1665,6 +1793,10 @@
     "firstPair": {
       "en": "Everybody needs love",
       "tr": "Herkesin sevgiye ihtiyacı var, değil mi?"
+    },
+    "heroPair": {
+      "en": "Everybody needs love",
+      "tr": "Herkesin sevgiye ihtiyacı var, değil mi?"
     }
   },
   {
@@ -1699,6 +1831,10 @@
     "firstPair": {
       "en": "Ain't quitting, I trust my intuition (Okay)",
       "tr": "Vazgeçmiyorum, sezgilerime güveniyorum (okay)"
+    },
+    "heroPair": {
+      "en": "I'ma keep going on, 'cause I know I'm a champion",
+      "tr": "Yine de devam edeceğim, çünkü biliyorum, ben bir şampiyonum"
     }
   },
   {
@@ -1731,6 +1867,10 @@
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
+      "en": "We outside every night, just me and my girls, ayy",
+      "tr": "Dışarıdayız, piyasadayız her gece, sadece ben ve kızlarım, ayy"
+    },
+    "heroPair": {
       "en": "We outside every night, just me and my girls, ayy",
       "tr": "Dışarıdayız, piyasadayız her gece, sadece ben ve kızlarım, ayy"
     }
@@ -1767,6 +1907,10 @@
     "firstPair": {
       "en": "(You ready?)",
       "tr": "(Hazır mısın?)"
+    },
+    "heroPair": {
+      "en": "'Cause when I call you, you're gonna come",
+      "tr": "Çünkü ben çağırdığımda geleceksin tıpış tıpış"
     }
   },
   {
@@ -1801,6 +1945,10 @@
     "firstPair": {
       "en": "I had a bad habit",
       "tr": "Kötü bir alışkanlığım vardı;"
+    },
+    "heroPair": {
+      "en": "But now, the sky is opalite, oh-oh, oh, oh, oh",
+      "tr": "Ama bak şimdi, gökyüzü opalit rengi artık"
     }
   },
   {
@@ -1835,6 +1983,10 @@
     "firstPair": {
       "en": "Wonder if you know",
       "tr": "Merak ediyorum, acaba biliyor musun..."
+    },
+    "heroPair": {
+      "en": "Tokyo drifting",
+      "tr": "Tokyo'da yanlayarak sürüyoruz"
     }
   },
   {
@@ -1867,6 +2019,10 @@
     "firstPair": {
       "en": "Ooh, ooh",
       "tr": "Ooh, ooh"
+    },
+    "heroPair": {
+      "en": "Let it all fade out, play the whole world in Mono",
+      "tr": "Bırak kaybolsunlar, sen tüm dünyayı Mono'da çal"
     }
   },
   {
@@ -1909,6 +2065,10 @@
     "firstPair": {
       "en": "Good times and bad times, I gave you my everything",
       "tr": "İyi zamanlarında da kötü zamanlarında da yanındaydım"
+    },
+    "heroPair": {
+      "en": "'Cause you said you would die for me",
+      "tr": "Çünkü bana bir zamanlar “Senin için ölürüm” demiştin"
     }
   },
   {
@@ -1943,6 +2103,10 @@
     "firstPair": {
       "en": "Take no prisoners for me",
       "tr": "Bana acıma sakın ha"
+    },
+    "heroPair": {
+      "en": "Aperture lets the light in",
+      "tr": "Diyafram ışığın girmesine izin verir"
     }
   },
   {
@@ -1977,6 +2141,10 @@
     "firstPair": {
       "en": "Yeah, ne ape naeryeowa (Yeah)",
       "tr": "Evet, iniyorum işte karşına"
+    },
+    "heroPair": {
+      "en": "Gikkeoi badeul crown",
+      "tr": "O tacı seve seve alırım"
     }
   },
   {
@@ -2011,6 +2179,10 @@
     "firstPair": {
       "en": "Mm, yeah",
       "tr": "Mm, evet"
+    },
+    "heroPair": {
+      "en": "Baby, I'm home, neoui gyeote (Baby, I'm home, neoui gyeote)",
+      "tr": "Bebeğim, evdeyim… senin yanındayım"
     }
   },
   {
@@ -2045,6 +2217,10 @@
     "firstPair": {
       "en": "Moonwalkin'",
       "tr": "Moonwalk yapıyoruz"
+    },
+    "heroPair": {
+      "en": "Moonwalkin'",
+      "tr": "Moonwalk yapıyoruz"
     }
   },
   {
@@ -2077,6 +2253,10 @@
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
+      "en": "It’s a knife seoseul peoreon kalnal wieseo",
+      "tr": "Bu bir bıçak sırtı, buz gibi keskinliğin üstündeyiz"
+    },
+    "heroPair": {
       "en": "It’s a knife seoseul peoreon kalnal wieseo",
       "tr": "Bu bir bıçak sırtı, buz gibi keskinliğin üstündeyiz"
     }
@@ -2139,6 +2319,10 @@
     "firstPair": {
       "en": "I can't tell you why",
       "tr": "Nedenini anlatamam sana,"
+    },
+    "heroPair": {
+      "en": "Yeah, I, I, I hate that I made you love me",
+      "tr": "Evet, seni kendime aşık ettiğim için nefret ediyorum kendimden;"
     }
   },
   {
@@ -2194,6 +2378,10 @@
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
+      "en": "Emiliana, it's been so long since you texted me",
+      "tr": "Emiliana, bana mesaj atmayalı çok uzun zaman oldu..."
+    },
+    "heroPair": {
       "en": "Emiliana, it's been so long since you texted me",
       "tr": "Emiliana, bana mesaj atmayalı çok uzun zaman oldu..."
     }
@@ -2258,6 +2446,10 @@
     "firstPair": {
       "en": "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)",
       "tr": "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)"
+    },
+    "heroPair": {
+      "en": "Dai, dai, ikou, dale, allez, let's go",
+      "tr": "Dai dai iko! (Hadi, durma başla!)"
     }
   },
   {
@@ -2315,6 +2507,10 @@
     "firstPair": {
       "en": "New York City's never looked so blue",
       "tr": "New York hiç bu kadar \"mavi\" (hüzünlü) görünmemişti,"
+    },
+    "heroPair": {
+      "en": "And I want you more than any stupid song could ever say",
+      "tr": "Biri senin adını fısıldadığında..."
     }
   },
   {
@@ -2375,6 +2571,10 @@
     "firstPair": {
       "en": "Oh (Oh)",
       "tr": "Oh (Oh)"
+    },
+    "heroPair": {
+      "en": "Always way too self-aware",
+      "tr": "Her şeyin her zaman \"fazla farkında\" olan o kişiyim."
     }
   },
   {
@@ -2432,6 +2632,10 @@
     "firstPair": {
       "en": "You were riding your bike to the sound of \"It's No Big Deal\"",
       "tr": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,"
+    },
+    "heroPair": {
+      "en": "Matilda, you talk of the pain like it's all alright",
+      "tr": "Matilda, o acılardan sanki her şey yolundaymış gibi bahsediyorsun;"
     }
   },
   {
@@ -2485,6 +2689,10 @@
     },
     "youtubeUrl": "https://youtu.be/E8i32NXMxnc?si=1N8W5WjC5WuB9ubL",
     "firstPair": {
+      "en": "All we need is love, dreams and Stray Kids",
+      "tr": "İhtiyacımız olan tek şey: Aşk, hayaller ve Stray Kids."
+    },
+    "heroPair": {
       "en": "All we need is love, dreams and Stray Kids",
       "tr": "İhtiyacımız olan tek şey: Aşk, hayaller ve Stray Kids."
     }
@@ -2542,6 +2750,10 @@
     "firstPair": {
       "en": "Geunyang hae nundongja gullil time-e",
       "tr": "Öyle boş boş bakınıp duracağına yap gitsin işte."
+    },
+    "heroPair": {
+      "en": "Leave it all behind we’re gonna do it baby",
+      "tr": "Her şeyi bırak arkanda, her türlü yapacağız bunu bebeğim"
     }
   },
   {
@@ -2593,6 +2805,10 @@
     "firstPair": {
       "en": "Time is standing still and I don't wanna leave your lips",
       "tr": "Zaman durdu sanki ve dudaklarından ayrılmak istemiyorum."
+    },
+    "heroPair": {
+      "en": "Said, oh, we should fall in love with our eyes closed",
+      "tr": "Dedi ki, \"Ah, gel, gözlerimiz kapalı aşık olalım birbirimize.\""
     }
   },
   {
@@ -2646,6 +2862,10 @@
     },
     "youtubeUrl": "https://youtu.be/qS7OsvKqojg?si=TfSNemQ62-vbNxY-",
     "firstPair": {
+      "en": "(What the—)",
+      "tr": "(NE ALAKA)"
+    },
+    "heroPair": {
       "en": "(What the—)",
       "tr": "(NE ALAKA)"
     }
@@ -2703,6 +2923,10 @@
     "firstPair": {
       "en": "Hip-hip (Hooray)",
       "tr": "Hip hip (Yaşasın)"
+    },
+    "heroPair": {
+      "en": "Ceremony",
+      "tr": "SEREMONİ"
     }
   },
   {
@@ -2758,6 +2982,10 @@
     "firstPair": {
       "en": "Soneul jaba let's run away",
       "tr": "Tut elimi, kaçalım buralardan"
+    },
+    "heroPair": {
+      "en": "Do you ever really wonder we are lost on Mars",
+      "tr": "Hiç merak ettin mi gerçekten…"
     }
   },
   {
@@ -2811,6 +3039,10 @@
     },
     "youtubeUrl": "https://youtu.be/0sFFvghflng?si=I7M-B346kJUxyWxe",
     "firstPair": {
+      "en": "Hey, I got all these options, okay",
+      "tr": "Hey, önümde bir sürü seçenek var tamam mı"
+    },
+    "heroPair": {
       "en": "Hey, I got all these options, okay",
       "tr": "Hey, önümde bir sürü seçenek var tamam mı"
     }
@@ -2868,6 +3100,10 @@
     "firstPair": {
       "en": "TWICE",
       "tr": "TWICE"
+    },
+    "heroPair": {
+      "en": "TWICE",
+      "tr": "TWICE"
     }
   },
   {
@@ -2923,6 +3159,10 @@
     "firstPair": {
       "en": "Yeah, I know what you into (Into)",
       "tr": "Evet, nelerden hoşlandığını biliyorum,"
+    },
+    "heroPair": {
+      "en": "Come takе a seat in your fantasy",
+      "tr": "Gel, Kendi Fantezinde yerini al"
     }
   },
   {
@@ -2978,6 +3218,10 @@
     "firstPair": {
       "en": "This is for all my ladies",
       "tr": "Bu, yeterince gaz verilmeyen…"
+    },
+    "heroPair": {
+      "en": "This is for all my ladies",
+      "tr": "Bu, yeterince gaz verilmeyen…"
     }
   },
   {
@@ -3031,6 +3275,10 @@
     "firstPair": {
       "en": "I’m not that easy to tame",
       "tr": "Öyle kolayca dizginlenebilecek biri değilim ben"
+    },
+    "heroPair": {
+      "en": "So come up with me, run up uh jump, ttwieo",
+      "tr": "O zaman gel benimle, koş ve zıpla!"
     }
   },
   {
@@ -3084,6 +3332,10 @@
     "firstPair": {
       "en": "Tell your friends that I love the drama",
       "tr": "Arkadaşlarına anlat, dramaya bayıldığımı söyle"
+    },
+    "heroPair": {
+      "en": "You're just a Gameboy",
+      "tr": "Sen gerçekten yalnızca oyuncu bir çocuksun"
     }
   },
   {
@@ -3137,6 +3389,10 @@
     "firstPair": {
       "en": "World domination, I don't gotta say it",
       "tr": "Dünyaya hükmediyorum, söylememe bile gerek yok"
+    },
+    "heroPair": {
+      "en": "Real bad business, that's dirty work (Yeah)",
+      "tr": "Bu iş sert, bu iş kirli — bu pis bir iş"
     }
   },
   {
@@ -3188,6 +3444,10 @@
     "firstPair": {
       "en": "Hidden underneath the floor",
       "tr": "Hayallerimin tavan arasında,"
+    },
+    "heroPair": {
+      "en": "But, baby, you're on my mind",
+      "tr": "Ama bebeğim, aklımda sen varsın"
     }
   },
   {
@@ -3241,6 +3501,10 @@
     "firstPair": {
       "en": "Bunmyeong nappeun aineun anieodo",
       "tr": "Ben kötü biri değilim, tamam mı…"
+    },
+    "heroPair": {
+      "en": "But we ain't even famous",
+      "tr": "Ve biz  daha ünlü bile değiliz"
     }
   },
   {
@@ -3296,6 +3560,10 @@
     "firstPair": {
       "en": "Ain’t nobody, yeah",
       "tr": "Kimse yok ki senin gibi"
+    },
+    "heroPair": {
+      "en": "Lemon Drop, Lemon Drop, closer",
+      "tr": "Bir yudum daha Lemon Drop… biraz daha yaklaş"
     }
   },
   {
@@ -3347,6 +3615,10 @@
     "firstPair": {
       "en": "You are now",
       "tr": "Sen şu anda…"
+    },
+    "heroPair": {
+      "en": "You killin' it, girl",
+      "tr": "Sen harikalar yaratıyorsun, kızım"
     }
   },
   {
@@ -3398,6 +3670,10 @@
     },
     "youtubeUrl": "https://youtu.be/dpvQqmX6SUI?si=zV9WCVWa2hwkCewm",
     "firstPair": {
+      "en": "I wanna let my hair down (Yeah, yeah, yeah, yeah, yeah)",
+      "tr": "Saçlarımı savurmak istiyorum (Evet, evet, evet, evet, evet)"
+    },
+    "heroPair": {
       "en": "I wanna let my hair down (Yeah, yeah, yeah, yeah, yeah)",
       "tr": "Saçlarımı savurmak istiyorum (Evet, evet, evet, evet, evet)"
     }
@@ -3455,6 +3731,10 @@
     "firstPair": {
       "en": "Haetsal bichun achim",
       "tr": "Güneşle aydınlanan bir sabaha uyanıyorum."
+    },
+    "heroPair": {
+      "en": "Haetsal bichun achim",
+      "tr": "Güneşle aydınlanan bir sabaha uyanıyorum."
     }
   },
   {
@@ -3510,6 +3790,10 @@
     "firstPair": {
       "en": "Ajik nan geogi sara",
       "tr": "Hâlâ oradayım;"
+    },
+    "heroPair": {
+      "en": "I’ll be here in the background",
+      "tr": "Arka planda kalacağım"
     }
   },
   {
@@ -3563,6 +3847,10 @@
     },
     "youtubeUrl": "https://youtu.be/dpn4v93wQZY?si=fqEAaANplMwIxfxY",
     "firstPair": {
+      "en": "Gureumeun oneuldo nae jeonbureul dama",
+      "tr": "Bulutlar bugün de tüm duygularımı, içimi içine almış."
+    },
+    "heroPair": {
       "en": "Gureumeun oneuldo nae jeonbureul dama",
       "tr": "Bulutlar bugün de tüm duygularımı, içimi içine almış."
     }
@@ -3620,6 +3908,10 @@
     "firstPair": {
       "en": "Du ballo ttwieoneomeo gan sungan",
       "tr": "İki ayağımla engeli aştığım anda"
+    },
+    "heroPair": {
+      "en": "Rope it, rope rope it, rope it",
+      "tr": "Hadi hayatın ipini eline al ve fırlat"
     }
   },
   {
@@ -3675,6 +3967,10 @@
     "firstPair": {
       "en": "Tteoreojyeo flash onmomi crash",
       "tr": "Bir flaş patladı ve bütün bedenim sarsıldı."
+    },
+    "heroPair": {
+      "en": "Tteoreojyeo flash onmomi crash",
+      "tr": "Bir flaş patladı ve bütün bedenim sarsıldı."
     }
   },
   {
@@ -3728,6 +4024,10 @@
     "firstPair": {
       "en": "You love me, you miss me",
       "tr": "Beni seviyorsun, beni özlüyorsun"
+    },
+    "heroPair": {
+      "en": "(Loser, loser, loser)",
+      "tr": "(Evet, kaybeden…)"
     }
   },
   {
@@ -3783,6 +4083,10 @@
     "firstPair": {
       "en": "Jonjaehaneun iyudeuljocha",
       "tr": "Varoluş nedenimi bile bilmiyordum ben..."
+    },
+    "heroPair": {
+      "en": "I'm nothing without your love",
+      "tr": "Senin sevgin olmadan bir hiçim ben"
     }
   },
   {
@@ -3836,6 +4140,10 @@
     },
     "youtubeUrl": "https://youtu.be/o7BcyAd6rqg?si=xvV5GA-CjSn2fBHd",
     "firstPair": {
+      "en": "I really thought I made up my mind",
+      "tr": "Gerçekten kararımı verdiğimi sanmıştım"
+    },
+    "heroPair": {
       "en": "I really thought I made up my mind",
       "tr": "Gerçekten kararımı verdiğimi sanmıştım"
     }
@@ -3893,6 +4201,10 @@
     "firstPair": {
       "en": "You and I are tangled as these sheets",
       "tr": "Seninle ben, bu çarşaflar gibi birbirimize dolanmışız."
+    },
+    "heroPair": {
+      "en": "You and I are tangled as these sheets",
+      "tr": "Seninle ben, bu çarşaflar gibi birbirimize dolanmışız."
     }
   },
   {
@@ -3946,6 +4258,10 @@
     "firstPair": {
       "en": "They could describe everything with one single word",
       "tr": "Her şeyi tek bir kelimeyle anlatabilirler"
+    },
+    "heroPair": {
+      "en": "Boba tea (Gnarly)",
+      "tr": "Boba çayı (Acayip)"
     }
   },
   {
@@ -3995,6 +4311,10 @@
     "firstPair": {
       "en": "Neoreul manna",
       "tr": "Seninle tanıştıktan sonra"
+    },
+    "heroPair": {
+      "en": "What’s your love language?",
+      "tr": "Senin sevgi dilin ne?"
     }
   },
   {
@@ -4048,6 +4368,10 @@
     "firstPair": {
       "en": "I need your arms around me, I need to feel your touch, hey",
       "tr": "Kollarının arasında olmaya, tenini hissetmeye ihtiyacım var, hey"
+    },
+    "heroPair": {
+      "en": "I'm feeling kinda lonely and I really wanna talk",
+      "tr": "Biraz yalnız hissediyorum ve gerçekten konuşmak istiyorum"
     }
   },
   {
@@ -4099,6 +4423,10 @@
     "firstPair": {
       "en": "Hello, rainy day",
       "tr": "Selam sana yağmurlu gün"
+    },
+    "heroPair": {
+      "en": "I'm tryna stop the rain",
+      "tr": "Yağmuru durdurmaya çalışıyorum"
     }
   },
   {
@@ -4154,6 +4482,10 @@
     "firstPair": {
       "en": "Yeah-ooh",
       "tr": "Evet-ooh"
+    },
+    "heroPair": {
+      "en": "Baby, you're priceless",
+      "tr": "Bebeğim, sen paha biçilmezsin"
     }
   },
   {
@@ -4209,6 +4541,10 @@
     "firstPair": {
       "en": "It’s 2:45",
       "tr": "Saat 2:45"
+    },
+    "heroPair": {
+      "en": "It’s 2:45",
+      "tr": "Saat 2:45"
     }
   },
   {
@@ -4262,6 +4598,10 @@
     "firstPair": {
       "en": "I gillo galge we gata",
       "tr": "Ben bu yoldan gideceğim, biz buna hazırız (we gotta)"
+    },
+    "heroPair": {
+      "en": "Hands up",
+      "tr": "Eller havaya!"
     }
   },
   {
@@ -4313,6 +4653,10 @@
     },
     "youtubeUrl": "https://youtu.be/MI9ZpIKgyf0?si=qnp2rkb4Knc-X0PW",
     "firstPair": {
+      "en": "\"Azizam\" ne demek?",
+      "tr": "Azizam"
+    },
+    "heroPair": {
       "en": "\"Azizam\" ne demek?",
       "tr": "Azizam"
     }
@@ -4376,6 +4720,10 @@
     "firstPair": {
       "en": "Oh",
       "tr": "Vay"
+    },
+    "heroPair": {
+      "en": "And so we pray",
+      "tr": "Ve böylece dua ediyoruz"
     }
   },
   {
@@ -4433,6 +4781,10 @@
     "firstPair": {
       "en": "How can it be? You and me",
       "tr": "Nasıl olur da sen ve ben..."
+    },
+    "heroPair": {
+      "en": "'Cause the boy is mine, mine",
+      "tr": "Hep kendi başımın çaresine bakarım"
     }
   },
   {
@@ -4488,6 +4840,10 @@
     },
     "youtubeUrl": "https://youtu.be/6FEvblq6jzA?si=xjP2jgD9Bq5J0kde",
     "firstPair": {
+      "en": "This is a true story about all the lies",
+      "tr": "Bu, tüm yalanların gerçek hikâyesi"
+    },
+    "heroPair": {
       "en": "This is a true story about all the lies",
       "tr": "Bu, tüm yalanların gerçek hikâyesi"
     }
@@ -4547,6 +4903,10 @@
     "firstPair": {
       "en": "(This love's possessin' me, but I don't mind at all)",
       "tr": "(Bu aşk beni ele geçiriyor ama hiç şikâyetim yok)"
+    },
+    "heroPair": {
+      "en": "It's like supernatural",
+      "tr": "Bu aşk, sanki doğaüstü bir şey"
     }
   },
   {
@@ -4602,6 +4962,10 @@
     },
     "youtubeUrl": "https://youtu.be/f68Og1FPFfw?si=JdMkRGq_PCJonD71",
     "firstPair": {
+      "en": "When we're all born, Saturn's somewhere",
+      "tr": "Hepimiz doğduğumuzda, gökyüzünde Satürn bir yerde konumlanır."
+    },
+    "heroPair": {
       "en": "When we're all born, Saturn's somewhere",
       "tr": "Hepimiz doğduğumuzda, gökyüzünde Satürn bir yerde konumlanır."
     }
@@ -4661,6 +5025,10 @@
     "firstPair": {
       "en": "I fall asleep cryin'",
       "tr": "Ağlaya ağlaya uyuyakalıyorum"
+    },
+    "heroPair": {
+      "en": "I don't wanna break up again (Up again, up again, up again), baby",
+      "tr": "Bir kez daha ayrılmak istemiyorum, bebeğim"
     }
   },
   {
@@ -4716,6 +5084,10 @@
     },
     "youtubeUrl": "https://youtu.be/PlaiDnJyabE?si=CTwX-RKxAhYZuWfS",
     "firstPair": {
+      "en": "Bye-bye",
+      "tr": "Hoşça kal"
+    },
+    "heroPair": {
       "en": "Bye-bye",
       "tr": "Hoşça kal"
     }
@@ -4775,6 +5147,10 @@
     "firstPair": {
       "en": "How can I tell if I'm in the right relationship?",
       "tr": "Doğru ilişkide miyim, bunu nasıl anlarım?"
+    },
+    "heroPair": {
+      "en": "How can I tell if I'm in the right relationship?",
+      "tr": "Doğru ilişkide miyim, bunu nasıl anlarım?"
     }
   },
   {
@@ -4830,6 +5206,10 @@
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
+    },
+    "heroPair": {
+      "en": "People think I'm big but I'm small",
+      "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
     }
   },
   {
@@ -4879,6 +5259,10 @@
     "firstPair": {
       "en": "I like my girls pretty, so fine",
       "tr": "Ben güzel kızlardan hoşlanırım, çok çekici olmalılar"
+    },
+    "heroPair": {
+      "en": "Mona, Mona Lisa, yeah, I need ya (I like my girls)",
+      "tr": "Mona Lisa gibisin, evet, ihtiyacım var sana"
     }
   },
   {
@@ -4930,6 +5314,10 @@
     },
     "youtubeUrl": "https://youtu.be/nJG5CWsne8E?si=BS8xLbGH37Reg7Yq",
     "firstPair": {
+      "en": "You're my cherry pie",
+      "tr": "Sen benim vişneli turtamsın"
+    },
+    "heroPair": {
       "en": "You're my cherry pie",
       "tr": "Sen benim vişneli turtamsın"
     }
@@ -4987,6 +5375,10 @@
     "firstPair": {
       "en": "Yeah, sweet dreams come after hours",
       "tr": "Evet, tatlı rüyalar gecenin geç saatlerinde gelir"
+    },
+    "heroPair": {
+      "en": "Yeah, sweet dreams come after hours",
+      "tr": "Evet, tatlı rüyalar gecenin geç saatlerinde gelir"
     }
   },
   {
@@ -5042,6 +5434,10 @@
     "firstPair": {
       "en": "It's like I'm writing a letter",
       "tr": "Sanki bir mektup yazıyorum sana"
+    },
+    "heroPair": {
+      "en": "Twin, twin, twin",
+      "tr": "İkiz gibiydik biz, ikiz, ikiz"
     }
   },
   {
@@ -5097,6 +5493,10 @@
     "firstPair": {
       "en": "Jeogin eodilkka?",
       "tr": "Nedir orası acaba?"
+    },
+    "heroPair": {
+      "en": "You say you see the starlight in me",
+      "tr": "Bende yıldız ışığını gördüğünü söylüyorsun,"
     }
   },
   {
@@ -5152,6 +5552,10 @@
     "firstPair": {
       "en": "(Ear Drummers)",
       "tr": "Sarıl bana, sevgine ihtiyacım var, dokun tenime"
+    },
+    "heroPair": {
+      "en": "In Seoul city (Ooh-ooh)",
+      "tr": "Seul şehrinde (Ooh-ooh)"
     }
   },
   {
@@ -5207,6 +5611,10 @@
     "firstPair": {
       "en": "(La-la-la-la)",
       "tr": "Böyle uyandım, sanki üzerimden bir yük kalkmış gibi hissediyorum"
+    },
+    "heroPair": {
+      "en": "So take off your filter, bitch",
+      "tr": "O yüzden çıkar artık filtreni, tatlım"
     }
   },
   {
@@ -5260,6 +5668,10 @@
     },
     "youtubeUrl": "https://youtu.be/8QEBbJa4Wcs?si=QwUIiDfXlVcqkgS2",
     "firstPair": {
+      "en": "Maybe it's time to take a leap of faith (Ah-ah, ah-ah)",
+      "tr": "Belki de artık cesur bir adım atmanın zamanı gelmiştir"
+    },
+    "heroPair": {
       "en": "Maybe it's time to take a leap of faith (Ah-ah, ah-ah)",
       "tr": "Belki de artık cesur bir adım atmanın zamanı gelmiştir"
     }
@@ -5321,6 +5733,10 @@
     "firstPair": {
       "en": "(EarDrummers)",
       "tr": "Tek başıma, özgürce sürpriz yaptım sana"
+    },
+    "heroPair": {
+      "en": "Damn, right, I did that",
+      "tr": "Evet aynen öyle, ben yaptım onu"
     }
   },
   {
@@ -5374,6 +5790,10 @@
     },
     "youtubeUrl": "https://youtu.be/qzE9tNcUUss?si=5b3MIY2mf6JUGXSa",
     "firstPair": {
+      "en": "(Ah, uh, ah, uh) Are you? Are you?",
+      "tr": "(Ah, uh, ah, uh) Sen misin o? Sen misin gerçekten?"
+    },
+    "heroPair": {
       "en": "(Ah, uh, ah, uh) Are you? Are you?",
       "tr": "(Ah, uh, ah, uh) Sen misin o? Sen misin gerçekten?"
     }
@@ -5433,6 +5853,10 @@
     "firstPair": {
       "en": "I trip and fall in love",
       "tr": "Ayağım takılır gibi aşka düşüyorum"
+    },
+    "heroPair": {
+      "en": "Over the handlebars",
+      "tr": "Bisikletten uçar gibi..."
     }
   },
   {
@@ -5488,6 +5912,10 @@
     "firstPair": {
       "en": "You know for me, there's no breaking point",
       "tr": "Biliyorsun, benim için pes etmek diye bir şey yok"
+    },
+    "heroPair": {
+      "en": "I start a war",
+      "tr": "Gerekirse savaş çıkarırım senin için"
     }
   },
   {
@@ -5543,6 +5971,10 @@
     "firstPair": {
       "en": "Ha, c'mon, it's just gonna be fucking hard",
       "tr": "Ha, hadi bakalım, işiniz çok zor olacak"
+    },
+    "heroPair": {
+      "en": "Keep your hair done, nails done like JENNIE",
+      "tr": "Saçını, tırnaklarını JENNIE gibi yaptır"
     }
   },
   {
@@ -5596,6 +6028,10 @@
     },
     "youtubeUrl": "https://youtu.be/K-GE4h2Fbuw?si=JTGeazadsRn23jIR",
     "firstPair": {
+      "en": "Run like this, run, I",
+      "tr": "Böyle koşuyorum işte, kaçıyorum bak"
+    },
+    "heroPair": {
       "en": "Run like this, run, I",
       "tr": "Böyle koşuyorum işte, kaçıyorum bak"
     }
@@ -5653,6 +6089,10 @@
     "firstPair": {
       "en": "Ride me like a carousel",
       "tr": "Beni atlıkarınca gibi döndürüp duruyorsun"
+    },
+    "heroPair": {
+      "en": "Naman tto gyro-drophae",
+      "tr": "Ben ise serbest düşüşteyim yine"
     }
   },
   {
@@ -5706,6 +6146,10 @@
     "firstPair": {
       "en": "Myeot sinde nuneul tteuja haruga jine",
       "tr": "Gözümü açıyorum, gün bitmiş bile saat kaç olmuş"
+    },
+    "heroPair": {
+      "en": "Myeot sinde nuneul tteuja haruga jine",
+      "tr": "Gözümü açıyorum, gün bitmiş bile saat kaç olmuş"
     }
   },
   {
@@ -5755,6 +6199,10 @@
     },
     "youtubeUrl": "https://youtu.be/IgIqM68qvF0?si=0phJkjICuhDniUog",
     "firstPair": {
+      "en": "M.B.T.M.I.U (My baby, take me I'm yours)",
+      "tr": "Benimsin işte al götür beni"
+    },
+    "heroPair": {
       "en": "M.B.T.M.I.U (My baby, take me I'm yours)",
       "tr": "Benimsin işte al götür beni"
     }
@@ -5808,6 +6256,10 @@
     "firstPair": {
       "en": "Han chimdae du jamjari simkunghae",
       "tr": "Tek yatakta iki kişiyiz, kalbim gümbür gümbür atıyor"
+    },
+    "heroPair": {
+      "en": "Han chimdae du jamjari simkunghae",
+      "tr": "Tek yatakta iki kişiyiz, kalbim gümbür gümbür atıyor"
     }
   },
   {
@@ -5859,6 +6311,10 @@
     "firstPair": {
       "en": "When every scene's rolling in good",
       "tr": "Her şey güllük gülistanlık giderken"
+    },
+    "heroPair": {
+      "en": "Drama queen, got it from her mama (Mama, mama)",
+      "tr": "Annen gibi drama kraliçesisin"
     }
   },
   {
@@ -5912,6 +6368,10 @@
     "firstPair": {
       "en": "G-A-P",
       "tr": "G-A-P"
+    },
+    "heroPair": {
+      "en": "Baby girl, too bad for me",
+      "tr": "Bebeğim! Sen fazla iyisin benim için!"
     }
   },
   {
@@ -5963,6 +6423,10 @@
     "firstPair": {
       "en": "Hair down, feeling like Rapunzel",
       "tr": "Saçlarımı saldım, Rapunzel gibi hissediyorum"
+    },
+    "heroPair": {
+      "en": "Hair down, feeling like Rapunzel",
+      "tr": "Saçlarımı saldım, Rapunzel gibi hissediyorum"
     }
   },
   {
@@ -6012,6 +6476,10 @@
     },
     "youtubeUrl": "https://youtu.be/pZh-Q8wfwU8?si=qowp302_K82uVecJ",
     "firstPair": {
+      "en": "(ATL Jacob, ATL Jacob)",
+      "tr": "(Yeah) O modda uyandım yine"
+    },
+    "heroPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) O modda uyandım yine"
     }
@@ -6069,6 +6537,10 @@
     "firstPair": {
       "en": "Hello, hello, tell me somethin' that I don't know",
       "tr": "Selam selam, bana bilmediğim bir şey söyle bakalım"
+    },
+    "heroPair": {
+      "en": "With a heart so cold I'll give you ch-ch chills",
+      "tr": "Kalbim buz gibi, seni ürpertirim"
     }
   },
   {
@@ -6122,6 +6594,10 @@
     "firstPair": {
       "en": "All my pride goes out the window",
       "tr": "Seninleyken bütün gururum pencereden uçup gidiyor"
+    },
+    "heroPair": {
+      "en": "When I'm with you",
+      "tr": "Seninleyken"
     }
   },
   {
@@ -6175,6 +6651,10 @@
     },
     "youtubeUrl": "https://youtu.be/vEfQjvi-JSw?si=S4HOrcZz_J5xXzoB",
     "firstPair": {
+      "en": "Flex so hard think, I am elastic",
+      "tr": "Öyle havalıyım ki, lastik gibi esniyorum"
+    },
+    "heroPair": {
       "en": "Flex so hard think, I am elastic",
       "tr": "Öyle havalıyım ki, lastik gibi esniyorum"
     }
@@ -6232,6 +6712,10 @@
     "firstPair": {
       "en": "I've been thinking",
       "tr": "Düşünüp duruyorum da"
+    },
+    "heroPair": {
+      "en": "Been drowning in dreams lately",
+      "tr": "Son zamanlarda sürekli rüyalar içinde kayboluyorum"
     }
   },
   {
@@ -6287,6 +6771,10 @@
     "firstPair": {
       "en": "Fast cars",
       "tr": "Hızlı arabalar"
+    },
+    "heroPair": {
+      "en": "That's just my lifestyle, oh-woah",
+      "tr": "Bu benim hayat tarzım, oh-woah."
     }
   },
   {
@@ -6342,6 +6830,10 @@
     "firstPair": {
       "en": "And it go la-la-la-la-la-la-la-la-la (Uh, what?)",
       "tr": "Ve böyle gider la-la-la-la-la-la-la-la (Ee, ne?)"
+    },
+    "heroPair": {
+      "en": "And it go la-la-la-la-la-la-la-la-la (Uh, what?)",
+      "tr": "Ve böyle gider la-la-la-la-la-la-la-la (Ee, ne?)"
     }
   },
   {
@@ -6395,6 +6887,10 @@
     "firstPair": {
       "en": "It's the Hot Girl Coach, and LISA (Ah)",
       "tr": "Karşınızda Hot Girl Coach ve LISA (Ah)"
+    },
+    "heroPair": {
+      "en": "Hair down, feeling like Rapunzel",
+      "tr": "Saçlarımı saldım, Rapunzel gibi hissediyorum"
     }
   },
   {
@@ -6446,6 +6942,10 @@
     },
     "youtubeUrl": "https://youtu.be/dzqmRAec9rs?si=Ldix4c7FRNx3Ff_J",
     "firstPair": {
+      "en": "(ATL Jacob, ATL Jacob)",
+      "tr": "(Yeah) Uh, uh, uyandım yine modumdayım"
+    },
+    "heroPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) Uh, uh, uyandım yine modumdayım"
     }
@@ -6503,6 +7003,10 @@
     "firstPair": {
       "en": "Got that uh-huh, that uh-huh",
       "tr": "Bende o \"tamamdır\" var, o \"işte budur\""
+    },
+    "heroPair": {
+      "en": "Something a little like thunder",
+      "tr": "Biraz gök gürültüsü gibiyim"
     }
   },
   {
@@ -6558,6 +7062,10 @@
     "firstPair": {
       "en": "At the tone, please record your message",
       "tr": "Sinyal sesinden sonra mesajınızı bırakabilirsiniz"
+    },
+    "heroPair": {
+      "en": "Call me when you break up",
+      "tr": "Ayrıldığında beni ara"
     }
   },
   {
@@ -6617,6 +7125,10 @@
     "firstPair": {
       "en": "Pulled up in the wintertime (Yeah)",
       "tr": "Kış vakti geldim, (Evet)"
+    },
+    "heroPair": {
+      "en": "LV bag, big swag on me (LV bag)",
+      "tr": "LV çanta, üstümde büyük hava (LV çanta)"
     }
   },
   {
@@ -6674,6 +7186,10 @@
     "firstPair": {
       "en": "Do my, do my ladies run this, ladies run this?",
       "tr": "Benim, benim kadınlarım mı yönetiyor burayı? Kadınlar mı yönetiyor?"
+    },
+    "heroPair": {
+      "en": "Do my, do my ladies run this, ladies run this?",
+      "tr": "Benim, benim kadınlarım mı yönetiyor burayı? Kadınlar mı yönetiyor?"
     }
   },
   {
@@ -6723,6 +7239,10 @@
     },
     "youtubeUrl": "https://youtu.be/5XhnZDUG6Og?si=VqPsJLUKrsO6Oq5E",
     "firstPair": {
+      "en": "Life and living and ever thanks giving (Ayy)",
+      "tr": "Hayat budur, yaşa ve şükret!"
+    },
+    "heroPair": {
       "en": "Life and living and ever thanks giving (Ayy)",
       "tr": "Hayat budur, yaşa ve şükret!"
     }
@@ -6778,6 +7298,10 @@
     "firstPair": {
       "en": "(I'm really sorry, but I don't like your boyfriend)",
       "tr": "(Gerçekten üzgünüm ama… sevgilini hiç sevmiyorum!)"
+    },
+    "heroPair": {
+      "en": "(I'm really sorry, but I don't like your boyfriend)",
+      "tr": "(Gerçekten üzgünüm ama… sevgilini hiç sevmiyorum!)"
     }
   },
   {
@@ -6831,6 +7355,10 @@
     "firstPair": {
       "en": "My-my-my mind keeps spinnin'",
       "tr": "Zihnim sürekli dönüp duruyor, durmadan çalışıyor"
+    },
+    "heroPair": {
+      "en": "Baby, please don't panic",
+      "tr": "Bebeğim, lütfen panik yapma"
     }
   },
   {
@@ -6884,6 +7412,10 @@
     "firstPair": {
       "en": "If I broke your heart, would you take me back?",
       "tr": "Eğer kalbini kırarsam, beni yine de affeder misin?"
+    },
+    "heroPair": {
+      "en": "If I broke your heart, would you take me back?",
+      "tr": "Eğer kalbini kırarsam, beni yine de affeder misin?"
     }
   },
   {
@@ -6935,6 +7467,10 @@
     },
     "youtubeUrl": "https://youtu.be/1Hi0j7pz2D4?si=K46uCh7vj2JuzUJA",
     "firstPair": {
+      "en": "Ooh-ooh-ooh, ooh, ooh, ooh",
+      "tr": "Ooh-ooh-ooh, ooh, ooh, ooh"
+    },
+    "heroPair": {
       "en": "Ooh-ooh-ooh, ooh, ooh, ooh",
       "tr": "Ooh-ooh-ooh, ooh, ooh, ooh"
     }
@@ -6992,6 +7528,10 @@
     "firstPair": {
       "en": "Wirohajin marajwo",
       "tr": "Teselli etmeye çalışma"
+    },
+    "heroPair": {
+      "en": "Oneureun neoreul itgi wihan majimak tears",
+      "tr": "Bugün seni unutmak için son gözyaşlarımı döküyorum"
     }
   },
   {
@@ -7047,6 +7587,10 @@
     "firstPair": {
       "en": "Stars in my eyes, constellations for you",
       "tr": "Gözlerimdeki yıldızlar, senin için parlayan takımyıldızları"
+    },
+    "heroPair": {
+      "en": "But if I had to find a way to explain your love",
+      "tr": "Ama eğer aşkını tarif etmem gerekseydi"
     }
   },
   {
@@ -7100,6 +7644,10 @@
     },
     "youtubeUrl": "https://youtu.be/kbEC-AGr9n0?si=31vx-LhNX3t8_r5j",
     "firstPair": {
+      "en": "It hits me like an earthquake (Uh-huh)",
+      "tr": "Bir deprem gibi sarsıyor beni (Uh-huh)"
+    },
+    "heroPair": {
       "en": "It hits me like an earthquake (Uh-huh)",
       "tr": "Bir deprem gibi sarsıyor beni (Uh-huh)"
     }
@@ -7161,6 +7709,10 @@
     "firstPair": {
       "en": "(Ooh) If you tried just a little more times",
       "tr": "(Ooh) Eğer biraz daha deneyip, kalsaydın,"
+    },
+    "heroPair": {
+      "en": "To be born again, baby, to be born again",
+      "tr": "Yeniden doğmanın nasıl bir his olduğunu bebeğim, yeniden doğmanın..."
     }
   },
   {
@@ -7216,6 +7768,10 @@
     "firstPair": {
       "en": "Da-ra, da-da-da-ra",
       "tr": "Benim duygularım biraz farklı akar"
+    },
+    "heroPair": {
+      "en": "I'm that (What?), I'm that attitude",
+      "tr": "Ben o... (Nesin sen?) Ben o tavrın ta kendisiyim"
     }
   },
   {
@@ -7267,6 +7823,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Abracadabra, abracadabra",
+      "tr": "Abrakadabra, abrakadabra (Ha)"
+    },
+    "heroPair": {
       "en": "Abracadabra, abracadabra",
       "tr": "Abrakadabra, abrakadabra (Ha)"
     }
@@ -7324,6 +7884,10 @@
     "firstPair": {
       "en": "Wash me with your fire",
       "tr": "Beni ateşinle arındır"
+    },
+    "heroPair": {
+      "en": "Wash me with your fire",
+      "tr": "Beni ateşinle arındır"
     }
   },
   {
@@ -7379,6 +7943,10 @@
     "firstPair": {
       "en": "Take me to a time when I was young",
       "tr": "Beni gençliğime götür"
+    },
+    "heroPair": {
+      "en": "And my tears fall without a warning either way",
+      "tr": "Ve gözyaşlarım, habersizce düşüyor"
     }
   },
   {
@@ -7432,6 +8000,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "You're not heavy, I rocked you to sleep, I hold you for hours long",
+      "tr": "Sen benim için hiç ağır değildin, uyuyana kadar salladım seni, saatlerce kollarımda tuttum"
+    },
+    "heroPair": {
       "en": "You're not heavy, I rocked you to sleep, I hold you for hours long",
       "tr": "Sen benim için hiç ağır değildin, uyuyana kadar salladım seni, saatlerce kollarımda tuttum"
     }
@@ -7489,6 +8061,10 @@
     "firstPair": {
       "en": "I don't want to waste your time",
       "tr": "Zamanını boşa harcamak istemem"
+    },
+    "heroPair": {
+      "en": "I just want to drive, I just want to drive tomorrow",
+      "tr": "Sadece araba sürmek istiyorum, yarın sadece araba sürmek istiyorum"
     }
   },
   {
@@ -7544,6 +8120,10 @@
     "firstPair": {
       "en": "Conversations with the sky",
       "tr": "Gökyüzüyle konuşmalar"
+    },
+    "heroPair": {
+      "en": "Give me mercy like you do and forgive me like you do",
+      "tr": "Bana merhamet et, her zaman yaptığın gibi, beni affet, her zaman yaptığın gibi"
     }
   },
   {
@@ -7601,6 +8181,10 @@
     "firstPair": {
       "en": "La, la, la, la, la, la",
       "tr": "Senin öfkeli hallerini sevdiğimi biliyorsun"
+    },
+    "heroPair": {
+      "en": "Big sleep, big sleep",
+      "tr": "Büyük Uyku, Büyük Uyku"
     }
   },
   {
@@ -7654,6 +8238,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Take me back to LA",
+      "tr": "Beni Los Angeles'a geri götür"
+    },
+    "heroPair": {
       "en": "Take me back to LA",
       "tr": "Beni Los Angeles'a geri götür"
     }
@@ -7711,6 +8299,10 @@
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
+    },
+    "heroPair": {
+      "en": "In Niagara Falls, ooh, yeah",
+      "tr": "Niagara Şelaleleri'nde, ah, evet"
     }
   },
   {
@@ -7766,6 +8358,10 @@
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
+    },
+    "heroPair": {
+      "en": "I can't wait to get there, I know (Oh, know, know, oh, love, love)",
+      "tr": "Oraya varmak için sabırsızlanıyorum, biliyorum"
     }
   },
   {
@@ -7821,6 +8417,10 @@
     "firstPair": {
       "en": "Love me, love me, love me, say you do",
       "tr": "Sev beni, sev beni, sev beni, söyle sevdiğini"
+    },
+    "heroPair": {
+      "en": "I've given up on me, yeah",
+      "tr": "Kendimden çoktan vazgeçtim,"
     }
   },
   {
@@ -7872,6 +8472,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I tried my best to not let you go",
+      "tr": "Seni bırakmamak için çok çabaladım, inan"
+    },
+    "heroPair": {
       "en": "I tried my best to not let you go",
       "tr": "Seni bırakmamak için çok çabaladım, inan"
     }
@@ -7927,6 +8531,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I need you",
+      "tr": "Sana ihtiyacım var"
+    },
+    "heroPair": {
       "en": "I need you",
       "tr": "Sana ihtiyacım var"
     }
@@ -7986,6 +8594,10 @@
     "firstPair": {
       "en": "Don't you let me down",
       "tr": "Beni yüzüstü bırakma,"
+    },
+    "heroPair": {
+      "en": "Don't you let me down",
+      "tr": "Beni yüzüstü bırakma,"
     }
   },
   {
@@ -8041,6 +8653,10 @@
     "firstPair": {
       "en": "Tell me how our love grows",
       "tr": "Söylesene, aşkımız nasıl büyür ki"
+    },
+    "heroPair": {
+      "en": "You know it's my opening night",
+      "tr": "Bu gece benim açılış gecem, biliyorsun"
     }
   },
   {
@@ -8094,6 +8710,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I can hear the wind blow, even through the window",
+      "tr": "Rüzgarın sesini duyuyorum, pencerenin ardından bile"
+    },
+    "heroPair": {
       "en": "I can hear the wind blow, even through the window",
       "tr": "Rüzgarın sesini duyuyorum, pencerenin ardından bile"
     }
@@ -8151,6 +8771,10 @@
     "firstPair": {
       "en": "I fell asleep in the tub, I was there with paralysis",
       "tr": "Küvette uyuyakaldım, felç olmuş gibiydim"
+    },
+    "heroPair": {
+      "en": "I've been baptized in fear, my dear",
+      "tr": "Korkunun içinde vaftiz edildim, sevgilim"
     }
   },
   {
@@ -8206,6 +8830,10 @@
     "firstPair": {
       "en": "Ah, I get it now",
       "tr": "Ah, şimdi anladım"
+    },
+    "heroPair": {
+      "en": "Listen, people, I can't sing (Can't sing), I can't fucking sing",
+      "tr": "Dinleyin, millet, şarkı söyleyemiyorum… Söyleyemiyorum! Lanet olsun, şarkı söyleyemiyorum!"
     }
   },
   {
@@ -8261,6 +8889,10 @@
     "firstPair": {
       "en": "I can feel it",
       "tr": "Hissedebiliyorum…"
+    },
+    "heroPair": {
+      "en": "And I hope you cry for me like I cry for you",
+      "tr": "Ve umarım benim için ağlarsın, tıpkı senin için ağladığım gibi"
     }
   },
   {
@@ -8318,6 +8950,10 @@
     "firstPair": {
       "en": "All I have is my legacy",
       "tr": "Tek varlığım mirasım"
+    },
+    "heroPair": {
+      "en": "Wake me up, come find me",
+      "tr": "Uyandır beni, bul beni"
     }
   },
   {
@@ -8375,6 +9011,10 @@
     "firstPair": {
       "en": "I'm over, I'm so over",
       "tr": "Bittim artık, gerçekten bittim"
+    },
+    "heroPair": {
+      "en": "This love hangover (Yeah, go)",
+      "tr": "Bu aşk sarhoşluğu yüzünden (Evet, hadi)"
     }
   },
   {
@@ -8428,6 +9068,10 @@
     "firstPair": {
       "en": "My father never talked a lot",
       "tr": "Babam hiçbir zaman çok konuşan bir adam olmadı"
+    },
+    "heroPair": {
+      "en": "Scattered 'cross my family line",
+      "tr": "Bunlar ailemin kanında var"
     }
   },
   {
@@ -8483,6 +9127,10 @@
     "firstPair": {
       "en": "I tell 'em, \"Down, now\"",
       "tr": "İnsanlara \"Sakin olun şimdi\" diyorum,"
+    },
+    "heroPair": {
+      "en": "I'ma keep it Z, zen, present, bless",
+      "tr": "Zen modunda kalacağım, anda olacağım, kutsanmış hissedeceğim"
     }
   },
   {
@@ -8536,6 +9184,10 @@
     "firstPair": {
       "en": "J'ai retrouvé l'sourire quand j'ai vu l'bout du tunnel",
       "tr": "Tünelin ucunu gördüm, gülümsemem geri geldi"
+    },
+    "heroPair": {
+      "en": "J'ai retrouvé l'sourire quand j'ai vu l'bout du tunnel",
+      "tr": "Tünelin ucunu gördüm, gülümsemem geri geldi"
     }
   },
   {
@@ -8587,6 +9239,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I'm friends with the monster",
+      "tr": "Yatağımın altındaki canavarla..."
+    },
+    "heroPair": {
       "en": "I'm friends with the monster",
       "tr": "Yatağımın altındaki canavarla..."
     }
@@ -8644,6 +9300,10 @@
     "firstPair": {
       "en": "Rainbow roses, fancy ice",
       "tr": "Gökkuşağı gülleri, zarif kristaller,"
+    },
+    "heroPair": {
+      "en": "But she got a hold on me likе a python",
+      "tr": "Ama o beni piton gibi sardı, bırakmıyor."
     }
   },
   {
@@ -8701,6 +9361,10 @@
     "firstPair": {
       "en": "I got confessions to make",
       "tr": "İtiraf etmem gereken şeyler var"
+    },
+    "heroPair": {
+      "en": "I got confessions to make",
+      "tr": "İtiraf etmem gereken şeyler var"
     }
   },
   {
@@ -8754,6 +9418,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Oh, no, here we go, watch me shake it low",
+      "tr": "Yine başlıyor, izle beni, nasıl savuruyorum kendimi"
+    },
+    "heroPair": {
       "en": "Oh, no, here we go, watch me shake it low",
       "tr": "Yine başlıyor, izle beni, nasıl savuruyorum kendimi"
     }
@@ -8816,6 +9484,10 @@
     "firstPair": {
       "en": "If you wanna run away with me, I know a galaxy",
       "tr": "Eğer benimle kaçmak istersen, bir galaksi biliyorum;"
+    },
+    "heroPair": {
+      "en": "My sugarboo, I'm levitating",
+      "tr": "Tatlı belam (sugarboo), ayaklarım yerden kesiliyor!"
     }
   },
   {
@@ -8869,6 +9541,10 @@
     "firstPair": {
       "en": "Il était brun, le teint basané",
       "tr": "O esmerdi, teni güneşte yanmış gibiydi,"
+    },
+    "heroPair": {
+      "en": "Tourner dans le vide, vide",
+      "tr": "Boşlukta döndürüyor, döndürüyor"
     }
   },
   {
@@ -8920,6 +9596,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I wanna be a rap star",
+      "tr": "Rap yıldızı olmak istiyorum"
+    },
+    "heroPair": {
       "en": "I wanna be a rap star",
       "tr": "Rap yıldızı olmak istiyorum"
     }
@@ -8975,6 +9655,10 @@
     "firstPair": {
       "en": "My life is so unfair",
       "tr": "Hayatım ne kadar adaletsiz"
+    },
+    "heroPair": {
+      "en": "My life is so unfair",
+      "tr": "Hayatım ne kadar adaletsiz"
     }
   },
   {
@@ -9026,6 +9710,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Tunnel vision got my eyes on you (On you)",
+      "tr": "Sadece sana odaklanmışım, gözüm senden başka bir şey görmüyor (Senden başka)"
+    },
+    "heroPair": {
       "en": "Tunnel vision got my eyes on you (On you)",
       "tr": "Sadece sana odaklanmışım, gözüm senden başka bir şey görmüyor (Senden başka)"
     }
@@ -9085,6 +9773,10 @@
     "firstPair": {
       "en": "You fill up my mind 24/7",
       "tr": "Aklım her an, her saniye seninle dolu"
+    },
+    "heroPair": {
+      "en": "You fill up my mind 24/7",
+      "tr": "Aklım her an, her saniye seninle dolu"
     }
   },
   {
@@ -9140,6 +9832,10 @@
     "firstPair": {
       "en": "Bounce back forever",
       "tr": "Sonsuza dek geri döneceğiz"
+    },
+    "heroPair": {
+      "en": "Bounce back forever",
+      "tr": "Sonsuza dek geri döneceğiz"
     }
   },
   {
@@ -9193,6 +9889,10 @@
     "firstPair": {
       "en": "Je t'aime, je te hais, je t'aime, je te hais",
       "tr": "Seni seviyorum, senden nefret ediyorum, seni seviyorum, senden nefret ediyorum"
+    },
+    "heroPair": {
+      "en": "Mais ma meilleure ennemie, c'est toi",
+      "tr": "Sen benim en büyük düşmanımsın"
     }
   },
   {
@@ -9244,6 +9944,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Santa, tell me if you're really there",
+      "tr": "Noel Baba, gerçekten orada mısın, söyle bana"
+    },
+    "heroPair": {
       "en": "Santa, tell me if you're really there",
       "tr": "Noel Baba, gerçekten orada mısın, söyle bana"
     }
@@ -9301,6 +10005,10 @@
     "firstPair": {
       "en": "Friends break up, friends get married",
       "tr": "Bazı arkadaşlar ayrılır, bazıları evlenir,"
+    },
+    "heroPair": {
+      "en": "Friends break up, friends get married",
+      "tr": "Bazı arkadaşlar ayrılır, bazıları evlenir,"
     }
   },
   {
@@ -9356,6 +10064,10 @@
     "firstPair": {
       "en": "Sometimes, we fly, sometimes, we fall",
       "tr": "Bazen göklere çıkarız, bazen dibe vururuz"
+    },
+    "heroPair": {
+      "en": "If you go down, then we go down together",
+      "tr": "Batarsan, birlikte batarız"
     }
   },
   {
@@ -9411,6 +10123,10 @@
     "firstPair": {
       "en": "Crashing waves, but I'll never fall",
       "tr": "Dalgalar vurur ama ben asla yıkılmam"
+    },
+    "heroPair": {
+      "en": "This my stage, walkin' on water",
+      "tr": "Burası benim sahnem, suyun üstünde yürüyorum"
     }
   },
   {
@@ -9468,6 +10184,10 @@
     "firstPair": {
       "en": "Hey, boy, I'ma get ya",
       "tr": "Hey çocuk, seni tavlayacağım,"
+    },
+    "heroPair": {
+      "en": "My strategy, strategy will get ya, get ya, baby",
+      "tr": "Stratejim, stratejim, stratejim sayesinde seni elde edeceğim bebeğim"
     }
   },
   {
@@ -9495,6 +10215,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Stupid words, lot of bad jokes",
+      "tr": "Aptalca sözler ve bir sürü kötü şaka…"
+    },
+    "heroPair": {
       "en": "Stupid words, lot of bad jokes",
       "tr": "Aptalca sözler ve bir sürü kötü şaka…"
     }
@@ -9552,6 +10276,10 @@
     "firstPair": {
       "en": "Got out of my bed today",
       "tr": "Bugün yatağımdan kalktım"
+    },
+    "heroPair": {
+      "en": "I would dance all night",
+      "tr": "Tüm gece dans ederdim"
     }
   },
   {
@@ -9607,6 +10335,10 @@
     "firstPair": {
       "en": "And it crept up on us, in the way it does",
       "tr": "Her şey sinsice üzerimize geldi, aniden"
+    },
+    "heroPair": {
+      "en": "And that's just too bad for us",
+      "tr": "Ve bu bizim için gerçekten kötü bir durum"
     }
   },
   {
@@ -9662,6 +10394,10 @@
     "firstPair": {
       "en": "We're at a crossroad",
       "tr": "Bir yol ayrımındayız"
+    },
+    "heroPair": {
+      "en": "Do we have a future? Or should I call it the end?",
+      "tr": "Hâlâ bir geleceğimiz var mı, yoksa bu artık son mu?"
     }
   },
   {
@@ -9717,6 +10453,10 @@
     "firstPair": {
       "en": "Say what you want to, babe",
       "tr": "Ne söylersen söyle, sevgilim"
+    },
+    "heroPair": {
+      "en": "Yeah, you're not the same, not the same",
+      "tr": "Aynı değilsin, aynı değilsin"
     }
   },
   {
@@ -9770,6 +10510,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Stay a little longer",
+      "tr": "Biraz daha kal"
+    },
+    "heroPair": {
       "en": "Stay a little longer",
       "tr": "Biraz daha kal"
     }
@@ -9827,6 +10571,10 @@
     "firstPair": {
       "en": "If crying was fun, I'd be having the time of my life",
       "tr": "Ağlamak eğlenceli olsaydı, hayatımın en güzel zamanını geçiriyordum."
+    },
+    "heroPair": {
+      "en": "If crying was fun, I'd be having the time of my life",
+      "tr": "Ağlamak eğlenceli olsaydı, hayatımın en güzel zamanını geçiriyordum."
     }
   },
   {
@@ -9882,6 +10630,10 @@
     "firstPair": {
       "en": "Standing in the corner of a crowded place",
       "tr": "Kalabalık bir partide bir köşeye çekilmişken"
+    },
+    "heroPair": {
+      "en": "Drinks or coffee",
+      "tr": "İster bir şeyler içelim, ister kahve..."
     }
   },
   {
@@ -9935,6 +10687,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Call this what we are, toxic from the start",
+      "tr": "Adını koyalım artık: Başından beri zehirliydik biz"
+    },
+    "heroPair": {
       "en": "Call this what we are, toxic from the start",
       "tr": "Adını koyalım artık: Başından beri zehirliydik biz"
     }
@@ -9992,6 +10748,10 @@
     "firstPair": {
       "en": "How did all fall apart?",
       "tr": "Her şey nasıl da paramparça oldu?"
+    },
+    "heroPair": {
+      "en": "It's been two years and you're still not gone",
+      "tr": "İki yıl oldu, hala gitmedin aklımdan"
     }
   },
   {
@@ -10047,6 +10807,10 @@
     "firstPair": {
       "en": "Eh-eh, eh-eh, eh-eh",
       "tr": "Bir sorun gördüm, farkındayım"
+    },
+    "heroPair": {
+      "en": "Eh-eh, eh-eh, eh-eh",
+      "tr": "Bir sorun gördüm, farkındayım"
     }
   },
   {
@@ -10098,6 +10862,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Ooh, la-la-la",
+      "tr": "Sesli söylemeni istiyorum"
+    },
+    "heroPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
     }
@@ -10155,6 +10923,10 @@
     "firstPair": {
       "en": "Lie with me",
       "tr": "Gel, şöminenin başında"
+    },
+    "heroPair": {
+      "en": "There's a winter ahead",
+      "tr": "Önümüz kış"
     }
   },
   {
@@ -10210,6 +10982,10 @@
     "firstPair": {
       "en": "God knows",
       "tr": "Tanrı şahit"
+    },
+    "heroPair": {
+      "en": "Squabble up, squabble up",
+      "tr": "Kavga çıkar, kavga çıkar!"
     }
   },
   {
@@ -10265,6 +11041,10 @@
     "firstPair": {
       "en": "You say it's changed",
       "tr": "Evet, her şeyin değiştiğini söylüyorsun"
+    },
+    "heroPair": {
+      "en": "Home sweet home",
+      "tr": "Evim evim güzel evim"
     }
   },
   {
@@ -10320,6 +11100,10 @@
     "firstPair": {
       "en": "Who am I? The revolution",
       "tr": "Ben kimim? Bir devrimim ben"
+    },
+    "heroPair": {
+      "en": "You know, I'm your imaginary friend",
+      "tr": "Biliyorsun, ben senin hayali dostunum."
     }
   },
   {
@@ -10375,6 +11159,10 @@
     "firstPair": {
       "en": "Tell me that I'm special, tell me I look pretty",
       "tr": "Bana özel olduğumu, güzel göründüğümü söyle"
+    },
+    "heroPair": {
+      "en": "The number one girl in your eyes",
+      "tr": "...her şeyden vazgeçerim"
     }
   },
   {
@@ -10428,6 +11216,10 @@
     "firstPair": {
       "en": "Tell ell 'em bring it on nun majuchimyeon be gone",
       "tr": "Hodri meydan, gelsin bakalım, gözlerime bakanlar kaçacak"
+    },
+    "heroPair": {
+      "en": "I body, body, who? Body, body, yeah",
+      "tr": "Kim bu güce sahip, kim kontrol ediyor bu bedeni, evet"
     }
   },
   {
@@ -10481,6 +11273,10 @@
     "firstPair": {
       "en": "They will never know the way I feel, won't give up",
       "tr": "Duygularımı asla anlamayacaklar, ama ben pes etmeyeceğim"
+    },
+    "heroPair": {
+      "en": "Together, we're so toxic",
+      "tr": "Birlikteyken çok zehirliyiz"
     }
   },
   {
@@ -10532,6 +11328,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I want your two hands",
+      "tr": "Senin iki elini istiyorum"
+    },
+    "heroPair": {
       "en": "I want your two hands",
       "tr": "Senin iki elini istiyorum"
     }
@@ -10589,6 +11389,10 @@
     "firstPair": {
       "en": "I bought diamonds at my dentist (Dentist)",
       "tr": "Diş hekimime gidip dişlerime elmas taktırdım (Dişçime)"
+    },
+    "heroPair": {
+      "en": "Ice on my teeth, ice on my teeth",
+      "tr": "Dişlerimde pırlanta, dişlerimde pırlanta"
     }
   },
   {
@@ -10640,6 +11444,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "The way we move, uh, skin onto skin",
+      "tr": "Tenimizin birbirine değdiği o anlar,"
+    },
+    "heroPair": {
       "en": "The way we move, uh, skin onto skin",
       "tr": "Tenimizin birbirine değdiği o anlar,"
     }
@@ -10695,6 +11503,10 @@
     "firstPair": {
       "en": "Huin nuni naerideon nal",
       "tr": "Seni öylesine çok özledim ki"
+    },
+    "heroPair": {
+      "en": "Yaksoghae I will come to you",
+      "tr": "Söz veriyorum geleceğim sana"
     }
   },
   {
@@ -10750,6 +11562,10 @@
     "firstPair": {
       "en": "Suthan gyejeoldeureul neomeo",
       "tr": "Mevsimler geçti bir bir önümden"
+    },
+    "heroPair": {
+      "en": "So, I'll leave you a heart on the window",
+      "tr": "Kalp şeklinde bir iz bırakacağım aşkımızın hatırasına"
     }
   },
   {
@@ -10801,6 +11617,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Swibji anha ne naengjeonggwa",
+      "tr": "Senin duyarsızlığınla benim alevli tutkum arasındaki..."
+    },
+    "heroPair": {
       "en": "Swibji anha ne naengjeonggwa",
       "tr": "Senin duyarsızlığınla benim alevli tutkum arasındaki..."
     }
@@ -10856,6 +11676,10 @@
     "firstPair": {
       "en": "Stay sumgyeoljocha dahji anhdeon naui miro stage",
       "tr": "Nefes alamadığım bir labirentteyim"
+    },
+    "heroPair": {
+      "en": "(We'll bounce back and hit another level)",
+      "tr": "(Yeniden ayağa kalkıp daha yüksek bir seviyeye ulaşacağız)"
     }
   },
   {
@@ -10909,6 +11733,10 @@
     "firstPair": {
       "en": "There's a way",
       "tr": "Bir yol var"
+    },
+    "heroPair": {
+      "en": "We'll be running wild",
+      "tr": "Özgürce koşacağız"
     }
   },
   {
@@ -10962,6 +11790,10 @@
     "firstPair": {
       "en": "Get right",
       "tr": "Kendine çeki düzen ver"
+    },
+    "heroPair": {
+      "en": "Two-faced, caught in the middle",
+      "tr": "İkiyüzlü, ortada kaldım"
     }
   },
   {
@@ -11015,6 +11847,10 @@
     "firstPair": {
       "en": "Eongdeongi ppang ppang ppang",
       "tr": "Kalçam dolgun dolgun dolgun,"
+    },
+    "heroPair": {
+      "en": "Hello, bitches",
+      "tr": "Selam sürtükler!"
     }
   },
   {
@@ -11068,6 +11904,10 @@
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
+    },
+    "heroPair": {
+      "en": "They give my scale a name, do-re-mi-fa \"King Giant\"",
+      "tr": "Onlar benim büyüklüğüme bir isim veriyor, do re mi fa “Kral Dev”"
     }
   },
   {
@@ -11121,6 +11961,10 @@
     "firstPair": {
       "en": "Here's to the ones that we got",
       "tr": "Kadeh kaldıralım dostlar, yanımızda olanlara"
+    },
+    "heroPair": {
+      "en": "'Cause the drinks bring back all the memories",
+      "tr": "Çünkü bu içkiler, anıları geri getiriyor"
     }
   },
   {
@@ -11174,6 +12018,10 @@
     "firstPair": {
       "en": "Girl, where you at?",
       "tr": "Neredesin sevgilim?"
+    },
+    "heroPair": {
+      "en": "Ain't no doubt, neon naui dap",
+      "tr": "Hiç şüphe yok, sen benim cevabımsın"
     }
   },
   {
@@ -11227,6 +12075,10 @@
     "firstPair": {
       "en": "I could go and read your mind",
       "tr": "Zihnini okuyabilirim"
+    },
+    "heroPair": {
+      "en": "Ooh, that's so true, ooh",
+      "tr": "Ooh, doğru söze ne denir, ooh"
     }
   },
   {
@@ -11282,6 +12134,10 @@
     "firstPair": {
       "en": "First we rock and that's how we roll",
       "tr": "İlk başta sahnede fırtına gibi estik ve bu bizim nasıl yol aldığımızı gösteriyor"
+    },
+    "heroPair": {
+      "en": "That's how we howling, growling, wildin'",
+      "tr": "Biz böyle uluruz, hırlar, vahşileşiriz"
     }
   },
   {
@@ -11339,6 +12195,10 @@
     "firstPair": {
       "en": "Maybe we should switch careers",
       "tr": "Belki de kariyer değiştirmeliyiz"
+    },
+    "heroPair": {
+      "en": "But if these walls could talk",
+      "tr": "Şu duvarlar dile gelse"
     }
   },
   {
@@ -11394,6 +12254,10 @@
     "firstPair": {
       "en": "Er kennt mein'n Nam'n nicht",
       "tr": "Adımı bilmiyor ama"
+    },
+    "heroPair": {
+      "en": "Und kauf mir Lilien",
+      "tr": "Ve bana zambaklar al"
     }
   },
   {
@@ -11447,6 +12311,10 @@
     "firstPair": {
       "en": "I'ma back up every word, yeah",
       "tr": "Söylediğim her sözün arkasındayım"
+    },
+    "heroPair": {
+      "en": "I can melt an igloo, yeah, 'cause I'm so dang hot",
+      "tr": "Bir igloyu eritebilirim, evet, o kadar ateşliyim"
     }
   },
   {
@@ -11500,6 +12368,10 @@
     "firstPair": {
       "en": "When I dress, I don't think so much",
       "tr": "Giyinirken fazla düşünmem"
+    },
+    "heroPair": {
+      "en": "Baby, got drip (Drip), drip (Drip), drip (Drip), drip",
+      "tr": "Bebeğim, ben tarz sahibiyim (tarz), tarz (tarz), tarz (tarz), tarz"
     }
   },
   {
@@ -11551,6 +12423,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Hear it in your tone",
+      "tr": "Ses tonundan anlayabiliyorum"
+    },
+    "heroPair": {
       "en": "Hear it in your tone",
       "tr": "Ses tonundan anlayabiliyorum"
     }
@@ -11606,6 +12482,10 @@
     "firstPair": {
       "en": "When G.D's in the house (Übermensch)",
       "tr": "GD sahneye çıktığında (Üstün insan burada)"
+    },
+    "heroPair": {
+      "en": "Now I got the power",
+      "tr": "Artık güç bende"
     }
   },
   {
@@ -11663,6 +12543,10 @@
     "firstPair": {
       "en": "Bota na boca, bota na cara, bota onde quiser",
       "tr": "Ağzıma koy, yüzüme koy, nereye istersen koy"
+    },
+    "heroPair": {
+      "en": "Bota na boca, bota na cara, bota onde quiser",
+      "tr": "Ağzıma koy, yüzüme koy, nereye istersen koy"
     }
   },
   {
@@ -11714,6 +12598,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Huh",
+      "tr": "Click-clack, topuk sesleri"
+    },
+    "heroPair": {
       "en": "Huh",
       "tr": "Click-clack, topuk sesleri"
     }
@@ -11771,6 +12659,10 @@
     "firstPair": {
       "en": "watashi wa suta-",
       "tr": "Ben bir yıldızım"
+    },
+    "heroPair": {
+      "en": "watashi wa suta-",
+      "tr": "Ben bir yıldızım"
     }
   },
   {
@@ -11826,6 +12718,10 @@
     "firstPair": {
       "en": "irijeori bappeuge san saramdeul",
       "tr": "(Oradan oraya koşturup duran insanlar"
+    },
+    "heroPair": {
+      "en": "nan byeonhaji ana I’ll be there for you",
+      "tr": "Değişmeyeceğim, senin için orada olacağım"
     }
   },
   {
@@ -11879,6 +12775,10 @@
     "firstPair": {
       "en": "Oh-ah-ah-ah, ah-ah-ah-ah, ah",
       "tr": "Dökecek gözyaşı kalmadı artık"
+    },
+    "heroPair": {
+      "en": "I could play the doctor, I can cure your disease",
+      "tr": "Doktor rolü oynayabilirim, hastalığını iyileştirebilirim"
     }
   },
   {
@@ -11930,6 +12830,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "One look give ‘em Whiplash",
+      "tr": "Tek bir bakışımla hepsinin kafası bana döner"
+    },
+    "heroPair": {
       "en": "One look give ‘em Whiplash",
       "tr": "Tek bir bakışımla hepsinin kafası bana döner"
     }
@@ -11985,6 +12889,10 @@
     "firstPair": {
       "en": "Goin' out tonight, changes into something red",
       "tr": "Bu gece dışarı çıkıyor, üstüne kırmızı bir şeyler giymiş"
+    },
+    "heroPair": {
+      "en": "Goin' out tonight, changes into something red",
+      "tr": "Bu gece dışarı çıkıyor, üstüne kırmızı bir şeyler giymiş"
     }
   },
   {
@@ -12034,6 +12942,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "chaeyeongiya jotaneun raendeom geim",
+      "tr": "Chaeyoung, rastgele oyunları gerçekten seviyor"
+    },
+    "heroPair": {
       "en": "chaeyeongiya jotaneun raendeom geim",
       "tr": "Chaeyoung, rastgele oyunları gerçekten seviyor"
     }
@@ -12093,6 +13005,10 @@
     "firstPair": {
       "en": "I, never before in my life time",
       "tr": "Ömrümde ilk kez böyle hissediyorum"
+    },
+    "heroPair": {
+      "en": "I, never before in my life time",
+      "tr": "Ömrümde ilk kez böyle hissediyorum"
     }
   },
   {
@@ -12144,6 +13060,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Do your thang",
+      "tr": "Kendi tarzını yansıt"
+    },
+    "heroPair": {
       "en": "Do your thang",
       "tr": "Kendi tarzını yansıt"
     }
@@ -12201,6 +13121,10 @@
     "firstPair": {
       "en": "Shinema no naka no twiggy no",
       "tr": "Filmlerdeki Twiggy'nin..."
+    },
+    "heroPair": {
+      "en": "Dakedo, I wanna get a new look (A new look, babe)",
+      "tr": "Ama ben yeni bir stil yaratmak istiyorum bebeğim"
     }
   },
   {
@@ -12252,6 +13176,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "chamchi",
+      "tr": "Ton balığı"
+    },
+    "heroPair": {
       "en": "chamchi",
       "tr": "Ton balığı"
     }
@@ -12309,6 +13237,10 @@
     "firstPair": {
       "en": "Touch, touch, touch, touch, touch",
       "tr": "Dokun, dokun, dokun, dokun, dokun"
+    },
+    "heroPair": {
+      "en": "Touch, touch, touch, touch, touch",
+      "tr": "Dokun, dokun, dokun, dokun, dokun"
     }
   },
   {
@@ -12362,6 +13294,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I-i-i-i-it's a knife when you know they're waitin' for you to choke",
+      "tr": "B-b-b-bu bir hançer, biliyorsun ki onlar senin batacağın anı bekliyorlar"
+    },
+    "heroPair": {
       "en": "I-i-i-i-it's a knife when you know they're waitin' for you to choke",
       "tr": "B-b-b-bu bir hançer, biliyorsun ki onlar senin batacağın anı bekliyorlar"
     }
@@ -12421,6 +13357,10 @@
     "firstPair": {
       "en": "I don't care what people say",
       "tr": "Millet ne derse desin, umrumda değil"
+    },
+    "heroPair": {
+      "en": "You're just my eternal sunshine, sunshine",
+      "tr": "Sen artık sadece sönmeyen güneşimsin, güneşim"
     }
   },
   {
@@ -12474,6 +13414,10 @@
     "firstPair": {
       "en": "I'm tired of being what you want me to be",
       "tr": "Senin istediğin kişi olmaktan çok yoruldum artık"
+    },
+    "heroPair": {
+      "en": "I've become so numb, I can't feel you there",
+      "tr": "Öyle bir hissizleştim ki, varlığını bile hissedemez oldum"
     }
   },
   {
@@ -12529,6 +13473,10 @@
     "firstPair": {
       "en": "Pretty, pretty, pretty, pretty",
       "tr": "Güzellik, güzellik, güzellik, güzellik"
+    },
+    "heroPair": {
+      "en": "This that pretty-girl mantra, this that flaunt ya, just touched down in L.A.​",
+      "tr": "Bu güzel kızların yaşam felsefesi, hava atma zamanı, L.A.'e yeni indik uçaktan"
     }
   },
   {
@@ -12580,6 +13528,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Mon amour",
+      "tr": "Aşkım"
+    },
+    "heroPair": {
       "en": "Mon amour",
       "tr": "Aşkım"
     }
@@ -12637,6 +13589,10 @@
     "firstPair": {
       "en": "I'm trying my best",
       "tr": "Elimden geleni yaptım,"
+    },
+    "heroPair": {
+      "en": "Man, am I the greatest?",
+      "tr": "Adamım, ben en iyisi miyim?"
     }
   },
   {
@@ -12690,6 +13646,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Ooh, la-la-la",
+      "tr": "Sesli söylemeni istiyorum"
+    },
+    "heroPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
     }
@@ -12747,6 +13707,10 @@
     "firstPair": {
       "en": "She knows",
       "tr": "O biliyor"
+    },
+    "heroPair": {
+      "en": "She knows",
+      "tr": "O biliyor"
     }
   },
   {
@@ -12800,6 +13764,10 @@
     "firstPair": {
       "en": "Hate to see you go",
       "tr": "Gitmene dayanamıyorum"
+    },
+    "heroPair": {
+      "en": "I need you in my bed, bed, bed",
+      "tr": "Seni yatağımda istiyorum, yatağımda, yatağımda"
     }
   },
   {
@@ -12853,6 +13821,10 @@
     "firstPair": {
       "en": "Ladies and gentlemen, theys and thems",
       "tr": "Hanımlar ve beyler, her cinsten dostlar"
+    },
+    "heroPair": {
+      "en": "And I think it's 'bout time for the midnight cowboy",
+      "tr": "Ve sanırım gece yarısı kovboyunun zamanı geldi"
     }
   },
   {
@@ -12910,6 +13882,10 @@
     "firstPair": {
       "en": "You know it's all what you wanted",
       "tr": "Hep senin istediğin oldu, biliyorsun."
+    },
+    "heroPair": {
+      "en": "Double-O, bust down the watch, she know that I'm timeless (Timeless)",
+      "tr": "Double-O marka saati taşlarla süsledim, o da biliyor zamansız olduğumu (Zamansız)"
     }
   },
   {
@@ -12965,6 +13941,10 @@
     "firstPair": {
       "en": "Everybody knows my name now",
       "tr": "Artık herkes adımı biliyor"
+    },
+    "heroPair": {
+      "en": "And that's just fuckin' lonely",
+      "tr": "Ve bu, gerçekten yalnız hissettiriyor"
     }
   },
   {
@@ -13016,6 +13996,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Yeah, you got that yummy-yum",
+      "tr": "Evet, sende o albenili tat var"
+    },
+    "heroPair": {
       "en": "Yeah, you got that yummy-yum",
       "tr": "Evet, sende o albenili tat var"
     }
@@ -13071,6 +14055,10 @@
     "firstPair": {
       "en": "Written in these walls are the stories that I can't explain",
       "tr": "Bu duvarlarda, anlatamadığım nice hikaye saklı"
+    },
+    "heroPair": {
+      "en": "The story of my life, I take her home",
+      "tr": "Hayatımın hikayesi, onu eve götürüyorum"
     }
   },
   {
@@ -13124,6 +14112,10 @@
     "firstPair": {
       "en": "Oh, can you stay awake?",
       "tr": "Bir saat daha uyumasan olmaz mı?"
+    },
+    "heroPair": {
+      "en": "You can't hold my heart no more",
+      "tr": "Sen artık benim kalbimi tutamazsın"
     }
   },
   {
@@ -13177,6 +14169,10 @@
     "firstPair": {
       "en": "Tell me somethin' I need to know",
       "tr": "Hadi anlat bana, bilmem gereken ne varsa"
+    },
+    "heroPair": {
+      "en": "Got to love me harder",
+      "tr": "Beni daha çok sevmeye mecbursun"
     }
   },
   {
@@ -13232,6 +14228,10 @@
     "firstPair": {
       "en": "Not tryna be indie",
       "tr": "Öyle marjinal takılmaya çalışmıyorum"
+    },
+    "heroPair": {
+      "en": "I'll be with you from dusk till dawn",
+      "tr": "Alacakaranlıktan şafağa kadar seninle olacağım"
     }
   },
   {
@@ -13281,6 +14281,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "I love it when you call me señorita",
+      "tr": "Bana 'güzelim' demen hoşuma gidiyor"
+    },
+    "heroPair": {
       "en": "I love it when you call me señorita",
       "tr": "Bana 'güzelim' demen hoşuma gidiyor"
     }
@@ -13334,6 +14338,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Aren't you somethin' to admire?",
+      "tr": "Hayran olunacak bir şey değil misin sen?"
+    },
+    "heroPair": {
       "en": "Aren't you somethin' to admire?",
       "tr": "Hayran olunacak bir şey değil misin sen?"
     }
@@ -13391,6 +14399,10 @@
     "firstPair": {
       "en": "Yeah I make it chewy like kkeom jilgeong",
       "tr": "Evet, yapıştırıyorum sakız gibi cakkıdı cakkıdı(1)"
+    },
+    "heroPair": {
+      "en": "Yeah I make it chewy like kkeom jilgeong",
+      "tr": "Evet, yapıştırıyorum sakız gibi cakkıdı cakkıdı(1)"
     }
   },
   {
@@ -13446,6 +14458,10 @@
     "firstPair": {
       "en": "amado nal pyeonhage boneun geot gata",
       "tr": "Galiba beni hafife alıyor"
+    },
+    "heroPair": {
+      "en": "amado nal pyeonhage boneun geot gata",
+      "tr": "Galiba beni hafife alıyor"
     }
   },
   {
@@ -13499,6 +14515,10 @@
     "firstPair": {
       "en": "It's fine, it's cool",
       "tr": "Sorun değil, takılma"
+    },
+    "heroPair": {
+      "en": "Good luck, babe (Well, good luck)",
+      "tr": "İyi şanslar, bebeğim (Neyse, bol şans)"
     }
   },
   {
@@ -13554,6 +14574,10 @@
     "firstPair": {
       "en": "Bultaoreune",
       "tr": "Buralar yanıyor!"
+    },
+    "heroPair": {
+      "en": "Bultaoreune",
+      "tr": "Buralar yanıyor!"
     }
   },
   {
@@ -13605,6 +14629,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "See you so excited (Mm)",
+      "tr": "Görüyorum ki oldukça heyecanlısın"
+    },
+    "heroPair": {
       "en": "See you so excited (Mm)",
       "tr": "Görüyorum ki oldukça heyecanlısın"
     }
@@ -13664,6 +14692,10 @@
     "firstPair": {
       "en": "Lock me up and throw away the key",
       "tr": "Beni kilitle ve anahtarı at"
+    },
+    "heroPair": {
+      "en": "Lock me up and throw away the key",
+      "tr": "Beni kilitle ve anahtarı at"
     }
   },
   {
@@ -13719,6 +14751,10 @@
     "firstPair": {
       "en": "Talk to me",
       "tr": "Konuş benimle"
+    },
+    "heroPair": {
+      "en": "Talk-talk-talk-talk-talk-talk to me in Spanish, Spanish, Spanish, Spanish",
+      "tr": "Benimle İspanyolca konuş, konuş, konuş, İspanyolca, İspanyolca"
     }
   },
   {
@@ -13770,6 +14806,10 @@
     "firstPair": {
       "en": "I got a dirty mind, I got filthy ways",
       "tr": "Aklım kirli (edepsiz), yollarım da öyle"
+    },
+    "heroPair": {
+      "en": "Welcome to the danger zone, step into the fantasy",
+      "tr": "Tehlike bölgesine hoş geldin, fanteziye adım at"
     }
   },
   {
@@ -13827,6 +14867,10 @@
     "firstPair": {
       "en": "Do-Do-Do-Do-Do, Doechii and Katy up in the spot",
       "tr": "Do-Do-Do-Do-Do, Doechii ve Katy sahnede"
+    },
+    "heroPair": {
+      "en": "I'm his, he's mine",
+      "tr": "Ben onunum, o benim"
     }
   },
   {
@@ -13880,6 +14924,10 @@
     "firstPair": {
       "en": "Traffic dies while we are racing home",
       "tr": "Biz eve doğru hızla yol alırken, trafik yavaşlıyor"
+    },
+    "heroPair": {
+      "en": "We're dancing in the flames",
+      "tr": "Alevlerin içinde dans ediyor olacağız"
     }
   },
   {
@@ -13929,6 +14977,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Sleazin' and teasin', I'm sittin' on him",
+      "tr": "Kıvırtıp duruyorum, kışkırtıyorum onu, gidip kucağına oturdum"
+    },
+    "heroPair": {
       "en": "Sleazin' and teasin', I'm sittin' on him",
       "tr": "Kıvırtıp duruyorum, kışkırtıyorum onu, gidip kucağına oturdum"
     }
@@ -13986,6 +15038,10 @@
     "firstPair": {
       "en": "I'm always ready for a war again (A war again)",
       "tr": "Tekrardan bir savaşa her daim hazırım (Tekrardan bir savaşa)"
+    },
+    "heroPair": {
+      "en": "Who gon' pray for me? (Who gon' pray for me?)",
+      "tr": "Kim benim için dua edecek? (Kim benim için dua edecek?)"
     }
   },
   {
@@ -14043,6 +15099,10 @@
     "firstPair": {
       "en": "One, two, three, four (One, two, three, four)",
       "tr": "Bir, iki, üç, dört (Bir, iki, üç, dört)"
+    },
+    "heroPair": {
+      "en": "One, two, three, four (One, two, three, four)",
+      "tr": "Bir, iki, üç, dört (Bir, iki, üç, dört)"
     }
   },
   {
@@ -14098,6 +15158,10 @@
     "firstPair": {
       "en": "Run, run away deo neujgi jeone gihoereul julge",
       "tr": "Kaç, kaç git, iş işten geçmeden son şansını veriyorum sana"
+    },
+    "heroPair": {
+      "en": "Run, run away deo neujgi jeone gihoereul julge",
+      "tr": "Kaç, kaç git, iş işten geçmeden son şansını veriyorum sana"
     }
   },
   {
@@ -14151,6 +15215,10 @@
     "firstPair": {
       "en": "Tell me the taste ain’t good to ya",
       "tr": "Hadi bu tadın hoşuna gitmediğini söylesene"
+    },
+    "heroPair": {
+      "en": "Pineapple slice of me",
+      "tr": "Ananas dilimi gibiyim"
     }
   },
   {
@@ -14204,6 +15272,10 @@
     "firstPair": {
       "en": "iyu eopseo nan saenggin daero chic",
       "tr": "Sebebi yok, olduğum gibi şıkım"
+    },
+    "heroPair": {
+      "en": "(MEOW)",
+      "tr": "(MİYAV)"
     }
   },
   {
@@ -14257,6 +15329,10 @@
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
+    },
+    "heroPair": {
+      "en": "Woke up lookin' like this",
+      "tr": "Uyanınca böyle gözüküyorum"
     }
   },
   {
@@ -14310,6 +15386,10 @@
     "firstPair": {
       "en": "When you get older, plainer, saner",
       "tr": "Yaşlanıp, hayatın sıradanlaşmaya ve mantıklı düşünmeye başladığın an"
+    },
+    "heroPair": {
+      "en": "To all the things I've lost on you, oh",
+      "tr": "Senin uğruna kaybettiğim her şey için"
     }
   },
   {
@@ -14369,6 +15449,10 @@
     "firstPair": {
       "en": "Woah",
       "tr": "Vay be!"
+    },
+    "heroPair": {
+      "en": "And so we pray",
+      "tr": "İşte böyle dua ediyoruz"
     }
   },
   {
@@ -14424,6 +15508,10 @@
     "firstPair": {
       "en": "Same back roads",
       "tr": "Hep aynı arka sokaklar"
+    },
+    "heroPair": {
+      "en": "Oh, I hoped you'd find somebody",
+      "tr": "Umarım birini bulursun"
     }
   },
   {
@@ -14479,6 +15567,10 @@
     "firstPair": {
       "en": "I'm on the run with you, my sweet love",
       "tr": "Seninle kaçıyoruz sevgilim"
+    },
+    "heroPair": {
+      "en": "Under the chemtrails over the country club",
+      "tr": "Burjuva kulübünün tepesindeki uçak izlerinin altında"
     }
   },
   {
@@ -14534,6 +15626,10 @@
     "firstPair": {
       "en": "Michigo sipeunde",
       "tr": "Çılgınca bir şeyler yapmak istiyorum da"
+    },
+    "heroPair": {
+      "en": "What's crazier than loving more?",
+      "tr": "Daha çok sevmekten daha delice ne var ki?"
     }
   },
   {
@@ -14587,6 +15683,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Really, I'm honestly just sad about my shoes",
+      "tr": "Valla, cidden sadece ayakkabılarıma üzülüyorum"
+    },
+    "heroPair": {
       "en": "Really, I'm honestly just sad about my shoes",
       "tr": "Valla, cidden sadece ayakkabılarıma üzülüyorum"
     }
@@ -14644,6 +15744,10 @@
     "firstPair": {
       "en": "Molla ije gyehoek ttawin yeong",
       "tr": "Plan mlan hikaye artık, boş ver gitsin"
+    },
+    "heroPair": {
+      "en": "Molla ije gyehoek ttawin yeong",
+      "tr": "Plan mlan hikaye artık, boş ver gitsin"
     }
   },
   {
@@ -14699,6 +15803,10 @@
     "firstPair": {
       "en": "uri gangajiga neomu bogo sipeo... Siro?",
       "tr": "Ah... Köpeğimi çok özledim... -Siro'yu mu?"
+    },
+    "heroPair": {
+      "en": "Chasing lightning",
+      "tr": "Şimşeği kovalayalım"
     }
   },
   {
@@ -14752,6 +15860,10 @@
     "firstPair": {
       "en": "Woke up to the TV this morning",
       "tr": "Bu sabah gözümü televizyonla açtım"
+    },
+    "heroPair": {
+      "en": "Was the day that I died",
+      "tr": "...benim öldüğüm gündü"
     }
   },
   {
@@ -14807,6 +15919,10 @@
     "firstPair": {
       "en": "geumse neoui dwiro beonjyeooneun Sunset",
       "tr": "Arkanda pat diye beliren gün batımı"
+    },
+    "heroPair": {
+      "en": "four-leaf clover",
+      "tr": "...dört yapraklı yoncamsın"
     }
   },
   {
@@ -14862,6 +15978,10 @@
     "firstPair": {
       "en": "neowa nuni majuchin sungane",
       "tr": "Gözlerimiz buluştuğu o an"
+    },
+    "heroPair": {
+      "en": "I’m on your side too",
+      "tr": "Ben de senin yanındayım"
     }
   },
   {
@@ -14917,6 +16037,10 @@
     "firstPair": {
       "en": "Maengsehaetdeon neowa na",
       "tr": "Seninle ettiğimiz o yeminler var ya"
+    },
+    "heroPair": {
+      "en": "I know I'm not the only one",
+      "tr": "Biliyorum, ''bebeğim'' dediğin tek kişi ben değilim"
     }
   },
   {
@@ -14972,6 +16096,10 @@
     "firstPair": {
       "en": "Suit up ttwieodeulji",
       "tr": "Hadi giyinip hazırlanıp, dalalım işin içine!"
+    },
+    "heroPair": {
+      "en": "Then I’m back again I’m back again",
+      "tr": "Sonra hop diye geri dönüyorum, yine buradayım!"
     }
   },
   {
@@ -15027,6 +16155,10 @@
     "firstPair": {
       "en": "alram eopi nun tteun nal",
       "tr": "Bugün alarmı kurmadım, kendi kendine açıldı gözlerim"
+    },
+    "heroPair": {
+      "en": "We can ease up",
+      "tr": "Hadi rahatlayalım"
     }
   },
   {
@@ -15082,6 +16214,10 @@
     "firstPair": {
       "en": "urineun jigeum unmyeong gateun",
       "tr": "Sanki kader gibi bir sonun..."
+    },
+    "heroPair": {
+      "en": "uteumyeo Hasta La Vista",
+      "tr": "Yüzümüzde gülümseme ile, sonra görüşürüz"
     }
   },
   {
@@ -15137,6 +16273,10 @@
     "firstPair": {
       "en": "When my eyes are on you",
       "tr": "Gözlerim sana kilitlendiğinde"
+    },
+    "heroPair": {
+      "en": "When my eyes are on you",
+      "tr": "Gözlerim sana kilitlendiğinde"
     }
   },
   {
@@ -15190,6 +16330,10 @@
     "firstPair": {
       "en": "You make me wanna",
       "tr": "Bir şeyler yapma isteği uyandırıyorsun"
+    },
+    "heroPair": {
+      "en": "Ah, algorithm, ah",
+      "tr": "Ah, algoritma, ah"
     }
   },
   {
@@ -15243,6 +16387,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Things fall apart",
+      "tr": "Her şey darmadağın oldu"
+    },
+    "heroPair": {
       "en": "Things fall apart",
       "tr": "Her şey darmadağın oldu"
     }
@@ -15300,6 +16448,10 @@
     "firstPair": {
       "en": "Wenn du jetzt gehst, nie wieder kämst",
       "tr": "Şimdi kalkıp gitsen ve bir daha da geri dönmesen"
+    },
+    "heroPair": {
+      "en": "Tat es dir leid? Nein!",
+      "tr": "Üzgün müydün? Hayır!"
     }
   },
   {
@@ -15353,6 +16505,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Act like an angel and dress like crazy",
+      "tr": "Melek gibi davran, çılgınca giyin"
+    },
+    "heroPair": {
       "en": "Act like an angel and dress like crazy",
       "tr": "Melek gibi davran, çılgınca giyin"
     }
@@ -15410,6 +16566,10 @@
     "firstPair": {
       "en": "Broken traffic lights",
       "tr": "Bozuk trafik lambaları"
+    },
+    "heroPair": {
+      "en": "witaeropge Black out",
+      "tr": "Tehlikeli bir şekilde karanlığa gömülüyor"
     }
   },
   {
@@ -15465,6 +16625,10 @@
     "firstPair": {
       "en": "I was a liar, I gave in to the fire",
       "tr": "Yalancıydım, ateşe teslim oldum"
+    },
+    "heroPair": {
+      "en": "So, one last time",
+      "tr": "Bu yüzden, son bir kez"
     }
   },
   {
@@ -15516,6 +16680,10 @@
     "firstPair": {
       "en": "I've been hearin' symphonies",
       "tr": "Bir süredir senfoniler duyuyorum"
+    },
+    "heroPair": {
+      "en": "I just wanna be part of your symphony",
+      "tr": "Sadece senin senfoninin bir parçası olmak istiyorum"
     }
   },
   {
@@ -15569,6 +16737,10 @@
     "firstPair": {
       "en": "Hey, hey",
       "tr": "Hey, hey"
+    },
+    "heroPair": {
+      "en": "Bye, bye, bye",
+      "tr": "Hoşça kal, kal, kal"
     }
   },
   {
@@ -15624,6 +16796,10 @@
     "firstPair": {
       "en": "You, you love it how I move you",
       "tr": "Sen, seni harekete geçirişimi seviyorsun"
+    },
+    "heroPair": {
+      "en": "You'll believe God is a woman",
+      "tr": "Tanrının kadın olduğuna inanacaksın"
     }
   },
   {
@@ -15675,6 +16851,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Jal naganeun aidol raeppeo geu imyeone",
+      "tr": "Başarılı ve popüler bir idol rapçinin ardında"
+    },
+    "heroPair": {
       "en": "Jal naganeun aidol raeppeo geu imyeone",
       "tr": "Başarılı ve popüler bir idol rapçinin ardında"
     }
@@ -15732,6 +16912,10 @@
     "firstPair": {
       "en": "I know I have good judgment, I know I have good taste",
       "tr": "İyi bir muhakeme yeteneğim olduğunu biliyorum, iyi bir zevkim olduğunu biliyorum"
+    },
+    "heroPair": {
+      "en": "Please, please, please",
+      "tr": "Lütfen, lütfen, lütfen"
     }
   },
   {
@@ -15783,6 +16967,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Yeah, hit the gas, ignite it, she sniffs gasoline (She sniffs gasoline)",
+      "tr": "Hadi bakalım, bas gaza, ateşle gitsin, kız benzin kokluyor (Kız benzin kokluyor)"
+    },
+    "heroPair": {
       "en": "Yeah, hit the gas, ignite it, she sniffs gasoline (She sniffs gasoline)",
       "tr": "Hadi bakalım, bas gaza, ateşle gitsin, kız benzin kokluyor (Kız benzin kokluyor)"
     }
@@ -15840,6 +17028,10 @@
     "firstPair": {
       "en": "In the morning when you wake up",
       "tr": "Sabah gözlerini açtığında"
+    },
+    "heroPair": {
+      "en": "I heard when you cry, it rains in heaven",
+      "tr": "Duydum ki, sen ağlayınca cennette de yağmur yağarmış"
     }
   },
   {
@@ -15895,6 +17087,10 @@
     "firstPair": {
       "en": "(I won't give a fuck about you)",
       "tr": "(Seni takmayacağım bile)"
+    },
+    "heroPair": {
+      "en": "You should stay in my good graces",
+      "tr": "Gözümün içine bakmalısın"
     }
   },
   {
@@ -15950,6 +17146,10 @@
     "firstPair": {
       "en": "Oh, I leave quite an impression",
       "tr": "Oh, öyle bir iz bırakmışım ki ardımda"
+    },
+    "heroPair": {
+      "en": "You'll just have to taste me when he's kissin' you",
+      "tr": "Öpüşürken benim tadımı alacaksın, kaçarı yok"
     }
   },
   {
@@ -16005,6 +17205,10 @@
     "firstPair": {
       "en": "Sak pasé!",
       "tr": "Naber?"
+    },
+    "heroPair": {
+      "en": "Man down",
+      "tr": "Adam yere yığıldı"
     }
   },
   {
@@ -16056,6 +17260,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "“ireum, ireum!” sorry bae",
+      "tr": "\"İsmin, ismin!\" özür dilerim bebeğim"
+    },
+    "heroPair": {
       "en": "“ireum, ireum!” sorry bae",
       "tr": "\"İsmin, ismin!\" özür dilerim bebeğim"
     }
@@ -16115,6 +17323,10 @@
     "firstPair": {
       "en": "Niga mueoseul hadeun I will kill for",
       "tr": "Ne yaparsan yap, ben öldürürüm uğruna"
+    },
+    "heroPair": {
+      "en": "Niga mueoseul hadeun I will kill for",
+      "tr": "Ne yaparsan yap, ben öldürürüm uğruna"
     }
   },
   {
@@ -16170,6 +17382,10 @@
     "firstPair": {
       "en": "I can read your mind",
       "tr": "Aklını okuyabilirim"
+    },
+    "heroPair": {
+      "en": "'Cause I can do it with a broken heart",
+      "tr": "Çünkü kalbim paramparça olsa da yapabiliyorum bu işi"
     }
   },
   {
@@ -16221,6 +17437,10 @@
     "firstPair": {
       "en": "Yeah, Yeah",
       "tr": "Hadi, hadi"
+    },
+    "heroPair": {
+      "en": "Ta, ta, ta, ta, ta, ta",
+      "tr": "Tak tak tak tak tak tak"
     }
   },
   {
@@ -16274,6 +17494,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Yeah yeah yeah, drop.",
+      "tr": "Evet, evet, evet, şarkı başlasın"
+    },
+    "heroPair": {
       "en": "Yeah yeah yeah, drop.",
       "tr": "Evet, evet, evet, şarkı başlasın"
     }
@@ -16331,6 +17555,10 @@
     "firstPair": {
       "en": "Damn hipbusim, aidol raeppeo? Cut that bulssi",
       "tr": "Lanet olası hip-hop ha, idol rapçi mi? Kes şu zırvaları!"
+    },
+    "heroPair": {
+      "en": "Damn hipbusim, aidol raeppeo? Cut that bulssi",
+      "tr": "Lanet olası hip-hop ha, idol rapçi mi? Kes şu zırvaları!"
     }
   },
   {
@@ -16386,6 +17614,10 @@
     "firstPair": {
       "en": "(Wock)",
       "tr": "Hop"
+    },
+    "heroPair": {
+      "en": "(Wock)",
+      "tr": "Hop"
     }
   },
   {
@@ -16439,6 +17671,10 @@
     "firstPair": {
       "en": "There's a whisper in the night",
       "tr": "Gecenin koynunda bir fısıltı dolanıyor"
+    },
+    "heroPair": {
+      "en": "I'm the drama, I'm the face",
+      "tr": "Ben dramanın ta kendisiyim, gözler benim üstümde"
     }
   },
   {
@@ -16492,6 +17728,10 @@
     "firstPair": {
       "en": "Ooh, ah",
       "tr": "Ooh, ah"
+    },
+    "heroPair": {
+      "en": "Woah, yojeumeneun byeolbyeolbyeol (See that?)",
+      "tr": "Vay be, bugünlerde neler neler var (Gördün mü?)"
     }
   },
   {
@@ -16543,6 +17783,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "It ain't my fault you keep turnin' me on",
+      "tr": "Beni sürekli tahrik etmen benim suçum değil"
+    },
+    "heroPair": {
       "en": "It ain't my fault you keep turnin' me on",
       "tr": "Beni sürekli tahrik etmen benim suçum değil"
     }
@@ -16600,6 +17844,10 @@
     "firstPair": {
       "en": "I said I'm geeked and I’m fired up (Fired, fire)",
       "tr": "Dedim ki kafam bi' milyon, içim alev alev yanıyor (Yanıyor, ateş)"
+    },
+    "heroPair": {
+      "en": "Loyalty, loyalty, loyalty",
+      "tr": "Sadakat, sadakat, sadakat"
     }
   },
   {
@@ -16651,6 +17899,10 @@
     "firstPair": {
       "en": "I, I just woke up from a dream",
       "tr": "Az önce bir rüyadan uyandım"
+    },
+    "heroPair": {
+      "en": "And die with a smile",
+      "tr": "Ve gülümseyerek ölmek isterdim"
     }
   },
   {
@@ -16702,6 +17954,10 @@
     "firstPair": {
       "en": "Tell 'em to shoot",
       "tr": "Hadi söyle sıksınlar kurşunları!"
+    },
+    "heroPair": {
+      "en": "Keep it on the lowski, I'm the lowest of the lowest",
+      "tr": "Olabildiğince alçakgönüllü ol, oldukça dikkat çekmemeye çalışıyorum"
     }
   },
   {
@@ -16755,6 +18011,10 @@
     "firstPair": {
       "en": "Stuntin' on me, you get exposed (Woo)",
       "tr": "Bana hava atmaya kalk, bak bakalım nasıl rezil oluyorsun"
+    },
+    "heroPair": {
+      "en": "Didn't get here bein' careful, oh (Listen, uh)",
+      "tr": "Sonuçta buralara dikkatli olarak gelmedim"
     }
   },
   {
@@ -16806,6 +18066,10 @@
     "firstPair": {
       "en": "I want you to stay",
       "tr": "Yanımda kalmanı istiyorum"
+    },
+    "heroPair": {
+      "en": "Birds of a feather, we should stick together, I know",
+      "tr": "Bizim huyumuz suyumuz bir, bu yüzden birlikte kalmalıyız, biliyorum"
     }
   },
   {
@@ -16859,6 +18123,10 @@
     "firstPair": {
       "en": "Here I go",
       "tr": "Hadi bakalım başlıyorum!"
+    },
+    "heroPair": {
+      "en": "I'm a new woman, woman",
+      "tr": "Bambaşka bir hatun oldum!"
     }
   },
   {
@@ -16912,6 +18180,10 @@
     "firstPair": {
       "en": "La, la, la, la, la",
       "tr": "Kahvaltıda şampanya içiyoruz, geceyi iyi geceler öpücüğü ile sonlandırıyoruz"
+    },
+    "heroPair": {
+      "en": "La, la, la, la, la",
+      "tr": "Kahvaltıda şampanya içiyoruz, geceyi iyi geceler öpücüğü ile sonlandırıyoruz"
     }
   },
   {
@@ -16963,6 +18235,10 @@
     "firstPair": {
       "en": "Take your eyes off of me so I can leave",
       "tr": "Gözlerini benden çek ki gidebileyim"
+    },
+    "heroPair": {
+      "en": "Take your eyes off of me so I can leave",
+      "tr": "Gözlerini benden çek ki gidebileyim"
     }
   },
   {
@@ -17012,6 +18288,10 @@
     "firstPair": {
       "en": "I took a page out of your favorite book",
       "tr": "En sevdiğin kitaptan bir sayfa kopardım"
+    },
+    "heroPair": {
+      "en": "But tonight I saved my life when I showed you the door",
+      "tr": "Ama bu gece sana kapıyı gösterdiğimde hayatımı kurtardım"
     }
   },
   {
@@ -17063,6 +18343,10 @@
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
+    },
+    "heroPair": {
+      "en": "Don't switch it up whenever you like",
+      "tr": "Öyle her canın istediğinde fikrini değiştirip durma"
     }
   },
   {
@@ -17112,6 +18396,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Gold teeth sittin' on the dash, she a rockstar",
+      "tr": "Göstergede altın dişler var, ah bu kız tam bir rock yıldızı"
+    },
+    "heroPair": {
       "en": "Gold teeth sittin' on the dash, she a rockstar",
       "tr": "Göstergede altın dişler var, ah bu kız tam bir rock yıldızı"
     }
@@ -17167,6 +18455,10 @@
     "firstPair": {
       "en": "Hoffentlich",
       "tr": "Umarım"
+    },
+    "heroPair": {
+      "en": "Wenn du zurück bist, ich wunder', wunder' mich dann nicht",
+      "tr": "Geri döndüğünde, gerçekten şaşırmayacağım, şaşırmayacağım"
     }
   },
   {
@@ -17216,6 +18508,10 @@
     },
     "youtubeUrl": null,
     "firstPair": {
+      "en": "Boom, boom, chk, chk, boom",
+      "tr": "Boom, boom, chk, chk, boom"
+    },
+    "heroPair": {
       "en": "Boom, boom, chk, chk, boom",
       "tr": "Boom, boom, chk, chk, boom"
     }
@@ -17269,6 +18565,10 @@
     "firstPair": {
       "en": "Opened up my journal to a page",
       "tr": "Günlüğümden bir sayfa açtım"
+    },
+    "heroPair": {
+      "en": "Why, why, why? Why, why, why?",
+      "tr": "Neden, neden, neden? Neden, neden, neden?"
     }
   },
   {
@@ -17320,6 +18620,10 @@
     "firstPair": {
       "en": "I'll love you for, I'll love you for life",
       "tr": "Seni bir ömür, bir ömür boyu seveceğim"
+    },
+    "heroPair": {
+      "en": "Lifetimes",
+      "tr": "Ömürler boyu"
     }
   },
   {
@@ -17375,6 +18679,10 @@
     "firstPair": {
       "en": "Last week, I found a message in a bottle",
       "tr": "Geçen hafta şişede bir mesaj buldum"
+    },
+    "heroPair": {
+      "en": "Way too sad to dance",
+      "tr": "Dans edemeyecek kadar üzgünüm"
     }
   },
   {
@@ -17426,6 +18734,10 @@
     "firstPair": {
       "en": "Hey, Billie, you there?",
       "tr": "Hey Billie, orada mısın?"
+    },
+    "heroPair": {
+      "en": "You wanna guess the colour of my underwear",
+      "tr": "Külotumun rengini tahmin etmek istiyorsun"
     }
   },
   {
@@ -17477,6 +18789,10 @@
     "firstPair": {
       "en": "Now he's thinkin' 'bout me every night, oh",
       "tr": "Şimdi her gece beni düşünüyor, oh"
+    },
+    "heroPair": {
+      "en": "That's that me espresso",
+      "tr": "Bu benden kaynaklanıyor, espresso gibiyim"
     }
   },
   {
@@ -17532,6 +18848,10 @@
     "firstPair": {
       "en": "We never met, but she's all I see at night",
       "tr": "Hiç tanışmadık ama geceleri gördüğüm tek kişi o"
+    },
+    "heroPair": {
+      "en": "Who is my heart waiting for?",
+      "tr": "Kalbimin beklediği kişi kim?"
     }
   }
 ]

@@ -16,6 +16,42 @@ function firstPair(post) {
   return { en, tr };
 }
 
+function normalizeLyric(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+// Prefer a lyric pair that actually says the song title. This keeps homepage
+// heroes meaningful when a track begins with an ad-lib such as "Mm-mm".
+function heroPair(post) {
+  const title = normalizeLyric(post.song);
+  if (!title) return firstPair(post);
+
+  const blocks = Array.isArray(post.blocks) ? post.blocks : [];
+  for (let blockIndex = 0; blockIndex < blocks.length; blockIndex += 1) {
+    const original = blocks[blockIndex];
+    if (!original?.original) continue;
+
+    const translation = blocks.slice(blockIndex + 1).find((block) => !block.original);
+    const originalLines = original.lines || [];
+    const translatedLines = translation?.lines || [];
+    const lineIndex = originalLines.findIndex((line) => normalizeLyric(line).includes(title));
+
+    if (lineIndex >= 0) {
+      return {
+        en: originalLines[lineIndex] || "",
+        tr: translatedLines[lineIndex] || translatedLines[0] || "",
+      };
+    }
+  }
+
+  return firstPair(post);
+}
+
 // Every lyric line (both languages) — shipped as a separate lazy-loaded file
 // (/data/search-lines.json) so line search works across whole songs without
 // bloating the JS bundle.
@@ -94,6 +130,7 @@ const index = posts.map((post) => ({
   annotations: post.annotations,
   difficulty_note: post.difficulty_note,
   firstPair: firstPair(post),
+  heroPair: heroPair(post),
 }));
 
 // ---- Content validation: a translation site must not ship untranslated posts.
