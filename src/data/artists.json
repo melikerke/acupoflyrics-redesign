@@ -2,7 +2,7 @@
   {
     "slug": "bts",
     "name": "BTS",
-    "count": 27,
+    "count": 31,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
   },
   {
@@ -320,7 +320,7 @@
   {
     "slug": "taylor-swift",
     "name": "Taylor Swift",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
   },
   {
@@ -1480,5 +1480,11 @@
     "name": "Madonna",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
+  },
+  {
+    "slug": "onerepublic",
+    "name": "OneRepublic",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd"
   }
 ]

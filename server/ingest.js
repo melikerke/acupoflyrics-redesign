@@ -41,8 +41,8 @@ function stanzasToBlocks(stanzas = []) {
     const t = st.translation || [];
     en.push(...o);
     tr.push(...t);
-    blocks.push({ original: true, lines: o });
-    blocks.push({ original: false, lines: t });
+    blocks.push({ original: true, label: st.section || null, lines: o });
+    blocks.push({ original: false, label: st.section || null, lines: t });
     if (st.note && st.note.text) {
       const word = (st.note.word || "").trim();
       if (word) annotations[word] = st.note.text.trim();

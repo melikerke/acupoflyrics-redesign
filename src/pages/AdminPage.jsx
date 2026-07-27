@@ -170,6 +170,7 @@ function stanzasFromPost(post) {
   const usedAnnotations = new Set();
   const stanzas = [];
   let pendingOriginal = [];
+  let pendingSection = null;
 
   const noteFor = (lines) => {
     const text = lines.join("\n");
@@ -183,11 +184,12 @@ function stanzasFromPost(post) {
     const lines = Array.isArray(block.lines) ? block.lines : [];
     if (block.original) {
       pendingOriginal = lines;
+      pendingSection = block.label || null;
       continue;
     }
     const note = noteFor([...pendingOriginal, ...lines]);
     stanzas.push({
-      section: null,
+      section: block.label || pendingSection,
       original: pendingOriginal,
       translation: lines.join("\n"),
       hasNote: Boolean(note),
@@ -195,11 +197,12 @@ function stanzasFromPost(post) {
       noteText: note?.text || "",
     });
     pendingOriginal = [];
+    pendingSection = null;
   }
 
   if (pendingOriginal.length) {
     stanzas.push({
-      section: null,
+      section: pendingSection,
       original: pendingOriginal,
       translation: "",
       hasNote: false,
