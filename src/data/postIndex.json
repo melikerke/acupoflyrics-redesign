@@ -1,5 +1,68 @@
 [
   {
+    "id": "5043",
+    "slug": "dua-lipa-love-again-turkce-ceviri",
+    "title": "Dua Lipa Love Again Türkçe Çeviri",
+    "song": "Love Again",
+    "artist": "Dua Lipa",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+    "date": "2026-07-27T14:21:08.804Z",
+    "reading_time": 3,
+    "excerpt": "I never thought that I would find a way out",
+    "categories": [
+      "Dua Lipa",
+      "Future Nostalgia"
+    ],
+    "category_slugs": [
+      "dua-lipa",
+      "future-nostalgia"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+      "albumUrl": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI",
+      "artistUrl": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+      "albumName": "Future Nostalgia",
+      "releaseDate": "2020-03-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+      "duration": "4:18",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+        "isrc": "GBAHT1901302",
+        "duration": "4:18",
+        "previewUrl": null,
+        "trackNumber": 8
+      },
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d"
+      },
+      "album": {
+        "name": "Future Nostalgia",
+        "url": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+        "releaseDate": "2020-03-27",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/BC19kwABFwc",
+    "annotations": {
+      "sink my teeth in disbelief": "“Sink my teeth in disbelief”: Bu ifadeyi “şaşkınlığın içine hapsolmak” veya “şaşkınlığı iliklerine kadar hissetmek” şeklinde yerelleştirdik; bir şeye inanmakta güçlük çekerken ona tutunma halini anlatıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I never thought that I would find a way out",
+      "tr": "Bir çıkış yolu bulabileceğimi hiç düşünmemiştim"
+    },
+    "heroPair": {
+      "en": "But goddamn, you got me in love again",
+      "tr": "Ama kahretsin, beni kendime yine aşık ettin!"
+    }
+  },
+  {
     "id": "5042",
     "slug": "emin-jony-kamin-turkce-ceviri",
     "title": "EMIN, JONY Камин Türkçe Çeviri",

@@ -1,5 +1,455 @@
 [
   {
+    "id": "5043",
+    "title": "Dua Lipa Love Again Türkçe Çeviri",
+    "song": "Love Again",
+    "slug": "dua-lipa-love-again-turkce-ceviri",
+    "date": "2026-07-27T14:21:08.804Z",
+    "artist": "Dua Lipa",
+    "categories": [
+      "Dua Lipa",
+      "Future Nostalgia"
+    ],
+    "category_slugs": [
+      "dua-lipa",
+      "future-nostalgia"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I never thought that I would find a way out",
+          "I never thought I'd hear my heart beat so loud",
+          "I can't believe there's something left in my chest anymore",
+          "But goddamn, you got me in love again",
+          "I used to think that I was made out of stone",
+          "I used to spend so many nights on my own",
+          "I never knew I had it in me to dance anymore",
+          "But goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bir çıkış yolu bulabileceğimi hiç düşünmemiştim",
+          "Kalbimin bu kadar yüksek sesle attığını duyacağımı hiç sanmazdım",
+          "Göğsümde hala (hissedilecek) bir şeyler kaldığına inanamıyorum bile...",
+          "Ama kahretsin, beni kendime yine aşık ettin!",
+          "Eskiden taştan yapıldığımı sanırdım",
+          "Sırf kendi başıma ne geceler geçirdim...",
+          "İçimde hala dans edecek bir güç olduğuna hiç ihtimal vermezdim;",
+          "Ama kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Show me that heaven's right here, baby",
+          "Touch me, so I know I'm not crazy",
+          "Never have I ever met somebody like you",
+          "Used to be afraid of love and what it might do",
+          "But goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Cennetin tam burada olduğunu göster bana bebeğim",
+          "Dokun bana, deli olmadığımı bileyim...",
+          "Senin gibi biriyle daha önce hiç tanışmamıştım",
+          "Aşktan ve yapabileceklerinden korkardım eskiden;",
+          "Ama kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You got me in love again",
+          "You got me in love again",
+          "You got me in love again",
+          "Again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin;",
+          "Yeniden..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "So many nights, my tears fell harder than rain",
+          "Scared I would take my broken heart to the grave",
+          "I'd rather die than have to live in a storm like before",
+          "But goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Nice geceler, gözyaşlarım yağmurdan daha sert düştü yere",
+          "Kırık kalbimi mezara kadar taşıyacağım diye çok korktum",
+          "Eskisi gibi bir fırtınanın içinde yaşamaktansa ölmeyi yeğlerdim;",
+          "Ama kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Show me that heaven's right here, baby",
+          "Touch me, so I know I'm not crazy",
+          "Never have I ever met somebody like you",
+          "Used to be afraid of love and what it might do",
+          "But goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Cennetin tam burada olduğunu göster bana bebeğim",
+          "Dokun bana, deli olmadığımı bileyim...",
+          "Senin gibi biriyle daha önce hiç tanışmamıştım",
+          "Aşktan ve yapabileceklerinden korkardım eskiden;",
+          "Ama kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You got me in love again",
+          "You got me in love again",
+          "You got me in love again",
+          "Again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin;",
+          "Yeniden..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "I can't believe, I can't believe",
+          "I finally found someone",
+          "I'll sink my teeth in disbelief",
+          "'Cause you're the one that I want",
+          "I can't believe, I can't believe",
+          "I'm not afraid anymore",
+          "Goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "İnanamıyorum, inanamıyorum...",
+          "Sonunda o birini bulduğuma...",
+          "Bu şaşkınlığın (disbelief) içine hapsoldum resmen;¹",
+          "Çünkü istediğim tek kişi sensin!",
+          "İnanamıyorum, inanamıyorum...",
+          "Artık korkmuyorum hiç;",
+          "Kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "La-la-la, la-la-la",
+          "La-la-la, la-la-la",
+          "I never thought that I would find a way out",
+          "I never thought I'd hear my heart beat so loud",
+          "I can't believe there's something left in my chest anymore",
+          "Oh, goddamn, you got me in love again",
+          "(We're in love, we're in love)",
+          "(We're in love, we're in love, oh, oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "La-la-la, la-la-la...",
+          "La-la-la, la-la-la...",
+          "Çıkış yolu bulacağımı hiç düşünmemiştim",
+          "Kalbimin böyle güçlü attığını duyacağımı hiç sanmazdım",
+          "Göğsümde hala bir şeyler kaldığına inanamıyorum...",
+          "Oh kahretsin, beni yine aşık ettin!",
+          "(Aşığız, aşığız...)",
+          "(Aşığız, aşığız, oh, oh...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "I can't believe, I can't believe",
+          "I finally found someone",
+          "I'll sink my teeth in disbelief",
+          "'Cause you're the one that I want",
+          "I can't believe there's something left inside my chest anymore",
+          "But goddamn, you got me in love again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "İnanamıyorum, inanamıyorum...",
+          "Sonunda o birini bulduğuma...",
+          "Bu şaşkınlığa dişlerimi geçiriyorum (bırakmıyorum onu);",
+          "Çünkü istediğim tek kişi sensin!",
+          "Göğsümün içinde hala bir şeyler kaldığına inanamıyorum;",
+          "Ama kahretsin, beni yine aşık ettin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You got me in love again",
+          "You got me in love again",
+          "You got me in love again (Again and again)",
+          "Again (And again and again and again)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin...",
+          "Beni yine aşık ettin (Tekrar ve tekrar...)",
+          "Yeniden (Yine ve yine...)"
+        ]
+      }
+    ],
+    "excerpt": "I never thought that I would find a way out",
+    "annotations": {
+      "sink my teeth in disbelief": "“Sink my teeth in disbelief”: Bu ifadeyi “şaşkınlığın içine hapsolmak” veya “şaşkınlığı iliklerine kadar hissetmek” şeklinde yerelleştirdik; bir şeye inanmakta güçlük çekerken ona tutunma halini anlatıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4rPkN1FMzQyFNP9cLUGIIB",
+        "name": "Love Again",
+        "url": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+        "isrc": "GBAHT1901302",
+        "durationMs": 258004,
+        "duration": "4:18",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6M2wZ9GZgrQXHCFfjv46we",
+        "name": "Dua Lipa",
+        "url": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6M2wZ9GZgrQXHCFfjv46we",
+          "name": "Dua Lipa",
+          "url": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+        }
+      ],
+      "album": {
+        "id": "7fJJK56U9fHixgO0HQkhtI",
+        "name": "Future Nostalgia",
+        "url": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+        "releaseDate": "2020-03-27",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2020 Dua Lipa Limited under exclusive license to Warner Records UK, a division of Warner Music UK Limited",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2020 Dua Lipa Limited under exclusive license to Warner Records UK, a division of Warner Music UK Limited, with the exception of track 1 & 2 2019 Dua Lipa Limited under exclusive license to Warner Records UK, a division of Warner Music UK Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 11,
+        "tracks": [
+          {
+            "id": "6zrJLhslleCHby0wbUnvVy",
+            "name": "Future Nostalgia",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 184881,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6zrJLhslleCHby0wbUnvVy",
+            "isCurrent": false
+          },
+          {
+            "id": "3PfIrDoz19wz7qK7tYeu62",
+            "name": "Don't Start Now",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 183290,
+            "duration": "3:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62",
+            "isCurrent": false
+          },
+          {
+            "id": "2nMOodYNHBAQ3Kc1QNimZU",
+            "name": "Cool",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 209583,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2nMOodYNHBAQ3Kc1QNimZU",
+            "isCurrent": false
+          },
+          {
+            "id": "3AzjcOeAmA57TIOr9zF1ZW",
+            "name": "Physical",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 193829,
+            "duration": "3:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3AzjcOeAmA57TIOr9zF1ZW",
+            "isCurrent": false
+          },
+          {
+            "id": "39LLxExYz6ewLAcYrzQQyP",
+            "name": "Levitating",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 203807,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/39LLxExYz6ewLAcYrzQQyP",
+            "isCurrent": false
+          },
+          {
+            "id": "6DXZiYUbrYgrVIhfX3U9Z2",
+            "name": "Pretty Please",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 194607,
+            "duration": "3:15",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6DXZiYUbrYgrVIhfX3U9Z2",
+            "isCurrent": false
+          },
+          {
+            "id": "1nYeVF5vIBxMxfPoL0SIWg",
+            "name": "Hallucinate",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 208505,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1nYeVF5vIBxMxfPoL0SIWg",
+            "isCurrent": false
+          },
+          {
+            "id": "4rPkN1FMzQyFNP9cLUGIIB",
+            "name": "Love Again",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 258004,
+            "duration": "4:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+            "isCurrent": true
+          },
+          {
+            "id": "017PF4Q3l4DBUiWoXk4OWT",
+            "name": "Break My Heart",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 221820,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/017PF4Q3l4DBUiWoXk4OWT",
+            "isCurrent": false
+          },
+          {
+            "id": "6uAFJ75WDAoAPyCWJAtvks",
+            "name": "Good In Bed",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 218754,
+            "duration": "3:39",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6uAFJ75WDAoAPyCWJAtvks",
+            "isCurrent": false
+          },
+          {
+            "id": "0vQcyuMEfRBd21ojZ62N2L",
+            "name": "Boys Will Be Boys",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 166266,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0vQcyuMEfRBd21ojZ62N2L",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-27T14:21:08.803Z",
+      "trackUrl": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+      "albumUrl": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI",
+      "artistUrl": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+      "albumName": "Future Nostalgia",
+      "albumType": "Album",
+      "releaseDate": "2020-03-27",
+      "duration": "4:18",
+      "isrc": "GBAHT1901302",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd"
+    },
+    "genius": null,
+    "youtubeUrl": "https://youtu.be/BC19kwABFwc",
+    "source": "requested-translation",
+    "seo": {
+      "title": "Dua Lipa - Love Again Türkçe Çeviri | Şarkı Sözleri ve Anlamı",
+      "description": "Dua Lipa - Love Again Türkçe çeviri, orijinal şarkı sözleri, açıklamalı anlamı, Spotify ve video bağlantısı.",
+      "canonical": "https://www.acupoflyrics.com/dua-lipa-love-again-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5042",
     "title": "EMIN, JONY Камин Türkçe Çeviri",
     "song": "Камин",
