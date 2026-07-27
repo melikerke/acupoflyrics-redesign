@@ -270,6 +270,8 @@ export const legacyPostRedirects = {
   "ed-sheeran-azizam": "/ed-sheeran-azizam-turkce-ceviri/",
   "ed-sheeran-azizam-turkce-ceviri": "/ed-sheeran-azizam-turkce-ceviri/",
   "elastigirl": "/lisa-elastigirl-turkce-ceviri/",
+  "emin": "/emin-jony-kamin-turkce-ceviri/",
+  "emin-jony-kamin-turkce-ceviri": "/emin-jony-kamin-turkce-ceviri/",
   "eminem-rihanna-the-monster-turkce-ceviri": "/eminem-rihanna-the-monster-turkce-ceviri/",
   "eminem-the-monster": "/eminem-rihanna-the-monster-turkce-ceviri/",
   "enhypen-knife": "/enhypen-knife-turkce-ceviri/",

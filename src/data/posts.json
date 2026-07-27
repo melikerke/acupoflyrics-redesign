@@ -1,5 +1,257 @@
 [
   {
+    "id": "5042",
+    "title": "EMIN, JONY Камин Türkçe Çeviri",
+    "song": "Камин",
+    "slug": "emin-jony-kamin-turkce-ceviri",
+    "date": "2026-07-27T12:44:36.684Z",
+    "artist": "EMIN, JONY",
+    "categories": [
+      "EMIN",
+      "JONY",
+      "Камин (feat. JONY)"
+    ],
+    "category_slugs": [
+      "emin",
+      "jony",
+      "kamin-feat-jony"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: EMIN",
+        "lines": [
+          "V kamine v shest' utra, fotografiya tvoya",
+          "Goryat vospominaniya o tebe",
+          "U kamina v shest' utra, razbitaya dusha",
+          "I vse tvoi obeshchaniya — pustota"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: EMIN",
+        "lines": [
+          "Sabahın altısı, şöminenin içinde senin fotoğrafın",
+          "Sana dair tüm hatıralar yanıp kül oluyor",
+          "Şöminenin başında sabahın altısında; paramparça bir ruh",
+          "Ve verdiğin tüm o sözler; koca bir hiçlik (boşluk)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: JONY",
+        "lines": [
+          "V kamine v shest' utra, fotografiya tvoya",
+          "Goryat vospominaniya o tebe",
+          "U kamina v shest' utra, razbitaya dusha",
+          "I vse tvoi obeshchaniya — pustota",
+          "V kamine v shest' utra"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: JONY",
+        "lines": [
+          "Sabahın altısı, şöminenin içinde senin fotoğrafın",
+          "Sana dair tüm hatıralar yanıp kül oluyor",
+          "Şöminenin başında sabahın altısında; paramparça bir ruh",
+          "Ve verdiğin tüm o sözler; koca bir hiçlik",
+          "Şöminenin içinde, sabahın altısında..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse: EMIN & JONY",
+        "lines": [
+          "Tvoy mayak podaril mne bol'",
+          "Ustal ya zhit', vse obidy taya",
+          "Ukhodi, za soboy zakroy",
+          "Skol'ko by ya ni prosil",
+          "Nu, ty zhe znala, chto menya teryala",
+          "Ya bosikom po styoklam, begal tak upryamo",
+          "Yesli by ne tvoy milyy golosok",
+          "Ya by upal, sdelav posledniy vzdokh",
+          "I zvyozdy mirno padali kak budto dlya menya",
+          "Ya kazhdyy raz zagadyval tebya ne poteryat'",
+          "No bol'she ne mogu, ya prosto muchayu sebya",
+          "Teper' ty bol'she ne moya"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse: EMIN & JONY",
+        "lines": [
+          "Senin o ışığın (deniz fenerin)¹ sadece acı getirdi bana",
+          "Tüm kırgınlıklarımı içime atarak yaşamaktan yoruldum artık",
+          "Git artık, kapat kapıyı arkandan",
+          "Kaç kez yalvarmış olursam olayım...",
+          "Biliyordun işte, beni kaybettiğini biliyordun",
+          "Cam kırıkları üzerinde yalınayak, öyle inatla koştum ki...²",
+          "Eğer o tatlı sesin olmasaydı;",
+          "Son nefesimi verip, oracıkta yığılıp kalırdım",
+          "Yıldızlar sanki benim için huzurla kayıyordu gökyüzünden;",
+          "Seni kaybetmemek için her seferinde bir dilek tutardım",
+          "Ama artık yapamıyorum, sadece kendime işkence ediyorum",
+          "Artık benim değilsin..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: EMIN",
+        "lines": [
+          "V kamine v shest' utra, fotografiya tvoya",
+          "Goryat vospominaniya o tebe",
+          "U kamina v shest' utra, razbitaya dusha",
+          "I vse tvoi obeshchaniya — pustota"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: EMIN",
+        "lines": [
+          "Sabahın altısı, şöminenin içinde senin fotoğrafın",
+          "Sana dair tüm hatıralar yanıp kül oluyor",
+          "Şöminenin başında sabahın altısında; paramparça bir ruh",
+          "Ve verdiğin tüm o sözler; koca bir hiçlik"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: JONY",
+        "lines": [
+          "V kamine v shest' utra, fotografiya tvoya",
+          "Goryat vospominaniya o tebe (O tebe)",
+          "U kamina v shest' utra, razbitaya dusha",
+          "I vse tvoi obeshchaniya — pustota"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: JONY",
+        "lines": [
+          "Sabahın altısı, şöminenin içinde senin fotoğrafın",
+          "Sana dair tüm hatıralar yanıp kül oluyor (Sana dair...)",
+          "Şöminenin başında sabahın altısında; paramparça bir ruh",
+          "Ve verdiğin tüm o sözler; koca bir hiçlik"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: JONY",
+        "lines": [
+          "(Pustota, pustota-a-a, vou)",
+          "(Pustota-a, pustota)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: JONY",
+        "lines": [
+          "(Koca bir hiçlik, hiçlik... woah...)",
+          "(Hiçlik, koca bir boşluk...)"
+        ]
+      }
+    ],
+    "excerpt": "V kamine v shest' utra, fotografiya tvoya",
+    "annotations": {
+      "mayak": "“Маяк” (Mayak): Deniz feneri. Şarkıda sevgilinin ona yol gösteren bir ışık olması gerekirken sadece acı verdiğini belirten acı bir metafor.",
+      "bosikom po styoklam": "“Я босиком по стёклам”: Cam kırıkları üzerinde yalınayak yürümek/koşmak; bir ilişkiyi kurtarmak için çekilen aşırı ıstırabı ve fedakarlığı simgeler."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "057YRaQ57p70MVg4hMIIkB",
+        "name": "Камин (feat. JONY)",
+        "url": "https://open.spotify.com/track/057YRaQ57p70MVg4hMIIkB",
+        "isrc": "RUA582103802",
+        "durationMs": 187619,
+        "duration": "3:08",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0sKY9AcBdiGx4FbFbQsXoX",
+        "name": "EMIN",
+        "url": "https://open.spotify.com/artist/0sKY9AcBdiGx4FbFbQsXoX",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba143e8f8c71d53dd8bb55ebc",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0sKY9AcBdiGx4FbFbQsXoX",
+          "name": "EMIN",
+          "url": "https://open.spotify.com/artist/0sKY9AcBdiGx4FbFbQsXoX"
+        },
+        {
+          "id": "2ISiyx4DLCMAMBCvPesCoq",
+          "name": "JONY",
+          "url": "https://open.spotify.com/artist/2ISiyx4DLCMAMBCvPesCoq"
+        }
+      ],
+      "album": {
+        "id": "59JE4Kl5uidquP1uKwGDtN",
+        "name": "Камин (feat. JONY)",
+        "url": "https://open.spotify.com/album/59JE4Kl5uidquP1uKwGDtN",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+        "releaseDate": "2020-03-27",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2020 Atlantic Records Russia",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2020 Atlantic Records Russia",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "057YRaQ57p70MVg4hMIIkB",
+            "name": "Камин (feat. JONY)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 187619,
+            "duration": "3:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/057YRaQ57p70MVg4hMIIkB",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-27T12:44:36.589Z",
+      "trackUrl": "https://open.spotify.com/track/057YRaQ57p70MVg4hMIIkB",
+      "albumUrl": "https://open.spotify.com/album/59JE4Kl5uidquP1uKwGDtN",
+      "artistUrl": "https://open.spotify.com/artist/0sKY9AcBdiGx4FbFbQsXoX",
+      "albumName": "Камин (feat. JONY)",
+      "albumType": "Single",
+      "releaseDate": "2020-03-27",
+      "duration": "3:08",
+      "isrc": "RUA582103802",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283"
+    },
+    "genius": null,
+    "youtubeUrl": "https://youtu.be/nOeJuoFs6sM",
+    "source": "requested-translation",
+    "seo": {
+      "title": "EMIN, JONY - Камин Türkçe Çeviri | Şarkı Sözleri ve Anlamı",
+      "description": "EMIN ve JONY - Камин Türkçe çeviri, Latin harfli şarkı sözleri, açıklamalı anlamı, Spotify ve video bağlantısı.",
+      "canonical": "https://www.acupoflyrics.com/emin-jony-kamin-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5041",
     "title": "BTS Best of Me Türkçe Çeviri",
     "song": "Best of Me",

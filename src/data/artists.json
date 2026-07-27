@@ -1486,5 +1486,17 @@
     "name": "OneRepublic",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd"
+  },
+  {
+    "slug": "emin",
+    "name": "EMIN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba143e8f8c71d53dd8bb55ebc",
+    "count": 1
+  },
+  {
+    "slug": "jony",
+    "name": "JONY",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfaca175ff553179f6b3bed6a",
+    "count": 1
   }
 ]

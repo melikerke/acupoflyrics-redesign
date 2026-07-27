@@ -1,5 +1,71 @@
 [
   {
+    "id": "5042",
+    "slug": "emin-jony-kamin-turkce-ceviri",
+    "title": "EMIN, JONY Камин Türkçe Çeviri",
+    "song": "Камин",
+    "artist": "EMIN, JONY",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+    "date": "2026-07-27T12:44:36.684Z",
+    "reading_time": 2,
+    "excerpt": "V kamine v shest' utra, fotografiya tvoya",
+    "categories": [
+      "EMIN",
+      "JONY",
+      "Камин (feat. JONY)"
+    ],
+    "category_slugs": [
+      "emin",
+      "jony",
+      "kamin-feat-jony"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/057YRaQ57p70MVg4hMIIkB",
+      "albumUrl": "https://open.spotify.com/album/59JE4Kl5uidquP1uKwGDtN",
+      "artistUrl": "https://open.spotify.com/artist/0sKY9AcBdiGx4FbFbQsXoX",
+      "albumName": "Камин (feat. JONY)",
+      "releaseDate": "2020-03-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+      "duration": "3:08",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/057YRaQ57p70MVg4hMIIkB",
+        "isrc": "RUA582103802",
+        "duration": "3:08",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "EMIN",
+        "url": "https://open.spotify.com/artist/0sKY9AcBdiGx4FbFbQsXoX",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba143e8f8c71d53dd8bb55ebc"
+      },
+      "album": {
+        "name": "Камин (feat. JONY)",
+        "url": "https://open.spotify.com/album/59JE4Kl5uidquP1uKwGDtN",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273870c1c64b1d77eb4456e4283",
+        "releaseDate": "2020-03-27",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/nOeJuoFs6sM",
+    "annotations": {
+      "mayak": "“Маяк” (Mayak): Deniz feneri. Şarkıda sevgilinin ona yol gösteren bir ışık olması gerekirken sadece acı verdiğini belirten acı bir metafor.",
+      "bosikom po styoklam": "“Я босиком по стёклам”: Cam kırıkları üzerinde yalınayak yürümek/koşmak; bir ilişkiyi kurtarmak için çekilen aşırı ıstırabı ve fedakarlığı simgeler."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "V kamine v shest' utra, fotografiya tvoya",
+      "tr": "Sabahın altısı, şöminenin içinde senin fotoğrafın"
+    },
+    "heroPair": {
+      "en": "V kamine v shest' utra, fotografiya tvoya",
+      "tr": "Sabahın altısı, şöminenin içinde senin fotoğrafın"
+    }
+  },
+  {
     "id": "5041",
     "slug": "bts-best-of-me-turkce-ceviri",
     "title": "BTS Best of Me Türkçe Çeviri",
