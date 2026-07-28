@@ -337,6 +337,15 @@ export function albumNameFor(post) {
   return compactTitle(post.spotify?.album?.name || post.spotify?.albumName || post.categories?.[1] || "Tekli");
 }
 
+export function albumArtistFor(post) {
+  return compactTitle(post.spotify?.artist?.name || post.artist || "");
+}
+
+export function albumArtistSlugFor(post) {
+  const artist = albumArtistFor(post);
+  return artistByName.get(artist.toLowerCase())?.slug || albumSlugFor(artist);
+}
+
 export function albumSlugFor(name) {
   return String(name || "album").toLowerCase()
     // Turkish letters that don't decompose under NFD (notably dotless \u0131).
@@ -351,12 +360,13 @@ export const albumShelf = (() => {
   for (const p of enriched) {
     const name = albumNameFor(p);
     if (!name || name === "Tekli") continue;
-    const key = `${p.artist}::${name}`;
+    const artist = albumArtistFor(p);
+    const key = `${artist}::${name}`;
     const current = map.get(key);
     const item = {
-      slug: albumSlugFor(`${p.artist}-${name}`),
+      slug: albumSlugFor(`${artist}-${name}`),
       name,
-      artist: p.artist,
+      artist,
       cover: p.spotify?.album?.cover || p.spotify?.coverUrl || p.cover,
       releaseDate: p.spotify?.album?.releaseDate || p.spotify?.releaseDate || p.date,
       spotifyUrl: p.spotify?.album?.url || p.spotify?.albumUrl,
@@ -536,8 +546,9 @@ export const albumIndex = (() => {
   for (const p of enriched) {
     const name = albumNameFor(p);
     if (!name || name === "Tekli") continue; // singles have no album destination
-    const artistSlug = primaryArtistSlug(p);
-    const slug = albumSlugFor(`${p.artist}-${name}`);
+    const artist = albumArtistFor(p);
+    const artistSlug = albumArtistSlugFor(p);
+    const slug = albumSlugFor(`${artist}-${name}`);
     const existing = map.get(slug);
     if (existing) {
       existing.tracks.push(p);
@@ -546,7 +557,7 @@ export const albumIndex = (() => {
     map.set(slug, {
       slug,
       name,
-      artist: p.artist,
+      artist,
       artistSlug,
       cover: p.spotify?.album?.cover || p.spotify?.coverUrl || p.cover,
       releaseDate: releaseDateOf(p),

@@ -1,5 +1,2205 @@
 [
   {
+    "id": "5053",
+    "title": "KARD Always Türkçe Çeviri",
+    "song": "Always",
+    "slug": "kard-always-turkce-ceviri",
+    "date": "2026-07-28T09:21:19.374Z",
+    "artist": "KARD",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "uri geunare urin",
+          "ama yeongwonhaetgetji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "O günlerde biz...",
+          "Belki de sonsuzduk."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1 - Rap Section",
+        "lines": [
+          "geu sijeol sonyeongwa sonyeo",
+          "cheongsajinui panorama",
+          "chaesaekhae nae calor, nega seukechihan baro",
+          "pareuthan chonyeonui somyeong",
+          "You gave us salresiojeogin ne joryeok",
+          "gongyuhae on salmui domyeon",
+          "ttaeron gitdeureo neon parangsaero",
+          "On ma gwitgae caramelo",
+          "gulgokjyeodo boda ipchejeogin our kkumeul jomyeonghae ma eyes",
+          "Sunshinekkaji eternal",
+          "jikyeonael sunbaegui sunsuham",
+          "For my eoreunai, it’s you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1 - Rap Section",
+        "lines": [
+          "O günlerin o çocuğu ve kızı...",
+          "Gelecek planlarımızın o panoraması.",
+          "Benim heyecanımı (calor) renklendir; tam da senin çizdiğin (sketch) gibi.",
+          "Taptaze, gençlik yıllarının o büyük amacı...",
+          "Bize o yüce, yol gösteren desteğini (Salesio)¹ sundun.",
+          "Paylaştığımız bu hayatın o ortak yol haritası (blueprint)...",
+          "Bazen bir \"mavi kuş\" (mutluluk) gibi kondun gönlüme,",
+          "Kulağımda karamel (caramelo) tadında bir sesle...",
+          "Yollar engebeli olsa da, hayallerimizi daha üç boyutlu aydınlatıyor gözlerim;",
+          "Güneşin doğuşuna kadar, sonsuza dek...",
+          "Korumalıyız o bembeyaz masumiyetimizi;",
+          "Benim o \"içindeki çocuğu yaşatan\" (kidult) yanım için; o kişi sensin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "modeun geol noko sipdeon night",
+          "Your touch kept my heart beating",
+          "Come dancing with me",
+          "dalbit araeseo one last time tonight"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Her şeyi bırakıp gitmek istediğim o gece...",
+          "Senin dokunuşun kalbimi hayatta tuttu.",
+          "Gel, dans et benimle;",
+          "Ay ışığının altında, bu gece son bir kez daha..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "eodumi geothigo nan dwi",
+          "balgeun bichi uril hyanghae bichwo",
+          "chanranhaetdeon jinan naldeul",
+          "ije dasi sseonaeryeo gal story",
+          "Always be your light in the dark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Karanlık dağılıp gittiğinde,",
+          "Parlak bir ışık süzülüyor bize doğru.",
+          "O ışıl ışıl geçen eski günlerimiz gibi;",
+          "Şimdi hikâyemizi yeniden yazma vakti...",
+          "Karanlığın içinde daima senin ışığın olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "maneun mareun piryo eopseo",
+          "We don't need to rush",
+          "Just take your time",
+          "I will always be your light in the dark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Çok söze gerek yok,",
+          "Acele etmemize gerek yok hiç.",
+          "Sadece akışına bırak (take your time);",
+          "Karanlığın içinde daima senin ışığın olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "Sometimes I don’t wanna",
+          "Associate with a world so dark and I",
+          "Get lost in the drama",
+          "But it’s you that always brought me back to life",
+          "salmeul daehaneun maeumi eoduwojyeo gandamyeon",
+          "nareul jikyeojun neol tteoolrigon hae",
+          "eopneun geose jipchageul naeryeonoko",
+          "da gajin deuthan gibun neul nal neukkige hae",
+          "I thank you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Bazen hiç istemiyorum;",
+          "Bu kadar karanlık bir dünyayla muhatap olmayı (associate)...",
+          "Ve bazen kayboluyorum tüm bu dramanın içinde;",
+          "Ama beni her seferinde hayata döndüren (back to life) sendin.",
+          "Hayata karşı bakışım kararmaya başladığında,",
+          "Beni koruyan seni getiriyorum aklıma...",
+          "Eksik olan şeylere takılmayı bırakıp,",
+          "Sanki her şeye sahipmişim gibi hissettiriyorsun bana.",
+          "Sana teşekkür ederim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4",
+        "lines": [
+          "gieokhalkka geuttaeui uri",
+          "seotulgido haesseotji",
+          "oraen sigani heulreogado",
+          "yeongwonhi gieokdoegil"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4",
+        "lines": [
+          "Hatırlar mısın o zamanki hâlimizi?",
+          "Ne kadar da acemiydik (서툴기도)...",
+          "Aradan uzun yıllar geçse de;",
+          "Dilerim sonsuza dek hatırlanır bu anlar."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "eodumi geothigo nan dwi",
+          "balgeun bichi uril hyanghae bichwo",
+          "chanranhaetdeon jinan naldeul",
+          "ije dasi sseonaeryeo gal story",
+          "Always be your light in the dark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Karanlık dağılıp gittiğinde,",
+          "Parlak bir ışık süzülüyor bize doğru.",
+          "O ışıl ışıl geçen eski günlerimiz gibi;",
+          "Şimdi hikâyemizi yeniden yazma vakti...",
+          "Karanlığın içinde daima senin ışığın olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "maneun mareun piryo eopseo",
+          "We don't need to rush",
+          "Just take your time",
+          "I will always be your light in the dark",
+          "(Always be your light)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Çok söze gerek yok,",
+          "Acele etmemize gerek yok hiç.",
+          "Sadece akışına bırak;",
+          "Karanlığın içinde daima senin ışığın olacağım.",
+          "(Daima ışığın olacağım...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 5 - Rap Section",
+        "lines": [
+          "Right here chanranhage bitna",
+          "Right here euneunhi beonjyeoga",
+          "From day one yudaegami chaewonaen sewol",
+          "Stay eodideunji neol hyanghae wichihae, Always",
+          "yaksokhaetjana Now the days come",
+          "Day ones, time to pay you my appreciation"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 5 - Rap Section",
+        "lines": [
+          "Tam burada, görkemli bir şekilde parlıyoruz;",
+          "Tam burada, ışık usulca yayılıyor her yere...",
+          "En başından beri (from day one), aramızdaki o bağla dolup taşan bunca yıl...",
+          "Nerede olursan ol, yönüm hep sana dönük; daima (Always).",
+          "Söz vermiştik ya hani; işte o günler geldi sonunda.",
+          "Yol arkadaşım (day ones); şimdi size olan minnetimi ödeme vakti."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "eodumi geothigo nan dwi",
+          "balgeun bichi uril hyanghae bichwo",
+          "chanranhaetdeon jinan naldeul",
+          "ije dasi sseonaeryeo gal story",
+          "Always be your light in the dark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Karanlık dağılıp gittiğinde,",
+          "Parlak bir ışık süzülüyor bize doğru.",
+          "O ışıl ışıl geçen eski günlerimiz gibi;",
+          "Şimdi hikâyemizi yeniden yazma vakti...",
+          "Karanlığın içinde daima senin ışığın olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge / Outro",
+        "lines": [
+          "maneun mareun piryo eopseo",
+          "We don't need to rush",
+          "Just take your time",
+          "I will always be your light in the dark",
+          "Always Always Always",
+          "Be your light",
+          "Always Always Always",
+          "Be your light",
+          "(Always be your light)",
+          "Always Always Always",
+          "Be your light Always",
+          "I will always be your light in the dark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge / Outro",
+        "lines": [
+          "Çok söze gerek yok,",
+          "Acele etmemize gerek yok hiç.",
+          "Sadece akışına bırak;",
+          "Karanlığın içinde daima senin ışığın olacağım.",
+          "Daima, daima, daima...",
+          "Senin ışığın olacağım.",
+          "Her zaman, her zaman...",
+          "Senin ışığın olacağım.",
+          "(Daima ışığın olacağım...)",
+          "Her zaman...",
+          "Senin ışığın olacağım, daima.",
+          "Karanlığın içinde daima senin ışığın olacağım."
+        ]
+      }
+    ],
+    "excerpt": "uri geunare urin",
+    "annotations": {
+      "Salesio": "İtalyan eğitmen Don Bosco’nun (Salesians) felsefesine atıf; gençlere verilen karşılıksız, koruyucu ve sevgi dolu desteği simgeler."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2KWEaIqIHH2fVl7btFtAen",
+        "name": "Always",
+        "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+        "isrc": "KRA382603093",
+        "durationMs": 192000,
+        "duration": "3:12",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 9,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
+        }
+      ],
+      "album": {
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": false
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": true
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T09:21:17.205Z",
+      "trackUrl": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "albumType": "Album",
+      "releaseDate": "2026-07-28",
+      "duration": "3:12",
+      "isrc": "KRA382603093",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35"
+    },
+    "genius": {
+      "url": "https://genius.com/Kard-always-lyrics",
+      "songId": 13894507,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/kjRhhrcLr0c?si=L6zS6SdSFoy4OvBS",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5052",
+    "title": "KARD Signal Türkçe Çeviri",
+    "song": "Signal",
+    "slug": "kard-signal-turkce-ceviri",
+    "date": "2026-07-28T09:21:12.846Z",
+    "artist": "KARD",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "(yeah yeah)",
+          "Pull up on 4",
+          "Forgiatos on chrome",
+          "Up like butterfly doors",
+          "Whole squad on go",
+          "Bad lil’ shorty approached",
+          "momnolrimeuro malhae got me like"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "(yeah yeah)",
+          "Dört teker üzerinde daldık mevzuya,",
+          "Krom Forgiato jantlar parlıyor...",
+          "Martı kanat kapılar (butterfly doors) gibi havadayız;",
+          "Tüm ekip harekete (on go) hazır!",
+          "Fena bir fıstık yaklaştı yanıma;",
+          "Beden diliyle anlatıyor her şeyi, beni benden alıyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Come come on now come on now wanna",
+          "Sip you down drown up in my water like",
+          "Love how you feel",
+          "Vibe is surreal",
+          "neoraneun padoe ppajyeo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Hadi gel, gel artık yanıma;",
+          "Seni bir dikişte bitirmek, suyunda boğulmak istiyorum...",
+          "Hislerine bayılıyorum,",
+          "Bu hava çok gerçeküstü (surreal);",
+          "Senin o dalgalarına kapıldım gidiyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I see you, a perfect 10",
+          "Want some more of your attention",
+          "I’m hoping this night ain’t ’bout to end",
+          "Just gimme that sinho sinho sinho sinho",
+          "Oh yeah yeah",
+          "You looking divino vino vino vino",
+          "Oh yeah yeah, I know ya",
+          "Keep moving your body",
+          "Can’t tell if you want me",
+          "She knows she knows she knows she knows",
+          "Just gimme that Signal"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Görüyorum seni, tam 10 üzerinden 10’luksun!",
+          "İlgine biraz daha talibim;",
+          "Umarım bu gece hiç bitmez...",
+          "Hadi bana o sinyali (신호) ver, sinyali, sinyali...",
+          "Oh yeah yeah!",
+          "İlahi (divino) görünüyorsun, baş döndürücü...",
+          "Seni tanıyorum artık;",
+          "Vücudunu hareket ettirmeye devam et,",
+          "Beni isteyip istemediğini çözemiyorum henüz;",
+          "Ama o biliyor, her şeyi çok iyi biliyor...",
+          "Sadece bana o sinyali ver!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Set this place on fire (on fire)",
+          "Lift that cup lil’ higher (higher)",
+          "You ’bout to be hypnotized",
+          "All night long",
+          "Que belleza",
+          "Legit, kwinui migam",
+          "Bella your simseong tagonatji midam",
+          "She got good simmian",
+          "geu anmok what I like",
+          "Baddie Goddess",
+          "neon gochawon ‘mi’ beyond"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bu mekânı ateşe verin (on fire)!",
+          "Kaldır o kadehi biraz daha yukarı (higher)!",
+          "Hipnotize olmak üzeresin;",
+          "Tüm gece boyunca...",
+          "Ne büyük bir güzellik (Que belleza)!",
+          "Harbi, bir kraliçenin estetiği (migam) var sende.",
+          "Güzel (Bella) ruhun, doğuştan gelen o asalet; tam bir efsane (midam)...",
+          "Güzelliği gören o keskin gözlerin (Simmian);",
+          "İşte o bakış açısı tam benim tarzım!",
+          "Asi bir Tanrıça (Baddie Goddess);",
+          "Sen o alışılmış güzelliğin çok ötesindesin (beyond)."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I see you, a perfect 10",
+          "Want some more of your attention",
+          "I’m hoping this night ain’t ’bout to end",
+          "Just gimme that sinho sinho sinho sinho",
+          "Oh yeah yeah",
+          "You looking divino vino vino vino",
+          "Oh yeah yeah, I know ya",
+          "Keep moving your body",
+          "Can’t tell if you want me",
+          "She knows she knows she knows she knows",
+          "Just gimme that Signal",
+          "Just gimme that",
+          "Just gimme that",
+          "Just gimme that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Görüyorum seni, tam 10 üzerinden 10’luksun!",
+          "İlgine biraz daha talibim;",
+          "Umarım bu gece hiç bitmez...",
+          "Hadi bana o sinyali ver, sinyali, sinyali...",
+          "Oh yeah yeah!",
+          "İlahi görünüyorsun, baş döndürücü...",
+          "Seni tanıyorum artık;",
+          "Vücudunu hareket ettirmeye devam et,",
+          "Beni isteyip istemediğini çözemiyorum henüz;",
+          "Ama o biliyor, her şeyi çok iyi biliyor...",
+          "Sadece bana o sinyali ver!",
+          "Sadece bana onu ver!",
+          "Sadece bana onu ver!",
+          "Sadece bana onu ver!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3 - Rap Section",
+        "lines": [
+          "Jumpin’ like 808s",
+          "Bottles on bottles in VIP where I locate",
+          "Bring that body my way",
+          "Push it on me gon’ let them hips rotate",
+          "No the party don’t stop ‘til the morning",
+          "Put your cups, lighters up in the air",
+          "Pull up dokchangjeogin vibe and kkal",
+          "In the clube neon jaba gigang",
+          "Shimmy Shimmy chill out",
+          "aepitaiteu hu make that bounce",
+          "And we make them high"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3 - Rap Section",
+        "lines": [
+          "808 basları gibi zıplıyoruz!",
+          "Şişe üzerine şişe patlıyor bulunduğum VIP’de...",
+          "O endamını benim yoluma doğru çevir;",
+          "Bana doğru sokul, bırak o kalçaların süzülsün (rotate).",
+          "Hayır, parti sabaha kadar durmayacak;",
+          "Kaldırın kadehleri, çakmakları havaya!",
+          "Çek kapıya; özgün bir hava ve o eşsiz tarz (kkal)...",
+          "Kulübe girdiğin an herkesi dize getirirsin (gigang).¹",
+          "Shimmy Shimmy, rahatla biraz;",
+          "İştah açıcıdan (appetite) sonra, zıplat ortalığı!",
+          "Ve hepsini uçuruyoruz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Sending signals in the air",
+          "Turn it up like we don’t care",
+          "If you ain’t about it, stay away",
+          "sinho sinho sinho sinho",
+          "Red light yellow light green light gimme that",
+          "sinho sinho sinho sinho",
+          "Red light yellow light green light stop",
+          "sinho sinho sinho sinho",
+          "Red light yellow light green light gimme that",
+          "sinho sinho sinho sinho",
+          "Green light",
+          "Just gimme that",
+          "Just gimme that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Sinyalleri havaya gönderiyoruz!",
+          "Sesi kökle, umrumuzda değil dünya...",
+          "Eğer bu işlerin adamı değilsen, uzak dur bizden!",
+          "Sinyal, sinyal, sinyal...",
+          "Kırmızı ışık, sarı ışık, yeşil ışık; ver bana onu!",
+          "Kırmızı, sarı, yeşil; DUR!",
+          "Sinyal, sinyal, sinyal...",
+          "Kırmızı, sarı, yeşil; ver bana onu!",
+          "Yeşil ışık!",
+          "Sadece bana o sinyali ver..."
+        ]
+      }
+    ],
+    "excerpt": "(yeah yeah)",
+    "annotations": {
+      "Simmian": "Estetik algı, güzelliği görme yetisi. Sanatçı burada kadının sadece dış görünüşünü değil, bakış açısını ve zevklerini de övüyor.",
+      "gigang": "Disiplin, düzen. Bir mekâna girdiğinde oradaki hiyerarşiyi bozup herkesin sana saygı duymasını veya bakmasını sağlamak anlamında kullanılmış."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6UXR2R0AEgBMyF66jubcsA",
+        "name": "Signal",
+        "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+        "isrc": "KRA382603092",
+        "durationMs": 177000,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
+        }
+      ],
+      "album": {
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": false
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": true
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T09:21:09.236Z",
+      "trackUrl": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "albumType": "Album",
+      "releaseDate": "2026-07-28",
+      "duration": "2:57",
+      "isrc": "KRA382603092",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35"
+    },
+    "genius": {
+      "url": "https://genius.com/Kard-signal-lyrics",
+      "songId": 13894506,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/3ICUVF5IzfI?si=p4x-RSm8CHXaUo4C",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5051",
+    "title": "KARD At Least Türkçe Çeviri",
+    "song": "At Least",
+    "slug": "kard-at-least-turkce-ceviri",
+    "date": "2026-07-28T09:21:04.009Z",
+    "artist": "KARD",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Thought that we were solid",
+          "Thought that we were all in, I followed",
+          "Without any questions",
+          "While the truth was stallin’",
+          "I kept fallin’ harder, at what cost",
+          "I’m lost",
+          "I don’t learn my lesson"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Sağlam olduğumuzu sanmıştım",
+          "Her şeyimizle bu işin içindeyiz sandım, peşinden geldim",
+          "Hiçbir şeyi sorgulamadan...",
+          "Gerçekler bir köşede bekleyip (stalling) dururken",
+          "Ben daha fena çakıldım yere; ne uğruna?",
+          "Kayboldum işte",
+          "Hâlâ dersimi almış değilim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2 - Korean / Rap",
+        "lines": [
+          "We push and pull",
+          "Switching like the weather",
+          "In the dusk motda pin kkot",
+          "jeomulgo sideureo you deserve better",
+          "gwageo neon nae hyeonjaeyeotgo mirae, truth is",
+          "uri georin banbiryee wichihaedo",
+          "doegamji gwaenhan jiseul"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2 - Korean / Rap",
+        "lines": [
+          "Birbirimizi itip çekiyoruz",
+          "Hava durumu gibi sürekli değişiyoruz",
+          "Alacakaranlıkta (dusk) açamadan solan o çiçekler gibi;¹",
+          "Kararıp soluyorlar; sen daha iyisini hak ediyorsun.",
+          "Doğruyu söylemek gerekirse; geçmişim, bugünüm ve geleceğimdin...",
+          "Aramızdaki mesafe \"ters orantılı\" (반비례) olsa bile;²",
+          "Geri sarıp duruyorum şu filmi, boş bir çaba işte..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "You keep changing, rearranging everything I know",
+          "I’m sorry I’m sorry",
+          "I should’ve seen it coming yeah",
+          "We wouldn’t see it to the end",
+          "The end",
+          "The end"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bildiğim her şeyi değiştirip duruyorsun, her şeyi altüst ediyorsun",
+          "Üzgünüm, gerçekten üzgünüm",
+          "Bunun geleceğini çok önceden anlamalıydım, evet",
+          "Bunu sonuna kadar götüremeyecektik...",
+          "O sona ulaşamayacaktık...",
+          "Sona..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "At Least",
+          "(Wish that we could talk about it)",
+          "At Least you could’ve told me that you’d leave",
+          "(Now there ain’t no way around it)",
+          "At Least you could’ve told me that you’d leave",
+          "I see now",
+          "Took a minute now I clock it clock it",
+          "Out of all the things you said and the things you didn’t mean",
+          "At Least you could’ve told me that you’d leave"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "En azından...",
+          "(Keşke bu konuyu konuşabilseydik)",
+          "En azından gideceğini söyleyebilirdin bana",
+          "(Artık bundan kaçış yok)",
+          "En azından gideceğini söyleyebilirdin...",
+          "Şimdi anlıyorum her şeyi",
+          "Biraz zaman aldı ama mevzuyu çözdüm (clock it) artık",
+          "Söylediğin bunca şey ve aslında hiç istemediğin bunca söz arasında;",
+          "En azından gideceğini söyleyebilirdin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "Not one to talk about my feelings",
+          "Push it to the side, don’t wanna deal with",
+          "How I’ve been letting you down",
+          "If I own up to it now",
+          "Would you be sticking around",
+          "I would only make you lonely",
+          "You’d be bitter ‘cause you’re right about the distance",
+          "jalra kkeuneonae beoryeojyeo with your wisdom",
+          "nameun miryeon mana still here"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Duyguları hakkında konuşabilen biri değilim pek",
+          "Hep bir kenara ittim onları, yüzleşmek istemedim (deal with)",
+          "Seni nasıl hayal kırıklığına uğrattığımla...",
+          "Eğer şimdi her şeyi dürüstçe kabullensem (own up);",
+          "Hâlâ yanımda kalır mıydın sahiden?",
+          "Ben seni sadece yalnızlığa mahkûm ederdim...",
+          "Bu mesafede haklı olduğun için canın yanardı (bitter);",
+          "Kendi \"mantığınla\" (wisdom) kestin attın beni, terk edildim...",
+          "Hâlâ bir sürü pişmanlığım var; hâlâ buradayım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "You keep changing, rearranging everything I know",
+          "I’m sorry I’m sorry",
+          "Had a taste of your true nature, time to let you go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Bildiğim her şeyi değiştirip duruyorsun, her şeyi altüst ediyorsun",
+          "Üzgünüm, gerçekten üzgünüm...",
+          "Gerçek yüzünü (true nature) tattım bir kere, artık seni bırakma vakti."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "At Least",
+          "(Wish that we could talk about it)",
+          "At Least you could’ve told me that you’d leave",
+          "(Now there ain’t no way around it)",
+          "At Least you could’ve told me that you’d leave",
+          "I see now",
+          "Took a minute now I clock it clock it",
+          "Out of all the things you said and the things you didn’t mean",
+          "At Least you could’ve told me that you’d leave"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "En azından...",
+          "(Keşke bu konuyu konuşabilseydik)",
+          "En azından gideceğini söyleyebilirdin bana",
+          "(Artık bundan kaçış yok)",
+          "En azından gideceğini söyleyebilirdin...",
+          "Şimdi anlıyorum her şeyi",
+          "Biraz zaman aldı ama mevzuyu çözdüm artık",
+          "Söylediğin bunca şey ve aslında hiç istemediğin bunca söz arasında;",
+          "En azından gideceğini söyleyebilirdin."
+        ]
+      }
+    ],
+    "excerpt": "Thought that we were solid",
+    "annotations": {
+      "açamadan solan o çiçekler": "Henüz tam yaşanmamış, yarım kalmış bir aşkı simgeler.",
+      "ters orantılı": "Sen yaklaştıkça benim uzaklaşmamı ya da duyguların dengesizliğini anlatan matematiksel bir metafordur."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6H0HdP9bQZGsrJsNKAtUI4",
+        "name": "At Least",
+        "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+        "isrc": "KRA382603091",
+        "durationMs": 177000,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
+        }
+      ],
+      "album": {
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": false
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": true
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T09:20:59.464Z",
+      "trackUrl": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "albumType": "Album",
+      "releaseDate": "2026-07-28",
+      "duration": "2:57",
+      "isrc": "KRA382603091",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35"
+    },
+    "genius": {
+      "url": "https://genius.com/Kard-at-least-lyrics",
+      "songId": 13894505,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/6V2YR54veDM?si=j6TS-gjiozi4JmBT",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5050",
+    "title": "KARD Armor Türkçe Çeviri",
+    "song": "Armor",
+    "slug": "kard-armor-turkce-ceviri",
+    "date": "2026-07-28T09:20:54.597Z",
+    "artist": "KARD",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro / Verse 1",
+        "lines": [
+          "I need I need",
+          "Something to take away the pain",
+          "Take away the thoughts I entertain",
+          "Devil on my shoulder, he sweet-talkin’ again",
+          "I keep walking in sin when belonging to greater",
+          "Fall seven but rise, demons shakin’ in anger",
+          "Cause I’m armored up (up)",
+          "Said I’m armored up (up)",
+          "Blessings on blessings overflowing my cup",
+          "Still on my way, them serpents are getting slayed",
+          "Old me is buried and laid",
+          "Now it’s changed how they mention my name",
+          "Blessed"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro / Verse 1",
+        "lines": [
+          "İhtiyacım olan, tek ihtiyacım;",
+          "Şu acıyı alıp götürecek bir şey...",
+          "Zihnimi meşgul eden şu düşünceleri silip atacak bir şey.",
+          "Omuzumdaki şeytan yine tatlı tatlı fısıldıyor (sweet-talkin’)...",
+          "Çok daha yüce bir yere aitken, günahların içinde yürümeye devam ediyorum.",
+          "Yedi kez düşer ama kalkarım; iblisler öfkeyle titriyor;",
+          "Çünkü zırhımı kuşandım (armored up)!",
+          "Evet, zırhım üzerimde artık!",
+          "Lütuf üzerine lütuf yağıyor, kadehim taşıyor (overflowing)...¹",
+          "Hâlâ yolumdayım; o sinsi yılanlar tek tek kılıçtan geçiriliyor (slayed).",
+          "Eski benliğim gömüldü, huzura kavuştu;",
+          "Artık ismimi anma şekilleri bile değişti...",
+          "Kutsanmış hissediyorum (blessed)."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Faced too many battles where no one would win",
+          "I can’t keep trying (ooh)",
+          "When all the assumptions consume me within",
+          "But now that’s over, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kimsenin kazanamayacağı çok fazla savaş verdim...",
+          "Denemekten yoruldum artık (ooh);",
+          "Tüm o ön yargılar (assumptions) beni içten içe tüketirken...",
+          "Ama artık hepsi bitti, evet."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I can’t just stop and stare",
+          "I’m suiting up instead in Armor (Armor)",
+          "It’s not that I don’t care",
+          "But now that I’m prepared in Armor",
+          "I’m guarding me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Öylece durup olanları izleyemem;",
+          "Bunun yerine zırhımı (Armor) kuşanıyorum!",
+          "Umursamadığımdan değil bu;",
+          "Sadece artık zırhımla her şeye hazırım...",
+          "Kendimi koruyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Uh yeah, myeot charyeui burn out",
+          "piryohaesseo nan byeonhwa",
+          "Unstable nae jupasu",
+          "jabeumui hereucheu jeonghwaharyeo bulsunmureul da litter out",
+          "yeah dajyeo sunsuhan pahyeongui winning mentality",
+          "jommeokneun jeongsineul bakmyeol",
+          "uiyeonhi apgarimhae",
+          "heutnalrineun changdeul sai",
+          "nae moseup an manggajige",
+          "So that’s how I live",
+          "I’m guarding me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Uh evet, defalarca kez tükendim (burn out);",
+          "Değişim lazımdı bana.",
+          "Frekansım (주파수) sarsıntılı, dengesizdi...",
+          "O gürültülü hertzleri temizlemek için tüm kusurları dışarı atıyorum (litter out).",
+          "Evet, saf bir dalga boyuyla o \"kazanan zihniyetini\" (winning mentality) sağlamlaştırıyorum;",
+          "Ruhumu kemiren ne varsa kökünü kazıyorum (박멸).",
+          "Vakarla, kendi yoluma bakıyorum;",
+          "Havada uçuşan mızrakların (창들) arasında,",
+          "Benliğim zarar görmesin diye...",
+          "İşte böyle yaşıyorum;",
+          "Kendimi koruyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Faced too many battles where no one would win",
+          "I can’t keep trying (ooh)",
+          "When all the assumptions consume me within",
+          "But now that’s over, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kimsenin kazanamayacağı çok fazla savaş verdim...",
+          "Denemekten yoruldum artık;",
+          "Tüm o ön yargılar beni içten içe tüketirken...",
+          "Ama artık hepsi bitti!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I can’t just stop and stare",
+          "I’m suiting up instead in Armor (Armor)",
+          "It’s not that I don’t care",
+          "But now that I’m prepared in Armor",
+          "I’m guarding me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Öylece durup olanları izleyemem;",
+          "Bunun yerine zırhımı kuşanıyorum!",
+          "Umursamadığımdan değil bu;",
+          "Sadece artık zırhımla her şeye hazırım...",
+          "Kendimi koruyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "No more denying whatever is buried inside",
+          "I’ll put on my Armor",
+          "Gotta start living this life and not just survive",
+          "I’ll put on my Armor (ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "İçimde gömülü olan ne varsa, artık inkâr etmek yok!",
+          "Zırhımı kuşanacağım.",
+          "Sadece hayatta kalmayı (survive) değil, bu hayatı gerçekten yaşamaya başlamalıyım;",
+          "Zırhımı kuşanacağım artık..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I can’t just stop and stare",
+          "I’m suiting up instead in Armor (Armor)",
+          "It’s not that I don’t care",
+          "But now that I’m prepared in Armor",
+          "I’m guarding me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Öylece durup olanları izleyemem;",
+          "Bunun yerine zırhımı kuşanıyorum!",
+          "Umursamadığımdan değil bu;",
+          "Sadece artık zırhımla her şeye hazırım...",
+          "Kendimi koruyorum."
+        ]
+      }
+    ],
+    "excerpt": "I need I need",
+    "annotations": {
+      "overflowing": "İncil’deki 23. Mezmur’a atıf; bereketin ve ilahi korunmanın bolluğunu simgeler."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4tdRGI6rkls68NjMwVhjyO",
+        "name": "Armor",
+        "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+        "isrc": "KRA382603090",
+        "durationMs": 190000,
+        "duration": "3:10",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
+        }
+      ],
+      "album": {
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": false
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": true
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T09:20:52.103Z",
+      "trackUrl": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "albumType": "Album",
+      "releaseDate": "2026-07-28",
+      "duration": "3:10",
+      "isrc": "KRA382603090",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35"
+    },
+    "genius": {
+      "url": "https://genius.com/Kard-armor-lyrics",
+      "songId": 13894504,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/TDWNG2SwgLM?si=I_AJjhZX4e6wOkxB",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5049",
+    "title": "KARD Back To Life Türkçe Çeviri",
+    "song": "Back To Life",
+    "slug": "kard-back-to-life-turkce-ceviri",
+    "date": "2026-07-28T09:20:45.798Z",
+    "artist": "KARD",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "If you lose your way",
+          "Duryeowohaji ma",
+          "I’m awake I’ma call I’ma be",
+          "There for you 24/7",
+          "Weropji anke",
+          "Let me dry your eyes",
+          "I’ll never leave you",
+          "You never leave me, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Eğer yolunu kaybedersen,",
+          "Sakın korkma;",
+          "Uyanığım, arayacağım seni;",
+          "Yedi yirmi dört (24/7) yanında olacağım.",
+          "Yalnız hissetme diye,",
+          "Bırak gözyaşlarını ben sileyim.",
+          "Seni asla bırakmayacağım;",
+          "Sen de beni asla bırakma, evet..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ring ring ring",
+          "Neujeun bame",
+          "Lean on me",
+          "Gidae naege",
+          "Everybody needs somebody",
+          "I’ll be that for ya"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çalıyor telefonun (Ring ring ring),",
+          "Gecenin bir yarısında...",
+          "Yaslan bana (Lean on me),",
+          "Sırtını bana daya.",
+          "Herkesin birine ihtiyacı vardır;",
+          "Ben senin için o kişi olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh",
+          "Wherever you go",
+          "(Wherever you go)",
+          "I’ma follow",
+          "(I’ma follow)",
+          "Gipeun i bam neol jikyeo julge",
+          "Ohhhhh",
+          "Never solo",
+          "(Never solo)",
+          "Even if you one day",
+          "Lose your way",
+          "I’ma lead you",
+          "Back To Life",
+          "Back Back To Life"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh...",
+          "Nereye gidersen git, (Nereye gidersen...)",
+          "Seni takip edeceğim; (Seni takip edeceğim...)",
+          "Bu kapkaranlık gecede seni ben koruyacağım.",
+          "Ohhhhh...",
+          "Asla tek başına olmayacaksın; (Asla yalnız değil...)",
+          "Bir gün yolunu kaybetsen bile,",
+          "Sana rehberlik edeceğim;",
+          "Seni hayata döndüreceğim (Back To Life),",
+          "Hayata geri döndüreceğim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Back back let me back track",
+          "Where the bags at couldn’t map that",
+          "Livin’ out a hatchback",
+          "Big Broke, no cash stacks",
+          "Now a class act",
+          "Used to be the one the whole class laughed at",
+          "Lost my way dareun gireul chatgi wihae",
+          "Never lost faith mitneun daero irwojige",
+          "God planned that ijen naneun better me",
+          "Apeuroneun dalla how I live in your memories",
+          "Jagi amsihae on Pigeumallion effect",
+          "And giryeo a decade with my pi ttam tears",
+          "First hae noseuteljieo",
+          "Ttaeroneun bitaljyeodo yellow mustang",
+          "Still we steer",
+          "We'll be bound to bounce back",
+          "We got that gyeolsokhae mukkin himui boundary ieumsae",
+          "Con mi familia, muévelo",
+          "Jeongjeomui nallo ieoga new historia"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Geri sar, hadi biraz geçmişe dönelim;",
+          "Paraların (bags) nerede olduğunu kestiremiyorduk bile o zamanlar.",
+          "Eski püskü bir arabada (hatchback) yaşıyorduk;",
+          "Tam bir sefalet, tek kuruşumuz yoktu...",
+          "Şimdiyse gerçek bir \"kaliteyiz\" (class act);",
+          "Eskiden tüm sınıfın arkasından güldüğü o çocuklardık oysa!",
+          "Yolumu kaybettim, sırf başka bir yol bulabilmek için;",
+          "Ama inancımı asla yitirmedim; neye inandıysam o oldu sonunda.",
+          "İlahi bir plandı bu; şimdi çok daha iyi bir \"ben\" var;",
+          "Bundan sonra hatıralarında yaşama şeklim çok farklı olacak.",
+          "Kendi kendime telkin ettim o \"Pygmalion\" etkisini;",
+          "Ve on yılımı feda ettim kanım, terim ve gözyaşlarımla...",
+          "İlk yıllar hep bir nostalji...",
+          "Yollar bazen çok engebeli olsa da, o sarı Mustang ile;",
+          "Hâlâ direksiyonun başındayız!",
+          "Dibe vurduk ama geri sıçramaya (bounce back) mahkûmuz;",
+          "Bizim aramızdaki o sarsılmaz bağın sınırları (boundary) birleşti artık.",
+          "Ailemle birlikte (Con mi familia), salla ortalığı!",
+          "Zirvedeki o günlere, yepyeni bir tarih (historia) yazmaya devam..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ring ring ring",
+          "Haru kkeute",
+          "Lean on me",
+          "Swil su itge",
+          "Everybody needs somebody",
+          "I’ll be that for ya"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çalıyor telefonun,",
+          "Günün sonunda...",
+          "Yaslan bana,",
+          "Dinlenebilmen için...",
+          "Herkesin birine ihtiyacı vardır;",
+          "Ben senin için o kişi olacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh",
+          "Wherever you go",
+          "(Wherever you go)",
+          "I’ma follow",
+          "(I’ma follow)",
+          "Gipeun i bam neol jikyeo julge",
+          "Ohhhhh",
+          "Never solo",
+          "(Never solo)",
+          "Even if you one day",
+          "Lose your way",
+          "I’ma lead you",
+          "Back To Life",
+          "Back Back To Life"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh...",
+          "Nereye gidersen git,",
+          "Seni takip edeceğim;",
+          "Bu kapkaranlık gecede seni ben koruyacağım.",
+          "Ohhhhh...",
+          "Asla tek başına olmayacaksın;",
+          "Bir gün yolunu kaybetsen bile,",
+          "Sana rehberlik edeceğim;",
+          "Seni hayata döndüreceğim,",
+          "Hayata geri döndüreceğim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Neowa galge eodideunji",
+          "Cause nowhere",
+          "Is somewhere when you’re beside me",
+          "Yaksokhae",
+          "Ne pyeoni doeeo eonjena",
+          "Just send a call and I’ll come",
+          "Bring you Back To Life"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Seninle her yere gelirim;",
+          "Çünkü sen yanımdayken,",
+          "Hiçbir yer \"ıssız\" (nowhere) değildir artık.",
+          "Söz veriyorum;",
+          "Her zaman senin tarafında olacağım.",
+          "Sadece bir çağrı at, ben hemen geleceğim;",
+          "Seni hayata geri döndüreceğim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh",
+          "Wherever you go",
+          "(Wherever you go)",
+          "I’ma follow",
+          "(I’ma follow)",
+          "Gipeun i bam neol jikyeo julge",
+          "Ohhhhh",
+          "Never solo",
+          "(Never solo)",
+          "Even if you one day",
+          "Lose your way",
+          "I’ma lead you",
+          "Back To Life",
+          "Back Back To Life"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ohhhhh...",
+          "Nereye gidersen git,",
+          "Seni takip edeceğim;",
+          "Bu kapkaranlık gecede seni ben koruyacağım.",
+          "Ohhhhh...",
+          "Asla tek başına olmayacaksın;",
+          "Bir gün yolunu kaybetsen bile,",
+          "Sana rehberlik edeceğim;",
+          "Seni hayata döndüreceğim,",
+          "Hayata geri döndüreceğim!"
+        ]
+      }
+    ],
+    "excerpt": "If you lose your way",
+    "annotations": {
+      "Pygmalion": "Bir insanın kendine olan inancının ve çevresinden gördüğü yüksek beklentilerin, sonunda o başarıyı bir \"kendi kendini gerçekleştiren kehanet\" gibi gerçeğe dönüştürmesi durumudur.",
+      "pi ttam tears": "‘Kan ve ter’ ifadesi, harcanan muazzam emeği, fiziksel ve ruhsal acıları temsil eden evrensel bir bedel ödeme anlatımıdır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "64VnWqnEIz130BnVlqYHgV",
+        "name": "Back To Life",
+        "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+        "isrc": "KRA382603089",
+        "durationMs": 160000,
+        "duration": "2:40",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
+        }
+      ],
+      "album": {
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": true
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T09:20:41.865Z",
+      "trackUrl": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "albumType": "Album",
+      "releaseDate": "2026-07-28",
+      "duration": "2:40",
+      "isrc": "KRA382603089",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35"
+    },
+    "genius": {
+      "url": "https://genius.com/Kard-back-to-life-lyrics",
+      "songId": 13894488,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/iwc3ePT4-xw?si=my8TXmw_G-w99qHw",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5048",
     "title": "Aitch RMB (Ring My Bell) Türkçe Çeviri",
     "song": "RMB (Ring My Bell)",
@@ -608,123 +2808,168 @@
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": "5dCcaQuXndqZd5r6KICHAD",
-        "name": "Home Sweet Home",
-        "url": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
+        "id": "6Z0ZU4xTIvWpEYu1lf610e",
+        "name": "Home Sweet Home (JIWOO Solo)",
+        "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
         "isrc": "KRA382600883",
-        "durationMs": 194682,
-        "duration": "3:15",
+        "durationMs": 192000,
+        "duration": "3:12",
         "explicit": false,
         "popularity": null,
-        "trackNumber": 1,
+        "trackNumber": 8,
         "previewUrl": null
       },
       "artist": {
-        "id": "5xvL2dDchuH75OLqQ6HCzj",
-        "name": "JIWOO",
-        "url": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2",
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
         "genres": [],
         "popularity": null,
         "followers": null
       },
       "artists": [
         {
-          "id": "5xvL2dDchuH75OLqQ6HCzj",
-          "name": "JIWOO",
-          "url": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj"
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
         }
       ],
       "album": {
-        "id": "1BtEjWVuWfNpzBJIC4PoAm",
-        "name": "JIWOO 1st EP '(EX)IST'",
-        "url": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
-        "releaseDate": "2026-02-11",
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
         "releaseDatePrecision": "day",
-        "albumType": "EP",
-        "rawAlbumType": "single",
+        "albumType": "Album",
+        "rawAlbumType": "album",
         "label": null,
         "copyrights": [
           {
-            "text": "2026 DSPmedia,under license to kakao Entertainment",
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
             "type": "C"
           },
           {
-            "text": "2026 DSPmedia,under license to kakao Entertainment",
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
             "type": "P"
           }
         ],
-        "totalTracks": 5,
+        "totalTracks": 10,
         "tracks": [
           {
-            "id": "5dCcaQuXndqZd5r6KICHAD",
-            "name": "Home Sweet Home",
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
             "trackNumber": 1,
             "discNumber": 1,
-            "durationMs": 194682,
-            "duration": "3:15",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+            "isCurrent": false
+          },
+          {
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
             "isCurrent": true
           },
           {
-            "id": "61BffivnenphWRnvvywYj1",
-            "name": "Mutual",
-            "trackNumber": 2,
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
             "discNumber": 1,
-            "durationMs": 156776,
-            "duration": "2:37",
+            "durationMs": 192000,
+            "duration": "3:12",
             "explicit": false,
-            "url": "https://open.spotify.com/track/61BffivnenphWRnvvywYj1",
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
             "isCurrent": false
           },
           {
-            "id": "4molM5rkwLLN2sQMTQTCMg",
-            "name": "Dang Dong (feat. BM of KARD)",
-            "trackNumber": 3,
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
             "discNumber": 1,
-            "durationMs": 150000,
-            "duration": "2:30",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/4molM5rkwLLN2sQMTQTCMg",
-            "isCurrent": false
-          },
-          {
-            "id": "05hffMIOYiIvgLtzljKL6O",
-            "name": "Lily",
-            "trackNumber": 4,
-            "discNumber": 1,
-            "durationMs": 180388,
-            "duration": "3:00",
-            "explicit": false,
-            "url": "https://open.spotify.com/track/05hffMIOYiIvgLtzljKL6O",
-            "isCurrent": false
-          },
-          {
-            "id": "5aHgIg1oOEWujOoWBB1EaI",
-            "name": "Home Sweet Home (Inst.)",
-            "trackNumber": 5,
-            "discNumber": 1,
-            "durationMs": 194682,
-            "duration": "3:15",
-            "explicit": false,
-            "url": "https://open.spotify.com/track/5aHgIg1oOEWujOoWBB1EaI",
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
             "isCurrent": false
           }
         ]
       },
-      "fetchedAt": "2026-07-28T08:31:02.459Z",
-      "trackUrl": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
-      "albumUrl": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
-      "artistUrl": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
-      "albumName": "JIWOO 1st EP '(EX)IST'",
-      "albumType": "EP",
-      "releaseDate": "2026-02-11",
-      "duration": "3:15",
-      "isrc": "KRA382600883",
-      "label": null,
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91"
+      "fetchedAt": "2026-07-28T09:22:09.210Z"
     },
     "genius": {
       "url": "https://genius.com/Jeon-jiwoo-home-sweet-home-lyrics",
@@ -758,9 +3003,9 @@
         "label": "Verse 1",
         "lines": [
           "I don't play games, I don't relate to the shh that you do day to day, nah",
-          "I don't chase fame, 불러 나를 Queen, 넌 이 무게를 감당 못 해",
-          "Baby, you fake, (You fake, you fake) you can just take, take, take, 계속 기회를 노려, ah (Oh)",
-          "관심 따윈, 넌 인정 못해도 I stay on your radar"
+          "I don't chase fame, bulreo nareul Queen, neon i mugereul gamdang mot hae",
+          "Baby, you fake, (You fake, you fake) you can just take, take, take, gyesok gihoereul noryeo, ah (Oh)",
+          "gwansim ttawin, neon injeong mothaedo I stay on your radar"
         ]
       },
       {
@@ -777,10 +3022,10 @@
         "original": true,
         "label": "Pre-Chorus",
         "lines": [
-          "You 머릿속에는 온통 know you wanna take control",
-          "왜 늘 선을 넘으려 해? Don't speak up, stay down low",
+          "You meoritsogeneun ontong know you wanna take control",
+          "wae neul seoneul neomeuryeo hae? Don't speak up, stay down low",
           "My name gives you elevation, you should know your role",
-          "왜? Oh, 왜? You gotta speak so loud"
+          "wae? Oh, wae? You gotta speak so loud"
         ]
       },
       {
@@ -825,11 +3070,11 @@
         "original": true,
         "label": "Verse 2",
         "lines": [
-          "Mess it up one time, 난 안 원해 (난 안 원해)",
-          "Mess it up two times, 너는 dummy",
+          "Mess it up one time, nan an wonhae (nan an wonhae)",
+          "Mess it up two times, neoneun dummy",
           "I ain't gonna stay up, cryin' all night",
           "Waiting for you coming home at sunrise",
-          "이제는 끝을 볼 timing",
+          "ijeneun kkeuteul bol timing",
           "Pay the price, you made the bed",
           "So sorry, babe, know you saw it coming",
           "Warned you that it'll come back to you later"
@@ -882,7 +3127,7 @@
         "label": "Bridge",
         "lines": [
           "Oh, keep doing what you're doing, yeah, it ain't my fight (Fight)",
-          "So burn this to the ground, 걷잡을 수 없게 (Oh)",
+          "So burn this to the ground, geotjabeul su eopge (Oh)",
           "Keep telling all, all you pretty lies",
           "You're doing it to yourself, nah, baby, ooh"
         ]
@@ -931,7 +3176,7 @@
         "lines": [
           "Keep doing what you're doing, yeah, it ain't my fight",
           "(Wanna ride with me but you stay in the backseat)",
-          "So burn this to the ground, 걷잡을 수 없게",
+          "So burn this to the ground, geotjabeul su eopge",
           "(How to ride with me?)",
           "So stay there in the backseat"
         ]
@@ -955,42 +3200,42 @@
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": "0AoI4bREI1xef36mJh2WZ3",
-        "name": "Backseat",
-        "url": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
+        "id": "7zr5es8m7jC7gXGE3C85sw",
+        "name": "Backseat (SOMIN Solo)",
+        "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
         "isrc": "KRA382601609",
-        "durationMs": 165910,
-        "duration": "2:46",
+        "durationMs": 165000,
+        "duration": "2:45",
         "explicit": false,
         "popularity": null,
-        "trackNumber": 2,
+        "trackNumber": 7,
         "previewUrl": null
       },
       "artist": {
-        "id": "1J3BfBC9Z9VRIpEUB64Rbw",
-        "name": "SOMIN",
-        "url": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0",
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
         "genres": [],
         "popularity": null,
         "followers": null
       },
       "artists": [
         {
-          "id": "1J3BfBC9Z9VRIpEUB64Rbw",
-          "name": "SOMIN",
-          "url": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw"
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
         }
       ],
       "album": {
-        "id": "7kzDwWj4jOfCl2IYepW4z1",
-        "name": "SOMIN 1st EP 'UNVEIL'",
-        "url": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
-        "releaseDate": "2026-04-02",
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
         "releaseDatePrecision": "day",
         "albumType": "Album",
-        "rawAlbumType": "single",
+        "rawAlbumType": "album",
         "label": null,
         "copyrights": [
           {
@@ -1002,98 +3247,121 @@
             "type": "P"
           }
         ],
-        "totalTracks": 7,
+        "totalTracks": 10,
         "tracks": [
           {
-            "id": "6YlVetzGx5vBr0klkGAmop",
-            "name": "Love Me Like A Fan",
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
             "trackNumber": 1,
             "discNumber": 1,
-            "durationMs": 164190,
-            "duration": "2:44",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/6YlVetzGx5vBr0klkGAmop",
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
             "isCurrent": false
           },
           {
-            "id": "0AoI4bREI1xef36mJh2WZ3",
-            "name": "Backseat",
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
             "trackNumber": 2,
             "discNumber": 1,
-            "durationMs": 165910,
-            "duration": "2:46",
+            "durationMs": 190000,
+            "duration": "3:10",
             "explicit": false,
-            "url": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+            "isCurrent": false
+          },
+          {
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 165000,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
             "isCurrent": true
           },
           {
-            "id": "5D1vPGEcWUm23GC6AUWP4q",
-            "name": "Keep It Cute",
-            "trackNumber": 3,
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
             "discNumber": 1,
-            "durationMs": 177525,
-            "duration": "2:58",
+            "durationMs": 192000,
+            "duration": "3:12",
             "explicit": false,
-            "url": "https://open.spotify.com/track/5D1vPGEcWUm23GC6AUWP4q",
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
             "isCurrent": false
           },
           {
-            "id": "4MRwR8qDaSpWWFrdV8QWic",
-            "name": "Got It Like That",
-            "trackNumber": 4,
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
             "discNumber": 1,
-            "durationMs": 206004,
-            "duration": "3:26",
+            "durationMs": 192000,
+            "duration": "3:12",
             "explicit": false,
-            "url": "https://open.spotify.com/track/4MRwR8qDaSpWWFrdV8QWic",
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
             "isCurrent": false
           },
           {
-            "id": "2WbDnDoZhfJQfJa2bdnwr2",
-            "name": "Como Yo A Ti",
-            "trackNumber": 5,
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
             "discNumber": 1,
-            "durationMs": 177600,
-            "duration": "2:58",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/2WbDnDoZhfJQfJa2bdnwr2",
-            "isCurrent": false
-          },
-          {
-            "id": "34QlZRxuHPGNELNZP5vLMt",
-            "name": "Closure",
-            "trackNumber": 6,
-            "discNumber": 1,
-            "durationMs": 173739,
-            "duration": "2:54",
-            "explicit": false,
-            "url": "https://open.spotify.com/track/34QlZRxuHPGNELNZP5vLMt",
-            "isCurrent": false
-          },
-          {
-            "id": "4WL1Cc0hZElIoYRUAfrRYu",
-            "name": "Backseat (Inst.)",
-            "trackNumber": 7,
-            "discNumber": 1,
-            "durationMs": 165910,
-            "duration": "2:46",
-            "explicit": false,
-            "url": "https://open.spotify.com/track/4WL1Cc0hZElIoYRUAfrRYu",
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
             "isCurrent": false
           }
         ]
       },
-      "fetchedAt": "2026-07-28T08:30:59.187Z",
-      "trackUrl": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
-      "albumUrl": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
-      "artistUrl": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
-      "albumName": "SOMIN 1st EP 'UNVEIL'",
-      "albumType": "Album",
-      "releaseDate": "2026-04-02",
-      "duration": "2:46",
-      "isrc": "KRA382601609",
-      "label": null,
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79"
+      "fetchedAt": "2026-07-28T09:22:08.896Z"
     },
     "genius": {
       "url": "https://genius.com/Somin-backseat-lyrics",
@@ -1173,13 +3441,13 @@
         "label": "Verse 1",
         "lines": [
           "She gazed at me",
-          "공허함이 fancy but 넌 폐쇄적인 듯",
-          "Kitsch한 your pride가 iconic, uncommon, classy",
-          "Classic한 네 교양의 권위 so gon' put it on me",
+          "gongheohami fancy but neon pyeswaejeogin deut",
+          "Kitschhan your pridega iconic, uncommon, classy",
+          "Classichan ne gyoyangui gwonwi so gon' put it on me",
           "Feel you're my mikrokosmos",
           "In twilight, conmigo",
-          "고즈넉해진 이 밤새 lumos, nox",
-          "Hypnotic한 우리의 nocturne, 저물 땐 bailemos"
+          "gojeuneokhaejin i bamsae lumos, nox",
+          "Hypnotichan uriui nocturne, jeomul ttaen bailemos"
         ]
       },
       {
@@ -1254,10 +3522,10 @@
         "original": true,
         "label": "Verse 2",
         "lines": [
-          "Cryptic하지 more, 이색적인 your signal",
-          "You've got that rizz, mad lit, 마성의 sigma",
-          "Demure한 react, 넌 묘해 on edge",
-          "숨 쉬는 침묵의 lapse, I focus on it",
+          "Cryptichaji more, isaekjeogin your signal",
+          "You've got that rizz, mad lit, maseongui sigma",
+          "Demurehan react, neon myohae on edge",
+          "sum swineun chimmugui lapse, I focus on it",
           "Now they're getting worked up",
           "They be dropping, dropping around me",
           "They couldn't handle the pressure",
@@ -1337,48 +3605,48 @@
     ],
     "excerpt": "Yeah",
     "annotations": {
-      "Lumos / Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
-      "Rizz / Sigma / Demure": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
+      "Lumos, Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
+      "Rizz": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
     },
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": "7fbh1F6lfRZqVrIrUT0VNN",
-        "name": "EASY",
-        "url": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
+        "id": "717HElvIAzdSYqjDzQNnto",
+        "name": "EASY (J.seph Solo)",
+        "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
         "isrc": "KRA382602280",
-        "durationMs": 145442,
+        "durationMs": 145000,
         "duration": "2:25",
         "explicit": false,
         "popularity": null,
-        "trackNumber": 2,
+        "trackNumber": 6,
         "previewUrl": null
       },
       "artist": {
-        "id": "1LCD1ZKF5V4lWQKf5810yx",
-        "name": "J.seph",
-        "url": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1",
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
         "genres": [],
         "popularity": null,
         "followers": null
       },
       "artists": [
         {
-          "id": "1LCD1ZKF5V4lWQKf5810yx",
-          "name": "J.seph",
-          "url": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx"
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
         }
       ],
       "album": {
-        "id": "2FgeYVQ5AWp2yqK0vWM4x5",
-        "name": "J.seph 1st EP 'Spin-off'",
-        "url": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
-        "releaseDate": "2026-05-26",
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
         "releaseDatePrecision": "day",
-        "albumType": "EP",
-        "rawAlbumType": "single",
+        "albumType": "Album",
+        "rawAlbumType": "album",
         "label": null,
         "copyrights": [
           {
@@ -1390,76 +3658,121 @@
             "type": "P"
           }
         ],
-        "totalTracks": 5,
+        "totalTracks": 10,
         "tracks": [
           {
-            "id": "4qHU4lLvoVtHGOnyffXzsK",
-            "name": "ILL",
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
             "trackNumber": 1,
             "discNumber": 1,
-            "durationMs": 162493,
-            "duration": "2:42",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/4qHU4lLvoVtHGOnyffXzsK",
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
             "isCurrent": false
           },
           {
-            "id": "7fbh1F6lfRZqVrIrUT0VNN",
-            "name": "EASY",
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
             "trackNumber": 2,
             "discNumber": 1,
-            "durationMs": 145442,
+            "durationMs": 190000,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+            "isCurrent": false
+          },
+          {
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+            "isCurrent": false
+          },
+          {
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+            "isCurrent": false
+          },
+          {
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 145000,
             "duration": "2:25",
             "explicit": false,
-            "url": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
             "isCurrent": true
           },
           {
-            "id": "1Gr5jJZ6di7H8z1MWX4BpC",
-            "name": "TRIPPY",
-            "trackNumber": 3,
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
             "discNumber": 1,
-            "durationMs": 115588,
-            "duration": "1:56",
+            "durationMs": 165000,
+            "duration": "2:45",
             "explicit": false,
-            "url": "https://open.spotify.com/track/1Gr5jJZ6di7H8z1MWX4BpC",
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
             "isCurrent": false
           },
           {
-            "id": "0mWbvVDqtLfD1e7XDqKAya",
-            "name": "BOTTOMS UP",
-            "trackNumber": 4,
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
             "discNumber": 1,
-            "durationMs": 150750,
-            "duration": "2:31",
+            "durationMs": 192000,
+            "duration": "3:12",
             "explicit": false,
-            "url": "https://open.spotify.com/track/0mWbvVDqtLfD1e7XDqKAya",
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
             "isCurrent": false
           },
           {
-            "id": "0x4aHEQfPu5y4AaoyOfFFd",
-            "name": "EASY (Inst.)",
-            "trackNumber": 5,
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
             "discNumber": 1,
-            "durationMs": 145442,
-            "duration": "2:25",
+            "durationMs": 192000,
+            "duration": "3:12",
             "explicit": false,
-            "url": "https://open.spotify.com/track/0x4aHEQfPu5y4AaoyOfFFd",
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
             "isCurrent": false
           }
         ]
       },
-      "fetchedAt": "2026-07-28T08:30:56.071Z",
-      "trackUrl": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
-      "albumUrl": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
-      "artistUrl": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
-      "albumName": "J.seph 1st EP 'Spin-off'",
-      "albumType": "EP",
-      "releaseDate": "2026-05-26",
-      "duration": "2:25",
-      "isrc": "KRA382602280",
-      "label": null,
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19"
+      "fetchedAt": "2026-07-28T09:22:08.566Z"
     },
     "genius": {
       "url": "https://genius.com/Jseph-easy-lyrics",
@@ -1738,134 +4051,168 @@
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": "4OpEV8xWBcOY1E5RiuCa4o",
-        "name": "Move",
-        "url": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
+        "id": "55YwvNCI00HDViU6MB6Wce",
+        "name": "Move (BM Solo)",
+        "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
         "isrc": "KRA382506109",
-        "durationMs": 166764,
+        "durationMs": 167000,
         "duration": "2:47",
         "explicit": false,
         "popularity": null,
-        "trackNumber": 4,
+        "trackNumber": 5,
         "previewUrl": null
       },
       "artist": {
-        "id": "5lZV4z4dpX6IfTYlfUMvOE",
-        "name": "BM",
-        "url": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27",
+        "id": "2JhAlkmukNvarUpGhTFXUQ",
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b",
         "genres": [],
         "popularity": null,
         "followers": null
       },
       "artists": [
         {
-          "id": "5lZV4z4dpX6IfTYlfUMvOE",
-          "name": "BM",
-          "url": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE"
+          "id": "2JhAlkmukNvarUpGhTFXUQ",
+          "name": "KARD",
+          "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ"
         }
       ],
       "album": {
-        "id": "7ipLXUuM0bH6x0KqgVf5hG",
-        "name": "BM 2nd EP 'PO:INT'",
-        "url": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
-        "cover": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
-        "releaseDate": "2025-10-20",
+        "id": "5gfNUlvzZB0T5Qj4v5cNiz",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
         "releaseDatePrecision": "day",
-        "albumType": "EP",
-        "rawAlbumType": "single",
+        "albumType": "Album",
+        "rawAlbumType": "album",
         "label": null,
         "copyrights": [
           {
-            "text": "2025 DSPmedia,under license to Kakao Entertainment",
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
             "type": "C"
           },
           {
-            "text": "2025 DSPmedia,under license to Kakao Entertainment",
+            "text": "2026 DSPmedia,under license to Kakao Entertainment",
             "type": "P"
           }
         ],
-        "totalTracks": 6,
+        "totalTracks": 10,
         "tracks": [
           {
-            "id": "5GdoKcuSrMMbj2vhR9hWwR",
-            "name": "Freak (feat. B.I)",
+            "id": "64VnWqnEIz130BnVlqYHgV",
+            "name": "Back To Life",
             "trackNumber": 1,
             "discNumber": 1,
-            "durationMs": 152598,
-            "duration": "2:33",
+            "durationMs": 160000,
+            "duration": "2:40",
             "explicit": false,
-            "url": "https://open.spotify.com/track/5GdoKcuSrMMbj2vhR9hWwR",
+            "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
             "isCurrent": false
           },
           {
-            "id": "3l0xiWlpSRfE9zEw4QhzFB",
-            "name": "Ooh",
+            "id": "4tdRGI6rkls68NjMwVhjyO",
+            "name": "Armor",
             "trackNumber": 2,
             "discNumber": 1,
-            "durationMs": 175024,
-            "duration": "2:55",
+            "durationMs": 190000,
+            "duration": "3:10",
             "explicit": false,
-            "url": "https://open.spotify.com/track/3l0xiWlpSRfE9zEw4QhzFB",
+            "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
             "isCurrent": false
           },
           {
-            "id": "3czRgZdEBJMiByShEPwNE3",
-            "name": "View",
+            "id": "6H0HdP9bQZGsrJsNKAtUI4",
+            "name": "At Least",
             "trackNumber": 3,
             "discNumber": 1,
-            "durationMs": 149998,
-            "duration": "2:30",
+            "durationMs": 177000,
+            "duration": "2:57",
             "explicit": false,
-            "url": "https://open.spotify.com/track/3czRgZdEBJMiByShEPwNE3",
+            "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
             "isCurrent": false
           },
           {
-            "id": "4OpEV8xWBcOY1E5RiuCa4o",
-            "name": "Move",
+            "id": "6UXR2R0AEgBMyF66jubcsA",
+            "name": "Signal",
             "trackNumber": 4,
             "discNumber": 1,
-            "durationMs": 166764,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+            "isCurrent": false
+          },
+          {
+            "id": "55YwvNCI00HDViU6MB6Wce",
+            "name": "Move (BM Solo)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 167000,
             "duration": "2:47",
             "explicit": false,
-            "url": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
+            "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
             "isCurrent": true
           },
           {
-            "id": "1txTMAyq0LqXpDTi4jjY19",
-            "name": "Stay Mad",
-            "trackNumber": 5,
+            "id": "717HElvIAzdSYqjDzQNnto",
+            "name": "EASY (J.seph Solo)",
+            "trackNumber": 6,
             "discNumber": 1,
-            "durationMs": 156631,
-            "duration": "2:37",
+            "durationMs": 145000,
+            "duration": "2:25",
             "explicit": false,
-            "url": "https://open.spotify.com/track/1txTMAyq0LqXpDTi4jjY19",
+            "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
             "isCurrent": false
           },
           {
-            "id": "4pnSUKmlLBSiZntf2pSjf9",
-            "name": "Freak (feat. B.I) (Inst.)",
-            "trackNumber": 6,
+            "id": "7zr5es8m7jC7gXGE3C85sw",
+            "name": "Backseat (SOMIN Solo)",
+            "trackNumber": 7,
             "discNumber": 1,
-            "durationMs": 152598,
-            "duration": "2:33",
+            "durationMs": 165000,
+            "duration": "2:45",
             "explicit": false,
-            "url": "https://open.spotify.com/track/4pnSUKmlLBSiZntf2pSjf9",
+            "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+            "isCurrent": false
+          },
+          {
+            "id": "6Z0ZU4xTIvWpEYu1lf610e",
+            "name": "Home Sweet Home (JIWOO Solo)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+            "isCurrent": false
+          },
+          {
+            "id": "2KWEaIqIHH2fVl7btFtAen",
+            "name": "Always",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+            "isCurrent": false
+          },
+          {
+            "id": "2y3tgdrvjrhS2tq5w3xuCC",
+            "name": "Back To Life (Inst.)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 160000,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2y3tgdrvjrhS2tq5w3xuCC",
             "isCurrent": false
           }
         ]
       },
-      "fetchedAt": "2026-07-28T08:30:41.523Z",
-      "trackUrl": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
-      "albumUrl": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
-      "artistUrl": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
-      "albumName": "BM 2nd EP 'PO:INT'",
-      "albumType": "EP",
-      "releaseDate": "2025-10-20",
-      "duration": "2:47",
-      "isrc": "KRA382506109",
-      "label": null,
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218"
+      "fetchedAt": "2026-07-28T09:22:08.373Z"
     },
     "genius": {
       "url": "https://genius.com/Bm-kard-move-lyrics",

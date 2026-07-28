@@ -1,5 +1,323 @@
 [
   {
+    "id": "5053",
+    "slug": "kard-always-turkce-ceviri",
+    "title": "KARD Always Türkçe Çeviri",
+    "song": "Always",
+    "artist": "KARD",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "date": "2026-07-28T09:21:19.374Z",
+    "reading_time": 4,
+    "excerpt": "uri geunare urin",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "3:12",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/2KWEaIqIHH2fVl7btFtAen",
+        "isrc": "KRA382603093",
+        "duration": "3:12",
+        "previewUrl": null,
+        "trackNumber": 9
+      },
+      "artist": {
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
+      },
+      "album": {
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/kjRhhrcLr0c?si=L6zS6SdSFoy4OvBS",
+    "annotations": {
+      "Salesio": "İtalyan eğitmen Don Bosco’nun (Salesians) felsefesine atıf; gençlere verilen karşılıksız, koruyucu ve sevgi dolu desteği simgeler."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "uri geunare urin",
+      "tr": "O günlerde biz..."
+    },
+    "heroPair": {
+      "en": "Always be your light in the dark",
+      "tr": "Karanlığın içinde daima senin ışığın olacağım."
+    }
+  },
+  {
+    "id": "5052",
+    "slug": "kard-signal-turkce-ceviri",
+    "title": "KARD Signal Türkçe Çeviri",
+    "song": "Signal",
+    "artist": "KARD",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "date": "2026-07-28T09:21:12.846Z",
+    "reading_time": 4,
+    "excerpt": "(yeah yeah)",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "2:57",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6UXR2R0AEgBMyF66jubcsA",
+        "isrc": "KRA382603092",
+        "duration": "2:57",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
+      },
+      "album": {
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/3ICUVF5IzfI?si=p4x-RSm8CHXaUo4C",
+    "annotations": {
+      "Simmian": "Estetik algı, güzelliği görme yetisi. Sanatçı burada kadının sadece dış görünüşünü değil, bakış açısını ve zevklerini de övüyor.",
+      "gigang": "Disiplin, düzen. Bir mekâna girdiğinde oradaki hiyerarşiyi bozup herkesin sana saygı duymasını veya bakmasını sağlamak anlamında kullanılmış."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(yeah yeah)",
+      "tr": "(yeah yeah)"
+    },
+    "heroPair": {
+      "en": "Just gimme that Signal",
+      "tr": "Sadece bana o sinyali ver!"
+    }
+  },
+  {
+    "id": "5051",
+    "slug": "kard-at-least-turkce-ceviri",
+    "title": "KARD At Least Türkçe Çeviri",
+    "song": "At Least",
+    "artist": "KARD",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "date": "2026-07-28T09:21:04.009Z",
+    "reading_time": 3,
+    "excerpt": "Thought that we were solid",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "2:57",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6H0HdP9bQZGsrJsNKAtUI4",
+        "isrc": "KRA382603091",
+        "duration": "2:57",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
+      },
+      "album": {
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/6V2YR54veDM?si=j6TS-gjiozi4JmBT",
+    "annotations": {
+      "açamadan solan o çiçekler": "Henüz tam yaşanmamış, yarım kalmış bir aşkı simgeler.",
+      "ters orantılı": "Sen yaklaştıkça benim uzaklaşmamı ya da duyguların dengesizliğini anlatan matematiksel bir metafordur."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Thought that we were solid",
+      "tr": "Sağlam olduğumuzu sanmıştım"
+    },
+    "heroPair": {
+      "en": "At Least",
+      "tr": "En azından..."
+    }
+  },
+  {
+    "id": "5050",
+    "slug": "kard-armor-turkce-ceviri",
+    "title": "KARD Armor Türkçe Çeviri",
+    "song": "Armor",
+    "artist": "KARD",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "date": "2026-07-28T09:20:54.597Z",
+    "reading_time": 3,
+    "excerpt": "I need I need",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "3:10",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4tdRGI6rkls68NjMwVhjyO",
+        "isrc": "KRA382603090",
+        "duration": "3:10",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
+      },
+      "album": {
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/TDWNG2SwgLM?si=I_AJjhZX4e6wOkxB",
+    "annotations": {
+      "overflowing": "İncil’deki 23. Mezmur’a atıf; bereketin ve ilahi korunmanın bolluğunu simgeler."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I need I need",
+      "tr": "İhtiyacım olan, tek ihtiyacım;"
+    },
+    "heroPair": {
+      "en": "Cause I’m armored up (up)",
+      "tr": "Çünkü zırhımı kuşandım (armored up)!"
+    }
+  },
+  {
+    "id": "5049",
+    "slug": "kard-back-to-life-turkce-ceviri",
+    "title": "KARD Back To Life Türkçe Çeviri",
+    "song": "Back To Life",
+    "artist": "KARD",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+    "date": "2026-07-28T09:20:45.798Z",
+    "reading_time": 3,
+    "excerpt": "If you lose your way",
+    "categories": [
+      "KARD",
+      "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'"
+    ],
+    "category_slugs": [
+      "kard",
+      "kard-1st-album-where-to-now-part-2-nowhere"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "2:40",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/64VnWqnEIz130BnVlqYHgV",
+        "isrc": "KRA382603089",
+        "duration": "2:40",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
+      },
+      "album": {
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/iwc3ePT4-xw?si=my8TXmw_G-w99qHw",
+    "annotations": {
+      "Pygmalion": "Bir insanın kendine olan inancının ve çevresinden gördüğü yüksek beklentilerin, sonunda o başarıyı bir \"kendi kendini gerçekleştiren kehanet\" gibi gerçeğe dönüştürmesi durumudur.",
+      "pi ttam tears": "‘Kan ve ter’ ifadesi, harcanan muazzam emeği, fiziksel ve ruhsal acıları temsil eden evrensel bir bedel ödeme anlatımıdır."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "If you lose your way",
+      "tr": "Eğer yolunu kaybedersen,"
+    },
+    "heroPair": {
+      "en": "Back To Life",
+      "tr": "Ohhhhh..."
+    }
+  },
+  {
     "id": "5048",
     "slug": "aitch-rmb-ring-my-bell-turkce-ceviri",
     "title": "Aitch RMB (Ring My Bell) Türkçe Çeviri",
@@ -81,33 +399,32 @@
       "jiwoo-1st-ep-ex-ist"
     ],
     "spotify": {
-      "trackUrl": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
-      "albumUrl": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
-      "artistUrl": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
-      "albumName": "JIWOO 1st EP '(EX)IST'",
-      "releaseDate": "2026-02-11",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
-      "duration": "3:15",
-      "albumType": "EP",
-      "label": null,
+      "trackUrl": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "3:12",
+      "albumType": "Album",
       "track": {
-        "url": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
+        "url": "https://open.spotify.com/track/6Z0ZU4xTIvWpEYu1lf610e",
         "isrc": "KRA382600883",
-        "duration": "3:15",
+        "duration": "3:12",
         "previewUrl": null,
-        "trackNumber": 1
+        "trackNumber": 8
       },
       "artist": {
-        "name": "JIWOO",
-        "url": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2"
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
       },
       "album": {
-        "name": "JIWOO 1st EP '(EX)IST'",
-        "url": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
-        "releaseDate": "2026-02-11",
-        "albumType": "EP",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
         "label": null
       }
     },
@@ -144,32 +461,31 @@
       "somin-1st-ep-unveil"
     ],
     "spotify": {
-      "trackUrl": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
-      "albumUrl": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
-      "artistUrl": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
-      "albumName": "SOMIN 1st EP 'UNVEIL'",
-      "releaseDate": "2026-04-02",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
-      "duration": "2:46",
+      "trackUrl": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+      "duration": "2:45",
       "albumType": "Album",
-      "label": null,
       "track": {
-        "url": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
+        "url": "https://open.spotify.com/track/7zr5es8m7jC7gXGE3C85sw",
         "isrc": "KRA382601609",
-        "duration": "2:46",
+        "duration": "2:45",
         "previewUrl": null,
-        "trackNumber": 2
+        "trackNumber": 7
       },
       "artist": {
-        "name": "SOMIN",
-        "url": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0"
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
       },
       "album": {
-        "name": "SOMIN 1st EP 'UNVEIL'",
-        "url": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
-        "releaseDate": "2026-04-02",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
         "albumType": "Album",
         "label": null
       }
@@ -207,40 +523,39 @@
       "j-seph-1st-ep-spin-off"
     ],
     "spotify": {
-      "trackUrl": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
-      "albumUrl": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
-      "artistUrl": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
-      "albumName": "J.seph 1st EP 'Spin-off'",
-      "releaseDate": "2026-05-26",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
+      "trackUrl": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
       "duration": "2:25",
-      "albumType": "EP",
-      "label": null,
+      "albumType": "Album",
       "track": {
-        "url": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
+        "url": "https://open.spotify.com/track/717HElvIAzdSYqjDzQNnto",
         "isrc": "KRA382602280",
         "duration": "2:25",
         "previewUrl": null,
-        "trackNumber": 2
+        "trackNumber": 6
       },
       "artist": {
-        "name": "J.seph",
-        "url": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1"
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
       },
       "album": {
-        "name": "J.seph 1st EP 'Spin-off'",
-        "url": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
-        "releaseDate": "2026-05-26",
-        "albumType": "EP",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
         "label": null
       }
     },
     "youtubeUrl": "https://youtu.be/EZNHsnwBDrk?si=g8jGIfwyshfKnZeh",
     "annotations": {
-      "Lumos / Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
-      "Rizz / Sigma / Demure": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
+      "Lumos, Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
+      "Rizz": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -271,33 +586,32 @@
       "bm-2nd-ep-po-int"
     ],
     "spotify": {
-      "trackUrl": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
-      "albumUrl": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
-      "artistUrl": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
-      "albumName": "BM 2nd EP 'PO:INT'",
-      "releaseDate": "2025-10-20",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
+      "trackUrl": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
+      "albumUrl": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+      "artistUrl": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+      "albumName": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+      "releaseDate": "2026-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
       "duration": "2:47",
-      "albumType": "EP",
-      "label": null,
+      "albumType": "Album",
       "track": {
-        "url": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
+        "url": "https://open.spotify.com/track/55YwvNCI00HDViU6MB6Wce",
         "isrc": "KRA382506109",
         "duration": "2:47",
         "previewUrl": null,
-        "trackNumber": 4
+        "trackNumber": 5
       },
       "artist": {
-        "name": "BM",
-        "url": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27"
+        "name": "KARD",
+        "url": "https://open.spotify.com/artist/2JhAlkmukNvarUpGhTFXUQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57464d1deda078b6f391c51b"
       },
       "album": {
-        "name": "BM 2nd EP 'PO:INT'",
-        "url": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
-        "cover": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
-        "releaseDate": "2025-10-20",
-        "albumType": "EP",
+        "name": "KARD 1st Album 'Where To Now? (Part.2) : NOWHERE'",
+        "url": "https://open.spotify.com/album/5gfNUlvzZB0T5Qj4v5cNiz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736a6a130f3a1b6ac2a4b2ad35",
+        "releaseDate": "2026-07-28",
+        "albumType": "Album",
         "label": null
       }
     },

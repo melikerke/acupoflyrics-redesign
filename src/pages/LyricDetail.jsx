@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
 import {
   allPosts,
+  albumArtistFor,
   albumNameFor,
   albumSlugFor,
   annotationsFor,
@@ -994,7 +995,7 @@ export default function LyricDetail() {
   };
   const albumName = albumNameFor(post);
   const hasAlbum = albumName && albumName !== "Tekli";
-  const albumSlug = hasAlbum ? albumSlugFor(`${post.artist}-${albumName}`) : "";
+  const albumSlug = hasAlbum ? albumSlugFor(`${albumArtistFor(post)}-${albumName}`) : "";
 
   const cssVars = {
     "--detail-accent": rgb(accent),
