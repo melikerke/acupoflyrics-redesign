@@ -33,6 +33,38 @@ export function trackPageView(path = window.location.pathname) {
   });
 }
 
+// Keep outbound music-platform clicks as their own GA4 events. The listener is
+// installed once at app level, so links added to new translations, album pages
+// and cards are measured without per-component wiring.
+export function installOutboundClickTracking() {
+  const onClick = (event) => {
+    const anchor = event.target instanceof Element ? event.target.closest("a[href]") : null;
+    if (!anchor) return;
+
+    let url;
+    try {
+      url = new URL(anchor.href, window.location.href);
+    } catch {
+      return;
+    }
+
+    const common = {
+      link_url: url.href,
+      link_text: anchor.textContent?.trim().slice(0, 100) || "",
+      page_path: window.location.pathname,
+    };
+
+    if (url.hostname === "open.spotify.com") {
+      trackEvent("spotify_click", common);
+    } else if (["youtube.com", "www.youtube.com", "youtu.be", "music.youtube.com"].includes(url.hostname)) {
+      trackEvent("youtube_click", common);
+    }
+  };
+
+  document.addEventListener("click", onClick, { capture: true });
+  return () => document.removeEventListener("click", onClick, { capture: true });
+}
+
 export function setAnalyticsConsent(granted) {
   const value = granted ? "granted" : "denied";
 

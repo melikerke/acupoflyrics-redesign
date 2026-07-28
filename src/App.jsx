@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useState, Component } from "react";
 import { Navigate, Routes, Route, useLocation } from "react-router-dom";
 import Loader from "./components/Loader";
 import ConsentBanner from "./components/ConsentBanner";
-import { trackPageView } from "./lib/analytics";
+import { installOutboundClickTracking, trackPageView } from "./lib/analytics";
 
 const SearchOverlay = lazy(() => import("./components/SearchOverlay"));
 const Home = lazy(() => import("./pages/HomePreview"));
@@ -78,6 +78,8 @@ export default function App() {
     const frame = window.requestAnimationFrame(() => trackPageView(location.pathname));
     return () => window.cancelAnimationFrame(frame);
   }, [location.pathname]);
+
+  useEffect(() => installOutboundClickTracking(), []);
 
   // Global ⌘K / Ctrl-K.
   useEffect(() => {

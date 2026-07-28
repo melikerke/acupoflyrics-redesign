@@ -18,6 +18,7 @@ import {
 import { albumPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
+import { useSeo } from "../lib/seo";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function escapeRegExp(value) {
@@ -460,6 +461,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         await navigator.clipboard.writeText(`${text}\n${window.location.href}`);
         setCardStatus("Kart metni kopyalandı.");
       }
+      trackEvent("share", {
+        method: "lyric_card",
+        content_type: "translation_card",
+        item_id: post.slug,
+      });
     } catch {
       /* user cancelled or sharing unavailable */
     } finally {
@@ -688,13 +694,19 @@ function LyricsSkeleton() {
 
 function DetailVideo({ post, embedUrl, onRead }) {
   if (!embedUrl) return null;
+  const youtubeUrl = post.youtubeUrl || post.youtube?.url;
   return (
     <section className="detail-video-section" aria-label="Video ve çeviri">
       <div className="detail-video-copy">
         <span>Video</span>
         <h2 className="font-serif">{post.song}</h2>
         <p>Videoyu izlerken çeviriye tek dokunuşla geç.</p>
-        <button type="button" onClick={onRead}>Çeviriyi oku</button>
+        <div className="detail-video-actions">
+          <button type="button" onClick={onRead}>Çeviriyi oku</button>
+          {youtubeUrl && (
+            <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">YouTube'da aç</a>
+          )}
+        </div>
       </div>
       <div className="detail-video-frame">
         <iframe
@@ -804,6 +816,11 @@ function CommentsSection({ post }) {
       setComments((current) => [data.comment, ...current]);
       setForm({ name: "", body: "", rating: 5, website: "" });
       setStatus("Yorumun eklendi.");
+      trackEvent("comment_submit", {
+        content_type: "translation",
+        item_id: post.slug,
+        rating: Number(form.rating) || 0,
+      });
     } catch (error) {
       setStatus(error.message || "Yorum eklenemedi.");
     } finally {
@@ -928,6 +945,16 @@ export default function LyricDetail() {
     setSelectedNote(null);
   }, [slug]);
 
+  const canonicalPath = post ? postPath(post) : `/${cleanSlug}/`;
+  useSeo({
+    title: post?.seo?.title || (post ? `${post.artist} ${post.song} Türkçe Çeviri` : "Çeviri bulunamadı | acupoflyrics"),
+    description: post?.seo?.description || post?.excerpt || (post ? `${post.artist} ${post.song} Türkçe çeviri ve orijinal şarkı sözleri.` : "Aradığın çeviri bulunamadı."),
+    path: canonicalPath,
+    image: post?.cover,
+    type: "music.song",
+    noindex: !post,
+  });
+
   const sharePost = async () => {
     const url = window.location.href;
     const title = post ? `${post.artist} - ${post.song} | Türkçe çeviri` : "acupoflyrics";
@@ -962,12 +989,22 @@ export default function LyricDetail() {
   }
 
   const sameArtistRelated = relatedTo(post, 4);
-  const related = sameArtistRelated.length >= 4
-    ? sameArtistRelated
+  const sameAlbumRelated = allPosts.filter((candidate) => (
+    candidate.slug !== post.slug
+    && albumArtistFor(candidate) === albumArtistFor(post)
+    && albumNameFor(candidate) === albumNameFor(post)
+    && albumNameFor(post) !== "Tekli"
+  ));
+  const related = sameAlbumRelated.length >= 4
+    ? sameAlbumRelated.slice(0, 4)
+    : sameArtistRelated.length >= 4
+      ? sameArtistRelated
     : [
+        ...sameAlbumRelated,
         ...sameArtistRelated,
         ...allPosts.filter((candidate) => (
           candidate.slug !== post.slug &&
+          !sameAlbumRelated.some((item) => item.slug === candidate.slug) &&
           !sameArtistRelated.some((item) => item.slug === candidate.slug) &&
           candidate.category_slugs?.some((slug) => post.category_slugs?.includes(slug))
         )),
@@ -975,7 +1012,7 @@ export default function LyricDetail() {
           candidate.slug !== post.slug &&
           !sameArtistRelated.some((item) => item.slug === candidate.slug)
         )),
-  ].slice(0, 4);
+      ].filter((candidate, index, items) => items.findIndex((item) => item.slug === candidate.slug) === index).slice(0, 4);
   const artistLinks = creditedArtistsFor(post);
   const sections = lyricSections(post.blocks);
   const isLyricsLoading = indexedPost && fullPost === null;
@@ -1063,6 +1100,16 @@ export default function LyricDetail() {
                 <button type="button" className="detail-primary-action" onClick={scrollToReader}>
                   Çeviriyi oku
                 </button>
+                {post.spotify?.track?.url || post.spotify?.trackUrl ? (
+                  <a
+                    className="detail-ghost-action"
+                    href={post.spotify?.track?.url || post.spotify?.trackUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Spotify'da dinle
+                  </a>
+                ) : null}
                 <button type="button" className="detail-ghost-action" onClick={sharePost}>
                   ↗ {shared ? "Kopyalandı" : "Paylaş"}
                 </button>
@@ -1116,8 +1163,12 @@ export default function LyricDetail() {
         {related.length > 0 && (
           <>
             <div className="detail-section-heading">
-              <h2 className="font-serif">Önerilen çeviriler</h2>
-              <span>{sameArtistRelated.length ? `${post.artist} ve aynı dünyadan` : "okumaya devam et"}</span>
+              <h2 className="font-serif">{sameAlbumRelated.length ? `${albumName} albümünden` : "Önerilen çeviriler"}</h2>
+              {sameAlbumRelated.length ? (
+                <Link to={albumPath(albumSlug)}>Albümdeki tüm çeviriler →</Link>
+              ) : (
+                <span>{sameArtistRelated.length ? `${post.artist} ve aynı dünyadan` : "okumaya devam et"}</span>
+              )}
             </div>
             <div className="detail-related-grid">
               {related.map((p) => {

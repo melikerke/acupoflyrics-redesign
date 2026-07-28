@@ -1160,10 +1160,31 @@ body {
   cursor: pointer;
 }
 
-.detail-video-copy button {
+.detail-video-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
   margin-top: 18px;
+}
+
+.detail-video-copy button {
+  margin-top: 0;
   min-height: 42px;
   padding: 0 18px;
+}
+
+.detail-video-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .detail-video-frame {
