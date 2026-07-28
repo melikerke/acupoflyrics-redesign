@@ -1,5 +1,124 @@
 export const popGundemiArticles = [
   {
+    slug: "kard-veda-albumu-nowhere-yeniden-bulusma",
+    title: "KARD'ın vedası gerçekten son mu? NOWHERE, final dünya turu ve açık bırakılan yeniden buluşma kapısı",
+    shortTitle: "KARD'ın vedası gerçekten son mu?",
+    kicker: "K-pop gündemi",
+    date: "2026-07-28",
+    updatedAt: "2026-07-28T11:20:00+03:00",
+    readTime: "6 dk",
+    image: "/images/pop-gundemi/kard-back-to-life-2026.jpg",
+    imageAlt: "KARD üyeleri Back To Life klibinden bir karede sarı bir otomobilin önünde",
+    imageCredit: "KARD · DSP Media",
+    imageSource: "https://x.com/KARD_Official/status/2081756732184023147",
+    imageLayout: "landscape",
+    accent: "#f0a31a",
+    artistSlug: "kard",
+    artistName: "KARD",
+    excerpt:
+      "KARD ilk stüdyo albümü NOWHERE ve final dünya turuyla grup faaliyetlerine ara veriyor; BM, J.seph, Somin ve Jiwoo ise bunun kesin bir son olmadığını özellikle söylüyor.",
+    dek:
+      "Dokuz yıl boyunca K-pop'ın alışılmış kalıplarına sığmadan yürüyen KARD, ilk stüdyo albümünü bir veda albümü olarak yayımlıyor. Ama üyelerin anlattığı hikâyede nokta değil, uzun bir virgül var.",
+    livePanel: {
+      label: "28 Temmuz 2026 itibarıyla",
+      title: "Şu an neredeyiz?",
+      items: [
+        { label: "Albüm", text: "Where To Now? (Part.2) : NOWHERE yayımlandı; 10 şarkılık albümün ana parçası Back To Life." },
+        { label: "Sonraki durak", text: "NOW HERE dünya turu 8 Ağustos'ta Seul'de başlıyor; ardından Avrupa ve Singapur tarihleri geliyor." },
+        { label: "Grubun geleceği", text: "Üyeler bireysel yollarına geçecek, fakat KARD adını ve yeniden buluşma ihtimalini kapatmıyor." },
+      ],
+    },
+    summary: [
+      "NOWHERE, KARD'ın ilk stüdyo albümü ve mevcut grup döneminin son albümü.",
+      "J.seph, albümü yapmaya başlarken bunun son çalışma olacağını düşünmediklerini; sözleşmelerin sonuna yaklaştıkça bu ihtimalin belirginleştiğini anlatıyor.",
+      "BM, ayrılığı dört üyenin başka alanlarda büyüyüp daha güçlü bir sinerjiyle yeniden buluşabilmesi için bir fırsat olarak görüyor.",
+      "Somin, daha önce ara verip yeniden bir araya gelen kıdemli grupları hatırlatıyor ve hayranların KARD'ı da böyle düşünmesini istiyor.",
+      "Jiwoo'nun içinde kalan en büyük ukde, grubun yurt dışındaki gücüne rağmen Kore'de aynı görünürlüğü yakalayamaması.",
+      "Üyelerin ortak tonu net: bu bir dönemin kapanışı, ama birbirlerine söylenmiş kesin bir elveda değil.",
+    ],
+    sections: [
+      {
+        heading: "İlk stüdyo albümü, son bölüm",
+        body: [
+          "Çoğu grup için ilk stüdyo albümü yeni ve büyük bir başlangıçtır. KARD içinse Where To Now? (Part.2) : NOWHERE, neredeyse on yıllık bir yolculuğun şimdilik son ortak durağı. Albümün bugün yayımlanmış olması bu yüzden hem heyecanlı hem de insanın boğazına küçük bir düğüm oturtan türden.",
+          "Yine de üyelerin kullandığı dil, ajans duyurusundaki kesin 'yolculuğu tamamlama' tonundan daha umutlu. Onlar bunu birbirlerinden kopmak olarak değil, dört kişinin kendi kanatlarını denemek üzere farklı yönlere gitmesi olarak anlatıyor. Kısacası KARD'ın DSP Media çatısı altındaki düzenli grup dönemi bitiyor; dört üyenin bağı ise bitmiyor.",
+        ],
+      },
+      {
+        heading: "Bu albüm baştan bir veda olarak yapılmadı",
+        body: [
+          "J.seph'in söylediği en önemli şeylerden biri bu: stüdyoya 'son albümümüzü yapıyoruz' duygusuyla girmemişler. Şarkılar üzerinde çalışırken sözleşmelerin sonu yaklaşmış ve bunun final albümüne dönüşebileceğini yavaş yavaş fark etmişler. Belki de NOWHERE'in bir vedadan ibaret hissettirmemesinin sebebi tam olarak bu; albüm önce müzik olarak doğmuş, vedaya sonra dönüşmüş.",
+          "BM de dört üyenin bugüne kadar elinden geleni yaptığını ve bu emeğin neler başardığını gördüklerini söylüyor. Ona göre şimdi her birinin başka bir yerde büyüme ve kanatlarını açma zamanı. Kazanacakları yeni deneyimlerin, ileride yeniden bir araya geldiklerinde daha iyi işler ve daha güçlü bir sinerji yaratabileceğine inanıyor.",
+        ],
+      },
+      {
+        heading: "NOWHERE aslında 'nereye vardık?' diye sormuyor",
+        body: [
+          "Albümün adı geçen yıl başlayan Where To Now? (Part.1 : Yellow Light) anlatısını tamamlıyor. Fakat BM'in anlattığına göre mesele bir hedefe ulaşıp ulaşmamak değil, yola hangi gözle baktığımız. Onuncu yılına yaklaşan bir sanatçı için perspektifin çok önemli olduğunu; nerede olduğumuzdan çok kiminle olduğumuzun belirleyici hale geldiğini söylüyor.",
+          "Uzak hedeflere fazla kilitlendiğimizde hayatın gittikçe zorlaştığını, bakış açısını değiştirdiğimizdeyse her şeyin şaşırtıcı biçimde hafifleyebildiğini anlatıyor. Albümün kalbindeki mesaj da burada: yolun sonuna bakmak yerine, o yolu kimlerle yürüdüğünü fark etmek.",
+          "10 şarkılık albümde ana parça Back To Life'ın yanı sıra dört yeni grup şarkısı ve üyelerin daha önce yayımlanan dört solo parçası bulunuyor. Prodüksiyonun genelini BM üstlenirken dört üye de Back To Life ile hayran şarkısı Always'in sözlerine katkı verdi.",
+        ],
+        image: "/images/pop-gundemi/kard-nowhere-concept-2026.jpg",
+        imageAlt: "KARD'ın NOWHERE albümü için yayımlanan denim ağırlıklı konsept fotoğrafı",
+        imageCaption: "NOWHERE konsept fotoğrafı · KARD / DSP Media",
+        imageSource: "https://www.instagram.com/official_kard/p/DbGXJd_Elg2/",
+      },
+      {
+        heading: "KARD'ın K-pop'ta açtığı alan küçümsenemez",
+        body: [
+          "KARD, Aralık 2016'da Oh NaNa ile başlayan proje döneminden beri kolay bir formülün peşinden gitmedi. BM, J.seph, Somin ve Jiwoo'dan oluşan iki kadın–iki erkek kadro, karma idol gruplarının neredeyse görünmez olduğu bir dönemde ortaya çıktı; Temmuz 2017'de Hola Hola ile resmi çıkışını yaptığında ise dünyadaki dinleyici çoktan onları tanıyordu.",
+          "Resmi çıkıştan önce Kuzey ve Güney Amerika'da sahneye çıkmaları, ilerleyen yıllarda özellikle Latin Amerika ve Avrupa'da kurdukları güçlü bağın erken işaretiydi. Somin de çıkış yaptıkları dönemde moombahton ve tropikal sesleri kullanan çok az grup olduğunu, yurt dışı turnelerinin bugünkü kadar yaygınlaşmadığını hatırlatıyor. Karma gruplara bakışın zamanla daha olumlu hale gelmesinde KARD'ın payı olduğuna inanıyor; buna katılmamak zor.",
+          "Onların hikâyesi, Kore'deki klasik başarı ölçülerine tam oturmasa bile başka bir şeyin mümkün olduğunu gösterdi: Bir grup, ülkesindeki görünürlüğü sınırlı kalırken dünyanın farklı şehirlerinde gerçek ve sadık bir topluluk kurabilir.",
+        ],
+      },
+      {
+        heading: "İçlerinde kalan en büyük ukde: Kore",
+        body: [
+          "Jiwoo bunu saklamıyor. KARD'ın en büyük sınavının Kore'de tanınırlık oluşturmak olduğunu ve bunun için çok uğraşsalar da her şeyin istedikleri gibi gitmediğini söylüyor. Yurt dışı turnelerinden döndüklerinde Kore'de çok az programlarının olması, onun hâlâ 'daha aktif tanıtım yapabilseydik nasıl olurdu?' diye düşünmesine neden oluyor.",
+          "Bu cümle, KARD'ın kariyerindeki tuhaf tersliği çok iyi özetliyor. Başka kıtalarda salonları dolduran, dinleyicinin şarkılarını baştan sona söylediği bir grup; kendi ülkesinde aynı ölçüde görünür olamadı. Yine de üyelerin hiçbiri seçtikleri yoldan pişman değil. Çünkü o yol, onları bugün hâlâ yanlarında duran küresel bir HIDDEN KARD ailesine götürdü.",
+        ],
+      },
+      {
+        heading: "Final turu bir yas değil, birlikte geçirilecek son büyük bölüm",
+        body: [
+          "NOW HERE dünya turu 8 Ağustos'ta Seul'de başlayacak. Ardından Berlin, Frankfurt, Brüksel, Lizbon, Barselona, Madrid, Paris, Londra, Sofya ve Atina durakları geliyor; Singapur da açıklanan rota içinde. Bu takvim, bir vedadan çok KARD'ın kariyerini mümkün kılan uluslararası hayranlarla yüz yüze teşekkür turu gibi duruyor.",
+          "Somin, kalan zamanı olabildiğince dolu geçirmek istediklerini söylüyor: bol bol içerik çekiyor, mümkün olduğunca çok imza etkinliği düzenlemeye çalışıyorlar. İstediği şey, hayranlarla birlikte güzel bir son bölüm yaşamak. Albüm beklenenden de büyük bir başarı yakalarsa grup faaliyetlerini bitirme planları değişebilir mi sorusuna verdiği cevap ise hiç dolambaçlı değil: elbette. J.seph'in cevabı daha da net: yüzde yüz.",
+        ],
+      },
+      {
+        heading: "Kapı neden hâlâ açık?",
+        body: [
+          "Somin, daha önce ara verip yıllar sonra yeniden buluşan kıdemli grupları örnek gösteriyor ve hayranlardan KARD'a da aynı gözle bakmalarını istiyor. Bu, hemen yeni bir albüm sözü değil; üyelerin de kabul ettiği gibi henüz somut bir yeniden buluşma planı yok. Ama birbirlerinden vazgeçmediklerini söylemeleri, bugünkü vedayı daha doğru bir yere oturtuyor.",
+          "Belki KARD artık her comeback takviminde yan yana olmayacak. Belki solo işler, farklı şirketler ve bambaşka sahneler göreceğiz. Fakat dokuz yıl boyunca bu kadar alışılmadık bir yolu birlikte yürüyen dört insanın, bir gün yeniden aynı masaya oturması hiç de uzak bir ihtimal gibi gelmiyor.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "KARD'ın hikâyesini yalnızca 'dağılan bir K-pop grubu' başlığına sıkıştırmak haksızlık olur. Onlar karma grup olmanın zor olduğu bir endüstride dokuz yıl kaldı, müziklerini kıtalar arasında taşıdı ve kendilerine benzeyen başka bir örnek yokken kendi yolunu açtı.",
+          "O yüzden bu albümü dinlerken içimiz burkulsa da üyelerin bıraktığı küçük ışığı koruyalım: NOWHERE bir son olabilir, ama anlattıkları hiçbir yerde 'bir daha asla' demiyor. Şimdilik söyleyebileceğimiz en dürüst şey şu: iyi ki aynı yolda yürüdüler; umarız o yollar bir gün yeniden kesişir.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "BM", status: "Yeni deneyimlere açık", detail: "Ayrı alanlarda büyüdükten sonra daha güçlü bir sinerjiyle yeniden bir araya gelebileceklerine inanıyor." },
+      { name: "J.seph", status: "Kapıyı kapatmıyor", detail: "Albümün baştan bir final olarak yapılmadığını söylüyor; başarı sonrası planların değişmesi ihtimaline 'yüzde yüz' diyor." },
+      { name: "Somin", status: "Bunu bir ara gibi görüyor", detail: "Ara verip yeniden buluşan kıdemli grupları hatırlatıyor ve hayranların KARD'ı da böyle düşünmesini istiyor." },
+      { name: "Jiwoo", status: "Dürüst bir muhasebe", detail: "En büyük ukdesinin KARD'ın Kore'de hak ettiği görünürlüğü yakalayamaması olduğunu açıkça paylaşıyor." },
+    ],
+    sources: [
+      { name: "The Korea Herald röportajı", url: "https://www.koreaherald.com/article/10821679" },
+      { name: "The Korea Times röportajı", url: "https://www.koreatimes.co.kr/entertainment/k-pop/20260728/kard-disbands-after-10-years-but-members-insist-story-is-not-over" },
+      { name: "DSP Media albüm duyurusu", url: "https://www.kard.kr/notice/6a575f77bd0ac9708030d7db" },
+      { name: "NOW HERE Seul duyurusu", url: "https://www.kard.kr/notice/6a54a0b5e0f6e63f1bc0f604" },
+      { name: "Avrupa turne takvimi", url: "https://www.kard.kr/notice/6a3204da0babae4201473266" },
+      { name: "KARD resmi X hesabı", url: "https://x.com/KARD_Official/status/2081756732184023147" },
+      { name: "KARD resmi Instagram hesabı", url: "https://www.instagram.com/official_kard/p/DbGXJd_Elg2/" },
+    ],
+    storyShare:
+      "KARD'ın vedası gerçekten son mu? İlk stüdyo albümü NOWHERE, final dünya turu ve BM, J.seph, Somin ile Jiwoo'nun açık bıraktığı yeniden buluşma kapısı acupoflyrics Pop Günlüğü'nde.",
+  },
+  {
     slug: "wonderwall-neden-yeniden-yukseldi",
     title: "Oasis klasiği Wonderwall neden yeniden yükseldi? Dünya Kupası etkisi, nostalji ve chart dönüşü",
     shortTitle: "Wonderwall neden yeniden yükseldi?",

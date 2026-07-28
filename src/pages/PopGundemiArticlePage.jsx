@@ -95,9 +95,15 @@ export default function PopGundemiArticlePage() {
             <p className="pop-article-subtitle">{article.title}</p>
             <p>{article.dek}</p>
           </div>
-          <div className="pop-article-visual">
-            <img src={article.image} alt="" />
-            <span>acupoflyrics</span>
+          <div className={`pop-article-visual${article.imageLayout === "landscape" ? " pop-article-visual--landscape" : ""}`}>
+            <img src={article.image} alt={article.imageAlt || ""} />
+            {article.imageSource ? (
+              <a href={article.imageSource} target="_blank" rel="noopener noreferrer">
+                {article.imageCredit || "acupoflyrics"}
+              </a>
+            ) : (
+              <span>{article.imageCredit || "acupoflyrics"}</span>
+            )}
           </div>
         </header>
 
@@ -122,6 +128,31 @@ export default function PopGundemiArticlePage() {
             {article.summary.map((item) => <li key={item}>{item}</li>)}
           </ul>
         </section>
+
+        {article.sections?.length > 0 && (
+          <div className="pop-article-sections">
+            {article.sections.map((section) => (
+              <section className="pop-article-section" key={section.heading}>
+                <h2 className="font-serif">{section.heading}</h2>
+                <div className="pop-article-section-copy">
+                  {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                </div>
+                {section.image && (
+                  <figure className="pop-article-inline-figure">
+                    {section.imageSource ? (
+                      <a href={section.imageSource} target="_blank" rel="noopener noreferrer">
+                        <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                      </a>
+                    ) : (
+                      <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                    )}
+                    {section.imageCaption && <figcaption>{section.imageCaption}</figcaption>}
+                  </figure>
+                )}
+              </section>
+            ))}
+          </div>
+        )}
 
         <section className="pop-member-status" aria-label="Üye bazlı durum">
           {article.memberStatus.map((member) => (
