@@ -290,7 +290,7 @@
   {
     "slug": "katy-perry",
     "name": "Katy Perry",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
   },
   {
@@ -350,7 +350,7 @@
   {
     "slug": "bruno-mars",
     "name": "Bruno Mars",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
   },
   {
@@ -740,7 +740,7 @@
   {
     "slug": "dominic-fike",
     "name": "Dominic Fike",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
   },
   {
@@ -1136,7 +1136,7 @@
   {
     "slug": "olivia-rodrigo",
     "name": "Olivia Rodrigo",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
   },
   {
@@ -1528,5 +1528,47 @@
     "name": "Aitch",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb832acfd9c5ceff4baf912a83"
+  },
+  {
+    "slug": "pinkpantheress-zara-larsson",
+    "name": "PinkPantheress, Zara Larsson",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656"
+  },
+  {
+    "slug": "huntr-x",
+    "name": "HUNTR/X",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b2736c1334650ced0e28f0b2e13f"
+  },
+  {
+    "slug": "le-sserafim-illit-katseye",
+    "name": "LE SSERAFIM, ILLIT, KATSEYE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
+  },
+  {
+    "slug": "the-goo-goo-dolls",
+    "name": "The Goo Goo Dolls",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7b66b8c4ba729848574df7a"
+  },
+  {
+    "slug": "sombr",
+    "name": "sombr",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb78edaa6468cae153565c2c97"
+  },
+  {
+    "slug": "ella-langley",
+    "name": "Ella Langley",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
+  },
+  {
+    "slug": "michael-jackson",
+    "name": "Michael Jackson",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
   }
 ]

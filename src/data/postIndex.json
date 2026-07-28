@@ -1,5 +1,707 @@
 [
   {
+    "id": "5064",
+    "slug": "michael-jackson-billie-jean-turkce-ceviri",
+    "title": "Michael Jackson Billie Jean Türkçe Çeviri",
+    "song": "Billie Jean",
+    "artist": "Michael Jackson",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+    "date": "2026-07-28T14:04:16.423Z",
+    "reading_time": 5,
+    "excerpt": "She was more like a beauty queen from a movie scene, uh",
+    "categories": [
+      "Michael Jackson",
+      "Thriller"
+    ],
+    "category_slugs": [
+      "michael-jackson",
+      "thriller"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+      "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ",
+      "artistUrl": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+      "albumName": "Thriller",
+      "releaseDate": "1982-11-30",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+      "duration": "4:54",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+        "isrc": "USSM19902991",
+        "duration": "4:54",
+        "previewUrl": null,
+        "trackNumber": 6
+      },
+      "artist": {
+        "name": "Michael Jackson",
+        "url": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
+      },
+      "album": {
+        "name": "Thriller",
+        "url": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+        "releaseDate": "1982-11-30",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/Zi_XLOBDo_Y?si=yBMRyAEBCjGigiJn",
+    "annotations": {
+      "I am the one": "Bu ifade hem \"o şanslı adam\" hem de \"suçlanan adam\" anlamında şarkının çift anlamlı temelidir.",
+      "Do think twice": "Michael burada \"don't think twice\" diyerek içsesiyle çatışıyor ve sonunda \"mutlaka iki kez düşün\" uyarısını pekiştiriyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "She was more like a beauty queen from a movie scene, uh",
+      "tr": "Daha çok bir film sahnesinden fırlamış güzellik kraliçesi gibiydi, uh"
+    },
+    "heroPair": {
+      "en": "She told me her name was Billie Jean as she caused a scene",
+      "tr": "Bir olay çıkarırken (caused a scene) adının Billie Jean olduğunu söyledi"
+    }
+  },
+  {
+    "id": "5063",
+    "slug": "dominic-fike-babydoll-turkce-ceviri",
+    "title": "Dominic Fike Babydoll Türkçe Çeviri",
+    "song": "Babydoll",
+    "artist": "Dominic Fike",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+    "date": "2026-07-28T14:04:15.780Z",
+    "reading_time": 2,
+    "excerpt": "I can't move on, babydoll",
+    "categories": [
+      "Dominic Fike",
+      "Don't Forget About Me, Demos"
+    ],
+    "category_slugs": [
+      "dominic-fike",
+      "don-t-forget-about-me-demos"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+      "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY",
+      "artistUrl": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
+      "albumName": "Don't Forget About Me, Demos",
+      "releaseDate": "2018-10-16",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "duration": "1:38",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+        "isrc": "USQX91802457",
+        "duration": "1:38",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "Dominic Fike",
+        "url": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
+      },
+      "album": {
+        "name": "Don't Forget About Me, Demos",
+        "url": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+        "releaseDate": "2018-10-16",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/nb8CnIo_-_A?si=sqMozMfXw_LDdi_O",
+    "annotations": {
+      "Daddy was a pimp": "Şarkıcı burada aile geçmişindeki karanlık ve zorlu gerçekleri tüm çıplaklığıyla itiraf ediyor. Türkçedeki o \"sokak gerçekçiliği\" tonunu korumak için bu ifadeyi yumuşatmadan bıraktık."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I can't move on, babydoll",
+      "tr": "Hayatıma devam edemiyorum (can't move on), güzel bebeğim"
+    },
+    "heroPair": {
+      "en": "I can't move on, babydoll",
+      "tr": "Hayatıma devam edemiyorum (can't move on), güzel bebeğim"
+    }
+  },
+  {
+    "id": "5062",
+    "slug": "katy-perry-the-one-that-got-away-turkce-ceviri",
+    "title": "Katy Perry The One That Got Away Türkçe Çeviri",
+    "song": "The One That Got Away",
+    "artist": "Katy Perry",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+    "date": "2026-07-28T14:04:15.135Z",
+    "reading_time": 3,
+    "excerpt": "Summer after high school, when we first met",
+    "categories": [
+      "Katy Perry",
+      "Teenage Dream: The Complete Confection"
+    ],
+    "category_slugs": [
+      "katy-perry",
+      "teenage-dream-the-complete-confection"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+      "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz",
+      "artistUrl": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+      "albumName": "Teenage Dream: The Complete Confection",
+      "releaseDate": "2012-03-12",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+      "duration": "3:47",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+        "isrc": "USCA21001266",
+        "duration": "3:47",
+        "previewUrl": null,
+        "trackNumber": 7
+      },
+      "artist": {
+        "name": "Katy Perry",
+        "url": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
+      },
+      "album": {
+        "name": "Teenage Dream: The Complete Confection",
+        "url": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+        "releaseDate": "2012-03-12",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/Ahha3Cqe_fk?si=hvrT-ooOuwpz1hdi",
+    "annotations": {
+      "June & Johnny Cash": "Efsanevi müzisyen çift June Carter ve Johnny Cash’e atıf; onlarınki gibi sarsılmaz ve derin bir aşkı simgeliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Summer after high school, when we first met",
+      "tr": "Liseden sonraki o yaz, ilk tanıştığımızda..."
+    },
+    "heroPair": {
+      "en": "The one that got away",
+      "tr": "Demek zorunda kalmazdım..."
+    }
+  },
+  {
+    "id": "5061",
+    "slug": "ella-langley-choosin-texas-turkce-ceviri",
+    "title": "Ella Langley Choosin' Texas Türkçe Çeviri",
+    "song": "Choosin' Texas",
+    "artist": "Ella Langley",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
+    "date": "2026-07-28T14:04:14.727Z",
+    "reading_time": 3,
+    "excerpt": "Just when I thought I got him to fall in love with Tennessee",
+    "categories": [
+      "Ella Langley",
+      "Dandelion"
+    ],
+    "category_slugs": [
+      "ella-langley",
+      "dandelion"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1REy2Bm9XrSoRMBKNXW69l",
+      "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4",
+      "artistUrl": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+      "albumName": "Dandelion",
+      "releaseDate": "2026-01-30",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
+      "duration": "3:52",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/1REy2Bm9XrSoRMBKNXW69l",
+        "isrc": "USSM12504190",
+        "duration": "3:52",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "Ella Langley",
+        "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
+      },
+      "album": {
+        "name": "Dandelion",
+        "url": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
+        "releaseDate": "2026-01-30",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/hLOheGDwD_0?si=vzwvHEgZCqpM_9s9",
+    "annotations": {
+      "Tennessee": "Nashville’in, yani sakin ve duygusal aşkın merkezi olarak konumlandırılmış.",
+      "Abilene": "Teksas’ta bir şehir. Adamın köklerine dönüşünü simgeliyor.",
+      "Two-step": "Kovboyların meşhur ritmik dansı. Adamın bu dansı yapması, özüne/eski aşkına döndüğünün kanıtı olarak sunuluyor.",
+      "Hank": "Country müziğin efsanesi Hank Williams.",
+      "Amarillo by Morning": "George Strait’in meşhur Teksas temalı şarkısı. Şarkıcı, adamın bu şarkıya olan sevgisinden aslında Teksas'tan hiç kopmadığını anlamalıydım diyor.",
+      "Lone Star State": "Teksas eyaletinin resmi lakabı."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Just when I thought I got him to fall in love with Tennessee",
+      "tr": "Onu tam da Tennessee’ye¹ aşık ettiğimi sandığım anda"
+    },
+    "heroPair": {
+      "en": "He's choosin' Texas, I can tell",
+      "tr": "O Teksas’ı seçiyor, görebiliyorum."
+    }
+  },
+  {
+    "id": "5060",
+    "slug": "sombr-back-to-friends-turkce-ceviri",
+    "title": "sombr back to friends Türkçe Çeviri",
+    "song": "back to friends",
+    "artist": "sombr",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737fd4049ad3b037358cf809ef",
+    "date": "2026-07-28T14:04:14.465Z",
+    "reading_time": 2,
+    "excerpt": "Touch my body tender",
+    "categories": [
+      "sombr",
+      "back to friends"
+    ],
+    "category_slugs": [
+      "sombr",
+      "back-to-friends"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0FTmksd2dxiE5e3rWyJXs6",
+      "albumUrl": "https://open.spotify.com/album/0QLILSOq1IqAqx62drmv4E",
+      "artistUrl": "https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S",
+      "albumName": "back to friends",
+      "releaseDate": "2024-12-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fd4049ad3b037358cf809ef",
+      "duration": "3:19",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/0FTmksd2dxiE5e3rWyJXs6",
+        "isrc": "USWB12405502",
+        "duration": "3:19",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "sombr",
+        "url": "https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb78edaa6468cae153565c2c97"
+      },
+      "album": {
+        "name": "back to friends",
+        "url": "https://open.spotify.com/album/0QLILSOq1IqAqx62drmv4E",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737fd4049ad3b037358cf809ef",
+        "releaseDate": "2024-12-27",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/c8zq4kAn_O0?si=MQ6JxPklnWPM2TSp",
+    "annotations": {
+      "Casual": "Bir ilişkinin ciddiyetten uzak, sadece eğlence veya fiziksel çekim odaklı olmasını anlatan modern terim. Türkçede bu duyguyu \"öylesine\" veya \"gelişigüzel\" kelimeleri çok iyi karşılar."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Touch my body tender",
+      "tr": "Vücuduma şefkatle dokun"
+    },
+    "heroPair": {
+      "en": "Touch my body tender",
+      "tr": "Vücuduma şefkatle dokun"
+    }
+  },
+  {
+    "id": "5059",
+    "slug": "the-goo-goo-dolls-iris-turkce-ceviri",
+    "title": "The Goo Goo Dolls Iris Türkçe Çeviri",
+    "song": "Iris",
+    "artist": "The Goo Goo Dolls",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+    "date": "2026-07-28T14:04:14.098Z",
+    "reading_time": 2,
+    "excerpt": "And I'd give up forever to touch you",
+    "categories": [
+      "The Goo Goo Dolls",
+      "Dizzy up the Girl"
+    ],
+    "category_slugs": [
+      "the-goo-goo-dolls",
+      "dizzy-up-the-girl"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+      "albumUrl": "https://open.spotify.com/album/4UMjBXcRqIgMZ1XumU2x5T",
+      "artistUrl": "https://open.spotify.com/artist/2sil8z5kiy4r76CRTXxBCA",
+      "albumName": "Dizzy up the Girl",
+      "releaseDate": "1998",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+      "duration": "4:50",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+        "isrc": "USWB19800160",
+        "duration": "4:50",
+        "previewUrl": null,
+        "trackNumber": 11
+      },
+      "artist": {
+        "name": "The Goo Goo Dolls",
+        "url": "https://open.spotify.com/artist/2sil8z5kiy4r76CRTXxBCA",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe7b66b8c4ba729848574df7a"
+      },
+      "album": {
+        "name": "Dizzy up the Girl",
+        "url": "https://open.spotify.com/album/4UMjBXcRqIgMZ1XumU2x5T",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+        "releaseDate": "1998",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/NdYWuo9OFAw?si=jC6QDMA3pR1NEzO7",
+    "annotations": {
+      "Everything's made to be broken": "Şarkının kalbi olan bu dize; dünyadaki her şeyin geçiciliğini ve insanın içindeki o kaçınılmaz kırılganlığı temsil eder.",
+      "Bleed just to know you're alive": "İnsanın uyuşmuşluktan kurtulmak ve var olduğunu hissetmek için acıya bile razı gelme durumunu anlatan sarsıcı bir ifade."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "And I'd give up forever to touch you",
+      "tr": "Ve sana bir kez dokunmak uğruna sonsuzluğu feda ederdim;"
+    },
+    "heroPair": {
+      "en": "And I'd give up forever to touch you",
+      "tr": "Ve sana bir kez dokunmak uğruna sonsuzluğu feda ederdim;"
+    }
+  },
+  {
+    "id": "5058",
+    "slug": "bruno-mars-risk-it-all-turkce-ceviri",
+    "title": "Bruno Mars Risk It All Türkçe Çeviri",
+    "song": "Risk It All",
+    "artist": "Bruno Mars",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733eb8dc748f7efb1470f74395",
+    "date": "2026-07-28T14:04:13.803Z",
+    "reading_time": 2,
+    "excerpt": "For just the chance to win your heart",
+    "categories": [
+      "Bruno Mars",
+      "The Romantic"
+    ],
+    "category_slugs": [
+      "bruno-mars",
+      "the-romantic"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5y2ijHECwFYWqcAHKTZgzD",
+      "albumUrl": "https://open.spotify.com/album/7vI4iTxDmgEN63liQHPEX1",
+      "artistUrl": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+      "albumName": "The Romantic",
+      "releaseDate": "2026-02-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733eb8dc748f7efb1470f74395",
+      "duration": "3:24",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5y2ijHECwFYWqcAHKTZgzD",
+        "isrc": "USAT22509142",
+        "duration": "3:24",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Bruno Mars",
+        "url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
+      },
+      "album": {
+        "name": "The Romantic",
+        "url": "https://open.spotify.com/album/7vI4iTxDmgEN63liQHPEX1",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733eb8dc748f7efb1470f74395",
+        "releaseDate": "2026-02-27",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/lY5V4hSLWY8?si=kRI9N15hMXtqH-ZD",
+    "annotations": {
+      "On the line": "Bir şeyin risk altında veya tehlikede olması anlamındaki deyimi, Türkçedeki o \"fedakarlık\" vurgusuyla karşıladık."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "For just the chance to win your heart",
+      "tr": "Sırf kalbini kazanma ihtimali uğruna;"
+    },
+    "heroPair": {
+      "en": "I'd risk it all for you",
+      "tr": "Gözümü kırpmadan her şeyi göze alırım senin için."
+    }
+  },
+  {
+    "id": "5057",
+    "slug": "le-sserafim-illit-katseye-iconic-by-mistake-turkce-ceviri",
+    "title": "LE SSERAFIM, ILLIT, KATSEYE ICONIC BY MISTAKE Türkçe Çeviri",
+    "song": "ICONIC BY MISTAKE",
+    "artist": "LE SSERAFIM, ILLIT, KATSEYE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
+    "date": "2026-07-28T14:04:13.439Z",
+    "reading_time": 4,
+    "excerpt": "Hating me is like all you do, breakfast to dinner",
+    "categories": [
+      "LE SSERAFIM, ILLIT, KATSEYE",
+      "ICONIC BY MISTAKE"
+    ],
+    "category_slugs": [
+      "le-sserafim-illit-katseye",
+      "iconic-by-mistake"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6fl4Gu0lJm5hc8FM5JzCZD",
+      "albumUrl": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam",
+      "artistUrl": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+      "albumName": "ICONIC BY MISTAKE",
+      "releaseDate": "2026-06-12",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
+      "duration": "2:58",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6fl4Gu0lJm5hc8FM5JzCZD",
+        "isrc": "USA2P2633014",
+        "duration": "2:58",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
+      },
+      "album": {
+        "name": "ICONIC BY MISTAKE",
+        "url": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
+        "releaseDate": "2026-06-12",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/27C4pfRsf9g?si=P4VVQqCG7Nn3F1nr",
+    "annotations": {
+      "Heart it like a verb": "Sosyal medyadaki \"kalp atma\" (beğenme) eylemini, sadece bir buton değil, gerçek bir iyileştirici güç olarak tanımlıyor.",
+      "25/8": "Zamanın ötesinde, her an göz önünde ve meşgul olmayı anlatan bir \"overwork\" (aşırı çalışma/takip edilme) vurgusu.",
+      "The bag": "Hip-hop argosunda para, kazanç. “Crucible”: İnsanın içinden güçlenerek çıktığı çok ağır sınav/çile."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Hating me is like all you do, breakfast to dinner",
+      "tr": "Benden nefret etmek tek işin olmuş; kahvaltıdan akşam yemeğine..."
+    },
+    "heroPair": {
+      "en": "I-I-I-I-I-I-I am iconic by mistake",
+      "tr": "Hata kaza ikonikleştim işte (I-I-I-I-I-I-I am iconic by mistake)"
+    }
+  },
+  {
+    "id": "5056",
+    "slug": "huntr-x-golden-turkce-ceviri",
+    "title": "HUNTR/X Golden Türkçe Çeviri",
+    "song": "Golden",
+    "artist": "HUNTR/X",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+    "date": "2026-07-28T14:04:13.073Z",
+    "reading_time": 3,
+    "excerpt": "I was a ghost, I was alone",
+    "categories": [
+      "HUNTR/X",
+      "Golden (from the Netflix film KPop Demon Hunters)"
+    ],
+    "category_slugs": [
+      "huntr-x",
+      "golden-from-the-netflix-film-kpop-demon-hunters"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
+      "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL",
+      "artistUrl": "https://open.spotify.com/artist/2yNNYQBChuox9A5Ka93BIn",
+      "albumName": "Golden (from the Netflix film KPop Demon Hunters)",
+      "releaseDate": "2025-06-19",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+      "duration": "3:15",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
+        "isrc": "QZ8BZ2513510",
+        "duration": "3:15",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "HUNTR/X",
+        "url": "https://open.spotify.com/artist/2yNNYQBChuox9A5Ka93BIn",
+        "image": "https://i.scdn.co/image/ab67616d0000b2736c1334650ced0e28f0b2e13f"
+      },
+      "album": {
+        "name": "Golden (from the Netflix film KPop Demon Hunters)",
+        "url": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+        "releaseDate": "2025-06-19",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/yebNIHKAC4A?si=0zzBBL0fcHVezHWr",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I was a ghost, I was alone",
+      "tr": "Bir hayalet gibiydim, yapayalnızdım;"
+    },
+    "heroPair": {
+      "en": "You know together we're glowin', gonna be, gonna be golden",
+      "tr": "Biliyorsun, birlikte ışık saçıyoruz; altın gibi parlayacağız (gonna be golden)!"
+    }
+  },
+  {
+    "id": "5055",
+    "slug": "olivia-rodrigo-honeybee-turkce-ceviri",
+    "title": "Olivia Rodrigo honeybee Türkçe Çeviri",
+    "song": "honeybee",
+    "artist": "Olivia Rodrigo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+    "date": "2026-07-28T14:04:12.761Z",
+    "reading_time": 3,
+    "excerpt": "So I guess that it's true",
+    "categories": [
+      "Olivia Rodrigo",
+      "you seem pretty sad for a girl so in love"
+    ],
+    "category_slugs": [
+      "olivia-rodrigo",
+      "you-seem-pretty-sad-for-a-girl-so-in-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/407LgLkk1uM3wMO6jVRe0a",
+      "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl",
+      "artistUrl": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+      "albumName": "you seem pretty sad for a girl so in love",
+      "releaseDate": "2026-06-12",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+      "duration": "3:43",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/407LgLkk1uM3wMO6jVRe0a",
+        "isrc": "USUG12601724",
+        "duration": "3:43",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
+      },
+      "album": {
+        "name": "you seem pretty sad for a girl so in love",
+        "url": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+        "releaseDate": "2026-06-12",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/60rlboK94mE?si=X-KfIm2uE4wau4ZM",
+    "annotations": {
+      "What your face looks like going": "Partnerinin onu terk ederkenki yüz ifadesini görme korkusunu anlatan, şarkının en vurucu ve hüzünlü dizesi.",
+      "God threw me a bone": "İngilizcede birine şans eseri gelen küçük bir iyilik veya fırsat anlamındaki deyimi, şarkının romantik havasına uygun olarak \"Tanrı'nın bir lütfu\" şeklinde yerelleştirdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "So I guess that it's true",
+      "tr": "Demek ki doğruymuş;"
+    },
+    "heroPair": {
+      "en": "Baby boy, honeybee",
+      "tr": "Canım çocuk, bal arım;"
+    }
+  },
+  {
+    "id": "5054",
+    "slug": "pinkpantheress-zara-larsson-stateside-turkce-ceviri",
+    "title": "PinkPantheress, Zara Larsson Stateside Türkçe Çeviri",
+    "song": "Stateside",
+    "artist": "PinkPantheress, Zara Larsson",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+    "date": "2026-07-28T14:04:12.416Z",
+    "reading_time": 4,
+    "excerpt": "(Ah-ah-ah)",
+    "categories": [
+      "PinkPantheress, Zara Larsson",
+      "Fancy Some More?"
+    ],
+    "category_slugs": [
+      "pinkpantheress-zara-larsson",
+      "fancy-some-more"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt",
+      "albumUrl": "https://open.spotify.com/album/12Lig9oAX9nvpWHft5cHgF",
+      "artistUrl": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "albumName": "Fancy Some More?",
+      "releaseDate": "2025-10-10",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "duration": "3:05",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt",
+        "isrc": "GBAYE2501217",
+        "duration": "3:05",
+        "previewUrl": null,
+        "trackNumber": 10
+      },
+      "artist": {
+        "name": "PinkPantheress",
+        "url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656"
+      },
+      "album": {
+        "name": "Fancy Some More?",
+        "url": "https://open.spotify.com/album/12Lig9oAX9nvpWHft5cHgF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+        "releaseDate": "2025-10-10",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/lIxQe1R5hs0?si=O5tK7YkaLxDqUYMc",
+    "annotations": {
+      "Ha ha ha": "Burada hem bir gülüşü hem de şarkının o hafif, oyuncu ve biraz da ironik havasını temsil ediyor.",
+      "That girl": "Modern internet argosunda; başarılı, bakımlı ve herkesin imrendiği ikonik kadın figürü."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(Ah-ah-ah)",
+      "tr": "(Ah-ah-ah)"
+    },
+    "heroPair": {
+      "en": "I'm going stateside where I'll see you tonight",
+      "tr": "Okyanusun öteki tarafına (stateside) gidiyorum, bu gece seni göreceğim;"
+    }
+  },
+  {
     "id": "5053",
     "slug": "kard-always-turkce-ceviri",
     "title": "KARD Always Türkçe Çeviri",

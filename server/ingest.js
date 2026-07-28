@@ -43,9 +43,14 @@ function stanzasToBlocks(stanzas = []) {
     tr.push(...t);
     blocks.push({ original: true, label: st.section || null, lines: o });
     blocks.push({ original: false, label: st.section || null, lines: t });
-    if (st.note && st.note.text) {
-      const word = (st.note.word || "").trim();
-      if (word) annotations[word] = st.note.text.trim();
+    const stanzaNotes = [
+      ...(Array.isArray(st.notes) ? st.notes : []),
+      ...(st.note ? [st.note] : []),
+    ];
+    for (const note of stanzaNotes) {
+      if (!note?.text) continue;
+      const word = (note.word || "").trim();
+      if (word) annotations[word] = note.text.trim();
     }
   }
   return { en, tr, blocks, annotations };
