@@ -1,5 +1,256 @@
 [
   {
+    "id": "5047",
+    "slug": "jiwoo-home-sweet-home-turkce-ceviri",
+    "title": "JIWOO Home Sweet Home Türkçe Çeviri",
+    "song": "Home Sweet Home",
+    "artist": "JIWOO",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
+    "date": "2026-07-28T08:31:04.609Z",
+    "reading_time": 4,
+    "excerpt": "Stop asking me why (Mm)",
+    "categories": [
+      "JIWOO",
+      "JIWOO 1st EP '(EX)IST'"
+    ],
+    "category_slugs": [
+      "jiwoo",
+      "jiwoo-1st-ep-ex-ist"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
+      "albumUrl": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
+      "artistUrl": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
+      "albumName": "JIWOO 1st EP '(EX)IST'",
+      "releaseDate": "2026-02-11",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
+      "duration": "3:15",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5dCcaQuXndqZd5r6KICHAD",
+        "isrc": "KRA382600883",
+        "duration": "3:15",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "JIWOO",
+        "url": "https://open.spotify.com/artist/5xvL2dDchuH75OLqQ6HCzj",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2"
+      },
+      "album": {
+        "name": "JIWOO 1st EP '(EX)IST'",
+        "url": "https://open.spotify.com/album/1BtEjWVuWfNpzBJIC4PoAm",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730008ee3b511d78d99d4fac91",
+        "releaseDate": "2026-02-11",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/LPL1fozVrIw?si=bhSLXcTm2ofHAbJ3",
+    "annotations": {
+      "Bruise on your knees": "Burada dominant-submissive (baskın-itaatkâr) bir ilişki dinamiğine çok net ve sert bir atıf yapılıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Stop asking me why (Mm)",
+      "tr": "Nedenini sormayı bırak artık (Mm)"
+    },
+    "heroPair": {
+      "en": "Home sweet home",
+      "tr": "Evim, güzel evim..."
+    }
+  },
+  {
+    "id": "5046",
+    "slug": "somin-backseat-turkce-ceviri",
+    "title": "SOMIN Backseat Türkçe Çeviri",
+    "song": "Backseat",
+    "artist": "SOMIN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
+    "date": "2026-07-28T08:31:01.514Z",
+    "reading_time": 4,
+    "excerpt": "I don't play games, I don't relate to the shh that you do day to day, nah",
+    "categories": [
+      "SOMIN",
+      "SOMIN 1st EP 'UNVEIL'"
+    ],
+    "category_slugs": [
+      "somin",
+      "somin-1st-ep-unveil"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
+      "albumUrl": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
+      "artistUrl": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
+      "albumName": "SOMIN 1st EP 'UNVEIL'",
+      "releaseDate": "2026-04-02",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
+      "duration": "2:46",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/0AoI4bREI1xef36mJh2WZ3",
+        "isrc": "KRA382601609",
+        "duration": "2:46",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "SOMIN",
+        "url": "https://open.spotify.com/artist/1J3BfBC9Z9VRIpEUB64Rbw",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0"
+      },
+      "album": {
+        "name": "SOMIN 1st EP 'UNVEIL'",
+        "url": "https://open.spotify.com/album/7kzDwWj4jOfCl2IYepW4z1",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2731da80a0e064564ef1c2a6b79",
+        "releaseDate": "2026-04-02",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/xP_nrIzsH-8?si=cXTMNSty0cStIDvU",
+    "annotations": {
+      "You made the bed": "İngilizcedeki \"You made your bed, now lie in it\" deyimi; bir durumu kendi ellerinle hazırlayıp sonuçlarına katlanmak demektir. Türkçedeki \"Kendi düşen ağlamaz\" veya \"Kendi ettiğini bulmak\" anlamıyla eşleştirdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I don't play games, I don't relate to the shh that you do day to day, nah",
+      "tr": "Oyun oynamam ben, senin şu günlük zırvalıklarınla (shh) hiç işim olmaz, hayır"
+    },
+    "heroPair": {
+      "en": "But you stay in the backseat",
+      "tr": "Ama sen hep arka koltukta (backseat) kalıyorsun"
+    }
+  },
+  {
+    "id": "5045",
+    "slug": "j-seph-easy-turkce-ceviri",
+    "title": "J.seph EASY Türkçe Çeviri",
+    "song": "EASY",
+    "artist": "J.seph",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
+    "date": "2026-07-28T08:30:58.280Z",
+    "reading_time": 4,
+    "excerpt": "Yeah",
+    "categories": [
+      "J.seph",
+      "J.seph 1st EP 'Spin-off'"
+    ],
+    "category_slugs": [
+      "j-seph",
+      "j-seph-1st-ep-spin-off"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
+      "albumUrl": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
+      "artistUrl": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
+      "albumName": "J.seph 1st EP 'Spin-off'",
+      "releaseDate": "2026-05-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
+      "duration": "2:25",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7fbh1F6lfRZqVrIrUT0VNN",
+        "isrc": "KRA382602280",
+        "duration": "2:25",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "J.seph",
+        "url": "https://open.spotify.com/artist/1LCD1ZKF5V4lWQKf5810yx",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1"
+      },
+      "album": {
+        "name": "J.seph 1st EP 'Spin-off'",
+        "url": "https://open.spotify.com/album/2FgeYVQ5AWp2yqK0vWM4x5",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734ad23495341b4a6e39a43a19",
+        "releaseDate": "2026-05-26",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/EZNHsnwBDrk?si=g8jGIfwyshfKnZeh",
+    "annotations": {
+      "Lumos / Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
+      "Rizz / Sigma / Demure": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Yeah",
+      "tr": "Yeah"
+    },
+    "heroPair": {
+      "en": "Bet I make it look easy",
+      "tr": "Bahse girerim çok kolaymış gibi gösteriyorum (look easy)"
+    }
+  },
+  {
+    "id": "5044",
+    "slug": "bm-move-turkce-ceviri",
+    "title": "BM Move Türkçe Çeviri",
+    "song": "Move",
+    "artist": "BM",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
+    "date": "2026-07-28T08:30:44.123Z",
+    "reading_time": 4,
+    "excerpt": "Uh-huh, uh-huh, yeah",
+    "categories": [
+      "BM",
+      "BM 2nd EP 'PO:INT'"
+    ],
+    "category_slugs": [
+      "bm",
+      "bm-2nd-ep-po-int"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
+      "albumUrl": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
+      "artistUrl": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
+      "albumName": "BM 2nd EP 'PO:INT'",
+      "releaseDate": "2025-10-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
+      "duration": "2:47",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4OpEV8xWBcOY1E5RiuCa4o",
+        "isrc": "KRA382506109",
+        "duration": "2:47",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "BM",
+        "url": "https://open.spotify.com/artist/5lZV4z4dpX6IfTYlfUMvOE",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27"
+      },
+      "album": {
+        "name": "BM 2nd EP 'PO:INT'",
+        "url": "https://open.spotify.com/album/7ipLXUuM0bH6x0KqgVf5hG",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273040588ade26a63dfcc89c218",
+        "releaseDate": "2025-10-20",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/i1qaYRoS19A?si=b2OpxdfBKUtSxb4f",
+    "annotations": {},
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Uh-huh, uh-huh, yeah",
+      "tr": "Uh-huh, uh-huh, evet"
+    },
+    "heroPair": {
+      "en": "I'm hooked on the way you move",
+      "tr": "Hareketlerine tutulup kaldım (hooked)"
+    }
+  },
+  {
     "id": "5043",
     "slug": "dua-lipa-love-again-turkce-ceviri",
     "title": "Dua Lipa Love Again Türkçe Çeviri",

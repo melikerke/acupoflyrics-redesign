@@ -1498,5 +1498,29 @@
     "name": "JONY",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfaca175ff553179f6b3bed6a",
     "count": 1
+  },
+  {
+    "slug": "bm",
+    "name": "BM",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27"
+  },
+  {
+    "slug": "j-seph",
+    "name": "J.seph",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1"
+  },
+  {
+    "slug": "somin",
+    "name": "SOMIN",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0"
+  },
+  {
+    "slug": "jiwoo",
+    "name": "JIWOO",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2"
   }
 ]
