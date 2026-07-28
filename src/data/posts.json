@@ -1,5 +1,338 @@
 [
   {
+    "id": "5048",
+    "title": "Aitch RMB (Ring My Bell) Türkçe Çeviri",
+    "song": "RMB (Ring My Bell)",
+    "slug": "aitch-rmb-ring-my-bell-turkce-ceviri",
+    "date": "2026-07-28T08:47:33.478Z",
+    "artist": "Aitch",
+    "categories": [
+      "Aitch",
+      "RMB (Ring My Bell)"
+    ],
+    "category_slugs": [
+      "aitch",
+      "rmb-ring-my-bell"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Anita Ward & Aitch",
+        "lines": [
+          "You can ring my bell, ring my bell",
+          "You can ring my bell, ring my bell",
+          "Haha",
+          "You can ring—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Anita Ward & Aitch",
+        "lines": [
+          "Zilimi çalabilirsin, çal zilimi",
+          "Zilimi çalabilirsin, çal zilimi...",
+          "(Haha!)",
+          "Zilimi çalabilirsin—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Aitch & Anita Ward",
+        "lines": [
+          "She like to pick and choose (Whoo)",
+          "New purses, different shoes",
+          "New purchase, different dude",
+          "Who's next in the kissin' booth? (You can ring my—) (Mwah)",
+          "She a lot, fit and rude (Yeah)",
+          "Got it boxed, stick a move",
+          "On the top, lips and boobs",
+          "Bottom half got different views (You can ring my—)",
+          "She likes a man with cash",
+          "Man with class, Daniels, Jacks",
+          "New plate car with some standard chat",
+          "Still, I can't wait to get hands on that (You can ring my—) (Okay)",
+          "Options, not one man, she got options",
+          "But I ain't insecure, baby, give me more",
+          "Ring my bell with no problems"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Aitch & Anita Ward",
+        "lines": [
+          "Seçip beğenmeye bayılır o (Whoo!)",
+          "Yeni çantalar, farklı pabuçlar",
+          "Yeni alışverişler, farklı adamlar...",
+          "Öpüşme kabininde (kissing booth) sıradaki kim? (Mwah!)",
+          "Biraz \"fazla\" o; hem taş gibi hem de küstah (rude)",
+          "Mevzuyu çözmüş (boxed), hamlesini yapıyor;",
+          "Üst tarafta dudaklar ve göğüsler...",
+          "Alt tarafta ise bambaşka manzaralar...",
+          "Paralı adamları sever o;",
+          "Kaliteli adamları; Daniels'lar, Jacks'ler (viskiler)...¹",
+          "Yeni plakalı bir araba ve klasik muhabbetler;",
+          "Yine de o \"şeye\" elimi sürmek için sabırsızlanıyorum! (Tamamdır)",
+          "Seçenekleri var, tek bir adamla yetinmez o;",
+          "Ama ben özgüvensiz biri değilim bebeğim, daha fazlasını ver bana;",
+          "Hiç dert etme, çal zilimi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)",
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)",
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Aitch",
+        "lines": [
+          "Plenty more fish in the sea",
+          "Caught one, no more fishing for me",
+          "Stuck to her phone, ain't sticking to me",
+          "Shit, I don't think this one's fishing for free (Ha)",
+          "She only posts in the club or the plane (Ah)",
+          "Location what city she be (Whoop)",
+          "Selfie mode, girl stuck in the frame",
+          "Shame, she don't want a picture with me (Who-oo)",
+          "Don't play with the time",
+          "Turn up late, gotta pay you a fine",
+          "Drinks on the house, don't pay for a wine (Ha)",
+          "Rudeboy, better wait in the line (Yeah)",
+          "Rings, bags, hell",
+          "She make it fling back well",
+          "I'm tryna kiss and tell",
+          "She told me ring my—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Aitch",
+        "lines": [
+          "Denizde balık çok sonuçta...",
+          "Birini yakaladım, artık balığa çıkmama gerek kalmadı.",
+          "Telefonuna yapışmış, bana pek pas vermiyor (ain't sticking);",
+          "Kahretsin, sanırım bu kız \"bedavaya\" oltaya gelmeyecek! (Ha!)",
+          "Sadece kulüpten ya da uçaktan paylaşım yapar;",
+          "Konumunda hep hangi şehirdeyse o yazar.",
+          "Selfie modunda, kız kadraja hapsolmuş sanki;",
+          "Yazık, benimle fotoğraf çekilmek istemiyor bile...",
+          "Zamanla oyun oynama;",
+          "Geç kalırsan cezasını (faturasını) ödetirim.",
+          "İçkiler müesseseden, şaraba para falan vermem (Ha!);",
+          "Sert çocuk (rudeboy), en iyisi sen sırada bekle! (Yeah)",
+          "Yüzükler, çantalar, neler neler...",
+          "Kalbini (veya kalçalarını) fena halde geri fırlatıyor (fling back);",
+          "Her şeyi ifşa etmek (kiss and tell) üzereyim ama;",
+          "O bana dedi ki; \"Çal benim...\""
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)",
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)",
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Anita Ward & Aitch",
+        "lines": [
+          "You can ring my bell, you can ring my bell",
+          "Ding dong, ring my, ring it",
+          "You can ring my bell, anytime, anywhere",
+          "Ring it, ring it, ring it, ring it (Ahh)",
+          "Rings, bags, hell",
+          "She make it fling back well",
+          "I'm tryna kiss and tell",
+          "She told me ring my, ring my",
+          "Rings, bags, hell",
+          "She make it fling back well",
+          "I'm tryna kiss and tell",
+          "She told me—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Anita Ward & Aitch",
+        "lines": [
+          "Zilimi çalabilirsin, çal zilimi",
+          "Din don! Çal şunu, çal...",
+          "Zilimi çalabilirsin; her zaman, her yerde...",
+          "Çal, çal, çal, çal!",
+          "(Yüzükler, çantalar, neler neler...)",
+          "(Her şeyi geri fırlatıyor...)",
+          "(Anlatmak üzereyim her şeyi...)",
+          "(Çal dedi bana, çal zilimi...)",
+          "(Yüzükler, çantalar, neler neler...)",
+          "(Her şeyi geri fırlatıyor...)",
+          "(Anlatmak üzereyim her şeyi...)",
+          "(Çal dedi bana—)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)",
+          "You can ring my bell, ring my bell",
+          "(You can ring my bell, you can ring my bell)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Anita Ward",
+        "lines": [
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)",
+          "Zilimi çalabilirsin, çal zilimi",
+          "(Zilimi çalabilirsin, çal zilimi)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Aitch & Anita Ward",
+        "lines": [
+          "Ha",
+          "Huh?",
+          "Whoop",
+          "You can ring my bell, ring my bell",
+          "You can ring my bell, ring my bell"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Aitch & Anita Ward",
+        "lines": [
+          "Ha?",
+          "Ne oldu?",
+          "Whoop!",
+          "Zilimi çalabilirsin, çal zilimi...",
+          "Zilimi çalabilirsin, çal zilimi..."
+        ]
+      }
+    ],
+    "excerpt": "You can ring my bell, ring my bell",
+    "annotations": {
+      "Daniels / Jacks": "Jack Daniel’s viskisine atıf; kaliteli ve pahalı zevkleri olan bir ortamı simgeliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3z1qPPLWf0ytO4NyHS8pqS",
+        "name": "RMB (Ring My Bell)",
+        "url": "https://open.spotify.com/track/3z1qPPLWf0ytO4NyHS8pqS",
+        "isrc": "QT8BV2690158",
+        "durationMs": 174222,
+        "duration": "2:54",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2PJEagPIxaBugeMjIyKVXF",
+        "name": "Aitch",
+        "url": "https://open.spotify.com/artist/2PJEagPIxaBugeMjIyKVXF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb832acfd9c5ceff4baf912a83",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2PJEagPIxaBugeMjIyKVXF",
+          "name": "Aitch",
+          "url": "https://open.spotify.com/artist/2PJEagPIxaBugeMjIyKVXF"
+        }
+      ],
+      "album": {
+        "id": "4pkAMeqsWDN1YtFHsKoD1g",
+        "name": "RMB (Ring My Bell)",
+        "url": "https://open.spotify.com/album/4pkAMeqsWDN1YtFHsKoD1g",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+        "releaseDate": "2026-06-12",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 Infinitum Music under exclusive license to NQ Records",
+            "type": "C"
+          },
+          {
+            "text": "2026 Infinitum Music under exclusive license to NQ Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "3z1qPPLWf0ytO4NyHS8pqS",
+            "name": "RMB (Ring My Bell)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 174222,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3z1qPPLWf0ytO4NyHS8pqS",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-28T08:48:37.555Z",
+      "trackUrl": "https://open.spotify.com/track/3z1qPPLWf0ytO4NyHS8pqS",
+      "albumUrl": "https://open.spotify.com/album/4pkAMeqsWDN1YtFHsKoD1g",
+      "artistUrl": "https://open.spotify.com/artist/2PJEagPIxaBugeMjIyKVXF",
+      "albumName": "RMB (Ring My Bell)",
+      "albumType": "Single",
+      "releaseDate": "2026-06-12",
+      "duration": "2:54",
+      "isrc": "QT8BV2690158",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b"
+    },
+    "genius": {
+      "url": "https://genius.com/Aitch-rmb-ring-my-bell-lyrics",
+      "songId": 13498398,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/3uUHZlEBQ6A?si=_PPnykl5bHsI-NCE",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5047",
     "title": "JIWOO Home Sweet Home Türkçe Çeviri",
     "song": "Home Sweet Home",

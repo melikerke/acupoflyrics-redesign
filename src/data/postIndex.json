@@ -1,5 +1,68 @@
 [
   {
+    "id": "5048",
+    "slug": "aitch-rmb-ring-my-bell-turkce-ceviri",
+    "title": "Aitch RMB (Ring My Bell) Türkçe Çeviri",
+    "song": "RMB (Ring My Bell)",
+    "artist": "Aitch",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+    "date": "2026-07-28T08:47:33.478Z",
+    "reading_time": 4,
+    "excerpt": "You can ring my bell, ring my bell",
+    "categories": [
+      "Aitch",
+      "RMB (Ring My Bell)"
+    ],
+    "category_slugs": [
+      "aitch",
+      "rmb-ring-my-bell"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3z1qPPLWf0ytO4NyHS8pqS",
+      "albumUrl": "https://open.spotify.com/album/4pkAMeqsWDN1YtFHsKoD1g",
+      "artistUrl": "https://open.spotify.com/artist/2PJEagPIxaBugeMjIyKVXF",
+      "albumName": "RMB (Ring My Bell)",
+      "releaseDate": "2026-06-12",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+      "duration": "2:54",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/3z1qPPLWf0ytO4NyHS8pqS",
+        "isrc": "QT8BV2690158",
+        "duration": "2:54",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Aitch",
+        "url": "https://open.spotify.com/artist/2PJEagPIxaBugeMjIyKVXF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb832acfd9c5ceff4baf912a83"
+      },
+      "album": {
+        "name": "RMB (Ring My Bell)",
+        "url": "https://open.spotify.com/album/4pkAMeqsWDN1YtFHsKoD1g",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736b31df00eabe45483ec9974b",
+        "releaseDate": "2026-06-12",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/3uUHZlEBQ6A?si=_PPnykl5bHsI-NCE",
+    "annotations": {
+      "Daniels / Jacks": "Jack Daniel’s viskisine atıf; kaliteli ve pahalı zevkleri olan bir ortamı simgeliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "You can ring my bell, ring my bell",
+      "tr": "Zilimi çalabilirsin, çal zilimi"
+    },
+    "heroPair": {
+      "en": "You can ring my bell, ring my bell",
+      "tr": "Zilimi çalabilirsin, çal zilimi"
+    }
+  },
+  {
     "id": "5047",
     "slug": "jiwoo-home-sweet-home-turkce-ceviri",
     "title": "JIWOO Home Sweet Home Türkçe Çeviri",
