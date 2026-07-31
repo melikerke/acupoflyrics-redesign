@@ -201,6 +201,11 @@ export async function fetchTrackBundle(input, { clientId, clientSecret }) {
       name: album.name,
       url: album.external_urls?.spotify || null,
       cover: largestImage(album.images),
+      artists: (album.artists || []).map((albumArtist) => ({
+        id: albumArtist.id,
+        name: albumArtist.name,
+        url: albumArtist.external_urls?.spotify || null,
+      })),
       releaseDate: album.release_date,
       releaseDatePrecision: album.release_date_precision,
       albumType: classifyAlbum(album),

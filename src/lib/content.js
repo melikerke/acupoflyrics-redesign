@@ -49,6 +49,27 @@ const enriched = posts.map((p, i) => ({
   voice: stableHash(p.artist) % 3, // 0 = airy/slow, 1 = neutral, 2 = dense/tight
 }));
 
+// Editorial release order for the 31 July 2026 batch. The source JSON keeps
+// import chronology, while the homepage follows the popularity-led sequence
+// selected by the editor.
+const HOME_RELEASE_ORDER = [
+  "ariana-grande-petal-turkce-ceviri",
+  "cardi-b-ah-ha-turkce-ceviri",
+  "benny-blanco-selena-gomez-becky-g-te-olvido-la-la-turkce-ceviri",
+  "slayyyter-brand-new-chanel-turkce-ceviri",
+  "inji-bright-ideas-turkce-ceviri",
+  "arca-no-end-turkce-ceviri",
+  "ellie-goulding-4-seasons-turkce-ceviri",
+  "shaboozey-jamie-foxx-the-outlaw-cherie-lee-turkce-ceviri",
+  "cupcakke-that-s-like-turkce-ceviri",
+  "mgk-jjk-turkce-ceviri",
+  "mark-tuan-alone-turkce-ceviri",
+  "cortis-juicy-j-motion-turkce-ceviri",
+];
+const homeReleasePosts = HOME_RELEASE_ORDER
+  .map((slug) => enriched.find((post) => post.slug === slug))
+  .filter(Boolean);
+
 export const allPosts = enriched;
 
 // The WordPress category export mixed real performers with album/song
@@ -108,10 +129,12 @@ export function firstPair(post) {
   return { en, tr };
 }
 
-export const featured = enriched[0];
-// The hero follows the newest published translation.
-export const heroPost = enriched[0];
-export const recent = enriched.slice(0, 12);
+export const featured = homeReleasePosts[0] || enriched[0];
+export const heroPost = homeReleasePosts[0] || enriched[0];
+export const recent = [
+  ...homeReleasePosts,
+  ...enriched.filter((post) => !HOME_RELEASE_ORDER.includes(post.slug)),
+].slice(0, 12);
 
 // All Turkish lines of a post, in order (for hero line + teaser).
 export function trLines(post) {
@@ -338,7 +361,7 @@ export function albumNameFor(post) {
 }
 
 export function albumArtistFor(post) {
-  return compactTitle(post.spotify?.artist?.name || post.artist || "");
+  return compactTitle(post.spotify?.album?.artists?.[0]?.name || post.spotify?.artist?.name || post.artist || "");
 }
 
 export function albumArtistSlugFor(post) {

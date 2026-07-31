@@ -170,7 +170,7 @@
   {
     "slug": "benny-blanco",
     "name": "benny blanco",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbeaa76c01198c79968de6f97"
   },
   {
@@ -218,7 +218,7 @@
   {
     "slug": "selena-gomez",
     "name": "Selena Gomez",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5eb815e520e3ce7fe210046ba66"
   },
   {
@@ -1022,7 +1022,7 @@
   {
     "slug": "kehlani",
     "name": "Kehlani",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcf865d7d399a41e1bd036149"
   },
   {
@@ -1570,5 +1570,275 @@
     "name": "Michael Jackson",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
+  },
+  {
+    "slug": "cardi-b",
+    "name": "Cardi B",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d"
+  },
+  {
+    "slug": "becky-g",
+    "name": "Becky G",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "slayyyter",
+    "name": "Slayyyter",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd475efee7c254f7e77a2d306"
+  },
+  {
+    "slug": "inji",
+    "name": "INJI",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb9b2f1ed4018b6bd506516b"
+  },
+  {
+    "slug": "ellie-goulding",
+    "name": "Ellie Goulding",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70a7b5f0ee7b18d2f2cc8d74"
+  },
+  {
+    "slug": "no-na",
+    "name": "no na",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f7269973931f183b986d9a1"
+  },
+  {
+    "slug": "mark-tuan",
+    "name": "Mark Tuan",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4e75cd01388e56f8c0cd611c"
+  },
+  {
+    "slug": "mgk",
+    "name": "mgk",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85e7615a199f8b17fabfcd61"
+  },
+  {
+    "slug": "",
+    "name": "千葉雄喜",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "cortis",
+    "name": "CORTIS",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8"
+  },
+  {
+    "slug": "juicy-j",
+    "name": "Juicy J",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "skilla-baby",
+    "name": "Skilla Baby",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9167778343594cbe0f93852"
+  },
+  {
+    "slug": "rachel-chinouriri",
+    "name": "Rachel Chinouriri",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ba395ca07ac729e7e01feb8"
+  },
+  {
+    "slug": "ari-lennox",
+    "name": "Ari Lennox",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8636ddd6c55ad1a8aeb6318f"
+  },
+  {
+    "slug": "logic",
+    "name": "Logic",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4309e7be1610df9a1fd34793"
+  },
+  {
+    "slug": "sb19",
+    "name": "SB19",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebec2fe226ac1b01a9f7e95481"
+  },
+  {
+    "slug": "swedish-house-mafia",
+    "name": "Swedish House Mafia",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9614fcf985ad6fc5b4a7c3de"
+  },
+  {
+    "slug": "lykke-li",
+    "name": "Lykke Li",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "ava-max",
+    "name": "Ava Max",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8fa717584b01690e3919e32"
+  },
+  {
+    "slug": "paw-patrol",
+    "name": "PAW Patrol",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "alan-walker",
+    "name": "Alan Walker",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb572a8eae56feae217f618078"
+  },
+  {
+    "slug": "be-first",
+    "name": "BE:FIRST",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6bf365c18c1577d55108e361"
+  },
+  {
+    "slug": "flo-milli",
+    "name": "Flo Milli",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "atl-jacob",
+    "name": "ATL Jacob",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "arca",
+    "name": "Arca",
+    "count": 16,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4b88b2ab3ee04bb54003999e"
+  },
+  {
+    "slug": "shaboozey",
+    "name": "Shaboozey",
+    "count": 20,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeb786bf6ceec60d49c2f39f0"
+  },
+  {
+    "slug": "jamie-foxx",
+    "name": "Jamie Foxx",
+    "count": 2,
+    "image": null
+  },
+  {
+    "slug": "gunna",
+    "name": "Gunna",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "leon-bridges",
+    "name": "Leon Bridges",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "teyana-taylor",
+    "name": "Teyana Taylor",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "sam-elliott",
+    "name": "Sam Elliott",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "orville-peck",
+    "name": "Orville Peck",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "cupcakke",
+    "name": "cupcakKe",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb65553fe65c9db9b59d15a855"
+  },
+  {
+    "slug": "tones-and-i",
+    "name": "Tones And I",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba2709df1d241734826f363e3"
+  },
+  {
+    "slug": "dinah-jane",
+    "name": "Dinah Jane",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb44a357ef8be80afe40c04117"
+  },
+  {
+    "slug": "davido",
+    "name": "Davido",
+    "count": 13,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2bf250c3e92f9e7542efd95c"
+  },
+  {
+    "slug": "black-sherif",
+    "name": "Black Sherif",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "jazzwrld",
+    "name": "JAZZWRLD",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "gl-ceejay",
+    "name": "GL_Ceejay",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "no11",
+    "name": "NO11",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "mayorkun",
+    "name": "Mayorkun",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "fola",
+    "name": "FOLA",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "leon-thomas",
+    "name": "Leon Thomas",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "aya-nakamura",
+    "name": "Aya Nakamura",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "llona",
+    "name": "Llona",
+    "count": 1,
+    "image": null
   }
 ]

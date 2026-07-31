@@ -33,6 +33,8 @@ function parseArgs(argv) {
     } else if (arg === "--push") {
       args.commit = true;
       args.push = true;
+    } else if (arg === "--skip-charts") {
+      args["skip-charts"] = true;
     } else if (arg.startsWith("--")) {
       const key = arg.slice(2);
       args[key] = argv[i + 1];
@@ -64,7 +66,10 @@ function parseStanzas(text) {
       if (heading) return { section: heading[1], lines: lines.slice(1) };
       return { section: null, lines };
     })
-    .filter((stanza) => stanza.section || stanza.lines.length);
+    // Genius sometimes prepends a title-only marker such as
+    // [Letra de "..."] / [Songtext zu "..."]. It is metadata, not a lyrical
+    // stanza, so do not create an empty reader section for it.
+    .filter((stanza) => stanza.lines.length);
 }
 
 function normaliseSection(section) {
@@ -73,6 +78,14 @@ function normaliseSection(section) {
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function cleanDisplaySong(value) {
+  return String(value || "")
+    .replace(/\s+\((?:with|feat\.?)[^)]+\)\s*$/i, "")
+    .replace(/\s+feat\.?\s+.+$/i, "")
+    .replace(/\s+-\s+from\s+.+$/i, "")
     .trim();
 }
 
@@ -218,8 +231,8 @@ async function main() {
   console.log(`${aligned.matched} kıta eşleşti${aligned.unmatched ? `, ${aligned.unmatched} çeviri bloğu dışarıda kaldı` : ""}.`);
 
   const record = {
-    song: bundle.track?.name || null,
-    artist: bundle.artist?.name || null,
+    song: args.song || cleanDisplaySong(bundle.track?.name) || null,
+    artist: bundle.artists?.map((artist) => artist.name).filter(Boolean).join(", ") || bundle.artist?.name || null,
     spotify: bundle,
     genius: geniusData?.matched
       ? { url: geniusData.song?.url, songId: geniusData.song?.id, description: geniusData.description }

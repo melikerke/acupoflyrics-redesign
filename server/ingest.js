@@ -65,6 +65,10 @@ export function recordToPost(record, existingPosts = []) {
 
   const artistSlug = slugify(artistName);
   const albumSlug = albumName ? slugify(albumName) : null;
+  const creditedArtistNames = (sp.artists || [])
+    .map((artist) => artist?.name?.trim())
+    .filter(Boolean);
+  const creditedNames = creditedArtistNames.length ? creditedArtistNames : [artistName];
   const slug = record.slug || slugify(`${artistName} ${song} turkce ceviri`);
   const existing = existingPosts.find((p) => p.slug === slug);
 
@@ -88,8 +92,8 @@ export function recordToPost(record, existingPosts = []) {
     artist: artistName,
     // Artist slug first so artistSlugFor() (category_slugs[0]) resolves to the
     // artist, not the album.
-    categories: record.categories || [artistName, albumName].filter(Boolean),
-    category_slugs: record.category_slugs || [artistSlug, albumSlug].filter(Boolean),
+    categories: record.categories || [...creditedNames, albumName].filter(Boolean),
+    category_slugs: record.category_slugs || [...creditedNames.map(slugify), albumSlug].filter(Boolean),
     image: cover || record.image || existing?.image || null,
     cover: cover || record.cover || existing?.cover || null,
     reading_time,
@@ -120,11 +124,19 @@ export function recordToPost(record, existingPosts = []) {
   };
 }
 
-export function recordToArtist(record) {
+export function recordToArtists(record) {
   const sp = record.spotify || {};
-  const name = record.artist || sp.artist?.name;
-  if (!name) return null;
-  return { slug: slugify(name), name, count: 1, image: sp.artist?.image || null };
+  const credits = (sp.artists || []).length
+    ? sp.artists
+    : [{ name: record.artist || sp.artist?.name }];
+  return credits
+    .filter((artist) => artist?.name)
+    .map((artist) => ({
+      slug: slugify(artist.name),
+      name: artist.name,
+      count: 1,
+      image: artist.id === sp.artist?.id ? sp.artist?.image || null : null,
+    }));
 }
 
 export function upsertRecordData(record, posts, artists) {
@@ -140,8 +152,8 @@ export function upsertRecordData(record, posts, artists) {
   }
 
   const nextArtists = [...artists];
-  const art = recordToArtist(record);
-  if (art) {
+  const artistRecords = recordToArtists(record);
+  for (const art of artistRecords) {
     const ai = nextArtists.findIndex((a) => a.slug === art.slug);
     if (ai >= 0) {
       const currentImage = nextArtists[ai].image;

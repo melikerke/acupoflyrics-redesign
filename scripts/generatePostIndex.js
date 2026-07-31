@@ -104,6 +104,10 @@ function compactSpotify(spotify = {}) {
       name: album.name,
       url: album.url,
       cover: album.cover,
+      artists: (album.artists || []).map((albumArtist) => ({
+        name: albumArtist.name,
+        url: albumArtist.url,
+      })),
       releaseDate: album.releaseDate,
       albumType: album.albumType,
       label: album.label,
