@@ -227,6 +227,11 @@ async function main() {
   }
 
   const translationText = await readFile(args.translation, "utf8");
+  if (/\bgenius\b/i.test(translationText)) {
+    throw new Error(
+      "Çeviri metninde kaynak platform adı geçemez. Açıklamayı doğrudan ve editoryal bir dille yeniden yaz."
+    );
+  }
   const aligned = buildTranslatedStanzas(lyrics, translationText);
   console.log(`${aligned.matched} kıta eşleşti${aligned.unmatched ? `, ${aligned.unmatched} çeviri bloğu dışarıda kaldı` : ""}.`);
 
