@@ -56,15 +56,8 @@ const HOME_RELEASE_ORDER = [
   "ariana-grande-petal-turkce-ceviri",
   "cardi-b-ah-ha-turkce-ceviri",
   "benny-blanco-selena-gomez-becky-g-te-olvido-la-la-turkce-ceviri",
-  "slayyyter-brand-new-chanel-turkce-ceviri",
-  "inji-bright-ideas-turkce-ceviri",
-  "arca-no-end-turkce-ceviri",
-  "ellie-goulding-4-seasons-turkce-ceviri",
-  "shaboozey-jamie-foxx-the-outlaw-cherie-lee-turkce-ceviri",
-  "cupcakke-that-s-like-turkce-ceviri",
-  "mgk-jjk-turkce-ceviri",
-  "mark-tuan-alone-turkce-ceviri",
   "cortis-juicy-j-motion-turkce-ceviri",
+  "ellie-goulding-4-seasons-turkce-ceviri",
 ];
 const homeReleasePosts = HOME_RELEASE_ORDER
   .map((slug) => enriched.find((post) => post.slug === slug))
@@ -402,7 +395,10 @@ export const albumShelf = (() => {
     .slice(0, 16);
 })();
 
-export const newReleases = enriched.slice(0, 12);
+export const newReleases = [
+  ...homeReleasePosts,
+  ...enriched.filter((post) => !HOME_RELEASE_ORDER.includes(post.slug)),
+].slice(0, 12);
 export const kpopShelf = enriched.filter(isKpop).slice(0, 14);
 export const popShelf = enriched.filter((p) => genreFor(p) === "Pop").slice(0, 14);
 export const rapShelf = enriched.filter((p) => genreFor(p) === "Hip Hop").slice(0, 14);
