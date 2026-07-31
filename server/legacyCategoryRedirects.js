@@ -121,7 +121,7 @@ export const legacyCategoryRedirects = {
   "happy-burstday": "/album/seventeen-happy-burstday",
   "harry-s-house": "/album/harry-styles-harry-s-house",
   "harry-styles": "/artist/harry-styles",
-  "hate-that-i-made-you-love-me": "/album/ariana-grande-hate-that-i-made-you-love-me",
+  "hate-that-i-made-you-love-me": "/discover",
   "haute-couture": "/discover",
   "hello-world": "/discover",
   "her": "/album/minnie-her",

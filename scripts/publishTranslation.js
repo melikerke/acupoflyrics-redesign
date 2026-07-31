@@ -140,12 +140,14 @@ function buildTranslatedStanzas(originalLyrics, translationText) {
     if (blockIndex < 0) blockIndex = translations.findIndex((_, index) => !used.has(index));
     const block = blockIndex >= 0 ? translations[blockIndex] : null;
     if (blockIndex >= 0) used.add(blockIndex);
-    const note = block?.notes?.[0];
     return {
       section: stanza.section || block?.section || null,
       original: stanza.lines,
       translation: block?.lines ? block.lines.split("\n") : [],
-      note: note ? { word: note.word || null, text: note.text } : null,
+      notes: (block?.notes || []).map((note) => ({
+        word: note.word || null,
+        text: note.text,
+      })),
     };
   });
 
