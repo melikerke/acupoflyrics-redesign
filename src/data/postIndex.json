@@ -1,5 +1,71 @@
 [
   {
+    "id": "5065",
+    "slug": "ariana-grande-kiss-me-turkce-ceviri",
+    "title": "Ariana Grande kiss me Türkçe Çeviri",
+    "song": "kiss me",
+    "artist": "Ariana Grande",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "date": "2026-07-31T08:10:22.206Z",
+    "reading_time": 3,
+    "excerpt": "Kiss me like you know this is goodbye",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "releaseDate": "2026-07-31",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+      "duration": "3:40",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+        "isrc": "USUM72601820",
+        "duration": "3:40",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87"
+      },
+      "album": {
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/b-9gJ1Gc8rE?si=0iOXBChISFzoK0N2",
+    "annotations": {
+      "I (Belong)": "Parantez içindeki vokaller hem bir yankı hem de bir düzeltme görevi görüyor. Ariana, “Ait olduğuma inanmıyorum” cümlesini ancak kendi iç sesiyle (arka vokallerle) tamamlayabiliyor; bu da onun aidiyet konusundaki derin şüphesini simgeliyor.",
+      "Buy the ticket, take the ride": "Hunter S. Thompson’ın meşhur sözü. Bir kaosa veya yoğun bir deneyime adım attıysan, ne olursa olsun sonuna kadar katlanmak ve o bedeli ödemek zorunda olduğun anlamına gelir.",
+      "Like you know this is goodbye": "Bu bir “sonsuz aşk” talebi değil; Ariana burada bir sonun getirdiği o aciliyet ve yoğunluk hissini talep ediyor. Gerçekten veda edip etmedikleri önemli değil, önemli olan o veda anındaki tutkuyu hissetmek.",
+      "My capacity has always blinded me": "Ariana burada taşıdığı yüklerin veya sahip olduğu gücün, bazı karanlık dönemlerde gerçekleri görmesine engel olduğunu itiraf ediyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Society desperate for remedy",
+      "tr": "Toplum, derman arıyor çaresizce;"
+    },
+    "heroPair": {
+      "en": "Kiss me like you know this is goodbye",
+      "tr": "Öp beni, sanki bunun bir veda olduğunu biliyormuşsun gibi..."
+    }
+  },
+  {
     "id": "5064",
     "slug": "michael-jackson-billie-jean-turkce-ceviri",
     "title": "Michael Jackson Billie Jean Türkçe Çeviri",

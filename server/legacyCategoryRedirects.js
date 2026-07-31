@@ -224,6 +224,7 @@ export const legacyCategoryRedirects = {
   "onerepublic": "/artist/onerepublic",
   "park-hyo-shin": "/artist/park-hyo-shin",
   "paul-russell": "/artist/paul-russell",
+  "petal": "/album/ariana-grande-petal",
   "pharrell-williams": "/artist/pharrell-williams",
   "pierre-de-maere": "/artist/pierre-de-maere",
   "pinkpantheress-zara-larsson": "/discover",
