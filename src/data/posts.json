@@ -1,5 +1,2778 @@
 [
   {
+    "id": "5075",
+    "title": "Ariana Grande nowhere, nobody Türkçe Çeviri",
+    "song": "nowhere, nobody",
+    "slug": "ariana-grande-nowhere-nobody-turkce-ceviri",
+    "date": "2026-07-31T09:16:41.477Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "(No, there's nowhere else)",
+          "(And there's no more running)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "(Hayır, başka hiçbir yer yok.)",
+          "(Ve artık kaçmak da yok.)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Hard to believe in a perfect ending",
+          "But that's alright",
+          "Yeah, mm, that's alright-ight, mm",
+          "This prophecy might be self-fulfilling",
+          "But that's alright",
+          "But look, on the bright side"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Kusursuz bir sona inanmak zor;",
+          "Ama sorun değil.",
+          "Evet, sorun değil...",
+          "Bu kehanet kendi kendini gerçeğe dönüştürüyor olabilir;",
+          "Ama sorun değil.",
+          "Yine de iyi tarafından bak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I don't care about tomorrow",
+          "I love you right now, so"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Yarını umursamıyorum;",
+          "Seni tam şu anda seviyorum, o yüzden..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Deep breaths, honey",
+          "There's no more running",
+          "And there's nowhere with nobody else that I'd rather be",
+          "I'm taking you",
+          "Deep breaths, honey",
+          "We've at least 'til morning",
+          "Then there's nowhere, nobody else that I'd rather be with"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Derin nefesler al canım;",
+          "Artık kaçmak yok.",
+          "Başka hiç kimseyle, başka hiçbir yerde olmayı istemem.",
+          "Seni yanımda götürüyorum.",
+          "Derin nefesler al canım;",
+          "En azından sabaha kadar vaktimiz var.",
+          "Ve başka hiç kimseyle, başka hiçbir yerde olmayı istemem."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Voices in my head been trying to swallow me",
+          "But I don't bite (I don't bite)",
+          "Yeah, I'm alright, I've",
+          "Been holding hands with so much complexity (Ooh)",
+          "Since I was five, mm",
+          "But we've done alright"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Kafamın içindeki sesler beni yutmaya çalışıyor;",
+          "Ama ben oltaya gelmiyorum.",
+          "Evet, iyiyim ben...",
+          "Onca karmaşıklıkla el ele yürüyorum;",
+          "Beş yaşımdan beri...",
+          "Ama yine de fena başarmadık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Tell me why I keep on climbing just to reach the ground? Just"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Söyle, neden sırf yere ulaşmak için tırmanıp duruyorum?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Deep breaths, honey",
+          "There's no more running",
+          "And there's nowhere with nobody else that I'd rather be",
+          "I'm taking you",
+          "Deep breaths, honey (No, there's nowhere else)",
+          "We've at least 'til morning (And there is nobody)",
+          "Then there's nowhere, nobody else that I'd rather be with"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Derin nefesler al canım;",
+          "Artık kaçmak yok.",
+          "Başka hiç kimseyle, başka hiçbir yerde olmayı istemem.",
+          "Seni yanımda götürüyorum.",
+          "Derin nefesler al canım;",
+          "En azından sabaha kadar vaktimiz var.",
+          "Ve başka hiç kimseyle, başka hiçbir yerde olmayı istemem."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "No, there's nowhere else",
+          "And there's no more running",
+          "Nobody else that I'd rather be with",
+          "Deep breaths, honey (No, there's nowhere else)",
+          "Least 'til morning (And there is nobody)",
+          "Nobody else that I'd rather be with"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Hayır, başka hiçbir yer yok;",
+          "Ve artık kaçmak da yok.",
+          "Yanında olmayı isteyeceğim başka hiç kimse yok.",
+          "Derin nefesler al canım;",
+          "En azından sabaha kadar...",
+          "Yanında olmayı isteyeceğim başka hiç kimse yok."
+        ]
+      }
+    ],
+    "excerpt": "Then there's nowhere, nobody else that I'd rather be with",
+    "annotations": {
+      "Karmaşıklıkla el ele yürümek": "Genius notuna göre Ariana karmaşadan kaçtığını değil, çocukluğundan beri onunla yan yana yaşamayı öğrendiğini söylüyor. “Beş yaşımdan beri” sözü, bu hassasiyet ve fazla düşünme hâlinin şöhretten çok daha önce başladığını vurguluyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5JbnupagBhD0AanbkCELdH",
+        "name": "nowhere, nobody",
+        "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+        "isrc": "USUM72601830",
+        "durationMs": 172001,
+        "duration": "2:52",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 12,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:27.868Z",
+      "trackUrl": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "2:52",
+      "isrc": "USUM72601830",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-nowhere-nobody-lyrics",
+      "songId": 13758339,
+      "description": "“nowhere, nobody” is the closing track off Ariana Grande’s eighth studio album, petalThe track’s title and tracklist placement in the album were revealed during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/k7SDstVAD78",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5074",
+    "title": "Ariana Grande bad thing (bunny hop) Türkçe Çeviri",
+    "song": "bad thing (bunny hop)",
+    "slug": "ariana-grande-bad-thing-bunny-hop-turkce-ceviri",
+    "date": "2026-07-31T09:16:38.068Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "(That's okay)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "(Sorun değil.)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I can see it in your eyes",
+          "I see the way your whole vibe shifts",
+          "So tell me why this feeling",
+          "Should be something to resist?",
+          "I can learn your body language",
+          "'Cause it never used to be like this",
+          "I'll be your student, fluent",
+          "Won't you teach me? I insist"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Gözlerinde görebiliyorum bunu;",
+          "Bütün havanın nasıl değiştiğini görüyorum.",
+          "Öyleyse söyle, neden bu his",
+          "Karşı koymam gereken bir şey olsun?",
+          "Beden dilini öğrenebilirim;",
+          "Çünkü eskiden hiç böyle değildi.",
+          "Öğrencin olur, bu dili su gibi konuşurum;",
+          "Bana öğretmez misin? Israr ediyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Feeling like a teenager, I guess I really needed ya",
+          "It's silly, but I wonder if you feel how I feel (Ooh, woah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kendimi bir ergen gibi hissediyorum; sanırım sana gerçekten ihtiyacım varmış.",
+          "Saçma belki ama, acaba sen de benim hissettiğim gibi hissediyor musun?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Have you been this fine the whole damn time?",
+          "This is a bad thing",
+          "This is a bad, bad thing",
+          "Oh, baby, you're a real nightmare",
+          "And it's super unfair how much",
+          "This is a bad thing",
+          "This is a bad, bad thing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bunca zamandır bu kadar çekici miydin sen?",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey.",
+          "Oh bebeğim, sen tam bir kâbussun;",
+          "Ve bunun böylesine büyük olması hiç adil değil.",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Yeah, I like your butterflies",
+          "The kind you've been making with your hands",
+          "Yeah, I can see them finally",
+          "Can't believe they've been right there",
+          "You know you make a real good boyfriend",
+          "In my dreams, and in real life",
+          "Meet you by the staircase where we",
+          "Fell in love, let's do it twice"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Evet, kelebeklerine bayılıyorum;",
+          "Ellerinle yaptığın o türden olanlara...",
+          "Evet, sonunda onları görebiliyorum;",
+          "Bunca zamandır tam önümde olduklarına inanamıyorum.",
+          "Biliyor musun, gerçekten çok iyi bir sevgili oluyorsun;",
+          "Hem rüyalarımda hem gerçek hayatta.",
+          "Bizim âşık olduğumuz merdivenlerin orada buluşalım;",
+          "Hadi bunu ikinci kez yaşayalım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Feeling like a teenager, I guess I really needed ya",
+          "It's silly, but I wonder if you feel how I feel (Ooh, woah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kendimi bir ergen gibi hissediyorum; sanırım sana gerçekten ihtiyacım varmış.",
+          "Saçma belki ama, acaba sen de benim hissettiğim gibi hissediyor musun?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Have you been this fine the whole damn time?",
+          "This is a bad thing",
+          "This is a bad, bad thing",
+          "Oh, baby, you're a real nightmare",
+          "And it's super unfair how much",
+          "This is a bad thing",
+          "This is a bad, bad thing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bunca zamandır bu kadar çekici miydin sen?",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey.",
+          "Oh bebeğim, sen tam bir kâbussun;",
+          "Ve bunun böylesine büyük olması hiç adil değil.",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Been circling and spiraling, the same shit",
+          "All of this time I've been wasting",
+          "You've really been such a good boy",
+          "Through all of this noise, the frequency's changing",
+          "Can you feel it in my body now?",
+          "Well, can you hear it in these sounds?",
+          "'Cause it's too late to turn back now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Aynı bokun etrafında dönüp duruyor, giderek daha da içine çekiliyordum;",
+          "Bunca zamanı boşuna harcadım.",
+          "Sen bütün bu süre boyunca gerçekten çok iyi bir çocuktun;",
+          "Bütün bu gürültünün içinden geçerken frekans değişiyor artık.",
+          "Bunu şimdi bedenimde hissedebiliyor musun?",
+          "Peki bu seslerin içinde duyabiliyor musun?",
+          "Çünkü artık geri dönmek için çok geç."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Have you been this fine the whole damn time?",
+          "This is a bad thing",
+          "This is a bad, bad thing",
+          "Oh, baby, you're a real nightmare",
+          "And it's super unfair how much",
+          "This is a bad thing",
+          "This is a bad, bad thing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bunca zamandır bu kadar çekici miydin sen?",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey.",
+          "Oh bebeğim, sen tam bir kâbussun;",
+          "Ve bunun böylesine büyük olması hiç adil değil.",
+          "Bu kötü bir şey;",
+          "Bu çok, çok kötü bir şey."
+        ]
+      }
+    ],
+    "excerpt": "This is a bad, bad thing",
+    "annotations": {
+      "Âşık olduğumuz merdivenler": "Genius'taki notlar, bu dizenin Ariana'nın yeniden bir araya geldiği eski bir sevgiliyle paylaşılan gerçek bir anıya işaret edebileceğini öne sürüyor; ancak bu yorum doğrulanmış değil.",
+      "Frekans değişiyor": "Genius açıklaması, uzun süredir aynı döngüde dolaşan ilişkinin artık başka bir seviyeye geçtiğini; “gürültü”nün de geçmişteki karmaşa ve dış sesleri temsil edebileceğini söylüyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4zmXWmILSBkn7gTvIyCiNi",
+        "name": "bad thing (bunny hop)",
+        "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+        "isrc": "USUM72601829",
+        "durationMs": 208024,
+        "duration": "3:28",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 11,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": true
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:22.117Z",
+      "trackUrl": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "3:28",
+      "isrc": "USUM72601829",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-bad-thing-bunny-hop-lyrics",
+      "songId": 13758341,
+      "description": "“bad thing (bunny hop)” is the eleventh track off of Ariana Grande’s eighth studio album, petal.The track was first teased in the music video for “hate that I made you love me,” where in it a diner called “Bunny Hop Diner” can be seen.The track was revealed as the eleventh track to petal, during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/WZNr8nPFJVw",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5073",
+    "title": "Ariana Grande never get over me Türkçe Çeviri",
+    "song": "never get over me",
+    "slug": "ariana-grande-never-get-over-me-turkce-ceviri",
+    "date": "2026-07-31T09:16:34.198Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Boy, you got me fucked up (Fucked), so crazy now",
+          "I've been dreamin' of you",
+          "Can you make it come true?",
+          "Boy, I got you under ('Der), my skin",
+          "How I just wanna show you",
+          "What real love can do, yeah-yeah-yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Çocuk, aklımı allak bullak ettin; iyice delirdim artık.",
+          "Rüyalarımda hep seni görüyorum;",
+          "Bunu gerçeğe dönüştürebilir misin?",
+          "Çocuk, teninin altına işledim artık;",
+          "Sana gerçek aşkın neler yapabileceğini",
+          "Öyle göstermek istiyorum ki..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I know it's tempting to be",
+          "In such close proximity to",
+          "Something so sweet"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bu kadar tatlı bir şeye",
+          "Böylesine yakın olmanın",
+          "Ne kadar baştan çıkarıcı olduğunu biliyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't let you forget how I feel",
+          "Come slip into something real",
+          "And you'll never get over me",
+          "Then somehow every ex (Ex), disappears, oh",
+          "The vision is crystal clear",
+          "No, you'll never get over me, yeah-yeah-yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sana ne hissettiğimi unutturmayacağım;",
+          "Gel, gerçek bir şeyin içine süzül.",
+          "Ve beni asla atlatamayacaksın.",
+          "Sonra bir bakmışsın, bütün eski sevgililer ortadan kaybolmuş;",
+          "Manzara kristal kadar berrak.",
+          "Hayır, beni asla unutamayacaksın."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Baby, I've never seen it (It), so lovely ('Ely), out",
+          "The grass is way greener (Mhm-mhm)",
+          "Since I been beneath ya (Mhm-mhm)",
+          "I make sure every second, mm, really counts",
+          "So don't hold your breath now (Mhm-mhm)",
+          "'Cause I won't let you down (You)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bebeğim, hiç bu kadar güzel görünmemişti.",
+          "Senin altında olduğumdan beri,",
+          "Çimler çok daha yeşil görünüyor.",
+          "Her saniyenin gerçekten kıymetli olmasına dikkat ediyorum;",
+          "O yüzden şimdi nefesini tutma,",
+          "Çünkü seni yüzüstü bırakmayacağım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I know it's tempting to be",
+          "In such close proximity to",
+          "Something so sweet"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bu kadar tatlı bir şeye",
+          "Böylesine yakın olmanın",
+          "Ne kadar baştan çıkarıcı olduğunu biliyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't let you forget how I feel",
+          "Come slip into something real",
+          "And you'll never get over me",
+          "Then somehow every ex (Ex), disappears, oh",
+          "The vision is crystal clear",
+          "No, you'll never get over me, yeah-yeah-yeah (Mhm)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sana ne hissettiğimi unutturmayacağım;",
+          "Gel, gerçek bir şeyin içine süzül.",
+          "Ve beni asla atlatamayacaksın.",
+          "Sonra bir bakmışsın, bütün eski sevgililer ortadan kaybolmuş;",
+          "Manzara kristal kadar berrak.",
+          "Hayır, beni asla unutamayacaksın."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "I feel some type of way",
+          "'Bout what this could do to you",
+          "We should play it safe",
+          "'Cause I don't wanna burden you",
+          "With how sweet it is",
+          "You'll be dreaming 'bout the taste of me",
+          "But look, at least you'll have the memory"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "İçimde tuhaf bir his beliriyor;",
+          "Bunun sana neler yapabileceğini düşününce.",
+          "İşi garantiye almalıyız;",
+          "Çünkü bu tatlılığın ağırlığını omzuna yüklemek istemiyorum.",
+          "Bu kadar tatlı olmasının yükünü...",
+          "Tadımı rüyalarında göreceksin;",
+          "Ama bak, en azından hatıran kalacak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't let you forget how I feel (How I feel)",
+          "Come slip into something real",
+          "And you'll never get over me",
+          "Then somehow every ex (Ex), disappears (Yeah-yeah), oh",
+          "The vision is crystal clear",
+          "No, you'll never get over me, yeah-yeah-yeah (Oh, baby)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sana ne hissettiğimi unutturmayacağım;",
+          "Gel, gerçek bir şeyin içine süzül.",
+          "Ve beni asla atlatamayacaksın.",
+          "Bütün eski sevgililer bir anda ortadan kaybolacak;",
+          "Manzara kristal kadar berrak.",
+          "Hayır, beni asla unutamayacaksın."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Oh (Mm)",
+          "Fa-la-la-la-la (Mm)",
+          "La-la-la-la-la (Mm)",
+          "La-la-la-la-la (La-la-la-la-la)",
+          "Oh (Mm)",
+          "Fa-la-la-la-la (Mm)",
+          "La-la-la-la-la (Mm)",
+          "La-la-la-la-la (La-la-la-la-la)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Oh (Mm)...",
+          "Fa-la-la-la-la (Mm)...",
+          "La-la-la-la-la (Mm)...",
+          "La-la-la-la-la (La-la-la-la-la)...",
+          "Oh (Mm)...",
+          "Fa-la-la-la-la (Mm)...",
+          "La-la-la-la-la (Mm)...",
+          "La-la-la-la-la (La-la-la-la-la)..."
+        ]
+      }
+    ],
+    "excerpt": "And you'll never get over me",
+    "annotations": {
+      "Teninin altına işlemek": "“Under your skin” birine çok derin bir çekim ve bağlılık duymak anlamına gelir. Genius notu, ifadenin Frank Sinatra'nın “I've Got You Under My Skin” klasiğiyle de çağrışım kurduğunu belirtiyor.",
+      "Çimler çok daha yeşil": "Ariana, “Komşunun çimleri daha yeşildir” deyimini tersine çeviriyor. Genius açıklamasında, onun sevgisini tattıktan sonra başka bir “tarafın” daha iyi görünmeyeceği söyleniyor; “beneath ya” sözü de açık bir cinsel çift anlam taşıyor.",
+      "En azından hatıran kalacak": "Genius, bu dizeyi Ariana'nın “Thinking Bout You” şarkısındaki “Yanımda değilsin ama en azından hatıran var” sözlerine olası bir gönderme olarak açıklıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "55srcWA7TioKV0LZVNXltY",
+        "name": "never get over me",
+        "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+        "isrc": "USUM72601828",
+        "durationMs": 228857,
+        "duration": "3:49",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 10,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": true
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:17.857Z",
+      "trackUrl": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "3:49",
+      "isrc": "USUM72601828",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-never-get-over-me-lyrics",
+      "songId": 13758343,
+      "description": "“never get over me” is the tenth track on Ariana Grande’s upcoming eighth album, petal.The track “never get over me” was revealed at Grande’s Eternal Sunshine Tour on June 19, 2026 at the Crypto.com Arena in Los Angeles. In a similar fashion to the other tracks, once the timer reached 10 minutes, the screen displayed “10. never get over me”."
+    },
+    "youtubeUrl": "https://youtu.be/BeoL2D-37I4",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5072",
+    "title": "Ariana Grande like i do Türkçe Çeviri",
+    "song": "like i do",
+    "slug": "ariana-grande-like-i-do-turkce-ceviri",
+    "date": "2026-07-31T09:16:30.590Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Ah, ah, ah, ah, ah, ah, ah, ah",
+          "Ah, ah, ah, ah, ah, ah, ah, ah",
+          "Ah, ah, ah, ah, ah, ah, ah, ah",
+          "Ah, ah, ah, ah (Mm-mm), ah, ah, ah, ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Ah, ah, ah, ah, ah, ah, ah, ah...",
+          "Ah, ah, ah, ah, ah, ah, ah, ah...",
+          "Ah, ah, ah, ah, ah, ah, ah, ah...",
+          "Ah, ah, ah, ah (Mm-mm), ah, ah, ah, ah..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I'm making friends with my consequence (Ah, ah, ah, ah)",
+          "Way up high like my consciousness (Ah, ah, ah, ah)",
+          "Keep my heels tall, my ego small, but I'm still Grande (Ah, ah, ah, ah)",
+          "I'm making cents off of your nonsense (Ah, ah, ah, ah)",
+          "All that shit talk keeps me well-fed (Ah, ah, ah, ah)",
+          "Through thick and thin, you're so locked in (Ah, ah, ah, ah)",
+          "You hate to love me (Ah, ah, ah, ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Yaptıklarımın sonuçlarıyla dost oluyorum artık;",
+          "Bilincim kadar yükseklerdeyim.",
+          "Topuklarım yüksek, egom küçük; ama hâlâ Grande'yim.",
+          "Senin saçmalıklarından para kazanıyorum;",
+          "Hakkımda attığın bütün o boklar karnımı doyuruyor.",
+          "İyi günde kötü günde, gözün hâlâ bana kilitli;",
+          "Beni sevmekten nefret ediyorsun."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Extra, extra, buy one, take me",
+          "Sexy how you come to see, it's true",
+          "You need me like I, you",
+          "'Cause no one fucks you like I do",
+          "Extra, extra, buy one, take me",
+          "Sexy how you come to see, it's true",
+          "You need me like I, you",
+          "'Cause no one fucks you like I do, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ekstra, ekstra! Bir tane al, beni de götür;",
+          "Beni görmeye gelişin bile seksi, doğru bu.",
+          "Ben sana nasıl muhtaçsam, sen de bana öylesin;",
+          "Çünkü kimse seni benim yaptığım gibi beceremez.",
+          "Ekstra, ekstra! Bir tane al, beni de götür;",
+          "Beni görmeye gelişin bile seksi, doğru bu.",
+          "Senin bana ihtiyacın var, benim de sana;",
+          "Çünkü kimse seni benim yaptığım gibi beceremez, evet."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I've been busy keeping your girl inspired",
+          "I know my brain gives you ideas",
+          "Stay on your mind like all the time",
+          "Yeah, you still watching from the sides",
+          "Yeah, you still, still show up first in line",
+          "Yeah, you act like all your love is mine",
+          "Still, still mine, baby",
+          "I guess you really love me, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Senin kızına ilham vermekle meşguldüm;",
+          "Beynimden çıkanların sana fikir verdiğini biliyorum.",
+          "Her an zihninde kalıyorum;",
+          "Evet, hâlâ kenardan beni izliyorsun.",
+          "Evet, sırada hâlâ ilk sen beliriyorsun;",
+          "Bütün sevgin benimmiş gibi davranıyorsun.",
+          "Hâlâ, hâlâ benim bebeğim...",
+          "Sanırım beni gerçekten seviyorsun, evet."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Extra, extra, buy one, take me",
+          "Sexy how you come to see, it's true",
+          "You need me like I, you",
+          "'Cause no one fucks you like I do",
+          "Extra, extra, buy one, take me",
+          "Sexy how you come to see, it's true",
+          "You need me like I, you",
+          "'Cause no one fucks you like I do, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ekstra, ekstra! Bir tane al, beni de götür;",
+          "Beni görmeye gelişin bile seksi, doğru bu.",
+          "Ben sana nasıl muhtaçsam, sen de bana öylesin;",
+          "Çünkü kimse seni benim yaptığım gibi beceremez.",
+          "Ekstra, ekstra! Bir tane al, beni de götür;",
+          "Beni görmeye gelişin bile seksi, doğru bu.",
+          "Senin bana ihtiyacın var, benim de sana;",
+          "Çünkü kimse seni benim yaptığım gibi beceremez, evet."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Mm-mm, mm-mm",
+          "Ooh, ooh",
+          "Mm-mm",
+          "Oh, yeah",
+          "Oh, oh, oh",
+          "Oh-oh, oh",
+          "Oh, oh (Yeah), oh",
+          "Mm, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Mm-mm, mm-mm...",
+          "Ooh, ooh...",
+          "Mm-mm...",
+          "Oh, evet...",
+          "Oh, oh, oh...",
+          "Oh-oh, oh...",
+          "Oh, oh (Evet), oh...",
+          "Mm, evet..."
+        ]
+      }
+    ],
+    "excerpt": "'Cause no one fucks you like I do",
+    "annotations": {
+      "Topuklarım yüksek, egom küçük; ama hâlâ Grande'yim": "“Grande” hem Ariana'nın soyadı hem de “büyük/yüce” anlamına gelen bir kelime oyunu. Genius açıklamasına göre dize, başarısının farkında olmakla kibirli olmak arasındaki çizgiyi kuruyor.",
+      "Hakkımda attığın bütün o boklar karnımı doyuruyor": "Genius notu bu sözü, medyanın ve izleyicilerin Ariana'nın bedeni hakkında bitmeyen yorumlarına karşı bir cevap olarak okuyor: dedikodu onu küçültmek yerine görünürlük ve kazanca dönüşüyor.",
+      "Beni sevmekten nefret ediyorsun": "Bu ifade albümün “hate that i made you love me” şarkısına doğrudan göz kırpıyor; istemese bile ilgisini ondan çekemeyen birini anlatıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3d1oTMjtfVySbAYQp3v4MU",
+        "name": "like i do",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+        "isrc": "USUM72601827",
+        "durationMs": 167333,
+        "duration": "2:47",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 9,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": true
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:13.799Z",
+      "trackUrl": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "2:47",
+      "isrc": "USUM72601827",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-like-i-do-lyrics",
+      "songId": 13989939,
+      "description": "“like i do” is the self assured, tongue and cheek ninth track of petal. Built around themes of self-confidence, influence, and the complicated relationship between admiration and obsession, the song finds Grande embracing her power while addressing those who cannot seem to look away.The song was debuted ahead of its release during the Eternal Sunshine Tour at the Bell Centre in Montreal, Quebec on July 30th, 2026.The track’s title and tracklist placement in the album were revealed during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/4U4jJKH7VLc",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5071",
+    "title": "Ariana Grande warning signs (interlude) Türkçe Çeviri",
+    "song": "warning signs (interlude)",
+    "slug": "ariana-grande-warning-signs-interlude-turkce-ceviri",
+    "date": "2026-07-31T09:16:26.959Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Interlude",
+        "lines": [
+          "Blind half the time",
+          "I run through all your warning signs",
+          "I wonder why I answer each time?",
+          "You call me when your numbers slide",
+          "And does it even make a sound?",
+          "My pain is music, do you hear me everywhere?",
+          "Wear me like your new tattoos",
+          "And yet your favorite muse just simply disappears",
+          "Monday, I got you all over me",
+          "You love me like ecstasy",
+          "Make me see colors I haven't seen for a while",
+          "But Friday, you're suddenly ghosting me",
+          "My wisdom has fled the scene",
+          "My voice plays in a taxi passing by",
+          "You don't deserve me",
+          "You know you don't, you never have",
+          "But I want you to feel me",
+          "I wish someone could hear me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude",
+        "lines": [
+          "Zamanın yarısında gözüm hiçbir şeyi görmüyor;",
+          "Senin bütün o uyarı işaretlerini ezip geçiyorum.",
+          "Her seferinde neden telefonunu açıyorum, merak ediyorum.",
+          "Rakamların düşmeye başladığında beni arıyorsun;",
+          "Peki bütün bunlar gerçekten bir ses çıkarıyor mu?",
+          "Acım müziğe dönüşüyor; beni her yerde duyuyor musun?",
+          "Beni yeni dövmelerin gibi üzerinde taşıyorsun,",
+          "Ama en sevdiğin ilham perisi bir anda ortadan kayboluveriyor.",
+          "Pazartesi günü her yanımda sen varsın;",
+          "Beni ecstasy gibi seviyorsun,",
+          "Uzun zamandır göremediğim renkleri yeniden gösteriyorsun.",
+          "Ama cuma geldiğinde birden beni hayaletleyip kayboluyorsun;",
+          "Aklım fikrim olay yerini terk ediyor.",
+          "Sesim, yanından geçen bir takside çalıyor.",
+          "Beni hak etmiyorsun;",
+          "Sen de biliyorsun, hiçbir zaman hak etmedin.",
+          "Ama beni hissetmeni istiyorum;",
+          "Keşke biri gerçekten sesimi duyabilse..."
+        ]
+      }
+    ],
+    "excerpt": "I run through all your warning signs",
+    "annotations": {},
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "0cJRr7kw5FkV5e8ejEB2j6",
+        "name": "warning signs (interlude)",
+        "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+        "isrc": "USUM72602118",
+        "durationMs": 77342,
+        "duration": "1:17",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": true
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:16:24.375Z",
+      "trackUrl": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "1:17",
+      "isrc": "USUM72602118",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-warning-signs-interlude-lyrics",
+      "songId": 13758355,
+      "description": "“warning signs (interlude)” is the eighth track off Ariana Grande’s eighth studio album, petal. The interlude follows Ariana feeling the emotional whiplash of being desired intensely but not valued consistently.The track’s title and tracklist placement in the album were revealed during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/zkLWaIHC0fE",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5070",
+    "title": "Ariana Grande freak Türkçe Çeviri",
+    "song": "freak",
+    "slug": "ariana-grande-freak-turkce-ceviri",
+    "date": "2026-07-31T09:16:23.242Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Baby, will you come with me nowhere",
+          "Before they shoot me down?",
+          "When I am flying way too over",
+          "Hold me lower"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bebeğim, beni alaşağı etmeden önce;",
+          "Benimle hiçbir yere gelir misin?",
+          "Fazlasıyla yükseklere uçtuğumda,",
+          "Beni biraz aşağıda tut."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Someday, all the seeds will open",
+          "All of the life I've been denied of",
+          "Will bloom all around, unfrozen",
+          "How will it feel? How will it feel?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bir gün bütün o tohumlar filizlenecek;",
+          "Benden esirgenen hayatın tamamı,",
+          "Buzlarından kurtulup dört bir yanımda çiçek açacak.",
+          "Nasıl hissettirecek? Nasıl bir his olacak?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't give you your fantasy this time (Can you do it now?)",
+          "No, I won't do what you say, freak, any time (What can you give me now?)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu kez sana o fantezini vermeyeceğim (Şimdi yapabilir misin?);",
+          "Hayır, sen ne dersen onu yapmayacağım, seni kaçık; hiçbir zaman. (Peki şimdi bana ne verebilirsin?)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Wake me when all this shit is over",
+          "I know too much for now",
+          "Will them and their poison ever sober?",
+          "I don't know her"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bütün bu saçmalık bittiğinde uyandır beni;",
+          "Şimdilik gereğinden fazla şey biliyorum.",
+          "Onlar ve zehirleri hiç ayılacak mı?",
+          "Onu tanımıyorum bile."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Someday, all the seeds will open",
+          "All of the human life I've dreamt of",
+          "Will be real if I start over",
+          "How will it feel? How will it feel?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bir gün bütün o tohumlar filizlenecek;",
+          "Hayalini kurduğum o insanca hayatın tamamı,",
+          "Baştan başlarsam gerçeğe dönüşecek.",
+          "Nasıl hissettirecek? Nasıl bir his olacak?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't give you your fantasy this time (Can you do it now?)",
+          "No, I won't do what you say, freak, any time (What can you give me now?)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu kez sana o fantezini vermeyeceğim;",
+          "Hayır, sen ne dersen onu yapmayacağım, seni kaçık; hiçbir zaman."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Lost without your light",
+          "I can't leave your side",
+          "It's so peculiar, won't you stay a while?",
+          "Can't imagine (Can't imagine)",
+          "Life without you in (Without you in)",
+          "It's human nature, so I can't leave you now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Işığın olmadan yolumu kaybediyorum;",
+          "Yanından ayrılamıyorum.",
+          "Ne tuhaf bir şey bu; biraz daha kalmaz mısın?",
+          "Hayal edemiyorum;",
+          "Senin olmadığın bir hayatı...",
+          "Bu insanın doğasında var, bu yüzden şimdi senden ayrılamıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I won't give you your fantasy this time (Can you do it now?)",
+          "No, I won't do what you say, freak, any time (Ooh, what can you give me now?)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu kez sana o fantezini vermeyeceğim;",
+          "Hayır, sen ne dersen onu yapmayacağım, seni kaçık; hiçbir zaman."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Oh (Mm)",
+          "I don't wanna go, let me go (I don't want to go)",
+          "Can you do it now?",
+          "Please, let me go now",
+          "Na-na-na-na",
+          "What can you give me now?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Oh...",
+          "Gitmek istemiyorum; bırak gideyim (Gitmek istemiyorum).",
+          "Bunu şimdi yapabilir misin?",
+          "Lütfen, bırak beni artık...",
+          "Na-na-na-na;",
+          "Şimdi bana ne verebilirsin?"
+        ]
+      }
+    ],
+    "excerpt": "No, I won't do what you say, freak, any time",
+    "annotations": {
+      "Will them and their poison ever sober?": "Genius, bu dizenin “Hampstead”deki “Biraz zehrin ne zararı var?” sözleriyle bağ kurduğunu; burada zehrin artık başkalarının etkisini ve ondan ayılma arzusunu temsil ettiğini belirtiyor.",
+      "Someday, all the seeds will open": "Tohum imgesi; sabırla bekleyen potansiyelin, bastırılmış duyguların ve ertelenen hayallerin sonunda çiçek açmasını anlatıyor. “Baştan başlamak” da daha özgür bir hayatı seçme ihtimaline dönüşüyor.",
+      "Gitmek istemiyorum; bırak gideyim": "Ariana aynı anda hem kalmak hem kurtulmak isteyen iki zıt sesi yan yana getiriyor. Genius notunda bu gelgit, kontrolcü bir bağdan kopmak isterken o kişiyi hâlâ bırakamamanın çelişkisi olarak yorumlanıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6QhsCYcFdfyMbPWCiViI8K",
+        "name": "freak",
+        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+        "isrc": "USUM72601826",
+        "durationMs": 199809,
+        "duration": "3:20",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 7,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": false
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": true
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:10.000Z",
+      "trackUrl": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "3:20",
+      "isrc": "USUM72601826",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-freak-lyrics",
+      "songId": 13758358,
+      "description": "“freak” finds Ariana breaking away from someone who wants to possess an image of her rather than truly understand who she is.The song was initially teased in “hate that I made you love me” music video, in where Ariana wears a badge with the word “freak” on it.The song was further teased through a snippet on her TikTok page on July 8th, 2026.The track’s title and tracklist placement in the album were revealed during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/yCpXjLibQZw",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5069",
+    "title": "Ariana Grande big feelings Türkçe Çeviri",
+    "song": "big feelings",
+    "slug": "ariana-grande-big-feelings-turkce-ceviri",
+    "date": "2026-07-31T09:16:06.480Z",
+    "artist": "Ariana Grande",
+    "categories": [
+      "Ariana Grande",
+      "petal"
+    ],
+    "category_slugs": [
+      "ariana-grande",
+      "petal"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Baby, what's your karma like?",
+          "'Cause, boy, you must've earned me historically",
+          "Don't have to hold it in no more",
+          "I'll take it, babe (I'll take it, babe)",
+          "Ooh, you could blame the moon or blame the tides",
+          "Pussy so sweet, a tear fell from his eye",
+          "Don't have to lift a finger",
+          "Was it something I said?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bebeğim, nasıl bir karman var senin?",
+          "Çünkü çocuk, geçmişte çok büyük bir sevap işlemiş olmalısın ki beni kazandın.",
+          "Artık içinde tutmana gerek yok;",
+          "Ben kaldırırım bebeğim (Ben kaldırırım).",
+          "Ooh, istersen Ay'ı suçla, istersen gelgitleri...",
+          "Tadım öyle tatlı ki gözünden bir damla yaş süzüldü.",
+          "Parmağını bile kıpırdatmana gerek yok;",
+          "Yoksa söylediğim bir şey mi dokundu?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Yeah, I think I give him big feelings (Mm)",
+          "Big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do",
+          "Big feelings (Mm), they're only big feelings (Mm)",
+          "I know I give him big, big",
+          "There're worse things that I could—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Evet, sanırım ona çok büyük hisler yaşatıyorum (Mm);",
+          "Kocaman hisler...",
+          "Biliyorum, onda çok büyük, çok büyük şeyler uyandırıyorum.",
+          "Yapabileceğim çok daha kötü şeyler var sonuçta.",
+          "Büyük hisler; alt tarafı büyük hisler bunlar...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum;",
+          "Yapabileceğim daha kötü şeyler de—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Let me take things off your mind",
+          "'Cause, boy, I'll love you so therapeutically",
+          "Whether we're on the phone or real life",
+          "I got you, babe (I got you, babe)",
+          "Ooh, you could blame the stars or blame your sign",
+          "This sex is 'bout to make a grown man cry",
+          "There's no need to break down",
+          "Leave it all in my head"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bırak, aklındaki yükleri ben alayım;",
+          "Çünkü çocuk, seni terapi gibi iyileştiren bir aşkla seveceğim.",
+          "İster telefonda olalım, ister gerçek hayatta;",
+          "Ben yanındayım bebeğim (Yanındayım).",
+          "Ooh, istersen yıldızları suçla, istersen burcunu...",
+          "Bu seks, yetişkin bir adamı ağlatmak üzere.",
+          "Dağılıp gitmene hiç gerek yok;",
+          "Hepsini bana bırak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Yeah, I think I give him big feelings (Mm)",
+          "Big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do",
+          "Big feelings (Mm), they're only big feelings (Oh)",
+          "I know I give him big, big",
+          "There are worse things that I could do",
+          "There are worse things that I could do (Mm)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Evet, sanırım ona çok büyük hisler yaşatıyorum;",
+          "Kocaman hisler...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum.",
+          "Yapabileceğim çok daha kötü şeyler var.",
+          "Büyük hisler; alt tarafı büyük hisler bunlar...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum;",
+          "Yapabileceğim çok daha kötü şeyler var.",
+          "Yapabileceğim çok daha kötü şeyler var (Mm)."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Oh, yeah",
+          "I know it can be so hard sometimes for me to stop it",
+          "Once you express yourself, I can become so aquatic",
+          "Come swim in these waters",
+          "I've been told I've healing properties",
+          "So, baby, can you promise me",
+          "That you'll handle me properly?",
+          "Then I'll give you big, big"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Oh, evet...",
+          "Bazen kendimi durdurmamın ne kadar zor olabildiğini biliyorum.",
+          "Sen kendini bir kez bıraktığında, ben de su gibi akışkan olabiliyorum.",
+          "Gel, yüz şu sularımda;",
+          "İyileştirici özelliklerim olduğu söylenir.",
+          "Öyleyse bebeğim, bana söz verir misin;",
+          "Beni hakkıyla taşıyacağına?",
+          "O zaman sana çok büyük, çok büyük hisler yaşatırım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Big feelings (I know), big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do",
+          "Big feelings (Mm), they're only big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do (Oh)",
+          "Big feelings (I know), big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do",
+          "Big feelings (Mm), they're only big feelings (Mm)",
+          "I know I give him big, big",
+          "There are worse things that I could do (Mm)",
+          "There are worse things that I could do (Mm)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Büyük hisler, kocaman hisler...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum.",
+          "Yapabileceğim çok daha kötü şeyler var.",
+          "Büyük hisler; alt tarafı büyük hisler bunlar...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum;",
+          "Yapabileceğim çok daha kötü şeyler var (Oh).",
+          "Büyük hisler, kocaman hisler...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum.",
+          "Yapabileceğim çok daha kötü şeyler var.",
+          "Büyük hisler; alt tarafı büyük hisler bunlar...",
+          "Biliyorum, onda çok büyük şeyler uyandırıyorum;",
+          "Yapabileceğim çok daha kötü şeyler var (Mm).",
+          "Yapabileceğim çok daha kötü şeyler var (Mm)."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Uh..."
+        ]
+      }
+    ],
+    "excerpt": "Yeah, I think I give him big feelings",
+    "annotations": {
+      "Big feelings": "Genius notunda, şarkının açık cinsel göndermeleri nedeniyle “büyük hisler” ifadesinin partnerinde yalnızca yoğun duygular değil, fiziksel bir uyarılma yarattığına dair çift anlam taşıyabileceği belirtiliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6MFSqc8pzXlwfzXqWZEKd4",
+        "name": "big feelings",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+        "isrc": "USUM72601825",
+        "durationMs": 173622,
+        "duration": "2:54",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 6,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "66CXWjxzNUsdJxJ2JdwvnR",
+          "name": "Ariana Grande",
+          "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        }
+      ],
+      "album": {
+        "id": "2k4FmEtXR0WiDW0Ac2QArT",
+        "name": "petal",
+        "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Babydoll Music, under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "0lok0VDJn0zRvHLBCITSSw",
+            "name": "kiss me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219584,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+            "isCurrent": false
+          },
+          {
+            "id": "3iy2QuCtCzpWnR6tia39AB",
+            "name": "hate that i made you love me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 197949,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+            "isCurrent": false
+          },
+          {
+            "id": "70pVCVMGjmIWPbWXDwf11e",
+            "name": "petal",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 184248,
+            "duration": "3:04",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+            "isCurrent": false
+          },
+          {
+            "id": "0QltPqkR4dnhbINyBOU5SY",
+            "name": "stay",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 148420,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+            "isCurrent": false
+          },
+          {
+            "id": "5DZOKNtaoVEssXu9ltcMjx",
+            "name": "oh well",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 196166,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+            "isCurrent": false
+          },
+          {
+            "id": "6MFSqc8pzXlwfzXqWZEKd4",
+            "name": "big feelings",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 173622,
+            "duration": "2:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+            "isCurrent": true
+          },
+          {
+            "id": "6QhsCYcFdfyMbPWCiViI8K",
+            "name": "freak",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 199809,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+            "isCurrent": false
+          },
+          {
+            "id": "0cJRr7kw5FkV5e8ejEB2j6",
+            "name": "warning signs (interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 77342,
+            "duration": "1:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+            "isCurrent": false
+          },
+          {
+            "id": "3d1oTMjtfVySbAYQp3v4MU",
+            "name": "like i do",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 167333,
+            "duration": "2:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+            "isCurrent": false
+          },
+          {
+            "id": "55srcWA7TioKV0LZVNXltY",
+            "name": "never get over me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 228857,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+            "isCurrent": false
+          },
+          {
+            "id": "4zmXWmILSBkn7gTvIyCiNi",
+            "name": "bad thing (bunny hop)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 208024,
+            "duration": "3:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+            "isCurrent": false
+          },
+          {
+            "id": "5JbnupagBhD0AanbkCELdH",
+            "name": "nowhere, nobody",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 172001,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-07-31T09:18:04.202Z",
+      "trackUrl": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+      "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "albumName": "petal",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "2:54",
+      "isrc": "USUM72601825",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+    },
+    "genius": {
+      "url": "https://genius.com/Ariana-grande-big-feelings-lyrics",
+      "songId": 13758359,
+      "description": "“big feelings” is about someone in love with Ariana more then she is in love with them, the song is the sixth track to Grande’s eighth album, petal.The song was revealed as the sixth track to petal during Ariana’s Eternal Sunshine Tour on June 19, 2026 at the Kia Forum in Inglewood."
+    },
+    "youtubeUrl": "https://youtu.be/Tja6P2OoPoY",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5068",
     "title": "Ariana Grande oh well Türkçe Çeviri",
     "song": "oh well",
