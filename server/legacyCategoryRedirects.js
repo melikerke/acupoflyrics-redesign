@@ -71,6 +71,7 @@ export const legacyCategoryRedirects = {
   "chemtrails-over-the-country-club": "/album/lana-del-rey-chemtrails-over-the-country-club",
   "chezile": "/artist/chezile",
   "childish-gambino": "/artist/childish-gambino",
+  "choom": "/album/babymonster-choom",
   "chung-ha": "/artist/chung-ha",
   "ckay": "/artist/ckay",
   "cl": "/artist/cl",

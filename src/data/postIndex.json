@@ -1,5 +1,75 @@
 [
   {
+    "id": "5146",
+    "slug": "babymonster-moon-turkce-ceviri",
+    "title": "BABYMONSTER MOON Türkçe Çeviri",
+    "song": "MOON",
+    "artist": "BABYMONSTER",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+    "date": "2026-08-03T06:47:32.796Z",
+    "reading_time": 5,
+    "excerpt": "I'm the moon",
+    "categories": [
+      "BABYMONSTER",
+      "춤 (CHOOM)"
+    ],
+    "category_slugs": [
+      "babymonster",
+      "choom"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4ni36cZOQZldZGpHyLHFqX",
+      "albumUrl": "https://open.spotify.com/album/1VmMG3mtIWHWm618Cwiku7",
+      "artistUrl": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS",
+      "albumName": "춤 (CHOOM)",
+      "releaseDate": "2026-05-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+      "duration": "2:46",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4ni36cZOQZldZGpHyLHFqX",
+        "isrc": "KRA402600025",
+        "duration": "2:46",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BABYMONSTER",
+        "url": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271"
+      },
+      "album": {
+        "name": "춤 (CHOOM)",
+        "url": "https://open.spotify.com/album/1VmMG3mtIWHWm618Cwiku7",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+        "artists": [
+          {
+            "name": "BABYMONSTER",
+            "url": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+          }
+        ],
+        "releaseDate": "2026-05-04",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=xXZwZ0DolJc",
+    "annotations": {
+      "Gelgitlerin kraliçesi": "Ayın gelgitleri yöneten çekim gücünü, grubun sahnedeki kontrolüyle birleştiriyor. “Gençliğin kraliçesi” ise BABYMONSTER'ın yeni kuşağın öncüsü olma iddiasını taşıyor.",
+      "Bars / dough": "“Bars” rap dizelerini ve flow'u anlatıyor. “Dough” ise hem hamur hem para demek; parayı “pişirip büyütme” kelime oyunuyla grubun yükselişine bağlanıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I'm the moon",
+      "tr": "Ben ayım"
+    },
+    "heroPair": {
+      "en": "I'm the moon",
+      "tr": "Ben ayım"
+    }
+  },
+  {
     "id": "5145",
     "slug": "davido-llona-my-light-turkce-ceviri",
     "title": "Davido, Llona My Light Türkçe Çeviri",
