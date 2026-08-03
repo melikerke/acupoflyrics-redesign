@@ -1,8 +1,95 @@
 export const popGundemiArticles = [
   {
+    slug: "agustos-2026-asya-muzik-radari",
+    title: "Ağustos K-pop takvimi dolup taşıyor: KISS OF LIFE'tan Taemin'e beklediğimiz geri dönüşler",
+    shortTitle: "Ağustos Asya müzik radarı",
+    kicker: "Asya müzik radarı",
+    date: "2026-08-03",
+    updatedAt: "2026-08-03T16:10:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b27315175a3af8eb08dbc8c77a31",
+    imageAlt: "KISS OF LIFE üyelerinin Igloo albüm görseli",
+    imageCredit: "KISS OF LIFE · S2 Entertainment",
+    accent: "#ef6c45",
+    artistName: "KISS OF LIFE · KiiiKiii · WayV · KATSEYE · NCT 127 · Taemin",
+    excerpt:
+      "Takvimleri açın: Ağustos'un ilk gününden son gecesine kadar K-pop ve Asya pop tarafında neredeyse nefes alacak boşluk yok. Üstelik listelerde şimdiden çeviri radarımıza giren dört güçlü şarkı var.",
+    dek:
+      "Tamam, global listeleri takip ediyoruz ama gözümüz artık Seul, Tokyo ve Asya turne hattında da. Çünkü bu ay KISS OF LIFE kapıyı açıyor; KiiiKiii, WayV, KATSEYE, NCT 127 ve Taemin sıraya giriyor. Kulaklıklar hazır mı?",
+    livePanel: {
+      label: "3 Ağustos 2026 itibarıyla",
+      title: "Takvime hemen ekle",
+      items: [
+        { label: "4 Ağustos", text: "KISS OF LIFE — SWEAT ve TWS — Soda Soda" },
+        { label: "10–14 Ağustos", text: "KiiiKiii — WhyKiiiKiii, WayV — Vision Wings ve KATSEYE — WILD" },
+        { label: "Ayın finali", text: "NCT 127 — BLINGY 24 Ağustos'ta, Taemin — Soft Violence 31 Ağustos'ta" },
+      ],
+    },
+    summary: [
+      "KISS OF LIFE, üçüncü single albümü SWEAT'i 4 Ağustos saat 18.00 KST'de yayımlayacak.",
+      "KiiiKiii'nin WhyKiiiKiii EP'si ile WayV'in sekizinci mini albümü Vision Wings aynı gün, 10 Ağustos'ta geliyor.",
+      "KATSEYE'nin WILD EP'si 14 Ağustos; NCT 127'nin beş üyeli BLINGY albümü 24 Ağustos; Taemin'in Soft Violence projesi 31 Ağustos tarihli.",
+      "Kore listelerinde CORTIS — REDRED, aespa — LEMONADE, I.O.I — Suddenly ve i-dle — Gimme Dat Love çeviri tarafında takip edeceğimiz ilk şarkılar.",
+    ],
+    sections: [
+      {
+        heading: "4 Ağustos'ta ilk dalga geliyor",
+        body: [
+          "Daha ayın başındayız ama yarın iki ayrı cephede hareket var. KISS OF LIFE, üçüncü single albümü SWEAT ile dönüyor. İlk tanıtımlardaki kurak sıcak, ter ve yaz sonu hissi grubun özgüvenli tarafına çok yakışıyor; yayımlanan programda saat de net: 4 Ağustos, 18.00 KST.",
+          "Aynı gün TWS, ikinci Japonca EP'si Soda Soda'yı çıkaracak. Grubun Japonya'daki ilk single'ı hem Oricon hem Billboard Japan haftalık listelerinde bir numaraya yükselmiş ve 250 bin satışın ardından platin sertifika almıştı. Yani bu yalnızca yan bir Japonca yayın değil; TWS için büyüyen ikinci bir ana sahne.",
+        ],
+      },
+      {
+        heading: "10 Ağustos: İki geri dönüş, iki bambaşka dünya",
+        body: [
+          "10 Ağustos günü tatlı bir çakışma yaşayacağız. KiiiKiii, WhyKiiiKiii EP'siyle geliyor. Yedi aylık aranın ardından yayımlanan renkli ve hafif tuhaf tanıtımlar, grubun 404 (New Era) sonrasında o oyunbaz kimliğini daha da büyüteceğini düşündürüyor. Şimdiden 'bu konseptten nasıl bir nakarat çıkacak?' diye merak ediyoruz.",
+          "Aynı gün WayV sekizinci mini albümü Vision Wings'i yayımlayacak. Sinematik fragman ve hemen arkasından duyurulan BORN THIS Way turnesi, bunun tek bir comeback haftasıyla kalmayacağını gösteriyor. Yeni şarkıların sahneye taşınacağı ilk Seul konserleri 12–13 Eylül'de; ardından Asya durakları gelecek.",
+        ],
+      },
+      {
+        heading: "Sonra KATSEYE, NCT 127 ve Taemin geliyor — evet, aynı ay içinde",
+        body: [
+          "14 Ağustos'ta KATSEYE'nin üçüncü EP'si WILD yayımlanacak. PINKY UP'ı da içerecek proje, grubun artık yalnızca viral single'larla değil, kendine ait daha geniş bir pop dünyasıyla ilerlemek istediği dönüm noktası olabilir. Animal hâlâ yükselirken yeni dönem için beklenti doğal olarak yüksek.",
+          "24 Ağustos'ta NCT 127, yedinci stüdyo albümü BLINGY ile beş kişilik bir kadroyla dönüyor: Johnny, Taeyong, Yuta, Jaehyun ve Haechan. Ayın son sözü ise Taemin'den. Soft Violence — PHASE 1, 31 Ağustos'ta geliyor. Sadece bu isim bile zarafetle tehdit arasında bir şey vaat ediyor; tam Taeminlik, değil mi?",
+        ],
+      },
+      {
+        heading: "Peki şu anda Asya listelerinde ne yükseliyor?",
+        body: [
+          "Yayımlanacakları beklerken mevcut listeler de boş durmuyor. Temmuzun üçüncü haftasını birleştirilmiş Kore verileriyle izleyen müzik listesinde CORTIS'in REDRED'i altıncı haftasını zirvede geçirdi. aespa'nın LEMONADE'i iki numarada, I.O.I'ın Suddenly'si üç numarada; i-dle'ın Latin pop dokunuşlu Gimme Dat Love'ı ise ilk ona dokuzuncu sıradan girdi.",
+          "Sitemizde BTS — SWIM ve ICONIC BY MISTAKE zaten var. Bir sonraki Asya çeviri grubunda ilk bakacağımız eksikler bu yüzden çok net: REDRED, LEMONADE, Suddenly ve Gimme Dat Love. Resmi sözlerle birlikte anlam katmanlarını kontrol edip sıraya alacağız.",
+        ],
+      },
+      {
+        heading: "Biz en çok neyi bekliyoruz?",
+        body: [
+          "KISS OF LIFE'ın SWEAT'i hemen kapıda olduğu için ilk heyecan orada. KiiiKiii'nin görsel dünyası merak uyandırıyor, WayV'in sinematik tonu iddialı ve Taemin ayı çok güçlü kapatmaya hazırlanıyor. Ama sürpriz adayımız TWS: Japonya tarafındaki büyümeleri Türkiye'deki dinleyicinin gözünden biraz kaçıyor olabilir.",
+          "Kısacası Ağustos boyunca yalnızca global viral listesine bakıp geçmeyeceğiz. Kore listelerini, Japonya yayınlarını ve bölgesel müzik basınını düzenli tarayıp gerçekten yükselmeye başlayan şarkıları çeviri sırasına daha erken alacağız. Bu ay biraz uykusuz kalabiliriz — ama güzel sebeplerle.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "REDRED", status: "Çeviri radarı", detail: "CORTIS'in parçası Kore müzik listesinde altıncı haftasını zirvede geçirdi." },
+      { name: "LEMONADE", status: "Çeviri radarı", detail: "aespa'nın şarkısı listenin iki numarasında güçlü biçimde tutunuyor." },
+      { name: "Suddenly + Gimme Dat Love", status: "Sıradaki adaylar", detail: "I.O.I ilk üçte; i-dle ise yeni girişle doğrudan ilk onda." },
+    ],
+    sources: [
+      { name: "KISS OF LIFE — SWEAT duyurusu", url: "https://www.soompi.com/article/1855683wpp/watch-kiss-of-life-announces-comeback-date-with-preview-of-sweat-equity" },
+      { name: "KiiiKiii — WhyKiiiKiii takvimi", url: "https://www.soompi.com/article/1855650wpp/kiiikiiii-unveils-fun-teasers-for-august-comeback" },
+      { name: "WayV — Vision Wings duyurusu", url: "https://www.soompi.com/article/1855679wpp/wayv-announces-august-comeback-date-with-teaser-for-vision-wings" },
+      { name: "KATSEYE — WILD duyurusu", url: "https://www.soompi.com/article/1848242wpp/katseye-unveils-1st-teaser-photos-for-wild-comeback" },
+      { name: "NCT 127 — BLINGY duyurusu", url: "https://www.soompi.com/article/1857494wpp/watch-nct-127-drops-1st-teaser-for-comeback-with-full-length-album-blingy" },
+      { name: "Taemin — Soft Violence duyurusu", url: "https://www.soompi.com/article/1856850wpp/watch-shinees-taemin-hints-at-comeback-with-mysterious-teaser" },
+      { name: "TWS — Soda Soda", url: "https://koreajoongangdaily.joins.com/news/2026-06-01/entertainment/kpop/Boy-band-TWS-to-drop-new-Japanese-EP-on-Aug-4/2605805" },
+      { name: "Kore pop müzik listesi — Temmuz 3. hafta", url: "https://www.soompi.com/article/1855968wpp/soompis-k-pop-music-chart-2026-july-week-3" },
+    ],
+    storyShare:
+      "Ağustos K-pop takvimi dolup taşıyor: KISS OF LIFE, KiiiKiii, WayV, KATSEYE, NCT 127 ve Taemin için tarihleri; yükselen Asya şarkılarıyla birlikte Pop Günlüğü'nde topladık.",
+  },
+  {
     slug: "ariana-grande-turne-sonrasi-ara-veriyor",
-    title: "Ariana Grande neden ara veriyor? Turne sonrası görünürlük molası ve iptal edilen Londra müzikali",
-    shortTitle: "Ariana Grande turne sonrası ara veriyor",
+    title: "Panik yok: Ariana Grande müziği bırakmıyor — peki neden ara veriyor?",
+    shortTitle: "Panik yok: Ariana müziği bırakmıyor",
     kicker: "Pop gündemi",
     date: "2026-08-03",
     updatedAt: "2026-08-03T15:05:00+03:00",
@@ -16,7 +103,7 @@ export const popGundemiArticles = [
     excerpt:
       "Ariana Grande, Eternal Sunshine Tour bittikten sonra göz önünden çekilecek ve 2027'deki Londra müzikalinde yer almayacak. Bu bir müziği bırakma haberi değil; sınır koyma kararı.",
     dek:
-      "petal daha üç günlükken gelen bu haber ilk bakışta ürkütücü duruyor. Fakat eldeki açıklama gayet net: Ariana üretime veda etmiyor, yoğun turnenin ardından kamusal görünürlüğüne ara veriyor.",
+      "petal daha üç günlükken böyle bir başlık görünce bizim de kalbimiz bir an durdu. Ama derin bir nefes: Ariana üretime veda etmiyor; çok yoğun turnenin ardından görünürlüğüne ara veriyor.",
     livePanel: {
       label: "3 Ağustos 2026 itibarıyla",
       title: "Ne biliyoruz?",
@@ -77,8 +164,8 @@ export const popGundemiArticles = [
   },
   {
     slug: "bts-2027-grammy-basvurusu-yapmayacak",
-    title: "BTS 2027 Grammy'lerine neden başvurmuyor? Yeni Asian Pop kategorisi ve kararın asıl anlamı",
-    shortTitle: "BTS 2027 Grammy'lerine başvurmuyor",
+    title: "BTS 2027 Grammy yarışına girmiyor — ve bu karar düşündüğümüzden daha büyük",
+    shortTitle: "BTS'in Grammy kararı aslında ne diyor?",
     kicker: "K-pop gündemi",
     date: "2026-08-03",
     updatedAt: "2026-08-03T14:40:00+03:00",
@@ -92,7 +179,7 @@ export const popGundemiArticles = [
     excerpt:
       "BTS, 2027 Grammy değerlendirmesi için müzik göndermeyeceğini açıkladı. Bu bir adaylıktan çekilme değil; adaylık süreci başlamadan alınmış, endüstri çapında yankı uyandıran bir başvuru kararı.",
     dek:
-      "Yeni Asian Pop kategorisinin duyurulmasının ardından BTS'in 'müziğimiz bölgeye ya da dile göre sınıflandırılmasın' tavrı tartışmayı büyüttü. Peki teknik olarak ne oldu, ne olmadı?",
+      "Bir dakika, bu 'aday oldular ve çekildiler' haberi değil. BTS daha en başta eser göndermemeyi seçti — hem de yeni Asian Pop kategorisinin tam ortasında. Gelin bu büyük kararın ne söylediğini birlikte açalım.",
     livePanel: {
       label: "3 Ağustos 2026 itibarıyla",
       title: "Kısa cevap",
@@ -160,8 +247,8 @@ export const popGundemiArticles = [
   },
   {
     slug: "bonnie-tyler-total-eclipse-yeniden-listelerde",
-    title: "Bonnie Tyler'ın ardından Total Eclipse of the Heart yeniden listelerde: Bir şarkı neden hâlâ bu kadar büyük?",
-    shortTitle: "Total Eclipse of the Heart yeniden listelerde",
+    title: "Total Eclipse of the Heart yeniden yükseliyor — hem de 43 yıl sonra",
+    shortTitle: "43 yıl sonra yine aynı nakarattayız",
     kicker: "Müzik hafızası",
     date: "2026-08-03",
     updatedAt: "2026-08-03T14:10:00+03:00",
@@ -175,7 +262,7 @@ export const popGundemiArticles = [
     excerpt:
       "Bonnie Tyler'ın 8 Temmuz'daki vefatının ardından Total Eclipse of the Heart İngiltere listelerine geri döndü. Bu yalnızca nostalji değil; kırk yılı aşan bir pop klasiğinin yeniden hatırlanması.",
     dek:
-      "Bazı şarkılar dönemine aittir, bazılarıysa her kuşağın kendi kalp kırıklığını içine koyabildiği kocaman bir odaya dönüşür. Total Eclipse of the Heart ikinci grupta.",
+      "O ilk piyano notası geliyor ve insan ne yaparsa yapsın nakarata hazırlanıyor. Bonnie Tyler'a vedamızın ardından bu dev şarkı yeniden listelerde; belli ki kırk üç yıl bile o duyguyu küçültememiş.",
     livePanel: {
       label: "3 Ağustos 2026 itibarıyla",
       title: "Şarkının dönüşü",
@@ -243,8 +330,8 @@ export const popGundemiArticles = [
   },
   {
     slug: "haftanin-yeni-sarkilari-cardi-b-cortis-slayyyter",
-    title: "Bu hafta ne dinliyoruz? Cardi B'nin AH HA'sı, CORTIS'in MOTION'ı ve Slayyyter'ın yeni Chanel dönemi",
-    shortTitle: "Haftanın yeni şarkıları",
+    title: "Kulaklıkları takın: Cardi B, CORTIS ve Slayyyter ile haftanın üç büyük enerjisi",
+    shortTitle: "Bu hafta üç şarkıya fena taktık",
     kicker: "Yeni müzik radarı",
     date: "2026-08-03",
     updatedAt: "2026-08-03T13:45:00+03:00",
@@ -258,7 +345,7 @@ export const popGundemiArticles = [
     excerpt:
       "Yeni yayınlarda üç farklı enerji var: Cardi B doğrudan saldırıya geçiyor, CORTIS ile Juicy J kulübü hareketlendiriyor, Slayyyter ise lüksü plastik ve kışkırtıcı bir pop oyununa çeviriyor.",
     dek:
-      "Hepsini aynı kefeye koymayacağız; ama üçünün de ortak noktası ilk saniyede kim olduğunu belli etmesi. İşte hızlı dinleme notlarımız ve Türkçe çeviri bağlantıları.",
+      "Biri odaya kavga ederek giriyor, biri pisti çalıştırıyor, biri de her yeri pahalı bir moda çekimine çeviriyor. Evet, bu üçlü yan yana tuhaf — tam da bu yüzden çok eğlenceli.",
     livePanel: {
       label: "3 Ağustos 2026 seçkisi",
       title: "Üç şarkı, üç ayrı hava",

@@ -6,6 +6,7 @@ import { useSeo } from "../lib/seo";
 import SiteShell from "../components/site/SiteShell";
 import { Breadcrumbs, Icon } from "../components/site/ui";
 import NotFound from "../components/site/NotFound";
+import "../popGundemiArticle.css";
 
 function formatDate(value) {
   return new Date(value).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
@@ -79,7 +80,7 @@ export default function PopGundemiArticlePage() {
 
   return (
     <SiteShell theme={LIGHT_THEME} wide>
-      <article className="pop-article" style={{ "--pop-accent": article.accent }}>
+      <article className="pop-article pop-story" style={{ "--pop-accent": article.accent }}>
         <Breadcrumbs
           items={[
             { name: "Ana sayfa", path: "/" },
@@ -88,14 +89,13 @@ export default function PopGundemiArticlePage() {
           ]}
         />
 
-        <header className="pop-article-hero">
-          <div className="pop-article-copy">
+        <header className="pop-story-hero">
+          <div className="pop-story-heading">
             <span className="site-kicker">{article.kicker} · {formatDate(article.date)} · {article.readTime}</span>
-            <h1 className="font-serif">{article.shortTitle}</h1>
-            <p className="pop-article-subtitle">{article.title}</p>
+            <h1 className="font-serif">{article.title}</h1>
             <p>{article.dek}</p>
           </div>
-          <div className={`pop-article-visual${article.imageLayout === "landscape" ? " pop-article-visual--landscape" : ""}`}>
+          <figure className="pop-story-visual">
             <img src={article.image} alt={article.imageAlt || ""} />
             {article.imageSource ? (
               <a href={article.imageSource} target="_blank" rel="noopener noreferrer">
@@ -104,84 +104,79 @@ export default function PopGundemiArticlePage() {
             ) : (
               <span>{article.imageCredit || "acupoflyrics"}</span>
             )}
-          </div>
+          </figure>
         </header>
 
-        <section className="pop-live-panel" aria-label="Güncel durum">
-          <div>
-            <span className="site-kicker">{livePanel.label}</span>
-            <h2>{livePanel.title}</h2>
-          </div>
-          <div className="pop-live-items">
-            {livePanel.items.map((item) => (
-              <p key={`${item.label}-${item.text}`}><strong>{item.label}:</strong> {item.text}</p>
-            ))}
-          </div>
-        </section>
-
-        <section className="pop-brief">
-          <div>
-            <span className="site-kicker">Özet</span>
-            <h2>Kısa özet</h2>
-          </div>
-          <ul>
-            {article.summary.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </section>
-
-        {article.sections?.length > 0 && (
-          <div className="pop-article-sections">
-            {article.sections.map((section) => (
-              <section className="pop-article-section" key={section.heading}>
-                <h2 className="font-serif">{section.heading}</h2>
-                <div className="pop-article-section-copy">
-                  {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                </div>
-                {section.image && (
-                  <figure className="pop-article-inline-figure">
-                    {section.imageSource ? (
-                      <a href={section.imageSource} target="_blank" rel="noopener noreferrer">
-                        <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
-                      </a>
-                    ) : (
-                      <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
-                    )}
-                    {section.imageCaption && <figcaption>{section.imageCaption}</figcaption>}
-                  </figure>
-                )}
-              </section>
-            ))}
-          </div>
-        )}
-
-        <section className="pop-member-status" aria-label="Üye bazlı durum">
-          {article.memberStatus.map((member) => (
-            <div key={member.name}>
-              <span>{member.status}</span>
-              <strong>{member.name}</strong>
-              <p>{member.detail}</p>
+        <div className="pop-story-reading">
+          <section className="pop-story-now" aria-label="Güncel durum">
+            <div className="pop-story-now-heading">
+              <span>{livePanel.label}</span>
+              <h2>{livePanel.title}</h2>
             </div>
-          ))}
-        </section>
+            <div className="pop-story-now-items">
+              {livePanel.items.map((item) => (
+                <p key={`${item.label}-${item.text}`}><strong>{item.label}</strong>{item.text}</p>
+              ))}
+            </div>
+          </section>
 
-        <section className="pop-sources">
-          <span className="site-kicker">Kaynaklar</span>
-          <div>
-            {article.sources.map((source) => (
-              <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">
-                {source.name} <Icon name="arrow" size={14} />
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <div className="site-hero-actions pop-article-actions">
-          {article.artistSlug && (
-            <Link className="site-btn" to={artistPath(article.artistSlug)}>
-              {article.artistName || "Sanatçı"} çevirilerini keşfet
-            </Link>
+          {article.sections?.length > 0 && (
+            <div className="pop-story-body">
+              {article.sections.map((section) => (
+                <section className="pop-story-section" key={section.heading}>
+                  <h2 className="font-serif">{section.heading}</h2>
+                  {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                  {section.image && (
+                    <figure className="pop-story-inline-figure">
+                      {section.imageSource ? (
+                        <a href={section.imageSource} target="_blank" rel="noopener noreferrer">
+                          <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                        </a>
+                      ) : (
+                        <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                      )}
+                      {section.imageCaption && <figcaption>{section.imageCaption}</figcaption>}
+                    </figure>
+                  )}
+                </section>
+              ))}
+            </div>
           )}
-          <Link className="site-btn-ghost" to={popJournalPath()}>Pop Günlüğü</Link>
+
+          {article.memberStatus?.length > 0 && (
+            <section className="pop-story-recap" aria-label="Son durum özeti">
+              <span className="site-kicker">Hızlıca toparlayalım</span>
+              {article.memberStatus.map((member) => (
+                <div key={member.name}>
+                  <strong>{member.name}</strong>
+                  <p>{member.detail}</p>
+                  <span>{member.status}</span>
+                </div>
+              ))}
+            </section>
+          )}
+
+          <footer className="pop-story-footer">
+            <section className="pop-story-sources">
+              <span className="site-kicker">Meraklısına kaynaklar</span>
+              <div>
+                {article.sources.map((source) => (
+                  <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">
+                    {source.name} <Icon name="arrow" size={14} />
+                  </a>
+                ))}
+              </div>
+            </section>
+
+            <div className="site-hero-actions pop-story-actions">
+              {article.artistSlug && (
+                <Link className="site-btn" to={artistPath(article.artistSlug)}>
+                  {article.artistName || "Sanatçı"} çevirilerini keşfet
+                </Link>
+              )}
+              <Link className="site-btn-ghost" to={popJournalPath()}>Pop Günlüğü'ne dön</Link>
+            </div>
+          </footer>
         </div>
       </article>
     </SiteShell>
