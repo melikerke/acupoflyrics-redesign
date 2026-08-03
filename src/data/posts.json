@@ -1,5 +1,1531 @@
 [
   {
+    "id": "5157",
+    "title": "Taylor Swift I Knew It, I Knew You Türkçe Çeviri",
+    "song": "I Knew It, I Knew You",
+    "slug": "taylor-swift-i-knew-it-i-knew-you-turkce-ceviri",
+    "date": "2026-08-03T11:06:19.585Z",
+    "artist": "Taylor Swift",
+    "categories": [
+      "Taylor Swift",
+      "I Knew It, I Knew You (From \"Toy Story 5\")"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "i-knew-it-i-knew-you-from-toy-story-5"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I knew you through the daze of the blades of the grass in summer",
+          "Parachutes for the free fall of being younger",
+          "I memorized the sound of your bare footsteps",
+          "Running wild, it's been a long time",
+          "Life has ways of leaving those days behind",
+          "But seeing you tonight"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Seni yazın çimen bıçaklarının arasındaki o puslu günlerden tanırdım",
+          "Daha genç olmanın o serbest düşüşünde paraşütlerimiz vardı",
+          "Çıplak ayaklarının sesini ezberlemiştim",
+          "Deli dolu koşarken... Aradan çok zaman geçti",
+          "Hayatın o günleri geride bırakma yolları var",
+          "Ama seni bu gece görünce..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I remembered I loved you",
+          "Came back when it mattered, I saw you",
+          "Standing there in the light of the window wearing that same smile",
+          "Man, it's been a while",
+          "But I knew it, I knew you",
+          "I knew it, I knew you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Seni sevdiğimi hatırladım",
+          "Tam gerektiği anda geri geldi; seni gördüm",
+          "Pencerenin ışığında duruyordun, yüzünde yine aynı gülümseme",
+          "Tanrım, epey zaman geçmiş",
+          "Ama biliyordum; seni tanıyordum",
+          "Biliyordum; seni tanıyordum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I knew you, all your blues like a mood ring changing colors",
+          "You did too, there were times we could fight like brothers",
+          "I watched you drive around the bend for",
+          "What I thought would be the last time I saw my friend",
+          "But love has ways of bringing things back to life",
+          "All you said was, “Hi”"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Seni tanırdım; tüm hüznün ruh hâli yüzüğü gibi renk değiştirirdi",
+          "Sen de beni tanırdın; bazen kardeşler gibi kavga ederdik",
+          "Virajı dönüp uzaklaşmanı izledim",
+          "Dostumu son kez gördüğümü sanmıştım",
+          "Ama aşk bazen bir şeyleri yeniden hayata döndürür",
+          "Tüm söylediğin “Merhaba”ydı"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I remembered I loved you",
+          "Came back when it mattered, I saw you",
+          "Standing there in the light of the window wearing that same smile",
+          "Man, it's been a while",
+          "But I knew it, I knew you (I knew, I knew)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve seni sevdiğimi hatırladım",
+          "Tam gerektiği anda geri geldi; seni gördüm",
+          "Pencerenin ışığında duruyordun, yüzünde yine aynı gülümseme",
+          "Tanrım, epey zaman geçmiş",
+          "Ama biliyordum; seni tanıyordum (Biliyordum, biliyordum)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "I knew it, I knew you (I knew, I knew)",
+          "I knew it, I knew you (I knew, I knew)",
+          "Ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Biliyordum; seni tanıyordum (Biliyordum, biliyordum)",
+          "Biliyordum; seni tanıyordum (Biliyordum, biliyordum)",
+          "Ooh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Oh, the rivers I cried when we said goodbye",
+          "Wondering if I'd made it up in my mind",
+          "But now you look me in the eye"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Oh, vedalaştığımızda döktüğüm o nehirler dolusu gözyaşı",
+          "Belki de hepsini zihnimde ben uydurdum diye düşündüm",
+          "Ama şimdi gözlerimin içine bakıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And you told me I loved you",
+          "Came back when it mattered, I saw you",
+          "Standing there in the light of the window wearing that same smile",
+          "Yeah, it's been a while, oh-oh",
+          "Wearing that same smile",
+          "Man, it's been a while (Man, it's been a while)",
+          "Wearing that same smile",
+          "Man, it's been a while",
+          "But I knew it, I knew you (Ooh, I knew you, I knew)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve bana, seni sevdiğimi söyledin",
+          "Tam gerektiği anda geri geldi; seni gördüm",
+          "Pencerenin ışığında duruyordun, yüzünde yine aynı gülümseme",
+          "Evet, epey zaman geçmiş, oh-oh",
+          "Yüzünde yine aynı gülümseme",
+          "Tanrım, epey zaman geçmiş (Epey zaman geçmiş)",
+          "Yüzünde yine aynı gülümseme",
+          "Tanrım, epey zaman geçmiş",
+          "Ama biliyordum; seni tanıyordum (Ooh, seni tanıyordum, biliyordum)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "I knew it, I knew you",
+          "Wearing that same smile (Ooh, I knew you, I knew)",
+          "I knew it, I knew you (Ooh, I knew you, I knew)",
+          "I knew it, I knew you (Ooh, I knew you, I knew)",
+          "I knew it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Biliyordum; seni tanıyordum",
+          "Yüzünde yine aynı gülümseme (Ooh, seni tanıyordum, biliyordum)",
+          "Biliyordum; seni tanıyordum (Ooh, seni tanıyordum, biliyordum)",
+          "Biliyordum; seni tanıyordum (Ooh, seni tanıyordum, biliyordum)",
+          "Biliyordum..."
+        ]
+      }
+    ],
+    "excerpt": "I knew you through the daze of the blades of the grass in summer",
+    "annotations": {
+      "Daze / blades": "“Daze” gençliğin puslu, rüya gibi günlerini; “blades of grass” ise çimen yapraklarını anlatıyor. İki görüntü, yaz çocukluğunun bulanık ama canlı hatırasını kuruyor.",
+      "I knew it, I knew you": "Başlık iki ayrı fark edişi birleştiriyor: “Bunu biliyordum” ve “Seni tanıyordum.” Eski bir bağın, yıllar sonra bile yabancılaşmadığını anlatıyor.",
+      "Mood ring": "Ruh hâline göre renk değiştirdiğine inanılan yüzük. Karşısındaki kişinin hüznünün ve duygularının sürekli değişmesini anlatan nostaljik bir imge."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5uPaqMMt59KGrdKIitDRqa",
+        "name": "I Knew It, I Knew You - From \"Toy Story 5\"",
+        "url": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+        "isrc": "USWD12641055",
+        "durationMs": 178186,
+        "duration": "2:58",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "3ZLIShtR6Fjs4nTWFpBUB6",
+        "name": "I Knew It, I Knew You (From \"Toy Story 5\")",
+        "url": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-06-05",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Wonderland Music Company, Inc. (BMI) / Pixar Music (BMI) and Walt Disney Music Company (ASCAP) / Pixar Talking Pictures (ASCAP)",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Walt Disney Records / Pixar",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5uPaqMMt59KGrdKIitDRqa",
+            "name": "I Knew It, I Knew You - From \"Toy Story 5\"",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 178186,
+            "duration": "2:58",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:06:14.040Z",
+      "trackUrl": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+      "albumUrl": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "I Knew It, I Knew You (From \"Toy Story 5\")",
+      "albumType": "Single",
+      "releaseDate": "2026-06-05",
+      "duration": "2:58",
+      "isrc": "USWD12641055",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910"
+    },
+    "genius": {
+      "url": "https://genius.com/Taylor-swift-speak-now-liner-notes-annotated",
+      "songId": 2456617,
+      "description": "“Speak Now [Liner Notes]” is the prologue of the album “Speak Now” by Taylor Swift and the hidden messages from each song of the album.The album was out in 2010 and was written by Taylor herself.It isn’t a part of the album but created here in Genius to help people organize the album songs and their hidden messages, with annotations of the prologue and annotations of the hidden messages."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5156",
+    "title": "Sam Fender, Olivia Dean Rein Me In Türkçe Çeviri",
+    "song": "Rein Me In",
+    "slug": "sam-fender-olivia-dean-rein-me-in-turkce-ceviri",
+    "date": "2026-08-03T11:05:34.373Z",
+    "artist": "Sam Fender, Olivia Dean",
+    "categories": [
+      "Sam Fender",
+      "Olivia Dean",
+      "Rein Me In (with Olivia Dean)"
+    ],
+    "category_slugs": [
+      "sam-fender",
+      "olivia-dean",
+      "rein-me-in-with-olivia-dean"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Sam Fender",
+        "lines": [
+          "I let go of everything I ever had",
+          "'Cause I couldn't give the love you deserved",
+          "By The Gunner, you shouted, \"Oh my God\"",
+          "It seemed churlish, but it's what I was owed, I suppose",
+          "Every flagstone of this town bears our prints",
+          "And all the bars round here serve my ghosts and carcasses",
+          "I wish I knew these things when I was young",
+          "'Cause now I've just grown so numb"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Sam Fender",
+        "lines": [
+          "Sahip olduğum ne varsa hepsini bıraktım",
+          "Çünkü hak ettiğin sevgiyi sana veremiyordum",
+          "The Gunner'ın yanında “Aman Tanrım!” diye bağırdın",
+          "Kabaydı belki ama sanırım benim payıma düşen de buydu",
+          "Bu kasabanın her kaldırım taşında izlerimiz var",
+          "Bu civardaki tüm barlar hayaletlerimi ve cesetlerimi masaya sürüyor",
+          "Keşke bunları gençken bilseydim",
+          "Çünkü şimdi iyice hissizleştim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Sam Fender",
+        "lines": [
+          "We take whatever we can to get the reason back",
+          "So pleasе don't rein me in"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Sam Fender",
+        "lines": [
+          "O hissi yeniden bulmak için elimize ne geçerse alıyoruz",
+          "O yüzden lütfen beni dizginleme"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sam Fender",
+        "lines": [
+          "Don't rein mе in",
+          "Please don't rein me in",
+          "I'm working myself up to a nice, warm bliss",
+          "All my memories of you ring like tinnitus",
+          "If I stop, it's just pain, please don't rein me in"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sam Fender",
+        "lines": [
+          "Beni dizginleme",
+          "Lütfen beni dizginleme",
+          "Kendimi tatlı, sıcacık bir uyuşukluğa sürüklüyorum",
+          "Sana dair tüm anılarım kulak çınlaması gibi uğulduyor",
+          "Durursam geriye sadece acı kalıyor; lütfen beni dizginleme"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Olivia Dean",
+        "lines": [
+          "There's nothing brave in walking alone",
+          "Love in exile has nowhere to go, so come on home",
+          "Mm, don't run away from my tenderness",
+          "You're so afraid of that heart inside of your chest",
+          "We were doing so well, but you were scared to be held",
+          "Took the easiest way out",
+          "I see the tears of a man too proud to reach for a hand",
+          "Well, let my love keep you safe now",
+          "So please don't"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Olivia Dean",
+        "lines": [
+          "Tek başına yürümekte cesurca hiçbir şey yok",
+          "Sürgündeki aşkın gidecek yeri olmaz; hadi eve dön",
+          "Mm, şefkatimden kaçma",
+          "Göğsünün içindeki o kalpten ölesiye korkuyorsun",
+          "Her şey çok iyi gidiyordu ama sarılıp tutulmaktan korktun",
+          "En kolay kaçış yolunu seçtin",
+          "Bir ele uzanamayacak kadar gururlu bir adamın gözyaşlarını görüyorum",
+          "Bırak sevgim seni şimdi güvende tutsun",
+          "O yüzden lütfen yapma..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sam Fender & Olivia Dean, Sam Fender",
+        "lines": [
+          "Don't rein me in",
+          "Please don't rein me in",
+          "Now I'm working myself up to a nice, warm bliss",
+          "All my memories of you ring like tinnitus",
+          "If I stop, it's just pain, please don't rein me in"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sam Fender & Olivia Dean, Sam Fender",
+        "lines": [
+          "Beni dizginleme",
+          "Lütfen beni dizginleme",
+          "Şimdi kendimi tatlı, sıcacık bir uyuşukluğa sürüklüyorum",
+          "Sana dair tüm anılarım kulak çınlaması gibi uğulduyor",
+          "Durursam geriye sadece acı kalıyor; lütfen beni dizginleme"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Sam Fender & Olivia Dean",
+        "lines": [
+          "And I'm, I'm stood here chewing everyone's lugs off",
+          "Telling everybody how much I fucked it up",
+          "Telling everybody how much I fucked it up",
+          "Telling everybody but you how much I fucked it up",
+          "Slow down (Don't rein me in)",
+          "Slow down (Don't rein me in)",
+          "Oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Sam Fender & Olivia Dean",
+        "lines": [
+          "Ve ben... Burada durmuş herkesin başının etini yiyorum",
+          "Her şeyi ne kadar berbat ettiğimi herkese anlatıyorum",
+          "Her şeyi ne kadar berbat ettiğimi herkese anlatıyorum",
+          "Senden başka herkese, her şeyi ne kadar berbat ettiğimi anlatıyorum",
+          "Yavaşla (Beni dizginleme)",
+          "Yavaşla (Beni dizginleme)",
+          "Oh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Both, Sam Fender, Olivia Dean",
+        "lines": [
+          "Now I'm working myself up to a nice, warm bliss",
+          "All my memories of you ring like tinnitus",
+          "If I stop, it's just pain, please don't rein me in",
+          "Now I'm working myself up to a nice, warm bliss (Working myself)",
+          "All my memories of you ring like tinnitus (My memories of you)",
+          "If I stop, it's just pain, please don't rein me in"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Both, Sam Fender, Olivia Dean",
+        "lines": [
+          "Şimdi kendimi tatlı, sıcacık bir uyuşukluğa sürüklüyorum",
+          "Sana dair tüm anılarım kulak çınlaması gibi uğulduyor",
+          "Durursam geriye sadece acı kalıyor; lütfen beni dizginleme",
+          "Şimdi kendimi tatlı, sıcacık bir uyuşukluğa sürüklüyorum (Kendimi sürüklüyorum)",
+          "Sana dair tüm anılarım kulak çınlaması gibi uğulduyor (Sana dair anılarım)",
+          "Durursam geriye sadece acı kalıyor; lütfen beni dizginleme"
+        ]
+      }
+    ],
+    "excerpt": "I let go of everything I ever had",
+    "annotations": {
+      "The Gunner": "Newcastle'da bilinen yerel bir mekâna yapılan gönderme, şarkının aşk acısını sanatçının büyüdüğü şehrin sokaklarına sabitliyor.",
+      "Ghosts and carcasses": "Geçmiş ilişkilerinin ve eski benliklerinin kalıntıları, şehirdeki her barın içinde karşısına çıkan hayaletler gibi resmediliyor.",
+      "Rein me in": "Bir atın dizginini çekip yavaşlatmak gibi, kontrol altına almak ve durdurmak demek. Anlatıcı acıyı bastırmak için hızlanırken durdurulmak istemiyor.",
+      "Tinnitus": "Kulak çınlaması. Eski sevgiliye dair anılar, susturulamayan ve insanın zihnini sürekli dolduran bir uğultuya dönüşüyor.",
+      "Chewing everyone's lugs off": "Kuzey İngiltere argosunda birinin kulağını düşürecek kadar konuşmak; Türkçedeki “başının etini yemek” ifadesine denk geliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7MZHqgTVTnN6xZGYAcEEAf",
+        "name": "Rein Me In (with Olivia Dean)",
+        "url": "https://open.spotify.com/track/7MZHqgTVTnN6xZGYAcEEAf",
+        "isrc": "GBUM72503308",
+        "durationMs": 339410,
+        "duration": "5:39",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6zlR5ttMfMNmwf2lecU9Cc",
+        "name": "Sam Fender",
+        "url": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6zlR5ttMfMNmwf2lecU9Cc",
+          "name": "Sam Fender",
+          "url": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc"
+        },
+        {
+          "id": "00x1fYSGhdqScXBRpSj3DW",
+          "name": "Olivia Dean",
+          "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW"
+        }
+      ],
+      "album": {
+        "id": "4utNKv9RDTzfIGok0tlOgl",
+        "name": "Rein Me In (with Olivia Dean)",
+        "url": "https://open.spotify.com/album/4utNKv9RDTzfIGok0tlOgl",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+        "artists": [
+          {
+            "id": "6zlR5ttMfMNmwf2lecU9Cc",
+            "name": "Sam Fender",
+            "url": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc"
+          },
+          {
+            "id": "00x1fYSGhdqScXBRpSj3DW",
+            "name": "Olivia Dean",
+            "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW"
+          }
+        ],
+        "releaseDate": "2025-06-20",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2025 Sam Fender, under exclusive licence to Universal Music Operations Limited",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2025 Sam Fender, under exclusive licence to Universal Music Operations Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 2,
+        "tracks": [
+          {
+            "id": "7MZHqgTVTnN6xZGYAcEEAf",
+            "name": "Rein Me In (with Olivia Dean)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 339410,
+            "duration": "5:39",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7MZHqgTVTnN6xZGYAcEEAf",
+            "isCurrent": true
+          },
+          {
+            "id": "4SSMfUpuczTne4lz4G5rHH",
+            "name": "Rein Me In",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 339053,
+            "duration": "5:39",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4SSMfUpuczTne4lz4G5rHH",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:05:26.017Z",
+      "trackUrl": "https://open.spotify.com/track/7MZHqgTVTnN6xZGYAcEEAf",
+      "albumUrl": "https://open.spotify.com/album/4utNKv9RDTzfIGok0tlOgl",
+      "artistUrl": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc",
+      "albumName": "Rein Me In (with Olivia Dean)",
+      "albumType": "EP",
+      "releaseDate": "2025-06-20",
+      "duration": "5:39",
+      "isrc": "GBUM72503308",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121"
+    },
+    "genius": {
+      "url": "https://genius.com/Sam-fender-and-olivia-dean-rein-me-in-lyrics",
+      "songId": 11984662,
+      "description": "“Rein Me In” featuring English singer-songwriter Olivia Dean is a fresh take on the eighth track from Sam Fender’s 2025 album, People Watching. It was released just over four months after the original version, on June 20, 2025.The duet was debuted live on June 6, 2025, during Sam Fender’s headline show at London Stadium (London, United Kingdom). Olivia Dean was one of two support acts at this show.Five days later, at 4pm on June 11, 2025, Sam Fender posted a 15-second snippet of the studio version of the duet to Discord, hinting at its release."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=3triLkS0nq4",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5155",
+    "title": "ANOTR, 54 Ultra Talk To You Türkçe Çeviri",
+    "song": "Talk To You",
+    "slug": "anotr-54-ultra-talk-to-you-turkce-ceviri",
+    "date": "2026-08-03T11:05:23.472Z",
+    "artist": "ANOTR, 54 Ultra",
+    "categories": [
+      "ANOTR",
+      "54 Ultra",
+      "Talk To You (ft. 54 Ultra)"
+    ],
+    "category_slugs": [
+      "anotr",
+      "54-ultra",
+      "talk-to-you-ft-54-ultra"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Let me take you higher, so I can show you love",
+          "It's a place where I am, but it's for both us",
+          "Let's set the world on fire, ooh, you can't get enough",
+          "You got me burning up",
+          "Let me take you higher, so I can show you love",
+          "It's a place where I am, but it's for both us",
+          "Let's set the world on fire, ooh, you can't get enough",
+          "You got me burning up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim",
+          "Benim bulunduğum bir yer burası ama ikimiz için",
+          "Hadi dünyayı ateşe verelim; ooh, sana yetmiyor hiç",
+          "Beni cayır cayır yakıyorsun",
+          "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim",
+          "Benim bulunduğum bir yer burası ama ikimiz için",
+          "Hadi dünyayı ateşe verelim; ooh, sana yetmiyor hiç",
+          "Beni cayır cayır yakıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Let me take you higher"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Seni daha yükseğe çıkarayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse",
+        "lines": [
+          "Let me talk to you",
+          "Show you what love can do",
+          "I wanna see you move",
+          "I know you can feel it too",
+          "Let me talk to you",
+          "Show you what love can do",
+          "I wanna see you move",
+          "I know you can feel it too",
+          "Lеt me talk to you",
+          "Show you what love can do",
+          "I wanna see you move"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse",
+        "lines": [
+          "Bırak konuşayım seninle",
+          "Aşkın neler yapabileceğini göstereyim",
+          "Hareket ettiğini görmek istiyorum",
+          "Senin de bunu hissettiğini biliyorum",
+          "Bırak konuşayım seninle",
+          "Aşkın neler yapabileceğini göstereyim",
+          "Hareket ettiğini görmek istiyorum",
+          "Senin de bunu hissettiğini biliyorum",
+          "Bırak konuşayım seninle",
+          "Aşkın neler yapabileceğini göstereyim",
+          "Hareket ettiğini görmek istiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Lеt me take you higher, so I can show you love",
+          "It's a place where I am, but it's for both us",
+          "Let's set the world on fire, ooh, you can't get enough",
+          "You got me burning up",
+          "Let me take you higher, so I can show you love",
+          "It's a place where I am, but it's for both us",
+          "Let's set the world on fire, ooh, you can't get enough",
+          "You got me burning up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim",
+          "Benim bulunduğum bir yer burası ama ikimiz için",
+          "Hadi dünyayı ateşe verelim; ooh, sana yetmiyor hiç",
+          "Beni cayır cayır yakıyorsun",
+          "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim",
+          "Benim bulunduğum bir yer burası ama ikimiz için",
+          "Hadi dünyayı ateşe verelim; ooh, sana yetmiyor hiç",
+          "Beni cayır cayır yakıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "You got me burning up",
+          "You got me burning up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Beni cayır cayır yakıyorsun",
+          "Beni cayır cayır yakıyorsun"
+        ]
+      }
+    ],
+    "excerpt": "Let me take you higher, so I can show you love",
+    "annotations": {
+      "Take you higher": "Hem dansın ve müziğin coşkusuyla yükselmeyi hem de aşkın insanı başka bir ruh hâline taşımasını anlatıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "0kl6Ozan3fuUdCl6TlB15v",
+        "name": "Talk To You (ft. 54 Ultra)",
+        "url": "https://open.spotify.com/track/0kl6Ozan3fuUdCl6TlB15v",
+        "isrc": "CBEFB2600137",
+        "durationMs": 191076,
+        "duration": "3:11",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4p5WgeiPSPpqPDs7T6OkWf",
+        "name": "ANOTR",
+        "url": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb48b2dcdf9a2e05e01694cc57",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4p5WgeiPSPpqPDs7T6OkWf",
+          "name": "ANOTR",
+          "url": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf"
+        },
+        {
+          "id": "6X5L6rmyvrWWu60Gx6exiZ",
+          "name": "54 Ultra",
+          "url": "https://open.spotify.com/artist/6X5L6rmyvrWWu60Gx6exiZ"
+        }
+      ],
+      "album": {
+        "id": "374Z5kI6lNCztQV7HItzUJ",
+        "name": "Talk To You (ft. 54 Ultra)",
+        "url": "https://open.spotify.com/album/374Z5kI6lNCztQV7HItzUJ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+        "artists": [
+          {
+            "id": "4p5WgeiPSPpqPDs7T6OkWf",
+            "name": "ANOTR",
+            "url": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf"
+          },
+          {
+            "id": "6X5L6rmyvrWWu60Gx6exiZ",
+            "name": "54 Ultra",
+            "url": "https://open.spotify.com/artist/6X5L6rmyvrWWu60Gx6exiZ"
+          }
+        ],
+        "releaseDate": "2026-03-06",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 No Art",
+            "type": "C"
+          },
+          {
+            "text": "2026 No Art",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "0kl6Ozan3fuUdCl6TlB15v",
+            "name": "Talk To You (ft. 54 Ultra)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 191076,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0kl6Ozan3fuUdCl6TlB15v",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:05:18.667Z",
+      "trackUrl": "https://open.spotify.com/track/0kl6Ozan3fuUdCl6TlB15v",
+      "albumUrl": "https://open.spotify.com/album/374Z5kI6lNCztQV7HItzUJ",
+      "artistUrl": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf",
+      "albumName": "Talk To You (ft. 54 Ultra)",
+      "albumType": "Single",
+      "releaseDate": "2026-03-06",
+      "duration": "3:11",
+      "isrc": "CBEFB2600137",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2"
+    },
+    "genius": {
+      "url": "https://genius.com/Anotr-talk-to-you-lyrics",
+      "songId": 13163742,
+      "description": "?"
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5154",
+    "title": "STELLA LEFTY Boston Türkçe Çeviri",
+    "song": "Boston",
+    "slug": "stella-lefty-boston-turkce-ceviri",
+    "date": "2026-08-03T11:05:16.359Z",
+    "artist": "STELLA LEFTY",
+    "categories": [
+      "STELLA LEFTY",
+      "Boston"
+    ],
+    "category_slugs": [
+      "stella-lefty",
+      "boston"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "On a train back to Boston and we're jumpin' the gun",
+          "And I'm tellin' you baby, \"This the part where I'd run\"",
+          "But I like it when you're nice, like it when you're nice to me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz",
+          "Sana diyorum ki bebeğim: “Ben tam burada kaçardım işte”",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Well, there I was",
+          "Swearin' I would never fall in love",
+          "All my inhibitions walked out the second",
+          "You said \"What's up?\"",
+          "So, here we go",
+          "I'm throwin' out the things I used to know",
+          "I hate to admit it but I guess I'm not better alone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "İşte oradaydım",
+          "Bir daha asla âşık olmayacağıma yemin ederken",
+          "Tüm çekincelerim kapıdan çıkıp gitti, tam o anda",
+          "Sen “N'aber?” dedin",
+          "Öyleyse başlıyoruz",
+          "Eskiden bildiğim ne varsa çöpe atıyorum",
+          "Kabul etmekten nefret ediyorum ama sanırım yalnızken daha iyi değilim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "On a train back to Boston and we're jumpin' the gun",
+          "And I'm tellin' you baby, \"This the part wherе I'd run\"",
+          "But I like it when you're nicе, like it when you're nice to me",
+          "I don't know where it's goin' but don't wanna go back",
+          "And usually I'd leave right at the thought of that",
+          "But I like it when you're nice, like it when you're nice to me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz",
+          "Sana diyorum ki bebeğim: “Ben tam burada kaçardım işte”",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum",
+          "Bunun nereye gittiğini bilmiyorum ama geriye dönmek de istemiyorum",
+          "Normalde bunu düşünür düşünmez çekip giderdim",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Wakin' up by your side",
+          "I see it when the mornin' hits your eyes",
+          "You don't want me to leave",
+          "Never knew I would be this along for the ride",
+          "Last month, you were just another someone",
+          "But now, we're headin' back to where you come from"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Yanında uyanıyorum",
+          "Sabah ışığı gözlerine vurduğunda bunu görüyorum",
+          "Gitmemi istemiyorsun",
+          "Bu yolculuğa kendimi böylesine kaptıracağımı hiç bilmezdim",
+          "Geçen ay sen sadece herhangi biriydin",
+          "Ama şimdi senin geldiğin yere doğru dönüyoruz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "On a train back to Boston and we're jumpin' the gun",
+          "And I'm tellin' you baby, \"This the part where I'd run\"",
+          "But I like it when you're nice, like it when you're nice to me",
+          "I don't know where it's goin' but don't wanna go back",
+          "And usually I'd leave right at the thought of that",
+          "But I like it when you're nice, like it when you're nice to me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz",
+          "Sana diyorum ki bebeğim: “Ben tam burada kaçardım işte”",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum",
+          "Bunun nereye gittiğini bilmiyorum ama geriye dönmek de istemiyorum",
+          "Normalde bunu düşünür düşünmez çekip giderdim",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "I like it when you're nice to me",
+          "I like it when you're nice to me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Bana iyi davranman hoşuma gidiyor",
+          "Bana iyi davranman hoşuma gidiyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "On a train back to Boston and we're jumpin' the gun",
+          "And I'm tellin' you baby, \"This the part where I'd run\"",
+          "But I like it when you're nice, like it when you're nice to me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz",
+          "Sana diyorum ki bebeğim: “Ben tam burada kaçardım işte”",
+          "Ama bana iyi davranman hoşuma gidiyor, iyi davranmana bayılıyorum"
+        ]
+      }
+    ],
+    "excerpt": "On a train back to Boston and we're jumpin' the gun",
+    "annotations": {
+      "Jumping the gun": "Sonucu beklemeden aceleyle harekete geçmek. İlişkinin nereye varacağını bilmeden kendilerini çoktan o yolculuğun içine bırakmalarını anlatıyor.",
+      "Along for the ride": "Hem gerçek tren yolculuğunu hem de sonucu belirsiz bu ilişkiye kendini bırakmayı aynı anda anlatan bir ifade."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "36idurZmYRjJ56KQ8JD9bN",
+        "name": "Boston",
+        "url": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+        "isrc": "QZJ842603468",
+        "durationMs": 170859,
+        "duration": "2:51",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6hp2uD84OrQ3u3ukmTjLz2",
+        "name": "STELLA LEFTY",
+        "url": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcbcd28b97defa1ada8c06d6c",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6hp2uD84OrQ3u3ukmTjLz2",
+          "name": "STELLA LEFTY",
+          "url": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2"
+        }
+      ],
+      "album": {
+        "id": "4YLIRb8DdBTXbgHiFLicH2",
+        "name": "Boston",
+        "url": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+        "artists": [
+          {
+            "id": "6hp2uD84OrQ3u3ukmTjLz2",
+            "name": "STELLA LEFTY",
+            "url": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2"
+          }
+        ],
+        "releaseDate": "2026-03-27",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "An Atlantic Outpost Release., © 2026 STELLA LEFTY",
+            "type": "C"
+          },
+          {
+            "text": "An Atlantic Outpost Release., ℗ 2026 STELLA LEFTY",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "36idurZmYRjJ56KQ8JD9bN",
+            "name": "Boston",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 170859,
+            "duration": "2:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+            "isCurrent": true
+          },
+          {
+            "id": "7xwgzQNqCdIWItr7l0MwKo",
+            "name": "Slow Dancin'",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 124001,
+            "duration": "2:04",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7xwgzQNqCdIWItr7l0MwKo",
+            "isCurrent": false
+          },
+          {
+            "id": "1QSgdbDemykjGVIoPqOVcC",
+            "name": "Thinking 'bout You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140586,
+            "duration": "2:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1QSgdbDemykjGVIoPqOVcC",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:07:00.305Z",
+      "trackUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+      "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2",
+      "artistUrl": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2",
+      "albumName": "Boston",
+      "albumType": "EP",
+      "releaseDate": "2026-03-27",
+      "duration": "2:51",
+      "isrc": "QZJ842603468",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f"
+    },
+    "genius": {
+      "url": "https://genius.com/Stella-lefty-boston-lyrics",
+      "songId": 13305110,
+      "description": "“Boston” serves as the viral breakout track from ⁠Stella Lefty’s EP Is This Heaven?. The pop-country song chronicles her real-life romance with fellow country artist ⁠Vincent Mason, capturing the vulnerability of lowering your guard and abandoning your instinct to run when the right person comes along."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5153",
+    "title": "SIENNA SPIRO Great Expectation Türkçe Çeviri",
+    "song": "Great Expectation",
+    "slug": "sienna-spiro-great-expectation-turkce-ceviri",
+    "date": "2026-08-03T11:05:06.547Z",
+    "artist": "SIENNA SPIRO",
+    "categories": [
+      "SIENNA SPIRO",
+      "Visitor"
+    ],
+    "category_slugs": [
+      "sienna-spiro",
+      "visitor"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "In my head, you lay down next to me",
+          "Kiss my lips, hold me carefully",
+          "Say goodbye and feel all the withdrawals",
+          "But it's not the same, in reality",
+          "I say your name, but you don’t get back to me",
+          "Till you got something you need me for"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Zihnimde yanıma uzanıyorsun",
+          "Dudaklarımı öpüyor, beni özenle tutuyorsun",
+          "Veda ediyor ve tüm o yoksunluğu hissediyorsun",
+          "Ama gerçekte hiç de böyle değil",
+          "Adını söylüyorum ama bana dönmüyorsun",
+          "Ta ki benden ihtiyacın olan bir şey çıkana dek"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "So I sing just to know I'm alive",
+          "And I cried all the tears I could cry",
+          "If happiness is just an illusion",
+          "You were the best I ever had",
+          "If you can't be what I want",
+          "And the things you say aren’t true",
+          "All I need is the great expectation of you",
+          "Expectation of you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben de yaşadığımı bilmek için şarkı söylüyorum",
+          "Ağlayabileceğim bütün gözyaşlarını döktüm",
+          "Eğer mutluluk sadece bir yanılsamaysa",
+          "Sen sahip olduğum en güzel şeydin",
+          "Eğer istediğim kişi olamıyorsan",
+          "Ve söylediklerin doğru değilse",
+          "Tek ihtiyacım, sana dair o büyük beklenti",
+          "Sana dair o beklenti..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "The tracks of my tears go back for years",
+          "When I was young, I've always had the fears onе would leave",
+          "So I held on so long (So long, so long)",
+          "But to еach their own, you come and go a lot",
+          "It's black and white, but I go back and change the plot",
+          "Just to have ya in the way I want"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Gözyaşlarımın izleri yıllar öncesine uzanıyor",
+          "Çocukluğumdan beri hep birinin gideceğinden korktum",
+          "Bu yüzden çok uzun süre tutundum (Çok uzun, çok uzun)",
+          "Ama herkesin yolu kendine; sen sık sık gelip gidiyorsun",
+          "Her şey siyah ve beyaz ama ben dönüp hikâyeyi değiştiriyorum",
+          "Sırf seni istediğim hâlinle yanımda tutabilmek için"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "So I sing just to know I'm alive (I sing so long)",
+          "And I cried all the tears I could cry (I cried for you)",
+          "If happiness is just an illusion",
+          "You were the best I ever had",
+          "If you can't be what I want (Be what I want)",
+          "And the things you say aren't true (Not true, not true)",
+          "All I need is the great expectation of you, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben de yaşadığımı bilmek için şarkı söylüyorum (Öyle uzun söylüyorum)",
+          "Ağlayabileceğim bütün gözyaşlarını döktüm (Senin için ağladım)",
+          "Eğer mutluluk sadece bir yanılsamaysa",
+          "Sen sahip olduğum en güzel şeydin",
+          "Eğer istediğim kişi olamıyorsan (İstediğim kişi)",
+          "Ve söylediklerin doğru değilse (Doğru değil, doğru değil)",
+          "Tek ihtiyacım, sana dair o büyük beklenti, oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Cry my tears and let 'em dry (Mm, expectation of you)",
+          "Cry my tears and testify",
+          "You exist inside my mind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Gözyaşlarımı döküp kurumalarına izin veriyorum (Mm, sana dair beklenti)",
+          "Gözyaşlarımı döküp gerçeğe tanıklık ediyorum",
+          "Sen yalnızca zihnimin içinde varsın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You, so, so I sing just to know I'm alive",
+          "And I cried all the tears I could cry (I cried for you)",
+          "If happiness is just an illusion",
+          "You were the best I ever had (Best I had)",
+          "If you can’t be what I want (Be what I want)",
+          "And the things you say aren’t true (Not true, not true)",
+          "All I need is the great expectation of you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen... Ben de yaşadığımı bilmek için şarkı söylüyorum",
+          "Ağlayabileceğim bütün gözyaşlarını döktüm (Senin için ağladım)",
+          "Eğer mutluluk sadece bir yanılsamaysa",
+          "Sen sahip olduğum en güzel şeydin (En güzel şey)",
+          "Eğer istediğim kişi olamıyorsan (İstediğim kişi)",
+          "Ve söylediklerin doğru değilse (Doğru değil, doğru değil)",
+          "Tek ihtiyacım, sana dair o büyük beklenti"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "All I need is",
+          "All I need is you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Tek ihtiyacım...",
+          "Tek ihtiyacım sensin"
+        ]
+      }
+    ],
+    "excerpt": "In my head, you lay down next to me",
+    "annotations": {
+      "Great expectation": "Karşısındaki kişinin gerçekte sunduğu sevgiden çok, bir gün dönüşebileceği kişiye ve ilişkinin ihtimaline tutunmayı anlatıyor.",
+      "Tracks of my tears": "Yüzde kalan gözyaşı izlerini geçmişe uzanan tren rayları gibi kullanıyor; bugünkü terk edilme korkusunu çocukluğuna bağlıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7ujApz6iFP3PmKIDGcaGbe",
+        "name": "Great Expectation",
+        "url": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
+        "isrc": "USUG12603505",
+        "durationMs": 173975,
+        "duration": "2:54",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "02gSuSAWEdWa5UOvqzjX6v",
+        "name": "SIENNA SPIRO",
+        "url": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebfb0ab819bbd4502028cd1feb",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "02gSuSAWEdWa5UOvqzjX6v",
+          "name": "SIENNA SPIRO",
+          "url": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v"
+        }
+      ],
+      "album": {
+        "id": "1Aye7tEOHfJ3hDJIeJFggF",
+        "name": "Visitor",
+        "url": "https://open.spotify.com/album/1Aye7tEOHfJ3hDJIeJFggF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+        "artists": [
+          {
+            "id": "02gSuSAWEdWa5UOvqzjX6v",
+            "name": "SIENNA SPIRO",
+            "url": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v"
+          }
+        ],
+        "releaseDate": "2026-07-02",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Sienna Spiro, under exclusive license to UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Sienna Spiro, under exclusive license to UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "2JhXnuA0t4gnGa41bE30p8",
+            "name": "This Is My House",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 204732,
+            "duration": "3:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2JhXnuA0t4gnGa41bE30p8",
+            "isCurrent": false
+          },
+          {
+            "id": "6H5jM1w0NQaHEQq7UDLlaW",
+            "name": "We’re Not In Love",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 179561,
+            "duration": "3:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6H5jM1w0NQaHEQq7UDLlaW",
+            "isCurrent": false
+          },
+          {
+            "id": "7ujApz6iFP3PmKIDGcaGbe",
+            "name": "Great Expectation",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 173975,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
+            "isCurrent": true
+          },
+          {
+            "id": "7gkZNvBHfI30qG7hA0eopT",
+            "name": "Die On This Hill",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 217008,
+            "duration": "3:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7gkZNvBHfI30qG7hA0eopT",
+            "isCurrent": false
+          },
+          {
+            "id": "7b7lOKaExY2zqFdOzIAiuJ",
+            "name": "He’s Not My Baby, I’m His",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 159975,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7b7lOKaExY2zqFdOzIAiuJ",
+            "isCurrent": false
+          },
+          {
+            "id": "31IKMjvv6Oskp4hjGVeYsT",
+            "name": "Pure",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 219924,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/31IKMjvv6Oskp4hjGVeYsT",
+            "isCurrent": false
+          },
+          {
+            "id": "4wfIW1OLIqejwmBYG1LhCl",
+            "name": "The Visitor",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 228908,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4wfIW1OLIqejwmBYG1LhCl",
+            "isCurrent": false
+          },
+          {
+            "id": "1lvBK83WkwHsfdsRCtygsI",
+            "name": "Time, You & Me",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 210427,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1lvBK83WkwHsfdsRCtygsI",
+            "isCurrent": false
+          },
+          {
+            "id": "4elZ15vfcAwmlt8hQTxW4v",
+            "name": "You Stole The Show",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 207191,
+            "duration": "3:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4elZ15vfcAwmlt8hQTxW4v",
+            "isCurrent": false
+          },
+          {
+            "id": "2FPhBLrCm34DPZhyKS4mAl",
+            "name": "Mono No Aware",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 195408,
+            "duration": "3:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2FPhBLrCm34DPZhyKS4mAl",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:05:01.535Z",
+      "trackUrl": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
+      "albumUrl": "https://open.spotify.com/album/1Aye7tEOHfJ3hDJIeJFggF",
+      "artistUrl": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v",
+      "albumName": "Visitor",
+      "albumType": "Album",
+      "releaseDate": "2026-07-02",
+      "duration": "2:54",
+      "isrc": "USUG12603505",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b"
+    },
+    "genius": {
+      "url": "https://genius.com/Sienna-spiro-great-expectation-lyrics",
+      "songId": 13577228,
+      "description": "“Great Expectation” originated from a period when SIENNA SPIRO was living in New York and talking to someone who repeatedly promised to visit. She began imagining that they might be waiting outside her apartment, mentally rehearsing everything that could happen if they finally appeared, yet they never came.What began as a specific romantic disappointment eventually became a broader meditation on expectation: how hope can offer temporary comfort while quietly delaying our acceptance of reality. Spiro explained the song’s inspiration to Apple Music.Musically, the soulful ballad grows from melancholy piano into a swaying full-band arrangement accented by orchestral flourishes and a soaring chorus. That expansion mirrors the song’s emotional conflict: Spiro understands that the relationship is unreliable, but her imagination continues enlarging it into something meaningful.Rather than neatly resolving that contradiction, “Great Expectation” captures the painfully human experience of recognizing that someone cannot give you what you need while remaining attached to the future you created with them. The song’s arrangement was described in its release coverage."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
     "id": "5152",
     "title": "Taylor Swift august Türkçe Çeviri",
     "song": "august",

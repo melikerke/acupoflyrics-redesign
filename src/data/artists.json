@@ -320,7 +320,7 @@
   {
     "slug": "taylor-swift",
     "name": "Taylor Swift",
-    "count": 6,
+    "count": 7,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "slug": "olivia-dean",
     "name": "Olivia Dean",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1"
   },
   {
@@ -1846,5 +1846,35 @@
     "name": "Red Velvet",
     "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629"
+  },
+  {
+    "slug": "sienna-spiro",
+    "name": "SIENNA SPIRO",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb0ab819bbd4502028cd1feb"
+  },
+  {
+    "slug": "stella-lefty",
+    "name": "STELLA LEFTY",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcbcd28b97defa1ada8c06d6c"
+  },
+  {
+    "slug": "anotr",
+    "name": "ANOTR",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb48b2dcdf9a2e05e01694cc57"
+  },
+  {
+    "slug": "54-ultra",
+    "name": "54 Ultra",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "sam-fender",
+    "name": "Sam Fender",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8"
   }
 ]

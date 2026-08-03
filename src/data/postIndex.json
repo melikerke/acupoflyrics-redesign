@@ -1,5 +1,370 @@
 [
   {
+    "id": "5157",
+    "slug": "taylor-swift-i-knew-it-i-knew-you-turkce-ceviri",
+    "title": "Taylor Swift I Knew It, I Knew You Türkçe Çeviri",
+    "song": "I Knew It, I Knew You",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+    "date": "2026-08-03T11:06:19.585Z",
+    "reading_time": 3,
+    "excerpt": "I knew you through the daze of the blades of the grass in summer",
+    "categories": [
+      "Taylor Swift",
+      "I Knew It, I Knew You (From \"Toy Story 5\")"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "i-knew-it-i-knew-you-from-toy-story-5"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+      "albumUrl": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "I Knew It, I Knew You (From \"Toy Story 5\")",
+      "releaseDate": "2026-06-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+      "duration": "2:58",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5uPaqMMt59KGrdKIitDRqa",
+        "isrc": "USWD12641055",
+        "duration": "2:58",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
+      },
+      "album": {
+        "name": "I Knew It, I Knew You (From \"Toy Story 5\")",
+        "url": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
+        "artists": [
+          {
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-06-05",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Daze / blades": "“Daze” gençliğin puslu, rüya gibi günlerini; “blades of grass” ise çimen yapraklarını anlatıyor. İki görüntü, yaz çocukluğunun bulanık ama canlı hatırasını kuruyor.",
+      "I knew it, I knew you": "Başlık iki ayrı fark edişi birleştiriyor: “Bunu biliyordum” ve “Seni tanıyordum.” Eski bir bağın, yıllar sonra bile yabancılaşmadığını anlatıyor.",
+      "Mood ring": "Ruh hâline göre renk değiştirdiğine inanılan yüzük. Karşısındaki kişinin hüznünün ve duygularının sürekli değişmesini anlatan nostaljik bir imge."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I knew you through the daze of the blades of the grass in summer",
+      "tr": "Seni yazın çimen bıçaklarının arasındaki o puslu günlerden tanırdım"
+    },
+    "heroPair": {
+      "en": "But I knew it, I knew you",
+      "tr": "Ama biliyordum; seni tanıyordum"
+    }
+  },
+  {
+    "id": "5156",
+    "slug": "sam-fender-olivia-dean-rein-me-in-turkce-ceviri",
+    "title": "Sam Fender, Olivia Dean Rein Me In Türkçe Çeviri",
+    "song": "Rein Me In",
+    "artist": "Sam Fender, Olivia Dean",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+    "date": "2026-08-03T11:05:34.373Z",
+    "reading_time": 3,
+    "excerpt": "I let go of everything I ever had",
+    "categories": [
+      "Sam Fender",
+      "Olivia Dean",
+      "Rein Me In (with Olivia Dean)"
+    ],
+    "category_slugs": [
+      "sam-fender",
+      "olivia-dean",
+      "rein-me-in-with-olivia-dean"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7MZHqgTVTnN6xZGYAcEEAf",
+      "albumUrl": "https://open.spotify.com/album/4utNKv9RDTzfIGok0tlOgl",
+      "artistUrl": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc",
+      "albumName": "Rein Me In (with Olivia Dean)",
+      "releaseDate": "2025-06-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+      "duration": "5:39",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7MZHqgTVTnN6xZGYAcEEAf",
+        "isrc": "GBUM72503308",
+        "duration": "5:39",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Sam Fender",
+        "url": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8"
+      },
+      "album": {
+        "name": "Rein Me In (with Olivia Dean)",
+        "url": "https://open.spotify.com/album/4utNKv9RDTzfIGok0tlOgl",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+        "artists": [
+          {
+            "name": "Sam Fender",
+            "url": "https://open.spotify.com/artist/6zlR5ttMfMNmwf2lecU9Cc"
+          },
+          {
+            "name": "Olivia Dean",
+            "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW"
+          }
+        ],
+        "releaseDate": "2025-06-20",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=3triLkS0nq4",
+    "annotations": {
+      "The Gunner": "Newcastle'da bilinen yerel bir mekâna yapılan gönderme, şarkının aşk acısını sanatçının büyüdüğü şehrin sokaklarına sabitliyor.",
+      "Ghosts and carcasses": "Geçmiş ilişkilerinin ve eski benliklerinin kalıntıları, şehirdeki her barın içinde karşısına çıkan hayaletler gibi resmediliyor.",
+      "Rein me in": "Bir atın dizginini çekip yavaşlatmak gibi, kontrol altına almak ve durdurmak demek. Anlatıcı acıyı bastırmak için hızlanırken durdurulmak istemiyor.",
+      "Tinnitus": "Kulak çınlaması. Eski sevgiliye dair anılar, susturulamayan ve insanın zihnini sürekli dolduran bir uğultuya dönüşüyor.",
+      "Chewing everyone's lugs off": "Kuzey İngiltere argosunda birinin kulağını düşürecek kadar konuşmak; Türkçedeki “başının etini yemek” ifadesine denk geliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I let go of everything I ever had",
+      "tr": "Sahip olduğum ne varsa hepsini bıraktım"
+    },
+    "heroPair": {
+      "en": "So pleasе don't rein me in",
+      "tr": "O yüzden lütfen beni dizginleme"
+    }
+  },
+  {
+    "id": "5155",
+    "slug": "anotr-54-ultra-talk-to-you-turkce-ceviri",
+    "title": "ANOTR, 54 Ultra Talk To You Türkçe Çeviri",
+    "song": "Talk To You",
+    "artist": "ANOTR, 54 Ultra",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+    "date": "2026-08-03T11:05:23.472Z",
+    "reading_time": 2,
+    "excerpt": "Let me take you higher, so I can show you love",
+    "categories": [
+      "ANOTR",
+      "54 Ultra",
+      "Talk To You (ft. 54 Ultra)"
+    ],
+    "category_slugs": [
+      "anotr",
+      "54-ultra",
+      "talk-to-you-ft-54-ultra"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0kl6Ozan3fuUdCl6TlB15v",
+      "albumUrl": "https://open.spotify.com/album/374Z5kI6lNCztQV7HItzUJ",
+      "artistUrl": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf",
+      "albumName": "Talk To You (ft. 54 Ultra)",
+      "releaseDate": "2026-03-06",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+      "duration": "3:11",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/0kl6Ozan3fuUdCl6TlB15v",
+        "isrc": "CBEFB2600137",
+        "duration": "3:11",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "ANOTR",
+        "url": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb48b2dcdf9a2e05e01694cc57"
+      },
+      "album": {
+        "name": "Talk To You (ft. 54 Ultra)",
+        "url": "https://open.spotify.com/album/374Z5kI6lNCztQV7HItzUJ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+        "artists": [
+          {
+            "name": "ANOTR",
+            "url": "https://open.spotify.com/artist/4p5WgeiPSPpqPDs7T6OkWf"
+          },
+          {
+            "name": "54 Ultra",
+            "url": "https://open.spotify.com/artist/6X5L6rmyvrWWu60Gx6exiZ"
+          }
+        ],
+        "releaseDate": "2026-03-06",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Take you higher": "Hem dansın ve müziğin coşkusuyla yükselmeyi hem de aşkın insanı başka bir ruh hâline taşımasını anlatıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Let me take you higher, so I can show you love",
+      "tr": "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim"
+    },
+    "heroPair": {
+      "en": "Let me talk to you",
+      "tr": "Bırak konuşayım seninle"
+    }
+  },
+  {
+    "id": "5154",
+    "slug": "stella-lefty-boston-turkce-ceviri",
+    "title": "STELLA LEFTY Boston Türkçe Çeviri",
+    "song": "Boston",
+    "artist": "STELLA LEFTY",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+    "date": "2026-08-03T11:05:16.359Z",
+    "reading_time": 3,
+    "excerpt": "On a train back to Boston and we're jumpin' the gun",
+    "categories": [
+      "STELLA LEFTY",
+      "Boston"
+    ],
+    "category_slugs": [
+      "stella-lefty",
+      "boston"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+      "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2",
+      "artistUrl": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2",
+      "albumName": "Boston",
+      "releaseDate": "2026-03-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+      "duration": "2:51",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+        "isrc": "QZJ842603468",
+        "duration": "2:51",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "STELLA LEFTY",
+        "url": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcbcd28b97defa1ada8c06d6c"
+      },
+      "album": {
+        "name": "Boston",
+        "url": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+        "artists": [
+          {
+            "name": "STELLA LEFTY",
+            "url": "https://open.spotify.com/artist/6hp2uD84OrQ3u3ukmTjLz2"
+          }
+        ],
+        "releaseDate": "2026-03-27",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Jumping the gun": "Sonucu beklemeden aceleyle harekete geçmek. İlişkinin nereye varacağını bilmeden kendilerini çoktan o yolculuğun içine bırakmalarını anlatıyor.",
+      "Along for the ride": "Hem gerçek tren yolculuğunu hem de sonucu belirsiz bu ilişkiye kendini bırakmayı aynı anda anlatan bir ifade."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "On a train back to Boston and we're jumpin' the gun",
+      "tr": "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz"
+    },
+    "heroPair": {
+      "en": "On a train back to Boston and we're jumpin' the gun",
+      "tr": "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz"
+    }
+  },
+  {
+    "id": "5153",
+    "slug": "sienna-spiro-great-expectation-turkce-ceviri",
+    "title": "SIENNA SPIRO Great Expectation Türkçe Çeviri",
+    "song": "Great Expectation",
+    "artist": "SIENNA SPIRO",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+    "date": "2026-08-03T11:05:06.547Z",
+    "reading_time": 3,
+    "excerpt": "In my head, you lay down next to me",
+    "categories": [
+      "SIENNA SPIRO",
+      "Visitor"
+    ],
+    "category_slugs": [
+      "sienna-spiro",
+      "visitor"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
+      "albumUrl": "https://open.spotify.com/album/1Aye7tEOHfJ3hDJIeJFggF",
+      "artistUrl": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v",
+      "albumName": "Visitor",
+      "releaseDate": "2026-07-02",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+      "duration": "2:54",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
+        "isrc": "USUG12603505",
+        "duration": "2:54",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "SIENNA SPIRO",
+        "url": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebfb0ab819bbd4502028cd1feb"
+      },
+      "album": {
+        "name": "Visitor",
+        "url": "https://open.spotify.com/album/1Aye7tEOHfJ3hDJIeJFggF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b09eea420767969b6729962b",
+        "artists": [
+          {
+            "name": "SIENNA SPIRO",
+            "url": "https://open.spotify.com/artist/02gSuSAWEdWa5UOvqzjX6v"
+          }
+        ],
+        "releaseDate": "2026-07-02",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "Great expectation": "Karşısındaki kişinin gerçekte sunduğu sevgiden çok, bir gün dönüşebileceği kişiye ve ilişkinin ihtimaline tutunmayı anlatıyor.",
+      "Tracks of my tears": "Yüzde kalan gözyaşı izlerini geçmişe uzanan tren rayları gibi kullanıyor; bugünkü terk edilme korkusunu çocukluğuna bağlıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "In my head, you lay down next to me",
+      "tr": "Zihnimde yanıma uzanıyorsun"
+    },
+    "heroPair": {
+      "en": "All I need is the great expectation of you",
+      "tr": "Tek ihtiyacım, sana dair o büyük beklenti"
+    }
+  },
+  {
     "id": "5152",
     "slug": "taylor-swift-august-turkce-ceviri",
     "title": "Taylor Swift august Türkçe Çeviri",
