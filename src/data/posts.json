@@ -1,5 +1,479 @@
 [
   {
+    "id": "5146",
+    "title": "BABYMONSTER MOON Türkçe Çeviri",
+    "song": "MOON",
+    "slug": "babymonster-moon-turkce-ceviri",
+    "date": "2026-08-03T06:47:32.796Z",
+    "artist": "BABYMONSTER",
+    "categories": [
+      "BABYMONSTER",
+      "춤 (CHOOM)"
+    ],
+    "category_slugs": [
+      "babymonster",
+      "choom"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I shine so bright in the gloom",
+          "I'm the moon, I'm the moon, I'm the moon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Karanlığın ortasında ışıl ışıl parlıyorum",
+          "Ben ayım, ben ayım, ben ayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Fog thickens",
+          "Night vision",
+          "Where we gonna end up is unwritten",
+          "Grave digger",
+          "Go figure",
+          "But if you're killing my mood",
+          "Good riddance",
+          "Ice in my veins",
+          "You're gonna need to keep up with the pace",
+          "Deo ppalli deo nopi",
+          "When you, when you, when you at the crack of dawn",
+          "You keep on raving on",
+          "You keep on raving on, uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Sis koyulaşıyor",
+          "Gece görüşüm açık",
+          "Nereye varacağımız daha yazılmadı",
+          "Mezar kazıcı",
+          "Sen düşün artık",
+          "Ama keyfimi kaçırıyorsan",
+          "Güle güle",
+          "Damarlarımda buz var",
+          "Bu tempoya ayak uydurman gerekecek",
+          "Daha hızlı, daha yüksek",
+          "Sen, sen, sen; gün ağarırken bile",
+          "Coşmaya devam ediyorsun",
+          "Durmadan coşuyorsun, uh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kkaman bam bichina",
+          "Jinjjaga natana",
+          "Sesangeul bultaewora",
+          "(Baby, do you see me now?)",
+          "Geoura, geoura",
+          "Malhaebwa, aljanha",
+          "In your heart, leave a mark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kapkaranlık gecede ışığım yanıyor",
+          "İşte gerçek olan çıkıp geliyor",
+          "Yak bütün dünyayı",
+          "(Bebeğim, şimdi görüyor musun beni?)",
+          "Ayna, ayna",
+          "Söyle hadi, biliyorsun",
+          "Kalbinde bir iz bırak"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I'm the queen of the tide and the youth",
+          "I'm the moon, I'm the moon, I'm the moon",
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I'm the queen of the tide and the youth",
+          "I'm the moon, I'm the moon, I'm the moon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Gelgitlerin ve gençliğin kraliçesiyim",
+          "Ben ayım, ben ayım, ben ayım",
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Gelgitlerin ve gençliğin kraliçesiyim",
+          "Ben ayım, ben ayım, ben ayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Charismatic, energetic",
+          "It's a habit",
+          "Oh, she stuntin', she stuntin'",
+          "I'm in a spaceship coupe",
+          "We 'bout to take off (Ooh)",
+          "Leave 'em in the dust",
+          "Yeah, see you later (Yeah)",
+          "Outta this world",
+          "I'm off the radar (Radar)",
+          "You wish on a star (Star)",
+          "That you had these bars",
+          "I, whoosh",
+          "Gettin' that ah",
+          "When we go strut in like, woah",
+          "Setting on hot",
+          "That's what we got",
+          "That's how we baking that dough",
+          "Lock and we load",
+          "Shoot for the stars",
+          "We in the sky",
+          "Raising the bar",
+          "Eyes on the prize",
+          "Shining my light",
+          "Ready, get set",
+          "S-O-S when I flex"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Karizmatik, enerjik",
+          "Bu artık bir alışkanlık",
+          "Oh, yine havasını atıyor, şovunu yapıyor",
+          "Uzay gemisi gibi bir coupe'nin içindeyim",
+          "Kalkışa geçmek üzereyiz (Ooh)",
+          "Onları tozun içinde bırak",
+          "Evet, sonra görüşürüz (Evet)",
+          "Bu dünyanın dışındayım",
+          "Radardan çıktım (Radar)",
+          "Bir yıldıza dilek tutuyorsun (Yıldız)",
+          "Keşke bu rap dizeleri sende olsaydı",
+          "Ben, vınn",
+          "Topluyorum o “ah”ları",
+          "Salına salına içeri girdiğimizde: woah",
+          "Ortamı harlıyoruz",
+          "Elimizdeki ateş bu",
+          "Parayı da böyle büyütüyoruz",
+          "Kur ve doldur",
+          "Hedefimiz yıldızlar",
+          "Gökyüzündeyiz",
+          "Çıtayı yükseltiyoruz",
+          "Gözüm ödülde",
+          "Işığımı saçıyorum",
+          "Hazır, ol, başla",
+          "Gücümü gösterdiğim an: S-O-S"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kkaman bam bichina",
+          "Jinjjaga natana",
+          "Sesangeul bultaewora",
+          "(Baby, do you see me now?)",
+          "Geoura, geoura",
+          "Malhaebwa, aljanha",
+          "In your heart, leave a mark"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kapkaranlık gecede ışığım yanıyor",
+          "İşte gerçek olan çıkıp geliyor",
+          "Yak bütün dünyayı",
+          "(Bebeğim, şimdi görüyor musun beni?)",
+          "Ayna, ayna",
+          "Söyle hadi, biliyorsun",
+          "Kalbinde bir iz bırak"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I'm the queen of the tide and the youth",
+          "I'm the moon, I'm the moon, I'm the moon",
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I'm the queen of the tide and the youth",
+          "I'm the moon, I'm the moon, I'm the moon",
+          "I'm the moon",
+          "Boreumdal tteuneun bam, on the loose",
+          "Zalabim zalabam zalaboom",
+          "I'm the queen of the tide and the youth",
+          "I'm the moon, I'm the moon, I'm the moon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Gelgitlerin ve gençliğin kraliçesiyim",
+          "Ben ayım, ben ayım, ben ayım",
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Gelgitlerin ve gençliğin kraliçesiyim",
+          "Ben ayım, ben ayım, ben ayım",
+          "Ben ayım",
+          "Dolunayın yükseldiği gece, zincirlerimden boşandım",
+          "Zalabim zalabam zalaboom",
+          "Gelgitlerin ve gençliğin kraliçesiyim",
+          "Ben ayım, ben ayım, ben ayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Haneureul bwa",
+          "We gonna shine bright",
+          "Nae gireul ga",
+          "Baby, it's our time",
+          "If you wanna ride",
+          "If you wanna ride",
+          "If you wanna ride",
+          "If you wanna ride, let's ride",
+          "Give 'em all in",
+          "Give 'em all out",
+          "Give 'em all a show",
+          "(Ride, let's ride)",
+          "Give 'em all in",
+          "Give 'em all out",
+          "Give 'em all that, woah",
+          "Baby, I'ma glow",
+          "It's about to blow",
+          "They don't even know"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Gökyüzüne bak",
+          "Işıl ışıl parlayacağız",
+          "Kendi yolumdan gidiyorum",
+          "Bebeğim, bu bizim zamanımız",
+          "Bizimle gelmek istiyorsan",
+          "Bizimle gelmek istiyorsan",
+          "Bizimle gelmek istiyorsan",
+          "Bizimle gelmek istiyorsan, hadi sür",
+          "Her şeylerini ortaya döksünler",
+          "İçlerinde ne varsa çıkarsınlar",
+          "Onlara tam bir gösteri sun",
+          "(Sür, hadi sür)",
+          "Her şeylerini ortaya döksünler",
+          "İçlerinde ne varsa çıkarsınlar",
+          "Hepsini versinler, woah",
+          "Bebeğim, parlayacağım",
+          "Ortalık patlamak üzere",
+          "Daha haberleri bile yok"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Outta this world, we be taking off, get in",
+          "Look at me, I'ma need your attention",
+          "Hut, one, two, hut, one, two, three",
+          "All eyes, all eyes on me",
+          "Outta this world, we be taking off, get in",
+          "Look at me, I'ma need your attention",
+          "Hut, one, two, hut, one, two, three",
+          "All eyes, all eyes on me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Bu dünyanın dışına çıkıyoruz; kalkış başlıyor, bin hadi",
+          "Bana bak, bütün dikkatini istiyorum",
+          "Hut, bir, iki; hut, bir, iki, üç",
+          "Bütün gözler, bütün gözler üzerimde",
+          "Bu dünyanın dışına çıkıyoruz; kalkış başlıyor, bin hadi",
+          "Bana bak, bütün dikkatini istiyorum",
+          "Hut, bir, iki; hut, bir, iki, üç",
+          "Bütün gözler, bütün gözler üzerimde"
+        ]
+      }
+    ],
+    "excerpt": "I'm the moon",
+    "annotations": {
+      "Gelgitlerin kraliçesi": "Ayın gelgitleri yöneten çekim gücünü, grubun sahnedeki kontrolüyle birleştiriyor. “Gençliğin kraliçesi” ise BABYMONSTER'ın yeni kuşağın öncüsü olma iddiasını taşıyor.",
+      "Bars / dough": "“Bars” rap dizelerini ve flow'u anlatıyor. “Dough” ise hem hamur hem para demek; parayı “pişirip büyütme” kelime oyunuyla grubun yükselişine bağlanıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4ni36cZOQZldZGpHyLHFqX",
+        "name": "MOON",
+        "url": "https://open.spotify.com/track/4ni36cZOQZldZGpHyLHFqX",
+        "isrc": "KRA402600025",
+        "durationMs": 166040,
+        "duration": "2:46",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1SIocsqdEefUTE6XKGUiVS",
+        "name": "BABYMONSTER",
+        "url": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1SIocsqdEefUTE6XKGUiVS",
+          "name": "BABYMONSTER",
+          "url": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+        }
+      ],
+      "album": {
+        "id": "1VmMG3mtIWHWm618Cwiku7",
+        "name": "춤 (CHOOM)",
+        "url": "https://open.spotify.com/album/1VmMG3mtIWHWm618Cwiku7",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee",
+        "artists": [
+          {
+            "id": "1SIocsqdEefUTE6XKGUiVS",
+            "name": "BABYMONSTER",
+            "url": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+          }
+        ],
+        "releaseDate": "2026-05-04",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 YG Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 YG Entertainment, under license to YG PLUS",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 4,
+        "tracks": [
+          {
+            "id": "4ni36cZOQZldZGpHyLHFqX",
+            "name": "MOON",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 166040,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4ni36cZOQZldZGpHyLHFqX",
+            "isCurrent": true
+          },
+          {
+            "id": "4cox7ONwuCwUvfZ9fsGDVu",
+            "name": "CHOOM",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 178880,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4cox7ONwuCwUvfZ9fsGDVu",
+            "isCurrent": false
+          },
+          {
+            "id": "7vKgGaEDN3shr8HBlCbIWg",
+            "name": "I LIKE IT",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 206586,
+            "duration": "3:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7vKgGaEDN3shr8HBlCbIWg",
+            "isCurrent": false
+          },
+          {
+            "id": "1vvoCAUWVRBjCarEvB6Khd",
+            "name": "LOCKED IN",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 181813,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1vvoCAUWVRBjCarEvB6Khd",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T06:47:30.954Z",
+      "trackUrl": "https://open.spotify.com/track/4ni36cZOQZldZGpHyLHFqX",
+      "albumUrl": "https://open.spotify.com/album/1VmMG3mtIWHWm618Cwiku7",
+      "artistUrl": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS",
+      "albumName": "춤 (CHOOM)",
+      "albumType": "EP",
+      "releaseDate": "2026-05-04",
+      "duration": "2:46",
+      "isrc": "KRA402600025",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730fbcc1d9dc6a647af4ebdfee"
+    },
+    "genius": {
+      "url": "https://genius.com/Babymonster-moon-lyrics",
+      "songId": 13425959,
+      "description": "“MOON” is the opening track from BABYMONSTER’s third mini-album, [CHOOM], released on May 4, 2026, by YG Entertainment. As a standout b-side on the EP, this track is described by member Rora as having a dreamy and mysterious charm designed for calm moods, such as listening at dawn, while showcasing the group’s distinct vocal colors. Musically, “MOON” is characterized as a sophisticated hip-hop track featuring unique sound design, marking a collaborative effort between international producers including Oskar Widén, Oliver Ländin, Jonna Hall, Lova Sönnerbo and Malaynah. Lyrically, the song conveys themes of self-confidence and ambition, using the metaphor of the moon shining brightly in the gloom to represent a radiant, unapologetic identity. It is noted for its strong production and atmospheric, moody vibes, contributing to the album’s overall focus on dance-oriented hip-hop and R&B."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=xXZwZ0DolJc",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5145",
     "title": "Davido, Llona My Light Türkçe Çeviri",
     "song": "My Light",
