@@ -1,5 +1,324 @@
 export const popGundemiArticles = [
   {
+    slug: "ariana-grande-turne-sonrasi-ara-veriyor",
+    title: "Ariana Grande neden ara veriyor? Turne sonrası görünürlük molası ve iptal edilen Londra müzikali",
+    shortTitle: "Ariana Grande turne sonrası ara veriyor",
+    kicker: "Pop gündemi",
+    date: "2026-08-03",
+    updatedAt: "2026-08-03T15:05:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+    imageAlt: "Ariana Grande'nin petal albüm kapağı",
+    imageCredit: "Ariana Grande · Republic Records",
+    accent: "#d99b93",
+    artistSlug: "ariana-grande",
+    artistName: "Ariana Grande",
+    excerpt:
+      "Ariana Grande, Eternal Sunshine Tour bittikten sonra göz önünden çekilecek ve 2027'deki Londra müzikalinde yer almayacak. Bu bir müziği bırakma haberi değil; sınır koyma kararı.",
+    dek:
+      "petal daha üç günlükken gelen bu haber ilk bakışta ürkütücü duruyor. Fakat eldeki açıklama gayet net: Ariana üretime veda etmiyor, yoğun turnenin ardından kamusal görünürlüğüne ara veriyor.",
+    livePanel: {
+      label: "3 Ağustos 2026 itibarıyla",
+      title: "Ne biliyoruz?",
+      items: [
+        { label: "Kesinleşen", text: "Ariana, Eternal Sunshine Tour'un ardından görünürlük açısından geri çekilecek." },
+        { label: "İptal edilen proje", text: "Jonathan Bailey ile başrolü paylaşacağı Sunday in the Park with George müzikalinden ayrıldı." },
+        { label: "Bu ne değil?", text: "Müziği bıraktığına ya da kariyerini sonlandırdığına dair bir açıklama yok." },
+      ],
+    },
+    summary: [
+      "Ariana Grande'nin temsilcisi, şarkıcının turneyi sağlıklı ve mutlu tamamlamaya odaklandığını; ardından hak ettiği bir mola vereceğini açıkladı.",
+      "2027'de Londra'daki Barbican Theatre'da sahnelenmesi planlanan Sunday in the Park with George kadrosundan çekildi.",
+      "Karar, 31 Temmuz'da yayımlanan sekizinci albümü petal'ın hemen ardından geldi.",
+      "Bu gelişmeyi emeklilik ya da müzikten kopuş diye okumak için elimizde hiçbir doğrulanmış bilgi yok.",
+    ],
+    sections: [
+      {
+        heading: "Önce en önemli şeyi söyleyelim: Ariana müziği bırakmıyor",
+        body: [
+          "Başlıklar peş peşe gelince insanın aklı doğal olarak en kötü yere gidiyor: Yeni albüm çıktı, büyük bir tiyatro projesi iptal oldu, ardından 'göz önünden çekilme' cümlesi geldi. Ama doğrulanan açıklama bir kariyer vedası değil. Ariana Grande, Eternal Sunshine Tour bittikten sonra kamusal görünürlüğünü azaltacak ve dinlenecek.",
+          "Temsilcisinin aktardığına göre şu anki öncelik turneyi sağlıklı ve mutlu biçimde tamamlamak. Sonrasında gelecek mola için belirlenmiş bir dönüş tarihi yok. Bunun ötesindeki 'artık albüm yapmayacak' ya da 'oyunculuğu tamamen bıraktı' yorumları şimdilik sadece yorum.",
+        ],
+      },
+      {
+        heading: "Londra'daki büyük müzikal neden iptal oldu?",
+        body: [
+          "Ariana, Wicked'daki rol arkadaşı Jonathan Bailey ile Stephen Sondheim klasiği Sunday in the Park with George'da buluşacaktı. Yapımın 2027'de Barbican Theatre'da sahnelenmesi planlanıyordu. Yapımcılar Ariana'nın ayrıldığını doğruladı; proje de bu haliyle ilerlemeyecek.",
+          "Bu, onun için küçük bir takvim değişikliği değildi. Wicked sonrası sahnedeki oyunculuk yolunu büyütecek, çok konuşulacak bir Londra çıkışıydı. Tam da bu yüzden çekilme kararı, molanın sembolik olarak en görünür tarafı oldu.",
+        ],
+      },
+      {
+        heading: "petal'ın hemen ardından gelmesi neden anlamlı?",
+        body: [
+          "petal, 31 Temmuz'da yayımlandı ve Ariana'nın sekizinci stüdyo albümü. Albümde sınırlar, dışarıdan yazılan hikâyeler, acının sürekli bir sanat malzemesine çevrilmesi ve kendine ait bir hayat kurma isteği tekrar tekrar karşımıza çıkıyor. Bu yüzden üç gün sonra gelen mola haberi, albümün duygusal dünyasından tamamen kopuk hissettirmiyor.",
+          "Yine de şarkılardan bir teşhis üretmek ya da özel hayatı hakkında hüküm vermek doğru olmaz. Burada söyleyebileceğimiz daha sade bir şey var: Ariana kendi takvimine ve görünürlüğüne sınır koyuyor; biz de o sınırı bir gizem avına çevirmeden kabul edebiliriz.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "Bazen bir sanatçıdan yeni şarkı, yeni klip, yeni röportaj, yeni kırmızı halı beklemeyi o kadar normalleştiriyoruz ki karşımızdaki insanın durma hakkını unutuyoruz. petal elimizde; turne devam ediyor; sonrası içinse Ariana'nın dinlenmesine izin vermek en insani yaklaşım.",
+          "Kısacası bunu dramatik bir 'elveda' başlığı gibi değil, çok yoğun birkaç yılın ardından alınmış ciddi bir sınır kararı olarak okuyalım. Yeni bir açıklama gelirse tabloyu yine doğrulanmış haliyle güncelleriz.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Eternal Sunshine Tour", status: "Devam ediyor", detail: "Ariana'nın önceliği turneyi tamamlamak; mola son konserden sonra başlayacak." },
+      { name: "Sunday in the Park with George", status: "Ayrıldı", detail: "2027 Londra prodüksiyonu Ariana'nın çekilmesiyle mevcut haliyle ilerlemeyecek." },
+      { name: "Müzik kariyeri", status: "Devam ediyor", detail: "Emeklilik ya da müziği bırakma yönünde doğrulanmış bir açıklama bulunmuyor." },
+    ],
+    sources: [
+      { name: "Associated Press", url: "https://apnews.com/article/c155c3d6b912dab58d0a9780964100b2" },
+      { name: "Ariana Grande resmi mağazası", url: "https://shopuk.arianagrande.com/collections/petal/products/petal-digital-album" },
+      { name: "Universal Music Japan", url: "https://www.universal-music.co.jp/ariana-grande/news/2026-07-10/" },
+    ],
+    storyShare:
+      "Ariana Grande müziği bırakmıyor: Eternal Sunshine Tour sonrası görünürlük molası verecek ve 2027 Londra müzikalinde yer almayacak. Doğrulananlar acupoflyrics Pop Günlüğü'nde.",
+  },
+  {
+    slug: "bts-2027-grammy-basvurusu-yapmayacak",
+    title: "BTS 2027 Grammy'lerine neden başvurmuyor? Yeni Asian Pop kategorisi ve kararın asıl anlamı",
+    shortTitle: "BTS 2027 Grammy'lerine başvurmuyor",
+    kicker: "K-pop gündemi",
+    date: "2026-08-03",
+    updatedAt: "2026-08-03T14:40:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.ytimg.com/vi/N_Id6KNQtLw/hqdefault.jpg",
+    imageAlt: "BTS Into the Sun video kapağında grup üyeleri",
+    imageCredit: "BTS · BIGHIT MUSIC",
+    accent: "#e86935",
+    artistSlug: "bts",
+    artistName: "BTS",
+    excerpt:
+      "BTS, 2027 Grammy değerlendirmesi için müzik göndermeyeceğini açıkladı. Bu bir adaylıktan çekilme değil; adaylık süreci başlamadan alınmış, endüstri çapında yankı uyandıran bir başvuru kararı.",
+    dek:
+      "Yeni Asian Pop kategorisinin duyurulmasının ardından BTS'in 'müziğimiz bölgeye ya da dile göre sınıflandırılmasın' tavrı tartışmayı büyüttü. Peki teknik olarak ne oldu, ne olmadı?",
+    livePanel: {
+      label: "3 Ağustos 2026 itibarıyla",
+      title: "Kısa cevap",
+      items: [
+        { label: "Karar", text: "BTS, 2027 Grammy sürecine değerlendirilmek üzere eser göndermeyecek." },
+        { label: "Yanlış ifade", text: "Grup bir adaylığı reddetmedi; henüz adaylıklar açıklanmadı." },
+        { label: "Tartışmanın merkezi", text: "Yeni Best Asian Pop Music Performance kategorisinin temsil mi, ayrı bir sınır mı yarattığı konuşuluyor." },
+      ],
+    },
+    summary: [
+      "Grammy sürecinde eserlerin önce resmi olarak gönderilmesi gerekiyor; BTS bu adımı atmayacağını açıkladı.",
+      "Grup, müziğinin bölge ya da dil üzerinden kategorize edilmek yerine doğrudan müzik olarak duyulmasını istediğini vurguluyor.",
+      "2027 töreni için eklenen Best Asian Pop Music Performance kategorisi K-pop, J-pop ve C-pop dahil Asya pazarlarında doğan pop performanslarını kapsıyor.",
+      "Karar, yeni kategoriye uygun olabilecek eserlerin başka genel kategorilerde yarışmasını teknik olarak yasakladığı anlamına gelmiyor; BTS bu yıl hiçbir kategoride başvuru yapmamayı seçiyor.",
+    ],
+    sections: [
+      {
+        heading: "'Grammy'den çekildi' demek neden tam doğru değil?",
+        body: [
+          "Önce teknik kısmı temizleyelim: Ortada açıklanmış bir BTS adaylığı yok. Grammy süreci, plak şirketi ya da uygun meslek üyelerinin eserleri değerlendirmeye göndermesiyle başlıyor. BTS bu ilk adımı atmayacağını söylediği için 2027 adaylıklarında yer alamayacak.",
+          "Yani bu, aday gösterildikten sonra ödülü reddetmek değil; yarışa eser göndermeme kararı. Küçük gibi görünen bu ayrım önemli, çünkü haberin ağırlığı sonuçtan çok tavırda yatıyor.",
+        ],
+      },
+      {
+        heading: "Yeni Asian Pop kategorisi tam olarak ne?",
+        body: [
+          "Recording Academy, 2027 töreni için beş yeni kategori duyurdu. Bunlardan Best Asian Pop Music Performance; Asya pazarlarında doğan ya da bu pazarlarla güçlü biçimde özdeşleşen, bir veya daha fazla Asya dilini anlamlı ölçüde kullanan pop performanslarını tanımayı amaçlıyor. Açıklamada K-pop, J-pop ve C-pop özellikle örnek gösteriliyor.",
+          "Bir tarafta yıllardır yeterince görünürlük bulamayan dev bir müzik ekosistemine ayrı alan açılması var. Diğer tarafta ise Asyalı sanatçıların ana pop kategorilerinde görülmek yerine tek bir coğrafi başlık altında toplanacağı kaygısı. BTS'in kararı tam da bu gerilimin ortasına düştü.",
+        ],
+      },
+      {
+        heading: "BTS'in söylediği şey neden bu kadar yankılandı?",
+        body: [
+          "Grubun açıklamasındaki fikir oldukça açık: Müziklerinin önce bölgesi ya da diliyle değil, müzik olarak duyulmasını ve sevilmesini istiyorlar. Bu, Asyalı kimliğini reddetmek değil; kimliğin ana yarıştan ayrı bir kutuya dönüşmesine itiraz olarak okunuyor.",
+          "BTS daha önce Butter, Dynamite ve My Universe gibi parçalarla Grammy adaylıkları aldı ama kazanamadı. Şimdi askerliğin ardından başlayan yeni grup döneminde, oyunun kurallarına ilişkin daha açık bir duruş sergilemeleri bu yüzden yalnızca hayran topluluğunda değil, ödül endüstrisinde de büyük bir tartışma yarattı.",
+        ],
+      },
+      {
+        heading: "Bu karar yeni kategoriyi geçersiz mi kılıyor?",
+        body: [
+          "Hayır. Yeni kategorinin başka sanatçılar için anlamlı bir görünürlük alanı yaratması mümkün. Aynı anda, kategorinin uzun vadede Asyalı sanatçıları ana pop ve genel alanlardan uzaklaştırıp uzaklaştırmadığını sorgulamak da mümkün. İki düşünce birbirini otomatik olarak yok etmiyor.",
+          "Asıl ölçü, gelecek yıllarda aday dağılımının nasıl şekilleneceği olacak: Asyalı sanatçılar yalnızca bu kategoriye mi yönlendirilecek, yoksa Album of the Year, Record of the Year ve pop alanlarında da aynı açıklıkla değerlendirilecek mi? Tartışmanın gerçek cevabı birkaç tören sonra daha net görülecek.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "BTS'in bu kararı bir ödülü küçümsemek değil, kendi müziğinin hangi çerçevede okunacağına dair söz hakkı istemek gibi duruyor. ARMY için buruk olabilir; ama grubun yıllardır anlattığı kendi adını ve yolunu kendin belirleme fikriyle de fazlasıyla uyumlu.",
+          "Şimdilik en doğru cümle şu: BTS 2027 Grammy adaylık sürecine eser göndermiyor. Bundan sonrasını, hem grubun yeni dönem müziği hem de ödül kurumunun bu eleştiriye vereceği pratik cevap belirleyecek.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "BTS", status: "Başvuru yapmayacak", detail: "2027 Grammy değerlendirmesi için hiçbir kategoride eser göndermeme kararı açıkladı." },
+      { name: "Best Asian Pop Music Performance", status: "Yeni kategori", detail: "2027 töreninde ilk kez verilecek; K-pop, J-pop ve C-pop dahil geniş bir alanı kapsıyor." },
+      { name: "Adaylıklar", status: "Henüz açıklanmadı", detail: "Bu nedenle yaşanan şey adaylıktan çekilme değil, başvuru aşamasına katılmama." },
+    ],
+    sources: [
+      { name: "Associated Press", url: "https://apnews.com/article/ec796e4308f5d5990a2a667ffa4bf45e" },
+      { name: "2027 Grammy kategori ve kural güncellemeleri", url: "https://www.grammy.com/news/2027-grammys-new-categories-rule-updates/" },
+      { name: "2027 Grammy başvuru rehberi", url: "https://www.grammy.com/news/2027-grammys-how-submit-music-guide/" },
+    ],
+    storyShare:
+      "BTS 2027 Grammy'lerine eser göndermeyecek. Bu bir adaylıktan çekilme değil; yeni Asian Pop kategorisinin ortasında alınmış önemli bir başvuru kararı. Ayrıntılar Pop Günlüğü'nde.",
+  },
+  {
+    slug: "bonnie-tyler-total-eclipse-yeniden-listelerde",
+    title: "Bonnie Tyler'ın ardından Total Eclipse of the Heart yeniden listelerde: Bir şarkı neden hâlâ bu kadar büyük?",
+    shortTitle: "Total Eclipse of the Heart yeniden listelerde",
+    kicker: "Müzik hafızası",
+    date: "2026-08-03",
+    updatedAt: "2026-08-03T14:10:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+    imageAlt: "Bonnie Tyler portresi",
+    imageCredit: "Bonnie Tyler · Sony Music",
+    accent: "#8d2335",
+    artistSlug: "bonnie-tyler",
+    artistName: "Bonnie Tyler",
+    excerpt:
+      "Bonnie Tyler'ın 8 Temmuz'daki vefatının ardından Total Eclipse of the Heart İngiltere listelerine geri döndü. Bu yalnızca nostalji değil; kırk yılı aşan bir pop klasiğinin yeniden hatırlanması.",
+    dek:
+      "Bazı şarkılar dönemine aittir, bazılarıysa her kuşağın kendi kalp kırıklığını içine koyabildiği kocaman bir odaya dönüşür. Total Eclipse of the Heart ikinci grupta.",
+    livePanel: {
+      label: "3 Ağustos 2026 itibarıyla",
+      title: "Şarkının dönüşü",
+      items: [
+        { label: "Ana liste", text: "Şarkı İngiltere resmi single güncellemesinde üç haftadır listede; son sırada 51 numarada." },
+        { label: "Bu dönüşün zirvesi", text: "26 Temmuz haftasında 48 numaraya kadar yükseldi." },
+        { label: "Video ilgisi", text: "Resmi video akış listesinde 11 numaraya kadar çıktı." },
+      ],
+    },
+    summary: [
+      "Bonnie Tyler, tedavi gördüğü hastalığın ardından 8 Temmuz 2026'da 75 yaşında hayatını kaybetti.",
+      "Ailesi ve ekibi haberi sanatçının resmi sitesi üzerinden duyurdu.",
+      "1983 tarihli Total Eclipse of the Heart, vefatının ardından İngiltere listelerine yeniden girdi.",
+      "Şarkı 1983'te Birleşik Krallık'ta iki hafta bir numarada kalmıştı; 2026'daki dönüşü kırk üç yıllık kültürel ömrünü gösteriyor.",
+    ],
+    sections: [
+      {
+        heading: "Önce vedamız",
+        body: [
+          "Bonnie Tyler'ın ailesi ve ekibi, sanatçının 8 Temmuz gecesi Portekiz'de tedavi gördüğü hastanede beklenmedik biçimde hayatını kaybettiğini açıkladı. 75 yaşındaydı. O kendine özgü pürüzlü ses, It's a Heartache'ten Holding Out for a Hero'ya onlarca yıldır pop ve rock hafızasının içindeydi.",
+          "Dinleyicinin bir kaybın ardından şarkılara dönmesi çok tanıdık bir yas biçimi. Bu kez milyonlar aynı anda Total Eclipse of the Heart'a döndü ve şarkı yalnızca anma listelerinde kalmadı; resmi chart'a yeniden girdi.",
+        ],
+      },
+      {
+        heading: "Rakamlar ne söylüyor?",
+        body: [
+          "Official Charts verilerine göre şarkı 19 Temmuz'da başlayan güncelleme listesinde 53 numaradan geri döndü, bir hafta sonra 48'e yükseldi ve 2 Ağustos haftasında 51 numarada kaldı. Resmi video akış listesinde ise 11 numaraya kadar çıktı.",
+          "Bu sayılar bugünün dev hitleriyle yarışma meselesi değil. 1983'te yayımlanmış bir şarkının kırk üç yıl sonra, aynı sözlerle yeni bir toplu duygu anına eşlik edebilmesinin somut kanıtı.",
+        ],
+      },
+      {
+        heading: "Neden hâlâ bu kadar büyük geliyor?",
+        body: [
+          "Jim Steinman'ın yazdığı şarkıda hiçbir duygu küçük değil: aşk gölge gibi her yerde, hayat barut fıçısı, kalp tutulmaya giriyor. Bonnie Tyler da bu büyüklüğü utanmadan taşıyor. Şarkı tam da bu yüzden karaoke gecesinde de film sahnesinde de gerçek bir ayrılığın ortasında da çalışıyor.",
+          "Nakaratın sürekli yükselip geri dönmesi, dinleyene duyguyu dışarı atacak fiziksel bir alan açıyor. Bugün viral olan pek çok eski şarkı kısa bir bölümüyle geri gelirken Total Eclipse of the Heart baştan sona yaşanan, neredeyse tiyatral bir deneyim olarak ayakta kalıyor.",
+        ],
+      },
+      {
+        heading: "Bir milyar dinlenme, sonra bir veda",
+        body: [
+          "Şarkı, Bonnie Tyler hayattayken Ocak 2026'da Spotify'da bir milyar dinlenmeyi geçmişti. Yani bu geri dönüş sıfırdan yaratılan bir nostalji değil; zaten kuşaklar arasında yaşamaya devam eden bir klasiğin acı bir anda yeniden merkeze gelmesi.",
+          "Şimdi onu tekrar dinlerken yalnızca büyük bir hit duymuyoruz. Sesini ilk notada tanıdığımız, kırılganlığı güç gibi söyleyebilen bir sanatçıya veda ediyoruz.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "Total Eclipse of the Heart'ın Türkçe çevirisini de bu yükselişle birlikte arşive ekledik. Şarkının o meşhur 'turn around' çağrısı Türkçede de aynı yalnızlığı taşıyor: dön, bir kez daha yüzüme bak.",
+          "Bonnie Tyler'a güzel sesi, o sesin içindeki çatlaklar ve hepimize yıllarca bağıra bağıra eşlik etme cesareti verdiği için teşekkür ederiz.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Bonnie Tyler", status: "1941–2026", detail: "Sanatçı 8 Temmuz'da 75 yaşında hayatını kaybetti." },
+      { name: "Total Eclipse of the Heart", status: "Yeniden listede", detail: "2026 dönüşünde İngiltere single güncellemesinde 48 numaraya kadar yükseldi." },
+      { name: "Türkçe çeviri", status: "Arşive eklendi", detail: "Orijinal tekrarları ve şarkının temel imgelerini koruyan tam metin sayfası yayında." },
+    ],
+    sources: [
+      { name: "Bonnie Tyler resmi açıklaması", url: "https://bonnietyler.com/news/statement-on-the-passing-of-bonnie-tyler/" },
+      { name: "Official Charts şarkı geçmişi", url: "https://www.officialcharts.com/songs/bonnie-tyler-total-eclipse-of-the-heart/" },
+      { name: "Bir milyar dinlenme duyurusu", url: "https://bonnietyler.com/news/bonnie-celebrates-1-billion-streams-of-total-eclipse-of-the-heart-and-a-gold-record-for-together/" },
+    ],
+    storyShare:
+      "Bonnie Tyler'ın ardından Total Eclipse of the Heart İngiltere listelerine geri döndü. Bir power ballad kırk üç yıl sonra neden hâlâ bu kadar büyük geliyor? Pop Günlüğü'nde.",
+  },
+  {
+    slug: "haftanin-yeni-sarkilari-cardi-b-cortis-slayyyter",
+    title: "Bu hafta ne dinliyoruz? Cardi B'nin AH HA'sı, CORTIS'in MOTION'ı ve Slayyyter'ın yeni Chanel dönemi",
+    shortTitle: "Haftanın yeni şarkıları",
+    kicker: "Yeni müzik radarı",
+    date: "2026-08-03",
+    updatedAt: "2026-08-03T13:45:00+03:00",
+    readTime: "3 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b27313a7ac8ce354bae1bc7f96de",
+    imageAlt: "Cardi B AH HA single kapağı",
+    imageCredit: "Cardi B · Atlantic Records",
+    accent: "#f0386b",
+    artistSlug: "cardi-b",
+    artistName: "Cardi B · CORTIS · Slayyyter",
+    excerpt:
+      "Yeni yayınlarda üç farklı enerji var: Cardi B doğrudan saldırıya geçiyor, CORTIS ile Juicy J kulübü hareketlendiriyor, Slayyyter ise lüksü plastik ve kışkırtıcı bir pop oyununa çeviriyor.",
+    dek:
+      "Hepsini aynı kefeye koymayacağız; ama üçünün de ortak noktası ilk saniyede kim olduğunu belli etmesi. İşte hızlı dinleme notlarımız ve Türkçe çeviri bağlantıları.",
+    livePanel: {
+      label: "3 Ağustos 2026 seçkisi",
+      title: "Üç şarkı, üç ayrı hava",
+      items: [
+        { label: "AH HA", text: "Cardi B'nin sivri, gösterişli ve lafını sakınmayan rap modu." },
+        { label: "MOTION", text: "CORTIS ile Juicy J'den hareketi ve gece hayatını öne çıkaran ortaklık." },
+        { label: "brand new chanel$", text: "Slayyyter'dan moda, arzu ve yapay ihtişamı parlatan hiper-pop gösterisi." },
+      ],
+    },
+    summary: [
+      "Cardi B, AH HA'da mizahı ve tehdidi aynı cümlede buluşturan saldırgan rap tarafına dönüyor.",
+      "CORTIS ve Juicy J, MOTION'da tekrar eden kanca ve kulüp enerjisiyle kolayca akılda kalan bir birliktelik kuruyor.",
+      "Slayyyter'ın brand new chanel$ parçası pahalı marka estetiğini hem arzu nesnesi hem de performans olarak kullanıyor.",
+      "Üç parçanın da tam Türkçe çevirisi, Spotify ve video bağlantılarıyla acupoflyrics'te yayında.",
+    ],
+    sections: [
+      {
+        heading: "Cardi B — AH HA",
+        body: [
+          "Cardi B burada kapıyı çalmıyor, doğrudan içeri giriyor. AH HA'nın en güçlü yanı sözlerdeki göz devirme hissi: karşısındakini küçümserken aynı anda kendini sahnenin merkezine yerleştiriyor. Beat boşluk bıraktıkça Cardi'nin vurguları daha sert duyuluyor.",
+          "Bu şarkıyı çevirirken fazla kibarlaştırmamak gerekiyor; esprisi tam da kabalığıyla zarafeti aynı anda taşımasında. Türkçe çevirisi yayında ve satır satır okurken kaçan küçük laf sokmaları çok daha görünür oluyor.",
+        ],
+      },
+      {
+        heading: "CORTIS feat. Juicy J — MOTION",
+        body: [
+          "MOTION uzun uzun düşünmekten çok harekete geçmek isteyen bir parça. CORTIS'in daha genç, parlak enerjisiyle Juicy J'in yıllardır kulüp rapinde taşıdığı rahatlık yan yana gelince şarkı iki kuşağın aynı pistte buluşması gibi çalışıyor.",
+          "Nakaratın tekrar gücü yüksek; sözlerdeki hız, araba ve beden dili imgeleri de parçayı tam bir gece şarkısına çeviriyor. Çeviride bu kelimeleri sözlük karşılığına sıkıştırmadan Türkçe sokak ritmini koruduk.",
+        ],
+      },
+      {
+        heading: "Slayyyter — brand new chanel$",
+        body: [
+          "Slayyyter'ın pop dünyasında lüks hiçbir zaman yalnızca lüks değildir; biraz fantezi, biraz kostüm, biraz da kendini baştan yaratma aracıdır. brand new chanel$ da marka adını bir alışveriş listesinden çıkarıp kimlik gösterisine dönüştürüyor.",
+          "Parçanın parlak yüzeyinin altında 'beni nasıl görmek istiyorsanız onu daha da büyütürüm' tavrı var. Bu yüzden şarkı hem eğlenceli hem hafif tekinsiz; Slayyyter'ın en iyi bildiği alan tam olarak burası.",
+        ],
+      },
+      {
+        heading: "Hangisinden başlayalım?",
+        body: [
+          "Öfke ve laf sokma istiyorsan AH HA; gece yürüyüşüne ya da antrenmana tempo arıyorsan MOTION; kusursuz biçimde yapay, moda çekimi gibi bir pop istiyorsan brand new chanel$.",
+          "Üçü de son yayınlananlar bölümünde. Önce dinleyip sonra çeviriyi okumak, özellikle ad-lib ve kelime oyunlarını yakalamak için en iyi sıra.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Cardi B", status: "AH HA", detail: "Keskin rap, büyük ego ve doğrudan hedef alan bir performans." },
+      { name: "CORTIS feat. Juicy J", status: "MOTION", detail: "Kulüp temposu, tekrar gücü ve kuşaklar arası rap ortaklığı." },
+      { name: "Slayyyter", status: "brand new chanel$", detail: "Lüks marka dilini hiper-pop kimlik oyununa çeviren yeni single." },
+    ],
+    sources: [
+      { name: "Cardi B — AH HA resmi video", url: "https://www.youtube.com/watch?v=ri68OOAeQ6A" },
+      { name: "CORTIS feat. Juicy J — MOTION resmi video", url: "https://www.youtube.com/watch?v=h7ITAdTxdxM" },
+      { name: "Slayyyter — brand new chanel$ resmi video", url: "https://www.youtube.com/watch?v=oQfWa3WQXqg" },
+      { name: "Slayyyter röportajı", url: "https://www.theguardian.com/music/2026/mar/27/slayyyter-worst-girl-in-america-interview" },
+    ],
+    storyShare:
+      "Bu hafta ne dinliyoruz? Cardi B — AH HA, CORTIS feat. Juicy J — MOTION ve Slayyyter — brand new chanel$ için samimi dinleme notları ve Türkçe çeviriler acupoflyrics'te.",
+  },
+  {
     slug: "kard-veda-albumu-nowhere-yeniden-bulusma",
     title: "KARD'ın vedası gerçekten son mu? NOWHERE, final dünya turu ve açık bırakılan yeniden buluşma kapısı",
     shortTitle: "KARD'ın vedası gerçekten son mu?",

@@ -1,5 +1,3107 @@
 [
   {
+    "id": "5163",
+    "title": "Radiohead Creep Türkçe Çeviri",
+    "song": "Creep",
+    "slug": "radiohead-creep-turkce-ceviri",
+    "date": "2026-08-03T11:28:03.898Z",
+    "artist": "Radiohead",
+    "categories": [
+      "Radiohead",
+      "Pablo Honey"
+    ],
+    "category_slugs": [
+      "radiohead",
+      "pablo-honey"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "When you were here before",
+          "Couldn't look you in the eye",
+          "You're just like an angel",
+          "Your skin makes me cry",
+          "You float like a feather",
+          "In a beautiful world",
+          "I wish I was special",
+          "You're so fuckin' special"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Daha önce buradayken,",
+          "Gözlerinin içine bakamazdım.",
+          "Tıpkı bir melek gibisin;",
+          "Tenin beni ağlatıyor.",
+          "Bir tüy gibi süzülüyorsun,",
+          "Güzel bir dünyanın içinde.",
+          "Keşke ben de özel olsaydım;",
+          "Sen kahrolası derecede özelsin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I'm a creep",
+          "I'm a weirdo",
+          "What the hell am I doin' here?",
+          "I don't belong here"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben bir ucubeyim,",
+          "Tuhafın tekiyim.",
+          "Benim burada ne işim var ki?",
+          "Buraya ait değilim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I don't care if it hurts",
+          "I wanna have control",
+          "I want a perfect body",
+          "I want a perfect soul",
+          "I want you to notice",
+          "When I'm not around",
+          "You're so fuckin' special",
+          "I wish I was special"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Canım yansa da umurumda değil;",
+          "Kontrolün bende olmasını istiyorum.",
+          "Kusursuz bir beden istiyorum,",
+          "Kusursuz bir ruh istiyorum.",
+          "Yanında olmadığımda,",
+          "Yokluğumu fark etmeni istiyorum.",
+          "Sen kahrolası derecede özelsin;",
+          "Keşke ben de özel olsaydım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I'm a creep",
+          "I'm a weirdo",
+          "What the hell am I doin' here?",
+          "I don't belong here",
+          "Oh-oh, oh-oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben bir ucubeyim,",
+          "Tuhafın tekiyim.",
+          "Benim burada ne işim var ki?",
+          "Buraya ait değilim.",
+          "Oh-oh, oh-oh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "She's runnin' out the door",
+          "She's runnin' out",
+          "She run, run, run, run",
+          "Run"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Kapıdan kaçıp gidiyor;",
+          "Kaçıp gidiyor işte.",
+          "Koşuyor, koşuyor, koşuyor, koşuyor;",
+          "Koşuyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "Whatever makes you happy",
+          "Whatever you want",
+          "You're so fuckin' special",
+          "I wish I was special"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Seni ne mutlu edecekse,",
+          "Ne istiyorsan o olsun.",
+          "Sen kahrolası derecede özelsin;",
+          "Keşke ben de özel olsaydım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I'm a creep",
+          "I'm a weirdo",
+          "What the hell am I doin' here?",
+          "I don't belong here",
+          "I don't belong here"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben bir ucubeyim,",
+          "Tuhafın tekiyim.",
+          "Benim burada ne işim var ki?",
+          "Buraya ait değilim;",
+          "Buraya ait değilim."
+        ]
+      }
+    ],
+    "excerpt": "When you were here before",
+    "annotations": {
+      "creep": "Kendini karşısındaki insanın dünyasına layık görmeyen, rahatsız edici derecede yabancı ve dışarıda hisseden kişiyi anlatıyor. “Ucube” bu öz-nefret tonunu doğrudan koruyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "70LcF31zb1H0PyJoS1Sx1r",
+        "name": "Creep",
+        "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+        "isrc": "GBAYE9200070",
+        "durationMs": 238640,
+        "duration": "3:59",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4Z8W4fKeB5YxbusRsdQVPb",
+        "name": "Radiohead",
+        "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4Z8W4fKeB5YxbusRsdQVPb",
+          "name": "Radiohead",
+          "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+        }
+      ],
+      "album": {
+        "id": "3gBVdu4a1MMJVMy6vwPEb8",
+        "name": "Pablo Honey",
+        "url": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+        "artists": [
+          {
+            "id": "4Z8W4fKeB5YxbusRsdQVPb",
+            "name": "Radiohead",
+            "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+          }
+        ],
+        "releaseDate": "1993-02-22",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "1993 LLLP LLP under exclusive license to XL Recordings Ltd",
+            "type": "C"
+          },
+          {
+            "text": "1993 LLLP LLP under exclusive license to XL Recordings Ltd",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "5KZ0qobWEFl892YjIC02SE",
+            "name": "You",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 208666,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5KZ0qobWEFl892YjIC02SE",
+            "isCurrent": false
+          },
+          {
+            "id": "70LcF31zb1H0PyJoS1Sx1r",
+            "name": "Creep",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 238640,
+            "duration": "3:59",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+            "isCurrent": true
+          },
+          {
+            "id": "5qsgK2wcodYCEbgbdCpYOG",
+            "name": "How Do You?",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 132173,
+            "duration": "2:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5qsgK2wcodYCEbgbdCpYOG",
+            "isCurrent": false
+          },
+          {
+            "id": "3CbAW3GjkBKfErt4LLbSzr",
+            "name": "Stop Whispering",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 325626,
+            "duration": "5:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3CbAW3GjkBKfErt4LLbSzr",
+            "isCurrent": false
+          },
+          {
+            "id": "46tfxn5lP7Qsbz7NHsj9iu",
+            "name": "Thinking About You",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 161533,
+            "duration": "2:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/46tfxn5lP7Qsbz7NHsj9iu",
+            "isCurrent": false
+          },
+          {
+            "id": "23oUaizFBFVFI5PxJrkiO5",
+            "name": "Anyone Can Play Guitar",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 217800,
+            "duration": "3:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/23oUaizFBFVFI5PxJrkiO5",
+            "isCurrent": false
+          },
+          {
+            "id": "2wOvYLilnDJfuPXGHGFAWZ",
+            "name": "Ripcord",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 189733,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2wOvYLilnDJfuPXGHGFAWZ",
+            "isCurrent": false
+          },
+          {
+            "id": "6HbWoyinLdXPZmk6xONuKw",
+            "name": "Vegetable",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 192666,
+            "duration": "3:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6HbWoyinLdXPZmk6xONuKw",
+            "isCurrent": false
+          },
+          {
+            "id": "0GDuL9TCO41PgsrKWBSGlm",
+            "name": "Prove Yourself",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 145373,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0GDuL9TCO41PgsrKWBSGlm",
+            "isCurrent": false
+          },
+          {
+            "id": "13nQ70PnhDnTkYqCmdg3sy",
+            "name": "I Can't",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 253093,
+            "duration": "4:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/13nQ70PnhDnTkYqCmdg3sy",
+            "isCurrent": false
+          },
+          {
+            "id": "30C1FoJzEhNUILsxghioGz",
+            "name": "Lurgee",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 187866,
+            "duration": "3:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/30C1FoJzEhNUILsxghioGz",
+            "isCurrent": false
+          },
+          {
+            "id": "5XpcTQlNnfIQbiWE4hvYo7",
+            "name": "Blow Out",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 282066,
+            "duration": "4:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5XpcTQlNnfIQbiWE4hvYo7",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:27:51.372Z",
+      "trackUrl": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+      "albumUrl": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8",
+      "artistUrl": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+      "albumName": "Pablo Honey",
+      "albumType": "Album",
+      "releaseDate": "1993-02-22",
+      "duration": "3:59",
+      "isrc": "GBAYE9200070",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d"
+    },
+    "genius": {
+      "url": "https://genius.com/Radiohead-creep-lyrics",
+      "songId": 109096,
+      "description": "According to Thom Yorke, “Creep” tells the tale of an inebriated man who tries to get the attention of a woman to whom he is attracted by following her around. In the end, he lacks the self-confidence to face her and feels he subconsciously is her.When asked about “Creep” in 1993, Yorke said:I have a real problem being a man in the ‘90s… Any man with any sensitivity or conscience toward the opposite sex would have a problem. To actually assert yourself in a masculine way without looking like you’re in a hard-rock band is a very difficult thing to do… It comes back to the music we write, which is not effeminate, but it’s not brutal in its arrogance. It is one of the things I’m always trying: To assert a sexual persona and on the other hand trying desperately to negate it.Jonny Greenwood also said the song was in fact a happy song about “recognizing what you are.”Notable covers include those by The Pretenders, Carrie Manolakos, Macy Gray, Lea Michele and Dean Geyer, as part of Glee, Vega Choir, Prince, The Bluecoats Drum and Bugle Corps, Kimberly Nichole, and, most recently, Billie Eilish in 2025, whose cover had been anticipated since 2019.Despite, or perhaps because of, the popularity of the song, Radiohead grew to hate “Creep” and have rarely played it live since the OK Computer tour. “My Iron Lung”, written in 1994 and later released on The Bends, is also about the song."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=XFkzRNyygfk",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5162",
+    "title": "Bonnie Tyler Total Eclipse of the Heart Türkçe Çeviri",
+    "song": "Total Eclipse of the Heart",
+    "slug": "bonnie-tyler-total-eclipse-of-the-heart-turkce-ceviri",
+    "date": "2026-08-03T11:27:41.152Z",
+    "artist": "Bonnie Tyler",
+    "categories": [
+      "Bonnie Tyler",
+      "The Very Best of Bonnie Tyler"
+    ],
+    "category_slugs": [
+      "bonnie-tyler",
+      "the-very-best-of-bonnie-tyler"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+    "reading_time": 6,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "(Turn around)",
+          "Every now and then, I get a little bit lonely",
+          "And you're never coming 'round",
+          "(Turn around)",
+          "Every now and then, I get a little bit tired",
+          "Of listening to the sound of my tears",
+          "(Turn around)",
+          "Every now and then, I get a little bit nervous",
+          "That the best of all the years have gone by",
+          "(Turn around)",
+          "Every now and then, I get a little bit terrified",
+          "And then I see the look in your eyes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "(Arkanı dön...)",
+          "Arada bir içime bir yalnızlık çöküyor;",
+          "Çünkü sen bir türlü yanıma gelmiyorsun.",
+          "(Arkanı dön...)",
+          "Arada bir biraz yoruluyorum;",
+          "Kendi gözyaşlarımın sesini dinlemekten.",
+          "(Arkanı dön...)",
+          "Arada bir içimi bir endişe kaplıyor;",
+          "En güzel yıllarımız çoktan geçip gitti diye.",
+          "(Arkanı dön...)",
+          "Arada bir dehşete kapılıyorum;",
+          "Sonra gözlerindeki o bakışı görüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart",
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir paramparça oluyorum.",
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir dağılıp gidiyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "(Turn around)",
+          "Every now and then, I get a little bit restless",
+          "And I dream of something wild",
+          "(Turn around)",
+          "Every now and then, I get a little bit helpless",
+          "And I'm lying like a child in your arms",
+          "(Turn around)",
+          "Every now and then, I get a little bit angry",
+          "And I know I've got to get out and cry",
+          "(Turn around)",
+          "Every now and then, I get a little bit terrified",
+          "But then I see the look in your eyes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "(Arkanı dön...)",
+          "Arada bir içime bir huzursuzluk düşüyor;",
+          "Ve çılgınca bir şeyin hayalini kuruyorum.",
+          "(Arkanı dön...)",
+          "Arada bir kendimi öyle çaresiz hissediyorum ki;",
+          "Kollarında bir çocuk gibi uzanıyorum.",
+          "(Arkanı dön...)",
+          "Arada bir biraz öfkeleniyorum;",
+          "Dışarı çıkıp ağlamam gerektiğini biliyorum.",
+          "(Arkanı dön...)",
+          "Arada bir dehşete kapılıyorum;",
+          "Ama sonra gözlerindeki o bakışı görüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart",
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir paramparça oluyorum.",
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir dağılıp gidiyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I need you now tonight",
+          "And I need you more than ever",
+          "And if you only hold me tight",
+          "We'll be holding on forever",
+          "And we'll only be making it right",
+          "'Cause we'll never be wrong",
+          "Together, we can take it to the end of the line",
+          "Your love is like a shadow on me all of the time (All of the time)",
+          "I don't know what to do and I'm always in the dark",
+          "We're living in a powder keg and giving off sparks",
+          "I really need you tonight",
+          "Forever's gonna start tonight",
+          "(Forever's gonna start tonight)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu gece sana ihtiyacım var;",
+          "Hem de hiç olmadığı kadar.",
+          "Beni sımsıkı sararsan eğer,",
+          "Sonsuza dek birbirimize tutunuruz.",
+          "Ve her şeyi yoluna koyarız;",
+          "Çünkü ikimiz asla yanlış olamayız.",
+          "Birlikte bu yolu sonuna kadar götürebiliriz;",
+          "Aşkın, her an üzerime düşen bir gölge gibi. (Her an...)",
+          "Ne yapacağımı bilmiyorum, hep karanlığın içindeyim.",
+          "Bir barut fıçısının üstünde yaşıyor, kıvılcımlar saçıyoruz.",
+          "Bu gece sana gerçekten ihtiyacım var;",
+          "Sonsuzluk bu gece başlayacak.",
+          "(Sonsuzluk bu gece başlayacak.)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Once upon a time, I was falling in love",
+          "But now I'm only falling apart",
+          "There's nothing I can do",
+          "A total eclipse of the heart",
+          "Once upon a time, there was light in my life",
+          "But now there's only love in the dark",
+          "Nothing I can say",
+          "A total eclipse of the heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Bir zamanlar sana âşık oluyordum;",
+          "Şimdiyse sadece paramparça oluyorum.",
+          "Elimden hiçbir şey gelmiyor;",
+          "Kalbimin tam tutulması bu.",
+          "Bir zamanlar hayatımda ışık vardı;",
+          "Şimdiyse karanlığın içinde yalnızca aşk kaldı.",
+          "Söyleyebileceğim hiçbir şey yok;",
+          "Kalbimin tam tutulması bu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude",
+        "lines": [
+          "Turn around, bright eyes",
+          "Turn around, bright eyes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude",
+        "lines": [
+          "Arkanı dön, parlak gözlüm;",
+          "Arkanı dön, parlak gözlüm."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "(Turn around)",
+          "Every now and then, I know you'll never be the boy",
+          "You always wanted to be",
+          "(Turn around)",
+          "But every now and then, I know you'll always be the only boy",
+          "Who wanted me the way that I am",
+          "(Turn around)",
+          "Every now and then, I know there's no one in the universe",
+          "As magical and wondrous as you",
+          "(Turn around)",
+          "Every now and then, I know there's nothing any better",
+          "There's nothing that I just wouldn't do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "(Arkanı dön...)",
+          "Arada bir biliyorum; asla olmak istediğin",
+          "O çocuk olamayacaksın.",
+          "(Arkanı dön...)",
+          "Ama arada bir biliyorum; beni olduğum halimle isteyen",
+          "Tek kişi hep sen olacaksın.",
+          "(Arkanı dön...)",
+          "Arada bir biliyorum; bu evrende",
+          "Senin kadar büyülü ve harika hiç kimse yok.",
+          "(Arkanı dön...)",
+          "Arada bir biliyorum; bundan daha güzel hiçbir şey yok;",
+          "Senin için yapmayacağım hiçbir şey yok."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart",
+          "(Turn around, bright eyes)",
+          "Every now and then, I fall apart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir paramparça oluyorum.",
+          "(Arkanı dön, parlak gözlüm...)",
+          "Arada bir dağılıp gidiyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I need you now tonight (And I need you)",
+          "And I need you more than ever",
+          "And if you only hold me tight (If you only)",
+          "We'll be holding on forever",
+          "And we'll only be making it right (And we'll never)",
+          "'Cause we'll never be wrong",
+          "Together, we can take it to the end of the line",
+          "Your love is like a shadow on me all of the time (All of the time)",
+          "I don't know what to do, I'm always in the dark",
+          "We're living in a powder keg and giving off sparks",
+          "I really need you tonight",
+          "Forever's gonna start tonight",
+          "(Forever's gonna start tonight)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu gece sana ihtiyacım var; (Sana ihtiyacım var...)",
+          "Hem de hiç olmadığı kadar.",
+          "Beni sımsıkı sararsan eğer; (Bir sarılsan...)",
+          "Sonsuza dek birbirimize tutunuruz.",
+          "Ve her şeyi yoluna koyarız; (Ve asla...)",
+          "Çünkü ikimiz asla yanlış olamayız.",
+          "Birlikte bu yolu sonuna kadar götürebiliriz;",
+          "Aşkın, her an üzerime düşen bir gölge gibi. (Her an...)",
+          "Ne yapacağımı bilmiyorum, hep karanlığın içindeyim.",
+          "Bir barut fıçısının üstünde yaşıyor, kıvılcımlar saçıyoruz.",
+          "Bu gece sana gerçekten ihtiyacım var.",
+          "Sonsuzluk bu gece başlayacak;",
+          "(Sonsuzluk bu gece başlayacak.)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Once upon a time, I was falling in love",
+          "But now I'm only falling apart",
+          "Nothing I can do",
+          "A total eclipse of the heart",
+          "Once upon a time, there was light in my life",
+          "But now there's only love in the dark",
+          "Nothing I can say",
+          "A total eclipse of the heart",
+          "A total eclipse of the heart",
+          "A total eclipse of the heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Bir zamanlar sana âşık oluyordum;",
+          "Şimdiyse sadece paramparça oluyorum.",
+          "Elimden hiçbir şey gelmiyor;",
+          "Kalbimin tam tutulması bu.",
+          "Bir zamanlar hayatımda ışık vardı;",
+          "Şimdiyse karanlığın içinde yalnızca aşk kaldı.",
+          "Söyleyebileceğim hiçbir şey yok;",
+          "Kalbimin tam tutulması bu.",
+          "Kalbimin tam tutulması...",
+          "Kalbimin tam tutulması..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Turn around, bright eyes",
+          "Turn around, bright eyes",
+          "Turn around",
+          "Ooh-ooh, ooh-ooh-ooh",
+          "Ah-ha, ah-ha",
+          "Ah-ha, ah-ha",
+          "Ooh, ooh-ooh",
+          "Ooh-ooh-ooh-ooh-ooh-ooh-ooh-ooh",
+          "Ooh, ooh-ooh, ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Arkanı dön, parlak gözlüm;",
+          "Arkanı dön, parlak gözlüm.",
+          "Arkanı dön...",
+          "Ooh-ooh, ooh-ooh-ooh...",
+          "Ah-ha, ah-ha...",
+          "Ah-ha, ah-ha...",
+          "Ooh, ooh-ooh...",
+          "Ooh-ooh-ooh-ooh-ooh-ooh-ooh-ooh...",
+          "Ooh, ooh-ooh, ooh..."
+        ]
+      }
+    ],
+    "excerpt": "(Turn around)",
+    "annotations": {
+      "powder keg": "Her an patlamaya hazır, tehlikeli ve yoğun bir ilişkiyi anlatan “barut fıçısı” metaforu.",
+      "total eclipse of the heart": "Işığın bütünüyle kapanması gibi, aşkın da kalbi karanlıkta bırakmasını anlatan ana metafor. Bu yüzden “kalbin tam tutulması” ifadesi korunuyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7wuJGgpTNzbUyn26IOY6rj",
+        "name": "Total Eclipse of the Heart",
+        "url": "https://open.spotify.com/track/7wuJGgpTNzbUyn26IOY6rj",
+        "isrc": "GBBBN8300002",
+        "durationMs": 267360,
+        "duration": "4:27",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 48,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0SD4eZCN4Kr0wQk56hCdh2",
+        "name": "Bonnie Tyler",
+        "url": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4ca4431cf4b1227eba8288d8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0SD4eZCN4Kr0wQk56hCdh2",
+          "name": "Bonnie Tyler",
+          "url": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2"
+        }
+      ],
+      "album": {
+        "id": "0VJI3wpebzRyVHq0eZQidb",
+        "name": "The Very Best of Bonnie Tyler",
+        "url": "https://open.spotify.com/album/0VJI3wpebzRyVHq0eZQidb",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+        "artists": [
+          {
+            "id": "0SD4eZCN4Kr0wQk56hCdh2",
+            "name": "Bonnie Tyler",
+            "url": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2"
+          }
+        ],
+        "releaseDate": "2009-03-26",
+        "releaseDatePrecision": "day",
+        "albumType": "Derleme",
+        "rawAlbumType": "compilation",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "This compilation (P) 2020 Sony Music Entertainment UK Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 48,
+        "tracks": [
+          {
+            "id": "63nyotHMEI8PrEZB2FL4DZ",
+            "name": "Total Eclipse of the Heart - Radio Version",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 334911,
+            "duration": "5:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/63nyotHMEI8PrEZB2FL4DZ",
+            "isCurrent": false
+          },
+          {
+            "id": "25Wbp1gubi0Guf96RbC4K2",
+            "name": "Have You Ever Seen the Rain?",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 247653,
+            "duration": "4:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/25Wbp1gubi0Guf96RbC4K2",
+            "isCurrent": false
+          },
+          {
+            "id": "32GDXLGBW4NEFpo0LYhpBH",
+            "name": "Here She Comes - Single Version",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 204438,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/32GDXLGBW4NEFpo0LYhpBH",
+            "isCurrent": false
+          },
+          {
+            "id": "0yQ09SyOqcJFp7Skggmwvp",
+            "name": "If You Were a Woman (And I Was a Man)",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 314426,
+            "duration": "5:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0yQ09SyOqcJFp7Skggmwvp",
+            "isCurrent": false
+          },
+          {
+            "id": "2yIFf7jcFPy7bKiWPRDZg3",
+            "name": "Loving You's a Dirty Job (But Somebody's Gotta Do It) (with Todd Rundgren) - Extended Version - Edit",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 468026,
+            "duration": "7:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2yIFf7jcFPy7bKiWPRDZg3",
+            "isCurrent": false
+          },
+          {
+            "id": "5ZFTsZcTUE6yyI8jxmcnuk",
+            "name": "Take Me Back",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 321213,
+            "duration": "5:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5ZFTsZcTUE6yyI8jxmcnuk",
+            "isCurrent": false
+          },
+          {
+            "id": "1dX9iwZWvMooWrIp2dIqKz",
+            "name": "Rebel Without a Clue",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 515586,
+            "duration": "8:36",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1dX9iwZWvMooWrIp2dIqKz",
+            "isCurrent": false
+          },
+          {
+            "id": "1ieV402WJvv42qPSHYHilQ",
+            "name": "Faster Than the Speed of Night",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 279743,
+            "duration": "4:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1ieV402WJvv42qPSHYHilQ",
+            "isCurrent": false
+          },
+          {
+            "id": "3qE6p9fN4YeILT0cQcY1cD",
+            "name": "Holding Out for a Hero - Single Version",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 261340,
+            "duration": "4:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3qE6p9fN4YeILT0cQcY1cD",
+            "isCurrent": false
+          },
+          {
+            "id": "7lTsB1fTh8xNogm8QGWT99",
+            "name": "Getting so Excited",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211967,
+            "duration": "3:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7lTsB1fTh8xNogm8QGWT99",
+            "isCurrent": false
+          },
+          {
+            "id": "32pM48aj8ErfhjGksRvIwC",
+            "name": "It's a Jungle Out There",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 278563,
+            "duration": "4:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/32pM48aj8ErfhjGksRvIwC",
+            "isCurrent": false
+          },
+          {
+            "id": "1FQqcnoBUgEjSyNoKVoSoo",
+            "name": "Goin' Through the Motions",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 249573,
+            "duration": "4:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1FQqcnoBUgEjSyNoKVoSoo",
+            "isCurrent": false
+          },
+          {
+            "id": "52jjG01BuE8syvYInQEGaL",
+            "name": "Tears",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 230378,
+            "duration": "3:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/52jjG01BuE8syvYInQEGaL",
+            "isCurrent": false
+          },
+          {
+            "id": "0shY45q6aDmDGytEtLrJEs",
+            "name": "Straight from the Heart",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 221756,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0shY45q6aDmDGytEtLrJEs",
+            "isCurrent": false
+          },
+          {
+            "id": "4rY2JOLnq5k4cUDU6JL987",
+            "name": "No Way to Treat a Lady",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 320000,
+            "duration": "5:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4rY2JOLnq5k4cUDU6JL987",
+            "isCurrent": false
+          },
+          {
+            "id": "7jzIFWarEVbGqQ1OZto4hR",
+            "name": "Ravishing",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 386433,
+            "duration": "6:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7jzIFWarEVbGqQ1OZto4hR",
+            "isCurrent": false
+          },
+          {
+            "id": "5MHdfktcXMlSDOZ7SyUL3q",
+            "name": "Band of Gold",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 349639,
+            "duration": "5:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5MHdfktcXMlSDOZ7SyUL3q",
+            "isCurrent": false
+          },
+          {
+            "id": "5GSy3e62myVeSQ7avIqKVH",
+            "name": "Lovers Again",
+            "trackNumber": 18,
+            "discNumber": 1,
+            "durationMs": 272081,
+            "duration": "4:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GSy3e62myVeSQ7avIqKVH",
+            "isCurrent": false
+          },
+          {
+            "id": "6sifB4qZJfgStdG8r7O6LN",
+            "name": "Before This Night Is Through",
+            "trackNumber": 19,
+            "discNumber": 1,
+            "durationMs": 319960,
+            "duration": "5:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6sifB4qZJfgStdG8r7O6LN",
+            "isCurrent": false
+          },
+          {
+            "id": "3FjHyHtYqiumhghDXmna1G",
+            "name": "Notes from America - Full Version",
+            "trackNumber": 20,
+            "discNumber": 1,
+            "durationMs": 295486,
+            "duration": "4:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3FjHyHtYqiumhghDXmna1G",
+            "isCurrent": false
+          },
+          {
+            "id": "55jq8v9Hj5kEVuMWo2mDjY",
+            "name": "Hide Your Heart",
+            "trackNumber": 21,
+            "discNumber": 1,
+            "durationMs": 263133,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/55jq8v9Hj5kEVuMWo2mDjY",
+            "isCurrent": false
+          },
+          {
+            "id": "5SGGXFZF36L8JfZfJTqWf7",
+            "name": "Don't Turn Around",
+            "trackNumber": 22,
+            "discNumber": 1,
+            "durationMs": 253333,
+            "duration": "4:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5SGGXFZF36L8JfZfJTqWf7",
+            "isCurrent": false
+          },
+          {
+            "id": "1VZgC3yeCpcdzi4y3VyjKC",
+            "name": "Save Up All Your Tears",
+            "trackNumber": 23,
+            "discNumber": 1,
+            "durationMs": 262640,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1VZgC3yeCpcdzi4y3VyjKC",
+            "isCurrent": false
+          },
+          {
+            "id": "6UqTCzlTbeoH0LuVulbr6U",
+            "name": "To Love Somebody",
+            "trackNumber": 24,
+            "discNumber": 1,
+            "durationMs": 342986,
+            "duration": "5:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UqTCzlTbeoH0LuVulbr6U",
+            "isCurrent": false
+          },
+          {
+            "id": "6UQH0u0M0VJxgKi0pNuxle",
+            "name": "Take Another Look at Your Heart",
+            "trackNumber": 25,
+            "discNumber": 1,
+            "durationMs": 226226,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6UQH0u0M0VJxgKi0pNuxle",
+            "isCurrent": false
+          },
+          {
+            "id": "3EomK9rNYn6zSle7sMNSde",
+            "name": "The Best",
+            "trackNumber": 26,
+            "discNumber": 1,
+            "durationMs": 255933,
+            "duration": "4:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3EomK9rNYn6zSle7sMNSde",
+            "isCurrent": false
+          },
+          {
+            "id": "41wJrlD5iNY6jrujvEkimG",
+            "name": "Shy with You",
+            "trackNumber": 27,
+            "discNumber": 1,
+            "durationMs": 218653,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/41wJrlD5iNY6jrujvEkimG",
+            "isCurrent": false
+          },
+          {
+            "id": "3fTYboXUIWtZZj4fPCnVsP",
+            "name": "Streets of Little Italy",
+            "trackNumber": 28,
+            "discNumber": 1,
+            "durationMs": 279450,
+            "duration": "4:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3fTYboXUIWtZZj4fPCnVsP",
+            "isCurrent": false
+          },
+          {
+            "id": "2wS9Y45k8k4yXUhx0ick7P",
+            "name": "Turtle Blues",
+            "trackNumber": 29,
+            "discNumber": 1,
+            "durationMs": 251876,
+            "duration": "4:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2wS9Y45k8k4yXUhx0ick7P",
+            "isCurrent": false
+          },
+          {
+            "id": "4PF6qAQEyk6dGoB2mU440a",
+            "name": "Bitterblue",
+            "trackNumber": 30,
+            "discNumber": 1,
+            "durationMs": 229866,
+            "duration": "3:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4PF6qAQEyk6dGoB2mU440a",
+            "isCurrent": false
+          },
+          {
+            "id": "0yPSxyvginKI09tcGuxvFs",
+            "name": "Back Home - Radio Version II",
+            "trackNumber": 31,
+            "discNumber": 1,
+            "durationMs": 226572,
+            "duration": "3:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0yPSxyvginKI09tcGuxvFs",
+            "isCurrent": false
+          },
+          {
+            "id": "5TVZHYTqA9lmX5yK3Osidb",
+            "name": "Sally Comes Around - Unplugged Mix",
+            "trackNumber": 32,
+            "discNumber": 1,
+            "durationMs": 207333,
+            "duration": "3:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5TVZHYTqA9lmX5yK3Osidb",
+            "isCurrent": false
+          },
+          {
+            "id": "7EoW4X9jQpVoJQrwp1dt2o",
+            "name": "Breakout - Single Version",
+            "trackNumber": 33,
+            "discNumber": 1,
+            "durationMs": 235626,
+            "duration": "3:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7EoW4X9jQpVoJQrwp1dt2o",
+            "isCurrent": false
+          },
+          {
+            "id": "1pTw68XgTLimhKL1FNVwGc",
+            "name": "The Fire Below",
+            "trackNumber": 34,
+            "discNumber": 1,
+            "durationMs": 309691,
+            "duration": "5:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1pTw68XgTLimhKL1FNVwGc",
+            "isCurrent": false
+          },
+          {
+            "id": "5G2mUSigkb1SsE25pxDnC5",
+            "name": "It's Not Enough",
+            "trackNumber": 35,
+            "discNumber": 1,
+            "durationMs": 309912,
+            "duration": "5:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5G2mUSigkb1SsE25pxDnC5",
+            "isCurrent": false
+          },
+          {
+            "id": "49x1T0EWHJeMNTseOnHoVR",
+            "name": "I'm Not Foolin' - Single Edit",
+            "trackNumber": 36,
+            "discNumber": 1,
+            "durationMs": 287165,
+            "duration": "4:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/49x1T0EWHJeMNTseOnHoVR",
+            "isCurrent": false
+          },
+          {
+            "id": "6nzsUhMxXnQGsIF6oufGpa",
+            "name": "I Do It for You",
+            "trackNumber": 37,
+            "discNumber": 1,
+            "durationMs": 307778,
+            "duration": "5:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6nzsUhMxXnQGsIF6oufGpa",
+            "isCurrent": false
+          },
+          {
+            "id": "1bdj1VplkJkfd8tfIxT8Kv",
+            "name": "I Can't Leave Your Love Alone",
+            "trackNumber": 38,
+            "discNumber": 1,
+            "durationMs": 242291,
+            "duration": "4:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1bdj1VplkJkfd8tfIxT8Kv",
+            "isCurrent": false
+          },
+          {
+            "id": "2CgFI7DKpYE7UNnxkvsXZ6",
+            "name": "Holding Out for a Hero - Club Mix",
+            "trackNumber": 39,
+            "discNumber": 1,
+            "durationMs": 381791,
+            "duration": "6:22",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CgFI7DKpYE7UNnxkvsXZ6",
+            "isCurrent": false
+          },
+          {
+            "id": "4nBnYXDt50S8XDVZgNEbd9",
+            "name": "Say Goodbye - Classical Version",
+            "trackNumber": 40,
+            "discNumber": 1,
+            "durationMs": 203813,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4nBnYXDt50S8XDVZgNEbd9",
+            "isCurrent": false
+          },
+          {
+            "id": "43bDe7YutdkmHBJDYbkWf3",
+            "name": "A Rockin' Good Way (To Mess Around and Fall In Love)",
+            "trackNumber": 41,
+            "discNumber": 1,
+            "durationMs": 170453,
+            "duration": "2:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/43bDe7YutdkmHBJDYbkWf3",
+            "isCurrent": false
+          },
+          {
+            "id": "7InPgTotBkfD0BDZzYETW7",
+            "name": "Fire In My Soul",
+            "trackNumber": 42,
+            "discNumber": 1,
+            "durationMs": 224544,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7InPgTotBkfD0BDZzYETW7",
+            "isCurrent": false
+          },
+          {
+            "id": "3v9FSf0JD2A0o4Ccz9DvTJ",
+            "name": "Where Were You - Radio Mix",
+            "trackNumber": 43,
+            "discNumber": 1,
+            "durationMs": 219693,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3v9FSf0JD2A0o4Ccz9DvTJ",
+            "isCurrent": false
+          },
+          {
+            "id": "1Z9GNKta2230AyBrEWv8St",
+            "name": "Time",
+            "trackNumber": 44,
+            "discNumber": 1,
+            "durationMs": 218420,
+            "duration": "3:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Z9GNKta2230AyBrEWv8St",
+            "isCurrent": false
+          },
+          {
+            "id": "2LMWQ2jm3z3wXhQVI3keCY",
+            "name": "First Love",
+            "trackNumber": 45,
+            "discNumber": 1,
+            "durationMs": 203386,
+            "duration": "3:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2LMWQ2jm3z3wXhQVI3keCY",
+            "isCurrent": false
+          },
+          {
+            "id": "5vdONXurh8zQYZE3PRrz8R",
+            "name": "Gonna Get Better",
+            "trackNumber": 46,
+            "discNumber": 1,
+            "durationMs": 207241,
+            "duration": "3:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5vdONXurh8zQYZE3PRrz8R",
+            "isCurrent": false
+          },
+          {
+            "id": "12SrxWPMtpQad1TO36hfRF",
+            "name": "Under Suspicion - Single Edit",
+            "trackNumber": 47,
+            "discNumber": 1,
+            "durationMs": 266378,
+            "duration": "4:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/12SrxWPMtpQad1TO36hfRF",
+            "isCurrent": false
+          },
+          {
+            "id": "7wuJGgpTNzbUyn26IOY6rj",
+            "name": "Total Eclipse of the Heart",
+            "trackNumber": 48,
+            "discNumber": 1,
+            "durationMs": 267360,
+            "duration": "4:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7wuJGgpTNzbUyn26IOY6rj",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:27:33.628Z",
+      "trackUrl": "https://open.spotify.com/track/7wuJGgpTNzbUyn26IOY6rj",
+      "albumUrl": "https://open.spotify.com/album/0VJI3wpebzRyVHq0eZQidb",
+      "artistUrl": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2",
+      "albumName": "The Very Best of Bonnie Tyler",
+      "albumType": "Derleme",
+      "releaseDate": "2009-03-26",
+      "duration": "4:27",
+      "isrc": "GBBBN8300002",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96"
+    },
+    "genius": {
+      "url": "https://genius.com/Bonnie-tyler-total-eclipse-of-the-heart-lyrics",
+      "songId": 122476,
+      "description": "“Total Eclipse of the Heart” was written by Jim Steinman and released by Bonnie Tyler in 1983. It reached number 1 in several countries, including the UK and US.The “turn around, bright eyes” refrain originates from ‘The Dream Engine’, a musical that Steinman composed in 1969. The melody from the verses originally appeared in his score for the 1980 film ‘A Small Circle of Friends’.Tyler met Steinman in 1982 after she signed with CBS Records. He was initially reulctant to work with Tyler, but found they had a similar taste in music and a shared interest in Phil Spector’s Wall of Sound technique. After their initial meeting, Tyler returned to Steinman’s New York apartment a few weeks later where he performed the song with Rory Dodd.Steinman did not provide Tyler with a demo tape; she learned the song beside him at the piano.“Total Eclipse of the Heart” features on Tyler’s studio album ‘Faster Than the Speed of Night’, which Steinman produced. He picked the backing band, which included members of Bruce Springsteen’s E Street Band and Rick Derringer.In 2003, Tyler recorded a bilingual version of the song with French singer Kareen Antonn. Their version spent ten weeks at number 1 in France.While the song remains an evergreen hit, it has experienced heightened popularity during real solar eclipses. In 2015, the song received a 214% increase of Spotify streams in the UK. During another solar eclipse in 2017, Tyler performed the song live aboard the Oasis of the Seas with DNCE, preceeding a 500% increase in digital sales internationally."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=lcOxhH8N3Bo",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5161",
+    "title": "Eminem Lose Yourself Türkçe Çeviri",
+    "song": "Lose Yourself",
+    "slug": "eminem-lose-yourself-turkce-ceviri",
+    "date": "2026-08-03T11:27:21.273Z",
+    "artist": "Eminem",
+    "categories": [
+      "Eminem",
+      "Curtain Call: The Hits (Deluxe Edition)"
+    ],
+    "category_slugs": [
+      "eminem",
+      "curtain-call-the-hits-deluxe-edition"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+    "reading_time": 7,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Look, if you had one shot or one opportunity",
+          "To seize everything you ever wanted in one moment",
+          "Would you capture it or just let it slip?",
+          "Yo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Bak, eline tek bir şans, tek bir fırsat geçseydi;",
+          "Hayatta istediğin her şeyi tek bir anda kapmak için...",
+          "Onu yakalar mıydın, yoksa kayıp gitmesine izin mi verirdin?",
+          "Yo!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "His palms are sweaty, knees weak, arms are heavy",
+          "There's vomit on his sweater already, mom's spaghetti",
+          "He's nervous, but on the surface, he looks calm and ready",
+          "To drop bombs, but he keeps on forgetting",
+          "What he wrote down, the whole crowd goes so loud",
+          "He opens his mouth, but the words won't come out",
+          "He's chokin', how? Everybody's jokin' now",
+          "The clock's run out, time's up, over, blaow",
+          "Snap back to reality, ope, there goes gravity",
+          "Ope, there goes Rabbit, he choked, he's so mad",
+          "But he won't give up that easy, no, he won't have it",
+          "He knows his whole back's to these ropes, it don't matter",
+          "He's dope, he knows that, but he's broke, he's so stagnant",
+          "He knows when he goes back to this mobile home, that's when it's",
+          "Back to the lab again, yo, this old rhapsody",
+          "Better go capture this moment and hope it don't pass him"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Avuçları terli, dizlerinin bağı çözülmüş, kolları ağır;",
+          "Kazağında kusmuk var bile: annesinin spagettisi.",
+          "Gergin ama dışarıdan sakin ve hazır görünüyor;",
+          "Bombaları patlatmaya hazır, fakat sürekli unutuyor",
+          "Kağıda ne yazdığını; kalabalığın uğultusu gittikçe yükseliyor.",
+          "Ağzını açıyor ama kelimeler çıkmıyor.",
+          "Boğuluyor; nasıl yani? Herkes dalga geçiyor artık.",
+          "Süre doldu, vakit bitti; son, pat!",
+          "Bir anda gerçeğe dönüyor; hop, yerçekimi yine çekiyor.",
+          "Hop, Tavşan yine düştü; dili tutuldu, öfkeden kuduruyor.",
+          "Ama öyle kolay vazgeçmeyecek, hayır; bunu kabul etmiyor.",
+          "Sırtının bütünüyle iplere dayandığını biliyor ama önemi yok.",
+          "İyi olduğunu biliyor; ama beş parasız ve yerinde sayıyor.",
+          "Bu karavana döndüğü anda ne olacağını biliyor:",
+          "Yine laboratuvara, yine başa... Yo, bu eski rapsodiye.",
+          "Bu anı yakalasa iyi olur; geçip gitmemesini umarak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "En iyisi sen..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "His soul's escaping through this hole that is gaping",
+          "This world is mine for the taking, make me king",
+          "As we move toward a new world order",
+          "A normal life is boring, but superstardom's",
+          "Close to post-mortem, it only grows harder",
+          "Homie grows hotter, he blows, it's all over",
+          "These hoes is all on him, coast-to-coast shows",
+          "He's known as the Globetrotter, lonely roads",
+          "God only knows he's grown farther from home, he's no father",
+          "He goes home and barely knows his own daughter",
+          "But hold your nose 'cause here goes the cold water",
+          "These hoes don't want him no mo', he's cold product",
+          "They moved on to the next schmoe who flows",
+          "He nose-dove and sold nada, and so the soap opera",
+          "Is told, it unfolds, I suppose it's old, partner",
+          "But the beat goes on, da-da-dom, da-dom, dah-dah-dah-dah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Ruhu, açılan bu koca delikten kaçıp gidiyor.",
+          "Bu dünya benim olacak; beni kral yapın.",
+          "Yeni bir dünya düzenine doğru ilerlerken...",
+          "Sıradan hayat sıkıcı ama süperstarlık,",
+          "Ölüme yaklaşmak gibi; her geçen gün daha da zorlaşıyor.",
+          "Bizimki gittikçe harlanıyor; patlıyor ve her şey bitiyor.",
+          "Tüm kadınlar peşinde, kıyıdan kıyıya konserler...",
+          "Dünyayı dolaşan adam diye tanınıyor; ama yollar yalnız.",
+          "Tanrı biliyor ya, evinden çok uzaklaştı; artık babalık edemiyor.",
+          "Eve dönüyor, kendi kızını bile neredeyse tanımıyor.",
+          "Ama burnunu kapat; çünkü soğuk duş şimdi geliyor.",
+          "O kadınlar onu artık istemiyor; modası geçmiş bir ürüne döndü.",
+          "Hepsi rap yapan sıradaki salağa geçti.",
+          "O da dibe çakıldı, hiçbir şey satamadı; böylece bu pembe dizi",
+          "Anlatılıyor, açılıyor; eski hikâye işte, dostum.",
+          "Ama ritim devam ediyor: da-da-dom, da-dom, dah-dah-dah-dah..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "En iyisi sen..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "No more games, I'ma change what you call rage",
+          "Tear this motherfuckin' roof off like two dogs caged",
+          "I was playin' in the beginning, the mood all changed",
+          "I've been chewed up and spit out and booed off stage",
+          "But I kept rhymin' and stepped right in the next cypher",
+          "Best believe somebody's payin' the Pied Piper",
+          "All the pain inside amplified by the",
+          "Fact that I can't get by with my nine-to-",
+          "Five and I can't provide the right type of life for my family",
+          "'Cause, man, these goddamn food stamps don't buy diapers",
+          "And there's no movie, there's no Mekhi Phifer, this is my life",
+          "And these times are so hard, and it's gettin' even harder",
+          "Tryna feed and water my seed, plus teeter-totter",
+          "Caught up between bein' a father and a prima donna",
+          "Baby-mama drama, screamin' on her, too much for me to wanna",
+          "Stay in one spot, another day of monotony's gotten me",
+          "To the point I'm like a snail, I've got",
+          "To formulate a plot or end up in jail or shot",
+          "Success is my only motherfuckin' option, failure's not",
+          "Mom, I love you, but this trailer's got",
+          "To go, I cannot grow old in Salem's Lot",
+          "So here I go, it's my shot, feet, fail me not",
+          "This may be the only opportunity that I got"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Oyun bitti; sizin öfke dediğiniz şeyi baştan yazacağım.",
+          "Kafese kapatılmış iki köpek gibi şu lanet çatıyı uçuracağım.",
+          "Başta oyun oynuyordum ama bütün hava değişti.",
+          "Beni çiğneyip tükürdüler, sahneden yuhalayarak indirdiler.",
+          "Ama kafiyeye devam ettim, bir sonraki rap halkasına girdim.",
+          "Emin ol, Fareli Köyün Kavalcısı'nın bedelini biri ödeyecek.",
+          "İçimdeki bütün acı daha da büyüyor;",
+          "Çünkü şu dokuzdan beşe",
+          "İşimle kıt kanaat geçinemiyor, aileme doğru düzgün bir hayat sunamıyorum.",
+          "Çünkü kahretsin, bu yemek kuponları çocuk bezi almıyor.",
+          "Film falan yok, Mekhi Phifer da yok; bu benim gerçek hayatım.",
+          "Zaman çok zor ve gittikçe daha da zorlaşıyor.",
+          "Evladımı besleyip büyütmeye çalışırken bir de tahterevallinin üstünde sallanıyorum;",
+          "Babalıkla kendini beğenmiş bir yıldız olmak arasında kalmışım.",
+          "Çocuğumun annesiyle kavga, ona bağırmalar... Tek bir yerde",
+          "Bir gün daha kalıp aynı şeyleri yaşamaya katlanamıyorum.",
+          "Öyle bir noktaya geldim ki salyangoz gibiyim; bir plan",
+          "Kurmak zorundayım, yoksa ya hapse gireceğim ya da vurulacağım.",
+          "Başarı tek lanet seçeneğim; başarısızlık diye bir ihtimal yok.",
+          "Anne, seni seviyorum ama bu karavandan",
+          "Kurtulmam gerek; Salem's Lot'ta yaşlanamam.",
+          "İşte gidiyorum, bu benim şansım; ayaklarım, beni yarı yolda bırakmayın.",
+          "Belki de elime geçecek tek fırsat bu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better lose yourself in the music",
+          "The moment, you own it, you better never let it go (Go)",
+          "You only get one shot, do not miss your chance to blow",
+          "This opportunity comes once in a lifetime, yo",
+          "You better"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "Kendini müziğin içinde kaybetsen iyi olur;",
+          "Bu an senin, ona sahipsin; sakın bırakıp gitmesine izin verme. (Verme!)",
+          "Eline yalnızca tek bir şans geçer; parlamak için bu fırsatı kaçırma.",
+          "Bu fırsat ömürde yalnızca bir kez gelir, yo!",
+          "En iyisi sen..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "You can do anything you set your mind to, man"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Aklına koyduğun her şeyi başarabilirsin, dostum."
+        ]
+      }
+    ],
+    "excerpt": "Look, if you had one shot or one opportunity",
+    "annotations": {
+      "mom's spaghetti": "Sahne korkusunun fiziksel halini anlatan, şarkıyla özdeşleşmiş görüntü. Hem kusmayı hem de karakterin evdeki yoksul hayatını tek ayrıntıda topluyor.",
+      "Rabbit": "8 Mile filmindeki Jimmy “B-Rabbit” Smith karakteri; ilk iki verse onun hikâyesini anlatıyor.",
+      "Pied Piper": "Fareli Köyün Kavalcısı masalına gönderme. Eminem başarısının arkasından herkesin gelmesini sağlayan kişi olduğunu, ama bunun bir bedeli bulunduğunu söylüyor.",
+      "Mekhi Phifer": "8 Mile filminde Eminem'le birlikte rol alan oyuncu. “Bu film değil” diyerek üçüncü verse'te karakterden kendi gerçek hayatına geçtiğini vurguluyor.",
+      "Salem's Lot": "Hem Detroit yakınlarındaki yoksul yaşam alanına hem de Stephen King'in karanlık kasabasına göz kırpan bir ifade; burada çıkıp kurtulması gereken yer anlamında."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5Z01UMMf7V1o0MzF86s6WJ",
+        "name": "Lose Yourself",
+        "url": "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ",
+        "isrc": "USIR10211559",
+        "durationMs": 326466,
+        "duration": "5:26",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 6,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem",
+        "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "7dGJo4pcD2V6oG8kP0tJRR",
+          "name": "Eminem",
+          "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        }
+      ],
+      "album": {
+        "id": "5qENHeCSlwWpEzb25peRmQ",
+        "name": "Curtain Call: The Hits (Deluxe Edition)",
+        "url": "https://open.spotify.com/album/5qENHeCSlwWpEzb25peRmQ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+        "artists": [
+          {
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ],
+        "releaseDate": "2005-12-06",
+        "releaseDatePrecision": "day",
+        "albumType": "Derleme",
+        "rawAlbumType": "compilation",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2005 Aftermath Entertainment/Interscope Records",
+            "type": "C"
+          },
+          {
+            "text": "This Compilation ℗ 2005 Aftermath Entertainment/Interscope Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 24,
+        "tracks": [
+          {
+            "id": "3V2nJ58SmfZ28Uh0QfyL4Q",
+            "name": "Intro",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 33986,
+            "duration": "0:34",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3V2nJ58SmfZ28Uh0QfyL4Q",
+            "isCurrent": false
+          },
+          {
+            "id": "0fMWtRhzOoWoCo7dRHVEEa",
+            "name": "FACK",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 205760,
+            "duration": "3:26",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0fMWtRhzOoWoCo7dRHVEEa",
+            "isCurrent": false
+          },
+          {
+            "id": "2sGSId790ABFzGXx9VEdwl",
+            "name": "The Way I Am",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 291120,
+            "duration": "4:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2sGSId790ABFzGXx9VEdwl",
+            "isCurrent": false
+          },
+          {
+            "id": "1dWimOlV5KUHDerWZVDv5l",
+            "name": "My Name Is",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 268853,
+            "duration": "4:29",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1dWimOlV5KUHDerWZVDv5l",
+            "isCurrent": false
+          },
+          {
+            "id": "1PlMbi0Qkrlp9yVFM8JEXp",
+            "name": "Stan",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 404426,
+            "duration": "6:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1PlMbi0Qkrlp9yVFM8JEXp",
+            "isCurrent": false
+          },
+          {
+            "id": "5Z01UMMf7V1o0MzF86s6WJ",
+            "name": "Lose Yourself",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 326466,
+            "duration": "5:26",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ",
+            "isCurrent": true
+          },
+          {
+            "id": "0fGh0trRN1xz3s41r7V5ce",
+            "name": "Shake That",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 274440,
+            "duration": "4:34",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0fGh0trRN1xz3s41r7V5ce",
+            "isCurrent": false
+          },
+          {
+            "id": "1AcGKHRv5Q4TJd9yb4vjHE",
+            "name": "Sing For The Moment",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 340266,
+            "duration": "5:40",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1AcGKHRv5Q4TJd9yb4vjHE",
+            "isCurrent": false
+          },
+          {
+            "id": "2RsTjad1nVUGrQmSoL1m8Y",
+            "name": "Without Me",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 291213,
+            "duration": "4:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2RsTjad1nVUGrQmSoL1m8Y",
+            "isCurrent": false
+          },
+          {
+            "id": "3Q0mJByJRrUTZGrBFYnfCP",
+            "name": "Like Toy Soldiers",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 295666,
+            "duration": "4:56",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3Q0mJByJRrUTZGrBFYnfCP",
+            "isCurrent": false
+          },
+          {
+            "id": "5v8F7GFQgmCESBpPFbC9DN",
+            "name": "The Real Slim Shady",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 284800,
+            "duration": "4:45",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5v8F7GFQgmCESBpPFbC9DN",
+            "isCurrent": false
+          },
+          {
+            "id": "0TGd9kXFDRQG9FF0netmah",
+            "name": "Mockingbird",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 251266,
+            "duration": "4:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0TGd9kXFDRQG9FF0netmah",
+            "isCurrent": false
+          },
+          {
+            "id": "5dZqnPqFR45xCZGWmxScqM",
+            "name": "Guilty Conscience",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 200213,
+            "duration": "3:20",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5dZqnPqFR45xCZGWmxScqM",
+            "isCurrent": false
+          },
+          {
+            "id": "4ni8GyT1Lwn1LVl88MJsQd",
+            "name": "Cleanin' Out My Closet",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 298960,
+            "duration": "4:59",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4ni8GyT1Lwn1LVl88MJsQd",
+            "isCurrent": false
+          },
+          {
+            "id": "4S06iZrLlGsSqKlK6paOv8",
+            "name": "Just Lose It",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 248600,
+            "duration": "4:09",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4S06iZrLlGsSqKlK6paOv8",
+            "isCurrent": false
+          },
+          {
+            "id": "42YNobZ4HN3tRVEA47wLT6",
+            "name": "When I'm Gone",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 281133,
+            "duration": "4:41",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/42YNobZ4HN3tRVEA47wLT6",
+            "isCurrent": false
+          },
+          {
+            "id": "2iveqBUOzQlQBSxgAlK0bs",
+            "name": "Stan - Live At 43rd Grammy Awards",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 380280,
+            "duration": "6:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2iveqBUOzQlQBSxgAlK0bs",
+            "isCurrent": false
+          },
+          {
+            "id": "7jmEukeWKG64zyTFDrBSdk",
+            "name": "Dead Wrong",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 297440,
+            "duration": "4:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7jmEukeWKG64zyTFDrBSdk",
+            "isCurrent": false
+          },
+          {
+            "id": "33WAOTIgd5JLc3CFZBaLQA",
+            "name": "Role Model",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 205280,
+            "duration": "3:25",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/33WAOTIgd5JLc3CFZBaLQA",
+            "isCurrent": false
+          },
+          {
+            "id": "0gM2LPvmYnW1Gr6A3hS8Fg",
+            "name": "Kill You",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 264786,
+            "duration": "4:25",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0gM2LPvmYnW1Gr6A3hS8Fg",
+            "isCurrent": false
+          },
+          {
+            "id": "1nYGBdTeHQd0YXqRBEDMGz",
+            "name": "Shit On You",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 328213,
+            "duration": "5:28",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1nYGBdTeHQd0YXqRBEDMGz",
+            "isCurrent": false
+          },
+          {
+            "id": "03MsOLzpQSyH46DZxkt84o",
+            "name": "Criminal",
+            "trackNumber": 5,
+            "discNumber": 2,
+            "durationMs": 313680,
+            "duration": "5:14",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/03MsOLzpQSyH46DZxkt84o",
+            "isCurrent": false
+          },
+          {
+            "id": "5ASZFbCod633wLragmPYTj",
+            "name": "Renegade",
+            "trackNumber": 6,
+            "discNumber": 2,
+            "durationMs": 336133,
+            "duration": "5:36",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5ASZFbCod633wLragmPYTj",
+            "isCurrent": false
+          },
+          {
+            "id": "1zWcM9b68ZdftWCP7JyOTq",
+            "name": "Just Don't Give A Fuck",
+            "trackNumber": 7,
+            "discNumber": 2,
+            "durationMs": 241960,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1zWcM9b68ZdftWCP7JyOTq",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:27:05.115Z",
+      "trackUrl": "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ",
+      "albumUrl": "https://open.spotify.com/album/5qENHeCSlwWpEzb25peRmQ",
+      "artistUrl": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+      "albumName": "Curtain Call: The Hits (Deluxe Edition)",
+      "albumType": "Derleme",
+      "releaseDate": "2005-12-06",
+      "duration": "5:26",
+      "isrc": "USIR10211559",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578"
+    },
+    "genius": {
+      "url": "https://genius.com/Eminem-lose-yourself-lyrics",
+      "songId": 207,
+      "description": "“Lose Yourself” is the theme song from Eminem’s semi-biographical 2002 movie 8 Mile. Eminem is narrating the life of the film’s protagonist, Jimmy, up until the third verse, where Jimmy and Eminem’s journey converge.Engineer Steven King told Rolling Stone in 2003 that Eminem “laid down all three verses in one take”, which Eminem has since shed doubt on.Eminem stated in his 2008 autobiography, The Way I Am, that he wrote “in-between shooting scenes [for 8 Mile] and taking care of [his] kids” (pg 108-109.) Scans of the scrawled lyrics on A4 writing pad pages were also featured in the autobiography (pg 217-218.)In 2014, the demo version appeared on Shady Records' SHADY XV compilation album, which featured the same beat and tone but almost entirely different lyrics.Commercially, “Lose Yourself” was hugely successful and reached #1 in 20 countries, including the US. It marked Eminem’s first US #1, and held the top position for 12 weeks, becoming the third-longest chart-topper from a movie soundtrack (behind “I Will Always Love You” and “End Of The Road”). As of 2022, it is 13x Multi-Platinum in the US.The song was lauded critically, too. It won two Grammys (Best Male Rap Solo Performance & Best Rap Song) and became the first rap song to win the Oscar for Best Original Song. Eminem didn’t attend the ceremony as he didn’t think he’d win, meaning he didn’t perform it, which is atypical for winners of the category. This was remedied when he performed the song at the 2020 Oscars.The song has also had a huge cultural impact. Apple used the song for two commercials in the mid-‘00s to promote iTunes and the iPod, with Eminem featuring in the latter video. Chrysler used the instrumental and Eminem for their 2011 “Born of Fire” Super Bowl commercial. In 2021, Eminem opened up a restaurant in Detroit called “Mom’s Spaghetti”, which is a lyric that’s been meme’d extensively (even being given its own fan-made song.)"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=7YuAzR2XVAM",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5160",
+    "title": "LATIN MAFIA, Fred again.. Te Estoy Correteando Türkçe Çeviri",
+    "song": "Te Estoy Correteando",
+    "slug": "latin-mafia-fred-again-te-estoy-correteando-turkce-ceviri",
+    "date": "2026-08-03T11:26:46.856Z",
+    "artist": "LATIN MAFIA, Fred again..",
+    "categories": [
+      "LATIN MAFIA",
+      "Fred again..",
+      "9 months & 50 hours"
+    ],
+    "category_slugs": [
+      "latin-mafia",
+      "fred-again",
+      "9-months-50-hours"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Coro",
+        "lines": [
+          "Te estoy correteando",
+          "Ya sal de mi mente que te quiero ver",
+          "Ya van varios días enfermo de ti",
+          "Dale, ven, cúrame",
+          "Cuéntame, ¿qué ha sido de ti?",
+          "Extráñame, te extraño a ti"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Coro",
+        "lines": [
+          "Peşinden koşup duruyorum;",
+          "Çık artık aklımdan da seni karşımda göreyim.",
+          "Günlerdir sana tutulmuş, hasta haldeyim;",
+          "Hadi gel de iyileştir beni.",
+          "Anlat bana, ne yaptın bunca zamandır?",
+          "Özle beni; çünkü ben seni özlüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Coro",
+        "lines": [
+          "Uh-uh-uh",
+          "Ah-ah-ah",
+          "Uh-uh-uh-uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Coro",
+        "lines": [
+          "Uh-uh-uh...",
+          "Ah-ah-ah...",
+          "Uh-uh-uh-uh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Coro",
+        "lines": [
+          "Te estoy correteando",
+          "Ya sal de mi mente que te quiero ver",
+          "Ya van varios días enfermo de ti",
+          "Dale, ven, cúrame",
+          "Cuéntame, ¿qué ha sido de ti?",
+          "Extráñame, te extraño a ti"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Coro",
+        "lines": [
+          "Peşinden koşup duruyorum;",
+          "Çık artık aklımdan da seni karşımda göreyim.",
+          "Günlerdir sana tutulmuş, hasta haldeyim;",
+          "Hadi gel de iyileştir beni.",
+          "Anlat bana, ne yaptın bunca zamandır?",
+          "Özle beni; çünkü ben seni özlüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verso",
+        "lines": [
+          "No sabes, no sabes verme",
+          "No puedo si tú no estás cerca de mí",
+          "Me va a matar estar sin ti"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verso",
+        "lines": [
+          "Bilmiyorsun, beni gerçekten nasıl göreceğini bilmiyorsun.",
+          "Sen yanımda değilken dayanamıyorum;",
+          "Sensiz kalmak öldürecek beni."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Puente",
+        "lines": [
+          "Uh-uh-uh-uh",
+          "Uh-uh-uh-uh-uh",
+          "Uh-uh-uh-uh",
+          "Uh-uh-uh-uh",
+          "Uh-uh-uh-uh",
+          "Uh-uh-uh-uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Puente",
+        "lines": [
+          "Uh-uh-uh-uh...",
+          "Uh-uh-uh-uh-uh...",
+          "Uh-uh-uh-uh...",
+          "Uh-uh-uh-uh...",
+          "Uh-uh-uh-uh...",
+          "Uh-uh-uh-uh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Coro",
+        "lines": [
+          "Te estoy correteando",
+          "Ya sal de mi mente que te quiero ver",
+          "Ya van varios días enfermo de ti",
+          "Dale, ven, cúrame",
+          "Cuéntame, ¿qué ha sido de ti?",
+          "Extráñame, te extraño a ti"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Coro",
+        "lines": [
+          "Peşinden koşup duruyorum;",
+          "Çık artık aklımdan da seni karşımda göreyim.",
+          "Günlerdir sana tutulmuş, hasta haldeyim;",
+          "Hadi gel de iyileştir beni.",
+          "Anlat bana, ne yaptın bunca zamandır?",
+          "Özle beni; çünkü ben seni özlüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "(Todo se va, ya no pregunta por mí, eh)",
+          "(Todo se va, ella se va, ya no pregunta por mí)",
+          "(Estás acá, no estás aquí)",
+          "(Te quiero acá, voy a morir, voy a morir)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "(Her şey geçip gidiyor, artık beni sormuyor bile, eh...)",
+          "(Her şey geçip gidiyor; o da gidiyor, artık beni hiç sormuyor.)",
+          "(Buradasın ama aslında yanımda değilsin.)",
+          "(Seni burada istiyorum; öleceğim, öleceğim.)"
+        ]
+      }
+    ],
+    "excerpt": "Te estoy correteando",
+    "annotations": {
+      "enfermo de ti": "Kelimesi kelimesine “senden hasta olmak”; birine duyulan özlemin insanı fiziksel bir hastalık gibi ele geçirmesini anlatıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5B579RUazOpBcuxjTZWnMs",
+        "name": "Te Estoy Correteando",
+        "url": "https://open.spotify.com/track/5B579RUazOpBcuxjTZWnMs",
+        "isrc": "GBAHS2600518",
+        "durationMs": 193637,
+        "duration": "3:14",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 12,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6XTGKOV9jceQ6f67lnhpbF",
+        "name": "LATIN MAFIA",
+        "url": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6XTGKOV9jceQ6f67lnhpbF",
+          "name": "LATIN MAFIA",
+          "url": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF"
+        },
+        {
+          "id": "4oLeXFyACqeem2VImYeBFe",
+          "name": "Fred again..",
+          "url": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+        }
+      ],
+      "album": {
+        "id": "4HZ3fF1dwSZLwztlLwoDYA",
+        "name": "9 months & 50 hours",
+        "url": "https://open.spotify.com/album/4HZ3fF1dwSZLwztlLwoDYA",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+        "artists": [
+          {
+            "id": "4oLeXFyACqeem2VImYeBFe",
+            "name": "Fred again..",
+            "url": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+          },
+          {
+            "id": "6XTGKOV9jceQ6f67lnhpbF",
+            "name": "LATIN MAFIA",
+            "url": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF"
+          }
+        ],
+        "releaseDate": "2026-07-31",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "Under exclusive licence to Warner Music UK Limited. An Atlantic Records UK release in association with Rimas Entertainment, © 2026, Fred Gibson, with the exception of Track 9 (p) 2026 Domino Recording Co. Ltd.",
+            "type": "C"
+          },
+          {
+            "text": "Under exclusive licence to Warner Music UK Limited. An Atlantic Records UK release in association with Rimas Entertainment, ℗ 2026, Fred Gibson, with the exception of Track 9 (p) 2026 Domino Recording Co. Ltd.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 14,
+        "tracks": [
+          {
+            "id": "5MQ3m470DyReUYdRjWnlST",
+            "name": "Hey Hey",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 125088,
+            "duration": "2:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5MQ3m470DyReUYdRjWnlST",
+            "isCurrent": false
+          },
+          {
+            "id": "5PE1xJ7cIpJbVqqrKtQxJJ",
+            "name": "Alvafro",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 238050,
+            "duration": "3:58",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5PE1xJ7cIpJbVqqrKtQxJJ",
+            "isCurrent": false
+          },
+          {
+            "id": "1lDvpSd6ilcUvvKpPWvlL0",
+            "name": "Bonita",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 186304,
+            "duration": "3:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1lDvpSd6ilcUvvKpPWvlL0",
+            "isCurrent": false
+          },
+          {
+            "id": "0CqcwokM0htaDhHiLT59TV",
+            "name": "benjy chord",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 165306,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0CqcwokM0htaDhHiLT59TV",
+            "isCurrent": false
+          },
+          {
+            "id": "6QvMHLFmp3sk707iQZhCfA",
+            "name": "Cmon (LATIN MAFIA & Fred edit)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 255517,
+            "duration": "4:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6QvMHLFmp3sk707iQZhCfA",
+            "isCurrent": false
+          },
+          {
+            "id": "16WxbPKGXnphCK8UsilodJ",
+            "name": "Quiereme",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 175813,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/16WxbPKGXnphCK8UsilodJ",
+            "isCurrent": false
+          },
+          {
+            "id": "1kBT6WgdeU7yYwSmYq5Qlx",
+            "name": "casino143 - Rue De La Fortuna Remix",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 178673,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1kBT6WgdeU7yYwSmYq5Qlx",
+            "isCurrent": false
+          },
+          {
+            "id": "47cc2ikjn9ImvrKMZPe9ab",
+            "name": "Film Scene Soundtrack",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 165500,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47cc2ikjn9ImvrKMZPe9ab",
+            "isCurrent": false
+          },
+          {
+            "id": "5lFNqg3eMNMuJsnFRKB460",
+            "name": "Open Eye Signal - under the fabric",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 241216,
+            "duration": "4:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5lFNqg3eMNMuJsnFRKB460",
+            "isCurrent": false
+          },
+          {
+            "id": "5p8diKLl1u9ALp50p7LP6h",
+            "name": "Piensas En Mi",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 181500,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5p8diKLl1u9ALp50p7LP6h",
+            "isCurrent": false
+          },
+          {
+            "id": "7HtrJxvkZqAFEe8QTnclcZ",
+            "name": "Halo",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 184523,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7HtrJxvkZqAFEe8QTnclcZ",
+            "isCurrent": false
+          },
+          {
+            "id": "5B579RUazOpBcuxjTZWnMs",
+            "name": "Te Estoy Correteando",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 193637,
+            "duration": "3:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5B579RUazOpBcuxjTZWnMs",
+            "isCurrent": true
+          },
+          {
+            "id": "6cEX8cGCDhORY2dGLpd1jx",
+            "name": "Mabe",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 294350,
+            "duration": "4:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6cEX8cGCDhORY2dGLpd1jx",
+            "isCurrent": false
+          },
+          {
+            "id": "66llMuph47aM5zX3PfOWWS",
+            "name": "I wish it wasnt",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 225971,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/66llMuph47aM5zX3PfOWWS",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:26:40.576Z",
+      "trackUrl": "https://open.spotify.com/track/5B579RUazOpBcuxjTZWnMs",
+      "albumUrl": "https://open.spotify.com/album/4HZ3fF1dwSZLwztlLwoDYA",
+      "artistUrl": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF",
+      "albumName": "9 months & 50 hours",
+      "albumType": "Album",
+      "releaseDate": "2026-07-31",
+      "duration": "3:14",
+      "isrc": "GBAHS2600518",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1"
+    },
+    "genius": {
+      "url": "https://genius.com/Latin-mafia-and-fred-again-te-estoy-correteando-lyrics",
+      "songId": 12887526,
+      "description": "“Te Estoy Correteando” fue por primera vez mostrada en un en vivo de Instagram hecho por Milton, estando acompañado de Mike, comentando que la canción nunca iba a salir y dando algunas pistas de que se había trabajado con Fred.Sí, pero simplemente salió de la diversión así. Solo salió de la diversión eso, no va a salir nunca, pero es divertido porque eso lo hicimos con un amigo, ya ustedes sabrán con quién.Dentro del mismo live de Instagram se pudo mostrar el coro con algunas modificaciones y un verso diferente al que se encuentra en la versión lanzada oficialmente.En el momento que se mostró este adelanto, se pensó que ese fragmento mostrado iba a hacer parte de “Hecho para ti”, canción que también tiene ritmo de cumbia y tiene colaboración con Omar Apollo.Durante algunas presentaciones en vivo hechas por Fred junto a los chicos de LATIN MAFIA, se reproducía la canción, pero en ningún momento se confirmó si iba a salir oficialmente o no. No sería hasta el en vivo hecho por Fred y LATIN MAFIA en la realización del álbum que se mostró cómo se terminaba la canción, gracias al apoyo que tenía esta canción sin salir. Conteniendo una introducción cantada por varias personas y un nuevo verso.La canción sería mostrada por última vez antes de su lanzamiento oficial el día que Fred y LATIN MAFIA hicieron su concierto en el Palacio de los Deportes el día 30 de julio de 2026, en la Ciudad de México, confirmando la salida de la canción y compartiendo tanto con fans como con gente importante para cada integrante.En la letra de la canción se muestra un apego emocional hacia alguien, comentando que si no se está cerca de esta persona podría pasar algo malo e incluso se tienen algunas ilusiones con esta."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5159",
+    "title": "Shabjdeed, SMOKAHOLIC SLV Türkçe Çeviri",
+    "song": "SLV",
+    "slug": "shabjdeed-smokaholic-slv-turkce-ceviri",
+    "date": "2026-08-03T11:26:20.148Z",
+    "artist": "Shabjdeed, SMOKAHOLIC",
+    "categories": [
+      "Shabjdeed",
+      "SMOKAHOLIC",
+      "SLV"
+    ],
+    "category_slugs": [
+      "shabjdeed",
+      "smokaholic",
+      "slv"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "المقدمة",
+        "lines": [
+          "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
+          "أنا بحتار فيك، بفهمكاش، بتقنعنيش",
+          "بحترم قُدرتك على التنفيذ أوقات",
+          "(شب جديد، شب جديد)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "المقدمة",
+        "lines": [
+          "“İşitsel uyuşturucular”, tarif edilemeyecek kadar tehlikeli bir bağımlılıktır.",
+          "Sana bakınca afallıyorum; seni anlamıyorum, beni ikna etmiyorsun.",
+          "Bazen bir işi hayata geçirme becerine saygı duyuyorum.",
+          "(Shabjdeed, Shabjdeed...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "المقطع",
+        "lines": [
+          "أنا بحتار فيك، بفهمكاش، بتقنعنيش",
+          "بحترم قُدرتك على التنفيذ أوقات",
+          "وتركيزك على موضوع النسوان بالذات",
+          "هعملك درس في الـ Diss هاد",
+          "قُلت: آه أو لا، مروان",
+          "لأ مش بابلو، Saint Levant",
+          "ليش إسمَك هيك؟ ليش إسمَك هيك؟",
+          "ليش نِص شمال؟",
+          "ليش ما تصير \"سان نسوان\"؟",
+          "أنضف غزَّاوي في كُل عمَّان",
+          "ليش ما يصير فكل لبنان؟ كمان معاه مجال",
+          "بجاوب عَسؤالي بسؤال",
+          "حج فاهم فلمك، وعارف أصلك، وأجيتُ أقوله للناس",
+          "هاد مروان إبن رشيد",
+          "أبوه في الكار عتيق",
+          "خاتم الصنعة صنعتهم هادي",
+          "بيخلط فلسطين مع آي تعريص مع مُحن أوروبي وبقول يا هادي",
+          "شلَّة بوشملك بطيخ عَ فخادي عشان تعرف بس قديش بحب بلادي",
+          "شلَّة مايَّا خليفة مع \"قُدس لنا\" مع هيفا وهبي مع، إسمع",
+          "مروان وين ما بدك تروح؟ بآخذك",
+          "بصرخ وجهك حَج باخَت",
+          "أنا إسمي عدي أنا أخوك",
+          "إذا إجيت من الجسر بآجي بآخذك",
+          "أنا بآخذك، عَ سجاذتك تقلقش (آه)",
+          "بنضيفك عَ جروب الهارش",
+          "تتسلى بتتونس بتتسلك",
+          "إذا دارت فيك ماسكَك",
+          "أنا تماسَّك، فَ تمسّك خيّي",
+          "إكتم أنفاسَك، طول فاسَك، بالحرب بغي",
+          "وأنا بَضرِب بأساسك",
+          "وإذا مش أنا، طب مين ماسكك؟",
+          "إستل سيفك طُول فاسك",
+          "هاد مين؟ شب جديد، شب جديد!"
+        ]
+      },
+      {
+        "original": false,
+        "label": "المقطع",
+        "lines": [
+          "Sana bakınca afallıyorum; seni anlamıyorum, beni ikna etmiyorsun.",
+          "Bazen bir işi hayata geçirme becerine saygı duyuyorum.",
+          "Özellikle de kadınlar konusuna olan takıntılı odağını...",
+          "Şimdi sana bu diss işinde bir ders vereceğim.",
+          "Söyle bakalım: evet mi, hayır mı Marwan?",
+          "Yok, Marwan Pablo değil; Saint Levant.",
+          "Adın neden böyle? Neden adın böyle?",
+          "Neden yarım yamalak “kuzey”desin?",
+          "Niye adını “Saint Kadınlar” yapmıyorsun?",
+          "Bütün Amman'ın en tertemiz Gazelisi!",
+          "Neden bütün Lübnan'ınki de olmasın? Orada da sana yer var.",
+          "Soruma yine bir soruyla cevap veriyorsun.",
+          "Tamam, filmini anladım; kökünü de biliyorum ve insanlara anlatmaya geldim.",
+          "Bu, Rashid'in oğlu Marwan.",
+          "Babası bu işin içindeki eski kurtlardan.",
+          "Bu zanaatın mührü; onları Hadi biçimlendirdi.",
+          "Filistin'i biraz yağcılıkla, biraz Avrupa işi azgınlıkla karıştırıp “Ya Hadi” diyor.",
+          "Boşmalak tayfası, kalçalarımda karpuz; sırf vatanımı ne kadar sevdiğimi anlayasın diye.",
+          "Mia Khalifa'yı “Kudüs bizimdir”le, Haifa Wehbe'yi de hepsiyle karıştırıyor... Dinle!",
+          "Marwan, nereye gitmek istersen seni ben götürürüm.",
+          "Yüzüne haykırırım: Yeter artık, bayatladın.",
+          "Benim adım Oday; ben senin kardeşinim.",
+          "Köprüden gelirsen, gelip seni ben alırım.",
+          "Seni seccadenden bile alırım, hiç merak etme. (Ah!)",
+          "Seni Harish grubuna ekleriz.",
+          "Oyalanır, eğlenir, vaktini geçirirsin.",
+          "İşler başına dolanırsa seni ben tutarım.",
+          "Ben dimdik duruyorum; sen de tutun kardeşim.",
+          "Nefesini tut, baltanı uzat; savaşta saldır.",
+          "Ben senin temeline vuruyorum.",
+          "Ben değilsem, söyle seni kim tutacak?",
+          "Çek kılıcını, baltanı boydan boya uzat.",
+          "Kim bu? Shabjdeed, Shabjdeed!"
+        ]
+      }
+    ],
+    "excerpt": "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
+    "annotations": {
+      "SLV": "Parça, Saint Levant'ın sahne adına ve Filistin kimliğini romantizm, kadınlar ve Batılı pop estetiğiyle birleştirme biçimine yöneltilmiş sert ama yer yer mizahi bir diss.",
+      "Saint Levant / Saint Kadınlar": "“Levant” Doğu Akdeniz bölgesini ifade ediyor. Shabjdeed, sanatçının kadınlara odaklanan şarkılarını hedef alarak adı “Saint Kadınlar”a çeviriyor.",
+      "karpuz": "Karpuz, renkleri nedeniyle Filistin bayrağının ve Filistin dayanışmasının yaygın sembollerinden biri.",
+      "köprü": "Ürdün ile Batı Şeria arasındaki geçişi ve iki sanatçının Filistin–Amman hattındaki kimlik tartışmasını çağrıştırıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5c3hT0pyCPmAoELs7hBQFv",
+        "name": "SLV",
+        "url": "https://open.spotify.com/track/5c3hT0pyCPmAoELs7hBQFv",
+        "isrc": "QT6FK2685055",
+        "durationMs": 116000,
+        "duration": "1:56",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0KJ7DiybcwyulZLILX3Z95",
+        "name": "Shabjdeed",
+        "url": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1298d88ed54de31aedf76b43",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0KJ7DiybcwyulZLILX3Z95",
+          "name": "Shabjdeed",
+          "url": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95"
+        },
+        {
+          "id": "5ly3me5Wii82YeizsqL5l4",
+          "name": "SMOKAHOLIC",
+          "url": "https://open.spotify.com/artist/5ly3me5Wii82YeizsqL5l4"
+        }
+      ],
+      "album": {
+        "id": "3q7fcZTpcheJydAcUNCnlf",
+        "name": "SLV",
+        "url": "https://open.spotify.com/album/3q7fcZTpcheJydAcUNCnlf",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+        "artists": [
+          {
+            "id": "0KJ7DiybcwyulZLILX3Z95",
+            "name": "Shabjdeed",
+            "url": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95"
+          },
+          {
+            "id": "5ly3me5Wii82YeizsqL5l4",
+            "name": "SMOKAHOLIC",
+            "url": "https://open.spotify.com/artist/5ly3me5Wii82YeizsqL5l4"
+          }
+        ],
+        "releaseDate": "2026-08-01",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 BLTNM",
+            "type": "C"
+          },
+          {
+            "text": "2026 BLTNM",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5c3hT0pyCPmAoELs7hBQFv",
+            "name": "SLV",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 116000,
+            "duration": "1:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5c3hT0pyCPmAoELs7hBQFv",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:26:15.715Z",
+      "trackUrl": "https://open.spotify.com/track/5c3hT0pyCPmAoELs7hBQFv",
+      "albumUrl": "https://open.spotify.com/album/3q7fcZTpcheJydAcUNCnlf",
+      "artistUrl": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95",
+      "albumName": "SLV",
+      "albumType": "Single",
+      "releaseDate": "2026-08-01",
+      "duration": "1:56",
+      "isrc": "QT6FK2685055",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7"
+    },
+    "genius": {
+      "url": "https://genius.com/Shabjdeed-slv-lyrics",
+      "songId": 13997116,
+      "description": "اس ال في، و هو دس تراك من شب جديد الى سانت ليفانت و هو فنان فلسطيني جزائريسبب الدس أعاد الأحداث في عام 2018 ، حيث قام السينابتك بالإعلان عن حفل اطلاق ألبومه بعنوان القمر و المحيط، و كان شب جديد من ضمن الحفلة، و أقيمت الحفلة في مدينة رام الله الواقعة في الضفة الغربية في فلسطين، و لكن من جعل شب جديد عمل دس تراك بعنوان مسلّم بضارب علينا برامالله هاهاهاها او ما تعرف ب حاكم عسكري، هو انه الرابر الأردني مسلم قام بالإعلان لحفل له ستقام أيضا بنفس المدينة و نفس اليوم و لهذا قام شب جديد لهذا الدسو هنا يتكرر المشهد ولكن هذه المرة مع شب جديد نفسه، حيث أعلن انه سيقيم حفلة في عمّان عاصمة الأردن، بتاريخ 13 أغسطس لهذا العامليأتي سانت ليفانت، بعد 15 يوماً، بالإعلان عن التور الخاص به بعنوان ليالي الأفندي ، لترويج ألبومه الجديد بعنوان الأفندي الذي سيطلق بتاريخ 21 أغسطس لهذا العام، ، و أول حفل له في هذا التور سيكون ب13 أغسطس لهذا العام و في عمّان أيضا"
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5158",
+    "title": "Justin Bieber, Ludacris Baby Türkçe Çeviri",
+    "song": "Baby",
+    "slug": "justin-bieber-ludacris-baby-turkce-ceviri",
+    "date": "2026-08-03T11:26:04.392Z",
+    "artist": "Justin Bieber, Ludacris",
+    "categories": [
+      "Justin Bieber",
+      "Ludacris",
+      "My World 2.0"
+    ],
+    "category_slugs": [
+      "justin-bieber",
+      "ludacris",
+      "my-world-2-0"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Justin Bieber",
+        "lines": [
+          "Oh, woah",
+          "Oh, woah",
+          "Oh, woah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Justin Bieber",
+        "lines": [
+          "Oh, woah...",
+          "Oh, woah...",
+          "Oh, woah..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Justin Bieber",
+        "lines": [
+          "You know you love me, I know you care",
+          "Just shout whenever, and I'll be there",
+          "You are my love, you are my heart",
+          "And we will never, ever, ever be apart",
+          "Are we an item? Girl, quit playin'",
+          "\"We're just friends,\" what are you sayin'?",
+          "Said, \"There's another,\" and looked right in my eyes",
+          "My first love broke my heart for the first time, and I was like"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Justin Bieber",
+        "lines": [
+          "Beni sevdiğini biliyorsun, önemsediğini de biliyorum.",
+          "Ne zaman seslensen, yanında olacağım.",
+          "Sen aşkımsın, sen kalbimsin;",
+          "Ve biz asla, ama asla ayrılmayacağız.",
+          "Biz sevgili değil miyiz? Kızım, oyun oynamayı bırak.",
+          "“Sadece arkadaşız” da ne demek şimdi?",
+          "“Başka biri var” deyip gözlerimin içine baktın;",
+          "İlk aşkım, kalbimi ilk kez kırdı ve ben şöyle kaldım:"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Justin Bieber",
+        "lines": [
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine",
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Justin Bieber",
+        "lines": [
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim...",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Justin Bieber",
+        "lines": [
+          "Oh, for you, I would've done whatever",
+          "And I just can't believe we ain't together",
+          "And I wanna play it cool, but I'm losin' you",
+          "I'll buy you anything, I'll buy you any ring",
+          "And I'm in pieces, baby, fix me",
+          "And just shake me 'til you wake me from this bad dream",
+          "I'm goin' down, down, down, down",
+          "And I just can't believe my first love won't be around, and I'm like"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Justin Bieber",
+        "lines": [
+          "Oh, senin için her şeyi yapardım.",
+          "Artık birlikte olmadığımıza inanamıyorum.",
+          "Umursamıyormuş gibi davranmak istiyorum ama seni kaybediyorum.",
+          "Sana her şeyi alırım, istediğin yüzüğü bile.",
+          "Paramparçayım bebeğim, toparla beni.",
+          "Sars da uyandır beni şu kötü rüyadan.",
+          "Gittikçe dibe batıyorum, dibe, dibe, dibe...",
+          "İlk aşkımın artık yanımda olmayacağına inanamıyorum ve şöyleyim:"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Justin Bieber & Ludacris",
+        "lines": [
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine",
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine (Luda)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Justin Bieber & Ludacris",
+        "lines": [
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim...",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim... (Luda!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Ludacris",
+        "lines": [
+          "When I was thirteen, I had my first love",
+          "There was nobody that compared to my baby, and nobody came between us nor could ever come above",
+          "She had me goin' crazy, oh, I was starstruck",
+          "She woke me up daily, don't need no Starbucks (Woo)",
+          "She made my heart pound, and skip a beat when I see her in the street and",
+          "At school on the playground, but I really wanna see her on the weekend",
+          "She knows she got me dazin', 'cause she was so amazin'",
+          "And now my heart is breakin', but I just keep on sayin'"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Ludacris",
+        "lines": [
+          "On üç yaşımdayken ilk aşkımı yaşadım.",
+          "Benim bebeğimle kimse boy ölçüşemezdi; aramıza kimse giremez, kimse onun üstüne çıkamazdı.",
+          "Aklımı başımdan almıştı, yıldız çarpmışa dönmüştüm.",
+          "Her sabah beni o uyandırırdı; Starbucks'a falan gerek yoktu. (Woo!)",
+          "Kalbimi deli gibi çarptırır, sokakta onu görünce bir an durdururdu;",
+          "Okulun bahçesinde görürdüm ama asıl hafta sonu buluşmak isterdim.",
+          "Aklımı bulandırdığını biliyordu, çünkü gerçekten inanılmazdı.",
+          "Şimdi kalbim kırılıyor ama ben hâlâ aynı şeyi söylüyorum:"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Justin Bieber",
+        "lines": [
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine",
+          "Baby, baby, baby, oh",
+          "Like baby, baby, baby, no",
+          "Like baby, baby, baby, oh",
+          "I thought you'd always be mine, mine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Justin Bieber",
+        "lines": [
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim...",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hani bebeğim, bebeğim, bebeğim... Hayır!",
+          "Bebeğim, bebeğim, bebeğim, oh...",
+          "Hep benim olacağını sanmıştım, benim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Justin Bieber",
+        "lines": [
+          "I'm gone (Yeah-yeah-yeah, yeah-yeah-yeah)",
+          "Now I'm all gone (Yeah-yeah-yeah, yeah-yeah-yeah)",
+          "Now I'm all gone (Yeah-yeah-yeah, yeah-yeah-yeah)",
+          "Now I'm all gone (Gone, gone, gone, gone)",
+          "I'm gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Justin Bieber",
+        "lines": [
+          "Ben bittim... (Yeah-yeah-yeah, yeah-yeah-yeah...)",
+          "Artık tamamen bittim... (Yeah-yeah-yeah, yeah-yeah-yeah...)",
+          "Artık tamamen bittim... (Yeah-yeah-yeah, yeah-yeah-yeah...)",
+          "Artık tamamen bittim... (Bittim, bittim, bittim, bittim...)",
+          "Ben bittim."
+        ]
+      }
+    ],
+    "excerpt": "Oh, woah",
+    "annotations": {
+      "starstruck": "Bir ünlüyü görmüş gibi büyülenip dili tutulmak. Ludacris burada ilk aşkının onu bir yıldız kadar etkilediğini söylüyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6epn3r7S14KUqlReYr77hA",
+        "name": "Baby",
+        "url": "https://open.spotify.com/track/6epn3r7S14KUqlReYr77hA",
+        "isrc": "USUM70919263",
+        "durationMs": 214240,
+        "duration": "3:34",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1uNFoZAHBGtllmzznpCI3s",
+          "name": "Justin Bieber",
+          "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+        },
+        {
+          "id": "3ipn9JLAPI5GUEo4y4jcoi",
+          "name": "Ludacris",
+          "url": "https://open.spotify.com/artist/3ipn9JLAPI5GUEo4y4jcoi"
+        }
+      ],
+      "album": {
+        "id": "3BmcYMh0KYsimWL6p2gPa9",
+        "name": "My World 2.0",
+        "url": "https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+        "artists": [
+          {
+            "id": "1uNFoZAHBGtllmzznpCI3s",
+            "name": "Justin Bieber",
+            "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+          }
+        ],
+        "releaseDate": "2010-01-01",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2010 The Island Def Jam Music Group",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2010 The Island Def Jam Music Group",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "6epn3r7S14KUqlReYr77hA",
+            "name": "Baby",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 214240,
+            "duration": "3:34",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6epn3r7S14KUqlReYr77hA",
+            "isCurrent": true
+          },
+          {
+            "id": "3rLIv187BhjyweFe89SgLn",
+            "name": "Somebody To Love",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 220920,
+            "duration": "3:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3rLIv187BhjyweFe89SgLn",
+            "isCurrent": false
+          },
+          {
+            "id": "1DyV9obL0pPibOjW5ufg15",
+            "name": "Stuck In The Moment",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 222960,
+            "duration": "3:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1DyV9obL0pPibOjW5ufg15",
+            "isCurrent": false
+          },
+          {
+            "id": "6Xw2FLih8m5ItDbyP992HH",
+            "name": "U Smile",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 196906,
+            "duration": "3:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Xw2FLih8m5ItDbyP992HH",
+            "isCurrent": false
+          },
+          {
+            "id": "1xgN9KBVVoTNygpYjpXnvH",
+            "name": "Runaway Love",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 212573,
+            "duration": "3:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xgN9KBVVoTNygpYjpXnvH",
+            "isCurrent": false
+          },
+          {
+            "id": "01BlGnXpLuC0BjgUxVYZFb",
+            "name": "Never Let You Go",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 264400,
+            "duration": "4:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/01BlGnXpLuC0BjgUxVYZFb",
+            "isCurrent": false
+          },
+          {
+            "id": "1tzkJMX3gNjnpcHdLD0pM3",
+            "name": "Overboard",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 251186,
+            "duration": "4:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1tzkJMX3gNjnpcHdLD0pM3",
+            "isCurrent": false
+          },
+          {
+            "id": "75vEuMA15pb8JmgrGugHEs",
+            "name": "Eenie Meenie",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 202626,
+            "duration": "3:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/75vEuMA15pb8JmgrGugHEs",
+            "isCurrent": false
+          },
+          {
+            "id": "7wj1Lb5ggzMWJ9TqZJ2dwo",
+            "name": "Up",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 234933,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7wj1Lb5ggzMWJ9TqZJ2dwo",
+            "isCurrent": false
+          },
+          {
+            "id": "0aPZbnkMoWJaJ5CNVLCj8S",
+            "name": "That Should Be Me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 232720,
+            "duration": "3:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0aPZbnkMoWJaJ5CNVLCj8S",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T11:25:56.669Z",
+      "trackUrl": "https://open.spotify.com/track/6epn3r7S14KUqlReYr77hA",
+      "albumUrl": "https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9",
+      "artistUrl": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+      "albumName": "My World 2.0",
+      "albumType": "Album",
+      "releaseDate": "2010-01-01",
+      "duration": "3:34",
+      "isrc": "USUM70919263",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a"
+    },
+    "genius": {
+      "url": "https://genius.com/Justin-bieber-baby-lyrics",
+      "songId": 566,
+      "description": "“Baby” is about breaking up with someone you love and still wanting them even after you’ve broken up. It’s the lead single off of Bieber’s debut album, My World 2.0. It debuted and peaked at number five on the Billboard Hot 100 in early 2010.It’s also one of Justin Bieber’s most popular songs of all time, with it being certified 12 times platinum by the RIAA; it was also an international smash hit that included a #3 peak in the UK.“Baby” was the most watched video ever in July 2010 on YouTube until “Gangnam Style” surpassed it two years later."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=kffacxfA7G4",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5157",
     "title": "Taylor Swift I Knew It, I Knew You Türkçe Çeviri",
     "song": "I Knew It, I Knew You",

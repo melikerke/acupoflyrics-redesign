@@ -1,5 +1,441 @@
 [
   {
+    "id": "5163",
+    "slug": "radiohead-creep-turkce-ceviri",
+    "title": "Radiohead Creep Türkçe Çeviri",
+    "song": "Creep",
+    "artist": "Radiohead",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+    "date": "2026-08-03T11:28:03.898Z",
+    "reading_time": 2,
+    "excerpt": "When you were here before",
+    "categories": [
+      "Radiohead",
+      "Pablo Honey"
+    ],
+    "category_slugs": [
+      "radiohead",
+      "pablo-honey"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+      "albumUrl": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8",
+      "artistUrl": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+      "albumName": "Pablo Honey",
+      "releaseDate": "1993-02-22",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+      "duration": "3:59",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+        "isrc": "GBAYE9200070",
+        "duration": "3:59",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "Radiohead",
+        "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59"
+      },
+      "album": {
+        "name": "Pablo Honey",
+        "url": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+        "artists": [
+          {
+            "name": "Radiohead",
+            "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+          }
+        ],
+        "releaseDate": "1993-02-22",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=XFkzRNyygfk",
+    "annotations": {
+      "creep": "Kendini karşısındaki insanın dünyasına layık görmeyen, rahatsız edici derecede yabancı ve dışarıda hisseden kişiyi anlatıyor. “Ucube” bu öz-nefret tonunu doğrudan koruyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "When you were here before",
+      "tr": "Daha önce buradayken,"
+    },
+    "heroPair": {
+      "en": "But I'm a creep",
+      "tr": "Ama ben bir ucubeyim,"
+    }
+  },
+  {
+    "id": "5162",
+    "slug": "bonnie-tyler-total-eclipse-of-the-heart-turkce-ceviri",
+    "title": "Bonnie Tyler Total Eclipse of the Heart Türkçe Çeviri",
+    "song": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+    "date": "2026-08-03T11:27:41.152Z",
+    "reading_time": 6,
+    "excerpt": "(Turn around)",
+    "categories": [
+      "Bonnie Tyler",
+      "The Very Best of Bonnie Tyler"
+    ],
+    "category_slugs": [
+      "bonnie-tyler",
+      "the-very-best-of-bonnie-tyler"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7wuJGgpTNzbUyn26IOY6rj",
+      "albumUrl": "https://open.spotify.com/album/0VJI3wpebzRyVHq0eZQidb",
+      "artistUrl": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2",
+      "albumName": "The Very Best of Bonnie Tyler",
+      "releaseDate": "2009-03-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+      "duration": "4:27",
+      "albumType": "Derleme",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/7wuJGgpTNzbUyn26IOY6rj",
+        "isrc": "GBBBN8300002",
+        "duration": "4:27",
+        "previewUrl": null,
+        "trackNumber": 48
+      },
+      "artist": {
+        "name": "Bonnie Tyler",
+        "url": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4ca4431cf4b1227eba8288d8"
+      },
+      "album": {
+        "name": "The Very Best of Bonnie Tyler",
+        "url": "https://open.spotify.com/album/0VJI3wpebzRyVHq0eZQidb",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96",
+        "artists": [
+          {
+            "name": "Bonnie Tyler",
+            "url": "https://open.spotify.com/artist/0SD4eZCN4Kr0wQk56hCdh2"
+          }
+        ],
+        "releaseDate": "2009-03-26",
+        "albumType": "Derleme",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=lcOxhH8N3Bo",
+    "annotations": {
+      "powder keg": "Her an patlamaya hazır, tehlikeli ve yoğun bir ilişkiyi anlatan “barut fıçısı” metaforu.",
+      "total eclipse of the heart": "Işığın bütünüyle kapanması gibi, aşkın da kalbi karanlıkta bırakmasını anlatan ana metafor. Bu yüzden “kalbin tam tutulması” ifadesi korunuyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(Turn around)",
+      "tr": "(Arkanı dön...)"
+    },
+    "heroPair": {
+      "en": "A total eclipse of the heart",
+      "tr": "Kalbimin tam tutulması bu."
+    }
+  },
+  {
+    "id": "5161",
+    "slug": "eminem-lose-yourself-turkce-ceviri",
+    "title": "Eminem Lose Yourself Türkçe Çeviri",
+    "song": "Lose Yourself",
+    "artist": "Eminem",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+    "date": "2026-08-03T11:27:21.273Z",
+    "reading_time": 7,
+    "excerpt": "Look, if you had one shot or one opportunity",
+    "categories": [
+      "Eminem",
+      "Curtain Call: The Hits (Deluxe Edition)"
+    ],
+    "category_slugs": [
+      "eminem",
+      "curtain-call-the-hits-deluxe-edition"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ",
+      "albumUrl": "https://open.spotify.com/album/5qENHeCSlwWpEzb25peRmQ",
+      "artistUrl": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+      "albumName": "Curtain Call: The Hits (Deluxe Edition)",
+      "releaseDate": "2005-12-06",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+      "duration": "5:26",
+      "albumType": "Derleme",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ",
+        "isrc": "USIR10211559",
+        "duration": "5:26",
+        "previewUrl": null,
+        "trackNumber": 6
+      },
+      "artist": {
+        "name": "Eminem",
+        "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
+      },
+      "album": {
+        "name": "Curtain Call: The Hits (Deluxe Edition)",
+        "url": "https://open.spotify.com/album/5qENHeCSlwWpEzb25peRmQ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273eab40fc794b88b9d1e012578",
+        "artists": [
+          {
+            "name": "Eminem",
+            "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ],
+        "releaseDate": "2005-12-06",
+        "albumType": "Derleme",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=7YuAzR2XVAM",
+    "annotations": {
+      "mom's spaghetti": "Sahne korkusunun fiziksel halini anlatan, şarkıyla özdeşleşmiş görüntü. Hem kusmayı hem de karakterin evdeki yoksul hayatını tek ayrıntıda topluyor.",
+      "Rabbit": "8 Mile filmindeki Jimmy “B-Rabbit” Smith karakteri; ilk iki verse onun hikâyesini anlatıyor.",
+      "Pied Piper": "Fareli Köyün Kavalcısı masalına gönderme. Eminem başarısının arkasından herkesin gelmesini sağlayan kişi olduğunu, ama bunun bir bedeli bulunduğunu söylüyor.",
+      "Mekhi Phifer": "8 Mile filminde Eminem'le birlikte rol alan oyuncu. “Bu film değil” diyerek üçüncü verse'te karakterden kendi gerçek hayatına geçtiğini vurguluyor.",
+      "Salem's Lot": "Hem Detroit yakınlarındaki yoksul yaşam alanına hem de Stephen King'in karanlık kasabasına göz kırpan bir ifade; burada çıkıp kurtulması gereken yer anlamında."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Look, if you had one shot or one opportunity",
+      "tr": "Bak, eline tek bir şans, tek bir fırsat geçseydi;"
+    },
+    "heroPair": {
+      "en": "You better lose yourself in the music",
+      "tr": "Kendini müziğin içinde kaybetsen iyi olur;"
+    }
+  },
+  {
+    "id": "5160",
+    "slug": "latin-mafia-fred-again-te-estoy-correteando-turkce-ceviri",
+    "title": "LATIN MAFIA, Fred again.. Te Estoy Correteando Türkçe Çeviri",
+    "song": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA, Fred again..",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+    "date": "2026-08-03T11:26:46.856Z",
+    "reading_time": 2,
+    "excerpt": "Te estoy correteando",
+    "categories": [
+      "LATIN MAFIA",
+      "Fred again..",
+      "9 months & 50 hours"
+    ],
+    "category_slugs": [
+      "latin-mafia",
+      "fred-again",
+      "9-months-50-hours"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5B579RUazOpBcuxjTZWnMs",
+      "albumUrl": "https://open.spotify.com/album/4HZ3fF1dwSZLwztlLwoDYA",
+      "artistUrl": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF",
+      "albumName": "9 months & 50 hours",
+      "releaseDate": "2026-07-31",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+      "duration": "3:14",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5B579RUazOpBcuxjTZWnMs",
+        "isrc": "GBAHS2600518",
+        "duration": "3:14",
+        "previewUrl": null,
+        "trackNumber": 12
+      },
+      "artist": {
+        "name": "LATIN MAFIA",
+        "url": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093"
+      },
+      "album": {
+        "name": "9 months & 50 hours",
+        "url": "https://open.spotify.com/album/4HZ3fF1dwSZLwztlLwoDYA",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+        "artists": [
+          {
+            "name": "Fred again..",
+            "url": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+          },
+          {
+            "name": "LATIN MAFIA",
+            "url": "https://open.spotify.com/artist/6XTGKOV9jceQ6f67lnhpbF"
+          }
+        ],
+        "releaseDate": "2026-07-31",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "enfermo de ti": "Kelimesi kelimesine “senden hasta olmak”; birine duyulan özlemin insanı fiziksel bir hastalık gibi ele geçirmesini anlatıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Te estoy correteando",
+      "tr": "Peşinden koşup duruyorum;"
+    },
+    "heroPair": {
+      "en": "Te estoy correteando",
+      "tr": "Peşinden koşup duruyorum;"
+    }
+  },
+  {
+    "id": "5159",
+    "slug": "shabjdeed-smokaholic-slv-turkce-ceviri",
+    "title": "Shabjdeed, SMOKAHOLIC SLV Türkçe Çeviri",
+    "song": "SLV",
+    "artist": "Shabjdeed, SMOKAHOLIC",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+    "date": "2026-08-03T11:26:20.148Z",
+    "reading_time": 2,
+    "excerpt": "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
+    "categories": [
+      "Shabjdeed",
+      "SMOKAHOLIC",
+      "SLV"
+    ],
+    "category_slugs": [
+      "shabjdeed",
+      "smokaholic",
+      "slv"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5c3hT0pyCPmAoELs7hBQFv",
+      "albumUrl": "https://open.spotify.com/album/3q7fcZTpcheJydAcUNCnlf",
+      "artistUrl": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95",
+      "albumName": "SLV",
+      "releaseDate": "2026-08-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+      "duration": "1:56",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5c3hT0pyCPmAoELs7hBQFv",
+        "isrc": "QT6FK2685055",
+        "duration": "1:56",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Shabjdeed",
+        "url": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1298d88ed54de31aedf76b43"
+      },
+      "album": {
+        "name": "SLV",
+        "url": "https://open.spotify.com/album/3q7fcZTpcheJydAcUNCnlf",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+        "artists": [
+          {
+            "name": "Shabjdeed",
+            "url": "https://open.spotify.com/artist/0KJ7DiybcwyulZLILX3Z95"
+          },
+          {
+            "name": "SMOKAHOLIC",
+            "url": "https://open.spotify.com/artist/5ly3me5Wii82YeizsqL5l4"
+          }
+        ],
+        "releaseDate": "2026-08-01",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": null,
+    "annotations": {
+      "SLV": "Parça, Saint Levant'ın sahne adına ve Filistin kimliğini romantizm, kadınlar ve Batılı pop estetiğiyle birleştirme biçimine yöneltilmiş sert ama yer yer mizahi bir diss.",
+      "Saint Levant / Saint Kadınlar": "“Levant” Doğu Akdeniz bölgesini ifade ediyor. Shabjdeed, sanatçının kadınlara odaklanan şarkılarını hedef alarak adı “Saint Kadınlar”a çeviriyor.",
+      "karpuz": "Karpuz, renkleri nedeniyle Filistin bayrağının ve Filistin dayanışmasının yaygın sembollerinden biri.",
+      "köprü": "Ürdün ile Batı Şeria arasındaki geçişi ve iki sanatçının Filistin–Amman hattındaki kimlik tartışmasını çağrıştırıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
+      "tr": "“İşitsel uyuşturucular”, tarif edilemeyecek kadar tehlikeli bir bağımlılıktır."
+    },
+    "heroPair": {
+      "en": "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
+      "tr": "“İşitsel uyuşturucular”, tarif edilemeyecek kadar tehlikeli bir bağımlılıktır."
+    }
+  },
+  {
+    "id": "5158",
+    "slug": "justin-bieber-ludacris-baby-turkce-ceviri",
+    "title": "Justin Bieber, Ludacris Baby Türkçe Çeviri",
+    "song": "Baby",
+    "artist": "Justin Bieber, Ludacris",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    "date": "2026-08-03T11:26:04.392Z",
+    "reading_time": 4,
+    "excerpt": "Oh, woah",
+    "categories": [
+      "Justin Bieber",
+      "Ludacris",
+      "My World 2.0"
+    ],
+    "category_slugs": [
+      "justin-bieber",
+      "ludacris",
+      "my-world-2-0"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6epn3r7S14KUqlReYr77hA",
+      "albumUrl": "https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9",
+      "artistUrl": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+      "albumName": "My World 2.0",
+      "releaseDate": "2010-01-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+      "duration": "3:34",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6epn3r7S14KUqlReYr77hA",
+        "isrc": "USUM70919263",
+        "duration": "3:34",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Justin Bieber",
+        "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
+      },
+      "album": {
+        "name": "My World 2.0",
+        "url": "https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+        "artists": [
+          {
+            "name": "Justin Bieber",
+            "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+          }
+        ],
+        "releaseDate": "2010-01-01",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=kffacxfA7G4",
+    "annotations": {
+      "starstruck": "Bir ünlüyü görmüş gibi büyülenip dili tutulmak. Ludacris burada ilk aşkının onu bir yıldız kadar etkilediğini söylüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Oh, woah",
+      "tr": "Oh, woah..."
+    },
+    "heroPair": {
+      "en": "Baby, baby, baby, oh",
+      "tr": "Bebeğim, bebeğim, bebeğim, oh..."
+    }
+  },
+  {
     "id": "5157",
     "slug": "taylor-swift-i-knew-it-i-knew-you-turkce-ceviri",
     "title": "Taylor Swift I Knew It, I Knew You Türkçe Çeviri",

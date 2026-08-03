@@ -163,14 +163,23 @@ function PopNewsBanner({ article }) {
 function RisingSongFeature({ post, article }) {
   if (!post) return null;
 
+  const articleArtist = String(article?.artistName || "").toLocaleLowerCase("tr-TR");
+  const postArtist = String(post.artist || "").toLocaleLowerCase("tr-TR");
+  const isRelatedArticle = Boolean(
+    article && (
+      post.category_slugs?.includes(article.artistSlug) ||
+      (articleArtist && postArtist.split(/\s*,\s*/).includes(articleArtist))
+    )
+  );
+  const relatedArticle = isRelatedArticle ? article : null;
   const reason =
-    article?.livePanel?.items?.[1]?.text ||
-    article?.summary?.[0] ||
-    "Dinleme listelerinde yeniden görünür olan şarkı, arama tarafında da yükselişe geçti.";
+    relatedArticle?.livePanel?.items?.[1]?.text ||
+    relatedArticle?.summary?.[0] ||
+    "Günlük yükselenler listesinde öne çıkan şarkı, dinleme ve arama tarafında yeniden hız kazandı.";
 
   return (
     <section className="acl-rising-section" aria-label="Günün yükselen şarkısı">
-      <div className="acl-rising-card" style={{ "--pop-accent": article?.accent || "var(--acl-accent)" }}>
+      <div className="acl-rising-card" style={{ "--pop-accent": relatedArticle?.accent || "var(--acl-accent)" }}>
         <Link to={postPath(post)} className="acl-rising-cover" aria-label={`${post.artist} ${post.song} çevirisi`}>
           <img src={post.cover} alt={`${post.artist} - ${post.song}`} loading="lazy" />
         </Link>
@@ -184,7 +193,7 @@ function RisingSongFeature({ post, article }) {
           <p>{reason}</p>
           <div className="acl-rising-actions">
             <Link to={postPath(post)}>Çeviriye git <Arrow /></Link>
-            {article && <Link to={popJournalPath(article)}>Gündemi oku</Link>}
+            {relatedArticle && <Link to={popJournalPath(relatedArticle)}>Gündemi oku</Link>}
           </div>
         </div>
       </div>

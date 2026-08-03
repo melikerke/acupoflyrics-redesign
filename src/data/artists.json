@@ -416,7 +416,7 @@
   {
     "slug": "justin-bieber",
     "name": "Justin Bieber",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
   },
   {
@@ -776,7 +776,7 @@
   {
     "slug": "eminem",
     "name": "Eminem",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
   },
   {
@@ -1876,5 +1876,47 @@
     "name": "Sam Fender",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8"
+  },
+  {
+    "slug": "ludacris",
+    "name": "Ludacris",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "shabjdeed",
+    "name": "Shabjdeed",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1298d88ed54de31aedf76b43"
+  },
+  {
+    "slug": "smokaholic",
+    "name": "SMOKAHOLIC",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "latin-mafia",
+    "name": "LATIN MAFIA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093"
+  },
+  {
+    "slug": "fred-again",
+    "name": "Fred again..",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "bonnie-tyler",
+    "name": "Bonnie Tyler",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ca4431cf4b1227eba8288d8"
+  },
+  {
+    "slug": "radiohead",
+    "name": "Radiohead",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59"
   }
 ]
