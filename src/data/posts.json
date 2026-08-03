@@ -1,5 +1,1908 @@
 [
   {
+    "id": "5151",
+    "title": "Red Velvet Surfin' Boy Türkçe Çeviri",
+    "song": "Surfin' Boy",
+    "slug": "red-velvet-surfin-boy-turkce-ceviri",
+    "date": "2026-08-03T09:21:37.515Z",
+    "artist": "Red Velvet",
+    "categories": [
+      "Red Velvet",
+      "Velvet Summer - Summer Mini Album"
+    ],
+    "category_slugs": [
+      "red-velvet",
+      "velvet-summer-summer-mini-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Irene",
+        "lines": [
+          "Ha-ha, ha-ha"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Irene",
+        "lines": [
+          "Ha-ha, ha-ha"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Seulgi, Irene, Wendy",
+        "lines": [
+          "Irresistible",
+          "Tteugeoun barame sillin",
+          "Bulgeun seongnyangi naeryeo",
+          "Isn't it so beautiful?",
+          "Padoreul sunoeun jeo yunseul",
+          "Eoneusae nae mam gadeuki beonjyeo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Seulgi, Irene, Wendy",
+        "lines": [
+          "Karşı konulmazsın",
+          "Sıcak rüzgârın taşıdığı",
+          "Kızıl gün batımı alçalıyor",
+          "Çok güzel değil mi?",
+          "Dalgaların üstünü nakış gibi işleyen o ışıltı",
+          "Ben fark etmeden bütün kalbime yayılıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Yeri, Joy",
+        "lines": [
+          "Shoo-shoo",
+          "Neo ppaegon da get out",
+          "You, you",
+          "Areungeoryeo neoui aura",
+          "Phew-phew",
+          "Dasi tteugeowojyeo nae mam",
+          "You turn me on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Yeri, Joy",
+        "lines": [
+          "Şşt, şşt",
+          "Sen hariç herkes dışarı",
+          "Sen, sen",
+          "Auran gözümün önünde dalgalanıyor",
+          "Üf, üf",
+          "Kalbim yine alevleniyor",
+          "Beni baştan çıkarıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All, Wendy, Joy",
+        "lines": [
+          "I need that surfin' boy",
+          "Go with the flow now",
+          "Neomchyeojwo",
+          "Neowa hamkkeyeoseo",
+          "Sarangeuro gadeukaetdeon",
+          "Geu yeoreumnarui urideul",
+          "La-la-la-la-la-la-la",
+          "Why you waiting? Surfin' boy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All, Wendy, Joy",
+        "lines": [
+          "O sörfçü çocuğa ihtiyacım var",
+          "Bırak, akıntı götürsün bizi",
+          "Dalga gibi taş üzerime",
+          "Sen yanımdayken",
+          "Sevgiyle dolup taşan",
+          "O yaz günlerindeki biz",
+          "La-la-la-la-la-la-la",
+          "Daha neyi bekliyorsun, sörfçü çocuk?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Seulgi",
+        "lines": [
+          "Ha-ha, ha-ha"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Seulgi",
+        "lines": [
+          "Ha-ha, ha-ha"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Irene, Yeri, Seulgi, Wendy, All",
+        "lines": [
+          "Hey stranger",
+          "Naegero come straight",
+          "\"Yes, sir, I'll roger that\"",
+          "You're drowning me like a Romeo (Romeo)",
+          "Malman hae, I'ma do my thing (Do my thing)",
+          "(Oh-eh, oh-eh, oh-eh-oh)",
+          "It's a brand-new era",
+          "(Oh-eh, oh-eh, oh-eh-oh)",
+          "It sounds like a drama"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Irene, Yeri, Seulgi, Wendy, All",
+        "lines": [
+          "Hey yabancı",
+          "Dosdoğru bana gel",
+          "“Emredersin, mesaj alındı”",
+          "Bir Romeo gibi aşkına boğuyorsun beni (Romeo)",
+          "Sen yeter ki söyle, bildiğimi okuyacağım (Bildiğimi okuyacağım)",
+          "(Oh-eh, oh-eh, oh-eh-oh)",
+          "Yepyeni bir çağ başlıyor",
+          "(Oh-eh, oh-eh, oh-eh-oh)",
+          "Tıpkı bir dizi sahnesi gibi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Joy, Yeri, Irene",
+        "lines": [
+          "Shoo-shoo",
+          "Nae meorineun black out (Ah)",
+          "You, you",
+          "Seonmyeonghaejyeo neoui tema",
+          "Phew-phew",
+          "Dasi neoreul kkeureoana",
+          "You turn me on (Bossa)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Joy, Yeri, Irene",
+        "lines": [
+          "Şşt, şşt",
+          "Aklım kararıyor (Ah)",
+          "Sen, sen",
+          "Hikâyendeki tema giderek netleşiyor",
+          "Üf, üf",
+          "Seni yeniden kollarıma çekiyorum",
+          "Beni baştan çıkarıyorsun (Bossa)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All, Seulgi, Yeri",
+        "lines": [
+          "I need that surfin' boy",
+          "Go with the flow now",
+          "Neomchyeojwo",
+          "Neowa hamkkeyeoseo",
+          "Sarangeuro gadeukaetdeon",
+          "Geu yeoreumnarui urideul",
+          "La-la-la-la-la-la-la",
+          "Why you waiting? Surfin' boy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All, Seulgi, Yeri",
+        "lines": [
+          "O sörfçü çocuğa ihtiyacım var",
+          "Bırak, akıntı götürsün bizi",
+          "Dalga gibi taş üzerime",
+          "Sen yanımdayken",
+          "Sevgiyle dolup taşan",
+          "O yaz günlerindeki biz",
+          "La-la-la-la-la-la-la",
+          "Daha neyi bekliyorsun, sörfçü çocuk?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Wendy, Seulgi",
+        "lines": [
+          "Geomnaeji ma",
+          "I yeoreume deonjyeo bwa, yeah",
+          "Geochin padoga deopchyeodo",
+          "Gyeolgugen nan neol chaja",
+          "We're all in this together",
+          "Let's go rock the boat"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Wendy, Seulgi",
+        "lines": [
+          "Korkma",
+          "Kendini bu yazın kollarına bırak, evet",
+          "Azgın dalgalar üzerimize çökse de",
+          "Sonunda seni yine bulacağım",
+          "Bu işte hepimiz birlikteyiz",
+          "Hadi tekneyi sallayalım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Joy, Yeri, All, Seulgi, Wendy, Irene",
+        "lines": [
+          "I need that surfin' boy (Ah)",
+          "Go with the flow now (Oh, yeah, oh, yeah)",
+          "Neomchyeojwo (Ah-ooh)",
+          "Dasi mannan neowa",
+          "Haengbogeuro mandeureo gal (Oh, yeah)",
+          "I yeoreumnarui seollemdeul",
+          "La-la-la-la-la-la-la",
+          "Why you waiting? Surfin'"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Joy, Yeri, All, Seulgi, Wendy, Irene",
+        "lines": [
+          "O sörfçü çocuğa ihtiyacım var (Ah)",
+          "Bırak, akıntı götürsün bizi (Oh, evet, oh, evet)",
+          "Dalga gibi taş üzerime (Ah-ooh)",
+          "Yeniden kavuştuğum seninle",
+          "Mutluluğa dönüştüreceğimiz (Oh, evet)",
+          "Bu yaz günlerinin heyecanını",
+          "La-la-la-la-la-la-la",
+          "Daha neyi bekliyorsun, sörfçü?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: All, Wendy, Irene",
+        "lines": [
+          "Ooh-ooh",
+          "Ooh-ooh (Ah)",
+          "Paran jeo bada gadeukaetdeon",
+          "Yeah, yeoreumnarui seollemdeul",
+          "La-la",
+          "Gieokae jwo, surfin' boy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: All, Wendy, Irene",
+        "lines": [
+          "Ooh-ooh",
+          "Ooh-ooh (Ah)",
+          "O masmavi denizi dolduran",
+          "Evet, yaz günlerinin bütün heyecanı",
+          "La-la",
+          "Bizi hatırla, sörfçü çocuk"
+        ]
+      }
+    ],
+    "excerpt": "Ha-ha, ha-ha",
+    "annotations": {
+      "Rock the boat": "Hem dalgaların ortasında tekneyi sallamak hem de düzeni bozup cesur bir hamle yapmak anlamını taşıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3caqaSvtldUKLY5Fd5msk2",
+        "name": "Surfin' Boy",
+        "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+        "isrc": "KRA302600330",
+        "durationMs": 168466,
+        "duration": "2:48",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1z4g3DjTBBZKhvAroFlhOM",
+          "name": "Red Velvet",
+          "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+        }
+      ],
+      "album": {
+        "id": "0AzIvsw9Pq9De3vYFA01Rr",
+        "name": "Velvet Summer - Summer Mini Album",
+        "url": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+        "artists": [
+          {
+            "id": "1z4g3DjTBBZKhvAroFlhOM",
+            "name": "Red Velvet",
+            "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+          }
+        ],
+        "releaseDate": "2026-08-03",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3caqaSvtldUKLY5Fd5msk2",
+            "name": "Surfin' Boy",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168466,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+            "isCurrent": true
+          },
+          {
+            "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+            "name": "Hot Girls Cold Vibe",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 219000,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+            "isCurrent": false
+          },
+          {
+            "id": "5otUuJ8uKaFWPdqEfzZNhl",
+            "name": "Orchestra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+            "isCurrent": false
+          },
+          {
+            "id": "1R4FvVhU905EvR0edXW4PI",
+            "name": "Hula Hoop",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 153266,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+            "isCurrent": false
+          },
+          {
+            "id": "408zlDrAaUU9k1WUlp9i6i",
+            "name": "Hawaii",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 198533,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:21:27.564Z",
+      "trackUrl": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+      "albumUrl": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+      "artistUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+      "albumName": "Velvet Summer - Summer Mini Album",
+      "albumType": "EP",
+      "releaseDate": "2026-08-03",
+      "duration": "2:48",
+      "isrc": "KRA302600330",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18"
+    },
+    "genius": {
+      "url": "https://genius.com/Red-velvet-surfin-boy-lyrics",
+      "songId": 13842608,
+      "description": "Red Velvet make their long-awaited comeback with the lead single “Surfin' Boy” to their summer album of 2026, Velvet Summer. In this vibrant dance-pop anthem, the members reminisce about the lingering tension with a past lover while inviting them to embrace the carefree spirit of the upcoming summer together.Unlike the group’s previous summer releases, Red Velvet explore a fresh & energetic Bossa Nova-inspired sound, blending breezy rhythms with tropical influences to deliver their most refreshing seasonal track yet.Additionally, the group returns to their signature quirky love concept, reminiscent of “피카부 (Peek-A-Boo).” In the music video for “Surfin' Boy,” Red Velvet explore through a series of dreamy beach landscapes alongside a mysterious boy who appears to be a merman, adding a whimsical touch to the nostalgic summer-like visuals."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=NZP153MUpHY",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5150",
+    "title": "Red Velvet Hot Girls Cold Vibe Türkçe Çeviri",
+    "song": "Hot Girls Cold Vibe",
+    "slug": "red-velvet-hot-girls-cold-vibe-turkce-ceviri",
+    "date": "2026-08-03T09:21:15.022Z",
+    "artist": "Red Velvet",
+    "categories": [
+      "Red Velvet",
+      "Velvet Summer - Summer Mini Album"
+    ],
+    "category_slugs": [
+      "red-velvet",
+      "velvet-summer-summer-mini-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Hot, hot, we slay",
+          "Hot, hot, like that",
+          "Hot, hot, we slay"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Ateşliyiz, ateşliyiz; yıkıp geçeriz",
+          "Ateşliyiz, ateşliyiz; işte böyle",
+          "Ateşliyiz, ateşliyiz; yıkıp geçeriz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Neukkyeotji gipeojineun good time",
+          "Jamsi nwa bollae geu jeonhwa",
+          "Ireon jeonyeok, yeah, we look nice",
+          "Hot, hot, hot, hot",
+          "Budeureoun barami joa",
+          "Gapareun koneoreul dora",
+          "Hot girls, urin alji cold vibe",
+          "Ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Hissettin değil mi, gecenin tadı gittikçe koyulaşıyor",
+          "Şu telefonu bir süreliğine bıraksana",
+          "Böyle bir akşamda, evet, çok iyi görünüyoruz",
+          "Ateşliyiz, ateşliyiz, ateşliyiz, ateşliyiz",
+          "Yumuşak esen rüzgâr hoşuma gidiyor",
+          "Şu keskin virajı dön",
+          "Ateşli kızlarız; bilirsin, havamız buz gibi",
+          "Ooh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Nae mami deullini",
+          "Seodureujineun ma",
+          "Jom deo cheoncheonhi oryeom",
+          "Siganeun neowa nae geonikka, ah-ha",
+          "Wae hetgallyeo hani",
+          "Ne mamdaero hamyeon dwae",
+          "Keep it going",
+          "Bokjapal geot eomneunde"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kalbimin sesini duyuyor musun?",
+          "Acele etme",
+          "Bana biraz daha yavaş yaklaş",
+          "Çünkü zaman yalnızca sana ve bana ait, ah-ha",
+          "Neden hâlâ kafan karışık?",
+          "İçinden nasıl geliyorsa öyle yap",
+          "Devam et",
+          "Bunda karmaşık ne var ki?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ain't no hurry, hit the floor",
+          "I want you to put it down, down",
+          "Cheoeum neukkim gam daero",
+          "Nega wonhaneun ge maja",
+          "Jigeum nuni busin, nuni busin nega joa, nega joa",
+          "Baby, tell me what you're feeling",
+          "I can tell you really want it, yeah, you really, really want it",
+          "'Cause you standing by me, standing by me, girl",
+          "Hella hotties ttarawa",
+          "Neoneun kkeudeokkkeudeok down, down",
+          "Tic-toc sigan akkawo",
+          "Urin urin deo nol geoya",
+          "Jigeum nuni busin, nuni busin nega joa, nega joa",
+          "Baby, tell me what you're feeling",
+          "I can tell you really want it, ooh, you really want it",
+          "'Cause you standing by me, standing by me, girl"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Acelesi yok, çık piste",
+          "Döktürmeni istiyorum, hadi, hadi",
+          "İlk hissettiğin o duygunun peşinden git",
+          "İstediğin şeyin doğru olduğunu biliyorsun",
+          "Şu an göz kamaştıran, ışıl ışıl sen hoşuma gidiyorsun",
+          "Bebeğim, söyle bana ne hissediyorsun?",
+          "Bunu gerçekten istediğin belli; evet, hem de çok istiyorsun",
+          "Çünkü yanımda duruyorsun, tam yanımda kızım",
+          "Bütün o ateşli kızlar peşimizden gelsin",
+          "Sen de başını sallayıp “tamam” diyorsun",
+          "Tik tak, zamanı boşa harcama",
+          "Biz daha, daha çok eğleneceğiz",
+          "Şu an göz kamaştıran, ışıl ışıl sen hoşuma gidiyorsun",
+          "Bebeğim, söyle bana ne hissediyorsun?",
+          "Bunu gerçekten istediğin belli; ooh, çok istiyorsun",
+          "Çünkü yanımda duruyorsun, tam yanımda kızım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Boratbichui starlight",
+          "Meolli banjjagineun neonsain",
+          "I dosineun uri geoya",
+          "Hot, hot, hot, hot",
+          "Mikkeureojideut deo balba",
+          "Bulbit sogeuro, oh, we dive",
+          "Hot girls, urin alji cold vibe"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Mor renkte yıldız ışıkları",
+          "Uzaklarda parlayan neon tabelalar",
+          "Bu şehir bu gece bizim",
+          "Ateşliyiz, ateşliyiz, ateşliyiz, ateşliyiz",
+          "Kayıp gidercesine biraz daha gaza bas",
+          "Işıkların içine, oh, birlikte dalıyoruz",
+          "Ateşli kızlarız; bilirsin, havamız buz gibi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Nae mami deullini",
+          "Seodureujineun ma",
+          "Jom deo cheoncheonhi oryeom",
+          "Siganeun neowa nae geonikka, ah-ha",
+          "Wae hetgallyeo hani, ne mamdaero gamyeon dwae",
+          "Geokjeonghal geot eopseo, it's alright",
+          "Ooh, you got it, dancing to it, i sunganiya",
+          "Keep it going, geunyang neoreul mideo bwa"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kalbimin sesini duyuyor musun?",
+          "Acele etme",
+          "Bana biraz daha yavaş yaklaş",
+          "Çünkü zaman yalnızca sana ve bana ait, ah-ha",
+          "Neden hâlâ kafan karışık? İçinden nasıl geliyorsa öyle ilerle",
+          "Endişelenecek bir şey yok, her şey yolunda",
+          "Ooh, ritmi yakaladın; dans et, işte bu an",
+          "Devam et, sadece kendine güven"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ain't no hurry, hit the floor",
+          "I want you to put it down, down",
+          "Cheoeum neukkim gam daero",
+          "Nega wonhaneun ge maja",
+          "Jigeum nuni busin, nuni busin nega joa, nega joa",
+          "Baby, tell me what you're feeling",
+          "I can tell you really want it, yeah, you really, really want it",
+          "'Cause you standing by me, standing by me, girl"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Acelesi yok, çık piste",
+          "Döktürmeni istiyorum, hadi, hadi",
+          "İlk hissettiğin o duygunun peşinden git",
+          "İstediğin şeyin doğru olduğunu biliyorsun",
+          "Şu an göz kamaştıran, ışıl ışıl sen hoşuma gidiyorsun",
+          "Bebeğim, söyle bana ne hissediyorsun?",
+          "Bunu gerçekten istediğin belli; evet, hem de çok istiyorsun",
+          "Çünkü yanımda duruyorsun, tam yanımda kızım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Don't worry 'bout time, no",
+          "Modeun geosi dallajil geoya, babe",
+          "Don't wait up, let's take off, let's dive in",
+          "Geu eotteon nugudo nareul mamdaero mot hae, moreugenni?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Zamanı dert etme, hayır",
+          "Her şey değişecek bebeğim",
+          "Bekleyip durma; hadi kalkalım, içine dalalım",
+          "Hiç kimse beni keyfine göre yönetemez, hâlâ anlamadın mı?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Ain't no hurry, hit the floor (Ain't no hurry, baby)",
+          "I want you to put it down, down",
+          "Cheoeum neukkim gam daero",
+          "Nega wonhaneun ge maja (Put it down, down, down)",
+          "Jigeum nuni busin, nuni busin nega joa, nega joa",
+          "Baby, tell me what you're feeling (Baby, tell me what you're feeling, oh)",
+          "I can tell you really want it, yeah, you really, really want it (Really want it, ooh)",
+          "'Cause you standing by me (What you hearing? Oh)",
+          "Hella hotties ttarawa (Hella hotties, babe)",
+          "Neoneun kkeudeokkkeudeok down, down (Down)",
+          "Tic-toc sigan akkawo (Yeah)",
+          "Urin urin deo nol geoya (Down, down, down)",
+          "Jigeum nuni busin, nuni busin nega joa, nega joa",
+          "Baby, tell me what you're feeling (Baby, tell me what you're feeling, yeah)",
+          "I can tell you really want it, ooh, you really want it (Ooh)",
+          "'Cause you standing by me, standing by me, girl"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Acelesi yok, çık piste (Acelesi yok bebeğim)",
+          "Döktürmeni istiyorum, hadi, hadi",
+          "İlk hissettiğin o duygunun peşinden git",
+          "İstediğin şeyin doğru olduğunu biliyorsun (Döktür, hadi, hadi)",
+          "Şu an göz kamaştıran, ışıl ışıl sen hoşuma gidiyorsun",
+          "Bebeğim, söyle bana ne hissediyorsun? (Söyle bana ne hissediyorsun, oh)",
+          "Bunu gerçekten istediğin belli; evet, hem de çok istiyorsun (Çok istiyorsun, ooh)",
+          "Çünkü yanımda duruyorsun (Ne duyuyorsun? Oh)",
+          "Bütün o ateşli kızlar peşimizden gelsin (Ateşli kızlar bebeğim)",
+          "Sen de başını sallayıp “tamam” diyorsun (Tamam)",
+          "Tik tak, zamanı boşa harcama (Evet)",
+          "Biz daha, daha çok eğleneceğiz (Hadi, hadi, hadi)",
+          "Şu an göz kamaştıran, ışıl ışıl sen hoşuma gidiyorsun",
+          "Bebeğim, söyle bana ne hissediyorsun? (Söyle bana ne hissediyorsun, evet)",
+          "Bunu gerçekten istediğin belli; ooh, çok istiyorsun (Ooh)",
+          "Çünkü yanımda duruyorsun, tam yanımda kızım"
+        ]
+      }
+    ],
+    "excerpt": "Hot, hot, we slay",
+    "annotations": {
+      "Hot girls, cold vibe": "Dışarıdan ateş gibi görünürken tavırlarını serin, sakin ve ulaşılmaz tutan kızların tezatlı özgüvenini anlatıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+        "name": "Hot Girls Cold Vibe",
+        "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+        "isrc": "KRA302600331",
+        "durationMs": 219000,
+        "duration": "3:39",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1z4g3DjTBBZKhvAroFlhOM",
+          "name": "Red Velvet",
+          "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+        }
+      ],
+      "album": {
+        "id": "0AzIvsw9Pq9De3vYFA01Rr",
+        "name": "Velvet Summer - Summer Mini Album",
+        "url": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+        "artists": [
+          {
+            "id": "1z4g3DjTBBZKhvAroFlhOM",
+            "name": "Red Velvet",
+            "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+          }
+        ],
+        "releaseDate": "2026-08-03",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3caqaSvtldUKLY5Fd5msk2",
+            "name": "Surfin' Boy",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168466,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+            "isCurrent": false
+          },
+          {
+            "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+            "name": "Hot Girls Cold Vibe",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 219000,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+            "isCurrent": true
+          },
+          {
+            "id": "5otUuJ8uKaFWPdqEfzZNhl",
+            "name": "Orchestra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+            "isCurrent": false
+          },
+          {
+            "id": "1R4FvVhU905EvR0edXW4PI",
+            "name": "Hula Hoop",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 153266,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+            "isCurrent": false
+          },
+          {
+            "id": "408zlDrAaUU9k1WUlp9i6i",
+            "name": "Hawaii",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 198533,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:21:05.815Z",
+      "trackUrl": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+      "albumUrl": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+      "artistUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+      "albumName": "Velvet Summer - Summer Mini Album",
+      "albumType": "EP",
+      "releaseDate": "2026-08-03",
+      "duration": "3:39",
+      "isrc": "KRA302600331",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18"
+    },
+    "genius": {
+      "url": "https://genius.com/Red-velvet-hot-girls-cold-vibe-lyrics",
+      "songId": 13937197,
+      "description": "?"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5149",
+    "title": "Red Velvet Orchestra Türkçe Çeviri",
+    "song": "Orchestra",
+    "slug": "red-velvet-orchestra-turkce-ceviri",
+    "date": "2026-08-03T09:20:54.604Z",
+    "artist": "Red Velvet",
+    "categories": [
+      "Red Velvet",
+      "Velvet Summer - Summer Mini Album"
+    ],
+    "category_slugs": [
+      "red-velvet",
+      "velvet-summer-summer-mini-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Orchestra (Orches-orchestra)",
+          "Ah (Elegant, elegant, dangerous)",
+          "Hah (Slow, slow)",
+          "Ad astra"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Orkestra (Orkes-orkestra)",
+          "Ah (Zarif, zarif, tehlikeli)",
+          "Hah (Yavaş, yavaş)",
+          "Yıldızlara doğru"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Deowojin i gonggi tasilkka, breathe",
+          "Pichiga naeryeoga, please",
+          "Jom deo nopyeo matchwojwo",
+          "Tune to my 'A' four-forty, uh-oh",
+          "Oneul i gibuneun machi",
+          "Yeoreumbam hosu wieseo",
+          "Neurige chumeul chuneun pabanneu",
+          "Nunbicheuro mareul geolda",
+          "Mikkeureojideut soneul japgo",
+          "Miso jinneun neo",
+          "Josimseure naeswin sumsorineun",
+          "Eoneusae eumeul gatgo",
+          "Ullimi dwae sijakdoeneun yeonju, uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Hava ısındığı için mi böyle? Nefes al",
+          "Ses perdesi düşüyor, lütfen",
+          "Biraz daha yükselt ve benimle eşle",
+          "“La” notamı 440 hertze akort et, uh-oh",
+          "Bugünkü bu duygu sanki",
+          "Bir yaz gecesi, gölün üzerinde",
+          "Yavaşça dans eden bir pavane",
+          "Gözlerinle laf atıyorsun bana",
+          "Kayarak yaklaşır gibi elimi tutup",
+          "Gülümsüyorsun",
+          "Usulca verdiğin o nefes",
+          "Bir anda kendi notasını buluyor",
+          "Yankıya dönüşüyor ve konser başlıyor, uh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Elegant, elegant, dangerous",
+          "I gonggien pamuni ireo",
+          "Elegant, elegant, dangerous",
+          "Gipeojin bamui mellodineun",
+          "Poco a poco crescendo beonjyeoga deo",
+          "Elegant, elegant, dangerous",
+          "Illeongineun maeum, orchestra movement, uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Zarif, zarif, tehlikeli",
+          "Bu havanın içinde dalgalar yayılıyor",
+          "Zarif, zarif, tehlikeli",
+          "Gecenin derinleşen melodisi",
+          "Yavaş yavaş yükselerek daha da büyüyor",
+          "Zarif, zarif, tehlikeli",
+          "Dalgalanan kalbim, bir orkestra bölümü gibi, uh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Gapjagi sseuk dareun jujero heulleogan sai",
+          "Ping-pong bakja bakkeuro twieo nagan uri",
+          "Gravitating, levitating (Uh-uh)",
+          "Yeah, we super dreamy (Uh-uh)",
+          "Keullarawa robereuteuui iyagireul ani (Uh-uh)",
+          "Ayy, yeah, gureum dwie sumeoitdeon",
+          "Dari moseubeul deureonaego hosureul bichwo",
+          "Jogeumssik byeonjudoen bunwigie",
+          "Salmyeosi nuneul gamgo",
+          "Jajadeulda gyesokdoeneun yeonju"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bir anda bambaşka bir temaya kaymışken",
+          "Ping pong; ikimiz de ritmin dışına sıçradık",
+          "Birbirimize çekiliyor, havada süzülüyoruz (Uh-uh)",
+          "Evet, fazlasıyla rüya gibiyiz (Uh-uh)",
+          "Clara ile Robert'ın hikâyesini bilir misin? (Uh-uh)",
+          "Ayy, evet; bulutların ardında saklanan",
+          "Ay yüzünü gösterip gölü aydınlatıyor",
+          "Yavaşça başka bir tona geçen bu havada",
+          "Gözlerimi usulca kapatıyorum",
+          "Müzik hafifliyor ama çalmayı sürdürüyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Elegant, elegant, dangerous, uh",
+          "I gonggien pamuni ireo",
+          "Elegant, elegant, dangerous (Dangerous)",
+          "Gipeojin bamui mellodineun",
+          "Poco a poco crescendo beonjyeoga deo",
+          "Elegant, elegant, dangerous",
+          "Illeongineun maeum, orchestra movement"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Zarif, zarif, tehlikeli, uh",
+          "Bu havanın içinde dalgalar yayılıyor",
+          "Zarif, zarif, tehlikeli (Tehlikeli)",
+          "Gecenin derinleşen melodisi",
+          "Yavaş yavaş yükselerek daha da büyüyor",
+          "Zarif, zarif, tehlikeli",
+          "Dalgalanan kalbim, bir orkestra bölümü gibi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Geupaejijin mara, naui saineul mideo",
+          "Akboe chama da mot sseun maeumi isseo",
+          "Ah-ah-ah-ah-ah, ad astra",
+          "Byeol heneun bam"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Acele etme, verdiğim işarete güven",
+          "Partisyona bir türlü bütünüyle yazamadığım duygularım var",
+          "Ah-ah-ah-ah-ah, yıldızlara doğru",
+          "Yıldızları saydığımız bu gece"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Elegant, elegant, dangerous",
+          "Elegant, elegant, dangerous, uh",
+          "Jigeum nae mameun morachideut",
+          "Molto appassionato jiteojyeo deo peojyeo peojyeo",
+          "Elegant, elegant, dangerous",
+          "Oneul choyeondoen orchestra movement"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Zarif, zarif, tehlikeli",
+          "Zarif, zarif, tehlikeli, uh",
+          "Şu an kalbim fırtına gibi kabarıyor",
+          "Çok büyük bir tutkuyla koyulaşıyor; daha da yayılıyor, yayılıyor",
+          "Zarif, zarif, tehlikeli",
+          "Bugün ilk kez sahnelenen bu orkestra bölümü"
+        ]
+      }
+    ],
+    "excerpt": "Orchestra (Orches-orchestra)",
+    "annotations": {
+      "A 440 / pavane": "A=440 Hz, orkestraların akort için kullandığı standart “La” sesidir. Pavane ise ağır ve zarif adımlarla yapılan eski bir saray dansıdır.",
+      "Clara ve Robert": "Besteciler Clara ve Robert Schumann'ın müzikle örülmüş büyük aşkına gönderme yapılıyor; şarkı iki kişinin sesini tek bir bestede buluşturuyor.",
+      "Ad astra": "Latince “yıldızlara doğru” demektir; aşkın müzikle yükselip dünyevi sınırları aşmasını anlatıyor.",
+      "Poco a poco crescendo / molto appassionato": "İlki müziğin yavaş yavaş güçlenmesini, ikincisi ise “çok tutkulu” çalınmasını söyler. Duyguların adım adım büyüyüp sonunda taşmasına dönüşüyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5otUuJ8uKaFWPdqEfzZNhl",
+        "name": "Orchestra",
+        "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+        "isrc": "KRA302600332",
+        "durationMs": 177000,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1z4g3DjTBBZKhvAroFlhOM",
+          "name": "Red Velvet",
+          "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+        }
+      ],
+      "album": {
+        "id": "0AzIvsw9Pq9De3vYFA01Rr",
+        "name": "Velvet Summer - Summer Mini Album",
+        "url": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+        "artists": [
+          {
+            "id": "1z4g3DjTBBZKhvAroFlhOM",
+            "name": "Red Velvet",
+            "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+          }
+        ],
+        "releaseDate": "2026-08-03",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3caqaSvtldUKLY5Fd5msk2",
+            "name": "Surfin' Boy",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168466,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+            "isCurrent": false
+          },
+          {
+            "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+            "name": "Hot Girls Cold Vibe",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 219000,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+            "isCurrent": false
+          },
+          {
+            "id": "5otUuJ8uKaFWPdqEfzZNhl",
+            "name": "Orchestra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+            "isCurrent": true
+          },
+          {
+            "id": "1R4FvVhU905EvR0edXW4PI",
+            "name": "Hula Hoop",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 153266,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+            "isCurrent": false
+          },
+          {
+            "id": "408zlDrAaUU9k1WUlp9i6i",
+            "name": "Hawaii",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 198533,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:20:50.325Z",
+      "trackUrl": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+      "albumUrl": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+      "artistUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+      "albumName": "Velvet Summer - Summer Mini Album",
+      "albumType": "EP",
+      "releaseDate": "2026-08-03",
+      "duration": "2:57",
+      "isrc": "KRA302600332",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18"
+    },
+    "genius": {
+      "url": "https://genius.com/Red-velvet-orchestra-lyrics",
+      "songId": 13849835,
+      "description": "?"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5148",
+    "title": "Red Velvet Hula Hoop Türkçe Çeviri",
+    "song": "Hula Hoop",
+    "slug": "red-velvet-hula-hoop-turkce-ceviri",
+    "date": "2026-08-03T09:20:36.572Z",
+    "artist": "Red Velvet",
+    "categories": [
+      "Red Velvet",
+      "Velvet Summer - Summer Mini Album"
+    ],
+    "category_slugs": [
+      "red-velvet",
+      "velvet-summer-summer-mini-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "What's after left, right, right, right, right, right",
+          "Urikkirineun mal an haedo aneun sign",
+          "Gakkawojilsurok seollen ne kkumgwa",
+          "Majuhan sungan, fire in your eyes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Sol, sağ, sağ, sağ, sağ, sağdan sonra ne var?",
+          "Aramızda konuşmadan bile anladığımız bir işaret var",
+          "Yaklaştıkça, heyecanla çarpan hayallerinle",
+          "Göz göze geldiğimiz o an; gözlerinde ateş"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bamsae deullyeojulge",
+          "Bing doraon",
+          "Gin yeohaeng yaegi sok",
+          "Sojunghi geuryeoon neol"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sana bütün gece anlatacağım",
+          "Dönüp dolaşıp buraya varan",
+          "O uzun yolculuğun hikâyesinde",
+          "Hasretle beklediğim kıymetli seni"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "'Round, 'round and around",
+          "Yeah, yunanhi",
+          "Sikji anteon han yeoreumbam wi",
+          "'Round, 'round and around",
+          "Du byeoljarin me and you",
+          "Matdaeun uri dul like"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dön, dön, dön durmadan",
+          "Evet, özellikle de",
+          "Bir türlü serinlemeyen o yaz gecesinin üzerinde",
+          "Dön, dön, dön durmadan",
+          "İki ayrı takımyıldızız; sen ve ben",
+          "Birbirine değen ikimiz, tıpkı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula-hula hoop",
+          "Gateun groove, tago move",
+          "Hula-hula hoop",
+          "Gateun groove, tago move"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et",
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Pyeongbeomhan daneoro doen malbodan",
+          "Uriman aneun chumeul chwo all night",
+          "Got that cha-cha-cha, cha-cha-cha, deullyeoon geot gata",
+          "Hwaljjak pin useum neomeo aeteutham"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sıradan kelimelerle kurulan cümleler yerine",
+          "Yalnızca ikimizin bildiği o dansı edelim bütün gece",
+          "Cha-cha-cha, cha-cha-cha; sanki sesini duydum",
+          "Kocaman açan gülüşünün ardında derin bir özlem var"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Gyeolguk mannage dwae",
+          "Eodirado (Oh)",
+          "Seoroga georeoon",
+          "Donggeuran sigandeul sok"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sonunda yine buluşuruz",
+          "Nerede olursak olalım (Oh)",
+          "İkimizin yürüyüp geçtiği",
+          "O çember gibi dönen zamanların içinde"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "'Round, 'round and around",
+          "Yeah, yunanhi",
+          "Sikji anteon han yeoreumbam wi (Ah)",
+          "'Round, 'round and around (Ah)",
+          "Du byeoljarin",
+          "Me and you",
+          "Matdaeun uri dul like"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dön, dön, dön durmadan",
+          "Evet, özellikle de",
+          "Bir türlü serinlemeyen o yaz gecesinin üzerinde (Ah)",
+          "Dön, dön, dön durmadan (Ah)",
+          "İki ayrı takımyıldızız",
+          "Sen ve ben",
+          "Birbirine değen ikimiz, tıpkı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula-hula hoop",
+          "Gateun groove, tago move (Yeah)",
+          "Hula-hula hoop",
+          "Gateun groove, tago move"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et (Evet)",
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Round around and round around",
+          "Dolgo dora chajeun dap",
+          "Da da gyeolguk neoin geol",
+          "Ssuiwo julge kkochip crown",
+          "Jom deo meolli ganjikal",
+          "Urireul yaksokae nan"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Döne döne, durmadan dönerek",
+          "Onca turun sonunda bulduğum cevap",
+          "Hepsi, hepsi; sonunda hep sen çıkıyorsun",
+          "Başına çiçek yapraklarından bir taç takacağım",
+          "İkimizi çok daha uzun süre kalbimde saklayacağıma",
+          "Söz veriyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "'Round, 'round and around",
+          "Yeah, ne juwireul",
+          "Maemdoneun yeoreumbamui hyanggi",
+          "'Round, 'round and around, jom aryeonhi",
+          "Geuriun gibuniljido molla"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dön, dön, dön durmadan",
+          "Evet, çevrende",
+          "Dönüp duran o yaz gecesinin kokusu",
+          "Dön, dön, dön durmadan; biraz buruk",
+          "Belki de özlem dolu bir his bu"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula-hula hoop",
+          "Gateun groove, tago move",
+          "Hula-hula hoop",
+          "Gateun groove, tago move (Yeah, yeah)",
+          "Hula-hula hoop",
+          "Gateun groove, tago move",
+          "Hula-hula hoop",
+          "Gateun groove, tago move"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et",
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et (Evet, evet)",
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et",
+          "Hula hula hoop",
+          "Aynı ritme bin, hareket et"
+        ]
+      }
+    ],
+    "excerpt": "What's after left, right, right, right, right, right",
+    "annotations": {
+      "Hula hoop": "Çemberin sürekli dönmesi, ayrı yollara savrulsalar bile sonunda yeniden birbirine dönen iki kişiyi simgeliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1R4FvVhU905EvR0edXW4PI",
+        "name": "Hula Hoop",
+        "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+        "isrc": "KRA302600333",
+        "durationMs": 153266,
+        "duration": "2:33",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1z4g3DjTBBZKhvAroFlhOM",
+          "name": "Red Velvet",
+          "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+        }
+      ],
+      "album": {
+        "id": "0AzIvsw9Pq9De3vYFA01Rr",
+        "name": "Velvet Summer - Summer Mini Album",
+        "url": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+        "artists": [
+          {
+            "id": "1z4g3DjTBBZKhvAroFlhOM",
+            "name": "Red Velvet",
+            "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+          }
+        ],
+        "releaseDate": "2026-08-03",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3caqaSvtldUKLY5Fd5msk2",
+            "name": "Surfin' Boy",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168466,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+            "isCurrent": false
+          },
+          {
+            "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+            "name": "Hot Girls Cold Vibe",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 219000,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+            "isCurrent": false
+          },
+          {
+            "id": "5otUuJ8uKaFWPdqEfzZNhl",
+            "name": "Orchestra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+            "isCurrent": false
+          },
+          {
+            "id": "1R4FvVhU905EvR0edXW4PI",
+            "name": "Hula Hoop",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 153266,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+            "isCurrent": true
+          },
+          {
+            "id": "408zlDrAaUU9k1WUlp9i6i",
+            "name": "Hawaii",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 198533,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:20:26.586Z",
+      "trackUrl": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+      "albumUrl": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+      "artistUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+      "albumName": "Velvet Summer - Summer Mini Album",
+      "albumType": "EP",
+      "releaseDate": "2026-08-03",
+      "duration": "2:33",
+      "isrc": "KRA302600333",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18"
+    },
+    "genius": {
+      "url": "https://genius.com/Red-velvet-hula-hoop-lyrics",
+      "songId": 13854776,
+      "description": "?"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5147",
+    "title": "Red Velvet Hawaii Türkçe Çeviri",
+    "song": "Hawaii",
+    "slug": "red-velvet-hawaii-turkce-ceviri",
+    "date": "2026-08-03T09:20:14.163Z",
+    "artist": "Red Velvet",
+    "categories": [
+      "Red Velvet",
+      "Velvet Summer - Summer Mini Album"
+    ],
+    "category_slugs": [
+      "red-velvet",
+      "velvet-summer-summer-mini-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Nae eoril jeok jageun somang, meotjin eoreuni doeneun geot",
+          "Nun kkamjjakhal sae kiman jaran byeollan eoreun dwaebeoryeotji",
+          "Gireul ilko hemaedeon nae jinan nal machi",
+          "Summer blues, mm",
+          "Uyeonhi neol boatji, jayuroun deut naneun nalgaetjit",
+          "Na hollin deuthae, geu chume tteonabollae to Hawaii",
+          "Han mari nabiga doeeo da ijeobeorillae",
+          "Summer blues, mm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Çocukken küçücük bir dileğim vardı: harika bir yetişkin olmak",
+          "Göz açıp kapayıncaya kadar boy atıp tuhaf bir yetişkine dönüşüverdim",
+          "Yolumu kaybedip durduğum geçmiş günlerim tıpkı",
+          "Yaz hüznü gibiydi, mm",
+          "Sonra tesadüfen seni gördüm; kanatların özgürce çırpınıyordu",
+          "Sanki büyülenmişim; o dansın peşinden Hawaii'ye gitmek istiyorum",
+          "Tek bir kelebeğe dönüşüp her şeyi unutacağım",
+          "O yaz hüznünü, mm"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I wanna hula-la-la",
+          "Baramgyeoreul taneun padogachi",
+          "I wanna hula-la-la",
+          "Sarangui chum chullae like Hawaii"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hula-la-la yapmak istiyorum",
+          "Rüzgârın sırtına binen bir dalga gibi",
+          "Hula-la-la yapmak istiyorum",
+          "Hawaii'deymişiz gibi aşkın dansını edelim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Na eojetbam kkumeseo bon eorin sonyeoreul gieokae (Oh)",
+          "Geu yeppeun soneul naemireo noran kkocheul seonmulhaetji (Oh)",
+          "Pureudeon ne kkumdeureul gieokae jullae",
+          "No more blues (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Dün gece rüyamda gördüğüm o küçük kızı hatırlıyorum (Oh)",
+          "O güzel ellerini uzatıp bana sarı bir çiçek armağan etmişti (Oh)",
+          "Sen de o yemyeşil, taptaze hayallerini hatırlar mısın?",
+          "Artık hüzün yok (Oh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I wanna hula-la-la",
+          "Baramgyeoreul taneun padogachi",
+          "I wanna hula-la-la",
+          "Sarangui chum chullae like Hawaii"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hula-la-la yapmak istiyorum",
+          "Rüzgârın sırtına binen bir dalga gibi",
+          "Hula-la-la yapmak istiyorum",
+          "Hawaii'deymişiz gibi aşkın dansını edelim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii",
+          "Hawaii, Hawaii"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I wanna hula-la-la",
+          "Baramgyeoreul taneun padogachi",
+          "I wanna hula-la-la",
+          "Sarangui chum chullae like Hawaii",
+          "I wanna hula-la-la",
+          "Baramgyeoreul taneun padogachi",
+          "I wanna hula-la-la",
+          "Sarangui chum chullae like Hawaii"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hula-la-la yapmak istiyorum",
+          "Rüzgârın sırtına binen bir dalga gibi",
+          "Hula-la-la yapmak istiyorum",
+          "Hawaii'deymişiz gibi aşkın dansını edelim",
+          "Hula-la-la yapmak istiyorum",
+          "Rüzgârın sırtına binen bir dalga gibi",
+          "Hula-la-la yapmak istiyorum",
+          "Hawaii'deymişiz gibi aşkın dansını edelim"
+        ]
+      }
+    ],
+    "excerpt": "Nae eoril jeok jageun somang, meotjin eoreuni doeneun geot",
+    "annotations": {
+      "Kelebek": "Çocukluk hayallerini unutan yetişkin benliğin kabuğundan çıkıp yeniden özgürleşmesini temsil ediyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "408zlDrAaUU9k1WUlp9i6i",
+        "name": "Hawaii",
+        "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+        "isrc": "KRA302600334",
+        "durationMs": 198533,
+        "duration": "3:19",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 5,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1z4g3DjTBBZKhvAroFlhOM",
+          "name": "Red Velvet",
+          "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+        }
+      ],
+      "album": {
+        "id": "0AzIvsw9Pq9De3vYFA01Rr",
+        "name": "Velvet Summer - Summer Mini Album",
+        "url": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18",
+        "artists": [
+          {
+            "id": "1z4g3DjTBBZKhvAroFlhOM",
+            "name": "Red Velvet",
+            "url": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM"
+          }
+        ],
+        "releaseDate": "2026-08-03",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3caqaSvtldUKLY5Fd5msk2",
+            "name": "Surfin' Boy",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168466,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3caqaSvtldUKLY5Fd5msk2",
+            "isCurrent": false
+          },
+          {
+            "id": "1PklJ2Jf4BbWSzbtZbrRvS",
+            "name": "Hot Girls Cold Vibe",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 219000,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PklJ2Jf4BbWSzbtZbrRvS",
+            "isCurrent": false
+          },
+          {
+            "id": "5otUuJ8uKaFWPdqEfzZNhl",
+            "name": "Orchestra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5otUuJ8uKaFWPdqEfzZNhl",
+            "isCurrent": false
+          },
+          {
+            "id": "1R4FvVhU905EvR0edXW4PI",
+            "name": "Hula Hoop",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 153266,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1R4FvVhU905EvR0edXW4PI",
+            "isCurrent": false
+          },
+          {
+            "id": "408zlDrAaUU9k1WUlp9i6i",
+            "name": "Hawaii",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 198533,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:20:07.055Z",
+      "trackUrl": "https://open.spotify.com/track/408zlDrAaUU9k1WUlp9i6i",
+      "albumUrl": "https://open.spotify.com/album/0AzIvsw9Pq9De3vYFA01Rr",
+      "artistUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+      "albumName": "Velvet Summer - Summer Mini Album",
+      "albumType": "EP",
+      "releaseDate": "2026-08-03",
+      "duration": "3:19",
+      "isrc": "KRA302600334",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733df160174c379ca0f9bb7c18"
+    },
+    "genius": {
+      "url": "https://genius.com/Red-velvet-hawaii-lyrics",
+      "songId": 13931326,
+      "description": "?"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5146",
     "title": "BABYMONSTER MOON Türkçe Çeviri",
     "song": "MOON",

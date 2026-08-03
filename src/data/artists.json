@@ -1840,5 +1840,11 @@
     "name": "Llona",
     "count": 1,
     "image": null
+  },
+  {
+    "slug": "red-velvet",
+    "name": "Red Velvet",
+    "count": 5,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629"
   }
 ]
