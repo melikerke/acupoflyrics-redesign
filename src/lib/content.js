@@ -49,20 +49,6 @@ const enriched = posts.map((p, i) => ({
   voice: stableHash(p.artist) % 3, // 0 = airy/slow, 1 = neutral, 2 = dense/tight
 }));
 
-// Editorial release order for the 31 July 2026 batch. The source JSON keeps
-// import chronology, while the homepage follows the popularity-led sequence
-// selected by the editor.
-const HOME_RELEASE_ORDER = [
-  "ariana-grande-petal-turkce-ceviri",
-  "cardi-b-ah-ha-turkce-ceviri",
-  "benny-blanco-selena-gomez-becky-g-te-olvido-la-la-turkce-ceviri",
-  "cortis-juicy-j-motion-turkce-ceviri",
-  "ellie-goulding-4-seasons-turkce-ceviri",
-];
-const homeReleasePosts = HOME_RELEASE_ORDER
-  .map((slug) => enriched.find((post) => post.slug === slug))
-  .filter(Boolean);
-
 export const allPosts = enriched;
 
 // The WordPress category export mixed real performers with album/song
@@ -122,12 +108,9 @@ export function firstPair(post) {
   return { en, tr };
 }
 
-export const featured = homeReleasePosts[0] || enriched[0];
-export const heroPost = homeReleasePosts[0] || enriched[0];
-export const recent = [
-  ...homeReleasePosts,
-  ...enriched.filter((post) => !HOME_RELEASE_ORDER.includes(post.slug)),
-].slice(0, 12);
+export const featured = enriched[0];
+export const heroPost = enriched[0];
+export const recent = enriched.slice(0, 12);
 
 // All Turkish lines of a post, in order (for hero line + teaser).
 export function trLines(post) {
@@ -395,10 +378,7 @@ export const albumShelf = (() => {
     .slice(0, 16);
 })();
 
-export const newReleases = [
-  ...homeReleasePosts,
-  ...enriched.filter((post) => !HOME_RELEASE_ORDER.includes(post.slug)),
-].slice(0, 12);
+export const newReleases = enriched.slice(0, 12);
 export const kpopShelf = enriched.filter(isKpop).slice(0, 14);
 export const popShelf = enriched.filter((p) => genreFor(p) === "Pop").slice(0, 14);
 export const rapShelf = enriched.filter((p) => genreFor(p) === "Hip Hop").slice(0, 14);
