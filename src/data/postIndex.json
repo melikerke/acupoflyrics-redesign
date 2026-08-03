@@ -1,5 +1,79 @@
 [
   {
+    "id": "5152",
+    "slug": "taylor-swift-august-turkce-ceviri",
+    "title": "Taylor Swift august Türkçe Çeviri",
+    "song": "august",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "date": "2026-08-03T09:35:30.161Z",
+    "reading_time": 4,
+    "excerpt": "Salt air, and the rust on your door",
+    "categories": [
+      "Taylor Swift",
+      "folklore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "folklore"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+      "albumUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "folklore",
+      "releaseDate": "2020-07-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+      "duration": "4:22",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+        "isrc": "USUG12002842",
+        "duration": "4:22",
+        "previewUrl": null,
+        "trackNumber": 8
+      },
+      "artist": {
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
+      },
+      "album": {
+        "name": "folklore",
+        "url": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+        "artists": [
+          {
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2020-07-24",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://youtu.be/nn_0zPAfyo8?si=MRLOTjvQa2yHsQha",
+    "annotations": {
+      "Never have I ever": "Bu ifade hem “Daha önce hiç yapmadım” itirafını hem de meşhur bir gençlik ve parti oyununu simgeliyor; ilişkinin başlangıcındaki ilk fiziksel yakınlaşmaya ve heyecana işaret ediyor.",
+      "For the hope of it all": "“The x of it all” kalıbındaki hafif küçümseyici tınıyla, Augustine'in bu ilişkinin küçücük ihtimaline bile ne kadar büyük bir anlam yüklediğini aynı anda taşıyor.",
+      "Behind the mall": "Gizli buluşma mekânı, Augustine ile James'in ilişkisinin James'in asıl sevgilisi Betty yüzünden gözlerden uzak kalması gerektiğini vurguluyor.",
+      "You weren't mine to lose": "Augustine, James'e hiçbir zaman gerçekten sahip olmadığını ve bu yüzden onu “kaybetme” hakkının bile olmadığını acıyla kabul ediyor.",
+      "Slipped away / Sipped away": "Taylor burada fonetik bir oyun kuruyor. “Slipped away” ilişkinin hızla kayıp gitmesini, “sipped away” ise o anların bir şarap gibi yudum yudum tükenmesini anlatıyor.",
+      "Never mine": "Nakarat sonundaki tekrar, kulağa “nevermind” gibi yaklaşarak Augustine'in bu imkânsız aşktan duyduğu yorgunluğu ve vazgeçişi pekiştiriyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Salt air, and the rust on your door",
+      "tr": "Deniz esintisi ve kapındaki pas izi"
+    },
+    "heroPair": {
+      "en": "August slipped away into a moment in time",
+      "tr": "Ağustos akıp gitti zamanın içinde bir an gibi"
+    }
+  },
+  {
     "id": "5151",
     "slug": "red-velvet-surfin-boy-turkce-ceviri",
     "title": "Red Velvet Surfin' Boy Türkçe Çeviri",

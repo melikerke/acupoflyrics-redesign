@@ -124,7 +124,7 @@ export const legacyCategoryRedirects = {
   "flo-rida": "/artist/flo-rida",
   "florence-the-machine": "/artist/florence-the-machine",
   "fola": "/artist/fola",
-  "folklore": "/discover",
+  "folklore": "/album/taylor-swift-folklore",
   "four-deluxe": "/album/one-direction-four-deluxe",
   "future": "/artist/future",
   "future-nostalgia": "/album/dua-lipa-future-nostalgia",

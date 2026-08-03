@@ -1,5 +1,477 @@
 [
   {
+    "id": "5152",
+    "title": "Taylor Swift august Türkçe Çeviri",
+    "song": "august",
+    "slug": "taylor-swift-august-turkce-ceviri",
+    "date": "2026-08-03T09:35:30.161Z",
+    "artist": "Taylor Swift",
+    "categories": [
+      "Taylor Swift",
+      "folklore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "folklore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Salt air, and the rust on your door",
+          "I never needed anything more",
+          "Whispers of \"Are you sure?\"",
+          "\"Never have I ever before\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Deniz esintisi ve kapındaki pas izi",
+          "Bundan fazlasına hiç ihtiyacım yoktu sanki",
+          "\"Emin misin?\" diye fısıltılar",
+          "\"Daha önce hiç böyle hissetmemiştim\""
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I can see us lost in the memory",
+          "August slipped away into a moment in time",
+          "'Cause it was never mine",
+          "And I can see us twisted in bedsheets",
+          "August sipped away like a bottle of wine",
+          "'Cause you were never mine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama bizi anıların içinde kaybolmuş görebiliyorum",
+          "Ağustos akıp gitti zamanın içinde bir an gibi",
+          "Çünkü zaten hiç benim olmamıştı",
+          "Ve bizi çarşaflara dolanmış görebiliyorum",
+          "Ağustos yudum yudum bitti bir şişe şarap gibi",
+          "Çünkü sen hiç benim olmamıştın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Your back beneath the sun",
+          "Wishin' I could write my name on it",
+          "Will you call when you're back at school?",
+          "I remember thinkin' I had you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Güneşin altındaki o sırtın",
+          "Keşke adımı yazabilseydim üzerine",
+          "Okula döndüğünde beni arayacak mısın?",
+          "Seni “benim” sandığımı hatırlıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I can see us lost in the memory",
+          "August slipped away into a moment in time",
+          "'Cause it was never mine",
+          "And I can see us twisted in bedsheets",
+          "August sipped away like a bottle of wine",
+          "'Cause you were never mine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama bizi anıların içinde kaybolmuş görebiliyorum",
+          "Ağustos akıp gitti zamanın içinde bir an gibi",
+          "Çünkü zaten hiç benim olmamıştı",
+          "Ve bizi çarşaflara dolanmış görebiliyorum",
+          "Ağustos yudum yudum bitti bir şişe şarap gibi",
+          "Çünkü sen hiç benim olmamıştın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Back when we were still changin' for the better",
+          "Wanting was enough",
+          "For me, it was enough",
+          "To live for the hope of it all",
+          "Cancel plans just in case you'd call",
+          "And say, \"Meet me behind the mall\"",
+          "So much for summer love and saying \"us\"",
+          "'Cause you weren't mine to lose",
+          "You weren't mine to lose, no"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Henüz her şey daha iyiye doğru değişirken",
+          "Sadece “istemek” yetiyordu o zamanlar",
+          "Benim için yeterliydi",
+          "Sırf o her şeyin umudu uğruna yaşamak",
+          "Belki ararsın diye tüm planları iptal etmek",
+          "Ve “AVM'nin arkasında buluşalım” demen",
+          "Yaz aşkı ve “biz” demek buraya kadarmış",
+          "Çünkü kaybedecek kadar benim değildin sen",
+          "Kaybedecek kadar benim değildin, hayır"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I can see us lost in the memory",
+          "August slipped away into a moment in time",
+          "'Cause it was never mine",
+          "And I can see us twisted in bedsheets",
+          "August sipped away like a bottle of wine",
+          "'Cause you were never mine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama bizi anıların içinde kaybolmuş görebiliyorum",
+          "Ağustos akıp gitti zamanın içinde bir an gibi",
+          "Çünkü zaten hiç benim olmamıştı",
+          "Ve bizi çarşaflara dolanmış görebiliyorum",
+          "Ağustos yudum yudum bitti bir şişe şarap gibi",
+          "Çünkü sen hiç benim olmamıştın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "'Cause you were never mine",
+          "Never mine",
+          "But do you remember?",
+          "Remember when I pulled up and said \"Get in the car\"",
+          "And then canceled my plans just in case you'd call?",
+          "Back when I was livin' for the hope of it all, for the hope of it all",
+          "\"Meet me behind the mall\"",
+          "(Remember when I pulled up and said \"Get in the car\")",
+          "(And then canceled my plans just in case you'd call?)",
+          "(Back when I was livin' for the hope of it all, for the hope of it all)",
+          "(\"Meet me behind the mall\")",
+          "Remember when I pulled up and said \"Get in the car\"",
+          "And then canceled my plans just in case you'd call?",
+          "Back when I was livin' for the hope of it all (For the hope of it all)",
+          "For the hope of it all, for the hope of it all",
+          "(For the hope of it all, for the hope of it all)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Çünkü sen hiç benim olmamıştın",
+          "Hiç benim...",
+          "Ama hatırlıyor musun?",
+          "Hatırlıyor musun arabayla gelip “Bin içeri” dediğimi?",
+          "Ve belki ararsın diye tüm planlarımı iptal ettiğimi?",
+          "Henüz o her şeyin umudu uğruna yaşadığım o zamanlarda...",
+          "“AVM'nin arkasında buluşalım”",
+          "(Hatırlıyor musun arabayla gelip “Bin içeri” dediğimi?)",
+          "(Ve belki ararsın diye tüm planlarımı iptal ettiğimi?)",
+          "(Henüz o her şeyin umudu uğruna yaşadığım o zamanlarda...)",
+          "(“AVM'nin arkasında buluşalım”)",
+          "Hatırlıyor musun arabayla gelip “Bin içeri” dediğimi?",
+          "Ve belki ararsın diye tüm planlarımı iptal ettiğimi?",
+          "Henüz o her şeyin umudu uğruna yaşadığım o zamanlarda (O umut uğruna)",
+          "O umut uğruna, o umut uğruna",
+          "(O umut uğruna, o umut uğruna)"
+        ]
+      }
+    ],
+    "excerpt": "Salt air, and the rust on your door",
+    "annotations": {
+      "Never have I ever": "Bu ifade hem “Daha önce hiç yapmadım” itirafını hem de meşhur bir gençlik ve parti oyununu simgeliyor; ilişkinin başlangıcındaki ilk fiziksel yakınlaşmaya ve heyecana işaret ediyor.",
+      "For the hope of it all": "“The x of it all” kalıbındaki hafif küçümseyici tınıyla, Augustine'in bu ilişkinin küçücük ihtimaline bile ne kadar büyük bir anlam yüklediğini aynı anda taşıyor.",
+      "Behind the mall": "Gizli buluşma mekânı, Augustine ile James'in ilişkisinin James'in asıl sevgilisi Betty yüzünden gözlerden uzak kalması gerektiğini vurguluyor.",
+      "You weren't mine to lose": "Augustine, James'e hiçbir zaman gerçekten sahip olmadığını ve bu yüzden onu “kaybetme” hakkının bile olmadığını acıyla kabul ediyor.",
+      "Slipped away / Sipped away": "Taylor burada fonetik bir oyun kuruyor. “Slipped away” ilişkinin hızla kayıp gitmesini, “sipped away” ise o anların bir şarap gibi yudum yudum tükenmesini anlatıyor.",
+      "Never mine": "Nakarat sonundaki tekrar, kulağa “nevermind” gibi yaklaşarak Augustine'in bu imkânsız aşktan duyduğu yorgunluğu ve vazgeçişi pekiştiriyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3hUxzQpSfdDqwM3ZTFQY0K",
+        "name": "august",
+        "url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+        "isrc": "USUG12002842",
+        "durationMs": 261922,
+        "duration": "4:22",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "2fenSS68JI1h4Fo296JfGr",
+        "name": "folklore",
+        "url": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2020-07-24",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2020 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2020 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Jlcvv8IykzHaSmj49uNW8",
+            "name": "the 1",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 210251,
+            "duration": "3:30",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0Jlcvv8IykzHaSmj49uNW8",
+            "isCurrent": false
+          },
+          {
+            "id": "4R2kfaDFhslZEMJqAFNpdd",
+            "name": "cardigan",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 239560,
+            "duration": "4:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
+            "isCurrent": false
+          },
+          {
+            "id": "2Eeur20xVqfUoM3Q7EFPFt",
+            "name": "the last great american dynasty",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 230999,
+            "duration": "3:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2Eeur20xVqfUoM3Q7EFPFt",
+            "isCurrent": false
+          },
+          {
+            "id": "4pvb0WLRcMtbPGmtejJJ6y",
+            "name": "exile (feat. Bon Iver)",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 285634,
+            "duration": "4:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4pvb0WLRcMtbPGmtejJJ6y",
+            "isCurrent": false
+          },
+          {
+            "id": "1MgV7FIyNxIG7WzMRJV5HC",
+            "name": "my tears ricochet",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 255893,
+            "duration": "4:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1MgV7FIyNxIG7WzMRJV5HC",
+            "isCurrent": false
+          },
+          {
+            "id": "0ZNU020wNYvgW84iljPkPP",
+            "name": "mirrorball",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 208977,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0ZNU020wNYvgW84iljPkPP",
+            "isCurrent": false
+          },
+          {
+            "id": "6KJqZcs9XDgVck7Lg9QOTC",
+            "name": "seven",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 208906,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6KJqZcs9XDgVck7Lg9QOTC",
+            "isCurrent": false
+          },
+          {
+            "id": "3hUxzQpSfdDqwM3ZTFQY0K",
+            "name": "august",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 261922,
+            "duration": "4:22",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+            "isCurrent": true
+          },
+          {
+            "id": "7kt9e9LFSpN1zQtYEl19o1",
+            "name": "this is me trying",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 195097,
+            "duration": "3:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7kt9e9LFSpN1zQtYEl19o1",
+            "isCurrent": false
+          },
+          {
+            "id": "2NmsngXHeC1GQ9wWrzhOMf",
+            "name": "illicit affairs",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 190898,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2NmsngXHeC1GQ9wWrzhOMf",
+            "isCurrent": false
+          },
+          {
+            "id": "6VsvKPJ4xjVNKpI8VVZ3SV",
+            "name": "invisible string",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 252880,
+            "duration": "4:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6VsvKPJ4xjVNKpI8VVZ3SV",
+            "isCurrent": false
+          },
+          {
+            "id": "2QDyYdZyhlP2fp79KZX8Bi",
+            "name": "mad woman",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 237258,
+            "duration": "3:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2QDyYdZyhlP2fp79KZX8Bi",
+            "isCurrent": false
+          },
+          {
+            "id": "08fa9LFcFBTcilB3iq2e2A",
+            "name": "epiphany",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 289749,
+            "duration": "4:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/08fa9LFcFBTcilB3iq2e2A",
+            "isCurrent": false
+          },
+          {
+            "id": "5kI4eCXXzyuIUXjQra0Cxi",
+            "name": "betty",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 294521,
+            "duration": "4:55",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5kI4eCXXzyuIUXjQra0Cxi",
+            "isCurrent": false
+          },
+          {
+            "id": "7MbT4I8qGntX4fMdqMQgke",
+            "name": "peace",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 234000,
+            "duration": "3:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7MbT4I8qGntX4fMdqMQgke",
+            "isCurrent": false
+          },
+          {
+            "id": "6MWoRt97mnSTXZhu3ggi9C",
+            "name": "hoax",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 220042,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6MWoRt97mnSTXZhu3ggi9C",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-03T09:35:27.608Z",
+      "trackUrl": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+      "albumUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "folklore",
+      "albumType": "Album",
+      "releaseDate": "2020-07-24",
+      "duration": "4:22",
+      "isrc": "USUG12002842",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc"
+    },
+    "genius": {
+      "url": "https://genius.com/Taylor-swift-august-lyrics",
+      "songId": 5793977,
+      "description": "“august” is another folklore track produced with Swift’s frequent collaborator and friend Jack Antonoff, who called the song one of his “favorite things [they’ve] done together.”The song describes an ill-fated summer romance, similarly to Swift’s earlier works like 2006’s “Tim McGraw.” Fans believe it’s the second part of folklore’s “Teenage Love Triangle,” told from the point of view of the girl James cheated on Betty with. The storyline is preceded by “cardigan” and followed by “betty.”In the folklore album prologue, Swift says the album is inspired by “the sun drenched month of August, sipped away like a bottle of wine.” It’s also worth noting that August is the eighth month of the year, and “august” is the eighth track on folklore—and folklore is Swift’s eighth album that has eight deluxe versions."
+    },
+    "youtubeUrl": "https://youtu.be/nn_0zPAfyo8?si=MRLOTjvQa2yHsQha",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5151",
     "title": "Red Velvet Surfin' Boy Türkçe Çeviri",
     "song": "Surfin' Boy",
