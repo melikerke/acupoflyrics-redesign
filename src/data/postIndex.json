@@ -56,7 +56,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=XFkzRNyygfk",
     "annotations": {
-      "creep": "Kendini karşısındaki insanın dünyasına layık görmeyen, rahatsız edici derecede yabancı ve dışarıda hisseden kişiyi anlatıyor. “Ucube” bu öz-nefret tonunu doğrudan koruyor."
+      "ben bir ucubeyim": "‘Creep’ yalnızca tuhaf biri demek değil; anlatıcının kendisini sevdiği kişinin dünyasına yakışmayan, rahatsız edici bir yabancı gibi görmesini taşıyor. ‘Ucube’ bu ağır öz-nefret tonunu koruyor."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -125,8 +125,8 @@
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=lcOxhH8N3Bo",
     "annotations": {
-      "powder keg": "Her an patlamaya hazır, tehlikeli ve yoğun bir ilişkiyi anlatan “barut fıçısı” metaforu.",
-      "total eclipse of the heart": "Işığın bütünüyle kapanması gibi, aşkın da kalbi karanlıkta bırakmasını anlatan ana metafor. Bu yüzden “kalbin tam tutulması” ifadesi korunuyor."
+      "barut fıçısının üstünde": "İlişki her an patlayabilecek kadar yoğun ve tehlikeli; kıvılcımlar ise tutkuyu olduğu kadar yaklaşan yıkımı da anlatıyor.",
+      "Kalbimin tam tutulması": "Bir tutulmada ışığın bütünüyle kapanması gibi, aşk da anlatıcının kalbini karanlıkta bırakıyor. Şarkının ana imgesi bu yüzden kelime kelime değil, aynı göksel görüntüyü koruyarak çevrildi."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -195,11 +195,11 @@
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=7YuAzR2XVAM",
     "annotations": {
-      "mom's spaghetti": "Sahne korkusunun fiziksel halini anlatan, şarkıyla özdeşleşmiş görüntü. Hem kusmayı hem de karakterin evdeki yoksul hayatını tek ayrıntıda topluyor.",
-      "Rabbit": "8 Mile filmindeki Jimmy “B-Rabbit” Smith karakteri; ilk iki verse onun hikâyesini anlatıyor.",
-      "Pied Piper": "Fareli Köyün Kavalcısı masalına gönderme. Eminem başarısının arkasından herkesin gelmesini sağlayan kişi olduğunu, ama bunun bir bedeli bulunduğunu söylüyor.",
       "Mekhi Phifer": "8 Mile filminde Eminem'le birlikte rol alan oyuncu. “Bu film değil” diyerek üçüncü verse'te karakterden kendi gerçek hayatına geçtiğini vurguluyor.",
-      "Salem's Lot": "Hem Detroit yakınlarındaki yoksul yaşam alanına hem de Stephen King'in karanlık kasabasına göz kırpan bir ifade; burada çıkıp kurtulması gereken yer anlamında."
+      "Salem's Lot": "Hem Detroit yakınlarındaki yoksul yaşam alanına hem de Stephen King'in karanlık kasabasına göz kırpan bir ifade; burada çıkıp kurtulması gereken yer anlamında.",
+      "annesinin spagettisi": "Sahne korkusunun fiziksel hâli: Rabbit kusmuş durumda. Aynı ayrıntı, evdeki yoksul ve sıradan hayatını da tek görüntüde sahneye taşıyor.",
+      "Tavşan yine düştü": "‘Rabbit’, 8 Mile filmindeki Jimmy ‘B-Rabbit’ Smith. İlk iki bölüm onun sahne korkusu ve çıkış mücadelesini izliyor.",
+      "Fareli Köyün Kavalcısı'nın": "Masaldaki kavalcı gibi herkesi peşinden sürüklüyor; fakat Eminem bu etkinin ve şöhretin bir bedeli olacağını da hatırlatıyor."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -274,7 +274,7 @@
     },
     "youtubeUrl": null,
     "annotations": {
-      "enfermo de ti": "Kelimesi kelimesine “senden hasta olmak”; birine duyulan özlemin insanı fiziksel bir hastalık gibi ele geçirmesini anlatıyor."
+      "sana tutulmuş, hasta haldeyim": "‘Enfermo de ti’, yalnızca âşık olmak değil; özlemin bedeni ele geçiren bir hastalığa dönüşmesi. Hemen sonraki ‘gel de iyileştir beni’ dizesi bu imgeyi tamamlıyor."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -857,12 +857,13 @@
     },
     "youtubeUrl": "https://youtu.be/nn_0zPAfyo8?si=MRLOTjvQa2yHsQha",
     "annotations": {
-      "Never have I ever": "Bu ifade hem “Daha önce hiç yapmadım” itirafını hem de meşhur bir gençlik ve parti oyununu simgeliyor; ilişkinin başlangıcındaki ilk fiziksel yakınlaşmaya ve heyecana işaret ediyor.",
-      "For the hope of it all": "“The x of it all” kalıbındaki hafif küçümseyici tınıyla, Augustine'in bu ilişkinin küçücük ihtimaline bile ne kadar büyük bir anlam yüklediğini aynı anda taşıyor.",
-      "Behind the mall": "Gizli buluşma mekânı, Augustine ile James'in ilişkisinin James'in asıl sevgilisi Betty yüzünden gözlerden uzak kalması gerektiğini vurguluyor.",
-      "You weren't mine to lose": "Augustine, James'e hiçbir zaman gerçekten sahip olmadığını ve bu yüzden onu “kaybetme” hakkının bile olmadığını acıyla kabul ediyor.",
-      "Slipped away / Sipped away": "Taylor burada fonetik bir oyun kuruyor. “Slipped away” ilişkinin hızla kayıp gitmesini, “sipped away” ise o anların bir şarap gibi yudum yudum tükenmesini anlatıyor.",
-      "Never mine": "Nakarat sonundaki tekrar, kulağa “nevermind” gibi yaklaşarak Augustine'in bu imkânsız aşktan duyduğu yorgunluğu ve vazgeçişi pekiştiriyor."
+      "Daha önce hiç böyle hissetmemiştim": "‘Never have I ever’ hem ‘Daha önce hiç...’ itirafı hem de gençler arasında oynanan aynı adlı parti oyununa göz kırpıyor; ilişkinin ilk kez yaşanan heyecanını taşıyor.",
+      "o her şeyin umudu uğruna": "İlişkinin kendisinden çok, belki bir gün gerçek olacağı umuduyla yaşama hâli. Augustine için küçücük ihtimal bile bütün planlarını iptal etmeye yetiyor.",
+      "AVM'nin arkasında buluşalım": "Gözlerden uzak bu buluşma noktası, James'in Betty ile ilişkisi sürerken Augustine ile yaşadıklarının gizli kalması gerektiğini gösteriyor.",
+      "kaybedecek kadar benim değildin": "Augustine'in en acı kabulü: James hiçbir zaman gerçekten ona ait olmadığı için onu kaybettiğini söylemeye bile hakkı olmadığını düşünüyor.",
+      "Ağustos akıp gitti": "‘Slipped away’, ağustosun ve ilişkinin fark ettirmeden elden kayıp gitmesini anlatıyor.",
+      "Ağustos yudum yudum bitti": "‘Sipped away’, ‘slipped away’ ile ses oyunu kuruyor; bu kez ağustos bir şişe şarap gibi yavaş yavaş tüketiliyor.",
+      "Hiç benim": "‘Never mine’ tekrarı kulağa ‘nevermind’ ifadesini de yaklaştırıyor; sahip olamama acısıyla vazgeçiş aynı sesin içinde buluşuyor."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -7014,8 +7015,8 @@
     },
     "youtubeUrl": "https://youtu.be/Zi_XLOBDo_Y?si=yBMRyAEBCjGigiJn",
     "annotations": {
-      "I am the one": "Bu ifade hem \"o şanslı adam\" hem de \"suçlanan adam\" anlamında şarkının çift anlamlı temelidir.",
-      "Do think twice": "Michael burada \"don't think twice\" diyerek içsesiyle çatışıyor ve sonunda \"mutlaka iki kez düşün\" uyarısını pekiştiriyor."
+      "seçilmiş kişi ben miyim": "‘I am the one’ önce Billie Jean'in dans edeceği seçilmiş kişi anlamına geliyor; çocuk iddiası ortaya çıkınca aynı söz ‘suçlanan adam benim’ anlamına dönüyor.",
+      "Gerçekten iki kez düşünün": "Arka vokaldeki ‘don't think twice’ dürtüsel sesi ile ana vokaldeki ‘do think twice’ uyarısı çatışıyor. Son söz, sonuçlarını düşünmeden hareket etmeme çağrısı."
     },
     "difficulty_note": null,
     "firstPair": {
@@ -7024,7 +7025,7 @@
     },
     "heroPair": {
       "en": "She told me her name was Billie Jean as she caused a scene",
-      "tr": "Bir olay çıkarırken (caused a scene) adının Billie Jean olduğunu söyledi"
+      "tr": "Bir anda bütün bakışları üstüne çekip adının Billie Jean olduğunu söyledi"
     }
   },
   {
@@ -8764,18 +8765,18 @@
     "annotations": {
       "baepsae": "Baepsae (Karakulaklı bülbül) küçük, leylek (Hwangsae) ise uzun bacaklıdır. Deyim; alt sınıfın, üst sınıfı taklit etmeye çalışırken (onların koyduğu kurallarla yarışırken) perişan olmasını anlatır.",
       "Altın kaşıkla": "Zengin ve nüfuzlu bir aileye doğan kişi.",
-      "gönüllü sömürü": "Şirketlerin gençleri \"tecrübe kazanıyorsun\" diyerek çok düşük ücretle çalıştırması.",
-      "hamurunuz": "Bir bitkinin filizi/tomurcuğu. Korecede \"Sizin filiziniz zaten sarı\" (bozuk) demek, birinin geleceğinden umut olmadığını, karakterinin en baştan defolu olduğunu belirten sert bir hakarettir.",
+      "tutku maaşı": "Korecede ‘passion pay’, şirketlerin gençlere ‘tecrübe kazanıyorsun’ diyerek çok düşük ücret vermesini veya ücretsiz çalıştırmasını eleştiren acı bir ifade.",
+      "filiziniz baştan çürükmüş": "‘Ssaksu’ bir bitkinin ilk filizi ve mecazen kişinin gelecek vadeden karakteridir. Burada üst sınıfa ‘Sizin filiziniz baştan bozuk’ denerek geleceğinden hayır gelmeyeceği söyleniyor.",
       "Aynı merada": "Suga burada fırsat eşitliği masalını eleştiriyor; \"Aynı sahada oynuyoruz ama benim imkanlarım seninkinin yanında devede kulak\" diyor."
     },
     "difficulty_note": null,
     "firstPair": {
       "en": "They call me (Call me) baepsae (Baepsae)",
-      "tr": "Bana \"Baepsae\" (Küçük Kuş) diyorlar..."
+      "tr": "Bana Baepsae diyorlar (Diyorlar), Baepsae (Baepsae)"
     },
     "heroPair": {
       "en": "They call me (Call me) baepsae (Baepsae)",
-      "tr": "Bana \"Baepsae\" (Küçük Kuş) diyorlar..."
+      "tr": "Bana Baepsae diyorlar (Diyorlar), Baepsae (Baepsae)"
     }
   },
   {
@@ -9025,18 +9026,17 @@
     },
     "youtubeUrl": "https://youtu.be/_IT83Y_HcAw?si=RM39op7Y6eqxd4n0",
     "annotations": {
-      "less than a lover": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
-      "more than another": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
-      "Bir sevgiliden": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor."
+      "Bir sevgiliden": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
+      "Omurganın her kıvrımını": "Kaynak dizedeki ‘in degrees’, omurganın açılarını ve kıvrımlarını adım adım izleme imgesi kuruyor. Türkçede fiziksel yakınlığı korumak için ‘her kıvrımını’ denildi."
     },
     "difficulty_note": null,
     "firstPair": {
       "en": "Don't rush (Don't rush)",
-      "tr": "Acele etme (Acele etme...)"
+      "tr": "Acele etme (Acele etme)"
     },
     "heroPair": {
       "en": "Is a little bit less than a lover",
-      "tr": "Bir sevgiliden bir tık daha azı..."
+      "tr": "Bir sevgiliden biraz daha azı"
     }
   },
   {
@@ -23699,6 +23699,11 @@
       }
     },
     "youtubeUrl": null,
+    "annotations": {
+      "kaşığın ne ki": "Kore'deki ‘kaşık sınıfı’ söylemine gönderme: altın kaşık ayrıcalıklı, toprak kaşık yoksul aileye doğmayı anlatır. RM, birinin doğduğu sınıfın ona başkasını küçümseme hakkı vermediğini söylüyor.",
+      "Çıplak yumruklarını kaldır": "‘Maenjumeok’ silahsız, çıplak yumruk demek. Dize, elinde hiçbir ayrıcalık veya araç olmasa bile mücadeleye bütün gücünle katıl çağrısı yapıyor.",
+      "sansürlük bir hayat": "Kaynakta küfür doğrudan söylenmek yerine ‘ppii’ adlı sansür bip sesi kullanılıyor. Çeviri küfür uydurmak yerine hayatın dağınıklığını ve sansürlük hâlini koruyor."
+    },
     "firstPair": {
       "en": "Bultaoreune",
       "tr": "Buralar yanıyor!"

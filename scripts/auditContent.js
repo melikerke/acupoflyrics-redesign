@@ -44,6 +44,91 @@ function hasOriginalLyrics(post) {
   ));
 }
 
+function lyricBlocks(post, original) {
+  return (post.blocks || []).filter((block) => block?.original === original);
+}
+
+function lyricText(post, original) {
+  return lyricBlocks(post, original)
+    .flatMap((block) => block.lines || [])
+    .map((line) => String(line || ""))
+    .join("\n");
+}
+
+const nativeScriptPattern = /[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/u;
+const sourcePlatformPattern = /\b(genius|musixmatch|lyrics?\s*translate)\b/i;
+const inlineGlossPattern = /\(([a-z][a-z -]{2,})\)/g;
+const adlibWords = new Set([
+  "ah", "ayy", "eh", "fah", "ha", "hey", "huh", "la", "mm", "na", "oh", "ooh",
+  "skrrt", "uh", "woo", "woah", "yeah", "yuh",
+]);
+
+function hasSuspiciousInlineGloss(line) {
+  const matches = [...String(line || "").matchAll(inlineGlossPattern)];
+  return matches.some((match) => (
+    !match[1]
+      .split(/[\s-]+/)
+      .filter(Boolean)
+      .every((word) => adlibWords.has(word))
+  ));
+}
+
+function translationQualityIssues(post) {
+  const issues = [];
+  const blocks = post.blocks || [];
+  const translation = lyricText(post, false).toLocaleLowerCase("tr-TR");
+
+  blocks.forEach((block, blockIndex) => {
+    const lines = Array.isArray(block?.lines) ? block.lines : [];
+    lines.forEach((rawLine, lineIndex) => {
+      const line = String(rawLine || "");
+      const location = `${block.label || `blok ${blockIndex + 1}`} / satır ${lineIndex + 1}`;
+
+      if (block.original && nativeScriptPattern.test(line)) {
+        issues.push(rowFor(post, "native_script_not_romanized", `${location}: ${line}`));
+      }
+      if (/^\s*\*[^*]/.test(line) || /\*[^*]+\*/.test(block.label || "")) {
+        issues.push(rowFor(post, "markdown_artifact_in_lyrics", `${location}: ${line}`));
+      }
+      if (!block.original && hasSuspiciousInlineGloss(line)) {
+        issues.push(rowFor(post, "english_gloss_inside_translation", `${location}: ${line}`));
+      }
+      if (!block.original && /(?:\(\d+\)|[¹²³⁴⁵⁶⁷⁸⁹])\s*[.!?…]*$/.test(line)) {
+        issues.push(rowFor(post, "footnote_marker_inside_translation", `${location}: ${line}`));
+      }
+      if (/sözlerin anlamları|çeviri notları/i.test(line)) {
+        issues.push(rowFor(post, "editorial_note_inside_lyrics", `${location}: ${line}`));
+      }
+      if (/\*{3,}|\b\w+\*\w+/u.test(line)) {
+        issues.push(rowFor(post, "possible_unnecessary_censorship", `${location}: ${line}`));
+      }
+    });
+
+    if (block.original && blocks[blockIndex + 1]?.original === false) {
+      const translatedLines = blocks[blockIndex + 1].lines || [];
+      const difference = Math.abs(lines.length - translatedLines.length);
+      if (difference >= 2) {
+        issues.push(rowFor(
+          post,
+          "section_line_count_mismatch",
+          `${block.label || `blok ${blockIndex + 1}`}: orijinal ${lines.length}, Türkçe ${translatedLines.length}`,
+        ));
+      }
+    }
+  });
+
+  Object.entries(post.annotations || {}).forEach(([key, note]) => {
+    if (sourcePlatformPattern.test(String(note || ""))) {
+      issues.push(rowFor(post, "source_platform_named_in_annotation", key));
+    }
+    if (!translation.includes(String(key).toLocaleLowerCase("tr-TR"))) {
+      issues.push(rowFor(post, "annotation_not_clickable_in_translation", key));
+    }
+  });
+
+  return issues;
+}
+
 function rowFor(post, issue, detail = "") {
   return [
     post.id,
@@ -85,9 +170,12 @@ const translationIssues = posts
     return issues;
   });
 
+const translationQuality = posts.flatMap(translationQualityIssues);
+
 writeCsv("youtube-linki-olmayanlar.csv", [header, ...missingYoutube]);
 writeCsv("gorseli-olmayanlar.csv", [header, ...imageIssues]);
 writeCsv("cevirisi-olmayanlar.csv", [header, ...translationIssues]);
+writeCsv("ceviri-kalite-sinyalleri.csv", [header, ...translationQuality]);
 
 const summary = [
   ["metric", "count"],
@@ -95,6 +183,7 @@ const summary = [
   ["missing_youtube", missingYoutube.length],
   ["image_issues", imageIssues.length],
   ["translation_issues", translationIssues.length],
+  ["translation_quality_signals", translationQuality.length],
 ];
 
 writeCsv("ozet.csv", summary);
@@ -104,3 +193,4 @@ console.log(`Total posts: ${posts.length}`);
 console.log(`Missing YouTube: ${missingYoutube.length}`);
 console.log(`Image issues: ${imageIssues.length}`);
 console.log(`Translation issues: ${translationIssues.length}`);
+console.log(`Translation quality signals: ${translationQuality.length}`);
