@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
@@ -15,7 +16,7 @@ import {
   postPath,
   relatedTo,
 } from "../lib/content";
-import { albumPath } from "../lib/paths";
+import { albumPath, artistPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
 import { useSeo } from "../lib/seo";
@@ -42,7 +43,7 @@ function ArtistLinks({ artists }) {
       {artists.map((artist, index) => (
         <span key={artist.slug || artist.name} className="detail-artist-link-item">
           {index > 0 && <span className="detail-artist-separator">,</span>}
-          <Link to={artist.slug ? `/sanatci/${artist.slug}` : "/"}>{artist.name}</Link>
+          <Link to={artist.slug ? artistPath(artist) : "/"}>{artist.name}</Link>
         </span>
       ))}
     </span>
@@ -108,7 +109,7 @@ function youtubeEmbedUrl(url) {
 
 function AnnotationDialog({ selected, onClose }) {
   if (!selected) return null;
-  return (
+  return createPortal((
     <div className="detail-note-modal" role="dialog" aria-modal="true" aria-label="Kelime açıklaması">
       <button type="button" className="detail-note-backdrop" aria-label="Açıklamayı kapat" onClick={onClose} />
       <div className="detail-note-popover">
@@ -130,7 +131,7 @@ function AnnotationDialog({ selected, onClose }) {
         </div>
       </div>
     </div>
-  );
+  ), document.body);
 }
 
 function wrapCanvasText(ctx, text, maxWidth) {
@@ -152,12 +153,12 @@ function wrapCanvasText(ctx, text, maxWidth) {
 
 const CARD_MAX_LINES = 3;
 
-function cardLanguageLabel(language) {
-  return language === "tr" ? "Türkçe" : "Original";
-}
+const CARD_RATIOS = {
+  square: { label: "1:1", width: 2160, height: 2160, renderScale: 2 },
+};
 
 function lyricCardFilename(post, card) {
-  return `${post.artist}-${post.song}-${card.section.label}-${card.language}`
+  return `${post.artist}-${post.song}-${card.section.label}-${card.language}-${card.ratio || "square"}`
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -178,7 +179,8 @@ function cardThemeColors(color) {
   const shadow = shade(base, 0.46);
   const glow = mixColor(color, [245, 238, 226], 0.12);
   const stroke = mixColor(color, [255, 244, 224], 0.22);
-  return { base, shadow, glow, stroke };
+  const accent = mixColor(color, [255, 248, 239], 0.24);
+  return { base, shadow, glow, stroke, accent };
 }
 
 function loadCanvasImage(src) {
@@ -193,19 +195,6 @@ function loadCanvasImage(src) {
     img.onerror = () => resolve(null);
     img.src = src;
   });
-}
-
-function drawCover(ctx, image, x, y, size) {
-  ctx.save();
-  ctx.beginPath();
-  ctx.roundRect(x, y, size, size, 26);
-  ctx.clip();
-  if (image) ctx.drawImage(image, x, y, size, size);
-  else {
-    ctx.fillStyle = "rgba(255,255,255,0.2)";
-    ctx.fillRect(x, y, size, size);
-  }
-  ctx.restore();
 }
 
 function drawNoise(ctx, width, height) {
@@ -224,125 +213,220 @@ function drawNoise(ctx, width, height) {
   ctx.restore();
 }
 
-function drawEditorialRing(ctx, x, y, width, height, theme) {
-  ctx.save();
-  ctx.translate(x + width / 2, y + height / 2);
-  ctx.rotate(-0.08);
-  ctx.scale(1, 0.58);
-  ctx.strokeStyle = `rgba(${theme.stroke[0]}, ${theme.stroke[1]}, ${theme.stroke[2]}, 0.36)`;
-  ctx.lineWidth = 3;
-  ctx.beginPath();
-  ctx.ellipse(0, 0, width / 2, height / 2, 0, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.strokeStyle = `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.18)`;
-  ctx.lineWidth = 10;
-  ctx.beginPath();
-  ctx.ellipse(0, 0, width / 2 - 8, height / 2 - 8, 0, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.restore();
-}
-
 async function createLyricCardBlob({ post, card }) {
   const selectedLines = card.selectedLines.length ? card.selectedLines : ["..."];
   const cover = await loadCanvasImage(post.cover);
   const color = card.color || [218, 60, 120];
   const theme = cardThemeColors(color);
-  const scale = 2;
-  const designWidth = 1080;
+  const ratio = CARD_RATIOS[card.ratio] || CARD_RATIOS.square;
+  const renderScale = ratio.renderScale || 1;
+  const designWidth = ratio.width / renderScale;
+  const designHeight = ratio.height / renderScale;
+  const isLandscape = card.ratio === "landscape";
+  const isStory = card.ratio === "story";
+  const isPortrait = isStory || card.ratio === "pinterest";
+  const padding = isLandscape ? 112 : isPortrait ? 88 : 72;
   const canvas = document.createElement("canvas");
-  canvas.width = designWidth;
-  let ctx = canvas.getContext("2d");
-  await document.fonts?.load?.("620 42px Hanken Grotesk");
-  await document.fonts?.load?.("850 30px Hanken Grotesk");
-  const sans = "Hanken Grotesk, Inter, Helvetica Neue, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif";
-  ctx.font = `620 42px ${sans}`;
-  const lyricLines = selectedLines.flatMap((selectedLine, index) => {
-    const lines = wrapCanvasText(ctx, selectedLine, 820).slice(0, 3);
-    return index < selectedLines.length - 1 ? [...lines, ""] : lines;
-  });
-  while (lyricLines[lyricLines.length - 1] === "") lyricLines.pop();
-  const lineHeight = 55;
-  const blockHeight = lyricLines.reduce((height, line) => height + (line ? lineHeight : 18), 0);
-  const designHeight = Math.min(1180, Math.max(760, blockHeight + 600));
-  canvas.width = designWidth * scale;
-  canvas.height = designHeight * scale;
-  ctx = canvas.getContext("2d");
-  ctx.scale(scale, scale);
-  const bg = ctx.createLinearGradient(0, 0, designWidth, designHeight);
-  bg.addColorStop(0, cssRgb(theme.base));
-  bg.addColorStop(1, cssRgb(theme.shadow));
-  ctx.fillStyle = bg;
+  canvas.width = ratio.width;
+  canvas.height = ratio.height;
+  const ctx = canvas.getContext("2d");
+  ctx.scale(renderScale, renderScale);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+  const sans = "Inter, Hanken Grotesk, Helvetica Neue, Arial, system-ui, sans-serif";
+  const serif = "Fraunces, Georgia, serif";
+
+  await document.fonts?.load?.("400 68px Fraunces");
+  await document.fonts?.load?.("500 28px Inter");
+
+  ctx.fillStyle = cssRgb(theme.shadow);
   ctx.fillRect(0, 0, designWidth, designHeight);
 
-  const glowY = designHeight * 0.68;
-  const glow = ctx.createRadialGradient(780, glowY, 20, 780, glowY, 640);
-  glow.addColorStop(0, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.34)`);
-  glow.addColorStop(0.48, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.13)`);
-  glow.addColorStop(1, `rgba(${theme.shadow[0]}, ${theme.shadow[1]}, ${theme.shadow[2]}, 0)`);
-  ctx.fillStyle = glow;
+  if (cover) {
+    const sourceRatio = cover.width / cover.height;
+    const targetRatio = designWidth / designHeight;
+    let sourceX = 0;
+    let sourceY = 0;
+    let sourceWidth = cover.width;
+    let sourceHeight = cover.height;
+    if (sourceRatio > targetRatio) {
+      sourceWidth = cover.height * targetRatio;
+      sourceX = (cover.width - sourceWidth) / 2;
+    } else {
+      sourceHeight = cover.width / targetRatio;
+      sourceY = (cover.height - sourceHeight) / 2;
+    }
+    ctx.save();
+    ctx.filter = "saturate(0.9) contrast(1.06) brightness(0.86)";
+    ctx.drawImage(cover, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, designWidth, designHeight);
+    ctx.restore();
+  }
+
+  ctx.fillStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.12)`;
   ctx.fillRect(0, 0, designWidth, designHeight);
 
-  const vignette = ctx.createRadialGradient(540, designHeight * 0.5, 120, 540, designHeight * 0.5, 780);
-  vignette.addColorStop(0, "rgba(0,0,0,0)");
-  vignette.addColorStop(1, "rgba(0,0,0,0.38)");
-  ctx.fillStyle = vignette;
+  const horizontalScrim = ctx.createLinearGradient(0, 0, designWidth, 0);
+  horizontalScrim.addColorStop(0, "rgba(3, 6, 8, 0.92)");
+  horizontalScrim.addColorStop(0.44, "rgba(3, 6, 8, 0.58)");
+  horizontalScrim.addColorStop(0.76, "rgba(3, 6, 8, 0.16)");
+  horizontalScrim.addColorStop(1, "rgba(3, 6, 8, 0.42)");
+  ctx.fillStyle = horizontalScrim;
+  ctx.fillRect(0, 0, designWidth, designHeight);
+
+  const verticalScrim = ctx.createLinearGradient(0, 0, 0, designHeight);
+  verticalScrim.addColorStop(0, "rgba(3, 6, 8, 0.42)");
+  verticalScrim.addColorStop(0.46, "rgba(3, 6, 8, 0.02)");
+  verticalScrim.addColorStop(0.72, "rgba(3, 6, 8, 0.34)");
+  verticalScrim.addColorStop(1, "rgba(3, 6, 8, 0.96)");
+  ctx.fillStyle = verticalScrim;
+  ctx.fillRect(0, 0, designWidth, designHeight);
+
+  const focusGlow = ctx.createRadialGradient(
+    designWidth * 0.72,
+    designHeight * 0.28,
+    20,
+    designWidth * 0.72,
+    designHeight * 0.28,
+    Math.max(designWidth, designHeight) * 0.72,
+  );
+  focusGlow.addColorStop(0, "rgba(255,255,255,0)");
+  focusGlow.addColorStop(0.58, `rgba(${theme.glow[0]}, ${theme.glow[1]}, ${theme.glow[2]}, 0.06)`);
+  focusGlow.addColorStop(1, "rgba(0,0,0,0.24)");
+  ctx.fillStyle = focusGlow;
   ctx.fillRect(0, 0, designWidth, designHeight);
   drawNoise(ctx, designWidth, designHeight);
 
-  ctx.fillStyle = "#f7f3ec";
-  ctx.font = `850 30px ${sans}`;
-  ctx.fillText("acupoflyrics", 112, 132);
-
-  ctx.fillStyle = "#f7f3ec";
-  ctx.font = "700 82px Georgia, serif";
-  ctx.fillText("“", 112, 278);
-
-  ctx.font = `620 42px ${sans}`;
-  const lyricAreaTop = 330;
-  const lyricAreaBottom = designHeight - 330;
-  let y = Math.round(lyricAreaTop + Math.max(0, lyricAreaBottom - lyricAreaTop - blockHeight) / 2) + 36;
-  const ringY = Math.max(lyricAreaTop + 22, y + Math.min(lyricLines.filter(Boolean).length, 2) * lineHeight - 48);
-  drawEditorialRing(ctx, 250, ringY, 560, 108, theme);
-  const firstLyricLine = lyricLines.find(Boolean);
-  for (const line of lyricLines) {
-    if (!line) {
-      y += 18;
-      continue;
-    }
-    ctx.font = line === firstLyricLine ? `720 42px ${sans}` : `560 42px ${sans}`;
-    ctx.fillText(line, 112, y);
-    y += lineHeight;
-  }
-
-  const metaRuleY = designHeight - 202;
-  const metaGradient = ctx.createLinearGradient(112, 0, 660, 0);
-  metaGradient.addColorStop(0, `rgba(${theme.stroke[0]}, ${theme.stroke[1]}, ${theme.stroke[2]}, 0.48)`);
-  metaGradient.addColorStop(1, "rgba(247,243,236,0)");
-  ctx.strokeStyle = metaGradient;
-  ctx.lineWidth = 1.25;
+  const headerY = padding + 30;
+  ctx.fillStyle = cssRgb(color);
   ctx.beginPath();
-  ctx.moveTo(112, metaRuleY);
-  ctx.lineTo(660, metaRuleY);
+  ctx.arc(padding + 5, headerY - 7, 5, 0, Math.PI * 2);
+  ctx.fill();
+
+  ctx.fillStyle = "#fffdf8";
+  ctx.font = `600 27px ${sans}`;
+  ctx.fillText("acupoflyrics", padding + 24, headerY);
+
+  const headerRuleY = headerY + 42;
+  ctx.strokeStyle = "rgba(255,255,255,0.22)";
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(padding, headerRuleY);
+  ctx.lineTo(designWidth - padding, headerRuleY);
   ctx.stroke();
 
-  drawCover(ctx, cover, 748, designHeight - 330, 300);
+  const lyricWidth = isLandscape ? Math.round(designWidth * 0.58) : designWidth - padding * 2;
+  const footerRuleY = designHeight - padding - (isPortrait ? 178 : 124);
+  const lyricTopLimit = headerRuleY + (isStory ? 260 : isPortrait ? 205 : 150);
+  const lyricBottom = footerRuleY - (isPortrait ? 120 : 72);
+  const maxLyricHeight = lyricBottom - lyricTopLimit;
+  const selectedLineCount = selectedLines.length;
+  let lyricFontSize = isLandscape
+    ? selectedLineCount === 1 ? 82 : selectedLineCount === 2 ? 72 : 66
+    : isPortrait
+      ? selectedLineCount === 1 ? 90 : selectedLineCount === 2 ? 78 : 68
+      : selectedLineCount === 1 ? 72 : selectedLineCount === 2 ? 62 : 54;
+  const minimumFontSize = isLandscape ? 42 : isPortrait ? 46 : 38;
+  let lyricLines = [];
+  let lineHeight = 0;
+  let blockHeight = 0;
 
-  ctx.fillStyle = "#f7f3ec";
-  ctx.font = `820 31px ${sans}`;
-  ctx.fillText(post.song, 112, designHeight - 154);
-  ctx.fillStyle = "rgba(247,243,236,0.66)";
-  ctx.font = `650 23px ${sans}`;
-  ctx.fillText(post.artist, 112, designHeight - 119);
-  const albumMeta = post.spotify?.album?.name ? `${new Date(post.spotify?.album?.releaseDate || post.date).getFullYear()} • ${post.spotify.album.name}` : "";
-  if (albumMeta && !albumMeta.includes("NaN")) {
-    ctx.fillStyle = "rgba(247,243,236,0.48)";
-    ctx.font = `650 18px ${sans}`;
-    ctx.fillText(albumMeta, 112, designHeight - 88);
+  while (lyricFontSize >= minimumFontSize) {
+    ctx.font = `400 ${lyricFontSize}px ${serif}`;
+    lyricLines = selectedLines.flatMap((selectedLine, index) => {
+      const wrapped = wrapCanvasText(ctx, selectedLine, lyricWidth);
+      const lines = wrapped.map((line) => ({ line, isAccent: index === selectedLines.length - 1 }));
+      return index < selectedLines.length - 1 ? [...lines, { line: "", isAccent: false }] : lines;
+    });
+    while (lyricLines[lyricLines.length - 1]?.line === "") lyricLines.pop();
+    lineHeight = Math.round(lyricFontSize * 1.08);
+    blockHeight = lyricLines.reduce(
+      (height, item) => height + (item.line ? lineHeight : Math.round(lineHeight * 0.34)),
+      0,
+    );
+    if (blockHeight <= maxLyricHeight) break;
+    lyricFontSize -= 2;
   }
 
-  ctx.strokeStyle = "rgba(247,243,236,0.16)";
-  ctx.lineWidth = 2;
-  ctx.strokeRect(56, 56, 968, designHeight - 112);
+  const lyricStartY = Math.max(lyricTopLimit, lyricBottom - blockHeight);
+  ctx.save();
+  ctx.fillStyle = "rgba(255,255,255,0.76)";
+  ctx.font = `italic 300 ${isLandscape ? 112 : 128}px ${serif}`;
+  ctx.fillText("“", padding - 5, lyricStartY - 22);
+  ctx.restore();
+
+  ctx.shadowColor = "rgba(0,0,0,0.42)";
+  ctx.shadowBlur = 28;
+  let lyricY = lyricStartY + lyricFontSize;
+  for (const item of lyricLines) {
+    if (!item.line) {
+      lyricY += Math.round(lineHeight * 0.34);
+      continue;
+    }
+    ctx.fillStyle = item.isAccent ? cssRgb(theme.accent) : "#fffdf8";
+    ctx.font = `${item.isAccent ? "italic 500" : "400"} ${lyricFontSize}px ${serif}`;
+    ctx.fillText(item.line, padding, lyricY);
+    lyricY += lineHeight;
+  }
+  ctx.shadowBlur = 0;
+
+  ctx.strokeStyle = "rgba(255,255,255,0.22)";
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(padding, footerRuleY);
+  ctx.lineTo(designWidth - padding, footerRuleY);
+  ctx.stroke();
+
+  const footerTop = footerRuleY + 38;
+  const thumbnailSize = isLandscape ? 84 : isPortrait ? 88 : 78;
+  const thumbnailRadius = Math.round(thumbnailSize * 0.16);
+  const footerTextX = cover ? padding + thumbnailSize + 24 : padding;
+
+  if (cover) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(padding, footerTop, thumbnailSize, thumbnailSize, thumbnailRadius);
+    ctx.clip();
+    const coverSize = Math.min(cover.width, cover.height);
+    ctx.drawImage(
+      cover,
+      (cover.width - coverSize) / 2,
+      (cover.height - coverSize) / 2,
+      coverSize,
+      coverSize,
+      padding,
+      footerTop,
+      thumbnailSize,
+      thumbnailSize,
+    );
+    ctx.restore();
+  }
+
+  ctx.fillStyle = "#fff";
+  let songFontSize = isLandscape ? 30 : 28;
+  const songMaxWidth = isPortrait
+    ? designWidth - footerTextX - padding
+    : Math.round((designWidth - footerTextX - padding) * 0.62);
+  ctx.font = `600 ${songFontSize}px ${sans}`;
+  while (ctx.measureText(post.song).width > songMaxWidth && songFontSize > 20) {
+    songFontSize -= 1;
+    ctx.font = `600 ${songFontSize}px ${sans}`;
+  }
+  ctx.fillText(post.song, footerTextX, footerTop + 27);
+
+  ctx.fillStyle = cssRgb(theme.accent);
+  ctx.font = `500 ${isLandscape ? 21 : 20}px ${sans}`;
+  ctx.fillText(post.artist, footerTextX, footerTop + 61);
+
+  const albumMeta = post.spotify?.album?.name
+    ? `${new Date(post.spotify?.album?.releaseDate || post.date).getFullYear()} • ${post.spotify.album.name}`
+    : "";
+  if (albumMeta && !albumMeta.includes("NaN")) {
+    ctx.fillStyle = "rgba(255,255,255,0.44)";
+    ctx.font = `600 ${isLandscape ? 17 : 16}px ${sans}`;
+    const meta = albumMeta.toUpperCase();
+    const metaWidth = ctx.measureText(meta).width;
+    ctx.fillText(meta, designWidth - padding - metaWidth, footerTop + 45);
+  }
 
   return new Promise((resolve) => {
     canvas.toBlob((blob) => resolve(blob), "image/png", 0.96);
@@ -391,6 +475,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       section,
       language,
       colorIndex: 0,
+      ratio: "square",
       selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
     });
   };
@@ -447,7 +532,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   const shareCard = async () => {
     const card = buildCard(cardDraft);
     if (!card) return;
-    const text = `${post.artist} - ${post.song}\n${card.section.label} · ${cardLanguageLabel(card.language)}\n\n${card.selectedLines.join("\n")}\n\nacupoflyrics`;
+    const text = `${post.artist} - ${post.song}\n\n${card.selectedLines.join("\n")}\n\nacupoflyrics`;
     setCardBusy(true);
     setCardStatus("");
     try {
@@ -465,6 +550,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         method: "lyric_card",
         content_type: "translation_card",
         item_id: post.slug,
+        card_ratio: card.ratio,
       });
     } catch {
       /* user cancelled or sharing unavailable */
@@ -486,6 +572,12 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       a.download = `${lyricCardFilename(post, card)}.png`;
       a.click();
       URL.revokeObjectURL(url);
+      trackEvent("share", {
+        method: "lyric_card_download",
+        content_type: "translation_card",
+        item_id: post.slug,
+        card_ratio: card.ratio,
+      });
       setCardStatus("PNG indirildi.");
     } finally {
       setCardBusy(false);
@@ -497,7 +589,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     return [section.label, ...section.en, ...section.tr].join(" ").toLowerCase().includes(normalizedQuery);
   });
 
-  const renderLine = (line, id) => {
+  const renderMarkedLine = (line) => {
     const key = findKey(line);
     if (!key) return line || "—";
     const match = line.match(new RegExp(escapeRegExp(key), "i"));
@@ -506,17 +598,31 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     const marked = line.slice(match.index, match.index + match[0].length);
     const after = line.slice(match.index + match[0].length);
     return (
-      <button
-        type="button"
-        className="detail-lyric-annot"
-        onClick={() => onSelect({ key, display: marked, note: notes[key], line })}
-        aria-pressed={selectedKey === key}
-      >
+      <>
         {before}
-        <span>{marked}</span>
+        <button
+          type="button"
+          className="detail-lyric-annot"
+          onClick={() => onSelect({ key, display: marked, note: notes[key], line })}
+          aria-pressed={selectedKey === key}
+        >
+          {marked}
+        </button>
         {after}
-      </button>
+      </>
     );
+  };
+
+  const renderLyricLines = (section, language, sectionIndex) => {
+    const lines = section[language].filter(Boolean);
+    return lines.map((line, lineIndex) => {
+      const selectionId = `${sectionIndex}-${language}-${lineIndex}`;
+      return (
+        <span className="detail-lyric-line-static" key={selectionId}>
+          {renderMarkedLine(line)}
+        </span>
+      );
+    });
   };
 
   return (
@@ -569,18 +675,18 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                   <div className="detail-section-col is-en">
                     <div className="detail-col-head">
                       <span className="detail-col-tag">ORİJİNAL</span>
-                      {hasEn && <button type="button" onClick={() => openCard(section, "en")}>Lyric card</button>}
+                      {hasEn && <button type="button" onClick={() => openCard(section, "en")}>Kart oluştur</button>}
                     </div>
-                    <p className="detail-section-en">{renderLine(enText, `en-${index}`)}</p>
+                    <p className="detail-section-en">{renderLyricLines(section, "en", index)}</p>
                   </div>
                 )}
                 {viewMode !== "en" && (
                   <div className="detail-section-col is-tr">
                     <div className="detail-col-head">
                       <span className="detail-col-tag">TÜRKÇE</span>
-                      {hasTr && <button type="button" onClick={() => openCard(section, "tr")}>Lyric card</button>}
+                      {hasTr && <button type="button" onClick={() => openCard(section, "tr")}>Kart oluştur</button>}
                     </div>
-                    <p className="detail-section-tr">{renderLine(trText, `tr-${index}`)}</p>
+                    <p className="detail-section-tr">{renderLyricLines(section, "tr", index)}</p>
                   </div>
                 )}
               </div>
@@ -599,84 +705,125 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       {cardDraft && (() => {
         const card = buildCard(cardDraft);
         if (!card) return null;
-        const previewHeight = Math.min(540, Math.max(380, 318 + card.selectedLines.join(" ").length * 1.05));
         const previewTheme = cardThemeColors(card.color);
         const albumMeta = post.spotify?.album?.name
           ? `${new Date(post.spotify?.album?.releaseDate || post.date).getFullYear()} • ${post.spotify.album.name}`
           : "";
-        return (
+        return createPortal((
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
           <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
           <div className="detail-card-dialog">
-            <div className="detail-card-language-switch" aria-label="Kart dili">
-              <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>TR</button>
-              <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>EN</button>
-            </div>
-            <div className="detail-card-swatches" aria-label="Kart rengi">
-              {card.palette.map((color, colorIndex) => (
-                <button
-                  key={color.join("-")}
-                  type="button"
-                  className={card.colorIndex === colorIndex ? "is-active" : ""}
-                  style={{ background: rgb(color) }}
-                  onClick={() => setCardColor(colorIndex)}
-                  aria-label={`Renk ${colorIndex + 1}`}
-                />
-              ))}
-            </div>
-            <div
-              className={`detail-card-preview is-${card.language}`}
-              style={{
-                "--card-tone": rgb(card.color),
-                "--card-bg": rgb(previewTheme.base),
-                "--card-shadow": rgb(previewTheme.shadow),
-                "--card-shadow-deep": rgb(previewTheme.shadow, 0.58),
-                "--card-glow": rgb(previewTheme.glow, 0.34),
-                "--card-glow-soft": rgb(previewTheme.glow, 0.13),
-                "--card-stroke": rgb(previewTheme.stroke),
-                "--card-stroke-soft": rgb(previewTheme.stroke, 0.38),
-                "--card-preview-height": `${previewHeight}px`,
-              }}
-            >
-              <div className="detail-card-brand">
-                <span>acupoflyrics</span>
+            <header className="detail-card-dialog-head">
+              <div>
+                <span>SOSYAL KART STÜDYOSU</span>
+                <h2 className="font-serif">Bir dizeyi görsele dönüştür</h2>
               </div>
-              <span className="detail-card-focus-shape" aria-hidden="true" />
-              <img src={post.cover} alt="" className="detail-card-cover" />
-              <div className="detail-card-lines">
-                {card.selectedLines.map((line, lineIndex) => (
-                  <p key={`${line}-${lineIndex}`}>{line}</p>
-                ))}
-              </div>
-              <strong>{post.song}<em>{post.artist}</em>{albumMeta && !albumMeta.includes("NaN") ? <small>{albumMeta}</small> : null}</strong>
-            </div>
-            <div className="detail-card-line-picker" aria-label="Kart satırları">
-              {card.lines.map((line, lineIndex) => (
-                <button
-                  key={`${line}-${lineIndex}`}
-                  type="button"
-                  className={card.selected.includes(lineIndex) ? "is-selected" : ""}
-                  onClick={() => toggleCardLine(lineIndex)}
+              <button type="button" aria-label="Kart oluşturucuyu kapat" onClick={() => setCardDraft(null)}>×</button>
+            </header>
+
+            <div className="detail-card-studio">
+              <div className="detail-card-stage">
+                <div
+                  className={`detail-card-preview is-${card.language} is-${card.ratio} has-${card.selectedLines.length}-lines`}
+                  style={{
+                    "--card-tone": rgb(card.color),
+                    "--card-bg": rgb(previewTheme.base),
+                    "--card-shadow": rgb(previewTheme.shadow),
+                    "--card-shadow-deep": rgb(previewTheme.shadow, 0.58),
+                    "--card-glow": rgb(previewTheme.glow, 0.34),
+                    "--card-glow-soft": rgb(previewTheme.glow, 0.13),
+                    "--card-stroke": rgb(previewTheme.stroke),
+                    "--card-stroke-soft": rgb(previewTheme.stroke, 0.38),
+                    "--card-accent": rgb(previewTheme.accent),
+                  }}
                 >
-                  {line}
-                </button>
-              ))}
+                  <img src={post.cover} alt="" className="detail-card-backdrop-art" />
+                  <div className="detail-card-brand">
+                    <span><i aria-hidden />acupoflyrics</span>
+                  </div>
+                  <div className="detail-card-lines">
+                    {card.selectedLines.map((line, lineIndex) => (
+                      <p
+                        key={`${line}-${lineIndex}`}
+                        className={lineIndex === card.selectedLines.length - 1 ? "is-accent" : undefined}
+                      >
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                  <footer className="detail-card-meta">
+                    <div className="detail-card-track">
+                      <img src={post.cover} alt="" className="detail-card-album-cover" />
+                      <div className="detail-card-copy">
+                        <strong>{post.song}</strong>
+                        <em>{post.artist}</em>
+                      </div>
+                    </div>
+                    {albumMeta && !albumMeta.includes("NaN") ? <small>{albumMeta}</small> : null}
+                  </footer>
+                </div>
+                <span className="detail-card-dimensions">{CARD_RATIOS[card.ratio]?.width} × {CARD_RATIOS[card.ratio]?.height} PNG</span>
+              </div>
+
+              <aside className="detail-card-controls">
+                <section className="detail-card-control-group">
+                  <span>Dil</span>
+                  <div className="detail-card-language-switch" aria-label="Kart dili">
+                    <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>Türkçe</button>
+                    <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>Orijinal</button>
+                  </div>
+                </section>
+
+                <section className="detail-card-control-group">
+                  <span>Albüm tonu</span>
+                  <div className="detail-card-swatches" aria-label="Kart rengi">
+                    {card.palette.map((color, colorIndex) => (
+                      <button
+                        key={color.join("-")}
+                        type="button"
+                        className={card.colorIndex === colorIndex ? "is-active" : ""}
+                        style={{ background: rgb(color) }}
+                        onClick={() => setCardColor(colorIndex)}
+                        aria-label={`Renk ${colorIndex + 1}`}
+                      />
+                    ))}
+                  </div>
+                </section>
+
+                <section className="detail-card-control-group is-lines">
+                  <div className="detail-card-control-heading">
+                    <span>Dizeler</span>
+                    <small>En fazla 3</small>
+                  </div>
+                  <div className="detail-card-line-picker" aria-label="Kart satırları">
+                    {card.lines.map((line, lineIndex) => (
+                      <button
+                        key={`${line}-${lineIndex}`}
+                        type="button"
+                        className={card.selected.includes(lineIndex) ? "is-selected" : ""}
+                        onClick={() => toggleCardLine(lineIndex)}
+                      >
+                        <i aria-hidden>{card.selected.includes(lineIndex) ? "✓" : lineIndex + 1}</i>
+                        <span>{line}</span>
+                      </button>
+                    ))}
+                  </div>
+                </section>
+
+                {cardStatus && <p className="detail-card-status">{cardStatus}</p>}
+                <div className="detail-card-actions">
+                  <button type="button" onClick={downloadCard} disabled={cardBusy || !card.selectedLines.length}>
+                    PNG indir
+                  </button>
+                  <button type="button" onClick={shareCard} disabled={cardBusy || !card.selectedLines.length}>
+                    Paylaş
+                  </button>
+                </div>
+              </aside>
             </div>
-            <div className="detail-card-actions">
-              <button type="button" onClick={downloadCard} disabled={cardBusy || !card.selectedLines.length}>
-                PNG indir
-              </button>
-              <button type="button" onClick={shareCard} disabled={cardBusy || !card.selectedLines.length}>
-                Paylaş
-              </button>
-              <button type="button" className="is-ghost" onClick={() => setCardDraft(null)}>
-                Kapat
-              </button>
-            </div>
-            {cardStatus && <p className="detail-card-status">{cardStatus}</p>}
           </div>
         </div>
-        );
+        ), document.body);
       })()}
     </div>
   );
@@ -1016,12 +1163,13 @@ export default function LyricDetail() {
   const artistLinks = creditedArtistsFor(post);
   const sections = lyricSections(post.blocks);
   const isLyricsLoading = indexedPost && fullPost === null;
-  const parsedYear = new Date(post.date).getFullYear();
+  const parsedYear = new Date(post.spotify?.album?.releaseDate || post.date).getFullYear();
   const year = Number.isNaN(parsedYear) ? "" : parsedYear;
   const light = !isDark(accent);
   const top = shade(accent, light ? 0.42 : 0.64);
   const bottom = shade(accent, light ? 0.20 : 0.32);
-  const tags = [post.artist, post.song].filter(Boolean);
+  const genres = post.spotify?.artist?.genres?.filter(Boolean).slice(0, 3) || [];
+  const tags = (genres.length ? genres : [post.artist, post.song]).filter(Boolean);
   const videoEmbedUrl = youtubeEmbedUrl(post.youtubeUrl || post.youtube?.url);
   const scrollToReader = () => {
     trackEvent("select_content", {
@@ -1033,6 +1181,8 @@ export default function LyricDetail() {
   const albumName = albumNameFor(post);
   const hasAlbum = albumName && albumName !== "Tekli";
   const albumSlug = hasAlbum ? albumSlugFor(`${albumArtistFor(post)}-${albumName}`) : "";
+  const songwriterSource = post.songwriters || post.composers || post.credits?.songwriters || post.credits?.composers;
+  const songwriters = Array.isArray(songwriterSource) ? songwriterSource.join(", ") : songwriterSource || "";
 
   const cssVars = {
     "--detail-accent": rgb(accent),
@@ -1053,6 +1203,11 @@ export default function LyricDetail() {
     "--acl-accent-soft": rgb(accent, 0.18),
     "--acl-glow": rgb(accent, 0.18),
     "--acl-shadow": "rgba(0, 0, 0, 0.34)",
+    "--color-ink": "#f7f3ec",
+    "--color-ink-soft": "rgba(247, 243, 236, 0.78)",
+    "--color-muted": "rgba(247, 243, 236, 0.64)",
+    "--color-faint": "rgba(247, 243, 236, 0.48)",
+    "--color-line": "rgba(255, 255, 255, 0.11)",
   };
 
   return (
@@ -1065,6 +1220,11 @@ export default function LyricDetail() {
       style={cssVars}
     >
       <SiteNav />
+      <div className="detail-ambient" aria-hidden>
+        <img src={post.cover} alt="" />
+        <span className="detail-ambient-glow is-one" />
+        <span className="detail-ambient-glow is-two" />
+      </div>
       <div className="detail-reading-progress" aria-hidden>
         <span style={{ transform: `scaleX(${readProgress})`, background: "var(--detail-accent)" }} />
       </div>
@@ -1122,10 +1282,15 @@ export default function LyricDetail() {
       <DetailVideo post={post} embedUrl={videoEmbedUrl} onRead={scrollToReader} />
 
       <section className="detail-reading-shell">
+        <img src={post.cover} alt="" aria-hidden className="detail-reading-atmosphere" />
         <aside className="detail-info-panel">
           <h2 className="font-serif">Şarkı Bilgisi</h2>
           <MetaRow label="Sanatçı" value={<ArtistLinks artists={artistLinks} />} />
+          <MetaRow label="Albüm" value={hasAlbum ? albumName : "Tekli"} />
           <MetaRow label="Yayın" value={year ? String(year) : ""} />
+          <MetaRow label="Tür" value={genres.join(", ")} />
+          <MetaRow label="Besteci" value={songwriters} />
+          <MetaRow label="Süre" value={post.spotify?.track?.duration || ""} />
           <MetaRow label="Okuma" value={post.reading_time ? `${post.reading_time} dk` : ""} />
           <MetaRow label="Tarih" value={formatDate(post.date)} />
           <div className="detail-tag-block">
