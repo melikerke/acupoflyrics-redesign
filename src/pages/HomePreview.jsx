@@ -22,6 +22,7 @@ import {
   songOfTheDay,
 } from "../lib/content";
 import { useAlbumColor } from "../lib/color";
+import { getHistory, LIBRARY_CHANGE_EVENT } from "../lib/history";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import { latestPopGundemi } from "../data/popGundemi";
@@ -244,6 +245,26 @@ function NewTranslations({ items }) {
         <button className="acl-row-next" type="button" aria-label="Sonraki">
           <Arrow />
         </button>
+      </div>
+    </section>
+  );
+}
+
+function RecentHistoryShelf({ history }) {
+  if (!history.length) return null;
+  const items = history.slice(0, 6);
+
+  return (
+    <section className="acl-section acl-library-section" aria-labelledby="recent-history-title">
+      <div className="acl-section-head acl-library-head">
+        <div>
+          <span>Kaldığın yerden</span>
+          <h2 id="recent-history-title">Son baktıkların</h2>
+        </div>
+        <small className="acl-library-note">Hesap gerektirmez · yalnızca bu tarayıcıda tutulur</small>
+      </div>
+      <div className="acl-cover-row">
+        {items.map((post) => <TranslationCard key={post.slug} post={post} />)}
       </div>
     </section>
   );
@@ -501,6 +522,7 @@ export default function HomePreview() {
   const { heroPosts } = contentPlan;
   const [heroIndex, setHeroIndex] = useState(0);
   const [heroPaused, setHeroPaused] = useState(false);
+  const [recentHistory, setRecentHistory] = useState(() => getHistory());
   const activeHero = heroPosts[heroIndex] || heroPosts[0];
   const color = useAlbumColor(activeHero?.cover, [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
@@ -531,6 +553,16 @@ export default function HomePreview() {
     return () => window.clearInterval(timer);
   }, [heroPaused, heroPosts.length]);
 
+  useEffect(() => {
+    const refreshLibrary = () => setRecentHistory(getHistory());
+    window.addEventListener(LIBRARY_CHANGE_EVENT, refreshLibrary);
+    window.addEventListener("storage", refreshLibrary);
+    return () => {
+      window.removeEventListener(LIBRARY_CHANGE_EVENT, refreshLibrary);
+      window.removeEventListener("storage", refreshLibrary);
+    };
+  }, []);
+
   return (
     <div className={`acl-home ${theme.dark ? "is-dark" : "is-light"}`} style={theme.vars}>
       <SiteNav />
@@ -548,6 +580,7 @@ export default function HomePreview() {
           <PopNewsBanner article={latestPopGundemi} />
           <RisingSongFeature post={contentPlan.risingPost} article={latestPopGundemi} />
           <NewTranslations items={contentPlan.latest} />
+          <RecentHistoryShelf history={recentHistory} />
           <RankedSection newest={contentPlan.archiveNewest} updated={contentPlan.archiveUpdated} />
           <GenreFilterShelf shelves={contentPlan.genreShelves} />
           <AlbumShelf items={albumShelf} />

@@ -1,5 +1,6 @@
 import posts from "../data/postIndex.json";
 import artistsRaw from "../data/artists.json";
+import { popGundemiArticles } from "../data/popGundemi";
 import { linesFor } from "./searchLines";
 
 const total = posts.length;
@@ -240,10 +241,32 @@ export function relatedTo(post, n = 4) {
   return enriched.filter((p) => p.slug !== post.slug && p.artist === post.artist).slice(0, n);
 }
 
+function searchableArticleText(article) {
+  return [
+    article.title,
+    article.shortTitle,
+    article.artistName,
+    article.kicker,
+    article.excerpt,
+    article.dek,
+    ...(article.summary || []),
+    ...(article.sections || []).flatMap((section) => [section.heading, ...(section.body || [])]),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLocaleLowerCase("tr-TR");
+}
+
+function matchingArticles(query, limit) {
+  return popGundemiArticles
+    .filter((article) => searchableArticleText(article).includes(query))
+    .slice(0, limit);
+}
+
 // Global search across both languages (idea: search by line, song, artist).
 export function search(qRaw) {
-  const q = qRaw.trim().toLowerCase();
-  if (!q) return { songs: [], lines: [], artists: [], albums: [], collections: [], topics: [] };
+  const q = qRaw.trim().toLocaleLowerCase("tr-TR");
+  if (!q) return { total: 0, songs: [], articles: [], lines: [], artists: [], albums: [], collections: [], topics: [] };
   const songs = [];
   const lines = [];
   for (const p of enriched) {
@@ -264,7 +287,9 @@ export function search(qRaw) {
     ...moodGroups.map((g) => ({ ...g, kind: "mood" })),
     ...genreGroups.map((g) => ({ ...g, kind: "genre" })),
   ].filter((g) => g.name.toLowerCase().includes(q)).slice(0, 5);
-  return { songs, lines, artists, albums, collections: collectionsResult, topics };
+  const articles = matchingArticles(q, 4);
+  const total = songs.length + articles.length + lines.length + artists.length + albums.length + collectionsResult.length + topics.length;
+  return { total, songs, articles, lines, artists, albums, collections: collectionsResult, topics };
 }
 
 // ---- Discovery shelves (real data) ----
@@ -747,8 +772,8 @@ export function getGenre(slug) {
 // stays capped for speed). Returns songs, artists, albums, collections,
 // genres, moods and matched lyric lines — each its own real destination.
 export function searchAll(qRaw) {
-  const q = (qRaw || "").trim().toLowerCase();
-  const empty = { q, total: 0, songs: [], artists: [], albums: [], collections: [], genres: [], moods: [], lines: [] };
+  const q = (qRaw || "").trim().toLocaleLowerCase("tr-TR");
+  const empty = { q, total: 0, songs: [], articles: [], artists: [], albums: [], collections: [], genres: [], moods: [], lines: [] };
   if (!q) return empty;
 
   const songs = enriched.filter((p) => `${p.song} ${p.artist}`.toLowerCase().includes(q)).slice(0, 36);
@@ -771,7 +796,8 @@ export function searchAll(qRaw) {
   const collectionsResult = collections.filter((c) => c.name.toLowerCase().includes(q)).slice(0, 8);
   const genres = genreGroups.filter((g) => g.name.toLowerCase().includes(q));
   const moods = moodGroups.filter((m) => m.name.toLowerCase().includes(q));
+  const articles = matchingArticles(q, 16);
 
-  const total = songs.length + artists.length + albums.length + collectionsResult.length + genres.length + moods.length + lines.length;
-  return { q, total, songs, artists, albums, collections: collectionsResult, genres, moods, lines };
+  const total = songs.length + articles.length + artists.length + albums.length + collectionsResult.length + genres.length + moods.length + lines.length;
+  return { q, total, songs, articles, artists, albums, collections: collectionsResult, genres, moods, lines };
 }

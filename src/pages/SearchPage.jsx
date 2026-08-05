@@ -3,7 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { allPosts, searchAll } from "../lib/content";
 import { trackEvent } from "../lib/analytics";
 import { loadSearchLines } from "../lib/searchLines";
-import { searchPath, songPath } from "../lib/paths";
+import { popJournalPath, searchPath, songPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import SiteShell from "../components/site/SiteShell";
@@ -28,6 +28,8 @@ export default function SearchPage() {
   const q = params.get("q") || "";
   const [term, setTerm] = useState(q);
   const [fullLines, setFullLines] = useState([]);
+  const [lineSearchComplete, setLineSearchComplete] = useState(!q);
+  const [activeType, setActiveType] = useState("all");
 
   // Keep the URL (?q=) in sync so results are shareable, without spamming history.
   useEffect(() => {
@@ -40,13 +42,26 @@ export default function SearchPage() {
   const results = useMemo(() => searchAll(q), [q]);
   const lineResults = fullLines.length ? fullLines : results.lines;
   const visibleTotal = results.total - results.lines.length + lineResults.length;
+  const filters = [
+    { key: "all", label: "Tümü", count: visibleTotal },
+    { key: "songs", label: "Şarkılar", count: results.songs.length },
+    { key: "articles", label: "Pop Günlüğü", count: results.articles.length },
+    { key: "lines", label: "Dizeler", count: lineResults.length },
+    { key: "artists", label: "Sanatçılar", count: results.artists.length },
+    { key: "albums", label: "Albümler", count: results.albums.length },
+  ].filter((item) => item.key === "all" || item.count > 0);
+  const shownTotal = filters.find((item) => item.key === activeType)?.count ?? visibleTotal;
+  const shows = (type) => activeType === "all" || activeType === type;
 
   useEffect(() => {
     if (!q.trim()) {
       setFullLines([]);
+      setLineSearchComplete(true);
       return;
     }
     let cancelled = false;
+    setFullLines([]);
+    setLineSearchComplete(false);
     // Lazy line data: slug → all lyric lines (much lighter than posts.json).
     loadSearchLines()
       .then((linesMap) => {
@@ -59,18 +74,38 @@ export default function SearchPage() {
           if (hit) lines.push({ line: hit, post });
         }
         setFullLines(lines);
+        setLineSearchComplete(true);
       })
       .catch(() => {
-        if (!cancelled) setFullLines(results.lines);
+        if (!cancelled) {
+          setFullLines(results.lines);
+          setLineSearchComplete(true);
+        }
       });
     return () => { cancelled = true; };
   }, [q, results.lines]);
 
+  useEffect(() => {
+    setActiveType("all");
+  }, [q]);
+
+  useEffect(() => {
+    const cleaned = q.trim();
+    if (!lineSearchComplete || cleaned.length < 2 || visibleTotal > 0) return undefined;
+    const timer = window.setTimeout(() => {
+      trackEvent("search_no_results", {
+        search_term_length: cleaned.length,
+        search_surface: "results_page",
+      });
+    }, 900);
+    return () => window.clearTimeout(timer);
+  }, [lineSearchComplete, q, visibleTotal]);
+
   useSeo({
     title: q ? `“${q}” için arama sonuçları | acupoflyrics` : "Arama | acupoflyrics",
     description: q
-      ? `“${q}” aramasıyla eşleşen şarkılar, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`
-      : "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — iki dilde.",
+      ? `“${q}” aramasıyla eşleşen şarkılar, haberler, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`
+      : "Şarkı, haber, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — iki dilde.",
     path: searchPath(q),
     noindex: true,
     breadcrumbs: [
@@ -105,57 +140,91 @@ export default function SearchPage() {
             autoFocus
             value={term}
             onChange={(e) => setTerm(e.target.value)}
-            placeholder="şarkı, sanatçı, albüm ya da bir dize…"
+            placeholder="şarkı, haber, sanatçı, albüm ya da bir dize…"
             aria-label="Ara"
           />
         </form>
-        {q && <p className="site-search-count">{visibleTotal} sonuç · “{q}”</p>}
+        {q && <p className="site-search-count">{shownTotal} sonuç · “{q}”</p>}
       </div>
 
-      {q && visibleTotal === 0 && (
+      {q && lineSearchComplete && visibleTotal === 0 && (
         <div className="site-empty">
           <p className="font-serif">“{q}” için sonuç yok.</p>
-          <span>Başka bir kelime ya da bir his dene — “gece”, “özlem”, “aşk”.</span>
+          <span>Bu aramayı not ettik. Başka bir kelime ya da bir his de deneyebilirsin — “gece”, “özlem”, “aşk”.</span>
         </div>
       )}
 
-      {results.songs.length > 0 && (
+      {q && visibleTotal > 0 && filters.length > 2 && (
+        <div className="site-search-type-filters" role="group" aria-label="Sonuç türü">
+          {filters.map((filter) => (
+            <button
+              key={filter.key}
+              type="button"
+              className={`site-filter ${activeType === filter.key ? "is-active" : ""}`}
+              aria-pressed={activeType === filter.key}
+              onClick={() => setActiveType(filter.key)}
+            >
+              {filter.label} <span>{filter.count}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {shows("songs") && results.songs.length > 0 && (
         <Section title={`Şarkılar (${results.songs.length})`}>
           <Grid min={180}>{results.songs.map((p) => <SongCard key={p.slug} post={p} />)}</Grid>
         </Section>
       )}
 
-      {results.artists.length > 0 && (
+      {shows("articles") && results.articles.length > 0 && (
+        <Section title={`Pop Günlüğü (${results.articles.length})`} to={popJournalPath()}>
+          <div className="site-search-news-grid">
+            {results.articles.map((article) => (
+              <Link key={article.slug} to={popJournalPath(article)} className="site-search-news-card" style={{ "--pop-accent": article.accent }}>
+                <img src={article.image} alt="" loading="lazy" />
+                <span>
+                  <small>{article.kicker} · {article.readTime} okuma</small>
+                  <strong className="font-serif">{highlight(article.shortTitle || article.title, q)}</strong>
+                  <em>{article.excerpt}</em>
+                </span>
+                <Icon name="arrow" size={15} />
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {shows("artists") && results.artists.length > 0 && (
         <Section title={`Sanatçılar (${results.artists.length})`}>
           <Grid min={140}>{results.artists.map((a) => <ArtistCard key={a.slug} artist={a} />)}</Grid>
         </Section>
       )}
 
-      {results.albums.length > 0 && (
+      {shows("albums") && results.albums.length > 0 && (
         <Section title={`Albümler (${results.albums.length})`}>
           <Grid min={170}>{results.albums.map((a) => <AlbumCard key={a.slug} album={a} />)}</Grid>
         </Section>
       )}
 
-      {results.collections.length > 0 && (
+      {shows("all") && results.collections.length > 0 && (
         <Section title={`Koleksiyonlar (${results.collections.length})`}>
           <Grid min={220}>{results.collections.map((c) => <CollectionCard key={c.slug} collection={c} />)}</Grid>
         </Section>
       )}
 
-      {results.genres.length > 0 && (
+      {shows("all") && results.genres.length > 0 && (
         <Section title={`Türler (${results.genres.length})`}>
           <Grid min={150}>{results.genres.map((g) => <GenreCard key={g.slug} genre={g} />)}</Grid>
         </Section>
       )}
 
-      {results.moods.length > 0 && (
+      {shows("all") && results.moods.length > 0 && (
         <Section title={`Mood'lar (${results.moods.length})`}>
           <Grid min={150}>{results.moods.map((m) => <MoodCard key={m.slug} mood={m} />)}</Grid>
         </Section>
       )}
 
-      {lineResults.length > 0 && (
+      {shows("lines") && lineResults.length > 0 && (
         <Section title={`Dizeler (${lineResults.length})`}>
           <div className="site-rows">
             {lineResults.map(({ line, post }, i) => (
@@ -177,7 +246,7 @@ export default function SearchPage() {
 
       {!q && (
         <div className="site-empty" style={{ paddingTop: 30 }}>
-          <span>Bir hisle başla — Acupoflyrics hem orijinal sözlerde hem Türkçe çeviride arar.</span>
+          <span>Bir hisle başla — Acupoflyrics çevirilerde, orijinal dizelerde ve Pop Günlüğü'nde arar.</span>
         </div>
       )}
     </SiteShell>

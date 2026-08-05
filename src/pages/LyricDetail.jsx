@@ -1120,7 +1120,7 @@ export default function LyricDetail() {
 
   useEffect(() => {
     if (post) addHistory(post.slug);
-  }, [post, slug]);
+  }, [post?.slug]);
 
   useEffect(() => {
     setSelectedNote(null);

@@ -207,7 +207,7 @@ function cleanHead(html) {
     .replace(/\s*<meta\s+name="description"[\s\S]*?>/gi, "")
     .replace(/\s*<meta\s+(?:name|property)="(?:og:[^"]+|twitter:[^"]+)"[\s\S]*?>/gi, "")
     .replace(/\s*<link\s+rel="canonical"[\s\S]*?>/gi, "")
-    .replace(/\s*<script\s+type="application\/ld\+json"[\s\S]*?<\/script>/gi, "");
+    .replace(/\s*<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, "");
 }
 
 function htmlFor(route) {
@@ -233,8 +233,8 @@ function htmlFor(route) {
     <meta name="twitter:title" content="${escapeHtml(route.title)}" />
     <meta name="twitter:description" content="${escapeHtml(route.description)}" />
     ${route.image ? `<meta name="twitter:image" content="${escapeHtml(route.image)}" />` : ""}
-    <script type="application/ld+json">${JSON.stringify(json)}</script>
-    ${route.breadcrumbs?.length ? `<script type="application/ld+json">${JSON.stringify({
+    <script id="apl-structured-data" type="application/ld+json">${JSON.stringify(json)}</script>
+    ${route.breadcrumbs?.length ? `<script id="apl-breadcrumbs" type="application/ld+json">${JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: route.breadcrumbs.map((item, index) => ({

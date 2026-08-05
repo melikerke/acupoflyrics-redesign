@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getPopGundemiArticle } from "../data/popGundemi";
+import { getPopGundemiArticle, popGundemiArticles } from "../data/popGundemi";
 import { getPost, postPath } from "../lib/content";
 import { useAlbumColor } from "../lib/color";
 import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
@@ -88,6 +88,9 @@ export default function PopGundemiArticlePage() {
   });
 
   if (!article) return <NotFound />;
+  const articleIndex = popGundemiArticles.findIndex((item) => item.slug === article.slug);
+  const newerArticle = articleIndex > 0 ? popGundemiArticles[articleIndex - 1] : null;
+  const olderArticle = articleIndex < popGundemiArticles.length - 1 ? popGundemiArticles[articleIndex + 1] : null;
   const hasSections = article.sections?.length > 0;
   const edition = article.edition || formatEdition(article.date);
   const issueLabel = article.issue || "Pop Günlüğü";
@@ -277,6 +280,29 @@ export default function PopGundemiArticlePage() {
                 )}
                 <Link className="site-btn-ghost" to={popJournalPath()}>Pop Günlüğü'ne dön</Link>
               </div>
+
+              {(newerArticle || olderArticle) && (
+                <nav className="pop-story-pagination" aria-label="Pop Günlüğü yazıları arasında gezin">
+                  {newerArticle ? (
+                    <Link to={popJournalPath(newerArticle)} className="pop-story-pagination-card is-newer">
+                      <img src={newerArticle.image} alt="" loading="lazy" />
+                      <span>
+                        <small>← Daha yeni dosya</small>
+                        <strong className="font-serif">{newerArticle.shortTitle || newerArticle.title}</strong>
+                      </span>
+                    </Link>
+                  ) : <span />}
+                  {olderArticle && (
+                    <Link to={popJournalPath(olderArticle)} className="pop-story-pagination-card is-older">
+                      <span>
+                        <small>Daha eski dosya →</small>
+                        <strong className="font-serif">{olderArticle.shortTitle || olderArticle.title}</strong>
+                      </span>
+                      <img src={olderArticle.image} alt="" loading="lazy" />
+                    </Link>
+                  )}
+                </nav>
+              )}
             </footer>
           </div>
         </div>

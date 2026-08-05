@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { popGundemiArticles } from "../data/popGundemi";
 import { useAlbumColor } from "../lib/color";
 import { popJournalPath } from "../lib/paths";
@@ -17,12 +17,46 @@ function articleMeta(article) {
   return `${formatDate(article.date)} · ${article.readTime} okuma`;
 }
 
+function topicFor(article) {
+  const kicker = article.kicker.toLocaleLowerCase("tr-TR");
+  if (kicker.includes("k-pop") || kicker.includes("asya")) return "K-pop";
+  if (kicker.includes("yeni müzik")) return "Yeni müzik";
+  if (kicker.includes("hafıza")) return "Müzik hafızası";
+  return "Pop";
+}
+
+function monthKey(value) {
+  return String(value).slice(0, 7);
+}
+
+function monthLabel(value) {
+  return formatDate(`${value}-01`, { month: "long", year: "numeric" });
+}
+
 export default function PopGundemiPage() {
+  const [params, setParams] = useSearchParams();
   const featured = popGundemiArticles[0];
   const secondary = popGundemiArticles.slice(1, 3);
   const archive = popGundemiArticles.slice(3);
+  const topics = useMemo(() => [...new Set(popGundemiArticles.map(topicFor))], []);
+  const months = useMemo(() => [...new Set(popGundemiArticles.map((article) => monthKey(article.date)))], []);
+  const requestedTopic = params.get("konu") || "all";
+  const requestedMonth = params.get("ay") || "all";
+  const activeTopic = topics.includes(requestedTopic) ? requestedTopic : "all";
+  const activeMonth = months.includes(requestedMonth) ? requestedMonth : "all";
+  const isFiltering = activeTopic !== "all" || activeMonth !== "all";
+  const filteredArticles = useMemo(() => popGundemiArticles.filter((article) => (
+    (activeTopic === "all" || topicFor(article) === activeTopic)
+    && (activeMonth === "all" || monthKey(article.date) === activeMonth)
+  )), [activeMonth, activeTopic]);
   const coverColor = useAlbumColor(featured?.image, [38, 40, 56]);
   const theme = useMemo(() => themeFromColor(coverColor), [coverColor]);
+  const updateFilter = (key, value) => {
+    const next = new URLSearchParams(params);
+    if (value === "all") next.delete(key);
+    else next.set(key, value);
+    setParams(next, { replace: true });
+  };
 
   useSeo({
     title: "Pop Günlüğü | acupoflyrics",
@@ -48,11 +82,47 @@ export default function PopGundemiPage() {
             bekleyen kısımları birbirinden ayırarak okuyoruz.
           </p>
           <span className="pop-journal-issue">
-            {popGundemiArticles.length} dosya · {formatDate(featured.date, { month: "long", year: "numeric" })}
+            {popGundemiArticles.length} dosya · Temmuz–Ağustos 2026
           </span>
         </header>
 
-        <section className="pop-journal-lead" style={{ "--pop-accent": theme.vars["--acl-accent"] }}>
+        <nav className="pop-journal-filters" aria-label="Pop Günlüğü arşiv filtreleri">
+          <div className="pop-journal-filter-group">
+            <span>Konu</span>
+            <div>
+              {["all", ...topics].map((topic) => (
+                <button
+                  key={topic}
+                  type="button"
+                  className={activeTopic === topic ? "is-active" : ""}
+                  aria-pressed={activeTopic === topic}
+                  onClick={() => updateFilter("konu", topic)}
+                >
+                  {topic === "all" ? "Tümü" : topic}
+                  <small>{topic === "all" ? popGundemiArticles.length : popGundemiArticles.filter((article) => topicFor(article) === topic).length}</small>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="pop-journal-filter-group">
+            <span>Dönem</span>
+            <div>
+              {["all", ...months].map((month) => (
+                <button
+                  key={month}
+                  type="button"
+                  className={activeMonth === month ? "is-active" : ""}
+                  aria-pressed={activeMonth === month}
+                  onClick={() => updateFilter("ay", month)}
+                >
+                  {month === "all" ? "Tüm aylar" : monthLabel(month)}
+                </button>
+              ))}
+            </div>
+          </div>
+        </nav>
+
+        {!isFiltering && <section className="pop-journal-lead" style={{ "--pop-accent": theme.vars["--acl-accent"] }}>
           <Link className="pop-journal-lead-visual" to={popJournalPath(featured)} aria-label={featured.title}>
             <img src={featured.image} alt={featured.imageAlt || ""} />
             <span>
@@ -74,9 +144,9 @@ export default function PopGundemiPage() {
               Dosyayı oku <Icon name="arrow" size={15} />
             </Link>
           </div>
-        </section>
+        </section>}
 
-        <section className="pop-journal-section" aria-labelledby="journal-latest-title">
+        {!isFiltering && <section className="pop-journal-section" aria-labelledby="journal-latest-title">
           <header className="pop-journal-section-head">
             <div>
               <span className="site-kicker">Gündemin devamı</span>
@@ -105,9 +175,9 @@ export default function PopGundemiPage() {
               </Link>
             ))}
           </div>
-        </section>
+        </section>}
 
-        <section className="pop-journal-section pop-journal-archive" aria-labelledby="journal-archive-title">
+        {!isFiltering && <section className="pop-journal-section pop-journal-archive" aria-labelledby="journal-archive-title">
           <header className="pop-journal-section-head">
             <div>
               <span className="site-kicker">Arşiv akışı</span>
@@ -134,7 +204,47 @@ export default function PopGundemiPage() {
               </Link>
             ))}
           </div>
-        </section>
+        </section>}
+
+        {isFiltering && (
+          <section className="pop-journal-section pop-journal-filter-results" aria-labelledby="journal-filter-title">
+            <header className="pop-journal-section-head">
+              <div>
+                <span className="site-kicker">Seçili arşiv</span>
+                <h2 id="journal-filter-title" className="font-serif">
+                  {activeTopic !== "all" ? activeTopic : monthLabel(activeMonth)}
+                </h2>
+              </div>
+              <p>{filteredArticles.length} dosya bulundu.</p>
+            </header>
+            {filteredArticles.length > 0 ? (
+              <div className="pop-journal-archive-list">
+                {filteredArticles.map((article, index) => (
+                  <Link
+                    key={article.slug}
+                    className="pop-journal-archive-row"
+                    to={popJournalPath(article)}
+                    style={{ "--pop-accent": article.accent }}
+                  >
+                    <span className="pop-journal-archive-number">{String(index + 1).padStart(2, "0")}</span>
+                    <img src={article.image} alt="" loading="lazy" />
+                    <span className="pop-journal-archive-copy">
+                      <small>{topicFor(article)} · {articleMeta(article)}</small>
+                      <strong>{article.title}</strong>
+                      <em>{article.excerpt}</em>
+                    </span>
+                    <Icon name="arrow" size={16} />
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div className="pop-journal-filter-empty">
+                <p className="font-serif">Bu kesişimde henüz bir dosya yok.</p>
+                <button type="button" onClick={() => setParams({}, { replace: true })}>Tüm dosyaları göster</button>
+              </div>
+            )}
+          </section>
+        )}
 
         <section className="pop-journal-method" aria-labelledby="journal-method-title">
           <div>

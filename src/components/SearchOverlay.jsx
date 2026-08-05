@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { trackEvent } from "../lib/analytics";
 import { search } from "../lib/content";
 import { linesLoaded, loadSearchLines } from "../lib/searchLines";
-import { albumPath, artistPath, collectionPath, genrePath, moodPath, searchPath, songPath } from "../lib/paths";
+import { albumPath, artistPath, collectionPath, genrePath, moodPath, popJournalPath, searchPath, songPath } from "../lib/paths";
 
 export default function SearchOverlay({ open, onClose }) {
   const [q, setQ] = useState("");
@@ -24,6 +24,18 @@ export default function SearchOverlay({ open, onClose }) {
     loadSearchLines().then(() => { if (!cancelled) setLinesReady(true); });
     return () => { cancelled = true; };
   }, [open, linesReady]);
+
+  useEffect(() => {
+    const cleaned = q.trim();
+    if (!open || cleaned.length < 2 || results.total > 0) return undefined;
+    const timer = window.setTimeout(() => {
+      trackEvent("search_no_results", {
+        search_term_length: cleaned.length,
+        search_surface: "overlay",
+      });
+    }, 900);
+    return () => window.clearTimeout(timer);
+  }, [open, q, results.total]);
 
   const go = (to, contentType = "search_result") => {
     trackEvent("select_content", {
@@ -47,6 +59,7 @@ export default function SearchOverlay({ open, onClose }) {
   const items = useMemo(() => {
     const arr = [];
     results.songs.forEach((p) => arr.push({ id: "opt-s-" + p.slug, run: () => go(songPath(p), "song") }));
+    results.articles.forEach((article) => arr.push({ id: "opt-n-" + article.slug, run: () => go(popJournalPath(article), "editorial") }));
     results.lines.forEach(({ post }, i) => arr.push({ id: "opt-l-" + i, run: () => go(songPath(post), "lyric_line") }));
     results.artists.forEach((a) => arr.push({ id: "opt-a-" + a.slug, run: () => go(artistPath(a), "artist") }));
     results.albums.forEach((a) => arr.push({ id: "opt-al-" + a.slug, run: () => go(albumPath(a), "album") }));
@@ -101,8 +114,9 @@ export default function SearchOverlay({ open, onClose }) {
   };
 
   const songOff = 0;
-  const lineOff = results.songs.length;
-  const artistOff = results.songs.length + results.lines.length;
+  const articleOff = results.songs.length;
+  const lineOff = articleOff + results.articles.length;
+  const artistOff = lineOff + results.lines.length;
   const albumOff = artistOff + results.artists.length;
   const collectionOff = albumOff + results.albums.length;
   const topicOff = collectionOff + results.collections.length;
@@ -131,7 +145,7 @@ export default function SearchOverlay({ open, onClose }) {
                 ref={inputRef} value={q} onChange={(e) => setQ(e.target.value)} onKeyDown={onKeyDown}
                 role="combobox" aria-expanded={total > 0} aria-controls="search-listbox" aria-autocomplete="list"
                 aria-activedescendant={total > 0 ? items[active]?.id : undefined}
-                placeholder="şarkı, sanatçı ya da bir dize ara… (iki dilde)"
+                placeholder="şarkı, haber, sanatçı ya da bir dize ara…"
                 style={{ flex: 1, border: "none", outline: "none", background: "transparent", fontSize: 15, color: "var(--color-ink)", fontFamily: "var(--font-sans)" }} />
               <kbd style={{ fontSize: 9, color: "var(--color-faint)", border: "1px solid var(--color-line)", borderRadius: 5, padding: "2px 6px" }}>esc</kbd>
             </div>
@@ -142,6 +156,12 @@ export default function SearchOverlay({ open, onClose }) {
                 {results.songs.map((p, i) => (
                   <Row key={p.slug} id={"opt-s-" + p.slug} active={active === songOff + i} onActivate={() => setActive(songOff + i)} onClick={() => go(songPath(p), "song")} cover={p.cover}
                     title={hl(p.song)} sub={p.artist} />
+                ))}
+              </Group>}
+              {q && <Group label="Pop Günlüğü" show={results.articles.length}>
+                {results.articles.map((article, i) => (
+                  <Row key={article.slug} id={"opt-n-" + article.slug} active={active === articleOff + i} onActivate={() => setActive(articleOff + i)} onClick={() => go(popJournalPath(article), "editorial")} cover={article.image}
+                    title={hl(article.shortTitle || article.title)} sub={`${article.kicker} · ${article.readTime} okuma`} />
                 ))}
               </Group>}
               {q && <Group label="Dizeler" show={results.lines.length}>
@@ -177,7 +197,7 @@ export default function SearchOverlay({ open, onClose }) {
               {q && total === 0 && (
                 <div style={{ padding: "28px 18px", textAlign: "center", fontSize: 13, color: "var(--color-muted)" }}>
                   <div className="font-serif" style={{ fontSize: 17, fontStyle: "italic", color: "var(--color-ink-soft)", marginBottom: 6 }}>“{q}”</div>
-                  bu arama için bir çeviri bulunamadı.
+                  bu arama için bir içerik bulunamadı.
                 </div>
               )}
             </div>
@@ -189,7 +209,7 @@ export default function SearchOverlay({ open, onClose }) {
                   “{q}” için tüm sonuçlar →
                 </button>
               ) : (
-                <span style={{ marginLeft: "auto" }}>her iki dilde arar</span>
+                <span style={{ marginLeft: "auto" }}>çevirilerde ve Pop Günlüğü'nde arar</span>
               )}
             </div>
           </motion.div>
