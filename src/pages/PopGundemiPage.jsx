@@ -1,15 +1,28 @@
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { popGundemiArticles } from "../data/popGundemi";
+import { useAlbumColor } from "../lib/color";
 import { popJournalPath } from "../lib/paths";
-import { LIGHT_THEME } from "../lib/theme";
+import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
-import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
+import SiteShell from "../components/site/SiteShell";
 import { Icon } from "../components/site/ui";
-import "../preview.css";
-import "../site.css";
+import "../popGundemiHome.css";
+
+function formatDate(value, options = { day: "numeric", month: "long" }) {
+  return new Date(value).toLocaleDateString("tr-TR", options);
+}
+
+function articleMeta(article) {
+  return `${formatDate(article.date)} · ${article.readTime} okuma`;
+}
 
 export default function PopGundemiPage() {
   const featured = popGundemiArticles[0];
+  const secondary = popGundemiArticles.slice(1, 3);
+  const archive = popGundemiArticles.slice(3);
+  const coverColor = useAlbumColor(featured?.image, [38, 40, 56]);
+  const theme = useMemo(() => themeFromColor(coverColor), [coverColor]);
 
   useSeo({
     title: "Pop Günlüğü | acupoflyrics",
@@ -23,78 +36,118 @@ export default function PopGundemiPage() {
   });
 
   return (
-    <div className={`acl-home ${LIGHT_THEME.dark ? "is-dark" : "is-light"}`} style={LIGHT_THEME.vars}>
-      <SiteNav />
-      <main className="acl-shell">
-        <div className="acl-main-column" style={{ position: "relative" }}>
-          <div className="hero-ambient-glow" />
-          <div className="hero-ambient-glow-2" />
+    <SiteShell theme={theme} wide>
+      <div className="pop-journal-home">
+        <header className="pop-journal-masthead">
+          <div>
+            <span className="site-kicker">acupoflyrics editoryal</span>
+            <h1 className="font-serif">Pop Günlüğü</h1>
+          </div>
+          <p>
+            Pop ve K-pop dünyasında konuşulanları; doğrulanan, rapor edilen ve hâlâ
+            bekleyen kısımları birbirinden ayırarak okuyoruz.
+          </p>
+          <span className="pop-journal-issue">
+            {popGundemiArticles.length} dosya · {formatDate(featured.date, { month: "long", year: "numeric" })}
+          </span>
+        </header>
 
-          <section className="acl-hero pop-home-hero">
-            <img className="acl-hero-bg" src={featured.image} alt="" aria-hidden />
-            <div className="acl-hero-vignette" aria-hidden />
-            <div className="acl-hero-copy">
-              <div className="acl-kicker">
-                <span>Son Haber</span>
-                <i />
-              </div>
-              <h1 className="font-serif">Pop gündemini bağlamıyla oku.</h1>
-              <p className="acl-original">
-                K-pop ve pop müzikte konuşulanları; doğrulanan, rapor edilen ve bekleyen
-                kısımları ayırarak topluyoruz.
-              </p>
-              <p className="acl-meta">{popGundemiArticles.length} not · Kaynaklı gündem · Kısa okuma</p>
-              <div className="acl-hero-actions">
-                <Link to={popJournalPath(featured)} className="acl-primary-btn">
-                  Son gündemi oku
-                  <Icon name="arrow" size={16} />
-                </Link>
-              </div>
+        <section className="pop-journal-lead" style={{ "--pop-accent": theme.vars["--acl-accent"] }}>
+          <Link className="pop-journal-lead-visual" to={popJournalPath(featured)} aria-label={featured.title}>
+            <img src={featured.image} alt={featured.imageAlt || ""} />
+            <span>
+              <small>Manşet · {formatDate(featured.date)}</small>
+              <strong>{featured.kicker}</strong>
+            </span>
+          </Link>
+          <div className="pop-journal-lead-copy">
+            <span className="site-kicker">Ayın dosyası</span>
+            <h2 className="font-serif">
+              <Link to={popJournalPath(featured)}>{featured.title}</Link>
+            </h2>
+            <p>{featured.excerpt}</p>
+            <div className="pop-journal-lead-meta">
+              <span>{articleMeta(featured)}</span>
+              <span>{featured.sources.length} kaynak</span>
             </div>
-            <Link to={popJournalPath(featured)} className="acl-hero-art pop-home-art" aria-label={featured.shortTitle}>
-              <img src={featured.image} alt={featured.shortTitle} />
-              <span>
-                <small>{featured.kicker} · {new Date(featured.date).toLocaleDateString("tr-TR")}</small>
-                <strong>{featured.shortTitle}</strong>
-              </span>
+            <Link className="pop-journal-read" to={popJournalPath(featured)}>
+              Dosyayı oku <Icon name="arrow" size={15} />
             </Link>
-          </section>
+          </div>
+        </section>
 
-          <section className="acl-section">
-            <div className="acl-section-head">
-              <h2>Son gündemler</h2>
-              <Link to={popJournalPath(featured)}>Tümünü gör <Icon name="arrow" size={15} /></Link>
+        <section className="pop-journal-section" aria-labelledby="journal-latest-title">
+          <header className="pop-journal-section-head">
+            <div>
+              <span className="site-kicker">Gündemin devamı</span>
+              <h2 id="journal-latest-title" className="font-serif">Şimdi ne konuşuyoruz?</h2>
             </div>
-            <div className="acl-cover-row pop-home-row">
-              {popGundemiArticles.map((article) => (
-                <Link
-                  key={article.slug}
-                  to={popJournalPath(article)}
-                  className="acl-cover-card pop-home-card"
-                  style={{ "--pop-accent": article.accent }}
-                >
+            <p>En yeni iki not; manşeti tekrar etmeden.</p>
+          </header>
+          <div className="pop-journal-secondary-grid">
+            {secondary.map((article, index) => (
+              <Link
+                key={article.slug}
+                className="pop-journal-secondary-card"
+                to={popJournalPath(article)}
+                style={{ "--pop-accent": article.accent }}
+              >
+                <div className="pop-journal-secondary-image">
                   <img src={article.image} alt="" loading="lazy" />
-                  <strong>{article.shortTitle}</strong>
-                  <span>{article.kicker}</span>
-                  <small>{new Date(article.date).toLocaleDateString("tr-TR")} · {article.readTime}</small>
-                </Link>
-              ))}
-            </div>
-          </section>
+                  <span>{String(index + 2).padStart(2, "0")}</span>
+                </div>
+                <div>
+                  <small>{article.kicker} · {articleMeta(article)}</small>
+                  <strong className="font-serif">{article.title}</strong>
+                  <p>{article.excerpt}</p>
+                  <em>Okumaya devam et <Icon name="arrow" size={13} /></em>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
 
-          <section className="acl-section">
-            <div className="pop-home-note">
-              <span>Nasıl okuyoruz?</span>
-              <p>
-                Gündemdeki haberleri doğrudan kopyalamıyoruz; resmi açıklama, basın
-                raporu ve sosyal medya söylentisini ayırıp kısa bir okuma notuna çeviriyoruz.
-              </p>
+        <section className="pop-journal-section pop-journal-archive" aria-labelledby="journal-archive-title">
+          <header className="pop-journal-section-head">
+            <div>
+              <span className="site-kicker">Arşiv akışı</span>
+              <h2 id="journal-archive-title" className="font-serif">Biraz daha aşağıda</h2>
             </div>
-          </section>
-        </div>
-      </main>
-      <SiteFooter />
-      <MobileTabBar />
-    </div>
+            <p>Pop hafızası, sektör notları ve çeviri radarından kalan dosyalar.</p>
+          </header>
+          <div className="pop-journal-archive-list">
+            {archive.map((article, index) => (
+              <Link
+                key={article.slug}
+                className="pop-journal-archive-row"
+                to={popJournalPath(article)}
+                style={{ "--pop-accent": article.accent }}
+              >
+                <span className="pop-journal-archive-number">{String(index + 4).padStart(2, "0")}</span>
+                <img src={article.image} alt="" loading="lazy" />
+                <span className="pop-journal-archive-copy">
+                  <small>{article.kicker} · {articleMeta(article)}</small>
+                  <strong>{article.title}</strong>
+                  <em>{article.excerpt}</em>
+                </span>
+                <Icon name="arrow" size={16} />
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="pop-journal-method" aria-labelledby="journal-method-title">
+          <div>
+            <span className="site-kicker">Editoryal ilke</span>
+            <h2 id="journal-method-title" className="font-serif">Haberi büyütmeden, bağlamı küçültmeden.</h2>
+          </div>
+          <dl>
+            <div><dt>01 · Doğrulanan</dt><dd>Resmi açıklama ve doğrudan kaynak.</dd></div>
+            <div><dt>02 · Raporlanan</dt><dd>Güvenilir basının aktardığı, henüz kesinleşmeyen bilgi.</dd></div>
+            <div><dt>03 · Bekleyen</dt><dd>Söylentiyle haberi birbirine karıştırmadan izlediğimiz bölüm.</dd></div>
+          </dl>
+        </section>
+      </div>
+    </SiteShell>
   );
 }

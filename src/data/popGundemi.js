@@ -1,6 +1,9 @@
 export const popGundemiArticles = [
   {
     slug: "agustos-2026-asya-muzik-radari",
+    layout: "radar",
+    issue: "Dosya 01",
+    edition: "Ağustos / 2026",
     title: "Ağustos K-pop takvimi dolup taşıyor: KISS OF LIFE'tan Taemin'e beklediğimiz geri dönüşler",
     shortTitle: "Ağustos Asya müzik radarı",
     kicker: "Asya müzik radarı",
@@ -16,6 +19,13 @@ export const popGundemiArticles = [
       "Takvimleri açın: Ağustos'un ilk gününden son gecesine kadar K-pop ve Asya pop tarafında neredeyse nefes alacak boşluk yok. Üstelik listelerde şimdiden çeviri radarımıza giren dört güçlü şarkı var.",
     dek:
       "Tamam, global listeleri takip ediyoruz ama gözümüz artık Seul, Tokyo ve Asya turne hattında da. Çünkü bu ay KISS OF LIFE kapıyı açıyor; KiiiKiii, WayV, KATSEYE, NCT 127 ve Taemin sıraya giriyor. Kulaklıklar hazır mı?",
+    pullQuote:
+      "Tek bir comeback haftası değil; Ağustos'un tamamına yayılan, her durağında başka bir pop dünyası açan bir yayın zinciri.",
+    relatedTranslations: [
+      "kiss-of-life-igloo-turkce-ceviri",
+      "katseye-animal-turkce-ceviri",
+      "bts-swim-turkce-ceviri",
+    ],
     livePanel: {
       label: "3 Ağustos 2026 itibarıyla",
       title: "Takvime hemen ekle",

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
+  allPosts,
   albumShelf,
   artistSpotlight,
   collections,
@@ -22,8 +23,9 @@ import {
 } from "../lib/content";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
+import { useSeo } from "../lib/seo";
 import { latestPopGundemi } from "../data/popGundemi";
-import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath, popJournalPath } from "../lib/paths";
+import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath, ORIGIN, popJournalPath } from "../lib/paths";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
 import "../preview.css";
 import "../site.css";
@@ -49,6 +51,26 @@ function cleanHeroLine(value) {
   return String(value || "")
     .replace(/\s*\((?:mm[-\s]*|oh[-\s]*|ah[-\s]*)+\)\s*$/i, "")
     .trim();
+}
+
+function takeUnique(items, count, used, fallback = []) {
+  const selected = [];
+  for (const post of [...(items || []), ...(fallback || [])]) {
+    if (!post?.slug || used.has(post.slug)) continue;
+    used.add(post.slug);
+    selected.push(post);
+    if (selected.length >= count) break;
+  }
+  return selected;
+}
+
+function quoteFor(post) {
+  const pair = firstPair(post);
+  return {
+    post,
+    line: pair.tr || pair.en || post.excerpt || post.song,
+    source: pair.en || post.song,
+  };
 }
 
 function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
@@ -81,14 +103,14 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
         if (!event.currentTarget.contains(event.relatedTarget)) onPauseChange(false);
       }}
     >
-      <img key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} alt="" aria-hidden />
+      <img key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} alt="" aria-hidden fetchpriority="high" decoding="async" />
       <div className="acl-hero-vignette" aria-hidden />
       <div key={`copy-${post.slug}`} className={`acl-hero-copy ${titleClass}`}>
         <div className="acl-kicker">
           <span>Haftanın Çevirisi</span>
           <i />
         </div>
-        <h1 className="font-serif">{pair.tr || post.song}</h1>
+        <blockquote className="acl-hero-title font-serif">{pair.tr || post.song}</blockquote>
         <p className="acl-original">“{pair.en || post.song}”</p>
         <p className="acl-meta">{post.artist} · {album}{year ? `, ${year}` : ""}</p>
         <div className="acl-hero-actions">
@@ -105,7 +127,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
         </div>
       </div>
       <Link key={`art-${post.slug}`} to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
-        <img src={post.cover} alt={`${post.artist} - ${post.song}`} />
+        <img src={post.cover} alt={`${post.artist} - ${post.song}`} fetchpriority="high" decoding="async" />
       </Link>
       <div className="acl-hero-count" role="group" aria-label="Haftanın çevirisi slaytları">
         <button type="button" onClick={previous} aria-label="Önceki çeviri">
@@ -271,16 +293,9 @@ function RankedSection({ newest, updated }) {
   );
 }
 
-function GenreFilterShelf() {
+function GenreFilterShelf({ shelves }) {
   const [activeGenre, setActiveGenre] = useState("Pop");
-  
-  const items = useMemo(() => {
-    if (activeGenre === "Pop") return popShelf;
-    if (activeGenre === "Hip Hop") return rapShelf;
-    if (activeGenre === "K-pop") return kpopShelf;
-    if (activeGenre === "Rock") return rockShelf;
-    return [];
-  }, [activeGenre]);
+  const items = shelves[activeGenre] || [];
 
   return (
     <section className="acl-section">
@@ -368,7 +383,7 @@ function ArtistSpotlight({ artist }) {
       <div className="acl-spotlight">
         <img className="acl-spotlight-bg" src={main.cover} alt="" aria-hidden />
         <div className="acl-spotlight-copy">
-          <span>Artist Spotlight</span>
+          <span lang="en">Artist Spotlight</span>
           <h2 className="font-serif">{artist.name}</h2>
           <p>{artist.bio}</p>
           <Link to={artistPath(artist)}>Sanatçı sayfası <Arrow /></Link>
@@ -399,7 +414,7 @@ function MagazineSplit({ quote, day }) {
           </div>
         </Link>
         <Link to={postPath(quote.post)} className="acl-quote-feature">
-          <span>Lyrics Quote</span>
+          <span lang="en">Lyrics Quote</span>
           <blockquote className="font-serif">“{quote.line}”</blockquote>
           <p>{quote.post.artist} · {quote.post.song}</p>
           <small>No. {quote.post.no} · {formatDate(quote.post.date)}</small>
@@ -421,7 +436,7 @@ function ExploreGrid({ title, groups, type }) {
           <Link to={pathFor(group)} className="acl-chip-card" key={group.slug}>
             {group.cover && <img src={group.cover} alt="" loading="lazy" />}
             <span>{group.name}</span>
-            <small>{group.items.length} çeviri</small>
+            <small>{group.count ?? group.items.length} çeviri</small>
           </Link>
         ))}
       </div>
@@ -448,17 +463,64 @@ function ArtistGrid({ items }) {
 }
 
 export default function HomePreview() {
-  const heroPosts = useMemo(() => newReleases.slice(0, 5), []);
+  const contentPlan = useMemo(() => {
+    const used = new Set();
+    const heroPosts = takeUnique(newReleases, 5, used, allPosts);
+    const preferredRising = newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri");
+    const risingPost = takeUnique([preferredRising, ...newReleases], 1, used, allPosts)[0];
+    const latest = takeUnique(newReleases, 8, used, allPosts);
+    const archiveNewest = takeUnique(allPosts, 6, used);
+    const archiveUpdated = takeUnique(recentlyUpdated, 6, used, allPosts);
+    const genreShelves = {
+      Pop: takeUnique(popShelf, 8, used, allPosts),
+      "Hip Hop": takeUnique(rapShelf, 8, used, allPosts),
+      "K-pop": takeUnique(kpopShelf, 8, used, allPosts),
+      Rock: takeUnique(rockShelf, 8, used, allPosts),
+    };
+    const spotlightPosts = takeUnique(
+      artistSpotlight.posts,
+      4,
+      used,
+      allPosts.filter((post) => post.artist === artistSpotlight.name),
+    );
+    const day = takeUnique([songOfTheDay], 1, used, allPosts)[0];
+    const quotePost = takeUnique([lyricsQuote.post], 1, used, allPosts)[0];
+
+    return {
+      heroPosts,
+      risingPost,
+      latest,
+      archiveNewest,
+      archiveUpdated,
+      genreShelves,
+      spotlight: { ...artistSpotlight, posts: spotlightPosts },
+      day,
+      quote: quoteFor(quotePost),
+    };
+  }, []);
+  const { heroPosts } = contentPlan;
   const [heroIndex, setHeroIndex] = useState(0);
   const [heroPaused, setHeroPaused] = useState(false);
   const activeHero = heroPosts[heroIndex] || heroPosts[0];
   const color = useAlbumColor(activeHero?.cover, [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
-  const latest = useMemo(() => newReleases.slice(0, 8), []);
-  const risingPost = useMemo(
-    () => newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri") || latest[0],
-    [latest],
-  );
+
+  useSeo({
+    title: "Şarkı Sözleri ve Türkçe Çeviriler | acupoflyrics",
+    description: "Şarkı sözlerini, özenli Türkçe çevirileri, satır açıklamalarını ve müzik gündemini acupoflyrics arşivinde keşfet.",
+    path: "/",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "acupoflyrics",
+      url: ORIGIN,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${ORIGIN}/search?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+  });
 
   useEffect(() => {
     if (heroPaused || heroPosts.length < 2) return undefined;
@@ -473,6 +535,7 @@ export default function HomePreview() {
     <div className={`acl-home ${theme.dark ? "is-dark" : "is-light"}`} style={theme.vars}>
       <SiteNav />
       <main className="acl-shell">
+        <h1 className="acl-seo-title">Şarkı Sözleri ve Türkçe Çeviriler</h1>
         <div className="acl-main-column" style={{ position: "relative" }}>
           <div className="hero-ambient-glow" />
           <div className="hero-ambient-glow-2" />
@@ -483,14 +546,14 @@ export default function HomePreview() {
             onPauseChange={setHeroPaused}
           />
           <PopNewsBanner article={latestPopGundemi} />
-          <RisingSongFeature post={risingPost} article={latestPopGundemi} />
-          <NewTranslations items={latest} />
-          <RankedSection newest={newReleases} updated={recentlyUpdated} />
-          <GenreFilterShelf />
+          <RisingSongFeature post={contentPlan.risingPost} article={latestPopGundemi} />
+          <NewTranslations items={contentPlan.latest} />
+          <RankedSection newest={contentPlan.archiveNewest} updated={contentPlan.archiveUpdated} />
+          <GenreFilterShelf shelves={contentPlan.genreShelves} />
           <AlbumShelf items={albumShelf} />
           <CollectionsSection items={collections} />
-          <ArtistSpotlight artist={artistSpotlight} />
-          <MagazineSplit quote={lyricsQuote} day={songOfTheDay} />
+          <ArtistSpotlight artist={contentPlan.spotlight} />
+          <MagazineSplit quote={contentPlan.quote} day={contentPlan.day} />
           <ExploreGrid title="Mood'a Göre Keşfet" groups={moodGroups} type="mood" />
         </div>
       </main>

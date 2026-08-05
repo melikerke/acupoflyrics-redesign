@@ -20,6 +20,19 @@ import { Breadcrumbs, FilterBar, Grid, Icon, Section, Shelf } from "../component
 import { AlbumCard, ArtistCard, SongCard } from "../components/site/cards";
 import NotFound from "../components/site/NotFound";
 
+const MOOD_TONES = {
+  Love: "romantik",
+  Sad: "hüzünlü",
+  Happy: "neşeli",
+  Healing: "iyileştirici",
+  Dark: "karanlık",
+  Motivation: "motive edici",
+  Party: "yüksek enerjili",
+  Lonely: "yalnızlık hissi taşıyan",
+  Dreamy: "düşsel",
+  Night: "gece atmosferli",
+};
+
 export default function ArtistPage() {
   const { slug } = useParams();
   const artist = useMemo(() => getArtist(slug), [slug]);
@@ -33,8 +46,9 @@ export default function ArtistPage() {
 
   const topGenre = artist.posts.length ? genreFor(artist.posts[0]) : "";
   const topMood = artist.posts.length ? moodFor(artist.posts[0]) : "";
+  const moodTone = MOOD_TONES[topMood] || "kendine özgü";
   const bio = artist.posts.length
-    ? `${artist.name}, acupoflyrics arşivinde ${artist.count} çeviriyle yer alıyor — ağırlıkla ${topGenre} tınılı, ${topMood.toLowerCase()} hisli parçalar. ${artist.albums.length ? `${artist.albums.length} albüm/EP'den` : "Çeşitli dönemlerden"} şarkılar, sözlerin altındaki anlam ve mecazlarla birlikte tek tek Türkçeye taşındı.`
+    ? `${artist.name}, acupoflyrics arşivinde ${artist.count} çeviriyle yer alıyor — ağırlıkla ${topGenre} tınılı, ${moodTone} parçalar. ${artist.albums.length ? `${artist.albums.length} albüm/EP'den` : "Çeşitli dönemlerden"} şarkılar, sözlerin altındaki anlam ve mecazlarla birlikte tek tek Türkçeye taşındı.`
     : "";
 
   const path = artistPath(slug);

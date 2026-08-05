@@ -19,6 +19,7 @@ import {
 import { albumPath, artistPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
+import { translationMetaDescription } from "../lib/meta";
 import { useSeo } from "../lib/seo";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
@@ -152,6 +153,7 @@ function wrapCanvasText(ctx, text, maxWidth) {
 }
 
 const CARD_MAX_LINES = 3;
+const LYRICS_VIEW_KEY = "acl_lyrics_view_v1";
 
 const CARD_RATIOS = {
   square: { label: "1:1", width: 2160, height: 2160, renderScale: 2 },
@@ -434,7 +436,15 @@ async function createLyricCardBlob({ post, card }) {
 }
 
 function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardPalette }) {
-  const [viewMode, setViewMode] = useState("both");
+  const [viewMode, setViewMode] = useState(() => {
+    try {
+      const stored = window.localStorage.getItem(LYRICS_VIEW_KEY);
+      if (["both", "en", "tr"].includes(stored)) return stored;
+    } catch {
+      /* Keep the responsive default when storage is unavailable. */
+    }
+    return window.matchMedia?.("(max-width: 820px)").matches ? "tr" : "both";
+  });
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
   const [cardDraft, setCardDraft] = useState(null);
@@ -448,6 +458,15 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   };
   const normalizedQuery = query.trim().toLowerCase();
   const activeSection = sections[activeIndex] || sections[0];
+
+  const selectViewMode = (mode) => {
+    setViewMode(mode);
+    try {
+      window.localStorage.setItem(LYRICS_VIEW_KEY, mode);
+    } catch {
+      /* The choice still applies for the current page. */
+    }
+  };
 
   useEffect(() => {
     const onScroll = () => {
@@ -649,6 +668,14 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
           ))}
         </div>
       </div>
+      <div className="detail-floating-lyrics" aria-label="Şarkı sözü görünümü">
+        <span>Görünüm</span>
+        <div className="detail-view-mode-tabs">
+          <button type="button" aria-pressed={viewMode === "both"} className={viewMode === "both" ? "is-active" : ""} onClick={() => selectViewMode("both")}>İkisi</button>
+          <button type="button" aria-pressed={viewMode === "en"} className={viewMode === "en" ? "is-active" : ""} onClick={() => selectViewMode("en")}>EN</button>
+          <button type="button" aria-pressed={viewMode === "tr"} className={viewMode === "tr" ? "is-active" : ""} onClick={() => selectViewMode("tr")}>TR</button>
+        </div>
+      </div>
       <div className="detail-lyric-sections">
         {visibleSections.map(({ section, index }) => {
           const enText = section.en.join("\n");
@@ -667,7 +694,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               data-lyric-section
             >
               <header className="detail-section-head">
-                <span className="detail-section-pill">{section.label}</span>
+                <span className="detail-section-pill" lang="en">{section.label}</span>
                 <i aria-hidden />
               </header>
               <div className={`detail-section-copy is-${viewMode}`}>
@@ -693,14 +720,6 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
             </article>
           );
         })}
-      </div>
-      <div className="detail-floating-lyrics">
-        <span>Görünüm</span>
-        <div className="detail-view-mode-tabs">
-          <button type="button" className={viewMode === "both" ? "is-active" : ""} onClick={() => setViewMode("both")}>İkisi</button>
-          <button type="button" className={viewMode === "en" ? "is-active" : ""} onClick={() => setViewMode("en")}>EN</button>
-          <button type="button" className={viewMode === "tr" ? "is-active" : ""} onClick={() => setViewMode("tr")}>TR</button>
-        </div>
       </div>
       {cardDraft && (() => {
         const card = buildCard(cardDraft);
@@ -759,7 +778,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                         <em>{post.artist}</em>
                       </div>
                     </div>
-                    {albumMeta && !albumMeta.includes("NaN") ? <small>{albumMeta}</small> : null}
+                    {albumMeta && !albumMeta.includes("NaN") ? <small lang="en">{albumMeta}</small> : null}
                   </footer>
                 </div>
                 <span className="detail-card-dimensions">{CARD_RATIOS[card.ratio]?.width} × {CARD_RATIOS[card.ratio]?.height} PNG</span>
@@ -840,8 +859,11 @@ function LyricsSkeleton() {
 }
 
 function DetailVideo({ post, embedUrl, onRead }) {
+  const [playing, setPlaying] = useState(false);
   if (!embedUrl) return null;
   const youtubeUrl = post.youtubeUrl || post.youtube?.url;
+  const videoId = embedUrl.match(/\/embed\/([A-Za-z0-9_-]+)/)?.[1];
+  const thumbnail = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : post.cover;
   return (
     <section className="detail-video-section" aria-label="Video ve çeviri">
       <div className="detail-video-copy">
@@ -856,13 +878,25 @@ function DetailVideo({ post, embedUrl, onRead }) {
         </div>
       </div>
       <div className="detail-video-frame">
-        <iframe
-          src={embedUrl}
-          title={`${post.artist} - ${post.song} video`}
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+        {playing ? (
+          <iframe
+            src={`${embedUrl}?autoplay=1&rel=0`}
+            title={`${post.artist} - ${post.song} video`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            className="detail-video-facade"
+            type="button"
+            onClick={() => setPlaying(true)}
+            aria-label={`${post.artist} - ${post.song} videosunu oynat`}
+          >
+            <img src={thumbnail} alt="" loading="lazy" decoding="async" />
+            <span aria-hidden><i /></span>
+            <strong>Videoyu oynat</strong>
+          </button>
+        )}
       </div>
     </section>
   );
@@ -884,7 +918,7 @@ function SuggestEdit({ post }) {
   return (
     <section className="detail-suggest-edit">
       <div>
-        <span>Community</span>
+        <span lang="en">Community</span>
         <h2 className="font-serif">Düzeltme veya çeviri öner</h2>
         <p>Eksik, daha iyi çevrilebilir ya da açıklama isteyen bir yer varsa yaz — e-posta olarak bana ulaşır.</p>
       </div>
@@ -1093,13 +1127,35 @@ export default function LyricDetail() {
   }, [slug]);
 
   const canonicalPath = post ? postPath(post) : `/${cleanSlug}/`;
+  const metaArtist = post ? creditedArtistsFor(post)[0] : null;
+  const metaAlbum = post ? albumNameFor(post) : "";
   useSeo({
     title: post?.seo?.title || (post ? `${post.artist} ${post.song} Türkçe Çeviri` : "Çeviri bulunamadı | acupoflyrics"),
-    description: post?.seo?.description || post?.excerpt || (post ? `${post.artist} ${post.song} Türkçe çeviri ve orijinal şarkı sözleri.` : "Aradığın çeviri bulunamadı."),
+    description: translationMetaDescription(post),
     path: canonicalPath,
     image: post?.cover,
     type: "music.song",
     noindex: !post,
+    breadcrumbs: post
+      ? [
+          { name: "Ana sayfa", path: "/" },
+          ...(metaArtist ? [{ name: metaArtist.name, path: artistPath(metaArtist) }] : []),
+          { name: post.song, path: canonicalPath },
+        ]
+      : [],
+    jsonLd: post
+      ? {
+          "@context": "https://schema.org",
+          "@type": "MusicRecording",
+          name: post.song,
+          byArtist: { "@type": "MusicGroup", name: post.artist },
+          ...(metaAlbum && metaAlbum !== "Tekli" ? { inAlbum: { "@type": "MusicAlbum", name: metaAlbum } } : {}),
+          image: post.cover,
+          url: `${window.location.origin}${canonicalPath}`,
+          ...(post.spotify?.track?.isrc || post.spotify?.isrc ? { isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc } : {}),
+          sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
+        }
+      : null,
   });
 
   const sharePost = async () => {
@@ -1176,7 +1232,9 @@ export default function LyricDetail() {
       content_type: "translation_reader",
       item_id: post.slug,
     });
-    readerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.requestAnimationFrame(() => {
+      (readerRef.current || document.getElementById("lyrics-reader"))?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   };
   const albumName = albumNameFor(post);
   const hasAlbum = albumName && albumName !== "Tekli";
@@ -1257,9 +1315,9 @@ export default function LyricDetail() {
               </div>
 
               <div className="detail-actions">
-                <button type="button" className="detail-primary-action" onClick={scrollToReader}>
+                <a href="#lyrics-reader" className="detail-primary-action" onClick={scrollToReader}>
                   Çeviriyi oku
-                </button>
+                </a>
                 {post.spotify?.track?.url || post.spotify?.trackUrl ? (
                   <a
                     className="detail-ghost-action"
@@ -1308,7 +1366,7 @@ export default function LyricDetail() {
           </div>
         </aside>
 
-        <div className="detail-reader-column" ref={readerRef}>
+        <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
           {isLyricsLoading ? (
             <LyricsSkeleton />
           ) : (

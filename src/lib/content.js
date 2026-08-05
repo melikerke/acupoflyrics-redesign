@@ -442,15 +442,17 @@ export const collections = collectionDefs.map(([name, test]) => {
 
 export const moodGroups = ["Love", "Sad", "Happy", "Healing", "Dark", "Motivation", "Party", "Lonely", "Dreamy", "Night"]
   .map((name) => {
-    const items = enriched.filter((p) => moodFor(p) === name).slice(0, 8);
-    return { name, slug: albumSlugFor(name), items, cover: items[0]?.cover };
+    const allItems = enriched.filter((p) => moodFor(p) === name);
+    const items = allItems.slice(0, 8);
+    return { name, slug: albumSlugFor(name), count: allItems.length, items, cover: items[0]?.cover };
   })
   .filter((g) => g.items.length);
 
 export const genreGroups = ["Pop", "Rock", "Hip Hop", "Alternative", "K-pop", "R&B", "EDM", "Indie"]
   .map((name) => {
-    const items = enriched.filter((p) => genreFor(p) === name || (name === "Alternative" && ["Rock", "Indie"].includes(genreFor(p)))).slice(0, 8);
-    return { name, slug: albumSlugFor(name), items, cover: items[0]?.cover };
+    const allItems = enriched.filter((p) => genreFor(p) === name || (name === "Alternative" && ["Rock", "Indie"].includes(genreFor(p))));
+    const items = allItems.slice(0, 8);
+    return { name, slug: albumSlugFor(name), count: allItems.length, items, cover: items[0]?.cover };
   })
   .filter((g) => g.items.length);
 

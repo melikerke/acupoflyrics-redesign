@@ -5,7 +5,7 @@ import musicLists from "../data/musicLists.json";
 import postIndex from "../data/postIndex.json";
 import { postPath } from "../lib/content";
 import { useSeo } from "../lib/seo";
-import "../preview.css";
+import "../admin.css";
 
 const PLACEHOLDER_COVER = "/covers/the-weeknd-hurry-up-tomorrow-turkce-ceviri.jpg";
 

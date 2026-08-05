@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
+import { translationMetaDescription } from "../src/lib/meta.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
@@ -111,6 +112,90 @@ function firstPair(post) {
   return { en, tr };
 }
 
+function lyricLines(post, original) {
+  return (post.blocks || [])
+    .filter((block) => Boolean(block.original) === original)
+    .flatMap((block) => block.lines || [])
+    .filter(Boolean);
+}
+
+function moodForPost(post) {
+  const text = [
+    post.song,
+    post.artist,
+    post.excerpt,
+    post.slug,
+    ...lyricLines(post, false).slice(0, 8),
+  ].join(" ").toLowerCase();
+  if (/heart|break|messy|cry|sad|lonely|alone|özlem|ağla|kırık|yara|pişman/.test(text)) return "Sad";
+  if (/love|aşk|sevg|kiss|heart|first/.test(text)) return "Love";
+  if (/night|gece|moon|dark|shadow|black|midnight/.test(text)) return "Night";
+  if (/heal|iyileş|light|hope|dream|wish|peace/.test(text)) return "Healing";
+  if (/fire|villain|bad|monster|war|kill|die|danger/.test(text)) return "Dark";
+  if (/dance|party|summer|hot|club|rush|energy/.test(text)) return "Party";
+  const fallback = ["Dreamy", "Lonely", "Motivation"];
+  const hash = [...String(post.slug || "")].reduce((total, char) => ((total * 31) + char.charCodeAt(0)) | 0, 0);
+  return fallback[Math.abs(hash) % fallback.length];
+}
+
+function staticLinks(items) {
+  return items.map((item) => `
+    <li><a href="${escapeHtml(postPath(item))}">${escapeHtml(item.artist)} — ${escapeHtml(item.song)}</a></li>`).join("");
+}
+
+function staticPage({ kicker, title, description, image, children = "" }) {
+  return `<div class="seo-prerender">
+    <nav><a href="/">acupoflyrics</a><a href="/discover">Keşfet</a><a href="/search">Ara</a></nav>
+    <main>
+      <article>
+        ${kicker ? `<p class="seo-kicker">${escapeHtml(kicker)}</p>` : ""}
+        <h1>${escapeHtml(title)}</h1>
+        ${description ? `<p class="seo-description">${escapeHtml(description)}</p>` : ""}
+        ${image ? `<img class="seo-cover" src="${escapeHtml(image)}" alt="" />` : ""}
+        ${children}
+      </article>
+    </main>
+  </div>`;
+}
+
+function staticSong(post) {
+  const sections = (post.blocks || []).map((block) => {
+    const language = block.original ? "Orijinal şarkı sözleri" : "Türkçe çeviri";
+    const lines = (block.lines || []).filter(Boolean).map((line) => `<span>${escapeHtml(line)}</span>`).join("<br />");
+    return lines ? `<section><h2>${language}</h2><p>${lines}</p></section>` : "";
+  }).join("");
+  const album = albumNameFor(post);
+  return staticPage({
+    kicker: "Şarkı sözleri ve Türkçe çeviri",
+    title: `${post.artist} — ${post.song}`,
+    description: translationMetaDescription(post),
+    image: post.cover,
+    children: `${album && album !== "Tekli" ? `<p>Albüm: ${escapeHtml(album)}</p>` : ""}${sections}`,
+  });
+}
+
+function staticCollectionPage({ kicker, title, description, image, items }) {
+  return staticPage({
+    kicker,
+    title,
+    description,
+    image,
+    children: `<h2>Şarkılar</h2><ul>${staticLinks(items)}</ul>`,
+  });
+}
+
+function staticArticle(article) {
+  const sections = (article.sections || []).map((section) => `
+    <section><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</section>`).join("");
+  return staticPage({
+    kicker: article.kicker,
+    title: article.title,
+    description: article.dek || article.excerpt,
+    image: article.image,
+    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${sections}`,
+  });
+}
+
 function routeFile(pathname) {
   if (pathname === "/") return path.join(DIST, "index.html");
   return path.join(DIST, pathname.replace(/^\/+|\/+$/g, ""), "index.html");
@@ -148,8 +233,22 @@ function htmlFor(route) {
     <meta name="twitter:title" content="${escapeHtml(route.title)}" />
     <meta name="twitter:description" content="${escapeHtml(route.description)}" />
     ${route.image ? `<meta name="twitter:image" content="${escapeHtml(route.image)}" />` : ""}
-    <script type="application/ld+json">${JSON.stringify(json)}</script>`;
-  return cleanHead(template).replace("</head>", `${tags}\n  </head>`);
+    <script type="application/ld+json">${JSON.stringify(json)}</script>
+    ${route.breadcrumbs?.length ? `<script type="application/ld+json">${JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: route.breadcrumbs.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: `${SITE}${item.path}`,
+      })),
+    })}</script>` : ""}
+    <style id="seo-prerender-styles">
+      .seo-prerender{min-height:100vh;padding:28px;background:#071012;color:#f7f3ec;font:16px/1.65 Inter,system-ui,sans-serif}.seo-prerender nav,.seo-prerender main{width:min(920px,100%);margin:auto}.seo-prerender nav{display:flex;gap:22px;padding:0 0 32px}.seo-prerender a{color:inherit}.seo-prerender article{display:flow-root}.seo-prerender h1{max-width:18ch;margin:0 0 18px;font:400 clamp(38px,7vw,72px)/1.02 Fraunces,Georgia,serif}.seo-prerender h2{margin-top:34px;font:400 25px/1.2 Fraunces,Georgia,serif}.seo-kicker{color:#ef8dad;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.seo-description{max-width:68ch;color:rgba(247,243,236,.72)}.seo-cover{float:right;width:min(320px,42vw);margin:0 0 26px 32px;border-radius:10px}.seo-prerender section span{color:rgba(247,243,236,.82)}.seo-prerender li{margin:9px 0}@media(max-width:620px){.seo-prerender{padding:20px}.seo-cover{float:none;width:100%;margin:8px 0 18px}}
+    </style>`;
+  const withHead = cleanHead(template).replace("</head>", `${tags}\n  </head>`);
+  return withHead.replace('<div id="root"></div>', `<div id="root">${route.staticHtml || ""}</div>`);
 }
 
 function route(path, title, description, image, extra = {}) {
@@ -157,7 +256,32 @@ function route(path, title, description, image, extra = {}) {
 }
 
 const routes = [
-  route("/", "acupoflyrics — şarkı sözleri & Türkçe çeviri", "En sevdiğin şarkıların sözleri ve özenli Türkçe çevirileri. Spotify metadata ile zenginleşen premium müzik okuma deneyimi.", posts[0]?.cover),
+  route(
+    "/",
+    "Şarkı Sözleri ve Türkçe Çeviriler | acupoflyrics",
+    "Şarkı sözlerini, özenli Türkçe çevirileri, satır açıklamalarını ve müzik gündemini acupoflyrics arşivinde keşfet.",
+    posts[0]?.cover,
+    {
+      staticHtml: staticCollectionPage({
+        kicker: "acupoflyrics",
+        title: "Şarkı Sözleri ve Türkçe Çeviriler",
+        description: "Şarkıların hikâyesini, anlamını ve Türkçe çevirisini keşfet.",
+        image: posts[0]?.cover,
+        items: posts.slice(0, 12),
+      }),
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "acupoflyrics",
+        url: SITE,
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${SITE}/search?q={search_term_string}`,
+          "query-input": "required name=search_term_string",
+        },
+      },
+    },
+  ),
   route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} Türkçe şarkı çevirisini mood, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
   route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem Türkçe çeviride.", posts[0]?.cover, { noindex: true }),
   route("/listeler", "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics", "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların Türkçe çevirilerini arşivde bul.", posts[0]?.cover),
@@ -166,7 +290,15 @@ const routes = [
   route("/hakkimizda", "Hakkımızda | acupoflyrics", "acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyan bağımsız bir çeviri arşividir.", posts[0]?.cover),
   route("/iletisim", "İletişim | acupoflyrics", "Çeviri talebi, düzeltme önerisi ya da iş birliği için acupoflyrics ile iletişime geç.", posts[0]?.cover),
   route("/gizlilik", "Gizlilik ve çerezler | acupoflyrics", "acupoflyrics üzerindeki Google Analytics ölçümü, çerez tercihi ve veri kullanımı hakkında bilgi.", posts[0]?.cover),
-  route("/pop-gunlugu", "Pop Günlüğü | acupoflyrics", "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla, sakin ve anlaşılır notlarla takip et.", popGundemiArticles[0]?.image),
+  route("/pop-gunlugu", "Pop Günlüğü | acupoflyrics", "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla, sakin ve anlaşılır notlarla takip et.", popGundemiArticles[0]?.image, {
+    staticHtml: staticPage({
+      kicker: "Müzik gündemi",
+      title: "Pop Günlüğü",
+      description: "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla takip et.",
+      image: popGundemiArticles[0]?.image,
+      children: `<h2>Son yazılar</h2><ul>${popGundemiArticles.map((article) => `<li><a href="/pop-gunlugu/${escapeHtml(article.slug)}">${escapeHtml(article.shortTitle)}</a></li>`).join("")}</ul>`,
+    }),
+  }),
 ];
 
 for (const article of popGundemiArticles) {
@@ -189,6 +321,12 @@ for (const article of popGundemiArticles) {
     {
       type: "article",
       lastmod: article.updatedAt || article.date,
+      staticHtml: staticArticle(article),
+      breadcrumbs: [
+        { name: "Ana sayfa", path: "/" },
+        { name: "Pop Günlüğü", path: "/pop-gunlugu" },
+        { name: article.shortTitle, path: articlePath },
+      ],
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -218,7 +356,8 @@ for (const article of popGundemiArticles) {
 
 for (const post of posts) {
   const canonicalPath = postPath(post);
-  const description = post.seo?.description || post.excerpt || `${post.artist} ${post.song} Türkçe çeviri ve orijinal şarkı sözleri.`;
+  const description = translationMetaDescription(post);
+  const primaryArtist = creditedArtists(post)[0];
   routes.push(route(
     canonicalPath,
     post.seo?.title || post.title || `${post.artist} ${post.song} Türkçe Çeviri`,
@@ -227,6 +366,12 @@ for (const post of posts) {
     {
       type: "music.song",
       lastmod: post.date,
+      staticHtml: staticSong(post),
+      breadcrumbs: [
+        { name: "Ana sayfa", path: "/" },
+        ...(primaryArtist ? [{ name: primaryArtist.name, path: `/artist/${primaryArtist.slug}` }] : []),
+        { name: post.song, path: canonicalPath },
+      ],
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "MusicRecording",
@@ -251,9 +396,11 @@ for (const post of posts) {
         name: credit.name,
         cover: credit.image || post.spotify?.artist?.image || post.cover,
         count: 0,
+        posts: [],
       });
     }
     artists.get(credit.slug).count += 1;
+    if (!artists.get(credit.slug).posts.some((item) => item.slug === post.slug)) artists.get(credit.slug).posts.push(post);
   }
 }
 for (const artist of artists.values()) {
@@ -262,7 +409,21 @@ for (const artist of artists.values()) {
     `${artist.name} Türkçe Çevirileri | acupoflyrics`,
     `${artist.name} şarkı sözleri, Türkçe çevirileri, albümleri ve en çok okunan parçaları.`,
     artist.cover,
-    { type: "profile" },
+    {
+      type: "profile",
+      staticHtml: staticCollectionPage({
+        kicker: "Sanatçı",
+        title: artist.name,
+        description: `${artist.name} şarkı sözleri, Türkçe çevirileri ve albümleri.`,
+        image: artist.cover,
+        items: artist.posts,
+      }),
+      breadcrumbs: [
+        { name: "Ana sayfa", path: "/" },
+        { name: "Keşfet", path: "/discover" },
+        { name: artist.name, path: `/artist/${artist.slug}` },
+      ],
+    },
   ));
 }
 
@@ -271,8 +432,9 @@ for (const post of posts) {
   const name = albumNameFor(post);
   if (!name || name === "Tekli") continue;
   const slug = slugify(`${post.artist}-${name}`);
-  if (!albums.has(slug)) albums.set(slug, { slug, name, artist: post.artist, cover: post.spotify?.album?.cover || post.cover, count: 0, releaseDate: post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date });
+  if (!albums.has(slug)) albums.set(slug, { slug, name, artist: post.artist, cover: post.spotify?.album?.cover || post.cover, count: 0, releaseDate: post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date, tracks: [] });
   albums.get(slug).count += 1;
+  albums.get(slug).tracks.push(post);
 }
 for (const album of albums.values()) {
   routes.push(route(
@@ -280,7 +442,23 @@ for (const album of albums.values()) {
     `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`,
     `${album.artist} ${album.name} albümündeki şarkıların Türkçe çevirileri, Spotify metadata ve albüm bağlamıyla.`,
     album.cover,
-    { type: "music.album", lastmod: album.releaseDate, noindex: album.count < 2 },
+    {
+      type: "music.album",
+      lastmod: album.releaseDate,
+      noindex: album.count < 2,
+      staticHtml: staticCollectionPage({
+        kicker: "Albüm",
+        title: album.name,
+        description: `${album.artist} albümündeki ${album.count} şarkının Türkçe çevirisi.`,
+        image: album.cover,
+        items: album.tracks,
+      }),
+      breadcrumbs: [
+        { name: "Ana sayfa", path: "/" },
+        { name: "Albümler", path: "/albumler" },
+        { name: album.name, path: `/album/${album.slug}` },
+      ],
+    },
   ));
 }
 
@@ -292,10 +470,38 @@ for (const year of collectionYears) {
     `${name} — Türkçe Şarkı Çevirileri | acupoflyrics`,
     `${year} yılında yayımlanan ve acupoflyrics arşivinde Türkçeye çevrilen ${yearPosts.length} şarkı.`,
     yearPosts[0]?.cover,
+    {
+      staticHtml: staticCollectionPage({
+        kicker: "Yıl arşivi",
+        title: name,
+        description: `${year} yılında yayımlanan ${yearPosts.length} şarkının Türkçe çevirisi.`,
+        image: yearPosts[0]?.cover,
+        items: yearPosts,
+      }),
+      breadcrumbs: [
+        { name: "Ana sayfa", path: "/" },
+        { name: name, path: `/collection/${slugify(name)}` },
+      ],
+    },
   ));
 }
 for (const name of moodNames) {
-  routes.push(route(`/mood/${slugify(name)}`, `${name} Mood Şarkı Çevirileri | acupoflyrics`, `${name} hissi taşıyan şarkıların Türkçe çevirileri.`, posts[0]?.cover));
+  const moodPosts = posts.filter((post) => moodForPost(post) === name);
+  const moodPath = `/mood/${slugify(name)}`;
+  routes.push(route(moodPath, `${name} Mood Şarkı Çevirileri | acupoflyrics`, `${name} hissi taşıyan şarkıların Türkçe çevirileri.`, moodPosts[0]?.cover, {
+    staticHtml: staticCollectionPage({
+      kicker: "Mood",
+      title: name,
+      description: `${name} hissi taşıyan ${moodPosts.length} şarkının Türkçe çevirisi.`,
+      image: moodPosts[0]?.cover,
+      items: moodPosts,
+    }),
+    breadcrumbs: [
+      { name: "Ana sayfa", path: "/" },
+      { name: "Keşfet", path: "/discover" },
+      { name, path: moodPath },
+    ],
+  }));
 }
 for (const name of genreNames) {
   routes.push(route(`/genre/${slugify(name)}`, `${name} Türkçe Şarkı Çevirileri | acupoflyrics`, `${name} türündeki şarkıların Türkçe çevirileri, sanatçıları ve albümleri.`, posts[0]?.cover));
