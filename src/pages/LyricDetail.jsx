@@ -157,6 +157,7 @@ const LYRICS_VIEW_KEY = "acl_lyrics_view_v1";
 
 const CARD_RATIOS = {
   square: { label: "1:1", width: 2160, height: 2160, renderScale: 2 },
+  story: { label: "9:16", width: 1080, height: 1920, renderScale: 1 },
 };
 
 function lyricCardFilename(post, card) {
@@ -532,6 +533,11 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     setCardDraft((draft) => (draft ? { ...draft, colorIndex } : draft));
   };
 
+  const setCardRatio = (ratio) => {
+    setCardStatus("");
+    setCardDraft((draft) => (draft ? { ...draft, ratio } : draft));
+  };
+
   const buildCard = (draft) => {
     if (!draft) return null;
     const lines = draft.section[draft.language].filter(Boolean);
@@ -785,6 +791,22 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
               </div>
 
               <aside className="detail-card-controls">
+                <section className="detail-card-control-group">
+                  <span>Format</span>
+                  <div className="detail-card-ratio-switch" aria-label="Kart formatı">
+                    {Object.entries(CARD_RATIOS).map(([ratioKey, ratio]) => (
+                      <button
+                        key={ratioKey}
+                        type="button"
+                        className={card.ratio === ratioKey ? "is-active" : ""}
+                        onClick={() => setCardRatio(ratioKey)}
+                      >
+                        {ratio.label} {ratioKey === "story" ? "Hikâye" : "Kare"}
+                      </button>
+                    ))}
+                  </div>
+                </section>
+
                 <section className="detail-card-control-group">
                   <span>Dil</span>
                   <div className="detail-card-language-switch" aria-label="Kart dili">
