@@ -1,5 +1,4197 @@
 [
   {
+    "id": "5166",
+    "title": "Stray Kids RUN IT Türkçe Çeviri",
+    "song": "RUN IT",
+    "slug": "stray-kids-run-it-turkce-ceviri",
+    "date": "2026-08-07T14:00:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Bang Chan",
+        "lines": [
+          "Ain't no limit, never running out",
+          "Everywhere we go, another win, another day",
+          "Yeah, we shining with the lights out",
+          "Even in the dark, we find a way to make a way"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Bang Chan",
+        "lines": [
+          "Sınır falan yok, asla tükenmeyiz biz",
+          "Gittiğimiz her yerde yeni bir zafer, yeni bir gün...",
+          "Evet, ışıklar sönse de parlamaya devam ediyoruz",
+          "Karanlığın içinde bile bir yolunu buluruz biz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Seungmin",
+        "lines": [
+          "All my life, I've been fighting this and fighting that",
+          "silyeon sogeseodo gyesog",
+          "Oh, this time I ain't looking back, I won't collapse",
+          "Head high right now we go, oh, oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Seungmin",
+        "lines": [
+          "Ömrüm boyunca şunla bununla savaşıp durdum",
+          "Zorlukların ortasında bile pes etmeden devam...",
+          "Oh, bu kez arkama bakmıyorum, yıkılmayacağım",
+          "Başım dik, işte şimdi gidiyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Hyunjin, Han, Lee Know, I.N",
+        "lines": [
+          "Woah",
+          "Run it everywhere all around the world",
+          "Woah",
+          "Run it everywhere all around the world (Pa-ra-ram)",
+          "It's another day, coming on the way",
+          "Build another city, run it day and night",
+          "Live another day, yeah, we on the way",
+          "All around the world, we'll run it day and night"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Hyunjin, Han, Lee Know, I.N",
+        "lines": [
+          "Woah!",
+          "Dünyanın her köşesine biz hükmediyoruz!",
+          "Woah!",
+          "Dünyanın her köşesinde biz koşturuyoruz!",
+          "Yeni bir gün daha doğuyor yolumuzda",
+          "Yeni bir şehir inşa edip, gece gündüz orayı yönetiyoruz",
+          "Hayatı yaşıyoruz, evet, kendi yolumuzdayız",
+          "Tüm dünyayı gece gündüz biz koşturacağız!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Felix, Bang Chan",
+        "lines": [
+          "(Ooh-ooh)",
+          "Run it day and night",
+          "(Ooh-ooh)",
+          "Run it day and night"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Felix, Bang Chan",
+        "lines": [
+          "Ooh-ooh",
+          "Gece gündüz koşturuyoruz",
+          "Ooh-ooh",
+          "Gece gündüz koşturuyoruz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Hyunjin, Felix",
+        "lines": [
+          "Gotta be me, yeah, meomchum eobsi ollyeo nae speed",
+          "sumanheun hwasale tteo miss (Miss), unstoppable beast",
+          "i yeonggwange chwihaji anha deo manheun geol wonhae, seongchwihaenae deo nopeun dream",
+          "hanassig olligo pyeonhage lean, naega haneun geon ojig hana win, win, you're gonna see (Woo)",
+          "jwajeolboda igyeo naeneun ge easy",
+          "Ooh, gonangwa yeoggyeongi trained me, feel me?",
+          "jeonbu da chaenggyeo geu manheun pobu jeonbu jaengchwi",
+          "Again and again, yeotaekkaji geulaewassdeon geoscheoleom we're gonna make it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Hyunjin, Felix",
+        "lines": [
+          "Kendim olmalıyım, evet; durmaksızın hızımı artırıyorum",
+          "Üzerime gelen binlerce ok hedefi şaşırdı; durdurulamaz bir canavarım!",
+          "Bu zaferin sarhoşluğuna kapılmam, daha fazlasını istiyorum; Daha yüksek hayallerin peşindeyim!",
+          "Hepsini bir bir inşa edip arkama yaslanacağım; Yaptığım tek bir şey var: Kazanmak, sadece kazanmak! Göreceksiniz...",
+          "Pes etmektense yenmeyi seçmek benim için daha kolay",
+          "Ooh, o tüm zorluklar ve engeller beni eğitti, hisset beni!",
+          "Tüm o büyük hedeflerimi tek tek ele geçiriyorum",
+          "Yine ve yeniden, bugüne kadar hep yaptığımız gibi; başaracağız!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: I.N",
+        "lines": [
+          "All my life, I've been fighting this and fighting that",
+          "silyeon sogeseodo gyesog",
+          "Oh, this time I ain't looking back, I won't collapse",
+          "Head high right now we go, oh, oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: I.N",
+        "lines": [
+          "Ömrüm boyunca şunla bununla savaşıp durdum",
+          "Zorlukların ortasında bile pes etmeden devam...",
+          "Oh, bu kez arkama bakmıyorum, yıkılmayacağım",
+          "Başım dik, işte şimdi gidiyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lee Know, Changbin, Seungmin, Bang Chan, (Hyunjin)",
+        "lines": [
+          "Woah",
+          "Run it everywhere all around the world",
+          "Woah",
+          "Run it everywhere all around the world (Pa-ra-ram)",
+          "It's another day, coming on the way",
+          "Build another city, run it day and night",
+          "Live another day, yeah, we on the way",
+          "All around the world"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lee Know, Changbin, Seungmin, Bang Chan, (Hyunjin)",
+        "lines": [
+          "Woah!",
+          "Dünyanın her köşesine biz hükmediyoruz!",
+          "Woah!",
+          "Dünyanın her köşesinde biz koşturuyoruz! (Pa-ra-ram)",
+          "Yeni bir gün daha doğuyor yolumuzda",
+          "Yeni bir şehir inşa edip gece gündüz orayı yönetiyoruz",
+          "Hayatı yaşıyoruz, evet, kendi yolumuzdayız",
+          "Tüm dünyada"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Felix, Lee Know, Han",
+        "lines": [
+          "Oh, I'll never give up, I'm just gonna stand up",
+          "I'm putting my hands up, jeo haneul hyanghaeseo",
+          "We're rising, no fade-out, across the world, spread out",
+          "If you feel it, hands up, jeo haneul hyanghaeseo (Come on)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Felix, Lee Know, Han",
+        "lines": [
+          "Oh, asla vazgeçmeyeceğim, sadece ayağa kalkacağım",
+          "Ellerimi göğe kaldırıyorum, o gökyüzüne doğru...",
+          "Yükseliyoruz, sönmeye niyetimiz yok Tüm dünyaya yayılıyoruz biz!",
+          "Hissediyorsan kaldır ellerini, o gökyüzüne doğru! (Hadi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All",
+        "lines": [
+          "Woah",
+          "Run it everywhere all around the world",
+          "Woah",
+          "Run it everywhere all around the world"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All",
+        "lines": [
+          "Woah!",
+          "Dünyanın her köşesine biz hükmediyoruz!",
+          "Woah!",
+          "Dünyanın her köşesinde biz koşturuyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Han, Changbin, Changbin & Han, All",
+        "lines": [
+          "jageun bang sijag sound leaking through my phones (Woah)",
+          "Dreams on repeat, building up my throne (Run it everywhere)",
+          "From Seoul to the world, now they know (All around the world)",
+          "My zone, we're never alone",
+          "i sungani proof we made it (Woah)",
+          "Long nights waited never faded (Run it everywhere)",
+          "All that pain, yeah, I paid it (All around the world)",
+          "heullyeossdeon pinunmul I saved it",
+          "uli balgeoleum majchwo deo ppallajigo ganghaejineun (Woah)",
+          "geudeului simjang bagdong soli (Run it everywhere)",
+          "That's our motivation, meomchul su eobsji (All around the world)",
+          "Until we're chasing victory",
+          "uli iyagin namgyeojil history (Woah)",
+          "heungeolgeolideon mellodin symphony (Run it everywhere)",
+          "ulil buleuneun soliga deullyeowa (All around the world)",
+          "deo neolbeojin sesange ttwieodeulji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Han, Changbin, Changbin & Han, All",
+        "lines": [
+          "Küçük bir odada başladı her şey, sesler telefonumdan taşıyordu...",
+          "Rüyalarım tekrardaydı, tahtımı tırnaklarımla kazıyarak inşa ettim",
+          "Seul’den dünyaya uzandı yolumuz, artık herkes biliyor;",
+          "Burası bizim sahamız, asla yalnız değiliz artık!",
+          "İşte bu an, başardığımızın kanıtıdır;",
+          "O uzun geceler bekledik ama sönüp gitmedik hiç.",
+          "Çektiğim tüm o acıların bedelini ödedim;",
+          "Döktüğüm o kanlı gözyaşlarını bir zafere sakladım!",
+          "Adımlarımıza eşlik edin, daha da hızlanıp güçleniyoruz;",
+          "Duyuyor musunuz onların kalp atışlarını?",
+          "İşte bizim motivasyonumuz bu, duramayız;",
+          "Zafere ulaşana dek...",
+          "Hikayemiz tarihe yazılacak;",
+          "Bir zamanlar mırıldandığımız o melodi şimdi bir senfoniye dönüştü.",
+          "Bizi çağıran o sesi duyuyorum;",
+          "Daha da genişleyen bu dünyaya bodoslama dalıyoruz!"
+        ]
+      }
+    ],
+    "excerpt": "Sınır falan yok, asla tükenmeyiz biz",
+    "annotations": {
+      "Küçük bir odada": "Korece “작은 방 시작” ifadesi, grubun stajyerlik döneminde dar bir odada başlayan üretim yolculuğuna ve büyük sahnelere uzanan emeğine gönderme yapıyor.",
+      "kanlı gözyaşlarını": "Korece “피눈물”, çok ağır emek ve acıyı anlatan güçlü bir deyim; burada geçmişte ödenen bedelin zafere dönüşmesini vurguluyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+        "name": "RUN IT",
+        "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+        "durationMs": 209000,
+        "duration": "3:29",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": true
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "3:29",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids RUN IT Türkçe Çeviri",
+      "description": "Stray Kids – RUN IT şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-run-it-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q7IFjVUUb_E",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5167",
+    "title": "Stray Kids This & That Türkçe Çeviri",
+    "song": "This & That",
+    "slug": "stray-kids-this-and-that-turkce-ceviri",
+    "date": "2026-08-07T14:10:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "This and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Şundan bundan, her şeyden biraz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster üstü açık bir spor araba, ister dev bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Hem Cappuccino hem de Americano;",
+          "Ondan da alırım, bundan da...",
+          "Önce sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Han, Hyunjin, Felix",
+        "lines": [
+          "Groovyhage geoleo look at me",
+          "imi proved it, du madilo kkeutnaessji",
+          "meolileul cooling, daeum dangyelo still moving",
+          "Stop denying, du nun gamabwado bunwigi neul janchi",
+          "naebidwo geulaedo chajameogji ul sigseongdaelo",
+          "ojilap gobppaegi ppaejwo yocheonglane sseonwasseo",
+          "jal bwajwo nawasseo",
+          "(uliga nawasseo)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Han, Hyunjin, Felix",
+        "lines": [
+          "Tarzımla yürüyorum, bir baksana bana",
+          "Çoktan kanıtladım her şeyi; iki kelimeyle bitirdim işi.",
+          "Kafamı dinlendirip bir sonraki seviyeye geçiyorum hemen.",
+          "İnkar etmeyi bırak; gözlerini kapatsan bile ortam hep bir bayram havası!",
+          "Bırak beni, ben zaten kendi iştahıma göre yolumu bulurum.",
+          "Şu \"elalem ne der\" porsiyonunu çıkarın benimkinde;",
+          "İstek kısmına not olarak düştüm zaten.",
+          "İyi izle, işte sahneye çıktık;",
+          "(Biz geldik!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Seungmin, Hyunjin",
+        "lines": [
+          "See me rolling",
+          "gollaseo naega seontaeghan daelo flowing",
+          "wonlae gago sipeun daelo I run it, run it, run it",
+          "Yeah, we (igeosjeogeos da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Seungmin, Hyunjin",
+        "lines": [
+          "İzle beni, tozu dumana katıyorum",
+          "Kendi seçtiğim yolda, gönlümce süzülüyorum.",
+          "Zaten canım nasıl isterse öyle koştururum;",
+          "Evet, biz... (İkisini de alıyoruz, her şeyi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Felix, Han",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Felix, Han",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster üstü açık bir spor araba, ister dev bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Hem Cappuccino hem de Americano;",
+          "Ondan da alırım, bundan da...",
+          "Önce sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: I.N, Changbin",
+        "lines": [
+          "wonhae deo meomchul su eobsneun challenge",
+          "Hot and cold, mwodeun gwaenchanha, no damage",
+          "I ain't getting no pain",
+          "I'll show you the way, I got no shame and I'm—",
+          "igeosjeogeos ready doen ji imi olaedwaessji",
+          "Yeah, jiluhameun ppaessji geugeon olaejeone paechi",
+          "nae laebeun gogi paeti jeoldae ppajil su eobsgessji",
+          "nae oenjjog gaseumsoge baghin Stray Kids baeji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: I.N, Changbin",
+        "lines": [
+          "Daha fazlasını istiyorum, durdurulamaz bir meydan okuma;",
+          "Sıcak ya da soğuk fark etmez, hiçbir şey bana hasar veremez.",
+          "Canım falan yanmıyor hiç;",
+          "Size yolu göstereceğim, utanacak hiçbir şeyim yok ve ben...",
+          "Her şeye hazırlıklı olalı çok uzun zaman oldu.",
+          "Evet, sıkıcılığı hayatımdan attım; o çok eski bir güncelleme.",
+          "Benim rapim hamburgerin içindeki o \"et köftesi\" gibidir;",
+          "Asla eksik kalmaz o lezzet!",
+          "Sol göğsümün tam üstünde, kalbime kazınmış o \"Stray Kids\" arması..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Felix, Changbin, Han",
+        "lines": [
+          "baljachwie nameun chechwi chaechwi haeseo kkumeul sketch",
+          "Let's get it gihoel catch, seonggonggwaui matching",
+          "deo boyeojul geo eobsnyaneun neoege",
+          "(igeosjeogeos da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Felix, Changbin, Han",
+        "lines": [
+          "Adımlarımdan kalan o izleri toplayıp, hayallerimi çiziyorum.",
+          "Hadi yapalım bu işi, fırsatı yakala; başarıyla tam bir uyum...",
+          "Hala \"daha neyiniz var?\" diye soranlara;",
+          "(Şundan, bundan, her şeyden!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Hyunjin, Bang Chan",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Hyunjin, Bang Chan",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster üstü açık bir spor araba, ister dev bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Hem Cappuccino hem de Americano;",
+          "Ondan da alırım, bundan da...",
+          "Önce sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Seungmin",
+        "lines": [
+          "We can go fast, wе can go slow",
+          "If you can't choose, you can have both",
+          "Can't stop us now (Go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Seungmin",
+        "lines": [
+          "Hızlı da gidebiliriz, yavaş da...",
+          "Eğer seçim yapamıyorsan, ikisini de alabilirsin!",
+          "Kimse durduramaz bizi artık (Hadi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "Wе could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that (Yeah)",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster üstü açık bir spor araba, ister dev bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da... (Evet)",
+          "Hem Cappuccino hem de Americano;",
+          "Ondan da alırım, bundan da...",
+          "Önce sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Bang Chan",
+        "lines": [
+          "Talking this and that",
+          "Talking this and that",
+          "This and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Bang Chan",
+        "lines": [
+          "Şundan bundan konuşup duruyorlar...",
+          "Şundan bundan...",
+          "Her şeyden biraz..."
+        ]
+      }
+    ],
+    "excerpt": "Şundan bundan, her şeyden biraz...",
+    "annotations": {
+      "elalem ne der": "Korece “오지랖”, başkasının işine gereksiz yere karışmak anlamına geliyor. Han bunu yemek siparişi metaforuyla kendi porsiyonundan çıkarıyor.",
+      "et köftesi": "Changbin, hamburgerin ana malzemesi olan köfteyi kendi rapinin şarkılardaki vazgeçilmez yeri için kullanıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7AN7dJCtHqbL7f76QGyraa",
+        "name": "This & That",
+        "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+        "durationMs": 185000,
+        "duration": "3:05",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": true
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "3:05",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids This & That Türkçe Çeviri",
+      "description": "Stray Kids – This & That şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-this-and-that-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=BZ4UzthYTss",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5168",
+    "title": "Stray Kids After You Türkçe Çeviri",
+    "song": "After You",
+    "slug": "stray-kids-after-you-turkce-ceviri",
+    "date": "2026-08-07T14:20:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Felix, Hyunjin",
+        "lines": [
+          "I had to catch my breath, saw you walking past",
+          "Didn't know someone could turn my world around like that",
+          "You took a piece of me, it all happened so fast",
+          "meomchul su eobseo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Felix, Hyunjin",
+        "lines": [
+          "Nefesimi tutmam gerekti, önümden geçişini gördüğümde;",
+          "Birinin dünyamı böyle altüst edebileceğini hiç bilmezdim.",
+          "Benden bir parçayı koparıp aldın, her şey çok hızlı oldu...",
+          "Duramıyorum bir türlü."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Lee Know",
+        "lines": [
+          "And I can't survive",
+          "Yeah, I swear I tried"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Lee Know",
+        "lines": [
+          "Ve hayatta kalamıyorum böyle;",
+          "Evet, yemin ederim denedim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Seungmin, Bang Chan, Lee Know",
+        "lines": [
+          "But I'm up all night, and I don't know what to do",
+          "How can I breathe the same after you?",
+          "Oh, I'll swim through ocean eyes tryna get to you",
+          "I'll never be the same after you",
+          "I'll never be the same after you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seungmin, Bang Chan, Lee Know",
+        "lines": [
+          "Ama tüm gece ayaktayım ve ne yapacağımı bilmiyorum;",
+          "Senden sonra nasıl aynı şekilde nefes alabilirim ki?",
+          "Oh, sana ulaşmak için o \"okyanus gözlerin\" içinde yüzeceğim;",
+          "Senden sonra asla aynı kişi olmayacağım...",
+          "Asla eskisi gibi olmayacağım senden sonra."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: I.N",
+        "lines": [
+          "After you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: I.N",
+        "lines": [
+          "Senden sonra..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Changbin, Han",
+        "lines": [
+          "wonhae neoui geoleumui banghyangi nawa gatgileul",
+          "seotun nae cheosmadineun meoseobsi eosaeghae",
+          "eotteon ttae wado dalla igeon love affair",
+          "Oh, yeah, for real, idaelodo",
+          "wanbyeoghan gamjeongdeuli metaphor",
+          "mandeuleo gajago anecdote",
+          "jom deo ttwige haejwo nineteen ttaecheoleom",
+          "majuchiji nungwa nun sai",
+          "manhwacheoleom spark twinda",
+          "bulgateun nunchiui ssaum",
+          "du balman dongdong guleuneunguna, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Changbin, Han",
+        "lines": [
+          "İstiyorum ki adımlarının yönü benimkiyle bir olsun.",
+          "Sana söylediğim o ilk acemi lafım ne kadar da tatsız ve tuhaf...",
+          "Ne zaman gelirse gelsin, bu bambaşka; tam bir \"aşk mevzusu\".",
+          "Oh evet, harbi söylüyorum; bu haliyle bile...",
+          "Kusursuz duygularımız sanki birer metafor;",
+          "Gel, birer hikaye yazalım bunlardan.",
+          "Daha hızlı çarpsın kalbim, tıpkı on dokuz yaşındaymışım gibi!",
+          "Göz göze geliyoruz ya hani;",
+          "Sanki bir çizgi romandaki gibi kıvılcımlar çakıyor!",
+          "Ateşten, bakışlarla yürüyen sessiz bir savaş bu;",
+          "Ayaklarım yerden kesiliyor, sabırsızlanıyorum resmen, evet..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Hyunjin",
+        "lines": [
+          "And I can't survive",
+          "Yeah, I swear I tried"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Hyunjin",
+        "lines": [
+          "Ve hayatta kalamıyorum böyle;",
+          "Evet, yemin ederim denedim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: I.N, Seungmin",
+        "lines": [
+          "But I'm up all night, and I don't know what to do",
+          "How can I breathe the same after you?",
+          "Oh, I'll swim through ocean eyes tryna get to you",
+          "I'll never be the same after you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: I.N, Seungmin",
+        "lines": [
+          "Ama tüm gece ayaktayım ve ne yapacağımı bilmiyorum;",
+          "Senden sonra nasıl aynı şekilde nefes alabilirim?",
+          "Sana ulaşmak için o okyanus gözlerin içinde yüzeceğim;",
+          "Senden sonra asla aynı kişi olmayacağım..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Bang Chan",
+        "lines": [
+          "After you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Bang Chan",
+        "lines": [
+          "Senden sonra..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Changbin, Felix",
+        "lines": [
+          "Before you, I was lost inside the dark",
+          "Nowhere to move",
+          "maeil gateun scene gateun ilsang soge",
+          "I had no clue",
+          "After you, I'm addicted to",
+          "meolissogui déjà vu",
+          "Every road I'm running through, you changed my view",
+          "Got me chasing after you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Changbin, Felix",
+        "lines": [
+          "Senden önce, karanlığın içinde kaybolmuştum;",
+          "Kıpırdayacak yerim yoktu sanki.",
+          "Her gün aynı sahneler, aynı rutin hayatın içinde;",
+          "Hiçbir fikrim yoktu...",
+          "Senden sonra, artık bağımlıyım;",
+          "Zihnimdeki o \"deja vu\" hissine...",
+          "Koşturduğum her yolda, bakış açımı değiştirdin;",
+          "Beni peşinden koşturuyorsun artık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Felix, Hyunjin",
+        "lines": [
+          "You, you, you, you, you",
+          "Chasing after you",
+          "You, you, you, you, you",
+          "Chasing after you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Felix, Hyunjin",
+        "lines": [
+          "Sen, sen, sen...",
+          "Senin peşinden koşuyorum;",
+          "Sadece senin...",
+          "Senin peşindeyim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "So I'm up all night, and I don't know what to do",
+          "How can I breathe the same after you?",
+          "Oh, I'll swim through ocean eyes tryna get to you",
+          "I'll never be the same after you (After you, after you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Tüm gece ayaktayım ve ne yapacağımı bilmiyorum;",
+          "Senden sonra nasıl aynı şekilde nefes alabilirim ki?",
+          "Sana ulaşmak için o okyanus gözlerin içinde yüzeceğim;",
+          "Senden sonra asla aynı kişi olmayacağım..."
+        ]
+      }
+    ],
+    "excerpt": "Nefesimi tutmam gerekti, önümden geçişini gördüğümde;",
+    "annotations": {
+      "on dokuz yaşındaymışım": "On dokuz yaş, yetişkinliğin başındaki saf ve yoğun heyecanı simgeliyor.",
+      "bakışlarla": "Korece “눈치”, insanların birbirinin niyetini sözsüz biçimde sezmesi demek. Burada iki kişi arasındaki bakışma ve çekim bir savaşa benzetiliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2jI7hP57YyY8GoJ5OQTkj7",
+        "name": "After You",
+        "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+        "durationMs": 172000,
+        "duration": "2:52",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": true
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "2:52",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids After You Türkçe Çeviri",
+      "description": "Stray Kids – After You şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-after-you-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=p6_yFS1I43Q",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5169",
+    "title": "Stray Kids FARMING Türkçe Çeviri",
+    "song": "FARMING",
+    "slug": "stray-kids-farming-turkce-ceviri",
+    "date": "2026-08-07T14:30:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Changbin, Hyunjin",
+        "lines": [
+          "Yeah, we farmin' every day, no sleep",
+          "Career on the rise ssahyeo XP",
+          "From the dirt to the light, yeah, it's lit",
+          "piwa ttami mandeuleo naen suhwag, ain't cheap",
+          "We got one more nodongyo",
+          "deulliji anha agunui dongyo",
+          "sseuldeeobsneun soeum ttawi jonglyo",
+          "Button click, click, clack, boom"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Changbin, Hyunjin",
+        "lines": [
+          "Evet, her gün hasat yapıyoruz, uyku yok!",
+          "Kariyerimiz yükselişte, birikiyor tecrübe puanlarımız...",
+          "En dipten o zirvedeki ışığa; evet, yıkılıyor buralar!",
+          "Kan ve terle kazandığımız bu hasat; hiç de ucuza gelmedi.",
+          "Elimizde bir \"işçi şarkısı\" daha var;",
+          "Dostlarımızın kararlılığında tek bir sarsıntı yok.",
+          "Lüzumsuz tüm gürültülere son verdik;",
+          "Düğmeye bas (click, clack), patlat mevzuyu!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Felix, I.N",
+        "lines": [
+          "(You got plenty of time)",
+          "Nah, I'ma work, work, work every minute",
+          "(You should draw that line)",
+          "Nah, I'ma run, run, run 'til the limit",
+          "geu jeongdomyeon chungbunhaji anhnya",
+          "mudji ulin ajig",
+          "manjogilan daneoleul molla",
+          "jumeoni bin geos gatji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Felix, I.N",
+        "lines": [
+          "(\"Vaktin çok daha var\" diyorlar...)",
+          "Nah! Ben her dakikamı çalışarak geçireceğim.",
+          "(\"Şu sınırı çizmelisin artık\" diyorlar...)",
+          "Nah! Limitlerimi zorlayana kadar koşmaya devam...",
+          "\"Bu kadarı yeterli değil mi?\" diye soruyorlar;",
+          "Bilmiyorlar ki biz hala...",
+          "\"Memnuniyet\" kelimesinin ne olduğunu bilmiyoruz;",
+          "Sanki ceplerimiz hala bomboşmuş gibi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan, Felix, Seungmin",
+        "lines": [
+          "All day, every night until we're satisfied",
+          "We're farming",
+          "Farming",
+          "Farming",
+          "Good night, I'm rollin', rollin' (Farming, farming)",
+          "There ain't no time for ballin' (24/7, we farming)",
+          "Good mornin', I'm still rollin' (Farming, Farming)",
+          "24/7 we—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan, Felix, Seungmin",
+        "lines": [
+          "Tüm gün, her gece; ta ki tatmin olana dek;",
+          "Hasat yapıyoruz!",
+          "Topluyoruz!",
+          "Hasattayız!",
+          "İyi geceler, ben hala koşturuyorum... (Hasat, hasat!)",
+          "Eğlenmeye vaktimiz yok hiç; (Yedi yirmi dört hasattayız!)",
+          "Günaydın, hala koşturmaya devam ediyorum...",
+          "Yedi yirmi dört biz—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Hyunjin",
+        "lines": [
+          "Ah, jub, jub, let this flow move on",
+          "yeonggamui woncheon take it, it's raw"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Hyunjin",
+        "lines": [
+          "Ah, topla, topla; bırak bu akış devam etsin.",
+          "İlhamın kaynağını yakala, en saf haliyle..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Han",
+        "lines": [
+          "Ayy, feel me, bust down dreams gwangsaneul farming",
+          "Stack ssaha ollyeo gabang bupileul neulliji",
+          "Get more items, deullyeo usgini?",
+          "jimeul baelo baelo neullyeo, ulin teulaeg digging",
+          "tameul naedo ppaesji moshae uli heritage",
+          "ilbuteo moa geulgeo takе it, yeah, that's easy",
+          "We madе it, taste it",
+          "imi neoui gwie baghyeo issneun uliui vestige"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Han",
+        "lines": [
+          "Ayy, hisset beni; hayallerimi parlatıp o madenleri kazıyorum;",
+          "Eşyaları üst üste yığıp heybemi büyütüyorum.",
+          "Daha çok parça alıyorum; kulağa komik mi geliyor?",
+          "Yükümü ikiye, üçe katlıyorum; biz o ritimleri kazıyoruz!",
+          "Arzulasanız bile mirasımızı elimizden alamazsınız;",
+          "En baştan beri kazıyarak topladık, evet, bu bizim için kolay iş!",
+          "Başardık işte, tadına bak;",
+          "Çoktan kulaklarına kazındı bizim izimiz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Felix, Lee Know",
+        "lines": [
+          "(You got plenty of time)",
+          "Nah, I'ma work, work, work every minute",
+          "(You should draw that line)",
+          "Nah, I'ma run, run, run 'til the limit",
+          "bin geos gateun jumeonileul",
+          "dwijibeumyeon neomchyeonaji",
+          "gyesoghae suhwagui naseul",
+          "deulgo da sseuleo damji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Felix, Lee Know",
+        "lines": [
+          "(\"Vaktin çok daha var\"...)",
+          "Nah! Her dakikamı çalışarak geçireceğim.",
+          "(\"O sınırı çizmelisin\"...)",
+          "Nah! Limitlerimi zorlayana kadar koşmaya devam...",
+          "O boş sandığınız ceplerimizi",
+          "Ters çevirince taşar her bir yanı!",
+          "Hasat orağını elden bırakmadan,",
+          "Hepsini önümüze katıp topluyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Seungmin, Felix, Lee Know, Bang Chan",
+        "lines": [
+          "All day, every night until we're satisfied",
+          "We're farming",
+          "Farming",
+          "Farming",
+          "Good night, I'm rollin', rollin' (Farming, farming)",
+          "There ain't no time for ballin' (24/7, we farming)",
+          "Good mornin', I'm still rollin' (Farming, Farming)",
+          "24/7 we farmin'"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seungmin, Felix, Lee Know, Bang Chan",
+        "lines": [
+          "Tüm gün, her gece; ta ki tatmin olana dek;",
+          "Hasat yapıyoruz!",
+          "Topluyoruz!",
+          "Hasattayız!",
+          "İyi geceler, ben hala koşturuyorum... (Hasat, hasat!)",
+          "Eğlenmeye vaktimiz yok hiç; (Yedi yirmi dört hasattayız!)",
+          "Günaydın, hala koşturmaya devam ediyorum...",
+          "Yedi yirmi dört biz—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Felix, Hyunjin, All",
+        "lines": [
+          "If you want it then you go (Farming)",
+          "If you wanna make dough (Farming)",
+          "If you want something new? (Farming)",
+          "Farming (Farming), farming (Farming)",
+          "If you want it then you go (Farming)",
+          "If you wanna make dough (Farming)",
+          "If you want something new? (Farming)",
+          "Farming (Farming), farming (Farming)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Felix, Hyunjin, All",
+        "lines": [
+          "Eğer istiyorsan, hadi git ve al (Hasat vakti!)",
+          "Eğer parayı vurmak istiyorsan...",
+          "Yepyeni bir şeyler mi istiyorsun?",
+          "Topla, topla hepsini!",
+          "Eğer istiyorsan, hadi git ve al (Hasat vakti!)",
+          "Eğer parayı vurmak istiyorsan...",
+          "Yepyeni bir şeyler mi istiyorsun?",
+          "Topla, topla hepsini!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: I.N, Lee Know, Changbin, Bang Chan, (Seungmin)",
+        "lines": [
+          "Pick it up, pick it up, mine",
+          "Dig it up, dig it up, mine",
+          "Pick it, dig it, mine",
+          "Farming, farming",
+          "Pick it up, pick it up, mine",
+          "Dig it up, dig it up, mine",
+          "Pick it, dig it, mine",
+          "Farming, farming (Farming)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: I.N, Lee Know, Changbin, Bang Chan, (Seungmin)",
+        "lines": [
+          "Al onu, al onu; hepsi benim!",
+          "Kaz çıkar, kaz çıkar; hepsi benim!",
+          "Topla, kaz; hepsi benim!",
+          "Hasat vakti, topluyoruz...",
+          "Al onu, al onu; hepsi benim!",
+          "Kaz çıkar, kaz çıkar; hepsi benim!",
+          "Topla, kaz; hepsi benim!",
+          "Hasat vakti!"
+        ]
+      }
+    ],
+    "excerpt": "Evet, her gün hasat yapıyoruz, uyku yok!",
+    "annotations": {
+      "işçi şarkısı": "Korece “노동요”, çalışırken tempo tutmak ve yorgunluğu hafifletmek için söylenen emek şarkılarını anlatıyor.",
+      "tecrübe puanlarımız": "XP, oyunlardaki deneyim puanı. Şarkı bunu kariyerde biriken tecrübe ve başarıyla birleştiriyor.",
+      "hasat orağını": "Korece “낫”, orak anlamına geliyor; üretme ve başarıyı toplama metaforunu tamamlıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3oCdoI8Y9OZqnCgcB06qb2",
+        "name": "FARMING",
+        "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+        "durationMs": 151000,
+        "duration": "2:31",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": true
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "2:31",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids FARMING Türkçe Çeviri",
+      "description": "Stray Kids – FARMING şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-farming-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=HCvIZzVdeq8",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5170",
+    "title": "Stray Kids I Do Türkçe Çeviri",
+    "song": "I Do",
+    "slug": "stray-kids-i-do-turkce-ceviri",
+    "date": "2026-08-07T15:00:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan",
+        "lines": [
+          "I do feel the same pain as you",
+          "Every scar, every wound",
+          "I do even when you feel alone",
+          "I'll be right here, never gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan",
+        "lines": [
+          "Seninle aynı acıyı hissediyorum, inan bana",
+          "Her yarayı, her berayı...",
+          "Yapayalnız hissettiğinde bile oradayım;",
+          "Tam burada olacağım, asla gitmeyeceğim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Han, Changbin",
+        "lines": [
+          "modudeul hanassigeun gajigo issneun geo",
+          "gaseumsog gipi baghyeo ppajiji anhneun geo",
+          "mal mos hago honja sumgigo issji",
+          "amuleohji anheun cheoghamyeonseodo",
+          "jiulyeo haedo galsulog beonjyeo",
+          "usgo isseodo sogeun mundeuleojyeo",
+          "You thought you had to hold it on your own",
+          "But I feel it too"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Han, Changbin",
+        "lines": [
+          "Herkesin kendine sakladığı bir şeyler vardır elbet;",
+          "Kalbimize derinlemesine saplanmış, söküp atamadığımız...",
+          "Kimseye anlatamayıp, tek başına saklıyorsun onu;",
+          "Hiçbir şey yokmuş gibi davranırken bile.",
+          "Silmeye çalışsan da, her geçen gün biraz daha yayılıyor;",
+          "Yüzün gülse de, için için çürüyorsun...",
+          "Bunu tek başına göğüslemek zorunda olduğunu sanmıştın;",
+          "Ama ben de hissediyorum bunu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Seungmin, Lee Know, I.N",
+        "lines": [
+          "I do feel the same pain as you",
+          "Every scar, every wound",
+          "I do even when you feel alone",
+          "I'll be right here, never gone",
+          "You don't have to carry that all alone",
+          "I feel everything you do",
+          "I do feel the same pain as you",
+          "Every scar, every wound"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seungmin, Lee Know, I.N",
+        "lines": [
+          "Seninle aynı acıyı hissediyorum, inan bana",
+          "Her yarayı, her berayı...",
+          "Yapayalnız hissettiğinde bile oradayım;",
+          "Tam burada olacağım, asla gitmeyeceğim.",
+          "Tüm bu yükü tek başına taşımak zorunda değilsin;",
+          "Hissediyorum yaşadığın her şeyi...",
+          "Seninle aynı acıyı duyuyorum;",
+          "Her yarayı, her berayı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Felix, Felix & Changbin, Hyunjin & Changbin, Hyunjin, (Changbin)",
+        "lines": [
+          "Like a sandcastle in the rising tide",
+          "All the dreams we tried so hard to hide",
+          "muneojin geos gata boyeodo, salajil geos gata boyeodo",
+          "We're gonna find a way to rise (Alright)",
+          "Sometimes, the night feels way too long",
+          "kkeuti an boil deushan tunnel",
+          "beotyeo on sigandeule daehan bosang",
+          "jigeum i sungan gin bami kkeutna"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Felix, Felix & Changbin, Hyunjin & Changbin, Hyunjin, (Changbin)",
+        "lines": [
+          "Yükselen suların ortasındaki bir kumdan kale gibi...",
+          "Öylece saklamaya çalıştığımız tüm o hayaller.",
+          "Yıkılmış gibi görünse de, silinip gidecekmiş gibi dursa da;",
+          "Yükselmenin bir yolunu bulacağız elbet (Tamamdır).",
+          "Bazen geceler hiç bitmeyecekmiş gibi gelir;",
+          "Ucu görünmeyen o karanlık bir tünel gibi...",
+          "Ama tüm o direndiğin zamanların bir mükafatı var;",
+          "İşte tam şu an, o uzun gece bitiyor artık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: I.N, Seungmin, Lee Know",
+        "lines": [
+          "I do feel the same pain as you",
+          "Every scar, every wound",
+          "I do even when you feel alone",
+          "I'll be right here, never gone",
+          "You don't have to carry that all alone",
+          "I feel everything you do",
+          "I do feel the same pain as you",
+          "Every scar, every wound"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: I.N, Seungmin, Lee Know",
+        "lines": [
+          "Seninle aynı acıyı hissediyorum, inan bana",
+          "Her yarayı, her berayı...",
+          "Yapayalnız hissettiğinde bile oradayım;",
+          "Tam burada olacağım, asla gitmeyeceğim.",
+          "Tüm bu yükü tek başına taşımak zorunda değilsin;",
+          "Hissediyorum yaşadığın her şeyi...",
+          "Seninle aynı acıyı duyuyorum;",
+          "Her yarayı, her berayı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: All, Changbin, Hyunjin",
+        "lines": [
+          "Hey, yeah",
+          "Hey, yeah (Ow)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: All, Changbin, Hyunjin",
+        "lines": [
+          "Hey, yeah...",
+          "Hey, yeah (Ow!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All, Changbin, I.N",
+        "lines": [
+          "I do feel the same pain as you",
+          "Every scar, every wound",
+          "I do even when you feel alone",
+          "I'll be right here, never gone",
+          "You don't have to carry that all alone",
+          "I feel everything you do",
+          "I do feel the same pain as you",
+          "Every scar, every wound"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All, Changbin, I.N",
+        "lines": [
+          "Seninle aynı acıyı hissediyorum, inan bana",
+          "Her yarayı, her berayı...",
+          "Yapayalnız hissettiğinde bile oradayım;",
+          "Tam burada olacağım, asla gitmeyeceğim.",
+          "Tüm bu yükü tek başına taşımak zorunda değilsin;",
+          "Hissediyorum yaşadığın her şeyi...",
+          "Seninle aynı acıyı duyuyorum;",
+          "Her yarayı, her berayı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Felix, Hyunjin, Lee Know, Seungmin",
+        "lines": [
+          "I do, I do, I can feel it too (I feel it too)",
+          "I do, I do, yeah, it's me and you (It's me and you)",
+          "I do, I do, I'm in it with you",
+          "(jeo kkeutkkaji we'll always be together)",
+          "I do, I do, I can feel it too (Woah)",
+          "I do, I do, yeah, it's me and you (Woah)",
+          "I do, I do, I'm in it with you",
+          "I'll be right here with you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Felix, Hyunjin, Lee Know, Seungmin",
+        "lines": [
+          "Hissediyorum, hissediyorum; ben de duyuyorum bunu (Ben de...)",
+          "Hissediyorum; evet, sadece sen ve ben varız (Sen ve ben...)",
+          "Hissediyorum; bu yolda seninleyim artık.",
+          "(O sona ulaşana dek, daima birlikte olacağız...)",
+          "Hissediyorum, hissediyorum; ben de duyuyorum bunu;",
+          "Evet, sadece sen ve ben varız;",
+          "Hissediyorum; bu işin içindeyiz birlikte...",
+          "Tam burada, seninle olacağım."
+        ]
+      }
+    ],
+    "excerpt": "Seninle aynı acıyı hissediyorum, inan bana",
+    "annotations": {
+      "için için çürüyorsun": "Korece “속은 문드러져”, dışarıdan iyi görünürken içeride acıyla yıpranmayı anlatan güçlü bir ifade.",
+      "kumdan kale": "Yükselen suyun ortasındaki kumdan kale, kırılgan görünen hayallerin yeniden ayağa kalkma iradesini simgeliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "47I79laMljjVGpZK3L7CeX",
+        "name": "I Do",
+        "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+        "durationMs": 173000,
+        "duration": "2:53",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 5,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": true
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "2:53",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids I Do Türkçe Çeviri",
+      "description": "Stray Kids – I Do şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-i-do-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=8RQ19JTVsR4",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5171",
+    "title": "Stray Kids Way Out Türkçe Çeviri",
+    "song": "Way Out",
+    "slug": "stray-kids-way-out-turkce-ceviri",
+    "date": "2026-08-07T15:10:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus: Seungmin, Han",
+        "lines": [
+          "gadeon geudaelo way out, geunyang kkeojyeojullae?",
+          "tteoleojil su eobseul geosman gatassdeon uli",
+          "I have nothing to say now, it's not coming back",
+          "tteugeowossdeon sunganeun da sigeun ji olae, olae"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seungmin, Han",
+        "lines": [
+          "Geldiğin gibi ikile, defolup gider misin?",
+          "Ayrılmamız imkansız sanırdık bir zamanlar",
+          "Söyleyecek sözüm yok artık, geri dönüşü de yok bunun",
+          "O kor gibi yanan anlar soğuyalı çok oldu, çok..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Changbin, Hyunjin, Felix",
+        "lines": [
+          "Ayy, uliui sibaljeomi eodiyeossgillae?",
+          "jongchagyeogi hwanseungyeogi doeeobeolyeossneunji?",
+          "You need to know, geulae byeonhan geon neoga anin na",
+          "neon cheoeumbuteo i jeongdoyeossji antakkabgedo",
+          "neoga ppajin naui siganeun neomchyeona",
+          "igeol eojji bonaeya joheulkka?",
+          "modeun geol hejibgo gan salang cham deoleobda",
+          "chiugo beolyeossda, jiwossda, ije mwo eojjeolkka?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Changbin, Hyunjin, Felix",
+        "lines": [
+          "Ayy, bizim başlangıç noktamız neresiydi ki?",
+          "Son durağımız ne ara sadece bir \"aktarma istasyonu\" oluverdi?",
+          "Şunu bilmen gerek; evet, değişen sensin değil, benim",
+          "Sen en başından beri bu kadardın zaten, ne yazık ki...",
+          "Senin olmadığın o vakitler şimdi bana fazla geliyor",
+          "Bunca zamanı nasıl harcasam acaba?",
+          "Her şeyi darmadağın edip giden o sevda ne kirliymiş meğer",
+          "Temizledim, attım, sildim; ee, şimdi ne yapmalı?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Bang Chan, Bang Chan & Hyunjin",
+        "lines": [
+          "I don't wanna see you again in my life",
+          "Final words you'll hear from me, \"Get lost, goodbye\"",
+          "Sayonara, adiós, jal ga, au revoir",
+          "salajineun majimag neoui moseub"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Bang Chan, Bang Chan & Hyunjin",
+        "lines": [
+          "Seni ömrüm boyunca bir daha görmek istemiyorum",
+          "Benden duyacağın son sözler bunlar: \"Kaybol ve elveda\"",
+          "Sayonara, adiós, iyi bak kendine, au revoir",
+          "Gözden kaybolan o son görüntün..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "gadeon geudaelo way out, geunyang kkeojyeojullae?",
+          "tteoleojil su eobseul geosman gatassdeon uli",
+          "I have nothing to say now, it's not coming back",
+          "tteugeowossdeon sunganeun da sigeun ji olae, olae"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "Geldiğin gibi ikile, defolup gider misin?",
+          "Ayrılmamız imkansız sanırdık bir zamanlar",
+          "Söyleyecek sözüm yok artık, geri dönüşü de yok bunun",
+          "O kor gibi yanan anlar soğuyalı çok oldu, çok..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Hyunjin, Bang Chan, Seungmin, I.N, Changbin",
+        "lines": [
+          "amulaedo jaemieobseosseo",
+          "eolgul ttawi bogo sipjido anha",
+          "eodi hanbeon haebojaneun neo",
+          "Oh, girl, you're wasting my time (Yeah)",
+          "Just leave and set me free",
+          "There was no chemistry",
+          "dodaeche wae nal butjaba? deoneun andwae da gwichanha",
+          "nunmul heullin geudaelo gajwo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Hyunjin, Bang Chan, Seungmin, I.N, Changbin",
+        "lines": [
+          "Zaten hiç eğlenceli değildi",
+          "O yüzünü görmeyi bile istemiyorum artık",
+          "\"Hadi bir kez daha deneyelim\" diyorsun bir de",
+          "Oh, kızım, sadece vaktimi çalıyorsun (Yeah)",
+          "Sadece git ve özgür bırak beni",
+          "Aramızda hiçbir çekim yoktu",
+          "Daha ne diye tutuyorsun beni? Olmaz artık, hepsi angarya",
+          "Gözyaşlarınla birlikte öylece git artık"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Felix, Felix & I.N",
+        "lines": [
+          "I don't wanna see you again in my life",
+          "Final words you'll hear from me, \"Get lost, goodbye\"",
+          "Sayonara, adiós, jal ga, au revoir",
+          "salajineun majimag neoui moseub"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Felix, Felix & I.N",
+        "lines": [
+          "Seni ömrüm boyunca bir daha görmek istemiyorum",
+          "Benden duyacağın son sözler bunlar: \"Kaybol ve elveda\"",
+          "Sayonara, adiós, hadi eyvallah, au revoir",
+          "Gözden kaybolan o son görüntün..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Han, Lee Know",
+        "lines": [
+          "gadeon geudaelo way out, geunyang kkeojyeojullae?",
+          "tteoleojil su eobseul geosman gatassdeon uli",
+          "I have nothing to say now, it's not coming back",
+          "tteugeowossdeon sunganeun da sigeun ji olae, olae"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Han, Lee Know",
+        "lines": [
+          "Geldiğin gibi ikile, defolup gider misin?",
+          "Ayrılmamız imkansız sanırdık bir zamanlar",
+          "Söyleyecek sözüm yok artık, geri dönüşü de yok bunun",
+          "O kor gibi yanan anlar soğuyalı çok oldu, çok..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Hyunjin",
+        "lines": [
+          "gadeon geudaelo way out, geunyang kkeojyeojullae?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Hyunjin",
+        "lines": [
+          "Gittiğin gibi çık kapıdan, defolup gider misin artık?"
+        ]
+      }
+    ],
+    "excerpt": "Geldiğin gibi ikile, defolup gider misin?",
+    "annotations": {
+      "aktarma istasyonu": "İlişkinin son durak olması beklenirken geçici bir aktarma noktasına dönüşmesini anlatan metro metaforu.",
+      "Sayonara": "Japonca, İspanyolca, Korece ve Fransızca vedaların art arda kullanılması ayrılığın kesinliğini güçlendiriyor.",
+      "çekim": "Chemistry, iki kişi arasındaki duygusal ve fiziksel uyumu anlatıyor.",
+      "ikile": "İngilizcedeki “çıkış” ifadesi şarkının sert tonuna uygun biçimde “ikile” ve “yol al” duygusuyla çevrildi."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+        "name": "Way Out",
+        "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+        "durationMs": 174000,
+        "duration": "2:54",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 6,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": true
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "2:54",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids Way Out Türkçe Çeviri",
+      "description": "Stray Kids – Way Out şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-way-out-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=QLPFfNmEMG4",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5172",
+    "title": "Stray Kids Back Then Türkçe Çeviri",
+    "song": "Back Then",
+    "slug": "stray-kids-back-then-turkce-ceviri",
+    "date": "2026-08-07T15:20:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Lee Know",
+        "lines": [
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Lee Know",
+        "lines": [
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "uli gati useossdeon nal, yeonghwaleul teuleonohgo (Da-da-da, da, da-da-da-da, da-da, da-da-da, da, da-da-da-da, da)",
+          "seoloman bwassdeon nal, geunal (Da-da-da, da, da-da-da-da, da-da, da-da-da, da, da-da-da-da, da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Birlikte güldüğümüz o gün, bir film açmıştık arkada...",
+          "Sadece birbirimize baktığımız o gün, tam o gün..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Han, Seungmin, Hyunjin",
+        "lines": [
+          "soljighi malhae geunyang amuleon",
+          "iyu eobsji salange daehayeo",
+          "eoligo jageun i mame neomchyeo",
+          "heulleobeolin i manheun geon love",
+          "jalana beolin aiga doeeo (ga doeeo)",
+          "ne gyeoteseo i bameul jisaewo, eh-oh",
+          "neoui jageun miso ane beonji, alittaun i noli",
+          "eseo neowa pyeongsaeng ppajyeonagagi silheo, woah-oh-oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Han, Seungmin, Hyunjin",
+        "lines": [
+          "Dürüst olmak gerekirse, aslında hiçbir",
+          "Sebebi yok şu aşk meselesinin.",
+          "Bu gencecik ve küçük kalbe fazla gelip",
+          "Taşan tüm bu hislerin adı; aşk.",
+          "Büyümüş bir çocuk olup çıktım;",
+          "Senin yanında sabahlıyorum bu gece...",
+          "Senin o küçük gülüşünün içine dalıyorum, bu çok güzel bir oyun;",
+          "Seninle olduğum bu dünyadan ömür boyu çıkmak istemiyorum hiç."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: I.N, Lee Know",
+        "lines": [
+          "nae pyeongsaengui baneul negelo",
+          "neoui kkochi myeochbaegman beonjjeum tto sideuleodo, oh",
+          "saeloun hyangeul dasi meogeumgo",
+          "deo chanlanhan kkocheul ne mame piwo julge"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: I.N, Lee Know",
+        "lines": [
+          "Ömrümün yarısını sana adayacağım;",
+          "Senin çiçeklerin milyonlarca kez solsa bile...",
+          "Yeni kokularla donatıp onları,",
+          "Daha görkemli çiçekler açtıracağım senin kalbinde."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Seungmin, I.N, Bang Chan",
+        "lines": [
+          "uli gati useossdeon nal (deon nal), yeonghwaleul teuleonohgo (nohgo)",
+          "seoloman bwassdeon nal (deon nal), geunal (Oh, yeah, yeah)",
+          "buteo, oh, oh, yeosseossdeon geos gata, ah-ah",
+          "neowa sijaghaessdeon geu yeoleumui ileumeun seollemieossda"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seungmin, I.N, Bang Chan",
+        "lines": [
+          "Birlikte güldüğümüz o gün, bir film açmıştık arkada...",
+          "Sadece birbirimize baktığımız o gün, işte o günden beri;",
+          "Sanki her şey başlamıştı bile...",
+          "Seninle başladığımız o yazın adı \"heyecan\"dı."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Felix, Han",
+        "lines": [
+          "We're the night, yeah, we're the light, yeah",
+          "We're so bright, babe, we're the sky",
+          "uliga mandeuleo naen i badaui emerald",
+          "Shine so bright, neowa na"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Felix, Han",
+        "lines": [
+          "Biz o geceyiz, evet; biz o ışığız.",
+          "Çok parlağız bebeğim, biz gökyüzünün ta kendisiyiz!",
+          "Bizim var ettiğimiz bu denizin o zümrüt rengi...",
+          "Öyle parlak ki; sen ve ben."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: I.N, Han",
+        "lines": [
+          "hanyeoleumui tteugeoun i balami (balami)",
+          "molaeali buteo mome jindeugi",
+          "soneul jabgo walking, bada suyeonghae jumping",
+          "With you, I feel like guleum han jeom gati feel free"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: I.N, Han",
+        "lines": [
+          "Yazın o kavurucu rüzgarı eserken...",
+          "Kum taneleri yapışıyor vücudumuza, usulca.",
+          "El ele yürüyoruz, denize dalıp yüzüyoruz;",
+          "Seninleyken, gökyüzündeki tek bir bulut gibi özgür hissediyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Bang Chan & Lee Know, Hyunjin",
+        "lines": [
+          "nae pyeongsaengui baneul negelo",
+          "neoui kkochi myeochbaegman beonjjeum tto sideuleodo, oh",
+          "saeloun hyangeul dasi meogeumgo",
+          "deo chanlanhan kkocheul ne mame piwo julge (Yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Bang Chan & Lee Know, Hyunjin",
+        "lines": [
+          "Ömrümün yarısını sana adayacağım;",
+          "Senin çiçeklerin milyonlarca kez solsa bile...",
+          "Yeni kokularla donatıp onları,",
+          "Daha görkemli çiçekler açtıracağım senin kalbinde."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Han, Seungmin, Lee Know",
+        "lines": [
+          "uli gati useossdeon nal (deon nal), yeonghwaleul teuleonohgo (nohgo)",
+          "seoloman bwassdeon nal (deon nal), geunal (Oh, yeah-yeah)",
+          "buteo, oh-oh, yeosseossdeon geos gata, ah-ah",
+          "neowa sijaghaessdeon geu yeoleumui ileumeun seollemieossda"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Han, Seungmin, Lee Know",
+        "lines": [
+          "Birlikte güldüğümüz o gün, bir film açmıştık arkada...",
+          "Sadece birbirimize baktığımız o gün, o günden beri;",
+          "Sanki her şey başlamıştı bile...",
+          "Seninle başladığımız o yazın adı heyecandı."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Changbin, Lee Know",
+        "lines": [
+          "We're the night, yeah, we're the light, yeah",
+          "We're so bright, babe, we're the sky",
+          "uliga mandeuleo naen i badaui emerald",
+          "Shine so bright, neowa na"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Changbin, Lee Know",
+        "lines": [
+          "Biz o geceyiz, evet; biz o ışığız.",
+          "Çok parlağız bebeğim, biz gökyüzünün ta kendisiyiz!",
+          "Bizim var ettiğimiz bu denizin o zümrüt rengi...",
+          "Öyle parlak ki; sen ve ben."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Felix, Bang Chan, Hyunjin, Han",
+        "lines": [
+          "uli gati useossdeon nal, yeonghwaleul teuleonohgo (nohgo)",
+          "seoloman bwassdeon nal (deon nal), geunal (Oh, yеah-yeah)",
+          "buteo, oh-oh, yeosseossdeon geos gata, ah-ah",
+          "neowa sijaghaessdeon geu yeoleumui ileumeun seollemieossda (uliga mandeun geunal)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Felix, Bang Chan, Hyunjin, Han",
+        "lines": [
+          "Birlikte güldüğümüz o gün, arkada bir film dönerken...",
+          "Sadece birbirimize baktığımız o gün, o günden beri;",
+          "Başlamıştı her şey...",
+          "Seninle başladığımız o yazın adı heyecandı. (Birlikte yarattığımız o gün...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Felix, Seungmin, Bang Chan, Hyunjin",
+        "lines": [
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da (uliga mandeun geunal, ooh)",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da (Ooh, ooh)",
+          "(Da-da-da, da, da-da-da-da, da-da)",
+          "(Da-da-da, da, da-da-da-da, da)",
+          "(Da-da-da, da, da-da-da-da, da-da)",
+          "(Da-da-da, da, da-da-da-da, da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Felix, Seungmin, Bang Chan, Hyunjin",
+        "lines": [
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da (Birlikte yarattığımız o gün, ooh)",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da",
+          "Da-da-da, da, da-da-da-da, da-da",
+          "Da-da-da, da, da-da-da-da, da (Ooh, ooh)",
+          "(Da-da-da, da, da-da-da-da, da-da)",
+          "(Da-da-da, da, da-da-da-da, da)",
+          "(Da-da-da, da, da-da-da-da, da-da)",
+          "(Da-da-da, da, da-da-da-da, da)"
+        ]
+      }
+    ],
+    "excerpt": "Da-da-da, da, da-da-da-da, da-da",
+    "annotations": {
+      "heyecan": "Korece “설렘”, aşık olurken hissedilen tatlı kalp çarpıntısını ve iç kıpırtısını anlatıyor.",
+      "zümrüt": "Denizin zümrüt rengi, yaz aşkının parlak ve masalsı atmosferini güçlendiriyor.",
+      "Büyümüş bir çocuk": "Aşk karşısında yetişkinliğin içinde kalan çocuksu masumiyet vurgulanıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1Pu3xgGv05MYxJzHROokRJ",
+        "name": "Back Then",
+        "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+        "durationMs": 225000,
+        "duration": "3:45",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 7,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": true
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "3:45",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids Back Then Türkçe Çeviri",
+      "description": "Stray Kids – Back Then şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-back-then-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=P_YrTeZt6yM",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5173",
+    "title": "Stray Kids This & That (Festival Version) Türkçe Çeviri",
+    "song": "This & That (Festival Version)",
+    "slug": "stray-kids-this-and-that-festival-version-turkce-ceviri",
+    "date": "2026-08-07T15:30:00.000Z",
+    "artist": "Stray Kids",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "This and that, this and that",
+          "This and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Şundan bundan, şundan bundan",
+          "Ondan bundan, her şeyden biraz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Bang Chan, Lee Know",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster spor bir araba, ister koca bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Cappuccino ve Americano;",
+          "Ondan da alırım, bundan da...",
+          "Sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Han, Hyunjin, Felix",
+        "lines": [
+          "Groovyhage geoleo look at me",
+          "imi proved it, du madilo kkeutnaessji",
+          "meolileul cooling, daeum dangyelo still moving",
+          "Stop denying, du nun gamabwado bunwigi neul janchi",
+          "naebidwo geulaedo chajameogji ul sigseongdaelo",
+          "ojilap gobppaegi ppaejwo yocheonglane sseonwasseo",
+          "jal bwajwo nawasseo",
+          "(uliga nawasseo)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Han, Hyunjin, Felix",
+        "lines": [
+          "Tarzımla yürüyorum, bir baksana bana",
+          "Çoktan kanıtladım her şeyi; iki lafımla bitirdim işi.",
+          "Kafayı dinlendirip bir sonraki aşamaya geçiyorum hemen.",
+          "İnkar etme boşuna; gözlerini kapatsan bile ortam hep bayram yeri!",
+          "Bırak beni, ben kendi iştahıma göre bulurum yolumu.",
+          "Şu \"elalem ne der\" porsiyonunu duble istemem, notuma yazdım;",
+          "İyi bak şimdi, sahneye çıktık!",
+          "(Biz geldik!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Seungmin, Hyunjin",
+        "lines": [
+          "See me rolling",
+          "gollaseo naega seontaeghan daelo flowing",
+          "wonlae gago sipeun daelo I run it, run it, run it",
+          "Yeah, we (igeosjeogeos da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Seungmin, Hyunjin",
+        "lines": [
+          "İzle beni, tozu dumana katıyorum",
+          "Kendi seçtiğim yolda, gönlümce süzülüyorum.",
+          "Zaten canım nasıl isterse öyle koştururum;",
+          "Evet, biz... (Şundan bundan, hepsinden!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Felix, Han",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Felix, Han",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster spor bir araba, ister koca bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Cappuccino ve Americano;",
+          "Ondan da alırım, bundan da...",
+          "Sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: I.N, Changbin",
+        "lines": [
+          "wonhae deo meomchul su eobsneun challenge",
+          "Hot and cold, mwodeun gwaenchanha, no damage",
+          "I ain't getting no pain",
+          "I'll show you the way, I got no shame and I'm—",
+          "igeosjeogeos ready doen ji imi olaedwaessji",
+          "Yeah, jiluhameun ppaessji geugeon olaejeone paechi",
+          "nae laebeun gogi paeti jeoldae ppajil su eobsgessji",
+          "nae oenjjog gaseumsoge baghin Stray Kids baeji"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: I.N, Changbin",
+        "lines": [
+          "Daha fazlasını istiyorum, durdurulamaz bir meydan okuma;",
+          "Sıcak ya da soğuk fark etmez, bize hasar veremez.",
+          "Canım falan yanmıyor hiç;",
+          "Size yolu göstereceğim, utanacak hiçbir şeyim yok ve ben...",
+          "Her şeye hazırlıklı olalı çok uzun zaman oldu.",
+          "Evet, sıkıcılığı hayatımdan attım; o eski bir güncelleme.",
+          "Benim rapim hamburgerin içindeki o \"et köftesi\" gibidir;",
+          "Asla eksik kalmaz o lezzet!",
+          "Sol göğsümün tam üstünde, kalbime kazınmış o \"Stray Kids\" arması..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Felix, Changbin, Han",
+        "lines": [
+          "baljachwie nameun chechwi chaechwi haeseo kkumeul sketch",
+          "Let's get it gihoel catch, seonggonggwaui matching",
+          "deo boyeojul geo eobsnyaneun neoege",
+          "(igeosjeogeos da)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Felix, Changbin, Han",
+        "lines": [
+          "Adımlarımdan kalan o izleri toplayıp, hayallerimi çiziyorum.",
+          "Hadi yapalım bu işi, fırsatı yakala; başarıyla tam bir uyum...",
+          "Hala \"daha neyiniz var?\" diye soran sana;",
+          "(Şundan, bundan, her şeyden!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Hyunjin, Bang Chan",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Hyunjin, Bang Chan",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster spor bir araba, ister koca bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da...",
+          "Cappuccino ve Americano;",
+          "Ondan da alırım, bundan da...",
+          "Sahneyi yıkar geçerim, sonra doğruca stüdyoya!",
+          "Ben hem onu yaparım, hem bunu..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Hyunjin",
+        "lines": [
+          "Na-na-na-na-na-na",
+          "And that, and that, and that, and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Hyunjin",
+        "lines": [
+          "Na-na-na-na-na-na...",
+          "Ondan da, bundan da, her şeyden..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "Everything I do, multiply it by two",
+          "I got this and that, this and that",
+          "We could take a coupe or a truck, vroom, vroom",
+          "I got this and that, this and that (Yeah)",
+          "Cappuccino and americano",
+          "I'll take this and that, this and that",
+          "I'ma rip a show and then hit the studio",
+          "I do this and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lee Know, I.N",
+        "lines": [
+          "Yaptığım her şeyi ikiyle çarpın",
+          "Bende şundan da var, bundan da...",
+          "İster spor araba, ister koca bir kamyon; vroom, vroom!",
+          "Şundan da var bende, bundan da... (Evet)",
+          "Cappuccino ve Americano;",
+          "Ondan da alırım, bundan da...",
+          "Sahneyi yıkar, sonra stüdyoya dalarım;",
+          "Onu da yaparım, bunu da..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Bang Chan",
+        "lines": [
+          "Talking this and that",
+          "Talking this and that",
+          "This and that, this and that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Bang Chan",
+        "lines": [
+          "Şundan bundan bahsedip duruyorlar...",
+          "Şundan bundan konuşuyorlar...",
+          "Ondan bundan, her şeyden biraz..."
+        ]
+      }
+    ],
+    "excerpt": "Şundan bundan, şundan bundan",
+    "annotations": {
+      "elalem ne der": "Korece “오지랖”, başkasının işine gereksiz yere karışmak anlamına geliyor; yemek siparişi metaforuyla reddediliyor.",
+      "et köftesi": "Changbin rapini, hamburgerin bütün lezzetini taşıyan vazgeçilmez ana malzemeye benzetiyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5GuQGg2n7UZWPqiXJ6orhj",
+        "name": "This & That (Festival Version)",
+        "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+        "durationMs": 222000,
+        "duration": "3:42",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2dIgFjalVxs4ThymZ67YCE",
+          "name": "Stray Kids",
+          "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+        }
+      ],
+      "album": {
+        "id": "46TYlDjLrEsOLFgxfxNiUy",
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "id": "2dIgFjalVxs4ThymZ67YCE",
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": "JYP Entertainment",
+        "copyrights": [
+          {
+            "text": "© 2026 JYP Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 JYP Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 8,
+        "tracks": [
+          {
+            "id": "2CGKPHslXh1Zy6JK2zu3Ud",
+            "name": "RUN IT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 209000,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+            "isCurrent": false
+          },
+          {
+            "id": "7AN7dJCtHqbL7f76QGyraa",
+            "name": "This & That",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 185000,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+            "isCurrent": false
+          },
+          {
+            "id": "2jI7hP57YyY8GoJ5OQTkj7",
+            "name": "After You",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+            "isCurrent": false
+          },
+          {
+            "id": "3oCdoI8Y9OZqnCgcB06qb2",
+            "name": "FARMING",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151000,
+            "duration": "2:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+            "isCurrent": false
+          },
+          {
+            "id": "47I79laMljjVGpZK3L7CeX",
+            "name": "I Do",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 173000,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+            "isCurrent": false
+          },
+          {
+            "id": "1xYlu6g9dSZCGDutJ3i4Lc",
+            "name": "Way Out",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+            "isCurrent": false
+          },
+          {
+            "id": "1Pu3xgGv05MYxJzHROokRJ",
+            "name": "Back Then",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 225000,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5GuQGg2n7UZWPqiXJ6orhj",
+            "name": "This & That (Festival Version)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-07T16:00:00.000Z",
+      "trackUrl": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "albumType": "Album",
+      "releaseDate": "2026-08-07",
+      "duration": "3:42",
+      "label": "JYP Entertainment",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3"
+    },
+    "seo": {
+      "title": "Stray Kids This & That (Festival Version) Türkçe Çeviri",
+      "description": "Stray Kids – This & That (Festival Version) şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. THIS & THAT albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/stray-kids-this-and-that-festival-version-turkce-ceviri/"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=owyBuKsrN30",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5165",
+    "title": "Ella Langley, Morgan Wallen I Can't Love You Anymore Türkçe Çeviri",
+    "song": "I Can't Love You Anymore",
+    "slug": "ella-langley-i-can-t-love-you-anymore-turkce-ceviri",
+    "date": "2026-08-05T13:40:46.587Z",
+    "artist": "Ella Langley, Morgan Wallen",
+    "categories": [
+      "Ella Langley",
+      "Morgan Wallen",
+      "I Can't Love You Anymore"
+    ],
+    "category_slugs": [
+      "ella-langley",
+      "morgan-wallen",
+      "i-can-t-love-you-anymore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Ella Langley",
+        "lines": [
+          "I found your lighter in my nightstand",
+          "That's why I'm thinking of you, I guess",
+          "What part of \"Over\" don't I understand?",
+          "'Cause damn, I miss the taste of your cigarette, yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Ella Langley",
+        "lines": [
+          "Komodinimin üzerinde çakmağını buldum",
+          "Sanırım bu yüzden yine aklıma düştün",
+          "“Bitti” sözünün hangi kısmını anlamıyorum ki?",
+          "Çünkü kahretsin, sigaranın o tadını bile özlüyorum, evet"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Ella Langley",
+        "lines": [
+          "Your memory pulls me right back in",
+          "It's like I forget"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Ella Langley",
+        "lines": [
+          "Hatıran beni yine içine çekiyor",
+          "Sanki her şeyi unutmuşum gibi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "I can't love you anymore",
+          "Can't keep chasing you 'round, 'round the back of my mind",
+          "I can't need you anymore",
+          "Can't keep sharing this bed with your ghost every night",
+          "I hate that your kiss left a burn on my lips",
+          "Oh baby, how do I tell my heart it ain't yours",
+          "When I've said it before?",
+          "I can't love you anymore"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "Seni artık sevemem",
+          "Zihnimin kuytularında seni kovalamaktan yoruldum",
+          "Sana artık muhtaç olamam",
+          "Her gece bu yatağı senin hayaletinle paylaşamam",
+          "Öpücüğünün dudaklarımda bıraktığı o yanık izinden nefret ediyorum",
+          "Ah bebeğim, kalbime artık senin olmadığını nasıl anlatırım?",
+          "Bunu daha önce söylemişken",
+          "Seni artık sevemem"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "Anymore",
+          "Anymore"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "Artık...",
+          "Asla..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Morgan Wallen, Ella Langley",
+        "lines": [
+          "Just when I think you let me let you go (Let you go)",
+          "There's a picture of us covered in dust on the dash",
+          "Swore you lit it up just to see the smoke (See the smoke)",
+          "Wrote \"Me plus you\" with the date on the back",
+          "Look at that, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Morgan Wallen, Ella Langley",
+        "lines": [
+          "Tam beni bırakıp gitmeme izin verdiğini sandığım anda",
+          "Ön konsolun üzerinde ikimizin toza bulanmış bir fotoğrafı beliriyor",
+          "Yemin ederim, sırf dumanı görmek için onu ateşe vermiştin",
+          "Arkasına, tarihin yanına “Ben artı sen” yazmışsın",
+          "Şuna bir bak, ah"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Your memory pulls me right back in",
+          "It's like I forget"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Hatıran beni yine içine çekiyor",
+          "Sanki her şeyi unutmuşum gibi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "I can't love you anymore",
+          "Can't keep chasing you 'round, 'round the back of my mind",
+          "I can't need you anymore",
+          "Can't keep sharing this bed with your ghost every night",
+          "I hate that your kiss left a burn on my lips",
+          "Oh baby, how do I tell my heart it ain't yours",
+          "When I've said it before?",
+          "I can't love you anymore"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ella Langley & Morgan Wallen",
+        "lines": [
+          "Seni artık sevemem",
+          "Zihnimin kuytularında seni kovalamaktan yoruldum",
+          "Sana artık muhtaç olamam",
+          "Her gece bu yatağı senin hayaletinle paylaşamam",
+          "Öpücüğünün dudaklarımda bıraktığı o yanık izinden nefret ediyorum",
+          "Ah bebeğim, kalbime artık senin olmadığını nasıl anlatırım?",
+          "Bunu daha önce söylemişken",
+          "Seni artık sevemem"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Ella Langley, Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Anymore (Anymore), anymore",
+          "I can't love you",
+          "No, I can't love you  anymore (Anymore)",
+          "Anymore (Anymore), anymore, anymore",
+          "(Anymore)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Ella Langley, Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Artık (Artık), artık",
+          "Seni sevemem",
+          "Hayır, seni artık sevemem (Artık)",
+          "Artık (Artık), artık, artık",
+          "(Artık)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Ella Langley & Morgan Wallen, Ella Langley",
+        "lines": [
+          "Tell me, baby, ooh",
+          "What do I do?",
+          "What do I do?",
+          "Could you tell me, baby",
+          "Ooh-ooh-ooh",
+          "What do I do?",
+          "What do I do?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Ella Langley & Morgan Wallen, Ella Langley",
+        "lines": [
+          "Söyle bana bebeğim, ooh",
+          "Ne yapacağım ben?",
+          "Ne yapacağım?",
+          "Söyler misin bana bebeğim",
+          "Ooh-ooh-ooh",
+          "Ne yapacağım ben?",
+          "Ne yapacağım?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ella Langley, Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "I can't love you anymore",
+          "Can't keep chasing you 'round, 'round the back of my mind",
+          "I can't need you anymore (Nah, I can't need ya, can't need ya)",
+          "Can't keep sharing this bed with your ghost every night",
+          "I hate that your kiss left a burn on my lips",
+          "Oh baby, how do I tell my heart it ain't yours",
+          "When I've said it before?",
+          "No, I can't love you anymore"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ella Langley, Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Seni artık sevemem",
+          "Zihnimin kuytularında seni kovalamaktan yoruldum",
+          "Sana artık muhtaç olamam (Hayır, sana muhtaç olamam)",
+          "Her gece bu yatağı senin hayaletinle paylaşamam",
+          "Öpücüğünün dudaklarımda bıraktığı o yanık izinden nefret ediyorum",
+          "Ah bebeğim, kalbime artık senin olmadığını nasıl anlatırım?",
+          "Bunu daha önce söylemişken",
+          "Hayır, seni artık sevemem"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Ella Langley,  Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Anymore (Anymore)",
+          "No, I can't love you",
+          "No, I can't love you anymore",
+          "Anymore (Anymore)",
+          "No, I can't love you",
+          "No, I can't love you anymore",
+          "(What do I do? What do I do?)",
+          "No, I can't love you anymore",
+          "(What do I do?)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Ella Langley,  Morgan Wallen, Ella Langley & Morgan Wallen",
+        "lines": [
+          "Artık (Artık)",
+          "Hayır, seni sevemem",
+          "Hayır, seni artık sevemem",
+          "Artık (Artık)",
+          "Hayır, seni sevemem",
+          "Hayır, seni artık sevemem",
+          "(Ne yapacağım ben? Ne yapacağım?)",
+          "Hayır, seni artık sevemem",
+          "(Ne yapacağım?)"
+        ]
+      }
+    ],
+    "excerpt": "I found your lighter in my nightstand",
+    "annotations": {
+      "anymore": "Buradaki tekrar yalnızca “artık” demekle kalmıyor; vazgeçişi güçlendirmek için post-chorus’ta yer yer “asla” vurgusuna dönüşüyor.",
+      "dash": "Arabanın ön konsolu ve üzerindeki tozlu fotoğraf, modern country anlatısının nostaljik ve gündelik imgelerini taşıyor.",
+      "ghost": "“Bu yatağı senin hayaletinle paylaşmak” imgesi, ayrılığın ardından kalan boşluğu ve kişinin zihinde hâlâ var olmasını anlatıyor.",
+      "back of my mind": "Uzaklaştırmaya çalışsan da zihnin bir köşesinde dönüp duran, kaçamadığın düşünceleri anlatan bir ifadedir; “zihnimin kuytuları” olarak karşılandı."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5aVBxVa0kz9uzv0F4gwdEn",
+        "name": "I Can't Love You Anymore",
+        "url": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+        "isrc": "USSM12602547",
+        "durationMs": 228836,
+        "duration": "3:49",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6BRxQ8cD3eqnrVj6WKDok8",
+        "name": "Ella Langley",
+        "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6BRxQ8cD3eqnrVj6WKDok8",
+          "name": "Ella Langley",
+          "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8"
+        },
+        {
+          "id": "4oUHIQIBe0LHzYfvXNW4QM",
+          "name": "Morgan Wallen",
+          "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM"
+        }
+      ],
+      "album": {
+        "id": "5BFfobflVIOwebqy5RtBcP",
+        "name": "I Can't Love You Anymore",
+        "url": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+        "artists": [
+          {
+            "id": "6BRxQ8cD3eqnrVj6WKDok8",
+            "name": "Ella Langley",
+            "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8"
+          },
+          {
+            "id": "4oUHIQIBe0LHzYfvXNW4QM",
+            "name": "Morgan Wallen",
+            "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM"
+          }
+        ],
+        "releaseDate": "2026-04-24",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 SAWGOD Records/Columbia",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5aVBxVa0kz9uzv0F4gwdEn",
+            "name": "I Can't Love You Anymore",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 228836,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-05T13:39:51.519Z",
+      "trackUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+      "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP",
+      "artistUrl": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+      "albumName": "I Can't Love You Anymore",
+      "albumType": "Single",
+      "releaseDate": "2026-04-24",
+      "duration": "3:49",
+      "isrc": "USSM12602547",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b"
+    },
+    "genius": {
+      "url": "https://genius.com/Ella-langley-and-morgan-wallen-i-cant-love-you-anymore-lyrics",
+      "songId": 13424401,
+      "description": "“I Can’t Love You Anymore” is a collaboration between Ella Langley and Morgan Wallen released on April 24th, 2026."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=A3G_7XgK2B4",
+    "youtubeEmbedDisabled": true,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5164",
+    "title": "CORTIS REDRED Türkçe Çeviri",
+    "song": "REDRED",
+    "slug": "cortis-redred-turkce-ceviri",
+    "date": "2026-08-05T13:04:36.121Z",
+    "artist": "CORTIS",
+    "categories": [
+      "CORTIS",
+      "REDRED"
+    ],
+    "category_slugs": [
+      "cortis",
+      "redred"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Keonho",
+        "lines": [
+          "Green, green"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Keonho",
+        "lines": [
+          "Yeşil, yeşil"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Martin",
+        "lines": [
+          "Ttabara han mogeum sip (Woo)",
+          "Caffeine tto kickin' in",
+          "Eojetbame mandeuldeon beat (Beat)",
+          "Nae poneda damaseo georiro nagaseo",
+          "Daseosi gogaereul bingbing",
+          "Ipgkorin ollaga, hihi",
+          "Haendeupon bakkwo nwa D-N-D",
+          "Seeing all kinds of green, green"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Martin",
+        "lines": [
+          "Sıcak vanilyamdan bir yudum (sip) (Woo)",
+          "Kafein yine kafa yapmaya (kickin' in) başladı",
+          "Dün gece yaptığım o ritmi (beat) (Beat)",
+          "Telefonuma atıp sokağa fırlıyorum",
+          "Beşimiz kafa sallıyoruz ritme",
+          "Ağzımız kulaklarımızda, hihi",
+          "Telefonları \"Rahatsız Etmeyin\" (DND) moduna al",
+          "Her yer yemyeşil görünüyor gözüme (Green, green)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Keonho, James, Martin",
+        "lines": [
+          "Swit, hanpae (hanpae)",
+          "I put my hands in my pocket (My pocket)",
+          "Outside, han bame (han bame)",
+          "Saram eomneun seupaseuro ppalli (Woo)",
+          "I'll do that shit all with my team (Team)",
+          "Nugunga sireohal jit (It, it)",
+          "Al baga aniyeo get it, get it",
+          "Sinhodeung bakkwieosseo green, green"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Keonho, James, Martin",
+        "lines": [
+          "Şşşt, bu dondurucu soğukta (Soğukta)",
+          "Ellerimi cebime sokuyorum (Cebime)",
+          "Gecenin bir yarısı dışarıda (Bir yarısı)",
+          "Tenha bir yerlere doğru, çabuk! (Woo)",
+          "Hepsini ekibimle (team) yapacağım",
+          "Birilerinin nefret edeceği işleri yani (It, it)",
+          "Umrumda bile değil, tadını çıkar (get it, get it)",
+          "Trafik ışıkları yeşile döndü (Green, green)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Seonghyeon, Juhoon, All",
+        "lines": [
+          "Pallanggwi pallanggwi (That's red, red)",
+          "Nunchina salpigi (That's red, red)",
+          "Dogani sarigi (That's red, red)",
+          "Neomeoga ultari green, green",
+          "Gungdengi garigi (That's red, red)",
+          "Jubyeoneul salpigi (That's red, red)",
+          "Kulhan cheok cheokhagi (That's red, red)",
+          "You should come mess with the team"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Seonghyeon, Juhoon, All",
+        "lines": [
+          "El sözüne bakmak (İşte bu kırmızı ışık!)",
+          "Millet ne der diye bakınmak (İşte bu kırmızı ışık!)",
+          "Kenarda durup canını sakınmak (İşte bu kırmızı ışık!)",
+          "Yık o çitleri, aş sınırları; yol yeşil!",
+          "Paçayı kurtarmaya çalışmak (İşte bu kırmızı ışık!)",
+          "Tereddüt edip sağa sola bakmak (İşte bu kırmızı ışık!)",
+          "Havalıymış gibi rol kesmek (İşte bu kırmızı ışık!)",
+          "Gel de bizim ekiple takıl sen en iyisi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: James, Keonho, All",
+        "lines": [
+          "Nae chingudeul jeonbu han teureogeda damaseo",
+          "Georiro nagaseo bingbing",
+          "Georiseo doldaga doraga studio",
+          "Cookin' up 'til we get stinky",
+          "Pallanggwi pallanggwi (That's red, red)",
+          "Nunchina salpigi (That's red, red)",
+          "Dogani sarigi (That's red, red)",
+          "You should come mess with the team"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: James, Keonho, All",
+        "lines": [
+          "Tüm arkadaşlarımı bir kamyona doldurup",
+          "Sokağa fırlayıp dönüp duruyoruz",
+          "Sokaklarda tur atıp stüdyoya geri dönüyoruz",
+          "Ter dökene kadar yeni bir şeyler pişiriyoruz",
+          "El sözüne bakmak (İşte bu kırmızı ışık!)",
+          "Millet ne der diye bakınmak (İşte bu kırmızı ışık!)",
+          "Kenarda durup canını sakınmak (İşte bu kırmızı ışık!)",
+          "Gel de bizim ekiple takıl sen en iyisi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Seonghyeon, Juhoon, Keonho, Martin",
+        "lines": [
+          "They called me a freak, hollin deusi, yeah",
+          "Mandeuldeon tracks, yeah, deutgo moin friends, yeah",
+          "Haruga galsurok neureoga pack",
+          "Jinjjabaegicheoreom balpaga step, huh",
+          "Screaming loud like, \"Yeah, yeah\"",
+          "Gogae kkattagyeo like, \"Yeah, yeah\"",
+          "F1, deulji ma red flag",
+          "You should come mess with the team (Tell me what's red)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Seonghyeon, Juhoon, Keonho, Martin",
+        "lines": [
+          "Bana \"kaçık\" dediler, sanki büyülenmiş gibiydim, evet",
+          "Yaptığım o parçalar, onları duyup toplanan dostlar, evet",
+          "Gün geçtikçe kalabalıklaşıyor tayfa (pack)",
+          "Harbi bir usta gibi, emin adımlarla basıyoruz yere, huh",
+          "Avazımız çıktığı kadar bağırıyoruz; \"Yeah, yeah\"",
+          "Kafa sallıyoruz ritme; \"Yeah, yeah\"",
+          "Burası F1 pisti, sakın bana kırmızı bayrak çekme!",
+          "Gel de bizim ekiple takıl sen en iyisi! (Söyle bana, kırmızı olan ne?)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Martin, James, Seonghyeon, All",
+        "lines": [
+          "Chagapge bangchidoen city (That's red)",
+          "Meonjiga ssain geu CD (That's red)",
+          "Jeongsukhan mudaeneun sisihae",
+          "Dapdaphae jeongsuri sippeolgejiji, yeah (That's red)",
+          "We gotta pop out to show how",
+          "Dasi baewo bwa, you gotta note down",
+          "Bulleowa beoryeo du beonjjae hollan",
+          "Sinhodeung bakkwieosseo green, green"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Martin, James, Seonghyeon, All",
+        "lines": [
+          "Kendi haline terk edilmiş, buz gibi şehir (Bu kırmızıdır!)",
+          "Toz tutmuş o CD’ler (Bu kırmızıdır!)",
+          "Sessiz ve uslu sahneler çok bayıyor",
+          "Daralıyorum, tepemden aşağı kan çıkıyor resmen (Bu kırmızıdır!)",
+          "Kendimizi göstermek için ortaya fırlamalıyız",
+          "Bunu not al, yeniden öğrenmen gerekecek",
+          "İkinci bir kaos başlatalım hadi",
+          "Trafik ışıkları yeşile döndü (Green, green)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Juhoon, Keonho, All",
+        "lines": [
+          "Pallanggwi pallanggwi (That's red, red)",
+          "Nunchina salpigi (That's red, red)",
+          "Dogani sarigi (That's red, red)",
+          "Neomeoga ultari green, green",
+          "Gungdengi garigi (That's red, red)",
+          "Jubyeoneul salpigi (That's red, red)",
+          "Kulhan cheok cheokhagi (That's red, red)",
+          "You should come mess with the team"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Juhoon, Keonho, All",
+        "lines": [
+          "El sözüne bakmak (İşte bu kırmızı ışık!)",
+          "Millet ne der diye bakınmak (İşte bu kırmızı ışık!)",
+          "Kenarda durup canını sakınmak (İşte bu kırmızı ışık!)",
+          "Yık o çitleri, aş sınırları; yol yeşil!",
+          "Paçayı kurtarmaya çalışmak (İşte bu kırmızı ışık!)",
+          "Tereddüt edip sağa sola bakmak (İşte bu kırmızı ışık!)",
+          "Havalıymış gibi rol kesmek (İşte bu kırmızı ışık!)",
+          "Gel de bizim ekiple takıl sen en iyisi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Martin",
+        "lines": [
+          "Ayy (Yeah, yeah), turn it up, ayy",
+          "I told you to turn it up",
+          "I don't mess with no stupid red signs",
+          "Sinhodeung bakkwieosseo green, green"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Martin",
+        "lines": [
+          "Ayy (Yeah, yeah), aç şu sesi, ayy",
+          "Sana sesi köklemeni söyledim",
+          "O aptal kırmızı işaretlerle işim olmaz benim",
+          "Trafik ışıkları yeşile döndü..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: James, Seonghyeon, All",
+        "lines": [
+          "Pallanggwi pallanggwi (That's red, red)",
+          "Nunchina salpigi (That's red, red)",
+          "Dogani sarigi (That's red, red)",
+          "Neomeoga ultari green, green",
+          "Gungdengi garigi (That's red, red)",
+          "Jubyeoneul salpigi (That's red, red)",
+          "Kulhan cheok cheokhagi (That's red, red)",
+          "You should come mess with the team"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: James, Seonghyeon, All",
+        "lines": [
+          "El sözüne bakmak (İşte bu kırmızı ışık!)",
+          "Millet ne der diye bakınmak (İşte bu kırmızı ışık!)",
+          "Kenarda durup canını sakınmak (İşte bu kırmızı ışık!)",
+          "Yık o çitleri, aş sınırları; yol yeşil!",
+          "Paçayı kurtarmaya çalışmak (İşte bu kırmızı ışık!)",
+          "Tereddüt edip sağa sola bakmak (İşte bu kırmızı ışık!)",
+          "Havalıymış gibi rol kesmek (İşte bu kırmızı ışık!)",
+          "Gel de bizim ekiple takıl sen en iyisi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Juhoon, Keonho, All",
+        "lines": [
+          "Nae chingudeul jeonbu han teureogeda damaseo",
+          "Georiro nagaseo bingbing",
+          "Georiseo doldaga doraga studio",
+          "Cookin' up 'til we get stinky",
+          "Pallanggwi pallanggwi (That's red, red)",
+          "Nunchina salpigi (That's red, red)",
+          "Dogani sarigi (That's red, red)",
+          "You should come mess with the team"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Juhoon, Keonho, All",
+        "lines": [
+          "Tüm arkadaşlarımı bir kamyona doldurup",
+          "Sokağa fırlayıp dönüp duruyoruz",
+          "Sokaklarda tur atıp stüdyoya geri dönüyoruz",
+          "Ter dökene kadar yeni bir şeyler pişiriyoruz",
+          "El sözüne bakmak (İşte bu kırmızı ışık!)",
+          "Millet ne der diye bakınmak (İşte bu kırmızı ışık!)",
+          "Kenarda durup canını sakınmak (İşte bu kırmızı ışık!)",
+          "Gel de bizim ekiple takıl sen en iyisi!"
+        ]
+      }
+    ],
+    "excerpt": "Green, green",
+    "annotations": {
+      "Ttabara": "“Dattdeutan Banilla-rate” (sıcak vanilyalı latte) ifadesinin Korece kısaltmasıdır. Şarkının başında güne enerjik başlama ritüelini simgeler.",
+      "Pallanggwi": "Kendi fikri olmayan, başkalarının her dediğine hemen inanan ve yolunu değiştiren (“yelpaze kulaklı”) kişiler için kullanılan bir deyimdir.",
+      "Cookin' up 'til we get stinky": "“Kötü kokana kadar pişirmek.” Burada “stinky”, çok çalışmaktan terlemek anlamında bir gurur kaynağıdır; Türkçede “ter dökmek” ile karşılandı.",
+      "red flag": "Formula 1 yarışlarında seansın durdurulduğunu bildiren bayraktır. Şarkıda önlerindeki engellere ve durdurulmaya karşı bir meydan okuma olarak kullanılmıştır.",
+      "Nunchi": "Başkalarının tepkilerini sürekli ölçmek, toplumsal baskı hissetmek ve “başkaları ne der” diye hareketlerini kısıtlamak anlamındaki kültürel kavramdır.",
+      "Dogani sarigi": "“Diz kapaklarını sakınmak” anlamına gelen bir deyimdir. Riske girmemek ve pasif kalmak anlamında bir “kırmızı ışık” olarak nitelendirilmiştir."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2fCwv2ppU5nTRTckomIGsd",
+        "name": "REDRED",
+        "url": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+        "isrc": "USA2P2607175",
+        "durationMs": 163001,
+        "duration": "2:43",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1ebt9HnXdyYA6KgLXr1n4P",
+        "name": "CORTIS",
+        "url": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1ebt9HnXdyYA6KgLXr1n4P",
+          "name": "CORTIS",
+          "url": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P"
+        }
+      ],
+      "album": {
+        "id": "52J8GQoNp2vgDJ6992NjiM",
+        "name": "REDRED",
+        "url": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+        "artists": [
+          {
+            "id": "1ebt9HnXdyYA6KgLXr1n4P",
+            "name": "CORTIS",
+            "url": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P"
+          }
+        ],
+        "releaseDate": "2026-04-20",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 BIGHIT MUSIC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 BIGHIT MUSIC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "2fCwv2ppU5nTRTckomIGsd",
+            "name": "REDRED",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 163001,
+            "duration": "2:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-05T13:02:43.790Z",
+      "trackUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+      "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM",
+      "artistUrl": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P",
+      "albumName": "REDRED",
+      "albumType": "Single",
+      "releaseDate": "2026-04-20",
+      "duration": "2:43",
+      "isrc": "USA2P2607175",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739"
+    },
+    "genius": {
+      "url": "https://genius.com/Cortis-redred-lyrics",
+      "songId": null,
+      "description": "“REDRED” is the pre-release single and title track of CORTIS’s second mini-album, GREENGREEN.The song, co-written by the band members, is a rage-filled hip-hop track characterized by distorted synths and deep basslines, which some describe as “brain rot” music. Despite the energetic music, the lyrics are an invitation to protect one’s true self, and to celebrate simplicity above all social constructs.With this song, CORTIS expresses the courage to be “outside the box,” transforming the tension and aggression of the rage genre into a message of self-confidence through urban rebellion and creativity, as demonstrated by the composition of the lyrics and the direction of the music video.Using the color red, which often symbolises ‘warning’, ‘prohibition’, and ‘authority’. In this case, CORTIS uses this track to criticize modern trends of judgment and the limitation of people’s authenticity."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=U6BDbXIah-Y",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5163",
     "title": "Radiohead Creep Türkçe Çeviri",
     "song": "Creep",

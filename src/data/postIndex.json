@@ -1,5 +1,723 @@
 [
   {
+    "id": "5166",
+    "slug": "stray-kids-run-it-turkce-ceviri",
+    "title": "Stray Kids RUN IT Türkçe Çeviri",
+    "song": "RUN IT",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T14:00:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Sınır falan yok, asla tükenmeyiz biz",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "3:29",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/2CGKPHslXh1Zy6JK2zu3Ud",
+        "duration": "3:29",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q7IFjVUUb_E",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "Küçük bir odada": "Korece “작은 방 시작” ifadesi, grubun stajyerlik döneminde dar bir odada başlayan üretim yolculuğuna ve büyük sahnelere uzanan emeğine gönderme yapıyor.",
+      "kanlı gözyaşlarını": "Korece “피눈물”, çok ağır emek ve acıyı anlatan güçlü bir deyim; burada geçmişte ödenen bedelin zafere dönüşmesini vurguluyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Ain't no limit, never running out",
+      "tr": "Sınır falan yok, asla tükenmeyiz biz"
+    },
+    "heroPair": {
+      "en": "Run it everywhere all around the world",
+      "tr": "Dünyanın her köşesine biz hükmediyoruz!"
+    }
+  },
+  {
+    "id": "5167",
+    "slug": "stray-kids-this-and-that-turkce-ceviri",
+    "title": "Stray Kids This & That Türkçe Çeviri",
+    "song": "This & That",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T14:10:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Şundan bundan, her şeyden biraz...",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "3:05",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+        "duration": "3:05",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=BZ4UzthYTss",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "elalem ne der": "Korece “오지랖”, başkasının işine gereksiz yere karışmak anlamına geliyor. Han bunu yemek siparişi metaforuyla kendi porsiyonundan çıkarıyor.",
+      "et köftesi": "Changbin, hamburgerin ana malzemesi olan köfteyi kendi rapinin şarkılardaki vazgeçilmez yeri için kullanıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "This and that, this and that",
+      "tr": "Şundan bundan, her şeyden biraz..."
+    },
+    "heroPair": {
+      "en": "This and that, this and that",
+      "tr": "Şundan bundan, her şeyden biraz..."
+    }
+  },
+  {
+    "id": "5168",
+    "slug": "stray-kids-after-you-turkce-ceviri",
+    "title": "Stray Kids After You Türkçe Çeviri",
+    "song": "After You",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T14:20:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Nefesimi tutmam gerekti, önümden geçişini gördüğümde;",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "2:52",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/2jI7hP57YyY8GoJ5OQTkj7",
+        "duration": "2:52",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=p6_yFS1I43Q",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "on dokuz yaşındaymışım": "On dokuz yaş, yetişkinliğin başındaki saf ve yoğun heyecanı simgeliyor.",
+      "bakışlarla": "Korece “눈치”, insanların birbirinin niyetini sözsüz biçimde sezmesi demek. Burada iki kişi arasındaki bakışma ve çekim bir savaşa benzetiliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I had to catch my breath, saw you walking past",
+      "tr": "Nefesimi tutmam gerekti, önümden geçişini gördüğümde;"
+    },
+    "heroPair": {
+      "en": "How can I breathe the same after you?",
+      "tr": "Senden sonra nasıl aynı şekilde nefes alabilirim ki?"
+    }
+  },
+  {
+    "id": "5169",
+    "slug": "stray-kids-farming-turkce-ceviri",
+    "title": "Stray Kids FARMING Türkçe Çeviri",
+    "song": "FARMING",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T14:30:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Evet, her gün hasat yapıyoruz, uyku yok!",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "2:31",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/3oCdoI8Y9OZqnCgcB06qb2",
+        "duration": "2:31",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=HCvIZzVdeq8",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "işçi şarkısı": "Korece “노동요”, çalışırken tempo tutmak ve yorgunluğu hafifletmek için söylenen emek şarkılarını anlatıyor.",
+      "tecrübe puanlarımız": "XP, oyunlardaki deneyim puanı. Şarkı bunu kariyerde biriken tecrübe ve başarıyla birleştiriyor.",
+      "hasat orağını": "Korece “낫”, orak anlamına geliyor; üretme ve başarıyı toplama metaforunu tamamlıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Yeah, we farmin' every day, no sleep",
+      "tr": "Evet, her gün hasat yapıyoruz, uyku yok!"
+    },
+    "heroPair": {
+      "en": "We're farming",
+      "tr": "Hasat yapıyoruz!"
+    }
+  },
+  {
+    "id": "5170",
+    "slug": "stray-kids-i-do-turkce-ceviri",
+    "title": "Stray Kids I Do Türkçe Çeviri",
+    "song": "I Do",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T15:00:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Seninle aynı acıyı hissediyorum, inan bana",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "2:53",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/47I79laMljjVGpZK3L7CeX",
+        "duration": "2:53",
+        "previewUrl": null,
+        "trackNumber": 5
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=8RQ19JTVsR4",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "için için çürüyorsun": "Korece “속은 문드러져”, dışarıdan iyi görünürken içeride acıyla yıpranmayı anlatan güçlü bir ifade.",
+      "kumdan kale": "Yükselen suyun ortasındaki kumdan kale, kırılgan görünen hayallerin yeniden ayağa kalkma iradesini simgeliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I do feel the same pain as you",
+      "tr": "Seninle aynı acıyı hissediyorum, inan bana"
+    },
+    "heroPair": {
+      "en": "I do feel the same pain as you",
+      "tr": "Seninle aynı acıyı hissediyorum, inan bana"
+    }
+  },
+  {
+    "id": "5171",
+    "slug": "stray-kids-way-out-turkce-ceviri",
+    "title": "Stray Kids Way Out Türkçe Çeviri",
+    "song": "Way Out",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T15:10:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Geldiğin gibi ikile, defolup gider misin?",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "2:54",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/1xYlu6g9dSZCGDutJ3i4Lc",
+        "duration": "2:54",
+        "previewUrl": null,
+        "trackNumber": 6
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=QLPFfNmEMG4",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "aktarma istasyonu": "İlişkinin son durak olması beklenirken geçici bir aktarma noktasına dönüşmesini anlatan metro metaforu.",
+      "Sayonara": "Japonca, İspanyolca, Korece ve Fransızca vedaların art arda kullanılması ayrılığın kesinliğini güçlendiriyor.",
+      "çekim": "Chemistry, iki kişi arasındaki duygusal ve fiziksel uyumu anlatıyor.",
+      "ikile": "İngilizcedeki “çıkış” ifadesi şarkının sert tonuna uygun biçimde “ikile” ve “yol al” duygusuyla çevrildi."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "gadeon geudaelo way out, geunyang kkeojyeojullae?",
+      "tr": "Geldiğin gibi ikile, defolup gider misin?"
+    },
+    "heroPair": {
+      "en": "gadeon geudaelo way out, geunyang kkeojyeojullae?",
+      "tr": "Geldiğin gibi ikile, defolup gider misin?"
+    }
+  },
+  {
+    "id": "5172",
+    "slug": "stray-kids-back-then-turkce-ceviri",
+    "title": "Stray Kids Back Then Türkçe Çeviri",
+    "song": "Back Then",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T15:20:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Da-da-da, da, da-da-da-da, da-da",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "3:45",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/1Pu3xgGv05MYxJzHROokRJ",
+        "duration": "3:45",
+        "previewUrl": null,
+        "trackNumber": 7
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=P_YrTeZt6yM",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "heyecan": "Korece “설렘”, aşık olurken hissedilen tatlı kalp çarpıntısını ve iç kıpırtısını anlatıyor.",
+      "zümrüt": "Denizin zümrüt rengi, yaz aşkının parlak ve masalsı atmosferini güçlendiriyor.",
+      "Büyümüş bir çocuk": "Aşk karşısında yetişkinliğin içinde kalan çocuksu masumiyet vurgulanıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Da-da-da, da, da-da-da-da, da-da",
+      "tr": "Da-da-da, da, da-da-da-da, da-da"
+    },
+    "heroPair": {
+      "en": "Da-da-da, da, da-da-da-da, da-da",
+      "tr": "Da-da-da, da, da-da-da-da, da-da"
+    }
+  },
+  {
+    "id": "5173",
+    "slug": "stray-kids-this-and-that-festival-version-turkce-ceviri",
+    "title": "Stray Kids This & That (Festival Version) Türkçe Çeviri",
+    "song": "This & That (Festival Version)",
+    "artist": "Stray Kids",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+    "date": "2026-08-07T15:30:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Şundan bundan, şundan bundan",
+    "categories": [
+      "Stray Kids",
+      "THIS & THAT"
+    ],
+    "category_slugs": [
+      "stray-kids",
+      "this-and-that"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+      "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+      "artistUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+      "albumName": "THIS & THAT",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+      "duration": "3:42",
+      "albumType": "Album",
+      "label": "JYP Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/5GuQGg2n7UZWPqiXJ6orhj",
+        "duration": "3:42",
+        "previewUrl": null,
+        "trackNumber": 8
+      },
+      "artist": {
+        "name": "Stray Kids",
+        "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
+      },
+      "album": {
+        "name": "THIS & THAT",
+        "url": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+        "artists": [
+          {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "albumType": "Album",
+        "label": "JYP Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=owyBuKsrN30",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "elalem ne der": "Korece “오지랖”, başkasının işine gereksiz yere karışmak anlamına geliyor; yemek siparişi metaforuyla reddediliyor.",
+      "et köftesi": "Changbin rapini, hamburgerin bütün lezzetini taşıyan vazgeçilmez ana malzemeye benzetiyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "This and that, this and that",
+      "tr": "Şundan bundan, şundan bundan"
+    },
+    "heroPair": {
+      "en": "This and that, this and that",
+      "tr": "Şundan bundan, şundan bundan"
+    }
+  },
+  {
+    "id": "5165",
+    "slug": "ella-langley-i-can-t-love-you-anymore-turkce-ceviri",
+    "title": "Ella Langley, Morgan Wallen I Can't Love You Anymore Türkçe Çeviri",
+    "song": "I Can't Love You Anymore",
+    "artist": "Ella Langley, Morgan Wallen",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+    "date": "2026-08-05T13:40:46.587Z",
+    "reading_time": 3,
+    "excerpt": "I found your lighter in my nightstand",
+    "categories": [
+      "Ella Langley",
+      "Morgan Wallen",
+      "I Can't Love You Anymore"
+    ],
+    "category_slugs": [
+      "ella-langley",
+      "morgan-wallen",
+      "i-can-t-love-you-anymore"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+      "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP",
+      "artistUrl": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+      "albumName": "I Can't Love You Anymore",
+      "releaseDate": "2026-04-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+      "duration": "3:49",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+        "isrc": "USSM12602547",
+        "duration": "3:49",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "Ella Langley",
+        "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
+      },
+      "album": {
+        "name": "I Can't Love You Anymore",
+        "url": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+        "artists": [
+          {
+            "name": "Ella Langley",
+            "url": "https://open.spotify.com/artist/6BRxQ8cD3eqnrVj6WKDok8"
+          },
+          {
+            "name": "Morgan Wallen",
+            "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM"
+          }
+        ],
+        "releaseDate": "2026-04-24",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=A3G_7XgK2B4",
+    "youtubeEmbedDisabled": true,
+    "annotations": {
+      "anymore": "Buradaki tekrar yalnızca “artık” demekle kalmıyor; vazgeçişi güçlendirmek için post-chorus’ta yer yer “asla” vurgusuna dönüşüyor.",
+      "dash": "Arabanın ön konsolu ve üzerindeki tozlu fotoğraf, modern country anlatısının nostaljik ve gündelik imgelerini taşıyor.",
+      "ghost": "“Bu yatağı senin hayaletinle paylaşmak” imgesi, ayrılığın ardından kalan boşluğu ve kişinin zihinde hâlâ var olmasını anlatıyor.",
+      "back of my mind": "Uzaklaştırmaya çalışsan da zihnin bir köşesinde dönüp duran, kaçamadığın düşünceleri anlatan bir ifadedir; “zihnimin kuytuları” olarak karşılandı."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I found your lighter in my nightstand",
+      "tr": "Komodinimin üzerinde çakmağını buldum"
+    },
+    "heroPair": {
+      "en": "I can't love you anymore",
+      "tr": "Seni artık sevemem"
+    }
+  },
+  {
+    "id": "5164",
+    "slug": "cortis-redred-turkce-ceviri",
+    "title": "CORTIS REDRED Türkçe Çeviri",
+    "song": "REDRED",
+    "artist": "CORTIS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+    "date": "2026-08-05T13:04:36.121Z",
+    "reading_time": 5,
+    "excerpt": "Green, green",
+    "categories": [
+      "CORTIS",
+      "REDRED"
+    ],
+    "category_slugs": [
+      "cortis",
+      "redred"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+      "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM",
+      "artistUrl": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P",
+      "albumName": "REDRED",
+      "releaseDate": "2026-04-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+      "duration": "2:43",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/2fCwv2ppU5nTRTckomIGsd",
+        "isrc": "USA2P2607175",
+        "duration": "2:43",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "CORTIS",
+        "url": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8"
+      },
+      "album": {
+        "name": "REDRED",
+        "url": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
+        "artists": [
+          {
+            "name": "CORTIS",
+            "url": "https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P"
+          }
+        ],
+        "releaseDate": "2026-04-20",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=U6BDbXIah-Y",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "Ttabara": "“Dattdeutan Banilla-rate” (sıcak vanilyalı latte) ifadesinin Korece kısaltmasıdır. Şarkının başında güne enerjik başlama ritüelini simgeler.",
+      "Pallanggwi": "Kendi fikri olmayan, başkalarının her dediğine hemen inanan ve yolunu değiştiren (“yelpaze kulaklı”) kişiler için kullanılan bir deyimdir.",
+      "Cookin' up 'til we get stinky": "“Kötü kokana kadar pişirmek.” Burada “stinky”, çok çalışmaktan terlemek anlamında bir gurur kaynağıdır; Türkçede “ter dökmek” ile karşılandı.",
+      "red flag": "Formula 1 yarışlarında seansın durdurulduğunu bildiren bayraktır. Şarkıda önlerindeki engellere ve durdurulmaya karşı bir meydan okuma olarak kullanılmıştır.",
+      "Nunchi": "Başkalarının tepkilerini sürekli ölçmek, toplumsal baskı hissetmek ve “başkaları ne der” diye hareketlerini kısıtlamak anlamındaki kültürel kavramdır.",
+      "Dogani sarigi": "“Diz kapaklarını sakınmak” anlamına gelen bir deyimdir. Riske girmemek ve pasif kalmak anlamında bir “kırmızı ışık” olarak nitelendirilmiştir."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Green, green",
+      "tr": "Yeşil, yeşil"
+    },
+    "heroPair": {
+      "en": "Green, green",
+      "tr": "Yeşil, yeşil"
+    }
+  },
+  {
     "id": "5163",
     "slug": "radiohead-creep-turkce-ceviri",
     "title": "Radiohead Creep Türkçe Çeviri",
@@ -55,6 +773,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=XFkzRNyygfk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "ben bir ucubeyim": "‘Creep’ yalnızca tuhaf biri demek değil; anlatıcının kendisini sevdiği kişinin dünyasına yakışmayan, rahatsız edici bir yabancı gibi görmesini taşıyor. ‘Ucube’ bu ağır öz-nefret tonunu koruyor."
     },
@@ -124,6 +843,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=lcOxhH8N3Bo",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "barut fıçısının üstünde": "İlişki her an patlayabilecek kadar yoğun ve tehlikeli; kıvılcımlar ise tutkuyu olduğu kadar yaklaşan yıkımı da anlatıyor.",
       "Kalbimin tam tutulması": "Bir tutulmada ışığın bütünüyle kapanması gibi, aşk da anlatıcının kalbini karanlıkta bırakıyor. Şarkının ana imgesi bu yüzden kelime kelime değil, aynı göksel görüntüyü koruyarak çevrildi."
@@ -194,6 +914,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=7YuAzR2XVAM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Mekhi Phifer": "8 Mile filminde Eminem'le birlikte rol alan oyuncu. “Bu film değil” diyerek üçüncü verse'te karakterden kendi gerçek hayatına geçtiğini vurguluyor.",
       "Salem's Lot": "Hem Detroit yakınlarındaki yoksul yaşam alanına hem de Stephen King'in karanlık kasabasına göz kırpan bir ifade; burada çıkıp kurtulması gereken yer anlamında.",
@@ -273,6 +994,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "sana tutulmuş, hasta haldeyim": "‘Enfermo de ti’, yalnızca âşık olmak değil; özlemin bedeni ele geçiren bir hastalığa dönüşmesi. Hemen sonraki ‘gel de iyileştir beni’ dizesi bu imgeyi tamamlıyor."
     },
@@ -348,6 +1070,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "SLV": "Parça, Saint Levant'ın sahne adına ve Filistin kimliğini romantizm, kadınlar ve Batılı pop estetiğiyle birleştirme biçimine yöneltilmiş sert ama yer yer mizahi bir diss.",
       "Saint Levant / Saint Kadınlar": "“Levant” Doğu Akdeniz bölgesini ifade ediyor. Shabjdeed, sanatçının kadınlara odaklanan şarkılarını hedef alarak adı “Saint Kadınlar”a çeviriyor.",
@@ -422,6 +1145,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=kffacxfA7G4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "starstruck": "Bir ünlüyü görmüş gibi büyülenip dili tutulmak. Ludacris burada ilk aşkının onu bir yıldız kadar etkilediğini söylüyor."
     },
@@ -491,6 +1215,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Daze / blades": "“Daze” gençliğin puslu, rüya gibi günlerini; “blades of grass” ise çimen yapraklarını anlatıyor. İki görüntü, yaz çocukluğunun bulanık ama canlı hatırasını kuruyor.",
       "I knew it, I knew you": "Başlık iki ayrı fark edişi birleştiriyor: “Bunu biliyordum” ve “Seni tanıyordum.” Eski bir bağın, yıllar sonra bile yabancılaşmadığını anlatıyor.",
@@ -568,6 +1293,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=3triLkS0nq4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "The Gunner": "Newcastle'da bilinen yerel bir mekâna yapılan gönderme, şarkının aşk acısını sanatçının büyüdüğü şehrin sokaklarına sabitliyor.",
       "Ghosts and carcasses": "Geçmiş ilişkilerinin ve eski benliklerinin kalıntıları, şehirdeki her barın içinde karşısına çıkan hayaletler gibi resmediliyor.",
@@ -647,6 +1373,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Take you higher": "Hem dansın ve müziğin coşkusuyla yükselmeyi hem de aşkın insanı başka bir ruh hâline taşımasını anlatıyor."
     },
@@ -716,6 +1443,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Jumping the gun": "Sonucu beklemeden aceleyle harekete geçmek. İlişkinin nereye varacağını bilmeden kendilerini çoktan o yolculuğun içine bırakmalarını anlatıyor.",
       "Along for the ride": "Hem gerçek tren yolculuğunu hem de sonucu belirsiz bu ilişkiye kendini bırakmayı aynı anda anlatan bir ifade."
@@ -786,6 +1514,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Great expectation": "Karşısındaki kişinin gerçekte sunduğu sevgiden çok, bir gün dönüşebileceği kişiye ve ilişkinin ihtimaline tutunmayı anlatıyor.",
       "Tracks of my tears": "Yüzde kalan gözyaşı izlerini geçmişe uzanan tren rayları gibi kullanıyor; bugünkü terk edilme korkusunu çocukluğuna bağlıyor."
@@ -856,6 +1585,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/nn_0zPAfyo8?si=MRLOTjvQa2yHsQha",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Daha önce hiç böyle hissetmemiştim": "‘Never have I ever’ hem ‘Daha önce hiç...’ itirafı hem de gençler arasında oynanan aynı adlı parti oyununa göz kırpıyor; ilişkinin ilk kez yaşanan heyecanını taşıyor.",
       "o her şeyin umudu uğruna": "İlişkinin kendisinden çok, belki bir gün gerçek olacağı umuduyla yaşama hâli. Augustine için küçücük ihtimal bile bütün planlarını iptal etmeye yetiyor.",
@@ -931,6 +1661,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=NZP153MUpHY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Rock the boat": "Hem dalgaların ortasında tekneyi sallamak hem de düzeni bozup cesur bir hamle yapmak anlamını taşıyor."
     },
@@ -1000,6 +1731,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Hot girls, cold vibe": "Dışarıdan ateş gibi görünürken tavırlarını serin, sakin ve ulaşılmaz tutan kızların tezatlı özgüvenini anlatıyor."
     },
@@ -1069,6 +1801,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "A 440 / pavane": "A=440 Hz, orkestraların akort için kullandığı standart “La” sesidir. Pavane ise ağır ve zarif adımlarla yapılan eski bir saray dansıdır.",
       "Clara ve Robert": "Besteciler Clara ve Robert Schumann'ın müzikle örülmüş büyük aşkına gönderme yapılıyor; şarkı iki kişinin sesini tek bir bestede buluşturuyor.",
@@ -1141,6 +1874,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Hula hoop": "Çemberin sürekli dönmesi, ayrı yollara savrulsalar bile sonunda yeniden birbirine dönen iki kişiyi simgeliyor."
     },
@@ -1210,6 +1944,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=uPsJaoXUpUM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Kelebek": "Çocukluk hayallerini unutan yetişkin benliğin kabuğundan çıkıp yeniden özgürleşmesini temsil ediyor."
     },
@@ -1279,6 +2014,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=xXZwZ0DolJc",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Gelgitlerin kraliçesi": "Ayın gelgitleri yöneten çekim gücünü, grubun sahnedeki kontrolüyle birleştiriyor. “Gençliğin kraliçesi” ise BABYMONSTER'ın yeni kuşağın öncüsü olma iddiasını taşıyor.",
       "Bars / dough": "“Bars” rap dizelerini ve flow'u anlatıyor. “Dough” ise hem hamur hem para demek; parayı “pişirip büyütme” kelime oyunuyla grubun yükselişine bağlanıyor."
@@ -1351,6 +2087,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=26upOCeInrs",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1418,6 +2155,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=prxNLD1KjJ4",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1485,6 +2223,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=Din41YwXQf8",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1554,6 +2293,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=Hn7Z_b8T4vg",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1623,6 +2363,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=NbgTsneWJtg",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1690,6 +2431,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=BNWjtQMT0m8",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1761,6 +2503,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=oZsYE5a_x-c",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1830,6 +2573,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=-b8hj6wZtT8",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1901,6 +2645,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=JPMgPvOQ9rQ",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -1968,6 +2713,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=abS0x-xWOVc",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2035,6 +2781,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=yk2sGgwSIRI",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Konji": "Nijerya argosunda bastırılmış cinsel arzu ve bu arzunun yarattığı huzursuzluk."
     },
@@ -2106,6 +2853,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=2UReG7ejmhU",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2173,6 +2921,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=va9mm9tEZJU",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2252,6 +3001,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=mIP76VBZWOQ",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2319,6 +3069,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=rQrtM4bIbJE",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Home to me": "Yalnızca eve dönmek değil, anlatıcının kendisini “yuva” olarak sunması; bu nedenle nakaratta iki anlam birlikte korunuyor."
     },
@@ -2388,6 +3139,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=ZUySqfLpljU",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "G5": "Özel jet sınıfı. B5 kapısında tarifeli uçuş beklemekle özel jet beklemek arasındaki statü farkı üzerinden laf sokuyor."
     },
@@ -2459,6 +3211,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=asaYlNEJQLI",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2526,6 +3279,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=5G-yAczHJ9c",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Moonshine": "Ev yapımı, çoğu zaman kaçak damıtılan sert içki; Western dünyasının başına buyruk ruhunu taşıyor."
     },
@@ -2595,6 +3349,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=BWCbHR8ujpk",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2662,6 +3417,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=YwgIoAFzpd4",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2729,6 +3485,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=QA2vzqQ_CG8",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -2796,6 +3553,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=OYzO-kviSas",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Günahın bedeli ölümdür”, İncil'deki Romalılar 6": "23 ayetine doğrudan gönderme yapıyor."
     },
@@ -2865,6 +3623,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=cUO8IM37eQg",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Peyote": "Güneybatı Amerika kültürlerinde ritüel amaçlarla da kullanılan, halüsinojenik bir kaktüs."
     },
@@ -2936,6 +3695,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=voa_S6Vv7JA",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -3005,6 +3765,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=7ao1n969IZo",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Centerfold": "Bir derginin tam ortasındaki, en özel ve dikkat çekici çift sayfa; burada “hayatının merkezinde bana yer aç” anlamına geliyor."
     },
@@ -3074,6 +3835,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=9NxRGVZzYI0",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -3141,6 +3903,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=xSLqp9--Ywk",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -3210,6 +3973,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=Z9xNdaViiuw",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -3279,6 +4043,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=lFlHO5AngLA",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Solace / shotgun": "Leon aynı anda hem yumuşak bir sığınak hem de gerektiğinde koruyan silah olmayı vaat ediyor.",
       "Take the high road": "Ahlaken daha doğru yolu seçmek; o yüksek yoldan giderken anlatıcı kirli işi üstleniyor."
@@ -3349,6 +4114,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=i8ORixSVKSw",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Nine to five / Dolly": "Dolly Parton'ın “9 to 5” şarkısına gönderme; dansı ve flörtü durmaksızın çalışılan bir mesaiye çeviriyor.",
       "Backshots / shots": "İçki shot'larıyla arkadan cinsel hareketi aynı sözcükte buluşturan açık bir çift anlam.",
@@ -3421,6 +4187,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=yypQkdTnBG4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Six-iron": "Golf sopası anlamına da gelir; Western bağlamında “six-shooter”, yani altıpatlar çağrışımıyla silah şakasına dönüşüyor."
     },
@@ -3490,6 +4257,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=MNFRChPVKKQ",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Sweet revenge": "“Tatlı intikam” denirken nakarat onun aslında kömür gibi yaktığını, geride acı bir tat bıraktığını gösteriyor.",
       "Teach that boy a new dance": "İki revolverle adamın ayaklarının dibine ateş edip onu “dans ettirme” şeklindeki klasik Western tehdidi."
@@ -3562,6 +4330,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=UYizbyT2Auk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Hot gun / cold body / cold cell": "Silahın anlık harareti, kurbanın soğuyan bedeni ve failin soğuk hücresi; tek bir ateşin üç farklı bedelini sıralıyor."
     },
@@ -3633,6 +4402,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=72qrisvW0uo",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Shot / fifth": "Hem silah atışı hem içki kadehi; “fifth” ise yaklaşık 750 ml'lik içki şişesi. Western düellosu bara taşınıyor.",
       "Crossroads": "Şeytanla anlaşma yapılan kavşak efsanesine, özellikle blues mitolojisine gönderme.",
@@ -3706,6 +4476,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=PMLI4UlzyJk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Kansas / wanted poster / John Wayne": "Klasik Western dünyasının kaçak, ödül afişi ve kovboy yıldızı imgelerini modern müzik endüstrisiyle birleştiriyor.",
       "Recoup the advances": "Plak şirketi avansının satışlardan geri alınması. “Banka soymak” hem kovboy rolünü hem endüstrinin dev maliyetini tiye alıyor.",
@@ -3781,6 +4552,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=DsQvc7Ysr2M",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Gun smoke": "Hem gerçek silah dumanı hem de şiddetin verdiği sarhoşluk. Anlatıcı, intikam duygusunun insanı kendi ateşinde yakacağı konusunda uyarıyor.",
       "You won't ever die again": "Ölümü teselli gibi sunan karanlık bir kovboy ironisi; bedel bir kez ödendiğinde geriye ikinci bir ölüm kalmıyor."
@@ -3851,6 +4623,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=R7eYB6AroLg",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Sueño": "İspanyolcada hem “rüya” hem “uyku”. Tekrarlanan “kapat” emri, bir sesi susturmakla rüyadan uyanmak arasında asılı kalıyor."
     },
@@ -3920,6 +4693,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=kGievGhyHkY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Everything": "Parçanın adı “her şey” derken sözsüz yapı tek bir anlama kapanmayı reddediyor; dinleyicinin bütün deneyimi sesin içine yerleştirmesine alan açıyor."
     },
@@ -3989,6 +4763,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=gYuUQathE_k",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Throb": "Nabız gibi atmak, zonklamak; parça bedensel ritmi doğrudan sesin hareketine dönüştürüyor."
     },
@@ -4058,6 +4833,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=BD5T4kyW6c4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Enraptured": "Büyülenmek, kendinden geçmek ve bütünüyle sarılmak; hem aşkın hem müziğin kontrolü devraldığı hâl."
     },
@@ -4127,6 +4903,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=WJfhMd4G25g",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Grip": "Tutuş, kavrayış ve kontrol. Başlık, söz olmadan bedenin ritme nasıl yakalandığını hissettiriyor."
     },
@@ -4196,6 +4973,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=SAJG2OyIofM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Futurality": "“Gelecek” ile “gerçeklik” fikrini birleştiren türetilmiş başlık; henüz var olmayan bir hâli ses içinde şimdiden kuruyor."
     },
@@ -4265,6 +5043,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=l_bgVnv8h5Y",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Que me venga": "İspanyolcada “gelmek” anlamı taşısa da bu cinsel bağlamda açıkça “boşalmak” demek; çeviri erotik tonu yumuşatmıyor.",
       "Taconeando": "Topuklu ayakkabıyla ritmik biçimde yere vurmak; flamenko çağrışımıyla kulüp bedenini bir araya getiriyor."
@@ -4335,6 +5114,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=6DnVp0y0Iro",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Ponte perra": "Kelimesi kelimesine “sürtükleş”; burada aşağılayıcı değil, kendi gücünü ve vahşi özgüvenini kuşanma emri."
     },
@@ -4404,6 +5184,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=QV-Y3aVJdcY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "I'm the shit": "Kelimesi kelimesine “bok” dese de argoda “olayın ta kendisiyim/en iyisi benim”. Arca satırı hem kirli hem övüngen anlamıyla kullanıyor.",
       "Kill the father": "Ataerkil otoriteyi, baba figürünü ve psikanalitik “babanın yasası”nı cinsel bir isyan içinde yıkma çağrısı."
@@ -4474,6 +5255,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=sjZWVf2FKzs",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Polyrhythmic / fractal scales": "Birden fazla ritmin, en küçük hücreden kozmosa kadar birbirine geçen aynı örüntüler gibi çalışması."
     },
@@ -4543,6 +5325,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=rTVy6gmQLdk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Raver": "Elektronik müzik partilerinin bedeni ritme bırakan müdavimi; parça bu kimliği söz yerine doğrudan ses ve hareketle kuruyor."
     },
@@ -4612,6 +5395,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=qk-YFkPOJvo",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Syncope": "Hem müzikte vurgunun beklenmedik yere kaydığı “senkop”, hem de kısa süreli bilinç kaybı. Başlık ritimle bedenin kesintiye uğramasını aynı sözcükte buluşturuyor."
     },
@@ -4681,6 +5465,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=UjRCNx2zaKs",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Transmutar": "Sıradan bir değişimden öte, maddenin ya da benliğin başka bir hâle dönüşmesi. Arca sesi ve bedeni bir sinyal içinde yeniden kuruyor."
     },
@@ -4750,6 +5535,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=bdsPbXLftD8",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Arde Troya": "“Troya yanıyor”; her şeyin geri döndürülemez biçimde alev alıp kaosa sürüklenmesi için kullanılan dramatik İspanyolca ifade.",
       "Eidolon": "Hayalet, suret veya idealize edilmiş görüntü. Şarkının yıkım içindeki ihtişamı, gerçeklikle hayaletimsi görüntü arasındaki sınırı eritiyor."
@@ -4820,6 +5606,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=_aS6H93JN9E",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Willow": "Söğüdün rüzgârda eğilip kırılmaması; Arca'nın akışkanlık ve dönüşüm fikrini çocukça bir tekrarın içine yerleştiriyor."
     },
@@ -4889,6 +5676,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=ekXjqBq1ZIc",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Threshold": "Albümün deneysel dünyasına açılan eşik; gölgeler ve ses fiziksel bir sınırı geçer gibi hareket ediyor.",
       "Cauterizing with kissing": "Yarayı yakarak kapatma eylemini öpüşmeyle birleştiren, şefkatle şiddeti aynı bedensel imgede tutan ifade."
@@ -4971,6 +5759,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=gXNbJEYuoSw",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Giuseppe's on his neck": "Giuseppe Zanotti topuklularını adamın boynuna basarak cinsel hâkimiyet ve lüksü aynı karede topluyor.",
       "Cookie": "Kadın cinselliği için kullanılan argo; Flo Milli satırı sansürlemeden güç gösterisine çeviriyor.",
@@ -5042,6 +5831,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=SXKrhyRWcOs",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -5115,6 +5905,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=cJRw7rYOOzA",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -5188,6 +5979,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=5N5RfaCyD-Y",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Happiness is so sad": "Mutluluğun kaybedileceğini bilmenin, o mutluluğu yaşarken bile beraberinde getirdiği hüznü anlatan bir çelişki."
     },
@@ -5257,6 +6049,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=ByVaelOhmLo",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Mangangabo, mga bano": "Tagalogca bölüm rakipleri küle dönecek beceriksizler olarak küçümsüyor; ardından “dilim kırbaç” diyerek sözlerin saldırı gücünü öne çıkarıyor."
     },
@@ -5326,6 +6119,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=FiKU0BNjCAE",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "TEC / echoes": "TEC tipi silahın peş peşe patlamasını, geçmiş düşüncelerin yankı gibi geri dönmesiyle aynı ritme yerleştiriyor.",
       "Bars / imprisoned": "“Bar”, hem rap dizesi hem de hapishane parmaklığı. Logic'in dizeleri ruhunu özgürleştirirken rakiplerini içeride bırakıyor.",
@@ -5400,6 +6194,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=umGt4nRkdYM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "All on ten": "Gecenin enerjisinin, özgüvenin ve görünüşün on üzerinden on olması; herkesin sonuna kadar coştuğu hâl."
     },
@@ -5469,6 +6264,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=dL5ZCqLCAY4",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -5536,6 +6332,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=VZ_LTUaFDTk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Raq / Chiraq": "Chicago'nun şiddetli sokak çatışmalarına gönderme yapan lakabı. “'Raq”, Iraq ile ses benzerliğini koruyor.",
       "A 'bow": "Bir poundluk ürün/paket için kullanılan sokak argosu; Skilla fiyatını pazarlık kabul etmeyen bir raconla söylüyor.",
@@ -5613,6 +6410,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=h7ITAdTxdxM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Keep it P": "Gerçek, sadık ve prensipli kalmak; sokak dilinde “raconu bozmamak”.",
       "Raconu bozma": "“Keep it P”, gerçek ve prensipli kalmak; hip-hop dilinde sözüne sadık olup raconu bozmamak demek.",
@@ -5701,6 +6499,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=B1zoJvZOunk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Daijoubu, boku, saikyou dakara": "Jujutsu Kaisen'de Gojo'nun “Merak etme; çünkü en güçlüsü benim” sözü.",
       "JJK evreni": "Gojo'nun Altı Göz'ü, Choso'nun kan tekniği, Fushiguro'nun shikigamileri ve Yuji Itadori dâhil çok sayıda Jujutsu Kaisen göndermesi art arda bir güç gösterisine dönüşüyor.",
@@ -5775,6 +6574,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=waPmQeaziEk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Pressure taking tolls / tax me": "“Bedel ödetmek”, “gişe ücreti” ve “vergi kesmek” anlamlarını üst üste bindiren bir para/yol kelime oyunu.",
       "Scottie, beam me up": "Star Trek'teki “Scotty, ışınla beni” sözüne yapılan gönderme. Mark bulunduğu zihinsel sıkışmışlıktan bir anda çıkarılmak istiyor."
@@ -5845,6 +6645,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=eIrS1_47Eng",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Om, telolet, om": "Endonezya'da çocukların otobüs şoförlerine “Abi, kornaya bas!” diye seslendiği ve internette viral olan bir slogan.",
       "Angkot": "Endonezya'da belirli güzergâhlarda çalışan, yolcuların paylaştığı küçük toplu taşıma minibüsü.",
@@ -5919,6 +6720,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=iq3XEKQtN-Q",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Four Seasons": "Hem lüks otel zincirinin adı hem de “dört mevsim” anlamı taşıyor. Ellie, geçici bir otel kaçamağının kalıcı bir aşka dönüşme ihtimalini aynı isimde buluşturuyor.",
       "Put the damn key in": "Otel odasının anahtarıyla içeri girme ve arabayı çalıştırıp geceye devam etme çağrışımlarını aynı sabırsızlıkta birleştiriyor.",
@@ -5990,6 +6792,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=oVNKwxJOGpM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Sub-tweeting": "Birinin adını vermeden, anlayacağı biçimde ona gönderme yapan paylaşım. INJI doğrudan yazmıyor; karşı tarafın mesajı almasını bekliyor.",
       "Red on the meter": "Ses göstergesinin kırmızı bölgeye dayanması; müziği sonuna kadar açmakla, aralarındaki arzunun sınırı aşması aynı imgede birleşiyor."
@@ -6060,6 +6863,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=oQfWa3WQXqg",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Brand-new Chanels": "Chanel burada yalnızca pahalı bir moda markası değil; sevgilinin seks, para, statü ve gösteriş açlığının kısa adı hâline geliyor.",
       "Lie through his teeth": "Çok rahat ve yüzsüzce yalan söylemek anlamındaki deyim; Türkçedeki “gözünün içine baka baka yalan söylemek” hissini taşıyor."
@@ -6142,6 +6946,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=XGKJxb2b3ZI",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Te olvido": "Kelimesi kelimesine “seni unuturum” demek. Nakarattaki karar, sevgiyle unutma arasında kalmak değil; karşı tarafı artık net bir cevap vermeye zorlamak.",
       "Seveyim mi seni, unutayım mı": "İspanyolcadaki “te quiero / te olvido” karşıtlığı, “seni seveyim mi, seni unutayım mı?” demek. Anlatıcı artık belirsizliği değil, kesin bir cevap istiyor.",
@@ -6213,6 +7018,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=ri68OOAeQ6A",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Toe tagger": "Morgda ölünün ayak parmağına takılan kimlik etiketine gönderme; Cardi rakibini yalnızca yenmekten değil, mecazen “morga yollamaktan” söz ediyor.",
       "morga yollarım": "“Toe tagger”, morgdaki cenazenin ayak parmağına takılan kimlik etiketidir. Cardi, rakibini yalnızca yenmekten değil, mecazen morga yollamaktan söz ediyor.",
@@ -6289,6 +7095,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/k7SDstVAD78",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Karmaşıklıkla el ele yürümek": "Ariana karmaşadan kaçtığını değil, çocukluğundan beri onunla yan yana yaşamayı öğrendiğini söylüyor. “Beş yaşımdan beri” sözü, bu hassasiyet ve fazla düşünme hâlinin şöhretten çok daha önce başladığını vurguluyor."
     },
@@ -6353,6 +7160,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/WZNr8nPFJVw",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Âşık olduğumuz merdivenler": "Bu dize, Ariana'nın yeniden bir araya geldiği eski bir sevgiliyle paylaşılan gerçek bir anıya işaret ediyor olabilir; ancak bu yorum doğrulanmış değil.",
       "Frekans değişiyor": "Uzun süredir aynı döngüde dolaşan ilişki artık başka bir seviyeye geçiyor; “gürültü” de geçmişteki karmaşayı ve dış sesleri temsil ediyor olabilir."
@@ -6418,6 +7226,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/BeoL2D-37I4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "tenimin altına işledin": "“Under my skin”, birinin insanın içine işlemesi ve ondan kolayca kurtulamaması demek. İfade, “I've Got You Under My Skin” klasiğiyle de çağrışım kuruyor.",
       "Çimler çok daha yeşil": "Ariana, “Komşunun çimleri daha yeşildir” deyimini tersine çeviriyor. Onun sevgisini tattıktan sonra başka bir “taraf” artık daha iyi görünmüyor; “beneath ya” sözü de açık bir cinsel çift anlam taşıyor.",
@@ -6484,6 +7293,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/4U4jJKH7VLc",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Topuklarım yüksek, egom küçük; ama hâlâ Grande’yim": "“Grande” hem Ariana'nın soyadı hem de “büyük/yüce” anlamına gelen bir kelime oyunu. Dize, başarısının farkında olmakla kibirli olmak arasındaki çizgiyi kuruyor.",
       "saçmalıklarından bile para kazanıyorum": "Kaynak dizedeki “cents / nonsense” ses oyunu, başkalarının saçmalıklarının Ariana'ya para ve görünürlük kazandırdığını aynı anda söylüyor.",
@@ -6552,6 +7362,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/zkLWaIHC0fE",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -6614,6 +7425,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/yCpXjLibQZw",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Will them and their poison ever sober?": "Bu dize, “Hampstead”deki “Biraz zehrin ne zararı var?” sözleriyle bağ kuruyor; burada zehir artık başkalarının etkisini ve ondan ayılma arzusunu temsil ediyor.",
       "Someday, all the seeds will open": "Tohum imgesi; sabırla bekleyen potansiyelin, bastırılmış duyguların ve ertelenen hayallerin sonunda çiçek açmasını anlatıyor. “Baştan başlamak” da daha özgür bir hayatı seçme ihtimaline dönüşüyor.",
@@ -6680,6 +7492,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Tja6P2OoPoY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Big feelings": "Şarkının açık cinsel göndermeleri nedeniyle “büyük hisler” ifadesi, partnerinde yalnızca yoğun duygular değil fiziksel bir uyarılma yarattığına dair çift anlam da taşıyor."
     },
@@ -6744,6 +7557,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/_lKbPBS5HEQ?si=Gp9BI3GSTl3mKlvS",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "See you right out": "Nazik ama son derece soğuk bir kovma ifadesi. “Seni uğurluyorum, git ve bir daha gelme” anlamında.",
       "Keep getting breakup songs": "Ariana’nın kendi kariyerine ve şarkı yazım sürecine yaptığı sert bir atıf. “Seni terk ettim ama acın hâlâ benim hit şarkılarım için bir malzeme” mesajı veriyor."
@@ -6809,6 +7623,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/0J6tGMnBLlM?si=wTTBXEV0ggH2nUDr",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Losing things": "Ariana burada Mac Miller’ın vefatı ve Pete Davidson ile biten nişanlılığı gibi geçmişindeki yıkıcı kayıplara atıf yapıyor. “Petal” (yaprak) vurgusu ise onun narin ve kırılgan çekirdeğini temsil ediyor.",
       "Corrective experience": "Psikolojide bir kişinin geçmişteki bir travmasını, yeni ve güvenli bir ilişkiyle iyileştirmesi sürecine denir. Ariana burada partneri için yalnızca kendini iyileştirmek amacıyla kullandığı bir basamak veya ders olmak istemediğini, gerçek ve kalıcı bir bağ aradığını vurguluyor."
@@ -6874,6 +7689,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Tc-gXkHAri8?si=JToapjWuQU145kF8",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "The artist needs tears": "Ariana, duygularını müziğe dökmenin bir zorunluluk hâline getirilmesini ve insanların onun acılarından beslenmesini eleştiriyor.",
       "sanatçının tekrar yazması için gözyaşı": "Sanatçının üretmek için acı çekmesi gerektiği beklentisini ve insanların onun yaralarından yeni şarkılar çıkmasını beklemesini eleştiriyor.",
@@ -6947,6 +7763,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/b-9gJ1Gc8rE?si=0iOXBChISFzoK0N2",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "I (Belong)": "Parantez içindeki vokaller hem bir yankı hem de bir düzeltme görevi görüyor. Ariana, “Ait olduğuma inanmıyorum” cümlesini ancak kendi iç sesiyle (arka vokallerle) tamamlayabiliyor; bu da onun aidiyet konusundaki derin şüphesini simgeliyor.",
       "Buy the ticket, take the ride": "Hunter S. Thompson’ın meşhur sözü. Bir kaosa veya yoğun bir deneyime adım attıysan, ne olursa olsun sonuna kadar katlanmak ve o bedeli ödemek zorunda olduğun anlamına gelir.",
@@ -7014,6 +7831,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Zi_XLOBDo_Y?si=yBMRyAEBCjGigiJn",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "seçilmiş kişi ben miyim": "‘I am the one’ önce Billie Jean'in dans edeceği seçilmiş kişi anlamına geliyor; çocuk iddiası ortaya çıkınca aynı söz ‘suçlanan adam benim’ anlamına dönüyor.",
       "Gerçekten iki kez düşünün": "Arka vokaldeki ‘don't think twice’ dürtüsel sesi ile ana vokaldeki ‘do think twice’ uyarısı çatışıyor. Son söz, sonuçlarını düşünmeden hareket etmeme çağrısı."
@@ -7079,6 +7897,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/nb8CnIo_-_A?si=sqMozMfXw_LDdi_O",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Daddy was a pimp": "Şarkıcı burada aile geçmişindeki karanlık ve zorlu gerçekleri tüm çıplaklığıyla itiraf ediyor. Türkçedeki o \"sokak gerçekçiliği\" tonunu korumak için bu ifadeyi yumuşatmadan bıraktık."
     },
@@ -7143,6 +7962,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Ahha3Cqe_fk?si=hvrT-ooOuwpz1hdi",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "June & Johnny Cash": "Efsanevi müzisyen çift June Carter ve Johnny Cash’e atıf; onlarınki gibi sarsılmaz ve derin bir aşkı simgeliyor."
     },
@@ -7207,6 +8027,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/hLOheGDwD_0?si=vzwvHEgZCqpM_9s9",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Tennessee": "Nashville’in, yani sakin ve duygusal aşkın merkezi olarak konumlandırılmış.",
       "Abilene": "Teksas’ta bir şehir. Adamın köklerine dönüşünü simgeliyor.",
@@ -7276,6 +8097,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/c8zq4kAn_O0?si=MQ6JxPklnWPM2TSp",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Casual": "Bir ilişkinin ciddiyetten uzak, sadece eğlence veya fiziksel çekim odaklı olmasını anlatan modern terim. Türkçede bu duyguyu \"öylesine\" veya \"gelişigüzel\" kelimeleri çok iyi karşılar."
     },
@@ -7340,6 +8162,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/NdYWuo9OFAw?si=jC6QDMA3pR1NEzO7",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Everything's made to be broken": "Şarkının kalbi olan bu dize; dünyadaki her şeyin geçiciliğini ve insanın içindeki o kaçınılmaz kırılganlığı temsil eder.",
       "Bleed just to know you're alive": "İnsanın uyuşmuşluktan kurtulmak ve var olduğunu hissetmek için acıya bile razı gelme durumunu anlatan sarsıcı bir ifade."
@@ -7405,6 +8228,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lY5V4hSLWY8?si=kRI9N15hMXtqH-ZD",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "On the line": "Bir şeyin risk altında veya tehlikede olması anlamındaki deyimi, Türkçedeki o \"fedakarlık\" vurgusuyla karşıladık."
     },
@@ -7469,6 +8293,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/27C4pfRsf9g?si=P4VVQqCG7Nn3F1nr",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Heart it like a verb": "Sosyal medyadaki \"kalp atma\" (beğenme) eylemini, sadece bir buton değil, gerçek bir iyileştirici güç olarak tanımlıyor.",
       "25/8": "Zamanın ötesinde, her an göz önünde ve meşgul olmayı anlatan bir \"overwork\" (aşırı çalışma/takip edilme) vurgusu.",
@@ -7535,6 +8360,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/yebNIHKAC4A?si=0zzBBL0fcHVezHWr",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -7597,6 +8423,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/60rlboK94mE?si=X-KfIm2uE4wau4ZM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "What your face looks like going": "Partnerinin onu terk ederkenki yüz ifadesini görme korkusunu anlatan, şarkının en vurucu ve hüzünlü dizesi.",
       "God threw me a bone": "İngilizcede birine şans eseri gelen küçük bir iyilik veya fırsat anlamındaki deyimi, şarkının romantik havasına uygun olarak \"Tanrı'nın bir lütfu\" şeklinde yerelleştirdik."
@@ -7662,6 +8489,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lIxQe1R5hs0?si=O5tK7YkaLxDqUYMc",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Ha ha ha": "Burada hem bir gülüşü hem de şarkının o hafif, oyuncu ve biraz da ironik havasını temsil ediyor.",
       "That girl": "Modern internet argosunda; başarılı, bakımlı ve herkesin imrendiği ikonik kadın figürü."
@@ -7727,6 +8555,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/kjRhhrcLr0c?si=L6zS6SdSFoy4OvBS",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Salesio": "İtalyan eğitmen Don Bosco’nun (Salesians) felsefesine atıf; gençlere verilen karşılıksız, koruyucu ve sevgi dolu desteği simgeler."
     },
@@ -7791,6 +8620,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/3ICUVF5IzfI?si=p4x-RSm8CHXaUo4C",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Simmian": "Estetik algı, güzelliği görme yetisi. Sanatçı burada kadının sadece dış görünüşünü değil, bakış açısını ve zevklerini de övüyor.",
       "gigang": "Disiplin, düzen. Bir mekâna girdiğinde oradaki hiyerarşiyi bozup herkesin sana saygı duymasını veya bakmasını sağlamak anlamında kullanılmış."
@@ -7856,6 +8686,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/6V2YR54veDM?si=j6TS-gjiozi4JmBT",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "açamadan solan o çiçekler": "Henüz tam yaşanmamış, yarım kalmış bir aşkı simgeler.",
       "ters orantılı": "Sen yaklaştıkça benim uzaklaşmamı ya da duyguların dengesizliğini anlatan matematiksel bir metafordur."
@@ -7921,6 +8752,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/TDWNG2SwgLM?si=I_AJjhZX4e6wOkxB",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "overflowing": "İncil’deki 23. Mezmur’a atıf; bereketin ve ilahi korunmanın bolluğunu simgeler."
     },
@@ -7985,6 +8817,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/iwc3ePT4-xw?si=my8TXmw_G-w99qHw",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Pygmalion": "Bir insanın kendine olan inancının ve çevresinden gördüğü yüksek beklentilerin, sonunda o başarıyı bir \"kendi kendini gerçekleştiren kehanet\" gibi gerçeğe dönüştürmesi durumudur.",
       "pi ttam tears": "‘Kan ve ter’ ifadesi, harcanan muazzam emeği, fiziksel ve ruhsal acıları temsil eden evrensel bir bedel ödeme anlatımıdır."
@@ -8050,6 +8883,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/3uUHZlEBQ6A?si=_PPnykl5bHsI-NCE",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Daniels'lar, Jacks'ler": "Jack Daniel’s viskisine atıf; kaliteli ve pahalı zevkleri olan bir ortamı simgeliyor."
     },
@@ -8113,6 +8947,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/LPL1fozVrIw?si=bhSLXcTm2ofHAbJ3",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Bruise on your knees": "Burada dominant-submissive (baskın-itaatkâr) bir ilişki dinamiğine çok net ve sert bir atıf yapılıyor."
     },
@@ -8176,6 +9011,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/xP_nrIzsH-8?si=cXTMNSty0cStIDvU",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "You made the bed": "İngilizcedeki \"You made your bed, now lie in it\" deyimi; bir durumu kendi ellerinle hazırlayıp sonuçlarına katlanmak demektir. Türkçedeki \"Kendi düşen ağlamaz\" veya \"Kendi ettiğini bulmak\" anlamıyla eşleştirdik."
     },
@@ -8239,6 +9075,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/EZNHsnwBDrk?si=g8jGIfwyshfKnZeh",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Lumos, Nox": "Harry Potter evreninden gelen, asayı aydınlatan ve söndüren büyüler. Şarkıda aşkın ve gecenin ritmini simgeliyor.",
       "Rizz": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
@@ -8303,6 +9140,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/i1qaYRoS19A?si=b2OpxdfBKUtSxb4f",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -8365,6 +9203,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/BC19kwABFwc",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "sink my teeth in disbelief": "“Sink my teeth in disbelief”: Bu ifadeyi “şaşkınlığın içine hapsolmak” veya “şaşkınlığı iliklerine kadar hissetmek” şeklinde yerelleştirdik; bir şeye inanmakta güçlük çekerken ona tutunma halini anlatıyor."
     },
@@ -8431,6 +9270,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/nOeJuoFs6sM",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "mayak": "“Маяк” (Mayak): Deniz feneri. Şarkıda sevgilinin ona yol gösteren bir ışık olması gerekirken sadece acı verdiğini belirten acı bir metafor.",
       "bosikom po styoklam": "“Я босиком по стёклам”: Cam kırıkları üzerinde yalınayak yürümek/koşmak; bir ilişkiyi kurtarmak için çekilen aşırı ıstırabı ve fedakarlığı simgeler."
@@ -8496,6 +9336,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/VMqDSntAbC0",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "You got the best of me": "Bendeki en iyi şeyi sen aldın veya \"benim en iyi halim senin sayende\" anlamlarını taşıyan o derin bağlılık ifadesi.",
       "kılıcını": "Klasik bir teslimiyet ve aşk metaforu. Kendisine zarar verebilecek olsa bile karşı tarafın her şeyine (kılıcına/gücüne) duyulan o körü körüne sadakati simgeler.",
@@ -8563,6 +9404,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/hT_nvWreIhg",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "dolarları değil, yıldızları": "Maddiyatın (para) getirdiği kaygıları bırakıp, maneviyatın ve özgürlüğün (yıldızlar) peşine düşme vurgusu.",
       "Everything that kills me makes me feel alive": "Şarkının en felsefi yeri; risk almanın ve acı çekmenin insanı gerçekten \"diri\" tuttuğu düşüncesi.",
@@ -8629,6 +9471,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/XQmpVHUi-0A",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "vücut mimarisi": "Suga burada partnerinin vücut hatlarını o kadar kusursuz buluyor ki, bunu bir sanat/mimari eseriyle kıyaslıyor.",
       "Let it go": "Frozen filmine ve o dönemki popülerliğine esprili bir atıf.",
@@ -8695,6 +9538,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/AEm5O3VnKi8",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Ono Jiro": "Dünyaca ünlü, çok pahalı ve prestijli bir suşi şefi/restoranı.",
       "탕진잼": "\"Tangjin\" (israf/harcama) ve \"Jaem\" (eğlence) kelimelerinin birleşimi; az bir parayı gereksiz şeylere harcayarak anlık mutluluk bulma akımı.",
@@ -8762,6 +9606,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/UsyiBESROnQ",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "baepsae": "Baepsae (Karakulaklı bülbül) küçük, leylek (Hwangsae) ise uzun bacaklıdır. Deyim; alt sınıfın, üst sınıfı taklit etmeye çalışırken (onların koyduğu kurallarla yarışırken) perişan olmasını anlatır.",
       "Altın kaşıkla": "Zengin ve nüfuzlu bir aileye doğan kişi.",
@@ -8830,6 +9675,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/7Gbg6Z70J7E",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Sprinkler splashes to fireplace ashes": "Çocukluktaki bahçe oyunlarından (fıskiye), yetişkinlikteki iç mekanlara (şömine) geçişi; yani zamanın acımasızca akışını temsil eden harika bir betimleme.",
       "Daisy May": "Taylor burada çocuksu, masum ve saf genç kız imajına veda ettiğini söylüyor.",
@@ -8897,6 +9743,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/m7k9UMcHbr0?si=6b7RE5nZLUVD7U7T",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -8959,6 +9806,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/pW7W8hbdhX8?si=l9V9cGcqsVI4c8LP",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "loaded gun": "Tutkunun patlamaya hazır, kontrol edilemeyen bir enerjiye dönüşmesini anlatan metafor.",
       "pedal's down": "Gaz pedalına sonuna kadar basmak; kendini tutmadan, frensizce ilerlemek anlamında.",
@@ -9025,6 +9873,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/_IT83Y_HcAw?si=RM39op7Y6eqxd4n0",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Bir sevgiliden": "Şarkının ana fikri, ciddi bir sevgili ilişkisinin yükünü istemeden sıradan birinden daha yakın olma arzusunu anlatıyor.",
       "Omurganın her kıvrımını": "Kaynak dizedeki ‘in degrees’, omurganın açılarını ve kıvrımlarını adım adım izleme imgesi kuruyor. Türkçede fiziksel yakınlığı korumak için ‘her kıvrımını’ denildi."
@@ -9090,6 +9939,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Sdz2oW0NMFk?si=CoBzDeGDbiRZpP5t",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Boogie-woogie / Acid rock": "Farklı dönemlere ve türlere ait müzik/dans stilleri. Madonna burada müziğin her türünün eğlence için bir araç olduğunu vurguluyor.",
       "Bourgeoisie": "Burjuvazi; toplumun üst/orta sınıfını, yani elit kesimi temsil eder. Şarkı, müziğin zenginle fakir, elit ile aykırı arasındaki duvarları yıktığını söylüyor."
@@ -9148,6 +9998,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/E1OaW2HcyZk?si=7Zn5r6a_FthIGLGu",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -9210,6 +10061,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/8lxMKZVChvE?si=CAu48kM0SgvvFt8-",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Hallelujah": "İbranice kökenli, \"Tanrı’ya hamdolsun / Şükürler olsun\" anlamındaki evrensel nida."
     },
@@ -9274,6 +10126,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/gdZLi9oWNZg?si=sGzxl1uq3qlUWZig",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Rolling Stone": "Hem efsanevi rock grubuna hem de \"yuvarlanan taş yosun tutmaz\" deyimine atıf.",
       "LeBron": "NBA yıldızı LeBron James; başarıyı ve zirveyi simgeliyor."
@@ -9335,6 +10188,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lY2yjAdbvdQ?si=q3BUvCQVIQttUncx",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "off": "Burada “yanılıyorsam / haksızsam” anlamında kullanılıyor; anlatıcı kendi gözlemini nazikçe geri çekilebilir hale getiriyor.",
       "wrong situation": "Yanlış ilişki ya da insanı yıpratan duygusal durum anlamında; burada kızın içinde kaldığı sağlıksız ilişkiyi anlatıyor.",
@@ -9402,6 +10256,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/oIv_Y2RPQ_A?si=ZSEcvlnbYu3FWVzY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "alchemy": "Sıradan bir yakınlaşmanın büyülü, dönüştürücü bir şeye dönüşmesini anlatan simya metaforu.",
       "same page": "İki kişinin aynı beklentide, aynı anlayışta buluşması anlamına gelir.",
@@ -9469,6 +10324,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/78wrful9cVU?si=cUBltQPhVTieVc60",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Just Like Heaven": "The Cure grubunun efsanevi aşk şarkısı. Burada partnerinin o şarkıdaki \"cennet gibi\" tasvire uyduğu hissi kuruluyor.",
       "Walls of Versailles": "Versay Sarayı'ndaki meşhur tavan fresklerine ve altın varaklı melek tasvirlerine atıf; partnerinin ulaşılamaz ve sanatsal güzelliğini vurguluyor."
@@ -9534,6 +10390,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Ys7-6_t7OEQ?si=aN8rzZgs4itOo_t4",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Hottest ticket": "Argoda herkesin ulaşmak istediği, o anın en popüler ve arzulanan kişisi anlamında kullanılır.",
       "Buns out, wiener": "Nicki burada sosisli sandviç (bun/wiener) üzerinden cinsel bir kelime oyunu yapıyor; \"kalçalarım meydanda ve çok ateşliyim\" mesajı veriyor.",
@@ -9600,6 +10457,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/a4tdS3IB294?si=eIauf7ErXpo_Axc7",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Never had the heart": "Bir şeyi yapacak cesareti veya gücü kendinde bulamamak anlamındaki deyimi, Türkçedeki o \"yüreği yetmemek/cesaret edememek\" hissiyle karşıladık.",
       "Extra, extra, read all about it": "Eskiden sokaklarda gazete satan çocukların manşetleri duyurmak için kullandığı kalıptır. Türkçeye o nostaljik \"Havadis/Yazıyor\" tonuyla yerelleştirdik.",
@@ -9666,6 +10524,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/bx1Bh8ZvH84?si=buB0MTkAsAiHa0Bz",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Wonderwall": "İngilizcede tam karşılığı olmayan, birine duyulan hayranlığı ve o kişinin koruyucu/kurtarıcı gücünü anlatan bir kavram. Türkçede bu derinliği \"Hayat dayanağım\" veya \"Efsunlu sığınağım\" gibi ifadeler çok iyi karşılar."
     },
@@ -9730,6 +10589,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/4ZSVbrV4-Xs?si=O9NLxMiwtMLD1wdY",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "We picked this game": "BTS'in zorluklarla dolu bu yolu (idollüğü ve getirdiği sorumlulukları) bilerek ve isteyerek seçtiğine dair güçlü bir kabulleniş.",
       "똥밭": "Korecede çok zorlu ve aşağılayıcı şartlar altında hayatta kalmaya çalışmak anlamındaki sert bir deyimdir. Suga burada şöhretin getirdiği o \"kirli\" ve zorlu mücadeleyi \"biz yapmazsak kim yapacak?\" diyerek sahipleniyor."
@@ -9795,6 +10655,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/ko70cExuzZM?si=PJhYCY_ug2d67EHQ",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "benliğime, kendime ve şahsıma": "Me, myself and I ifadesindeki tek başınalık vurgusunu Türkçede kararlı ve biraz teatral bir dille karşıladık.",
       "Ophelia’nın kaderinden": "Shakespeare’in Hamlet’inde aşk acısıyla aklını yitiren ve nehirde boğulan Ophelia’ya gönderme. Şarkıcı, bu boğulma ve delirme kaderinden kurtarıldığını söylüyor."
@@ -9860,6 +10721,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/aSugSGCC12I?si=8intB8aO_PEU6i6L",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -9922,6 +10784,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/B402rKl4bUg?si=EcV5f2TeTH-LxvWk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "İplik iplik sökülüyorum": "“Unraveled” hem bir kıyafetin sökülmesini hem de birinin zihinsel olarak dağılmasını anlatır. Türkçede bu görseli \"iplik iplik sökülmek\" deyimiyle koruduk."
     },
@@ -9986,6 +10849,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/B3eAMGXFw1o?si=CLDMtFhoKPKNHczh",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10050,6 +10914,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/0UPDBODtxzw?si=221UUU5j4oHuon6e",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Gölgeler": "“Shadows keep me pretty”: Işık kusurları açığa çıkarırken, gölgelerin bir gizem ve güzellik katması durumuna atıf. “Morning light is turning blue”: Şafak sökmeden önceki o soğuk, mavi saati tasvir ediyor.",
       "Bay Karizma": "“Mr. Charisma / Pablo Escobar”: Karanlığa girdiği an özgüveninin tavan yapmasını ve o \"dokunulmaz, patron\" edasını simgeliyor.",
@@ -10094,6 +10959,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/N_Id6KNQtLw?si=bz_UMyaltVjenoqZ",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Into the sun": "Güneşe, yani kurtuluşa ve aydınlığa doğru gitmek. \"Just wait, dawn\": Şafağın sökmesi zorlukların bitişini simgeler. Sanatçı partnerine \"dayan\" mesajı veriyor.",
       "24/7 feel like 24": "Zamanın geçmek bilmediği, acının uzadığı anları temsil eder. Güneşin (umudun) uzak görünse de şafağın kaçınılmaz olduğunu hatırlatıyor.",
@@ -10139,6 +11005,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/JW679z4iPN0?si=Iz5h4lwEHsHuV5Tn",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Even hell, I'm down": "Aşkı uğruna her türlü bedeli ödemeye, cehennem bile olsa girmeye hazır olduğunu anlatan güçlü bir sadakat ifadesi.",
       "가시밭길 (Dikenli yol)": "Ünlü Koreli şair Kim Sowol'un \"Açelya\" şiirine bir gönderme. \"Üzerine basıp geçmek\" ifadesi; büyük bir acıyı sevilen kişi uğruna şikâyet etmeden göğüslemek anlamına gelir.",
@@ -10183,6 +11050,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/471JvbFq1Mw?si=q-4DhBnLO8SMDlv_",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "너무 닮아버린 그림자 (Birbirine benzeyen gölgeler)": "İki insanın kaderlerinin iç içe geçmesi. RM burada, bu güzel hayalin sonunda getireceği hüznü şimdiden hissettiğini anlatıyor.",
       "24 hours in the tub": "Küvet burada dünyadan soyutlanmayı ve sadece sevilen kişiye odaklanılan o huzur anını temsil eder.",
@@ -10230,6 +11098,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Dt2P9jRa7w0?si=p8fFLyMoT3gTINN9",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "촌놈 (Chonnom)": "Korecede \"taşralı, köylü\" anlamında aşağılayıcı bir tabir. BTS (üyelerin çoğu Busan, Daegu, Gwangju gibi taşra şehirlerinden geldiği için) bu kelimeyi bir gurur madalyası gibi taşır.",
       "오지랖 (Ojirap)": "Korecede \"başkasının işine burnunu sokmak\" anlamındaki deyim. RM, grubun başarısını analiz etmeye çalışan \"uzmanlara\" \"Pasifik kadar büyük bir cüret\" atfında bulunuyor.",
@@ -10274,6 +11143,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/1BiWkZDiY7s?si=SLQZ9zO4GdCcFoag",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Shadow's a mess / My own dirt": "Jungyen psikolojisine (gölge benlik) bir atıf. Kusurları gizlemek yerine onları kucaklamayı; herkesin kendi karanlığı ve geçmişinden gelen bir \"kiri\" olduğunu vurguluyor.",
       "Animals / Eat this life": "Toplumsal nezaket maskelerini atıp en saf, en hayvani ve tutkulu hale dönmek. Hayatı sadece \"yaşamak\" değil, bir avcı iştahıyla \"tüketmek\" ve her anın tadını sonuna kadar çıkarmak.",
@@ -10319,6 +11189,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Qye9VHIv6qM?si=jRi-rbaQKoarZiWn",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Kerosene / Dopamine": "Kerosen (uçak yakıtı) patlayıcı ve uçucu bir enerjiyi, dopamin ise beynin ödül mekanizmasını (alkışlar, beğeni) simgeler. Sanatçı, hayatının doğal değil, dışarıdan enjekte edilen kimyasal bir süreç gibi hissettirdiğini vurguluyor. ||| \"Bulletproof\": Grubun ismi olan \"Bangtan\" (Kurşun Geçirmez) imgesine bir atıf; hem bir zırh hem de bir hapishane vurgusu var.",
       "Heavy is the head": "\"Taç giyen baş ağırlaşır\" (şöhretin sorumluluğu) deyimine bir gönderme. ||| \"Red / Blue\": Öfke-hırs (kırmızı) ve hüzün-yalnızlık (mavi) arasındaki gidip gelmeleri temsil eder.",
@@ -10364,6 +11235,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/skVrhdkjmlk?si=JojKMhT7N9L3qYnd",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Merry-go-round (Atlıkarınca)": "Hayatın sürekli aynı yere dönen, renkli ama aslında sahte ve hapsedici döngüsünü simgeler. Durmak istese de sistemin onu döndürmeye devam etmesi, kontrol kaybını anlatır.",
       "쳇바퀴 (Hamster Wheel)": "Korecede \"hamster çarkı\" tabiri, bitmek bilmeyen monoton iş hayatı ve kısır döngü için kullanılan yaygın bir deyimdir.",
@@ -10410,6 +11282,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/YF4EN5YwjpA?si=V3FYk5Gn2hH8Ohh0",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "뜀틀 (Vaulting Horse)": "Jimnastikte kullanılan atlama beygiri. BTS'in çıkış dönemindeki akrobatik koreografilerine ve kariyerlerindeki engelleri aşmalarına bir gönderme. ||| \"어림 반 푼어치\": \"Yanına bile yaklaşamazsın\" anlamında bir Korece deyim.",
       "Pull up at your block": "Hip-hop jargonunda birinin bölgesine, mahallesine araçla gelmek/meydan okumak.",
@@ -10457,6 +11330,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/QWDayFgPDjQ?si=OfDHLmn86M8-fTeZ",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Lit / Fire": "Hip-hop argosunda bir şeyin mükemmel, heyecan verici veya \"yıkılıyor\" olduğunu ifade eder.",
       "Gas": "Çok kaliteli, yoğun veya etkileyici olan her şey için kullanılan bir tabirdir.",
@@ -10504,6 +11378,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/EC9_h_elSAY?si=Ny03j6vkf7w1d5Ch",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "중모리 (Jungmori)": "Geleneksel Kore müziğinde (Gugak) kullanılan 12 vuruşluk orta hızda bir ritim kalıbıdır. BTS, modern beat ile geleneksel Kore ruhunu birleştiriyor.",
       "가나 to the 하 (Gana-Ha)": "Kore alfabesinin (Hangul) ilk ve son harflerine atıf. \"Baştan sona\" anlamında kullanılır. ||| \"신발은 벗어놔 (Ayakkabılarını çıkar)\": Asya kültüründeki eve girme geleneği üzerinden \"sınırlarını bil ve saygı göster\" mesajı verilir.",
@@ -10550,6 +11425,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lKgzkmTKvHU?si=N6xt4VcwrdRfMTrk",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "beat goin' hooligan": "Müziğin kontrolsüz, çılgın ve agresif bir enerjiye ulaşmasını ifade eder. \"Hooligan (holigan)\" burada kaos ve sınır tanımayan bir vibe anlamına gelir.",
       "Chopped & screwed": "Houston kökenli bir hip-hop tekniği. Şarkının temposu yavaşlatılır ve ses kalınlaştırılır, ortaya ağır ve \"kafa yapan\" bir sound çıkar.",
@@ -10599,6 +11475,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/RBaSiVjtKR4?si=sReMc7Y5rBrGM9JA",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10639,6 +11516,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/b4iVv91Z6lY?si=1UG5DbpHYiTISkLp",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10679,6 +11557,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/FI8j4lW9BvU?si=pNdOMdQTIeyH7E7J",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Fuckboy kısaca": "duygularınla oynayan, sadakatsiz, sadece kendi çıkarını düşünen erkek tipi 🚩 Tipik fuckboy davranışları: birden fazla kişiyle aynı anda ilgilenme, karışık sinyaller verme, gece geç saatte mesaj atma, ilişki istemeden duygusal bağ kurma..."
     },
@@ -10721,6 +11600,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/qE2ljjTFNII?si=g0R9v09wZdtZUEMv",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10761,6 +11641,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/99GWRRn1-7g?si=LJGcmXibkxHPAd73",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10801,6 +11682,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/2GJfWMYCWY0?si=ei37L8Bqx_fdz4A_",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10841,6 +11723,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/1FVF-9KQiPo?si=-ojGLeEpw-FrTD4V",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10881,6 +11764,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Qcz-7evvAqY?si=qX5gMENfSXwQlPQ_",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10919,6 +11803,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/DYgE3SGPEqk?si=dVQ7Bl8ST6f-rCqS",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -10966,6 +11851,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/LoElk8clGVg?si=4YBdKYwurkJkxGYv",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11006,6 +11892,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/rA_eCxPay7E?si=Gv9baDKOpTFnBevv",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11046,6 +11933,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/BWfKkqo1Mk8?si=nlGS5dBooNIIMtL2",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11086,6 +11974,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/7hTbNeHqGD8?si=qvfKYx8QD65anCxy",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11126,6 +12015,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/HJgdT15UT4k?si=g1fjTXtWJeY5l2-k",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11166,6 +12056,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/R6e4tBWxIxE?si=Bp8GxjRtjb7TO9ai",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11228,6 +12119,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/82-jTNka3uc?si=yIkfjD4b1Ujhl5tR",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "bee stuck in honey": "Sevgilinin, kadının cazibesine kapılıp orada mahsur kalmasını ve bu tatlılığın onu yavaş yavaş boğmasını anlatan harika bir metafor.",
       "held your projections": "Karşı tarafın kendi kusurlarını ve güvensizliklerini şarkıcıya yüklemesi, yani psikolojik projeksiyon durumuna yapılan sert bir atıf."
@@ -11293,6 +12185,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/SD4yRDY9mek?si=jFioOJ5wWMZFWoSq",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11357,6 +12250,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/fcnDmrtj6Sk?si=YH3piUUlicyL_KJ9",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "Dai, dai, ikou": "Japonca \"Hadi, git/başla\" anlamında bir motivasyon nidasıdır. “Dale/Ale”: İspanyolca ve Fransızca kökenli \"Hadi, yürü/devam et\" anlamındaki klasik stadyum tezahüratlarıdır.",
       "From the dirt and the tears": "Yokluktan ve zorluktan büyük bir başarı yaratma metaforu. “More than flesh and bone” ise insanın fiziksel sınırlarının ötesinde, ruhsal bir güce sahip olduğu vurgusudur."
@@ -11422,6 +12316,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Rt9tW3cMLhI",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11484,6 +12379,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/mh4AQkw4Jjc?si=c-I-mDsBea-G0dok",
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "put me out": "Hem bir ateşi söndürmek hem de birini hayatından çıkarmak veya nakavt etmek anlamında kullanılan zekice bir kelime oyunu.",
       "God, you look so pretty": "Buradaki trajedi şu: Şarkıcı sevgilinin yalan söylediğini biliyor ama o yalanın içindeki güzelliğe hayran kalıyor."
@@ -11549,6 +12445,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lVnzO7opqNs?si=KynaiHctdIfoIGlm",
+    "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
     "firstPair": {
@@ -11611,6 +12508,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/E8i32NXMxnc?si=1N8W5WjC5WuB9ubL",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "All we need is love, dreams and Stray Kids",
       "tr": "İhtiyacımız olan tek şey: Aşk, hayaller ve Stray Kids."
@@ -11671,6 +12569,7 @@
       }
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=NED7nev2ywQ&list=RDNED7nev2ywQ&start_radio=1",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Geunyang hae nundongja gullil time-e",
       "tr": "Öyle boş boş bakınıp duracağına yap gitsin işte."
@@ -11727,6 +12626,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/EN1tMeXQii0?si=AOjoOEL-45XoU2mM",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Time is standing still and I don't wanna leave your lips",
       "tr": "Zaman durdu sanki ve dudaklarından ayrılmak istemiyorum."
@@ -11787,6 +12687,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/qS7OsvKqojg?si=TfSNemQ62-vbNxY-",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(What the—)",
       "tr": "(NE ALAKA)"
@@ -11847,6 +12748,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/P7vBoGWoReg?si=PaX_eiTl1IcgB8Sj",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hip-hip (Hooray)",
       "tr": "Hip hip (Yaşasın)"
@@ -11907,6 +12809,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/N1ExjhcpLso?si=xkbGAWWY4qXRXO3k",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Soneul jaba let's run away",
       "tr": "Tut elimi, kaçalım buralardan"
@@ -11967,6 +12870,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/0sFFvghflng?si=I7M-B346kJUxyWxe",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hey, I got all these options, okay",
       "tr": "Hey, önümde bir sürü seçenek var tamam mı"
@@ -12027,6 +12931,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/fhxq4s36-I4?si=YPBgNUwsAx8h6Eha",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "TWICE",
       "tr": "TWICE"
@@ -12087,6 +12992,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/JOF2ZTqvzwY?si=MPV6GO8xXGfCxzMN",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, I know what you into (Into)",
       "tr": "Evet, nelerden hoşlandığını biliyorum,"
@@ -12147,6 +13053,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/eHHQaoEW30Q?si=NB-s1g7e37t3koyV",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "This is for all my ladies",
       "tr": "Bu, yeterince gaz verilmeyen…"
@@ -12205,6 +13112,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/CgCVZdcKcqY?si=EzNAG-pj_vFmHULU",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I’m not that easy to tame",
       "tr": "Öyle kolayca dizginlenebilecek biri değilim ben"
@@ -12263,6 +13171,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/-bC4iak3kxg?si=ACYoYtl80xv-1I5w",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell your friends that I love the drama",
       "tr": "Arkadaşlarına anlat, dramaya bayıldığımı söyle"
@@ -12321,6 +13230,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/M2WTUoy4y6E?si=0PmlisbPnsXZtgKf",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "World domination, I don't gotta say it",
       "tr": "Dünyaya hükmediyorum, söylememe bile gerek yok"
@@ -12377,6 +13287,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/AX0jQYaIeDc?si=IVAkA5Hxnl59BCAR",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hidden underneath the floor",
       "tr": "Hayallerimin tavan arasında,"
@@ -12435,6 +13346,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/VjvzYjU1mY0?si=Ks6P-qBa9F2wHo7j",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Bunmyeong nappeun aineun anieodo",
       "tr": "Ben kötü biri değilim, tamam mı…"
@@ -12495,6 +13407,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/H4H99b1CjPU?si=IjssKAS4zaZ3CPPt",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ain’t nobody, yeah",
       "tr": "Kimse yok ki senin gibi"
@@ -12551,6 +13464,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/q9leDzlNEaY?si=D69rrGbu7VutYwke",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You are now",
       "tr": "Sen şu anda…"
@@ -12609,6 +13523,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/dpvQqmX6SUI?si=zV9WCVWa2hwkCewm",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I wanna let my hair down (Yeah, yeah, yeah, yeah, yeah)",
       "tr": "Saçlarımı savurmak istiyorum (Evet, evet, evet, evet, evet)"
@@ -12669,6 +13584,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/UFeCEeD85AU?si=94bE4-8ptHsqZJMv",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Haetsal bichun achim",
       "tr": "Güneşle aydınlanan bir sabaha uyanıyorum."
@@ -12729,6 +13645,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/LYepnktGTLE?si=4CFpKQl2Chu9xsDH",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ajik nan geogi sara",
       "tr": "Hâlâ oradayım;"
@@ -12789,6 +13706,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/dpn4v93wQZY?si=fqEAaANplMwIxfxY",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Gureumeun oneuldo nae jeonbureul dama",
       "tr": "Bulutlar bugün de tüm duygularımı, içimi içine almış."
@@ -12849,6 +13767,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/l7OexMEJLtE?si=79IHhIjDK-Rfdz9o",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Du ballo ttwieoneomeo gan sungan",
       "tr": "İki ayağımla engeli aştığım anda"
@@ -12909,6 +13828,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/pS57UX6s-xw?si=d8kynMZ7LYALCa9l",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tteoreojyeo flash onmomi crash",
       "tr": "Bir flaş patladı ve bütün bedenim sarsıldı."
@@ -12967,6 +13887,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/MTjiawwYPhI?si=JkoU0JBNLosjEiv6",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You love me, you miss me",
       "tr": "Beni seviyorsun, beni özlüyorsun"
@@ -13027,6 +13948,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/7ue9yqfApQA?si=HJGXulEuktCPC3mI",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Jonjaehaneun iyudeuljocha",
       "tr": "Varoluş nedenimi bile bilmiyordum ben..."
@@ -13087,6 +14009,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/o7BcyAd6rqg?si=xvV5GA-CjSn2fBHd",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I really thought I made up my mind",
       "tr": "Gerçekten kararımı verdiğimi sanmıştım"
@@ -13147,6 +14070,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/ia2Ph61bYzc?si=-wwt8ilIY1Icuvmv",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You and I are tangled as these sheets",
       "tr": "Seninle ben, bu çarşaflar gibi birbirimize dolanmışız."
@@ -13205,6 +14129,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/R2-yomhYAj4?si=RPnP3wc4kKoFRoan",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "They could describe everything with one single word",
       "tr": "Her şeyi tek bir kelimeyle anlatabilirler"
@@ -13259,6 +14184,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/8aRTMQvbODs?si=lzv4otoZ59JtOmG9",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Neoreul manna",
       "tr": "Seninle tanıştıktan sonra"
@@ -13317,6 +14243,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/z8tol4skpK8?si=mjKvH4qPK_uEtz8z",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I need your arms around me, I need to feel your touch, hey",
       "tr": "Kollarının arasında olmaya, tenini hissetmeye ihtiyacım var, hey"
@@ -13373,6 +14300,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/ZXAcTToLy_Y?si=TYKcI6sVRZGtJW8L",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hello, rainy day",
       "tr": "Selam sana yağmurlu gün"
@@ -13433,6 +14361,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/vaGf8fmtBr4?si=8Y5GktvZ2MrxppEo",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah-ooh",
       "tr": "Evet-ooh"
@@ -13493,6 +14422,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/JLqXeMabsEQ?si=8Yqny3h6faDq_YHQ",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It’s 2:45",
       "tr": "Saat 2:45"
@@ -13551,6 +14481,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/sL0pCS6K9bc?si=hnpZu1Qm9Uphhu-9",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I gillo galge we gata",
       "tr": "Ben bu yoldan gideceğim, biz buna hazırız (we gotta)"
@@ -13609,6 +14540,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/MI9ZpIKgyf0?si=qnp2rkb4Knc-X0PW",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "\"Azizam\" ne demek?",
       "tr": "Azizam"
@@ -13675,6 +14607,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/K2vVU4aR5Lg?si=NSiiRFdLSTC1WMXf",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Oh",
       "tr": "Vay"
@@ -13737,6 +14670,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/ZqCWXdZFc58?si=Tn2TOLDV4GbfCbXS",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "How can it be? You and me",
       "tr": "Nasıl olur da sen ve ben..."
@@ -13799,6 +14733,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/6FEvblq6jzA?si=xjP2jgD9Bq5J0kde",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "This is a true story about all the lies",
       "tr": "Bu, tüm yalanların gerçek hikâyesi"
@@ -13861,6 +14796,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/4bwnO0FQp1s?si=atHmDgSDkRBQLXyW",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(This love's possessin' me, but I don't mind at all)",
       "tr": "(Bu aşk beni ele geçiriyor ama hiç şikâyetim yok)"
@@ -13923,6 +14859,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/f68Og1FPFfw?si=JdMkRGq_PCJonD71",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When we're all born, Saturn's somewhere",
       "tr": "Hepimiz doğduğumuzda, gökyüzünde Satürn bir yerde konumlanır."
@@ -13985,6 +14922,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/_ZSuyl3BZHY?si=T4mCtVqQh8WUTzN0",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I fall asleep cryin'",
       "tr": "Ağlaya ağlaya uyuyakalıyorum"
@@ -14047,6 +14985,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/PlaiDnJyabE?si=CTwX-RKxAhYZuWfS",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Bye-bye",
       "tr": "Hoşça kal"
@@ -14109,6 +15048,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/p7jATa6Soag?si=B_G9oTHSgJ393ixG",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "How can I tell if I'm in the right relationship?",
       "tr": "Doğru ilişkide miyim, bunu nasıl anlarım?"
@@ -14169,6 +15109,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/dTQakKO5kus?si=rV8OZZs0M4nxSkUI",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
@@ -14223,6 +15164,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/ECqGCH1TfLY?si=1-U7_kYyVL8j5vsQ",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I like my girls pretty, so fine",
       "tr": "Ben güzel kızlardan hoşlanırım, çok çekici olmalılar"
@@ -14281,6 +15223,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/nJG5CWsne8E?si=BS8xLbGH37Reg7Yq",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You're my cherry pie",
       "tr": "Sen benim vişneli turtamsın"
@@ -14341,6 +15284,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/kW1e8NtdW90?si=7IcmakHPanxvsCPm",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, sweet dreams come after hours",
       "tr": "Evet, tatlı rüyalar gecenin geç saatlerinde gelir"
@@ -14401,6 +15345,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/hYKtqanSf98?si=S5MMj26EqcBehQKO",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It's like I'm writing a letter",
       "tr": "Sanki bir mektup yazıyorum sana"
@@ -14461,6 +15406,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Su84kZAEepM?si=TniQ2prkMJ0I1Dv5",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Jeogin eodilkka?",
       "tr": "Nedir orası acaba?"
@@ -14521,6 +15467,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Ao2GsXHMD_4?si=zxPezIBJFn2sFaOB",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(Ear Drummers)",
       "tr": "Sarıl bana, sevgine ihtiyacım var, dokun tenime"
@@ -14581,6 +15528,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/X728L41OKGg?si=wWBhFSv04rHrC_L4",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(La-la-la-la)",
       "tr": "Böyle uyandım, sanki üzerimden bir yük kalkmış gibi hissediyorum"
@@ -14641,6 +15589,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/8QEBbJa4Wcs?si=QwUIiDfXlVcqkgS2",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Maybe it's time to take a leap of faith (Ah-ah, ah-ah)",
       "tr": "Belki de artık cesur bir adım atmanın zamanı gelmiştir"
@@ -14705,6 +15654,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/PICpEtPHyZI?si=zhKapGK5rXIRg1wN",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(EarDrummers)",
       "tr": "Tek başıma, özgürce sürpriz yaptım sana"
@@ -14765,6 +15715,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/qzE9tNcUUss?si=5b3MIY2mf6JUGXSa",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(Ah, uh, ah, uh) Are you? Are you?",
       "tr": "(Ah, uh, ah, uh) Sen misin o? Sen misin gerçekten?"
@@ -14827,6 +15778,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/seARsMwjbEU?si=iqO0siHDdGavFN0E",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I trip and fall in love",
       "tr": "Ayağım takılır gibi aşka düşüyorum"
@@ -14887,6 +15839,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/n-KlygYrXV8?si=24ZBmK0SGvH6kere",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You know for me, there's no breaking point",
       "tr": "Biliyorsun, benim için pes etmek diye bir şey yok"
@@ -14947,6 +15900,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/JSFG-IE8n_c?si=6jkDLIffAXHGU92x",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ha, c'mon, it's just gonna be fucking hard",
       "tr": "Ha, hadi bakalım, işiniz çok zor olacak"
@@ -15007,6 +15961,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/K-GE4h2Fbuw?si=JTGeazadsRn23jIR",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Run like this, run, I",
       "tr": "Böyle koşuyorum işte, kaçıyorum bak"
@@ -15067,6 +16022,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/fGl5GUIiEpw?si=eyB3TaNNMftQFm-q",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ride me like a carousel",
       "tr": "Beni atlıkarınca gibi döndürüp duruyorsun"
@@ -15125,6 +16081,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/B-tJtuZO5Is?si=0feaiCK1TPpGhE9W",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Myeot sinde nuneul tteuja haruga jine",
       "tr": "Gözümü açıyorum, gün bitmiş bile saat kaç olmuş"
@@ -15181,6 +16138,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/IgIqM68qvF0?si=0phJkjICuhDniUog",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "M.B.T.M.I.U (My baby, take me I'm yours)",
       "tr": "Benimsin işte al götür beni"
@@ -15237,6 +16195,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/OjoKYCQXDTg?si=qMD9ATUjG7Y1fryl",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Han chimdae du jamjari simkunghae",
       "tr": "Tek yatakta iki kişiyiz, kalbim gümbür gümbür atıyor"
@@ -15293,6 +16252,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/I8I51kSq448?si=9EilChMC-kk3wbdl",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When every scene's rolling in good",
       "tr": "Her şey güllük gülistanlık giderken"
@@ -15351,6 +16311,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/o9DhvbqYzns?si=DnMgtsFdJbU8FH8k",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "G-A-P",
       "tr": "G-A-P"
@@ -15407,6 +16368,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/r5VRqWkFpEQ?si=jTYuTWJZEmr8sjqN",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hair down, feeling like Rapunzel",
       "tr": "Saçlarımı saldım, Rapunzel gibi hissediyorum"
@@ -15463,6 +16425,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/pZh-Q8wfwU8?si=qowp302_K82uVecJ",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) O modda uyandım yine"
@@ -15523,6 +16486,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/G3cjeH4iHwc?si=cEv1s-7CrmCn-qUT",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hello, hello, tell me somethin' that I don't know",
       "tr": "Selam selam, bana bilmediğim bir şey söyle bakalım"
@@ -15581,6 +16545,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/eEbrI8O-iBs?si=SA-jcHgr3oJxB7Su",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "All my pride goes out the window",
       "tr": "Seninleyken bütün gururum pencereden uçup gidiyor"
@@ -15641,6 +16606,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/vEfQjvi-JSw?si=S4HOrcZz_J5xXzoB",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Flex so hard think, I am elastic",
       "tr": "Öyle havalıyım ki, lastik gibi esniyorum"
@@ -15701,6 +16667,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/XxO_6yTIi0g?si=d0pmGCDviwDdTK0S",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I've been thinking",
       "tr": "Düşünüp duruyorum da"
@@ -15761,6 +16728,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/0M_AQYxXfZc?si=CNhhIFkzCZbWBN7u",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Fast cars",
       "tr": "Hızlı arabalar"
@@ -15821,6 +16789,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/8snLyyOIq2c?si=SnaiZJg-ChuiHFp5",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "And it go la-la-la-la-la-la-la-la-la (Uh, what?)",
       "tr": "Ve böyle gider la-la-la-la-la-la-la-la (Ee, ne?)"
@@ -15879,6 +16848,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/kC8XUKcmHQc?si=yvVGf2ELWOT4VM0u",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It's the Hot Girl Coach, and LISA (Ah)",
       "tr": "Karşınızda Hot Girl Coach ve LISA (Ah)"
@@ -15937,6 +16907,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/dzqmRAec9rs?si=Ldix4c7FRNx3Ff_J",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) Uh, uh, uyandım yine modumdayım"
@@ -15997,6 +16968,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/cFHElRaF19s?si=B_Wbg_D-bs99Lieu",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Got that uh-huh, that uh-huh",
       "tr": "Bende o \"tamamdır\" var, o \"işte budur\""
@@ -16057,6 +17029,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/LFy4BL_FeuQ?si=nn-V_upLcb61pOhy",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "At the tone, please record your message",
       "tr": "Sinyal sesinden sonra mesajınızı bırakabilirsiniz"
@@ -16121,6 +17094,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/eWAdpUyzCkI?si=DrZUOBxUNjCFa5t4",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Pulled up in the wintertime (Yeah)",
       "tr": "Kış vakti geldim, (Evet)"
@@ -16183,6 +17157,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/2WhhrNaxvdw?si=xrmriCmAnZLzMZhC",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Do my, do my ladies run this, ladies run this?",
       "tr": "Benim, benim kadınlarım mı yönetiyor burayı? Kadınlar mı yönetiyor?"
@@ -16239,6 +17214,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/5XhnZDUG6Og?si=VqPsJLUKrsO6Oq5E",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Life and living and ever thanks giving (Ayy)",
       "tr": "Hayat budur, yaşa ve şükret!"
@@ -16297,6 +17273,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/5IqNNhiaB9U?si=E_DWVJ0ZS2m9wV9l",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(I'm really sorry, but I don't like your boyfriend)",
       "tr": "(Gerçekten üzgünüm ama… sevgilini hiç sevmiyorum!)"
@@ -16355,6 +17332,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/Gtbhuuy1j7s?si=E0cXchf8vyK_bH9S",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "My-my-my mind keeps spinnin'",
       "tr": "Zihnim sürekli dönüp duruyor, durmadan çalışıyor"
@@ -16413,6 +17391,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/lI-ocK5wWMQ?si=wzwnkJdTMYw_Ojgg",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "If I broke your heart, would you take me back?",
       "tr": "Eğer kalbini kırarsam, beni yine de affeder misin?"
@@ -16471,6 +17450,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/1Hi0j7pz2D4?si=K46uCh7vj2JuzUJA",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ooh-ooh-ooh, ooh, ooh, ooh",
       "tr": "Ooh-ooh-ooh, ooh, ooh, ooh"
@@ -16531,6 +17511,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/6y70hwfVeVU?si=O2og2xB7ecHv3lHP",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Wirohajin marajwo",
       "tr": "Teselli etmeye çalışma"
@@ -16591,6 +17572,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/2V6lvCUPT8I?si=Ql7qlkOOVolg-Yjd",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Stars in my eyes, constellations for you",
       "tr": "Gözlerimdeki yıldızlar, senin için parlayan takımyıldızları"
@@ -16651,6 +17633,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/kbEC-AGr9n0?si=31vx-LhNX3t8_r5j",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It hits me like an earthquake (Uh-huh)",
       "tr": "Bir deprem gibi sarsıyor beni (Uh-huh)"
@@ -16715,6 +17698,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/38xYeot-ciM?si=zqCg3a1RhNtJXQKC",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(Ooh) If you tried just a little more times",
       "tr": "(Ooh) Eğer biraz daha deneyip, kalsaydın,"
@@ -16775,6 +17759,7 @@
       }
     },
     "youtubeUrl": "https://youtu.be/vBynw9Isr28?si=_L0Dt073RU7bc22a",
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Da-ra, da-da-da-ra",
       "tr": "Benim duygularım biraz farklı akar"
@@ -16833,6 +17818,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Abracadabra, abracadabra",
       "tr": "Abrakadabra, abrakadabra (Ha)"
@@ -16893,6 +17879,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Wash me with your fire",
       "tr": "Beni ateşinle arındır"
@@ -16953,6 +17940,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Take me to a time when I was young",
       "tr": "Beni gençliğime götür"
@@ -17013,6 +18001,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You're not heavy, I rocked you to sleep, I hold you for hours long",
       "tr": "Sen benim için hiç ağır değildin, uyuyana kadar salladım seni, saatlerce kollarımda tuttum"
@@ -17073,6 +18062,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I don't want to waste your time",
       "tr": "Zamanını boşa harcamak istemem"
@@ -17133,6 +18123,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Conversations with the sky",
       "tr": "Gökyüzüyle konuşmalar"
@@ -17195,6 +18186,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "La, la, la, la, la, la",
       "tr": "Senin öfkeli hallerini sevdiğimi biliyorsun"
@@ -17255,6 +18247,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Take me back to LA",
       "tr": "Beni Los Angeles'a geri götür"
@@ -17315,6 +18308,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
@@ -17375,6 +18369,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
@@ -17435,6 +18430,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Love me, love me, love me, say you do",
       "tr": "Sev beni, sev beni, sev beni, söyle sevdiğini"
@@ -17493,6 +18489,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I tried my best to not let you go",
       "tr": "Seni bırakmamak için çok çabaladım, inan"
@@ -17553,6 +18550,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I need you",
       "tr": "Sana ihtiyacım var"
@@ -17615,6 +18613,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Don't you let me down",
       "tr": "Beni yüzüstü bırakma,"
@@ -17675,6 +18674,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell me how our love grows",
       "tr": "Söylesene, aşkımız nasıl büyür ki"
@@ -17735,6 +18735,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I can hear the wind blow, even through the window",
       "tr": "Rüzgarın sesini duyuyorum, pencerenin ardından bile"
@@ -17795,6 +18796,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I fell asleep in the tub, I was there with paralysis",
       "tr": "Küvette uyuyakaldım, felç olmuş gibiydim"
@@ -17855,6 +18857,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ah, I get it now",
       "tr": "Ah, şimdi anladım"
@@ -17915,6 +18918,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I can feel it",
       "tr": "Hissedebiliyorum…"
@@ -17977,6 +18981,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "All I have is my legacy",
       "tr": "Tek varlığım mirasım"
@@ -18039,6 +19044,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm over, I'm so over",
       "tr": "Bittim artık, gerçekten bittim"
@@ -18097,6 +19103,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "My father never talked a lot",
       "tr": "Babam hiçbir zaman çok konuşan bir adam olmadı"
@@ -18157,6 +19164,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I tell 'em, \"Down, now\"",
       "tr": "İnsanlara \"Sakin olun şimdi\" diyorum,"
@@ -18215,6 +19223,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "J'ai retrouvé l'sourire quand j'ai vu l'bout du tunnel",
       "tr": "Tünelin ucunu gördüm, gülümsemem geri geldi"
@@ -18273,6 +19282,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm friends with the monster",
       "tr": "Yatağımın altındaki canavarla..."
@@ -18333,6 +19343,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Rainbow roses, fancy ice",
       "tr": "Gökkuşağı gülleri, zarif kristaller,"
@@ -18395,6 +19406,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I got confessions to make",
       "tr": "İtiraf etmem gereken şeyler var"
@@ -18455,6 +19467,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Oh, no, here we go, watch me shake it low",
       "tr": "Yine başlıyor, izle beni, nasıl savuruyorum kendimi"
@@ -18515,6 +19528,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "sugarboo": "Dua Lipa’nın uydurduğu, \"sugar\" (şeker) ve \"boo\" (sevgili) kelimelerinin birleşimi olan sevimli bir hitap. Türkçede bu samimiyeti \"Tatlı belam\" veya \"Biriciğim\" ile karşılayabiliriz.",
       "dance my ass off": "Çok yoğun, enerjik ve kendini kaybederek dans etmek anlamındaki bu argoyu \"pistin tozunu attırmak\" veya \"çatlayana kadar dans etmek\" olarak yerelleştirdik."
@@ -18578,6 +19592,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Il était brun, le teint basané",
       "tr": "O esmerdi, teni güneşte yanmış gibiydi,"
@@ -18636,6 +19651,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I wanna be a rap star",
       "tr": "Rap yıldızı olmak istiyorum"
@@ -18694,6 +19710,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "My life is so unfair",
       "tr": "Hayatım ne kadar adaletsiz"
@@ -18752,6 +19769,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tunnel vision got my eyes on you (On you)",
       "tr": "Sadece sana odaklanmışım, gözüm senden başka bir şey görmüyor (Senden başka)"
@@ -18814,6 +19832,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You fill up my mind 24/7",
       "tr": "Aklım her an, her saniye seninle dolu"
@@ -18874,6 +19893,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Bounce back forever",
       "tr": "Sonsuza dek geri döneceğiz"
@@ -18932,6 +19952,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Je t'aime, je te hais, je t'aime, je te hais",
       "tr": "Seni seviyorum, senden nefret ediyorum, seni seviyorum, senden nefret ediyorum"
@@ -18990,6 +20011,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Santa, tell me if you're really there",
       "tr": "Noel Baba, gerçekten orada mısın, söyle bana"
@@ -19050,6 +20072,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Friends break up, friends get married",
       "tr": "Bazı arkadaşlar ayrılır, bazıları evlenir,"
@@ -19110,6 +20133,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Sometimes, we fly, sometimes, we fall",
       "tr": "Bazen göklere çıkarız, bazen dibe vururuz"
@@ -19170,6 +20194,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Crashing waves, but I'll never fall",
       "tr": "Dalgalar vurur ama ben asla yıkılmam"
@@ -19232,6 +20257,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hey, boy, I'ma get ya",
       "tr": "Hey çocuk, seni tavlayacağım,"
@@ -19267,6 +20293,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Stupid words, lot of bad jokes",
       "tr": "Aptalca sözler ve bir sürü kötü şaka…"
@@ -19327,6 +20354,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Got out of my bed today",
       "tr": "Bugün yatağımdan kalktım"
@@ -19387,6 +20415,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "And it crept up on us, in the way it does",
       "tr": "Her şey sinsice üzerimize geldi, aniden"
@@ -19447,6 +20476,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "We're at a crossroad",
       "tr": "Bir yol ayrımındayız"
@@ -19507,6 +20537,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Say what you want to, babe",
       "tr": "Ne söylersen söyle, sevgilim"
@@ -19567,6 +20598,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Stay a little longer",
       "tr": "Biraz daha kal"
@@ -19627,6 +20659,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "If crying was fun, I'd be having the time of my life",
       "tr": "Ağlamak eğlenceli olsaydı, hayatımın en güzel zamanını geçiriyordum."
@@ -19687,6 +20720,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Standing in the corner of a crowded place",
       "tr": "Kalabalık bir partide bir köşeye çekilmişken"
@@ -19747,6 +20781,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Call this what we are, toxic from the start",
       "tr": "Adını koyalım artık: Başından beri zehirliydik biz"
@@ -19807,6 +20842,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "How did all fall apart?",
       "tr": "Her şey nasıl da paramparça oldu?"
@@ -19867,6 +20903,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Eh-eh, eh-eh, eh-eh",
       "tr": "Bir sorun gördüm, farkındayım"
@@ -19925,6 +20962,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
@@ -19985,6 +21023,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Lie with me",
       "tr": "Gel, şöminenin başında"
@@ -20045,6 +21084,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "God knows",
       "tr": "Tanrı şahit"
@@ -20105,6 +21145,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You say it's changed",
       "tr": "Evet, her şeyin değiştiğini söylüyorsun"
@@ -20165,6 +21206,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Who am I? The revolution",
       "tr": "Ben kimim? Bir devrimim ben"
@@ -20225,6 +21267,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell me that I'm special, tell me I look pretty",
       "tr": "Bana özel olduğumu, güzel göründüğümü söyle"
@@ -20283,6 +21326,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell ell 'em bring it on nun majuchimyeon be gone",
       "tr": "Hodri meydan, gelsin bakalım, gözlerime bakanlar kaçacak"
@@ -20341,6 +21385,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "They will never know the way I feel, won't give up",
       "tr": "Duygularımı asla anlamayacaklar, ama ben pes etmeyeceğim"
@@ -20399,6 +21444,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I want your two hands",
       "tr": "Senin iki elini istiyorum"
@@ -20459,6 +21505,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I bought diamonds at my dentist (Dentist)",
       "tr": "Diş hekimime gidip dişlerime elmas taktırdım (Dişçime)"
@@ -20517,6 +21564,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "The way we move, uh, skin onto skin",
       "tr": "Tenimizin birbirine değdiği o anlar,"
@@ -20575,6 +21623,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Huin nuni naerideon nal",
       "tr": "Seni öylesine çok özledim ki"
@@ -20635,6 +21684,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Suthan gyejeoldeureul neomeo",
       "tr": "Mevsimler geçti bir bir önümden"
@@ -20693,6 +21743,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Swibji anha ne naengjeonggwa",
       "tr": "Senin duyarsızlığınla benim alevli tutkum arasındaki..."
@@ -20751,6 +21802,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Stay sumgyeoljocha dahji anhdeon naui miro stage",
       "tr": "Nefes alamadığım bir labirentteyim"
@@ -20809,6 +21861,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "There's a way",
       "tr": "Bir yol var"
@@ -20867,6 +21920,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Get right",
       "tr": "Kendine çeki düzen ver"
@@ -20925,6 +21979,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Eongdeongi ppang ppang ppang",
       "tr": "Kalçam dolgun dolgun dolgun,"
@@ -20983,6 +22038,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
@@ -21041,6 +22097,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Here's to the ones that we got",
       "tr": "Kadeh kaldıralım dostlar, yanımızda olanlara"
@@ -21099,6 +22156,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Girl, where you at?",
       "tr": "Neredesin sevgilim?"
@@ -21157,6 +22215,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I could go and read your mind",
       "tr": "Zihnini okuyabilirim"
@@ -21217,6 +22276,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "First we rock and that's how we roll",
       "tr": "İlk başta sahnede fırtına gibi estik ve bu bizim nasıl yol aldığımızı gösteriyor"
@@ -21279,6 +22339,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Maybe we should switch careers",
       "tr": "Belki de kariyer değiştirmeliyiz"
@@ -21339,6 +22400,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Er kennt mein'n Nam'n nicht",
       "tr": "Adımı bilmiyor ama"
@@ -21397,6 +22459,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'ma back up every word, yeah",
       "tr": "Söylediğim her sözün arkasındayım"
@@ -21455,6 +22518,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When I dress, I don't think so much",
       "tr": "Giyinirken fazla düşünmem"
@@ -21513,6 +22577,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hear it in your tone",
       "tr": "Ses tonundan anlayabiliyorum"
@@ -21571,6 +22636,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When G.D's in the house (Übermensch)",
       "tr": "GD sahneye çıktığında (Üstün insan burada)"
@@ -21633,6 +22699,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Bota na boca, bota na cara, bota onde quiser",
       "tr": "Ağzıma koy, yüzüme koy, nereye istersen koy"
@@ -21691,6 +22758,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Huh",
       "tr": "Click-clack, topuk sesleri"
@@ -21751,6 +22819,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "watashi wa suta-",
       "tr": "Ben bir yıldızım"
@@ -21811,6 +22880,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "irijeori bappeuge san saramdeul",
       "tr": "(Oradan oraya koşturup duran insanlar"
@@ -21869,6 +22939,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Oh-ah-ah-ah, ah-ah-ah-ah, ah",
       "tr": "Dökecek gözyaşı kalmadı artık"
@@ -21927,6 +22998,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "One look give ‘em Whiplash",
       "tr": "Tek bir bakışımla hepsinin kafası bana döner"
@@ -21985,6 +23057,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Goin' out tonight, changes into something red",
       "tr": "Bu gece dışarı çıkıyor, üstüne kırmızı bir şeyler giymiş"
@@ -22041,6 +23114,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "chaeyeongiya jotaneun raendeom geim",
       "tr": "Chaeyoung, rastgele oyunları gerçekten seviyor"
@@ -22103,6 +23177,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I, never before in my life time",
       "tr": "Ömrümde ilk kez böyle hissediyorum"
@@ -22161,6 +23236,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Do your thang",
       "tr": "Kendi tarzını yansıt"
@@ -22221,6 +23297,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Shinema no naka no twiggy no",
       "tr": "Filmlerdeki Twiggy'nin..."
@@ -22279,6 +23356,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "chamchi",
       "tr": "Ton balığı"
@@ -22339,6 +23417,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Touch, touch, touch, touch, touch",
       "tr": "Dokun, dokun, dokun, dokun, dokun"
@@ -22399,6 +23478,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I-i-i-i-it's a knife when you know they're waitin' for you to choke",
       "tr": "B-b-b-bu bir hançer, biliyorsun ki onlar senin batacağın anı bekliyorlar"
@@ -22461,6 +23541,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I don't care what people say",
       "tr": "Millet ne derse desin, umrumda değil"
@@ -22519,6 +23600,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm tired of being what you want me to be",
       "tr": "Senin istediğin kişi olmaktan çok yoruldum artık"
@@ -22579,6 +23661,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Pretty, pretty, pretty, pretty",
       "tr": "Güzellik, güzellik, güzellik, güzellik"
@@ -22637,6 +23720,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Mon amour",
       "tr": "Aşkım"
@@ -22697,6 +23781,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm trying my best",
       "tr": "Elimden geleni yaptım,"
@@ -22757,6 +23842,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
@@ -22817,6 +23903,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "She knows",
       "tr": "O biliyor"
@@ -22875,6 +23962,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hate to see you go",
       "tr": "Gitmene dayanamıyorum"
@@ -22933,6 +24021,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ladies and gentlemen, theys and thems",
       "tr": "Hanımlar ve beyler, her cinsten dostlar"
@@ -22995,6 +24084,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You know it's all what you wanted",
       "tr": "Hep senin istediğin oldu, biliyorsun."
@@ -23055,6 +24145,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Everybody knows my name now",
       "tr": "Artık herkes adımı biliyor"
@@ -23113,6 +24204,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, you got that yummy-yum",
       "tr": "Evet, sende o albenili tat var"
@@ -23171,6 +24263,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Written in these walls are the stories that I can't explain",
       "tr": "Bu duvarlarda, anlatamadığım nice hikaye saklı"
@@ -23229,6 +24322,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Oh, can you stay awake?",
       "tr": "Bir saat daha uyumasan olmaz mı?"
@@ -23287,6 +24381,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell me somethin' I need to know",
       "tr": "Hadi anlat bana, bilmem gereken ne varsa"
@@ -23347,6 +24442,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Not tryna be indie",
       "tr": "Öyle marjinal takılmaya çalışmıyorum"
@@ -23403,6 +24499,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I love it when you call me señorita",
       "tr": "Bana 'güzelim' demen hoşuma gidiyor"
@@ -23461,6 +24558,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Aren't you somethin' to admire?",
       "tr": "Hayran olunacak bir şey değil misin sen?"
@@ -23521,6 +24619,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah I make it chewy like kkeom jilgeong",
       "tr": "Evet, yapıştırıyorum sakız gibi cakkıdı cakkıdı(1)"
@@ -23581,6 +24680,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "amado nal pyeonhage boneun geot gata",
       "tr": "Galiba beni hafife alıyor"
@@ -23639,6 +24739,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It's fine, it's cool",
       "tr": "Sorun değil, takılma"
@@ -23699,6 +24800,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "annotations": {
       "kaşığın ne ki": "Kore'deki ‘kaşık sınıfı’ söylemine gönderme: altın kaşık ayrıcalıklı, toprak kaşık yoksul aileye doğmayı anlatır. RM, birinin doğduğu sınıfın ona başkasını küçümseme hakkı vermediğini söylüyor.",
       "Çıplak yumruklarını kaldır": "‘Maenjumeok’ silahsız, çıplak yumruk demek. Dize, elinde hiçbir ayrıcalık veya araç olmasa bile mücadeleye bütün gücünle katıl çağrısı yapıyor.",
@@ -23762,6 +24864,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "See you so excited (Mm)",
       "tr": "Görüyorum ki oldukça heyecanlısın"
@@ -23824,6 +24927,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Lock me up and throw away the key",
       "tr": "Beni kilitle ve anahtarı at"
@@ -23884,6 +24988,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Talk to me",
       "tr": "Konuş benimle"
@@ -23940,6 +25045,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I got a dirty mind, I got filthy ways",
       "tr": "Aklım kirli (edepsiz), yollarım da öyle"
@@ -24002,6 +25108,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Do-Do-Do-Do-Do, Doechii and Katy up in the spot",
       "tr": "Do-Do-Do-Do-Do, Doechii ve Katy sahnede"
@@ -24060,6 +25167,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Traffic dies while we are racing home",
       "tr": "Biz eve doğru hızla yol alırken, trafik yavaşlıyor"
@@ -24116,6 +25224,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Sleazin' and teasin', I'm sittin' on him",
       "tr": "Kıvırtıp duruyorum, kışkırtıyorum onu, gidip kucağına oturdum"
@@ -24176,6 +25285,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm always ready for a war again (A war again)",
       "tr": "Tekrardan bir savaşa her daim hazırım (Tekrardan bir savaşa)"
@@ -24238,6 +25348,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "One, two, three, four (One, two, three, four)",
       "tr": "Bir, iki, üç, dört (Bir, iki, üç, dört)"
@@ -24298,6 +25409,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Run, run away deo neujgi jeone gihoereul julge",
       "tr": "Kaç, kaç git, iş işten geçmeden son şansını veriyorum sana"
@@ -24356,6 +25468,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell me the taste ain’t good to ya",
       "tr": "Hadi bu tadın hoşuna gitmediğini söylesene"
@@ -24414,6 +25527,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "iyu eopseo nan saenggin daero chic",
       "tr": "Sebebi yok, olduğum gibi şıkım"
@@ -24472,6 +25586,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
@@ -24530,6 +25645,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When you get older, plainer, saner",
       "tr": "Yaşlanıp, hayatın sıradanlaşmaya ve mantıklı düşünmeye başladığın an"
@@ -24594,6 +25710,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Woah",
       "tr": "Vay be!"
@@ -24654,6 +25771,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Same back roads",
       "tr": "Hep aynı arka sokaklar"
@@ -24714,6 +25832,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'm on the run with you, my sweet love",
       "tr": "Seninle kaçıyoruz sevgilim"
@@ -24774,6 +25893,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Michigo sipeunde",
       "tr": "Çılgınca bir şeyler yapmak istiyorum da"
@@ -24834,6 +25954,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Really, I'm honestly just sad about my shoes",
       "tr": "Valla, cidden sadece ayakkabılarıma üzülüyorum"
@@ -24894,6 +26015,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Molla ije gyehoek ttawin yeong",
       "tr": "Plan mlan hikaye artık, boş ver gitsin"
@@ -24954,6 +26076,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "uri gangajiga neomu bogo sipeo... Siro?",
       "tr": "Ah... Köpeğimi çok özledim... -Siro'yu mu?"
@@ -25012,6 +26135,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Woke up to the TV this morning",
       "tr": "Bu sabah gözümü televizyonla açtım"
@@ -25072,6 +26196,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "geumse neoui dwiro beonjyeooneun Sunset",
       "tr": "Arkanda pat diye beliren gün batımı"
@@ -25132,6 +26257,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "neowa nuni majuchin sungane",
       "tr": "Gözlerimiz buluştuğu o an"
@@ -25192,6 +26318,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Maengsehaetdeon neowa na",
       "tr": "Seninle ettiğimiz o yeminler var ya"
@@ -25252,6 +26379,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Suit up ttwieodeulji",
       "tr": "Hadi giyinip hazırlanıp, dalalım işin içine!"
@@ -25312,6 +26440,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "alram eopi nun tteun nal",
       "tr": "Bugün alarmı kurmadım, kendi kendine açıldı gözlerim"
@@ -25372,6 +26501,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "urineun jigeum unmyeong gateun",
       "tr": "Sanki kader gibi bir sonun..."
@@ -25432,6 +26562,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "When my eyes are on you",
       "tr": "Gözlerim sana kilitlendiğinde"
@@ -25490,6 +26621,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You make me wanna",
       "tr": "Bir şeyler yapma isteği uyandırıyorsun"
@@ -25550,6 +26682,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Things fall apart",
       "tr": "Her şey darmadağın oldu"
@@ -25610,6 +26743,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Wenn du jetzt gehst, nie wieder kämst",
       "tr": "Şimdi kalkıp gitsen ve bir daha da geri dönmesen"
@@ -25670,6 +26804,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Act like an angel and dress like crazy",
       "tr": "Melek gibi davran, çılgınca giyin"
@@ -25730,6 +26865,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Broken traffic lights",
       "tr": "Bozuk trafik lambaları"
@@ -25790,6 +26926,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I was a liar, I gave in to the fire",
       "tr": "Yalancıydım, ateşe teslim oldum"
@@ -25846,6 +26983,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I've been hearin' symphonies",
       "tr": "Bir süredir senfoniler duyuyorum"
@@ -25904,6 +27042,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hey, hey",
       "tr": "Hey, hey"
@@ -25964,6 +27103,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "You, you love it how I move you",
       "tr": "Sen, seni harekete geçirişimi seviyorsun"
@@ -26022,6 +27162,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Jal naganeun aidol raeppeo geu imyeone",
       "tr": "Başarılı ve popüler bir idol rapçinin ardında"
@@ -26082,6 +27223,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I know I have good judgment, I know I have good taste",
       "tr": "İyi bir muhakeme yeteneğim olduğunu biliyorum, iyi bir zevkim olduğunu biliyorum"
@@ -26140,6 +27282,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, hit the gas, ignite it, she sniffs gasoline (She sniffs gasoline)",
       "tr": "Hadi bakalım, bas gaza, ateşle gitsin, kız benzin kokluyor (Kız benzin kokluyor)"
@@ -26200,6 +27343,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "In the morning when you wake up",
       "tr": "Sabah gözlerini açtığında"
@@ -26260,6 +27404,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(I won't give a fuck about you)",
       "tr": "(Seni takmayacağım bile)"
@@ -26320,6 +27465,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Oh, I leave quite an impression",
       "tr": "Oh, öyle bir iz bırakmışım ki ardımda"
@@ -26380,6 +27526,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Sak pasé!",
       "tr": "Naber?"
@@ -26438,6 +27585,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "“ireum, ireum!” sorry bae",
       "tr": "\"İsmin, ismin!\" özür dilerim bebeğim"
@@ -26500,6 +27648,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Niga mueoseul hadeun I will kill for",
       "tr": "Ne yaparsan yap, ben öldürürüm uğruna"
@@ -26560,6 +27709,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I can read your mind",
       "tr": "Aklını okuyabilirim"
@@ -26616,6 +27766,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, Yeah",
       "tr": "Hadi, hadi"
@@ -26676,6 +27827,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah yeah yeah, drop.",
       "tr": "Evet, evet, evet, şarkı başlasın"
@@ -26736,6 +27888,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Damn hipbusim, aidol raeppeo? Cut that bulssi",
       "tr": "Lanet olası hip-hop ha, idol rapçi mi? Kes şu zırvaları!"
@@ -26796,6 +27949,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "(Wock)",
       "tr": "Hop"
@@ -26854,6 +28008,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "There's a whisper in the night",
       "tr": "Gecenin koynunda bir fısıltı dolanıyor"
@@ -26912,6 +28067,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Ooh, ah",
       "tr": "Ooh, ah"
@@ -26970,6 +28126,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "It ain't my fault you keep turnin' me on",
       "tr": "Beni sürekli tahrik etmen benim suçum değil"
@@ -27030,6 +28187,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I said I'm geeked and I’m fired up (Fired, fire)",
       "tr": "Dedim ki kafam bi' milyon, içim alev alev yanıyor (Yanıyor, ateş)"
@@ -27086,6 +28244,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I, I just woke up from a dream",
       "tr": "Az önce bir rüyadan uyandım"
@@ -27142,6 +28301,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Tell 'em to shoot",
       "tr": "Hadi söyle sıksınlar kurşunları!"
@@ -27200,6 +28360,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Stuntin' on me, you get exposed (Woo)",
       "tr": "Bana hava atmaya kalk, bak bakalım nasıl rezil oluyorsun"
@@ -27256,6 +28417,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I want you to stay",
       "tr": "Yanımda kalmanı istiyorum"
@@ -27314,6 +28476,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Here I go",
       "tr": "Hadi bakalım başlıyorum!"
@@ -27372,6 +28535,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "La, la, la, la, la",
       "tr": "Kahvaltıda şampanya içiyoruz, geceyi iyi geceler öpücüğü ile sonlandırıyoruz"
@@ -27428,6 +28592,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Take your eyes off of me so I can leave",
       "tr": "Gözlerini benden çek ki gidebileyim"
@@ -27482,6 +28647,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I took a page out of your favorite book",
       "tr": "En sevdiğin kitaptan bir sayfa kopardım"
@@ -27538,6 +28704,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
@@ -27594,6 +28761,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Gold teeth sittin' on the dash, she a rockstar",
       "tr": "Göstergede altın dişler var, ah bu kız tam bir rock yıldızı"
@@ -27652,6 +28820,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hoffentlich",
       "tr": "Umarım"
@@ -27708,6 +28877,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Boom, boom, chk, chk, boom",
       "tr": "Boom, boom, chk, chk, boom"
@@ -27764,6 +28934,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Opened up my journal to a page",
       "tr": "Günlüğümden bir sayfa açtım"
@@ -27820,6 +28991,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "I'll love you for, I'll love you for life",
       "tr": "Seni bir ömür, bir ömür boyu seveceğim"
@@ -27880,6 +29052,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Last week, I found a message in a bottle",
       "tr": "Geçen hafta şişede bir mesaj buldum"
@@ -27936,6 +29109,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Hey, Billie, you there?",
       "tr": "Hey Billie, orada mısın?"
@@ -27992,6 +29166,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "Now he's thinkin' 'bout me every night, oh",
       "tr": "Şimdi her gece beni düşünüyor, oh"
@@ -28052,6 +29227,7 @@
       }
     },
     "youtubeUrl": null,
+    "youtubeEmbedDisabled": false,
     "firstPair": {
       "en": "We never met, but she's all I see at night",
       "tr": "Hiç tanışmadık ama geceleri gördüğüm tek kişi o"

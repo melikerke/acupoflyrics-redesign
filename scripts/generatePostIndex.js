@@ -131,6 +131,7 @@ const index = posts.map((post) => ({
   // seo/oldUrl intentionally omitted — only the prerender script needs them,
   // and it reads src/data/posts.json directly. Keeps the JS bundle slim.
   youtubeUrl: post.youtubeUrl,
+  youtubeEmbedDisabled: Boolean(post.youtubeEmbedDisabled),
   annotations: post.annotations,
   difficulty_note: post.difficulty_note,
   firstPair: firstPair(post),

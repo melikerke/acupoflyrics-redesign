@@ -886,6 +886,13 @@ function DetailVideo({ post, embedUrl, onRead }) {
   const youtubeUrl = post.youtubeUrl || post.youtube?.url;
   const videoId = embedUrl.match(/\/embed\/([A-Za-z0-9_-]+)/)?.[1];
   const thumbnail = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : post.cover;
+  const facade = (
+    <>
+      <img src={thumbnail} alt="" loading="lazy" decoding="async" />
+      <span aria-hidden><i /></span>
+      <strong>{post.youtubeEmbedDisabled ? "YouTube'da izle" : "Videoyu oynat"}</strong>
+    </>
+  );
   return (
     <section className="detail-video-section" aria-label="Video ve çeviri">
       <div className="detail-video-copy">
@@ -900,7 +907,17 @@ function DetailVideo({ post, embedUrl, onRead }) {
         </div>
       </div>
       <div className="detail-video-frame">
-        {playing ? (
+        {post.youtubeEmbedDisabled && youtubeUrl ? (
+          <a
+            className="detail-video-facade"
+            href={youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${post.artist} - ${post.song} videosunu YouTube'da aç`}
+          >
+            {facade}
+          </a>
+        ) : playing ? (
           <iframe
             src={`${embedUrl}?autoplay=1&rel=0`}
             title={`${post.artist} - ${post.song} video`}
@@ -914,9 +931,7 @@ function DetailVideo({ post, embedUrl, onRead }) {
             onClick={() => setPlaying(true)}
             aria-label={`${post.artist} - ${post.song} videosunu oynat`}
           >
-            <img src={thumbnail} alt="" loading="lazy" decoding="async" />
-            <span aria-hidden><i /></span>
-            <strong>Videoyu oynat</strong>
+            {facade}
           </button>
         )}
       </div>

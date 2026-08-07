@@ -1225,6 +1225,7 @@ body {
   background: #000;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .detail-video-facade::after {

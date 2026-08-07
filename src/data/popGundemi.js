@@ -1,5 +1,280 @@
 export const popGundemiArticles = [
   {
+    slug: "stray-kids-this-and-that-albumu-yayimlandi",
+    title: "Stray Kids kalıpları yine karıştırıyor: Sekiz şarkılık THIS & THAT yayımlandı",
+    shortTitle: "Stray Kids — THIS & THAT yayımlandı",
+    kicker: "Yeni müzik",
+    date: "2026-08-07",
+    updatedAt: "2026-08-07T19:15:00+03:00",
+    readTime: "5 dk",
+    image: "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0237f636fa384b48481241cbd3",
+    imageAlt: "Stray Kids THIS & THAT mini albüm kapağı",
+    imageCredit: "Stray Kids · JYP Entertainment",
+    accent: "#718779",
+    artistSlug: "stray-kids",
+    artistName: "Stray Kids",
+    excerpt:
+      "Stray Kids'in sekiz parçalık yeni mini albümü THIS & THAT bugün yayımlandı. Grup bu kez yüksek enerjili RUN IT ile daha rahat akan başlık parçasını aynı projede buluşturuyor.",
+    dek:
+      "Adı boşuna THIS & THAT değil: Bir tarafta büyük sahnelere koşan Stray Kids, diğer tarafta ayrılık, geçmiş ve büyüme üzerine daha sakin duran bir grup var. İlk dinleyişte öne çıkanları ve sekiz parçalık çeviri arşivini topladık.",
+    pullQuote:
+      "THIS & THAT, Stray Kids'in tek bir ses seçmek yerine zıt enerjileri aynı albümde taşıyabileceğini göstermek üzerine kurulu.",
+    relatedTranslations: [
+      "stray-kids-run-it-turkce-ceviri",
+      "stray-kids-this-and-that-turkce-ceviri",
+      "stray-kids-after-you-turkce-ceviri",
+      "stray-kids-farming-turkce-ceviri",
+      "stray-kids-i-do-turkce-ceviri",
+      "stray-kids-way-out-turkce-ceviri",
+      "stray-kids-back-then-turkce-ceviri",
+      "stray-kids-this-and-that-festival-version-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "7 Ağustos 2026 itibarıyla",
+      title: "Albüm kartı",
+      items: [
+        { label: "Yayın", text: "THIS & THAT bugün saat 13.00 KST'de dijital platformlarda yayımlandı." },
+        { label: "İçerik", text: "Mini albüm 8 şarkıdan oluşuyor ve toplam 25 dakika sürüyor." },
+        { label: "Çeviri arşivi", text: "Albümdeki sekiz şarkının tamamı Türkçe çeviri ve romanize sözlerle arşive eklendi." },
+      ],
+    },
+    summary: [
+      "JYP'nin duyurduğu takvime uygun olarak Stray Kids'in THIS & THAT mini albümü 7 Ağustos'ta yayımlandı.",
+      "Albüm sekiz şarkı ve yaklaşık 25 dakikadan oluşuyor; yazım tarafının merkezinde yine Bang Chan, Changbin ve HAN'dan oluşan 3RACHA var.",
+      "RUN IT grubun yüksek enerjili, sahneye dönük tarafını açarken başlık parçası This & That daha rahat ve akışkan bir çizgi izliyor.",
+      "After You, Way Out ve Back Then daha duygusal bir hatta; I Do ile FARMING ise albümün daha sert ve oyunbaz tarafında duruyor.",
+    ],
+    sections: [
+      {
+        heading: "THIS & THAT artık yayında — elimizde ne var?",
+        body: [
+          "Stray Kids'in 2026'daki ilk albüm projesi bugün dijital platformlara geldi. THIS & THAT, sekiz şarkıyı 25 dakikalık kompakt bir akışta topluyor. Albümün adı da grubun bu dönemdeki niyetini oldukça açık anlatıyor: Yalnızca 'şu' ya da yalnızca 'bu' olmak zorunda değiller.",
+          "JYP'nin ilk takviminde yayın saati 7 Ağustos 13.00 KST olarak açıklanmıştı. Albüm şu anda Spotify ve Apple Music'te erişilebilir; başlık parçası This & That da üç dakika beş saniyelik süresiyle yayında.",
+        ],
+      },
+      {
+        heading: "RUN IT ile This & That neden birbirine zıt hissettiriyor?",
+        body: [
+          "Albüm açılışındaki RUN IT, Stray Kids'in prova odasından büyük sahnelere uzanan yoluna bakan, bakır üflemelilerle büyüyen bir marş gibi çalışıyor. Grubun yüksek enerjili performans tarafını doğrudan öne çıkarıyor.",
+          "Başlık parçası This & That ise MANIAC ya da Chk Chk Boom gibi daha sert çıkışlara kıyasla belirgin biçimde rahat akıyor. Bu karşıtlık albümün hatası değil, ana fikri: Stray Kids aynı proje içinde hem koşabiliyor hem de ritmi geri çekip daha serinkanlı durabiliyor.",
+        ],
+      },
+      {
+        heading: "Albümün daha sakin tarafında neler var?",
+        body: [
+          "After You elektronik pop dokulu bir ayrılık şarkısına, Way Out ise R&B çizgisinde bir vedaya yaklaşıyor. Back Then geçmişe daha nostaljik bakan bir balad olarak albümün temposunu yumuşatıyor.",
+          "Öte yandan I Do ve FARMING, grubun daha sert, mizahi ve güncel dil kullanan tarafını koruyor. Özellikle FARMING modern çalışma ve sürekli üretme baskısını internet kuşağının sözlüğüyle ele alıyor. Böylece albüm yalnızca ses olarak değil, anlattığı meselelerde de iki farklı yöne açılıyor.",
+        ],
+      },
+      {
+        heading: "3RACHA damgası yine merkezde",
+        body: [
+          "Bang Chan, Changbin ve HAN'dan oluşan 3RACHA, albümün yazım omurgasını taşıyor. Bu önemli; çünkü THIS & THAT'ın 'her tür şeyi yapabiliriz' özgüveni dışarıdan kurulmuş bir konseptten çok, grubun kendi deneyimlerine dayanıyor.",
+          "Sekiz yıllık yolculuk, sahne büyüklüğü, ayrılıklar, geride bırakılan dönemler ve sürekli yeni bir yön arama fikri aynı kısa albümün içinde dolaşıyor. Sonuç, tek bir büyük slogan yerine farklı ruh hallerinden oluşan daha hareketli bir portre.",
+        ],
+      },
+      {
+        heading: "Sekiz şarkının çevirisi de arşivde",
+        body: [
+          "RUN IT, This & That, After You, FARMING, I Do, Way Out, Back Then ve festival versiyonu için hazırlanan Türkçe çeviriler yayında. Korece bölümler Latin alfabesiyle romanize edildi; şarkılardaki kültürel ifadeler ve kelime oyunları da satır açıklamalarına taşındı.",
+          "Aşağıdaki 'Radardan çeviri arşivine' alanı albüm sırasını izliyor. Her sayfada resmi YouTube videosu, Spotify bağlantısı, albüm bilgileri ve seçili ifadelerin kısa açıklamaları birlikte bulunuyor.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "THIS & THAT", status: "Yayında", detail: "Sekiz şarkılık mini albüm 7 Ağustos'ta JYP Entertainment etiketiyle yayımlandı." },
+      { name: "8 / 8 çeviri", status: "Yayına hazır", detail: "Albümdeki bütün parçalar romanize sözler, Türkçe çeviri ve resmi dinleme bağlantılarıyla eklendi." },
+      { name: "Bağlantılar", status: "Tamamlandı", detail: "Spotify albümü ile resmi YouTube oynatma listesindeki sekiz video sayfalara eşleştirildi." },
+    ],
+    sources: [
+      { name: "JYP Entertainment — THIS & THAT yayın duyurusu", url: "https://straykids.jype.com/Default/NoticeView?AnSeq=7089&NoticeNumber=1362" },
+      { name: "Apple Music — albüm notları ve parça bilgileri", url: "https://music.apple.com/us/album/this-that/6781751949" },
+      { name: "Spotify — THIS & THAT", url: "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy" },
+      { name: "LOS40 — 7 Ağustos yeni müzik seçkisi", url: "https://los40.com/2026/08/07/karol-g-stray-kids-sam-smith-ryan-castro-y-feid-dan-la-bienvenida-a-agosto-con-sus-nuevas-canciones/" },
+    ],
+    storyShare:
+      "Stray Kids'in sekiz şarkılık THIS & THAT mini albümü yayımlandı. RUN IT'ten daha sakin başlık parçasına, ilk dinleme notları ve sekiz şarkının Türkçe çeviri arşivi Pop Günlüğü'nde.",
+  },
+  {
+    slug: "blackpink-10-yil-bulusmasi-kimler-katilacak",
+    title: "BLACKPINK 10. yıl buluşmasına tam kadro geliyor — dört üyenin katılımı doğrulandı",
+    shortTitle: "BLACKPINK 10. yıl buluşmasına tam kadro geliyor",
+    kicker: "K-pop gündemi",
+    date: "2026-08-06",
+    updatedAt: "2026-08-07T14:35:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056",
+    imageAlt: "BLACKPINK üyeleri",
+    imageCredit: "BLACKPINK · YG Entertainment",
+    accent: "#e25a9d",
+    artistSlug: "blackpink",
+    artistName: "BLACKPINK",
+    excerpt:
+      "YG Entertainment, BLACKPINK'in 8 Ağustos'taki 10. yıl buluşmasına Jisoo, Jennie, Rosé ve Lisa'nın birlikte katılacağını doğruladı. Etkinlik Seul'de seçilen 40 hayranla yapılacak.",
+    dek:
+      "Dünkü ilk duyurudaki 'seçili üyeler' ifadesi büyük bir soru işareti yaratmıştı. Bugün tablo değişti: YG, dört üyenin de programlarını koordine ettiğini ve yıldönümü buluşmasında birlikte olacağını açıkladı.",
+    pullQuote:
+      "Belirsizlik bir gün sürdü: 8 Ağustos'ta Jisoo, Jennie, Rosé ve Lisa aynı yıldönümü buluşmasında olacak.",
+    relatedTranslations: [
+      "blackpink-jump-turkce-ceviri",
+      "blackpink-champion-turkce-ceviri",
+      "blackpink-fxxxboy-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "7 Ağustos 2026 güncellemesi",
+      title: "Son durum",
+      items: [
+        { label: "Tarih", text: "Buluşma 8 Ağustos Cumartesi öğleden sonra Seul'de yapılacak." },
+        { label: "Kontenjan", text: "Uygun üyelik sahipleri arasından kura ile yalnızca 40 kişi seçilecek." },
+        { label: "Üye katılımı", text: "YG Entertainment, Jisoo, Jennie, Rosé ve Lisa'nın dördünün de etkinlikte olacağını doğruladı." },
+      ],
+    },
+    summary: [
+      "BLACKPINK'in resmi Weverse duyurusuna göre 10. yıl buluşması, grubun çıkış tarihi olan 8 Ağustos'ta Seul'de düzenlenecek.",
+      "Etkinliğe 31 Temmuz'a kadar üyeliğini tamamlamış Weverse Membership sahipleri başvurabiliyor ve katılımcılar kura ile belirlenecek.",
+      "Toplam kontenjan 40 kişi; kazananların 7 Ağustos sabahı açıklanması planlanıyor.",
+      "İlk Weverse metnindeki 'seçili üyeler' ifadesinin aksine YG, 7 Ağustos'ta Jisoo, Jennie, Rosé ve Lisa'nın tam kadro katılımını doğruladı.",
+    ],
+    sections: [
+      {
+        heading: "Tam olarak ne duyuruldu?",
+        body: [
+          "YG Entertainment, BLACKPINK'in resmi Weverse sayfasında 10. yıl dönümüne özel bir meet & greet duyurdu. Etkinlik 8 Ağustos Cumartesi öğleden sonra Seul'de yapılacak; kesin konum ise yalnızca seçilen kişilere bildirilecek.",
+          "Başvuru penceresi oldukça kısa: 6 Ağustos günü 13.00–22.00 KST arasında açık. Uygun başvurular arasından rastgele seçilecek 40 kişi, sonucu 7 Ağustos sabahı Weverse üzerinden görebilecek.",
+        ],
+      },
+      {
+        heading: "Güncelleme: Dört üye de katılacak",
+        body: [
+          "6 Ağustos'taki ilk resmi metin, etkinliğe programlarına bağlı olarak 'seçili BLACKPINK üyelerinin' katılacağını söylüyordu. Bir gün sonra YG Entertainment belirsizliği kaldırdı: Jisoo, Jennie, Rosé ve Lisa'nın dört üyeli tam kadro olarak buluşmada yer alacağı doğrulandı.",
+          "YG'ye dayandırılan 7 Ağustos tarihli habere göre üyeler, yoğun bireysel takvimlerine rağmen 10. yıl dönümünü hayranlarla birlikte geçirmek için programlarını koordine etti. Böylece özellikle Rosé ve Lisa'nın katılımı etrafında dolaşan doğrulanmamış iddialar da geçerliliğini yitirdi.",
+        ],
+      },
+      {
+        heading: "Neden yalnızca 40 kişi?",
+        body: [
+          "Duyuruda etkinliğin neden bu kadar sınırlı tutulduğu açıklanmıyor. Bildiğimiz tek şey, bunun üyelik doğrulaması ve fiziksel kimlik kontrolüyle yürütülecek küçük ölçekli bir buluşma olduğu. 15 yaşından küçük hayranlar da etkinliğe kabul edilmeyecek.",
+          "Dolayısıyla bu, geniş kitleye açık bir yıldönümü konseri ya da çevrim içi yayın duyurusu değil. Etkinlikten çekilecek görüntülerin ileride YouTube veya sosyal medya içeriklerinde kullanılabileceği belirtiliyor; ancak herkesin izleyebileceği canlı yayın için şu anda verilmiş bir söz yok.",
+        ],
+      },
+      {
+        heading: "Peki 10. yıl için başka neler var?",
+        body: [
+          "YG daha önce üyelik sahipleri için özel Weverse rozeti ve fan mektubu şablonu hazırladığını duyurmuştu. BLACKPINK ile Kore Ulusal Müzesi markası MU:DS arasındaki Heritage Collection da 8 Ağustos'ta ön satışa açılacak.",
+          "Bunlar yıldönümü takvimini boş bırakmıyor, ama yeni müzik ya da tam kadrolu bir grup yayını anlamına da gelmiyor. Böyle bir duyuru gelirse bu dosyayı doğrulanmış bilgilerle güncelleyeceğiz.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "On yıl, özellikle K-pop gibi çok hızlı dönen bir endüstride gerçekten büyük bir eşik. BLACKPINK'in dünya çapındaki etkisi düşünülünce kutlamanın yalnızca 40 kişilik bir buluşmayla sınırlı görünmesi doğal olarak soru işareti yaratıyor.",
+          "Dünkü temkinli cümlemizi bugün güzel bir gelişmeyle değiştirebiliyoruz: Buluşma, tarih, 40 kişilik kontenjan ve dört üyenin katılımı artık kesin. Herkese açık canlı yayın ise hâlâ duyurulmuş değil.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "10. yıl buluşması", status: "Resmen duyuruldu", detail: "8 Ağustos öğleden sonra Seul'de, 40 hayranın katılımıyla gerçekleştirilecek." },
+      { name: "Dört üyeli katılım", status: "Doğrulandı", detail: "Jisoo, Jennie, Rosé ve Lisa programlarını koordine ederek etkinliğe birlikte katılacak." },
+      { name: "Canlı yayın", status: "Duyurulmadı", detail: "Herkese açık bir yayın ya da tam kadrolu yıldönümü programı şu an için açıklanmış değil." },
+    ],
+    sources: [
+      { name: "BLACKPINK Weverse — 10. yıl buluşması duyurusu", url: "https://weverse.io/blackpink/notice/38157" },
+      { name: "TV Daily / Naver — YG'nin tam kadro katılım doğrulaması", url: "https://m.entertain.naver.com/home/article/440/0000040140" },
+      { name: "YG Entertainment — BLACKPINK profil ve çıkış tarihi", url: "https://www.ygfamily.com/en/artists/blackpink/profile" },
+      { name: "YG Entertainment — BLACKPINK diskografi", url: "https://www.ygfamily.com/en/artists/blackpink/discography" },
+    ],
+    storyShare:
+      "BLACKPINK'in 10. yıl buluşması 8 Ağustos'ta Seul'de yapılacak. YG Entertainment, Jisoo, Jennie, Rosé ve Lisa'nın 40 hayranla gerçekleşecek etkinliğe birlikte katılacağını doğruladı.",
+  },
+  {
+    slug: "rein-me-in-19-hafta-uk-liste-rekoru",
+    title: "Rein Me In 73 yıllık Birleşik Krallık rekorunu kırdı — peki 19 hafta tam olarak ne demek?",
+    shortTitle: "Rein Me In'in 19 haftalık tarihi rekoru",
+    kicker: "Liste günlüğü",
+    date: "2026-08-06",
+    updatedAt: "2026-08-06T13:10:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273ae318205b51b71541a2df121",
+    imageAlt: "Sam Fender ve Olivia Dean'in Rein Me In single kapağı",
+    imageCredit: "Sam Fender & Olivia Dean · Polydor Records",
+    accent: "#9f7454",
+    artistName: "Sam Fender & Olivia Dean",
+    excerpt:
+      "Sam Fender ve Olivia Dean'in Rein Me In'i, Birleşik Krallık'ta toplam 19 haftaya ulaşarak 1953'ten beri kırılamayan bir numara rekorunu geçti. Ancak bu 19 hafta kesintisiz değil.",
+    dek:
+      "Bir şarkı yavaş yavaş büyüdü, zirveye çıktı, yerini kaybetti ve yeniden döndü. Sonunda 73 yıllık rekoru aldı. Rein Me In'in sıra dışı liste yolculuğunu rakamları birbirine karıştırmadan açıyoruz.",
+    pullQuote:
+      "Rein Me In'in hikâyesi ani bir viral patlama değil; 35 haftalık tırmanışın ardından defalarca zirveye dönebilen çok uzun bir dinleyici bağlılığı.",
+    relatedTranslations: [
+      "sam-fender-olivia-dean-rein-me-in-turkce-ceviri",
+      "olivia-dean-man-i-need-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "6 Ağustos 2026 itibarıyla",
+      title: "Rekorun doğru okuması",
+      items: [
+        { label: "Yeni rekor", text: "Rein Me In, UK Singles Chart'ta toplam 19 hafta bir numarada kaldı." },
+        { label: "Geçilen isim", text: "Frankie Laine'in I Believe ile 1953'te biriktirdiği toplam 18 haftalık rekor geride kaldı." },
+        { label: "Kesintisiz seri", text: "En uzun aralıksız bir numara serisi hâlâ Bryan Adams'ın 16 haftalık (Everything I Do) I Do It for You rekoru." },
+      ],
+    },
+    summary: [
+      "Rein Me In, farklı dönemlerde yeniden zirveye çıkarak UK Singles Chart'ta toplam 19 hafta bir numara oldu.",
+      "Böylece Frankie Laine'in I Believe ile 1953'te ulaştığı toplam 18 haftalık tüm zamanlar rekorunu bir hafta geçti.",
+      "19 hafta kesintisiz yaşanmadığı için Bryan Adams'ın 1991'deki 16 haftalık aralıksız zirve rekoru hâlâ ayrı bir başlık olarak duruyor.",
+      "Şarkı zirveye hızlı çıkmadı: Official Charts'a göre bir numaraya ulaşmadan önce Top 40 içinde 35 haftalık rekor bir tırmanış yaşadı.",
+    ],
+    sections: [
+      {
+        heading: "Önce manşeti doğru kuralım: 19 hafta toplam süre",
+        body: [
+          "Rein Me In artık Birleşik Krallık resmi single listesinin toplamda en uzun süre bir numarada kalan şarkısı. Sam Fender ve Olivia Dean ortaklığı, zirvede biriktirdiği 19 haftayla Frankie Laine'in 1953 tarihli I Believe rekorunu geçti.",
+          "Buradaki anahtar kelime 'toplam'. Şarkı 19 haftayı baştan sona kesintisiz bir seri halinde geçirmedi; farklı haftalarda zirveden inip yeniden döndü. Bu yüzden 'Birleşik Krallık'ta en uzun aralıksız bir numara' rekoru hâlâ Bryan Adams'ın 1991'de 16 hafta üst üste zirvede kalan (Everything I Do) I Do It for You şarkısına ait.",
+        ],
+      },
+      {
+        heading: "Bu başarıyı asıl ilginç yapan şey yavaş büyümesi",
+        body: [
+          "Rein Me In bir numaradan giriş yapan, tek haftada her yeri kaplayan bir şarkı değildi. Sam Fender'ın People Watching albümündeki parçanın Olivia Dean'li düet versiyonu Haziran 2025'te yayımlandı ve liste içinde aylarca büyüdü.",
+          "Official Charts, şarkının bir numaraya ulaşmadan önce Top 40'ta art arda 35 hafta geçirdiğini kaydediyor. Bu da zirveye giden en uzun kesintisiz Top 40 tırmanışı olarak ayrı bir rekor. Kısacası şarkının bugünkü 19 haftası, bir gecelik viral şansın değil, katman katman genişleyen bir dinleyici kitlesinin sonucu.",
+        ],
+      },
+      {
+        heading: "Lollapalooza anı neden rekorun parçası oldu?",
+        body: [
+          "Olivia Dean, 2 Ağustos'taki Lollapalooza setinde Sam Fender'ı sahneye çağırdı ve ikili Rein Me In'i Amerika'da ilk kez birlikte canlı söyledi. Rekor haberinin hemen ardından gelen bu performans, şarkının Birleşik Krallık sınırlarını aşan kutlama anına dönüştü.",
+          "Dean sahnede 19 haftalık başarıya dikkat çekerken Fender da Official Charts'a yaptığı açıklamada sonuca inanamadığını ve Olivia Dean ile dinleyicilere teşekkür ettiğini söyledi. Bizim için asıl güzel tarafı, düetin kayıttaki kontrollü geriliminin sahnede daha büyük ve ortak bir şarkıya dönüşmesi.",
+        ],
+      },
+      {
+        heading: "Neden hâlâ bu kadar güçlü?",
+        body: [
+          "Şarkı pop, soul ve gitar müziği arasında rahat bir köprü kuruyor. Sam Fender'ın hızlanmak isteyen anlatısı ile Olivia Dean'in daha yumuşak ama sınır çizen cevabı, nakaratı basit bir romantik düetten çıkarıyor. 'Beni dizginleme' cümlesi hem yakınlık isteği hem de kontrol edilme korkusu taşıyor.",
+          "Bu ikili okuma, şarkının farklı dinleyicilere farklı kapılardan ulaşmasını sağlıyor. Bir tarafında stadyumda birlikte söylenecek kadar büyük bir nakarat, diğer tarafında satır satır açıldığında kişisel kalan bir ilişki gerilimi var.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "Liste rekorları bazen kuru bir sayı gibi gelebiliyor; Rein Me In ise bunun tersini anlatıyor. 35 haftada zirveye tırmanıp farklı dalgalarda yeniden bir numaraya dönebilmek, şarkının dinleyiciyle bağının tek bir kampanyadan çok daha uzun sürdüğünü gösteriyor.",
+          "Üstelik Türkçe çevirisi arşivimizde hazır. Rekoru gördükten sonra şarkıya geri dönerseniz, başlıktaki 'rein me in' ifadesinin neden hem duygusal hem fiziksel bir fren hissi taşıdığını daha net duyacaksınız.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Toplam zirve süresi", status: "Yeni tüm zamanlar rekoru", detail: "19 hafta; Frankie Laine'in 1953'ten kalan 18 haftalık toplamını geçti." },
+      { name: "Kesintisiz zirve", status: "Rekor Bryan Adams'ta", detail: "Rein Me In'in haftaları kesintili; 16 haftalık aralıksız seri ayrı bir rekor olarak duruyor." },
+      { name: "Çeviri", status: "Arşivde hazır", detail: "Rein Me In'in Türkçe çevirisi ve başlık ifadesinin anlam notu acupoflyrics'te bulunuyor." },
+    ],
+    sources: [
+      { name: "Official Charts — Rein Me In liste geçmişi", url: "https://www.officialcharts.com/songs/sam-fender-rein-me-in/" },
+      { name: "Official Charts — bir numaraya 35 haftalık tırmanış", url: "https://www.officialcharts.com/chart-news/sam-fender-olivia-dean-rein-me-in-number-1-single-official-chart-record/" },
+      { name: "MusicRadar — rekor ve Lollapalooza performansı", url: "https://www.musicradar.com/artists/singles-albums/it-only-felt-right-that-we-played-it-for-the-first-time-in-america-with-the-man-himself-olivia-dean-puts-sam-fender-in-the-lollapalooza-spotlight-as-he-joins-her-to-sing-the-song-thats-just-broken-a-long-standing-uk-chart-record" },
+    ],
+    storyShare:
+      "Sam Fender ve Olivia Dean'in Rein Me In'i, UK Singles Chart'ta toplam 19 haftayla 73 yıllık rekoru kırdı. 19 haftanın neden kesintisiz bir seri olmadığını ve şarkının 35 haftalık tırmanışını Pop Günlüğü'nde açtık.",
+  },
+  {
     slug: "agustos-2026-asya-muzik-radari",
     layout: "radar",
     issue: "Dosya 01",
@@ -8,7 +283,7 @@ export const popGundemiArticles = [
     shortTitle: "Ağustos Asya müzik radarı",
     kicker: "Asya müzik radarı",
     date: "2026-08-03",
-    updatedAt: "2026-08-03T16:10:00+03:00",
+    updatedAt: "2026-08-07T15:20:00+03:00",
     readTime: "5 dk",
     image: "https://i.scdn.co/image/ab67616d0000b27315175a3af8eb08dbc8c77a31",
     imageAlt: "KISS OF LIFE üyelerinin Igloo albüm görseli",
@@ -22,31 +297,32 @@ export const popGundemiArticles = [
     pullQuote:
       "Tek bir comeback haftası değil; Ağustos'un tamamına yayılan, her durağında başka bir pop dünyası açan bir yayın zinciri.",
     relatedTranslations: [
+      "cortis-redred-turkce-ceviri",
       "kiss-of-life-igloo-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
       "bts-swim-turkce-ceviri",
     ],
     livePanel: {
-      label: "3 Ağustos 2026 itibarıyla",
-      title: "Takvime hemen ekle",
+      label: "7 Ağustos 2026 güncellemesi",
+      title: "Takvimde son durum",
       items: [
-        { label: "4 Ağustos", text: "KISS OF LIFE — SWEAT ve TWS — Soda Soda" },
+        { label: "Şimdi yayında", text: "KISS OF LIFE — SWEAT, TWS — Soda Soda ve Stray Kids — THIS & THAT" },
         { label: "10–14 Ağustos", text: "KiiiKiii — WhyKiiiKiii, WayV — Vision Wings ve KATSEYE — WILD" },
         { label: "Ayın finali", text: "NCT 127 — BLINGY 24 Ağustos'ta, Taemin — Soft Violence 31 Ağustos'ta" },
       ],
     },
     summary: [
-      "KISS OF LIFE, üçüncü single albümü SWEAT'i 4 Ağustos saat 18.00 KST'de yayımlayacak.",
+      "KISS OF LIFE'ın SWEAT'i ile TWS'in Soda Soda'sı 4 Ağustos'ta; Stray Kids'in sekiz şarkılık THIS & THAT mini albümü ise 7 Ağustos'ta yayımlandı.",
       "KiiiKiii'nin WhyKiiiKiii EP'si ile WayV'in sekizinci mini albümü Vision Wings aynı gün, 10 Ağustos'ta geliyor.",
       "KATSEYE'nin WILD EP'si 14 Ağustos; NCT 127'nin beş üyeli BLINGY albümü 24 Ağustos; Taemin'in Soft Violence projesi 31 Ağustos tarihli.",
       "Kore listelerinde CORTIS — REDRED, aespa — LEMONADE, I.O.I — Suddenly ve i-dle — Gimme Dat Love çeviri tarafında takip edeceğimiz ilk şarkılar.",
     ],
     sections: [
       {
-        heading: "4 Ağustos'ta ilk dalga geliyor",
+        heading: "İlk dalga geldi: SWEAT, Soda Soda ve THIS & THAT yayında",
         body: [
-          "Daha ayın başındayız ama yarın iki ayrı cephede hareket var. KISS OF LIFE, üçüncü single albümü SWEAT ile dönüyor. İlk tanıtımlardaki kurak sıcak, ter ve yaz sonu hissi grubun özgüvenli tarafına çok yakışıyor; yayımlanan programda saat de net: 4 Ağustos, 18.00 KST.",
-          "Aynı gün TWS, ikinci Japonca EP'si Soda Soda'yı çıkaracak. Grubun Japonya'daki ilk single'ı hem Oricon hem Billboard Japan haftalık listelerinde bir numaraya yükselmiş ve 250 bin satışın ardından platin sertifika almıştı. Yani bu yalnızca yan bir Japonca yayın değil; TWS için büyüyen ikinci bir ana sahne.",
+          "Ayın ilk yayınları artık elimizde. KISS OF LIFE, üçüncü single albümü SWEAT'i; TWS ise ikinci Japonca EP'si Soda Soda'yı 4 Ağustos'ta yayımladı. KISS OF LIFE'ın kurak sıcak ve yaz sonu hissi taşıyan görsel dünyası grubun özgüvenli tarafını büyütürken TWS, Japonya'daki güçlü ikinci pazarını genişletiyor.",
+          "7 Ağustos'ta takvime Stray Kids de eklendi. Sekiz şarkılık THIS & THAT mini albümü, yüksek enerjili RUN IT ile daha rahat akan başlık parçasını aynı projede buluşturuyor. Albümün ayrıntılı ilk dinleme dosyasını Pop Günlüğü'ne ayrıca ekledik.",
         ],
       },
       {
@@ -67,19 +343,19 @@ export const popGundemiArticles = [
         heading: "Peki şu anda Asya listelerinde ne yükseliyor?",
         body: [
           "Yayımlanacakları beklerken mevcut listeler de boş durmuyor. Temmuzun üçüncü haftasını birleştirilmiş Kore verileriyle izleyen müzik listesinde CORTIS'in REDRED'i altıncı haftasını zirvede geçirdi. aespa'nın LEMONADE'i iki numarada, I.O.I'ın Suddenly'si üç numarada; i-dle'ın Latin pop dokunuşlu Gimme Dat Love'ı ise ilk ona dokuzuncu sıradan girdi.",
-          "Sitemizde BTS — SWIM ve ICONIC BY MISTAKE zaten var. Bir sonraki Asya çeviri grubunda ilk bakacağımız eksikler bu yüzden çok net: REDRED, LEMONADE, Suddenly ve Gimme Dat Love. Resmi sözlerle birlikte anlam katmanlarını kontrol edip sıraya alacağız.",
+          "Sitemizde BTS — SWIM ve ICONIC BY MISTAKE zaten vardı; CORTIS — REDRED çevirisini de artık arşive ekledik. Bir sonraki Asya çeviri grubunda ilk bakacağımız eksikler bu yüzden LEMONADE, Suddenly ve Gimme Dat Love. Resmi sözlerle birlikte anlam katmanlarını kontrol edip sıraya alacağız.",
         ],
       },
       {
         heading: "Biz en çok neyi bekliyoruz?",
         body: [
-          "KISS OF LIFE'ın SWEAT'i hemen kapıda olduğu için ilk heyecan orada. KiiiKiii'nin görsel dünyası merak uyandırıyor, WayV'in sinematik tonu iddialı ve Taemin ayı çok güçlü kapatmaya hazırlanıyor. Ama sürpriz adayımız TWS: Japonya tarafındaki büyümeleri Türkiye'deki dinleyicinin gözünden biraz kaçıyor olabilir.",
+          "İlk dalgada Stray Kids'in daha rahat akan This & That'i ile KISS OF LIFE'ın sıcak tonlu SWEAT dönemi öne çıktı. Sıradaki heyecan KiiiKiii'nin oyunbaz görsel dünyası ve WayV'in sinematik tonu; Taemin de ayı çok güçlü kapatmaya hazırlanıyor. Sürpriz adayımız hâlâ TWS: Japonya tarafındaki büyümeleri Türkiye'deki dinleyicinin gözünden biraz kaçıyor olabilir.",
           "Kısacası Ağustos boyunca yalnızca global viral listesine bakıp geçmeyeceğiz. Kore listelerini, Japonya yayınlarını ve bölgesel müzik basınını düzenli tarayıp gerçekten yükselmeye başlayan şarkıları çeviri sırasına daha erken alacağız. Bu ay biraz uykusuz kalabiliriz — ama güzel sebeplerle.",
         ],
       },
     ],
     memberStatus: [
-      { name: "REDRED", status: "Çeviri radarı", detail: "CORTIS'in parçası Kore müzik listesinde altıncı haftasını zirvede geçirdi." },
+      { name: "REDRED", status: "Çeviri yayında", detail: "CORTIS'in liste lideri için Türkçe çeviri ve romanizasyon arşive eklendi." },
       { name: "LEMONADE", status: "Çeviri radarı", detail: "aespa'nın şarkısı listenin iki numarasında güçlü biçimde tutunuyor." },
       { name: "Suddenly + Gimme Dat Love", status: "Sıradaki adaylar", detail: "I.O.I ilk üçte; i-dle ise yeni girişle doğrudan ilk onda." },
     ],

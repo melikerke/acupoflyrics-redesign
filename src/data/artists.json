@@ -62,7 +62,7 @@
   {
     "slug": "stray-kids",
     "name": "Stray Kids",
-    "count": 12,
+    "count": 20,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
   },
   {
@@ -1562,7 +1562,7 @@
   {
     "slug": "ella-langley",
     "name": "Ella Langley",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
   },
   {
@@ -1628,7 +1628,7 @@
   {
     "slug": "cortis",
     "name": "CORTIS",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8"
   },
   {
@@ -1918,5 +1918,11 @@
     "name": "Radiohead",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59"
+  },
+  {
+    "slug": "morgan-wallen",
+    "name": "Morgan Wallen",
+    "count": 1,
+    "image": null
   }
 ]
