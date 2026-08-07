@@ -1,5 +1,928 @@
 [
   {
+    "id": "5186",
+    "slug": "blackpink-hope-not-turkce-ceviri",
+    "title": "BLACKPINK Hope Not Türkçe Çeviri",
+    "song": "HOPE NOT",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+    "date": "2026-08-07T14:32:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Mutlu ol; sadece beni tamamen unutacak kadar değil.",
+    "categories": [
+      "BLACKPINK",
+      "KILL THIS LOVE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "kill-this-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3eZD5DZGibwxMAOaCMBg3k",
+      "albumUrl": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "KILL THIS LOVE",
+      "releaseDate": "2019-04-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+      "duration": "3:11",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/3eZD5DZGibwxMAOaCMBg3k",
+        "duration": "3:11",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "KILL THIS LOVE",
+        "url": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2019-04-05",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=l6zMnMMzsss",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "mutlu ol": "Şarkının merkezindeki çelişki, sevilen kişinin iyiliğini isterken tamamen unutulma korkusunu da taşıyor.",
+      "zavallı bir boşluk": "Yanındaki boş yer, ayrılığın bıraktığı fiziksel ve duygusal eksikliği aynı anda anlatıyor.",
+      "içim yanarak": "Korece “aetaege”, sabırsız ve acılı bir özlemi ifade ediyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "siwonhan balam buneun changgae anja",
+      "tr": "Serin bir rüzgarın estiği pencere kenarına oturup;"
+    },
+    "heroPair": {
+      "en": "siwonhan balam buneun changgae anja",
+      "tr": "Serin bir rüzgarın estiği pencere kenarına oturup;"
+    }
+  },
+  {
+    "id": "5185",
+    "slug": "blackpink-kick-it-turkce-ceviri",
+    "title": "BLACKPINK Kick It Türkçe Çeviri",
+    "song": "KICK IT",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+    "date": "2026-08-07T14:31:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Senin o dünyanı yerle bir edip kendi ışığımla parlayacağım.",
+    "categories": [
+      "BLACKPINK",
+      "KILL THIS LOVE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "kill-this-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4rsoLz7ZY1Ldz8dpm4Lqtg",
+      "albumUrl": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "KILL THIS LOVE",
+      "releaseDate": "2019-04-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+      "duration": "3:11",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/4rsoLz7ZY1Ldz8dpm4Lqtg",
+        "duration": "3:11",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "KILL THIS LOVE",
+        "url": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2019-04-05",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=-gZC9hC1PDQ",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "kapının önüne koyuldun": "“Kicked out”, “kicked down” ve “kicks” kelimeleri aynı kökten gelen farklı anlamlarla Lisa’nın rapinde zincirleniyor.",
+      "ayakkabılarıma": "“Kicks” hip-hop dilinde spor ayakkabı anlamına gelir ve şarkının adındaki “kick” ile kelime oyunu kurar.",
+      "yıkıp geçelim": "“Kick it”, bağlama göre başlamak, dağıtmak ve engelleri yıkmak anlamlarını aynı anda taşıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "gyeolloni mwonde tto geulaeseo",
+      "tr": "Ee, sadede gel artık;"
+    },
+    "heroPair": {
+      "en": "I'll kick it if you're down, kick it if you're down",
+      "tr": "Hadi yıkıp geçelim, hazır mısın? Yıkıp geçelim..."
+    }
+  },
+  {
+    "id": "5184",
+    "slug": "blackpink-dont-know-what-to-do-turkce-ceviri",
+    "title": "BLACKPINK Don't Know What To Do Türkçe Çeviri",
+    "song": "DON'T KNOW WHAT TO DO",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+    "date": "2026-08-07T14:30:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Sensiz ne yapacağımı bilmiyorum...",
+    "categories": [
+      "BLACKPINK",
+      "KILL THIS LOVE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "kill-this-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/38SKB7UfhL6Sd6Joxex5yK",
+      "albumUrl": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "KILL THIS LOVE",
+      "releaseDate": "2019-04-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+      "duration": "3:21",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/38SKB7UfhL6Sd6Joxex5yK",
+        "duration": "3:21",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "KILL THIS LOVE",
+        "url": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2019-04-05",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=bqzDuRz_P7g",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "hüzün karası": "İngilizcedeki “blue”, hem mavi rengi hem de hüznü anlatır; çeviri iki anlamı aynı imgede birleştiriyor.",
+      "üzerime bu kadar ağır": "Korece “bukcha”, bir duygunun taşınamayacak kadar yoğun gelmesini ifade ediyor.",
+      "tik-tak": "Saat sesi, ayrılıktan sonra zamanın ağır ve rahatsız edici akışını duyulur hale getiriyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "jamkkan (jamkkan)",
+      "tr": "Bir saniye... (Bir saniye)"
+    },
+    "heroPair": {
+      "en": "Don't know what to do without you",
+      "tr": "Sensiz ne yapacağımı bilmiyorum..."
+    }
+  },
+  {
+    "id": "5183",
+    "slug": "blackpink-kill-this-love-turkce-ceviri",
+    "title": "BLACKPINK Kill This Love Türkçe Çeviri",
+    "song": "KILL THIS LOVE",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+    "date": "2026-08-07T14:29:47.000Z",
+    "reading_time": 2,
+    "excerpt": "O seni öldürmeden önce bitir şu aşkı.",
+    "categories": [
+      "BLACKPINK",
+      "KILL THIS LOVE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "kill-this-love"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6hvczQ05jc1yGlp9zhb95V",
+      "albumUrl": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "KILL THIS LOVE",
+      "releaseDate": "2019-04-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+      "duration": "3:11",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/6hvczQ05jc1yGlp9zhb95V",
+        "duration": "3:11",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "KILL THIS LOVE",
+        "url": "https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2019-04-05",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=2S24-y0Ij3Y",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "Melek gibi bir \"Merhaba\"": "Şarkı, ilişkinin büyüleyici başlangıcı ile yıkıcı sonunu melek ve şeytan karşıtlığıyla kuruyor.",
+      "cennet gibi": "Yoğun çekim cennet gibi görünse de anlatıcı bu ilişkinin içine girmenin bedelini hatırlatıyor.",
+      "kanlı yaşlar": "Korece “pi-nunmul”, sıradan üzüntünün ötesinde ağır bir acıyı betimliyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Yeah, yeah, yeah",
+      "tr": "Yeah, yeah, yeah..."
+    },
+    "heroPair": {
+      "en": "Let's kill this love",
+      "tr": "Hadi bitirelim şu aşkı!"
+    }
+  },
+  {
+    "id": "5182",
+    "slug": "blackpink-see-u-later-turkce-ceviri",
+    "title": "BLACKPINK See U Later Türkçe Çeviri",
+    "song": "SEE U LATER",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+    "date": "2026-08-07T14:28:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Sonra görüşürüz çocuk; belki de asla.",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE UP"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-up"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2REoTZjaB3jyAt5dgkV5GK",
+      "albumUrl": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE UP",
+      "releaseDate": "2018-06-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+      "duration": "3:19",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/2REoTZjaB3jyAt5dgkV5GK",
+        "duration": "3:19",
+        "previewUrl": null,
+        "trackNumber": 4
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE UP",
+        "url": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2018-06-15",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=fpimnj4SNjQ",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "boş bir teneke": "Özürlerin içi boş ve gürültülü oluşu, boş teneke ve köpek havlaması imgeleriyle küçümseniyor.",
+      "geri dönüşüme": "Eski sevgiliyi “recycle”a atmak, artık işe yaramayan bir şeyi hayatından çıkarmak için kullanılan alaycı bir benzetme.",
+      "Kraliçe Arı": "“Queen bee”, çevresine hükmeden ve ilginin merkezinde olan kadın imgesi."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "aswiul geosdo eobseo",
+      "tr": "Pişman olacak hiçbir şeyim yok;"
+    },
+    "heroPair": {
+      "en": "aswiul geosdo eobseo",
+      "tr": "Pişman olacak hiçbir şeyim yok;"
+    }
+  },
+  {
+    "id": "5181",
+    "slug": "blackpink-really-turkce-ceviri",
+    "title": "BLACKPINK Really Türkçe Çeviri",
+    "song": "REALLY",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+    "date": "2026-08-07T14:27:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Eğer beni gerçekten seviyorsan, söyle bana.",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE UP"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-up"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2URMA0ap6SAI8wFmcY1yta",
+      "albumUrl": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE UP",
+      "releaseDate": "2018-06-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+      "duration": "3:18",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/2URMA0ap6SAI8wFmcY1yta",
+        "duration": "3:18",
+        "previewUrl": null,
+        "trackNumber": 3
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE UP",
+        "url": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2018-06-15",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=He322O1JWgU",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "yedek kulübeni": "Korece “eo-jang”, birinin birden fazla kişiyi seçenek olarak bekletmesini anlatıyor.",
+      "siktir et aşk şarkılarını": "Lisa, duyguların hazır şarkıların arkasına saklanmadan doğrudan söylenmesini istiyor.",
+      "Harbiden": "Nakarattaki “really” tekrarları Türkçede aynı net ve ısrarcı tonu taşıyan “harbiden” ile karşılanıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "If you really, really love me, malhaejwo",
+      "tr": "Eğer beni gerçekten, gerçekten seviyorsan; söyle bana"
+    },
+    "heroPair": {
+      "en": "If you really, really love me, malhaejwo",
+      "tr": "Eğer beni gerçekten, gerçekten seviyorsan; söyle bana"
+    }
+  },
+  {
+    "id": "5180",
+    "slug": "blackpink-forever-young-turkce-ceviri",
+    "title": "BLACKPINK Forever Young Türkçe Çeviri",
+    "song": "FOREVER YOUNG",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+    "date": "2026-08-07T14:26:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Şu anımız sonsuzluğa mühürlensin!",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE UP"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-up"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6veFyjNycn6EaNCKhkPXUY",
+      "albumUrl": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE UP",
+      "releaseDate": "2018-06-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+      "duration": "3:59",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/6veFyjNycn6EaNCKhkPXUY",
+        "duration": "3:59",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE UP",
+        "url": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2018-06-15",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=89kTb73csYg",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "ya hep ya hiç": "“Ride or die”, birlikte her riski göze almak ve sonuna kadar sadık kalmak anlamında kullanılıyor.",
+      "tepeden tırnağa siyah": "“Murdered out”, kıyafet ya da aracın tamamen siyah olduğu stil için kullanılan bir ifade.",
+      "Hayat bir sürtüktür": "Jennie, hayatın sertliğini kabul edip kendi hayatının görkemli bir film gibi olduğunu söylüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "tteonajima, just stay",
+      "tr": "Gitme sakın, sadece yanımda kal"
+    },
+    "heroPair": {
+      "en": "Forever young",
+      "tr": "Sonsuza dek genç..."
+    }
+  },
+  {
+    "id": "5179",
+    "slug": "blackpink-ddu-du-ddu-du-turkce-ceviri",
+    "title": "BLACKPINK DDU-DU DDU-DU Türkçe Çeviri",
+    "song": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+    "date": "2026-08-07T14:25:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Seni o ddu-du ddu-du sesiyle vuracağım!",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE UP"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-up"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4lQsB3ERTWSNaAN1IkuNRl",
+      "albumUrl": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE UP",
+      "releaseDate": "2018-06-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+      "duration": "3:31",
+      "albumType": "EP",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/4lQsB3ERTWSNaAN1IkuNRl",
+        "duration": "3:31",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE UP",
+        "url": "https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2018-06-15",
+        "albumType": "EP",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=IHNzOHi8sJs",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "havanda su dövmek": "Korece deyim, sonuç vermeyecek boş bir çabayı anlatıyor; Türkçede aynı anlama gelen deyimle karşılandı.",
+      "yüklü paralar": "“Fat check / fact check” ses benzerliği, para ve gerçeklik arasında kurulan bir rap kelime oyunu.",
+      "dört yol ağzı": "“Four-way” hem dört üyeye hem de grubun her yöne yayılan hakimiyetine gönderme yapıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "BLACKPINK",
+      "tr": "BLACKPINK!"
+    },
+    "heroPair": {
+      "en": "Hit you with that ddu-du, ddu-du, du",
+      "tr": "Seni o \"ddu-du ddu-du\" sesiyle (silahımla) vuracağım!"
+    }
+  },
+  {
+    "id": "5178",
+    "slug": "blackpink-as-if-its-your-last-turkce-ceviri",
+    "title": "BLACKPINK As If It's Your Last Türkçe Çeviri",
+    "song": "AS IF IT'S YOUR LAST",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273df8dc2e4625e7d74310cad28",
+    "date": "2026-08-07T14:24:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Son aşkınmışım gibi...",
+    "categories": [
+      "BLACKPINK",
+      "As If It's Your Last"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "as-if-it-s-your-last"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4ZxOuNHhpyOj4gv52MtQpT",
+      "albumUrl": "https://open.spotify.com/album/1ZavR7Yuxcoj0QS7Qv8hMz",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "As If It's Your Last",
+      "releaseDate": "2017-06-22",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df8dc2e4625e7d74310cad28",
+      "duration": "3:33",
+      "albumType": "Single",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/4ZxOuNHhpyOj4gv52MtQpT",
+        "duration": "3:33",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "As If It's Your Last",
+        "url": "https://open.spotify.com/album/1ZavR7Yuxcoj0QS7Qv8hMz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273df8dc2e4625e7d74310cad28",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2017-06-22",
+        "albumType": "Single",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=Amq-qlqbjYA",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "siyaha": "“Bet on black”, hem BLACKPINK’in siyah kimliğine hem de ruletteki riskli bahse gönderme yapıyor.",
+      "Bonnie": "Bonnie ve Clyde, birlikte suç işleyen ve birbirinden ayrılmayan efsanevi çift imgesi olarak kullanılıyor.",
+      "öpücükler ve sarılmalar": "“X’s and O’s” yazışma dilinde öpücükleri ve sarılmaları temsil ediyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(Little bit of that)",
+      "tr": "(Ondan biraz...)"
+    },
+    "heroPair": {
+      "en": "(Little bit of that)",
+      "tr": "(Ondan biraz...)"
+    }
+  },
+  {
+    "id": "5177",
+    "slug": "blackpink-stay-turkce-ceviri",
+    "title": "BLACKPINK Stay Türkçe Çeviri",
+    "song": "STAY",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+    "date": "2026-08-07T14:23:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Sadece yanımda kal, kal benimle...",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE TWO"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-two"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3tP6QKbXvtrxiDI7QwKyUf",
+      "albumUrl": "https://open.spotify.com/album/2Fna4Tb7fme5aHsNMJtVtp",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE TWO",
+      "releaseDate": "2016-11-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+      "duration": "3:50",
+      "albumType": "Single",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/3tP6QKbXvtrxiDI7QwKyUf",
+        "duration": "3:50",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE TWO",
+        "url": "https://open.spotify.com/album/2Fna4Tb7fme5aHsNMJtVtp",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2016-11-01",
+        "albumType": "Single",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=FzVR_fymZw4",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "tatlı bir suç": "“Sweet felony”, sevilen kişinin hem zarar veren hem de vazgeçilemeyen tarafını anlatıyor.",
+      "tek hakikatim": "Anlatıcı, yapay ve güvensiz hissettiği dünyada sevgilisini tek gerçek olarak görüyor.",
+      "aynadaki aksime": "Ayrılma kararını karşısındakine değil aynadaki kendisine söylemesi, kararsızlığını ve kırılganlığını vurguluyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "tughamyeon geochin maldeullo nae mame sangcheoleul naenohgo",
+      "tr": "Sıradan bir şeymiş gibi, o sert sözlerinle kalbimi yaralayıp;"
+    },
+    "heroPair": {
+      "en": "I just want you to stay",
+      "tr": "Sadece kalmanı istiyorum."
+    }
+  },
+  {
+    "id": "5176",
+    "slug": "blackpink-playing-with-fire-turkce-ceviri",
+    "title": "BLACKPINK Playing With Fire Türkçe Çeviri",
+    "song": "PLAYING WITH FIRE",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+    "date": "2026-08-07T14:22:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Aşkımız ateşle oyun.",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE TWO"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-two"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7qmvLmX9tyaTiBAVNI6YEn",
+      "albumUrl": "https://open.spotify.com/album/2Fna4Tb7fme5aHsNMJtVtp",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE TWO",
+      "releaseDate": "2016-11-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+      "duration": "3:17",
+      "albumType": "Single",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/7qmvLmX9tyaTiBAVNI6YEn",
+        "duration": "3:17",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE TWO",
+        "url": "https://open.spotify.com/album/2Fna4Tb7fme5aHsNMJtVtp",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2016-11-01",
+        "albumType": "Single",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=9pdj4iJD08s",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "ateşle oyun": "Korece “buljangnan”, tehlikeli bir aşkı ateşle oynamaya benzetiyor.",
+      "benzin": "Aşkın küçük bir kıvılcımla büyüyen yangına dönüşmesi, benzin ve rüzgar imgeleriyle anlatılıyor.",
+      "öpsem mi, sövsem mi": "Lisa’nın “kiss him / diss him” karşıtlığı, aşk ve öfke arasında gidip gelmesini yansıtıyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "uli eomma maeil naege malhaesseo",
+      "tr": "Annem her gün tembihlerdi beni;"
+    },
+    "heroPair": {
+      "en": "uli eomma maeil naege malhaesseo",
+      "tr": "Annem her gün tembihlerdi beni;"
+    }
+  },
+  {
+    "id": "5175",
+    "slug": "blackpink-boombayah-turkce-ceviri",
+    "title": "BLACKPINK Boombayah Türkçe Çeviri",
+    "song": "BOOMBAYAH",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+    "date": "2026-08-07T14:21:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Kapıyı tekmelediğim an herkes bana bakıyor.",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE ONE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-one"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3G6PGH2teMqeF9IkbMUY1y",
+      "albumUrl": "https://open.spotify.com/album/71QEBJY33oG0l5rqs2kR1c",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE ONE",
+      "releaseDate": "2016-08-08",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+      "duration": "4:01",
+      "albumType": "Single",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/3G6PGH2teMqeF9IkbMUY1y",
+        "duration": "4:01",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE ONE",
+        "url": "https://open.spotify.com/album/71QEBJY33oG0l5rqs2kR1c",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2016-08-08",
+        "albumType": "Single",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=bwmSjveL3Lc",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "Hennessy": "Jennie’nin elindeki Hennessy şişesi, şarkının lüks ve kontrolsüz parti imgesini güçlendiriyor.",
+      "Rambo": "Lisa kendisini korkusuzca çatışmaya giren Rambo karakterine benzetiyor.",
+      "BLACKPINK sizin bölgenizde": "“BLACKPINK in your area”, grubun imza sloganı ve sahne hakimiyetini duyuran bir meydan okuma."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "(Hot) BLACKPINK in your area",
+      "tr": "(Sıcak!) BLACKPINK sizin bölgenizde!"
+    },
+    "heroPair": {
+      "en": "Boombayah",
+      "tr": "Boombayah!"
+    }
+  },
+  {
+    "id": "5174",
+    "slug": "blackpink-whistle-turkce-ceviri",
+    "title": "BLACKPINK Whistle Türkçe Çeviri",
+    "song": "WHISTLE",
+    "artist": "BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+    "date": "2026-08-07T14:20:47.000Z",
+    "reading_time": 2,
+    "excerpt": "Hepsine bir füze gibi ıslık çaldırırım; bom, bom!",
+    "categories": [
+      "BLACKPINK",
+      "SQUARE ONE"
+    ],
+    "category_slugs": [
+      "blackpink",
+      "square-one"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/67BbMuItfrHmaNqDxBPF7c",
+      "albumUrl": "https://open.spotify.com/album/71QEBJY33oG0l5rqs2kR1c",
+      "artistUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+      "albumName": "SQUARE ONE",
+      "releaseDate": "2016-08-08",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+      "duration": "3:33",
+      "albumType": "Single",
+      "label": "YG Entertainment",
+      "track": {
+        "url": "https://open.spotify.com/track/67BbMuItfrHmaNqDxBPF7c",
+        "duration": "3:33",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
+      },
+      "album": {
+        "name": "SQUARE ONE",
+        "url": "https://open.spotify.com/album/71QEBJY33oG0l5rqs2kR1c",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
+        "artists": [
+          {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+          }
+        ],
+        "releaseDate": "2016-08-08",
+        "albumType": "Single",
+        "label": "YG Entertainment"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=dISNgvVpWlo",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "füze gibi ıslık": "“Whistle like a missile”, hem füzenin ıslık benzeri sesini hem de ardından gelen patlama etkisini bir arada kuruyor.",
+      "şah-mat": "Lisa, karşısındakinin kaçamayacağını söylemek için satrançtaki kesin galibiyet anını kullanıyor.",
+      "ıssız bir ada": "İngilizce “desert island” benzetmesi, ikili arasındaki yoğun ve dış dünyadan kopuk atmosferi büyütüyor."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Hey, boy",
+      "tr": "Hey, çocuk..."
+    },
+    "heroPair": {
+      "en": "Make 'em whistle like a missile, bomb, bomb",
+      "tr": "Hepsine bir füze gibi ıslık çaldırırım; bom, bom!"
+    }
+  },
+  {
     "id": "5166",
     "slug": "stray-kids-run-it-turkce-ceviri",
     "title": "Stray Kids RUN IT Türkçe Çeviri",
