@@ -520,11 +520,23 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
       if (draft.selected.includes(index)) {
         return { ...draft, selected: draft.selected.filter((item) => item !== index) };
       }
-      if (draft.selected.length >= CARD_MAX_LINES) {
-        setCardStatus("En fazla 3 satır seçebilirsin.");
-        return draft;
+
+      if (!draft.selected.length || draft.selected.length >= CARD_MAX_LINES) {
+        return { ...draft, selected: [index] };
       }
-      return { ...draft, selected: [...draft.selected, index].sort((a, b) => a - b) };
+
+      const firstSelected = Math.min(...draft.selected);
+      const lastSelected = Math.max(...draft.selected);
+      const isAdjacent = index === firstSelected - 1 || index === lastSelected + 1;
+
+      if (!isAdjacent) {
+        return { ...draft, selected: [index] };
+      }
+
+      return {
+        ...draft,
+        selected: [...draft.selected, index].sort((a, b) => a - b),
+      };
     });
   };
 
@@ -834,7 +846,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                 <section className="detail-card-control-group is-lines">
                   <div className="detail-card-control-heading">
                     <span>Dizeler</span>
-                    <small>En fazla 3</small>
+                    <small>En fazla 3 · komşu satırlar</small>
                   </div>
                   <div className="detail-card-line-picker" aria-label="Kart satırları">
                     {card.lines.map((line, lineIndex) => (
