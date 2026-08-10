@@ -1,5 +1,274 @@
 export const popGundemiArticles = [
   {
+    slug: "artms-hyper-ego-blue-blood-album-incelemesi",
+    title: "ARTMS, Hyper-Ego'da iki kutup arasında: Blue Blood neden albümün anahtarı?",
+    shortTitle: "ARTMS — Hyper-Ego ilk dinleme notları",
+    kicker: "Albüm günlüğü",
+    date: "2026-08-10",
+    updatedAt: "2026-08-10T15:40:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273c8ab3416a9421cdaa96dc0ee",
+    imageAlt: "ARTMS Hyper-Ego mini albüm kapağı",
+    imageCredit: "ARTMS · MODHAUS",
+    accent: "#6685ad",
+    artistSlug: "artms",
+    artistName: "ARTMS",
+    excerpt:
+      "ARTMS'in altı parçalık ikinci mini albümü Hyper-Ego yayımlandı. Aura ile travma, gösterişli özgüven ile iç gerilim arasında kurulan albümün merkezinde Blue Blood duruyor.",
+    dek:
+      "From Wings To Soul'dan Pixel Memory'ye yalnızca altı durak var; fakat ARTMS bu kısa alana sert rapleri, dijital parıltıları ve kendi geçmişine bakan bir kimlik oyununu sığdırıyor. Blue Blood'ın Türkçe çevirisiyle birlikte albümün iki kutbunu açıyoruz.",
+    pullQuote:
+      "Hyper-Ego'nun asıl fikri tek bir kişilik seçmek değil; sahnedeki parlak benlik ile içeride taşınan gölgeyi aynı anda görünür kılmak.",
+    relatedTranslations: [
+      "artms-blue-blood-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "10 Ağustos 2026 itibarıyla",
+      title: "Albüm kartı",
+      items: [
+        { label: "Yayın", text: "Hyper-Ego, 7 Ağustos'ta MODHAUS etiketiyle yayımlandı." },
+        { label: "İçerik", text: "Mini albüm From Wings To Soul ile açılan altı parçadan oluşuyor." },
+        { label: "Çeviri arşivi", text: "Başlık parçası Blue Blood romanize sözler, Türkçe çeviri ve satır notlarıyla arşivde." },
+      ],
+    },
+    summary: [
+      "ARTMS'in ikinci mini albümü Hyper-Ego, 7 Ağustos'ta altı şarkıyla yayımlandı.",
+      "Albüm From Wings To Soul, Born Stunner, Blue Blood, Icarus Gang, Hyper Crush ve Pixel Memory parçalarından oluşuyor.",
+      "Aura ve Trauma adlı fiziksel versiyonlar, albümün parlak dış benlik ile bastırılmış iç gerilim arasındaki temel karşıtlığını görsel olarak kuruyor.",
+      "Blue Blood'ın Türkçe çevirisi arşivde; diğer beş parça ise çeviri sırasına eklenecek.",
+    ],
+    sections: [
+      {
+        heading: "Hyper-Ego nasıl bir albüm?",
+        body: [
+          "ARTMS, Hyper-Ego'yu uzun bir girişle büyütmek yerine doğrudan kimlik fikrinin içine bırakıyor. From Wings To Soul kısa bir eşik gibi çalışıyor; ardından Born Stunner ve Blue Blood albümün daha gösterişli, kendinden emin yüzünü açıyor. İkinci yarıda Icarus Gang, Hyper Crush ve Pixel Memory aynı enerjiyi daha sert ve dijital bir hatta taşıyor.",
+          "Altı parçalık yapı oldukça kompakt. Bu nedenle şarkılar tek başına uzun hikâyeler anlatmaktan çok birbirinin rengini değiştiriyor. Bir parçadaki kibir sonraki parçada savunmaya, dijital parıltı da küçük bir huzursuzluğa dönüşüyor. Albüm adındaki 'ego' tam olarak burada işe yarıyor: ARTMS tek bir benlik değil, aynı anda birkaç farklı yüz gösteriyor.",
+        ],
+      },
+      {
+        heading: "Blue Blood neden albümün merkezi?",
+        body: [
+          "Blue Blood'ın anlatıcısı izin istemiyor. 'Kırmızı ışık yok' diyerek başlayan şarkı, durdurulamama ve doğuştan ayrıcalıklı olma fikrini sürekli büyütüyor. Başlıktaki 'mavi kan' ifadesi de yalnızca soyluluk değil; çevresindeki kurallardan daha yukarıda durduğuna inanan bir karakter yaratıyor.",
+          "Fakat bu özgüven tamamen rahat değil. Şarkının ısrarlı tekrarlarında kendini kanıtlama ihtiyacı da duyuluyor. Bu yüzden Blue Blood, Aura ile Trauma arasındaki köprü gibi çalışıyor: dışarıdan kusursuz görünen kimliğin içinde sürekli yeniden söylenmesi gereken bir güç cümlesi var.",
+        ],
+      },
+      {
+        heading: "Altı şarkıda iki farklı enerji",
+        body: [
+          "Born Stunner ve Icarus Gang albümün daha keskin, meydan okuyan tarafında. Hyper Crush ise adının hakkını veren oyun konsolu parlaklığı ve hız hissiyle bu sertliği daha renkli bir yüzeye taşıyor. Pixel Memory kapanışta dijital geçmiş fikrini çağırarak albümün kimlik sorusunu yalnızca bugüne değil, kaydedilmiş eski benliklere de açıyor.",
+          "Bu karşıtlık fiziksel albümün Aura ve Trauma versiyonlarında da görünür. Parlaklık ile yara, vitrin ile arka oda aynı projenin iki ayrı baskısı değil; birbirini tamamlayan iki yarısı gibi duruyor.",
+        ],
+      },
+      {
+        heading: "Blue Blood çevirisinde nelere dikkat ettik?",
+        body: [
+          "Korece bölümleri Latin alfabesiyle romanize ettik ve İngilizce sloganlarla aynı akışta bıraktık. 'Blue blood', 'red light' ve statü çağrışımı taşıyan ifadeleri kelime kelime çevirmek yerine şarkının ayrıcalık, hız ve dokunulmazlık duygusunu koruyacak biçimde ele aldık.",
+          "Çeviri sayfasında resmi video, Spotify bağlantısı ve satır açıklamaları birlikte bulunuyor. Albümün diğer parçaları çevrildikçe bu dosyadaki arşiv alanı da parça sırasına göre genişleyecek.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "Hyper-Ego ilk dinleyişte büyük bir konsept albümünden çok, altı keskin karakter eskizi gibi geliyor. Bizi geri çağıran şey kusursuz bir bütünlükten ziyade şarkıların birbirine bıraktığı küçük kimlik kırıkları.",
+          "Şimdilik giriş kapımız Blue Blood. Türkçe çeviriyi okuduktan sonra şarkının yalnızca güç gösterisi olmadığını, o gücü sürekli tekrar ederek ayakta tutan daha kırılgan bir tarafı da taşıdığını duymak kolaylaşıyor.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Hyper-Ego", status: "Yayında", detail: "Altı parçalık ikinci mini albüm 7 Ağustos'ta yayımlandı." },
+      { name: "Blue Blood", status: "Çeviri yayında", detail: "Romanize sözler, Türkçe çeviri, resmi video ve Spotify bağlantısı hazır." },
+      { name: "Diğer beş parça", status: "Çeviri sırasında", detail: "Albüm arşivi yeni çeviriler geldikçe genişletilecek." },
+    ],
+    sources: [
+      { name: "ARTMS — Hyper-Ego resmi albüm yayını", url: "https://hello82.com/products/hello82-artms-hyper-ego" },
+      { name: "Hyper-Ego — parça listesi ve resmi dinleme bağlantıları", url: "https://www.reddit.com/r/LOONA/comments/1vhq44j/artms_hyperego_2nd_mini_album_album_discussion/" },
+      { name: "Forbes — Ağustos 2026 K-pop yayın takvimi", url: "https://www.forbes.com/sites/jeffbenjamin/2026/07/08/2026-q3-release-calendar-of-new-kpop-albums-singles-and-comebacks/" },
+    ],
+    storyShare:
+      "ARTMS'in altı parçalık Hyper-Ego mini albümü yayımlandı. Aura ile travma arasındaki albümün merkezinde duran Blue Blood'ı ve Türkçe çevirisini Pop Günlüğü'nde açtık.",
+  },
+  {
+    slug: "rescene-love-attack-melon-zirvesi",
+    title: "RESCENE'nin LOVE ATTACK mucizesi: 904. sıradan Melon zirvesine",
+    shortTitle: "LOVE ATTACK'ın iki yıl sonra gelen zirvesi",
+    kicker: "Liste günlüğü",
+    date: "2026-08-10",
+    updatedAt: "2026-08-10T15:35:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+    imageAlt: "RESCENE LOVE ATTACK single kapağı",
+    imageCredit: "RESCENE · THE MUZE Entertainment",
+    accent: "#d781a5",
+    artistSlug: "rescene",
+    artistName: "RESCENE",
+    excerpt:
+      "2024'te yayımlanan LOVE ATTACK, yaklaşık iki yıl sonra Melon Top 100'de bir numaraya ulaştı. Bu ani bir viral şans değil; yüzlerce sıra süren gerçek bir tersine liste yolculuğu.",
+    dek:
+      "Bir şarkı ilk döneminde günlük listenin 904. sırasına kadar geriliyor, sosyal videolarla yeniden keşfediliyor ve sonunda Kore'nin en büyük müzik platformunda zirveyi görüyor. RESCENE'nin gecenin bir yarısı gözyaşlarıyla kutladığı LOVE ATTACK hikâyesini adım adım açıyoruz.",
+    pullQuote:
+      "LOVE ATTACK'ın başarısı eski bir şarkının tesadüfen viral olması değil; küçük bir dinleyici hareketinin aylar içinde ana akım liste davranışına dönüşmesi.",
+    relatedTranslations: [
+      "rescene-love-attack-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "10 Ağustos 2026 itibarıyla",
+      title: "Tersine koşunun kısa özeti",
+      items: [
+        { label: "İlk yayın", text: "LOVE ATTACK, RESCENE'nin SCENEDROME mini albümüyle Ağustos 2024'te yayımlandı." },
+        { label: "Zirve", text: "Şarkı 8 Temmuz 2026 saat 22.00 KST'de Melon Top 100'de bir numaraya ulaştı." },
+        { label: "Çeviri", text: "Romanize sözler, Türkçe çeviri ve anlam notları artık acupoflyrics arşivinde." },
+      ],
+    },
+    summary: [
+      "LOVE ATTACK, Ağustos 2024'te RESCENE'nin ilk mini albümü SCENEDROME'un başlık parçalarından biri olarak yayımlandı.",
+      "Şarkı ilk liste döneminde Melon günlük sıralamasında 904. sıraya kadar geriledi; 2026 baharında sosyal içeriklerle yeniden hız kazandı.",
+      "8 Temmuz 2026'da Melon Top 100'de bir numaraya ulaşarak grubun ilk büyük dijital liste zirvesini getirdi.",
+      "Başarı yalnızca LOVE ATTACK'ı değil, Pinball, Deja Vu, Runaway ve Pretty Girl gibi diğer RESCENE parçalarını da yeniden görünür kıldı.",
+    ],
+    sections: [
+      {
+        heading: "Önce zaman çizelgesi: Bu şarkı yeni değil",
+        body: [
+          "LOVE ATTACK, RESCENE'nin Ağustos 2024 tarihli SCENEDROME mini albümüyle yayımlandı. İlk döneminde eleştirmenlerin ve küçük bir K-pop dinleyici çevresinin dikkatini çekse de geniş Kore listelerinde kalıcı bir kırılma yaratamadı. Günlük Melon sıralamasında 904. basamağa kadar gerilemesi, o günlerde şarkının ne kadar dar bir alanda kaldığını gösteriyor.",
+          "2026'da olan şey bu yüzden klasik bir comeback değil. Aynı kayıt, yeni bir içerik dalgası sayesinde yeniden keşfedildi. İnsanlar önce üyelerin kısa videolarına, ardından şarkının nakaratına döndü; algoritmik merak gerçek dinlemeye çevrildikçe LOVE ATTACK yüzlerce sıra yukarı yürüdü.",
+        ],
+      },
+      {
+        heading: "Yükselişi ne başlattı?",
+        body: [
+          "Kore basınındaki ortak anlatı, üye Woni'nin kişisel YouTube içerikleri etrafında büyüyen ilgiye işaret ediyor. Gyaru estetiği, bölgesel ağızla kurulan mizah ve üyelerin daha doğal görünen kısa videoları RESCENE adını daha önce grubu dinlememiş kullanıcıların önüne taşıdı.",
+          "Burada önemli olan, viral videonun şarkının yerine geçmemesi. LOVE ATTACK'ın hafif, melodik ve hemen tanınan nakaratı bu merakı tutabildi. Birçok viral an birkaç gün içinde sönerken RESCENE'nin yükselişi haftalar boyunca yeni dinleyici ekleyerek devam etti.",
+        ],
+      },
+      {
+        heading: "8 Temmuz gecesi ne oldu?",
+        body: [
+          "LOVE ATTACK, 8 Temmuz akşamı saat 22.00 KST'de Melon Top 100'ün bir numarasına ulaştı. Büyük şirketlerin yeni yayınlarıyla dolu bir listede, iki yaşındaki bir orta ölçekli şirket şarkısının zirveye çıkması başlı başına sıra dışıydı.",
+          "RESCENE üyeleri haberi aldıktan sonra yaptıkları yayında gözyaşlarını saklayamadı. Bu tepki, sonucun yalnızca bir istatistik olmadığını anlatıyordu: Grup için iki yıl boyunca kaybolmayan küçük dinleyici kitlesinin sonunda görünür hale gelmesiydi.",
+        ],
+      },
+      {
+        heading: "Neden LOVE ATTACK dinleyiciyi tuttu?",
+        body: [
+          "Şarkının adı büyük ve saldırgan görünse de müzik bunun tersine yumuşak ilerliyor. 'Love attack' ifadesi aşka uğramayı fiziksel bir baskın gibi anlatırken düzenleme hafifliğini koruyor. Bu karşıtlık, nakaratı hem kısa videoda hemen seçilebilir hem de tam şarkıda tekrar dinlenebilir kılıyor.",
+          "Türkçe çeviride bu oyun için tek bir karşılık kullanmak yerine 'aşk baskını' hissini ve beklenmedik biçimde ele geçirilme duygusunu birlikte koruduk. Korece bölümler romanize edildi; tekrarların şarkıdaki yükselen heyecanı nasıl kurduğu da satır akışında bırakıldı.",
+        ],
+      },
+      {
+        heading: "acupoflyrics notu",
+        body: [
+          "LOVE ATTACK hikâyesini değerli yapan şey, başarı geldikten sonra geçmişin yeniden yazılmaması. Şarkı 2024'te görünmez kaldı; 2026'da ise aynı haliyle dinleyicisini buldu. Aradaki yüzlerce sıra, pop müzikte geç kalmanın bazen kaybetmek anlamına gelmediğini gösteriyor.",
+          "Bu yüzden çeviri sayfası yalnızca gündemdeki bir şarkının sözlerini vermiyor. İki yıl sonra yeniden duyulan bir nakaratın neden bu kadar kolay bağ kurabildiğini Türkçe okuma fırsatı da sunuyor.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "LOVE ATTACK", status: "Melon Top 100 #1", detail: "Şarkı 8 Temmuz 2026'da yaklaşık iki yıllık tersine koşusunu zirveyle tamamladı." },
+      { name: "RESCENE arşivi", status: "Yeniden yükseliyor", detail: "Pinball, Deja Vu, Runaway ve Pretty Girl de artan ilgiden pay aldı." },
+      { name: "Türkçe çeviri", status: "Yayında", detail: "Romanizasyon, resmi video, Spotify bağlantısı ve satır açıklamaları hazır." },
+    ],
+    sources: [
+      { name: "Newsis — LOVE ATTACK Melon Top 100 zirvesi", url: "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260709_0003701648" },
+      { name: "Complex — 904. sıradan bir numaraya yolculuk", url: "https://www.complex.com/music/a/alex-ocho/rescene-love-attack-melon-number-one-chart" },
+      { name: "ChosunBiz — RESCENE'nin tersine liste koşusu", url: "https://biz.chosun.com/en/en-entertainment/2026/07/09/R2JC4D5VMNCHVAMSFD7L2PWU4A/?outputType=amp" },
+      { name: "RESCENE — LOVE ATTACK resmi video", url: "https://www.youtube.com/watch?v=9XttLI0oH0I" },
+    ],
+    storyShare:
+      "2024'te yayımlanıp Melon günlük listesinde 904. sıraya kadar gerileyen RESCENE — LOVE ATTACK, iki yıl sonra Top 100 zirvesine çıktı. Tersine liste hikâyesi ve Türkçe çevirisi Pop Günlüğü'nde.",
+  },
+  {
+    slug: "katseye-wild-ep-geri-sayim",
+    title: "KATSEYE'nin WILD geri sayımı başladı: PINKY UP'tan 14 Ağustos'a bildiklerimiz",
+    shortTitle: "KATSEYE — WILD için geri sayım",
+    kicker: "Geri sayım",
+    date: "2026-08-10",
+    updatedAt: "2026-08-10T15:30:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+    imageAlt: "KATSEYE PINKY UP ve WILD dönemi görseli",
+    imageCredit: "KATSEYE · HYBE x Geffen Records",
+    accent: "#e88fab",
+    artistSlug: "katseye",
+    artistName: "KATSEYE",
+    excerpt:
+      "KATSEYE'nin üçüncü EP'si WILD 14 Ağustos'ta geliyor. PINKY UP ve Animal yayımlandı; beş şarkılık dijital projenin kalan üç parçası için geri sayım başladı.",
+    dek:
+      "Coachella'da başlayan PINKY UP dönemi, Animal'ın daha keskin pop dünyası ve WILD HEARTS filmiyle büyüdü. Yayına dört gün kala doğrulanan parça listesini, eldeki çevirileri ve 14 Ağustos'ta güncelleyeceğimiz alanları tek dosyada topladık.",
+    pullQuote:
+      "WILD, KATSEYE'nin tek bir viral şarkının arkasından koşmadığını; müzik, film ve turneyi aynı pop evreninde birleştirmeye çalıştığını gösteren ilk büyük sınavı.",
+    relatedTranslations: [
+      "katseye-pinky-up-turkce-ceviri",
+      "katseye-animal-turkce-ceviri",
+      "katseye-gameboy-turkce-ceviri",
+      "katseye-gnarly-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "10 Ağustos 2026 itibarıyla",
+      title: "WILD geri sayımı",
+      items: [
+        { label: "Yayın", text: "WILD, 14 Ağustos Cuma günü HYBE x Geffen Records etiketiyle yayımlanacak." },
+        { label: "Şimdi dinlenebilir", text: "PINKY UP ve Animal dijital EP'nin yayımlanmış ilk iki parçası." },
+        { label: "Arşiv", text: "Her iki şarkının Türkçe çevirisi hazır; yeni parçalar 14 Ağustos'ta sıraya alınacak." },
+      ],
+    },
+    summary: [
+      "KATSEYE'nin üçüncü EP'si WILD, 14 Ağustos 2026'da HYBE x Geffen Records etiketiyle yayımlanacak.",
+      "Dijital parça listesinde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way bulunuyor; Unloveu fiziksel baskıya özel bonus parça olarak duyuruldu.",
+      "PINKY UP 9 Nisan'da, Animal ise 24 Temmuz'da yayımlanarak albümün iki farklı pop yüzünü gösterdi.",
+      "PINKY UP ve Animal çevirileri arşivde; geri kalan parçalar yayın günü resmi sözlerle eşleştirilecek.",
+    ],
+    sections: [
+      {
+        heading: "14 Ağustos'ta tam olarak ne geliyor?",
+        body: [
+          "WILD, KATSEYE'nin üçüncü EP'si ve beş parçalık dijital bir proje. PINKY UP ile Animal'ın yanına Hootie Frutti, Bel Air ve That Way eklenecek. Unloveu ise Target fiziksel baskısında bulunan altıncı, özel bonus parça olarak duyuruldu.",
+          "Yayın tarihi 14 Ağustos. Spotify ve Apple Music'teki ön kayıt sayfaları şu anda PINKY UP ile Animal'ı dinlemeye açıyor; diğer parçaların süreleri, yapım bilgileri ve resmi videoları yayınla birlikte kesinleşecek. Bu dosyayı o gün tahminlerle değil, platformlardaki son bilgilerle güncelleyeceğiz.",
+        ],
+      },
+      {
+        heading: "PINKY UP dönemin kapısını nasıl açtı?",
+        body: [
+          "PINKY UP, Nisan ayında Coachella döneminin hemen öncesinde yayımlandı ve KATSEYE'nin daha oyunbaz, gösterişli tarafını öne çıkardı. Çay fincanından motosiklete uzanan video dünyası, başlıktaki küçük parmak hareketini nezaket sembolünden özgüven işaretine çevirdi.",
+          "Şarkı sözlerinde de aynı oyun var. 'Bahse girerim mevzu şöyle dönüyordur' diye açılan anlatı, grubun çevresinde üretilen dedikodulara içeriden gülümseyerek cevap veriyor. Türkçe çeviride bu alaycı tonla pop-rap ritmini birlikte korumaya çalıştık.",
+        ],
+      },
+      {
+        heading: "Animal aynı albümün neden daha sert yüzü?",
+        body: [
+          "Animal, PINKY UP'ın renkli taşkınlığını daha kontrollü ve karanlık bir alana çekiyor. Video ve şarkı, bakış altında olma fikrini performansın parçasına dönüştürüyor; böylece WILD adının yalnızca 'çılgın' değil, izlenemeyen ve ehlileştirilemeyen bir tarafı da ortaya çıkıyor.",
+          "İki ön şarkı arasında belirgin bir ses farkı olması EP için iyi işaret. KATSEYE tek bir Gnarly devamı hazırlamak yerine aynı dönemin içinde farklı pop kişilikleri kuruyor. Kalan üç parçanın bu iki uçtan hangisine yaklaşacağını 14 Ağustos'ta göreceğiz.",
+        ],
+      },
+      {
+        heading: "WILD artık yalnızca bir EP değil",
+        body: [
+          "Bu dönem müzikle sınırlı tutulmadı. WILD HEARTS filmi ve WILDWORLD turnesi, albümün görsel ve sahne tarafını yayından önce kurdu. Bu, KATSEYE'nin viral single başarısını daha uzun ömürlü bir pop anlatısına çevirmek istediğini gösteriyor.",
+          "Risk de burada: Bu kadar geniş bir kampanyanın merkezindeki müzik kısa kalırsa görsel dünya şarkıların önüne geçebilir. Beş dijital parça bu nedenle yalnızca yeni dönem malzemesi değil; grubun büyük ölçekli pop projesini taşıyıp taşıyamayacağının testi olacak.",
+        ],
+      },
+      {
+        heading: "14 Ağustos'ta bu dosyaya ne eklenecek?",
+        body: [
+          "Hootie Frutti, Bel Air ve That Way yayımlandığında albüm sırası, süreler, yazar ve yapımcı bilgileri doğrulanacak. Resmi sözler geldikten sonra çeviri sırası oluşturulacak; Latin alfabesi dışındaki bölümler varsa ayrıca romanize edilecek.",
+          "Şimdilik PINKY UP ve Animal çevirileri okunabilir durumda. Gameboy ve Gnarly WILD parçası değil, fakat KATSEYE'nin bugünkü pop diline nasıl geldiğini görmek isteyenler için ilgili arşivde tutuluyor.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "PINKY UP", status: "Yayında + çevrildi", detail: "Resmi video, Spotify bağlantısı ve Türkçe çeviri hazır." },
+      { name: "Animal", status: "Yayında + çevrildi", detail: "WILD'ın ikinci ön şarkısı çeviri arşivinde bulunuyor." },
+      { name: "Kalan üç dijital parça", status: "14 Ağustos'ta", detail: "Hootie Frutti, Bel Air ve That Way yayın günü kontrol edilip çeviri sırasına alınacak." },
+    ],
+    sources: [
+      { name: "Spotify — WILD ön yayın sayfası", url: "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6" },
+      { name: "Apple Music — WILD yayın tarihi", url: "https://music.apple.com/us/album/wild-ep/1891779764" },
+      { name: "Universal Music — Animal ve WILD duyurusu", url: "https://www.universal-music.co.jp/katseye/news/2026-07-24/" },
+      { name: "KATSEYE — WILD resmi parça listesi", url: "https://www.reddit.com/r/kpop/comments/1vawia9/katseye_3rd_ep_wild_tracklist/" },
+    ],
+    storyShare:
+      "KATSEYE'nin üçüncü EP'si WILD 14 Ağustos'ta geliyor. PINKY UP ve Animal'dan kalan üç dijital parçaya, doğrulanan parça listesine ve Türkçe çeviri arşivine Pop Günlüğü'nden ulaşın.",
+  },
+  {
     slug: "stray-kids-this-and-that-albumu-yayimlandi",
     title: "Stray Kids kalıpları yine karıştırıyor: Sekiz şarkılık THIS & THAT yayımlandı",
     shortTitle: "Stray Kids — THIS & THAT yayımlandı",
@@ -97,12 +366,12 @@ export const popGundemiArticles = [
   },
   {
     slug: "blackpink-10-yil-bulusmasi-kimler-katilacak",
-    title: "BLACKPINK 10. yıl buluşmasına tam kadro geliyor — dört üyenin katılımı doğrulandı",
-    shortTitle: "BLACKPINK 10. yıl buluşmasına tam kadro geliyor",
+    title: "BLACKPINK 10. yılında yeniden bir arada — buluşma gerçekleşti, dört üyeli yayın geldi",
+    shortTitle: "BLACKPINK 10. yılında yeniden bir arada",
     kicker: "K-pop gündemi",
     date: "2026-08-06",
-    updatedAt: "2026-08-07T14:35:00+03:00",
-    readTime: "4 dk",
+    updatedAt: "2026-08-10T15:25:00+03:00",
+    readTime: "5 dk",
     image: "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056",
     imageAlt: "BLACKPINK üyeleri",
     imageCredit: "BLACKPINK · YG Entertainment",
@@ -110,81 +379,82 @@ export const popGundemiArticles = [
     artistSlug: "blackpink",
     artistName: "BLACKPINK",
     excerpt:
-      "YG Entertainment, BLACKPINK'in 8 Ağustos'taki 10. yıl buluşmasına Jisoo, Jennie, Rosé ve Lisa'nın birlikte katılacağını doğruladı. Etkinlik Seul'de seçilen 40 hayranla yapılacak.",
+      "Jisoo, Jennie, Rosé ve Lisa 8 Ağustos'taki 10. yıl buluşmasına birlikte katıldı; ardından dört üyeli Weverse yayınıyla daha geniş hayran kitlesine seslendi.",
     dek:
-      "Dünkü ilk duyurudaki 'seçili üyeler' ifadesi büyük bir soru işareti yaratmıştı. Bugün tablo değişti: YG, dört üyenin de programlarını koordine ettiğini ve yıldönümü buluşmasında birlikte olacağını açıkladı.",
+      "Son dakikaya kadar kimlerin katılacağı tartışılan küçük buluşma gerçekleşti. Dört üye aynı odada yıldönümünü kutladı; fakat 40 kişilik kontenjan ve yeni grup duyurusu gelmemesi, gecenin sevincinin yanında önemli bir soru işareti bıraktı.",
     pullQuote:
-      "Belirsizlik bir gün sürdü: 8 Ağustos'ta Jisoo, Jennie, Rosé ve Lisa aynı yıldönümü buluşmasında olacak.",
+      "10. yılın en güçlü anı büyük bir prodüksiyon değil, Jisoo, Jennie, Rosé ve Lisa'yı yeniden aynı karede görmekti.",
     relatedTranslations: [
       "blackpink-jump-turkce-ceviri",
       "blackpink-champion-turkce-ceviri",
       "blackpink-fxxxboy-turkce-ceviri",
     ],
     livePanel: {
-      label: "7 Ağustos 2026 güncellemesi",
-      title: "Son durum",
+      label: "10 Ağustos 2026 güncellemesi",
+      title: "Etkinlik sonrası son durum",
       items: [
-        { label: "Tarih", text: "Buluşma 8 Ağustos Cumartesi öğleden sonra Seul'de yapılacak." },
-        { label: "Kontenjan", text: "Uygun üyelik sahipleri arasından kura ile yalnızca 40 kişi seçilecek." },
-        { label: "Üye katılımı", text: "YG Entertainment, Jisoo, Jennie, Rosé ve Lisa'nın dördünün de etkinlikte olacağını doğruladı." },
+        { label: "Buluşma", text: "40 hayranın katıldığı özel etkinlik 8 Ağustos'ta Seul'de gerçekleştirildi." },
+        { label: "Tam kadro", text: "Jisoo, Jennie, Rosé ve Lisa buluşmaya birlikte katıldı ve dört üyeli Weverse yayını yaptı." },
+        { label: "Yeni duyuru", text: "Etkinlik sırasında yeni bir grup albümü, konseri ya da geniş katılımlı yıldönümü programı açıklanmadı." },
       ],
     },
     summary: [
-      "BLACKPINK'in resmi Weverse duyurusuna göre 10. yıl buluşması, grubun çıkış tarihi olan 8 Ağustos'ta Seul'de düzenlenecek.",
-      "Etkinliğe 31 Temmuz'a kadar üyeliğini tamamlamış Weverse Membership sahipleri başvurabiliyor ve katılımcılar kura ile belirlenecek.",
-      "Toplam kontenjan 40 kişi; kazananların 7 Ağustos sabahı açıklanması planlanıyor.",
-      "İlk Weverse metnindeki 'seçili üyeler' ifadesinin aksine YG, 7 Ağustos'ta Jisoo, Jennie, Rosé ve Lisa'nın tam kadro katılımını doğruladı.",
+      "BLACKPINK'in 10. yıl meet & greet etkinliği 8 Ağustos'ta Seul'de seçilen 40 hayranla gerçekleştirildi.",
+      "İlk duyurudaki 'seçili üyeler' belirsizliğinin ardından Jisoo, Jennie, Rosé ve Lisa'nın dört üyeli katılımı etkinlikten önce doğrulandı ve gerçekleşti.",
+      "Dört üye yıldönümü gününde Weverse üzerinden birlikte yayın yaparak fiziksel etkinliğin dışındaki BLINK'lere de ulaştı.",
+      "Kutlama yeni bir grup yayını ya da büyük ölçekli yıldönümü etkinliği duyurusuna dönüşmedi; bu başlıklar hâlâ açık durumda.",
     ],
     sections: [
       {
-        heading: "Tam olarak ne duyuruldu?",
+        heading: "8 Ağustos'ta ne gerçekleşti?",
         body: [
-          "YG Entertainment, BLACKPINK'in resmi Weverse sayfasında 10. yıl dönümüne özel bir meet & greet duyurdu. Etkinlik 8 Ağustos Cumartesi öğleden sonra Seul'de yapılacak; kesin konum ise yalnızca seçilen kişilere bildirilecek.",
-          "Başvuru penceresi oldukça kısa: 6 Ağustos günü 13.00–22.00 KST arasında açık. Uygun başvurular arasından rastgele seçilecek 40 kişi, sonucu 7 Ağustos sabahı Weverse üzerinden görebilecek.",
+          "BLACKPINK'in çıkışının tam onuncu yılında düzenlenen özel meet & greet, Seul'de 40 hayranın katılımıyla yapıldı. Kesin konum yalnızca seçilen kişilere bildirildi; üyelik ve kimlik doğrulamasıyla yürütülen etkinlik geniş katılımlı bir fan meeting yerine küçük, yüz yüze bir yıldönümü buluşması olarak kaldı.",
+          "En önemli sonuç, ilk resmi metindeki belirsizliğin geride kalmasıydı. Jisoo, Jennie, Rosé ve Lisa programlarını koordine ederek etkinliğe birlikte katıldı. Böylece 10. yılın ana fotoğrafı gerçekten dört üyeli oldu.",
         ],
       },
       {
-        heading: "Güncelleme: Dört üye de katılacak",
+        heading: "Dört üyeli Weverse yayını neden önemliydi?",
         body: [
-          "6 Ağustos'taki ilk resmi metin, etkinliğe programlarına bağlı olarak 'seçili BLACKPINK üyelerinin' katılacağını söylüyordu. Bir gün sonra YG Entertainment belirsizliği kaldırdı: Jisoo, Jennie, Rosé ve Lisa'nın dört üyeli tam kadro olarak buluşmada yer alacağı doğrulandı.",
-          "YG'ye dayandırılan 7 Ağustos tarihli habere göre üyeler, yoğun bireysel takvimlerine rağmen 10. yıl dönümünü hayranlarla birlikte geçirmek için programlarını koordine etti. Böylece özellikle Rosé ve Lisa'nın katılımı etrafında dolaşan doğrulanmamış iddialar da geçerliliğini yitirdi.",
+          "Fiziksel buluşmanın yalnızca 40 kişiye açık olması doğal olarak geniş fandomda hayal kırıklığı yarattı. Aynı gün yapılan dört üyeli Weverse yayını bu mesafeyi tamamen kapatmasa da dünyanın farklı yerlerindeki BLINK'lerin kutlamaya ortak olabildiği tek doğrudan an oldu.",
+          "Yayında asıl değer büyük bir prodüksiyon ya da sürpriz performans değildi. Dört üyenin aynı masada geçmiş on yılı anması, ayrı şirketler altında yürüttükleri yoğun solo dönemine rağmen BLACKPINK bağının hâlâ görünür olduğunu gösterdi.",
         ],
       },
       {
-        heading: "Neden yalnızca 40 kişi?",
+        heading: "40 kişilik kontenjan tartışması bitti mi?",
         body: [
-          "Duyuruda etkinliğin neden bu kadar sınırlı tutulduğu açıklanmıyor. Bildiğimiz tek şey, bunun üyelik doğrulaması ve fiziksel kimlik kontrolüyle yürütülecek küçük ölçekli bir buluşma olduğu. 15 yaşından küçük hayranlar da etkinliğe kabul edilmeyecek.",
-          "Dolayısıyla bu, geniş kitleye açık bir yıldönümü konseri ya da çevrim içi yayın duyurusu değil. Etkinlikten çekilecek görüntülerin ileride YouTube veya sosyal medya içeriklerinde kullanılabileceği belirtiliyor; ancak herkesin izleyebileceği canlı yayın için şu anda verilmiş bir söz yok.",
+          "Hayır. Buluşmanın gerçekleşmiş olması kontenjanın neden bu kadar dar tutulduğu sorusunu ortadan kaldırmıyor. BLACKPINK'in küresel ölçekteki kitlesi düşünüldüğünde 40 kişilik bir etkinlik, samimi olduğu kadar erişimi son derece sınırlı bir kutlama biçimi.",
+          "Öte yandan etkinlik büyük bir konser ya da canlı yayın olarak ilan edilmemişti. Bu nedenle değerlendirmeyi duyurulan format üzerinden yapmak gerekiyor: YG küçük bir meet & greet sözü verdi ve bunu dört üyeyle gerçekleştirdi. Eksik kalan, 10. yılın daha geniş kitleye nasıl taşınacağına dair uzun vadeli bir programdı.",
         ],
       },
       {
-        heading: "Peki 10. yıl için başka neler var?",
+        heading: "10. yıl takviminde başka neler kaldı?",
         body: [
-          "YG daha önce üyelik sahipleri için özel Weverse rozeti ve fan mektubu şablonu hazırladığını duyurmuştu. BLACKPINK ile Kore Ulusal Müzesi markası MU:DS arasındaki Heritage Collection da 8 Ağustos'ta ön satışa açılacak.",
-          "Bunlar yıldönümü takvimini boş bırakmıyor, ama yeni müzik ya da tam kadrolu bir grup yayını anlamına da gelmiyor. Böyle bir duyuru gelirse bu dosyayı doğrulanmış bilgilerle güncelleyeceğiz.",
+          "Üyelik sahipleri için hazırlanan özel Weverse rozeti ve fan mektubu şablonu dağıtıma açıldı. BLACKPINK ile Kore Ulusal Müzesi markası MU:DS arasındaki Heritage Collection da yıldönümü gününde satış ve sergi programına başladı.",
+          "Bunlar güçlü hatıra projeleri; fakat yeni bir şarkı, albüm veya tam kadrolu performans duyurusu değil. Grup cephesinden yeni müzik ya da büyük bir yıldönümü sahnesi açıklanırsa bu dosyayı aynı URL üzerinde güncellemeye devam edeceğiz.",
         ],
       },
       {
         heading: "acupoflyrics notu",
         body: [
-          "On yıl, özellikle K-pop gibi çok hızlı dönen bir endüstride gerçekten büyük bir eşik. BLACKPINK'in dünya çapındaki etkisi düşünülünce kutlamanın yalnızca 40 kişilik bir buluşmayla sınırlı görünmesi doğal olarak soru işareti yaratıyor.",
-          "Dünkü temkinli cümlemizi bugün güzel bir gelişmeyle değiştirebiliyoruz: Buluşma, tarih, 40 kişilik kontenjan ve dört üyenin katılımı artık kesin. Herkese açık canlı yayın ise hâlâ duyurulmuş değil.",
+          "On yıl sonra hâlâ dört üyeyi aynı karede görmenin bu kadar büyük bir olaya dönüşmesi, BLACKPINK'in etkisini de grup içeriklerinin ne kadar seyrekleştiğini de aynı anda anlatıyor. Buluşma bu yüzden hem sıcak hem biraz buruk bir kutlamaydı.",
+          "Yine de etkinlik öncesindeki en büyük belirsizlik olumlu sonuçlandı: Jisoo, Jennie, Rosé ve Lisa birlikteydi. Şimdi sıradaki soru katılım değil; bu dört kişilik enerjinin yeniden ne zaman müziğe ve sahneye dönüşeceği.",
         ],
       },
     ],
     memberStatus: [
-      { name: "10. yıl buluşması", status: "Resmen duyuruldu", detail: "8 Ağustos öğleden sonra Seul'de, 40 hayranın katılımıyla gerçekleştirilecek." },
-      { name: "Dört üyeli katılım", status: "Doğrulandı", detail: "Jisoo, Jennie, Rosé ve Lisa programlarını koordine ederek etkinliğe birlikte katılacak." },
-      { name: "Canlı yayın", status: "Duyurulmadı", detail: "Herkese açık bir yayın ya da tam kadrolu yıldönümü programı şu an için açıklanmış değil." },
+      { name: "10. yıl buluşması", status: "Gerçekleşti", detail: "8 Ağustos'ta Seul'de seçilen 40 hayranla yapıldı." },
+      { name: "Dört üyeli katılım", status: "Gerçekleşti", detail: "Jisoo, Jennie, Rosé ve Lisa hem etkinlikte hem Weverse yayınında birlikteydi." },
+      { name: "Yeni grup duyurusu", status: "Gelmedi", detail: "Yeni müzik veya büyük ölçekli yıldönümü programı için resmi açıklama bekleniyor." },
     ],
     sources: [
       { name: "BLACKPINK Weverse — 10. yıl buluşması duyurusu", url: "https://weverse.io/blackpink/notice/38157" },
       { name: "TV Daily / Naver — YG'nin tam kadro katılım doğrulaması", url: "https://m.entertain.naver.com/home/article/440/0000040140" },
+      { name: "BLACKPINK Weverse — dört üyeli yayın arşivi", url: "https://weverse.io/blackpink/live" },
       { name: "YG Entertainment — BLACKPINK profil ve çıkış tarihi", url: "https://www.ygfamily.com/en/artists/blackpink/profile" },
       { name: "YG Entertainment — BLACKPINK diskografi", url: "https://www.ygfamily.com/en/artists/blackpink/discography" },
     ],
     storyShare:
-      "BLACKPINK'in 10. yıl buluşması 8 Ağustos'ta Seul'de yapılacak. YG Entertainment, Jisoo, Jennie, Rosé ve Lisa'nın 40 hayranla gerçekleşecek etkinliğe birlikte katılacağını doğruladı.",
+      "BLACKPINK'in 10. yıl buluşması 8 Ağustos'ta 40 hayranla gerçekleşti. Jisoo, Jennie, Rosé ve Lisa aynı gün dört üyeli Weverse yayınıyla yıldönümünü birlikte kutladı.",
   },
   {
     slug: "rein-me-in-19-hafta-uk-liste-rekoru",
@@ -279,11 +549,11 @@ export const popGundemiArticles = [
     layout: "radar",
     issue: "Dosya 01",
     edition: "Ağustos / 2026",
-    title: "Ağustos K-pop takvimi dolup taşıyor: KISS OF LIFE'tan Taemin'e beklediğimiz geri dönüşler",
+    title: "Ağustos K-pop takvimi hızlandı: KiiiKiii ve WayV yayında, sırada KATSEYE var",
     shortTitle: "Ağustos Asya müzik radarı",
     kicker: "Asya müzik radarı",
     date: "2026-08-03",
-    updatedAt: "2026-08-07T15:20:00+03:00",
+    updatedAt: "2026-08-10T15:20:00+03:00",
     readTime: "5 dk",
     image: "https://i.scdn.co/image/ab67616d0000b27315175a3af8eb08dbc8c77a31",
     imageAlt: "KISS OF LIFE üyelerinin Igloo albüm görseli",
@@ -291,31 +561,32 @@ export const popGundemiArticles = [
     accent: "#ef6c45",
     artistName: "KISS OF LIFE · KiiiKiii · WayV · KATSEYE · NCT 127 · Taemin",
     excerpt:
-      "Takvimleri açın: Ağustos'un ilk gününden son gecesine kadar K-pop ve Asya pop tarafında neredeyse nefes alacak boşluk yok. Üstelik listelerde şimdiden çeviri radarımıza giren dört güçlü şarkı var.",
+      "Ağustos'un ilk büyük dalgası artık yayında: KiiiKiii ve WayV aynı gün iki farklı pop dünyası açtı. Dört gün sonra KATSEYE'nin WILD dönemi tamamlanacak.",
     dek:
-      "Tamam, global listeleri takip ediyoruz ama gözümüz artık Seul, Tokyo ve Asya turne hattında da. Çünkü bu ay KISS OF LIFE kapıyı açıyor; KiiiKiii, WayV, KATSEYE, NCT 127 ve Taemin sıraya giriyor. Kulaklıklar hazır mı?",
+      "KISS OF LIFE, Stray Kids ve ARTMS'in ardından 10 Ağustos çakışması da geldi. WhyKiiiKiii ile Vision Wings'i ilk bilgilerle güncelledik; KATSEYE, NCT 127 ve Taemin için takvim hâlâ çalışıyor.",
     pullQuote:
-      "Tek bir comeback haftası değil; Ağustos'un tamamına yayılan, her durağında başka bir pop dünyası açan bir yayın zinciri.",
+      "Ağustos artık bir beklenti listesi değil; her birkaç günde bir 'gelecek' fiilinin 'yayımlandı'ya dönüştüğü canlı bir müzik günlüğü.",
     relatedTranslations: [
       "cortis-redred-turkce-ceviri",
-      "kiss-of-life-igloo-turkce-ceviri",
+      "aespa-lemonade-turkce-ceviri",
+      "artms-blue-blood-turkce-ceviri",
+      "katseye-pinky-up-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
-      "bts-swim-turkce-ceviri",
     ],
     livePanel: {
-      label: "7 Ağustos 2026 güncellemesi",
+      label: "10 Ağustos 2026 güncellemesi",
       title: "Takvimde son durum",
       items: [
-        { label: "Şimdi yayında", text: "KISS OF LIFE — SWEAT, TWS — Soda Soda ve Stray Kids — THIS & THAT" },
-        { label: "10–14 Ağustos", text: "KiiiKiii — WhyKiiiKiii, WayV — Vision Wings ve KATSEYE — WILD" },
+        { label: "Bugün yayımlandı", text: "KiiiKiii — WhyKiiiKiii ve WayV — Vision Wings artık dijital platformlarda." },
+        { label: "Sıradaki büyük durak", text: "KATSEYE — WILD 14 Ağustos'ta beş dijital parçayla tamamlanacak." },
         { label: "Ayın finali", text: "NCT 127 — BLINGY 24 Ağustos'ta, Taemin — Soft Violence 31 Ağustos'ta" },
       ],
     },
     summary: [
-      "KISS OF LIFE'ın SWEAT'i ile TWS'in Soda Soda'sı 4 Ağustos'ta; Stray Kids'in sekiz şarkılık THIS & THAT mini albümü ise 7 Ağustos'ta yayımlandı.",
-      "KiiiKiii'nin WhyKiiiKiii EP'si ile WayV'in sekizinci mini albümü Vision Wings aynı gün, 10 Ağustos'ta geliyor.",
+      "KISS OF LIFE'ın SWEAT'i, TWS'in Soda Soda'sı, Stray Kids'in THIS & THAT'i ve ARTMS'in Hyper-Ego'su ayın ilk haftasında yayımlandı.",
+      "KiiiKiii'nin WhyKiiiKiii EP'si ile WayV'in sekizinci mini albümü Vision Wings bugün, 10 Ağustos'ta dijital platformlara geldi.",
       "KATSEYE'nin WILD EP'si 14 Ağustos; NCT 127'nin beş üyeli BLINGY albümü 24 Ağustos; Taemin'in Soft Violence projesi 31 Ağustos tarihli.",
-      "Kore listelerinde CORTIS — REDRED, aespa — LEMONADE, I.O.I — Suddenly ve i-dle — Gimme Dat Love çeviri tarafında takip edeceğimiz ilk şarkılar.",
+      "CORTIS — REDRED, aespa — LEMONADE, ARTMS — Blue Blood ve KATSEYE — PINKY UP çevirileri artık arşivde; I.O.I — Suddenly ile i-dle — Gimme Dat Love sırada kalıyor.",
     ],
     sections: [
       {
@@ -326,10 +597,10 @@ export const popGundemiArticles = [
         ],
       },
       {
-        heading: "10 Ağustos: İki geri dönüş, iki bambaşka dünya",
+        heading: "10 Ağustos geldi: İki geri dönüş, iki bambaşka dünya",
         body: [
-          "10 Ağustos günü tatlı bir çakışma yaşayacağız. KiiiKiii, WhyKiiiKiii EP'siyle geliyor. Yedi aylık aranın ardından yayımlanan renkli ve hafif tuhaf tanıtımlar, grubun 404 (New Era) sonrasında o oyunbaz kimliğini daha da büyüteceğini düşündürüyor. Şimdiden 'bu konseptten nasıl bir nakarat çıkacak?' diye merak ediyoruz.",
-          "Aynı gün WayV sekizinci mini albümü Vision Wings'i yayımlayacak. Sinematik fragman ve hemen arkasından duyurulan BORN THIS Way turnesi, bunun tek bir comeback haftasıyla kalmayacağını gösteriyor. Yeni şarkıların sahneye taşınacağı ilk Seul konserleri 12–13 Eylül'de; ardından Asya durakları gelecek.",
+          "KiiiKiii, üçüncü EP'si WhyKiiiKiii'yi bugün yayımladı. Pop Off Pop Off başlık şarkısı olurken albümün sahte tatil sitesi, tur paketleri ve oyuncaklı görsel dili grubun 404 (New Era) sonrasındaki oyunbaz kimliğini koruyor. Tanıtımın kendisi bile küçük bir internet evrenine dönüştüğü için ilk bakacağımız şey şarkıların bu güçlü fikri ne kadar taşıdığı olacak.",
+          "WayV de aynı gün sekizinci mini albümü Vision Wings'i yayımladı. Başlık parçası geleneksel Çin telli çalgısı guzheng ile jungle ritmini birleştiriyor; sinematik fragmandaki wuxia havası böylece yalnızca görsel süs olarak kalmıyor. Yeni şarkılar eylülde başlayacak BORN THIS Way turnesinde sahneye taşınacak.",
         ],
       },
       {
@@ -342,35 +613,37 @@ export const popGundemiArticles = [
       {
         heading: "Peki şu anda Asya listelerinde ne yükseliyor?",
         body: [
-          "Yayımlanacakları beklerken mevcut listeler de boş durmuyor. Temmuzun üçüncü haftasını birleştirilmiş Kore verileriyle izleyen müzik listesinde CORTIS'in REDRED'i altıncı haftasını zirvede geçirdi. aespa'nın LEMONADE'i iki numarada, I.O.I'ın Suddenly'si üç numarada; i-dle'ın Latin pop dokunuşlu Gimme Dat Love'ı ise ilk ona dokuzuncu sıradan girdi.",
-          "Sitemizde BTS — SWIM ve ICONIC BY MISTAKE zaten vardı; CORTIS — REDRED çevirisini de artık arşive ekledik. Bir sonraki Asya çeviri grubunda ilk bakacağımız eksikler bu yüzden LEMONADE, Suddenly ve Gimme Dat Love. Resmi sözlerle birlikte anlam katmanlarını kontrol edip sıraya alacağız.",
+          "Takvimi izlerken mevcut listeler de boş durmuyor. CORTIS'in REDRED'i güçlü seyrini korurken aespa'nın LEMONADE'i çeviri radarımızdan doğrudan arşive geçti. RESCENE'nin iki yaşındaki LOVE ATTACK'ı ise Melon Top 100 zirvesine kadar uzanan tersine koşusuyla ayın en güçlü liste hikâyelerinden biri olmaya devam ediyor.",
+          "CORTIS — REDRED, aespa — LEMONADE, ARTMS — Blue Blood ve KATSEYE — PINKY UP artık Türkçe çeviri ve resmi dinleme bağlantılarıyla sitede. I.O.I — Suddenly ile i-dle — Gimme Dat Love hâlâ eksik; KiiiKiii ve WayV'in bugünkü albümlerinden öne çıkan şarkılar da ilk dinleme sonrasında bu sıraya eklenecek.",
         ],
       },
       {
         heading: "Biz en çok neyi bekliyoruz?",
         body: [
-          "İlk dalgada Stray Kids'in daha rahat akan This & That'i ile KISS OF LIFE'ın sıcak tonlu SWEAT dönemi öne çıktı. Sıradaki heyecan KiiiKiii'nin oyunbaz görsel dünyası ve WayV'in sinematik tonu; Taemin de ayı çok güçlü kapatmaya hazırlanıyor. Sürpriz adayımız hâlâ TWS: Japonya tarafındaki büyümeleri Türkiye'deki dinleyicinin gözünden biraz kaçıyor olabilir.",
+          "İlk dalgada Stray Kids'in daha rahat akan This & That'i, ARTMS'in kısa ama sert Hyper-Ego'su ve KISS OF LIFE'ın sıcak tonlu SWEAT dönemi öne çıktı. Bugünün iki albümünden sonra sıradaki büyük eşik KATSEYE: WILD'ın PINKY UP ile Animal arasında nasıl bir bütün kuracağını 14 Ağustos'ta göreceğiz.",
           "Kısacası Ağustos boyunca yalnızca global viral listesine bakıp geçmeyeceğiz. Kore listelerini, Japonya yayınlarını ve bölgesel müzik basınını düzenli tarayıp gerçekten yükselmeye başlayan şarkıları çeviri sırasına daha erken alacağız. Bu ay biraz uykusuz kalabiliriz — ama güzel sebeplerle.",
         ],
       },
     ],
     memberStatus: [
       { name: "REDRED", status: "Çeviri yayında", detail: "CORTIS'in liste lideri için Türkçe çeviri ve romanizasyon arşive eklendi." },
-      { name: "LEMONADE", status: "Çeviri radarı", detail: "aespa'nın şarkısı listenin iki numarasında güçlü biçimde tutunuyor." },
-      { name: "Suddenly + Gimme Dat Love", status: "Sıradaki adaylar", detail: "I.O.I ilk üçte; i-dle ise yeni girişle doğrudan ilk onda." },
+      { name: "LEMONADE + Blue Blood", status: "Çeviri yayında", detail: "aespa ve ARTMS sayfaları resmi video ve dinleme bağlantılarıyla hazır." },
+      { name: "Suddenly + Gimme Dat Love", status: "Sıradaki adaylar", detail: "I.O.I ve i-dle çevirileri henüz arşivde bulunmuyor." },
     ],
     sources: [
       { name: "KISS OF LIFE — SWEAT duyurusu", url: "https://www.soompi.com/article/1855683wpp/watch-kiss-of-life-announces-comeback-date-with-preview-of-sweat-equity" },
       { name: "KiiiKiii — WhyKiiiKiii takvimi", url: "https://www.soompi.com/article/1855650wpp/kiiikiiii-unveils-fun-teasers-for-august-comeback" },
       { name: "WayV — Vision Wings duyurusu", url: "https://www.soompi.com/article/1855679wpp/wayv-announces-august-comeback-date-with-teaser-for-vision-wings" },
+      { name: "WayV — Vision Wings resmi yayın sayfası", url: "https://shop.weverse.io/en/shop/USD/artists/135/sales/65063" },
       { name: "KATSEYE — WILD duyurusu", url: "https://www.soompi.com/article/1848242wpp/katseye-unveils-1st-teaser-photos-for-wild-comeback" },
+      { name: "Forbes — Ağustos 2026 güncel yayın takvimi", url: "https://www.forbes.com/sites/jeffbenjamin/2026/07/08/2026-q3-release-calendar-of-new-kpop-albums-singles-and-comebacks/" },
       { name: "NCT 127 — BLINGY duyurusu", url: "https://www.soompi.com/article/1857494wpp/watch-nct-127-drops-1st-teaser-for-comeback-with-full-length-album-blingy" },
       { name: "Taemin — Soft Violence duyurusu", url: "https://www.soompi.com/article/1856850wpp/watch-shinees-taemin-hints-at-comeback-with-mysterious-teaser" },
       { name: "TWS — Soda Soda", url: "https://koreajoongangdaily.joins.com/news/2026-06-01/entertainment/kpop/Boy-band-TWS-to-drop-new-Japanese-EP-on-Aug-4/2605805" },
       { name: "Kore pop müzik listesi — Temmuz 3. hafta", url: "https://www.soompi.com/article/1855968wpp/soompis-k-pop-music-chart-2026-july-week-3" },
     ],
     storyShare:
-      "Ağustos K-pop takvimi dolup taşıyor: KISS OF LIFE, KiiiKiii, WayV, KATSEYE, NCT 127 ve Taemin için tarihleri; yükselen Asya şarkılarıyla birlikte Pop Günlüğü'nde topladık.",
+      "Ağustos K-pop radarı güncellendi: KiiiKiii — WhyKiiiKiii ve WayV — Vision Wings artık yayında; sırada KATSEYE, NCT 127 ve Taemin var.",
   },
   {
     slug: "ariana-grande-turne-sonrasi-ara-veriyor",

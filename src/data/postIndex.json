@@ -1,5 +1,398 @@
 [
   {
+    "id": "5210",
+    "slug": "le-sserafim-boompala-turkce-ceviri",
+    "title": "LE SSERAFIM BOOMPALA Türkçe Çeviri",
+    "song": "BOOMPALA",
+    "artist": "LE SSERAFIM",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+    "date": "2026-08-10T11:15:51.505Z",
+    "reading_time": 4,
+    "excerpt": "Dale a tu cuerpo alegría, Macarena",
+    "categories": [
+      "LE SSERAFIM",
+      "'PUREFLOW', Pt. 1"
+    ],
+    "category_slugs": [
+      "le-sserafim",
+      "pureflow-pt-1"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/41d2WjuL0ikRKVjxmL7ZFz",
+      "albumUrl": "https://open.spotify.com/album/7vQRIpYlfMRCGU9GUx8Fko",
+      "artistUrl": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+      "albumName": "'PUREFLOW', Pt. 1",
+      "releaseDate": "2026-05-22",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+      "duration": "2:57",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/41d2WjuL0ikRKVjxmL7ZFz",
+        "isrc": "USA2P2622176",
+        "duration": "2:57",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
+      },
+      "album": {
+        "name": "'PUREFLOW', Pt. 1",
+        "url": "https://open.spotify.com/album/7vQRIpYlfMRCGU9GUx8Fko",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+        "artists": [
+          {
+            "name": "LE SSERAFIM",
+            "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+          }
+        ],
+        "releaseDate": "2026-05-22",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=Gnn4GRSzRXI",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "mañana": "“Mañana”: İspanyolca \"yarın\" demek. Şarkıdaki dertleri erteleme ve umursamazlık havasını pekiştiriyor.",
+      "f love is the mommy, I": "“Self love is the mommy”: Öz sevginin insanı nasıl beslediğini ve büyüttüğünü anlatan o tatlı ve modern metafor.",
+      "elestial chakra": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "amaste,": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "ou": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "itate on": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "sevgi be": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "rything's": "Akış (Flow): \"Everything's water and everything's air\" (Her şey su ve hava) dizesini, Budist felsefedeki dünyevi olanın geçiciliği vurgusuyla, akıcı bir dille çevirdik.",
+      "ir (U": "Akış (Flow): \"Everything's water and everything's air\" (Her şey su ve hava) dizesini, Budist felsefedeki dünyevi olanın geçiciliği vurgusuyla, akıcı bir dille çevirdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Dale a tu cuerpo alegría, Macarena",
+      "tr": "Vücuduna neşe ver Macarena!"
+    },
+    "heroPair": {
+      "en": "Boompala (Uh)",
+      "tr": "Vücuduna neşe ver Macarena!"
+    }
+  },
+  {
+    "id": "5209",
+    "slug": "katseye-pinky-up-turkce-ceviri",
+    "title": "KATSEYE PINKY UP Türkçe Çeviri",
+    "song": "PINKY UP",
+    "artist": "KATSEYE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+    "date": "2026-08-10T11:15:51.505Z",
+    "reading_time": 2,
+    "excerpt": "I-I-I-I bet it goes like this",
+    "categories": [
+      "KATSEYE",
+      "PINKY UP"
+    ],
+    "category_slugs": [
+      "katseye",
+      "pinky-up"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+      "albumUrl": "https://open.spotify.com/album/5tLy0MEMDVqiHKso6B4jnz",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "PINKY UP",
+      "releaseDate": "2026-04-09",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+      "duration": "2:11",
+      "albumType": "Single",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+        "isrc": "USUM72601592",
+        "duration": "2:11",
+        "previewUrl": null,
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe4892ff677f801f85814a02d"
+      },
+      "album": {
+        "name": "PINKY UP",
+        "url": "https://open.spotify.com/album/5tLy0MEMDVqiHKso6B4jnz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+        "artists": [
+          {
+            "name": "KATSEYE",
+            "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+          }
+        ],
+        "releaseDate": "2026-04-09",
+        "albumType": "Single",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=8g7VclWsiaM",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "Pinky up": "“Pinky Up”: Çay içerken veya bir şeyi tutarken serçe parmağın havada olması, aristokrasiyi ve \"havalı/klas\" olmayı simgeler. KATSEYE bunu bir \"üstünlük\" ve \"takmıyorum\" sloganı olarak kullanıyor.",
+      "Socrates": "“Socrates”: Sokrates'in ünlü \"Bildiğim tek şey, hiçbir şey bilmediğimdir\" sözüne atıf yaparak, dünyadaki dertlere karşı \"cehaletin mutluluğunu\" ve umursamazlığı kutsuyor.",
+      "parmaklar havaya": "\"Pinky Up\" Yerelleştirmesi: Bu ifadeyi olduğu gibi bıraksak anlamı kaybolabilirdi. Türkçedeki o \"keyfi yerinde ve üst perdeden\" bakışı anlatmak için \"Parmaklar Havaya\" vurgusunu kullandık.",
+      "live large": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "batshit": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "mevzu": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "Pin-pinky": "Ritmik Ad-libler: \"Pin-pinky\" gibi kekeleme ve ritim oyunlarını, Türkçede de aynı tempoda söylenebilecek şekilde \"Pa-parmaklar\" olarak uyarladık.",
+      "Pa-parmaklar": "Ritmik Ad-libler: \"Pin-pinky\" gibi kekeleme ve ritim oyunlarını, Türkçede de aynı tempoda söylenebilecek şekilde \"Pa-parmaklar\" olarak uyarladık."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "I-I-I-I bet it goes like this",
+      "tr": "Ba-ba-ba-bahse girerim mevzu şöyle dönüyordur..."
+    },
+    "heroPair": {
+      "en": "Pinky up, up",
+      "tr": "Serçe parmaklar havaya, havaya!"
+    }
+  },
+  {
+    "id": "5208",
+    "slug": "rescene-love-attack-turkce-ceviri",
+    "title": "RESCENE LOVE ATTACK Türkçe Çeviri",
+    "song": "LOVE ATTACK",
+    "artist": "RESCENE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+    "date": "2026-08-10T11:15:51.504Z",
+    "reading_time": 4,
+    "excerpt": "Feeling love attack!",
+    "categories": [
+      "RESCENE",
+      "SCENEDROME"
+    ],
+    "category_slugs": [
+      "rescene",
+      "scenedrome"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
+      "albumUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+      "artistUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+      "albumName": "SCENEDROME",
+      "releaseDate": "2024-08-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+      "duration": "3:02",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
+        "isrc": "KRA382405206",
+        "duration": "3:02",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "RESCENE",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36"
+      },
+      "album": {
+        "name": "SCENEDROME",
+        "url": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+        "artists": [
+          {
+            "name": "RESCENE",
+            "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+          }
+        ],
+        "releaseDate": "2024-08-27",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "지의 향)": "¹“미지의 향” (Bilinmeyen Koku): RESCENE'in konsepti parfümler ve kokular üzerine kuruludur. Şarkıcı burada partnerinin gizli kalmış, keşfedilmemiş çekiciliğini bir koku metaforu üzerinden anlatıyor.",
+      "bergris (": "²“Ambergris” (Balina Kustuğu/Kehribar): Parfüm yapımında kullanılan en değerli ve kalıcı ham maddelerden biridir. RESCENE burada çekimin ne kadar nadir, değerli ve kalıcı olduğunu vurguluyor.",
+      "love attack": "\"Love Attack\" Vurgusu: Aşkın \"aniliği\" ve \"gücü\" temasını Türkçedeki \"Baskın\" kelimesiyle karşılayarak o çarpıcı etkiyi pekiştirdik.",
+      "baskın": "\"Love Attack\" Vurgusu: Aşkın \"aniliği\" ve \"gücü\" temasını Türkçedeki \"Baskın\" kelimesiyle karşılayarak o çarpıcı etkiyi pekiştirdik.",
+      "I am all you need": "Hırçın ve Özgüvenli Ton: \"I am all you need\" (tek ihtiyacın benim) ve \"you can't deny it\" gibi kısımları, grubun o iddialı \"yeni nesil\" havasıyla çevirdik.",
+      "u can't": "Hırçın ve Özgüvenli Ton: \"I am all you need\" (tek ihtiyacın benim) ve \"you can't deny it\" gibi kısımları, grubun o iddialı \"yeni nesil\" havasıyla çevirdik.",
+      "ah-ah)": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik.",
+      "eah, yeah)": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik.",
+      "ne, two, three,": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Feeling love attack!",
+      "tr": "O aşk baskınını hissediyorum!"
+    },
+    "heroPair": {
+      "en": "Feeling love attack!",
+      "tr": "O aşk baskınını hissediyorum!"
+    }
+  },
+  {
+    "id": "5207",
+    "slug": "aespa-lemonade-turkce-ceviri",
+    "title": "aespa LEMONADE Türkçe Çeviri",
+    "song": "LEMONADE",
+    "artist": "aespa",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+    "date": "2026-08-10T11:15:51.504Z",
+    "reading_time": 4,
+    "excerpt": "Woo",
+    "categories": [
+      "aespa",
+      "LEMONADE - The 2nd Album"
+    ],
+    "category_slugs": [
+      "aespa",
+      "lemonade-the-2nd-album"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+      "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm",
+      "artistUrl": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+      "albumName": "LEMONADE - The 2nd Album",
+      "releaseDate": "2026-05-29",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+      "duration": "3:07",
+      "albumType": "Album",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+        "isrc": "KRA302600098",
+        "duration": "3:07",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "aespa",
+        "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b"
+      },
+      "album": {
+        "name": "LEMONADE - The 2nd Album",
+        "url": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+        "artists": [
+          {
+            "name": "aespa",
+            "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
+          }
+        ],
+        "releaseDate": "2026-05-29",
+        "albumType": "Album",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=83C3TZ4Zm_o",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "make it lemonade": "“Make it lemonade”: \"Hayat sana limon veriyorsa limonata yap\" deyimine atıf. aespa burada dertleri başarıya dönüştürme gücünden bahsediyor.",
+      "psinden limonata yapacağım!": "Deyim Yerelleştirmesi: \"Life gives you lemons\" felsefesini, Türkçedeki o \"dertlerden ders çıkarmak/başarı devşirmek\" tınısıyla \"Hepsinden limonata yapacağım\" vurgusuyla koruduk.",
+      "TA": "Hız ve Zaman Terimleri: \"ETA\" (Tahmini varış süresi) ve \"Lane\" (kulvar/şerit) gibi kelimeleri; aespa'nın o durdurulamaz, kuralsız ve hızlı ilerleyişini yansıtacak şekilde bıraktık.",
+      "lane": "Hız ve Zaman Terimleri: \"ETA\" (Tahmini varış süresi) ve \"Lane\" (kulvar/şerit) gibi kelimeleri; aespa'nın o durdurulamaz, kuralsız ve hızlı ilerleyişini yansıtacak şekilde bıraktık.",
+      "xing\nL": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "crushin": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "juicy": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "vour\nM": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "ece of cake\nM": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "zip": "Savage Ton: \"Zip\" (sus/fermuarı çek) ve \"I don't care\" gibi kısımları, grubun o baskın aurasına uygun olarak kestirip atan bir dille verdik.",
+      "I don": "Savage Ton: \"Zip\" (sus/fermuarı çek) ve \"I don't care\" gibi kısımları, grubun o baskın aurasına uygun olarak kestirip atan bir dille verdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Woo",
+      "tr": "Woo!"
+    },
+    "heroPair": {
+      "en": "I'll make it lemonade",
+      "tr": "Ve hepsinden bir limonata yapacağım!"
+    }
+  },
+  {
+    "id": "5206",
+    "slug": "illit-it-s-me-turkce-ceviri",
+    "title": "ILLIT It's Me Türkçe Çeviri",
+    "song": "It's Me",
+    "artist": "ILLIT",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+    "date": "2026-08-10T11:15:51.503Z",
+    "reading_time": 2,
+    "excerpt": "Who's your bias? I'm your bias",
+    "categories": [
+      "ILLIT",
+      "MAMIHLAPINATAPAI"
+    ],
+    "category_slugs": [
+      "illit",
+      "mamihlapinatapai"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1D5L58KLBbceOynTP4DQnY",
+      "albumUrl": "https://open.spotify.com/album/5VIt2dA2StboE900mllWdJ",
+      "artistUrl": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN",
+      "albumName": "MAMIHLAPINATAPAI",
+      "releaseDate": "2026-04-30",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+      "duration": "2:18",
+      "albumType": "EP",
+      "label": null,
+      "track": {
+        "url": "https://open.spotify.com/track/1D5L58KLBbceOynTP4DQnY",
+        "isrc": "USA2P2617168",
+        "duration": "2:18",
+        "previewUrl": null,
+        "trackNumber": 2
+      },
+      "artist": {
+        "name": "ILLIT",
+        "url": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710"
+      },
+      "album": {
+        "name": "MAMIHLAPINATAPAI",
+        "url": "https://open.spotify.com/album/5VIt2dA2StboE900mllWdJ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+        "artists": [
+          {
+            "name": "ILLIT",
+            "url": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+          }
+        ],
+        "releaseDate": "2026-04-30",
+        "albumType": "EP",
+        "label": null
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=bMhDJ0S0OBA",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "bias": "¹“Bias”: K-Pop dünyasında bir gruptaki en çok sevilen, \"favori\" üyeyi tanımlayan terimdir. Türkçede de hayranlar arasında aynen kullanıldığı için bu \"havalı\" halini bozmadık.",
+      "boseokham": "²“보석함” (Jewel Box): K-Pop sektöründe yetenekli idollerin şirketleri tarafından uzun süre yeni şarkı çıkarmadan saklanması (\"Kutuya atılması\") durumuna yapılan esprili bir gönderme.",
+      "susubanggwan": "³“수수방관” (Seyirci kalmak): Bir olay karşısında elini kolunu bağlayıp sadece izlemek anlamındaki deyim. ILLIT burada \"tortilla gibi düz ve tepkisiz kalma\" esprisiyle birleştirmiş.",
+      "fan account": "Fandom Terimleri: \"Bias\", \"Fan account\" ve \"Fave\" gibi kelimeleri, K-Pop dinleyicisinin o \"içeriden\" dilini korumak adına yerelleştirerek ama orijinal tınısını bozmadan kullandık.",
+      "fave": "Fandom Terimleri: \"Bias\", \"Fan account\" ve \"Fave\" gibi kelimeleri, K-Pop dinleyicisinin o \"içeriden\" dilini korumak adına yerelleştirerek ama orijinal tınısını bozmadan kullandık.",
+      "mücevher kutusu": "Kültürel İğnelemeler: \"Jewel Box\" (보석함) metaforunu, birinin sevgilisini kısıtlaması veya saklaması anlamında Türkçeye \"mücevher kutusu\" olarak yansıttık.",
+      "hilarious": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "headline": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "Çok komik": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "Instagram": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "manşet": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik."
+    },
+    "difficulty_note": null,
+    "firstPair": {
+      "en": "Who's your bias? I'm your bias",
+      "tr": "Bias'ın¹ (favorin) kim? Senin bias'ın benim!"
+    },
+    "heroPair": {
+      "en": "It's me",
+      "tr": "Bias'ın kim? Senin bias'ın benim!"
+    }
+  },
+  {
     "id": "5205",
     "slug": "dayoung-jay-park-flirty-turkce-ceviri",
     "title": "DAYOUNG & Jay Park FLIRTY Türkçe Çeviri",

@@ -9,6 +9,8 @@ import { slugify, upsertRecordData, writePublishData } from "../server/ingest.js
 const execFileAsync = promisify(execFile);
 const INPUT = "/tmp/acupoflyrics-ai-studio-aug10.json";
 const REPORT = "/tmp/acupoflyrics-ai-studio-aug10-report.json";
+const DEMAND_INPUT = "/tmp/acupoflyrics-ai-studio-demand.json";
+const DEMAND_REPORT = "/tmp/acupoflyrics-ai-studio-demand-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -97,6 +99,43 @@ const TRACKS = [
     title: "FLIRTY",
     youtubeArtist: "DAYOUNG Jay Park",
     translationMap: [0, 1, 2, 3, 4, 5, 6, 4, 7],
+  },
+  {
+    batch: "demand",
+    label: "ILLIT — It's Me",
+    artist: "ILLIT",
+    title: "It's Me",
+    youtubeUrl: "https://www.youtube.com/watch?v=bMhDJ0S0OBA",
+  },
+  {
+    batch: "demand",
+    label: "aespa — LEMONADE",
+    artist: "aespa",
+    title: "LEMONADE",
+    youtubeUrl: "https://www.youtube.com/watch?v=83C3TZ4Zm_o",
+    translationMap: [0, 1, 11, 2, 4, 5, 6, 7, 8, 9, 10, 8, 11],
+  },
+  {
+    batch: "demand",
+    label: "RESCENE — LOVE ATTACK",
+    artist: "RESCENE",
+    title: "LOVE ATTACK",
+    youtubeUrl: "https://www.youtube.com/watch?v=9XttLI0oH0I",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 6, 11, 12, 13, 14],
+  },
+  {
+    batch: "demand",
+    label: "KATSEYE — PINKY UP",
+    artist: "KATSEYE",
+    title: "PINKY UP",
+    youtubeUrl: "https://www.youtube.com/watch?v=8g7VclWsiaM",
+  },
+  {
+    batch: "demand",
+    label: "LE SSERAFIM — BOOMPALA",
+    artist: "LE SSERAFIM",
+    title: "BOOMPALA",
+    youtubeUrl: "https://www.youtube.com/watch?v=Gnn4GRSzRXI",
   },
 ];
 
@@ -368,9 +407,13 @@ async function main() {
   loadEnv();
   const write = process.argv.includes("--write");
   const parseOnly = process.argv.includes("--parse-only");
-  const extracted = JSON.parse(await readFile(INPUT, "utf8"));
+  const demandBatch = process.argv.includes("--demand");
+  const inputPath = demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = demandBatch ? DEMAND_REPORT : REPORT;
+  const selectedTracks = TRACKS.filter((track) => demandBatch ? track.batch === "demand" : !track.batch);
+  const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.label, item]));
-  const parsed = TRACKS.map((track) => parseTrack(byLabel.get(track.label), track));
+  const parsed = selectedTracks.map((track) => parseTrack(byLabel.get(track.label), track));
 
   console.table(parsed.map((track) => ({
     artist: track.artistDisplay || track.artist,
@@ -421,8 +464,8 @@ async function main() {
     stanzaCount: track.stanzas.length,
     romanized: track.hasHangul,
   }));
-  await writeFile(REPORT, `${JSON.stringify(report, null, 2)}\n`, "utf8");
-  console.log(`Eşleşme raporu: ${REPORT}`);
+  await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  console.log(`Eşleşme raporu: ${reportPath}`);
   if (!write) {
     console.log("Veri dosyaları değiştirilmedi. Yazmak için --write kullanın.");
     return;

@@ -158,7 +158,7 @@
   {
     "slug": "le-sserafim",
     "name": "LE SSERAFIM",
-    "count": 5,
+    "count": 6,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
   },
   {
@@ -236,7 +236,7 @@
   {
     "slug": "aespa",
     "name": "aespa",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b"
   },
   {
@@ -284,7 +284,7 @@
   {
     "slug": "katseye",
     "name": "KATSEYE",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6"
   },
   {
@@ -1966,5 +1966,17 @@
     "name": "Jay Park",
     "count": 1,
     "image": null
+  },
+  {
+    "slug": "illit",
+    "name": "ILLIT",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710"
+  },
+  {
+    "slug": "rescene",
+    "name": "RESCENE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36"
   }
 ]

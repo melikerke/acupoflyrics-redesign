@@ -1,5 +1,2259 @@
 [
   {
+    "id": "5210",
+    "title": "LE SSERAFIM BOOMPALA Türkçe Çeviri",
+    "song": "BOOMPALA",
+    "slug": "le-sserafim-boompala-turkce-ceviri",
+    "date": "2026-08-10T11:15:51.505Z",
+    "artist": "LE SSERAFIM",
+    "categories": [
+      "LE SSERAFIM",
+      "'PUREFLOW', Pt. 1"
+    ],
+    "category_slugs": [
+      "le-sserafim",
+      "pureflow-pt-1"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Huh Yunjin",
+        "lines": [
+          "Dale a tu cuerpo alegría, Macarena",
+          "Que tu cuerpo es pa' darle alegría y cosa buena",
+          "Dale a tu cuerpo alegría, Macarena",
+          "Eh, Macarena (¡Ayy!)",
+          "(Uh)",
+          "SSERAFIM, baby (Uh)",
+          "(Uh)",
+          "Boompala (Uh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Huh Yunjin",
+        "lines": [
+          "Vücuduna neşe ver Macarena!",
+          "Çünkü vücudun ona neşe ve güzel şeyler vermen içindir...",
+          "Vücuduna neşe ver Macarena!",
+          "Eh, Macarena! (Ayy!)",
+          "(Uh)",
+          "SSERAFIM bebeğim!",
+          "Boompala..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Kazuha",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "You can't hold on to the clouds in the air (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Kazuha",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy!",
+          "Uh, boompala, boompala, boompala, ayy!",
+          "Havada asılı bulutlara tutunamazsın ki...",
+          "Uh, boompala, boompala, boompala, ayy!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Huh Yunjin, Hong Eunchae, Kazuha",
+        "lines": [
+          "Wake up saying \"Hi\" to the mirror",
+          "Trying to find the light where the fear were",
+          "Baby, say goodbye if you see her",
+          "She's only an illusion, don't feed her (What?)",
+          "Beating up all inner drama",
+          "Saving the shame for mañana",
+          "Pause for a second like comma",
+          "Put the fear to bed, pajama"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Huh Yunjin, Hong Eunchae, Kazuha",
+        "lines": [
+          "Aynadaki kendime bir \"selam\" vererek uyanıyorum,",
+          "Korkuların olduğu o yerde ışığı arıyorum.",
+          "Bebeğim, o korkuyu görürsen \"elveda\" de ona;",
+          "O sadece bir illüzyon, besleme onu sakın! (Ne?)",
+          "İçimdeki tüm o dramayı alt ediyorum,",
+          "Utancımı \"mañana\"ya (yarına) saklıyorum.",
+          "Bir virgül gibi duraksıyorum bir anlık...",
+          "Korkuyu uykuya yatırıp pijamasını giydiriyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Huh Yunjin, Kim Chaewon",
+        "lines": [
+          "Uh, boompala, boompala, boompala, yeah (Uh)",
+          "Uh, boompala, boompala, boompala, yeah (Uh)",
+          "You can't hold on to the clouds in the air (Uh)",
+          "Uh, boompala, boompala, boompala, yeah (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Nothing's forever so nothing's to fear (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Huh Yunjin, Kim Chaewon",
+        "lines": [
+          "Uh, boompala, boompala, boompala, yeah!",
+          "Havada asılı bulutlara tutunamazsın ki...",
+          "Boompala, boompala, boompala, yeah!",
+          "Hiçbir şey sonsuz değil, o yüzden korkacak bir şey de yok!",
+          "Uh, boompala, boompala, boompala, ayy!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Sakura, Kim Chaewon, Hong Eunchae",
+        "lines": [
+          "On my chest, on my heart, I'm drumming (Yeah)",
+          "Only loving on myself, I'm coming (Uh)",
+          "My celestial chakra is stunning",
+          "Namaste, Namaste, I'ma stay up (Eh, Macarena)",
+          "On my chest, on my heart, I'm drumming (Yeah)",
+          "Only betting on myself, I run it (Uh)",
+          "My celestial chakra is stunning",
+          "One, two, three, bye-bye (Eh, Macarena)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Sakura, Kim Chaewon, Hong Eunchae",
+        "lines": [
+          "Göğsümde, kalbimin üzerinde bir trampet çalıyorum, (Evet)",
+          "Sadece kendimi seviyorum, geliyorum kendime! (Uh)",
+          "İlahi (celestial) çakram göz kamaştırıyor;",
+          "Namaste, namaste; ben hep zinde ve ayaktayım (stay up)!",
+          "(Eh, Macarena!)",
+          "Göğsümde, kalbimin üzerinde trampet çalıyorum,",
+          "Sadece kendime bahis oynuyorum, işin başındayım!",
+          "İlahi çakram göz kamaştırıyor;",
+          "Bir, iki, üç; hadi eyvallah! (Eh, Macarena!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Huh Yunjin, Kazuha",
+        "lines": [
+          "Holding on too tight, gotta let it flow (Uh)",
+          "Feeling like a wave in the undertow (Uh)",
+          "Permanent is something that I'm letting go (Uh)",
+          "I gotta let go, yeah, I'm going, going, going (Uh, what?)",
+          "Going, going, going crazy, yeah",
+          "I couldn't be more in touch if you paid me",
+          "Self love is the mommy, I'm the baby",
+          "Zen out, meditate on the daily"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Huh Yunjin, Kazuha",
+        "lines": [
+          "Çok sıkı tutunuyorsun, bırak aksın gitsin...",
+          "Dip dalgadaki (undertow) bir dalga gibi hissediyorum,",
+          "\"Kalıcı\" olan ne varsa veda ediyorum artık.",
+          "Özgür bıraktım kendimi, evet; gidiyorum, gidiyorum...",
+          "Deliriyorum, deliriyorum, deliriyorum işte!",
+          "Bana para ödesen bile özümle daha fazla barışık (in touch) olamazdım.",
+          "Öz sevgi benim \"annem\", bense onun bebeğiyim...",
+          "Huzura eriyorum (zen out), her gün meditasyon yapıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sakura, Hong Eunchae",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Everything's water and everything's air (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)",
+          "Everything's empty so everything's clear (Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Uh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sakura, Hong Eunchae",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy!",
+          "Her şey sadece su ve havadan ibaret...",
+          "Uh, boompala, boompala, boompala, ayy!",
+          "Her şey boşluktan ibaret, o yüzden her şey tertemiz!",
+          "Uh, boompala, boompala, boompala, ayy!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Kim Chaewon, Hong Eunchae, Sakura",
+        "lines": [
+          "On my chest, on my heart, I'm drumming (Uh)",
+          "Only loving on myself, I'm coming (Uh)",
+          "My celestial chakra is stunning (Yeah)",
+          "Namaste, Namaste, I'ma stay up (Eh, Macarena)",
+          "On my chest, on my heart, I'm drumming (Yeah)",
+          "Only betting on myself, I run it (Uh)",
+          "My celestial chakra is stunning",
+          "One, two, three, bye-bye (Eh, Macarena)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Kim Chaewon, Hong Eunchae, Sakura",
+        "lines": [
+          "Göğsümde, kalbimin üzerinde trampet çalıyorum...",
+          "Namaste, namaste; ben hep ayaktayım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Kazuha, Huh Yunjin",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy (Dale a tu cuerpo alegría, Macarena; Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Que tu cuerpo es pa' darle alegría y cosa buena; Uh)",
+          "You can't hold on to the clouds in the air (Dale a tu cuerpo alegría, Macarena; Uh)",
+          "Uh, boompala, boompala, boompala, ayy (Eh, Macarena; Uh)",
+          "Uh, boompala, boompala, boompala, yeah (Dale a tu cuerpo alegría, Macarena; Uh)",
+          "Uh, boompala, boompala, boompala, yeah (Que tu cuerpo es pa' darle alegría y cosa buena; Uh)",
+          "Nothing's forever so nothing's to fear (Dale a tu cuerpo alegría, Macarena; Uh)",
+          "Uh, boompala, boompala, boompala, yeah (Eh, Macarena; Uh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Kazuha, Huh Yunjin",
+        "lines": [
+          "Uh, boompala, boompala, boompala, ayy! (Vücuduna neşe ver Macarena!)",
+          "Havada asılı bulutlara tutunamazsın ki...",
+          "Hiçbir şey sonsuz değil, o yüzden korkacak bir şey de yok!",
+          "Uh, boompala, boompala, boompala, yeah!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Sakura, Kim Chaewon",
+        "lines": [
+          "Dale a tu cuerpo alegría, Macarena",
+          "Que tu cuerpo es pa' darle alegría y cosa buena",
+          "Dale a tu cuerpo alegría, Macarena",
+          "Eh, Macarena (¡Ayy!)",
+          "Dale a tu cuerpo alegría, Macarena",
+          "Que tu cuerpo es pa' darle alegría y cosa buena",
+          "Dale a tu cuerpo alegría, Macarena",
+          "Eh, Macarena (¡Ayy!)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Sakura, Kim Chaewon",
+        "lines": [
+          "Vücuduna neşe ver Macarena!",
+          "Vücudun ona neşe ve güzellik vermen içindir...",
+          "Eh, Macarena! (Ayy!)"
+        ]
+      }
+    ],
+    "excerpt": "Dale a tu cuerpo alegría, Macarena",
+    "annotations": {
+      "mañana": "“Mañana”: İspanyolca \"yarın\" demek. Şarkıdaki dertleri erteleme ve umursamazlık havasını pekiştiriyor.",
+      "f love is the mommy, I": "“Self love is the mommy”: Öz sevginin insanı nasıl beslediğini ve büyüttüğünü anlatan o tatlı ve modern metafor.",
+      "elestial chakra": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "amaste,": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "ou": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "itate on": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "sevgi be": "Spiritüel Terimler: \"Celestial chakra\", \"Namaste\", \"Zen\" ve \"Meditate\" gibi kelimeleri; şarkının modern \"şifalanma\" ve \"öz sevgi\" temasına uygun olarak havalı bir dille yerleştirdik.",
+      "rything's": "Akış (Flow): \"Everything's water and everything's air\" (Her şey su ve hava) dizesini, Budist felsefedeki dünyevi olanın geçiciliği vurgusuyla, akıcı bir dille çevirdik.",
+      "ir (U": "Akış (Flow): \"Everything's water and everything's air\" (Her şey su ve hava) dizesini, Budist felsefedeki dünyevi olanın geçiciliği vurgusuyla, akıcı bir dille çevirdik."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "41d2WjuL0ikRKVjxmL7ZFz",
+        "name": "BOOMPALA",
+        "url": "https://open.spotify.com/track/41d2WjuL0ikRKVjxmL7ZFz",
+        "isrc": "USA2P2622176",
+        "durationMs": 176546,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4SpbR6yFEvexJuaBpgAU5p",
+        "name": "LE SSERAFIM",
+        "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4SpbR6yFEvexJuaBpgAU5p",
+          "name": "LE SSERAFIM",
+          "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+        }
+      ],
+      "album": {
+        "id": "7vQRIpYlfMRCGU9GUx8Fko",
+        "name": "'PUREFLOW', Pt. 1",
+        "url": "https://open.spotify.com/album/7vQRIpYlfMRCGU9GUx8Fko",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d",
+        "artists": [
+          {
+            "id": "4SpbR6yFEvexJuaBpgAU5p",
+            "name": "LE SSERAFIM",
+            "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+          }
+        ],
+        "releaseDate": "2026-05-22",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 SOURCE MUSIC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 SOURCE MUSIC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 11,
+        "tracks": [
+          {
+            "id": "0mgbaZyS4BCJjJ3EeG0TXm",
+            "name": "Pureflow",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 109253,
+            "duration": "1:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0mgbaZyS4BCJjJ3EeG0TXm",
+            "isCurrent": false
+          },
+          {
+            "id": "41d2WjuL0ikRKVjxmL7ZFz",
+            "name": "BOOMPALA",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 176546,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/41d2WjuL0ikRKVjxmL7ZFz",
+            "isCurrent": true
+          },
+          {
+            "id": "3OKvpTlnhvj8u6fbV53kqC",
+            "name": "CELEBRATION",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 153000,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3OKvpTlnhvj8u6fbV53kqC",
+            "isCurrent": false
+          },
+          {
+            "id": "0HsgIz531mkdxly35wKcwj",
+            "name": "Creatures",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 188000,
+            "duration": "3:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0HsgIz531mkdxly35wKcwj",
+            "isCurrent": false
+          },
+          {
+            "id": "27UQUnxpR2e8zrrMUVcbc9",
+            "name": "iffy iffy",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 129200,
+            "duration": "2:09",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/27UQUnxpR2e8zrrMUVcbc9",
+            "isCurrent": false
+          },
+          {
+            "id": "5JDDrQN4rzCOo6UniZEwq0",
+            "name": "Need Your Company",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 118400,
+            "duration": "1:58",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JDDrQN4rzCOo6UniZEwq0",
+            "isCurrent": false
+          },
+          {
+            "id": "6dPtt7EhUj8YQQ0IFVCQRm",
+            "name": "Sonder",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 166000,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6dPtt7EhUj8YQQ0IFVCQRm",
+            "isCurrent": false
+          },
+          {
+            "id": "7r2SJUMWUwghdXczQDSYST",
+            "name": "Saki (feat. Aliyah's Interlude)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 164600,
+            "duration": "2:45",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7r2SJUMWUwghdXczQDSYST",
+            "isCurrent": false
+          },
+          {
+            "id": "49CeyCugXaZV05J82ejVQh",
+            "name": "Irony",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 144000,
+            "duration": "2:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/49CeyCugXaZV05J82ejVQh",
+            "isCurrent": false
+          },
+          {
+            "id": "3GY9Xp0U5rb7qYQVRSQqwh",
+            "name": "Trust Exercise",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 143000,
+            "duration": "2:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3GY9Xp0U5rb7qYQVRSQqwh",
+            "isCurrent": false
+          },
+          {
+            "id": "5oVTzymB1OsLk3qsEHndYQ",
+            "name": "Liminal Space",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 131000,
+            "duration": "2:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oVTzymB1OsLk3qsEHndYQ",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-10T11:15:51.474Z",
+      "trackUrl": "https://open.spotify.com/track/41d2WjuL0ikRKVjxmL7ZFz",
+      "albumUrl": "https://open.spotify.com/album/7vQRIpYlfMRCGU9GUx8Fko",
+      "artistUrl": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+      "albumName": "'PUREFLOW', Pt. 1",
+      "albumType": "Album",
+      "releaseDate": "2026-05-22",
+      "duration": "2:57",
+      "isrc": "USA2P2622176",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733fba33983638fcf9704c965d"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Gnn4GRSzRXI",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "LE SSERAFIM BOOMPALA Türkçe Çeviri",
+      "description": "LE SSERAFIM – BOOMPALA şarkı sözleri ve özenli Türkçe çevirisi. 'PUREFLOW', Pt. 1 albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/le-sserafim-boompala-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5209",
+    "title": "KATSEYE PINKY UP Türkçe Çeviri",
+    "song": "PINKY UP",
+    "slug": "katseye-pinky-up-turkce-ceviri",
+    "date": "2026-08-10T11:15:51.505Z",
+    "artist": "KATSEYE",
+    "categories": [
+      "KATSEYE",
+      "PINKY UP"
+    ],
+    "category_slugs": [
+      "katseye",
+      "pinky-up"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Lara",
+        "lines": [
+          "I-I-I-I bet it goes like this"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Lara",
+        "lines": [
+          "Ba-ba-ba-bahse girerim mevzu şöyle dönüyordur..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Daniela, Lara",
+        "lines": [
+          "Pinky up, up",
+          "Pinky up, up",
+          "Pinky up, up",
+          "Pinky up, up",
+          "Put this pinky up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Daniela, Lara",
+        "lines": [
+          "Serçe parmaklar havaya, havaya!",
+          "Parmaklar havaya!",
+          "Parmaklar havaya!",
+          "Hadi, şu serçe parmağını kaldır havaya!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Megan, Daniela, Yoonchae",
+        "lines": [
+          "One day, soon, the world's gonna end",
+          "I'm gonna make out with my new bestest friends",
+          "I wanna live large, right before it all burns down",
+          "(Up, up, pinky up)",
+          "Go hard like we're robbin' the Louvre",
+          "We Mona Lisa with a cute attitude",
+          "I wanna get high right before we're in the ground",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Megan, Daniela, Yoonchae",
+        "lines": [
+          "Yakında bir gün dünya sona erecek, biliyorum;",
+          "O yüzden yeni kankalarımla felekten bir gece çalacağım.",
+          "Her şey yanıp kül olmadan önce, krallar gibi yaşamak (live large) istiyorum!",
+          "(Havaya, havaya, parmaklar havaya!)",
+          "Sanki Louvre müzesini soyuyormuşuz gibi sert takılalım;",
+          "Biz o sevimli tavırlı (cute attitude)...",
+          "Mona Lisa’yız işte!",
+          "Mezara girmeden hemen önce, kafam biraz güzel olsun istiyorum.",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Lara, Sophia, Megan",
+        "lines": [
+          "Ooh, we're screaming from cloud nine",
+          "No one could touch us if they tried",
+          "Ooh, but it's a state of mind",
+          "I-I-I-I bet it goes like this"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Lara, Sophia, Megan",
+        "lines": [
+          "Ooh, bulutların üzerinden haykırıyoruz (cloud nine);",
+          "Deneseler bile kimse dokunamaz bize!",
+          "Ooh, çünkü her şey tamamen kafada bitiyor (state of mind)...",
+          "Bahse girerim mevzu tam olarak şöyle dönüyordur:"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Sophia",
+        "lines": [
+          "Pin-pinky up, up",
+          "Pinky up, up",
+          "Pin-pin-pin-pinky up, up",
+          "Pinky up, up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Sophia",
+        "lines": [
+          "Pa-parmaklar havaya, havaya!",
+          "Parmaklar havaya!",
+          "Pa-pa-pa-parmaklar havaya!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Daniela, Sophia, Yoonchae, Megan",
+        "lines": [
+          "Us against the world, shaking ass in the parking lot",
+          "If wе get arrested, haha, baby, laugh it off",
+          "I lovе you, you love me, we batshit, oui, oui",
+          "And I'd kill 'em for you if it got that deep",
+          "Fancy is a frequency",
+          "A mind of delusion, philosophy",
+          "I kinda know nothing, just like Socrates",
+          "The only true wisdom is in knowing you know nothing (Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Daniela, Sophia, Yoonchae, Megan",
+        "lines": [
+          "Otoparkta kalça sallıyoruz, tüm dünyaya karşıyız biz!",
+          "Eğer tutuklanırsak; haha, bebeğim gül geç buna!",
+          "Seni seviyorum, sen beni seviyorsun; zıvanadan çıktık (batshit) biz, evet (oui, oui)!",
+          "Mevzu o kadar derinleşirse, senin için adam bile harcarım!",
+          "\"Şıklık\" (fancy) bir frekanstır aslında;",
+          "Tam bir \"sanrı\" felsefesi...",
+          "Sanki hiçbir şey bilmiyorum;",
+          "Tıpkı Sokrates gibi!",
+          "“Tek gerçek bilgelik, hiçbir şey bilmediğini bilmektir.” (Ooh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Sophia, Lara, Yoonchae",
+        "lines": [
+          "Ooh, we're screaming from cloud nine",
+          "No one could touch us if they tried",
+          "Ooh, but it's a state of mind",
+          "I-I-I-I bet it goes like this"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Sophia, Lara, Yoonchae",
+        "lines": [
+          "Ooh, bulutların üzerinden haykırıyoruz;",
+          "Deneseler bile kimse dokunamaz bize!",
+          "Ooh, çünkü her şey tamamen kafada bitiyor...",
+          "Bahse girerim mevzu tam olarak şöyle dönüyordur:"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Daniela, Megan, All",
+        "lines": [
+          "Pin-pinky up, up",
+          "Pinky up, up",
+          "Pin-pin-pin-pinky up, up",
+          "Pinky— (One, two, one, two, three, four)",
+          "Pin-pinky up, up",
+          "Pinky up, up",
+          "Pin-pin-pin-pinky up, up",
+          "Pinky up, up",
+          "Pin-pin-pin-pinky—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Daniela, Megan, All",
+        "lines": [
+          "Pa-parmaklar havaya, havaya!",
+          "Parmaklar havaya!",
+          "Pa-pa-pa-parmaklar havaya!",
+          "(Bir, iki; bir, iki, üç, dört!)",
+          "Pa-parmaklar havaya, havaya!",
+          "Parmaklar havaya!",
+          "Pa-pa-pa-parmaklar havaya..."
+        ]
+      }
+    ],
+    "excerpt": "I-I-I-I bet it goes like this",
+    "annotations": {
+      "Pinky up": "“Pinky Up”: Çay içerken veya bir şeyi tutarken serçe parmağın havada olması, aristokrasiyi ve \"havalı/klas\" olmayı simgeler. KATSEYE bunu bir \"üstünlük\" ve \"takmıyorum\" sloganı olarak kullanıyor.",
+      "Socrates": "“Socrates”: Sokrates'in ünlü \"Bildiğim tek şey, hiçbir şey bilmediğimdir\" sözüne atıf yaparak, dünyadaki dertlere karşı \"cehaletin mutluluğunu\" ve umursamazlığı kutsuyor.",
+      "parmaklar havaya": "\"Pinky Up\" Yerelleştirmesi: Bu ifadeyi olduğu gibi bıraksak anlamı kaybolabilirdi. Türkçedeki o \"keyfi yerinde ve üst perdeden\" bakışı anlatmak için \"Parmaklar Havaya\" vurgusunu kullandık.",
+      "live large": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "batshit": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "mevzu": "Modern Argo ve İroni: \"Live large\", \"Batshit\" ve \"Oui oui\" gibi kısımları; KATSEYE'ın o şımarık ama zeki (bratty) aurasına uygun olarak \"krallar gibi yaşamak\", \"zıvanadan çıkmak\" ve \"mevzu\" gibi kelimelerle harmanladık.",
+      "Pin-pinky": "Ritmik Ad-libler: \"Pin-pinky\" gibi kekeleme ve ritim oyunlarını, Türkçede de aynı tempoda söylenebilecek şekilde \"Pa-parmaklar\" olarak uyarladık.",
+      "Pa-parmaklar": "Ritmik Ad-libler: \"Pin-pinky\" gibi kekeleme ve ritim oyunlarını, Türkçede de aynı tempoda söylenebilecek şekilde \"Pa-parmaklar\" olarak uyarladık."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4KmkJjHTNlr1jFY56Lyz4E",
+        "name": "PINKY UP",
+        "url": "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+        "isrc": "USUM72601592",
+        "durationMs": 131437,
+        "duration": "2:11",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "3c0gDdb9lhnHGFtP4prQpn",
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe4892ff677f801f85814a02d",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "3c0gDdb9lhnHGFtP4prQpn",
+          "name": "KATSEYE",
+          "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+        }
+      ],
+      "album": {
+        "id": "5tLy0MEMDVqiHKso6B4jnz",
+        "name": "PINKY UP",
+        "url": "https://open.spotify.com/album/5tLy0MEMDVqiHKso6B4jnz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+        "artists": [
+          {
+            "id": "3c0gDdb9lhnHGFtP4prQpn",
+            "name": "KATSEYE",
+            "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+          }
+        ],
+        "releaseDate": "2026-04-09",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 HYBE UMG LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 HYBE UMG LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4KmkJjHTNlr1jFY56Lyz4E",
+            "name": "PINKY UP",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 131437,
+            "duration": "2:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-10T11:15:50.430Z",
+      "trackUrl": "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+      "albumUrl": "https://open.spotify.com/album/5tLy0MEMDVqiHKso6B4jnz",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "PINKY UP",
+      "albumType": "Single",
+      "releaseDate": "2026-04-09",
+      "duration": "2:11",
+      "isrc": "USUM72601592",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=8g7VclWsiaM",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "KATSEYE PINKY UP Türkçe Çeviri",
+      "description": "KATSEYE – PINKY UP şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/katseye-pinky-up-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5208",
+    "title": "RESCENE LOVE ATTACK Türkçe Çeviri",
+    "song": "LOVE ATTACK",
+    "slug": "rescene-love-attack-turkce-ceviri",
+    "date": "2026-08-10T11:15:51.504Z",
+    "artist": "RESCENE",
+    "categories": [
+      "RESCENE",
+      "SCENEDROME"
+    ],
+    "category_slugs": [
+      "rescene",
+      "scenedrome"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Refrain: Woni",
+        "lines": [
+          "Feeling love attack!"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Woni",
+        "lines": [
+          "O aşk baskınını hissediyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Intro: Zena, May & Woni",
+        "lines": [
+          "I am all you need",
+          "I am all you need",
+          "So come and get it now",
+          "I am all you need",
+          "I am all you need",
+          "Yeah, get it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Zena, May & Woni",
+        "lines": [
+          "Tek ihtiyacın benim",
+          "Tek ihtiyacın olan benim",
+          "O yüzden gel ve al beni şimdi",
+          "İhtiyacın olan her şey benim",
+          "Tek ihtiyacın benim",
+          "Evet, gel ve al!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Minami, Liv, Woni, May & Zena",
+        "lines": [
+          "geoleummada",
+          "nunbusin na",
+          "Let's get it started",
+          "modeun sungan",
+          "siseoneul nan",
+          "pihaji anhji",
+          "What you waiting for",
+          "I'm just waiting for",
+          "nareul seuchin",
+          "gipeun kkeulrim",
+          "jikgameul chasing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Minami, Liv, Woni, May & Zena",
+        "lines": [
+          "Her adımda",
+          "Göz kamaştırıyorum",
+          "Hadi başlayalım artık!",
+          "Her bir an",
+          "O bakışlardan",
+          "Kaçmıyorum hiç",
+          "Neyi bekliyorsun?",
+          "Ben sadece bekliyorum...",
+          "Bana şöyle bir değip geçen",
+          "O derin çekimi,",
+          "Sezgilerimi kovalıyorum (chasing)!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Minami & May",
+        "lines": [
+          "Oh, so strong",
+          "neoreul neukkyeo nan",
+          "Yeah, so strong",
+          "dagaga imi nan",
+          "On and on",
+          "neoreul pahechyeo",
+          "One, two, three, four"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Minami & May",
+        "lines": [
+          "Oh, öyle güçlü ki...",
+          "Hissediyorum seni ben",
+          "Evet, çok güçlü!",
+          "Sana doğru geldim bile",
+          "Durmaksızın (On and on)",
+          "Seni keşfediyorum (파헤쳐)...",
+          "Bir, iki, üç, dört!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Zena, Woni & Minami",
+        "lines": [
+          "Like me, like me",
+          "aju nuni busin",
+          "neoreul sumgimeopsi boyeojwo",
+          "han beondo bitnan jeok eopseotdeon",
+          "mijiui hyangeuro",
+          "on sesangeul muldeulyeo",
+          "saerowojin jangmyeone (Nah-ah)",
+          "du nunapeun hwangholhae (Yeah, yeah)",
+          "neoui soneul japeul ttaen (Yeah, yeah)",
+          "neowa eoureojil ttaen"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Zena, Woni & Minami",
+        "lines": [
+          "Benim gibi, tıpkı benim gibi...",
+          "Öyle göz alıcı olan",
+          "O gerçek seni gizlemeden göster bana!",
+          "Daha önce hiç parlamamış olan",
+          "O bilinmez kokunla (미지의 향)¹",
+          "Tüm dünyayı boya (renklendir)...",
+          "Yepyeni bir sahnenin ortasında; (Nah-ah)",
+          "İki gözümün önü de büyüleyici... (Evet, evet)",
+          "Senin elini tuttuğumda,",
+          "Seninle bir bütün olduğumda..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Liv",
+        "lines": [
+          "biteul ikkeuleo with me, with me",
+          "machi chemically urin",
+          "wanbyeokhage eoulryeo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Liv",
+        "lines": [
+          "Işığa yol göster benimle birlikte...",
+          "Sanki kimyasal (chemically) bir bağ gibi;",
+          "Biz kusursuz bir uyum içindeyiz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: May",
+        "lines": [
+          "Feeling love attack"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: May",
+        "lines": [
+          "O aşk baskınını hissediyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Zena, Woni, Liv & Minami",
+        "lines": [
+          "neo yeoksi nal manhi gidaryeo watgetji (Yah)",
+          "ja oneul i sungan nal you can't deny it (So strong)",
+          "I got you the feeling it's hotter than fire",
+          "You with it, I'm with it, admit, no lying (Rr, pow)",
+          "hansungane nan balgyeonhae",
+          "garyeojyeotdeon neol chatanae (No, I'm going back now)",
+          "jitge beonjineun ambergris (No, no, no)",
+          "eoseo neoui modeun geol deureonae (Going back to you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Zena, Woni, Liv & Minami",
+        "lines": [
+          "Sen de beni çok beklemişsindir, değil mi? (Evet!)",
+          "İşte bugün, şu an; beni inkar edemezsin artık! (Öyle güçlü ki...)",
+          "Seni öyle bir hisse kaptırdım ki, ateşten bile daha sıcak...",
+          "Sen de varsın, ben de varım; itiraf et, yalan yok! (Rr, pow!)",
+          "Tek bir saniyede keşfediyorum her şeyi,",
+          "Gizli kalmış olan seni bulup çıkarıyorum. (Geri dönmek yok artık!)",
+          "Etrafa yayılan o yoğun kehribar (ambergris)² kokusu...",
+          "Hadi, her şeyini serbest bırak artık! (Sana geri dönüyorum!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Zena & May",
+        "lines": [
+          "Beautiful",
+          "neoreul neukkyeo nan",
+          "Fabulous",
+          "dagaga imi nan",
+          "On and on",
+          "neoreul pahechyeo",
+          "One, two, three, four (ttaereul gidaryeo)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Zena & May",
+        "lines": [
+          "Görkemli (Beautiful)...",
+          "Hissediyorum seni ben.",
+          "Muazzam (Fabulous)...",
+          "Sana geldim bile.",
+          "Durmaksızın",
+          "Seni çözüyorum...",
+          "(Sadece o doğru anı bekle!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Minami, Liv & Zena",
+        "lines": [
+          "Like me, like me",
+          "aju nuni busin",
+          "neoreul sumgimeopsi boyeojwo",
+          "han beondo bitnan jeok eopseotdeon",
+          "mijiui hyangeuro",
+          "on sesangeul muldeulyeo",
+          "saerowojin jangmyeone (Nah-ah)",
+          "du nunapeun hwangholhae (Yeah, yeah)",
+          "neoui soneul japeul ttaen (Yeah, yeah)",
+          "neowa eoureojil ttaen"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Minami, Liv & Zena",
+        "lines": [
+          "Benim gibi, tıpkı benim gibi...",
+          "Öyle göz alıcı olan",
+          "O gerçek seni gizlemeden göster bana!",
+          "Daha önce hiç parlamamış olan",
+          "O bilinmez kokunla",
+          "Tüm dünyayı boya..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: May",
+        "lines": [
+          "biteul ikkeuleo with me, with me",
+          "machi chemically urin",
+          "wanbyeokhage eoulryeo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: May",
+        "lines": [
+          "Işığa yol göster benimle birlikte...",
+          "Sanki kimyasal bir bağ gibi;",
+          "Biz kusursuz bir uyum içindeyiz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Woni",
+        "lines": [
+          "Feeling love attack"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Woni",
+        "lines": [
+          "O aşk baskınını hissediyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Liv, Zena, Minami, May, Minami & May",
+        "lines": [
+          "I am all you need",
+          "I am all you need",
+          "So come and gеt it now",
+          "I am all you need",
+          "I am all you need",
+          "So come and get it now",
+          "One, two, three, four"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Liv, Zena, Minami, May, Minami & May",
+        "lines": [
+          "Tek ihtiyacın benim",
+          "Tek ihtiyacın olan benim",
+          "O yüzden gel ve al beni şimdi",
+          "Tek ihtiyacın benim",
+          "Tek ihtiyacın olan benim",
+          "Hadi, gel ve al!",
+          "Bir, iki, üç, dört!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Woni, Minami & Liv",
+        "lines": [
+          "Likе me, Like me",
+          "aju nuni busin",
+          "neoreul sumgimeopsi boyeojwo",
+          "han beondo bitnan jeok eopseotdeon",
+          "mijiui hyangeuro",
+          "on sesangeul muldeulyeo",
+          "saerowojin jangmyeone (geu jangmyeone)",
+          "du nunapeun hwangholhae (nan hwangholhae)",
+          "neoui soneul japeul ttaen (Yeah, yeah)",
+          "neowa eoureojil ttaen"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Woni, Minami & Liv",
+        "lines": [
+          "Benim gibi, benim gibi...",
+          "Öyle göz alıcı olan",
+          "O gerçek seni gizlemeden göster bana!",
+          "Daha önce hiç parlamamış olan",
+          "O bilinmez kokunla",
+          "Tüm dünyayı boya (O sahnede...)",
+          "İki gözümün önü büyüleyici... (Öyle büyülendim ki!)",
+          "Senin elini tuttuğumda,",
+          "Seninle bir bütün olduğumda..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Zena & Minami",
+        "lines": [
+          "biteul ikkeuleo with me, with me (biteul ikkeuleo with me)",
+          "machi chemically urin",
+          "wanbyeokhage eoulryeo (wanbyeokhage eoulryeo)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Zena & Minami",
+        "lines": [
+          "Işığa yol göster benimle birlikte...",
+          "Sanki kimyasal bir bağ gibi;",
+          "Biz kusursuz bir uyum içindeyiz. (Kusursuzuz...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Woni",
+        "lines": [
+          "Feeling love attack"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Woni",
+        "lines": [
+          "O aşk baskınını hissediyorum!"
+        ]
+      }
+    ],
+    "excerpt": "Feeling love attack!",
+    "annotations": {
+      "지의 향)": "¹“미지의 향” (Bilinmeyen Koku): RESCENE'in konsepti parfümler ve kokular üzerine kuruludur. Şarkıcı burada partnerinin gizli kalmış, keşfedilmemiş çekiciliğini bir koku metaforu üzerinden anlatıyor.",
+      "bergris (": "²“Ambergris” (Balina Kustuğu/Kehribar): Parfüm yapımında kullanılan en değerli ve kalıcı ham maddelerden biridir. RESCENE burada çekimin ne kadar nadir, değerli ve kalıcı olduğunu vurguluyor.",
+      "love attack": "\"Love Attack\" Vurgusu: Aşkın \"aniliği\" ve \"gücü\" temasını Türkçedeki \"Baskın\" kelimesiyle karşılayarak o çarpıcı etkiyi pekiştirdik.",
+      "baskın": "\"Love Attack\" Vurgusu: Aşkın \"aniliği\" ve \"gücü\" temasını Türkçedeki \"Baskın\" kelimesiyle karşılayarak o çarpıcı etkiyi pekiştirdik.",
+      "I am all you need": "Hırçın ve Özgüvenli Ton: \"I am all you need\" (tek ihtiyacın benim) ve \"you can't deny it\" gibi kısımları, grubun o iddialı \"yeni nesil\" havasıyla çevirdik.",
+      "u can't": "Hırçın ve Özgüvenli Ton: \"I am all you need\" (tek ihtiyacın benim) ve \"you can't deny it\" gibi kısımları, grubun o iddialı \"yeni nesil\" havasıyla çevirdik.",
+      "ah-ah)": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik.",
+      "eah, yeah)": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik.",
+      "ne, two, three,": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6uosenLUNFZtOIih5T0qfV",
+        "name": "LOVE ATTACK",
+        "url": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
+        "isrc": "KRA382405206",
+        "durationMs": 181560,
+        "duration": "3:02",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5deOsjuFTKrNMJW3rKuL8S",
+        "name": "RESCENE",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5deOsjuFTKrNMJW3rKuL8S",
+          "name": "RESCENE",
+          "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+        }
+      ],
+      "album": {
+        "id": "0msC9kyzmtznRwIxwafISH",
+        "name": "SCENEDROME",
+        "url": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab",
+        "artists": [
+          {
+            "id": "5deOsjuFTKrNMJW3rKuL8S",
+            "name": "RESCENE",
+            "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+          }
+        ],
+        "releaseDate": "2024-08-27",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2024 THE MUZE ENTERTAINMENT,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2024 THE MUZE ENTERTAINMENT,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 4,
+        "tracks": [
+          {
+            "id": "4kFNp7cXigoEUUxohP22Gs",
+            "name": "Lucky you",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 128800,
+            "duration": "2:09",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4kFNp7cXigoEUUxohP22Gs",
+            "isCurrent": false
+          },
+          {
+            "id": "6uosenLUNFZtOIih5T0qfV",
+            "name": "LOVE ATTACK",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 181560,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
+            "isCurrent": true
+          },
+          {
+            "id": "4yM69KDQjKP8TjqgUR2euW",
+            "name": "New World",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 178306,
+            "duration": "2:58",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4yM69KDQjKP8TjqgUR2euW",
+            "isCurrent": false
+          },
+          {
+            "id": "7FzDMnwPhj6qdTT2PRaSYi",
+            "name": "Pinball",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 192973,
+            "duration": "3:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7FzDMnwPhj6qdTT2PRaSYi",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-10T11:15:49.310Z",
+      "trackUrl": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV",
+      "albumUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+      "artistUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+      "albumName": "SCENEDROME",
+      "albumType": "EP",
+      "releaseDate": "2024-08-27",
+      "duration": "3:02",
+      "isrc": "KRA382405206",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273831c0d124fc7c7a3ad0618ab"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "RESCENE LOVE ATTACK Türkçe Çeviri",
+      "description": "RESCENE – LOVE ATTACK şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. SCENEDROME albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/rescene-love-attack-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5207",
+    "title": "aespa LEMONADE Türkçe Çeviri",
+    "song": "LEMONADE",
+    "slug": "aespa-lemonade-turkce-ceviri",
+    "date": "2026-08-10T11:15:51.504Z",
+    "artist": "aespa",
+    "categories": [
+      "aespa",
+      "LEMONADE - The 2nd Album"
+    ],
+    "category_slugs": [
+      "aespa",
+      "lemonade-the-2nd-album"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Karina",
+        "lines": [
+          "Woo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Karina",
+        "lines": [
+          "Woo!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ningning, All, Winter",
+        "lines": [
+          "I go in all the way",
+          "Don't step on the brakes",
+          "I take my drama straight",
+          "I'll make it lemonade",
+          "geop eopsi walk my way",
+          "deonjyeo on my stage",
+          "I take my karma straight",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ningning, All, Winter",
+        "lines": [
+          "Sonuna kadar gidiyorum (I go in all the way);",
+          "Frene falan basmak yok!",
+          "Tüm o dramayı olduğu gibi (straight) kabul ediyorum;",
+          "Ve hepsinden bir limonata yapacağım!",
+          "Korkusuzca yürüyorum yolumda;",
+          "Fırlat her şeyi sahneme...",
+          "Kaderimi (karma) olduğu gibi göğüslüyorum;",
+          "Ve ondan harika bir limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Giselle",
+        "lines": [
+          "Wait, hold up, nо"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Giselle",
+        "lines": [
+          "Bekle, dur biraz; kes şunu!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Karina, Giselle, Winter",
+        "lines": [
+          "I can't control my mind",
+          "sonkkeute crushin', gomineun juicy",
+          "da samkyeobeorin daeum",
+          "Apologies in advance if I show up and I get",
+          "Way too loud, kkaeeona",
+          "Me, myself, and I, that's all mine",
+          "With a blessing, chiwobeoryeo all doubts",
+          "You probably shouldn't talk right now",
+          "Like zip, I don't care",
+          "I can take whatever, put it all over my body",
+          "geuge fashion (Woo, uh-huh)",
+          "seoro dareun segyedeule dagaseomyeon ileonaneun action",
+          "Dirty dancin'",
+          "I'ma go hot, don't know what happened",
+          "'Cause my day to day's in a different lane",
+          "At a speed that you're never catching, yeah",
+          "Chorus: Karina, All, Ningning]",
+          "I go in all the way",
+          "Don't step on the brakes",
+          "I take my drama straight",
+          "I'll make it lemonade",
+          "geop eopsi walk my way",
+          "deonjyeo on my stage",
+          "I take my karma straight",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Karina, Giselle, Winter",
+        "lines": [
+          "Zihnimi kontrol edemiyorum;",
+          "Parmak uçlarımda her şeyi eziyorum (crushin'), dertler ise sulu sulu (juicy)...",
+          "Hepsini bir dikişte yuttuktan sonra;",
+          "Eğer ortaya çıktığımda fazla gürültülü olursam;",
+          "Şimdiden özür dilerim, uyanın artık!",
+          "Ben, kendim ve şahsım; hepsi benim!",
+          "Tüm lütuflarla birlikte, söküp at tüm şüpheleri;",
+          "Şu an muhtemelen hiç konuşmamalısın;",
+          "Fermuarı çek (zip), umrumda bile değil!",
+          "Önüme ne gelirse alabilirim, hepsini üzerime kuşanırım;",
+          "İşte buna moda (fashion) denir! (Woo, uh-huh)",
+          "Farklı dünyalar birbirine yaklaştığında kopan o yaygara (action)...",
+          "Sertçe dans ediyoruz (dirty dancin');",
+          "Ateş saçacağım, ne olduğunu anlamayacaksın bile;",
+          "Çünkü benim her günüm bambaşka bir kulvarda (lane)...",
+          "Senin asla yetişemeyeceğin bir hızda, evet!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: All, Giselle, Winter",
+        "lines": [
+          "No way, no way",
+          "I ain't got no ETA",
+          "T-A, T-A (Woah)",
+          "I'll make it lemonade",
+          "No way, no way (Yeah, yeah)",
+          "I ain't got no ETA",
+          "T-A, T-A (Yeah, yeah)",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: All, Giselle, Winter",
+        "lines": [
+          "İmkanı yok, asla (No way)!",
+          "Benim varış saatim (ETA) belli değil;",
+          "(T-A, T-A...)",
+          "Hepsinden limonata yapacağım!",
+          "Asla, imkanı yok;",
+          "Vaktim belli değil benim!",
+          "Hepsinden limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Karina",
+        "lines": [
+          "Wait, oh my god, stop"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Karina",
+        "lines": [
+          "Dur bekle, aman Tanrım; dur!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Giselle, Ningning",
+        "lines": [
+          "eolkhyeobeorin munjel da mixing",
+          "Like a hurricane, hwijeoeo pieces",
+          "All the lemons, nan gala masyeo da",
+          "I don't care if you say I'm freaky",
+          "mupyojeongeuro nan savour",
+          "Muchas gracias, mi amor",
+          "jeonbu samkyeonae like a piece of cake",
+          "Make me, what you still waiting for? Yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Giselle, Ningning",
+        "lines": [
+          "Kör düğüm olmuş tüm sorunları karıştırıyorum (mixing);",
+          "Bir kasırga gibi, her bir parçayı savuruyorum.",
+          "Tüm o limonları... Hepsini sıkıp içiyorum!",
+          "Bana \"tuhaf/kaçık\" (freaky) demen umrumda değil;",
+          "Hiç istifimi bozmadan tadını çıkarıyorum (savour).",
+          "Çok teşekkürler aşkım (Muchas gracias, mi amor)!",
+          "Hepsini bir lokmada (piece of cake) yutuveriyorum;",
+          "Zorla beni, hala neyi bekliyorsun ki?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Winter, All, Karina",
+        "lines": [
+          "I go in all the way",
+          "Don't step on the brakes",
+          "I take my drama straight",
+          "I'll make it lemonade",
+          "geop eopsi walk my way",
+          "deonjyeo on my stage",
+          "I take my karma straight",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Winter, All, Karina",
+        "lines": [
+          "Sonuna kadar gidiyorum;",
+          "Frene falan basmak yok!",
+          "Tüm o dramayı olduğu gibi kabul ediyorum;",
+          "Ve hepsinden bir limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: All, Ningning, Karina",
+        "lines": [
+          "No way, no way",
+          "I ain't got no ETA (Yeah, yeah)",
+          "T-A, T-A (Yeah; Woah)",
+          "I'll make it lemonade (I'll make it lemonade)",
+          "No way, no way (Yeah, yeah)",
+          "I ain't got no ETA (ETA)",
+          "T-A, T-A (Yeah, yeah)",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: All, Ningning, Karina",
+        "lines": [
+          "Asla, imkanı yok;",
+          "Varış vaktim (ETA) belli değil...",
+          "Hepsinden limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Ningning, Winter, Giselle, All",
+        "lines": [
+          "Ain't no emergency contact",
+          "modeun geon nal wihan party",
+          "Bring me that new flavor, you know",
+          "deo keun sesangeuro welcome back to my world",
+          "I'ma stand all on my own",
+          "eodirado now I can go",
+          "saeropge open the door",
+          "I need more (More lemonade)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Ningning, Winter, Giselle, All",
+        "lines": [
+          "Acil durumda aranacak kimsem yok;",
+          "Her şey sadece benim için bir parti!",
+          "Bana o yeni lezzeti (flavor) getirin, biliyorsunuz;",
+          "Daha büyük bir dünyaya, benim dünyama tekrar hoş geldiniz!",
+          "Kendi ayaklarımın üzerinde duracağım;",
+          "Artık her yere gidebilirim!",
+          "Kapıları yepyeni bir şekilde açıyorum;",
+          "Daha fazlasına ihtiyacım var (Daha çok limonata)!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Karina, All, Giselle, Winter",
+        "lines": [
+          "I go in all the way (Yeah; The way)",
+          "Don't step on the brakes (The brakes)",
+          "I take my drama straight (Yeah)",
+          "I'll make it lemonade (I'll make it lemonade)",
+          "geop eopsi walk my way",
+          "deonjyeo on my stage",
+          "I take my karma straight",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Karina, All, Giselle, Winter",
+        "lines": [
+          "Sonuna kadar gidiyorum;",
+          "Frene falan basmak yok!",
+          "Tüm o dramayı olduğu gibi kabul ediyorum;",
+          "Ve hepsinden bir limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: All, Giselle, Karina, Winter",
+        "lines": [
+          "No way, no way (No way)",
+          "I ain't got no ETA (ETA)",
+          "T-A, T-A (Okay)",
+          "I'll make it lemonade (I'll make it lemonade)",
+          "No way, no way (Yeah, yeah)",
+          "I ain't got no ETA (No ETA)",
+          "T-A, T-A (Yeah, yeah)",
+          "I'll make it lemonade"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: All, Giselle, Karina, Winter",
+        "lines": [
+          "Asla, imkanı yok;",
+          "Varış vaktim (ETA) belli değil...",
+          "Hepsinden limonata yapacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Ningning",
+        "lines": [
+          "Wait, hold up, stop"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Ningning",
+        "lines": [
+          "Bekle, dur biraz; kes şunu!"
+        ]
+      }
+    ],
+    "excerpt": "Woo",
+    "annotations": {
+      "make it lemonade": "“Make it lemonade”: \"Hayat sana limon veriyorsa limonata yap\" deyimine atıf. aespa burada dertleri başarıya dönüştürme gücünden bahsediyor.",
+      "psinden limonata yapacağım!": "Deyim Yerelleştirmesi: \"Life gives you lemons\" felsefesini, Türkçedeki o \"dertlerden ders çıkarmak/başarı devşirmek\" tınısıyla \"Hepsinden limonata yapacağım\" vurgusuyla koruduk.",
+      "TA": "Hız ve Zaman Terimleri: \"ETA\" (Tahmini varış süresi) ve \"Lane\" (kulvar/şerit) gibi kelimeleri; aespa'nın o durdurulamaz, kuralsız ve hızlı ilerleyişini yansıtacak şekilde bıraktık.",
+      "lane": "Hız ve Zaman Terimleri: \"ETA\" (Tahmini varış süresi) ve \"Lane\" (kulvar/şerit) gibi kelimeleri; aespa'nın o durdurulamaz, kuralsız ve hızlı ilerleyişini yansıtacak şekilde bıraktık.",
+      "xing\nL": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "crushin": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "juicy": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "vour\nM": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "ece of cake\nM": "Mutfak ve Karışım Metaforları: \"Mixing\", \"Crushin'\", \"Juicy\", \"Savour\" ve \"Piece of cake\" gibi terimleri; hayatın zorluklarını bir içecek veya yemek hazırlarmışçasına küçümseyen o \"it-girl\" tavrıyla çevirdik.",
+      "zip": "Savage Ton: \"Zip\" (sus/fermuarı çek) ve \"I don't care\" gibi kısımları, grubun o baskın aurasına uygun olarak kestirip atan bir dille verdik.",
+      "I don": "Savage Ton: \"Zip\" (sus/fermuarı çek) ve \"I don't care\" gibi kısımları, grubun o baskın aurasına uygun olarak kestirip atan bir dille verdik."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2oR7jPvWPC08Su4KYmKR3O",
+        "name": "LEMONADE",
+        "url": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+        "isrc": "KRA302600098",
+        "durationMs": 187000,
+        "duration": "3:07",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6YVMFz59CuY7ngCxTxjpxE",
+        "name": "aespa",
+        "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6YVMFz59CuY7ngCxTxjpxE",
+          "name": "aespa",
+          "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
+        }
+      ],
+      "album": {
+        "id": "2233LC6uuoi67lGcO2OaBm",
+        "name": "LEMONADE - The 2nd Album",
+        "url": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+        "artists": [
+          {
+            "id": "6YVMFz59CuY7ngCxTxjpxE",
+            "name": "aespa",
+            "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
+          }
+        ],
+        "releaseDate": "2026-05-29",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 11,
+        "tracks": [
+          {
+            "id": "5U91cIDMrNEdsDBavYuQQh",
+            "name": "WDA (Whole Different Animal) (feat. G-DRAGON)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5U91cIDMrNEdsDBavYuQQh",
+            "isCurrent": false
+          },
+          {
+            "id": "2oR7jPvWPC08Su4KYmKR3O",
+            "name": "LEMONADE",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 187000,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+            "isCurrent": true
+          },
+          {
+            "id": "4hWEH4DPWe6rot4JHJUMr4",
+            "name": "SHAKIN'",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 162000,
+            "duration": "2:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4hWEH4DPWe6rot4JHJUMr4",
+            "isCurrent": false
+          },
+          {
+            "id": "1ubVpU4mU0xbgq2FM3k5id",
+            "name": "Can't Help Myself",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 181000,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1ubVpU4mU0xbgq2FM3k5id",
+            "isCurrent": false
+          },
+          {
+            "id": "4bqn9QgIrsgRy6HjcYhxak",
+            "name": "Camouflage",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 187000,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4bqn9QgIrsgRy6HjcYhxak",
+            "isCurrent": false
+          },
+          {
+            "id": "5M7EPlVtfHdqlxY628HvHx",
+            "name": "Bite",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5M7EPlVtfHdqlxY628HvHx",
+            "isCurrent": false
+          },
+          {
+            "id": "3KHbQsyerMst6uLw8JiAwu",
+            "name": "Switchblade (feat. Ty Dolla $ign)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 182000,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3KHbQsyerMst6uLw8JiAwu",
+            "isCurrent": false
+          },
+          {
+            "id": "3UW9TYmzopPvD1Gte1a5NN",
+            "name": "Roll",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 159000,
+            "duration": "2:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3UW9TYmzopPvD1Gte1a5NN",
+            "isCurrent": false
+          },
+          {
+            "id": "4in8lrVCzPgXK9iTBJHrWO",
+            "name": "My Plan",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4in8lrVCzPgXK9iTBJHrWO",
+            "isCurrent": false
+          },
+          {
+            "id": "3bKpQla1Cn6WF7vZqb0MRZ",
+            "name": "'Til We Die",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 203000,
+            "duration": "3:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3bKpQla1Cn6WF7vZqb0MRZ",
+            "isCurrent": false
+          },
+          {
+            "id": "4NMJt97p0KujNuQsLcC7Ut",
+            "name": "LEMONADE (feat. Becky G)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 187000,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4NMJt97p0KujNuQsLcC7Ut",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-10T11:15:48.120Z",
+      "trackUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
+      "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm",
+      "artistUrl": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+      "albumName": "LEMONADE - The 2nd Album",
+      "albumType": "Album",
+      "releaseDate": "2026-05-29",
+      "duration": "3:07",
+      "isrc": "KRA302600098",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=83C3TZ4Zm_o",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "aespa LEMONADE Türkçe Çeviri",
+      "description": "aespa – LEMONADE şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. LEMONADE - The 2nd Album albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/aespa-lemonade-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5206",
+    "title": "ILLIT It's Me Türkçe Çeviri",
+    "song": "It's Me",
+    "slug": "illit-it-s-me-turkce-ceviri",
+    "date": "2026-08-10T11:15:51.503Z",
+    "artist": "ILLIT",
+    "categories": [
+      "ILLIT",
+      "MAMIHLAPINATAPAI"
+    ],
+    "category_slugs": [
+      "illit",
+      "mamihlapinatapai"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Wonhee",
+        "lines": [
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Wonhee",
+        "lines": [
+          "Bias'ın¹ (favorin) kim? Senin bias'ın benim!",
+          "Bias'ın kim? Senin bias'ın benim!",
+          "Bias'ın kim? Bias'ın benim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Wonhee, Minju",
+        "lines": [
+          "I'm the one, I'm your idol, kkujunhan ne johayo",
+          "neoneun machi loyal fan",
+          "humchyeobwa with fan account, naneun wonhae soljikham",
+          "nal gaduji ma boseokham"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Wonhee, Minju",
+        "lines": [
+          "O seçilmiş kişi benim, senin idolünüm; her paylaşımıma kalp (좋아요) atıyorsun,",
+          "Sanki sadık bir hayran gibisin...",
+          "Sahte hesaplarla (fan account) beni dikizliyorsun, oysa ben dürüstlük istiyorum;",
+          "Beni şu mücevher kutusuna (bo-seok-ham)² kapatmaya kalkma sakın!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Yunah, Moka",
+        "lines": [
+          "Pradaboda bissan daechebulga nainde",
+          "(Ooh)",
+          "beonjaphan yeop dongne neon wae geogil tto hemae?",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Yunah, Moka",
+        "lines": [
+          "Prada'dan bile daha pahalıyım, eşim benzerim yok benim;",
+          "(Ooh)",
+          "Gidip şu karmaşık mahallelerde neden hala vakit öldürüyorsun?",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Minju, Moka, Iroha, Yunah",
+        "lines": [
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who? Who?",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "It's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Minju, Moka, Iroha, Yunah",
+        "lines": [
+          "Bias'ın kim? Senin bias'ın benim!",
+          "Bias'ın kim? Senin bias'ın benim!",
+          "Kim? Kim?",
+          "Benim işte!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Drop: Iroha, Minju, Wonhee, Moka",
+        "lines": [
+          "It's me",
+          "It's me",
+          "Me, me",
+          "It's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Drop: Iroha, Minju, Wonhee, Moka",
+        "lines": [
+          "Benim işte...",
+          "Ben, ben...",
+          "O kişi benim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Yunah",
+        "lines": [
+          "Hey, just say I'm your fave"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Yunah",
+        "lines": [
+          "Hey, sadece \"en sevdiğim sensin\" de yeter!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Wonhee, Iroha",
+        "lines": [
+          "I yelled, \"neo hilarious,\" oh, my, my, my, my",
+          "susubanggwan like tortilla, why? Why? Why? Why?",
+          "This putsarang ain't no joke, it can't, can't, can't, can't",
+          "dapdapneopchi, post me on your 'gram"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Wonhee, Iroha",
+        "lines": [
+          "\"Çok komiksin\" (hilarious) diye bağırdım, aman Tanrım;",
+          "Neden bir tortilla gibi öylece kenarda durup (su-su-bang-gwan)³ izliyorsun? Neden?",
+          "Bu \"ilk aşk\" (put-sa-rang) hiç de şaka değil, olamaz!",
+          "Şu pısırıklığı (dap-dap-neop-chi) bırak da, beni Instagram’ında (gram) paylaş artık!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Minju, Yunah",
+        "lines": [
+          "Sphere jeongwangpanen keopeul inisyeol reteoring",
+          "(Ooh)",
+          "olryeo uri hakgyo daejaboe headline",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Minju, Yunah",
+        "lines": [
+          "Dev ekranlarda (Sphere) ikimizin baş harfleri yazsın;",
+          "(Ooh)",
+          "Okul panosundaki o büyük manşet (headline) biz olalım!",
+          "(Ooh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Wonhee, Moka, Yunah",
+        "lines": [
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who? Who?",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias",
+          "It's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Wonhee, Moka, Yunah",
+        "lines": [
+          "Bias'ın kim? Senin bias'ın benim!",
+          "Bias'ın kim? Senin bias'ın benim!",
+          "Bias'ın kim? Benim işte!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Drop: Minju, Iroha, Moka, Yunah",
+        "lines": [
+          "It's me",
+          "Me",
+          "Me, me",
+          "It's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Drop: Minju, Iroha, Moka, Yunah",
+        "lines": [
+          "Benim!",
+          "Ben, ben...",
+          "Benim işte!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All, Wonhee, Iroha, Moka",
+        "lines": [
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias (It's me)",
+          "Who's your bias? I'm your bias",
+          "It's me",
+          "Who's your bias? I'm your bias",
+          "Who's your bias? I'm your bias (It's me)",
+          "Who's your bias? I'm your bias"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All, Wonhee, Iroha, Moka",
+        "lines": [
+          "Bias'ın kim? Bias'ın benim!",
+          "Senin favorin benim... (Benim işte!)",
+          "Senin favorin benim!"
+        ]
+      }
+    ],
+    "excerpt": "Who's your bias? I'm your bias",
+    "annotations": {
+      "bias": "¹“Bias”: K-Pop dünyasında bir gruptaki en çok sevilen, \"favori\" üyeyi tanımlayan terimdir. Türkçede de hayranlar arasında aynen kullanıldığı için bu \"havalı\" halini bozmadık.",
+      "boseokham": "²“보석함” (Jewel Box): K-Pop sektöründe yetenekli idollerin şirketleri tarafından uzun süre yeni şarkı çıkarmadan saklanması (\"Kutuya atılması\") durumuna yapılan esprili bir gönderme.",
+      "susubanggwan": "³“수수방관” (Seyirci kalmak): Bir olay karşısında elini kolunu bağlayıp sadece izlemek anlamındaki deyim. ILLIT burada \"tortilla gibi düz ve tepkisiz kalma\" esprisiyle birleştirmiş.",
+      "fan account": "Fandom Terimleri: \"Bias\", \"Fan account\" ve \"Fave\" gibi kelimeleri, K-Pop dinleyicisinin o \"içeriden\" dilini korumak adına yerelleştirerek ama orijinal tınısını bozmadan kullandık.",
+      "fave": "Fandom Terimleri: \"Bias\", \"Fan account\" ve \"Fave\" gibi kelimeleri, K-Pop dinleyicisinin o \"içeriden\" dilini korumak adına yerelleştirerek ama orijinal tınısını bozmadan kullandık.",
+      "mücevher kutusu": "Kültürel İğnelemeler: \"Jewel Box\" (보석함) metaforunu, birinin sevgilisini kısıtlaması veya saklaması anlamında Türkçeye \"mücevher kutusu\" olarak yansıttık.",
+      "hilarious": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "headline": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "Çok komik": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "Instagram": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik.",
+      "manşet": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1D5L58KLBbceOynTP4DQnY",
+        "name": "It's Me",
+        "url": "https://open.spotify.com/track/1D5L58KLBbceOynTP4DQnY",
+        "isrc": "USA2P2617168",
+        "durationMs": 138284,
+        "duration": "2:18",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "36cgvBn0aadzOijnjjwqMN",
+        "name": "ILLIT",
+        "url": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "36cgvBn0aadzOijnjjwqMN",
+          "name": "ILLIT",
+          "url": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+        }
+      ],
+      "album": {
+        "id": "5VIt2dA2StboE900mllWdJ",
+        "name": "MAMIHLAPINATAPAI",
+        "url": "https://open.spotify.com/album/5VIt2dA2StboE900mllWdJ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6",
+        "artists": [
+          {
+            "id": "36cgvBn0aadzOijnjjwqMN",
+            "name": "ILLIT",
+            "url": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+          }
+        ],
+        "releaseDate": "2026-04-30",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 BELIFT LAB",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 BELIFT LAB",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "06c1p8O0RF26U0jSGJ7Rbc",
+            "name": "GRWM (Get Ready With Me)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 168682,
+            "duration": "2:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/06c1p8O0RF26U0jSGJ7Rbc",
+            "isCurrent": false
+          },
+          {
+            "id": "1D5L58KLBbceOynTP4DQnY",
+            "name": "It's Me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 138284,
+            "duration": "2:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1D5L58KLBbceOynTP4DQnY",
+            "isCurrent": true
+          },
+          {
+            "id": "16VomaSiUmaRdubMxh4FyY",
+            "name": "paw, paw!",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 149852,
+            "duration": "2:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/16VomaSiUmaRdubMxh4FyY",
+            "isCurrent": false
+          },
+          {
+            "id": "6WSsc50Hxu1qK3qFpBfekj",
+            "name": "Mamihlapinatapai",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 181352,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6WSsc50Hxu1qK3qFpBfekj",
+            "isCurrent": false
+          },
+          {
+            "id": "3nGm6agHE598KavgIyATy7",
+            "name": "Love, older you",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 158204,
+            "duration": "2:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3nGm6agHE598KavgIyATy7",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-10T11:15:47.229Z",
+      "trackUrl": "https://open.spotify.com/track/1D5L58KLBbceOynTP4DQnY",
+      "albumUrl": "https://open.spotify.com/album/5VIt2dA2StboE900mllWdJ",
+      "artistUrl": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN",
+      "albumName": "MAMIHLAPINATAPAI",
+      "albumType": "EP",
+      "releaseDate": "2026-04-30",
+      "duration": "2:18",
+      "isrc": "USA2P2617168",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361eea484e31bca065904f1c6"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=bMhDJ0S0OBA",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "ILLIT It's Me Türkçe Çeviri",
+      "description": "ILLIT – It's Me şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. MAMIHLAPINATAPAI albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/illit-it-s-me-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5205",
     "title": "DAYOUNG & Jay Park FLIRTY Türkçe Çeviri",
     "song": "FLIRTY",
