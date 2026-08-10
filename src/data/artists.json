@@ -236,7 +236,7 @@
   {
     "slug": "aespa",
     "name": "aespa",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b"
   },
   {
@@ -542,7 +542,7 @@
   {
     "slug": "alex-warren",
     "name": "Alex Warren",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe027df2e591e1a050e5235cc"
   },
   {
@@ -1034,7 +1034,7 @@
   {
     "slug": "kiss-of-life",
     "name": "KISS OF LIFE",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb94f24a151ca1320ec2f3ed92"
   },
   {
@@ -1922,6 +1922,48 @@
   {
     "slug": "morgan-wallen",
     "name": "Morgan Wallen",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30"
+  },
+  {
+    "slug": "artms",
+    "name": "ARTMS",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc0be4bb287e7a4fc5452d5fc"
+  },
+  {
+    "slug": "ty-dolla-ign",
+    "name": "Ty Dolla $ign",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "flo",
+    "name": "FLO",
+    "count": 7,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85729f18eb0edf40d80dc18a"
+  },
+  {
+    "slug": "picheolin",
+    "name": "Picheolin",
+    "count": 5,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd4b2a97a9e2314287942e0f"
+  },
+  {
+    "slug": "dino",
+    "name": "DINO",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf6207e28d7e9037fa8074cb6"
+  },
+  {
+    "slug": "dayoung",
+    "name": "DAYOUNG",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55caf1afdcdb471c4b54375b"
+  },
+  {
+    "slug": "jay-park",
+    "name": "Jay Park",
     "count": 1,
     "image": null
   }
