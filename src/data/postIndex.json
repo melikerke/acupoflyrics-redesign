@@ -68,6 +68,10 @@
       "ir (U": "Akış (Flow): \"Everything's water and everything's air\" (Her şey su ve hava) dizesini, Budist felsefedeki dünyevi olanın geçiciliği vurgusuyla, akıcı bir dille çevirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Healing"
+    ],
     "firstPair": {
       "en": "Dale a tu cuerpo alegría, Macarena",
       "tr": "Vücuduna neşe ver Macarena!"
@@ -145,6 +149,10 @@
       "Pa-parmaklar": "Ritmik Ad-libler: \"Pin-pinky\" gibi kekeleme ve ritim oyunlarını, Türkçede de aynı tempoda söylenebilecek şekilde \"Pa-parmaklar\" olarak uyarladık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Happy"
+    ],
     "firstPair": {
       "en": "I-I-I-I bet it goes like this",
       "tr": "Ba-ba-ba-bahse girerim mevzu şöyle dönüyordur..."
@@ -223,6 +231,9 @@
       "ne, two, three,": "Ritmik Uyum: Chorus kısmındaki \"Nah-ah\", \"Yeah, yeah\" ve \"One, two, three\" gibi kısımları, şarkının temposunu bozmadan yerleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Feeling love attack!",
       "tr": "O aşk baskınını hissediyorum!"
@@ -303,6 +314,10 @@
       "I don": "Savage Ton: \"Zip\" (sus/fermuarı çek) ve \"I don't care\" gibi kısımları, grubun o baskın aurasına uygun olarak kestirip atan bir dille verdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
     "firstPair": {
       "en": "Woo",
       "tr": "Woo!"
@@ -383,6 +398,10 @@
       "manşet": "Modern Argo: \"Hilarious\", \"The Gram\" ve \"Headline\" gibi kelimeleri; gençlerin diline uygun olarak \"çok komik\", \"Instagram\" ve \"manşet\" vurgularıyla verdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Love"
+    ],
     "firstPair": {
       "en": "Who's your bias? I'm your bias",
       "tr": "Bias'ın¹ (favorin) kim? Senin bias'ın benim!"
@@ -464,6 +483,10 @@
       "lo-lo-love": "Ritmik Ad-libler: \"To-to-touch\", \"Lo-lo-love\" gibi tekrarları, şarkının kışkırtıcı temposunu koruyacak şekilde bıraktık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Happy",
+      "Love"
+    ],
     "firstPair": {
       "en": "Ooh, ooh, ooh",
       "tr": "Ooh, ooh..."
@@ -542,6 +565,10 @@
       "bet you gonna like it": "Flörtöz Dil: \"Bet you gonna like it\" (bahse girerim seveceksin) kalıbını, o iddialı ve \"racon\" sahibi tarzla aktardık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Party"
+    ],
     "firstPair": {
       "en": "Ayy, ayy-ayy, ayy, ayy, ayy-ayy",
       "tr": "Ayy, ayy-ayy..."
@@ -615,6 +642,10 @@
       "pişmanlık": "Dramatik Yerelleştirme: \"I was wrong\" ve \"sad\" gibi kısımları; baladın o ağır havasına uygun olarak \"kahrolmak\", \"pişmanlık\" ve \"içinde kopan fırtınalar\" gibi daha edebi ve vurucu kelimelerle karşıladık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "annyeonghaseyo imunseipnida",
       "tr": "Merhaba, ben Lee Mun Sae."
@@ -689,6 +720,10 @@
       "Delirdim, delirdim": "Ritmik Uyum: \"Mi-cheo mi-cheo\" (deliriyorum) kısımlarını, Türkçede de aynı tempoda söylenecek olan \"Delirdim, delirdim\" ile eşleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "sarangui nunbit",
       "tr": "Aşk dolu bakışlar..."
@@ -764,6 +799,10 @@
       "ah-yeah": "Ritmik Uyum: Intro ve Post-Chorus’taki \"Ah-yeah\", \"Go\" gibi vokal oyunlarını, şarkının yüksek temposuna uygun şekilde yerleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "picheolin, picheolin, go, ah-yeah",
       "tr": "Picheolin, Picheolin; yürü, ah-yeah!"
@@ -844,6 +883,10 @@
       "Yeah": "Ritmik Ad-libler: \"Come on\", \"Zoom\" ve \"Yeah\" gibi kısımları, şarkının enerjisini bozmamak adına akışa dahil ettik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Party"
+    ],
     "firstPair": {
       "en": "banjjakineun naui sunglasses",
       "tr": "Pırıl pırıl parlıyor güneş gözlüklerim;"
@@ -916,6 +959,9 @@
       "nola, nola": "Ritmik Uyum: Şarkının \"Nola, nola\" (eğlenelim) nakaratını, Türkçedeki o en coşkulu \"Eğlenelim / Coşalım\" vurgularıyla ritme oturttuk."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "sarangui nunbit",
       "tr": "Aşk dolu bakışlar... (Sarang-ui nunbit)"
@@ -992,6 +1038,10 @@
       "ride or die": "⁵Ride or die: Birbirine ölene kadar sadık olan, her riski birlikte göze alan dostluk/aşk ilişkisi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Don't do it, don't do it, don't do it, no (Don't you do it, no)",
       "tr": "Yapma bunu, yapma, sakın yapma, hayır (Sakın yapma bunu, hayır)"
@@ -1066,6 +1116,10 @@
       "s not yes, but it": "Ritmik Uyum: \"It's not yes, but it's not no\" kalıbını, Türkçede de aynı kararsız ve oyuncu havayı verecek şekilde \"Evet değil ama hayır da değil\" olarak çevirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Ooh, found myself on the floor unexpectedly",
       "tr": "Ooh, kendimi hiç beklemediğim bir anda pistte (yerde) buldum..."
@@ -1143,6 +1197,10 @@
       "Ha-ha-ha": "Ritmik Ad-libler: \"Back it up\", \"Take a shot\" ve \"Ha-ha-ha\" gibi kısımları, şarkının o akışkan ve eğlenceli temposunu bozmadan Türkçeye yedirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Party"
+    ],
     "firstPair": {
       "en": "Bottle of '42 helps to ease the pain",
       "tr": "Bir şişe '42 (Don Julio)¹ acıyı dindirmeye yardımcı olur;"
@@ -1222,6 +1280,10 @@
       "irsty m": "İğneleyici İfşalar: Karakterlerin \"thirsty\" (ilgiye aç) heriflerle dalga geçişini, sokak raconuna uygun o \"cool\" dille yansıttık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "How can I not leak it?",
       "tr": "Nasıl \"sızdırmam\" (leak) ha?"
@@ -1295,6 +1357,9 @@
       "Lanet olsun şu halime": "\"Fuck me\" İfadesi: Aynadaki hayal kırıklığını \"Siktir et\" veya \"Lanet olsun şu halime\" şeklinde, bir öz-yıkım ve bıkkınlık nidası olarak çevirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Don't tell me you love me",
       "tr": "Bana beni sevdiğini söyleme;"
@@ -1367,6 +1432,9 @@
       "fuck me": "\"Fuck me\" İfadesi: Aynadaki hayal kırıklığını \"Siktir et\" veya \"Lanet olsun şu halime\" şeklinde, bir öz-yıkım ve bıkkınlık nidası olarak çevirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "La-la-la-la-la, la-la-la, la, la",
       "tr": "La-la-la-la-la..."
@@ -1445,6 +1513,9 @@
       "yeni birini bulurum": "\"New Dick\" Yerelleştirmesi: Buradaki ifadeyi çok kaba kaçmadan ama mesajın netliğini de bozmadan \"yeni birini bulurum\" veya \"başka tenlere koşarım\" anlamında, o \"vazgeçilmez değilsin\" vurgusuyla verdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "This love might cause side effects",
       "tr": "Bu aşk bazı yan etkilere sebep olabilir;"
@@ -1520,6 +1591,9 @@
       "reak bread": "⁴Break bread: \"Ekmeğini bölüşmek\" deyimi Türkçeye çok uygun bir yerelleştirmedir. Rap jargonunda kazanılan parayı ve başarıyı sadık dostlarla/ekiple paylaşmak anlamına gelir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "I got flash, I got flames",
       "tr": "Işığım var, alevim var"
@@ -1596,6 +1670,10 @@
       "drippin": "Ritmik Ad-libler: Bridge kısmındaki \"Make it rain\" ve \"Drippin'\" gibi kısımları, şarkıcının hem terleme hem de sahnede devleşme metaforunu koruyacak şekilde akışa dahil ettik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Love"
+    ],
     "firstPair": {
       "en": "Mama said I'm right and in control",
       "tr": "Annem her zaman haklı olduğumu ve iplerin benim elimde olduğunu söylerdi."
@@ -1676,6 +1754,10 @@
       "light": "Duygusal Akış: Bridge kısmındaki \"ecstasy\" (vecd/kendinden geçme) ve \"light\" (ışık) vurgularını, aşkın kurtarıcı gücünü simgeleyecek bir dille aktardık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "They say, \"The holy water's watered down",
       "tr": "Diyorlar ki; \"Kutsal suyun bile etkisi kalmadı (sulandırıldı),¹"
@@ -1751,6 +1833,10 @@
       "şimdiye çoktan": "Ritmik Akış: \"By now\" nakaratını, her seferinde bir \"geç kalmışlık\" hissi verecek şekilde \"şimdiye çoktan\" olarak yerleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Sad"
+    ],
     "firstPair": {
       "en": "No need to act surprised, I've seen it in your eyes",
       "tr": "Şaşırmış gibi yapmana gerek yok, bunu gözlerinde gördüm"
@@ -1830,6 +1916,10 @@
       "ışık": "Karakter Analizi: Şarkıcıyı bir \"kurtarıcı\" (savior) ve \"ışık\" (light) olarak konumlandıran o korumacı ve üst perdeden konuşan dili koruduk."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing",
+      "Night"
+    ],
     "firstPair": {
       "en": "No red lights",
       "tr": "Kırmızı ışık falan yok,"
@@ -1901,6 +1991,9 @@
       "içim yanarak": "Korece “aetaege”, sabırsız ve acılı bir özlemi ifade ediyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "siwonhan balam buneun changgae anja",
       "tr": "Serin bir rüzgarın estiği pencere kenarına oturup;"
@@ -1972,6 +2065,10 @@
       "yıkıp geçelim": "“Kick it”, bağlama göre başlamak, dağıtmak ve engelleri yıkmak anlamlarını aynı anda taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Dark"
+    ],
     "firstPair": {
       "en": "gyeolloni mwonde tto geulaeseo",
       "tr": "Ee, sadede gel artık;"
@@ -2043,6 +2140,9 @@
       "tik-tak": "Saat sesi, ayrılıktan sonra zamanın ağır ve rahatsız edici akışını duyulur hale getiriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "jamkkan (jamkkan)",
       "tr": "Bir saniye... (Bir saniye)"
@@ -2114,6 +2214,10 @@
       "kanlı yaşlar": "Korece “pi-nunmul”, sıradan üzüntünün ötesinde ağır bir acıyı betimliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Yeah, yeah, yeah",
       "tr": "Yeah, yeah, yeah..."
@@ -2185,6 +2289,10 @@
       "Kraliçe Arı": "“Queen bee”, çevresine hükmeden ve ilginin merkezinde olan kadın imgesi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "aswiul geosdo eobseo",
       "tr": "Pişman olacak hiçbir şeyim yok;"
@@ -2256,6 +2364,9 @@
       "Harbiden": "Nakarattaki “really” tekrarları Türkçede aynı net ve ısrarcı tonu taşıyan “harbiden” ile karşılanıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "If you really, really love me, malhaejwo",
       "tr": "Eğer beni gerçekten, gerçekten seviyorsan; söyle bana"
@@ -2327,6 +2438,10 @@
       "Hayat bir sürtüktür": "Jennie, hayatın sertliğini kabul edip kendi hayatının görkemli bir film gibi olduğunu söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Happy"
+    ],
     "firstPair": {
       "en": "tteonajima, just stay",
       "tr": "Gitme sakın, sadece yanımda kal"
@@ -2398,6 +2513,9 @@
       "dört yol ağzı": "“Four-way” hem dört üyeye hem de grubun her yöne yayılan hakimiyetine gönderme yapıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "BLACKPINK",
       "tr": "BLACKPINK!"
@@ -2469,6 +2587,9 @@
       "öpücükler ve sarılmalar": "“X’s and O’s” yazışma dilinde öpücükleri ve sarılmaları temsil ediyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(Little bit of that)",
       "tr": "(Ondan biraz...)"
@@ -2540,6 +2661,10 @@
       "aynadaki aksime": "Ayrılma kararını karşısındakine değil aynadaki kendisine söylemesi, kararsızlığını ve kırılganlığını vurguluyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "tughamyeon geochin maldeullo nae mame sangcheoleul naenohgo",
       "tr": "Sıradan bir şeymiş gibi, o sert sözlerinle kalbimi yaralayıp;"
@@ -2611,6 +2736,10 @@
       "öpsem mi, sövsem mi": "Lisa’nın “kiss him / diss him” karşıtlığı, aşk ve öfke arasında gidip gelmesini yansıtıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "uli eomma maeil naege malhaesseo",
       "tr": "Annem her gün tembihlerdi beni;"
@@ -2682,6 +2811,10 @@
       "BLACKPINK sizin bölgenizde": "“BLACKPINK in your area”, grubun imza sloganı ve sahne hakimiyetini duyuran bir meydan okuma."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "(Hot) BLACKPINK in your area",
       "tr": "(Sıcak!) BLACKPINK sizin bölgenizde!"
@@ -2753,6 +2886,9 @@
       "ıssız bir ada": "İngilizce “desert island” benzetmesi, ikili arasındaki yoğun ve dış dünyadan kopuk atmosferi büyütüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Hey, boy",
       "tr": "Hey, çocuk..."
@@ -2823,6 +2959,10 @@
       "kanlı gözyaşlarını": "Korece “피눈물”, çok ağır emek ve acıyı anlatan güçlü bir deyim; burada geçmişte ödenen bedelin zafere dönüşmesini vurguluyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Night"
+    ],
     "firstPair": {
       "en": "Ain't no limit, never running out",
       "tr": "Sınır falan yok, asla tükenmeyiz biz"
@@ -2893,6 +3033,9 @@
       "et köftesi": "Changbin, hamburgerin ana malzemesi olan köfteyi kendi rapinin şarkılardaki vazgeçilmez yeri için kullanıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "This and that, this and that",
       "tr": "Şundan bundan, her şeyden biraz..."
@@ -2963,6 +3106,10 @@
       "bakışlarla": "Korece “눈치”, insanların birbirinin niyetini sözsüz biçimde sezmesi demek. Burada iki kişi arasındaki bakışma ve çekim bir savaşa benzetiliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Healing"
+    ],
     "firstPair": {
       "en": "I had to catch my breath, saw you walking past",
       "tr": "Nefesimi tutmam gerekti, önümden geçişini gördüğümde;"
@@ -3034,6 +3181,9 @@
       "hasat orağını": "Korece “낫”, orak anlamına geliyor; üretme ve başarıyı toplama metaforunu tamamlıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah, we farmin' every day, no sleep",
       "tr": "Evet, her gün hasat yapıyoruz, uyku yok!"
@@ -3104,6 +3254,9 @@
       "kumdan kale": "Yükselen suyun ortasındaki kumdan kale, kırılgan görünen hayallerin yeniden ayağa kalkma iradesini simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I do feel the same pain as you",
       "tr": "Seninle aynı acıyı hissediyorum, inan bana"
@@ -3176,6 +3329,9 @@
       "ikile": "İngilizcedeki “çıkış” ifadesi şarkının sert tonuna uygun biçimde “ikile” ve “yol al” duygusuyla çevrildi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "gadeon geudaelo way out, geunyang kkeojyeojullae?",
       "tr": "Geldiğin gibi ikile, defolup gider misin?"
@@ -3247,6 +3403,10 @@
       "Büyümüş bir çocuk": "Aşk karşısında yetişkinliğin içinde kalan çocuksu masumiyet vurgulanıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Night"
+    ],
     "firstPair": {
       "en": "Da-da-da, da, da-da-da-da, da-da",
       "tr": "Da-da-da, da, da-da-da-da, da-da"
@@ -3317,6 +3477,9 @@
       "et köftesi": "Changbin rapini, hamburgerin bütün lezzetini taşıyan vazgeçilmez ana malzemeye benzetiyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "This and that, this and that",
       "tr": "Şundan bundan, şundan bundan"
@@ -3396,6 +3559,10 @@
       "back of my mind": "Uzaklaştırmaya çalışsan da zihnin bir köşesinde dönüp duran, kaçamadığın düşünceleri anlatan bir ifadedir; “zihnimin kuytuları” olarak karşılandı."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "I found your lighter in my nightstand",
       "tr": "Komodinimin üzerinde çakmağını buldum"
@@ -3471,6 +3638,9 @@
       "Dogani sarigi": "“Diz kapaklarını sakınmak” anlamına gelen bir deyimdir. Riske girmemek ve pasif kalmak anlamında bir “kırmızı ışık” olarak nitelendirilmiştir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Green, green",
       "tr": "Yeşil, yeşil"
@@ -3541,6 +3711,10 @@
       "ben bir ucubeyim": "‘Creep’ yalnızca tuhaf biri demek değil; anlatıcının kendisini sevdiği kişinin dünyasına yakışmayan, rahatsız edici bir yabancı gibi görmesini taşıyor. ‘Ucube’ bu ağır öz-nefret tonunu koruyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Dark"
+    ],
     "firstPair": {
       "en": "When you were here before",
       "tr": "Daha önce buradayken,"
@@ -3612,6 +3786,10 @@
       "Kalbimin tam tutulması": "Bir tutulmada ışığın bütünüyle kapanması gibi, aşk da anlatıcının kalbini karanlıkta bırakıyor. Şarkının ana imgesi bu yüzden kelime kelime değil, aynı göksel görüntüyü koruyarak çevrildi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "(Turn around)",
       "tr": "(Arkanı dön...)"
@@ -3686,6 +3864,9 @@
       "Fareli Köyün Kavalcısı'nın": "Masaldaki kavalcı gibi herkesi peşinden sürüklüyor; fakat Eminem bu etkinin ve şöhretin bir bedeli olacağını da hatırlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Look, if you had one shot or one opportunity",
       "tr": "Bak, eline tek bir şans, tek bir fırsat geçseydi;"
@@ -3762,6 +3943,10 @@
       "sana tutulmuş, hasta haldeyim": "‘Enfermo de ti’, yalnızca âşık olmak değil; özlemin bedeni ele geçiren bir hastalığa dönüşmesi. Hemen sonraki ‘gel de iyileştir beni’ dizesi bu imgeyi tamamlıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Te estoy correteando",
       "tr": "Peşinden koşup duruyorum;"
@@ -3841,6 +4026,9 @@
       "köprü": "Ürdün ile Batı Şeria arasındaki geçişi ve iki sanatçının Filistin–Amman hattındaki kimlik tartışmasını çağrıştırıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "المخدرات الصوتية إدمان خطيرًا لا يمكن وصفه",
       "tr": "“İşitsel uyuşturucular”, tarif edilemeyecek kadar tehlikeli bir bağımlılıktır."
@@ -3913,6 +4101,9 @@
       "starstruck": "Bir ünlüyü görmüş gibi büyülenip dili tutulmak. Ludacris burada ilk aşkının onu bir yıldız kadar etkilediğini söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh, woah",
       "tr": "Oh, woah..."
@@ -3985,6 +4176,10 @@
       "Mood ring": "Ruh hâline göre renk değiştirdiğine inanılan yüzük. Karşısındaki kişinin hüznünün ve duygularının sürekli değişmesini anlatan nostaljik bir imge."
     },
     "difficulty_note": null,
+    "moods": [
+      "Happy",
+      "Love"
+    ],
     "firstPair": {
       "en": "I knew you through the daze of the blades of the grass in summer",
       "tr": "Seni yazın çimen bıçaklarının arasındaki o puslu günlerden tanırdım"
@@ -4065,6 +4260,10 @@
       "Chewing everyone's lugs off": "Kuzey İngiltere argosunda birinin kulağını düşürecek kadar konuşmak; Türkçedeki “başının etini yemek” ifadesine denk geliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "I let go of everything I ever had",
       "tr": "Sahip olduğum ne varsa hepsini bıraktım"
@@ -4141,6 +4340,9 @@
       "Take you higher": "Hem dansın ve müziğin coşkusuyla yükselmeyi hem de aşkın insanı başka bir ruh hâline taşımasını anlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Let me take you higher, so I can show you love",
       "tr": "Seni daha yükseğe çıkarayım, sevgimi gösterebileyim"
@@ -4212,6 +4414,9 @@
       "Along for the ride": "Hem gerçek tren yolculuğunu hem de sonucu belirsiz bu ilişkiye kendini bırakmayı aynı anda anlatan bir ifade."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "On a train back to Boston and we're jumpin' the gun",
       "tr": "Boston'a dönen bir trendeyiz ve daha şimdiden acele ediyoruz"
@@ -4283,6 +4488,9 @@
       "Tracks of my tears": "Yüzde kalan gözyaşı izlerini geçmişe uzanan tren rayları gibi kullanıyor; bugünkü terk edilme korkusunu çocukluğuna bağlıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "In my head, you lay down next to me",
       "tr": "Zihnimde yanıma uzanıyorsun"
@@ -4359,6 +4567,9 @@
       "Hiç benim": "‘Never mine’ tekrarı kulağa ‘nevermind’ ifadesini de yaklaştırıyor; sahip olamama acısıyla vazgeçiş aynı sesin içinde buluşuyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing"
+    ],
     "firstPair": {
       "en": "Salt air, and the rust on your door",
       "tr": "Deniz esintisi ve kapındaki pas izi"
@@ -4429,6 +4640,10 @@
       "Rock the boat": "Hem dalgaların ortasında tekneyi sallamak hem de düzeni bozup cesur bir hamle yapmak anlamını taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Happy"
+    ],
     "firstPair": {
       "en": "Ha-ha, ha-ha",
       "tr": "Ha-ha, ha-ha"
@@ -4499,6 +4714,10 @@
       "Hot girls, cold vibe": "Dışarıdan ateş gibi görünürken tavırlarını serin, sakin ve ulaşılmaz tutan kızların tezatlı özgüvenini anlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Hot, hot, we slay",
       "tr": "Ateşliyiz, ateşliyiz; yıkıp geçeriz"
@@ -4572,6 +4791,10 @@
       "Poco a poco crescendo / molto appassionato": "İlki müziğin yavaş yavaş güçlenmesini, ikincisi ise “çok tutkulu” çalınmasını söyler. Duyguların adım adım büyüyüp sonunda taşmasına dönüşüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Orchestra (Orches-orchestra)",
       "tr": "Orkestra (Orkes-orkestra)"
@@ -4642,6 +4865,10 @@
       "Hula hoop": "Çemberin sürekli dönmesi, ayrı yollara savrulsalar bile sonunda yeniden birbirine dönen iki kişiyi simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Sad"
+    ],
     "firstPair": {
       "en": "What's after left, right, right, right, right, right",
       "tr": "Sol, sağ, sağ, sağ, sağ, sağdan sonra ne var?"
@@ -4712,6 +4939,10 @@
       "Kelebek": "Çocukluk hayallerini unutan yetişkin benliğin kabuğundan çıkıp yeniden özgürleşmesini temsil ediyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "Nae eoril jeok jageun somang, meotjin eoreuni doeneun geot",
       "tr": "Çocukken küçücük bir dileğim vardı: harika bir yetişkin olmak"
@@ -4783,6 +5014,10 @@
       "Bars / dough": "“Bars” rap dizelerini ve flow'u anlatıyor. “Dough” ise hem hamur hem para demek; parayı “pişirip büyütme” kelime oyunuyla grubun yükselişine bağlanıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "I'm the moon",
       "tr": "Ben ayım"
@@ -4853,6 +5088,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I'm in love with this silence",
       "tr": "Bu sessizliğe âşığım"
@@ -4921,6 +5160,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "If na based on blessings, I dey count my blessings",
       "tr": "Konu lütuflarsa, lütuflarımı tek tek sayıyorum"
@@ -4989,6 +5231,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "When I'm cold, you're there to keep me warm",
       "tr": "Üşüdüğümde beni sıcak tutmak için oradasın"
@@ -5059,6 +5305,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(Wiils Productions)",
       "tr": "(Wiils Productions)"
@@ -5129,6 +5378,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Yeah, ooh",
       "tr": "Yeah, ooh"
@@ -5197,6 +5450,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Uh, Olómì jọ́",
       "tr": "Uh, sevgilim, yavaş ol"
@@ -5269,6 +5525,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "(Yeah, Fresh)",
       "tr": "(Yeah, Fresh)"
@@ -5339,6 +5599,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "(Hey, hey, hey, hey)",
       "tr": "(Hey, hey, hey, hey)"
@@ -5411,6 +5674,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "Who am I? I'm a bad guy",
       "tr": "Ben kimim? Oyunun en fenasıyım"
@@ -5479,6 +5745,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "O.B.O., Baddest",
       "tr": "O.B.O., en iyisi"
@@ -5549,6 +5819,10 @@
       "Konji": "Nijerya argosunda bastırılmış cinsel arzu ve bu arzunun yarattığı huzursuzluk."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Jonn P",
       "tr": "Jonn P"
@@ -5619,6 +5893,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh",
       "tr": "Oh..."
@@ -5687,6 +5964,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Happy"
+    ],
     "firstPair": {
       "en": "(Yeah)",
       "tr": "(Yeah)"
@@ -5767,6 +6048,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Take this voyage with me, ladies",
       "tr": "Bu yolculuğa benimle çıkın, kadınlar"
@@ -5837,6 +6122,10 @@
       "Home to me": "Yalnızca eve dönmek değil, anlatıcının kendisini “yuva” olarak sunması; bu nedenle nakaratta iki anlam birlikte korunuyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "He said, “Tell me your story",
       "tr": "“Anlat bana hikâyeni,” dedi"
@@ -5907,6 +6196,10 @@
       "G5": "Özel jet sınıfı. B5 kapısında tarifeli uçuş beklemekle özel jet beklemek arasındaki statü farkı üzerinden laf sokuyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "ANTYDE, cut off your dick",
       "tr": "ANTYDE, kes şunun aletini!"
@@ -5977,6 +6270,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "As I went walking the streets of Laredo",
       "tr": "Laredo sokaklarında yürürken,"
@@ -6047,6 +6343,9 @@
       "Moonshine": "Ev yapımı, çoğu zaman kaçak damıtılan sert içki; Western dünyasının başına buyruk ruhunu taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I love me some moonshine",
       "tr": "Kaçak içkiye bayılırım"
@@ -6115,6 +6414,7 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "(Instrumental interlude)",
       "tr": "(Sözsüz enstrümantal geçiş)"
@@ -6183,6 +6483,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Somewhere on the long trail",
       "tr": "Uzun patikanın bir yerinde"
@@ -6251,6 +6555,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "I know that I won't live forever",
       "tr": "Sonsuza dek yaşamayacağımı biliyorum"
@@ -6321,6 +6629,9 @@
       "Günahın bedeli ölümdür”, İncil'deki Romalılar 6": "23 ayetine doğrudan gönderme yapıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Forty days, forty nights",
       "tr": "Kırk gün, kırk gece"
@@ -6391,6 +6702,10 @@
       "Peyote": "Güneybatı Amerika kültürlerinde ritüel amaçlarla da kullanılan, halüsinojenik bir kaktüs."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Ain't scared? Then come outside",
       "tr": "Korkmuyor musun? Öyleyse çık dışarı"
@@ -6461,6 +6776,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Times up, outlaw",
       "tr": "Vakit doldu, kanun kaçağı"
@@ -6533,6 +6851,10 @@
       "Centerfold": "Bir derginin tam ortasındaki, en özel ve dikkat çekici çift sayfa; burada “hayatının merkezinde bana yer aç” anlamına geliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Hell, I know we're broken",
       "tr": "Evet, ikimizin de kırık dökük olduğunu biliyorum"
@@ -6601,6 +6923,7 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "(Instrumental)",
       "tr": "(Sözsüz enstrümantal geçiş)"
@@ -6669,6 +6992,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "She sings to me so sweet and somber",
       "tr": "Bana öyle tatlı, öyle kederli söylüyor ki"
@@ -6739,6 +7066,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I drank all night the day I killed Jeremiah Walker",
       "tr": "Jeremiah Walker'ı öldürdüğüm gün, bütün gece içtim"
@@ -6812,6 +7142,9 @@
       "Take the high road": "Ahlaken daha doğru yolu seçmek; o yüksek yoldan giderken anlatıcı kirli işi üstleniyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Tell me who hurt you, girl, I'ma do 'em way worse",
       "tr": "Söyle, seni kim incitti kızım? Ben ona çok daha beterini yaparım"
@@ -6885,6 +7218,9 @@
       "Tennessee": "Hem Tennessee viskisini hem de Shaboozey'nin country dünyasına daveti taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Girl, show your face, let me see your hand",
       "tr": "Kızım, göster yüzünü; elini göreyim"
@@ -6955,6 +7291,9 @@
       "Six-iron": "Golf sopası anlamına da gelir; Western bağlamında “six-shooter”, yani altıpatlar çağrışımıyla silah şakasına dönüşüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I think we ran out of gunpowder",
       "tr": "Galiba barutumuz bitti"
@@ -7026,6 +7365,9 @@
       "Teach that boy a new dance": "İki revolverle adamın ayaklarının dibine ateş edip onu “dans ettirme” şeklindeki klasik Western tehdidi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Nineteen, left home",
       "tr": "On dokuzunda evden ayrıldı"
@@ -7098,6 +7440,9 @@
       "Hot gun / cold body / cold cell": "Silahın anlık harareti, kurbanın soğuyan bedeni ve failin soğuk hücresi; tek bir ateşin üç farklı bedelini sıralıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Hold your fire",
       "tr": "Ateş etme"
@@ -7174,6 +7519,9 @@
       "Didn't have a pot to piss in": "Aşırı yoksulluk için kullanılan deyim; “işeyecek kabı bile olmamak”."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Tryna knock me off my feet, still standing",
       "tr": "Ayağımı yerden kesmeye çalışıyorlar; hâlâ dimdik ayaktayım"
@@ -7248,6 +7596,9 @@
       "Patience short / paper long": "Sabrının kısalmasıyla parasının uzamasını karşı karşıya getiren ölçü kelime oyunu."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "(It's the outlaw, run)",
       "tr": "(Kanun kaçağı bu, koş!)"
@@ -7321,6 +7672,9 @@
       "You won't ever die again": "Ölümü teselli gibi sunan karanlık bir kovboy ironisi; bedel bir kez ödendiğinde geriye ikinci bir ölüm kalmıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "There's a hefty price to pay for revenge",
       "tr": "İntikamın ödenecek ağır bir bedeli vardır"
@@ -7391,6 +7745,9 @@
       "Sueño": "İspanyolcada hem “rüya” hem “uyku”. Tekrarlanan “kapat” emri, bir sesi susturmakla rüyadan uyanmak arasında asılı kalıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Stop, turn away",
       "tr": "Dur, yüzünü çevir"
@@ -7461,6 +7818,7 @@
       "Everything": "Parçanın adı “her şey” derken sözsüz yapı tek bir anlama kapanmayı reddediyor; dinleyicinin bütün deneyimi sesin içine yerleştirmesine alan açıyor."
     },
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "Instrumental",
       "tr": "Enstrümantal"
@@ -7531,6 +7889,7 @@
       "Throb": "Nabız gibi atmak, zonklamak; parça bedensel ritmi doğrudan sesin hareketine dönüştürüyor."
     },
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "Instrumental",
       "tr": "Enstrümantal"
@@ -7601,6 +7960,9 @@
       "Enraptured": "Büyülenmek, kendinden geçmek ve bütünüyle sarılmak; hem aşkın hem müziğin kontrolü devraldığı hâl."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Don't you wanna come and get it?",
       "tr": "Gelip onu almak istemiyor musun?"
@@ -7671,6 +8033,7 @@
       "Grip": "Tutuş, kavrayış ve kontrol. Başlık, söz olmadan bedenin ritme nasıl yakalandığını hissettiriyor."
     },
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "Instrumental",
       "tr": "Enstrümantal"
@@ -7741,6 +8104,10 @@
       "Futurality": "“Gelecek” ile “gerçeklik” fikrini birleştiren türetilmiş başlık; henüz var olmayan bir hâli ses içinde şimdiden kuruyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Diva Experimental",
       "tr": "Deneysel Diva"
@@ -7812,6 +8179,9 @@
       "Taconeando": "Topuklu ayakkabıyla ritmik biçimde yere vurmak; flamenko çağrışımıyla kulüp bedenini bir araya getiriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Ah, ah, uno, uno",
       "tr": "Ah, ah, bir, bir"
@@ -7882,6 +8252,9 @@
       "Ponte perra": "Kelimesi kelimesine “sürtükleş”; burada aşağılayıcı değil, kendi gücünü ve vahşi özgüvenini kuşanma emri."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Realmente nunca estuviste sola",
       "tr": "Aslında hiçbir zaman yalnız değildin"
@@ -7953,6 +8326,9 @@
       "Kill the father": "Ataerkil otoriteyi, baba figürünü ve psikanalitik “babanın yasası”nı cinsel bir isyan içinde yıkma çağrısı."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I",
       "tr": "Ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben-ben"
@@ -8023,6 +8399,9 @@
       "Polyrhythmic / fractal scales": "Birden fazla ritmin, en küçük hücreden kozmosa kadar birbirine geçen aynı örüntüler gibi çalışması."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "And so she wandered beyond the threshold",
       "tr": "Ve böylece eşiğin ötesine doğru yürüdü"
@@ -8093,6 +8472,7 @@
       "Raver": "Elektronik müzik partilerinin bedeni ritme bırakan müdavimi; parça bu kimliği söz yerine doğrudan ses ve hareketle kuruyor."
     },
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "Instrumental",
       "tr": "Enstrümantal"
@@ -8163,6 +8543,7 @@
       "Syncope": "Hem müzikte vurgunun beklenmedik yere kaydığı “senkop”, hem de kısa süreli bilinç kaybı. Başlık ritimle bedenin kesintiye uğramasını aynı sözcükte buluşturuyor."
     },
     "difficulty_note": null,
+    "moods": [],
     "firstPair": {
       "en": "Instrumental",
       "tr": "Enstrümantal"
@@ -8233,6 +8614,10 @@
       "Transmutar": "Sıradan bir değişimden öte, maddenin ya da benliğin başka bir hâle dönüşmesi. Arca sesi ve bedeni bir sinyal içinde yeniden kuruyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
     "firstPair": {
       "en": "Diva, Diva, Diva, Diva, Diva, Diva, Diva, Diva, Diva",
       "tr": "Diva, Diva, Diva, Diva, Diva, Diva, Diva, Diva, Diva"
@@ -8304,6 +8689,9 @@
       "Eidolon": "Hayalet, suret veya idealize edilmiş görüntü. Şarkının yıkım içindeki ihtişamı, gerçeklikle hayaletimsi görüntü arasındaki sınırı eritiyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Toma tú, tú",
       "tr": "Al bakalım, sen, sen"
@@ -8374,6 +8762,9 @@
       "Willow": "Söğüdün rüzgârda eğilip kırılmaması; Arca'nın akışkanlık ve dönüşüm fikrini çocukça bir tekrarın içine yerleştiriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Willow, willow, willow",
       "tr": "Söğüt, söğüt, söğüt"
@@ -8445,6 +8836,10 @@
       "Cauterizing with kissing": "Yarayı yakarak kapatma eylemini öpüşmeyle birleştiren, şefkatle şiddeti aynı bedensel imgede tutan ifade."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "Diva Experimental FM",
       "tr": "Deneysel Diva FM"
@@ -8529,6 +8924,10 @@
       "Bruce Wayne": "Siyah giyim, karanlık araç, servet ve çift kimlik üzerinden Batman'in milyarder alter egosuna kurulan benzetme."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "ATL Jacob, ATL Jacob",
       "tr": "ATL Jacob, ATL Jacob"
@@ -8597,6 +8996,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Arrows are poking my skin",
       "tr": "Oklar tenime saplanıyor"
@@ -8671,6 +9073,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Work",
       "tr": "Çalış"
@@ -8747,6 +9153,9 @@
       "Happiness is so sad": "Mutluluğun kaybedileceğini bilmenin, o mutluluğu yaşarken bile beraberinde getirdiği hüznü anlatan bir çelişki."
     },
     "difficulty_note": null,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "I dare, oh I dare you",
       "tr": "Hadi, meydan okuyorum sana"
@@ -8817,6 +9226,9 @@
       "Mangangabo, mga bano": "Tagalogca bölüm rakipleri küle dönecek beceriksizler olarak küçümsüyor; ardından “dilim kırbaç” diyerek sözlerin saldırı gücünü öne çıkarıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Lawless, lawless, lawless",
       "tr": "Kanunsuz, kanunsuz, kanunsuz"
@@ -8892,6 +9304,9 @@
       "More, no Mandy": "“Daha fazlasını istiyorum” sözü, oyuncu ve şarkıcı Mandy Moore'un soyadıyla yapılan kelime oyunu."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I think I should just let this shit ride with you",
       "tr": "Sanırım bu boku seninle olduğu gibi akıtmalıyım"
@@ -8962,6 +9377,10 @@
       "All on ten": "Gecenin enerjisinin, özgüvenin ve görünüşün on üzerinden on olması; herkesin sonuna kadar coştuğu hâl."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Hey",
       "tr": "Hey"
@@ -9030,6 +9449,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Blue, trying to see a silver lining",
       "tr": "Hüzünlü... İçinde bir umut ışığı arıyorum"
@@ -9102,6 +9524,9 @@
       "Give me the chair": "ABD'deki idam cezasına, özellikle elektrikli sandalyeye gönderme; yaptıklarının açığa çıkması hâlinde en ağır cezayı alacağını söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Don't come around me with that fake shit",
       "tr": "O sahte boklarınla yanıma yaklaşma"
@@ -9192,6 +9617,10 @@
       "Hannah Montana": "İki farklı kimlik arasında geçiş yapan karakter üzerinden CORTIS'in eski ve yeni dönemleri arasındaki dönüşüme gönderme."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Sad"
+    ],
     "firstPair": {
       "en": "(Yeah, yeah, yeah)",
       "tr": "(Evet, evet, evet)"
@@ -9272,6 +9701,9 @@
       "Jennifer Lawrence": "Yuji Itadori'nin seride kendini tanıtırken söylediği kadın tipi şakasının doğrudan tekrarı."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Daijoubu, boku, saikyou dakara",
       "tr": "Sorun yok; çünkü en güçlüsü benim"
@@ -9343,6 +9775,9 @@
       "Scottie, beam me up": "Star Trek'teki “Scotty, ışınla beni” sözüne yapılan gönderme. Mark bulunduğu zihinsel sıkışmışlıktan bir anda çıkarılmak istiyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Full tank of gas on the dashboard",
       "tr": "Depo dolu, gösterge önümde"
@@ -9418,6 +9853,10 @@
       "Sabang sampai Merauke": "Endonezya'nın en batısından en doğusuna kadar tüm ülkeyi kapsayan yerleşik bir ifade."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "Look at me, look at her",
       "tr": "Bana bak, bir de ona bak"
@@ -9490,6 +9929,10 @@
       "French 75": "Cin, şampanya, limon ve şekerle yapılan sert bir kokteyl. “Beyaz şarap gibi” içmeleri, gecenin ölçüsüz ve baş döndürücü hâlini güçlendiriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "Top floor, I'm on top of that",
       "tr": "En üst kattayım, daha da yukarıdayım"
@@ -9561,6 +10004,9 @@
       "Red on the meter": "Ses göstergesinin kırmızı bölgeye dayanması; müziği sonuna kadar açmakla, aralarındaki arzunun sınırı aşması aynı imgede birleşiyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "You know how I–",
       "tr": "Hani benim nasıl—"
@@ -9632,6 +10078,9 @@
       "Lie through his teeth": "Çok rahat ve yüzsüzce yalan söylemek anlamındaki deyim; Türkçedeki “gözünün içine baka baka yalan söylemek” hissini taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Mm-mm, mm-mm",
       "tr": "Mm-mm, mm-mm"
@@ -9716,6 +10165,9 @@
       "Artık gözüm üstünde": "“Te tengo en la mira”, kelimesi kelimesine birini nişangâhta tutmaktır. Burada tehditkâr biçimde “hamlelerini izliyorum” anlamını taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "La, la, la, la",
       "tr": "La, la, la, la"
@@ -9798,6 +10250,10 @@
       "Na-na-na-na-boo-boo": "Çocukların karşısındakini kızdırmak için söylediği alaycı tekerleme. Cardi, bütün sert diss’in sonunda rakipleriyle çocuk gibi dalga geçiyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "Ho, suck my dick, I say, \"Ah, ha\" (Ayy)",
       "tr": "Sürtük, sikimi yala; ben de “Ah, ha” diyorum (Ayy)"
@@ -9863,6 +10319,9 @@
       "Karmaşıklıkla el ele yürümek": "Ariana karmaşadan kaçtığını değil, çocukluğundan beri onunla yan yana yaşamayı öğrendiğini söylüyor. “Beş yaşımdan beri” sözü, bu hassasiyet ve fazla düşünme hâlinin şöhretten çok daha önce başladığını vurguluyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "(No, there's nowhere else)",
       "tr": "(Hayır, başka hiçbir yer yok.)"
@@ -9929,6 +10388,10 @@
       "Frekans değişiyor": "Uzun süredir aynı döngüde dolaşan ilişki artık başka bir seviyeye geçiyor; “gürültü” de geçmişteki karmaşayı ve dış sesleri temsil ediyor olabilir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "(That's okay)",
       "tr": "(Sorun değil.)"
@@ -9996,6 +10459,10 @@
       "en azından anısı sende kalacak": "İlişki sürmese bile yaşananların ve anlatıcının tadının karşı tarafın belleğinde kalacağını söylüyor; hatıranın kime ait olduğu artık Türkçede de açık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Boy, you got me fucked up (Fucked), so crazy now",
       "tr": "Çocuk, aklımı allak bullak ettin (Ettin); delirdim iyice"
@@ -10065,6 +10532,9 @@
       "Beni sevmekten nefret ediyorsun": "Bu ifade albümün “hate that i made you love me” şarkısına doğrudan göz kırpıyor; istemese bile ilgisini ondan çekemeyen birini anlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Ah, ah, ah, ah, ah, ah, ah, ah",
       "tr": "Ah, ah, ah, ah, ah, ah, ah, ah..."
@@ -10128,6 +10598,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Blind half the time",
       "tr": "Zamanın yarısında gözüm hiçbir şeyi görmüyor;"
@@ -10195,6 +10669,9 @@
       "Gitmek istemiyorum; bırak gideyim": "Ariana aynı anda hem kalmak hem kurtulmak isteyen iki zıt sesi yan yana getiriyor. Bu gelgit, kontrolcü bir bağdan kopmak isterken o kişiyi hâlâ bırakamamanın çelişkisini taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Baby, will you come with me nowhere",
       "tr": "Bebeğim, beni alaşağı etmeden önce;"
@@ -10260,6 +10737,10 @@
       "Big feelings": "Şarkının açık cinsel göndermeleri nedeniyle “büyük hisler” ifadesi, partnerinde yalnızca yoğun duygular değil fiziksel bir uyarılma yarattığına dair çift anlam da taşıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing",
+      "Love"
+    ],
     "firstPair": {
       "en": "Baby, what's your karma like?",
       "tr": "Bebeğim, nasıl bir karman var senin?"
@@ -10326,6 +10807,10 @@
       "Keep getting breakup songs": "Ariana’nın kendi kariyerine ve şarkı yazım sürecine yaptığı sert bir atıf. “Seni terk ettim ama acın hâlâ benim hit şarkılarım için bir malzeme” mesajı veriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "This is the beginning of the end",
       "tr": "Bu, sonun başlangıcı..."
@@ -10392,6 +10877,9 @@
       "Corrective experience": "Psikolojide bir kişinin geçmişteki bir travmasını, yeni ve güvenli bir ilişkiyle iyileştirmesi sürecine denir. Ariana burada partneri için yalnızca kendini iyileştirmek amacıyla kullandığı bir basamak veya ders olmak istemediğini, gerçek ve kalıcı bir bağ aradığını vurguluyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Wait, baby, take your time",
       "tr": "Bekle bebeğim, acele etme (akışına bırak)"
@@ -10466,6 +10954,9 @@
       "üstüme uyuyor mu diye": "“Trying boys on for size”, kıyafet dener gibi farklı ilişkileri deneyip hangisinin uyduğuna bakma imgesi kuruyor; medyanın ilişki geçmişini tüketim nesnesine çevirmesine de meydan okuyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Tryna feel something real to cry again",
       "tr": "Yeniden ağlayabilmek için sahici bir şeyler hissetmeye çalışıyorum"
@@ -10534,6 +11025,9 @@
       "My capacity has always blinded me": "Ariana burada taşıdığı yüklerin veya sahip olduğu gücün, bazı karanlık dönemlerde gerçekleri görmesine engel olduğunu itiraf ediyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Society desperate for remedy",
       "tr": "Toplum, derman arıyor çaresizce;"
@@ -10600,6 +11094,10 @@
       "Gerçekten iki kez düşünün": "Arka vokaldeki ‘don't think twice’ dürtüsel sesi ile ana vokaldeki ‘do think twice’ uyarısı çatışıyor. Son söz, sonuçlarını düşünmeden hareket etmeme çağrısı."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "She was more like a beauty queen from a movie scene, uh",
       "tr": "Daha çok bir film sahnesinden fırlamış güzellik kraliçesi gibiydi, uh"
@@ -10665,6 +11163,10 @@
       "Daddy was a pimp": "Şarkıcı burada aile geçmişindeki karanlık ve zorlu gerçekleri tüm çıplaklığıyla itiraf ediyor. Türkçedeki o \"sokak gerçekçiliği\" tonunu korumak için bu ifadeyi yumuşatmadan bıraktık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "I can't move on, babydoll",
       "tr": "Hayatıma devam edemiyorum (can't move on), güzel bebeğim"
@@ -10730,6 +11232,10 @@
       "June & Johnny Cash": "Efsanevi müzisyen çift June Carter ve Johnny Cash’e atıf; onlarınki gibi sarsılmaz ve derin bir aşkı simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Summer after high school, when we first met",
       "tr": "Liseden sonraki o yaz, ilk tanıştığımızda..."
@@ -10800,6 +11306,10 @@
       "Lone Star State": "Teksas eyaletinin resmi lakabı."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely",
+      "Love"
+    ],
     "firstPair": {
       "en": "Just when I thought I got him to fall in love with Tennessee",
       "tr": "Onu tam da Tennessee’ye¹ aşık ettiğimi sandığım anda"
@@ -10865,6 +11375,9 @@
       "Casual": "Bir ilişkinin ciddiyetten uzak, sadece eğlence veya fiziksel çekim odaklı olmasını anlatan modern terim. Türkçede bu duyguyu \"öylesine\" veya \"gelişigüzel\" kelimeleri çok iyi karşılar."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Touch my body tender",
       "tr": "Vücuduma şefkatle dokun"
@@ -10931,6 +11444,9 @@
       "Bleed just to know you're alive": "İnsanın uyuşmuşluktan kurtulmak ve var olduğunu hissetmek için acıya bile razı gelme durumunu anlatan sarsıcı bir ifade."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "And I'd give up forever to touch you",
       "tr": "Ve sana bir kez dokunmak uğruna sonsuzluğu feda ederdim;"
@@ -10996,6 +11512,9 @@
       "On the line": "Bir şeyin risk altında veya tehlikede olması anlamındaki deyimi, Türkçedeki o \"fedakarlık\" vurgusuyla karşıladık."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "For just the chance to win your heart",
       "tr": "Sırf kalbini kazanma ihtimali uğruna;"
@@ -11063,6 +11582,10 @@
       "The bag": "Hip-hop argosunda para, kazanç. “Crucible”: İnsanın içinden güçlenerek çıktığı çok ağır sınav/çile."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Hating me is like all you do, breakfast to dinner",
       "tr": "Benden nefret etmek tek işin olmuş; kahvaltıdan akşam yemeğine..."
@@ -11126,6 +11649,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Lonely",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "I was a ghost, I was alone",
       "tr": "Bir hayalet gibiydim, yapayalnızdım;"
@@ -11192,6 +11719,9 @@
       "God threw me a bone": "İngilizcede birine şans eseri gelen küçük bir iyilik veya fırsat anlamındaki deyimi, şarkının romantik havasına uygun olarak \"Tanrı'nın bir lütfu\" şeklinde yerelleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing"
+    ],
     "firstPair": {
       "en": "So I guess that it's true",
       "tr": "Demek ki doğruymuş;"
@@ -11258,6 +11788,9 @@
       "That girl": "Modern internet argosunda; başarılı, bakımlı ve herkesin imrendiği ikonik kadın figürü."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "(Ah-ah-ah)",
       "tr": "(Ah-ah-ah)"
@@ -11323,6 +11856,10 @@
       "Salesio": "İtalyan eğitmen Don Bosco’nun (Salesians) felsefesine atıf; gençlere verilen karşılıksız, koruyucu ve sevgi dolu desteği simgeler."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "uri geunare urin",
       "tr": "O günlerde biz..."
@@ -11389,6 +11926,9 @@
       "gigang": "Disiplin, düzen. Bir mekâna girdiğinde oradaki hiyerarşiyi bozup herkesin sana saygı duymasını veya bakmasını sağlamak anlamında kullanılmış."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "(yeah yeah)",
       "tr": "(yeah yeah)"
@@ -11455,6 +11995,10 @@
       "ters orantılı": "Sen yaklaştıkça benim uzaklaşmamı ya da duyguların dengesizliğini anlatan matematiksel bir metafordur."
     },
     "difficulty_note": null,
+    "moods": [
+      "Lonely",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Thought that we were solid",
       "tr": "Sağlam olduğumuzu sanmıştım"
@@ -11520,6 +12064,9 @@
       "overflowing": "İncil’deki 23. Mezmur’a atıf; bereketin ve ilahi korunmanın bolluğunu simgeler."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I need I need",
       "tr": "İhtiyacım olan, tek ihtiyacım;"
@@ -11586,6 +12133,9 @@
       "pi ttam tears": "‘Kan ve ter’ ifadesi, harcanan muazzam emeği, fiziksel ve ruhsal acıları temsil eden evrensel bir bedel ödeme anlatımıdır."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "If you lose your way",
       "tr": "Eğer yolunu kaybedersen,"
@@ -11651,6 +12201,9 @@
       "Daniels'lar, Jacks'ler": "Jack Daniel’s viskisine atıf; kaliteli ve pahalı zevkleri olan bir ortamı simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "You can ring my bell, ring my bell",
       "tr": "Zilimi çalabilirsin, çal zilimi"
@@ -11715,6 +12268,10 @@
       "Bruise on your knees": "Burada dominant-submissive (baskın-itaatkâr) bir ilişki dinamiğine çok net ve sert bir atıf yapılıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Stop asking me why (Mm)",
       "tr": "Nedenini sormayı bırak artık (Mm)"
@@ -11779,6 +12336,10 @@
       "You made the bed": "İngilizcedeki \"You made your bed, now lie in it\" deyimi; bir durumu kendi ellerinle hazırlayıp sonuçlarına katlanmak demektir. Türkçedeki \"Kendi düşen ağlamaz\" veya \"Kendi ettiğini bulmak\" anlamıyla eşleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Night"
+    ],
     "firstPair": {
       "en": "I don't play games, I don't relate to the shh that you do day to day, nah",
       "tr": "Oyun oynamam ben, senin şu günlük zırvalıklarınla (shh) hiç işim olmaz, hayır"
@@ -11844,6 +12405,10 @@
       "Rizz": "Modern internet argosu. Rizz: Karizma. Sigma: Bağımsız, güçlü karakter. Demure: Mütevazı ama çok şık ve asil duruş."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah",
       "tr": "Yeah"
@@ -11906,6 +12471,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "Uh-huh, uh-huh, yeah",
       "tr": "Uh-huh, uh-huh, evet"
@@ -11971,6 +12540,9 @@
       "sink my teeth in disbelief": "“Sink my teeth in disbelief”: Bu ifadeyi “şaşkınlığın içine hapsolmak” veya “şaşkınlığı iliklerine kadar hissetmek” şeklinde yerelleştirdik; bir şeye inanmakta güçlük çekerken ona tutunma halini anlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I never thought that I would find a way out",
       "tr": "Bir çıkış yolu bulabileceğimi hiç düşünmemiştim"
@@ -12039,6 +12611,10 @@
       "bosikom po styoklam": "“Я босиком по стёклам”: Cam kırıkları üzerinde yalınayak yürümek/koşmak; bir ilişkiyi kurtarmak için çekilen aşırı ıstırabı ve fedakarlığı simgeler."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "V kamine v shest' utra, fotografiya tvoya",
       "tr": "Sabahın altısı, şöminenin içinde senin fotoğrafın"
@@ -12107,6 +12683,10 @@
       "efendim": "Efendi, sahip veya ev sahibi demektir. j-hope burada aşkın getirdiği o \"gönüllü kölelik/teslimiyet\" duygusuna atıf yapıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "When you say that you love me",
       "tr": "Beni sevdiğini söylediğinde,"
@@ -12174,6 +12754,9 @@
       "dört harfli": "İngilizcede genelde küfürler (fuck, shit vb.) için kullanılır. Sanatçı burada ironi yaparak \"Umut\" kelimesini bu kalıba yerleştiriyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Lately, I been, I been losin' sleep",
       "tr": "Son zamanlarda, uykularım kaçıyor (uyuyamıyorum)"
@@ -12241,6 +12824,9 @@
       "sivilcemi": "Ergenlik dönemindeki hormon patlamasına ve büyüme sancılarına yapılan çok gerçekçi ve sempatik bir gönderme."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Nugu ttaemune?",
       "tr": "Kimin yüzünden?"
@@ -12309,6 +12895,9 @@
       "Cuma, Cuma, Cuma, Cuma": "Gençlerin hafta sonunun (eğlencenin) hiç bitmemesini istemesine yapılan ritmik bir vurgu."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Dollar, dollar",
       "tr": "Dolar, dolar..."
@@ -12378,6 +12967,9 @@
       "Aynı merada": "Suga burada fırsat eşitliği masalını eleştiriyor; \"Aynı sahada oynuyoruz ama benim imkanlarım seninkinin yanında devede kulak\" diyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "They call me (Call me) baepsae (Baepsae)",
       "tr": "Bana Baepsae diyorlar (Diyorlar), Baepsae (Baepsae)"
@@ -12446,6 +13038,10 @@
       "blood-soaked gown": "Hem \"Carrie\" filmindeki dışlanmışlık ve intikam temasına bir gönderme, hem de sanatçının kariyeri boyunca aldığı ağır darbeleri simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Summer went away, still, the yearning stays",
       "tr": "Yaz çekip gitti ama o dinmeyen özlem hala burada"
@@ -12509,6 +13105,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Mm-mm",
       "tr": "Mm-mm..."
@@ -12576,6 +13175,9 @@
       "holding me ransom": "Birinin kokusunun/varlığının kişiyi esir alması, ondan kopamama hissi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Oh",
       "tr": "Oh"
@@ -12642,6 +13244,9 @@
       "Omurganın her kıvrımını": "Kaynak dizedeki ‘in degrees’, omurganın açılarını ve kıvrımlarını adım adım izleme imgesi kuruyor. Türkçede fiziksel yakınlığı korumak için ‘her kıvrımını’ denildi."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Don't rush (Don't rush)",
       "tr": "Acele etme (Acele etme)"
@@ -12708,6 +13313,10 @@
       "Bourgeoisie": "Burjuvazi; toplumun üst/orta sınıfını, yani elit kesimi temsil eder. Şarkı, müziğin zenginle fakir, elit ile aykırı arasındaki duvarları yıktığını söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Hey, Mr. DJ, put a record on",
       "tr": "Hey Bay DJ, koy bir plak"
@@ -12764,6 +13373,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "Brothers, sisters, who are we?",
       "tr": "Erkek kardeşlerim, kız kardeşlerim; kimiz biz?"
@@ -12829,6 +13442,9 @@
       "Hallelujah": "İbranice kökenli, \"Tanrı’ya hamdolsun / Şükürler olsun\" anlamındaki evrensel nida."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Good morning, caught us dancing in the sunrise",
       "tr": "Günaydın; gündoğumunda dans ederken yakaladı güneş bizi"
@@ -12895,6 +13511,10 @@
       "LeBron": "NBA yıldızı LeBron James; başarıyı ve zirveyi simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "'Cause I, I, I'm in the stars tonight",
       "tr": "Çünkü ben, bu gece yıldızların arasındayım"
@@ -12959,6 +13579,9 @@
       "wasted cryin": "Boşa akıtılan gözyaşları; anlatıcı, bu üzüntünün yanlış kişi için harcandığını söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I won't lie to you",
       "tr": "Sana yalan söylemeyeceğim"
@@ -13027,6 +13650,10 @@
       "read between the lines": "Birinin açıkça söylemediği şeyi ima ve davranışlardan anlamaya çalışmak demektir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Talk to me, talk to me",
       "tr": "Konuş benimle, anlat bana"
@@ -13093,6 +13720,10 @@
       "Walls of Versailles": "Versay Sarayı'ndaki meşhur tavan fresklerine ve altın varaklı melek tasvirlerine atıf; partnerinin ulaşılamaz ve sanatsal güzelliğini vurguluyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "I know that the bar closes at 11",
       "tr": "Biliyorum bar saat 11'de kapanıyor"
@@ -13160,6 +13791,10 @@
       "Selener": "Nicki, Justin’in o dönemki sevgilisi Selena Gomez’e kendi tarzıyla, esprili bir selam çakıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
@@ -13227,6 +13862,10 @@
       "In his feelings": "Modern argoda birinin çok duygusallaşması, bir duygu durumuna aşırı saplanıp kalması demektir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Her love is in your head",
       "tr": "Onun aşkı sadece senin zihninde..."
@@ -13292,6 +13931,9 @@
       "Wonderwall": "İngilizcede tam karşılığı olmayan, birine duyulan hayranlığı ve o kişinin koruyucu/kurtarıcı gücünü anlatan bir kavram. Türkçede bu derinliği \"Hayat dayanağım\" veya \"Efsunlu sığınağım\" gibi ifadeler çok iyi karşılar."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Today is gonna be the day",
       "tr": "Bugün, o gün olacak;"
@@ -13358,6 +14000,9 @@
       "똥밭": "Korecede çok zorlu ve aşağılayıcı şartlar altında hayatta kalmaya çalışmak anlamındaki sert bir deyimdir. Suga burada şöhretin getirdiği o \"kirli\" ve zorlu mücadeleyi \"biz yapmazsak kim yapacak?\" diyerek sahipleniyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "ijen neomu seonmyeonghaejyeosseo",
       "tr": "Artık her şey çok daha net görünüyor"
@@ -13424,6 +14069,10 @@
       "Ophelia’nın kaderinden": "Shakespeare’in Hamlet’inde aşk acısıyla aklını yitiren ve nehirde boğulan Ophelia’ya gönderme. Şarkıcı, bu boğulma ve delirme kaderinden kurtarıldığını söylüyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "I heard you calling on the megaphone",
       "tr": "Megafondan seslendiğini duydum"
@@ -13487,6 +14136,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh boy",
       "tr": "Ah be çocuk..."
@@ -13552,6 +14204,10 @@
       "İplik iplik sökülüyorum": "“Unraveled” hem bir kıyafetin sökülmesini hem de birinin zihinsel olarak dağılmasını anlatır. Türkçede bu görseli \"iplik iplik sökülmek\" deyimiyle koruduk."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "All the pretty girls in the foreground of my mind",
       "tr": "Zihnimin en önünde o güzel kızlar beliriyor yine"
@@ -13615,6 +14271,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Yayo, yayo",
       "tr": "Yayo, yayo (Malı getir, parayı getir)"
@@ -13684,6 +14344,10 @@
       "Dişlerimi geçiriyorum": "“Sinking in my teeth / buy time”: Vampir metaforu üzerinden, ana/hayata dişlerini geçirmeyi yani o andan kopmamayı, zamanı yavaşlatmayı temsil ediyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh (You and me)",
       "tr": "Oh (Sen ve ben)"
@@ -13730,6 +14394,10 @@
       "불을 건네줘, 이 기름 속 (Ateşi ver bana, bu yağın içinde)": "Patlamaya hazır bir tutkuyu ve her şeyi yakıp aydınlatma arzusunu simgeler."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Baby, you remind me",
       "tr": "Bebeğim, hep hatırlatıyorsun bana;"
@@ -13775,6 +14443,9 @@
       "내 잔이 넘치니 (Kadehim taşıyor)": "İncil'deki 23. Mezmur'a bir atıf; bereket, şükran ve sevginin bolluğunu temsil eder. j-hope burada aşkının onu nasıl beslediğini ve bu sevgiyi paylaşmak istediğini anlatıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "If you wanna, if you wanna, I'll do the thing for you",
       "tr": "Eğer istersen, eğer gerçekten istersen; senin için her şeyi yaparım."
@@ -13823,6 +14494,10 @@
       "Selene": "Yunan mitolojisinde Ay Tanrıçası. j-hope burada partnerini karanlıkta yol gösteren, ulaşılmaz bir gök cismi gibi konumlandırıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Eonjenga neoro inhae",
       "tr": "Bir gün senin yüzünden"
@@ -13868,6 +14543,10 @@
       "Asian Heroes": "Batı medyasının BTS'i \"insan\" olmaktan çıkarıp birer \"Asyalı temsilcisi/kahramanı\" olarak etiketlemesine bir eleştiri. \"Biz sadece yedi arkadaşız\" diyerek bu yükü reddediyorlar."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "They don't know about us",
       "tr": "Bizim hakkımızda hiçbir şey bilmiyorlar"
@@ -13914,6 +14593,9 @@
       "None of us are tameable": "Endüstrinin veya toplumun onları bir kafese koyamayacağını, pençeleri ve dişleriyle her zaman özgür kalacaklarını simgeliyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Oh-oh-oh",
       "tr": "Oh-oh-oh"
@@ -13960,6 +14642,10 @@
       "What is even all of me?": "Hayranların veya medyanın sanatçının her şeyine sahip olma isteğine karşı, sanatçının kendi kimliğini sorgulaması."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Healing"
+    ],
     "firstPair": {
       "en": "Kerosene, dopamine, chemical-induced",
       "tr": "Kerosen, dopamin; tamamen kimyasal tetiklemeli"
@@ -14007,6 +14693,9 @@
       "Thinking about not thinking": "\"Overthinking\" (aşırı düşünme) sarmalını mükemmel özetleyen bir paradoks."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I wish that I could tell you that it's over (Over)",
       "tr": "Keşke sana her şeyin bittiğini söyleyebilsem"
@@ -14055,6 +14744,10 @@
       "Hit a lick": "Hip-hop jargonunda \"büyük bir vurgun yapmak\" veya \"tek seferde büyük başarı kazanmak\" anlamında kullanılır. ||| \"Let it bleed\": Yarayı deşmekten veya sert olmaktan çekinmediğini belirtir."
     },
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Happy"
+    ],
     "firstPair": {
       "en": "(EarDrummers)",
       "tr": "(EarDrummers)"
@@ -14103,6 +14796,9 @@
       "번지 (Bungee)": "Bungee jumping yapar gibi tereddüt etmeden eğlenceye atlamayı ifade eder."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Everything lit, it's fire",
       "tr": "Her şey ışıl ışıl, alev alev"
@@ -14150,6 +14846,9 @@
       "헛 둘 (Heot dul)": "Askeri ritim sayımı (1-2). Disiplinli ve kararlı bir ilerleyişi simgeler."
     },
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "(Ear Drummers)",
       "tr": "(Ear Drummers)"
@@ -14200,6 +14899,9 @@
       "round the clock": "Sürekli, aralıksız anlamına gelir. Şarkının etkisinin durmaksızın devam edeceğini anlatır."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Watch this, watch this beat goin' hooligan",
       "tr": "İzle bunu, izle; beat kontrolden çıktı"
@@ -14241,6 +14943,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "I need",
       "tr": "İhtiyacım var"
@@ -14282,6 +14987,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Healing"
+    ],
     "firstPair": {
       "en": "Swim, swim",
       "tr": "Yüz, yüz..."
@@ -14325,6 +15033,9 @@
       "Fuckboy kısaca": "duygularınla oynayan, sadakatsiz, sadece kendi çıkarını düşünen erkek tipi 🚩 Tipik fuckboy davranışları: birden fazla kişiyle aynı anda ilgilenme, karışık sinyaller verme, gece geç saatte mesaj atma, ilişki istemeden duygusal bağ kurma..."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Everybody needs love",
       "tr": "Herkesin sevgiye ihtiyacı var, değil mi?"
@@ -14366,6 +15077,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Ain't quitting, I trust my intuition (Okay)",
       "tr": "Vazgeçmiyorum, sezgilerime güveniyorum (okay)"
@@ -14407,6 +15121,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "We outside every night, just me and my girls, ayy",
       "tr": "Dışarıdayız, piyasadayız her gece, sadece ben ve kızlarım, ayy"
@@ -14448,6 +15165,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Lonely",
+      "Party"
+    ],
     "firstPair": {
       "en": "(You ready?)",
       "tr": "(Hazır mısın?)"
@@ -14489,6 +15210,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I had a bad habit",
       "tr": "Kötü bir alışkanlığım vardı;"
@@ -14530,6 +15254,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Wonder if you know",
       "tr": "Merak ediyorum, acaba biliyor musun..."
@@ -14569,6 +15297,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "Ooh, ooh",
       "tr": "Ooh, ooh"
@@ -14617,6 +15349,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Good times and bad times, I gave you my everything",
       "tr": "İyi zamanlarında da kötü zamanlarında da yanındaydım"
@@ -14658,6 +15393,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Take no prisoners for me",
       "tr": "Bana acıma sakın ha"
@@ -14699,6 +15438,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah, ne ape naeryeowa (Yeah)",
       "tr": "Evet, iniyorum işte karşına"
@@ -14740,6 +15482,9 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Mm, yeah",
       "tr": "Mm, evet"
@@ -14781,6 +15526,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
     "firstPair": {
       "en": "Moonwalkin'",
       "tr": "Moonwalk yapıyoruz"
@@ -14822,6 +15571,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Party"
+    ],
     "firstPair": {
       "en": "It’s a knife seoseul peoreon kalnal wieseo",
       "tr": "Bu bir bıçak sırtı, buz gibi keskinliğin üstündeyiz"
@@ -14888,6 +15641,9 @@
       "held your projections": "Karşı tarafın kendi kusurlarını ve güvensizliklerini şarkıcıya yüklemesi, yani psikolojik projeksiyon durumuna yapılan sert bir atıf."
     },
     "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I can't tell you why",
       "tr": "Nedenini anlatamam sana,"
@@ -14951,6 +15707,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dark",
+      "Healing"
+    ],
     "firstPair": {
       "en": "Emiliana, it's been so long since you texted me",
       "tr": "Emiliana, bana mesaj atmayalı çok uzun zaman oldu..."
@@ -15019,6 +15779,10 @@
       "From the dirt and the tears": "Yokluktan ve zorluktan büyük bir başarı yaratma metaforu. “More than flesh and bone” ise insanın fiziksel sınırlarının ötesinde, ruhsal bir güce sahip olduğu vurgusudur."
     },
     "difficulty_note": null,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)",
       "tr": "Oh-eh-oh-eh (Oh-eh), eh-oh-eh (Oh-eh)"
@@ -15082,6 +15846,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Dreamy",
+      "Night"
+    ],
     "firstPair": {
       "en": "New York City's never looked so blue",
       "tr": "New York hiç bu kadar \"mavi\" (hüzünlü) görünmemişti"
@@ -15148,6 +15916,10 @@
       "God, you look so pretty": "Buradaki trajedi şu: Şarkıcı sevgilinin yalan söylediğini biliyor ama o yalanın içindeki güzelliğe hayran kalıyor."
     },
     "difficulty_note": null,
+    "moods": [
+      "Healing",
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh (Oh)",
       "tr": "Oh (Oh)"
@@ -15211,6 +15983,10 @@
     "youtubeEmbedDisabled": false,
     "annotations": {},
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "You were riding your bike to the sound of \"It's No Big Deal\"",
       "tr": "\"Mühim Değil\" şarkısının eşliğinde sürüyordun bisikletini,"
@@ -15272,6 +16048,9 @@
     },
     "youtubeUrl": "https://youtu.be/E8i32NXMxnc?si=1N8W5WjC5WuB9ubL",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "All we need is love, dreams and Stray Kids",
       "tr": "İhtiyacımız olan tek şey: Aşk, hayaller ve Stray Kids."
@@ -15333,6 +16112,9 @@
     },
     "youtubeUrl": "https://www.youtube.com/watch?v=NED7nev2ywQ&list=RDNED7nev2ywQ&start_radio=1",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Geunyang hae nundongja gullil time-e",
       "tr": "Öyle boş boş bakınıp duracağına yap gitsin işte."
@@ -15390,6 +16172,9 @@
     },
     "youtubeUrl": "https://youtu.be/EN1tMeXQii0?si=AOjoOEL-45XoU2mM",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Time is standing still and I don't wanna leave your lips",
       "tr": "Zaman durdu sanki ve dudaklarından ayrılmak istemiyorum."
@@ -15451,6 +16236,9 @@
     },
     "youtubeUrl": "https://youtu.be/qS7OsvKqojg?si=TfSNemQ62-vbNxY-",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "(What the—)",
       "tr": "(NE ALAKA)"
@@ -15512,6 +16300,10 @@
     },
     "youtubeUrl": "https://youtu.be/P7vBoGWoReg?si=PaX_eiTl1IcgB8Sj",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Happy"
+    ],
     "firstPair": {
       "en": "Hip-hip (Hooray)",
       "tr": "Hip hip (Yaşasın)"
@@ -15573,6 +16365,9 @@
     },
     "youtubeUrl": "https://youtu.be/N1ExjhcpLso?si=xkbGAWWY4qXRXO3k",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Soneul jaba let's run away",
       "tr": "Tut elimi, kaçalım buralardan"
@@ -15634,6 +16429,9 @@
     },
     "youtubeUrl": "https://youtu.be/0sFFvghflng?si=I7M-B346kJUxyWxe",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Hey, I got all these options, okay",
       "tr": "Hey, önümde bir sürü seçenek var tamam mı"
@@ -15695,6 +16493,9 @@
     },
     "youtubeUrl": "https://youtu.be/fhxq4s36-I4?si=YPBgNUwsAx8h6Eha",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "TWICE",
       "tr": "TWICE"
@@ -15756,6 +16557,9 @@
     },
     "youtubeUrl": "https://youtu.be/JOF2ZTqvzwY?si=MPV6GO8xXGfCxzMN",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Yeah, I know what you into (Into)",
       "tr": "Evet, nelerden hoşlandığını biliyorum,"
@@ -15817,6 +16621,10 @@
     },
     "youtubeUrl": "https://youtu.be/eHHQaoEW30Q?si=NB-s1g7e37t3koyV",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "This is for all my ladies",
       "tr": "Bu, yeterince gaz verilmeyen…"
@@ -15876,6 +16684,10 @@
     },
     "youtubeUrl": "https://youtu.be/CgCVZdcKcqY?si=EzNAG-pj_vFmHULU",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I’m not that easy to tame",
       "tr": "Öyle kolayca dizginlenebilecek biri değilim ben"
@@ -15935,6 +16747,10 @@
     },
     "youtubeUrl": "https://youtu.be/-bC4iak3kxg?si=ACYoYtl80xv-1I5w",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Love"
+    ],
     "firstPair": {
       "en": "Tell your friends that I love the drama",
       "tr": "Arkadaşlarına anlat, dramaya bayıldığımı söyle"
@@ -15994,6 +16810,9 @@
     },
     "youtubeUrl": "https://youtu.be/M2WTUoy4y6E?si=0PmlisbPnsXZtgKf",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "World domination, I don't gotta say it",
       "tr": "Dünyaya hükmediyorum, söylememe bile gerek yok"
@@ -16051,6 +16870,9 @@
     },
     "youtubeUrl": "https://youtu.be/AX0jQYaIeDc?si=IVAkA5Hxnl59BCAR",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Hidden underneath the floor",
       "tr": "Hayallerimin tavan arasında,"
@@ -16110,6 +16932,9 @@
     },
     "youtubeUrl": "https://youtu.be/VjvzYjU1mY0?si=Ks6P-qBa9F2wHo7j",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Bunmyeong nappeun aineun anieodo",
       "tr": "Ben kötü biri değilim, tamam mı…"
@@ -16171,6 +16996,9 @@
     },
     "youtubeUrl": "https://youtu.be/H4H99b1CjPU?si=IjssKAS4zaZ3CPPt",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Ain’t nobody, yeah",
       "tr": "Kimse yok ki senin gibi"
@@ -16228,6 +17056,9 @@
     },
     "youtubeUrl": "https://youtu.be/q9leDzlNEaY?si=D69rrGbu7VutYwke",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "You are now",
       "tr": "Sen şu anda…"
@@ -16287,6 +17118,10 @@
     },
     "youtubeUrl": "https://youtu.be/dpvQqmX6SUI?si=zV9WCVWa2hwkCewm",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I wanna let my hair down (Yeah, yeah, yeah, yeah, yeah)",
       "tr": "Saçlarımı savurmak istiyorum (Evet, evet, evet, evet, evet)"
@@ -16348,6 +17183,9 @@
     },
     "youtubeUrl": "https://youtu.be/UFeCEeD85AU?si=94bE4-8ptHsqZJMv",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Haetsal bichun achim",
       "tr": "Güneşle aydınlanan bir sabaha uyanıyorum."
@@ -16409,6 +17247,10 @@
     },
     "youtubeUrl": "https://youtu.be/LYepnktGTLE?si=4CFpKQl2Chu9xsDH",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Ajik nan geogi sara",
       "tr": "Hâlâ oradayım;"
@@ -16470,6 +17312,9 @@
     },
     "youtubeUrl": "https://youtu.be/dpn4v93wQZY?si=fqEAaANplMwIxfxY",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Gureumeun oneuldo nae jeonbureul dama",
       "tr": "Bulutlar bugün de tüm duygularımı, içimi içine almış."
@@ -16531,6 +17376,10 @@
     },
     "youtubeUrl": "https://youtu.be/l7OexMEJLtE?si=79IHhIjDK-Rfdz9o",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Du ballo ttwieoneomeo gan sungan",
       "tr": "İki ayağımla engeli aştığım anda"
@@ -16592,6 +17441,10 @@
     },
     "youtubeUrl": "https://youtu.be/pS57UX6s-xw?si=d8kynMZ7LYALCa9l",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Party"
+    ],
     "firstPair": {
       "en": "Tteoreojyeo flash onmomi crash",
       "tr": "Bir flaş patladı ve bütün bedenim sarsıldı."
@@ -16651,6 +17504,10 @@
     },
     "youtubeUrl": "https://youtu.be/MTjiawwYPhI?si=JkoU0JBNLosjEiv6",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "You love me, you miss me",
       "tr": "Beni seviyorsun, beni özlüyorsun"
@@ -16712,6 +17569,9 @@
     },
     "youtubeUrl": "https://youtu.be/7ue9yqfApQA?si=HJGXulEuktCPC3mI",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Jonjaehaneun iyudeuljocha",
       "tr": "Varoluş nedenimi bile bilmiyordum ben..."
@@ -16773,6 +17633,10 @@
     },
     "youtubeUrl": "https://youtu.be/o7BcyAd6rqg?si=xvV5GA-CjSn2fBHd",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "I really thought I made up my mind",
       "tr": "Gerçekten kararımı verdiğimi sanmıştım"
@@ -16834,6 +17698,9 @@
     },
     "youtubeUrl": "https://youtu.be/ia2Ph61bYzc?si=-wwt8ilIY1Icuvmv",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "You and I are tangled as these sheets",
       "tr": "Seninle ben, bu çarşaflar gibi birbirimize dolanmışız."
@@ -16893,6 +17760,10 @@
     },
     "youtubeUrl": "https://youtu.be/R2-yomhYAj4?si=RPnP3wc4kKoFRoan",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "They could describe everything with one single word",
       "tr": "Her şeyi tek bir kelimeyle anlatabilirler"
@@ -16948,6 +17819,9 @@
     },
     "youtubeUrl": "https://youtu.be/8aRTMQvbODs?si=lzv4otoZ59JtOmG9",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Neoreul manna",
       "tr": "Seninle tanıştıktan sonra"
@@ -17007,6 +17881,9 @@
     },
     "youtubeUrl": "https://youtu.be/z8tol4skpK8?si=mjKvH4qPK_uEtz8z",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I need your arms around me, I need to feel your touch, hey",
       "tr": "Kollarının arasında olmaya, tenini hissetmeye ihtiyacım var, hey"
@@ -17064,6 +17941,9 @@
     },
     "youtubeUrl": "https://youtu.be/ZXAcTToLy_Y?si=TYKcI6sVRZGtJW8L",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Hello, rainy day",
       "tr": "Selam sana yağmurlu gün"
@@ -17125,6 +18005,9 @@
     },
     "youtubeUrl": "https://youtu.be/vaGf8fmtBr4?si=8Y5GktvZ2MrxppEo",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Yeah-ooh",
       "tr": "Evet-ooh"
@@ -17186,6 +18069,9 @@
     },
     "youtubeUrl": "https://youtu.be/JLqXeMabsEQ?si=8Yqny3h6faDq_YHQ",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "It’s 2:45",
       "tr": "Saat 2:45"
@@ -17245,6 +18131,10 @@
     },
     "youtubeUrl": "https://youtu.be/sL0pCS6K9bc?si=hnpZu1Qm9Uphhu-9",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "I gillo galge we gata",
       "tr": "Ben bu yoldan gideceğim, biz buna hazırız (we gotta)"
@@ -17304,6 +18194,9 @@
     },
     "youtubeUrl": "https://youtu.be/MI9ZpIKgyf0?si=qnp2rkb4Knc-X0PW",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "\"Azizam\" ne demek?",
       "tr": "Azizam"
@@ -17371,6 +18264,10 @@
     },
     "youtubeUrl": "https://youtu.be/K2vVU4aR5Lg?si=NSiiRFdLSTC1WMXf",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Oh",
       "tr": "Vay"
@@ -17434,6 +18331,9 @@
     },
     "youtubeUrl": "https://youtu.be/ZqCWXdZFc58?si=Tn2TOLDV4GbfCbXS",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "How can it be? You and me",
       "tr": "Nasıl olur da sen ve ben..."
@@ -17497,6 +18397,10 @@
     },
     "youtubeUrl": "https://youtu.be/6FEvblq6jzA?si=xjP2jgD9Bq5J0kde",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "This is a true story about all the lies",
       "tr": "Bu, tüm yalanların gerçek hikâyesi"
@@ -17560,6 +18464,9 @@
     },
     "youtubeUrl": "https://youtu.be/4bwnO0FQp1s?si=atHmDgSDkRBQLXyW",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(This love's possessin' me, but I don't mind at all)",
       "tr": "(Bu aşk beni ele geçiriyor ama hiç şikâyetim yok)"
@@ -17623,6 +18530,9 @@
     },
     "youtubeUrl": "https://youtu.be/f68Og1FPFfw?si=JdMkRGq_PCJonD71",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "When we're all born, Saturn's somewhere",
       "tr": "Hepimiz doğduğumuzda, gökyüzünde Satürn bir yerde konumlanır."
@@ -17686,6 +18596,9 @@
     },
     "youtubeUrl": "https://youtu.be/_ZSuyl3BZHY?si=T4mCtVqQh8WUTzN0",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I fall asleep cryin'",
       "tr": "Ağlaya ağlaya uyuyakalıyorum"
@@ -17749,6 +18662,10 @@
     },
     "youtubeUrl": "https://youtu.be/PlaiDnJyabE?si=CTwX-RKxAhYZuWfS",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Bye-bye",
       "tr": "Hoşça kal"
@@ -17812,6 +18729,9 @@
     },
     "youtubeUrl": "https://youtu.be/p7jATa6Soag?si=B_G9oTHSgJ393ixG",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "How can I tell if I'm in the right relationship?",
       "tr": "Doğru ilişkide miyim, bunu nasıl anlarım?"
@@ -17873,6 +18793,10 @@
     },
     "youtubeUrl": "https://youtu.be/dTQakKO5kus?si=rV8OZZs0M4nxSkUI",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
@@ -17928,6 +18852,10 @@
     },
     "youtubeUrl": "https://youtu.be/ECqGCH1TfLY?si=1-U7_kYyVL8j5vsQ",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I like my girls pretty, so fine",
       "tr": "Ben güzel kızlardan hoşlanırım, çok çekici olmalılar"
@@ -17987,6 +18915,10 @@
     },
     "youtubeUrl": "https://youtu.be/nJG5CWsne8E?si=BS8xLbGH37Reg7Yq",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "You're my cherry pie",
       "tr": "Sen benim vişneli turtamsın"
@@ -18048,6 +18980,9 @@
     },
     "youtubeUrl": "https://youtu.be/kW1e8NtdW90?si=7IcmakHPanxvsCPm",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Yeah, sweet dreams come after hours",
       "tr": "Evet, tatlı rüyalar gecenin geç saatlerinde gelir"
@@ -18109,6 +19044,10 @@
     },
     "youtubeUrl": "https://youtu.be/hYKtqanSf98?si=S5MMj26EqcBehQKO",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Sad"
+    ],
     "firstPair": {
       "en": "It's like I'm writing a letter",
       "tr": "Sanki bir mektup yazıyorum sana"
@@ -18170,6 +19109,9 @@
     },
     "youtubeUrl": "https://youtu.be/Su84kZAEepM?si=TniQ2prkMJ0I1Dv5",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Jeogin eodilkka?",
       "tr": "Nedir orası acaba?"
@@ -18231,6 +19173,10 @@
     },
     "youtubeUrl": "https://youtu.be/Ao2GsXHMD_4?si=zxPezIBJFn2sFaOB",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "(Ear Drummers)",
       "tr": "Sarıl bana, sevgine ihtiyacım var, dokun tenime"
@@ -18292,6 +19238,9 @@
     },
     "youtubeUrl": "https://youtu.be/X728L41OKGg?si=wWBhFSv04rHrC_L4",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(La-la-la-la)",
       "tr": "Böyle uyandım, sanki üzerimden bir yük kalkmış gibi hissediyorum"
@@ -18353,6 +19302,9 @@
     },
     "youtubeUrl": "https://youtu.be/8QEBbJa4Wcs?si=QwUIiDfXlVcqkgS2",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Maybe it's time to take a leap of faith (Ah-ah, ah-ah)",
       "tr": "Belki de artık cesur bir adım atmanın zamanı gelmiştir"
@@ -18418,6 +19370,10 @@
     },
     "youtubeUrl": "https://youtu.be/PICpEtPHyZI?si=zhKapGK5rXIRg1wN",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "(EarDrummers)",
       "tr": "Tek başıma, özgürce sürpriz yaptım sana"
@@ -18479,6 +19435,9 @@
     },
     "youtubeUrl": "https://youtu.be/qzE9tNcUUss?si=5b3MIY2mf6JUGXSa",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "(Ah, uh, ah, uh) Are you? Are you?",
       "tr": "(Ah, uh, ah, uh) Sen misin o? Sen misin gerçekten?"
@@ -18542,6 +19501,9 @@
     },
     "youtubeUrl": "https://youtu.be/seARsMwjbEU?si=iqO0siHDdGavFN0E",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I trip and fall in love",
       "tr": "Ayağım takılır gibi aşka düşüyorum"
@@ -18603,6 +19565,9 @@
     },
     "youtubeUrl": "https://youtu.be/n-KlygYrXV8?si=24ZBmK0SGvH6kere",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "You know for me, there's no breaking point",
       "tr": "Biliyorsun, benim için pes etmek diye bir şey yok"
@@ -18664,6 +19629,9 @@
     },
     "youtubeUrl": "https://youtu.be/JSFG-IE8n_c?si=6jkDLIffAXHGU92x",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Ha, c'mon, it's just gonna be fucking hard",
       "tr": "Ha, hadi bakalım, işiniz çok zor olacak"
@@ -18725,6 +19693,9 @@
     },
     "youtubeUrl": "https://youtu.be/K-GE4h2Fbuw?si=JTGeazadsRn23jIR",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Run like this, run, I",
       "tr": "Böyle koşuyorum işte, kaçıyorum bak"
@@ -18786,6 +19757,9 @@
     },
     "youtubeUrl": "https://youtu.be/fGl5GUIiEpw?si=eyB3TaNNMftQFm-q",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Ride me like a carousel",
       "tr": "Beni atlıkarınca gibi döndürüp duruyorsun"
@@ -18845,6 +19819,10 @@
     },
     "youtubeUrl": "https://youtu.be/B-tJtuZO5Is?si=0feaiCK1TPpGhE9W",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Myeot sinde nuneul tteuja haruga jine",
       "tr": "Gözümü açıyorum, gün bitmiş bile saat kaç olmuş"
@@ -18902,6 +19880,10 @@
     },
     "youtubeUrl": "https://youtu.be/IgIqM68qvF0?si=0phJkjICuhDniUog",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Night"
+    ],
     "firstPair": {
       "en": "M.B.T.M.I.U (My baby, take me I'm yours)",
       "tr": "Benimsin işte al götür beni"
@@ -18959,6 +19941,10 @@
     },
     "youtubeUrl": "https://youtu.be/OjoKYCQXDTg?si=qMD9ATUjG7Y1fryl",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Han chimdae du jamjari simkunghae",
       "tr": "Tek yatakta iki kişiyiz, kalbim gümbür gümbür atıyor"
@@ -19016,6 +20002,9 @@
     },
     "youtubeUrl": "https://youtu.be/I8I51kSq448?si=9EilChMC-kk3wbdl",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "When every scene's rolling in good",
       "tr": "Her şey güllük gülistanlık giderken"
@@ -19075,6 +20064,10 @@
     },
     "youtubeUrl": "https://youtu.be/o9DhvbqYzns?si=DnMgtsFdJbU8FH8k",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "G-A-P",
       "tr": "G-A-P"
@@ -19132,6 +20125,9 @@
     },
     "youtubeUrl": "https://youtu.be/r5VRqWkFpEQ?si=jTYuTWJZEmr8sjqN",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Hair down, feeling like Rapunzel",
       "tr": "Saçlarımı saldım, Rapunzel gibi hissediyorum"
@@ -19189,6 +20185,10 @@
     },
     "youtubeUrl": "https://youtu.be/pZh-Q8wfwU8?si=qowp302_K82uVecJ",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) O modda uyandım yine"
@@ -19250,6 +20250,9 @@
     },
     "youtubeUrl": "https://youtu.be/G3cjeH4iHwc?si=cEv1s-7CrmCn-qUT",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Hello, hello, tell me somethin' that I don't know",
       "tr": "Selam selam, bana bilmediğim bir şey söyle bakalım"
@@ -19309,6 +20312,9 @@
     },
     "youtubeUrl": "https://youtu.be/eEbrI8O-iBs?si=SA-jcHgr3oJxB7Su",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "All my pride goes out the window",
       "tr": "Seninleyken bütün gururum pencereden uçup gidiyor"
@@ -19370,6 +20376,10 @@
     },
     "youtubeUrl": "https://youtu.be/vEfQjvi-JSw?si=S4HOrcZz_J5xXzoB",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Flex so hard think, I am elastic",
       "tr": "Öyle havalıyım ki, lastik gibi esniyorum"
@@ -19431,6 +20441,9 @@
     },
     "youtubeUrl": "https://youtu.be/XxO_6yTIi0g?si=d0pmGCDviwDdTK0S",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "I've been thinking",
       "tr": "Düşünüp duruyorum da"
@@ -19492,6 +20505,9 @@
     },
     "youtubeUrl": "https://youtu.be/0M_AQYxXfZc?si=CNhhIFkzCZbWBN7u",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Fast cars",
       "tr": "Hızlı arabalar"
@@ -19553,6 +20569,10 @@
     },
     "youtubeUrl": "https://youtu.be/8snLyyOIq2c?si=SnaiZJg-ChuiHFp5",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy",
+      "Night"
+    ],
     "firstPair": {
       "en": "And it go la-la-la-la-la-la-la-la-la (Uh, what?)",
       "tr": "Ve böyle gider la-la-la-la-la-la-la-la (Ee, ne?)"
@@ -19612,6 +20632,10 @@
     },
     "youtubeUrl": "https://youtu.be/kC8XUKcmHQc?si=yvVGf2ELWOT4VM0u",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "It's the Hot Girl Coach, and LISA (Ah)",
       "tr": "Karşınızda Hot Girl Coach ve LISA (Ah)"
@@ -19671,6 +20695,10 @@
     },
     "youtubeUrl": "https://youtu.be/dzqmRAec9rs?si=Ldix4c7FRNx3Ff_J",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "(ATL Jacob, ATL Jacob)",
       "tr": "(Yeah) Uh, uh, uyandım yine modumdayım"
@@ -19732,6 +20760,10 @@
     },
     "youtubeUrl": "https://youtu.be/cFHElRaF19s?si=B_Wbg_D-bs99Lieu",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Got that uh-huh, that uh-huh",
       "tr": "Bende o \"tamamdır\" var, o \"işte budur\""
@@ -19793,6 +20825,9 @@
     },
     "youtubeUrl": "https://youtu.be/LFy4BL_FeuQ?si=nn-V_upLcb61pOhy",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "At the tone, please record your message",
       "tr": "Sinyal sesinden sonra mesajınızı bırakabilirsiniz"
@@ -19858,6 +20893,10 @@
     },
     "youtubeUrl": "https://youtu.be/eWAdpUyzCkI?si=DrZUOBxUNjCFa5t4",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "Pulled up in the wintertime (Yeah)",
       "tr": "Kış vakti geldim, (Evet)"
@@ -19921,6 +20960,10 @@
     },
     "youtubeUrl": "https://youtu.be/2WhhrNaxvdw?si=xrmriCmAnZLzMZhC",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Do my, do my ladies run this, ladies run this?",
       "tr": "Benim, benim kadınlarım mı yönetiyor burayı? Kadınlar mı yönetiyor?"
@@ -19978,6 +21021,10 @@
     },
     "youtubeUrl": "https://youtu.be/5XhnZDUG6Og?si=VqPsJLUKrsO6Oq5E",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Life and living and ever thanks giving (Ayy)",
       "tr": "Hayat budur, yaşa ve şükret!"
@@ -20037,6 +21084,9 @@
     },
     "youtubeUrl": "https://youtu.be/5IqNNhiaB9U?si=E_DWVJ0ZS2m9wV9l",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(I'm really sorry, but I don't like your boyfriend)",
       "tr": "(Gerçekten üzgünüm ama… sevgilini hiç sevmiyorum!)"
@@ -20096,6 +21146,9 @@
     },
     "youtubeUrl": "https://youtu.be/Gtbhuuy1j7s?si=E0cXchf8vyK_bH9S",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Healing"
+    ],
     "firstPair": {
       "en": "My-my-my mind keeps spinnin'",
       "tr": "Zihnim sürekli dönüp duruyor, durmadan çalışıyor"
@@ -20155,6 +21208,10 @@
     },
     "youtubeUrl": "https://youtu.be/lI-ocK5wWMQ?si=wzwnkJdTMYw_Ojgg",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "If I broke your heart, would you take me back?",
       "tr": "Eğer kalbini kırarsam, beni yine de affeder misin?"
@@ -20214,6 +21271,9 @@
     },
     "youtubeUrl": "https://youtu.be/1Hi0j7pz2D4?si=K46uCh7vj2JuzUJA",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Ooh-ooh-ooh, ooh, ooh, ooh",
       "tr": "Ooh-ooh-ooh, ooh, ooh, ooh"
@@ -20275,6 +21335,9 @@
     },
     "youtubeUrl": "https://youtu.be/6y70hwfVeVU?si=O2og2xB7ecHv3lHP",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Wirohajin marajwo",
       "tr": "Teselli etmeye çalışma"
@@ -20336,6 +21399,10 @@
     },
     "youtubeUrl": "https://youtu.be/2V6lvCUPT8I?si=Ql7qlkOOVolg-Yjd",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Stars in my eyes, constellations for you",
       "tr": "Gözlerimdeki yıldızlar, senin için parlayan takımyıldızları"
@@ -20397,6 +21464,9 @@
     },
     "youtubeUrl": "https://youtu.be/kbEC-AGr9n0?si=31vx-LhNX3t8_r5j",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "It hits me like an earthquake (Uh-huh)",
       "tr": "Bir deprem gibi sarsıyor beni (Uh-huh)"
@@ -20462,6 +21532,10 @@
     },
     "youtubeUrl": "https://youtu.be/38xYeot-ciM?si=zqCg3a1RhNtJXQKC",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Sad"
+    ],
     "firstPair": {
       "en": "(Ooh) If you tried just a little more times",
       "tr": "(Ooh) Eğer biraz daha deneyip, kalsaydın,"
@@ -20523,6 +21597,10 @@
     },
     "youtubeUrl": "https://youtu.be/vBynw9Isr28?si=_L0Dt073RU7bc22a",
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Da-ra, da-da-da-ra",
       "tr": "Benim duygularım biraz farklı akar"
@@ -20582,6 +21660,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Abracadabra, abracadabra",
       "tr": "Abrakadabra, abrakadabra (Ha)"
@@ -20643,6 +21724,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Wash me with your fire",
       "tr": "Beni ateşinle arındır"
@@ -20704,6 +21789,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Take me to a time when I was young",
       "tr": "Beni gençliğime götür"
@@ -20765,6 +21854,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "You're not heavy, I rocked you to sleep, I hold you for hours long",
       "tr": "Sen benim için hiç ağır değildin, uyuyana kadar salladım seni, saatlerce kollarımda tuttum"
@@ -20826,6 +21918,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "I don't want to waste your time",
       "tr": "Zamanını boşa harcamak istemem"
@@ -20887,6 +21982,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Healing"
+    ],
     "firstPair": {
       "en": "Conversations with the sky",
       "tr": "Gökyüzüyle konuşmalar"
@@ -20950,6 +22049,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "La, la, la, la, la, la",
       "tr": "Senin öfkeli hallerini sevdiğimi biliyorsun"
@@ -21011,6 +22113,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Take me back to LA",
       "tr": "Beni Los Angeles'a geri götür"
@@ -21072,6 +22178,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
@@ -21133,6 +22242,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
@@ -21194,6 +22307,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Love"
+    ],
     "firstPair": {
       "en": "Love me, love me, love me, say you do",
       "tr": "Sev beni, sev beni, sev beni, söyle sevdiğini"
@@ -21253,6 +22370,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I tried my best to not let you go",
       "tr": "Seni bırakmamak için çok çabaladım, inan"
@@ -21314,6 +22434,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Healing",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I need you",
       "tr": "Sana ihtiyacım var"
@@ -21377,6 +22501,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Don't you let me down",
       "tr": "Beni yüzüstü bırakma,"
@@ -21438,6 +22565,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "Tell me how our love grows",
       "tr": "Söylesene, aşkımız nasıl büyür ki"
@@ -21499,6 +22630,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I can hear the wind blow, even through the window",
       "tr": "Rüzgarın sesini duyuyorum, pencerenin ardından bile"
@@ -21560,6 +22694,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Dark"
+    ],
     "firstPair": {
       "en": "I fell asleep in the tub, I was there with paralysis",
       "tr": "Küvette uyuyakaldım, felç olmuş gibiydim"
@@ -21621,6 +22759,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Ah, I get it now",
       "tr": "Ah, şimdi anladım"
@@ -21682,6 +22824,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I can feel it",
       "tr": "Hissedebiliyorum…"
@@ -21745,6 +22890,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "All I have is my legacy",
       "tr": "Tek varlığım mirasım"
@@ -21808,6 +22957,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I'm over, I'm so over",
       "tr": "Bittim artık, gerçekten bittim"
@@ -21867,6 +23019,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "My father never talked a lot",
       "tr": "Babam hiçbir zaman çok konuşan bir adam olmadı"
@@ -21928,6 +23083,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Night"
+    ],
     "firstPair": {
       "en": "I tell 'em, \"Down, now\"",
       "tr": "İnsanlara \"Sakin olun şimdi\" diyorum,"
@@ -21987,6 +23146,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Party"
+    ],
     "firstPair": {
       "en": "J'ai retrouvé l'sourire quand j'ai vu l'bout du tunnel",
       "tr": "Tünelin ucunu gördüm, gülümsemem geri geldi"
@@ -22046,6 +23209,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I'm friends with the monster",
       "tr": "Yatağımın altındaki canavarla..."
@@ -22107,6 +23273,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Rainbow roses, fancy ice",
       "tr": "Gökkuşağı gülleri, zarif kristaller,"
@@ -22170,6 +23340,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "I got confessions to make",
       "tr": "İtiraf etmem gereken şeyler var"
@@ -22231,6 +23405,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh, no, here we go, watch me shake it low",
       "tr": "Yine başlıyor, izle beni, nasıl savuruyorum kendimi"
@@ -22297,6 +23474,10 @@
       "dance my ass off": "Çok yoğun, enerjik ve kendini kaybederek dans etmek anlamındaki bu argoyu \"pistin tozunu attırmak\" veya \"çatlayana kadar dans etmek\" olarak yerelleştirdik."
     },
     "difficulty_note": null,
+    "moods": [
+      "Party",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "If you wanna run away with me, I know a galaxy",
       "tr": "Eğer benimle kaçmak istersen, bir galaksi biliyorum;"
@@ -22356,6 +23537,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Il était brun, le teint basané",
       "tr": "O esmerdi, teni güneşte yanmış gibiydi,"
@@ -22415,6 +23599,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Dark"
+    ],
     "firstPair": {
       "en": "I wanna be a rap star",
       "tr": "Rap yıldızı olmak istiyorum"
@@ -22474,6 +23662,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "My life is so unfair",
       "tr": "Hayatım ne kadar adaletsiz"
@@ -22533,6 +23725,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "Tunnel vision got my eyes on you (On you)",
       "tr": "Sadece sana odaklanmışım, gözüm senden başka bir şey görmüyor (Senden başka)"
@@ -22596,6 +23792,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "You fill up my mind 24/7",
       "tr": "Aklım her an, her saniye seninle dolu"
@@ -22657,6 +23856,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Bounce back forever",
       "tr": "Sonsuza dek geri döneceğiz"
@@ -22716,6 +23918,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Je t'aime, je te hais, je t'aime, je te hais",
       "tr": "Seni seviyorum, senden nefret ediyorum, seni seviyorum, senden nefret ediyorum"
@@ -22775,6 +23981,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Santa, tell me if you're really there",
       "tr": "Noel Baba, gerçekten orada mısın, söyle bana"
@@ -22836,6 +24045,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Friends break up, friends get married",
       "tr": "Bazı arkadaşlar ayrılır, bazıları evlenir,"
@@ -22897,6 +24110,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Sometimes, we fly, sometimes, we fall",
       "tr": "Bazen göklere çıkarız, bazen dibe vururuz"
@@ -22958,6 +24175,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
     "firstPair": {
       "en": "Crashing waves, but I'll never fall",
       "tr": "Dalgalar vurur ama ben asla yıkılmam"
@@ -23021,6 +24242,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Hey, boy, I'ma get ya",
       "tr": "Hey çocuk, seni tavlayacağım,"
@@ -23057,6 +24282,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Stupid words, lot of bad jokes",
       "tr": "Aptalca sözler ve bir sürü kötü şaka…"
@@ -23118,6 +24346,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Night"
+    ],
     "firstPair": {
       "en": "Got out of my bed today",
       "tr": "Bugün yatağımdan kalktım"
@@ -23179,6 +24411,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "And it crept up on us, in the way it does",
       "tr": "Her şey sinsice üzerimize geldi, aniden"
@@ -23240,6 +24476,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "We're at a crossroad",
       "tr": "Bir yol ayrımındayız"
@@ -23301,6 +24540,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Say what you want to, babe",
       "tr": "Ne söylersen söyle, sevgilim"
@@ -23362,6 +24604,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Healing",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Stay a little longer",
       "tr": "Biraz daha kal"
@@ -23423,6 +24669,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "If crying was fun, I'd be having the time of my life",
       "tr": "Ağlamak eğlenceli olsaydı, hayatımın en güzel zamanını geçiriyordum."
@@ -23484,6 +24733,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Standing in the corner of a crowded place",
       "tr": "Kalabalık bir partide bir köşeye çekilmişken"
@@ -23545,6 +24797,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Call this what we are, toxic from the start",
       "tr": "Adını koyalım artık: Başından beri zehirliydik biz"
@@ -23606,6 +24861,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "How did all fall apart?",
       "tr": "Her şey nasıl da paramparça oldu?"
@@ -23667,6 +24926,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Eh-eh, eh-eh, eh-eh",
       "tr": "Bir sorun gördüm, farkındayım"
@@ -23726,6 +24988,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
@@ -23787,6 +25052,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Lie with me",
       "tr": "Gel, şöminenin başında"
@@ -23848,6 +25116,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Dark"
+    ],
     "firstPair": {
       "en": "God knows",
       "tr": "Tanrı şahit"
@@ -23909,6 +25181,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "You say it's changed",
       "tr": "Evet, her şeyin değiştiğini söylüyorsun"
@@ -23970,6 +25246,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Who am I? The revolution",
       "tr": "Ben kimim? Bir devrimim ben"
@@ -24031,6 +25311,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Tell me that I'm special, tell me I look pretty",
       "tr": "Bana özel olduğumu, güzel göründüğümü söyle"
@@ -24090,6 +25373,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Tell ell 'em bring it on nun majuchimyeon be gone",
       "tr": "Hodri meydan, gelsin bakalım, gözlerime bakanlar kaçacak"
@@ -24149,6 +25435,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "They will never know the way I feel, won't give up",
       "tr": "Duygularımı asla anlamayacaklar, ama ben pes etmeyeceğim"
@@ -24208,6 +25497,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I want your two hands",
       "tr": "Senin iki elini istiyorum"
@@ -24269,6 +25562,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I bought diamonds at my dentist (Dentist)",
       "tr": "Diş hekimime gidip dişlerime elmas taktırdım (Dişçime)"
@@ -24328,6 +25624,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "The way we move, uh, skin onto skin",
       "tr": "Tenimizin birbirine değdiği o anlar,"
@@ -24387,6 +25687,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Happy"
+    ],
     "firstPair": {
       "en": "Huin nuni naerideon nal",
       "tr": "Seni öylesine çok özledim ki"
@@ -24448,6 +25752,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Suthan gyejeoldeureul neomeo",
       "tr": "Mevsimler geçti bir bir önümden"
@@ -24507,6 +25815,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Swibji anha ne naengjeonggwa",
       "tr": "Senin duyarsızlığınla benim alevli tutkum arasındaki..."
@@ -24566,6 +25877,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Stay sumgyeoljocha dahji anhdeon naui miro stage",
       "tr": "Nefes alamadığım bir labirentteyim"
@@ -24625,6 +25939,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "There's a way",
       "tr": "Bir yol var"
@@ -24684,6 +26001,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Get right",
       "tr": "Kendine çeki düzen ver"
@@ -24743,6 +26063,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Eongdeongi ppang ppang ppang",
       "tr": "Kalçam dolgun dolgun dolgun,"
@@ -24802,6 +26126,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "People think I'm big but I'm small",
       "tr": "İnsanlar beni büyük sanıyor ama aslında küçüğüm"
@@ -24861,6 +26188,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Here's to the ones that we got",
       "tr": "Kadeh kaldıralım dostlar, yanımızda olanlara"
@@ -24920,6 +26250,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Girl, where you at?",
       "tr": "Neredesin sevgilim?"
@@ -24979,6 +26313,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "I could go and read your mind",
       "tr": "Zihnini okuyabilirim"
@@ -25040,6 +26377,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "First we rock and that's how we roll",
       "tr": "İlk başta sahnede fırtına gibi estik ve bu bizim nasıl yol aldığımızı gösteriyor"
@@ -25103,6 +26444,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Maybe we should switch careers",
       "tr": "Belki de kariyer değiştirmeliyiz"
@@ -25164,6 +26508,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Love"
+    ],
     "firstPair": {
       "en": "Er kennt mein'n Nam'n nicht",
       "tr": "Adımı bilmiyor ama"
@@ -25223,6 +26571,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "I'ma back up every word, yeah",
       "tr": "Söylediğim her sözün arkasındayım"
@@ -25282,6 +26634,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Party"
+    ],
     "firstPair": {
       "en": "When I dress, I don't think so much",
       "tr": "Giyinirken fazla düşünmem"
@@ -25341,6 +26697,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Hear it in your tone",
       "tr": "Ses tonundan anlayabiliyorum"
@@ -25400,6 +26759,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "When G.D's in the house (Übermensch)",
       "tr": "GD sahneye çıktığında (Üstün insan burada)"
@@ -25463,6 +26825,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Love"
+    ],
     "firstPair": {
       "en": "Bota na boca, bota na cara, bota onde quiser",
       "tr": "Ağzıma koy, yüzüme koy, nereye istersen koy"
@@ -25522,6 +26888,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Huh",
       "tr": "Click-clack, topuk sesleri"
@@ -25583,6 +26953,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "watashi wa suta-",
       "tr": "Ben bir yıldızım"
@@ -25644,6 +27018,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "irijeori bappeuge san saramdeul",
       "tr": "(Oradan oraya koşturup duran insanlar"
@@ -25703,6 +27080,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Oh-ah-ah-ah, ah-ah-ah-ah, ah",
       "tr": "Dökecek gözyaşı kalmadı artık"
@@ -25762,6 +27142,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "One look give ‘em Whiplash",
       "tr": "Tek bir bakışımla hepsinin kafası bana döner"
@@ -25821,6 +27205,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Goin' out tonight, changes into something red",
       "tr": "Bu gece dışarı çıkıyor, üstüne kırmızı bir şeyler giymiş"
@@ -25878,6 +27265,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "chaeyeongiya jotaneun raendeom geim",
       "tr": "Chaeyoung, rastgele oyunları gerçekten seviyor"
@@ -25941,6 +27332,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I, never before in my life time",
       "tr": "Ömrümde ilk kez böyle hissediyorum"
@@ -26000,6 +27394,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Do your thang",
       "tr": "Kendi tarzını yansıt"
@@ -26061,6 +27459,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Shinema no naka no twiggy no",
       "tr": "Filmlerdeki Twiggy'nin..."
@@ -26120,6 +27521,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy",
+      "Party"
+    ],
     "firstPair": {
       "en": "chamchi",
       "tr": "Ton balığı"
@@ -26181,6 +27586,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Touch, touch, touch, touch, touch",
       "tr": "Dokun, dokun, dokun, dokun, dokun"
@@ -26242,6 +27651,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation"
+    ],
     "firstPair": {
       "en": "I-i-i-i-it's a knife when you know they're waitin' for you to choke",
       "tr": "B-b-b-bu bir hançer, biliyorsun ki onlar senin batacağın anı bekliyorlar"
@@ -26305,6 +27717,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I don't care what people say",
       "tr": "Millet ne derse desin, umrumda değil"
@@ -26364,6 +27779,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I'm tired of being what you want me to be",
       "tr": "Senin istediğin kişi olmaktan çok yoruldum artık"
@@ -26425,6 +27843,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Pretty, pretty, pretty, pretty",
       "tr": "Güzellik, güzellik, güzellik, güzellik"
@@ -26484,6 +27905,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Mon amour",
       "tr": "Aşkım"
@@ -26545,6 +27969,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I'm trying my best",
       "tr": "Elimden geleni yaptım,"
@@ -26606,6 +28033,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Ooh, la-la-la",
       "tr": "Sesli söylemeni istiyorum"
@@ -26667,6 +28097,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "She knows",
       "tr": "O biliyor"
@@ -26726,6 +28160,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Hate to see you go",
       "tr": "Gitmene dayanamıyorum"
@@ -26785,6 +28222,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Ladies and gentlemen, theys and thems",
       "tr": "Hanımlar ve beyler, her cinsten dostlar"
@@ -26848,6 +28288,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "You know it's all what you wanted",
       "tr": "Hep senin istediğin oldu, biliyorsun."
@@ -26909,6 +28353,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Everybody knows my name now",
       "tr": "Artık herkes adımı biliyor"
@@ -26968,6 +28415,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah, you got that yummy-yum",
       "tr": "Evet, sende o albenili tat var"
@@ -27027,6 +28477,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "Written in these walls are the stories that I can't explain",
       "tr": "Bu duvarlarda, anlatamadığım nice hikaye saklı"
@@ -27086,6 +28540,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Oh, can you stay awake?",
       "tr": "Bir saat daha uyumasan olmaz mı?"
@@ -27145,6 +28602,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Tell me somethin' I need to know",
       "tr": "Hadi anlat bana, bilmem gereken ne varsa"
@@ -27206,6 +28666,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Not tryna be indie",
       "tr": "Öyle marjinal takılmaya çalışmıyorum"
@@ -27263,6 +28727,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I love it when you call me señorita",
       "tr": "Bana 'güzelim' demen hoşuma gidiyor"
@@ -27322,6 +28789,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Aren't you somethin' to admire?",
       "tr": "Hayran olunacak bir şey değil misin sen?"
@@ -27383,6 +28854,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Yeah I make it chewy like kkeom jilgeong",
       "tr": "Evet, yapıştırıyorum sakız gibi cakkıdı cakkıdı(1)"
@@ -27444,6 +28918,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "amado nal pyeonhage boneun geot gata",
       "tr": "Galiba beni hafife alıyor"
@@ -27503,6 +28980,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "It's fine, it's cool",
       "tr": "Sorun değil, takılma"
@@ -27569,6 +29049,9 @@
       "Çıplak yumruklarını kaldır": "‘Maenjumeok’ silahsız, çıplak yumruk demek. Dize, elinde hiçbir ayrıcalık veya araç olmasa bile mücadeleye bütün gücünle katıl çağrısı yapıyor.",
       "sansürlük bir hayat": "Kaynakta küfür doğrudan söylenmek yerine ‘ppii’ adlı sansür bip sesi kullanılıyor. Çeviri küfür uydurmak yerine hayatın dağınıklığını ve sansürlük hâlini koruyor."
     },
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Bultaoreune",
       "tr": "Buralar yanıyor!"
@@ -27628,6 +29111,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "See you so excited (Mm)",
       "tr": "Görüyorum ki oldukça heyecanlısın"
@@ -27691,6 +29177,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "Lock me up and throw away the key",
       "tr": "Beni kilitle ve anahtarı at"
@@ -27752,6 +29242,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Party"
+    ],
     "firstPair": {
       "en": "Talk to me",
       "tr": "Konuş benimle"
@@ -27809,6 +29303,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "I got a dirty mind, I got filthy ways",
       "tr": "Aklım kirli (edepsiz), yollarım da öyle"
@@ -27872,6 +29370,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "Do-Do-Do-Do-Do, Doechii and Katy up in the spot",
       "tr": "Do-Do-Do-Do-Do, Doechii ve Katy sahnede"
@@ -27931,6 +29433,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Traffic dies while we are racing home",
       "tr": "Biz eve doğru hızla yol alırken, trafik yavaşlıyor"
@@ -27988,6 +29494,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Night"
+    ],
     "firstPair": {
       "en": "Sleazin' and teasin', I'm sittin' on him",
       "tr": "Kıvırtıp duruyorum, kışkırtıyorum onu, gidip kucağına oturdum"
@@ -28049,6 +29559,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "I'm always ready for a war again (A war again)",
       "tr": "Tekrardan bir savaşa her daim hazırım (Tekrardan bir savaşa)"
@@ -28112,6 +29625,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "One, two, three, four (One, two, three, four)",
       "tr": "Bir, iki, üç, dört (Bir, iki, üç, dört)"
@@ -28173,6 +29689,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Run, run away deo neujgi jeone gihoereul julge",
       "tr": "Kaç, kaç git, iş işten geçmeden son şansını veriyorum sana"
@@ -28232,6 +29751,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "Tell me the taste ain’t good to ya",
       "tr": "Hadi bu tadın hoşuna gitmediğini söylesene"
@@ -28291,6 +29814,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "iyu eopseo nan saenggin daero chic",
       "tr": "Sebebi yok, olduğum gibi şıkım"
@@ -28350,6 +29877,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Yeah",
       "tr": "Evet"
@@ -28409,6 +29939,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Sad"
+    ],
     "firstPair": {
       "en": "When you get older, plainer, saner",
       "tr": "Yaşlanıp, hayatın sıradanlaşmaya ve mantıklı düşünmeye başladığın an"
@@ -28474,6 +30008,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Woah",
       "tr": "Vay be!"
@@ -28535,6 +30073,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Same back roads",
       "tr": "Hep aynı arka sokaklar"
@@ -28596,6 +30137,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "I'm on the run with you, my sweet love",
       "tr": "Seninle kaçıyoruz sevgilim"
@@ -28657,6 +30201,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Love"
+    ],
     "firstPair": {
       "en": "Michigo sipeunde",
       "tr": "Çılgınca bir şeyler yapmak istiyorum da"
@@ -28718,6 +30266,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Happy"
+    ],
     "firstPair": {
       "en": "Really, I'm honestly just sad about my shoes",
       "tr": "Valla, cidden sadece ayakkabılarıma üzülüyorum"
@@ -28779,6 +30331,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Molla ije gyehoek ttawin yeong",
       "tr": "Plan mlan hikaye artık, boş ver gitsin"
@@ -28840,6 +30395,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Sad"
+    ],
     "firstPair": {
       "en": "uri gangajiga neomu bogo sipeo... Siro?",
       "tr": "Ah... Köpeğimi çok özledim... -Siro'yu mu?"
@@ -28899,6 +30458,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Sad"
+    ],
     "firstPair": {
       "en": "Woke up to the TV this morning",
       "tr": "Bu sabah gözümü televizyonla açtım"
@@ -28960,6 +30523,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "geumse neoui dwiro beonjyeooneun Sunset",
       "tr": "Arkanda pat diye beliren gün batımı"
@@ -29021,6 +30588,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "neowa nuni majuchin sungane",
       "tr": "Gözlerimiz buluştuğu o an"
@@ -29082,6 +30652,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Maengsehaetdeon neowa na",
       "tr": "Seninle ettiğimiz o yeminler var ya"
@@ -29143,6 +30717,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Suit up ttwieodeulji",
       "tr": "Hadi giyinip hazırlanıp, dalalım işin içine!"
@@ -29204,6 +30782,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "alram eopi nun tteun nal",
       "tr": "Bugün alarmı kurmadım, kendi kendine açıldı gözlerim"
@@ -29265,6 +30846,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "urineun jigeum unmyeong gateun",
       "tr": "Sanki kader gibi bir sonun..."
@@ -29326,6 +30910,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party",
+      "Love"
+    ],
     "firstPair": {
       "en": "When my eyes are on you",
       "tr": "Gözlerim sana kilitlendiğinde"
@@ -29385,6 +30973,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "You make me wanna",
       "tr": "Bir şeyler yapma isteği uyandırıyorsun"
@@ -29446,6 +31038,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Things fall apart",
       "tr": "Her şey darmadağın oldu"
@@ -29507,6 +31103,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Wenn du jetzt gehst, nie wieder kämst",
       "tr": "Şimdi kalkıp gitsen ve bir daha da geri dönmesen"
@@ -29568,6 +31167,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Act like an angel and dress like crazy",
       "tr": "Melek gibi davran, çılgınca giyin"
@@ -29629,6 +31231,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Broken traffic lights",
       "tr": "Bozuk trafik lambaları"
@@ -29690,6 +31296,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I was a liar, I gave in to the fire",
       "tr": "Yalancıydım, ateşe teslim oldum"
@@ -29747,6 +31357,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "I've been hearin' symphonies",
       "tr": "Bir süredir senfoniler duyuyorum"
@@ -29806,6 +31420,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Hey, hey",
       "tr": "Hey, hey"
@@ -29867,6 +31484,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "You, you love it how I move you",
       "tr": "Sen, seni harekete geçirişimi seviyorsun"
@@ -29926,6 +31547,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Jal naganeun aidol raeppeo geu imyeone",
       "tr": "Başarılı ve popüler bir idol rapçinin ardında"
@@ -29987,6 +31611,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I know I have good judgment, I know I have good taste",
       "tr": "İyi bir muhakeme yeteneğim olduğunu biliyorum, iyi bir zevkim olduğunu biliyorum"
@@ -30046,6 +31673,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Yeah, hit the gas, ignite it, she sniffs gasoline (She sniffs gasoline)",
       "tr": "Hadi bakalım, bas gaza, ateşle gitsin, kız benzin kokluyor (Kız benzin kokluyor)"
@@ -30107,6 +31737,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "In the morning when you wake up",
       "tr": "Sabah gözlerini açtığında"
@@ -30168,6 +31802,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "(I won't give a fuck about you)",
       "tr": "(Seni takmayacağım bile)"
@@ -30229,6 +31866,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Oh, I leave quite an impression",
       "tr": "Oh, öyle bir iz bırakmışım ki ardımda"
@@ -30290,6 +31930,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "Sak pasé!",
       "tr": "Naber?"
@@ -30349,6 +31992,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "“ireum, ireum!” sorry bae",
       "tr": "\"İsmin, ismin!\" özür dilerim bebeğim"
@@ -30412,6 +32059,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Niga mueoseul hadeun I will kill for",
       "tr": "Ne yaparsan yap, ben öldürürüm uğruna"
@@ -30473,6 +32123,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad"
+    ],
     "firstPair": {
       "en": "I can read your mind",
       "tr": "Aklını okuyabilirim"
@@ -30530,6 +32183,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Yeah, Yeah",
       "tr": "Hadi, hadi"
@@ -30591,6 +32247,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Yeah yeah yeah, drop.",
       "tr": "Evet, evet, evet, şarkı başlasın"
@@ -30652,6 +32311,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark"
+    ],
     "firstPair": {
       "en": "Damn hipbusim, aidol raeppeo? Cut that bulssi",
       "tr": "Lanet olası hip-hop ha, idol rapçi mi? Kes şu zırvaları!"
@@ -30713,6 +32375,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "(Wock)",
       "tr": "Hop"
@@ -30772,6 +32437,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "There's a whisper in the night",
       "tr": "Gecenin koynunda bir fısıltı dolanıyor"
@@ -30831,6 +32499,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Ooh, ah",
       "tr": "Ooh, ah"
@@ -30890,6 +32561,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "It ain't my fault you keep turnin' me on",
       "tr": "Beni sürekli tahrik etmen benim suçum değil"
@@ -30951,6 +32625,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Night"
+    ],
     "firstPair": {
       "en": "I said I'm geeked and I’m fired up (Fired, fire)",
       "tr": "Dedim ki kafam bi' milyon, içim alev alev yanıyor (Yanıyor, ateş)"
@@ -31008,6 +32686,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Happy"
+    ],
     "firstPair": {
       "en": "I, I just woke up from a dream",
       "tr": "Az önce bir rüyadan uyandım"
@@ -31065,6 +32746,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Tell 'em to shoot",
       "tr": "Hadi söyle sıksınlar kurşunları!"
@@ -31124,6 +32809,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Stuntin' on me, you get exposed (Woo)",
       "tr": "Bana hava atmaya kalk, bak bakalım nasıl rezil oluyorsun"
@@ -31181,6 +32870,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely",
+      "Love"
+    ],
     "firstPair": {
       "en": "I want you to stay",
       "tr": "Yanımda kalmanı istiyorum"
@@ -31240,6 +32933,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Motivation"
+    ],
     "firstPair": {
       "en": "Here I go",
       "tr": "Hadi bakalım başlıyorum!"
@@ -31299,6 +32996,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "La, la, la, la, la",
       "tr": "Kahvaltıda şampanya içiyoruz, geceyi iyi geceler öpücüğü ile sonlandırıyoruz"
@@ -31356,6 +33056,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love",
+      "Dark"
+    ],
     "firstPair": {
       "en": "Take your eyes off of me so I can leave",
       "tr": "Gözlerini benden çek ki gidebileyim"
@@ -31411,6 +33115,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Night"
+    ],
     "firstPair": {
       "en": "I took a page out of your favorite book",
       "tr": "En sevdiğin kitaptan bir sayfa kopardım"
@@ -31468,6 +33176,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "Yeah, yeah",
       "tr": "Evet, evet"
@@ -31525,6 +33236,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Dark",
+      "Dreamy"
+    ],
     "firstPair": {
       "en": "Gold teeth sittin' on the dash, she a rockstar",
       "tr": "Göstergede altın dişler var, ah bu kız tam bir rock yıldızı"
@@ -31584,6 +33299,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Hoffentlich",
       "tr": "Umarım"
@@ -31641,6 +33359,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Motivation",
+      "Lonely"
+    ],
     "firstPair": {
       "en": "Boom, boom, chk, chk, boom",
       "tr": "Boom, boom, chk, chk, boom"
@@ -31698,6 +33420,10 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Sad",
+      "Love"
+    ],
     "firstPair": {
       "en": "Opened up my journal to a page",
       "tr": "Günlüğümden bir sayfa açtım"
@@ -31755,6 +33481,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Love"
+    ],
     "firstPair": {
       "en": "I'll love you for, I'll love you for life",
       "tr": "Seni bir ömür, bir ömür boyu seveceğim"
@@ -31816,6 +33545,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Last week, I found a message in a bottle",
       "tr": "Geçen hafta şişede bir mesaj buldum"
@@ -31873,6 +33605,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Party"
+    ],
     "firstPair": {
       "en": "Hey, Billie, you there?",
       "tr": "Hey Billie, orada mısın?"
@@ -31930,6 +33665,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "Now he's thinkin' 'bout me every night, oh",
       "tr": "Şimdi her gece beni düşünüyor, oh"
@@ -31991,6 +33729,9 @@
     },
     "youtubeUrl": null,
     "youtubeEmbedDisabled": false,
+    "moods": [
+      "Night"
+    ],
     "firstPair": {
       "en": "We never met, but she's all I see at night",
       "tr": "Hiç tanışmadık ama geceleri gördüğüm tek kişi o"

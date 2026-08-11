@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { moodsForPost } from "../src/lib/moodClassifier.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
@@ -134,6 +135,7 @@ const index = posts.map((post) => ({
   youtubeEmbedDisabled: Boolean(post.youtubeEmbedDisabled),
   annotations: post.annotations,
   difficulty_note: post.difficulty_note,
+  moods: moodsForPost(post),
   firstPair: firstPair(post),
   heroPair: heroPair(post),
 }));

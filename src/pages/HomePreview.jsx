@@ -453,13 +453,22 @@ function ExploreGrid({ title, groups, type }) {
     <section className="acl-section">
       <SectionHead title={title} to={to} />
       <div className="acl-chip-grid">
-        {groups.slice(0, 10).map((group) => (
-          <Link to={pathFor(group)} className="acl-chip-card" key={group.slug}>
-            {group.cover && <img src={group.cover} alt="" loading="lazy" />}
-            <span>{group.name}</span>
-            <small>{group.count ?? group.items.length} çeviri</small>
-          </Link>
-        ))}
+        {groups.slice(0, 10).map((group) => {
+          const covers = type === "mood"
+            ? (group.covers || group.items?.map((item) => item.cover) || []).filter(Boolean).slice(0, 4)
+            : [];
+          return (
+            <Link to={pathFor(group)} className="acl-chip-card" key={group.slug}>
+              {covers.length > 0 ? (
+                <div className="acl-chip-covers" aria-hidden>
+                  {covers.map((cover, index) => <img key={`${cover}-${index}`} src={cover} alt="" loading="lazy" />)}
+                </div>
+              ) : group.cover ? <img src={group.cover} alt="" loading="lazy" /> : null}
+              <span>{group.name}</span>
+              <small>{group.count ?? group.items.length} çeviri</small>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

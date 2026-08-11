@@ -2,6 +2,7 @@ import posts from "../data/postIndex.json";
 import artistsRaw from "../data/artists.json";
 import { popGundemiArticles } from "../data/popGundemi";
 import { linesFor } from "./searchLines";
+import { MOOD_NAMES, moodsForPost, primaryMoodForPost } from "./moodClassifier";
 
 const total = posts.length;
 
@@ -319,20 +320,11 @@ export function genreFor(post) {
 }
 
 export function moodFor(post) {
-  const text = [
-    post.song,
-    post.artist,
-    post.excerpt,
-    post.slug,
-    ...trLines(post).slice(0, 8),
-  ].join(" ").toLowerCase();
-  if (/heart|break|messy|cry|sad|lonely|alone|özlem|ağla|kırık|yara|pişman/.test(text)) return "Sad";
-  if (/love|aşk|sevg|kiss|heart|first/.test(text)) return "Love";
-  if (/night|gece|moon|dark|shadow|black|midnight/.test(text)) return "Night";
-  if (/heal|iyileş|light|hope|dream|wish|peace/.test(text)) return "Healing";
-  if (/fire|villain|bad|monster|war|kill|die|danger/.test(text)) return "Dark";
-  if (/dance|party|summer|hot|club|rush|energy/.test(text)) return "Party";
-  return ["Dreamy", "Lonely", "Motivation"][stableHash(post.slug) % 3];
+  return primaryMoodForPost(post);
+}
+
+export function moodsFor(post) {
+  return moodsForPost(post);
 }
 
 // Real, verifiable metadata only — no invented view counts or scores.
@@ -465,11 +457,12 @@ export const collections = collectionDefs.map(([name, test]) => {
   };
 }).filter((c) => c.items.length);
 
-export const moodGroups = ["Love", "Sad", "Happy", "Healing", "Dark", "Motivation", "Party", "Lonely", "Dreamy", "Night"]
+export const moodGroups = MOOD_NAMES
   .map((name) => {
-    const allItems = enriched.filter((p) => moodFor(p) === name);
+    const allItems = enriched.filter((p) => moodsFor(p).includes(name));
     const items = allItems.slice(0, 8);
-    return { name, slug: albumSlugFor(name), count: allItems.length, items, cover: items[0]?.cover };
+    const covers = [...new Set(allItems.map((post) => post.cover).filter(Boolean))].slice(0, 4);
+    return { name, slug: albumSlugFor(name), count: allItems.length, items, cover: covers[0], covers };
   })
   .filter((g) => g.items.length);
 
@@ -739,11 +732,11 @@ export function getCollection(slug) {
 }
 
 export function getMood(slug) {
-  const name = ["Love", "Sad", "Happy", "Healing", "Dark", "Motivation", "Party", "Lonely", "Dreamy", "Night"].find(
+  const name = MOOD_NAMES.find(
     (m) => albumSlugFor(m) === slug,
   );
   if (!name) return null;
-  const items = enriched.filter((p) => moodFor(p) === name);
+  const items = enriched.filter((p) => moodsFor(p).includes(name));
   return decorate(name, slug, items, moodDescriptions[name] || `${name} hissi taşıyan çeviriler.`);
 }
 

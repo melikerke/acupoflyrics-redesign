@@ -111,9 +111,14 @@ export function CollectionCard({ collection }) {
 
 // MOOD → mood page. Bleeding image chip.
 export function MoodCard({ mood }) {
+  const covers = (mood.covers || mood.items?.map((post) => post.cover) || []).filter(Boolean).slice(0, 4);
   return (
     <Link to={moodPath(mood)} className="acl-chip-card">
-      {mood.cover && <img src={mood.cover} alt="" loading="lazy" />}
+      {covers.length > 0 ? (
+        <div className="acl-chip-covers" aria-hidden>
+          {covers.map((cover, index) => <img key={`${cover}-${index}`} src={cover} alt="" loading="lazy" />)}
+        </div>
+      ) : mood.cover ? <img src={mood.cover} alt="" loading="lazy" /> : null}
       <span>{mood.name}</span>
       <small>{mood.count ?? mood.items?.length} çeviri</small>
     </Link>
