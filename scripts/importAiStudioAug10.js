@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { promisify } from "node:util";
-import { searchTrackBundle } from "../server/spotify.js";
+import { fetchTrackBundle, searchTrackBundle } from "../server/spotify.js";
 import { slugify, upsertRecordData, writePublishData } from "../server/ingest.js";
 
 const execFileAsync = promisify(execFile);
@@ -11,6 +11,14 @@ const INPUT = "/tmp/acupoflyrics-ai-studio-aug10.json";
 const REPORT = "/tmp/acupoflyrics-ai-studio-aug10-report.json";
 const DEMAND_INPUT = "/tmp/acupoflyrics-ai-studio-demand.json";
 const DEMAND_REPORT = "/tmp/acupoflyrics-ai-studio-demand-report.json";
+const AUG12_INPUT = path.join(process.cwd(), "scripts/aiStudioAug12.raw.json");
+const AUG12_REPORT = "/tmp/acupoflyrics-ai-studio-aug12-report.json";
+const THAT_WAY_INPUT = path.join(process.cwd(), "scripts/aiStudioThatWay.raw.json");
+const THAT_WAY_REPORT = "/tmp/acupoflyrics-ai-studio-that-way-report.json";
+const AUG13_INPUT = path.join(process.cwd(), "scripts/aiStudioAug13.raw.json");
+const AUG13_REPORT = "/tmp/acupoflyrics-ai-studio-aug13-report.json";
+const BOUNCY_INPUT = path.join(process.cwd(), "scripts/aiStudioBouncy.raw.json");
+const BOUNCY_REPORT = "/tmp/acupoflyrics-ai-studio-bouncy-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -137,6 +145,162 @@ const TRACKS = [
     title: "BOOMPALA",
     youtubeUrl: "https://www.youtube.com/watch?v=Gnn4GRSzRXI",
   },
+  {
+    batch: "aug12",
+    sourceKey: "camera",
+    label: "Charli xcx — Camera",
+    artist: "Charli xcx",
+    title: "Camera",
+    youtubeUrl: "https://www.youtube.com/watch?v=eO3zsYsDnbI",
+  },
+  {
+    batch: "aug12",
+    sourceKey: "handle",
+    label: "Ravyn Lenae — Handle",
+    artist: "Ravyn Lenae",
+    title: "Handle",
+    youtubeUrl: "https://www.youtube.com/watch?v=e2MS5f3Mnn8",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 7, 8, 9, 3, 10, 11, 12],
+  },
+  {
+    batch: "aug12",
+    sourceKey: "girlInNewYork",
+    label: "ROLE MODEL — Girl In New York",
+    artist: "ROLE MODEL",
+    title: "Girl In New York",
+    spotifyTitle: "girl in new york",
+    youtubeUrl: "https://www.youtube.com/watch?v=eJJxYMfOJ1M",
+  },
+  {
+    batch: "aug12",
+    sourceKey: "whereIsMyHusband",
+    label: "RAYE — WHERE IS MY HUSBAND!",
+    artist: "RAYE",
+    title: "WHERE IS MY HUSBAND!",
+    youtubeUrl: "https://www.youtube.com/watch?v=rK5TyISxZ_M",
+  },
+  {
+    batch: "aug12",
+    sourceKey: "ever2Late",
+    label: "KiiiKiii — Ever2Late!",
+    artist: "KiiiKiii",
+    title: "Ever2Late!",
+    youtubeUrl: "https://www.youtube.com/watch?v=G6uhnkDPca8",
+  },
+  {
+    batch: "aug12",
+    sourceKey: "pinata",
+    label: "NCT 127 — Piñata",
+    artist: "NCT 127",
+    title: "Piñata",
+    slug: "nct-127-pinata-turkce-ceviri",
+    legacySlugs: ["nct-127-pin-ata-turkce-ceviri"],
+    youtubeUrl: "https://www.youtube.com/watch?v=s8BOZFalBI8",
+    noSpotifyTrack: true,
+    spotifyFallbackTrackUrl: "https://open.spotify.com/track/2nNBdv2vcJZuWOZ06nNF62",
+    releaseDate: "2026-08-12",
+    cover: "https://i.ytimg.com/vi/s8BOZFalBI8/maxresdefault.jpg",
+  },
+  {
+    batch: "aug12",
+    sourceKey: "visionWings",
+    label: "WayV — Vision Wings",
+    artist: "WayV",
+    title: "Vision Wings",
+    spotifyTitle: "鸢 (Vision Wings)",
+    forceRomanize: true,
+    youtubeUrl: "https://www.youtube.com/watch?v=bfQ0eLJNWiw",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, null, 7, 9],
+    translationOverrides: {
+      9: [
+        "Uçmaya devam;",
+        "Bir uçurtma biçimindeki hayal gücüyle;",
+        "Saldırı anını bekliyorum, sakin kalacağım;",
+        "Gece gündüz güçlü kalacağım. (Bir lotus gibi süzülerek)",
+      ],
+    },
+  },
+  {
+    batch: "aug12",
+    sourceKey: "popOffPopOff",
+    label: "KiiiKiii — Pop Off Pop Off",
+    artist: "KiiiKiii",
+    title: "Pop Off Pop Off",
+    youtubeUrl: "https://www.youtube.com/watch?v=UsbRoaH6y-Q",
+    translationMap: [0, 1, 2, 3, 4, 5, 2, 6, 7, 8],
+  },
+  {
+    batch: "thatway",
+    sourceKey: "thatWay",
+    label: "KATSEYE — That Way",
+    artist: "KATSEYE",
+    title: "That Way",
+    translationMap: [0, 1, 2, 0, 4, 2, 0, 7],
+    noSpotifyTrack: true,
+    spotifyFallbackTrackUrl: "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
+    albumName: "WILD",
+    albumType: "EP",
+    albumUrl: "https://music.apple.com/us/album/wild-ep/1891779764",
+    appleMusicUrl: "https://music.apple.com/us/song/that-way/1891779779",
+    releaseDate: "2026-08-14",
+    cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
+    skipYoutube: true,
+    releaseStatus: "14 Ağustos 2026'da yayımlanacak",
+    performanceSource: "Klub KATSEYE · Spotify canlı performansı",
+  },
+  {
+    batch: "aug13",
+    sourceKey: "trainingSeason",
+    label: "Dua Lipa — Training Season",
+    artist: "Dua Lipa",
+    title: "Training Season",
+    youtubeUrl: "https://www.youtube.com/watch?v=ZjBZ8MUnB0E",
+  },
+  {
+    batch: "aug13",
+    sourceKey: "aintInLa",
+    label: "ADÉLA — Ain't In LA",
+    artist: "ADÉLA",
+    title: "Ain't In LA",
+    slug: "adela-aint-in-la-turkce-ceviri",
+    legacySlugs: ["ade-la-ain-t-in-la-turkce-ceviri"],
+    youtubeUrl: "https://www.youtube.com/watch?v=0ijm2Xui5N8",
+  },
+  {
+    batch: "aug13",
+    sourceKey: "myBodyIsntReady",
+    label: "sombr — My Body Isn't Ready",
+    artist: "sombr",
+    title: "My Body Isn't Ready",
+    slug: "sombr-my-body-isnt-ready-turkce-ceviri",
+    legacySlugs: ["sombr-my-body-isn-t-ready-turkce-ceviri"],
+    youtubeUrl: "https://www.youtube.com/watch?v=ofywN3NgGqY",
+  },
+  {
+    batch: "aug13",
+    sourceKey: "tenReasonsToDateMe",
+    label: "AxMxP — 10 Reasons to Date Me",
+    artist: "AxMxP",
+    title: "10 Reasons to Date Me",
+    skipYoutube: true,
+  },
+  {
+    batch: "aug13",
+    sourceKey: "heyHi",
+    label: "KiiiKiii — Hey Hi",
+    artist: "KiiiKiii",
+    title: "Hey Hi",
+    skipYoutube: true,
+  },
+  {
+    batch: "bouncy",
+    sourceKey: "bouncy",
+    label: "ATEEZ — BOUNCY (K-HOT CHILLI PEPPERS)",
+    artist: "ATEEZ",
+    title: "BOUNCY (K-HOT CHILLI PEPPERS)",
+    slug: "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
+    youtubeUrl: "https://www.youtube.com/watch?v=U0G5OA6ZH5w",
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -156,7 +320,8 @@ function loadEnv() {
 }
 
 function stripTurnChrome(value) {
-  const lines = String(value || "").replace(/\r/g, "").split("\n");
+  const source = Array.isArray(value) ? value.join("\n") : String(value || "");
+  const lines = source.replace(/\r/g, "").split("\n");
   while (["edit", "more_vert", ""].includes((lines[0] || "").trim())) lines.shift();
   if (/^(?:User|Model)\s+\d{1,2}:\d{2}\s*[AP]M$/i.test((lines[0] || "").replace(/[\u202f\u00a0]/g, " ").trim())) {
     lines.shift();
@@ -229,6 +394,57 @@ function romanizeHangul(value) {
   return output;
 }
 
+const PINYIN_PHRASES = new Map([
+  ["我爱你", "Wo ai ni"],
+  ["以鸢为形的想象", "Yi yuan wei xing de xiangxiang"],
+  ["等待出击", "Dengdai chuji"],
+  ["埋伏等飞行", "Maifu deng feixing"],
+  ["等飞行", "Deng feixing"],
+  ["仁者无畏", "Renzhe wuwei"],
+  ["运分毫不差", "Yun fenhao bu cha"],
+  ["圆开到最大", "Yuan kai dao zui da"],
+  ["羽翼为我张开", "Yuyi wei wo zhangkai"],
+  ["划破等待", "Huapo dengdai"],
+  ["大雨连接地与天", "Dayu lianjie di yu tian"],
+  ["黑与白无极之间", "Hei yu bai wuji zhijian"],
+  ["风生水起化成鸢", "Fengshengshuiqi hua cheng yuan"],
+  ["鸢飞划破天际", "Yuan fei huapo tianji"],
+  ["辟地开天", "Pidi kaitian"],
+  ["目光俯瞰世界", "Muguang fukan shijie"],
+  ["定数", "Dingshu"],
+  ["胜负", "Shengfu"],
+  ["自有来路", "Ziyou lailu"],
+  ["万境更迭加速", "Wanjing gengdie jiasu"],
+  ["看不见的距离", "Kan bu jian de juli"],
+  ["手掌握着觉醒", "Shouzhang wozhe juexing"],
+  ["万千张的脸孔", "Wanqian zhang de liankong"],
+  ["看向天的疆界", "Kan xiang tian de jiangjie"],
+  ["俯瞰世界", "Fukan shijie"],
+  ["鸢", "Yuan"],
+]);
+
+function romanizeCjk(value) {
+  let output = value;
+  for (const [source, romanized] of PINYIN_PHRASES) output = output.replaceAll(source, romanized);
+  if (/\p{Script=Han}/u.test(output)) {
+    throw new Error(`Romanize edilmemiş Çince dize kaldı: ${output}`);
+  }
+  return output;
+}
+
+const PRESERVED_ADLIBS = /^(?:ah+|ayy+|eh+|ha+|hey+|huh+|nah|ooh+|oh+|uh+|woo(?:-hoo)?|woah+|yeah+|what|meow)(?:[,.!?'\s-]+(?:ah+|ayy+|eh+|ha+|hey+|huh+|nah|ooh+|oh+|uh+|woo(?:-hoo)?|woah+|yeah+|what|meow))*[.!?]?$/i;
+
+function cleanTranslationLine(value) {
+  return String(value || "")
+    .replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "")
+    .replace(/\s*\(([^)]*[A-Za-z][^)]*)\)/g, (whole, content) => (
+      PRESERVED_ADLIBS.test(content.trim()) ? whole : ""
+    ))
+    .replace(/\s+([,.;!?])/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function actualMatchedTerm(candidate, lyrics) {
   const clean = String(candidate || "")
     .replace(/^[¹²³⁴⁵⁶⁷⁸⁹⁰\d.\-*\s]+/, "")
@@ -237,8 +453,9 @@ function actualMatchedTerm(candidate, lyrics) {
     .replace(/\s*\([^)]*\)\s*$/, "")
     .trim();
   if (clean.length < 3 || clean.length > 70) return null;
-  const index = lyrics.toLocaleLowerCase("en").indexOf(clean.toLocaleLowerCase("en"));
-  return index >= 0 ? lyrics.slice(index, index + clean.length) : null;
+  const escaped = clean.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = lyrics.match(new RegExp(escaped, "iu"));
+  return match?.[0] || null;
 }
 
 function inlineAnnotations(translationBody, lyricalText) {
@@ -255,6 +472,7 @@ function inlineAnnotations(translationBody, lyricalText) {
     for (const match of heading.matchAll(/\(([^)]{2,70})\)/g)) candidates.push(match[1]);
     for (const candidate of [...candidates]) {
       if (/[\uac00-\ud7a3]/.test(candidate)) candidates.push(romanizeHangul(candidate));
+      if (/\p{Script=Han}/u.test(candidate)) candidates.push(romanizeCjk(candidate));
     }
     const matched = candidates.map((candidate) => actualMatchedTerm(candidate, lyricalText)).find(Boolean);
     if (matched && !notes.has(matched)) notes.set(matched, note);
@@ -295,25 +513,36 @@ function parseTrack(source, track) {
   if (
     !originalStanzas.length
     || translationMap.length !== originalStanzas.length
-    || translationMap.some((index) => !translatedStanzas[index])
+    || translationMap.some((index, stanzaIndex) => index == null && !track.translationOverrides?.[stanzaIndex])
+    || translationMap.some((index, stanzaIndex) => index != null && !translatedStanzas[index] && !track.translationOverrides?.[stanzaIndex])
   ) {
     throw new Error(`${track.label}: kıta sayıları eşleşmiyor (${originalStanzas.length}/${translatedStanzas.length}).`);
   }
 
   const hasHangul = /[\uac00-\ud7a3]/.test(originalBody);
+  const hasHan = /\p{Script=Han}/u.test(originalBody);
   const stanzas = originalStanzas.map((stanza, index) => ({
     section: stanza.section,
-    original: stanza.lines.map((line) => (hasHangul ? romanizeHangul(line) : line)),
-    translation: translatedStanzas[translationMap[index]].lines,
+    original: stanza.lines.map((line) => {
+      const corrected = line.replace("차오르은 feel", "차오르는 feel");
+      const hangulRomanized = hasHangul ? romanizeHangul(corrected) : corrected;
+      return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
+    }),
+    translation: (track.translationOverrides?.[index] || translatedStanzas[translationMap[index]].lines)
+      .map(cleanTranslationLine)
+      .filter(Boolean),
     notes: [],
   }));
   const lyricalText = stanzas.flatMap((stanza) => [...stanza.original, ...stanza.translation]).join("\n");
+  const annotationCandidates = ["aug12", "aug13", "thatway"].includes(track.batch)
+    ? inlineAnnotations(translatedBody, lyricalText)
+    : [...inlineAnnotations(translatedBody, lyricalText), ...analysisAnnotations(source.model, lyricalText)];
   const notes = new Map();
-  for (const note of [...inlineAnnotations(translatedBody, lyricalText), ...analysisAnnotations(source.model, lyricalText)]) {
+  for (const note of annotationCandidates) {
     if (!notes.has(note.word)) notes.set(note.word, note.text);
   }
   stanzas[0].notes = [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
-  return { ...track, hasHangul, stanzas };
+  return { ...track, hasHangul, hasHan, stanzas };
 }
 
 function normalize(value) {
@@ -396,7 +625,7 @@ async function findYoutube(track, spotifyBundle) {
 
 function descriptionFor(track, bundle) {
   const artist = track.artistDisplay || track.artist;
-  const romanized = track.hasHangul ? ", romanize okunuşu" : "";
+  const romanized = track.hasHangul || track.hasHan ? ", romanize okunuşu" : "";
   const album = bundle.album?.name && bundle.album.name !== track.title ? ` ${bundle.album.name} albümündeki parçanın` : " Parçanın";
   const detailed = `${artist} – ${track.title} şarkı sözleri${romanized} ve özenli Türkçe çevirisi.${album} anlamını ve açıklamalarını keşfet.`;
   if (detailed.length <= 160) return detailed;
@@ -408,12 +637,18 @@ async function main() {
   const write = process.argv.includes("--write");
   const parseOnly = process.argv.includes("--parse-only");
   const demandBatch = process.argv.includes("--demand");
-  const inputPath = demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = demandBatch ? DEMAND_REPORT : REPORT;
-  const selectedTracks = TRACKS.filter((track) => demandBatch ? track.batch === "demand" : !track.batch);
+  const aug12Batch = process.argv.includes("--aug12");
+  const thatWayBatch = process.argv.includes("--that-way");
+  const aug13Batch = process.argv.includes("--aug13");
+  const bouncyBatch = process.argv.includes("--bouncy");
+  const inputPath = bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const selectedTracks = TRACKS.filter((track) => (
+    bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+  ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
-  const byLabel = new Map(extracted.items.map((item) => [item.label, item]));
-  const parsed = selectedTracks.map((track) => parseTrack(byLabel.get(track.label), track));
+  const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));
+  const parsed = selectedTracks.map((track) => parseTrack(byLabel.get(track.sourceKey || track.label), track));
 
   console.table(parsed.map((track) => ({
     artist: track.artistDisplay || track.artist,
@@ -421,7 +656,7 @@ async function main() {
     stanzas: track.stanzas.length,
     lines: track.stanzas.reduce((sum, stanza) => sum + stanza.original.length, 0),
     notes: track.stanzas[0].notes.length,
-    romanized: track.hasHangul,
+    romanized: track.hasHangul || track.hasHan,
   })));
   if (parseOnly) return;
 
@@ -431,7 +666,45 @@ async function main() {
   };
   const enriched = [];
   for (const track of parsed) {
-    const spotify = await searchTrackBundle({ artist: track.artist, title: track.title }, credentials);
+    if (track.noSpotifyTrack) {
+      const fallback = await fetchTrackBundle(track.spotifyFallbackTrackUrl, credentials);
+      const spotifyBundle = {
+        track: {
+          id: null,
+          name: track.title,
+          url: null,
+          isrc: null,
+          durationMs: null,
+          duration: null,
+          explicit: false,
+          popularity: null,
+          trackNumber: 1,
+          previewUrl: null,
+        },
+        artist: fallback.artist,
+        artists: [fallback.artist].map(({ id, name, url }) => ({ id, name, url })),
+        album: {
+          id: null,
+          name: track.albumName || track.title,
+          url: track.albumUrl || null,
+          cover: track.cover,
+          artists: [{ id: fallback.artist.id, name: fallback.artist.name, url: fallback.artist.url }],
+          releaseDate: track.releaseDate,
+          releaseDatePrecision: "day",
+          albumType: track.albumType || "Single",
+          rawAlbumType: "single",
+          label: null,
+          copyrights: [],
+          totalTracks: track.albumType === "EP" ? 6 : 1,
+          tracks: [],
+        },
+        fetchedAt: new Date().toISOString(),
+      };
+      console.log(`Spotify — ${track.label}: resmi parça henüz yok; sanatçı bilgisi kullanıldı.`);
+      enriched.push({ ...track, spotify: spotifyBundle, spotifyScore: null });
+      continue;
+    }
+    const spotify = await searchTrackBundle({ artist: track.artist, title: track.spotifyTitle || track.title }, credentials);
     if (!spotify.matched) {
       const candidates = spotify.candidates?.map((candidate) => `${candidate.artist} — ${candidate.name}`).join(" | ");
       throw new Error(`${track.label}: Spotify eşleşmedi. ${candidates || "Aday yok."}`);
@@ -445,6 +718,11 @@ async function main() {
     while (youtubeCursor < enriched.length) {
       const index = youtubeCursor++;
       const track = enriched[index];
+      if (track.skipYoutube) {
+        track.youtube = { selected: null, candidates: [] };
+        console.log(`YouTube — ${track.label}: resmi video henüz yok; eklenmedi.`);
+        continue;
+      }
       track.youtube = await findYoutube(track, track.spotify);
       console.log(`YouTube ✓ ${track.label}: ${track.youtube.selected.title} [${track.youtube.selected.score}]`);
     }
@@ -462,7 +740,7 @@ async function main() {
     },
     youtube: track.youtube,
     stanzaCount: track.stanzas.length,
-    romanized: track.hasHangul,
+    romanized: track.hasHangul || track.hasHan,
   }));
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
   console.log(`Eşleşme raporu: ${reportPath}`);
@@ -473,14 +751,22 @@ async function main() {
 
   let posts = JSON.parse(await readFile(path.join(process.cwd(), "src/data/posts.json"), "utf8"));
   let artists = JSON.parse(await readFile(path.join(process.cwd(), "src/data/artists.json"), "utf8"));
+  for (const track of enriched) {
+    if (!track.slug || !track.legacySlugs?.length) continue;
+    const legacyPost = posts.find((item) => track.legacySlugs.includes(item.slug));
+    if (!legacyPost) continue;
+    legacyPost.slug = track.slug;
+    if (legacyPost.seo) legacyPost.seo.canonical = `${SITE_URL}/${track.slug}/`;
+  }
   const results = [];
   for (const track of enriched) {
     const record = {
       song: track.title,
+      slug: track.slug,
       artist: track.artistDisplay || track.artist,
       spotify: track.spotify,
       stanzas: track.stanzas,
-      youtubeUrl: track.youtube.selected.url,
+      youtubeUrl: track.youtube.selected?.url || null,
       savedAt: new Date().toISOString(),
       source: "ai-studio-spotify-youtube",
     };
@@ -489,6 +775,9 @@ async function main() {
     artists = updated.artists;
     const post = posts.find((item) => item.slug === updated.result.slug);
     post.source = "ai-studio-spotify-youtube";
+    if (track.releaseStatus) post.releaseStatus = track.releaseStatus;
+    if (track.performanceSource) post.performanceSource = track.performanceSource;
+    if (track.appleMusicUrl) post.appleMusicUrl = track.appleMusicUrl;
     post.seo = {
       title: post.title,
       description: descriptionFor(track, track.spotify),

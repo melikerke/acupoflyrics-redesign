@@ -242,7 +242,7 @@
   {
     "slug": "ateez",
     "name": "ATEEZ",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
   },
   {
@@ -254,13 +254,13 @@
   {
     "slug": "charli-xcx",
     "name": "Charli xcx",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6fa76436a2bba83b9f1d6fd1"
   },
   {
     "slug": "dua-lipa",
     "name": "Dua Lipa",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d"
   },
   {
@@ -284,7 +284,7 @@
   {
     "slug": "katseye",
     "name": "KATSEYE",
-    "count": 5,
+    "count": 6,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6"
   },
   {
@@ -452,7 +452,7 @@
   {
     "slug": "raye",
     "name": "RAYE",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9"
   },
   {
@@ -1556,7 +1556,7 @@
   {
     "slug": "sombr",
     "name": "sombr",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb78edaa6468cae153565c2c97"
   },
   {
@@ -1978,5 +1978,47 @@
     "name": "RESCENE",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36"
+  },
+  {
+    "slug": "ravyn-lenae",
+    "name": "Ravyn Lenae",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe881d4df24e1b39bd7154778"
+  },
+  {
+    "slug": "role-model",
+    "name": "ROLE MODEL",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe9486c9ef6d86b4f39805c8"
+  },
+  {
+    "slug": "kiiikiii",
+    "name": "KiiiKiii",
+    "count": 3,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb46a2477f053c63ff093867"
+  },
+  {
+    "slug": "nct-127",
+    "name": "NCT 127",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc904dcc7399f1fd90107392"
+  },
+  {
+    "slug": "wayv",
+    "name": "WayV",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe7dda7543af010558a6b4b7"
+  },
+  {
+    "slug": "ade-la",
+    "name": "ADÉLA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c27abd675ecdf05325e9615"
+  },
+  {
+    "slug": "axmxp",
+    "name": "AxMxP",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0b51afcc1e232a12ae8a3c63"
   }
 ]

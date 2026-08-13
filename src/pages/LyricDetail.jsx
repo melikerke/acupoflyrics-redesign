@@ -1354,6 +1354,7 @@ export default function LyricDetail() {
 
               <div className="detail-hero-meta">
                 <span>◉ Türkçe Çeviri</span>
+                {post.releaseStatus && <span>◷ {post.releaseStatus}</span>}
                 {hasAlbum && (
                   <Link to={albumPath(albumSlug)} className="detail-hero-album-link">
                     ◇ {albumName}
@@ -1377,6 +1378,16 @@ export default function LyricDetail() {
                     Spotify'da dinle
                   </a>
                 ) : null}
+                {!post.spotify?.track?.url && !post.spotify?.trackUrl && post.appleMusicUrl ? (
+                  <a
+                    className="detail-ghost-action"
+                    href={post.appleMusicUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Apple Music'te ön ekle
+                  </a>
+                ) : null}
                 <button type="button" className="detail-ghost-action" onClick={sharePost}>
                   ↗ {shared ? "Kopyalandı" : "Paylaş"}
                 </button>
@@ -1394,6 +1405,8 @@ export default function LyricDetail() {
           <h2 className="font-serif">Şarkı Bilgisi</h2>
           <MetaRow label="Sanatçı" value={<ArtistLinks artists={artistLinks} />} />
           <MetaRow label="Albüm" value={hasAlbum ? albumName : "Tekli"} />
+          <MetaRow label="Durum" value={post.releaseStatus || ""} />
+          <MetaRow label="İlk performans" value={post.performanceSource || ""} />
           <MetaRow label="Yayın" value={year ? String(year) : ""} />
           <MetaRow label="Tür" value={genres.join(", ")} />
           <MetaRow label="Besteci" value={songwriters} />
