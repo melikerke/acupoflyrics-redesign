@@ -1,5 +1,110 @@
 export const popGundemiArticles = [
   {
+    slug: "14-agustos-2026-muzik-gundemi",
+    title: "14 Ağustos müzik gündemi: WILD ve BARAJA BENDITA yayımlandı, üç liste yenilendi",
+    shortTitle: "14 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-14",
+    updatedAt: "2026-08-14T10:12:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
+    imageAlt: "KATSEYE WILD EP kapak görseli",
+    imageCredit: "KATSEYE · HYBE x Geffen Records",
+    accent: "#bd7590",
+    excerpt:
+      "KATSEYE'nin beş şarkılık WILD EP'si ve Becky G'nin 17 şarkılık BARAJA BENDITA albümü yayımlandı. Billboard Hot 100, Apple Music Global ve Spotify Global listeleri de 14 Ağustos verileriyle yenilendi.",
+    dek:
+      "Günün doğrulanmış yayınları, farklı ölçüm dönemlerine sahip liste kaynakları ve acupoflyrics arşivinde çeviri bekleyen yeni ya da yeniden yükselen şarkılar tek dosyada.",
+    pullQuote:
+      "14 Ağustos güncellemesinde Billboard Hot 100 ve Apple Music Global'da Choosin' Texas, Spotify Global'da ise Dai Dai ilk sırada.",
+    relatedTranslations: [
+      "katseye-pinky-up-turkce-ceviri",
+      "katseye-animal-turkce-ceviri",
+      "katseye-that-way-turkce-ceviri",
+      "ella-langley-choosin-texas-turkce-ceviri",
+      "shakira-dai-dai-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "14 Ağustos 2026 güncellemesi",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Yeni yayın", text: "KATSEYE — WILD ve Becky G — BARAJA BENDITA bugün dijital platformlarda yayımlandı." },
+        { label: "Güncellenen listeler", text: "Billboard Hot 100, Apple Music Top 100: Global ve Spotify Global Top 50 başarıyla yenilendi." },
+        { label: "Korunan veriler", text: "Billboard 200 ve Circle Global kaynakları zaman aşımına uğradığı için son doğrulanmış sıralamalar silinmeden korundu." },
+      ],
+    },
+    summary: [
+      "KATSEYE'nin WILD EP'si PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way'den oluşan beş şarkılık dijital sürümüyle yayımlandı.",
+      "Becky G'nin BARAJA BENDITA albümü Apple Music kayıtlarına göre 17 şarkı ve 47 dakikadan oluşuyor.",
+      "Troye Sivan'ın sosyal medya duyurusunu aktaran LOS40'a göre sanatçının She's The Best adlı dördüncü albümü 9 Ekim'de yayımlanacak; aynı adlı ilk şarkı 14 Ağustos takviminde duyuruldu.",
+      "Billboard Hot 100 ve Apple Music Top 100: Global'ın güncel ilk sırasında Ella Langley — Choosin' Texas bulunuyor.",
+      "Spotify Global Top 50'nin güncel bir numarası Shakira ve Burna Boy ortaklığı Dai Dai. Billboard 200 ile Circle Global'da bu sabah yeni veri doğrulanamadığı için önceki sıralama korundu.",
+    ],
+    sections: [
+      {
+        heading: "Bugün başarıyla yenilenen listeler",
+        body: [
+          "14 Ağustos sabahındaki otomatik kontrolde Billboard Hot 100, Apple Music Top 100: Global ve Spotify Global Top 50 kaynakları başarıyla yanıt verdi. Hot 100 ile Apple Music Global'da Choosin' Texas, Spotify Global'da Dai Dai ilk sırada yer aldı.",
+          "Billboard 200 ve Circle Global istekleri zaman aşımına uğradı. Kaynak yanıtı doğrulanamadığı için bu iki listenin 13 Ağustos'ta alınan son geçerli verisi korunarak boş ya da kısmi bir sıralamanın yayımlanması engellendi.",
+        ],
+      },
+      {
+        heading: "Kaynaklar aynı ölçüm dönemini kullanmıyor",
+        body: [
+          "Billboard Hot 100 ve Billboard 200 haftalık liste sayılarıdır. Circle'ın kullanılan Global sayfası günlük veri sunarken Apple Music ile Spotify kartları daha sık yenilenen platform sıralamalarının kontrol anındaki görüntüsünü taşır.",
+          "Bu nedenle aynı gün siteye alınan beş liste birbirinin birebir karşılığı değildir. Her liste kendi kaynak bağlantısı ve ölçüm düzeniyle sunulur; kaynağı doğrulanamayan liste bir önceki geçerli veriyle kalır.",
+        ],
+      },
+      {
+        heading: "KATSEYE — WILD artık yayında",
+        body: [
+          "Weverse'ın daha önce duyurduğu 14 Ağustos takvimine uygun olarak WILD yayımlandı. Dijital sürümde PINKY UP, Animal, Hootie Frutti, Bel Air ve daha önce Spotify etkinliğinde seslendirilen That Way bulunuyor.",
+          "PINKY UP ve Animal çevirileri arşivde. That Way'in mevcut sayfası canlı performans sözlerine dayanıyor; stüdyo sürümündeki resmi metinle karşılaştırılması gerekiyor. Hootie Frutti ile Bel Air için henüz Türkçe çeviri bulunmuyor.",
+        ],
+      },
+      {
+        heading: "Becky G — BARAJA BENDITA yayımlandı",
+        body: [
+          "Apple Music'in 14 Ağustos tarihli yayın kaydına göre BARAJA BENDITA, 17 şarkı ve 47 dakikalık bir albüm. Albümde daha önce yayımlanan PATRONA, MARATHON ve EPA'nın yanı sıra CNTRL, CHULA, OASIS, GLITCH ve diğer yeni parçalar yer alıyor.",
+          "Albüm Pop Latino etiketiyle listeleniyor ve RCA Records kaydıyla yayımlandı. acupoflyrics arşivinde albüm parçaları henüz bulunmadığı için çeviri önceliği, platform ve liste hareketleri doğrulandıktan sonra başlık parçaları üzerinden belirlenecek.",
+        ],
+      },
+      {
+        heading: "Troye Sivan — She's The Best duyurusu",
+        body: [
+          "Troye Sivan'ın sosyal medya paylaşımını aktaran LOS40 haberine göre sanatçının dördüncü stüdyo albümü She's The Best, 9 Ekim'de yayımlanacak. Haberde albümün 12 şarkıdan oluşacağı ve aynı adlı ilk şarkının 14 Ağustos'ta geleceği belirtiliyor.",
+          "Albümün tam parça listesi henüz açıklanmadı. Bu nedenle albümdeki gizli şarkı adları için sayfa oluşturulmuyor; She's The Best şarkısı ise resmi sözleri doğrulandığında çeviri sırasına alınabilir.",
+        ],
+      },
+      {
+        heading: "Çeviri arşivinde sıradaki kontroller",
+        body: [
+          "Yeni yayınlar içinde KATSEYE — Hootie Frutti ve Bel Air doğrudan çeviri bekliyor. That Way için yeni bir sayfa açılmayacak; mevcut performans çevirisi resmi stüdyo sözleriyle karşılaştırılacak.",
+          "She's The Best için de arşivde sayfa bulunmuyor. Güncel listelerde Olivia Dean — So Easy (To Fall In Love) ve Ella Langley — Be Her eksik; Spotify Global'da yeniden yükselen Tame Impala — Loser ise aynı adlı Jin ve YENA şarkısından ayrı bir kayıt olarak ele alınmalı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Hot 100 · Apple Music · Spotify", status: "Güncellendi", detail: "14 Ağustos sabahında üç kaynak başarıyla doğrulandı ve ilk 10 sıralamaları yenilendi." },
+      { name: "Billboard 200 · Circle Global", status: "Önceki veri korundu", detail: "Kaynaklar zaman aşımına uğradığı için 13 Ağustos'taki son geçerli sıralamalar silinmedi." },
+      { name: "KATSEYE — WILD", status: "Yayında", detail: "Beş şarkılık dijital EP ve yayın tarihi resmi platform kayıtlarıyla doğrulandı." },
+      { name: "BARAJA BENDITA", status: "Yayında", detail: "Becky G'nin 17 şarkılık albümü Apple Music'te 14 Ağustos tarihli yayın olarak listeleniyor." },
+    ],
+    sources: [
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+      { name: "Weverse — WILD resmi yayın duyurusu", url: "https://weverse.io/katseye/notice/34966" },
+      { name: "Apple Music — WILD", url: "https://music.apple.com/us/album/wild-ep/1891779764" },
+      { name: "Apple Music — BARAJA BENDITA", url: "https://music.apple.com/us/album/baraja-bendita/6781039813" },
+      { name: "LOS40 — Troye Sivan, She's The Best albüm ve single duyurusu", url: "https://los40.com/2026/08/13/troye-sivan-arranca-una-nueva-era-con-shes-the-best-fecha-portada-y-primer-single/" },
+    ],
+    storyShare:
+      "14 Ağustos müzik gündemi: KATSEYE — WILD ve Becky G — BARAJA BENDITA yayımlandı; üç global liste yenilendi, iki kaynakta son geçerli veri korundu.",
+  },
+  {
     slug: "13-agustos-2026-muzik-gundemi",
     title: "13 Ağustos müzik gündemi: Beş listede yeni zirveler, WILD için son 24 saat",
     shortTitle: "13 Ağustos — günün müzik gündemi",
@@ -265,11 +370,11 @@ export const popGundemiArticles = [
   },
   {
     slug: "katseye-wild-ep-geri-sayim",
-    title: "KATSEYE — WILD 14 Ağustos'ta yayımlanıyor: Parça listesi ve son durum",
-    shortTitle: "KATSEYE — WILD yayın dosyası",
-    kicker: "Geri sayım",
+    title: "KATSEYE — WILD yayımlandı: Beş şarkılık EP'nin tam parça listesi",
+    shortTitle: "KATSEYE — WILD şimdi yayında",
+    kicker: "Yeni müzik",
     date: "2026-08-10",
-    updatedAt: "2026-08-13T13:10:00+03:00",
+    updatedAt: "2026-08-14T10:12:00+03:00",
     readTime: "5 dk",
     image: "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
     imageAlt: "KATSEYE PINKY UP ve WILD dönemi görseli",
@@ -278,11 +383,11 @@ export const popGundemiArticles = [
     artistSlug: "katseye",
     artistName: "KATSEYE",
     excerpt:
-      "KATSEYE'nin üçüncü EP'si WILD 14 Ağustos'ta yayımlanacak. PINKY UP ve Animal dinlenebilir durumda; That Way'in Spotify etkinliğinde seslendirilen sürümünün çevirisi de arşivde.",
+      "KATSEYE'nin üçüncü EP'si WILD yayımlandı. Beş şarkılık dijital sürümde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way yer alıyor.",
     dek:
-      "Beş parçalık dijital listenin yayın takvimi, WILD HEARTS gösterimleri ve çeviri arşivinin 13 Ağustos itibarıyla doğrulanan durumu bu dosyada güncelleniyor.",
+      "Resmi parça sırası, platform kayıtları, WILD HEARTS gösterimleri ve çeviri arşivinin 14 Ağustos itibarıyla doğrulanan durumu bu dosyada güncelleniyor.",
     pullQuote:
-      "WILD'ın dijital sürümünde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way yer alıyor; resmi yayın tarihi 14 Ağustos 2026.",
+      "WILD'ın dijital sürümünde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way yer alıyor; beş şarkı artık dinlenebilir durumda.",
     relatedTranslations: [
       "katseye-pinky-up-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
@@ -291,40 +396,40 @@ export const popGundemiArticles = [
       "katseye-gnarly-turkce-ceviri",
     ],
     livePanel: {
-      label: "13 Ağustos 2026 itibarıyla",
-      title: "WILD geri sayımı",
+      label: "14 Ağustos 2026 itibarıyla",
+      title: "WILD yayın kartı",
       items: [
-        { label: "Yayın", text: "WILD, 14 Ağustos Cuma günü HYBE x Geffen Records etiketiyle yayımlanacak." },
-        { label: "Şimdi dinlenebilir", text: "PINKY UP ve Animal dijital EP'nin yayımlanmış ilk iki parçası." },
-        { label: "Arşiv", text: "PINKY UP ve Animal çevirileriyle birlikte That Way'in Spotify etkinliği performans sözlerine dayanan çevirisi hazır." },
+        { label: "Yayın", text: "WILD, 14 Ağustos'ta HYBE x Geffen Records etiketiyle yayımlandı." },
+        { label: "Dijital sürüm", text: "EP, PINKY UP'tan That Way'e uzanan beş ses kaydından oluşuyor." },
+        { label: "Arşiv", text: "PINKY UP ve Animal çevirileri hazır; That Way'in performans metni stüdyo sözleriyle karşılaştırılacak." },
       ],
     },
     summary: [
-      "KATSEYE'nin üçüncü EP'si WILD, 14 Ağustos 2026'da HYBE x Geffen Records etiketiyle yayımlanacak.",
+      "KATSEYE'nin üçüncü EP'si WILD, 14 Ağustos 2026'da HYBE x Geffen Records etiketiyle yayımlandı.",
       "Dijital parça listesinde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way bulunuyor; Unloveu fiziksel baskıya özel bonus parça olarak duyuruldu.",
-      "PINKY UP 9 Nisan'da, Animal ise 24 Temmuz'da yayımlanarak albümün iki farklı pop yüzünü gösterdi.",
-      "PINKY UP ve Animal çevirileri arşivde; That Way'in performans sürümü çevirisi stüdyo kaydı yayımlandığında resmi sözlerle yeniden karşılaştırılacak.",
+      "Apple Music kaydında PINKY UP ve Animal videolarıyla birlikte altı öğe görünse de dijital EP'nin ses parçası sayısı beş.",
+      "PINKY UP ve Animal çevirileri arşivde; That Way'in performans sürümü çevirisi resmi stüdyo sözleriyle yeniden karşılaştırılacak.",
     ],
     sections: [
       {
-        heading: "14 Ağustos'ta tam olarak ne geliyor?",
+        heading: "14 Ağustos'ta yayımlanan sürümde ne var?",
         body: [
-          "WILD, KATSEYE'nin üçüncü EP'si ve beş parçalık dijital bir proje. PINKY UP ile Animal'ın yanına Hootie Frutti, Bel Air ve That Way eklenecek. Unloveu ise Target fiziksel baskısında bulunan altıncı, özel bonus parça olarak duyuruldu.",
-          "Yayın tarihi 14 Ağustos. Spotify ve Apple Music'teki ön kayıt sayfaları şu anda PINKY UP ile Animal'ı dinlemeye açıyor; diğer parçaların süreleri, yapım bilgileri ve resmi videoları yayınla birlikte kesinleşecek. Bu dosyayı o gün tahminlerle değil, platformlardaki son bilgilerle güncelleyeceğiz.",
+          "WILD, KATSEYE'nin üçüncü EP'si ve beş parçalık dijital bir proje. PINKY UP ile Animal'ı sırasıyla Hootie Frutti, Bel Air ve That Way izliyor. Unloveu ise Target fiziksel baskısında bulunan özel bonus parça olarak duyuruldu.",
+          "Spotify ve Apple Music sayfaları 14 Ağustos itibarıyla albüm sürümünü erişime açtı. Apple Music sayfasındaki altı öğelik toplam, beş ses kaydına ek olarak listelenen müzik videosunu da kapsıyor.",
         ],
       },
       {
         heading: "PINKY UP dönemin kapısını nasıl açtı?",
         body: [
           "PINKY UP, Nisan ayında Coachella döneminin hemen öncesinde yayımlandı ve KATSEYE'nin daha oyunbaz, gösterişli tarafını öne çıkardı. Çay fincanından motosiklete uzanan video dünyası, başlıktaki küçük parmak hareketini nezaket sembolünden özgüven işaretine çevirdi.",
-          "Şarkı sözlerinde de aynı oyun var. 'Bahse girerim mevzu şöyle dönüyordur' diye açılan anlatı, grubun çevresinde üretilen dedikodulara içeriden gülümseyerek cevap veriyor. Türkçe çeviride bu alaycı tonla pop-rap ritmini birlikte korumaya çalıştık.",
+          "Şarkı sözlerinde de aynı oyun var. 'Bahse girerim mevzu şöyle dönüyordur' diye açılan anlatı, grubun çevresinde üretilen dedikodulara içeriden gülümseyerek cevap veriyor. Türkçe çeviride alaycı ton ve pop-rap ritmi birlikte korunuyor.",
         ],
       },
       {
         heading: "Animal aynı albümün neden daha sert yüzü?",
         body: [
           "Animal, PINKY UP'ın renkli taşkınlığını daha kontrollü ve karanlık bir alana çekiyor. Video ve şarkı, bakış altında olma fikrini performansın parçasına dönüştürüyor; böylece WILD adının yalnızca 'çılgın' değil, izlenemeyen ve ehlileştirilemeyen bir tarafı da ortaya çıkıyor.",
-          "İki ön şarkı arasında belirgin bir ses farkı olması EP için iyi işaret. KATSEYE tek bir Gnarly devamı hazırlamak yerine aynı dönemin içinde farklı pop kişilikleri kuruyor. Kalan üç parçanın bu iki uçtan hangisine yaklaşacağını 14 Ağustos'ta göreceğiz.",
+          "PINKY UP ile Animal arasındaki ses farkı, EP'nin tek bir düzenleme kalıbına bağlı olmadığını gösteriyor. Hootie Frutti, Bel Air ve That Way de aynı dönem içinde farklı tempo ve vokal yerleşimlerine ayrılıyor.",
         ],
       },
       {
@@ -335,28 +440,28 @@ export const popGundemiArticles = [
         ],
       },
       {
-        heading: "14 Ağustos'ta bu dosyaya ne eklenecek?",
+        heading: "Çeviri arşivinde sıradaki kontrol",
         body: [
-          "Hootie Frutti, Bel Air ve That Way yayımlandığında albüm sırası, süreler, yazar ve yapımcı bilgileri doğrulanacak. Resmi sözler geldikten sonra Latin alfabesi dışındaki bölümler ayrıca romanize edilecek.",
-          "PINKY UP ve Animal çevirileri okunabilir durumda. That Way'in performans metni de arşivde; stüdyo sürümüyle fark bulunursa aynı çeviri sayfası güncellenecek. Gameboy ve Gnarly ise WILD parçası olmadığı için ayrı dönem bağlantıları olarak tutuluyor.",
+          "PINKY UP ve Animal çevirileri okunabilir durumda. Hootie Frutti ile Bel Air henüz arşivde bulunmuyor ve çeviri metinleri sağlandığında ayrı şarkı sayfalarıyla eklenecek.",
+          "That Way'in arşivdeki metni Spotify etkinliği performansına dayanıyor. Resmi stüdyo sözlerinde farklı bölüm, kelime ya da sıralama varsa mevcut sayfa aynı URL üzerinde güncellenecek. Gameboy ve Gnarly, WILD parçası olmadığı için ayrı dönem bağlantıları olarak tutuluyor.",
         ],
       },
     ],
     memberStatus: [
       { name: "PINKY UP", status: "Yayında + çevrildi", detail: "Resmi video, Spotify bağlantısı ve Türkçe çeviri hazır." },
       { name: "Animal", status: "Yayında + çevrildi", detail: "WILD'ın ikinci ön şarkısı çeviri arşivinde bulunuyor." },
-      { name: "That Way", status: "Performans sürümü çevrildi", detail: "Stüdyo sürümü 14 Ağustos'ta resmi sözlerle karşılaştırılacak." },
-      { name: "Hootie Frutti + Bel Air", status: "14 Ağustos'ta", detail: "Resmi sözler yayın günü kontrol edilip çeviri sırasına alınacak." },
+      { name: "That Way", status: "Karşılaştırma bekliyor", detail: "Performans çevirisi, yayımlanan stüdyo sürümünün resmi sözleriyle kontrol edilecek." },
+      { name: "Hootie Frutti + Bel Air", status: "Çeviri bekleniyor", detail: "İki yeni albüm parçası dijital platformlarda yayımlandı; arşivde henüz sayfaları yok." },
     ],
     sources: [
-      { name: "Spotify — WILD ön yayın sayfası", url: "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6" },
-      { name: "Apple Music — WILD yayın tarihi", url: "https://music.apple.com/us/album/wild-ep/1891779764" },
+      { name: "Spotify — WILD", url: "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6" },
+      { name: "Apple Music — WILD", url: "https://music.apple.com/us/album/wild-ep/1891779764" },
       { name: "Universal Music — Animal ve WILD duyurusu", url: "https://www.universal-music.co.jp/katseye/news/2026-07-24/" },
       { name: "Weverse — WILD resmi yayın duyurusu", url: "https://weverse.io/katseye/notice/34966" },
       { name: "Weverse — WILD HEARTS gösterim duyurusu", url: "https://weverse.io/katseye/notice/37360" },
     ],
     storyShare:
-      "KATSEYE'nin üçüncü EP'si WILD 14 Ağustos'ta yayımlanacak. Doğrulanan parça listesi, WILD HEARTS gösterimleri ve güncel Türkçe çeviri durumu Pop Günlüğü'nde.",
+      "KATSEYE'nin beş şarkılık WILD EP'si yayımlandı. Doğrulanan parça listesi, WILD HEARTS gösterimleri ve güncel Türkçe çeviri durumu Pop Günlüğü'nde.",
   },
   {
     slug: "stray-kids-this-and-that-albumu-yayimlandi",

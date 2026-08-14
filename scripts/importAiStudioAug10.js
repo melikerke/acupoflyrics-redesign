@@ -19,6 +19,8 @@ const AUG13_INPUT = path.join(process.cwd(), "scripts/aiStudioAug13.raw.json");
 const AUG13_REPORT = "/tmp/acupoflyrics-ai-studio-aug13-report.json";
 const BOUNCY_INPUT = path.join(process.cwd(), "scripts/aiStudioBouncy.raw.json");
 const BOUNCY_REPORT = "/tmp/acupoflyrics-ai-studio-bouncy-report.json";
+const AUG14_INPUT = path.join(process.cwd(), "scripts/aiStudioAug14.raw.json");
+const AUG14_REPORT = "/tmp/acupoflyrics-ai-studio-aug14-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -301,6 +303,75 @@ const TRACKS = [
     slug: "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
     youtubeUrl: "https://www.youtube.com/watch?v=U0G5OA6ZH5w",
   },
+  {
+    batch: "aug14",
+    sourceKey: "hootie",
+    label: "KATSEYE — Hootie Frutti",
+    artist: "KATSEYE",
+    title: "Hootie Frutti",
+    youtubeUrl: "https://www.youtube.com/watch?v=is8UDe2PhKQ",
+  },
+  {
+    batch: "aug14",
+    sourceKey: "belAir",
+    label: "KATSEYE — Bel Air",
+    artist: "KATSEYE",
+    title: "Bel Air",
+    youtubeUrl: "https://www.youtube.com/watch?v=oMvXwtmYVWc",
+  },
+  {
+    batch: "aug14",
+    sourceKey: "thatWayStudio",
+    label: "KATSEYE — That Way",
+    artist: "KATSEYE",
+    title: "That Way",
+    slug: "katseye-that-way-turkce-ceviri",
+    youtubeUrl: "https://www.youtube.com/watch?v=DgFemuNxBrk",
+    appleMusicUrl: "https://music.apple.com/us/song/that-way/1891779779",
+    removeReleaseStatus: true,
+    removePerformanceSource: true,
+    annotationOverrides: [
+      { word: "the door is that way", text: "Ayak uyduramıyorsan kapı orada, gidebilirsin anlamında doğrudan bir meydan okuma." },
+      { word: "Shopping in the window", text: "Birini ciddi bir ilişkiye başlamadan önce inceleme ve değerlendirme metaforu." },
+      { word: "mic drop", text: "Bir tartışmayı güçlü ve kesin bir hareketle bitirmeyi anlatan popüler kültür ifadesi." },
+    ],
+  },
+  {
+    batch: "aug14",
+    sourceKey: "shesTheBest",
+    label: "Troye Sivan — She’s the Best",
+    artist: "Troye Sivan",
+    title: "She’s the Best",
+    slug: "troye-sivan-shes-the-best-turkce-ceviri",
+    youtubeUrl: "https://www.youtube.com/watch?v=mFA1P8ZzoLw",
+    annotationOverrides: [
+      { word: "cum stain", text: "Açık cinsel içerikli ifade; karakterin özensiz ve toplumsal beklentileri umursamayan görünümünü vurguluyor." },
+      { word: "Moodboard", text: "Belirli bir estetik veya gelecek fikri için ilham verici görsellerin toplandığı pano." },
+      { word: "incel", text: "Çoğu zaman kadın düşmanı söylemlerle ilişkilendirilen çevrim içi bir altkültür terimi." },
+    ],
+  },
+  {
+    batch: "aug14",
+    sourceKey: "cntrl",
+    label: "Becky G — CNTRL",
+    artist: "Becky G",
+    title: "CNTRL",
+    youtubeUrl: "https://www.youtube.com/watch?v=j0MOFslqpSw",
+    translationOverrides: {
+      3: [
+        "Kontrolü elimde tutuyorum;",
+        "Keyfime bakıyor, planlar yapıyorum;",
+        "Perreo yapıyor, giderek keskinleşiyorum;",
+        "Yiyip bitiriyor, podyumda süzülüyorum...",
+      ],
+      7: [
+        "Kontrolü elimde tutuyorum;",
+        "Keyfime bakıyor, planlar yapıyorum;",
+        "Perreo yapıyor, giderek keskinleşiyorum;",
+        "Yiyip bitiriyor, podyumda süzülüyorum...",
+      ],
+    },
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -534,14 +605,15 @@ function parseTrack(source, track) {
     notes: [],
   }));
   const lyricalText = stanzas.flatMap((stanza) => [...stanza.original, ...stanza.translation]).join("\n");
-  const annotationCandidates = ["aug12", "aug13", "thatway"].includes(track.batch)
+  const annotationCandidates = ["aug12", "aug13", "thatway", "aug14"].includes(track.batch)
     ? inlineAnnotations(translatedBody, lyricalText)
     : [...inlineAnnotations(translatedBody, lyricalText), ...analysisAnnotations(source.model, lyricalText)];
   const notes = new Map();
   for (const note of annotationCandidates) {
     if (!notes.has(note.word)) notes.set(note.word, note.text);
   }
-  stanzas[0].notes = [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
+  stanzas[0].notes = track.annotationOverrides
+    || [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
   return { ...track, hasHangul, hasHan, stanzas };
 }
 
@@ -641,10 +713,11 @@ async function main() {
   const thatWayBatch = process.argv.includes("--that-way");
   const aug13Batch = process.argv.includes("--aug13");
   const bouncyBatch = process.argv.includes("--bouncy");
-  const inputPath = bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug14Batch = process.argv.includes("--aug14");
+  const inputPath = aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));
@@ -778,6 +851,8 @@ async function main() {
     if (track.releaseStatus) post.releaseStatus = track.releaseStatus;
     if (track.performanceSource) post.performanceSource = track.performanceSource;
     if (track.appleMusicUrl) post.appleMusicUrl = track.appleMusicUrl;
+    if (track.removeReleaseStatus) delete post.releaseStatus;
+    if (track.removePerformanceSource) delete post.performanceSource;
     post.seo = {
       title: post.title,
       description: descriptionFor(track, track.spotify),

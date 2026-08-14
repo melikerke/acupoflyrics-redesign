@@ -1,5 +1,1455 @@
 [
   {
+    "id": "5229",
+    "title": "Becky G CNTRL Türkçe Çeviri",
+    "song": "CNTRL",
+    "slug": "becky-g-cntrl-turkce-ceviri",
+    "date": "2026-08-14T09:23:42.052Z",
+    "artist": "Becky G",
+    "categories": [
+      "Becky G",
+      "BARAJA BENDITA"
+    ],
+    "category_slugs": [
+      "becky-g",
+      "baraja-bendita"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2730af5edf88b6f19f1205ecf1e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730af5edf88b6f19f1205ecf1e",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verso 1",
+        "lines": [
+          "Ayy, ayy",
+          "Esto es VIP, el paso e' restricto, ah",
+          "'Ta buscándome lao, buscando conflicto, ah",
+          "Todos los que han probao terminan adictos, ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verso 1",
+        "lines": [
+          "Ayy, ayy...",
+          "Burası VIP, girişler kısıtlıdır; ah!",
+          "Bende kusur arayıp duruyor, mevzu çıkarmanın peşinde...",
+          "Beni bir kez tadan herkes müptelası oldu, ah!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Coro",
+        "lines": [
+          "Ah, más le bailo, más lo prendo",
+          "Frente a frente, cuerpo a cuerpo",
+          "Mira lo que no pueden tocar, ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Coro",
+        "lines": [
+          "Ah, ben dans ettikçe o daha çok alev alıyor;",
+          "Yüz yüze, diz dize, ten tene...",
+          "Bak şuna; dokunmaya bile cesaret edemiyorlar, ah!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Coro",
+        "lines": [
+          "(Ooh) Todos quieren, sí (Ah)",
+          "Little bit of me (Ooh)",
+          "Quiere mi candy (Ah)",
+          "Le di a probar y lo enloquecí, like (Ooh)",
+          "B's so, so sweet (Ah)",
+          "Cuando me lo sacó lo pongo crazy (Ooh)",
+          "Quiere mi candy (Ah)",
+          "Ah, le di a probar y lo enloquecí"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Coro",
+        "lines": [
+          "(Ooh) Herkes istiyor, evet; (Ah)",
+          "Benden birazcık tadabilmek...",
+          "\"Şekerimi\" istiyor o;",
+          "Bir yudum tattırdım ve aklını başından aldım sanki...",
+          "Bu kız çok, çok tatlı; (Ah)",
+          "O şeyi çıkardığımda onu çıldırtıyorum;",
+          "\"Şekerimi\" istiyor o;",
+          "Ah, bir yudum tattırdım ve aklını yitirdi resmen!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Coro",
+        "lines": [
+          "Ando, ando controlando",
+          "Ando vacilando, ando maquinando",
+          "Ando perreando, ando afilando",
+          "Ando devorando, ando desfilando, ando"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Coro",
+        "lines": [
+          "Kontrolü elimde tutuyorum;",
+          "Keyfime bakıyor, planlar yapıyorum;",
+          "Perreo yapıyor, giderek keskinleşiyorum;",
+          "Yiyip bitiriyor, podyumda süzülüyorum..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verso 2",
+        "lines": [
+          "Bun-bun-bun-bun-bun-bunda, se sabe mover",
+          "Me la, mе-me la-la, me la quierе comer",
+          "Mamalona, la siento en sus pantalones",
+          "Dame, dame, él me dice \"Dame\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verso 2",
+        "lines": [
+          "O koca kalça, nasıl hareket edeceğini iyi biliyor;",
+          "Beni, beni... Beni yemek istiyor resmen!",
+          "Öyle heyecan verici ki, pantolonunun içinde hissediyorum onu;",
+          "\"Ver bana, ver bana\" diye sayıklıyor resmen..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Coro",
+        "lines": [
+          "Más le bailo, más lo prendo",
+          "Frente a frente, cuerpo a cuerpo",
+          "Mira lo que no pueden tocar, ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Coro",
+        "lines": [
+          "Ben dans ettikçe o daha çok alev alıyor;",
+          "Yüz yüze, ten tene...",
+          "Bak şuna; dokunmaya bile kıyamadıkları o şeye!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Coro",
+        "lines": [
+          "(Ooh) Todos quieren, sí (Ah)",
+          "Little bit of me (Ooh)",
+          "Quiere mi candy (Ah)",
+          "Le di a probar y lo enloquecí, like (Ooh)",
+          "B's so, so sweet (Ah)",
+          "Cuando me lo sacó lo pongo crazy (Ooh)",
+          "Quiere mi candy (Ah)",
+          "Ah, le di a probar y lo enloquecí"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Coro",
+        "lines": [
+          "(Ooh) Herkes istiyor, evet;",
+          "Benden birazcık tadabilmek...",
+          "\"Şekerimi\" istiyor o;",
+          "Bir yudum tattırdım ve aklını başından aldım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Coro",
+        "lines": [
+          "Ando, ando controlando",
+          "Ando vacilando, ando maquinando",
+          "Ando perreando, ando afilando",
+          "Ando devorando, ando desfilando, ando"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Coro",
+        "lines": [
+          "Kontrolü elimde tutuyorum;",
+          "Keyfime bakıyor, planlar yapıyorum;",
+          "Perreo yapıyor, giderek keskinleşiyorum;",
+          "Yiyip bitiriyor, podyumda süzülüyorum..."
+        ]
+      }
+    ],
+    "excerpt": "Ayy, ayy",
+    "annotations": {
+      "candy": "¹“Candy”: Reggaeton dünyasında hem çekiciliği hem de cinsel arzuyu simgeleyen yaygın bir metafor.",
+      "maquinando": "²“Maquinando”: Sinsi planlar yapmak veya bir durumu kendi lehine çevirmek için zihin yormak anlamındaki sokak argosu.",
+      "bunda": "³“Bunda”: Portekizce/İspanyolca argosunda kalça demektir. Şarkının dans (perreo) odağını vurguluyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1Cdcyt6Zvak6GVQm4AW3pc",
+        "name": "CNTRL",
+        "url": "https://open.spotify.com/track/1Cdcyt6Zvak6GVQm4AW3pc",
+        "isrc": "USRC12601342",
+        "durationMs": 156866,
+        "duration": "2:37",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4obzFoKoKRHIphyHzJ35G3",
+        "name": "Becky G",
+        "url": "https://open.spotify.com/artist/4obzFoKoKRHIphyHzJ35G3",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3d24f1805384b8d43c8cae42",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4obzFoKoKRHIphyHzJ35G3",
+          "name": "Becky G",
+          "url": "https://open.spotify.com/artist/4obzFoKoKRHIphyHzJ35G3"
+        }
+      ],
+      "album": {
+        "id": "1B8QJFOcpBeycykDaWttDY",
+        "name": "BARAJA BENDITA",
+        "url": "https://open.spotify.com/album/1B8QJFOcpBeycykDaWttDY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730af5edf88b6f19f1205ecf1e",
+        "artists": [
+          {
+            "id": "4obzFoKoKRHIphyHzJ35G3",
+            "name": "Becky G",
+            "url": "https://open.spotify.com/artist/4obzFoKoKRHIphyHzJ35G3"
+          }
+        ],
+        "releaseDate": "2026-08-14",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 RCA Records, a division of Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 17,
+        "tracks": [
+          {
+            "id": "6P9ZtsQEbdqTX5IeaZIOCp",
+            "name": "5'5",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 191626,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6P9ZtsQEbdqTX5IeaZIOCp",
+            "isCurrent": false
+          },
+          {
+            "id": "1Cdcyt6Zvak6GVQm4AW3pc",
+            "name": "CNTRL",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 156866,
+            "duration": "2:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Cdcyt6Zvak6GVQm4AW3pc",
+            "isCurrent": true
+          },
+          {
+            "id": "1Sf3JS5WaGSr3yWqqzXbBy",
+            "name": "+PRETTY",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 137480,
+            "duration": "2:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Sf3JS5WaGSr3yWqqzXbBy",
+            "isCurrent": false
+          },
+          {
+            "id": "0LIE4RWCfqtcLLEXNrSb1f",
+            "name": "OASIS",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 191795,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0LIE4RWCfqtcLLEXNrSb1f",
+            "isCurrent": false
+          },
+          {
+            "id": "4SEQheyYUhSyCoOHvDdkla",
+            "name": "CHULA",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 127740,
+            "duration": "2:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4SEQheyYUhSyCoOHvDdkla",
+            "isCurrent": false
+          },
+          {
+            "id": "6fpumQH6vzCoBp2X6dad8u",
+            "name": "MAL TIEMPO",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 181194,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6fpumQH6vzCoBp2X6dad8u",
+            "isCurrent": false
+          },
+          {
+            "id": "08znjNVBpsPlXomJVBPFCU",
+            "name": "FACTOS",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 178847,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/08znjNVBpsPlXomJVBPFCU",
+            "isCurrent": false
+          },
+          {
+            "id": "60ifcYeDWNYaryMjGywnSj",
+            "name": "TQM/ILY",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 152920,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/60ifcYeDWNYaryMjGywnSj",
+            "isCurrent": false
+          },
+          {
+            "id": "4utKq7mRGxt8eLdJdJIruG",
+            "name": "UNSEND",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 161148,
+            "duration": "2:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4utKq7mRGxt8eLdJdJIruG",
+            "isCurrent": false
+          },
+          {
+            "id": "2dxpAO137w9TbVnnN4Roo1",
+            "name": "BANDERA BLANCA",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 184793,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2dxpAO137w9TbVnnN4Roo1",
+            "isCurrent": false
+          },
+          {
+            "id": "6Woew1S4PzF6NrJPJ1Hylx",
+            "name": "PERREO TRISTE",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 173191,
+            "duration": "2:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Woew1S4PzF6NrJPJ1Hylx",
+            "isCurrent": false
+          },
+          {
+            "id": "5IL8sHiiRs1bJ8ir3lbdFj",
+            "name": "AUTOMATICO",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 173841,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5IL8sHiiRs1bJ8ir3lbdFj",
+            "isCurrent": false
+          },
+          {
+            "id": "25oqLEtYHKWjeTCRLY58KW",
+            "name": "EPA",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 202521,
+            "duration": "3:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/25oqLEtYHKWjeTCRLY58KW",
+            "isCurrent": false
+          },
+          {
+            "id": "5ErbP35Dy7D258RGdwiiUD",
+            "name": "2AM",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 202318,
+            "duration": "3:22",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5ErbP35Dy7D258RGdwiiUD",
+            "isCurrent": false
+          },
+          {
+            "id": "1USOqmDhQKLQIV3VtH6Z6N",
+            "name": "MARATHON",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 171608,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1USOqmDhQKLQIV3VtH6Z6N",
+            "isCurrent": false
+          },
+          {
+            "id": "4vj9YoN8WIYJ0Ncxp8Xh9J",
+            "name": "GLITCH",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 116778,
+            "duration": "1:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4vj9YoN8WIYJ0Ncxp8Xh9J",
+            "isCurrent": false
+          },
+          {
+            "id": "7tjCQ5iXKWHjT20MuMOcrP",
+            "name": "PATRONA",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 164313,
+            "duration": "2:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7tjCQ5iXKWHjT20MuMOcrP",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-14T09:24:50.826Z",
+      "trackUrl": "https://open.spotify.com/track/1Cdcyt6Zvak6GVQm4AW3pc",
+      "albumUrl": "https://open.spotify.com/album/1B8QJFOcpBeycykDaWttDY",
+      "artistUrl": "https://open.spotify.com/artist/4obzFoKoKRHIphyHzJ35G3",
+      "albumName": "BARAJA BENDITA",
+      "albumType": "Album",
+      "releaseDate": "2026-08-14",
+      "duration": "2:37",
+      "isrc": "USRC12601342",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730af5edf88b6f19f1205ecf1e"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=j0MOFslqpSw",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Becky G CNTRL Türkçe Çeviri",
+      "description": "Becky G – CNTRL şarkı sözleri ve özenli Türkçe çevirisi. BARAJA BENDITA albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/becky-g-cntrl-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5228",
+    "title": "Troye Sivan She’s the Best Türkçe Çeviri",
+    "song": "She’s the Best",
+    "slug": "troye-sivan-shes-the-best-turkce-ceviri",
+    "date": "2026-08-14T09:23:42.052Z",
+    "artist": "Troye Sivan",
+    "categories": [
+      "Troye Sivan",
+      "She’s the Best"
+    ],
+    "category_slugs": [
+      "troye-sivan",
+      "she-s-the-best"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273d4c317bb44f2a29d00316ab5",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d4c317bb44f2a29d00316ab5",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "She's walking down the street with her little thin cigarette",
+          "Great smile and a cum stain on her dress",
+          "DJs from Wednesday to Monday",
+          "Don't ask, she's not taking any fucking requests",
+          "Quick drag, a rouge cheek, a blush lip",
+          "Eyeliner in her waterline and some contour on her tits",
+          "Night owl and somehow an early bird",
+          "She kind of just stays perpetually tired"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Elinde o incecik sigarasıyla sokakta yürüyor;",
+          "Harika bir gülüşü ve elbisesinde bir leke...",
+          "Çarşamba'dan Pazartesi'ye kadar DJ'lik yapıyor;",
+          "Soru sorma hiç, siktir ettiğimin istek parçalarını çalmıyor!",
+          "Hızlı bir fırt, kızıl bir yanak, hafif boyanmış dudaklar...",
+          "Göz kalemini çekmiş, göğüslerine kontür yapmış;",
+          "Hem bir gece kuşu hem de nasıl oluyorsa erkenci bir kuş;",
+          "Öylece, sonsuz bir yorgunluğun içinde yaşıyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, wow, that girl",
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, wow, that girl",
+          "She's the best, best"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "O kız, o kız, o kız...",
+          "İşte o kız, vay be; o kız!",
+          "En iyisi o, en iyisi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Shared house, her housemate's her best friend",
+          "Sometimes they might share her boyfriend, hell, yeah",
+          "Moodboards of future, it looks good",
+          "She's done looking back, she's only looking ahead",
+          "Pretty, funny, can fight",
+          "She always knew she had something special in, inside",
+          "She takes down an incel on the internet when she needs just a little unwind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Paylaşımlı bir evde kalıyor, ev arkadaşı en yakın dostu;",
+          "Bazen erkek arkadaşını bile paylaşabilirler, ne var yani?",
+          "Gelecek için \"moodboard\"lar hazırlıyor, her şey harika görünüyor;",
+          "Artık geriye bakmayı bıraktı, sadece önüne bakıyor.",
+          "Güzel, komik ve dövüşebilir de;",
+          "İçinde özel bir şeyler olduğunu hep biliyordu zaten.",
+          "Biraz kafa dağıtmaya ihtiyacı olduğunda,",
+          "İnternette bir \"incel\"ı rezil edip susturuveriyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, wow, that girl",
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, wow, that girl",
+          "She's the best"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "O kız, o kız, o kız...",
+          "Vay be, işte o kız!",
+          "En iyisi o..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "She's the heartbeat She's the best She's the—, she's the— She's the best She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best, she's the best She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best (She's the best, she's the best)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "O benim kalp atışım, en iyisi o;",
+          "O, tam da o... En iyisi o!",
+          "Göğsümde güm güm atan o kalp atışı o;",
+          "En iyisi o, o benim kalbimdeki o ritim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, wow, that girl",
+          "That girl, that girl, that girl, that girl (Ooh)",
+          "That girl, that girl, wow, that girl, mm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "O kız, o kız, o kız...",
+          "İşte o kız!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Girl, that girl, that girl, that girl (Yeah)",
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, that girl, that girl (Yeah)",
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, that girl, that girl (Yeah)",
+          "That girl, that girl, that girl, that girl",
+          "That girl, that girl, that girl, that girl (Yeah)",
+          "That girl, that girl, that girl, that girl",
+          "She's the—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "O kız, o kız, o kız...",
+          "İşte o kız..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Charli xcx",
+        "lines": [
+          "She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best",
+          "She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best (She's the best, she's the best)",
+          "She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best",
+          "She's the heartbeat bumping in my chest (Who is this?)",
+          "She's the best (She's the best, she's the best)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Charli xcx",
+        "lines": [
+          "Göğsümde güm güm atan o kalp atışı o;",
+          "En iyisi o!",
+          "Göğsümde atan o ritim...",
+          "Kalp atışım benim..."
+        ]
+      }
+    ],
+    "excerpt": "She's walking down the street with her little thin cigarette",
+    "annotations": {
+      "cum stain": "Açık cinsel içerikli ifade; karakterin özensiz ve toplumsal beklentileri umursamayan görünümünü vurguluyor.",
+      "Moodboard": "Belirli bir estetik veya gelecek fikri için ilham verici görsellerin toplandığı pano.",
+      "incel": "Çoğu zaman kadın düşmanı söylemlerle ilişkilendirilen çevrim içi bir altkültür terimi."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4q5EIdR3ONbaq6GvO9FV61",
+        "name": "She’s the Best",
+        "url": "https://open.spotify.com/track/4q5EIdR3ONbaq6GvO9FV61",
+        "isrc": "USUG12606853",
+        "durationMs": 254026,
+        "duration": "4:14",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "3WGpXCj9YhhfX11TToZcXP",
+        "name": "Troye Sivan",
+        "url": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb867f3b6ab5f4253a6e947490",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "3WGpXCj9YhhfX11TToZcXP",
+          "name": "Troye Sivan",
+          "url": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP"
+        }
+      ],
+      "album": {
+        "id": "46RpDXDGV1091r0rLvPh93",
+        "name": "She’s the Best",
+        "url": "https://open.spotify.com/album/46RpDXDGV1091r0rLvPh93",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d4c317bb44f2a29d00316ab5",
+        "artists": [
+          {
+            "id": "3WGpXCj9YhhfX11TToZcXP",
+            "name": "Troye Sivan",
+            "url": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP"
+          }
+        ],
+        "releaseDate": "2026-08-14",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Tokky’s Music, LLC, under exclusive license to Interscope Records",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Tokky’s Music, LLC, under exclusive license to Interscope Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4q5EIdR3ONbaq6GvO9FV61",
+            "name": "She’s the Best",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 254026,
+            "duration": "4:14",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4q5EIdR3ONbaq6GvO9FV61",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-14T09:24:49.926Z",
+      "trackUrl": "https://open.spotify.com/track/4q5EIdR3ONbaq6GvO9FV61",
+      "albumUrl": "https://open.spotify.com/album/46RpDXDGV1091r0rLvPh93",
+      "artistUrl": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP",
+      "albumName": "She’s the Best",
+      "albumType": "Single",
+      "releaseDate": "2026-08-14",
+      "duration": "4:14",
+      "isrc": "USUG12606853",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d4c317bb44f2a29d00316ab5"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=mFA1P8ZzoLw",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Troye Sivan She’s the Best Türkçe Çeviri",
+      "description": "Troye Sivan – She’s the Best şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/troye-sivan-shes-the-best-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5227",
+    "title": "KATSEYE Bel Air Türkçe Çeviri",
+    "song": "Bel Air",
+    "slug": "katseye-bel-air-turkce-ceviri",
+    "date": "2026-08-14T09:23:42.051Z",
+    "artist": "KATSEYE",
+    "categories": [
+      "KATSEYE",
+      "WILD"
+    ],
+    "category_slugs": [
+      "katseye",
+      "wild"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Megan, Yoonchae",
+        "lines": [
+          "I saw you in the mirror",
+          "Been stuck inside my mind since Saturday",
+          "Can't get you off my radar",
+          "My head is spinning, time in retrograde",
+          "Still falling for you, still running from you",
+          "If we could just rewind us for a day",
+          "I'd drive you up to Bel Air",
+          "We wouldn't be the ones who got away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Megan, Yoonchae",
+        "lines": [
+          "Seni aynada gördüm...",
+          "Cumartesi'den beri aklımdan çıkmıyorsun hiç.",
+          "Seni radarımdan bir türlü çıkaramıyorum;",
+          "Başım dönüyor, zaman sanki geriye akıyor...",
+          "Hala sana tutuluyorum, hala senden kaçıyorum;",
+          "Eğer \"bizi\" sadece bir günlüğüne geri sarabilseydik;",
+          "Seni Bel Air'e kadar sürerdim...",
+          "Böylece \"elimden kayıp gidenler\" biz olmazdık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Daniela",
+        "lines": [
+          "Stood and watched your car leaving",
+          "Struck by silver 'til you were out of sight",
+          "I could feel my heart bleeding",
+          "Thought you'd be the death of me, but"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Daniela",
+        "lines": [
+          "Öylece durup arabanın gidişini izledim;",
+          "Gözden kaybolana dek o gümüş parıltıya çakılı kaldım.",
+          "Kalbimin kanadığını hissedebiliyordum;",
+          "Benim sonum olacağını sanmıştım ama..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "When you were mine",
+          "We said we'd run away",
+          "Away from here, and disappear",
+          "We'd leave it all behind",
+          "When you were mine",
+          "You gave me paradise",
+          "Then took the key, now, look at me",
+          "I'm leaving you behind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "Sen benimken...",
+          "Buralardan kaçıp gideceğimizi söylerdik;",
+          "Uzaklara, her şeyden saklanıp yok olmaya...",
+          "Her şeyi geride bırakacaktık.",
+          "Sen benimken;",
+          "Bana cenneti vaat etmiştin.",
+          "Sonra o anahtarı geri aldın; şimdi bana bir bak...",
+          "Ben seni geride bırakıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Yoonchae, Megan",
+        "lines": [
+          "My eyes are getting hazy",
+          "I hear you whisper words into my ears",
+          "I'm on the edge of crazy",
+          "Letting my pillow kiss away my tears",
+          "Still falling for ya, still running from ya",
+          "But I know what we'd do if you were here",
+          "I'd drive you up to Bel Air",
+          "Pretend we could survive another year"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Yoonchae, Megan",
+        "lines": [
+          "Gözlerim buğulanmaya başladı...",
+          "Kulağıma fısıldadığın o sözleri duyuyorum hala.",
+          "Deliliğin tam eşiğindeyim artık;",
+          "Gözyaşlarımı yastığıma sildiriyorum...",
+          "Hala sana tutuluyorum, hala senden kaçıyorum;",
+          "Ama burada olsaydın neler yapacağımızı biliyorum:",
+          "Seni Bel Air'e kadar sürerdim;",
+          "Bir yıl daha dayanabilirmişiz gibi rol yapardık..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "When you were mine",
+          "We said we'd run away",
+          "Away from here, and disappear",
+          "We'd leave it all behind",
+          "When you were mine",
+          "You gave me paradise",
+          "Then took the key, now, look at me",
+          "I'm leaving you behind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "Sen benimken...",
+          "Buralardan kaçıp gideceğimizi söylerdik;",
+          "Uzaklara, her şeyden saklanıp yok olmaya...",
+          "Her şeyi geride bırakacaktık.",
+          "Sen benimken;",
+          "Bana cenneti vaat etmiştin.",
+          "Sonra o anahtarı geri aldın; şimdi bana bir bak...",
+          "Ben seni geride bırakıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Megan",
+        "lines": [
+          "Oh-oh, oh-oh",
+          "Oh-oh, oh, oh-oh, oh, oh",
+          "Oh-oh, oh-oh",
+          "Oh-oh, oh, oh-oh, oh, oh (Ah, ah, ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Megan",
+        "lines": [
+          "Oh-oh, oh-oh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "When you were mine",
+          "We said we'd run away",
+          "Away from here, and disappear",
+          "We'd leave it all behind",
+          "When you were mine",
+          "You gave me paradise",
+          "Then took the key, now, look at me",
+          "I'm leaving you behind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Lara, Sophia",
+        "lines": [
+          "Sen benimken...",
+          "Buralardan kaçıp gideceğimizi söylerdik;",
+          "Uzaklara, her şeyden saklanıp yok olmaya...",
+          "Her şeyi geride bırakacaktık.",
+          "Sen benimken;",
+          "Bana cenneti vaat etmiştin.",
+          "Sonra o anahtarı geri aldın; şimdi bana bir bak...",
+          "Ben seni geride bırakıyorum!"
+        ]
+      }
+    ],
+    "excerpt": "I saw you in the mirror",
+    "annotations": {
+      "Bel Air": "¹“Bel Air”: Los Angeles’ın en lüks bölgelerinden biri. Şarkıda dertlerden uzak, zengin ve huzurlu bir kaçış noktasını simgeliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6G38IZWN4qvVqxavzepr0I",
+        "name": "Bel Air",
+        "url": "https://open.spotify.com/track/6G38IZWN4qvVqxavzepr0I",
+        "isrc": "USUM72602759",
+        "durationMs": 210498,
+        "duration": "3:30",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "3c0gDdb9lhnHGFtP4prQpn",
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb04ba72b2749f90d62152ebec",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "3c0gDdb9lhnHGFtP4prQpn",
+          "name": "KATSEYE",
+          "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+        }
+      ],
+      "album": {
+        "id": "2d0AkZUJV30oIOJAeEyzC6",
+        "name": "WILD",
+        "url": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+        "artists": [
+          {
+            "id": "3c0gDdb9lhnHGFtP4prQpn",
+            "name": "KATSEYE",
+            "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+          }
+        ],
+        "releaseDate": "2026-08-14",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 HYBE UMG LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 HYBE UMG LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3Llk4nt8zllnISDLmYvKi6",
+            "name": "PINKY UP",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 131437,
+            "duration": "2:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3Llk4nt8zllnISDLmYvKi6",
+            "isCurrent": false
+          },
+          {
+            "id": "7oWkK4yK2saSHAqMtcPVXI",
+            "name": "Animal",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 158494,
+            "duration": "2:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7oWkK4yK2saSHAqMtcPVXI",
+            "isCurrent": false
+          },
+          {
+            "id": "6oUUmBcUbZa5O48V5pjgAD",
+            "name": "Hootie Frutti",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140720,
+            "duration": "2:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6oUUmBcUbZa5O48V5pjgAD",
+            "isCurrent": false
+          },
+          {
+            "id": "6G38IZWN4qvVqxavzepr0I",
+            "name": "Bel Air",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 210498,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6G38IZWN4qvVqxavzepr0I",
+            "isCurrent": true
+          },
+          {
+            "id": "2Pv93rSb7vy3yVOWkLQ7h4",
+            "name": "That Way",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 176241,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Pv93rSb7vy3yVOWkLQ7h4",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-14T09:24:47.968Z",
+      "trackUrl": "https://open.spotify.com/track/6G38IZWN4qvVqxavzepr0I",
+      "albumUrl": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "WILD",
+      "albumType": "EP",
+      "releaseDate": "2026-08-14",
+      "duration": "3:30",
+      "isrc": "USUM72602759",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=oMvXwtmYVWc",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "KATSEYE Bel Air Türkçe Çeviri",
+      "description": "KATSEYE – Bel Air şarkı sözleri ve özenli Türkçe çevirisi. WILD albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/katseye-bel-air-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5226",
+    "title": "KATSEYE Hootie Frutti Türkçe Çeviri",
+    "song": "Hootie Frutti",
+    "slug": "katseye-hootie-frutti-turkce-ceviri",
+    "date": "2026-08-14T09:23:42.050Z",
+    "artist": "KATSEYE",
+    "categories": [
+      "KATSEYE",
+      "WILD"
+    ],
+    "category_slugs": [
+      "katseye",
+      "wild"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Daniela, Yoonchae",
+        "lines": [
+          "Eu sei que tu gosta da fruta, mas essa é diferente",
+          "Hootie frutti"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Daniela, Yoonchae",
+        "lines": [
+          "Meyveyi sevdiğini biliyorum ama bu seferki bambaşka...",
+          "Hootie Frutti!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Megan, Sophia",
+        "lines": [
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Megan, Sophia",
+        "lines": [
+          "Hootie meyve, meyve, meyve..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Daniela, Yoonchae",
+        "lines": [
+          "Hey, cutie, cutie, I see ya lookin'",
+          "'Cause when I walk in the party, they're like, \"Who she?\"",
+          "Carry my matcha, Mount Valley water",
+          "I like my mochi drenched in chocolata (Fruta, fruta, fruta, fruta)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Daniela, Yoonchae",
+        "lines": [
+          "Selam tatlım, bana baktığını görüyorum;",
+          "Çünkü partiye girdiğim an herkes \"Kim bu kız?\" diyor.",
+          "Matcha çayım elimde, Mount Valley suyum yanımda;",
+          "Moçi’mi ise çikolataya bulanmış severim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Lara, Sophia, Yoonchae",
+        "lines": [
+          "Let's play some truth or dare, tell me what time you on",
+          "You think I'm unaware, but I know what you want",
+          "You came for something rare, I'll put it on your tongue",
+          "I know you like that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Lara, Sophia, Yoonchae",
+        "lines": [
+          "Hadi biraz \"doğruluk mu cesaret mi\" oynayalım; niyetini açıkla bana.",
+          "Farkında olmadığımı sanıyorsun ama ne istediğini çok iyi biliyorum;",
+          "Sen nadir bir şeylerin peşine düşmüşsün...",
+          "Onu tam \"diline\" layık bir hale getireceğim;",
+          "Bunu sevdiğini biliyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Megan",
+        "lines": [
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah), I know you like that",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah), I know you like that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Megan",
+        "lines": [
+          "Hootie Frutti!",
+          "Hootie Frutti!",
+          "Hoşuna gittiğini biliyorum..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Daniela, Yoonchae, Megan",
+        "lines": [
+          "Hootie frutti on your tongue, hootie frutti all night long",
+          "Hootie frutti, if you want it, come and get it 'fore it's gone",
+          "Hootie frutti all the way, hootie frutti every day",
+          "Hootie frutti like the twenty dollar smoothies in LA",
+          "Hootie frutti (Uh-huh), nice and juicy (So juicy)",
+          "Yeah, you crave it, and you're not even a foodie"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Daniela, Yoonchae, Megan",
+        "lines": [
+          "Damağında o meyve tadı, tüm gece boyunca...",
+          "Eğer istiyorsan, gel ve bitmeden al şunu!",
+          "Sonuna kadar, her gün; Hootie Frutti...",
+          "Sanki L.A.’deki o yirmi dolarlık \"smoothie\"ler gibi havalı!",
+          "Taze ve sulu...",
+          "Evet, canın çekiyor bunu; \"gurme\" falan olmana da gerek yok hani!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Sophia, Lara, Yoonchae",
+        "lines": [
+          "Let's play some truth or dare, tell me what time you on",
+          "You think I'm unaware, but I know what you want",
+          "You came for something rare, I'll put it on your tongue",
+          "I know you like that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Sophia, Lara, Yoonchae",
+        "lines": [
+          "Hadi doğruluk mu cesaret mi oynayalım; niyetini söyle.",
+          "Farkında değilim sanıyorsun ama biliyorum ne istediğini...",
+          "Nadir bir şey için gelmişsin;",
+          "Sana o tadı vereceğim;",
+          "Hoşuna gittiğini biliyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Megan",
+        "lines": [
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah), I know you like that (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah) frutti (Yeah)",
+          "Hootie (Yeah), I know you like that (Yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Megan",
+        "lines": [
+          "Hootie Frutti!",
+          "Bunu sevdiğini biliyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Daniela, Lara",
+        "lines": [
+          "Fruit, fruit, fruit, fruit, fruit, fruit, fruit (Oh, oh-woah)",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit (Oh, oh-woah)",
+          "Hootie fruit, fruit, fruit, fruit, fruit, fruit, fruit"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Daniela, Lara",
+        "lines": [
+          "Meyve, meyve, meyve... (Oh-woah)",
+          "Meyveli şekerlemeler..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Lara",
+        "lines": [
+          "Hootie fr—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Lara",
+        "lines": [
+          "Hootie fr—"
+        ]
+      }
+    ],
+    "excerpt": "Eu sei que tu gosta da fruta, mas essa é diferente",
+    "annotations": {},
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6oUUmBcUbZa5O48V5pjgAD",
+        "name": "Hootie Frutti",
+        "url": "https://open.spotify.com/track/6oUUmBcUbZa5O48V5pjgAD",
+        "isrc": "USUM72602758",
+        "durationMs": 140720,
+        "duration": "2:21",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "3c0gDdb9lhnHGFtP4prQpn",
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb04ba72b2749f90d62152ebec",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "3c0gDdb9lhnHGFtP4prQpn",
+          "name": "KATSEYE",
+          "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+        }
+      ],
+      "album": {
+        "id": "2d0AkZUJV30oIOJAeEyzC6",
+        "name": "WILD",
+        "url": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+        "artists": [
+          {
+            "id": "3c0gDdb9lhnHGFtP4prQpn",
+            "name": "KATSEYE",
+            "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+          }
+        ],
+        "releaseDate": "2026-08-14",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 HYBE UMG LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 HYBE UMG LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3Llk4nt8zllnISDLmYvKi6",
+            "name": "PINKY UP",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 131437,
+            "duration": "2:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3Llk4nt8zllnISDLmYvKi6",
+            "isCurrent": false
+          },
+          {
+            "id": "7oWkK4yK2saSHAqMtcPVXI",
+            "name": "Animal",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 158494,
+            "duration": "2:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7oWkK4yK2saSHAqMtcPVXI",
+            "isCurrent": false
+          },
+          {
+            "id": "6oUUmBcUbZa5O48V5pjgAD",
+            "name": "Hootie Frutti",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140720,
+            "duration": "2:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6oUUmBcUbZa5O48V5pjgAD",
+            "isCurrent": true
+          },
+          {
+            "id": "6G38IZWN4qvVqxavzepr0I",
+            "name": "Bel Air",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 210498,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6G38IZWN4qvVqxavzepr0I",
+            "isCurrent": false
+          },
+          {
+            "id": "2Pv93rSb7vy3yVOWkLQ7h4",
+            "name": "That Way",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 176241,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Pv93rSb7vy3yVOWkLQ7h4",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-14T09:24:47.182Z",
+      "trackUrl": "https://open.spotify.com/track/6oUUmBcUbZa5O48V5pjgAD",
+      "albumUrl": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "WILD",
+      "albumType": "EP",
+      "releaseDate": "2026-08-14",
+      "duration": "2:21",
+      "isrc": "USUM72602758",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=is8UDe2PhKQ",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "KATSEYE Hootie Frutti Türkçe Çeviri",
+      "description": "KATSEYE – Hootie Frutti şarkı sözleri ve özenli Türkçe çevirisi. WILD albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/katseye-hootie-frutti-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5225",
     "title": "ATEEZ BOUNCY (K-HOT CHILLI PEPPERS) Türkçe Çeviri",
     "song": "BOUNCY (K-HOT CHILLI PEPPERS)",
@@ -2271,9 +3721,9 @@
       "katseye",
       "wild"
     ],
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
-    "reading_time": 4,
+    "image": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
+    "reading_time": 3,
     "blocks": [
       {
         "original": true,
@@ -2297,11 +3747,11 @@
           "Hatta bana dokunma ayrıcalığına bile sahip olabilirsin;",
           "İşte o şekilde... (Ooh)",
           "İşte tam o şekilde...",
-          "Evet, ben senin olabilirim; gel ve hayran kal bu duruma.",
+          "Evet, ben senin olabilirim; gel ve bu duruma hayran kal.",
           "Ama eğer buna ayak uydurmak zorsa senin için bebeğim;",
-          "Kapı işte tam orada!",
+          "Kapı işte tam o tarafta!",
           "O tarafta...",
-          "İşte o şekilde, evet."
+          "İşte o şekilde, ayy."
         ]
       },
       {
@@ -2310,11 +3760,12 @@
         "lines": [
           "I need a man",
           "With all the tropes, who knows the ropes",
-          "It takes a man",
-          "Who's giving compliments and flowers on demand",
+          "Who takes command",
+          "Who gives me compliments",
+          "And flowers on demand",
           "He understands",
           "My needs need attending",
-          "And know this never ending, so"
+          "And that list never-ending, so"
         ]
       },
       {
@@ -2323,11 +3774,12 @@
         "lines": [
           "Bana gerçek bir adam lazım;",
           "Tüm o incelikleri bilen, işin pirini olmuş...",
-          "Gerçek bir adam gerekir;",
-          "Ben ne zaman istesem iltifatları ve çiçekleri önüne serecek bir adam.",
+          "Komutayı ele alan,",
+          "Bana iltifatlar yağdıran,",
+          "Ve her istediğimde çiçekler sunan biri.",
           "Şunu anlamalı;",
-          "Benim ihtiyaçlarımın karşılanması şart;",
-          "Ve bunun asla bitmeyeceğini bilmeli, o yüzden..."
+          "İhtiyaçlarımın karşılanması şart;",
+          "Ve o \"yapılacaklar listesinin\" asla bitmeyeceğini, o yüzden..."
         ]
       },
       {
@@ -2337,11 +3789,11 @@
           "Don't get up in arms, my love",
           "I'm just tryna get a rise",
           "Let me try it on, my love",
-          "Try it out for a ride",
-          "Shopping at the window",
-          "Don't you want to come for a ride?",
+          "Try it out before I buy",
+          "Shopping in the window",
+          "Don't you wanna take it for a ride?",
           "Well, so do I",
-          "I-I"
+          "Ah-ah"
         ]
       },
       {
@@ -2351,11 +3803,11 @@
           "Hemen savunmaya geçme sevgilim,",
           "Sadece seni biraz kışkırtmaya çalışıyorum.",
           "İzin ver bir \"deneyeyim\" seni aşkım;",
-          "Şöyle bir tur binelim bakalım...",
+          "Satın almadan önce şöyle bir tur binelim bakalım...",
           "Vitrin alışverişi yapıyorum sanki;",
-          "Sen de bir tur atmak istemez misin?",
+          "Sen de şöyle bir tur atmak istemez misin?",
           "Eh, ben de öyle düşünmüştüm...",
-          "Ben de..."
+          "Ah-ah."
         ]
       },
       {
@@ -2376,47 +3828,37 @@
         "original": false,
         "label": "Chorus: Sophia, Lara, Daniela",
         "lines": [
-          "Benim olabilirsin (Ooh), eğer şanslıysan tabii... (Ooh)",
+          "Benim olabilirsin (Ooh), eğer şanslıysan...",
           "Hatta bana dokunma ayrıcalığına bile sahip olabilirsin;",
-          "İşte o şekilde... (Ooh)",
-          "İşte tam o şekilde...",
-          "Evet, ben senin olabilirim; gel ve hayran kal bu duruma.",
-          "Ama eğer buna ayak uydurmak zorsa senin için bebeğim;",
-          "Kapı işte tam orada!",
-          "O tarafta...",
-          "İşte o şekilde, evet."
+          "İşte o şekilde!"
         ]
       },
       {
         "original": true,
         "label": "Verse 2: Yoonchae, Megan",
         "lines": [
-          "Take it to the left stop",
-          "And take it to the right stop",
-          "If you wanna dance",
-          "Come over with your hands",
+          "Take it to the left, stop",
+          "Then take it to the right, stop",
+          "If you wanna dance, you better get your hands",
           "And put 'em in the right spot",
           "Show me you can slow it down",
-          "Throw it now, just like a mic drop",
+          "Lower now, just like a mic drop",
           "I might be all yours",
-          "But then again, I might not",
-          "Uh-huh"
+          "But then again, I might not (Uh-huh)"
         ]
       },
       {
         "original": false,
         "label": "Verse 2: Yoonchae, Megan",
         "lines": [
-          "Sola doğru bir duraksayalım...",
-          "Sağa doğru bir duralım...",
-          "Eğer dans etmek istiyorsan,",
-          "Ellerinle yaklaş yanıma;",
+          "Sola doğru bir duraksayalım; DUR!",
+          "Sonra sağa doğru bir duralım; DUR!",
+          "Eğer dans etmek istiyorsan, en iyisi ellerini kullan;",
           "Ve onları \"doğru noktaya\" yerleştir.",
           "Bana biraz yavaşlayabildiğini göster;",
-          "Şimdi bırak her şeyi, tıpkı bir \"mic drop\" gibi...",
+          "Şimdi iyice eğil, tıpkı bir \"mic drop\" gibi...",
           "Belki tamamen senin olurum;",
-          "Ama diğer yandan, belki de olmam...",
-          "Uh-huh."
+          "Ama diğer yandan, belki de olmam... (Uh-huh)"
         ]
       },
       {
@@ -2426,25 +3868,22 @@
           "Don't get up in arms, my love",
           "I'm just tryna get a rise",
           "Let me try it on, my love",
-          "Try it out for a ride",
-          "Shopping at the window",
-          "Don't you want to come for a ride?",
-          "Well, so do I",
-          "I-I"
+          "Try it out before I buy",
+          "Shopping in the window",
+          "Don't you wanna take it for a ride?",
+          "Well, so do I (So do I)",
+          "Ah-ah"
         ]
       },
       {
         "original": false,
         "label": "Pre-Chorus: Daniela, Megan",
         "lines": [
-          "Hemen savunmaya geçme sevgilim,",
-          "Sadece seni biraz kışkırtmaya çalışıyorum.",
-          "İzin ver bir \"deneyeyim\" seni aşkım;",
-          "Şöyle bir tur binelim bakalım...",
-          "Vitrin alışverişi yapıyorum sanki;",
-          "Sen de bir tur atmak istemez misin?",
-          "Eh, ben de öyle düşünmüştüm...",
-          "Ben de..."
+          "Savunmaya geçme hemen sevgilim,",
+          "Sadece seni kışkırtıyorum...",
+          "Satın almadan önce bir tur binelim...",
+          "Vitrin alışverişindeyim sanki;",
+          "Hadi bir tura çıkalım..."
         ]
       },
       {
@@ -2452,36 +3891,33 @@
         "label": "Chorus: Sophia, Lara, Daniela, Sophia & Megan",
         "lines": [
           "You could be mine (Ooh), if you're lucky (Ooh)",
-          "You might even get the privilege to touch me, oh (Touch me)",
+          "You might even get the privilege to touch me, yeah (Touch me)",
           "That way (That way; Ooh), that way (That way; Ooh)",
           "That way",
           "Yeah, I could be yours (Ooh), come adore it (Ooh)",
-          "If it's hard to keep it up, baby, the door is (The door is)",
-          "That way (That way; Ooh), that way (That way; Ooh)",
-          "That way",
-          "Oh, ayy"
+          "If it's hard to keep it up, baby, the door is (The door is; Door is that way)",
+          "That way (Ooh), that way (Ooh)",
+          "That way, way (Woah)",
+          "Ooh-hey"
         ]
       },
       {
         "original": false,
         "label": "Chorus: Sophia, Lara, Daniela, Sophia & Megan",
         "lines": [
-          "Benim olabilirsin (Ooh), eğer şanslıysan tabii... (Ooh)",
+          "Benim olabilirsin, eğer şanslıysan...",
           "Hatta bana dokunma ayrıcalığına bile sahip olabilirsin;",
-          "İşte o şekilde... (Ooh)",
-          "İşte tam o şekilde...",
-          "Evet, ben senin olabilirim; gel ve hayran kal bu duruma.",
-          "Ama eğer buna ayak uydurmak zorsa senin için bebeğim;",
-          "Kapı işte tam orada!",
-          "O tarafta...",
-          "İşte o şekilde, evet."
+          "İşte o şekilde!",
+          "Evet, ben senin olabilirim; gel de bir hayran kal...",
+          "Ama ayak uyduramıyorsan bebeğim, kapı işte tam o tarafta!",
+          "O tarafta..."
         ]
       },
       {
         "original": true,
         "label": "Outro: Daniela, Yoonchae",
         "lines": [
-          "The, the, the door is that way, ah",
+          "The, the, the door is that way, uh-uh",
           "But if you want to stay",
           "Then you gotta touch me that way"
         ]
@@ -2490,7 +3926,7 @@
         "original": false,
         "label": "Outro: Daniela, Yoonchae",
         "lines": [
-          "Ka-ka-kapı işte o tarafta, ah!",
+          "Ka-ka-kapı işte o tarafta, uh-uh!",
           "Ama eğer kalmak istiyorsan;",
           "O zaman bana tam da o şekilde dokunmalısın..."
         ]
@@ -2498,29 +3934,29 @@
     ],
     "excerpt": "You could be mine (Ooh), if you're lucky (Ooh)",
     "annotations": {
-      "the door is that way": "¹“The door is that way”: Şarkının en \"savage\" dizesi. Eğer tempoya ayak uyduramıyorsan kapı orada, gitmekte özgürsün anlamında bir kovma ifadesi.",
-      "Shopping at the window": "²“Shopping at the window”: Partner adayını bir vitrindeki ürün gibi inceleme, tartma metaforu. Ciddiye almadan önce yapılan o \"eleme\" sürecini simgeliyor.",
-      "mic drop": "³“Mic Drop”: Mevzuyu bitiren, son noktayı koyan o meşhur hareket. Burada dansın veya çekimin zirve noktasını temsil ediyor."
+      "the door is that way": "Ayak uyduramıyorsan kapı orada, gidebilirsin anlamında doğrudan bir meydan okuma.",
+      "Shopping in the window": "Birini ciddi bir ilişkiye başlamadan önce inceleme ve değerlendirme metaforu.",
+      "mic drop": "Bir tartışmayı güçlü ve kesin bir hareketle bitirmeyi anlatan popüler kültür ifadesi."
     },
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": null,
+        "id": "2Pv93rSb7vy3yVOWkLQ7h4",
         "name": "That Way",
-        "url": null,
-        "isrc": null,
-        "durationMs": null,
-        "duration": null,
+        "url": "https://open.spotify.com/track/2Pv93rSb7vy3yVOWkLQ7h4",
+        "isrc": "USUM72602760",
+        "durationMs": 176241,
+        "duration": "2:56",
         "explicit": false,
         "popularity": null,
-        "trackNumber": 1,
+        "trackNumber": 5,
         "previewUrl": null
       },
       "artist": {
         "id": "3c0gDdb9lhnHGFtP4prQpn",
         "name": "KATSEYE",
         "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebe4892ff677f801f85814a02d",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb04ba72b2749f90d62152ebec",
         "genres": [],
         "popularity": null,
         "followers": null
@@ -2533,10 +3969,10 @@
         }
       ],
       "album": {
-        "id": null,
+        "id": "2d0AkZUJV30oIOJAeEyzC6",
         "name": "WILD",
-        "url": "https://music.apple.com/us/album/wild-ep/1891779764",
-        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
+        "url": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
         "artists": [
           {
             "id": "3c0gDdb9lhnHGFtP4prQpn",
@@ -2549,27 +3985,90 @@
         "albumType": "EP",
         "rawAlbumType": "single",
         "label": null,
-        "copyrights": [],
-        "totalTracks": 6,
-        "tracks": []
+        "copyrights": [
+          {
+            "text": "© 2026 HYBE UMG LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 HYBE UMG LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "3Llk4nt8zllnISDLmYvKi6",
+            "name": "PINKY UP",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 131437,
+            "duration": "2:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3Llk4nt8zllnISDLmYvKi6",
+            "isCurrent": false
+          },
+          {
+            "id": "7oWkK4yK2saSHAqMtcPVXI",
+            "name": "Animal",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 158494,
+            "duration": "2:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7oWkK4yK2saSHAqMtcPVXI",
+            "isCurrent": false
+          },
+          {
+            "id": "6oUUmBcUbZa5O48V5pjgAD",
+            "name": "Hootie Frutti",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140720,
+            "duration": "2:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6oUUmBcUbZa5O48V5pjgAD",
+            "isCurrent": false
+          },
+          {
+            "id": "6G38IZWN4qvVqxavzepr0I",
+            "name": "Bel Air",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 210498,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6G38IZWN4qvVqxavzepr0I",
+            "isCurrent": false
+          },
+          {
+            "id": "2Pv93rSb7vy3yVOWkLQ7h4",
+            "name": "That Way",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 176241,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Pv93rSb7vy3yVOWkLQ7h4",
+            "isCurrent": true
+          }
+        ]
       },
-      "fetchedAt": "2026-08-12T14:03:36.475Z",
-      "trackUrl": null,
-      "albumUrl": "https://music.apple.com/us/album/wild-ep/1891779764",
+      "fetchedAt": "2026-08-14T09:24:48.859Z",
+      "trackUrl": "https://open.spotify.com/track/2Pv93rSb7vy3yVOWkLQ7h4",
+      "albumUrl": "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
       "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
       "albumName": "WILD",
       "albumType": "EP",
       "releaseDate": "2026-08-14",
-      "duration": null,
-      "isrc": null,
+      "duration": "2:56",
+      "isrc": "USUM72602760",
       "label": null,
-      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg"
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba"
     },
     "genius": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=DgFemuNxBrk",
     "source": "ai-studio-spotify-youtube",
-    "releaseStatus": "14 Ağustos 2026'da yayımlanacak",
-    "performanceSource": "Klub KATSEYE · Spotify canlı performansı",
     "appleMusicUrl": "https://music.apple.com/us/song/that-way/1891779779",
     "seo": {
       "title": "KATSEYE That Way Türkçe Çeviri",

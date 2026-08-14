@@ -156,6 +156,14 @@ function parseKworbTitle(raw) {
   return { title, artist };
 }
 
+function trackKey(entry) {
+  return `${entry.artist || ""}\u0000${entry.title || ""}`
+    .normalize("NFKC")
+    .toLocaleLowerCase("en-US")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 async function fetchSpotifyGlobalFallback() {
   const res = await fetchWithTimeout("https://kworb.net/spotify/country/global_daily.html", {
     headers: { "User-Agent": UA, Accept: "text/html" },
@@ -261,8 +269,13 @@ export async function updateCharts({ spotify, write = true } = {}) {
       continue;
     }
     try {
+      const previousByTrack = new Map(list.entries.map((entry) => [trackKey(entry), entry]));
       const entries = await withTimeout(fetcher(), list.name);
-      list.entries = await enrichEntriesWithSpotify(entries, spotify);
+      const enrichedEntries = await enrichEntriesWithSpotify(entries, spotify);
+      list.entries = enrichedEntries.map((entry) => {
+        const previous = previousByTrack.get(trackKey(entry));
+        return previous ? { ...previous, ...entry } : entry;
+      });
       changed = true;
       summary.push({
         id: list.id,
