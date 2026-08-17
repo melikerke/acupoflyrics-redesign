@@ -79,6 +79,7 @@ function compactSpotify(spotify = {}) {
   const track = spotify.track || {};
   const artist = spotify.artist || {};
   const album = spotify.album || {};
+  const albumArtist = album.artists?.[0] || {};
   return {
     trackUrl: track.url || spotify.trackUrl,
     albumUrl: album.url || spotify.albumUrl,
@@ -89,30 +90,12 @@ function compactSpotify(spotify = {}) {
     duration: track.duration || spotify.duration,
     albumType: album.albumType || spotify.albumType,
     label: album.label || spotify.label,
-    track: {
-      url: track.url,
-      isrc: track.isrc,
-      duration: track.duration,
-      previewUrl: track.previewUrl,
-      trackNumber: track.trackNumber,
-    },
-    artist: {
-      name: artist.name,
-      url: artist.url,
-      image: artist.image,
-    },
-    album: {
-      name: album.name,
-      url: album.url,
-      cover: album.cover,
-      artists: (album.artists || []).map((albumArtist) => ({
-        name: albumArtist.name,
-        url: albumArtist.url,
-      })),
-      releaseDate: album.releaseDate,
-      albumType: album.albumType,
-      label: album.label,
-    },
+    trackNumber: track.trackNumber,
+    totalTracks: album.totalTracks,
+    artistName: artist.name,
+    artistImage: artist.image,
+    artistGenres: artist.genres,
+    albumArtist: albumArtist.name,
   };
 }
 
@@ -131,10 +114,9 @@ const index = posts.map((post) => ({
   spotify: compactSpotify(post.spotify),
   // seo/oldUrl intentionally omitted — only the prerender script needs them,
   // and it reads src/data/posts.json directly. Keeps the JS bundle slim.
-  youtubeUrl: post.youtubeUrl,
-  youtubeEmbedDisabled: Boolean(post.youtubeEmbedDisabled),
-  annotations: post.annotations,
-  difficulty_note: post.difficulty_note,
+  // Video, annotations and translator notes live in the per-song JSON. They
+  // are not needed to build archive cards and would otherwise ship on every
+  // route for all 500+ songs.
   moods: moodsForPost(post),
   firstPair: firstPair(post),
   heroPair: heroPair(post),

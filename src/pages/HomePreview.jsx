@@ -22,6 +22,7 @@ import {
   songOfTheDay,
 } from "../lib/content";
 import { useAlbumColor } from "../lib/color";
+import { spotifyImageUrl } from "../lib/images";
 import { getHistory, LIBRARY_CHANGE_EVENT } from "../lib/history";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
@@ -45,6 +46,18 @@ function PlayIcon() {
     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
       <path d="M8 5v14l11-7z" />
     </svg>
+  );
+}
+
+function CoverImage({ src, target = 300, width = target, height = target, ...props }) {
+  return (
+    <img
+      src={spotifyImageUrl(src, target)}
+      width={width}
+      height={height}
+      decoding="async"
+      {...props}
+    />
   );
 }
 
@@ -89,8 +102,8 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
         ? "is-long"
         : "";
   const album = post.spotify?.albumName || post.categories?.[1] || "Tekli";
-  const year = (post.spotify?.releaseDate || post.date || "").slice(0, 4);
-  const spotifyUrl = post.spotify?.track?.url || post.spotify?.trackUrl;
+  const year = releaseYear(post);
+  const spotifyUrl = post.spotify?.trackUrl;
   const previous = () => onSelect((activeIndex - 1 + posts.length) % posts.length);
   const next = () => onSelect((activeIndex + 1) % posts.length);
 
@@ -104,7 +117,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
         if (!event.currentTarget.contains(event.relatedTarget)) onPauseChange(false);
       }}
     >
-      <img key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} alt="" aria-hidden fetchpriority="high" decoding="async" />
+      <CoverImage key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} target={300} alt="" aria-hidden fetchPriority="high" />
       <div className="acl-hero-vignette" aria-hidden />
       <div key={`copy-${post.slug}`} className={`acl-hero-copy ${titleClass}`}>
         <div className="acl-kicker">
@@ -128,7 +141,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
         </div>
       </div>
       <Link key={`art-${post.slug}`} to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
-        <img src={post.cover} alt={`${post.artist} - ${post.song}`} fetchpriority="high" decoding="async" />
+        <CoverImage src={post.cover} target={300} alt={`${post.artist} - ${post.song}`} fetchPriority="high" />
       </Link>
       <div className="acl-hero-count" role="group" aria-label="Haftanın çevirisi slaytları">
         <button type="button" onClick={previous} aria-label="Önceki çeviri">
@@ -167,7 +180,7 @@ function PopNewsBanner({ article }) {
         style={{ "--pop-accent": article.accent || "var(--acl-accent)" }}
       >
         <span className="acl-news-banner-image" aria-hidden>
-          <img src={article.image} alt="" loading="lazy" />
+          <CoverImage src={article.image} target={300} alt="" loading="lazy" />
         </span>
         <span className="acl-news-banner-copy">
           <span className="acl-news-banner-kicker">Şu an neler oluyor?</span>
@@ -204,7 +217,7 @@ function RisingSongFeature({ post, article }) {
     <section className="acl-rising-section" aria-label="Günün yükselen şarkısı">
       <div className="acl-rising-card" style={{ "--pop-accent": relatedArticle?.accent || "var(--acl-accent)" }}>
         <Link to={postPath(post)} className="acl-rising-cover" aria-label={`${post.artist} ${post.song} çevirisi`}>
-          <img src={post.cover} alt={`${post.artist} - ${post.song}`} loading="lazy" />
+          <CoverImage src={post.cover} target={300} alt={`${post.artist} - ${post.song}`} loading="lazy" />
         </Link>
         <div className="acl-rising-copy">
           <span className="acl-rising-kicker">Günün yükselen şarkısı</span>
@@ -228,7 +241,7 @@ function TranslationCard({ post }) {
   const metrics = metricsFor(post);
   return (
     <Link to={postPath(post)} className="acl-cover-card">
-      <img src={post.cover} alt={`${post.artist} - ${post.song}`} loading="lazy" />
+      <CoverImage src={post.cover} target={300} alt={`${post.artist} - ${post.song}`} loading="lazy" />
       <strong>{post.song}</strong>
       <span>{post.artist}</span>
       <small>{metrics.readingTime} dk okuma · {releaseYear(post)}</small>
@@ -301,7 +314,7 @@ function RankedSection({ newest, updated }) {
         {items.slice(0, 6).map((p, index) => (
           <Link to={postPath(p)} className="acl-rank-card" key={p.slug} style={{ display: "flex", alignItems: "center", gap: "12px", padding: "12px", borderRadius: "12px", border: "1px solid var(--acl-border)", background: "var(--acl-card)", textDecoration: "none", color: "inherit", transition: "transform 0.2s" }}>
             <span style={{ fontSize: "16px", fontWeight: "400", color: "var(--acl-accent)", minWidth: "36px", textAlign: "center", whiteSpace: "nowrap" }}>#{index + 1}</span>
-            <img src={p.cover} alt="" loading="lazy" style={{ width: "52px", height: "52px", borderRadius: "8px", objectFit: "cover", flexShrink: 0 }} />
+            <CoverImage src={p.cover} target={64} width={52} height={52} alt="" loading="lazy" style={{ width: "52px", height: "52px", borderRadius: "8px", objectFit: "cover", flexShrink: 0 }} />
             <div style={{ minWidth: 0 }}>
               <strong style={{ display: "block", fontSize: "14px", fontWeight: "500", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{p.song}</strong>
               <span style={{ display: "block", fontSize: "12px", color: "var(--acl-muted)", marginTop: "2px" }}>{p.artist}</span>
@@ -364,7 +377,7 @@ function AlbumShelf({ items }) {
       <div className="acl-album-row">
         {items.slice(0, 8).map((album) => (
           <Link to={albumPath(album)} className="acl-album-card" key={album.slug}>
-            <img src={album.cover} alt="" loading="lazy" />
+            <CoverImage src={album.cover} target={300} alt="" loading="lazy" />
             <div>
               <strong>{album.name}</strong>
               <span>{album.artist}</span>
@@ -385,7 +398,7 @@ function CollectionsSection({ items }) {
         {items.slice(0, 12).map((collection) => (
           <Link to={collectionPath(collection)} className="acl-collection-card" key={collection.slug}>
             <div className="acl-collection-covers">
-              {collection.items.slice(0, 4).map((post) => <img key={post.slug} src={post.cover} alt="" loading="lazy" />)}
+              {collection.items.slice(0, 4).map((post) => <CoverImage key={post.slug} src={post.cover} target={300} alt="" loading="lazy" />)}
             </div>
             <strong>{collection.name}</strong>
             <span>{collection.count || collection.items.length} çeviri</span>
@@ -402,7 +415,7 @@ function ArtistSpotlight({ artist }) {
   return (
     <section className="acl-section">
       <div className="acl-spotlight">
-        <img className="acl-spotlight-bg" src={main.cover} alt="" aria-hidden />
+        <CoverImage className="acl-spotlight-bg" src={main.cover} target={300} alt="" aria-hidden loading="lazy" />
         <div className="acl-spotlight-copy">
           <span lang="en">Artist Spotlight</span>
           <h2 className="font-serif">{artist.name}</h2>
@@ -412,7 +425,7 @@ function ArtistSpotlight({ artist }) {
         <div className="acl-spotlight-songs">
           {artist.posts.slice(0, 4).map((post) => (
             <Link key={post.slug} to={postPath(post)}>
-              <img src={post.cover} alt="" loading="lazy" />
+              <CoverImage src={post.cover} target={64} alt="" loading="lazy" />
               <span>{post.song}</span>
             </Link>
           ))}
@@ -427,7 +440,7 @@ function MagazineSplit({ quote, day }) {
     <section className="acl-section">
       <div className="acl-magazine-split">
         <Link to={postPath(day)} className="acl-day-card">
-          <img src={day.cover} alt="" loading="lazy" />
+          <CoverImage src={day.cover} target={300} alt="" loading="lazy" />
           <div>
             <span>Günün Şarkısı</span>
             <h2 className="font-serif">{day.song}</h2>
@@ -461,9 +474,9 @@ function ExploreGrid({ title, groups, type }) {
             <Link to={pathFor(group)} className="acl-chip-card" key={group.slug}>
               {covers.length > 0 ? (
                 <div className="acl-chip-covers" aria-hidden>
-                  {covers.map((cover, index) => <img key={`${cover}-${index}`} src={cover} alt="" loading="lazy" />)}
+                  {covers.map((cover, index) => <CoverImage key={`${cover}-${index}`} src={cover} target={300} alt="" loading="lazy" />)}
                 </div>
-              ) : group.cover ? <img src={group.cover} alt="" loading="lazy" /> : null}
+              ) : group.cover ? <CoverImage src={group.cover} target={300} alt="" loading="lazy" /> : null}
               <span>{group.name}</span>
               <small>{group.count ?? group.items.length} çeviri</small>
             </Link>
@@ -482,7 +495,7 @@ function ArtistGrid({ items }) {
       <div className="acl-artist-grid">
         {items.slice(0, 10).map((artist) => (
           <Link to={artistPath(artist)} className="acl-artist-card" key={artist.slug}>
-            <img src={artist.cover} alt="" loading="lazy" />
+            <CoverImage src={artist.cover} target={300} alt="" loading="lazy" />
             <strong>{artist.name}</strong>
             <span>{artist.count} çeviri</span>
           </Link>
@@ -533,7 +546,7 @@ export default function HomePreview() {
   const [heroPaused, setHeroPaused] = useState(false);
   const [recentHistory, setRecentHistory] = useState(() => getHistory());
   const activeHero = heroPosts[heroIndex] || heroPosts[0];
-  const color = useAlbumColor(activeHero?.cover, [36, 22, 20]);
+  const color = useAlbumColor(spotifyImageUrl(activeHero?.cover, 64), [36, 22, 20]);
   const theme = useMemo(() => themeFromColor(color), [color]);
 
   useSeo({

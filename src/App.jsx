@@ -1,6 +1,5 @@
 import { lazy, Suspense, useEffect, useState, Component } from "react";
 import { Navigate, Routes, Route, useLocation } from "react-router-dom";
-import Loader from "./components/Loader";
 import ConsentBanner from "./components/ConsentBanner";
 import { installOutboundClickTracking, trackPageView } from "./lib/analytics";
 
@@ -97,7 +96,6 @@ export default function App() {
 
   return (
     <>
-      <Loader />
       <ConsentBanner />
       <Suspense fallback={<RouteFallback />}>
         {searchOpen && (

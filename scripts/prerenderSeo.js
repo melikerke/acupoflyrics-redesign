@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { translationMetaDescription } from "../src/lib/meta.js";
+import { spotifyImageUrl } from "../src/lib/images.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
@@ -151,7 +152,7 @@ function staticPage({ kicker, title, description, image, children = "" }) {
         ${kicker ? `<p class="seo-kicker">${escapeHtml(kicker)}</p>` : ""}
         <h1>${escapeHtml(title)}</h1>
         ${description ? `<p class="seo-description">${escapeHtml(description)}</p>` : ""}
-        ${image ? `<img class="seo-cover" src="${escapeHtml(image)}" alt="" />` : ""}
+        ${image ? `<img class="seo-cover" src="${escapeHtml(spotifyImageUrl(image, 300))}" width="300" height="300" fetchpriority="high" decoding="async" alt="" />` : ""}
         ${children}
       </article>
     </main>

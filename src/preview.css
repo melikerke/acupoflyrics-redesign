@@ -16,6 +16,15 @@
   font-family: var(--font-sans);
 }
 
+/* Long editorial shelves stay in the document for SEO and accessibility, but
+   the browser can skip their paint/layout work until they approach view. */
+.acl-main-column > .acl-section,
+.acl-main-column > .acl-news-banner-section,
+.acl-main-column > .acl-rising-section {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 620px;
+}
+
 .acl-home::before {
   content: "";
   position: fixed;

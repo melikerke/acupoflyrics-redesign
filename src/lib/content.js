@@ -192,11 +192,11 @@ export function getArtist(slug) {
   const latestRelease = [...list].sort(
     (a, b) => new Date(releaseDateOf(b)) - new Date(releaseDateOf(a)),
   )[0];
-  const matchingSpotifyArtist = list.find((post) => (
-    post.spotify?.artist?.image
-    && post.spotify?.artist?.name?.trim().toLowerCase() === name.trim().toLowerCase()
-  ))?.spotify?.artist;
-  const image = matchingSpotifyArtist?.image || meta?.image || list[0]?.cover;
+  const matchingSpotifyPost = list.find((post) => (
+    post.spotify?.artistImage
+    && post.spotify?.artistName?.trim().toLowerCase() === name.trim().toLowerCase()
+  ));
+  const image = matchingSpotifyPost?.spotify?.artistImage || meta?.image || list[0]?.cover;
   return {
     name,
     slug,
@@ -205,7 +205,7 @@ export function getArtist(slug) {
     recent: sortedByDate,
     albums,
     latestRelease,
-    spotifyUrl: matchingSpotifyArtist?.url,
+    spotifyUrl: matchingSpotifyPost?.spotify?.artistUrl,
     count: list.length,
   };
 }
@@ -308,7 +308,7 @@ function compactTitle(value) {
 }
 
 export function genreFor(post) {
-  const spotifyGenres = post.spotify?.artist?.genres || [];
+  const spotifyGenres = post.spotify?.artistGenres || post.spotify?.artist?.genres || [];
   const joined = spotifyGenres.join(" ").toLowerCase();
   if (isKpop(post) || joined.includes("k-pop")) return "K-pop";
   if (joined.includes("hip hop") || joined.includes("rap") || includesArtist(post, RAP)) return "Hip Hop";
@@ -341,7 +341,7 @@ export function formatNumber(value) {
 }
 
 export function releaseYear(post) {
-  const d = post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date || "";
+  const d = post.spotify?.releaseDate || post.spotify?.album?.release_date || post.date || "";
   // post.date is RFC-2822 ("Fri, 31 Jan 2025 …"), Spotify dates are ISO — parse
   // both rather than slicing, which only works for ISO.
   const parsed = new Date(d);
@@ -350,11 +350,18 @@ export function releaseYear(post) {
 }
 
 export function albumNameFor(post) {
-  return compactTitle(post.spotify?.album?.name || post.spotify?.albumName || post.categories?.[1] || "Tekli");
+  return compactTitle(post.spotify?.albumName || post.spotify?.album?.name || post.categories?.[1] || "Tekli");
 }
 
 export function albumArtistFor(post) {
-  return compactTitle(post.spotify?.album?.artists?.[0]?.name || post.spotify?.artist?.name || post.artist || "");
+  return compactTitle(
+    post.spotify?.albumArtist
+      || post.spotify?.album?.artist
+      || post.spotify?.artistName
+      || post.spotify?.artist?.name
+      || post.artist
+      || "",
+  );
 }
 
 export function albumArtistSlugFor(post) {
@@ -383,9 +390,9 @@ export const albumShelf = (() => {
       slug: albumSlugFor(`${artist}-${name}`),
       name,
       artist,
-      cover: p.spotify?.album?.cover || p.spotify?.coverUrl || p.cover,
-      releaseDate: p.spotify?.album?.releaseDate || p.spotify?.releaseDate || p.date,
-      spotifyUrl: p.spotify?.album?.url || p.spotify?.albumUrl,
+      cover: p.spotify?.coverUrl || p.cover,
+      releaseDate: p.spotify?.releaseDate || p.date,
+      spotifyUrl: p.spotify?.albumUrl,
       tracks: current ? [...current.tracks, p] : [p],
     };
     map.set(key, current ? { ...current, tracks: item.tracks } : item);
@@ -521,7 +528,7 @@ export function formatDate(d) {
 // ===================================================================
 
 export function releaseDateOf(post) {
-  return post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date;
+  return post.spotify?.releaseDate || post.spotify?.album?.release_date || post.date;
 }
 
 // Total reading minutes across a set of posts.
@@ -547,7 +554,8 @@ export function sortPosts(posts, sort) {
       return arr.sort(
         (a, b) =>
           albumNameFor(a).localeCompare(albumNameFor(b), "tr") ||
-          (a.spotify?.track?.trackNumber ?? 0) - (b.spotify?.track?.trackNumber ?? 0),
+          (a.spotify?.trackNumber ?? a.spotify?.track?.track_number ?? 0)
+          - (b.spotify?.trackNumber ?? b.spotify?.track?.track_number ?? 0),
       );
     case "alpha":
       return arr.sort((a, b) => a.song.localeCompare(b.song, "tr"));
@@ -578,21 +586,21 @@ export const albumIndex = (() => {
       name,
       artist,
       artistSlug,
-      cover: p.spotify?.album?.cover || p.spotify?.coverUrl || p.cover,
+      cover: p.spotify?.coverUrl || p.cover,
       releaseDate: releaseDateOf(p),
       year: releaseYear(p),
-      spotifyUrl: p.spotify?.album?.url || p.spotify?.albumUrl,
-      albumType: p.spotify?.album?.albumType || p.spotify?.albumType || "album",
-      label: p.spotify?.album?.label || p.spotify?.label,
-      totalTracks: p.spotify?.album?.totalTracks,
+      spotifyUrl: p.spotify?.albumUrl,
+      albumType: p.spotify?.albumType || "album",
+      label: p.spotify?.label,
+      totalTracks: p.spotify?.totalTracks,
       tracks: [p],
     });
   }
   // Keep each album's tracks in album-track order when we have it, else by date.
   for (const album of map.values()) {
     album.tracks.sort((a, b) => {
-      const ta = a.spotify?.track?.trackNumber ?? 999;
-      const tb = b.spotify?.track?.trackNumber ?? 999;
+      const ta = a.spotify?.trackNumber ?? a.spotify?.track?.track_number ?? 999;
+      const tb = b.spotify?.trackNumber ?? b.spotify?.track?.track_number ?? 999;
       if (ta !== tb) return ta - tb;
       return new Date(releaseDateOf(a)) - new Date(releaseDateOf(b));
     });
@@ -752,7 +760,7 @@ export function getGenre(slug) {
     const seen = new Map();
     for (const p of items) {
       const s = primaryArtistSlug(p);
-      if (!seen.has(s)) seen.set(s, { slug: s, name: p.artist, cover: p.spotify?.artist?.image || p.cover, count: 0 });
+      if (!seen.has(s)) seen.set(s, { slug: s, name: p.artist, cover: p.spotify?.artistImage || p.cover, count: 0 });
       seen.get(s).count += 1;
     }
     return [...seen.values()].sort((a, b) => b.count - a.count).slice(0, 8);

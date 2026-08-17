@@ -82,6 +82,9 @@ export function setAnalyticsConsent(granted) {
   });
 
   if (granted) {
+    // Analytics is deliberately kept out of the critical rendering path.
+    // The queued consent/page-view events are delivered once GTM is ready.
+    window.aclLoadAnalytics?.();
     trackPageView(`${window.location.pathname}${window.location.search}`);
     trackEvent("consent_update", { analytics_consent: "granted" });
   }

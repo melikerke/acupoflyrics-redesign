@@ -9,7 +9,8 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://i.scdn.co" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
     <!-- Google Consent Mode v2 + Google Tag Manager -->
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -30,17 +31,36 @@
       })();
     </script>
     <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
-      new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
-      "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,"script","dataLayer","GTM-52NLCJFG");
+      (function () {
+        window.aclLoadAnalytics = function () {
+          if (window.__aclAnalyticsLoading) return;
+          window.__aclAnalyticsLoading = true;
+          window.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var firstScript = document.getElementsByTagName("script")[0];
+          var tag = document.createElement("script");
+          tag.async = true;
+          tag.src = "https://www.googletagmanager.com/gtm.js?id=GTM-52NLCJFG";
+          firstScript.parentNode.insertBefore(tag, firstScript);
+        };
+
+        var storedConsent = null;
+        try { storedConsent = window.localStorage.getItem("acl_analytics_consent_v1"); } catch (_) {}
+        if (storedConsent === "granted") {
+          var scheduleAnalytics = function () {
+            if ("requestIdleCallback" in window) {
+              window.requestIdleCallback(window.aclLoadAnalytics, { timeout: 3500 });
+            } else {
+              window.setTimeout(window.aclLoadAnalytics, 1800);
+            }
+          };
+          if (document.readyState === "complete") scheduleAnalytics();
+          else window.addEventListener("load", scheduleAnalytics, { once: true });
+        }
+      })();
     </script>
     <!-- End Google Tag Manager -->
   </head>
   <body>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52NLCJFG"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
