@@ -1,5 +1,933 @@
 [
   {
+    "id": "5233",
+    "title": "ATEEZ BAD Türkçe Çeviri",
+    "song": "BAD",
+    "slug": "ateez-bad-turkce-ceviri",
+    "date": "2026-08-17T08:18:04.003Z",
+    "artist": "ATEEZ",
+    "categories": [
+      "ATEEZ",
+      "GOLDEN HOUR : Part.5"
+    ],
+    "category_slugs": [
+      "ateez",
+      "golden-hour-part-5"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Seonghwa, Yunho, San, Wooyoung",
+        "lines": [
+          "Your name stuck on my tongue",
+          "No words but say too much",
+          "Every time I wanna go and get gone",
+          "You stop me with one touch",
+          "eojireowo neoui geu miso",
+          "nuni meoreo, stuck in your halo",
+          "ppajyeobeoryeo nan ije poro",
+          "I feel like if we go Latina like, like",
+          "Curves along her body",
+          "Got the people calling it Photoshop",
+          "She will be going places",
+          "Wake up in Vegas, nah, she does not stop",
+          "hollyeonne mak adeukhae",
+          "nado molla eotteokhae",
+          "nege ppajyeo heoujeokdae",
+          "heoujeokdae heoujeokdae"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Seonghwa, Yunho, San, Wooyoung",
+        "lines": [
+          "İsmin dilime dolanmış,",
+          "Kelime yok ama sessizliğin çok şey anlatıyor...",
+          "Ne zaman çekip gitmek istesem,",
+          "Tek bir dokunuşunla durduruyorsun beni.",
+          "Başım dönüyor o gülüşünle,",
+          "Gözlerim kamaştı, ışığına takılı kaldım.",
+          "Esirin oldum, düştüm tuzağına...",
+          "Sanki bir Latina rüzgârına kapılmışız gibi...",
+          "Vücut hatlarını görenler,",
+          "Bunun Photoshop olduğunu sanıyor.",
+          "O çok yerlere gidecek;",
+          "Bir bakmışsın Vegasta uyanmış, dur durak bilmiyor.",
+          "Büyüledi beni, aklım başımdan gitti;",
+          "Ne yapacağım ben?",
+          "Sana kapıldım, çırpındıkça batıyorum...",
+          "Çırpınıyorum, çırpınıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yeosang, San, All, Hongjoong, Jongho, Wooyoung",
+        "lines": [
+          "She is so bad, bad, bad, bad, bad, bad, bad",
+          "She is so bad, run it all night solo",
+          "Bad, bad, bad, bad, bad, bad, bad",
+          "She is so bad, run it all night solo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yeosang, San, All, Hongjoong, Jongho, Wooyoung",
+        "lines": [
+          "Öyle fena ki bu kız, çok fena!",
+          "Öyle fena; tüm gece tek başına dur durak bilmeden!",
+          "Fena, çok fena...",
+          "Öyle fena ki!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Mingi, Hongjoong",
+        "lines": [
+          "Tú me tienes loco",
+          "Toda la noche, loco contigo",
+          "Wild when you tease, tan lento",
+          "Ritmo peligroso",
+          "jjarithaeseo nan brr",
+          "tteollyeo neon hyanggiroun amiga",
+          "Bella figura, got that peso",
+          "michyeobeoryeo, olé, mi Dios, so bad",
+          "She way too fine for the room",
+          "But you know that I am a real VIP member",
+          "I do not even smoke, I do not, ooh",
+          "But she rolling so classic like a Cohiba Cuban",
+          "Her voice in my head, that is all I wanna hear",
+          "Got me writing poems, in my zone, Shakespeare",
+          "Caught in her web, she a spidey",
+          "cheongyanggochu vibe, she spicy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Mingi, Hongjoong",
+        "lines": [
+          "Beni kendine delirttin;",
+          "Tüm gece seninle aklımı yitirdim.",
+          "Beni çok yavaş kışkırtman vahşice;",
+          "Tehlikeli bir ritim bu...",
+          "Öyle heyecan verici ki titriyorum resmen;",
+          "Mis kokulu bir amigasın sen.",
+          "Kusursuz bir endam, büyük bir servet...",
+          "Çıldırıyorum; aman Tanrım, öyle fenasın ki!",
+          "Burası için fazla güzelsin,",
+          "Ama biliyorsun; ben burada harbi bir VIP üyeyim.",
+          "Sigara bile kullanmam aslında ama,",
+          "O en lüks Küba purosu kadar klas...",
+          "Zihnimde sadece onun sesi; tek duymak istediğim bu.",
+          "Bana şiirler yazdırıyor, kendi dünyamda bir Shakespeare gibiyim.",
+          "Ağına düştüm bir örümcek gibi;",
+          "Kore usulü acı bir havası var, çok yakıcı!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yunho, Mingi, San, All, Hongjoong, Wooyoung, Jongho",
+        "lines": [
+          "She is so bad, bad, bad, bad, bad, bad, bad",
+          "She is so bad, run it all night solo",
+          "Bad, bad, bad, bad, bad, bad, bad",
+          "She is so bad, run it all night solo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yunho, Mingi, San, All, Hongjoong, Wooyoung, Jongho",
+        "lines": [
+          "Öyle fena ki bu kız, çok fena!",
+          "Öyle fena; tüm gece tek başına dur durak bilmeden!",
+          "Fena, çok fena...",
+          "Öyle fena ki!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Wooyoung, Jongho",
+        "lines": [
+          "Yeah, she is so used to all them flashes, Mona Lisa",
+          "The way she is dancing looking red, hot señorita",
+          "nan neoman barae naega chatdeon euphoria",
+          "neoege bachiri naui la victoria"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Wooyoung, Jongho",
+        "lines": [
+          "Evet, o tüm o flaşlara alışık; tam bir Mona Lisa...",
+          "Dans edişi ateş gibi; ateşli bir señorita...",
+          "Tek dileğim sensin, aradığım o cennet;",
+          "Tüm zaferlerimi sana adayacağım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Seonghwa, San, Yeosang, Yunho",
+        "lines": [
+          "She is so bad",
+          "She is so bad",
+          "She is so bad every day, way she is moving up the tempo",
+          "Switching up the pace, love the way she is going loco"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Seonghwa, San, Yeosang, Yunho",
+        "lines": [
+          "Öyle fena ki...",
+          "Öyle fena!",
+          "Her gün öyle fena ki; tempoyu nasıl da yükseltiyor...",
+          "Adımlarını değiştiriyor, delirişine bayılıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: San",
+        "lines": [
+          "Yo",
+          "I feel like if we go Latina like, like",
+          "Yo",
+          "Yo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: San",
+        "lines": [
+          "Yo!",
+          "Sanki bir Latina rüzgârına kapılmışız gibi...",
+          "Yo!",
+          "Yo!"
+        ]
+      }
+    ],
+    "excerpt": "Your name stuck on my tongue",
+    "annotations": {
+      "BAD": "Buradaki bad, kötü anlamında değil; karşı konulamayacak kadar çekici ve tehlikeli görünen biri için kullanılan bir övgü.",
+      "Cohiba": "Prestij ve lüksle özdeşleşen Küba purosu markası; kadının klas aurasını betimliyor.",
+      "cheongyanggochu": "Kore mutfağındaki çok acı bir biber türü. Şarkıda yakıcı cazibenin metaforu.",
+      "euphoria / la victoria": "Euphoria mutluluk sarhoşluğunu, la victoria ise zaferi anlatıyor."
+    },
+    "difficulty_note": "Korece dizeler Latin alfabesiyle romanize edildi; İngilizce ve İspanyolca ifadelerin çok dilli akışı korundu.",
+    "spotify": {
+      "track": {
+        "id": "55UDXtbNJBAdTdUdbRu8T3",
+        "name": "BAD",
+        "url": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+        "isrc": "KRD442600010",
+        "durationMs": 156034,
+        "duration": "2:36",
+        "explicit": false,
+        "trackNumber": 1
+      },
+      "artist": {
+        "id": "68KmkJeZGfwe1OUaivBa2L",
+        "name": "ATEEZ",
+        "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
+      },
+      "artists": [
+        {
+          "id": "68KmkJeZGfwe1OUaivBa2L",
+          "name": "ATEEZ",
+          "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L"
+        }
+      ],
+      "album": {
+        "id": "6Eg6B1mgGj2dGLBajzsVpV",
+        "name": "GOLDEN HOUR : Part.5",
+        "url": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+        "releaseDate": "2026-06-26",
+        "albumType": "EP",
+        "totalTracks": 5
+      },
+      "trackUrl": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+      "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "GOLDEN HOUR : Part.5",
+      "albumType": "EP",
+      "releaseDate": "2026-06-26",
+      "duration": "2:36",
+      "isrc": "KRD442600010",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=-q_S27LbNKU",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "ATEEZ BAD Türkçe Çeviri",
+      "description": "ATEEZ – BAD şarkı sözleri, romanizasyonu ve özenli Türkçe çevirisi. GOLDEN HOUR : Part.5 parçasının anlamını ve kültürel notlarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/ateez-bad-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5232",
+    "title": "Ayra Starr, ZAYN Heaven Baby Türkçe Çeviri",
+    "song": "Heaven Baby",
+    "slug": "ayra-starr-zayn-heaven-baby-turkce-ceviri",
+    "date": "2026-08-17T08:18:04.002Z",
+    "artist": "Ayra Starr, ZAYN",
+    "categories": [
+      "Ayra Starr",
+      "ZAYN",
+      "Starrgirl"
+    ],
+    "category_slugs": [
+      "ayra-starr",
+      "zayn",
+      "starrgirl"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Ayra Starr",
+        "lines": [
+          "I know how far I go, I wish you did",
+          "But if I told you, could you comprehend?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Ayra Starr",
+        "lines": [
+          "Ne kadar ileri gidebileceğimi ben biliyorum, keşke sen de bilseydin;",
+          "Ama sana anlatsaydım, bunu kavrayabilir miydin?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Ayra Starr",
+        "lines": [
+          "They say, When you know, you know, you know",
+          "Hello, hello, hello, you had me at hello",
+          "They say life is short, I know that is for sure",
+          "But looking at you, I know that there is something more"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Ayra Starr",
+        "lines": [
+          "Oldu mu anlarsın işte, derler hep;",
+          "Selam, selam... Daha o ilk selamında bağladın beni kendine.",
+          "Hayat kısa derler, buna eminim;",
+          "Ama sana baktığımda hayattan çok daha fazlası olduğunu biliyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ayra Starr",
+        "lines": [
+          "You could be my heaven, baby",
+          "Die for you if you let me, baby",
+          "You are an angel, goddammit, baby",
+          "If you ever left this planet, baby",
+          "Could not manage, baby",
+          "Are you heaven, baby?",
+          "Life without you is insanity",
+          "You are an angel, you do not need no wings",
+          "If you ever left this planet, baby",
+          "Could not manage, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ayra Starr",
+        "lines": [
+          "Benim cennetim olabilirsin bebeğim;",
+          "İzin verirsen senin uğruna ölürüm bebeğim.",
+          "Tam bir meleksin, kahretsin bebeğim;",
+          "Eğer bir gün bu gezegeni terk edersen bebeğim,",
+          "Bununla asla başa çıkamam.",
+          "Sen cennet misin bebeğim?",
+          "Sensiz bir hayat tam bir delilik...",
+          "Sen bir meleksin, kanatlara bile ihtiyacın yok;",
+          "Eğer bir gün bu gezegeni terk edersen bebeğim,",
+          "Asla idare edemem."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: ZAYN",
+        "lines": [
+          "You know how far I would go? It is past the sky",
+          "You tell me jump, I jump, just say how high"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: ZAYN",
+        "lines": [
+          "Benim ne kadar ileri gidebileceğimi biliyor musun? Gökyüzünün de ötesine!",
+          "Bana atla de, atlarım; sadece ne kadar yükseğe olduğunu söyle yeter."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: ZAYN",
+        "lines": [
+          "They say, When you know, you know, you know",
+          "Hello, hello, hello, you had me at hello",
+          "They say life is short, I know that is for sure",
+          "But looking at you, I know that there is something more"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: ZAYN",
+        "lines": [
+          "Oldu mu anlarsın işte, derler;",
+          "Selam, selam... Daha o ilk selamında beni benden aldın.",
+          "Hayat kısa, buna eminim;",
+          "Ama sana baktığımda bu hayattan çok daha fazlası olduğunu görüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ayra Starr & ZAYN",
+        "lines": [
+          "You could be my heaven, baby",
+          "Die for you if you let me, baby",
+          "You are an angel, goddammit, baby",
+          "If you ever left this planet, baby",
+          "Could not manage, baby",
+          "Are you heaven, baby?",
+          "Life without you is insanity",
+          "You are an angel, you do not need no wings",
+          "If you ever left this planet, baby",
+          "Could not manage, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ayra Starr & ZAYN",
+        "lines": [
+          "Benim cennetim olabilirsin bebeğim;",
+          "İzin verirsen senin uğruna ölürüm bebeğim.",
+          "Tam bir meleksin, kahretsin bebeğim;",
+          "Eğer bir gün bu gezegeni terk edersen bebeğim,",
+          "Bununla asla başa çıkamam.",
+          "Sen cennet misin bebeğim?",
+          "Sensiz bir hayat tam bir delilik...",
+          "Sen bir meleksin, kanatlara bile ihtiyacın yok;",
+          "Eğer bir gün bu gezegeni terk edersen bebeğim,",
+          "Asla idare edemem."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: ZAYN & Ayra Starr",
+        "lines": [
+          "Ooh, could not manage",
+          "Ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: ZAYN & Ayra Starr",
+        "lines": [
+          "Ooh, asla başa çıkamam...",
+          "Ooh..."
+        ]
+      }
+    ],
+    "excerpt": "I know how far I go, I wish you did",
+    "annotations": {
+      "you had me at hello": "Birini daha ilk selamında kazanmak veya kendine bağlamak anlamındaki ünlü ifade.",
+      "couldn't manage": "Burada günlük işleri yönetememekten çok, sevilen kişinin yokluğuyla duygusal olarak başa çıkamamayı anlatıyor.",
+      "heaven / angel": "Cennet ve melek imgeleri, sevgiliyi dünyevi sınırların ötesinde idealize eden ana metaforu kuruyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4iJJOsuXC9Y3Xp3wrmfl24",
+        "name": "Heaven Baby (feat. ZAYN)",
+        "url": "https://open.spotify.com/track/4iJJOsuXC9Y3Xp3wrmfl24",
+        "isrc": "USUG12605163",
+        "durationMs": 158792,
+        "duration": "2:39",
+        "explicit": false,
+        "trackNumber": 14
+      },
+      "artist": {
+        "id": "3ZpEKRjHaHANcpk10u6Ntq",
+        "name": "Ayra Starr",
+        "url": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc2074e9ac0e35662936cde67"
+      },
+      "artists": [
+        {
+          "id": "3ZpEKRjHaHANcpk10u6Ntq",
+          "name": "Ayra Starr",
+          "url": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq"
+        },
+        {
+          "id": "5ZsFI1h6hIdQRw2ti0hz81",
+          "name": "ZAYN",
+          "url": "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81"
+        }
+      ],
+      "album": {
+        "id": "2xLmXWgnyK0bUBoqq17Mma",
+        "name": "Starrgirl",
+        "url": "https://open.spotify.com/album/2xLmXWgnyK0bUBoqq17Mma",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+        "releaseDate": "2026-08-14",
+        "albumType": "Album",
+        "totalTracks": 16
+      },
+      "trackUrl": "https://open.spotify.com/track/4iJJOsuXC9Y3Xp3wrmfl24",
+      "albumUrl": "https://open.spotify.com/album/2xLmXWgnyK0bUBoqq17Mma",
+      "artistUrl": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq",
+      "albumName": "Starrgirl",
+      "albumType": "Album",
+      "releaseDate": "2026-08-14",
+      "duration": "2:39",
+      "isrc": "USUG12605163",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=bb8w9l46TmI",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Ayra Starr, ZAYN Heaven Baby Türkçe Çeviri",
+      "description": "Ayra Starr ve ZAYN – Heaven Baby şarkı sözleri ve özenli Türkçe çevirisi. Starrgirl albümündeki düetin anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/ayra-starr-zayn-heaven-baby-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5231",
+    "title": "Phoebe Bridgers Lost Weekend Türkçe Çeviri",
+    "song": "Lost Weekend",
+    "slug": "phoebe-bridgers-lost-weekend-turkce-ceviri",
+    "date": "2026-08-17T08:18:04.001Z",
+    "artist": "Phoebe Bridgers",
+    "categories": [
+      "Phoebe Bridgers",
+      "Lost Weekend"
+    ],
+    "category_slugs": [
+      "phoebe-bridgers",
+      "lost-weekend"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse",
+        "lines": [
+          "Back when no one could tell us apart",
+          "And I would turn down the music to parallel park",
+          "We were playing for no one on top of the world",
+          "I talk in my sleep and you kiss like a girl",
+          "Then when the van broke down in the heat wave",
+          "You took off your pants on the side of the freeway",
+          "I had the thought you would outlive me",
+          "I loved you and you could not forgive me for that",
+          "I think I know why you have been blowing me off",
+          "I have been using my friends and losing the plot",
+          "Surviving my gift until I get shot",
+          "I am supposed to be married, but I called it off",
+          "I have been known to throw a tantrum",
+          "When things are not the way I imagine them",
+          "I am restoring the natural order",
+          "Learning the same lesson over and over again",
+          "Lying awake, you were glow in the dark",
+          "Lying to me with your hand on my heart",
+          "It is all gonna be alright, we will make it through",
+          "You know me, and I will never forgive you for that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse",
+        "lines": [
+          "Kimsenin bizi birbirimizden ayıramadığı o eski günlerde...",
+          "Düzgünce paralel park edebilmek için müziğin sesini kısardım.",
+          "Dünyanın tepesinde, kimseler yokken kendi kendimize çalardık;",
+          "Ben uykumda konuşurdum, sen ise bir genç kız gibi narin öperdin beni.",
+          "Sonra o kavurucu sıcakta minibüs bozulduğunda,",
+          "Otoyolun kenarında pantolonunu çıkarıp atmıştın...",
+          "Senin benden daha uzun yaşayacağın geçmişti aklımdan;",
+          "Seni öyle çok sevmiştim ki beni bunun için asla affedemedin.",
+          "Sanırım beni neden ektiğini şimdi anlıyorum;",
+          "Arkadaşlarımı kullandım ve mevzunun asıl odağını kaybettim.",
+          "Vurulana dek bu yeteneğimin gölgesinde hayatta kalmaya çalışıyorum...",
+          "Şu an evli olmam gerekiyordu aslında ama her şeyi iptal ettim.",
+          "Bir şeyleri hayal ettiğim gibi bulamadığımda,",
+          "O meşhur öfke nöbetlerimi geçirdiğim bilinir.",
+          "Şimdi doğal düzeni yeniden inşa ediyorum;",
+          "Aynı dersi defalarca kez en baştan öğrenerek...",
+          "Uykusuz yatarken karanlıkta parlıyordun sanki;",
+          "Elin kalbimdeyken bana yalanlar söylüyordun.",
+          "Her şey iyi olacak, birlikte atlatacağız demiştin ya hani;",
+          "Beni tanıyorsun işte; seni bunun için asla affetmeyeceğim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Instrumental Outro",
+        "lines": [
+          "Instrumental"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Instrumental Outro",
+        "lines": [
+          "Enstrümantal"
+        ]
+      }
+    ],
+    "excerpt": "Back when no one could tell us apart",
+    "annotations": {
+      "blowing me off": "Birini görmezden gelmek, geçiştirmek veya planlarını sürekli ertelemek anlamında gündelik bir ifade.",
+      "losing the plot": "Olayların asıl çizgisini ve kişinin kendi odağını kaybetmesini anlatan bir deyim.",
+      "throw a tantrum": "İşler beklendiği gibi gitmediğinde öfke nöbeti geçirmek anlamına geliyor.",
+      "parallel park": "Müziğin sesini park ederken kısmak gibi sıradan bir ayrıntı, şarkının anı günlüğü hissini güçlendiriyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1GMPPheF4aMHMifOgp72eF",
+        "name": "Lost Weekend",
+        "url": "https://open.spotify.com/track/1GMPPheF4aMHMifOgp72eF",
+        "isrc": "USJ5G2645006",
+        "durationMs": 218689,
+        "duration": "3:39",
+        "explicit": false,
+        "trackNumber": 6
+      },
+      "artist": {
+        "id": "1r1uxoy19fzMxunt3ONAkG",
+        "name": "Phoebe Bridgers",
+        "url": "https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6e2d4ab2b84463aa4c349311"
+      },
+      "artists": [
+        {
+          "id": "1r1uxoy19fzMxunt3ONAkG",
+          "name": "Phoebe Bridgers",
+          "url": "https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG"
+        }
+      ],
+      "album": {
+        "id": "2NSzwyYvQvdOQAoEjrlw9c",
+        "name": "Lost Weekend",
+        "url": "https://open.spotify.com/album/2NSzwyYvQvdOQAoEjrlw9c",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+        "releaseDate": "2026-08-14",
+        "albumType": "Album",
+        "totalTracks": 16
+      },
+      "trackUrl": "https://open.spotify.com/track/1GMPPheF4aMHMifOgp72eF",
+      "albumUrl": "https://open.spotify.com/album/2NSzwyYvQvdOQAoEjrlw9c",
+      "artistUrl": "https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG",
+      "albumName": "Lost Weekend",
+      "albumType": "Album",
+      "releaseDate": "2026-08-14",
+      "duration": "3:39",
+      "isrc": "USJ5G2645006",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=5x3fpZfKwwY",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Phoebe Bridgers Lost Weekend Türkçe Çeviri",
+      "description": "Phoebe Bridgers – Lost Weekend şarkı sözleri ve özenli Türkçe çevirisi. Şarkının anılar, kopuş ve affetme arasındaki hikâyesini keşfet.",
+      "canonical": "https://www.acupoflyrics.com/phoebe-bridgers-lost-weekend-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5230",
+    "title": "Morgan Wallen Don’t We Türkçe Çeviri",
+    "song": "Don’t We",
+    "slug": "morgan-wallen-dont-we-turkce-ceviri",
+    "date": "2026-08-17T08:18:04.000Z",
+    "artist": "Morgan Wallen",
+    "categories": [
+      "Morgan Wallen",
+      "I’m The Problem"
+    ],
+    "category_slugs": [
+      "morgan-wallen",
+      "i-m-the-problem"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Wouldn’t trade this holler for a stone-cold million dollars",
+          "My green all comes blue collar, and I’m all good with that",
+          "This world has been changing, but these folks round here, they aint been",
+          "They all still windshield waving when they slow rolling past"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Şu vadiyi bir milyon dolara bile değişmem;",
+          "Kazancımın tamamı mavi yakalı emeğinden geliyor ve ben bundan memnunum.",
+          "Dünya değişip duruyor ama buradaki insanlar hiç değişmedi;",
+          "Yavaşça geçerken hâlâ ön camdan el sallayıp selam veriyorlar."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "We could live a little higher on the hog",
+          "But I do not think that we would be no better off"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Daha lüks bir hayat yaşayabilirdik belki;",
+          "Ama daha iyi durumda olacağımızı hiç sanmıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Not everybody got that spot out in the forty",
+          "Some ten-point buck they shot, hanging like a velvet trophy",
+          "Fridays in parking lots outside of somewhere holy",
+          "Not everybody likes this kind of life, but we do, do not we?",
+          "Still working hard like my daddy told me",
+          "Still keeping lowkey",
+          "Still riding high behind them low beams",
+          "If you do not know about this nowhere, you do not know me",
+          "Not everybody thinks we got it made, but we do, do not we?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Herkesin o kırk dönümlük arazide kendine ait bir yeri yok;",
+          "Vurduğu on çatallı geyiği kadife bir kupa gibi duvarına asan da herkes değil.",
+          "Herkes cuma akşamlarını kutsal bir yerin önündeki otoparkta geçirmez;",
+          "Herkes bu tarz bir hayatı sevmez ama biz seviyoruz, değil mi?",
+          "Hâlâ babamın öğrettiği gibi canımı dişime takıp çalışıyorum;",
+          "Hâlâ sessiz ve derinden yaşıyorum;",
+          "Alçak farların ardında dimdik yol alıyorum.",
+          "Bu ıssız yeri bilmiyorsan beni de tanımıyorsun.",
+          "Herkes hayatı çözdüğümüzü düşünmüyor ama biz çözdük, değil mi?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "It might be simple, but these two lanes, they are my temple",
+          "And that river rolling gentle wash my worries away",
+          "I used to hate it, but I traveled lots of pavement",
+          "And there aint no better places at the end of the day"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Basit görünebilir ama şu iki şeritli yol benim mabedim sanki;",
+          "Usulca akan o nehir tüm dertlerimi alıp götürüyor.",
+          "Eskiden nefret ederdim buralardan ama çok asfalt eskittim;",
+          "Günün sonunda anladım ki buradan daha iyi bir yer yok."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "So I pass the plate and thank the Lord He put me here",
+          "And pray that times like mine do not ever disappear"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bu yüzden şükrediyor ve Tanrıya beni buraya koyduğu için dua ediyorum;",
+          "Benimkiler gibi güzel zamanların hiç bitmemesini diliyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Not everybody got that spot out in the forty",
+          "Some ten-point buck they shot, hanging like a velvet trophy",
+          "Fridays in parking lots outside of somewhere holy",
+          "Not everybody likes this kind of life, but we do, do not we?",
+          "Still working hard like my daddy told me",
+          "Still keeping lowkey",
+          "Still riding high behind them low beams",
+          "If you do not know about this nowhere, you do not know me",
+          "Not everybody thinks we got it made, but we do, do not we?",
+          "Yeah",
+          "But we do, do not we?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Herkesin o kırk dönümlük arazide kendine ait bir yeri yok;",
+          "Vurduğu on çatallı geyiği kadife bir kupa gibi duvarına asan da herkes değil.",
+          "Herkes cuma akşamlarını kutsal bir yerin önündeki otoparkta geçirmez;",
+          "Herkes bu tarz bir hayatı sevmez ama biz seviyoruz, değil mi?",
+          "Hâlâ babamın öğrettiği gibi çalışıyorum;",
+          "Hâlâ sessiz ve derinden yaşıyorum;",
+          "Alçak farların ardında dimdik yol alıyorum.",
+          "Buraları bilmiyorsan beni de tanımıyorsun.",
+          "Herkes hayatı çözdüğümüzü düşünmüyor ama biz çözdük, değil mi?",
+          "Evet;",
+          "Biz çözdük, değil mi?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Not everybody takes off their hat",
+          "Stands for the flag that them boys overseas got on their sleeve",
+          "Not everybody dies where they are born, takes a field full of corn",
+          "And turns it into whiskey, say it with me",
+          "Yeah, we do, do not we?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Herkes şapkasını çıkarıp saygı duruşuna geçmez;",
+          "Okyanus ötesindeki çocukların kollarında taşıdığı bayrak için ayağa kalkmaz.",
+          "Herkes doğduğu yerde ölmez; bir mısır tarlasını alıp,",
+          "Onu viskiye çevirmez. Söyleyin benimle;",
+          "Evet, biz yapıyoruz bunu, değil mi?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Not everybody got that spot out in the forty",
+          "Some ten-point buck they shot, hanging like a velvet trophy",
+          "Fridays in parking lots outside of somewhere holy",
+          "Not everybody likes this kind of life, but we do, do not we?",
+          "Still working hard like my daddy told me",
+          "Still keeping lowkey",
+          "Still riding high behind them low beams",
+          "If you do not know about this nowhere, you do not know me",
+          "Not everybody thinks we got it made, but we do, do not we?",
+          "Not everybody got that spot out in the forty",
+          "But we do, do not we?",
+          "Fridays in parking lots outside of somewhere holy",
+          "Not everybody likes this kind of life, but we do, do not we?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Herkesin o arazide kendine ait bir yeri yok;",
+          "Duvarında on çatallı bir geyik kupası da yok.",
+          "Cuma geceleri o kutsal yerin otoparkındayız;",
+          "Herkes bu hayatı sevmez ama biz seviyoruz, değil mi?",
+          "Hâlâ babamın öğrettiği gibi çalışıyorum;",
+          "Hâlâ sessiz ve derinden yaşıyorum;",
+          "Alçak farların ardında kendi yolumuzdayız.",
+          "Buraları bilmiyorsan bizi de tanımıyorsun;",
+          "Biz başardık, değil mi?",
+          "Herkesin o arazide bir yeri yok;",
+          "Ama bizim var, değil mi?",
+          "Cuma geceleri o kutsal yerin otoparkındayız;",
+          "Herkes bu hayatı sevmez ama biz seviyoruz, değil mi?"
+        ]
+      }
+    ],
+    "excerpt": "Wouldn't trade this holler for a stone-cold million dollars",
+    "annotations": {
+      "holler": "ABD’nin güneyinde dağlar arasındaki küçük vadi veya yerleşim için kullanılan bölgesel sözcük.",
+      "windshield waving": "Küçük yerleşimlerde sürücülerin ön camdan el sallayarak selamlaşması.",
+      "higher on the hog": "Daha varlıklı ve konforlu yaşamak anlamındaki Amerikan deyimi.",
+      "the forty": "Tarım bağlamında kırk dönümlük araziyi ifade ediyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "45UDzIWgqj5hgQKXLlfdp7",
+        "name": "Don't We",
+        "url": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
+        "isrc": "USUG12501617",
+        "durationMs": 191441,
+        "duration": "3:11",
+        "explicit": false,
+        "trackNumber": 20
+      },
+      "artist": {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen",
+        "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30"
+      },
+      "artists": [
+        {
+          "id": "4oUHIQIBe0LHzYfvXNW4QM",
+          "name": "Morgan Wallen",
+          "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM"
+        }
+      ],
+      "album": {
+        "id": "1o844O5I0qVpZKiePtIGcF",
+        "name": "I’m The Problem",
+        "url": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+        "releaseDate": "2025-05-16",
+        "albumType": "Album",
+        "totalTracks": 37
+      },
+      "trackUrl": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
+      "albumUrl": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF",
+      "artistUrl": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+      "albumName": "I’m The Problem",
+      "albumType": "Album",
+      "releaseDate": "2025-05-16",
+      "duration": "3:11",
+      "isrc": "USUG12501617",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=_yBBvLxIQlQ",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Morgan Wallen Don’t We Türkçe Çeviri",
+      "description": "Morgan Wallen – Don’t We şarkı sözleri ve özenli Türkçe çevirisi. I’m The Problem albümündeki parçanın taşra aidiyeti ve kültürel göndermelerini keşfet.",
+      "canonical": "https://www.acupoflyrics.com/morgan-wallen-dont-we-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5229",
     "title": "Becky G CNTRL Türkçe Çeviri",
     "song": "CNTRL",

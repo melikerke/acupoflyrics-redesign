@@ -1,5 +1,210 @@
 export const popGundemiArticles = [
   {
+    slug: "istanbul-festivali-2026-kpop-konserleri",
+    title: "İstanbul Festivali'nde iki gecelik büyüleyici K-pop buluşması",
+    shortTitle: "İstanbul Festivali K-pop geceleri",
+    kicker: "Konser günlüğü",
+    date: "2026-08-17",
+    updatedAt: "2026-08-17T10:20:00+03:00",
+    readTime: "4 dk",
+    image: "https://cdn.bubilet.com.tr/cdn-cgi/image/width%3D1920%2Cquality%3D80/files/Etkinlik/ateez-monsta-x-kwon-eunbi-sunmi-istanbul-festivali-k-pop-61049.png",
+    imageAlt: "İstanbul Festivali 2026 K-pop konserlerinde ATEEZ, MONSTA X, SUNMI ve KWON EUNBI",
+    imageCredit: "İstanbul Festivali · Bubilet",
+    imageSource: "https://www.bubilet.com.tr/istanbul/etkinlik/ateez-monsta-x-kwon-eunbi-sunmi-istanbul-festivali-k-pop",
+    accent: "#d75b92",
+    excerpt:
+      "İstanbul Festivali'nin 14 ve 15 Ağustos programı KWON EUNBI, ATEEZ, SUNMI ve MONSTA X'ı Festival Park Yenikapı'da buluşturdu. İki gecelik K-pop programından izlenimler ve konser videoları burada.",
+    dek:
+      "Festival Park Yenikapı iki gece boyunca K-pop sahnesine dönüştü. Dört farklı performans dili, büyük ölçekli sahne prodüksiyonu ve İstanbul seyircisinin enerjisi unutulmayacak bir buluşma yarattı.",
+    pullQuote:
+      "İstanbul seyircisinin sesi, sahnenin ışıkları ve dört farklı performansın bıraktığı his bir araya geldiğinde gerçekten büyüleyici bir akşam ortaya çıktı.",
+    relatedTranslations: [
+      "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
+      "ateez-in-your-fantasy-turkce-ceviri",
+      "ateez-lemon-drop-turkce-ceviri",
+      "ateez-ice-on-my-teeth-turkce-ceviri",
+      "monsta-x-you-cant-hold-my-heart-turkce-ceviri",
+    ],
+    socialCta: {
+      label: "Sahadan videolar",
+      title: "Konser anlarını Instagram'da izle",
+      text: "ATEEZ, MONSTA X, SUNMI ve KWON EUNBI performanslarından çektiğimiz konser videolarına acupoflyrics Instagram hesabından ulaşabilirsiniz.",
+      url: "https://instagram.com/acupoflyrics",
+      buttonLabel: "@acupoflyrics hesabına git",
+    },
+    livePanel: {
+      label: "14–15 Ağustos 2026",
+      title: "İki gecenin programı",
+      items: [
+        { label: "14 Ağustos", text: "KWON EUNBI saat 20.00'de, ATEEZ saat 21.00'de sahne aldı." },
+        { label: "15 Ağustos", text: "SUNMI saat 20.00'de, MONSTA X saat 21.00'de sahne aldı." },
+        { label: "Konser videoları", text: "Gecelerden sahne görüntüleri @acupoflyrics Instagram hesabında yayımlanıyor." },
+      ],
+    },
+    summary: [
+      "İstanbul Festivali'nin K-pop programı 14 ve 15 Ağustos'ta Festival Park Yenikapı'da gerçekleştirildi.",
+      "İlk gece KWON EUNBI ve ATEEZ, ikinci gece SUNMI ve MONSTA X sahne aldı.",
+      "Festivalin yaklaşık 70 metre genişliğindeki ana sahnesi, geniş LED yüzeyi, hareketli ışıkları ve güçlü ses sistemiyle dört performansa büyük ölçekli bir çerçeve sundu.",
+      "acupoflyrics'in konser alanından kaydettiği videolara Instagram'daki @acupoflyrics hesabından ulaşılabilir.",
+    ],
+    sections: [
+      {
+        heading: "İstanbul'da iki gecelik K-pop programı",
+        body: [
+          "İstanbul Festivali, 14 ve 15 Ağustos'ta dört K-pop sanatçısını aynı hafta sonunda Festival Park Yenikapı'da buluşturdu. Biletix programında 'Türkiye'nin en büyük K-pop buluşması' olarak duyurulan etkinlik, iki solo sanatçı ile iki grubun sahnelerini iki geceye yaydı.",
+          "Programın yapısı her iki akşamda da önce solo performansa, ardından grup konserine yer verdi. Böylece seyirci aynı gecede farklı ölçeklerde iki ayrı sahne dili izledi; program yalnızca arka arkaya konserlerden değil, birbirini tamamlayan dört performanstan oluştu.",
+        ],
+      },
+      {
+        heading: "İlk gece: KWON EUNBI ve ATEEZ",
+        body: [
+          "14 Ağustos programı saat 20.00'de KWON EUNBI ile başladı, saat 21.00'de ATEEZ konseriyle devam etti. KWON EUNBI'nin solo sahnesi gecenin ilk bölümünü kurarken ATEEZ, grup koreografisi ve yüksek tempolu performans yapısıyla ana sahnenin ölçeğini tamamen kullandı.",
+          "ATEEZ'in sahnedeki enerjisi ile İstanbul seyircisinin şarkılara verdiği karşılık gecenin en belirgin unsurlarından biriydi. Festival alanındaki ortak ritim, konseri yalnızca izlenen bir gösteriden çıkarıp seyircinin de parçası olduğu büyük bir buluşmaya dönüştürdü.",
+        ],
+      },
+      {
+        heading: "İkinci gece: SUNMI ve MONSTA X",
+        body: [
+          "15 Ağustos'ta saat 20.00'de SUNMI, ardından saat 21.00'de MONSTA X sahne aldı. SUNMI'nin solo pop performansı ile MONSTA X'ın grup sahnesi, ikinci geceye ilk günden farklı ama aynı ölçüde güçlü bir akış kazandırdı.",
+          "İki gecenin aynı sahnede farklı karakterler taşıması programın en güçlü taraflarından biriydi. Solo sanatçıların daha merkezî sahne anlatımı ile grupların koreografi ve kolektif enerjiye dayanan performansları birbirini tekrar etmeden aynı festival kimliğinde buluştu.",
+        ],
+      },
+      {
+        heading: "Yenikapı'daki büyük sahne neden etkileyiciydi?",
+        body: [
+          "Festival başlamadan önce organizatörlerin paylaştığı teknik bilgilere göre ana sahne yaklaşık 70 metre genişliğinde ve 28 metre yüksekliğindeydi. Sahne düzeninde yaklaşık 1.300 metrekare LED ekran, 800 hareketli aydınlatma armatürü ve 176 kutudan oluşan line-array ses sistemi kullanıldı.",
+          "Bu ölçek K-pop performansları için özellikle önemliydi. Koreografi, yakın plan kamera görüntüleri, ışık geçişleri ve seyirciyle kurulan bağ aynı anda okunabildi; büyük alan, sahnedeki ayrıntıları yutmak yerine performansların görsel etkisini büyüttü.",
+        ],
+      },
+      {
+        heading: "acupoflyrics konser notu",
+        body: [
+          "Bizim için çok büyüleyici bir akşamdı. Uzun süredir çevirilerini yayımladığımız şarkıların İstanbul'da, binlerce kişinin sesiyle aynı alanda karşılık bulduğunu görmek sitenin dijital arşivi ile gerçek konser deneyimi arasında çok güzel bir bağ kurdu.",
+          "Konser gecelerinden kaydettiğimiz ATEEZ, MONSTA X, SUNMI ve KWON EUNBI videolarına acupoflyrics Instagram hesabından ulaşabilirsiniz. Sahnedeki anları ve seyircinin enerjisini @acupoflyrics hesabında paylaşmaya devam edeceğiz.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "14 Ağustos", status: "Gerçekleşti", detail: "KWON EUNBI ve ATEEZ, Festival Park Yenikapı ana sahnesinde konser verdi." },
+      { name: "15 Ağustos", status: "Gerçekleşti", detail: "SUNMI ve MONSTA X, iki gecelik K-pop programının ikinci bölümünde sahne aldı." },
+      { name: "Konser videoları", status: "Instagram'da", detail: "acupoflyrics'in alandan çektiği performans görüntüleri @acupoflyrics hesabında paylaşılacak." },
+    ],
+    sources: [
+      { name: "Biletix — İstanbul Festivali iki günlük K-pop programı", url: "https://www.biletix.com/etkinlik/5IF00/TURKIYE/tr" },
+      { name: "Biletix — SUNMI ve MONSTA X, 15 Ağustos programı", url: "https://www.biletix.com/etkinlik/5IF02/ANTALYA/tr" },
+      { name: "Anadolu Ajansı — İstanbul Festivali K-pop konser takvimi", url: "https://www.aa.com.tr/tr/kultur/istanbul-agustos-ayinda-dunyaca-unlu-isimleri-agirlayacak/4005526" },
+      { name: "Euronews — İstanbul Festivali programı ve ana sahne bilgileri", url: "https://tr.euronews.com/kultur/2026/07/29/istanbul-festivali-1-agustosta-central-cee-ile-baslayacak" },
+      { name: "acupoflyrics — konser videoları", url: "https://instagram.com/acupoflyrics" },
+    ],
+    storyShare:
+      "İstanbul Festivali'nin iki gecelik K-pop programında KWON EUNBI, ATEEZ, SUNMI ve MONSTA X Festival Park Yenikapı'da sahne aldı. Konser notları ve sahadan videolar Pop Günlüğü'nde.",
+  },
+  {
+    slug: "16-agustos-2026-muzik-gundemi",
+    title: "16 Ağustos müzik gündemi: ATEEZ — BAD Circle Global'da zirvede",
+    shortTitle: "16 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-16",
+    updatedAt: "2026-08-16T10:35:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+    imageAlt: "ATEEZ GOLDEN HOUR Part.5 albüm kapağı",
+    imageCredit: "ATEEZ · KQ Entertainment",
+    accent: "#bd3c3b",
+    excerpt:
+      "ATEEZ'in BAD şarkısı Circle Global günlük listesinde bir numaraya yükseldi. Beş müzik listesi yenilenirken Phoebe Bridgers ve Ayra Starr'ın 14 Ağustos yayınları da arşiv açısından değerlendirildi.",
+    dek:
+      "Farklı ölçüm dönemlerine sahip beş listenin 16 Ağustos görünümü, doğrulanan yeni albümler ve acupoflyrics arşivinde çeviri bekleyen parçalar tek dosyada.",
+    pullQuote:
+      "ATEEZ — BAD, 14 Ağustos verisindeki üçüncü sıradan 16 Ağustos kontrolünde Circle Global günlük listesinin zirvesine çıktı.",
+    relatedTranslations: [
+      "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
+      "katseye-animal-turkce-ceviri",
+      "huntr-x-golden-turkce-ceviri",
+      "bts-swim-turkce-ceviri",
+      "cortis-redred-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "16 Ağustos 2026 güncellemesi",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Circle Global", text: "ATEEZ — BAD günlük listede bir numaraya yükseldi; Golden ikinci, BTS — SWIM üçüncü sırada." },
+        { label: "Global platformlar", text: "Spotify Global'da Dai Dai birinci; Beauty And A Beat ikinci, Tame Impala — Loser üçüncü sırada." },
+        { label: "Yeni albümler", text: "Phoebe Bridgers — Lost Weekend ve Ayra Starr — Starrgirl, 14 Ağustos'ta yayımlandı." },
+      ],
+    },
+    summary: [
+      "Billboard Hot 100, Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 kaynaklarının tamamı 16 Ağustos sabahında başarıyla yenilendi.",
+      "ATEEZ — BAD, Circle Global günlük listesinde üçüncü sıradan birinci sıraya çıktı. Şarkının Türkçe çevirisi arşivde henüz bulunmuyor.",
+      "KATSEYE — Animal, Spotify Global Top 50'ye beşinci sıradan girdi; şarkının çeviri sayfası arşivde mevcut.",
+      "Phoebe Bridgers'ın Lost Weekend ve Ayra Starr'ın Starrgirl albümleri 14 Ağustos'ta yayımlandı. Lost Weekend başlık parçası ile Ayra Starr ve ZAYN ortaklığı Heaven Baby arşivde bulunmuyor.",
+    ],
+    sections: [
+      {
+        heading: "Beş müzik listesi başarıyla yenilendi",
+        body: [
+          "16 Ağustos sabahındaki otomatik kontrolde Billboard Hot 100, Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 kaynaklarının tamamı yanıt verdi. Her listenin ilk 10 sıralaması, diğer kaynakların verisine karıştırılmadan yenilendi.",
+          "Billboard listeleri haftalık ölçüm dönemlerini, Circle'ın kullanılan Global sayfası günlük veriyi, Apple Music ve Spotify kartları ise platformların güncel sıralamalarını temsil ediyor. Bu nedenle aynı gün alınmış olmaları, beş listenin aynı zaman aralığını ölçtüğü anlamına gelmiyor.",
+        ],
+      },
+      {
+        heading: "ATEEZ — BAD, Circle Global'da bir numara",
+        body: [
+          "Circle Global günlük listesinin 16 Ağustos kontrolünde ATEEZ — BAD ilk sıraya yükseldi. 14 Ağustos verisinde üçüncü olan şarkı, Golden ve BTS — SWIM'in önüne geçti.",
+          "KQ Entertainment'ın 26 Haziran tarihli resmi yayın duyurusuna göre BAD, aynı gün yayımlanan beş parçalık GOLDEN HOUR : Part.5 albümünün başlık şarkısı. Güncel liste hareketi yeni bir yayın değil; yaklaşık yedi hafta önce çıkan parçanın belirgin bir yükselişi.",
+        ],
+      },
+      {
+        heading: "Spotify Global'da WILD etkisi",
+        body: [
+          "Spotify Global Top 50'nin güncel ilk sırasında Shakira ve Burna Boy ortaklığı Dai Dai bulunuyor. Justin Bieber ve Nicki Minaj'ın Beauty And A Beat şarkısı ikinci, Tame Impala — Loser üçüncü sırada.",
+          "KATSEYE — Animal, 16 Ağustos verisine beşinci sıradan girdi. WILD EP'si 14 Ağustos'ta yayımlandı; Animal'ın Türkçe çevirisi daha önce arşive eklendiği için bu hareket yeni bir çeviri sayfası gerektirmiyor.",
+        ],
+      },
+      {
+        heading: "Phoebe Bridgers — Lost Weekend yayımlandı",
+        body: [
+          "Dead Oceans'ın 24 Haziran'da yayımladığı duyuruda açıklanan Lost Weekend, planlandığı gibi 14 Ağustos'ta yayımlandı. Albüm, Phoebe Bridgers'ın Punisher'dan sonraki üçüncü solo stüdyo albümü.",
+          "Resmi Bandcamp kaydı da dijital çıkış tarihini 14 Ağustos olarak gösteriyor. Arşivde albümün ilk şarkısı Lost Boys ve başlık parçası Lost Weekend için henüz Türkçe çeviri bulunmuyor; albümün yeni yayın olması nedeniyle önce başlık parçası izlenecek.",
+        ],
+      },
+      {
+        heading: "Ayra Starr — Starrgirl ve Heaven Baby",
+        body: [
+          "Official Charts'ın 2026 albüm takviminde 14 Ağustos yayını olarak yer alan Starrgirl dijital platformlarda yayımlandı. LOS40'ın 14 Ağustos tarihli haberine göre albüm 16 şarkıdan oluşuyor.",
+          "Albümde ZAYN'in yer aldığı Heaven Baby, global pop ve R&B arşivi için öne çıkan eksik parça. Aynı haberde yayın ve haber tarihi 14 Ağustos olarak belirtiliyor; şarkı için acupoflyrics arşivinde henüz sayfa bulunmuyor.",
+        ],
+      },
+      {
+        heading: "Çeviri arşivinde doğrulanan eksikler",
+        body: [
+          "Bu sabahki liste karşılaştırmasında ATEEZ — BAD doğrudan çok yüksek önceliğe çıktı. Korece bölümler için Latin alfabesiyle romanizasyon gerekli.",
+          "Yeni albümler tarafında Ayra Starr ve ZAYN — Heaven Baby ile Phoebe Bridgers — Lost Weekend çeviri bekliyor. Daha önce raporlanan ve bugün belirgin bir sıçrama göstermeyen parçalar günlük aday listesine yeniden eklenmedi.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Beş müzik listesi", status: "Güncellendi", detail: "Billboard, Circle, Apple Music ve Spotify kaynaklarının tamamı 16 Ağustos kontrolünde başarıyla doğrulandı." },
+      { name: "ATEEZ — BAD", status: "Circle Global #1", detail: "Günlük listede üçüncü sıradan birinci sıraya yükseldi; Türkçe çeviri bekliyor." },
+      { name: "KATSEYE — Animal", status: "Spotify Global #5", detail: "WILD yayını sonrasında ilk 10'a girdi; Türkçe çevirisi arşivde mevcut." },
+      { name: "Lost Weekend · Starrgirl", status: "Yayında", detail: "İki albümün de 14 Ağustos çıkışı resmi ve güvenilir kaynaklarla doğrulandı." },
+    ],
+    sources: [
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+      { name: "KQ Entertainment — GOLDEN HOUR : Part.5 resmi yayın duyurusu", url: "https://ateez.kqent.com/contents/6a3d28a6edaad16ca982dcdc" },
+      { name: "Dead Oceans — Lost Weekend resmi albüm duyurusu", url: "https://deadoceans.com/news/phoebe-bridgers-announces-new-album-lost-weekend-highly-anticipated-third-album-out-august-14th/" },
+      { name: "Phoebe Bridgers — Lost Weekend resmi Bandcamp kaydı", url: "https://phoebebridgers.bandcamp.com/album/lost-weekend" },
+      { name: "Official Charts — 2026 yeni albüm takvimi", url: "https://www.officialcharts.com/chart-news/new-album-releases-2026/" },
+      { name: "LOS40 — Ayra Starr ve ZAYN, Heaven Baby", url: "https://los40.com/2026/08/14/zayn-se-une-a-ayra-starr-en-heaven-baby-una-de-las-joyas-de-starrgirl/" },
+    ],
+    storyShare:
+      "16 Ağustos müzik gündemi: ATEEZ — BAD Circle Global günlük listesinde zirveye çıktı; beş liste yenilendi, Lost Weekend ve Starrgirl yayınları arşiv açısından değerlendirildi.",
+  },
+  {
     slug: "14-agustos-2026-muzik-gundemi",
     title: "14 Ağustos müzik gündemi: WILD ve BARAJA BENDITA yayımlandı, üç liste yenilendi",
     shortTitle: "14 Ağustos — günün müzik gündemi",
@@ -21,6 +226,10 @@ export const popGundemiArticles = [
       "katseye-pinky-up-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
       "katseye-that-way-turkce-ceviri",
+      "katseye-hootie-frutti-turkce-ceviri",
+      "katseye-bel-air-turkce-ceviri",
+      "becky-g-cntrl-turkce-ceviri",
+      "troye-sivan-shes-the-best-turkce-ceviri",
       "ella-langley-choosin-texas-turkce-ceviri",
       "shakira-dai-dai-turkce-ceviri",
     ],
@@ -59,28 +268,28 @@ export const popGundemiArticles = [
         heading: "KATSEYE — WILD artık yayında",
         body: [
           "Weverse'ın daha önce duyurduğu 14 Ağustos takvimine uygun olarak WILD yayımlandı. Dijital sürümde PINKY UP, Animal, Hootie Frutti, Bel Air ve daha önce Spotify etkinliğinde seslendirilen That Way bulunuyor.",
-          "PINKY UP ve Animal çevirileri arşivde. That Way'in mevcut sayfası canlı performans sözlerine dayanıyor; stüdyo sürümündeki resmi metinle karşılaştırılması gerekiyor. Hootie Frutti ile Bel Air için henüz Türkçe çeviri bulunmuyor.",
+          "PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way çevirileri artık arşivde. That Way sayfası ilk olarak canlı performans sözleriyle hazırlanmıştı; stüdyo sürümündeki resmi metinle karşılaştırma gereksinimi devam ediyor.",
         ],
       },
       {
         heading: "Becky G — BARAJA BENDITA yayımlandı",
         body: [
           "Apple Music'in 14 Ağustos tarihli yayın kaydına göre BARAJA BENDITA, 17 şarkı ve 47 dakikalık bir albüm. Albümde daha önce yayımlanan PATRONA, MARATHON ve EPA'nın yanı sıra CNTRL, CHULA, OASIS, GLITCH ve diğer yeni parçalar yer alıyor.",
-          "Albüm Pop Latino etiketiyle listeleniyor ve RCA Records kaydıyla yayımlandı. acupoflyrics arşivinde albüm parçaları henüz bulunmadığı için çeviri önceliği, platform ve liste hareketleri doğrulandıktan sonra başlık parçaları üzerinden belirlenecek.",
+          "Albüm Pop Latino etiketiyle listeleniyor ve RCA Records kaydıyla yayımlandı. CNTRL çevirisi arşive eklendi; diğer albüm parçalarının önceliği platform ve liste hareketleri doğrulandıkça belirlenecek.",
         ],
       },
       {
         heading: "Troye Sivan — She's The Best duyurusu",
         body: [
           "Troye Sivan'ın sosyal medya paylaşımını aktaran LOS40 haberine göre sanatçının dördüncü stüdyo albümü She's The Best, 9 Ekim'de yayımlanacak. Haberde albümün 12 şarkıdan oluşacağı ve aynı adlı ilk şarkının 14 Ağustos'ta geleceği belirtiliyor.",
-          "Albümün tam parça listesi henüz açıklanmadı. Bu nedenle albümdeki gizli şarkı adları için sayfa oluşturulmuyor; She's The Best şarkısı ise resmi sözleri doğrulandığında çeviri sırasına alınabilir.",
+          "Albümün tam parça listesi henüz açıklanmadı. Aynı adlı ilk şarkının Türkçe çevirisi arşive eklendi; açıklanmayan şarkı adları için doğrulama olmadan sayfa oluşturulmuyor.",
         ],
       },
       {
         heading: "Çeviri arşivinde sıradaki kontroller",
         body: [
-          "Yeni yayınlar içinde KATSEYE — Hootie Frutti ve Bel Air doğrudan çeviri bekliyor. That Way için yeni bir sayfa açılmayacak; mevcut performans çevirisi resmi stüdyo sözleriyle karşılaştırılacak.",
-          "She's The Best için de arşivde sayfa bulunmuyor. Güncel listelerde Olivia Dean — So Easy (To Fall In Love) ve Ella Langley — Be Her eksik; Spotify Global'da yeniden yükselen Tame Impala — Loser ise aynı adlı Jin ve YENA şarkısından ayrı bir kayıt olarak ele alınmalı.",
+          "KATSEYE — Hootie Frutti ve Bel Air, Becky G — CNTRL ve Troye Sivan — She's The Best arşive eklendi. That Way için yeni bir sayfa açılmayacak; mevcut performans çevirisi resmi stüdyo sözleriyle karşılaştırılacak.",
+          "Güncel listelerde Olivia Dean — So Easy (To Fall In Love) ve Ella Langley — Be Her eksik; Spotify Global'da yeniden yükselen Tame Impala — Loser ise aynı adlı Jin ve YENA şarkısından ayrı bir kayıt olarak ele alınmalı.",
         ],
       },
     ],

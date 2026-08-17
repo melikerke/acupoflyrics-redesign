@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-17",
   "lists": [
     {
       "id": "billboard-hot-100",
@@ -66,10 +66,10 @@
           "rank": 7,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2730c20b697b7cc3bfe3eb954bc",
-          "spotifyUrl": "https://open.spotify.com/track/61rwYQu9An4QWrcCUyFUyq",
-          "album": "Dandelion",
-          "albumUrl": "https://open.spotify.com/album/14l4mGBY4BJYi5TNJk9kV6"
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 8,
@@ -200,20 +200,6 @@
       "entries": [
         {
           "rank": 1,
-          "title": "Golden",
-          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
-          "spotifyUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
-          "album": "Golden (from the Netflix film KPop Demon Hunters)",
-          "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
-        },
-        {
-          "rank": 2,
-          "title": "SWIM",
-          "artist": "방탄소년단"
-        },
-        {
-          "rank": 3,
           "title": "BAD",
           "artist": "ATEEZ (에이티즈)",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
@@ -222,16 +208,21 @@
           "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
         },
         {
-          "rank": 4,
-          "title": "This & That",
-          "artist": "Stray Kids (스트레이 키즈)",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
-          "spotifyUrl": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
-          "album": "THIS & THAT",
-          "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy"
+          "rank": 2,
+          "title": "Golden",
+          "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
+          "spotifyUrl": "https://open.spotify.com/track/5Cp75TUMrHF6c8xbhdligS",
+          "album": "Golden (from the Netflix film KPop Demon Hunters)",
+          "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
         },
         {
-          "rank": 5,
+          "rank": 3,
+          "title": "SWIM",
+          "artist": "방탄소년단"
+        },
+        {
+          "rank": 4,
           "title": "APT.",
           "artist": "로제 (ROSE), Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
@@ -240,7 +231,7 @@
           "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "REDRED",
           "artist": "CORTIS (코르티스)",
           "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
@@ -249,17 +240,12 @@
           "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "It`s Me",
           "artist": "아일릿(ILLIT)"
         },
         {
-          "rank": 8,
-          "title": "Less than a Lover",
-          "artist": "제니 (JENNIE)"
-        },
-        {
-          "rank": 9,
+          "rank": 7,
           "title": "ICONIC BY MISTAKE",
           "artist": "LE SSERAFIM (르세라핌), 아일릿(ILLIT), KATSEYE",
           "cover": "https://i.scdn.co/image/ab67616d0000b27355886e2f0784a2b7b62b7fe7",
@@ -268,13 +254,27 @@
           "albumUrl": "https://open.spotify.com/album/7yys068oxBNuFHNbF8HMam"
         },
         {
-          "rank": 10,
+          "rank": 8,
+          "title": "This & That",
+          "artist": "Stray Kids (스트레이 키즈)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
+          "spotifyUrl": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
+          "album": "THIS & THAT",
+          "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy"
+        },
+        {
+          "rank": 9,
           "title": "LEMONADE",
           "artist": "aespa",
           "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
           "spotifyUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
           "album": "LEMONADE - The 2nd Album",
           "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm"
+        },
+        {
+          "rank": 10,
+          "title": "Less than a Lover",
+          "artist": "제니 (JENNIE)"
         }
       ]
     },
@@ -323,12 +323,12 @@
         },
         {
           "rank": 5,
-          "title": "Last Man Breathin",
-          "artist": "Pooh Shiesty",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273024997048de19d029b16929b",
-          "spotifyUrl": "https://open.spotify.com/track/0yr6Sa2SLF4g6PTT3T3UkL",
-          "album": "Last Man Breathin",
-          "albumUrl": "https://open.spotify.com/album/4xvAitL2IE5n0p4dLRQmv8"
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c36bd5c2c1448ffc62ab546b",
+          "spotifyUrl": "https://open.spotify.com/track/5aVBxVa0kz9uzv0F4gwdEn",
+          "album": "I Can't Love You Anymore",
+          "albumUrl": "https://open.spotify.com/album/5BFfobflVIOwebqy5RtBcP"
         },
         {
           "rank": 6,
@@ -341,24 +341,6 @@
         },
         {
           "rank": 7,
-          "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2730c20b697b7cc3bfe3eb954bc",
-          "spotifyUrl": "https://open.spotify.com/track/61rwYQu9An4QWrcCUyFUyq",
-          "album": "Dandelion",
-          "albumUrl": "https://open.spotify.com/album/14l4mGBY4BJYi5TNJk9kV6"
-        },
-        {
-          "rank": 8,
-          "title": "hate that i made you love me",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
-          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
-          "album": "hate that i made you love me",
-          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
-        },
-        {
-          "rank": 9,
           "title": "Be Her",
           "artist": "Ella Langley",
           "cover": "https://i.scdn.co/image/ab67616d0000b27344cfd85001629f8f476d2723",
@@ -367,13 +349,31 @@
           "albumUrl": "https://open.spotify.com/album/0xY9ccawTTfHlwdVlkDT90"
         },
         {
+          "rank": 8,
+          "title": "Last Man Breathin",
+          "artist": "Pooh Shiesty",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273024997048de19d029b16929b",
+          "spotifyUrl": "https://open.spotify.com/track/0yr6Sa2SLF4g6PTT3T3UkL",
+          "album": "Last Man Breathin",
+          "albumUrl": "https://open.spotify.com/album/4xvAitL2IE5n0p4dLRQmv8"
+        },
+        {
+          "rank": 9,
+          "title": "Boston",
+          "artist": "STELLA LEFTY",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+          "spotifyUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+          "album": "Boston",
+          "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
+        },
+        {
           "rank": 10,
-          "title": "oh yeah?",
-          "artist": "Steve Lacy",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2734ea9ba86cd9506a004bab042",
-          "spotifyUrl": "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
-          "album": "Oh yeah?",
-          "albumUrl": "https://open.spotify.com/album/289GZwycrFReuNB706obBx"
+          "title": "Don't We",
+          "artist": "Morgan Wallen",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+          "spotifyUrl": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
+          "album": "I’m The Problem",
+          "albumUrl": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF"
         }
       ]
     },
@@ -395,15 +395,6 @@
         },
         {
           "rank": 2,
-          "title": "Loser",
-          "artist": "Tame Impala",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e2aa48290b3cd1040be92345",
-          "spotifyUrl": "https://open.spotify.com/track/3RmFPuTTAjSQ2pbEd2j9oA",
-          "album": "Loser",
-          "albumUrl": "https://open.spotify.com/album/3xIGAElZCxV44QtMvXrPMa"
-        },
-        {
-          "rank": 3,
           "title": "Beauty And A Beat",
           "artist": "Justin Bieber & Nicki Minaj",
           "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
@@ -412,13 +403,22 @@
           "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
         },
         {
+          "rank": 3,
+          "title": "Loser",
+          "artist": "Tame Impala",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e2aa48290b3cd1040be92345",
+          "spotifyUrl": "https://open.spotify.com/track/3RmFPuTTAjSQ2pbEd2j9oA",
+          "album": "Loser",
+          "albumUrl": "https://open.spotify.com/album/3xIGAElZCxV44QtMvXrPMa"
+        },
+        {
           "rank": 4,
-          "title": "hate that i made you love me",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
-          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
-          "album": "hate that i made you love me",
-          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
+          "title": "The One That Got Away",
+          "artist": "Katy Perry",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+          "album": "Teenage Dream: The Complete Confection",
+          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
         },
         {
           "rank": 5,
@@ -431,24 +431,33 @@
         },
         {
           "rank": 6,
-          "title": "SWIM",
-          "artist": "BTS",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
-          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
-          "album": "ARIRANG",
-          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
+          "title": "Animal",
+          "artist": "KATSEYE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2739e8d48f27391ce383862b8e8",
+          "spotifyUrl": "https://open.spotify.com/track/3ouNEk0tv5TTi8VWMe1xbX",
+          "album": "Animal",
+          "albumUrl": "https://open.spotify.com/album/3ybCwWDhYDt2GYSCYFiF83"
         },
         {
           "rank": 7,
-          "title": "Babydoll",
-          "artist": "Dominic Fike",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
-          "album": "Don't Forget About Me, Demos",
-          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
+          "title": "hate that i made you love me",
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 8,
+          "title": "Billie Jean",
+          "artist": "Michael Jackson",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
+          "album": "Thriller",
+          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
+        },
+        {
+          "rank": 9,
           "title": "Self Aware",
           "artist": "Temper City",
           "cover": "https://i.scdn.co/image/ab67616d0000b273d6c26d2ae723f7ab553d64cc",
@@ -457,22 +466,13 @@
           "albumUrl": "https://open.spotify.com/album/7Cdqksm4yTfiq0EfKPa86M"
         },
         {
-          "rank": 9,
-          "title": "petal",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
-          "spotifyUrl": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
-          "album": "petal",
-          "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT"
-        },
-        {
           "rank": 10,
-          "title": "The One That Got Away",
-          "artist": "Katy Perry",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
-          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
-          "album": "Teenage Dream: The Complete Confection",
-          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
+          "title": "Babydoll",
+          "artist": "Dominic Fike",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+          "album": "Don't Forget About Me, Demos",
+          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         }
       ]
     }

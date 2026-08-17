@@ -224,6 +224,24 @@ export default function PopGundemiArticlePage() {
               </div>
             )}
 
+            {article.socialCta && (
+              <aside className="pop-story-social-cta" aria-label={article.socialCta.label || "Sosyal medya"}>
+                <div>
+                  <span className="site-kicker">{article.socialCta.label}</span>
+                  <h2 className="font-serif">{article.socialCta.title}</h2>
+                  <p>{article.socialCta.text}</p>
+                </div>
+                <a
+                  className="site-btn"
+                  href={article.socialCta.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {article.socialCta.buttonLabel} <Icon name="arrow" size={14} />
+                </a>
+              </aside>
+            )}
+
             {article.memberStatus?.length > 0 && (
               <section className="pop-story-recap" aria-label="Son durum özeti">
                 <span className="site-kicker">Hızlıca toparlayalım</span>

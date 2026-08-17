@@ -1,5 +1,279 @@
 [
   {
+    "id": "5233",
+    "slug": "ateez-bad-turkce-ceviri",
+    "title": "ATEEZ BAD Türkçe Çeviri",
+    "song": "BAD",
+    "artist": "ATEEZ",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+    "date": "2026-08-17T08:18:04.003Z",
+    "reading_time": 3,
+    "excerpt": "Your name stuck on my tongue",
+    "categories": [
+      "ATEEZ",
+      "GOLDEN HOUR : Part.5"
+    ],
+    "category_slugs": [
+      "ateez",
+      "golden-hour-part-5"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+      "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "GOLDEN HOUR : Part.5",
+      "releaseDate": "2026-06-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+      "duration": "2:36",
+      "albumType": "EP",
+      "track": {
+        "url": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+        "isrc": "KRD442600010",
+        "duration": "2:36",
+        "trackNumber": 1
+      },
+      "artist": {
+        "name": "ATEEZ",
+        "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
+      },
+      "album": {
+        "name": "GOLDEN HOUR : Part.5",
+        "url": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+        "artists": [],
+        "releaseDate": "2026-06-26",
+        "albumType": "EP"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=-q_S27LbNKU",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "BAD": "Buradaki bad, kötü anlamında değil; karşı konulamayacak kadar çekici ve tehlikeli görünen biri için kullanılan bir övgü.",
+      "Cohiba": "Prestij ve lüksle özdeşleşen Küba purosu markası; kadının klas aurasını betimliyor.",
+      "cheongyanggochu": "Kore mutfağındaki çok acı bir biber türü. Şarkıda yakıcı cazibenin metaforu.",
+      "euphoria / la victoria": "Euphoria mutluluk sarhoşluğunu, la victoria ise zaferi anlatıyor."
+    },
+    "difficulty_note": "Korece dizeler Latin alfabesiyle romanize edildi; İngilizce ve İspanyolca ifadelerin çok dilli akışı korundu.",
+    "moods": [
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Your name stuck on my tongue",
+      "tr": "İsmin dilime dolanmış,"
+    },
+    "heroPair": {
+      "en": "She is so bad, bad, bad, bad, bad, bad, bad",
+      "tr": "Öyle fena ki bu kız, çok fena!"
+    }
+  },
+  {
+    "id": "5232",
+    "slug": "ayra-starr-zayn-heaven-baby-turkce-ceviri",
+    "title": "Ayra Starr, ZAYN Heaven Baby Türkçe Çeviri",
+    "song": "Heaven Baby",
+    "artist": "Ayra Starr, ZAYN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+    "date": "2026-08-17T08:18:04.002Z",
+    "reading_time": 2,
+    "excerpt": "I know how far I go, I wish you did",
+    "categories": [
+      "Ayra Starr",
+      "ZAYN",
+      "Starrgirl"
+    ],
+    "category_slugs": [
+      "ayra-starr",
+      "zayn",
+      "starrgirl"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4iJJOsuXC9Y3Xp3wrmfl24",
+      "albumUrl": "https://open.spotify.com/album/2xLmXWgnyK0bUBoqq17Mma",
+      "artistUrl": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq",
+      "albumName": "Starrgirl",
+      "releaseDate": "2026-08-14",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+      "duration": "2:39",
+      "albumType": "Album",
+      "track": {
+        "url": "https://open.spotify.com/track/4iJJOsuXC9Y3Xp3wrmfl24",
+        "isrc": "USUG12605163",
+        "duration": "2:39",
+        "trackNumber": 14
+      },
+      "artist": {
+        "name": "Ayra Starr",
+        "url": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc2074e9ac0e35662936cde67"
+      },
+      "album": {
+        "name": "Starrgirl",
+        "url": "https://open.spotify.com/album/2xLmXWgnyK0bUBoqq17Mma",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27396cc14a908261abc628a2f4c",
+        "artists": [],
+        "releaseDate": "2026-08-14",
+        "albumType": "Album"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=bb8w9l46TmI",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "you had me at hello": "Birini daha ilk selamında kazanmak veya kendine bağlamak anlamındaki ünlü ifade.",
+      "couldn't manage": "Burada günlük işleri yönetememekten çok, sevilen kişinin yokluğuyla duygusal olarak başa çıkamamayı anlatıyor.",
+      "heaven / angel": "Cennet ve melek imgeleri, sevgiliyi dünyevi sınırların ötesinde idealize eden ana metaforu kuruyor."
+    },
+    "difficulty_note": null,
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "I know how far I go, I wish you did",
+      "tr": "Ne kadar ileri gidebileceğimi ben biliyorum, keşke sen de bilseydin;"
+    },
+    "heroPair": {
+      "en": "You could be my heaven, baby",
+      "tr": "Benim cennetim olabilirsin bebeğim;"
+    }
+  },
+  {
+    "id": "5231",
+    "slug": "phoebe-bridgers-lost-weekend-turkce-ceviri",
+    "title": "Phoebe Bridgers Lost Weekend Türkçe Çeviri",
+    "song": "Lost Weekend",
+    "artist": "Phoebe Bridgers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+    "date": "2026-08-17T08:18:04.001Z",
+    "reading_time": 2,
+    "excerpt": "Back when no one could tell us apart",
+    "categories": [
+      "Phoebe Bridgers",
+      "Lost Weekend"
+    ],
+    "category_slugs": [
+      "phoebe-bridgers",
+      "lost-weekend"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1GMPPheF4aMHMifOgp72eF",
+      "albumUrl": "https://open.spotify.com/album/2NSzwyYvQvdOQAoEjrlw9c",
+      "artistUrl": "https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG",
+      "albumName": "Lost Weekend",
+      "releaseDate": "2026-08-14",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+      "duration": "3:39",
+      "albumType": "Album",
+      "track": {
+        "url": "https://open.spotify.com/track/1GMPPheF4aMHMifOgp72eF",
+        "isrc": "USJ5G2645006",
+        "duration": "3:39",
+        "trackNumber": 6
+      },
+      "artist": {
+        "name": "Phoebe Bridgers",
+        "url": "https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6e2d4ab2b84463aa4c349311"
+      },
+      "album": {
+        "name": "Lost Weekend",
+        "url": "https://open.spotify.com/album/2NSzwyYvQvdOQAoEjrlw9c",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+        "artists": [],
+        "releaseDate": "2026-08-14",
+        "albumType": "Album"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=5x3fpZfKwwY",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "blowing me off": "Birini görmezden gelmek, geçiştirmek veya planlarını sürekli ertelemek anlamında gündelik bir ifade.",
+      "losing the plot": "Olayların asıl çizgisini ve kişinin kendi odağını kaybetmesini anlatan bir deyim.",
+      "throw a tantrum": "İşler beklendiği gibi gitmediğinde öfke nöbeti geçirmek anlamına geliyor.",
+      "parallel park": "Müziğin sesini park ederken kısmak gibi sıradan bir ayrıntı, şarkının anı günlüğü hissini güçlendiriyor."
+    },
+    "difficulty_note": null,
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Back when no one could tell us apart",
+      "tr": "Kimsenin bizi birbirimizden ayıramadığı o eski günlerde..."
+    },
+    "heroPair": {
+      "en": "Back when no one could tell us apart",
+      "tr": "Kimsenin bizi birbirimizden ayıramadığı o eski günlerde..."
+    }
+  },
+  {
+    "id": "5230",
+    "slug": "morgan-wallen-dont-we-turkce-ceviri",
+    "title": "Morgan Wallen Don’t We Türkçe Çeviri",
+    "song": "Don’t We",
+    "artist": "Morgan Wallen",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+    "date": "2026-08-17T08:18:04.000Z",
+    "reading_time": 3,
+    "excerpt": "Wouldn't trade this holler for a stone-cold million dollars",
+    "categories": [
+      "Morgan Wallen",
+      "I’m The Problem"
+    ],
+    "category_slugs": [
+      "morgan-wallen",
+      "i-m-the-problem"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
+      "albumUrl": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF",
+      "artistUrl": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+      "albumName": "I’m The Problem",
+      "releaseDate": "2025-05-16",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+      "duration": "3:11",
+      "albumType": "Album",
+      "track": {
+        "url": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
+        "isrc": "USUG12501617",
+        "duration": "3:11",
+        "trackNumber": 20
+      },
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30"
+      },
+      "album": {
+        "name": "I’m The Problem",
+        "url": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
+        "artists": [],
+        "releaseDate": "2025-05-16",
+        "albumType": "Album"
+      }
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=_yBBvLxIQlQ",
+    "youtubeEmbedDisabled": false,
+    "annotations": {
+      "holler": "ABD’nin güneyinde dağlar arasındaki küçük vadi veya yerleşim için kullanılan bölgesel sözcük.",
+      "windshield waving": "Küçük yerleşimlerde sürücülerin ön camdan el sallayarak selamlaşması.",
+      "higher on the hog": "Daha varlıklı ve konforlu yaşamak anlamındaki Amerikan deyimi.",
+      "the forty": "Tarım bağlamında kırk dönümlük araziyi ifade ediyor."
+    },
+    "difficulty_note": null,
+    "moods": [
+      "Motivation",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Wouldn’t trade this holler for a stone-cold million dollars",
+      "tr": "Şu vadiyi bir milyon dolara bile değişmem;"
+    },
+    "heroPair": {
+      "en": "Wouldn’t trade this holler for a stone-cold million dollars",
+      "tr": "Şu vadiyi bir milyon dolara bile değişmem;"
+    }
+  },
+  {
     "id": "5229",
     "slug": "becky-g-cntrl-turkce-ceviri",
     "title": "Becky G CNTRL Türkçe Çeviri",
