@@ -21,6 +21,8 @@ const BOUNCY_INPUT = path.join(process.cwd(), "scripts/aiStudioBouncy.raw.json")
 const BOUNCY_REPORT = "/tmp/acupoflyrics-ai-studio-bouncy-report.json";
 const AUG14_INPUT = path.join(process.cwd(), "scripts/aiStudioAug14.raw.json");
 const AUG14_REPORT = "/tmp/acupoflyrics-ai-studio-aug14-report.json";
+const AUG18_INPUT = path.join(process.cwd(), "scripts/aiStudioAug18.raw.json");
+const AUG18_REPORT = "/tmp/acupoflyrics-ai-studio-aug18-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -372,6 +374,60 @@ const TRACKS = [
       ],
     },
   },
+  {
+    batch: "aug18",
+    sourceKey: "soEasy",
+    label: "Olivia Dean — So Easy (To Fall In Love)",
+    artist: "Olivia Dean",
+    title: "So Easy (To Fall In Love)",
+    youtubeUrl: "https://www.youtube.com/watch?v=FX1_FXlKxXY",
+    annotationOverrides: [
+      { word: "icing on your cake, the cherry on the top", text: "Bir şeyi tamamlayan en güzel son dokunuşu anlatan iki yakın İngilizce imge." },
+      { word: "Saturday night and the rest of your life", text: "Cumartesi gecesinin heyecanıyla uzun süreli bir ilişkinin güvenini aynı kişide buluşturuyor." },
+      { word: "one night could turn into three", text: "Tek gecelik bir buluşmanın birkaç güne uzayabilecek kadar güçlü bir çekime dönüşmesini anlatıyor." },
+    ],
+  },
+  {
+    batch: "aug18",
+    sourceKey: "beHer",
+    label: "Ella Langley — Be Her",
+    artist: "Ella Langley",
+    title: "Be Her",
+    annotationOverrides: [
+      { word: "state of mind", text: "Zenginliği maddi varlıktan çok kişinin bakış açısı ve iç huzuruyla ilişkilendiriyor." },
+      { word: "mile high", text: "Yükseklerdeki lüks yaşamı ve özel uçuşları temsil eden bir ifade." },
+      { word: "walk one in her heels", text: "Başka birinin hayatını onun yerinde yaşayabilmeyi anlatan, ayakkabı üzerinden kurulan bir empati metaforu." },
+    ],
+  },
+  {
+    batch: "aug18",
+    sourceKey: "loser",
+    label: "Tame Impala — Loser",
+    artist: "Tame Impala",
+    title: "Loser",
+    youtubeUrl: "https://www.youtube.com/watch?v=s3a4OQR-10M",
+    annotationOverrides: [
+      { word: "So much for closure", text: "Beklenen vedanın veya duygusal kapanışın işe yaramadığını belirten hayal kırıklığı ifadesi." },
+      { word: "Desperate times call for desperate measures", text: "Çaresiz durumların alışılmadık ve sert önlemler gerektirebileceğini anlatan İngilizce deyim." },
+      { word: "magnified it", text: "Bir sorunu çözmek yerine zihinde büyütüp daha ağır hale getirmek anlamında kullanılıyor." },
+    ],
+  },
+  {
+    batch: "aug18",
+    sourceKey: "conexionPsiquica",
+    label: "Aitana — Conexión Psíquica",
+    artist: "Aitana",
+    title: "Conexión Psíquica",
+    slug: "aitana-conexion-psiquica-turkce-ceviri",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 5],
+    sectionOverrides: ["Verse 1", "Pre-Chorus", "Chorus", "Verse 2", "Pre-Chorus", "Chorus", "Bridge", "Chorus"],
+    annotationOverrides: [
+      { word: "conexión psíquica", text: "İki kişi arasında söze ihtiyaç bırakmayan, zihinsel ve sezgisel bir bağ." },
+      { word: "que me lleven presa", text: "Yapılan şey yanlışsa bile sonuçlarını göze alacak kadar kararlı olmayı anlatan meydan okuma." },
+      { word: "bajo la mesa", text: "Başkalarından gizlenen yakınlığı masa altı görüntüsü üzerinden kuruyor." },
+      { word: "buena suerte", text: "Gerçeği öğrenecek eski sevgiliye yöneltilen alaycı bir ‘bol şans’ ifadesi." },
+    ],
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -593,7 +649,7 @@ function parseTrack(source, track) {
   const hasHangul = /[\uac00-\ud7a3]/.test(originalBody);
   const hasHan = /\p{Script=Han}/u.test(originalBody);
   const stanzas = originalStanzas.map((stanza, index) => ({
-    section: stanza.section,
+    section: track.sectionOverrides?.[index] || stanza.section,
     original: stanza.lines.map((line) => {
       const corrected = line.replace("차오르은 feel", "차오르는 feel");
       const hangulRomanized = hasHangul ? romanizeHangul(corrected) : corrected;
@@ -605,7 +661,7 @@ function parseTrack(source, track) {
     notes: [],
   }));
   const lyricalText = stanzas.flatMap((stanza) => [...stanza.original, ...stanza.translation]).join("\n");
-  const annotationCandidates = ["aug12", "aug13", "thatway", "aug14"].includes(track.batch)
+  const annotationCandidates = ["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
     ? inlineAnnotations(translatedBody, lyricalText)
     : [...inlineAnnotations(translatedBody, lyricalText), ...analysisAnnotations(source.model, lyricalText)];
   const notes = new Map();
@@ -714,10 +770,11 @@ async function main() {
   const aug13Batch = process.argv.includes("--aug13");
   const bouncyBatch = process.argv.includes("--bouncy");
   const aug14Batch = process.argv.includes("--aug14");
-  const inputPath = aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug18Batch = process.argv.includes("--aug18");
+  const inputPath = aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));

@@ -1454,7 +1454,7 @@
   {
     "slug": "tame-impala",
     "name": "Tame Impala",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "slug": "olivia-dean",
     "name": "Olivia Dean",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1"
   },
   {
@@ -1562,7 +1562,7 @@
   {
     "slug": "ella-langley",
     "name": "Ella Langley",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
   },
   {
@@ -2020,5 +2020,11 @@
     "name": "AxMxP",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb0b51afcc1e232a12ae8a3c63"
+  },
+  {
+    "slug": "aitana",
+    "name": "Aitana",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf70cb5cef7d3848570900de5"
   }
 ]

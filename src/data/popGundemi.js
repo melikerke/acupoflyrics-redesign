@@ -1,5 +1,109 @@
 export const popGundemiArticles = [
   {
+    slug: "18-agustos-2026-muzik-gundemi",
+    title: "18 Ağustos müzik gündemi: So Easy, Be Her ve Loser arşive eklendi",
+    shortTitle: "18 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-18",
+    updatedAt: "2026-08-18T10:35:00+03:00",
+    readTime: "4 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
+    imageAlt: "Olivia Dean The Art of Loving albüm kapağı",
+    imageCredit: "Olivia Dean · Universal Music",
+    imageSource: "https://www.youtube.com/watch?v=FX1_FXlKxXY",
+    accent: "#ba573c",
+    excerpt:
+      "Olivia Dean — So Easy (To Fall In Love), Ella Langley — Be Her ve Tame Impala — Loser son doğrulanan global listelerde öne çıkıyor. Aitana'nın Conexión Psíquica şarkısı ise TikTok ve Meksika dinlemeleriyle yeniden yükselişte.",
+    dek:
+      "17 Ağustos'ta doğrulanan liste görünümü ile 17 Ağustos tarihli viral verileri, acupoflyrics arşivindeki eksiklerle karşılaştırıldı. K-pop ilk 10'unda yeni bir çeviri açığı tespit edilmedi.",
+    pullQuote:
+      "Olivia Dean — So Easy (To Fall In Love) son doğrulanan Hot 100 görünümünde 9, Tame Impala — Loser ise Spotify Global görünümünde 3 numarada.",
+    relatedTranslations: [
+      "olivia-dean-man-i-need-turkce-ceviri",
+      "sam-fender-olivia-dean-rein-me-in-turkce-ceviri",
+      "ella-langley-choosin-texas-turkce-ceviri",
+      "ella-langley-i-can-t-love-you-anymore-turkce-ceviri",
+      "tame-impala-jennie-dracula-turkce-ceviri",
+      "olivia-dean-so-easy-to-fall-in-love-turkce-ceviri",
+      "ella-langley-be-her-turkce-ceviri",
+      "tame-impala-loser-turkce-ceviri",
+      "aitana-conexion-psiquica-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "18 Ağustos 2026 kontrolü",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Global listeler", text: "So Easy (To Fall In Love), Be Her ve Tame Impala — Loser çevirileri 18 Ağustos'ta arşive eklendi." },
+        { label: "Viral yükseliş", text: "Conexión Psíquica, 14 Ağustos'ta 220 binin üzerinde Spotify dinlenmesine ulaştı ve TikTok'ta 120 binden fazla videoda kullanıldı." },
+        { label: "K-pop", text: "Son doğrulanan Circle Global ilk 10'undaki tüm parçaların Türkçe çeviri sayfası arşivde mevcut." },
+      ],
+    },
+    summary: [
+      "Sitedeki müzik listelerinin son başarıyla doğrulanan görünümü 17 Ağustos tarihini taşıyor. 18 Ağustos'taki otomatik kaynak bağlantıları tamamlanamadığı için önceki geçerli veriler korunarak boş veya kısmi sıralama yayımlanmadı.",
+      "Billboard Hot 100 görünümünde Olivia Dean — So Easy (To Fall In Love) 9, Ella Langley — Be Her 10 numarada. İki şarkının Türkçe çeviri sayfası 18 Ağustos'ta acupoflyrics arşivine eklendi.",
+      "Spotify Global Top 50 görünümünde Tame Impala — Loser 3 numarada. Spider-Man: Brand New Day kullanımının ardından yeniden yükselen parçanın ayrı Türkçe çeviri sayfası arşive eklendi.",
+      "LOS40'ın 17 Ağustos tarihli haberine göre Aitana — Conexión Psíquica, TikTok kullanımları ve Meksika'daki dinlemelerle yeniden yükseliyor. Şarkının Türkçe çevirisi 18 Ağustos'ta arşive eklendi.",
+      "Circle Global ilk 10'undaki BAD, Golden, SWIM, APT., REDRED, It's Me, ICONIC BY MISTAKE, This & That, LEMONADE ve Less than a Lover çevirilerinin tamamı arşivde mevcut.",
+    ],
+    sections: [
+      {
+        heading: "Olivia Dean — So Easy yeniden ilk 10'da",
+        body: [
+          "Olivia Dean'in 26 Eylül 2025'te The Art of Loving albümüyle yayımladığı So Easy (To Fall In Love), sitede 17 Ağustos'ta doğrulanan Billboard Hot 100 görünümünde 9 numarada yer alıyor. Universal Music'in resmi videosu şarkının albüm dönemindeki yayınını doğruluyor.",
+          "Parça yeni yayımlanmış değil; güncel önemini uzun süreli liste performansından alıyor. So Easy (To Fall In Love) Türkçe çevirisi 18 Ağustos'ta Man I Need ve Sam Fender ortaklığı Rein Me In sayfalarının yanına eklendi.",
+        ],
+      },
+      {
+        heading: "Ella Langley — Be Her, Hot 100 ilk 10'unda",
+        body: [
+          "Ella Langley — Be Her aynı Hot 100 görünümünde 10 numarada. Sanatçının resmi bağlantı sayfası parçanın dijital platformlardaki kaydını doğruluyor.",
+          "Arşivde Choosin' Texas ile Ella Langley ve Morgan Wallen ortaklığı I Can't Love You Anymore bulunuyor. Be Her Türkçe çevirisi de 18 Ağustos'ta sanatçı arşivine eklendi.",
+        ],
+      },
+      {
+        heading: "Tame Impala — Loser için isim çakışmasına dikkat",
+        body: [
+          "Sony Music ve resmi video kayıtlarına göre 3 Eylül 2025'te yayımlanan Tame Impala — Loser, Spotify Global Top 50'nin 17 Ağustos'ta doğrulanan görünümünde üçüncü sırada. Şarkı, listenin ilk üçündeki en belirgin arşiv açığı.",
+          "LOS40'ın 9 Ağustos tarihli haberinde parçanın Spider-Man: Brand New Day filminde kullanılmasının ardından belirgin biçimde yükseldiği aktarılıyor. Bu nedenle güncel hareket yeni bir yayın değil, film görünürlüğüyle güçlenen bir yeniden keşif olarak değerlendiriliyor.",
+          "acupoflyrics'teki eski Loser kaydı Jin ve YENA'ya ait. Tame Impala — Loser için sanatçıya özel ayrı Türkçe çeviri sayfası 18 Ağustos'ta eklendi; iki kayıt başlıkları aynı olsa da birbirinden bağımsız tutuluyor.",
+        ],
+      },
+      {
+        heading: "Aitana — Conexión Psíquica yeniden yükseliyor",
+        body: [
+          "LOS40'ın 17 Ağustos'ta yayımladığı habere göre Conexión Psíquica, 14 Ağustos'ta Spotify'da 220 binin üzerinde dinlenerek çıkış döneminden sonraki en güçlü günlük sonuçlarından birini aldı. Parça aynı dönemde Meksika Spotify ilk 100'üne 86 numaradan girdi.",
+          "Haberde kullanılan TikTok verisi şarkı sesinin 120 binden fazla videoda yer aldığını gösteriyor. Bu hareket yeni bir yayın değil; 2025 tarihli Cuarto Azul albüm parçasının sosyal video kullanımlarıyla yeniden keşfedilmesi. Şarkının Türkçe çevirisi 18 Ağustos'ta arşive eklendi.",
+        ],
+      },
+      {
+        heading: "K-pop ilk 10'unda yeni çeviri açığı yok",
+        body: [
+          "Circle Global'ın son doğrulanan ilk 10 sıralaması ATEEZ — BAD ile başlıyor; Golden ve BTS — SWIM ilk üçü tamamlıyor. İlk 10'daki tüm parçalar acupoflyrics arşivinde mevcut.",
+          "Bu nedenle bugünkü K-pop bölümüne yalnızca liste konumu gerekçesiyle yeni bir çeviri adayı eklenmedi. Yeni bir resmi yayın veya belirgin liste sıçraması doğrulanana kadar mevcut sayfalar korunacak.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "So Easy (To Fall In Love)", status: "Arşive eklendi", detail: "Son doğrulanan Billboard Hot 100 görünümünde 9 numara." },
+      { name: "Be Her", status: "Arşive eklendi", detail: "Son doğrulanan Billboard Hot 100 görünümünde 10 numara." },
+      { name: "Tame Impala — Loser", status: "Arşive eklendi", detail: "Spotify Global görünümünde 3 numara; Jin ve YENA'nın aynı adlı kaydından ayrı bir sayfa." },
+      { name: "Conexión Psíquica", status: "Arşive eklendi", detail: "TikTok ve Meksika Spotify verileriyle viral hareket doğrulandı." },
+      { name: "Circle Global ilk 10", status: "Arşivde tamam", detail: "İlk 10'daki tüm şarkıların Türkçe çevirisi sitede mevcut." },
+    ],
+    sources: [
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Olivia Dean — So Easy (To Fall In Love) resmi video", url: "https://www.youtube.com/watch?v=FX1_FXlKxXY" },
+      { name: "Ella Langley — Be Her resmi bağlantı sayfası", url: "https://ellalangley.lnk.to/BeHer" },
+      { name: "Sony Music — Tame Impala, Loser resmi yayın bilgisi", url: "https://www.sonymusic.ca/press_release/tame-impala-releases-loser" },
+      { name: "LOS40 — Spider-Man: Brand New Day müzik etkisi", url: "https://los40.com/2026/08/09/el-efecto-spider-man-brand-new-day-asi-ha-impulsado-la-pelicula-las-canciones-de-tame-impala-steve-lacy-y-otros-artistas/" },
+      { name: "LOS40 — Conexión Psíquica viral yükselişi", url: "https://los40.com/2026/08/17/el-efecto-mariposa-de-superestrella-conexion-psiquica-de-aitana-se-convierte-en-el-nuevo-himno-de-las-girls-que-ha-pasado/" },
+    ],
+    storyShare:
+      "18 Ağustos müzik gündemi: Olivia Dean — So Easy (To Fall In Love), Ella Langley — Be Her, Tame Impala — Loser ve Aitana — Conexión Psíquica Türkçe çevirileri arşive eklendi.",
+  },
+  {
     slug: "istanbul-festivali-2026-kpop-konserleri",
     title: "İstanbul Festivali'nde iki gecelik büyüleyici K-pop buluşması",
     shortTitle: "İstanbul Festivali K-pop geceleri",
