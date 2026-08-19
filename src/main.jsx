@@ -16,7 +16,11 @@ async function mountApp() {
     // App/ErrorBoundary will present the normal recovery UI if the route fails.
   }
 
-  ReactDOM.createRoot(document.getElementById("root")).render(
+  const root = document.getElementById("root");
+  const hasHomepagePrerender = Boolean(root.querySelector(".seo-home-prerender"));
+  window.__aclFromHomepagePrerender = hasHomepagePrerender;
+
+  ReactDOM.createRoot(root).render(
     <React.StrictMode>
       <BrowserRouter>
         <App />

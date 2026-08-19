@@ -87,7 +87,7 @@ function quoteFor(post) {
   };
 }
 
-function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
+function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
   const post = posts[activeIndex];
   const rawPair = post.heroPair || firstPair(post);
   const pair = {
@@ -109,7 +109,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange }) {
 
   return (
     <section
-      className="acl-hero"
+      className={`acl-hero${motionEnabled ? "" : " is-static-paint"}`}
       onMouseEnter={() => onPauseChange(true)}
       onMouseLeave={() => onPauseChange(false)}
       onFocusCapture={() => onPauseChange(true)}
@@ -543,6 +543,7 @@ export default function HomePreview() {
   }, []);
   const { heroPosts } = contentPlan;
   const [heroIndex, setHeroIndex] = useState(0);
+  const [heroMotionEnabled, setHeroMotionEnabled] = useState(() => !window.__aclFromHomepagePrerender);
   const [heroPaused, setHeroPaused] = useState(false);
   const [recentHistory, setRecentHistory] = useState(() => getHistory());
   const activeHero = heroPosts[heroIndex] || heroPosts[0];
@@ -570,10 +571,16 @@ export default function HomePreview() {
     if (heroPaused || heroPosts.length < 2) return undefined;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return undefined;
     const timer = window.setInterval(() => {
+      setHeroMotionEnabled(true);
       setHeroIndex((current) => (current + 1) % heroPosts.length);
     }, 7000);
     return () => window.clearInterval(timer);
   }, [heroPaused, heroPosts.length]);
+
+  const selectHero = (next) => {
+    setHeroMotionEnabled(true);
+    setHeroIndex(next);
+  };
 
   useEffect(() => {
     const refreshLibrary = () => setRecentHistory(getHistory());
@@ -596,8 +603,9 @@ export default function HomePreview() {
           <Hero
             posts={heroPosts}
             activeIndex={heroIndex}
-            onSelect={setHeroIndex}
+            onSelect={selectHero}
             onPauseChange={setHeroPaused}
+            motionEnabled={heroMotionEnabled}
           />
           <PopNewsBanner article={latestPopGundemi} />
           <RisingSongFeature post={contentPlan.risingPost} article={latestPopGundemi} />

@@ -144,6 +144,77 @@ function staticLinks(items) {
     <li><a href="${escapeHtml(postPath(item))}">${escapeHtml(item.artist)} — ${escapeHtml(item.song)}</a></li>`).join("");
 }
 
+function cleanHeroLine(value) {
+  return String(value || "")
+    .replace(/\s*\((?:mm[-\s]*|oh[-\s]*|ah[-\s]*)+\)\s*$/i, "")
+    .trim();
+}
+
+function staticHome(items) {
+  const post = items[0];
+  if (!post) return staticCollectionPage({
+    kicker: "acupoflyrics",
+    title: "Şarkı Sözleri ve Türkçe Çeviriler",
+    description: "Şarkıların hikâyesini, anlamını ve Türkçe çevirisini keşfet.",
+    items: [],
+  });
+
+  const pair = firstPair(post);
+  const translatedLine = cleanHeroLine(pair.tr) || post.song;
+  const originalLine = cleanHeroLine(pair.en) || post.song;
+  const album = albumNameFor(post);
+  const year = releaseYearFor(post);
+  const cover = spotifyImageUrl(post.cover || post.image, 640);
+  const background = spotifyImageUrl(post.cover || post.image, 300);
+  const spotifyUrl = post.spotify?.trackUrl || post.spotify?.track?.url;
+  const recent = items.slice(0, 8);
+
+  return `<div class="seo-home-prerender">
+    <header class="seo-home-nav">
+      <a class="seo-home-logo" href="/">acupoflyrics</a>
+      <nav aria-label="Ana navigasyon">
+        <a href="/discover">Keşfet</a>
+        <a href="/albumler">Albümler</a>
+        <a href="/discover#artists">Sanatçılar</a>
+        <a href="/discover#moods">Mood</a>
+        <a href="/listeler">Listeler</a>
+        <a href="/pop-gunlugu">Pop Günlüğü</a>
+      </nav>
+      <a class="seo-home-search" href="/search" aria-label="Ara">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path></svg>
+        <span>Ara</span><kbd>⌘K</kbd>
+      </a>
+    </header>
+    <main class="seo-home-shell">
+      <h1>Şarkı Sözleri ve Türkçe Çeviriler</h1>
+      <div class="seo-home-main">
+        <section class="seo-home-hero" aria-labelledby="seo-home-featured">
+          <img class="seo-home-hero-bg" src="${escapeHtml(background)}" width="300" height="300" fetchpriority="high" decoding="async" alt="" aria-hidden="true" />
+          <div class="seo-home-vignette" aria-hidden="true"></div>
+          <div class="seo-home-copy">
+            <div class="seo-home-kicker"><span>Haftanın Çevirisi</span><i></i></div>
+            <blockquote id="seo-home-featured">${escapeHtml(translatedLine)}</blockquote>
+            <p class="seo-home-original">“${escapeHtml(originalLine)}”</p>
+            <p class="seo-home-meta">${escapeHtml(post.artist)} · ${escapeHtml(album)}${year ? `, ${escapeHtml(year)}` : ""}</p>
+            <div class="seo-home-actions">
+              <a class="seo-home-primary" href="${escapeHtml(postPath(post))}">Çeviriyi oku <span aria-hidden="true">→</span></a>
+              ${spotifyUrl ? `<a class="seo-home-listen" href="${escapeHtml(spotifyUrl)}"><span aria-hidden="true">▶</span> Dinle</a>` : ""}
+            </div>
+          </div>
+          <a class="seo-home-art" href="${escapeHtml(postPath(post))}" aria-label="${escapeHtml(`${post.artist} ${post.song}`)}">
+            <img src="${escapeHtml(cover)}" width="640" height="640" fetchpriority="high" decoding="async" alt="${escapeHtml(`${post.artist} - ${post.song}`)}" />
+          </a>
+          <div class="seo-home-count" aria-hidden="true"><span>1</span><i></i><span>5</span></div>
+        </section>
+        <section class="seo-home-recent" aria-labelledby="seo-home-recent-title">
+          <div><span>Yeni eklenenler</span><h2 id="seo-home-recent-title">Yeni Çeviriler</h2></div>
+          <ul>${staticLinks(recent)}</ul>
+        </section>
+      </div>
+    </main>
+  </div>`;
+}
+
 function staticPage({ kicker, title, description, image, children = "" }) {
   return `<div class="seo-prerender">
     <nav><a href="/">acupoflyrics</a><a href="/discover">Keşfet</a><a href="/search">Ara</a></nav>
@@ -246,7 +317,7 @@ function htmlFor(route) {
       })),
     })}</script>` : ""}
     <style id="seo-prerender-styles">
-      .seo-prerender{min-height:100vh;padding:28px;background:#071012;color:#f7f3ec;font:16px/1.65 Inter,system-ui,sans-serif}.seo-prerender nav,.seo-prerender main{width:min(920px,100%);margin:auto}.seo-prerender nav{display:flex;gap:22px;padding:0 0 32px}.seo-prerender a{color:inherit}.seo-prerender article{display:flow-root}.seo-prerender h1{max-width:18ch;margin:0 0 18px;font:400 clamp(38px,7vw,72px)/1.02 Fraunces,Georgia,serif}.seo-prerender h2{margin-top:34px;font:400 25px/1.2 Fraunces,Georgia,serif}.seo-kicker{color:#ef8dad;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.seo-description{max-width:68ch;color:rgba(247,243,236,.72)}.seo-cover{float:right;width:min(320px,42vw);margin:0 0 26px 32px;border-radius:10px}.seo-prerender section span{color:rgba(247,243,236,.82)}.seo-prerender li{margin:9px 0}@media(max-width:620px){.seo-prerender{padding:20px}.seo-cover{float:none;width:100%;margin:8px 0 18px}}
+      html,body{margin:0;min-height:100%;background:#071012}.seo-prerender{min-height:100vh;padding:28px;background:#071012;color:#f7f3ec;font:16px/1.65 Inter,system-ui,sans-serif}.seo-prerender nav,.seo-prerender main{width:min(920px,100%);margin:auto}.seo-prerender nav{display:flex;gap:22px;padding:0 0 32px}.seo-prerender a{color:inherit}.seo-prerender article{display:flow-root}.seo-prerender h1{max-width:18ch;margin:0 0 18px;font:400 clamp(38px,7vw,72px)/1.02 Fraunces,Georgia,serif}.seo-prerender h2{margin-top:34px;font:400 25px/1.2 Fraunces,Georgia,serif}.seo-kicker{color:#ef8dad;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.seo-description{max-width:68ch;color:rgba(247,243,236,.72)}.seo-cover{float:right;width:min(320px,42vw);margin:0 0 26px 32px;border-radius:10px}.seo-prerender section span{color:rgba(247,243,236,.82)}.seo-prerender li{margin:9px 0}.seo-home-prerender,.seo-home-prerender *{box-sizing:border-box}.seo-home-prerender{--seo-bg:#071012;--seo-bg-soft:#0b1518;--seo-text:#f7f3ec;--seo-muted:rgba(247,243,236,.7);--seo-faint:rgba(247,243,236,.52);--seo-border:rgba(255,255,255,.09);--seo-accent:#d28075;min-height:100vh;overflow:hidden;background:radial-gradient(circle at 55% 2%,rgba(36,22,20,.24),transparent 32%),linear-gradient(180deg,var(--seo-bg),var(--seo-bg-soft));color:var(--seo-text);font-family:Inter,system-ui,sans-serif}.seo-home-prerender a{color:inherit;text-decoration:none}.seo-home-nav{position:relative;z-index:3;display:grid;grid-template-columns:minmax(150px,.6fr) minmax(420px,1.1fr) minmax(190px,.5fr);align-items:center;gap:22px;min-height:84px;width:min(100%,1510px);margin:auto;padding:0 clamp(28px,4.4vw,66px)}.seo-home-logo{font:italic 300 27px/1 Fraunces,Georgia,serif}.seo-home-nav nav{display:flex;align-items:center;justify-content:center;gap:clamp(22px,3.2vw,48px)}.seo-home-nav nav a{font-size:14px;opacity:.86}.seo-home-search{justify-self:end;display:inline-flex;align-items:center;gap:10px;min-height:42px;padding:0 18px;border:1px solid var(--seo-border);border-radius:999px;background:rgba(22,30,35,.66);color:var(--seo-muted);font-size:14px}.seo-home-search kbd{color:var(--seo-faint);font:12px Inter,system-ui,sans-serif}.seo-home-shell{display:grid;grid-template-columns:minmax(0,2.18fr) minmax(330px,.82fr);gap:clamp(22px,3vw,38px);width:min(100%,1510px);margin:auto;padding:12px clamp(28px,4.4vw,66px) 42px}.seo-home-shell>h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.seo-home-main{min-width:0;padding-right:clamp(22px,3vw,38px);border-right:1px solid var(--seo-border)}.seo-home-hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,49%);align-items:center;height:580px;overflow:hidden}.seo-home-hero-bg{position:absolute;inset:-16%;width:132%;height:132%;object-fit:cover;opacity:.48;filter:blur(42px) saturate(1.18);transform:scale(1.05)}.seo-home-vignette{position:absolute;inset:0;background:radial-gradient(circle at 76% 48%,transparent 0,rgba(0,0,0,.08) 28%,rgba(0,0,0,.3) 74%),linear-gradient(90deg,var(--seo-bg) 0%,rgba(7,16,18,.82) 38%,transparent 100%),linear-gradient(180deg,transparent 0%,rgba(7,16,18,.72) 100%)}.seo-home-copy{position:relative;z-index:2;max-width:590px;padding:30px clamp(26px,3vw,44px) 44px}.seo-home-kicker{display:flex;align-items:center;gap:16px;margin-bottom:26px;color:var(--seo-accent);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-kicker i{width:34px;height:1px;background:currentColor}.seo-home-copy blockquote{margin:0;color:var(--seo-text);font:300 clamp(50px,5.1vw,76px)/.98 Fraunces,Georgia,serif}.seo-home-original{margin:22px 0 0;color:var(--seo-muted);font-size:clamp(19px,1.8vw,24px);font-weight:300;line-height:1.35}.seo-home-meta{margin:14px 0 0;color:var(--seo-muted);font-size:17px}.seo-home-actions{display:flex;align-items:center;gap:22px;margin-top:42px}.seo-home-primary,.seo-home-listen{display:inline-flex;align-items:center;gap:10px;min-height:52px}.seo-home-primary{padding:0 28px;border-radius:999px;background:var(--seo-accent);color:#fff!important;font-size:14px;font-weight:600;box-shadow:0 18px 34px rgba(0,0,0,.24)}.seo-home-listen{font-size:15px}.seo-home-listen span{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--seo-border);border-radius:50%;background:rgba(22,30,35,.66);font-size:11px}.seo-home-art{position:relative;z-index:2;justify-self:end;width:min(100%,650px);aspect-ratio:1;overflow:hidden;border:1px solid rgba(255,255,255,.12);border-radius:8px;background:#111a1d;box-shadow:0 32px 78px rgba(0,0,0,.34)}.seo-home-art img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(1.06) contrast(1.04)}.seo-home-count{position:absolute;z-index:3;right:clamp(18px,2vw,32px);bottom:26px;display:flex;align-items:center;gap:12px;color:var(--seo-faint);font-size:13px}.seo-home-count span:first-child{color:var(--seo-accent)}.seo-home-count i{width:38px;height:1px;background:var(--seo-faint)}.seo-home-recent{content-visibility:auto;contain-intrinsic-block-size:420px;padding:34px 0;border-top:1px solid var(--seo-border)}.seo-home-recent>div>span{color:var(--seo-accent);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-recent h2{margin:8px 0 22px;font:300 34px/1.1 Fraunces,Georgia,serif}.seo-home-recent ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:0;padding:0;list-style:none}.seo-home-recent li{border-top:1px solid var(--seo-border)}.seo-home-recent li a{display:block;padding:13px 0;color:var(--seo-muted);font-size:14px}@media(max-width:1180px){.seo-home-shell{grid-template-columns:minmax(0,1fr)}.seo-home-main{padding-right:0;border-right:0}}@media(max-width:860px){.seo-home-nav{min-height:72px;grid-template-columns:1fr auto;padding:0 18px}.seo-home-nav nav{display:none}.seo-home-search{width:42px;padding:0;justify-content:center}.seo-home-search span,.seo-home-search kbd{display:none}.seo-home-shell{padding:8px 18px 34px}.seo-home-hero{display:flex;flex-direction:column-reverse;align-items:stretch;height:clamp(610px,120vw,640px);gap:14px;padding-bottom:18px}.seo-home-art{width:min(70vw,260px);margin-inline:auto}.seo-home-copy{padding:0 18px 4px}.seo-home-kicker{margin-bottom:16px}.seo-home-copy blockquote{font-size:clamp(38px,10vw,52px)}.seo-home-original{margin-top:14px;font-size:clamp(16px,4vw,19px)}.seo-home-meta{margin-top:8px;font-size:14px}.seo-home-actions{flex-wrap:wrap;margin-top:20px}.seo-home-count{display:none}.seo-home-recent ul{grid-template-columns:1fr}}@media(max-width:620px){.seo-prerender{padding:20px}.seo-cover{float:none;width:100%;margin:8px 0 18px}}
     </style>`;
   const withHead = cleanHead(template).replace("</head>", `${tags}\n  </head>`);
   return withHead.replace('<div id="root"></div>', `<div id="root">${route.staticHtml || ""}</div>`);
@@ -263,13 +334,7 @@ const routes = [
     "Şarkı sözlerini, özenli Türkçe çevirileri, satır açıklamalarını ve müzik gündemini acupoflyrics arşivinde keşfet.",
     posts[0]?.cover,
     {
-      staticHtml: staticCollectionPage({
-        kicker: "acupoflyrics",
-        title: "Şarkı Sözleri ve Türkçe Çeviriler",
-        description: "Şarkıların hikâyesini, anlamını ve Türkçe çevirisini keşfet.",
-        image: posts[0]?.cover,
-        items: posts.slice(0, 12),
-      }),
+      staticHtml: staticHome(posts),
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "WebSite",
