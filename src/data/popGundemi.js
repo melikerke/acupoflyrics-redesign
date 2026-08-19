@@ -1,5 +1,105 @@
 export const popGundemiArticles = [
   {
+    slug: "19-agustos-2026-muzik-gundemi",
+    title: "19 Ağustos müzik gündemi: ZEROBASEONE ve BIGBANG yayında",
+    shortTitle: "19 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-19",
+    updatedAt: "2026-08-19T14:25:00+03:00",
+    readTime: "4 dk",
+    image: "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0252ef5c6a7069e81cb4621748",
+    imageAlt: "ZEROBASEONE 回帰LOVE Japonya ikinci EP kapağı",
+    imageCredit: "ZEROBASEONE · Sony Music Labels",
+    imageSource: "https://open.spotify.com/album/19E8K5raOkxy6HNvntZwJv",
+    accent: "#79a6d2",
+    excerpt:
+      "ZEROBASEONE'un 回帰LOVE EP'si ve BIGBANG'in BiiiG single'ı yayımlandı. AtHeart — 3!4! için 18.00 KST takvimi açıklanırken BOYNEXTDOOR — Boom Boom Boom 18 Ağustos'ta dinlemeye açıldı.",
+    dek:
+      "Beş müzik listesi 19 Ağustos verisiyle yenilendi. Önceki raporlardaki adaylar tekrarlanmadı; yalnızca bugün ilk kez doğrulanan yayınlar ve arşivde bulunmayan çeviriler ele alındı.",
+    pullQuote:
+      "BIGBANG — BiiiG, Korece bölümlerin romanizasyonu ve açıklama notlarıyla çeviri arşivine eklendi.",
+    relatedTranslations: [
+      "bts-swim-turkce-ceviri",
+      "bts-normal-turkce-ceviri",
+      "stray-kids-this-and-that-turkce-ceviri",
+      "ateez-bad-turkce-ceviri",
+      "bigbang-biiig-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "19 Ağustos 2026 kontrolü",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Yayımlandı", text: "ZEROBASEONE — イグジステンス, BIGBANG — BiiiG ve BOYNEXTDOOR — Boom Boom Boom dijital platformlarda yerini aldı." },
+        { label: "Arşive eklendi", text: "BIGBANG — BiiiG çevirisi, romanize okunuşu, Spotify kaydı ve resmî müzik videosuyla yayında." },
+        { label: "Listeler", text: "Billboard, Circle, Apple Music ve Spotify dahil beş liste 19 Ağustos verisiyle yenilendi." },
+      ],
+    },
+    summary: [
+      "Billboard Hot 100, Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 verileri 19 Ağustos sabahında başarıyla yenilendi.",
+      "Spotify Global'da Tame Impala — Loser birinci sıraya yükseldi; parça 18 Ağustos'ta raporlanıp arşive eklendiği için bugünün adaylarında tekrar yer almıyor. BTS — SWIM'in Spotify ilk 10 girişi de mevcut çeviri sayfasına bağlanıyor.",
+      "Global Pop & R&B ile Viral/Yeniden Yükselen bölümlerinde bugün ilk kez doğrulanan, sitede bulunmayan güçlü bir çeviri adayı tespit edilmedi.",
+      "K-pop tarafında ZEROBASEONE'un Japonya ikinci EP'si 回帰LOVE ile BIGBANG'in BiiiG single'ı yayımlandı. AtHeart — 3!4! için 19 Ağustos 18.00 KST takvimi açıklandı; BOYNEXTDOOR'un Japonca dijital single'ı ise 18 Ağustos'ta yayımlandı.",
+    ],
+    sections: [
+      {
+        heading: "ZEROBASEONE — イグジステンス yayımlandı",
+        body: [
+          "ZEROBASEONE'un Japonya ikinci EP'si 回帰LOVE, grubun Japonya resmi sitesinde açıklandığı üzere 19 Ağustos'ta yayımlandı. Üç şarkılık kaydın başlık parçası イグジステンス (Existence); albümde Aphrodite ve TOP 5'in Japonca versiyonu da bulunuyor.",
+          "Başlık parçası acupoflyrics arşivinde bulunmuyor. Japonca özgün sözlerle birlikte Latin alfabeli romanizasyon hazırlanması gerektiği için yüksek öncelikli çeviri adayı olarak işaretlendi.",
+        ],
+      },
+      {
+        heading: "BIGBANG — BiiiG yayımlandı ve çeviri arşivine eklendi",
+        body: [
+          "BIGBANG'in yeni dijital single'ı BiiiG, 19 Ağustos'ta YG Entertainment etiketiyle yayımlandı. Parça, grubun 21 Ağustos'ta Goyang'da başlayacak XX : COSMOS dünya turnesinden iki gün önce dinleyiciyle buluştu.",
+          "Şarkının Türkçe çevirisi; Korece bölümlerin Latin alfabeli okunuşu, kültürel ifade notları, resmî Spotify kaydı ve BIGBANG kanalındaki müzik videosuyla acupoflyrics arşivine eklendi.",
+        ],
+      },
+      {
+        heading: "AtHeart — 3!4!, Roo'Ra şarkısını yeniden yorumluyor",
+        body: [
+          "TITAN CONTENT'ın duyurusuna göre AtHeart — 3!4!, 19 Ağustos 18.00 KST'de dünya genelinde yayımlanacak. Single, Roo'Ra'nın 1996 tarihli aynı adlı şarkısının grubun TIME TRAVEL PROJECT serisi için hazırlanan yeni yorumu.",
+          "Arşivde AtHeart'a ait bir çeviri bulunmuyor. Korece sözler nedeniyle romanizasyon gerektiren parça, yeni yayın olması ve grubun ilk arşiv kaydını oluşturacak olması nedeniyle yüksek öncelikte.",
+        ],
+      },
+      {
+        heading: "BOYNEXTDOOR — Boom Boom Boom 18 Ağustos'ta çıktı",
+        body: [
+          "BOYNEXTDOOR'un ikinci Japonca dijital single'ı Boom Boom Boom, grubun daha önce açıkladığı takvime uygun olarak 18 Ağustos'ta yayımlandı. Yayın, grubun Eylül sonunda planlanan Korece repackaged albümünden ayrı bir Japonya çalışması.",
+          "Şarkı arşivde bulunmuyor. Japonca özgün sözler ve romanizasyon birlikte hazırlanmalı; bugünkü adaylar arasında yüksek öncelikte değerlendiriliyor.",
+        ],
+      },
+      {
+        heading: "Global ve viral bölümlerde yeni aday yok",
+        body: [
+          "Billboard ve Spotify'daki belirgin hareketlerin tamamı daha önce raporlanan veya Türkçe çevirisi arşivde bulunan şarkılardan oluşuyor. Tame Impala — Loser, BTS — SWIM, Olivia Dean — Man I Need ve Taylor Swift — I Knew It, I Knew You için yeni sayfa gerekmiyor.",
+          "Bu nedenle Global Pop & R&B ve Viral/Yeniden Yükselen bölümleri eski adaylarla tekrar doldurulmadı. Yeni bir yayın veya doğrulanmış belirgin sıçrama ortaya çıkana kadar mevcut sayfalar korunacak.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "ZEROBASEONE — イグジステンス", status: "Çeviri bekliyor", detail: "19 Ağustos'ta yayımlandı; Japonca sözler için romanizasyon gerekli." },
+      { name: "BIGBANG — BiiiG", status: "Arşive eklendi", detail: "19 Ağustos'ta yayımlandı; Türkçe çeviri ve romanize okunuş yayında." },
+      { name: "AtHeart — 3!4!", status: "Bugün geliyor", detail: "19 Ağustos 18.00 KST için planlanan Roo'Ra yeniden yorumu; romanizasyon gerekli." },
+      { name: "BOYNEXTDOOR — Boom Boom Boom", status: "Çeviri bekliyor", detail: "18 Ağustos'ta yayımlandı; Japonca sözler için romanizasyon gerekli." },
+      { name: "Global Pop & R&B", status: "Yeni aday yok", detail: "Bugün ilk kez doğrulanan ve arşivde eksik güçlü bir aday bulunmadı." },
+      { name: "Viral/Yeniden Yükselen", status: "Yeni aday yok", detail: "Önceki raporlardaki şarkılar tekrar listelenmedi." },
+    ],
+    sources: [
+      { name: "ZEROBASEONE Japonya resmi sitesi — 回帰LOVE yayın bilgisi", url: "https://cf.zerobaseone.jp/news/detail/1149" },
+      { name: "Spotify — ZEROBASEONE 回帰LOVE", url: "https://open.spotify.com/album/19E8K5raOkxy6HNvntZwJv" },
+      { name: "BIGBANG — BiiiG resmi yayın bağlantısı", url: "https://bio.to/ygbigbang-biiig" },
+      { name: "YG Entertainment — BIGBANG XX : COSMOS turnesi", url: "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html" },
+      { name: "TITAN CONTENT — AtHeart 3!4! duyurusu", url: "https://prtimes.jp/main/html/rd/p/000000011.000184970.html" },
+      { name: "Soompi — BOYNEXTDOOR Japonca single takvimi", url: "https://www.soompi.com/article/1859402wpp/boynextdoor-announces-comeback-dates-for-repackaged-album-and-new-japanese-single" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+    ],
+    storyShare:
+      "19 Ağustos müzik gündemi: ZEROBASEONE — イグジステンス, BOYNEXTDOOR — Boom Boom Boom ve BIGBANG — BiiiG yayımlandı; BiiiG çevirisi romanize okunuşuyla arşive eklendi.",
+  },
+  {
     slug: "18-agustos-2026-muzik-gundemi",
     title: "18 Ağustos müzik gündemi: So Easy, Be Her ve Loser arşive eklendi",
     shortTitle: "18 Ağustos — günün müzik gündemi",

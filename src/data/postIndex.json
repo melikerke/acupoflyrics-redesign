@@ -1,5 +1,52 @@
 [
   {
+    "id": "5238",
+    "slug": "bigbang-biiig-turkce-ceviri",
+    "title": "BIGBANG BiiiG Türkçe Çeviri",
+    "song": "BiiiG",
+    "artist": "BIGBANG",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
+    "date": "2026-08-19T11:22:56.391Z",
+    "reading_time": 4,
+    "excerpt": "(Oh)",
+    "categories": [
+      "BIGBANG",
+      "BiiiG"
+    ],
+    "category_slugs": [
+      "bigbang",
+      "biiig"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4pZi0VxU2C8zuxCYfEtFuL",
+      "albumUrl": "https://open.spotify.com/album/0TAVFAYcXBx6wMmUQYCWfq",
+      "artistUrl": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX",
+      "albumName": "BiiiG",
+      "releaseDate": "2026-08-19",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
+      "duration": "2:44",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "BIGBANG",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb41f3b91c5c5bf6651da98956",
+      "artistGenres": [],
+      "albumArtist": "BIGBANG"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "(Oh)",
+      "tr": "(Oh)"
+    },
+    "heroPair": {
+      "en": "(Oh)",
+      "tr": "(Oh)"
+    }
+  },
+  {
     "id": "5237",
     "slug": "aitana-conexion-psiquica-turkce-ceviri",
     "title": "Aitana Conexión Psíquica Türkçe Çeviri",

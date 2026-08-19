@@ -61,6 +61,8 @@ export const legacyCategoryRedirects = {
   "believe-deluxe-edition": "/album/justin-bieber-believe-deluxe-edition",
   "benny-blanco": "/artist/benny-blanco",
   "bi": "/artist/b-i",
+  "bigbang": "/artist/bigbang",
+  "biiig": "/album/bigbang-biiig",
   "billie-eilish": "/artist/billie-eilish",
   "bitch-better-have-my-money": "/album/rihanna-bitch-better-have-my-money",
   "black-out": "/discover",

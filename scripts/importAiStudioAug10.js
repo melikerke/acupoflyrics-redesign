@@ -23,6 +23,8 @@ const AUG14_INPUT = path.join(process.cwd(), "scripts/aiStudioAug14.raw.json");
 const AUG14_REPORT = "/tmp/acupoflyrics-ai-studio-aug14-report.json";
 const AUG18_INPUT = path.join(process.cwd(), "scripts/aiStudioAug18.raw.json");
 const AUG18_REPORT = "/tmp/acupoflyrics-ai-studio-aug18-report.json";
+const BIIIG_INPUT = path.join(process.cwd(), "scripts/aiStudioBiiiG.raw.json");
+const BIIIG_REPORT = "/tmp/acupoflyrics-ai-studio-biiig-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -428,6 +430,25 @@ const TRACKS = [
       { word: "buena suerte", text: "Gerçeği öğrenecek eski sevgiliye yöneltilen alaycı bir ‘bol şans’ ifadesi." },
     ],
   },
+  {
+    batch: "biiig",
+    sourceKey: "biiig",
+    label: "BIGBANG — BiiiG",
+    artist: "BIGBANG",
+    title: "BiiiG",
+    slug: "bigbang-biiig-turkce-ceviri",
+    modelEnd: "\nthumb_up",
+    youtubeUrl: "https://www.youtube.com/watch?v=L8ZnXgbyUuc",
+    translationMap: [0, 1, 2, 3, 1, 5, 6, 7],
+    annotationOverrides: [
+      { word: "Bang Bong", text: "BIGBANG'in G-DRAGON tarafından tasarlanan taç biçimli resmî ışıklı çubuğuna verilen ad." },
+      { word: "Eski toprak her zaman en iyisidir", text: "Korecedeki ‘eski görevli en iyisidir’ atasözünden hareketle özgün olanın yerini kimsenin tutamayacağını anlatıyor." },
+      { word: "yirmi çetin tepeyi", text: "‘Yirmi Soru’ oyunuyla grubun yirmi yıllık kariyerindeki dönüm noktalarını bir araya getiren bir kelime oyunu." },
+      { word: "Kızıl Gün Batımı", text: "BIGBANG'in ‘Sunset Glow’ adlı şarkısına doğrudan gönderme." },
+      { word: "Çift sekiz yılı", text: "G-DRAGON ve TAEYANG'ın 1988 doğum yılına, aynı zamanda ‘eski kafalı’ anlamındaki Korece ifadeye gönderme." },
+      { word: "Kkanttappiya", text: "Kore animasyonu Dooly'deki uzak gezegenin adı; şarkının uzay imgesini nostaljik bir göndermeyle genişletiyor." },
+    ],
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -522,6 +543,7 @@ function romanizeHangul(value) {
 }
 
 const PINYIN_PHRASES = new Map([
+  ["熙", "hui"],
   ["我爱你", "Wo ai ni"],
   ["以鸢为形的想象", "Yi yuan wei xing de xiangxiang"],
   ["等待出击", "Dengdai chuji"],
@@ -564,7 +586,7 @@ const PRESERVED_ADLIBS = /^(?:ah+|ayy+|eh+|ha+|hey+|huh+|nah|ooh+|oh+|uh+|woo(?:
 function cleanTranslationLine(value) {
   return String(value || "")
     .replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "")
-    .replace(/\s*\(([^)]*[A-Za-z][^)]*)\)/g, (whole, content) => (
+    .replace(/\s*\(([^)]*\p{L}[^)]*)\)/gu, (whole, content) => (
       PRESERVED_ADLIBS.test(content.trim()) ? whole : ""
     ))
     .replace(/\s+([,.;!?])/g, "$1")
@@ -651,7 +673,10 @@ function parseTrack(source, track) {
   const stanzas = originalStanzas.map((stanza, index) => ({
     section: track.sectionOverrides?.[index] || stanza.section,
     original: stanza.lines.map((line) => {
-      const corrected = line.replace("차오르은 feel", "차오르는 feel");
+      const corrected = line
+        .replace("차오르은 feel", "차오르는 feel")
+        .replace("ㅂ-ㅣ-ㄱ", "B-I-G")
+        .replace("(熙)", "");
       const hangulRomanized = hasHangul ? romanizeHangul(corrected) : corrected;
       return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
     }),
@@ -771,10 +796,11 @@ async function main() {
   const bouncyBatch = process.argv.includes("--bouncy");
   const aug14Batch = process.argv.includes("--aug14");
   const aug18Batch = process.argv.includes("--aug18");
-  const inputPath = aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const biiigBatch = process.argv.includes("--biiig");
+  const inputPath = biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));

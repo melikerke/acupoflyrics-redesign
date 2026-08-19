@@ -1,5 +1,347 @@
 [
   {
+    "id": "5238",
+    "title": "BIGBANG BiiiG Türkçe Çeviri",
+    "song": "BiiiG",
+    "slug": "bigbang-biiig-turkce-ceviri",
+    "date": "2026-08-19T11:22:56.391Z",
+    "artist": "BIGBANG",
+    "categories": [
+      "BIGBANG",
+      "BiiiG"
+    ],
+    "category_slugs": [
+      "bigbang",
+      "biiig"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "(Oh)",
+          "All the way up",
+          "Nothin' can stop me",
+          "I'm all the way up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "(Oh)",
+          "Zirveye kadar, en tepedeyim",
+          "Hiçbir şey beni durduramaz",
+          "Zirveye kadar çıktım artık"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: G-DRAGON, TAEYANG, DAESUNG",
+        "lines": [
+          "B-B, G, Tae, daeseongi",
+          "yuhaengiraji ma been there, done it",
+          "BIGBANG, \"B.Thxxg\", be somethin'",
+          "Fan zone \"baengbong\" bitnal hui",
+          "Everything big, big, big, big (Big)",
+          "We anything big, big (Woo)",
+          "Everything big, big, big, big (Big)",
+          "That everything big, it's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: G-DRAGON, TAEYANG, DAESUNG",
+        "lines": [
+          "B-B, G, Tae, Daesungie",
+          "Bana \"moda\" deyip geçme; biz bu yollardan çoktan geçtik",
+          "BIGBANG, \"B.Thxxg\", büyük bir güç ol",
+          "Fan bölgesi \"Bang Bong\", parlayan bir sevinç",
+          "Her şey devasa, kocaman, büyük",
+          "Biz her şeyin en büyüğüyüz (Woo)",
+          "Her şey devasa, kocaman, büyük",
+          "Tüm o devasa şeylerin toplamı benim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: G-DRAGON",
+        "lines": [
+          "(Woo) Our own way, all the way up (Up)",
+          "gugwani myeonggwan ipi tteok hani beolsseo",
+          "Twenty years, man seumugogae twerk ('Sup)",
+          "seonginsik jeoknarahage world tour",
+          "kkiga extra large (Large), geunikka yesul haji",
+          "bikbaengira ilkgo sseo uju aembeoseodeo (Skrrt)",
+          "Would you pick me up? (Up) Got a show live on Earth",
+          "\"B-I-G\", alaseo gieowa"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: G-DRAGON",
+        "lines": [
+          "(Woo) Kendi yolumuzda, en tepedeyiz",
+          "Eski toprak her zaman en iyisidir, herkesin ağzı açık kaldı bile",
+          "Yirmi yıl dostum; yirmi çetin tepeyi aştık",
+          "Sanki bir \"erginlenme töreni\" gibi, çırılçıplak bir dünya turu",
+          "Kabiliyetimiz XL beden; işte bu yüzden sanat yapıyoruz",
+          "BIGBANG diye okunur, \"Evrenin Elçisi\" diye yazılır",
+          "Beni yukarı çeker misin? Dünya’da canlı yayınlanan bir şovum var",
+          "\"B-I-G\", haddinizi bilip önümde diz çökün"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: TAEYANG, DAESUNG",
+        "lines": [
+          "urin gati ttaro nolji",
+          "uisik gonggando chowolhani",
+          "Big shots, Salvador Dalí",
+          "We like to party after party, no sleep",
+          "Oh, dadeul bakeuro nawa go",
+          "keuge sori jilreo joha machim oneul bulkeun noeul",
+          "Yeah we do it, yeah we do it",
+          "Big, big, big, big"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: TAEYANG, DAESUNG",
+        "lines": [
+          "Biz hem beraberiz hem de kendi dünyamızda...",
+          "Bilinçaltındaki o alanı bile aşıyoruz",
+          "Büyük isimler; tıpkı Salvador Dalí gibi",
+          "Parti üstüne parti yapmayı severiz, uyku yok hiç!",
+          "Oh, herkes dışarı çıksın, hadi!",
+          "Avazınız çıktığı kadar bağırın; tam da bugün o \"Kızıl Gün Batımı\" varken...",
+          "Evet, biz yapıyoruz bu işi;",
+          "Devasa, çok büyük!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: G-DRAGON, TAEYANG",
+        "lines": [
+          "B-B, G, Tae, daeseongi",
+          "yuhaengiraji ma been there, done it",
+          "BIGBANG, \"B.Thxxg\", be somethin'",
+          "Fan zone \"baengbong\" bitnal hui",
+          "Everything big, big, big, big (Big)",
+          "We anything big, big (Woo)",
+          "Everything big, big, big, big (Big)",
+          "That everything big, it's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: G-DRAGON, TAEYANG",
+        "lines": [
+          "B-B, G, Tae, Daesungie",
+          "Bana \"moda\" deyip geçme; biz bu yollardan çoktan geçtik",
+          "BIGBANG, \"B.Thxxg\", büyük bir güç ol",
+          "Fan bölgesi \"Bang Bong\", parlayan bir sevinç",
+          "Her şey devasa, kocaman, büyük",
+          "Biz her şeyin en büyüğüyüz (Woo)",
+          "Her şey devasa, kocaman, büyük",
+          "Tüm o devasa şeylerin toplamı benim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: G-DRAGON",
+        "lines": [
+          "yangjayeokhak balhyeon ssangpalnyeon South-Korean",
+          "mammamia kkanttappiya jeolmeumui dosim hangaunde",
+          "cheongchune dochwihan boundary",
+          "Everything is big",
+          "You know that I'm a G (G)",
+          "tteotda hamyeon bihaenggi (gi) sseotda hamyeon ildaegi (Hey)",
+          "Name everything is big (Big)",
+          "bulreo bang of abeoji (ji)",
+          "Yeah this is how we do it",
+          "Gettin' down to business, big genius"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: G-DRAGON",
+        "lines": [
+          "Kuantum mekaniğinin uyanışı; 88 doğumlu Güney Koreli...",
+          "Mamma-mia! Kkanttappiya! Gençliğin tam merkezinde, şehrin kalbindeyiz",
+          "Gençliğin o sarhoş edici sınırlarında...",
+          "Her şey devasa!",
+          "Biliyorsun ki ben bir \"G\"yim;",
+          "Ortaya çıktım mı uçuşa geçeriz, yazdım mı bir destan olur!",
+          "Adını koy, her şey çok büyük;",
+          "Bana \"Bang’in Babası\" deyin!",
+          "Evet, biz bu işi böyle yaparız;",
+          "Mevzuya giriyoruz, büyük bir dehayım ben!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: DAESUNG, TAEYANG",
+        "lines": [
+          "urin gati ttaro nolji",
+          "naladanyeo ring nabigati",
+          "Big shots, Muhammad Ali",
+          "We like to party after party, no sleep",
+          "Oh, haneul bakeuro nawa go",
+          "keuge meolri silkeot dola nachimbaneun pureun noeul",
+          "Yeah we do it, yeah we do it",
+          "Big, big, big, big"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: DAESUNG, TAEYANG",
+        "lines": [
+          "Biz hem beraberiz hem de kendi dünyamızda...",
+          "Ringin içinde bir kelebek gibi süzülüyoruz",
+          "Büyük isimler; tıpkı Muhammed Ali gibi",
+          "Parti üstüne parti, uyku yok hiç!",
+          "Oh, gökyüzünün de ötesine geçin, hadi!",
+          "Gezinip durun en uzaklarda; pusulamız artık o \"Mavi Gün Batımı\"nı gösteriyor...",
+          "Evet, biz yapıyoruz bu işi;",
+          "Devasa, çok büyük!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: G-DRAGON, DAESUNG",
+        "lines": [
+          "B-B, G, Tae, daeseongi",
+          "yuhaengiraji ma been there, done it",
+          "BIGBANG, \"B.Thxxg\", be somethin'",
+          "Fan zone \"baengbong\" bitnal hui",
+          "Everything big, big, big, big (Big)",
+          "We anything big, big (Woo)",
+          "Everything big, big, big, big (Big)",
+          "That everything big, it's me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: G-DRAGON, DAESUNG",
+        "lines": [
+          "B-B, G, Tae, Daesungie",
+          "Bana \"moda\" deyip geçme; biz bu yollardan çoktan geçtik",
+          "BIGBANG, \"B.Thxxg\", be somethin'",
+          "Fan bölgesi \"Bang Bong\", parlayan bir sevinç",
+          "Her şey devasa, kocaman, büyük",
+          "We anything big, big (Woo)",
+          "Everything big, big, big, big",
+          "Tüm o devasa şeylerin toplamı benim!"
+        ]
+      }
+    ],
+    "excerpt": "(Oh)",
+    "annotations": {
+      "Bang Bong": "BIGBANG'in G-DRAGON tarafından tasarlanan taç biçimli resmî ışıklı çubuğuna verilen ad.",
+      "Eski toprak her zaman en iyisidir": "Korecedeki ‘eski görevli en iyisidir’ atasözünden hareketle özgün olanın yerini kimsenin tutamayacağını anlatıyor.",
+      "yirmi çetin tepeyi": "‘Yirmi Soru’ oyunuyla grubun yirmi yıllık kariyerindeki dönüm noktalarını bir araya getiren bir kelime oyunu.",
+      "Kızıl Gün Batımı": "BIGBANG'in ‘Sunset Glow’ adlı şarkısına doğrudan gönderme.",
+      "Çift sekiz yılı": "G-DRAGON ve TAEYANG'ın 1988 doğum yılına, aynı zamanda ‘eski kafalı’ anlamındaki Korece ifadeye gönderme.",
+      "Kkanttappiya": "Kore animasyonu Dooly'deki uzak gezegenin adı; şarkının uzay imgesini nostaljik bir göndermeyle genişletiyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4pZi0VxU2C8zuxCYfEtFuL",
+        "name": "BiiiG",
+        "url": "https://open.spotify.com/track/4pZi0VxU2C8zuxCYfEtFuL",
+        "isrc": "KRA402600052",
+        "durationMs": 164208,
+        "duration": "2:44",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4Kxlr1PRlDKEB0ekOCyHgX",
+        "name": "BIGBANG",
+        "url": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb41f3b91c5c5bf6651da98956",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4Kxlr1PRlDKEB0ekOCyHgX",
+          "name": "BIGBANG",
+          "url": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX"
+        }
+      ],
+      "album": {
+        "id": "0TAVFAYcXBx6wMmUQYCWfq",
+        "name": "BiiiG",
+        "url": "https://open.spotify.com/album/0TAVFAYcXBx6wMmUQYCWfq",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
+        "artists": [
+          {
+            "id": "4Kxlr1PRlDKEB0ekOCyHgX",
+            "name": "BIGBANG",
+            "url": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX"
+          }
+        ],
+        "releaseDate": "2026-08-19",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 YG Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 YG Entertainment, under license to YG PLUS",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4pZi0VxU2C8zuxCYfEtFuL",
+            "name": "BiiiG",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 164208,
+            "duration": "2:44",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4pZi0VxU2C8zuxCYfEtFuL",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-19T11:24:33.956Z",
+      "trackUrl": "https://open.spotify.com/track/4pZi0VxU2C8zuxCYfEtFuL",
+      "albumUrl": "https://open.spotify.com/album/0TAVFAYcXBx6wMmUQYCWfq",
+      "artistUrl": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX",
+      "albumName": "BiiiG",
+      "albumType": "Single",
+      "releaseDate": "2026-08-19",
+      "duration": "2:44",
+      "isrc": "KRA402600052",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=L8ZnXgbyUuc",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "BIGBANG BiiiG Türkçe Çeviri",
+      "description": "BIGBANG – BiiiG şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/bigbang-biiig-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5237",
     "title": "Aitana Conexión Psíquica Türkçe Çeviri",
     "song": "Conexión Psíquica",
