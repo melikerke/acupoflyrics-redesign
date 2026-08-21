@@ -1,5 +1,675 @@
 [
   {
+    "id": "5254",
+    "slug": "ed-sheeran-thinking-out-loud-turkce-ceviri",
+    "title": "Ed Sheeran Thinking Out Loud Türkçe Çeviri",
+    "song": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd",
+    "date": "2026-08-21T08:20:01.994Z",
+    "reading_time": 3,
+    "excerpt": "When your legs don't work like they used to before",
+    "categories": [
+      "Ed Sheeran",
+      "x (Deluxe Edition)"
+    ],
+    "category_slugs": [
+      "ed-sheeran",
+      "x-deluxe-edition"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/34gCuhDGsG4bRPIf9bb02f",
+      "albumUrl": "https://open.spotify.com/album/1xn54DMo2qIqBuMqHtUsFd",
+      "artistUrl": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V",
+      "albumName": "x (Deluxe Edition)",
+      "releaseDate": "2014-06-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd",
+      "duration": "4:42",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 11,
+      "totalTracks": 16,
+      "artistName": "Ed Sheeran",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec",
+      "artistGenres": [],
+      "albumArtist": "Ed Sheeran"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "When your legs don't work like they used to before",
+      "tr": "Bacakların eskisi gibi tutmadığında artık,"
+    },
+    "heroPair": {
+      "en": "When your legs don't work like they used to before",
+      "tr": "Bacakların eskisi gibi tutmadığında artık,"
+    }
+  },
+  {
+    "id": "5253",
+    "slug": "no-doubt-just-a-girl-turkce-ceviri",
+    "title": "No Doubt Just a Girl Türkçe Çeviri",
+    "song": "Just a Girl",
+    "artist": "No Doubt",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba",
+    "date": "2026-08-21T08:20:01.994Z",
+    "reading_time": 3,
+    "excerpt": "Take this pink ribbon off my eyes",
+    "categories": [
+      "No Doubt",
+      "Tragic Kingdom"
+    ],
+    "category_slugs": [
+      "no-doubt",
+      "tragic-kingdom"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5lWRaa0fBxDE5yU91npPq7",
+      "albumUrl": "https://open.spotify.com/album/3VekjWskUut57hx6W9wqL8",
+      "artistUrl": "https://open.spotify.com/artist/0cQbJU1aAzvbEmTuljWLlF",
+      "albumName": "Tragic Kingdom",
+      "releaseDate": "1995-10-10",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba",
+      "duration": "3:29",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 14,
+      "artistName": "No Doubt",
+      "artistImage": "https://i.scdn.co/image/ab6772690000c46c2bc169ddd09632b994baf3b1",
+      "artistGenres": [],
+      "albumArtist": "No Doubt"
+    },
+    "moods": [
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "Take this pink ribbon off my eyes",
+      "tr": "Şu pembe kurdeleyi al gözlerimin önünden artık!"
+    },
+    "heroPair": {
+      "en": "'Cause I'm just a girl, oh, little old me",
+      "tr": "Çünkü ben \"sadece bir kızım\", ah şu zavallı ben!"
+    }
+  },
+  {
+    "id": "5252",
+    "slug": "lord-huron-the-night-we-met-turkce-ceviri",
+    "title": "Lord Huron The Night We Met Türkçe Çeviri",
+    "song": "The Night We Met",
+    "artist": "Lord Huron",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27317875a0610c23d8946454583",
+    "date": "2026-08-21T08:20:01.994Z",
+    "reading_time": 2,
+    "excerpt": "(Ooh, ooh, ooh)",
+    "categories": [
+      "Lord Huron",
+      "Strange Trails"
+    ],
+    "category_slugs": [
+      "lord-huron",
+      "strange-trails"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU",
+      "albumUrl": "https://open.spotify.com/album/4sD1qg4jwTZR4mvR4Iflk5",
+      "artistUrl": "https://open.spotify.com/artist/6ltzsmQQbmdoHHbLZ4ZN25",
+      "albumName": "Strange Trails",
+      "releaseDate": "2015-04-06",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317875a0610c23d8946454583",
+      "duration": "3:28",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 14,
+      "totalTracks": 14,
+      "artistName": "Lord Huron",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb0d4d3bb72e9375017fd94f71",
+      "artistGenres": [],
+      "albumArtist": "Lord Huron"
+    },
+    "moods": [
+      "Night"
+    ],
+    "firstPair": {
+      "en": "(Ooh, ooh, ooh)",
+      "tr": "(Ooh, ooh, ooh)"
+    },
+    "heroPair": {
+      "en": "Take me back to the night we met",
+      "tr": "Beni tanıştığımız o geceye geri götür..."
+    }
+  },
+  {
+    "id": "5251",
+    "slug": "post-malone-swae-lee-sunflower-turkce-ceviri",
+    "title": "Post Malone & Swae Lee Sunflower Türkçe Çeviri",
+    "song": "Sunflower",
+    "artist": "Post Malone & Swae Lee",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ef376d3257503f734de0eefc",
+    "date": "2026-08-21T08:20:01.994Z",
+    "reading_time": 3,
+    "excerpt": "Ayy, ayy, ayy, ayy (Ooh)",
+    "categories": [
+      "Post Malone",
+      "Swae Lee",
+      "Sunflower (Spider-Man: Into the Spider-Verse)"
+    ],
+    "category_slugs": [
+      "post-malone",
+      "swae-lee",
+      "sunflower-spider-man-into-the-spider-verse"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1A6OTy97kk0mMdm78rHsm8",
+      "albumUrl": "https://open.spotify.com/album/47LpgGVshd0tbFSbm9tTLb",
+      "artistUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+      "albumName": "Sunflower (Spider-Man: Into the Spider-Verse)",
+      "releaseDate": "2018-10-18",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ef376d3257503f734de0eefc",
+      "duration": "2:38",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Post Malone",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+      "artistGenres": [],
+      "albumArtist": "Post Malone"
+    },
+    "moods": [
+      "Lonely",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Ayy, ayy, ayy, ayy (Ooh)",
+      "tr": "Ayy, ayy, ayy, ayy (Ooh)"
+    },
+    "heroPair": {
+      "en": "You're the sunflower, I think your love would be too much",
+      "tr": "Sen bir ayçiçeğisin, sanırım senin aşkın bana biraz \"fazla\" gelecek."
+    }
+  },
+  {
+    "id": "5250",
+    "slug": "carly-rae-jepsen-motivation-turkce-ceviri",
+    "title": "Carly Rae Jepsen Motivation Türkçe Çeviri",
+    "song": "Motivation",
+    "artist": "Carly Rae Jepsen",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273edacad6830a0df8f6665bf7d",
+    "date": "2026-08-21T08:20:01.994Z",
+    "reading_time": 6,
+    "excerpt": "Keep me in a box like that",
+    "categories": [
+      "Carly Rae Jepsen",
+      "Motivation"
+    ],
+    "category_slugs": [
+      "carly-rae-jepsen",
+      "motivation"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/59edZBlolguuivWORanXkJ",
+      "albumUrl": "https://open.spotify.com/album/0UGWEKujXjDv8BKOgMrxQV",
+      "artistUrl": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju",
+      "albumName": "Motivation",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273edacad6830a0df8f6665bf7d",
+      "duration": "3:53",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 4,
+      "artistName": "Carly Rae Jepsen",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb55e3a8d4fe7f0053fffca258",
+      "artistGenres": [],
+      "albumArtist": "Carly Rae Jepsen"
+    },
+    "moods": [
+      "Love",
+      "Lonely"
+    ],
+    "firstPair": {
+      "en": "Keep me in a box like that",
+      "tr": "Beni öyle bir kutuya hapsetmeye devam et sen..."
+    },
+    "heroPair": {
+      "en": "Give me that motivation",
+      "tr": "Ver bana o motivasyonu;"
+    }
+  },
+  {
+    "id": "5249",
+    "slug": "mariah-carey-feat-rochelle-jordan-didn-t-mean-to-turn-you-on-turkce-ceviri",
+    "title": "Mariah Carey feat. Rochelle Jordan Didn't Mean to Turn You On Türkçe Çeviri",
+    "song": "Didn't Mean to Turn You On",
+    "artist": "Mariah Carey feat. Rochelle Jordan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e23231cace412e5c2b89bb04",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 2,
+    "excerpt": "Let you take me out, I knew what you were all about",
+    "categories": [
+      "Mariah Carey",
+      "Rochelle Jordan",
+      "Didn't Mean To Turn You On (with Rochelle Jordan)"
+    ],
+    "category_slugs": [
+      "mariah-carey",
+      "rochelle-jordan",
+      "didn-t-mean-to-turn-you-on-with-rochelle-jordan"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/569BvEAwdBNy9Ro0DtWWR5",
+      "albumUrl": "https://open.spotify.com/album/33Mfzj0B0jfExUap38bJYE",
+      "artistUrl": "https://open.spotify.com/artist/4iHNK0tOyZPYnBU7nGAgpQ",
+      "albumName": "Didn't Mean To Turn You On (with Rochelle Jordan)",
+      "releaseDate": "2026-08-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e23231cace412e5c2b89bb04",
+      "duration": "4:00",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 2,
+      "artistName": "Mariah Carey",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
+      "artistGenres": [],
+      "albumArtist": "Mariah Carey"
+    },
+    "moods": [
+      "Healing"
+    ],
+    "firstPair": {
+      "en": "Let you take me out, I knew what you were all about",
+      "tr": "Beni dışarı çıkarmana izin verdim, neyin peşinde olduğunu çok iyi biliyordum;"
+    },
+    "heroPair": {
+      "en": "I'm sorry, baby, I didn't mean to turn you on",
+      "tr": "Üzgünüm bebeğim, niyetim seni tahrik etmek değildi."
+    }
+  },
+  {
+    "id": "5248",
+    "slug": "steve-lacy-oh-yeah-turkce-ceviri",
+    "title": "Steve Lacy Oh Yeah? Türkçe Çeviri",
+    "song": "Oh Yeah?",
+    "artist": "Steve Lacy",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734ea9ba86cd9506a004bab042",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 1,
+    "excerpt": "Come on, come on, come on",
+    "categories": [
+      "Steve Lacy",
+      "Oh yeah?"
+    ],
+    "category_slugs": [
+      "steve-lacy",
+      "oh-yeah"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
+      "albumUrl": "https://open.spotify.com/album/289GZwycrFReuNB706obBx",
+      "artistUrl": "https://open.spotify.com/artist/57vWImR43h4CaDao012Ofp",
+      "albumName": "Oh yeah?",
+      "releaseDate": "2026-07-17",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ea9ba86cd9506a004bab042",
+      "duration": "2:51",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "Steve Lacy",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7e3150cffbfda40c6eaf28dd",
+      "artistGenres": [],
+      "albumArtist": "Steve Lacy"
+    },
+    "moods": [
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "Come on, come on, come on",
+      "tr": "Hadi, hadi, hadi"
+    },
+    "heroPair": {
+      "en": "Come on, come on, come on",
+      "tr": "Hadi, hadi, hadi"
+    }
+  },
+  {
+    "id": "5247",
+    "slug": "baby-shark-boy-feat-joohoney-wave-turkce-ceviri",
+    "title": "Baby Shark Boy feat. JOOHONEY WAVE Türkçe Çeviri",
+    "song": "WAVE",
+    "artist": "Baby Shark Boy feat. JOOHONEY",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273904d56ef805aa2a966d4811b",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 4,
+    "excerpt": "Baby shark, baby, baby shark",
+    "categories": [
+      "Baby Shark Boy",
+      "Pinkfong",
+      "JOOHONEY",
+      "WAVE (feat. JOOHONEY)"
+    ],
+    "category_slugs": [
+      "baby-shark-boy",
+      "pinkfong",
+      "joohoney",
+      "wave-feat-joohoney"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0RDjvRegB8u136bNVGFYgH",
+      "albumUrl": "https://open.spotify.com/album/1VM81ifxYDhFZ9p59nzclz",
+      "artistUrl": "https://open.spotify.com/artist/4XTUoQMNMWHw594fJARUYJ",
+      "albumName": "WAVE (feat. JOOHONEY)",
+      "releaseDate": "2026-08-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273904d56ef805aa2a966d4811b",
+      "duration": "2:48",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Baby Shark Boy",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb1da42794ef8973592f87b746",
+      "artistGenres": [],
+      "albumArtist": "Baby Shark Boy"
+    },
+    "moods": [
+      "Dreamy",
+      "Motivation"
+    ],
+    "firstPair": {
+      "en": "Baby shark, baby, baby shark",
+      "tr": "Bebek köpekbalığı, bebek, bebek köpekbalığı..."
+    },
+    "heroPair": {
+      "en": "Start a brand new wave",
+      "tr": "Yepyeni bir dalga başlatıyorum;"
+    }
+  },
+  {
+    "id": "5246",
+    "slug": "enhypen-highlight-turkce-ceviri",
+    "title": "ENHYPEN Highlight Türkçe Çeviri",
+    "song": "Highlight",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 3,
+    "excerpt": "Yeah",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1iMSo2imh5nnJL4QF7VL0i",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "3:14",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 6,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Motivation"
+    ],
+    "firstPair": {
+      "en": "Yeah",
+      "tr": "Yeah..."
+    },
+    "heroPair": {
+      "en": "It's our highlight",
+      "tr": "İşte bu bizim zirve noktamız!"
+    }
+  },
+  {
+    "id": "5245",
+    "slug": "enhypen-checkmate-turkce-ceviri",
+    "title": "ENHYPEN Checkmate Türkçe Çeviri",
+    "song": "Checkmate",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 3,
+    "excerpt": "Mic check, mic check",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5BPz1bcrWmrTAzzODtQqB9",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "2:23",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 5,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Party",
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "Mic check, mic check",
+      "tr": "Mikrofon kontrol, bir, iki..."
+    },
+    "heroPair": {
+      "en": "deo michin cheok keuge oechyeo, checkmate",
+      "tr": "Daha da delirmiş gibi haykır: Şah-mat!"
+    }
+  },
+  {
+    "id": "5244",
+    "slug": "enhypen-bloody-paradise-turkce-ceviri",
+    "title": "ENHYPEN Bloody Paradise Türkçe Çeviri",
+    "song": "Bloody Paradise",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 3,
+    "excerpt": "We're goin'—",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0r2JVOjI7H1jhXzXBOorKu",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "2:11",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 4,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "We're goin'—",
+      "tr": "Gidiyoruz..."
+    },
+    "heroPair": {
+      "en": "In our bloody paradise",
+      "tr": "Bizim o kanlı cennetimizde!"
+    }
+  },
+  {
+    "id": "5243",
+    "slug": "enhypen-bad-for-you-turkce-ceviri",
+    "title": "ENHYPEN Bad For You Türkçe Çeviri",
+    "song": "Bad For You",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.993Z",
+    "reading_time": 3,
+    "excerpt": "Ooh, woah, ooh",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3ppL6m58G6Kw2j19TEvdHp",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "3:15",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Ooh, woah, ooh",
+      "tr": "Ooh, woah, ooh"
+    },
+    "heroPair": {
+      "en": "I got it, I got it bad for you",
+      "tr": "Sana fena halde tutuldum;"
+    }
+  },
+  {
+    "id": "5242",
+    "slug": "enhypen-stuck-turkce-ceviri",
+    "title": "ENHYPEN Stuck Türkçe Çeviri",
+    "song": "Stuck",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.992Z",
+    "reading_time": 3,
+    "excerpt": "jidokhage dalkomhaetdeon chakgak",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/42roIue3b1zBaGIpEmyy2b",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "2:33",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Healing"
+    ],
+    "firstPair": {
+      "en": "jidokhage dalkomhaetdeon chakgak",
+      "tr": "Ölesiye tatlı gelen o koca bir yanılsama..."
+    },
+    "heroPair": {
+      "en": "unmyeong geu ape aewonhage dwae, stuck on you",
+      "tr": "Kaderin önünde diz çöküp yalvarır oldum; sana hapsoldum."
+    }
+  },
+  {
+    "id": "5241",
+    "slug": "enhypen-two-fools-turkce-ceviri",
+    "title": "ENHYPEN Two Fools Türkçe Çeviri",
+    "song": "Two Fools",
+    "artist": "ENHYPEN",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+    "date": "2026-08-21T08:20:01.992Z",
+    "reading_time": 2,
+    "excerpt": "Woah, oh-oh-oh",
+    "categories": [
+      "ENHYPEN",
+      "THE SIN : BLISS"
+    ],
+    "category_slugs": [
+      "enhypen",
+      "the-sin-bliss"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4H7Wy2jficlFQppJCHE8Ks",
+      "albumUrl": "https://open.spotify.com/album/2os46ReV779WlryAHPL6ko",
+      "artistUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+      "albumName": "THE SIN : BLISS",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
+      "duration": "2:22",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 6,
+      "artistName": "ENHYPEN",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebf28334d02274b673b8201299",
+      "artistGenres": [],
+      "albumArtist": "ENHYPEN"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Woah, oh-oh-oh",
+      "tr": "Woah, oh-oh-oh"
+    },
+    "heroPair": {
+      "en": "It's you and me only, two fools on this journey",
+      "tr": "Sadece sen ve ben; bu yolculuktaki iki aptalız..."
+    }
+  },
+  {
     "id": "5240",
     "slug": "taylor-swift-my-boy-only-breaks-his-favorite-toys-turkce-ceviri",
     "title": "Taylor Swift My Boy Only Breaks His Favorite Toys Türkçe Çeviri",

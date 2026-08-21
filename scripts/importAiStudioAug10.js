@@ -25,6 +25,8 @@ const AUG18_INPUT = path.join(process.cwd(), "scripts/aiStudioAug18.raw.json");
 const AUG18_REPORT = "/tmp/acupoflyrics-ai-studio-aug18-report.json";
 const BIIIG_INPUT = path.join(process.cwd(), "scripts/aiStudioBiiiG.raw.json");
 const BIIIG_REPORT = "/tmp/acupoflyrics-ai-studio-biiig-report.json";
+const AUG21_INPUT = path.join(process.cwd(), "scripts/aiStudioAug21.raw.json");
+const AUG21_REPORT = "/tmp/acupoflyrics-ai-studio-aug21-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -449,6 +451,613 @@ const TRACKS = [
       { word: "Kkanttappiya", text: "Kore animasyonu Dooly'deki uzak gezegenin adı; şarkının uzay imgesini nostaljik bir göndermeyle genişletiyor." },
     ],
   },
+  {
+    batch: "aug21",
+    sourceKey: "twoFools",
+    label: "ENHYPEN — Two Fools",
+    artist: "ENHYPEN",
+    title: "Two Fools",
+    spotifyUrl: "https://open.spotify.com/track/4H7Wy2jficlFQppJCHE8Ks",
+    youtubeUrl: "https://www.youtube.com/watch?v=w6KQ385IANI",
+    geniusUrl: "https://genius.com/Enhypen-two-fools-lyrics",
+    translationOverrides: {
+      0: ["Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh"],
+      4: ["Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh"],
+      8: ["Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh", "Woah, oh-oh-oh"],
+    },
+    annotationOverrides: [],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "stuck",
+    label: "ENHYPEN — Stuck",
+    artist: "ENHYPEN",
+    title: "Stuck",
+    spotifyUrl: "https://open.spotify.com/track/42roIue3b1zBaGIpEmyy2b",
+    youtubeUrl: "https://www.youtube.com/watch?v=WNySEn-VkpQ",
+    geniusUrl: "https://genius.com/Enhypen-stuck-lyrics",
+    translationOverrides: {
+      2: [
+        "Sana ihtiyacım var kızım, affet beni (Affet);",
+        "Biliyorsun, seni benim yapacağım (Benimsin)...",
+        "Şu çirkin bencilliğimle (Oh, evet),",
+        "Kaderin önünde diz çöküp yalvarır oldum; sana hapsoldum.",
+        "Sana ihtiyacım var, affet beni bebeğim (Bebeğim);",
+        "Biliyorsun, seni benim yapacağım (Benimsin).",
+        "Seni arzulayışım, benim en büyük günahım (Oh, evet);",
+        "Başka yolu yok, derinlerine daldım; sana hapsoldum...",
+      ],
+      5: [
+        "Sana ihtiyacım var kızım, affet beni bebeğim (Affet beni, bebeğim)",
+        "Biliyorsun, seni benim yapacağım (Benimsin)",
+        "Şu çirkin bencilliğimle (Oh, evet)",
+        "Kaderin önünde yalvarır oldum; sana hapsoldum.",
+        "Sana ihtiyacım var kızım, affet beni bebeğim (Affet beni, bebeğim)",
+        "Biliyorsun, seni benim yapacağım (Benimsin)",
+        "Seni arzulayışım, benim en büyük günahım (Oh, evet)",
+        "Başka yolu yok, derinlerine daldım; sana hapsoldum.",
+      ],
+      6: [
+        "Hata bende, sen ve ben (Ooh)",
+        "Benim için kurgulanmış bir paradoks bu (Ooh)",
+        "Her şey benim suçum, sen ve ben (Ooh)",
+        "Hapsolduk bu paradoksun içine (Ooh)",
+      ],
+    },
+    annotationOverrides: [
+      { word: "hem kurtuluşum hem de cezamsın", text: "Karşı tarafın sevgisi hem ruhunu iyileştiriyor hem de ona vicdan azabı çektiriyor; dizedeki paradoks bu iki duyguyu bir arada kuruyor." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "badForYou",
+    label: "ENHYPEN — Bad For You",
+    artist: "ENHYPEN",
+    title: "Bad For You",
+    spotifyUrl: "https://open.spotify.com/track/3ppL6m58G6Kw2j19TEvdHp",
+    youtubeUrl: "https://www.youtube.com/watch?v=w0fCzVbKQdo",
+    geniusUrl: "https://genius.com/Enhypen-bad-for-you-lyrics",
+    translationOverrides: {
+      0: ["Ooh, woah, ooh", "Ooh, woah"],
+      6: [
+        "Oh, elimde değil",
+        "O tek kız sensin (O tek kız sensin)",
+        "Artık birbirimizin her şeyi olduk.",
+      ],
+      7: [
+        "Sana fena halde tutuldum;",
+        "Her şeyin farkında olsam da, sana tutkunum.",
+        "Birbirimizi ne kadar incitip yaralasak da;",
+        "İllaki sensin o!",
+        "Sana fena halde tutuldum (Sana tutuldum);",
+        "Sonunda yine sana döndüm (Yine sana döndüm).",
+        "En başından beri her şey senin için yazılmış sanki...",
+        "Aşka düşüyorum (Aşka düşüyorum).",
+      ],
+      8: [
+        "Çünkü sana fena tutuldum (Sana tutuldum, sana tutuldum, fena)",
+        "Fena (Sana tutuldum, sana tutuldum, fena)",
+        "Fena (Sana tutuldum, sana tutuldum, fena)",
+        "Sana fena tutuldum (Hadi bir kez daha söyle)",
+        "Çünkü sana fena tutuldum (Sana tutuldum, sana tutuldum, fena)",
+        "Fena (Sana tutuldum, sana tutuldum, fena)",
+        "Fena (Sana tutuldum, sana tutuldum, fena)",
+        "Sana fena tutuldum (Sana, ooh)",
+      ],
+    },
+    annotationOverrides: [
+      { word: "Sana fena halde tutuldum", text: "‘I got it bad for you’, birine kontrolsüz denecek kadar güçlü biçimde âşık olmayı anlatan bir deyimdir." },
+      { word: "inadıma yenildim", text: "Korecedeki ‘오기’ (ogi), gereksiz yere inat edip geri adım atmamayı anlatır; dizede ilk adımı kimin atacağı gerilimine işaret eder." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "bloodyParadise",
+    label: "ENHYPEN — Bloody Paradise",
+    artist: "ENHYPEN",
+    title: "Bloody Paradise",
+    spotifyUrl: "https://open.spotify.com/track/0r2JVOjI7H1jhXzXBOorKu",
+    youtubeUrl: "https://www.youtube.com/watch?v=YJhEsDa2o8w",
+    geniusUrl: "https://genius.com/Enhypen-bloody-paradise-lyrics",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 8, 9],
+    translationOverrides: {
+      4: [
+        "(Like woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "Dansını öyle yap (Woah, woo)",
+      ],
+      6: [
+        "Ah, kan kırmızısı o takım elbiseyle sür arabayı!",
+        "Kalbim pervasız, bas gaza o uçsuz bucaksız yollarda...",
+        "Sen yanımdayken aşk başımı döndürüyor;",
+        "Ateşler içinde, yükselişimi ve uçuşumu izle! (İster misin?)",
+      ],
+      8: [
+        "(Like woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "Dansını öyle yap (Woah, woo)",
+        "(Woah, woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "(Woo) Uç, evet, evet, evet, evet",
+        "Dansını öyle yap (Woah, woo)",
+      ],
+    },
+    annotationOverrides: [
+      { word: "Sırra kadem basıyoruz", text: "‘Going MIA’, askerî kökenli ‘missing in action’ ifadesinden gelir; burada gözden kaybolup dertlerden uzaklaşmak anlamında kullanılır." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "checkmate",
+    label: "ENHYPEN — Checkmate",
+    artist: "ENHYPEN",
+    title: "Checkmate",
+    spotifyUrl: "https://open.spotify.com/track/5BPz1bcrWmrTAzzODtQqB9",
+    youtubeUrl: "https://www.youtube.com/watch?v=n02DkXkkluU",
+    geniusUrl: "https://genius.com/Enhypen-checkmate-lyrics",
+    translationOverrides: {
+      2: [
+        "Asla ölmeyeceğiz!",
+        "Uçurumun kenarında dans eden o pervasız cesaret...",
+        "Gözümüz kör olmuş;",
+        "Hadi daha da delirmiş gibi haykır: Şah-mat, şah-mat!",
+        "Şah-mat, şah-mat!",
+      ],
+      3: [
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon kontrol)",
+        "Kontrol, kontrol, kontrol, kontrol (Şah-mat, şah-mat)",
+        "Kontrol, kontrol, kontrol, kontrol",
+        "Bizi hedef alan şu dünyaya karşı şah-mat, şah-mat",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol",
+        "Daha da delirmiş gibi haykır, şah-mat",
+      ],
+      6: [
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon kontrol)",
+        "Kontrol, kontrol, kontrol, kontrol (Şah-mat, şah-mat)",
+        "Kontrol, kontrol, kontrol, kontrol",
+        "Bizi hedef alan şu dünyaya karşı şah-mat, şah-mat",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol",
+        "Daha da delirmiş gibi haykır, şah-mat, şah-mat",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol (Mikrofon)",
+        "Kontrol, kontrol, kontrol, kontrol",
+        "Daha da delirmiş gibi haykır, şah-mat, şah-mat",
+      ],
+    },
+    annotationOverrides: [
+      { word: "pervasız cesaret", text: "Korecedeki ‘객기’ (gaekgi), sonunu düşünmeden gösterilen aşırı ya da gereksiz cesareti anlatır." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "highlight",
+    label: "ENHYPEN — Highlight",
+    artist: "ENHYPEN",
+    title: "Highlight",
+    spotifyUrl: "https://open.spotify.com/track/1iMSo2imh5nnJL4QF7VL0i",
+    youtubeUrl: "https://www.youtube.com/watch?v=IGJluJnnMxs",
+    geniusUrl: "https://genius.com/Enhypen-highlight-lyrics",
+    translationOverrides: {
+      1: [
+        "Hâlâ buradayız; evet, hiç ayrılmadık (Hiç gitmedik).",
+        "Beraberiz hâlâ, bu yolun tam sonunda (Woo)...",
+        "Tıpkı Bonnie ve Clyde gibi; geri dönüş yok artık (Ayy)!",
+        "Koşuyoruz bu anda, korkmuyoruz hiç (Woo)...",
+        "Karanlık gecede bana güven ve gel yanıma (Bana güven)...",
+        "Engelleyin bakalım bizi, biz hâlâ aynıyız (Vay be)!",
+        "Birbirimizi aydınlatan o ışık olduk (Yeah);",
+        "Şu an her şey çok net; ee, sırada ne var (Ooh)?",
+      ],
+      3: [
+        "İşte buralara kadar geldik sonunda...",
+        "Tüm bu anlar",
+        "Akıp gitse bile;",
+        "İşte bu bizim zirve noktamız!",
+        "Dünya üzerinde birileri",
+        "Bizi pervasız bir talihsizlik olarak",
+        "Tanımlasa da;",
+        "İşte bu bizim zirvemiz!",
+      ],
+      4: [
+        "Woah, evet; sen ne diyorsun bu işe?",
+        "Bırak buna bizim kaderimiz diyeyim (Oh)...",
+        "Ne diyorsun?",
+        "Hepsini sana göstermek istiyorum!",
+      ],
+      5: [
+        "Evet, geriye sarmak yok bizde;",
+        "Bizim hayatımızda kurgu noktası falan yok (Saçmalık)!",
+        "Bunu düşünmek bile benim için saçmalık...",
+        "Her anımız efsane bir sahneye dönüşür; zamansızız biz!",
+        "Bir yanıp bir sönen o dünyamız (Dünyamız)...",
+        "O renksiz geçen bunca an (Yah)...",
+        "Evet, hepsi bizim mirasımız artık!",
+        "Yazmaya devam edeceğiz; hiç bitmeyecek bu hikâye (Yazmaya devam)...",
+      ],
+      6: ["Söyle bana, sırada ne var?", "Ah, söyle bana; sırada ne var?"],
+      7: [
+        "(Oh) İşte buralara kadar geldik sonunda...",
+        "Tüm bu anlar",
+        "Akıp gitse bile;",
+        "İşte bu bizim zirve noktamız!",
+        "Dünya üzerinde birileri",
+        "Bizi pervasız bir talihsizlik olarak",
+        "Tanımlasa da;",
+        "İşte bu bizim zirvemiz!",
+      ],
+      8: [
+        "Oh-woah, oh-woah-oh, oh-woah",
+        "İşte bu bizim zirvemiz!",
+        "Oh-woah, oh-woah-oh, oh-woah",
+        "İşte bu bizim zirvemiz!",
+      ],
+      9: ["(Oh) Sahi, sen ne diyorsun?", "(Oh) Görmeni istiyorum hepsini (Evet)", "(Oh) Oh, woah"],
+      10: [
+        "(Oh) İşte buralara kadar geldik sonunda...",
+        "Tüm bu anlar",
+        "Akıp gitse bile;",
+        "İşte bu bizim zirve noktamız!",
+        "Dünya üzerinde birileri",
+        "Bizi pervasız bir talihsizlik olarak",
+        "Tanımlasa da;",
+        "İşte bu bizim zirvemiz!",
+      ],
+      11: [
+        "Oh-woah, oh-woah-oh, oh-woah",
+        "İşte bu bizim zirvemiz!",
+        "Oh-woah, oh-woah-oh, oh-woah",
+        "İşte bu bizim zirvemiz!",
+      ],
+    },
+    annotationOverrides: [
+      { word: "pervasız bir talihsizlik", text: "Dışarıdan imkânsız veya tehlikeli görülen ve başkalarınca bir felaket gibi yazılan süreci anlatır; anlatıcı bunu kendi zirvesi olarak sahiplenir." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "wave",
+    label: "Baby Shark Boy feat. JOOHONEY — WAVE",
+    artist: "Baby Shark Boy",
+    artistDisplay: "Baby Shark Boy feat. JOOHONEY",
+    title: "WAVE",
+    spotifyUrl: "https://open.spotify.com/track/0RDjvRegB8u136bNVGFYgH",
+    youtubeUrl: "https://www.youtube.com/watch?v=63rOINf75yY",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 4, null, 4],
+    translationOverrides: {
+      4: [
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Ver bana sevgini, zirveye çıkacağım!",
+        "Her şeyin başlangıcıydı bu.",
+        "Köpekbalığı, doo-doo, doo-doo-doo",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Oh canım, sen benim biriciğimsin;",
+        "Heyecanlanabilirsin artık, ben senin çocuğunum.",
+      ],
+      8: [
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Ver bana sevgini, zirveye çıkacağım!",
+        "Her şeyin başlangıcıydı bu.",
+        "Köpekbalığı, doo-doo, doo-doo-doo",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Oh canım, sen benim biriciğimsin;",
+        "Heyecanlanabilirsin artık, ben senin çocuğunum.",
+      ],
+      9: [
+        "Doo, doo-doo, doo-doo, doo, doo",
+        "Doo, doo",
+        "Doo, doo-doo, doo-doo, doo, doo",
+        "Evet, hadi gidelim",
+      ],
+      10: [
+        "Köpekbalığı, doo-doo, doo-doo-doo (Oh)",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Ver bana sevgini, zirveye çıkacağım (Sevgi)!",
+        "Her şeyin başlangıcıydı bu (Her şeyin başlangıcı).",
+        "Köpekbalığı, doo-doo, doo-doo-doo",
+        "Bebek köpekbalığı, doo-doo, doo-doo-doo",
+        "Oh canım, sen benim biriciğimsin (Oh canım, sen benim biriciğimsin);",
+        "Heyecanlanabilirsin artık, ben senin çocuğunum.",
+      ],
+    },
+    annotationOverrides: [
+      { word: "yüz milyondan fazla hayranım", text: "Dize, karakterin küresel ölçekteki dinleyici kitlesini vurgulayan bir övünme ifadesidir." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "ohYeah",
+    label: "Steve Lacy — Oh Yeah?",
+    artist: "Steve Lacy",
+    title: "Oh Yeah?",
+    spotifyUrl: "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
+    youtubeUrl: "https://www.youtube.com/watch?v=yGHEis32s2Y",
+    geniusUrl: "https://genius.com/Steve-lacy-oh-yeah-lyrics",
+    translationOverrides: {
+      0: ["Hadi, hadi, hadi", "Oh, oh", "Hadi, hadi, hadi", "Oh, oh", "Hadi, hadi, hadi"],
+      1: ["Oh, oh, oh, oh, oh", "Oh, oh, oh, oh, oh", "Oh, oh, oh, oh, oh", "Oh, oh, oh, oh"],
+      3: ["Bırakın çıkayım dışarı bu gece (Dışarı, dışarı)", "Ölmek için fazla genciz biz (Dışarı, dışarı)"],
+      4: [
+        "Hadi, hadi, hadi (Ooh, ooh, ooh, ooh, ooh, ooh, ooh)",
+        "Oh, oh",
+        "Hadi, hadi, hadi (Ooh, ooh, ooh, ooh, ooh, ooh, ooh)",
+        "Oh, oh",
+      ],
+      5: ["Ooh, ooh, ooh"],
+    },
+    annotationOverrides: [
+      { word: "Hayat bir sürtüktür", text: "‘Life’s a bitch’, hayatın sert ve acımasız olduğunu açık sözlü biçimde anlatan bir deyimdir; ardından gelen yeniden yaşama vurgusu direnci kurar." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "didntMeanToTurnYouOn",
+    label: "Mariah Carey feat. Rochelle Jordan — Didn't Mean to Turn You On",
+    artist: "Mariah Carey",
+    artistDisplay: "Mariah Carey feat. Rochelle Jordan",
+    title: "Didn't Mean to Turn You On",
+    spotifyUrl: "https://open.spotify.com/track/569BvEAwdBNy9Ro0DtWWR5",
+    youtubeUrl: "https://www.youtube.com/watch?v=-JcEobUz3Bc",
+    geniusUrl: "https://genius.com/Mariah-carey-and-rochelle-jordan-didnt-mean-to-turn-you-on-lyrics",
+    translationOverrides: {
+      0: [
+        "Beni dışarı çıkarmana izin verdim, neyin peşinde olduğunu çok iyi biliyordum;",
+        "Ama seninle geldiğimde, seni umutlandırmaya çalışmıyordum hiç.",
+        "Şimdi beni eve bıraktın;",
+        "Ve bir iyi gecelerin senin için yeterli olmadığını söylüyorsun.",
+        "Üzgünüm bebeğim, niyetim seni tahrik etmek değildi.",
+        "Beni yanlış (Beni yanlış) anladın (Yanlış anladın);",
+        "Seni umutlandırmaya falan çalışmıyordum (Umutlandırmaya).",
+        "Sadece bir arkadaşlık istiyorum, seni azdırmak değildi niyetim;",
+        "Whoa, seni tahrik etmek istememiştim.",
+      ],
+      3: [
+        "Niyetim seni tahrik etmek değildi;",
+        "Aradığın kişinin ben olduğumu çoktan anlamalıydım...",
+        "Seni azdırmak istememiştim.",
+        "Oh...",
+        "Niyetim seni tahrik etmek değildi;",
+        "İstediğin tek şeyin ben olduğunu bilmeliydim;",
+        "Niyetim seni tahrik etmek değildi.",
+      ],
+    },
+    annotationOverrides: [
+      { word: "pes etmediğim", text: "‘Won’t give in’, karşı tarafın cinsel beklentisine veya baskısına boyun eğmemeyi anlatır." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "motivation",
+    label: "Carly Rae Jepsen — Motivation",
+    artist: "Carly Rae Jepsen",
+    title: "Motivation",
+    spotifyUrl: "https://open.spotify.com/track/59edZBlolguuivWORanXkJ",
+    youtubeUrl: "https://www.youtube.com/watch?v=m2bgsLp943A",
+    geniusUrl: "https://genius.com/Carly-rae-jepsen-motivation-lyrics",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 4, 8],
+    translationOverrides: {
+      0: [
+        "Beni öyle bir kutuya hapsetmeye devam et sen...",
+        "Ben sensiz de tüm dünyayı gezerim.",
+        "Ver bana o motivasyonu;",
+        "Sensiz yepyeni bir dünya kuracağım ben.",
+        "Beni öylece kısıtlamaya devam et;",
+        "Sana ihtiyacım olmadan dünyayı dolaşacağım.",
+        "Ver o motivasyonu bana, ver o motivasyonu bana.",
+      ],
+      1: [
+        "Kış yaprakları...",
+        "Ayaklarımın altında çıtırdayan o ritim...",
+        "Sanki seninle buluşmaya geliyormuşum gibi;",
+        "Tıpkı her yerin yemyeşil olduğu,",
+        "O çocukluk yıllarımdaki gibi...",
+        "Ver o motivasyonu bana, ver o motivasyonu bana;",
+        "İşte benim sokağım burası (Benim sokağım)!",
+        "İşte sırtımı yasladığım o tek dostum;",
+        "İşte benim evim; nefesimi tutuyorum, yüzüm morarıyor...",
+        "Tıpkı çocukluğumdaki gibi;",
+        "Her şey yemyeşildi, her şey yemyeşil.",
+        "Ver bana o motivasyonu, ver bana o motivasyonu.",
+      ],
+      2: ["Biz uçlarda yaşarız (Biz uçlarda yaşarız)", "Bu ailede (Bu aile—)"],
+      3: [
+        "Biz bu ailede her şeyi uçlarda yaşarız;",
+        "Biz bu ailede birbirimizi ölesiye severiz.",
+        "Ben aileme aşığım aslında;",
+        "Deliliğe bile yerimiz var bizim aramızda.",
+        "Ben bu hikâyenin sonunda doğdum belki;",
+        "Ama asıl başlangıç için buradayım artık.",
+        "Biz bu ailede her şeyi sert yaşarız;",
+        "Biz bu ailede her şeyi uçlarda yaşarız;",
+        "Ortalığı birbirine katarız gerekirse.",
+        "Hadi, sen de üzerine düşeni yap;",
+        "Düşüşleri engellemeye, ayakta tutmaya çalış bizi...",
+        "Ben bu enerjiyle doğmuşum;",
+        "Çünkü başka çarem yoktu.",
+        "Biz bu ailede her şeyi uçlarda yaşarız.",
+      ],
+      4: [
+        "Beni böyle bir kutuya hapset.",
+        "Ben sensiz de tüm dünyayı gezerim (Biz uçlarda yaşarız).",
+        "Ver bana o motivasyonu (Biz uçlarda yaşarız).",
+        "Sensiz yepyeni bir dünya kuracağım.",
+        "Beni böyle bir kutuya hapset.",
+        "Ben sensiz de tüm dünyayı gezerim (Biz uçlarda yaşarız).",
+        "Ver bana o motivasyonu (Biz uçlarda yaşarız).",
+      ],
+      7: [
+        "Biz bu ailede her şeyi uçlarda yaşarız;",
+        "Biz bu ailede birbirimizi ölesiye severiz.",
+        "Ben aileme aşığım aslında;",
+        "Deliliğe bile yerimiz var bizim aramızda.",
+        "Ben bu hikâyenin sonunda doğdum belki;",
+        "Ama asıl başlangıç için buradayım artık.",
+        "Biz bu ailede her şeyi sert yaşarız;",
+        "Biz bu ailede her şeyi uçlarda yaşarız;",
+        "Ortalığı birbirine katarız gerekirse.",
+        "Hadi, sen de üzerine düşeni yap;",
+        "Düşüşleri engellemeye, ayakta tutmaya çalış bizi...",
+        "Ben bu enerjiyle doğmuşum;",
+        "Çünkü başka çarem yoktu.",
+        "Biz bu ailede her şeyi uçlarda yaşarız.",
+      ],
+      8: [
+        "Beni böyle bir kutuya hapset.",
+        "Ben sensiz de tüm dünyayı gezerim (Biz uçlarda yaşarız).",
+        "Ver bana o motivasyonu (Biz uçlarda yaşarız).",
+        "Sensiz yepyeni bir dünya kuracağım.",
+        "Beni böyle bir kutuya hapset.",
+        "Ben sensiz de tüm dünyayı gezerim (Biz uçlarda yaşarız).",
+        "Ver bana o motivasyonu (Biz uçlarda yaşarız).",
+        "Sensiz yepyeni bir dünya kuracağım.",
+        "Ver bana o motivasyonu, ver bana o motivasyonu.",
+        "Biz uçlarda yaşarız, biz uçlarda yaşarız.",
+        "Sensiz yepyeni bir dünya kuracağım.",
+        "Ver bana o motivasyonu, ver bana o motivasyonu.",
+        "Biz uçlarda yaşarız, biz uçlarda yaşarız.",
+      ],
+      9: [
+        "Pırıl pırıl parla küçük yıldız...",
+        "Sahi, nesin sen merak ediyorum...",
+        "[?], hem güzel hem karmakarışık, bilmiyorum işte.",
+        "Selam Carly Hala!",
+        "Değişecek misin artık?",
+        "Ce-ee!",
+      ],
+    },
+    annotationOverrides: [
+      { word: "nefesimi tutuyorum, yüzüm morarıyor", text: "‘Hold my breath, turn blue’, ev içindeki baskıyı veya gerilim anındaki nefessiz kalma hissini fiziksel bir imgeyle anlatır." },
+      { word: "ip üzerinde yürümek", text: "‘Always a tightrope’, aile beklentileriyle kişinin kendi kimliği arasındaki zorlu dengeyi anlatır." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "sunflower",
+    label: "Post Malone & Swae Lee — Sunflower",
+    artist: "Post Malone",
+    artistDisplay: "Post Malone & Swae Lee",
+    title: "Sunflower",
+    spotifyUrl: "https://open.spotify.com/track/1A6OTy97kk0mMdm78rHsm8",
+    youtubeUrl: "https://www.youtube.com/watch?v=ApXoWvfEYVU",
+    geniusUrl: "https://genius.com/Post-malone-and-swae-lee-sunflower-lyrics",
+    translationOverrides: {
+      0: ["Ayy, ayy, ayy, ayy (Ooh)", "Ooh, ooh, ooh, ooh (Ooh)", "Ayy, ayy", "Ooh, ooh, ooh, ooh"],
+      1: [
+        "Söylememe gerek yok, ipleri elimde tutuyorum;",
+        "O fena mı fena bir kızdı, her şeye rağmen (Evet).",
+        "Şimdi pes ediyorum bebeğim, ben tam bir enkazım (Enkaz);",
+        "Bende kalıyorsun bebeğim, sen de tam bir enkazsın (Enkaz).",
+        "Söylememe gerek yok, ipleri elimde tutuyorum;",
+        "O fena mı fena bir kızdı, her şeye rağmen...",
+        "Şimdi pes ediyorum bebeğim, ben tam bir enkazım;",
+        "Bende kalıyorsun bebeğim, sen de tam bir enkazsın.",
+        "Kötü düşüncelere dalıyorsun, kontrolü kaybediyorsun;",
+        "Yüzüme karşı bağırıyorsun, bebeğim saçmalama.",
+        "Birisi ağır bir mağlubiyet aldı, nasıl bir histi acaba?",
+        "Sana şöyle bir yan gözle bakıyorum, parti çığırından çıktı resmen...",
+        "Ooh-ooh, bazı şeyleri reddedemezsin;",
+        "Beni bir gemi gibi sürmek istiyor ama ben kaybetmeye niyetli değilim.",
+      ],
+      3: [
+        "Seni her terk edişimde (Ooh),",
+        "Bunu hiç de kolaylaştırmıyorsun, hayır (Hayır, hayır).",
+        "Keşke senin için orada olabilseydim (Ooh);",
+        "Bana bunun için bir sebep ver, oh (Oh).",
+        "Ne zaman kapıdan çıksam (Oh),",
+        "Bana geri dön dediğini duyabiliyorum (Oh, oh).",
+        "Güvenimi kazanmak için savaşıyorsun ve geri adım atmıyorsun hiç (Hayır);",
+        "Şu an her şeyi riske atmamız gerekse bile (Şimdi).",
+        "Biliyorum, o bilinmezlikten korkuyorsun (Bilinmezlik);",
+        "Yalnız kalmak istemiyorsun, biliyorum (Yalnız).",
+        "Biliyorum, ben hep böyle gelip gidiyorum (Gelip gidiyorum);",
+        "Ama bu benim kontrolümün dışında...",
+      ],
+    },
+    annotationOverrides: [
+      { word: "ipleri elimde tutuyorum", text: "‘Keep a check’, hem kontrolü elinde tutma hem de finansal güç çağrışımı taşıyan bir kelime oyunudur." },
+      { word: "ağır bir mağlubiyet aldı", text: "‘Take a big L’, hip-hop jargonunda yenilgiye uğramak veya küçük düşmek anlamına gelir." },
+      { word: "Sen bir ayçiçeğisin", text: "Ayçiçeğinin güneşe yönelmesi, sevgilinin anlatıcıya bağlılığını ve anlatıcının bu yoğunluktan çekinmesini simgeler." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "theNightWeMet",
+    label: "Lord Huron — The Night We Met",
+    artist: "Lord Huron",
+    title: "The Night We Met",
+    spotifyUrl: "https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU",
+    youtubeUrl: "https://www.youtube.com/watch?v=KtlgYxa6BMU",
+    geniusUrl: "https://genius.com/Lord-huron-the-night-we-met-lyrics",
+    translationOverrides: {
+      0: ["(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)"],
+    },
+    annotationOverrides: [
+      { word: "Borcunu henüz ödememiş olan", text: "Hayat yolculuğundaki hataları ve bu hataların bedelini ödeme zorunluluğunu anlatan bir imgedir." },
+      { word: "Senin her şeyine sahiptim önce, sonra sadece çoğuna", text: "‘Hepsi, çoğu, birazı, hiçbiri’ dizilimi bir ilişkinin aşama aşama tükenişini anlatır." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "justAGirl",
+    label: "No Doubt — Just a Girl",
+    artist: "No Doubt",
+    title: "Just a Girl",
+    spotifyUrl: "https://open.spotify.com/track/5lWRaa0fBxDE5yU91npPq7",
+    youtubeUrl: "https://www.youtube.com/watch?v=PHzOOQfhPFg",
+    geniusUrl: "https://genius.com/No-doubt-just-a-girl-lyrics",
+    translationOverrides: {
+      8: ["Oh, artık burama kadar...", "Oh, artık burama kadar...", "Oh, artık burama kadar geldi!"],
+    },
+    annotationOverrides: [
+      { word: "sadece bir kızım", text: "Anlatıcı, toplumun kadınlara biçtiği narin ve bağımlı rolü alaycı biçimde tekrar ederek bu role itiraz eder." },
+      { word: "kaba hesapların", text: "‘Rule of thumb’, kesin olmayan genel kural anlamına gelir; dizede kadınları kısıtlayan yerleşik kurallara bağlanır." },
+      { word: "Saçmalık işte", text: "‘Twiddle-dum’, anlamsızlık veya boş uğraş çağrışımı taşıyan alaycı bir ünlemdir." },
+    ],
+  },
+  {
+    batch: "aug21",
+    sourceKey: "thinkingOutLoud",
+    label: "Ed Sheeran — Thinking Out Loud",
+    artist: "Ed Sheeran",
+    title: "Thinking Out Loud",
+    spotifyUrl: "https://open.spotify.com/track/34gCuhDGsG4bRPIf9bb02f",
+    youtubeUrl: "https://www.youtube.com/watch?v=lp-EO5I60KA",
+    geniusUrl: "https://genius.com/Ed-sheeran-thinking-out-loud-lyrics",
+    translationOverrides: {
+      1: [
+        "Düşünüyorum da;",
+        "İnsanlar ne kadar da gizemli yollarla aşık oluyorlar.",
+        "Belki sadece bir elin dokunuşuyla...",
+        "Bense, sana her bir gün yeniden aşık oluyorum;",
+        "Ve sadece sana âşık olduğumu söylemek istiyorum.",
+      ],
+      5: [
+        "Bebeğim, şimdi al beni o sevgi dolu kollarına;",
+        "Öp beni binlerce yıldızın ışığı altında...",
+        "Başını şu atan kalbimin üzerine yasla, sesli düşünüyorum;",
+        "Belki de aşkı tam da olduğumuz yerde bulduk, oh-oh.",
+      ],
+      6: ["Lo-lo-lo, lo-lo-lo", "Lo-lo-lo, lo-lo-lo, love"],
+      7: [
+        "Bebeğim, şimdi al beni o sevgi dolu kollarına;",
+        "Öp beni binlerce yıldızın ışığı altında, oh, sevgilim...",
+        "Başını şu çarpan kalbimin üzerine yasla, sesli düşünüyorum;",
+        "Belki de aşkı tam da olduğumuz yerde bulduk.",
+        "Oh, belki de aşkı tam da burada bulduk;",
+        "Ve aşkı tam da olduğumuz yerde bulduk.",
+      ],
+    },
+    annotationOverrides: [
+      { word: "hep tazedir", text: "‘Evergreen’, her mevsim yeşil kalan bitki imgesinden hareketle ruhun hiç yaşlanmayan, canlı kalan yönünü anlatır." },
+    ],
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -583,11 +1192,79 @@ function romanizeCjk(value) {
 
 const PRESERVED_ADLIBS = /^(?:ah+|ayy+|eh+|ha+|hey+|huh+|nah|ooh+|oh+|uh+|woo(?:-hoo)?|woah+|yeah+|what|meow)(?:[,.!?'\s-]+(?:ah+|ayy+|eh+|ha+|hey+|huh+|nah|ooh+|oh+|uh+|woo(?:-hoo)?|woah+|yeah+|what|meow))*[.!?]?$/i;
 
+const PRESERVED_TRANSLATED_ECHOES = new Set([
+  "affet",
+  "affet beni, bebeğim",
+  "benimsin",
+  "oh, evet",
+  "bebeğim",
+  "engel olamıyorum",
+  "o tek kız sensin",
+  "sana tutuldum",
+  "sana tutuldum, sana tutuldum, fena",
+  "sana, ooh",
+  "yine sana döndüm",
+  "aşka düşüyorum",
+  "senin için yanıyorum",
+  "senin için",
+  "hadi bir kez daha söyle",
+  "sırra kadem basıyoruz",
+  "like woo",
+  "ister misin",
+  "gidiyoruz uzaklara",
+  "mikrofon kontrol",
+  "mikrofon",
+  "şah-mat, şah-mat",
+  "mic",
+  "hiç gitmedik",
+  "bana güven",
+  "vay be",
+  "saçmalık",
+  "dünyamız",
+  "yah",
+  "yazmaya devam",
+  "o heyecanı hisset",
+  "vakit geldi",
+  "benim bu",
+  "ah-ha",
+  "benim zirvem",
+  "sevgini ver bana",
+  "sevgi",
+  "her şeyin başlangıcı",
+  "oh canım, sen benim biriciğimsin",
+  "dışarı, dışarı",
+  "benim sokağım",
+  "biz sertiz",
+  "biz uçlarda yaşarız",
+  "bu aile—",
+  "nasıl yapmışım",
+  "beni yanlış",
+  "yanlış anladın",
+  "umutlandırmaya",
+  "enkaz",
+  "evet",
+  "hayır",
+  "hayır, hayır",
+  "bilinmezlik",
+  "yalnız",
+  "gelip gidiyorum",
+  "şimdi",
+  "gidiyorum",
+]);
+
+function preserveParenthetical(content) {
+  const clean = content
+    .toLocaleLowerCase("tr-TR")
+    .replace(/[.!?…]+$/g, "")
+    .trim();
+  return PRESERVED_ADLIBS.test(content.trim()) || PRESERVED_TRANSLATED_ECHOES.has(clean);
+}
+
 function cleanTranslationLine(value) {
   return String(value || "")
     .replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "")
     .replace(/\s*\(([^)]*\p{L}[^)]*)\)/gu, (whole, content) => (
-      PRESERVED_ADLIBS.test(content.trim()) ? whole : ""
+      preserveParenthetical(content) ? whole : ""
     ))
     .replace(/\s+([,.;!?])/g, "$1")
     .replace(/\s{2,}/g, " ")
@@ -676,7 +1353,9 @@ function parseTrack(source, track) {
       const corrected = line
         .replace("차오르은 feel", "차오르는 feel")
         .replace("ㅂ-ㅣ-ㄱ", "B-I-G")
-        .replace("(熙)", "");
+        .replace("(熙)", "")
+        .replace(/\s*\(\[?\?\]?\)\s*/g, "")
+        .replace(/[еЕ]/g, (character) => character === "Е" ? "E" : "e");
       const hangulRomanized = hasHangul ? romanizeHangul(corrected) : corrected;
       return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
     }),
@@ -685,6 +1364,12 @@ function parseTrack(source, track) {
       .filter(Boolean),
     notes: [],
   }));
+  if (track.batch === "aug21") {
+    const mismatch = stanzas.find((stanza) => stanza.original.length !== stanza.translation.length);
+    if (mismatch) {
+      throw new Error(`${track.label}: ${mismatch.section || "başlıksız kıta"} satırları eşleşmiyor (${mismatch.original.length}/${mismatch.translation.length}).`);
+    }
+  }
   const lyricalText = stanzas.flatMap((stanza) => [...stanza.original, ...stanza.translation]).join("\n");
   const annotationCandidates = ["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
     ? inlineAnnotations(translatedBody, lyricalText)
@@ -785,6 +1470,21 @@ function descriptionFor(track, bundle) {
   return `${artist} – ${track.title} şarkı sözleri${romanized} ve Türkçe çevirisi. Parçanın anlamını keşfet.`;
 }
 
+async function withNetworkRetry(label, work, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      return await work();
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts) break;
+      console.warn(`${label}: bağlantı yeniden deneniyor (${attempt}/${attempts - 1})...`);
+      await new Promise((resolve) => setTimeout(resolve, attempt * 500));
+    }
+  }
+  throw lastError;
+}
+
 async function main() {
   loadEnv();
   const write = process.argv.includes("--write");
@@ -797,10 +1497,11 @@ async function main() {
   const aug14Batch = process.argv.includes("--aug14");
   const aug18Batch = process.argv.includes("--aug18");
   const biiigBatch = process.argv.includes("--biiig");
-  const inputPath = biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug21Batch = process.argv.includes("--aug21");
+  const inputPath = aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));
@@ -858,6 +1559,12 @@ async function main() {
       };
       console.log(`Spotify — ${track.label}: resmi parça henüz yok; sanatçı bilgisi kullanıldı.`);
       enriched.push({ ...track, spotify: spotifyBundle, spotifyScore: null });
+      continue;
+    }
+    if (track.spotifyUrl) {
+      const bundle = await withNetworkRetry(track.label, () => fetchTrackBundle(track.spotifyUrl, credentials));
+      console.log(`Spotify ✓ ${track.label}: ${bundle.track.name} — ${bundle.album.name}`);
+      enriched.push({ ...track, spotify: bundle, spotifyScore: 99 });
       continue;
     }
     const spotify = await searchTrackBundle({ artist: track.artist, title: track.spotifyTitle || track.title }, credentials);
@@ -921,8 +1628,10 @@ async function main() {
       slug: track.slug,
       artist: track.artistDisplay || track.artist,
       spotify: track.spotify,
+      genius: track.geniusUrl ? { url: track.geniusUrl } : null,
       stanzas: track.stanzas,
       youtubeUrl: track.youtube.selected?.url || null,
+      translatorNote: track.hasHangul ? "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi." : null,
       savedAt: new Date().toISOString(),
       source: "ai-studio-spotify-youtube",
     };

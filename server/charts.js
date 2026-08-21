@@ -105,7 +105,8 @@ async function fetchBillboard(chart) {
   if (entries.length < LIMIT) {
     throw new Error(`sayfa yapısı çözümlenemedi (${entries.length}/${LIMIT} satır) — Billboard markup değişmiş olabilir`);
   }
-  return entries;
+  const sourceDate = html.match(/id="chart-date-picker"\s+data-date="(\d{4}-\d{2}-\d{2})"/)?.[1] || null;
+  return { entries, updated: sourceDate };
 }
 
 async function fetchAppleMostPlayed() {
@@ -116,11 +117,15 @@ async function fetchAppleMostPlayed() {
   const data = await res.json();
   const results = data?.feed?.results || [];
   if (!results.length) throw new Error("Apple RSS boş döndü");
-  return results.slice(0, LIMIT).map((song, index) => ({
-    rank: index + 1,
-    title: song.name,
-    artist: song.artistName,
-  }));
+  const updated = data?.feed?.updated ? new Date(data.feed.updated).toISOString().slice(0, 10) : null;
+  return {
+    updated,
+    entries: results.slice(0, LIMIT).map((song, index) => ({
+      rank: index + 1,
+      title: song.name,
+      artist: song.artistName,
+    })),
+  };
 }
 
 async function fetchCircleGlobalKpop() {
@@ -139,11 +144,14 @@ async function fetchCircleGlobalKpop() {
     .slice(0, LIMIT);
 
   if (rows.length < LIMIT) throw new Error(`Circle Chart boş/eksik döndü (${rows.length}/${LIMIT})`);
-  return rows.map((row, index) => ({
-    rank: Number(row.Rank) || index + 1,
-    title: decodeEntities(row.Title),
-    artist: decodeEntities(row.Artist),
-  }));
+  return {
+    updated: `${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6, 8)}`,
+    entries: rows.map((row, index) => ({
+      rank: Number(row.Rank) || index + 1,
+      title: decodeEntities(row.Title),
+      artist: decodeEntities(row.Artist),
+    })),
+  };
 }
 
 function parseKworbTitle(raw) {
@@ -193,7 +201,11 @@ async function fetchSpotifyGlobalFallback() {
     }
   }
   if (entries.length < LIMIT) throw new Error(`Spotify fallback çözümlenemedi (${entries.length}/${LIMIT})`);
-  return entries;
+  const sourceDate = html.match(/Spotify Daily Chart - Global - (\d{4})\/(\d{2})\/(\d{2})/i);
+  return {
+    updated: sourceDate ? `${sourceDate[1]}-${sourceDate[2]}-${sourceDate[3]}` : null,
+    entries,
+  };
 }
 
 async function fetchSpotifyGlobal(spotifyCreds) {
@@ -286,13 +298,17 @@ export async function updateCharts({ spotify, write = true } = {}) {
     }
     try {
       const previousByTrack = new Map(list.entries.map((entry) => [trackKey(entry), entry]));
-      const entries = await withTimeout(fetcher(), list.name);
+      const fetched = await withTimeout(fetcher(), list.name);
+      const entries = Array.isArray(fetched) ? fetched : fetched?.entries;
+      if (!Array.isArray(entries) || entries.length < LIMIT) {
+        throw new Error(`kaynak boş/eksik döndü (${entries?.length || 0}/${LIMIT})`);
+      }
       const enrichedEntries = await enrichEntriesWithSpotify(entries, spotify);
       list.entries = enrichedEntries.map((entry) => {
         const previous = previousByTrack.get(trackKey(entry));
         return previous ? { ...previous, ...entry } : entry;
       });
-      list.updated = updateDate;
+      list.updated = (!Array.isArray(fetched) && fetched.updated) || updateDate;
       changed = true;
       summary.push({
         id: list.id,
@@ -300,6 +316,7 @@ export async function updateCharts({ spotify, write = true } = {}) {
         ok: true,
         count: list.entries.length,
         covers: list.entries.filter((entry) => entry.cover).length,
+        updated: list.updated,
       });
     } catch (e) {
       summary.push({ id: list.id, name: list.name, ok: false, error: e.message || "bilinmeyen hata" });

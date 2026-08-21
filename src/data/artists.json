@@ -266,7 +266,7 @@
   {
     "slug": "enhypen",
     "name": "ENHYPEN",
-    "count": 3,
+    "count": 9,
     "image": "https://i.scdn.co/image/ab6761610000e5eb590b808769f5826ce94d1dd4"
   },
   {
@@ -764,7 +764,7 @@
   {
     "slug": "ed-sheeran",
     "name": "Ed Sheeran",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec"
   },
   {
@@ -2032,5 +2032,71 @@
     "name": "BIGBANG",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb41f3b91c5c5bf6651da98956"
+  },
+  {
+    "slug": "baby-shark-boy",
+    "name": "Baby Shark Boy",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1da42794ef8973592f87b746"
+  },
+  {
+    "slug": "pinkfong",
+    "name": "Pinkfong",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "joohoney",
+    "name": "JOOHONEY",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "steve-lacy",
+    "name": "Steve Lacy",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e3150cffbfda40c6eaf28dd"
+  },
+  {
+    "slug": "mariah-carey",
+    "name": "Mariah Carey",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63"
+  },
+  {
+    "slug": "rochelle-jordan",
+    "name": "Rochelle Jordan",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "carly-rae-jepsen",
+    "name": "Carly Rae Jepsen",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55e3a8d4fe7f0053fffca258"
+  },
+  {
+    "slug": "post-malone",
+    "name": "Post Malone",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0"
+  },
+  {
+    "slug": "swae-lee",
+    "name": "Swae Lee",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "lord-huron",
+    "name": "Lord Huron",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0d4d3bb72e9375017fd94f71"
+  },
+  {
+    "slug": "no-doubt",
+    "name": "No Doubt",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6772690000c46c2bc169ddd09632b994baf3b1"
   }
 ]

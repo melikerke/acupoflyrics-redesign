@@ -1,5 +1,125 @@
 export const popGundemiArticles = [
   {
+    slug: "21-agustos-2026-muzik-gundemi",
+    title: "21 Ağustos müzik gündemi: Sam Smith ve ENHYPEN'in yeni albümleri yayında",
+    shortTitle: "21 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-21",
+    updatedAt: "2026-08-21T11:10:00+03:00",
+    readTime: "6 dk",
+    image: "https://store.samsmithworld.com/cdn/shop/files/Sam_Smith_CD_9b5e5104-104a-4fd5-bfa5-e5c1ab46ecc0.png?v=1782216307&width=1500",
+    imageAlt: "Sam Smith Hazel Eyes albümünün resmî CD ürün görseli",
+    imageCredit: "Sam Smith · Capitol Records UK",
+    imageSource: "https://store.samsmithworld.com/products/hazel-eyes-cd",
+    accent: "#8a756f",
+    excerpt:
+      "Sam Smith'in beşinci albümü Hazel Eyes ile ENHYPEN'in sekizinci mini albümü THE SIN : BLISS yayımlandı. Steve Lacy — Oh Yeah? ABD Hot 100'de 34 basamak yükselirken üç eski kayıt TikTok Global'in ilk üçüne yerleşti.",
+    dek:
+      "Bugünün taraması yeni global yayınları, K-pop çıkışlarını ve yeniden yükselen eski şarkıları tek dosyada topluyor. Beş müzik listesi yenilendi; haftalık Billboard dönemleri ile Circle, Apple Music ve Spotify'ın günlük ölçümleri ayrı tarihlerle gösteriliyor.",
+    pullQuote:
+      "Steve Lacy — Oh Yeah?, 19–25 Ağustos Hot 100 döneminde 54 numaradan 20 numaraya yükseldi.",
+    relatedTranslations: [
+      "enhypen-knife-turkce-ceviri",
+      "enhypen-no-doubt-turkce-ceviri",
+      "flo-rida-enhypen-paul-russell-confessions-turkce-ceviri",
+      "sam-smith-taeyeon-im-not-the-only-one-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "21 Ağustos 2026 kontrolü",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Yeni albümler", text: "Sam Smith — Hazel Eyes ve ENHYPEN — THE SIN : BLISS, resmî 21 Ağustos takvimine göre yayımlandı." },
+        { label: "Liste sıçraması", text: "Steve Lacy — Oh Yeah?, ABD Hot 100'de 54 numaradan 20 numaraya çıktı." },
+        { label: "Viral", text: "Sunflower, Just a Girl ve Thinking Out Loud, 20 Ağustos haftalık TikTok Global görünümünün ilk üçünde." },
+        { label: "Listeler", text: "Beş kaynak yenilendi; her listenin ölçüm dönemi ve veri tarihi ayrı tutuldu." },
+      ],
+    },
+    summary: [
+      "Billboard Hot 100 ve Billboard 200, kaynağın 22 Ağustos hafta etiketiyle yenilendi. Circle Global'ın son günlük ölçümü 18 Ağustos, Apple Music küresel akışı 21 Ağustos, Spotify Global'ın son doğrulanmış günlük görünümü ise 19 Ağustos tarihini taşıyor.",
+      "Sam Smith'in 12 şarkılık beşinci stüdyo albümü Hazel Eyes, Capitol Records UK'nin resmî ürün sayfasındaki 21 Ağustos yayın takvimine göre dinleyiciyle buluştu. Albümde Feist ve The TwoCity Chorus konuk olarak yer alıyor.",
+      "BELIFT LAB'ın resmî duyurusuna göre ENHYPEN'in sekizinci mini albümü THE SIN : BLISS, 21 Ağustos 13.00 KST'de yayımlandı. Başlık şarkısı Bloody Paradise; müzik videosu 22 Ağustos 00.00 KST için planlandı.",
+      "Steve Lacy — Oh Yeah?, 19–25 Ağustos ABD Hot 100 görünümünde 34 basamaklık sıçramayla 20 numaraya yükseldi. Şarkı acupoflyrics arşivinde bulunmuyor.",
+      "Soundcharts'ın 20 Ağustos haftalık TikTok Global verisinde Post Malone & Swae Lee — Sunflower 410 bin kullanımla birinci, No Doubt — Just a Girl 201 binle ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. Üç şarkı da arşivde bulunmuyor.",
+    ],
+    sections: [
+      {
+        heading: "Sam Smith — Hazel Eyes bugün yayımlandı",
+        body: [
+          "Sam Smith'in resmî mağazası, Hazel Eyes için 21 Ağustos 2026 yayın tarihini ve Capitol Records UK etiketini doğruluyor. Sanatçının beşinci stüdyo albümü 12 şarkıdan oluşuyor; Moondance'da Feist, Oh Mother'da The TwoCity Chorus yer alıyor.",
+          "Albüm baştan sona yeni olsa da ilk gün için tek bir şarkıda ölçülmüş liste veya viral üstünlük henüz oluşmadı. Bu nedenle parça listesinin tamamı ayrı ayrı çeviri talebi olarak açılmadı; dinleme verisi belirginleşene kadar Hazel Eyes albümü izleme listesinde tutulacak.",
+        ],
+      },
+      {
+        heading: "ENHYPEN — Bloody Paradise, THE SIN : BLISS albümünün başlık şarkısı",
+        body: [
+          "BELIFT LAB, ENHYPEN'in sekizinci mini albümü THE SIN : BLISS için 21 Ağustos 13.00 KST yayın saatini açıkladı. Billboard Japan'ın albüm ön izlemesine göre altı şarkılık kaydın başlık parçası Bloody Paradise; albümde ayrıca dört dilde anlatım bölümleri bulunuyor.",
+          "Bloody Paradise arşivde bulunmuyor ve bugün yüksek öncelikli çeviri adayı. Korece özgün satırlarla birlikte Latin alfabeli romanizasyon hazırlanmalı. Müzik videosu 22 Ağustos 00.00 KST için planlandığından, bu kontrol sırasında klibin yayımlandığı ileri sürülmüyor.",
+        ],
+      },
+      {
+        heading: "Global Pop & R&B: yeni yayınlar ve Steve Lacy sıçraması",
+        body: [
+          "ABD Hot 100'ün 19–25 Ağustos görünümünde Steve Lacy — Oh Yeah?, önceki haftaki 54 numaradan 20 numaraya yükseldi. RCA Records'ın resmî albüm duyurusu, parçanın 17 Temmuz'da yayımlanan aynı adlı albümün açılış şarkısı olduğunu doğruluyor. Bu 34 basamaklık hareket, bugünün ölçülmüş en güçlü global çeviri sinyali.",
+          "Son 24–48 saatte Mariah Carey ile Rochelle Jordan'ın Didn't Mean to Turn You On yeniden yorumu, Carly Rae Jepsen — Motivation, Lizzy McAlpine — Ugly things ve Remi Wolf — Bottle da yayımlandı. Bu kayıtlar arşivde bulunmuyor; ilk üçü yüksek, Bottle ise orta-yüksek öncelikle izleniyor. Bugünkü yayınlarda Latin dışı alfabe kullanılmadığı için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "Sunflower, Just a Girl ve Thinking Out Loud TikTok'ta yeniden öne çıktı",
+        body: [
+          "Soundcharts'ın 20 Ağustos haftalık TikTok Global görünümünde Sunflower 410 bin kullanımla birinci sırada. Aynı kaynağın 13 Ağustos'ta indekslenen görünümündeki 212 bin değere göre artış yaklaşık yüzde 93. Sony Pictures, Post Malone ve Swae Lee ortaklığının özgün yayınını 18 Ekim 2018 olarak doğruluyor.",
+          "No Doubt — Just a Girl 201 bin kullanımla ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. İki kayıt önceki erişilebilir ilk 95 görünümünde yer almıyordu. Güncel sayısal yükseliş doğrulanmış olsa da bu iki şarkının tetikleyicisi resmî olarak açıklanmadı; neden hakkında tahmin yürütülmedi.",
+        ],
+      },
+      {
+        heading: "Her müzik listesi kendi ölçüm tarihiyle yenilendi",
+        body: [
+          "Billboard Hot 100 ve Billboard 200 haftalık listelerinin kaynak sayfaları 22 Ağustos hafta etiketiyle doğrulandı. Billboard'ın ileri tarihli hafta etiketi bir erişim tarihi gibi yorumlanmadı; iki liste haftalık ölçüm olarak tutuluyor.",
+          "Günlük kaynaklarda Circle Global'ın son geçerli veri günü 18 Ağustos, Apple Music Top 100: Global akışının yenilenme günü 21 Ağustos ve Spotify Global görünümünün son doğrulanmış günü 19 Ağustos. Kaynaklar aynı güne aitmiş gibi birleştirilmedi; üstteki genel tarih yalnızca 21 Ağustos'taki son başarılı kontrolü gösteriyor.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Steve Lacy — Oh Yeah?", status: "Yüksek öncelik", detail: "ABD Hot 100'de 54'ten 20'ye yükseldi; arşivde yok." },
+      { name: "Mariah Carey feat. Rochelle Jordan — Didn't Mean to Turn You On", status: "Yüksek öncelik", detail: "20 Ağustos'ta yayımlanan yeni yorum; arşivde yok." },
+      { name: "Carly Rae Jepsen — Motivation", status: "Yüksek öncelik", detail: "21 Ağustos yeni yayını; arşivde yok." },
+      { name: "Lizzy McAlpine — Ugly things", status: "Orta-yüksek", detail: "21 Ağustos yeni yayını; arşivde yok." },
+      { name: "Remi Wolf — Bottle", status: "Orta-yüksek", detail: "20 Ağustos'ta yayımlandı; Mud albümüyle birlikte duyuruldu." },
+      { name: "ENHYPEN — Bloody Paradise", status: "Yüksek öncelik", detail: "21 Ağustos başlık şarkısı; Korece satırlar için romanizasyon gerekli." },
+      { name: "Mimi — Bish Bash Bosh", status: "Orta-yüksek", detail: "20 Ağustos solo çıkışı; Korece satırlar için romanizasyon gerekli." },
+      { name: "Tiger JK & Yoonmirae — Let Me Love You", status: "Orta", detail: "20 Ağustos ortak yayını; romanizasyon gerekli." },
+      { name: "Kim Jaejoong — Tonight", status: "Orta", detail: "20 Ağustos Korece dönüş şarkısı; romanizasyon gerekli." },
+      { name: "Sunflower / Just a Girl / Thinking Out Loud", status: "Viral yükseliş", detail: "20 Ağustos TikTok Global ilk üçü; üçü de arşivde yok." },
+    ],
+    sources: [
+      { name: "Sam Smith resmî mağazası — Hazel Eyes yayın tarihi ve parça listesi", url: "https://store.samsmithworld.com/products/hazel-eyes-cd" },
+      { name: "BELIFT LAB / Weverse — THE SIN : BLISS yayın duyurusu", url: "https://weverse.io/enhypen/notice/37455" },
+      { name: "ENHYPEN — THE SIN : BLISS resmî yayın bağlantısı", url: "https://enhypen.lnk.to/THESINBLISS" },
+      { name: "Billboard Japan — Bloody Paradise ve albüm ön izlemesi", url: "https://www.billboard-japan.com/d_news/detail/163923/2" },
+      { name: "Soompi — Mimi solo çıkış duyurusu", url: "https://www.soompi.com/article/1859160wpp/oh-my-girls-mimi-announces-plans-for-solo-debut" },
+      { name: "Yonhap — Tiger JK ve Yoonmirae ortak single bilgisi", url: "https://www.yna.co.kr/amp/view/AKR20260820053300005" },
+      { name: "iNKODE / Weverse — Kim Jaejoong The Wave duyurusu", url: "https://weverse.io/kimjaejoong/notice/38245" },
+      { name: "Official Charts — ABD Billboard Hot 100, 19–25 Ağustos", url: "https://www.officialcharts.com/charts/billboard-hot-100-chart/" },
+      { name: "RCA / Sony Music — Steve Lacy Oh yeah? albüm duyurusu", url: "https://www.sonymusic.ca/press_release/33915" },
+      { name: "ABC Audio — Mariah Carey Glitter 25 ve yeni ortak versiyon", url: "https://digital.abcaudio.com/news/mariah-carey-release-glitter-vinyl-streaming-services-honor-25th-anniversary" },
+      { name: "Carly Rae Jepsen — Day and Night resmî sayfası", url: "https://www.carlyraemusic.com/day-and-night/" },
+      { name: "Apple Music — Carly Rae Jepsen, Motivation", url: "https://music.apple.com/hk/album/motivation/6781767022?i=6781767223&uo=4" },
+      { name: "Lizzy McAlpine — resmî müzik sayfası", url: "https://www.lizzymcalpine.com/music/" },
+      { name: "Lizzy McAlpine — Ugly things resmî yayın bağlantısı", url: "https://lizzymcalpine.lnk.to/uglythings" },
+      { name: "Remi Wolf — Bottle ve Mud albüm bilgisi", url: "https://www.jambase.com/article/remi-wolf-mud-album" },
+      { name: "Soundcharts — TikTok Global, 20 Ağustos haftası", url: "https://www.soundcharts.com/es/charts/tiktok/worldwide" },
+      { name: "Sony Pictures — Sunflower resmî yayın duyurusu", url: "https://www.sonypictures.com/corp/press_releases/2018/10_18/101818_sunflower.html" },
+      { name: "Apple Music — No Doubt, Just a Girl", url: "https://music.apple.com/us/song/1440718648" },
+      { name: "Apple Music — Ed Sheeran, Thinking Out Loud", url: "https://music.apple.com/us/song/1633966181" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify Global günlük liste geçmişi", url: "https://kworb.net/spotify/country/global_daily.html" },
+    ],
+    storyShare:
+      "21 Ağustos müzik gündemi: Sam Smith — Hazel Eyes ve ENHYPEN — THE SIN : BLISS yayımlandı; Steve Lacy — Oh Yeah? 34 basamak yükseldi.",
+  },
+  {
     slug: "20-agustos-2026-muzik-gundemi",
     title: "20 Ağustos müzik gündemi: Tiffany Young'ın ilk albümü ve JENNIE'nin yeni EP hazırlığı",
     shortTitle: "20 Ağustos — günün müzik gündemi",
@@ -98,7 +218,7 @@ export const popGundemiArticles = [
     shortTitle: "19 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-19",
-    updatedAt: "2026-08-19T14:25:00+03:00",
+    updatedAt: "2026-08-21T11:10:00+03:00",
     readTime: "4 dk",
     image: "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0252ef5c6a7069e81cb4621748",
     imageAlt: "ZEROBASEONE 回帰LOVE Japonya ikinci EP kapağı",
@@ -124,6 +244,7 @@ export const popGundemiArticles = [
       items: [
         { label: "Yayımlandı", text: "ZEROBASEONE — イグジステンス, BIGBANG — BiiiG ve BOYNEXTDOOR — Boom Boom Boom dijital platformlarda yerini aldı." },
         { label: "Arşive eklendi", text: "BIGBANG — BiiiG çevirisi, romanize okunuşu, Spotify kaydı ve resmî müzik videosuyla yayında." },
+        { label: "21 Ağustos güncellemesi", text: "BiiiG, Melon'un 21 Ağustos 06.00 KST görünümünde birinci sırada; yeni çeviri sayfası açılmadı." },
         { label: "Listeler", text: "Billboard, Circle, Apple Music ve Spotify dahil beş liste 19 Ağustos verisiyle yenilendi." },
       ],
     },
@@ -131,7 +252,7 @@ export const popGundemiArticles = [
       "Billboard Hot 100, Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 verileri 19 Ağustos sabahında başarıyla yenilendi.",
       "Spotify Global'da Tame Impala — Loser birinci sıraya yükseldi; parça 18 Ağustos'ta raporlanıp arşive eklendiği için bugünün adaylarında tekrar yer almıyor. BTS — SWIM'in Spotify ilk 10 girişi de mevcut çeviri sayfasına bağlanıyor.",
       "Global Pop & R&B ile Viral/Yeniden Yükselen bölümlerinde bugün ilk kez doğrulanan, sitede bulunmayan güçlü bir çeviri adayı tespit edilmedi.",
-      "K-pop tarafında ZEROBASEONE'un Japonya ikinci EP'si 回帰LOVE ile BIGBANG'in BiiiG single'ı yayımlandı. AtHeart — 3!4! için 19 Ağustos 18.00 KST takvimi açıklandı; BOYNEXTDOOR'un Japonca dijital single'ı ise 18 Ağustos'ta yayımlandı.",
+      "K-pop tarafında ZEROBASEONE'un Japonya ikinci EP'si 回帰LOVE ile BIGBANG'in BiiiG single'ı yayımlandı. BiiiG, 21 Ağustos 06.00 KST Melon görünümünde birinci sırada. AtHeart — 3!4! için 19 Ağustos 18.00 KST takvimi açıklandı; BOYNEXTDOOR'un Japonca dijital single'ı ise 18 Ağustos'ta yayımlandı.",
     ],
     sections: [
       {
@@ -146,6 +267,7 @@ export const popGundemiArticles = [
         body: [
           "BIGBANG'in yeni dijital single'ı BiiiG, 19 Ağustos'ta YG Entertainment etiketiyle yayımlandı. Parça, grubun 21 Ağustos'ta Goyang'da başlayacak XX : COSMOS dünya turnesinden iki gün önce dinleyiciyle buluştu.",
           "Şarkının Türkçe çevirisi; Korece bölümlerin Latin alfabeli okunuşu, kültürel ifade notları, resmî Spotify kaydı ve BIGBANG kanalındaki müzik videosuyla acupoflyrics arşivine eklendi.",
+          "21 Ağustos güncellemesi: BiiiG, Melon'un 06.00 KST görünümünde birinci sırada yer aldı. Bu sonuç ilk yayının devamı olduğu için ayrı bir gündem sayfası açılmadı; mevcut yazı ve çeviri bağlantısı güncellendi.",
         ],
       },
       {
@@ -172,7 +294,7 @@ export const popGundemiArticles = [
     ],
     memberStatus: [
       { name: "ZEROBASEONE — イグジステンス", status: "Çeviri bekliyor", detail: "19 Ağustos'ta yayımlandı; Japonca sözler için romanizasyon gerekli." },
-      { name: "BIGBANG — BiiiG", status: "Arşive eklendi", detail: "19 Ağustos'ta yayımlandı; Türkçe çeviri ve romanize okunuş yayında." },
+      { name: "BIGBANG — BiiiG", status: "Melon #1 · arşivde", detail: "21 Ağustos 06.00 KST görünümünde birinci; Türkçe çeviri ve romanize okunuş yayında." },
       { name: "AtHeart — 3!4!", status: "Bugün geliyor", detail: "19 Ağustos 18.00 KST için planlanan Roo'Ra yeniden yorumu; romanizasyon gerekli." },
       { name: "BOYNEXTDOOR — Boom Boom Boom", status: "Çeviri bekliyor", detail: "18 Ağustos'ta yayımlandı; Japonca sözler için romanizasyon gerekli." },
       { name: "Global Pop & R&B", status: "Yeni aday yok", detail: "Bugün ilk kez doğrulanan ve arşivde eksik güçlü bir aday bulunmadı." },
@@ -182,6 +304,8 @@ export const popGundemiArticles = [
       { name: "ZEROBASEONE Japonya resmi sitesi — 回帰LOVE yayın bilgisi", url: "https://cf.zerobaseone.jp/news/detail/1149" },
       { name: "Spotify — ZEROBASEONE 回帰LOVE", url: "https://open.spotify.com/album/19E8K5raOkxy6HNvntZwJv" },
       { name: "BIGBANG — BiiiG resmi yayın bağlantısı", url: "https://bio.to/ygbigbang-biiig" },
+      { name: "Melon — 21 Ağustos günlük görünümü", url: "https://smu.melon.com/index.htm" },
+      { name: "Kyunghyang Shinmun — BiiiG Kore listelerindeki ilk sonuçlar", url: "https://www.khan.co.kr/en/article/202608201333007" },
       { name: "YG Entertainment — BIGBANG XX : COSMOS turnesi", url: "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html" },
       { name: "TITAN CONTENT — AtHeart 3!4! duyurusu", url: "https://prtimes.jp/main/html/rd/p/000000011.000184970.html" },
       { name: "Soompi — BOYNEXTDOOR Japonca single takvimi", url: "https://www.soompi.com/article/1859402wpp/boynextdoor-announces-comeback-dates-for-repackaged-album-and-new-japanese-single" },
@@ -190,7 +314,7 @@ export const popGundemiArticles = [
       { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
     ],
     storyShare:
-      "19 Ağustos müzik gündemi: ZEROBASEONE — イグジステンス, BOYNEXTDOOR — Boom Boom Boom ve BIGBANG — BiiiG yayımlandı; BiiiG çevirisi romanize okunuşuyla arşive eklendi.",
+      "19 Ağustos müzik gündemi, 21 Ağustos güncellemesi: BIGBANG — BiiiG yayımlandı, çeviri arşivine eklendi ve Melon görünümünde birinci sıraya çıktı.",
   },
   {
     slug: "18-agustos-2026-muzik-gundemi",

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "lists": [
     {
       "id": "billboard-hot-100",
       "name": "Billboard Hot 100",
       "description": "ABD'nin en popüler şarkıları",
       "period": "Haftalık",
-      "updated": "2026-08-20",
+      "updated": "2026-08-22",
       "sourceUrl": "https://www.billboard.com/charts/hot-100/",
       "icon": "note",
       "entries": [
@@ -107,7 +107,7 @@
       "name": "Billboard 200",
       "description": "En çok satan albümler",
       "period": "Haftalık",
-      "updated": "2026-08-19",
+      "updated": "2026-08-22",
       "sourceUrl": "https://www.billboard.com/charts/billboard-200/",
       "icon": "disc",
       "entries": [
@@ -188,17 +188,12 @@
       "name": "Circle Chart (Gaon)",
       "description": "Güney Kore'nin resmi müzik listesi",
       "period": "Günlük",
-      "updated": "2026-08-19",
+      "updated": "2026-08-18",
       "sourceUrl": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
       "icon": "sparkle",
       "entries": [
         {
           "rank": 1,
-          "title": "SWIM",
-          "artist": "방탄소년단"
-        },
-        {
-          "rank": 2,
           "title": "Golden",
           "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
           "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
@@ -207,7 +202,21 @@
           "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
         },
         {
+          "rank": 2,
+          "title": "SWIM",
+          "artist": "방탄소년단"
+        },
+        {
           "rank": 3,
+          "title": "BAD",
+          "artist": "ATEEZ (에이티즈)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
+          "spotifyUrl": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
+          "album": "GOLDEN HOUR : Part.5",
+          "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
+        },
+        {
+          "rank": 4,
           "title": "APT.",
           "artist": "로제 (ROSE), Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
@@ -216,7 +225,7 @@
           "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "REDRED",
           "artist": "CORTIS (코르티스)",
           "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
@@ -225,18 +234,9 @@
           "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "It`s Me",
           "artist": "아일릿(ILLIT)"
-        },
-        {
-          "rank": 6,
-          "title": "BAD",
-          "artist": "ATEEZ (에이티즈)",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
-          "spotifyUrl": "https://open.spotify.com/track/55UDXtbNJBAdTdUdbRu8T3",
-          "album": "GOLDEN HOUR : Part.5",
-          "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
         },
         {
           "rank": 7,
@@ -249,22 +249,22 @@
         },
         {
           "rank": 8,
-          "title": "NORMAL (Explicit Ver.)",
-          "artist": "방탄소년단"
+          "title": "LEMONADE",
+          "artist": "aespa"
         },
         {
           "rank": 9,
+          "title": "Less than a Lover",
+          "artist": "제니 (JENNIE)"
+        },
+        {
+          "rank": 10,
           "title": "This & That",
           "artist": "Stray Kids (스트레이 키즈)",
           "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
           "spotifyUrl": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa",
           "album": "THIS & THAT",
           "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy"
-        },
-        {
-          "rank": 10,
-          "title": "Less than a Lover",
-          "artist": "제니 (JENNIE)"
         }
       ]
     },
@@ -273,7 +273,7 @@
       "name": "Apple Music Top 100",
       "description": "Global Apple Music listesi",
       "period": "Günlük",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "sourceUrl": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
       "icon": "headphones",
       "entries": [
@@ -324,12 +324,8 @@
         },
         {
           "rank": 6,
-          "title": "Reap What You Sow",
-          "artist": "Pooh Shiesty",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2733bfa7efeb2685f73675cade4",
-          "spotifyUrl": "https://open.spotify.com/track/02FWtiqTvM6eYZPd9NEmsM",
-          "album": "All Eyes on Shiest",
-          "albumUrl": "https://open.spotify.com/album/5bSBopVXXVyJlVCL5Lv7LI"
+          "title": "BbY WOW",
+          "artist": "KAROL G, rusowsky & Judeline"
         },
         {
           "rank": 7,
@@ -342,30 +338,22 @@
         },
         {
           "rank": 8,
-          "title": "Last Man Breathin",
-          "artist": "Pooh Shiesty",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273024997048de19d029b16929b",
-          "spotifyUrl": "https://open.spotify.com/track/0yr6Sa2SLF4g6PTT3T3UkL",
-          "album": "Last Man Breathin",
-          "albumUrl": "https://open.spotify.com/album/4xvAitL2IE5n0p4dLRQmv8"
+          "title": "stupid song",
+          "artist": "Olivia Rodrigo"
         },
         {
           "rank": 9,
-          "title": "Boston",
-          "artist": "STELLA LEFTY",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
-          "spotifyUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
-          "album": "Boston",
-          "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
+          "title": "hate that i made you love me",
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
+          "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
+          "album": "hate that i made you love me",
+          "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
           "rank": 10,
-          "title": "Don't We",
-          "artist": "Morgan Wallen",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
-          "spotifyUrl": "https://open.spotify.com/track/45UDzIWgqj5hgQKXLlfdp7",
-          "album": "I’m The Problem",
-          "albumUrl": "https://open.spotify.com/album/1o844O5I0qVpZKiePtIGcF"
+          "title": "Freestyle",
+          "artist": "Lil Baby"
         }
       ]
     },
@@ -389,6 +377,15 @@
         },
         {
           "rank": 2,
+          "title": "Earrings",
+          "artist": "Malcolm Todd",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+          "album": "Sweet Boy",
+          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
+        },
+        {
+          "rank": 3,
           "title": "Dai Dai",
           "artist": "Shakira & Burna Boy",
           "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
@@ -397,22 +394,13 @@
           "albumUrl": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Beauty And A Beat",
           "artist": "Justin Bieber & Nicki Minaj",
           "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
           "spotifyUrl": "https://open.spotify.com/track/190jyVPHYjAqEaOGmMzdyk",
           "album": "Believe (Deluxe Edition)",
           "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
-        },
-        {
-          "rank": 4,
-          "title": "Earrings",
-          "artist": "Malcolm Todd",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
-          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
-          "album": "Sweet Boy",
-          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         },
         {
           "rank": 5,
@@ -425,15 +413,6 @@
         },
         {
           "rank": 6,
-          "title": "The One That Got Away",
-          "artist": "Katy Perry",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273cad6c17cb5ac86ae94faf284",
-          "spotifyUrl": "https://open.spotify.com/track/2k3MdyqMHmfZubFg3pmtby",
-          "album": "Teenage Dream",
-          "albumUrl": "https://open.spotify.com/album/6xfXgolXzcKzk77P3b3MeZ"
-        },
-        {
-          "rank": 7,
           "title": "hate that i made you love me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -442,16 +421,16 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 8,
-          "title": "Babydoll",
-          "artist": "Dominic Fike",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
-          "album": "Don't Forget About Me, Demos",
-          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
+          "rank": 7,
+          "title": "The One That Got Away",
+          "artist": "Katy Perry",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273cad6c17cb5ac86ae94faf284",
+          "spotifyUrl": "https://open.spotify.com/track/2k3MdyqMHmfZubFg3pmtby",
+          "album": "Teenage Dream",
+          "albumUrl": "https://open.spotify.com/album/6xfXgolXzcKzk77P3b3MeZ"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "SWIM",
           "artist": "BTS",
           "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
@@ -460,13 +439,18 @@
           "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
         },
         {
+          "rank": 9,
+          "title": "Babydoll",
+          "artist": "Dominic Fike",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+          "album": "Don't Forget About Me, Demos",
+          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
+        },
+        {
           "rank": 10,
-          "title": "Animal",
-          "artist": "KATSEYE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2739e8d48f27391ce383862b8e8",
-          "spotifyUrl": "https://open.spotify.com/track/3ouNEk0tv5TTi8VWMe1xbX",
-          "album": "Animal",
-          "albumUrl": "https://open.spotify.com/album/3ybCwWDhYDt2GYSCYFiF83"
+          "title": "the cure",
+          "artist": "Olivia Rodrigo"
         }
       ]
     }
