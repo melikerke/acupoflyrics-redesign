@@ -1,5 +1,982 @@
 [
   {
+    "id": "5240",
+    "title": "Taylor Swift My Boy Only Breaks His Favorite Toys Türkçe Çeviri",
+    "song": "My Boy Only Breaks His Favorite Toys",
+    "slug": "taylor-swift-my-boy-only-breaks-his-favorite-toys-turkce-ceviri",
+    "date": "2026-08-21T07:19:34.535Z",
+    "artist": "Taylor Swift",
+    "categories": [
+      "Taylor Swift",
+      "THE TORTURED POETS DEPARTMENT"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-tortured-poets-department"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Oh, here we go again",
+          "The voices in his head",
+          "Called the rain to end our days of wild",
+          "The sickest army doll",
+          "Purchased at the mall",
+          "Rivulets descend my plastic smile"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Oh, işte yine başlıyoruz...",
+          "Zihnindeki o sesler,",
+          "Vahşi günlerimizi bitirmek için yağmuru çağırdı.",
+          "Şu meşhur \"asker bebeklerden\" biriydim sadece;",
+          "AVM'den satın alınmış...",
+          "Plastik gülüşümden aşağı yaşlar süzülüyor şimdi."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "But you should've seen him when he first got me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ama beni ilk aldığındaki halini bir görmeliydiniz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "My boy only breaks his favorite toys, toys, oh",
+          "I'm queen of sand castles he destroys, oh, oh",
+          "'Cause it fit too right, puzzle pieces in the dead of night",
+          "I should've known it was a matter of time, oh, oh",
+          "My boy only breaks his favorite toys, oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Benim sevgilim sadece en sevdiği oyuncaklarını kırar, oyuncaklarını, ah",
+          "Onun yıktığı kumdan kalelerin kraliçesiyim, ah, ah",
+          "Çünkü her şey çok doğruydu; gecenin köründe birleşen yapboz parçaları gibi",
+          "Bunun sadece bir zaman meselesi olduğunu anlamalıydım, ah, ah",
+          "Benim sevgilim sadece en sevdiği oyuncaklarını kırar, ah, ah"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "There was a litany of reasons why",
+          "We could've played for keeps this time",
+          "I know I'm just repeating myself",
+          "Put me back on my shelf",
+          "But first, pull the string",
+          "And I'll tell you that he runs",
+          "Because he loves me (He loves me)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Aslında bir yığın sebebimiz vardı;",
+          "Bu kez ömürlük oynamak için.",
+          "Biliyorum, kendimi tekrarlayıp duruyorum;",
+          "Hadi, geri koyun beni rafıma...",
+          "Ama önce, şu ipimi bir çekin;",
+          "Size onun benden kaçtığını söyleyeyim",
+          "Çünkü beni seviyor (Beni seviyor)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "'Cause you should've seen him when he first saw me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çünkü beni ilk gördüğündeki o halini görmeliydiniz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "My boy (My boy), only breaks his favorite toys, toys, oh",
+          "I'm queen (I'm queen), of sand castles he destroys, oh, oh",
+          "'Cause I knew too much, there was danger in the heat of my touch",
+          "He saw forever, so he smashed it up, oh, oh",
+          "My boy (My boy), only breaks his favorite toys, oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Benim sevgilim (Benim sevgilim) sadece en sevdiği oyuncaklarını kırar, oyuncaklarını, ah",
+          "Onun yıktığı kumdan kalelerin kraliçesiyim (kraliçesiyim), ah, ah",
+          "Çünkü çok fazla şey biliyordum; dokunuşumun hararetinde bir tehlike vardı",
+          "O sonsuzluğu gördü ve bu yüzden her şeyi parçaladı, ah, ah",
+          "Benim sevgilim (Benim sevgilim) sadece en sevdiği oyuncaklarını kırar, ah, ah"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "(Oh-oh-oh, oh-oh-oh) Once I fix me",
+          "(Oh-oh-oh, oh-oh-oh) He's gonna miss me",
+          "(Oh-oh-oh, oh-oh-oh) Once I fix me",
+          "(Oh-oh-oh, oh-oh-oh) He's gonna miss me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "(Ah-ah-ah, ah-ah-ah) Kendimi bir onarsam",
+          "(Ah-ah-ah, ah-ah-ah) Beni özleyecek",
+          "(Ah-ah-ah, ah-ah-ah) Kendimi bir onarsam",
+          "(Ah-ah-ah, ah-ah-ah) Beni özleyecek"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Just say when, I'd play again",
+          "He was my best friend down at the sandlot",
+          "I felt more when we played pretend",
+          "Than with all the Kens",
+          "'Cause he took me out of my box",
+          "Stole my tortured heart",
+          "Left all these broken parts",
+          "Told me I'm better off",
+          "But I'm not",
+          "I'm not, I'm not"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Bir işaret ver yeter, yine oynardım",
+          "O kum sahadaki en yakın arkadaşımdı",
+          "Rol yaptığımızda daha fazlasını hissettim",
+          "Bütün o Ken'lerle olduğumdan",
+          "Çünkü beni kutumdan o çıkardı",
+          "İşkence görmüş kalbimi çaldı",
+          "Bütün bu kırık parçaları geride bıraktı",
+          "Böylesinin benim için daha iyi olduğunu söyledi",
+          "Ama değil",
+          "Değilim, değilim"
+        ]
+      }
+    ],
+    "excerpt": "Oh, here we go again",
+    "annotations": {
+      "asker bebeklerden": "“Sickest army doll” ifadesi hem en havalı hem de en yaralı asker bebeği çağrıştırıyor; anlatıcı kendisini satın alınmış bir nesne gibi konumluyor.",
+      "ömürlük oynamak": "“Play for keeps”, oyunu geçici bir eğlence değil ciddi ve kalıcı bir bağ olarak oynamayı anlatıyor.",
+      "ipimi bir çekin": "Konuşan oyuncakların arkasındaki ipe gönderme yapıyor; anlatıcı aynı bahaneyi otomatikleşmiş bir oyuncak gibi tekrarlıyor.",
+      "bütün o Ken'lerle olduğumdan": "Ken, Barbie'nin kusursuz görünen partner arketipine gönderme yapıyor; anlatıcı diğer ilişkilerden daha yoğun hissettiren kişiyi bununla karşılaştırıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2XXwLdtuAcE0HSCu61ijAb",
+        "name": "My Boy Only Breaks His Favorite Toys",
+        "url": "https://open.spotify.com/track/2XXwLdtuAcE0HSCu61ijAb",
+        "isrc": "USUG12401030",
+        "durationMs": 203801,
+        "duration": "3:24",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "1Mo4aZ8pdj6L1jx8zSwJnt",
+        "name": "THE TORTURED POETS DEPARTMENT",
+        "url": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2024-04-18",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2024 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2024 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "2OzhQlSqBEmt7hmkYxfT6m",
+            "name": "Fortnight (feat. Post Malone)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 228965,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m",
+            "isCurrent": false
+          },
+          {
+            "id": "3NMrVbIVWT3fPXBj0rNDKG",
+            "name": "The Tortured Poets Department",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 293048,
+            "duration": "4:53",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3NMrVbIVWT3fPXBj0rNDKG",
+            "isCurrent": false
+          },
+          {
+            "id": "2XXwLdtuAcE0HSCu61ijAb",
+            "name": "My Boy Only Breaks His Favorite Toys",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 203801,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2XXwLdtuAcE0HSCu61ijAb",
+            "isCurrent": true
+          },
+          {
+            "id": "2F3N9tdombb64aW6VtZOdo",
+            "name": "Down Bad",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 261228,
+            "duration": "4:21",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2F3N9tdombb64aW6VtZOdo",
+            "isCurrent": false
+          },
+          {
+            "id": "3Vevii7qKqrmW8CcyzBHDl",
+            "name": "So Long, London",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 262974,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3Vevii7qKqrmW8CcyzBHDl",
+            "isCurrent": false
+          },
+          {
+            "id": "5og4Qzt92jJzVDkOtSEilb",
+            "name": "But Daddy I Love Him",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 340428,
+            "duration": "5:40",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5og4Qzt92jJzVDkOtSEilb",
+            "isCurrent": false
+          },
+          {
+            "id": "3fO566xJgwxIa3qGCGBvIC",
+            "name": "Fresh Out The Slammer",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 210789,
+            "duration": "3:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3fO566xJgwxIa3qGCGBvIC",
+            "isCurrent": false
+          },
+          {
+            "id": "3ZVFcD8Wlw9T9klGqmJf9F",
+            "name": "Florida!!! (feat. Florence + The Machine)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 215463,
+            "duration": "3:35",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3ZVFcD8Wlw9T9klGqmJf9F",
+            "isCurrent": false
+          },
+          {
+            "id": "0W0iAC1VGlB82PI6elxFYf",
+            "name": "Guilty as Sin?",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 254365,
+            "duration": "4:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0W0iAC1VGlB82PI6elxFYf",
+            "isCurrent": false
+          },
+          {
+            "id": "36t6frENUtCYKuZus6aYDO",
+            "name": "Who’s Afraid of Little Old Me?",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 334084,
+            "duration": "5:34",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/36t6frENUtCYKuZus6aYDO",
+            "isCurrent": false
+          },
+          {
+            "id": "2h3MDMf8sd9s4XIzpTBIjX",
+            "name": "I Can Fix Him (No Really I Can)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 156297,
+            "duration": "2:36",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2h3MDMf8sd9s4XIzpTBIjX",
+            "isCurrent": false
+          },
+          {
+            "id": "6RSG1dKPV5gEvILwJb4QtS",
+            "name": "loml",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 277156,
+            "duration": "4:37",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6RSG1dKPV5gEvILwJb4QtS",
+            "isCurrent": false
+          },
+          {
+            "id": "4q5YezDOIPcoLr8R81x9qy",
+            "name": "I Can Do It With a Broken Heart",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 218004,
+            "duration": "3:38",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4q5YezDOIPcoLr8R81x9qy",
+            "isCurrent": false
+          },
+          {
+            "id": "2v1ivOOsgn64g5OywuH55L",
+            "name": "The Smallest Man Who Ever Lived",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 245541,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2v1ivOOsgn64g5OywuH55L",
+            "isCurrent": false
+          },
+          {
+            "id": "1dhMTsEZz6ZEquGvmzVoHn",
+            "name": "The Alchemy",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 196900,
+            "duration": "3:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1dhMTsEZz6ZEquGvmzVoHn",
+            "isCurrent": false
+          },
+          {
+            "id": "1UlhrRvYzbHEyugEDspXUB",
+            "name": "Clara Bow",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 216662,
+            "duration": "3:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1UlhrRvYzbHEyugEDspXUB",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-21T07:19:33.805Z",
+      "trackUrl": "https://open.spotify.com/track/2XXwLdtuAcE0HSCu61ijAb",
+      "albumUrl": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "THE TORTURED POETS DEPARTMENT",
+      "albumType": "Album",
+      "releaseDate": "2024-04-18",
+      "duration": "3:24",
+      "isrc": "USUG12401030",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=wRKXAAV6jh4",
+    "source": "ai-studio-spotify"
+  },
+  {
+    "id": "5239",
+    "title": "Taylor Swift Who’s Afraid of Little Old Me? Türkçe Çeviri",
+    "song": "Who’s Afraid of Little Old Me?",
+    "slug": "taylor-swift-who-s-afraid-of-little-old-me-turkce-ceviri",
+    "date": "2026-08-21T07:18:14.926Z",
+    "artist": "Taylor Swift",
+    "categories": [
+      "Taylor Swift",
+      "THE TORTURED POETS DEPARTMENT"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-tortured-poets-department"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "The who's who of \"Who's that?\" is poised for the attack",
+          "But my bare hands paved their paths",
+          "You don't get to tell me about \"sad\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Daha düne kadar \"Kim bu?\" denilen o sözde asiller, şimdi saldırıya hazır bekliyor;",
+          "Oysa onların yollarını kendi çıplak ellerimle ben açtım.",
+          "O yüzden bana sakın \"hüzün\"den falan bahsetmeye kalkmayın!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "If you wanted me dead, you should've just said",
+          "Nothing makes me feel more alive"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Eğer ölmemi isteseydiniz, bunu yüzüme söylemeliydiniz;",
+          "Çünkü hiçbir şey beni şu anki kadar canlı hissettiremezdi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "So I leap from the gallows and I levitate down your street",
+          "Crash the party like a record scratch as I scream",
+          "\"Who's afraid of little old me?\"",
+          "You should be"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "İşte bu yüzden, o darağacından atlayıp sokağınızda süzülüyorum;",
+          "Plağın cızırtı sesi gibi dalıyorum partinize ve haykırıyorum:",
+          "\"Kim korkar benim gibi birinden?\"",
+          "Aslında korkmalısınız!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "The scandal was contained",
+          "The bullet had just grazed",
+          "At all costs, keep your good name",
+          "You don't get to tell me you feel bad"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Skandal kontrol altına alındı;",
+          "Kurşun sadece sıyırıp geçmişti zaten...",
+          "Ne pahasına olursa olsun, o \"temiz adınızı\" koruyun bakalım;",
+          "Bana gelip de \"kendimi kötü hissediyorum\" deme hakkınız yok sizin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Is it a wonder I broke? Let's hear one more joke",
+          "Then we could all just laugh until I cry"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kırılıp dökülmeme şaşırdınız mı? Hadi, bir şaka daha yapın bakalım;",
+          "Sonra ben ağlayana dek, hep birlikte gülersiniz bana..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "So I leap from the gallows and I levitate down your street",
+          "Crash the party like a record scratch as I scream",
+          "\"Who's afraid of little old me?\"",
+          "I was tame, I was gentle 'til the circus life made me mean",
+          "\"Don't you worry, folks, we took out all her teeth\"",
+          "Who's afraid of little old me?",
+          "Well, you should be"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "O darağacından atlayıp sokağınızda süzülüyorum;",
+          "Plağın cızırtısı gibi partinize dalıp haykırıyorum:",
+          "\"Kim korkar benim gibi birinden?\"",
+          "Uysaldım ben, nazik biriydim; ta ki şu \"sirk hayatı\" beni hırçınlaştırana dek...",
+          "\"Merak etmeyin millet, tüm dişlerini söktük onun!\" dediniz;",
+          "Kim korkar benim gibi birinden?",
+          "Eh, korksanız iyi olur!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "(You should be) You should be",
+          "(You should be) You should be",
+          "You should be (You should be)",
+          "You should be (You should be)",
+          "You should be"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Korkmalısınız) Korkmalısınız",
+          "(Korkmalısınız) Korkmalısınız",
+          "Korkmalısınız (Korkmalısınız)",
+          "Korkmalısınız (Korkmalısınız)",
+          "Korkmalısınız"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "So tell me everything is not about me",
+          "But what if it is?",
+          "Then say they didn't do it to hurt me",
+          "But what if they did?",
+          "I wanna snarl and show you just how disturbed this has made me",
+          "You wouldn't last an hour in the asylum where they raised me",
+          "So all you kids can sneak into my house with all the cobwebs",
+          "I'm always drunk on my own tears, isn't that what they all said?",
+          "That I'll sue you if you step on my lawn",
+          "That I'm fearsome and I'm wretched and I'm wrong",
+          "Put narcotics into all of my songs",
+          "And that's why you're still singin' along"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Şimdi anlatın bana; her şey benimle ilgili değilmiş güya...",
+          "Ya öyleyse?",
+          "Peki ya beni incitmek için yapmamışlar güya;",
+          "Ya öyleyse?",
+          "Şöyle bir hırlayıp bu durumun beni ne kadar mahvettiğini göstermek istiyorum size!",
+          "Beni yetiştirdikleri o tımarhanede bir saat bile dayanamazdınız siz;",
+          "O yüzden siz çocuklar, örümcek ağlarıyla dolu şu evime gizlice sızabilirsiniz...",
+          "Kendi gözyaşlarımla sarhoş oluyormuşum güya; herkes böyle demiyor muydu zaten?",
+          "\"Eğer bahçeme adım atarsanız sizi dava ederim\" diyormuşum;",
+          "\"Korkutucuymuşum, zavallıymışım ve hatalıymışım...\"",
+          "Tüm şarkılarıma \"uyuşturucu\" koydum ben;",
+          "İşte bu yüzden hala hep bir ağızdan bana eşlik ediyorsunuz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "So I leap from the gallows and I levitate down your street",
+          "Crash the party like a record scratch as I scream",
+          "\"Who's afraid of little old me?\"",
+          "I was tame, I was gentle 'til the circus life made me mean",
+          "\"Don't you worry, folks, we took out all her teeth\"",
+          "Who's afraid of little old me?",
+          "Well, you should be"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "O darağacından atlayıp sokağınızda süzülüyorum;",
+          "Plağın cızırtısı gibi partinize dalıp haykırıyorum:",
+          "\"Kim korkar benim gibi birinden?\"",
+          "Uysaldım, nazik biriydim; ta ki sirk hayatı beni hırçınlaştırana dek...",
+          "\"Korkmayın, dişlerini söktük!\" dediniz...",
+          "Kim korkar benim gibi birinden?",
+          "Eh, korksanız iyi olur!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "(You should be) You should be",
+          "(You should be) You should be",
+          "'Cause you lured me (You should be)",
+          "And you hurt me (You should be)",
+          "And you taught me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Korkmalısınız) Korkmalısınız",
+          "(Korkmalısınız) Korkmalısınız",
+          "Çünkü beni siz kışkırttınız (Korkmalısınız)",
+          "Ve beni siz incittiniz (Korkmalısınız)",
+          "Bana siz öğrettiniz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "You caged me and then you called me crazy",
+          "I am what I am 'cause you trained me",
+          "So who's afraid of me?",
+          "Who's afraid of little old me?",
+          "Who's afraid of little old me?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Beni kafese kapattınız ve sonra \"deli\" dediniz;",
+          "Ben neysem oyum artık, çünkü beni sen eğittin!",
+          "Sahi, kim korkar benden?",
+          "Kim korkar benim gibi birinden?",
+          "Kim korkar benim gibi birinden?"
+        ]
+      }
+    ],
+    "excerpt": "The who's who of \"Who's that?\" is poised for the attack",
+    "annotations": {
+      "darağacından atlayıp sokağınızda süzülüyorum": "Darağacı ve havada süzülme imgeleri, onu susturmak isteyenlerin elinden kurtulup hayalet ya da cadı gibi üzerlerinde yükselmesini anlatıyor.",
+      "tüm dişlerini söktük": "Sektörün güçlü bir kadını zararsız hâle getirdiğini sanmasını, dişleri sökülmüş bir hayvan imgesiyle anlatıyor.",
+      "beni yetiştirdikleri o tımarhanede": "Şöhretin ilk yıllarındaki yoğun baskıyı ve sürekli gözetlenmeyi bir tımarhanede büyütülmeye benzetiyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "36t6frENUtCYKuZus6aYDO",
+        "name": "Who’s Afraid of Little Old Me?",
+        "url": "https://open.spotify.com/track/36t6frENUtCYKuZus6aYDO",
+        "isrc": "USUG12401037",
+        "durationMs": 334084,
+        "duration": "5:34",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 10,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "1Mo4aZ8pdj6L1jx8zSwJnt",
+        "name": "THE TORTURED POETS DEPARTMENT",
+        "url": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2024-04-18",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2024 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2024 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "2OzhQlSqBEmt7hmkYxfT6m",
+            "name": "Fortnight (feat. Post Malone)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 228965,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m",
+            "isCurrent": false
+          },
+          {
+            "id": "3NMrVbIVWT3fPXBj0rNDKG",
+            "name": "The Tortured Poets Department",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 293048,
+            "duration": "4:53",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3NMrVbIVWT3fPXBj0rNDKG",
+            "isCurrent": false
+          },
+          {
+            "id": "2XXwLdtuAcE0HSCu61ijAb",
+            "name": "My Boy Only Breaks His Favorite Toys",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 203801,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2XXwLdtuAcE0HSCu61ijAb",
+            "isCurrent": false
+          },
+          {
+            "id": "2F3N9tdombb64aW6VtZOdo",
+            "name": "Down Bad",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 261228,
+            "duration": "4:21",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2F3N9tdombb64aW6VtZOdo",
+            "isCurrent": false
+          },
+          {
+            "id": "3Vevii7qKqrmW8CcyzBHDl",
+            "name": "So Long, London",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 262974,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3Vevii7qKqrmW8CcyzBHDl",
+            "isCurrent": false
+          },
+          {
+            "id": "5og4Qzt92jJzVDkOtSEilb",
+            "name": "But Daddy I Love Him",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 340428,
+            "duration": "5:40",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5og4Qzt92jJzVDkOtSEilb",
+            "isCurrent": false
+          },
+          {
+            "id": "3fO566xJgwxIa3qGCGBvIC",
+            "name": "Fresh Out The Slammer",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 210789,
+            "duration": "3:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3fO566xJgwxIa3qGCGBvIC",
+            "isCurrent": false
+          },
+          {
+            "id": "3ZVFcD8Wlw9T9klGqmJf9F",
+            "name": "Florida!!! (feat. Florence + The Machine)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 215463,
+            "duration": "3:35",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3ZVFcD8Wlw9T9klGqmJf9F",
+            "isCurrent": false
+          },
+          {
+            "id": "0W0iAC1VGlB82PI6elxFYf",
+            "name": "Guilty as Sin?",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 254365,
+            "duration": "4:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0W0iAC1VGlB82PI6elxFYf",
+            "isCurrent": false
+          },
+          {
+            "id": "36t6frENUtCYKuZus6aYDO",
+            "name": "Who’s Afraid of Little Old Me?",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 334084,
+            "duration": "5:34",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/36t6frENUtCYKuZus6aYDO",
+            "isCurrent": true
+          },
+          {
+            "id": "2h3MDMf8sd9s4XIzpTBIjX",
+            "name": "I Can Fix Him (No Really I Can)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 156297,
+            "duration": "2:36",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2h3MDMf8sd9s4XIzpTBIjX",
+            "isCurrent": false
+          },
+          {
+            "id": "6RSG1dKPV5gEvILwJb4QtS",
+            "name": "loml",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 277156,
+            "duration": "4:37",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6RSG1dKPV5gEvILwJb4QtS",
+            "isCurrent": false
+          },
+          {
+            "id": "4q5YezDOIPcoLr8R81x9qy",
+            "name": "I Can Do It With a Broken Heart",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 218004,
+            "duration": "3:38",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4q5YezDOIPcoLr8R81x9qy",
+            "isCurrent": false
+          },
+          {
+            "id": "2v1ivOOsgn64g5OywuH55L",
+            "name": "The Smallest Man Who Ever Lived",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 245541,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2v1ivOOsgn64g5OywuH55L",
+            "isCurrent": false
+          },
+          {
+            "id": "1dhMTsEZz6ZEquGvmzVoHn",
+            "name": "The Alchemy",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 196900,
+            "duration": "3:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1dhMTsEZz6ZEquGvmzVoHn",
+            "isCurrent": false
+          },
+          {
+            "id": "1UlhrRvYzbHEyugEDspXUB",
+            "name": "Clara Bow",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 216662,
+            "duration": "3:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1UlhrRvYzbHEyugEDspXUB",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-21T07:19:20.732Z",
+      "trackUrl": "https://open.spotify.com/track/36t6frENUtCYKuZus6aYDO",
+      "albumUrl": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "THE TORTURED POETS DEPARTMENT",
+      "albumType": "Album",
+      "releaseDate": "2024-04-18",
+      "duration": "5:34",
+      "isrc": "USUG12401037",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=vOZFiX6hDXQ",
+    "source": "ai-studio-spotify"
+  },
+  {
     "id": "5238",
     "title": "BIGBANG BiiiG Türkçe Çeviri",
     "song": "BiiiG",

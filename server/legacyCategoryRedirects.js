@@ -435,7 +435,7 @@ export const legacyCategoryRedirects = {
   "the-outlaw-cherie-lee-other-western-tales": "/album/shaboozey-the-outlaw-cherie-lee-other-western-tales",
   "the-romantic": "/album/bruno-mars-the-romantic",
   "the-sin-vanish": "/album/enhypen-the-sin-vanish",
-  "the-tortured-poets-department": "/discover",
+  "the-tortured-poets-department": "/album/taylor-swift-the-tortured-poets-department",
   "the-very-best-of-bonnie-tyler": "/album/bonnie-tyler-the-very-best-of-bonnie-tyler",
   "the-weeknd": "/artist/the-weeknd",
   "the-world-ep-2-outlaw": "/album/ateez-the-world-ep-2-outlaw",

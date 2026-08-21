@@ -88,6 +88,9 @@ export default function MusicListsPage() {
           <div>
             <h2 style={{ margin: 0 }}>{active.name}</h2>
             <p style={{ margin: "4px 0 0", fontSize: 13, color: "var(--acl-muted, #666)" }}>{active.description}</p>
+            <p style={{ margin: "4px 0 0", fontSize: 12, color: "var(--acl-faint, #999)" }}>
+              Ölçüm: {active.period || "Güncel sıralama"} · Veri tarihi: {formatDate(active.updated || listsData.updated)}
+            </p>
           </div>
           <a href={active.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, display: "inline-flex", alignItems: "center", gap: 6 }}>
             Resmi listeye git <Icon name="arrow" size={14} />
@@ -131,7 +134,7 @@ export default function MusicListsPage() {
         </div>
 
         <p style={{ marginTop: 22, fontSize: 12, color: "var(--acl-faint, #999)" }}>
-          Listeler kaynaklardan otomatik güncellenir · Son güncelleme: {formatDate(listsData.updated)}
+          Her listenin veri tarihi kendi kaynağına göre ayrı tutulur. Son başarılı kontrol: {formatDate(listsData.updated)}
         </p>
       </section>
     </SiteShell>

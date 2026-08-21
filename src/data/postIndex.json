@@ -1,5 +1,101 @@
 [
   {
+    "id": "5240",
+    "slug": "taylor-swift-my-boy-only-breaks-his-favorite-toys-turkce-ceviri",
+    "title": "Taylor Swift My Boy Only Breaks His Favorite Toys Türkçe Çeviri",
+    "song": "My Boy Only Breaks His Favorite Toys",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "date": "2026-08-21T07:19:34.535Z",
+    "reading_time": 3,
+    "excerpt": "Oh, here we go again",
+    "categories": [
+      "Taylor Swift",
+      "THE TORTURED POETS DEPARTMENT"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-tortured-poets-department"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2XXwLdtuAcE0HSCu61ijAb",
+      "albumUrl": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "THE TORTURED POETS DEPARTMENT",
+      "releaseDate": "2024-04-18",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+      "duration": "3:24",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Love",
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "Oh, here we go again",
+      "tr": "Oh, işte yine başlıyoruz..."
+    },
+    "heroPair": {
+      "en": "My boy only breaks his favorite toys, toys, oh",
+      "tr": "Benim sevgilim sadece en sevdiği oyuncaklarını kırar, oyuncaklarını, ah"
+    }
+  },
+  {
+    "id": "5239",
+    "slug": "taylor-swift-who-s-afraid-of-little-old-me-turkce-ceviri",
+    "title": "Taylor Swift Who’s Afraid of Little Old Me? Türkçe Çeviri",
+    "song": "Who’s Afraid of Little Old Me?",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+    "date": "2026-08-21T07:18:14.926Z",
+    "reading_time": 4,
+    "excerpt": "The who's who of \"Who's that?\" is poised for the attack",
+    "categories": [
+      "Taylor Swift",
+      "THE TORTURED POETS DEPARTMENT"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-tortured-poets-department"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/36t6frENUtCYKuZus6aYDO",
+      "albumUrl": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "THE TORTURED POETS DEPARTMENT",
+      "releaseDate": "2024-04-18",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+      "duration": "5:34",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 10,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Party",
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "The who's who of \"Who's that?\" is poised for the attack",
+      "tr": "Daha düne kadar \"Kim bu?\" denilen o sözde asiller, şimdi saldırıya hazır bekliyor;"
+    },
+    "heroPair": {
+      "en": "\"Who's afraid of little old me?\"",
+      "tr": "\"Kim korkar benim gibi birinden?\""
+    }
+  },
+  {
     "id": "5238",
     "slug": "bigbang-biiig-turkce-ceviri",
     "title": "BIGBANG BiiiG Türkçe Çeviri",

@@ -1,10 +1,12 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "lists": [
     {
       "id": "billboard-hot-100",
       "name": "Billboard Hot 100",
       "description": "ABD'nin en popüler şarkıları",
+      "period": "Haftalık",
+      "updated": "2026-08-20",
       "sourceUrl": "https://www.billboard.com/charts/hot-100/",
       "icon": "note",
       "entries": [
@@ -104,6 +106,8 @@
       "id": "billboard-200",
       "name": "Billboard 200",
       "description": "En çok satan albümler",
+      "period": "Haftalık",
+      "updated": "2026-08-19",
       "sourceUrl": "https://www.billboard.com/charts/billboard-200/",
       "icon": "disc",
       "entries": [
@@ -183,6 +187,8 @@
       "id": "circle-chart",
       "name": "Circle Chart (Gaon)",
       "description": "Güney Kore'nin resmi müzik listesi",
+      "period": "Günlük",
+      "updated": "2026-08-19",
       "sourceUrl": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
       "icon": "sparkle",
       "entries": [
@@ -266,6 +272,8 @@
       "id": "apple-music-top-100",
       "name": "Apple Music Top 100",
       "description": "Global Apple Music listesi",
+      "period": "Günlük",
+      "updated": "2026-08-19",
       "sourceUrl": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
       "icon": "headphones",
       "entries": [
@@ -365,6 +373,8 @@
       "id": "spotify-global-50",
       "name": "Spotify Global Top 50",
       "description": "Dünya genelinde en çok dinlenenler",
+      "period": "Günlük",
+      "updated": "2026-08-19",
       "sourceUrl": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
       "icon": "headphones",
       "entries": [

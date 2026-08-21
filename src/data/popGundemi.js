@@ -1,5 +1,98 @@
 export const popGundemiArticles = [
   {
+    slug: "20-agustos-2026-muzik-gundemi",
+    title: "20 Ağustos müzik gündemi: Tiffany Young'ın ilk albümü ve JENNIE'nin yeni EP hazırlığı",
+    shortTitle: "20 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-20",
+    updatedAt: "2026-08-20T11:10:00+03:00",
+    readTime: "4 dk",
+    image: "https://images.khan.co.kr/article/2026/08/06/news-p.v1.20260806.939124a4cfa34823817880c97706379a_P1.jpg",
+    imageAlt: "Tiffany Young Edge of Calm albümünün tanıtım görselinde",
+    imageCredit: "Pacific Music Group",
+    imageSource: "https://sports.khan.co.kr/en/article/202608062107007",
+    accent: "#8191a5",
+    excerpt:
+      "Tiffany Young'ın ilk solo stüdyo albümü Edge of Calm, 20 Ağustos 18.00 KST için planlandı. JENNIE'nin ajansı ise sanatçının ağustos sonunda yayımlanması hedeflenen yeni bir EP üzerinde çalıştığını doğruladı.",
+    dek:
+      "Bugünün liste ve yayın kontrolünde önceki adaylar tekrar edilmedi. Billboard Hot 100 görünümü yenilenirken erişilemeyen dört kaynağın son geçerli verisi korundu; yeni çeviri açığı yalnızca ilk kez raporlanan başlık şarkılarında oluştu.",
+    pullQuote:
+      "Edge of Calm ve Lips Together, Tiffany Young'ın 11 şarkılık ilk solo stüdyo albümünün iki başlık parçası.",
+    relatedTranslations: [
+      "jennie-less-than-a-lover-turkce-ceviri",
+      "jennie-like-jennie-turkce-ceviri",
+      "jennie-mantra-turkce-ceviri",
+      "tame-impala-jennie-dracula-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "20 Ağustos 2026 kontrolü",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Bugün planlandı", text: "Tiffany Young — Edge of Calm albümü ve başlık şarkısı klibi 20 Ağustos 18.00 KST'de yayımlanacak." },
+        { label: "Yeni açıklama", text: "OA Entertainment, JENNIE'nin ağustos sonu için hedeflenen yeni bir EP hazırladığını açıkladı; kesin gün ve tam parça listesi henüz duyurulmadı." },
+        { label: "Listeler", text: "Billboard Hot 100'ün son görünümü 20 Ağustos'ta yenilendi; diğer dört listenin 19 Ağustos tarihli geçerli verisi korundu." },
+      ],
+    },
+    summary: [
+      "Billboard Hot 100 haftalık listesinin 20 Ağustos'ta erişilen görünümü başarıyla yenilendi. İlk 10'daki şarkıların tamamının Türkçe çevirisi acupoflyrics arşivinde mevcut.",
+      "Billboard 200 haftalık listesi ile Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 günlük listelerine bu çalışmada yeniden erişilemedi. Boş veya kısmi veri yayımlanmadı; 19 Ağustos'ta doğrulanan son geçerli sıralamalar korundu.",
+      "Global Pop & R&B ve Viral/Yeniden Yükselen bölümlerinde bugün ilk kez doğrulanan, sitede bulunmayan güçlü bir şarkı adayı tespit edilmedi.",
+      "Tiffany Young'ın 11 şarkılık ilk solo stüdyo albümü Edge of Calm, 20 Ağustos 18.00 KST için planlandı. Edge of Calm ve MIYEON ortaklığı Lips Together çift başlık parçası olarak açıklandı.",
+      "OA Entertainment'ın 19 Ağustos tarihli açıklamasına göre JENNIE, ağustos sonunda yayımlanması hedeflenen yeni bir EP hazırlıyor. Kesin yayın günü ve tam parça listesi açıklanmadığı için canlı performanslarda duyulan yayımlanmamış şarkılar ayrı çeviri adayı olarak listelenmedi.",
+    ],
+    sections: [
+      {
+        heading: "Tiffany Young'ın ilk solo stüdyo albümü bugün geliyor",
+        body: [
+          "Pacific Music Group tarafından paylaşılan takvime göre Tiffany Young'ın ilk solo stüdyo albümü Edge of Calm, 20 Ağustos saat 18.00 KST'de dijital platformlarda yayımlanacak. Albümde toplam 11 şarkı bulunuyor; Edge of Calm ile (G)I-DLE üyesi MIYEON'ın eşlik ettiği Lips Together çift başlık parçası olarak belirlendi.",
+          "Albümün doğrulanan parça listesinde ayrıca Codes, Drip Drop, Halfway Honest, Moment, Come Call Me Yours, Lovers (feat. JUNNY), Summer's Not Over'ın iki sürümü ve Moonlit Rain yer alıyor. Edge of Calm ile Lips Together arşivde bulunmadığı için bugün ilk kez yüksek öncelikli çeviri adayı olarak raporlandı. Sözlerde Korece bölüm bulunması hâlinde Latin alfabeli romanizasyon da çeviriye eklenmeli.",
+        ],
+      },
+      {
+        heading: "JENNIE için ağustos sonu EP hedefi doğrulandı",
+        body: [
+          "JENNIE'nin ajansı OA Entertainment, 19 Ağustos'ta sanatçının ağustos sonunda yayımlanması hedeflenen yeni bir EP için hazırlıklarını sürdürdüğünü açıkladı. Açıklama bir hazırlık ve hedef takvimi niteliğinde; kesin yayın günü ile eksiksiz parça listesi henüz duyurulmadı.",
+          "Daha önce yayımlanan Less Than a Lover arşivde mevcut. Festival sahnelerinde seslendirilen yayımlanmamış şarkı adları basında yer alsa da resmî parça listesi gelmeden bunlar ayrı çeviri sayfası talebi olarak yazılmadı. Yeni EP'nin resmî duyurusu yayımlandığında mevcut gündem yazısı güncellenecek.",
+        ],
+      },
+      {
+        heading: "Müzik listelerinde yalnızca doğrulanan kaynak yenilendi",
+        body: [
+          "20 Ağustos sabahındaki otomatik kontrolde Billboard Hot 100 verisi başarıyla alındı. Haftalık listenin ilk 10'unda yer alan Choosin' Texas, I Knew It I Knew You, Been By Now, Boston, hate that i made you love me, I Can't Love You Anymore, So Easy (To Fall In Love), Dracula, Man I Need ve Be Her için Türkçe çeviri sayfaları arşivde bulunuyor.",
+          "Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 kaynakları bu çalışmada yanıt vermedi. Her biri farklı ölçüm düzenine sahip olduğu için güncelmiş gibi birleştirilmedi: Billboard 200 haftalık, diğer üç liste günlük yapıdadır ve 19 Ağustos'taki son doğrulanmış görünümleri korunmuştur.",
+        ],
+      },
+      {
+        heading: "Global ve viral bölümlerde yeni aday yok",
+        body: [
+          "Global pop, R&B, alternatif pop, dance-pop, Latin ve Afrobeats taramasında son 24–48 saat içinde yeni bir ana liste girişi, en az 10 basamaklık sıçrama veya doğrulanmış güçlü viral kırılmayla birlikte arşiv açığı oluşturan bir parça bulunmadı.",
+          "Önceki raporlarda yer alan ve listelerde kalmayı sürdüren şarkılar tekrar edilmedi. Yeni resmi yayın veya ölçülebilir bir sıçrama oluşana kadar mevcut çeviri sayfaları korunacak.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Tiffany Young — Edge of Calm", status: "Çeviri bekliyor", detail: "20 Ağustos 18.00 KST için planlanan çift başlık parçalarından biri." },
+      { name: "Tiffany Young feat. MIYEON — Lips Together", status: "Çeviri bekliyor", detail: "Albümün ikinci başlık parçası; Korece bölüm bulunursa romanizasyon gerekli." },
+      { name: "JENNIE — yeni EP", status: "Hazırlanıyor", detail: "Ağustos sonu hedefi açıklandı; kesin tarih ve tam parça listesi henüz açıklanmadı." },
+      { name: "Global Pop & R&B", status: "Yeni aday yok", detail: "Bugün ilk kez doğrulanan ve arşivde eksik güçlü bir aday bulunmadı." },
+      { name: "Viral/Yeniden Yükselen", status: "Yeni aday yok", detail: "Önceki adaylar yalnızca listede kalmaları nedeniyle tekrar edilmedi." },
+    ],
+    sources: [
+      { name: "Pacific Music Group kaynaklı Edge of Calm yayın ve albüm bilgisi", url: "https://sports.khan.co.kr/en/article/202608062107007" },
+      { name: "MAKESTAR — Edge of Calm tarih ve resmî parça listesi", url: "https://www.makestar.com/product/19604" },
+      { name: "Korea JoongAng Daily — Tiffany Young ilk solo stüdyo albümü", url: "https://www.koreajoongangdaily.com/entertainment/tiffany-young-sets-first-fulllength-solo-album-for-aug-20/12772551" },
+      { name: "OA Entertainment açıklamasını aktaran JENNIE EP haberi", url: "https://www.musicmundial.com/en/blackpinks-jennie-solo-music-project-releases-in-late-august/amp/" },
+      { name: "JENNIE — resmî sanatçı sitesi", url: "https://www.jenn.ie/" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify — Global Top 50", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+    ],
+    storyShare:
+      "20 Ağustos müzik gündemi: Tiffany Young'ın ilk solo stüdyo albümü Edge of Calm bugün 18.00 KST için planlandı; JENNIE'nin ağustos sonu EP hazırlığı doğrulandı.",
+  },
+  {
     slug: "19-agustos-2026-muzik-gundemi",
     title: "19 Ağustos müzik gündemi: ZEROBASEONE ve BIGBANG yayında",
     shortTitle: "19 Ağustos — günün müzik gündemi",

@@ -164,6 +164,15 @@ function trackKey(entry) {
     .trim();
 }
 
+function currentSiteDate() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
 async function fetchSpotifyGlobalFallback() {
   const res = await fetchWithTimeout("https://kworb.net/spotify/country/global_daily.html", {
     headers: { "User-Agent": UA, Accept: "text/html" },
@@ -250,6 +259,13 @@ async function enrichEntriesWithSpotify(entries, spotifyCreds) {
 // Returns { updated, lists: [{ id, name, ok, count?, error? }] }.
 export async function updateCharts({ spotify, write = true } = {}) {
   const store = JSON.parse(await readFile(DATA_FILE, "utf8"));
+  const updateDate = currentSiteDate();
+  const previousStoreUpdated = store.updated;
+  for (const list of store.lists) {
+    // Older data only had one global date. Keep it as the starting point so a
+    // failed source never appears to have been refreshed with another list.
+    list.updated ||= previousStoreUpdated;
+  }
 
   const fetchers = {
     "billboard-hot-100": () => fetchBillboard("hot-100"),
@@ -276,6 +292,7 @@ export async function updateCharts({ spotify, write = true } = {}) {
         const previous = previousByTrack.get(trackKey(entry));
         return previous ? { ...previous, ...entry } : entry;
       });
+      list.updated = updateDate;
       changed = true;
       summary.push({
         id: list.id,
@@ -290,7 +307,7 @@ export async function updateCharts({ spotify, write = true } = {}) {
   }
 
   if (changed) {
-    store.updated = new Date().toISOString().slice(0, 10);
+    store.updated = updateDate;
     if (write) {
       await writeFile(DATA_FILE, `${JSON.stringify(store, null, 2)}\n`, "utf8");
     }
