@@ -14,6 +14,7 @@ import { artistPath, canonical } from "../lib/paths";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { languagesFor } from "../lib/languages";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Icon, Section, Shelf } from "../components/site/ui";
@@ -47,13 +48,19 @@ export default function ArtistPage() {
   const topGenre = artist.posts.length ? genreFor(artist.posts[0]) : "";
   const topMood = artist.posts.length ? moodFor(artist.posts[0]) : "";
   const moodTone = MOOD_TONES[topMood] || "kendine özgü";
+  const targetLanguages = [...new Set(artist.posts.map((post) => languagesFor(post).translation))];
+  const translationDirection = targetLanguages.length === 1 && targetLanguages[0] === "en"
+    ? { seo: "İngilizce Çevirileri", sentence: "Türkçe sözlerden İngilizceye taşındı" }
+    : targetLanguages.length === 1 && targetLanguages[0] === "tr"
+      ? { seo: "Türkçe Çevirileri", sentence: "tek tek Türkçeye taşındı" }
+      : { seo: "Şarkı Çevirileri", sentence: "farklı diller arasında tek tek işlendi" };
   const bio = artist.posts.length
-    ? `${artist.name}, acupoflyrics arşivinde ${artist.count} çeviriyle yer alıyor — ağırlıkla ${topGenre} tınılı, ${moodTone} parçalar. ${artist.albums.length ? `${artist.albums.length} albüm/EP'den` : "Çeşitli dönemlerden"} şarkılar, sözlerin altındaki anlam ve mecazlarla birlikte tek tek Türkçeye taşındı.`
+    ? `${artist.name}, acupoflyrics arşivinde ${artist.count} çeviriyle yer alıyor — ağırlıkla ${topGenre} tınılı, ${moodTone} parçalar. ${artist.albums.length ? `${artist.albums.length} albüm/EP'den` : "Çeşitli dönemlerden"} şarkılar, sözlerin altındaki anlam ve mecazlarla birlikte ${translationDirection.sentence}.`
     : "";
 
   const path = artistPath(slug);
   useSeo({
-    title: artist.posts.length ? `${artist.name} Şarkı Sözleri ve Türkçe Çevirileri | acupoflyrics` : "Sanatçı bulunamadı",
+    title: artist.posts.length ? `${artist.name} Şarkı Sözleri ve ${translationDirection.seo} | acupoflyrics` : "Sanatçı bulunamadı",
     description: bio,
     path,
     image: artist.image,

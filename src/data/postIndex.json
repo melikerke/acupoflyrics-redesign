@@ -1,5 +1,58 @@
 [
   {
+    "id": "5255",
+    "slug": "radikal-korkmam-ben-english-translation",
+    "title": "Radikal KORKMAM BEN English Translation",
+    "song": "KORKMAM BEN",
+    "artist": "Radikal",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5",
+    "date": "2026-08-21T09:33:20.712Z",
+    "reading_time": 2,
+    "excerpt": "I always forget everything at night",
+    "categories": [
+      "Radikal",
+      "KORKMAM BEN"
+    ],
+    "category_slugs": [
+      "radikal",
+      "korkmam-ben"
+    ],
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1E4KvEuWVyWB3x2QEjLIEG",
+      "albumUrl": "https://open.spotify.com/album/7lTxKP2O3JDhL46lE6V1MR",
+      "artistUrl": "https://open.spotify.com/artist/16CDaDlBd2bji8I4Ck1iuV",
+      "albumName": "KORKMAM BEN",
+      "releaseDate": "2026-08-21",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5",
+      "duration": "2:32",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Radikal",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe1494eccd64ee30706374603",
+      "artistGenres": [],
+      "albumArtist": "Radikal"
+    },
+    "moods": [
+      "Dreamy",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "(Radikal)",
+      "tr": "(Radikal)"
+    },
+    "heroPair": {
+      "en": "Korkmam ben senin yalanlarından (Oh-oh, oh-oh)",
+      "tr": "I’m not afraid of your lies (Oh-oh, oh-oh)"
+    }
+  },
+  {
     "id": "5254",
     "slug": "ed-sheeran-thinking-out-loud-turkce-ceviri",
     "title": "Ed Sheeran Thinking Out Loud Türkçe Çeviri",

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
@@ -20,8 +20,169 @@ import { albumPath, artistPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
 import { translationMetaDescription } from "../lib/meta";
+import { languageInfo, languagesFor, translationLabel } from "../lib/languages";
 import { useSeo } from "../lib/seo";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
+
+const DETAIL_COPY = {
+  tr: {
+    closeAnnotation: "Açıklamayı kapat",
+    selectedPhrase: "Seçili ifade",
+    line: "satır",
+    searchLabel: "Satır ara",
+    searchPlaceholder: "Kelime, bölüm veya çeviri ara",
+    sections: "Bölümler",
+    lyricView: "Şarkı sözü görünümü",
+    view: "Görünüm",
+    both: "İkisi",
+    createCard: "Kart oluştur",
+    cardPreview: "Lyric card önizleme",
+    closeCard: "Kart oluşturucuyu kapat",
+    cardStudioKicker: "SOSYAL KART STÜDYOSU",
+    cardStudioTitle: "Bir dizeyi görsele dönüştür",
+    format: "Format",
+    story: "Hikâye",
+    square: "Kare",
+    language: "Dil",
+    cardLanguage: "Kart dili",
+    albumTone: "Albüm tonu",
+    cardColor: "Kart rengi",
+    color: "Renk",
+    lines: "Dizeler",
+    maxLines: "En fazla 3 · komşu satırlar",
+    cardLines: "Kart satırları",
+    download: "PNG indir",
+    share: "Paylaş",
+    downloaded: "PNG indirildi.",
+    cardCopied: "Kart metni kopyalandı.",
+    loadingLyrics: "Sözler yükleniyor",
+    readTranslation: "Çeviriyi oku",
+    listenSpotify: "Spotify'da dinle",
+    preAddApple: "Apple Music'te ön ekle",
+    copied: "Kopyalandı",
+    songInfo: "Şarkı Bilgisi",
+    artist: "Sanatçı",
+    album: "Albüm",
+    single: "Tekli",
+    status: "Durum",
+    firstPerformance: "İlk performans",
+    release: "Yayın",
+    genre: "Tür",
+    composer: "Besteci",
+    duration: "Süre",
+    reading: "Okuma",
+    date: "Tarih",
+    minutes: "dk",
+    readingBadge: "dk okuma",
+    tags: "Etiketler",
+    translationAndNotes: "çeviri ve notlar",
+    videoAndTranslation: "Video ve çeviri",
+    watchOnYoutube: "YouTube'da izle",
+    playVideo: "Videoyu oynat",
+    videoHint: "Videoyu izlerken çeviriye tek dokunuşla geç.",
+    openYoutube: "YouTube'da aç",
+    fromAlbum: "albümünden",
+    recommended: "Önerilen çeviriler",
+    allAlbumTranslations: "Albümdeki tüm çeviriler →",
+    sameWorld: "ve aynı dünyadan",
+    keepReading: "okumaya devam et",
+  },
+  en: {
+    closeAnnotation: "Close explanation",
+    selectedPhrase: "Selected phrase",
+    line: "line",
+    searchLabel: "Search lines",
+    searchPlaceholder: "Search a word, section or translation",
+    sections: "Sections",
+    lyricView: "Lyrics view",
+    view: "View",
+    both: "Both",
+    createCard: "Create card",
+    cardPreview: "Lyric card preview",
+    closeCard: "Close card studio",
+    cardStudioKicker: "LYRIC CARD STUDIO",
+    cardStudioTitle: "Turn a lyric into a visual",
+    format: "Format",
+    story: "Story",
+    square: "Square",
+    language: "Language",
+    cardLanguage: "Card language",
+    albumTone: "Album tone",
+    cardColor: "Card color",
+    color: "Color",
+    lines: "Lines",
+    maxLines: "Up to 3 · adjacent lines",
+    cardLines: "Card lines",
+    download: "Download PNG",
+    share: "Share",
+    downloaded: "PNG downloaded.",
+    cardCopied: "Card text copied.",
+    loadingLyrics: "Lyrics are loading",
+    readTranslation: "Read translation",
+    listenSpotify: "Listen on Spotify",
+    preAddApple: "Pre-add on Apple Music",
+    copied: "Copied",
+    songInfo: "Song information",
+    artist: "Artist",
+    album: "Album",
+    single: "Single",
+    status: "Status",
+    firstPerformance: "First performance",
+    release: "Release",
+    genre: "Genre",
+    composer: "Songwriters",
+    duration: "Duration",
+    reading: "Reading time",
+    date: "Date",
+    minutes: "min",
+    readingBadge: "min read",
+    tags: "Tags",
+    translationAndNotes: "translation and notes",
+    videoAndTranslation: "Video and translation",
+    watchOnYoutube: "Watch on YouTube",
+    playVideo: "Play video",
+    videoHint: "Move from the video to the translation in one tap.",
+    openYoutube: "Open on YouTube",
+    fromAlbum: "from the album",
+    recommended: "Recommended translations",
+    allAlbumTranslations: "View all album translations →",
+    sameWorld: "and more from the same world",
+    keepReading: "keep reading",
+  },
+};
+
+function copyForLanguage(code) {
+  return String(code || "").toLowerCase().startsWith("en") ? DETAIL_COPY.en : DETAIL_COPY.tr;
+}
+
+function interfaceLocaleFor(languages) {
+  return languages.translation === "en" ? "en" : "tr";
+}
+
+function columnLabel(language, kind, interfaceLocale) {
+  const info = languageInfo(language);
+  if (interfaceLocale === "tr" && kind === "original" && language === "en") return "ORİJİNAL";
+  if (interfaceLocale === "tr" && kind === "translation" && language === "tr") return "TÜRKÇE";
+  const name = interfaceLocale === "en" ? info.englishName : info.turkishName;
+  const role = kind === "original"
+    ? (interfaceLocale === "en" ? "ORIGINAL" : "ORİJİNAL")
+    : (interfaceLocale === "en" ? "TRANSLATION" : "ÇEVİRİ");
+  return `${name.toLocaleUpperCase(interfaceLocale === "tr" ? "tr-TR" : "en-US")} · ${role}`;
+}
+
+function cardLanguageLabel(language, kind, interfaceLocale) {
+  if (interfaceLocale === "tr" && kind === "original" && language === "en") return "Orijinal";
+  const info = languageInfo(language);
+  return interfaceLocale === "en" ? info.englishName : info.turkishName;
+}
+
+function detailMetaDescription(post, languages) {
+  if (!post || languages.translation !== "en") return translationMetaDescription(post);
+  const editorial = String(post.seo?.description || "").trim();
+  if (editorial) return editorial;
+  const originalLanguage = languageInfo(languages.original).englishName;
+  return `${post.artist} – ${post.song} lyrics with an English translation from the ${originalLanguage} original. Explore the song's meaning, credits and line-by-line notes.`;
+}
 
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -53,7 +214,7 @@ function ArtistLinks({ artists }) {
 
 function lyricSections(blocks) {
   const out = [];
-  let pendingEn = [];
+  let pendingOriginal = [];
   let pendingLabel = "";
   let verseCount = 0;
   let chorusCount = 0;
@@ -82,19 +243,19 @@ function lyricSections(blocks) {
   for (const block of Array.isArray(blocks) ? blocks : []) {
     const lines = Array.isArray(block.lines) ? block.lines : [];
     if (block.original) {
-      pendingEn = lines.slice();
+      pendingOriginal = lines.slice();
       pendingLabel = block.label || "";
       continue;
     }
     out.push({
       label: block.label || pendingLabel || labelFor(lines),
-      en: pendingEn.filter(Boolean),
-      tr: lines.filter(Boolean),
+      original: pendingOriginal.filter(Boolean),
+      translation: lines.filter(Boolean),
     });
-    pendingEn = [];
+    pendingOriginal = [];
     pendingLabel = "";
   }
-  return out.filter((section) => section.en.length || section.tr.length);
+  return out.filter((section) => section.original.length || section.translation.length);
 }
 
 function youtubeEmbedUrl(url) {
@@ -108,21 +269,82 @@ function youtubeEmbedUrl(url) {
   return id ? `https://www.youtube-nocookie.com/embed/${id}` : null;
 }
 
-function AnnotationDialog({ selected, onClose }) {
+function AnnotationDialog({ id, selected, onClose, annotationLanguage, theme }) {
+  const dialogRef = useRef(null);
+  const closeRef = useRef(null);
+  const previousFocusRef = useRef(null);
+  const copy = copyForLanguage(annotationLanguage);
+
+  useEffect(() => {
+    if (!selected) return undefined;
+    previousFocusRef.current = selected.trigger || document.activeElement;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const frame = window.requestAnimationFrame(() => closeRef.current?.focus());
+
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        onClose();
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const focusable = [...(dialogRef.current?.querySelectorAll(
+        'button:not([disabled]), a[href], input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      ) || [])];
+      if (!focusable.length) {
+        event.preventDefault();
+        dialogRef.current?.focus();
+        return;
+      }
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      document.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = previousOverflow;
+      const returnTarget = selected.trigger?.isConnected ? selected.trigger : previousFocusRef.current;
+      returnTarget?.focus?.();
+    };
+  }, [selected, onClose]);
+
   if (!selected) return null;
+  const titleId = `${id}-title`;
+  const labelId = `${id}-label`;
+  const descriptionId = `${id}-description`;
   return createPortal((
-    <div className="detail-note-modal" role="dialog" aria-modal="true" aria-label="Kelime açıklaması">
-      <button type="button" className="detail-note-backdrop" aria-label="Açıklamayı kapat" onClick={onClose} />
-      <div className="detail-note-popover">
-        <button type="button" className="detail-note-close" aria-label="Açıklamayı kapat" onClick={onClose}>×</button>
+    <div className="detail-note-modal" style={theme}>
+      <div className="detail-note-backdrop" aria-hidden="true" onClick={onClose} />
+      <div
+        ref={dialogRef}
+        id={id}
+        className="detail-note-popover"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={`${labelId} ${titleId}`}
+        aria-describedby={descriptionId}
+        lang={annotationLanguage}
+        tabIndex={-1}
+      >
+        <button ref={closeRef} type="button" className="detail-note-close" aria-label={copy.closeAnnotation} onClick={onClose}>×</button>
         <div>
-          <div className="detail-selected-label">Seçili ifade</div>
-          <h3 className="font-serif">“{selected.display || selected.key}”</h3>
-          <p>{selected.note}</p>
+          <div id={labelId} className="detail-selected-label">{copy.selectedPhrase}</div>
+          <h3 id={titleId} className="font-serif" lang={selected.language}>“{selected.display || selected.key}”</h3>
+          <p id={descriptionId} lang={annotationLanguage}>{selected.note}</p>
           {selected.line && (
             <div className="detail-note-source">
-              <span>satır</span>
-              <em>“{selected.line}”</em>
+              <span>{copy.line}</span>
+              <em lang={selected.language}>“{selected.line}”</em>
             </div>
           )}
           <div className="detail-signature">
@@ -436,7 +658,20 @@ async function createLyricCardBlob({ post, card }) {
   });
 }
 
-function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardPalette }) {
+function DetailLyricsTable({
+  post,
+  sections,
+  notes,
+  selectedKey,
+  onSelect,
+  cardPalette,
+  languages,
+  annotationDialogId,
+}) {
+  const interfaceLocale = interfaceLocaleFor(languages);
+  const ui = copyForLanguage(interfaceLocale);
+  const languageOrder = [languages.original, languages.translation];
+  const slotForLanguage = (language) => (language === languages.original ? "original" : "translation");
   const [viewMode, setViewMode] = useState(() => {
     try {
       const stored = window.localStorage.getItem(LYRICS_VIEW_KEY);
@@ -444,7 +679,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     } catch {
       /* Keep the responsive default when storage is unavailable. */
     }
-    return window.matchMedia?.("(max-width: 820px)").matches ? "tr" : "both";
+    return window.matchMedia?.("(max-width: 820px)").matches ? languages.translation : "both";
   });
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
@@ -454,11 +689,10 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   const keys = Object.keys(notes);
   const findKey = (line) => {
     if (!line) return undefined;
-    const normalizedLine = line.toLocaleLowerCase("tr-TR");
-    return keys.find((key) => normalizedLine.includes(key.toLocaleLowerCase("tr-TR")));
+    const normalizedLine = line.toLocaleLowerCase();
+    return keys.find((key) => normalizedLine.includes(key.toLocaleLowerCase()));
   };
   const normalizedQuery = query.trim().toLowerCase();
-  const activeSection = sections[activeIndex] || sections[0];
 
   const selectViewMode = (mode) => {
     setViewMode(mode);
@@ -489,7 +723,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   };
 
   const openCard = (section, language) => {
-    const lines = section[language].filter(Boolean);
+    const lines = section[slotForLanguage(language)].filter(Boolean);
     setCardStatus("");
     setCardDraft({
       section,
@@ -504,7 +738,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     setCardStatus("");
     setCardDraft((draft) => {
       if (!draft) return draft;
-      const lines = draft.section[language].filter(Boolean);
+      const lines = draft.section[slotForLanguage(language)].filter(Boolean);
       return {
         ...draft,
         language,
@@ -552,7 +786,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
 
   const buildCard = (draft) => {
     if (!draft) return null;
-    const lines = draft.section[draft.language].filter(Boolean);
+    const lines = draft.section[slotForLanguage(draft.language)].filter(Boolean);
     const selectedLines = draft.selected.map((index) => lines[index]).filter(Boolean);
     const palette = cardPalette?.length ? cardPalette : [[218, 60, 120], [30, 215, 96], [38, 40, 56]];
     const colorIndex = Math.min(draft.colorIndex || 0, palette.length - 1);
@@ -581,7 +815,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         await navigator.share({ title: `${post.song} - ${card.section.label}`, text, url: window.location.href });
       } else {
         await navigator.clipboard.writeText(`${text}\n${window.location.href}`);
-        setCardStatus("Kart metni kopyalandı.");
+        setCardStatus(ui.cardCopied);
       }
       trackEvent("share", {
         method: "lyric_card",
@@ -615,7 +849,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         item_id: post.slug,
         card_ratio: card.ratio,
       });
-      setCardStatus("PNG indirildi.");
+      setCardStatus(ui.downloaded);
     } finally {
       setCardBusy(false);
     }
@@ -623,10 +857,10 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
 
   const visibleSections = sections.map((section, index) => ({ section, index })).filter(({ section }) => {
     if (!normalizedQuery) return true;
-    return [section.label, ...section.en, ...section.tr].join(" ").toLowerCase().includes(normalizedQuery);
+    return [section.label, ...section.original, ...section.translation].join(" ").toLowerCase().includes(normalizedQuery);
   });
 
-  const renderMarkedLine = (line) => {
+  const renderMarkedLine = (line, language) => {
     const key = findKey(line);
     if (!key) return line || "—";
     const match = line.match(new RegExp(escapeRegExp(key), "i"));
@@ -640,8 +874,17 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
         <button
           type="button"
           className="detail-lyric-annot"
-          onClick={() => onSelect({ key, display: marked, note: notes[key], line })}
-          aria-pressed={selectedKey === key}
+          onClick={(event) => onSelect({
+            key,
+            display: marked,
+            note: notes[key],
+            line,
+            language,
+            trigger: event.currentTarget,
+          })}
+          aria-haspopup="dialog"
+          aria-expanded={selectedKey === key}
+          aria-controls={annotationDialogId}
         >
           {marked}
         </button>
@@ -650,30 +893,31 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
     );
   };
 
-  const renderLyricLines = (section, language, sectionIndex) => {
-    const lines = section[language].filter(Boolean);
+  const renderLyricLines = (section, kind, sectionIndex) => {
+    const language = languages[kind];
+    const lines = section[kind].filter(Boolean);
     return lines.map((line, lineIndex) => {
       const selectionId = `${sectionIndex}-${language}-${lineIndex}`;
       return (
         <span className="detail-lyric-line-static" key={selectionId}>
-          {renderMarkedLine(line)}
+          {renderMarkedLine(line, language)}
         </span>
       );
     });
   };
 
   return (
-    <div className="detail-lyrics-table">
+    <div className="detail-lyrics-table" lang={interfaceLocale}>
       <div className="detail-reader-tools">
         <label>
-          <span>Satır ara</span>
+          <span>{ui.searchLabel}</span>
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Kelime, bölüm veya çeviri ara"
+            placeholder={ui.searchPlaceholder}
           />
         </label>
-        <div className="detail-smart-seek" aria-label="Bölümler">
+        <div className="detail-smart-seek" aria-label={ui.sections}>
           {sections.map((section, index) => (
             <button
               key={`${section.label}-${index}`}
@@ -686,24 +930,34 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
           ))}
         </div>
       </div>
-      <div className="detail-floating-lyrics" aria-label="Şarkı sözü görünümü">
-        <span>Görünüm</span>
+      <div className="detail-floating-lyrics" aria-label={ui.lyricView}>
+        <span>{ui.view}</span>
         <div className="detail-view-mode-tabs">
-          <button type="button" aria-pressed={viewMode === "both"} className={viewMode === "both" ? "is-active" : ""} onClick={() => selectViewMode("both")}>İkisi</button>
-          <button type="button" aria-pressed={viewMode === "en"} className={viewMode === "en" ? "is-active" : ""} onClick={() => selectViewMode("en")}>EN</button>
-          <button type="button" aria-pressed={viewMode === "tr"} className={viewMode === "tr" ? "is-active" : ""} onClick={() => selectViewMode("tr")}>TR</button>
+          <button type="button" aria-pressed={viewMode === "both"} className={viewMode === "both" ? "is-active" : ""} onClick={() => selectViewMode("both")}>{ui.both}</button>
+          {languageOrder.map((language) => (
+            <button
+              key={language}
+              type="button"
+              aria-pressed={viewMode === language}
+              className={viewMode === language ? "is-active" : ""}
+              onClick={() => selectViewMode(language)}
+              aria-label={interfaceLocale === "en" ? languageInfo(language).englishName : languageInfo(language).turkishName}
+            >
+              {languageInfo(language).short}
+            </button>
+          ))}
         </div>
       </div>
       <div className="detail-lyric-sections">
         {visibleSections.map(({ section, index }) => {
-          const enText = section.en.join("\n");
-          const trText = section.tr.join("\n");
-          const enKey = findKey(enText);
-          const trKey = findKey(trText);
-          const key = trKey || enKey;
+          const originalText = section.original.join("\n");
+          const translationText = section.translation.join("\n");
+          const originalKey = findKey(originalText);
+          const translationKey = findKey(translationText);
+          const key = translationKey || originalKey;
           const active = key && selectedKey === key;
-          const hasEn = section.en.some(Boolean);
-          const hasTr = section.tr.some(Boolean);
+          const hasOriginal = section.original.some(Boolean);
+          const hasTranslation = section.translation.some(Boolean);
           return (
             <article
               className={`detail-lyric-section${active ? " is-active" : ""}`}
@@ -716,22 +970,26 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                 <i aria-hidden />
               </header>
               <div className={`detail-section-copy is-${viewMode}`}>
-                {viewMode !== "tr" && (
-                  <div className="detail-section-col is-en">
+                {(viewMode === "both" || viewMode === languages.original) && (
+                  <div className="detail-section-col is-original">
                     <div className="detail-col-head">
-                      <span className="detail-col-tag">ORİJİNAL</span>
-                      {hasEn && <button type="button" onClick={() => openCard(section, "en")}>Kart oluştur</button>}
+                      <span className="detail-col-tag" lang={interfaceLocale}>
+                        {columnLabel(languages.original, "original", interfaceLocale)}
+                      </span>
+                      {hasOriginal && <button type="button" onClick={() => openCard(section, languages.original)}>{ui.createCard}</button>}
                     </div>
-                    <p className="detail-section-en">{renderLyricLines(section, "en", index)}</p>
+                    <p className="detail-section-original" lang={languages.original}>{renderLyricLines(section, "original", index)}</p>
                   </div>
                 )}
-                {viewMode !== "en" && (
-                  <div className="detail-section-col is-tr">
+                {(viewMode === "both" || viewMode === languages.translation) && (
+                  <div className="detail-section-col is-translation">
                     <div className="detail-col-head">
-                      <span className="detail-col-tag">TÜRKÇE</span>
-                      {hasTr && <button type="button" onClick={() => openCard(section, "tr")}>Kart oluştur</button>}
+                      <span className="detail-col-tag" lang={interfaceLocale}>
+                        {columnLabel(languages.translation, "translation", interfaceLocale)}
+                      </span>
+                      {hasTranslation && <button type="button" onClick={() => openCard(section, languages.translation)}>{ui.createCard}</button>}
                     </div>
-                    <p className="detail-section-tr">{renderLyricLines(section, "tr", index)}</p>
+                    <p className="detail-section-translation" lang={languages.translation}>{renderLyricLines(section, "translation", index)}</p>
                   </div>
                 )}
               </div>
@@ -747,15 +1005,15 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
           ? `${new Date(post.spotify?.album?.releaseDate || post.date).getFullYear()} • ${post.spotify.album.name}`
           : "";
         return createPortal((
-        <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label="Lyric card önizleme">
-          <button className="detail-card-backdrop" type="button" aria-label="Kapat" onClick={() => setCardDraft(null)} />
+        <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label={ui.cardPreview} lang={interfaceLocale}>
+          <button className="detail-card-backdrop" type="button" aria-label={ui.closeCard} onClick={() => setCardDraft(null)} />
           <div className="detail-card-dialog">
             <header className="detail-card-dialog-head">
               <div>
-                <span>SOSYAL KART STÜDYOSU</span>
-                <h2 className="font-serif">Bir dizeyi görsele dönüştür</h2>
+                <span>{ui.cardStudioKicker}</span>
+                <h2 className="font-serif">{ui.cardStudioTitle}</h2>
               </div>
-              <button type="button" aria-label="Kart oluşturucuyu kapat" onClick={() => setCardDraft(null)}>×</button>
+              <button type="button" aria-label={ui.closeCard} onClick={() => setCardDraft(null)}>×</button>
             </header>
 
             <div className="detail-card-studio">
@@ -778,7 +1036,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                   <div className="detail-card-brand">
                     <span><i aria-hidden />acupoflyrics</span>
                   </div>
-                  <div className="detail-card-lines">
+                  <div className="detail-card-lines" lang={card.language}>
                     {card.selectedLines.map((line, lineIndex) => (
                       <p
                         key={`${line}-${lineIndex}`}
@@ -804,8 +1062,8 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
 
               <aside className="detail-card-controls">
                 <section className="detail-card-control-group">
-                  <span>Format</span>
-                  <div className="detail-card-ratio-switch" aria-label="Kart formatı">
+                  <span>{ui.format}</span>
+                  <div className="detail-card-ratio-switch" aria-label={ui.format}>
                     {Object.entries(CARD_RATIOS).map(([ratioKey, ratio]) => (
                       <button
                         key={ratioKey}
@@ -813,23 +1071,35 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                         className={card.ratio === ratioKey ? "is-active" : ""}
                         onClick={() => setCardRatio(ratioKey)}
                       >
-                        {ratio.label} {ratioKey === "story" ? "Hikâye" : "Kare"}
+                        {ratio.label} {ratioKey === "story" ? ui.story : ui.square}
                       </button>
                     ))}
                   </div>
                 </section>
 
                 <section className="detail-card-control-group">
-                  <span>Dil</span>
-                  <div className="detail-card-language-switch" aria-label="Kart dili">
-                    <button type="button" className={card.language === "tr" ? "is-active" : ""} onClick={() => setCardLanguage("tr")}>Türkçe</button>
-                    <button type="button" className={card.language === "en" ? "is-active" : ""} onClick={() => setCardLanguage("en")}>Orijinal</button>
+                  <span>{ui.language}</span>
+                  <div className="detail-card-language-switch" aria-label={ui.cardLanguage}>
+                    {[languages.translation, languages.original].map((language) => {
+                      const kind = language === languages.original ? "original" : "translation";
+                      return (
+                        <button
+                          key={language}
+                          type="button"
+                          className={card.language === language ? "is-active" : ""}
+                          onClick={() => setCardLanguage(language)}
+                          lang={interfaceLocale}
+                        >
+                          {cardLanguageLabel(language, kind, interfaceLocale)}
+                        </button>
+                      );
+                    })}
                   </div>
                 </section>
 
                 <section className="detail-card-control-group">
-                  <span>Albüm tonu</span>
-                  <div className="detail-card-swatches" aria-label="Kart rengi">
+                  <span>{ui.albumTone}</span>
+                  <div className="detail-card-swatches" aria-label={ui.cardColor}>
                     {card.palette.map((color, colorIndex) => (
                       <button
                         key={color.join("-")}
@@ -837,7 +1107,7 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                         className={card.colorIndex === colorIndex ? "is-active" : ""}
                         style={{ background: rgb(color) }}
                         onClick={() => setCardColor(colorIndex)}
-                        aria-label={`Renk ${colorIndex + 1}`}
+                        aria-label={`${ui.color} ${colorIndex + 1}`}
                       />
                     ))}
                   </div>
@@ -845,10 +1115,10 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
 
                 <section className="detail-card-control-group is-lines">
                   <div className="detail-card-control-heading">
-                    <span>Dizeler</span>
-                    <small>En fazla 3 · komşu satırlar</small>
+                    <span>{ui.lines}</span>
+                    <small>{ui.maxLines}</small>
                   </div>
-                  <div className="detail-card-line-picker" aria-label="Kart satırları">
+                  <div className="detail-card-line-picker" aria-label={ui.cardLines} lang={card.language}>
                     {card.lines.map((line, lineIndex) => (
                       <button
                         key={`${line}-${lineIndex}`}
@@ -866,10 +1136,10 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
                 {cardStatus && <p className="detail-card-status">{cardStatus}</p>}
                 <div className="detail-card-actions">
                   <button type="button" onClick={downloadCard} disabled={cardBusy || !card.selectedLines.length}>
-                    PNG indir
+                    {ui.download}
                   </button>
                   <button type="button" onClick={shareCard} disabled={cardBusy || !card.selectedLines.length}>
-                    Paylaş
+                    {ui.share}
                   </button>
                 </div>
               </aside>
@@ -882,9 +1152,9 @@ function DetailLyricsTable({ post, sections, notes, selectedKey, onSelect, cardP
   );
 }
 
-function LyricsSkeleton() {
+function LyricsSkeleton({ label }) {
   return (
-    <div className="detail-lyrics-skeleton" aria-label="Sözler yükleniyor">
+    <div className="detail-lyrics-skeleton" aria-label={label}>
       {Array.from({ length: 8 }).map((_, index) => (
         <span key={index} />
       ))}
@@ -892,7 +1162,7 @@ function LyricsSkeleton() {
   );
 }
 
-function DetailVideo({ post, embedUrl, onRead }) {
+function DetailVideo({ post, embedUrl, onRead, ui, locale }) {
   const [playing, setPlaying] = useState(false);
   if (!embedUrl) return null;
   const youtubeUrl = post.youtubeUrl || post.youtube?.url;
@@ -902,19 +1172,19 @@ function DetailVideo({ post, embedUrl, onRead }) {
     <>
       <img src={thumbnail} alt="" loading="lazy" decoding="async" />
       <span aria-hidden><i /></span>
-      <strong>{post.youtubeEmbedDisabled ? "YouTube'da izle" : "Videoyu oynat"}</strong>
+      <strong>{post.youtubeEmbedDisabled ? ui.watchOnYoutube : ui.playVideo}</strong>
     </>
   );
   return (
-    <section className="detail-video-section" aria-label="Video ve çeviri">
+    <section className="detail-video-section" aria-label={ui.videoAndTranslation} lang={locale}>
       <div className="detail-video-copy">
         <span>Video</span>
         <h2 className="font-serif">{post.song}</h2>
-        <p>Videoyu izlerken çeviriye tek dokunuşla geç.</p>
+        <p>{ui.videoHint}</p>
         <div className="detail-video-actions">
-          <button type="button" onClick={onRead}>Çeviriyi oku</button>
+          <button type="button" onClick={onRead}>{ui.readTranslation}</button>
           {youtubeUrl && (
-            <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">YouTube'da aç</a>
+            <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">{ui.openYoutube}</a>
           )}
         </div>
       </div>
@@ -925,14 +1195,14 @@ function DetailVideo({ post, embedUrl, onRead }) {
             href={youtubeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`${post.artist} - ${post.song} videosunu YouTube'da aç`}
+            aria-label={`${ui.openYoutube}: ${post.artist} - ${post.song}`}
           >
             {facade}
           </a>
         ) : playing ? (
           <iframe
             src={`${embedUrl}?autoplay=1&rel=0`}
-            title={`${post.artist} - ${post.song} video`}
+            title={`${post.artist} - ${post.song} · ${ui.playVideo}`}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
@@ -941,7 +1211,7 @@ function DetailVideo({ post, embedUrl, onRead }) {
             className="detail-video-facade"
             type="button"
             onClick={() => setPlaying(true)}
-            aria-label={`${post.artist} - ${post.song} videosunu oynat`}
+            aria-label={`${ui.playVideo}: ${post.artist} - ${post.song}`}
           >
             {facade}
           </button>
@@ -1125,12 +1395,18 @@ export default function LyricDetail() {
   const indexedPost = getPost(cleanSlug);
   const [fullPost, setFullPost] = useState(null);
   const post = indexedPost ? { ...indexedPost, ...fullPost, song: indexedPost.song, no: indexedPost.no, voice: indexedPost.voice } : null;
+  const languages = languagesFor(post);
+  const interfaceLocale = interfaceLocaleFor(languages);
+  const ui = copyForLanguage(interfaceLocale);
+  const pageTranslationLabel = translationLabel(post, interfaceLocale);
   const accent = useAlbumColor(post?.cover);
   const cardPalette = useAlbumPalette(post?.cover, [accent, shade(accent, 0.72), shade(accent, 0.46)]);
   const readerRef = useRef(null);
+  const annotationDialogId = useId();
   const [shared, setShared] = useState(false);
   const [selectedNote, setSelectedNote] = useState(null);
   const [readProgress, setReadProgress] = useState(0);
+  const closeAnnotation = useCallback(() => setSelectedNote(null), []);
 
   useEffect(() => {
     if (!indexedPost) return;
@@ -1179,8 +1455,8 @@ export default function LyricDetail() {
   const metaArtist = post ? creditedArtistsFor(post)[0] : null;
   const metaAlbum = post ? albumNameFor(post) : "";
   useSeo({
-    title: post?.seo?.title || (post ? `${post.artist} ${post.song} Türkçe Çeviri` : "Çeviri bulunamadı | acupoflyrics"),
-    description: translationMetaDescription(post),
+    title: post?.seo?.title || (post ? `${post.artist} ${post.song} ${pageTranslationLabel}` : "Çeviri bulunamadı | acupoflyrics"),
+    description: detailMetaDescription(post, languages),
     path: canonicalPath,
     image: post?.cover,
     type: "music.song",
@@ -1209,7 +1485,7 @@ export default function LyricDetail() {
 
   const sharePost = async () => {
     const url = window.location.href;
-    const title = post ? `${post.artist} - ${post.song} | Türkçe çeviri` : "acupoflyrics";
+    const title = post ? `${post.artist} - ${post.song} | ${pageTranslationLabel}` : "acupoflyrics";
     try {
       const method = navigator.share ? "web_share" : "clipboard";
       if (navigator.share) {
@@ -1316,6 +1592,12 @@ export default function LyricDetail() {
     "--color-faint": "rgba(247, 243, 236, 0.48)",
     "--color-line": "rgba(255, 255, 255, 0.11)",
   };
+  const annotationTheme = {
+    "--detail-accent": cssVars["--detail-accent"],
+    "--detail-accent-soft": cssVars["--detail-accent-soft"],
+    "--detail-accent-line": cssVars["--detail-accent-line"],
+    "--detail-accent-deep": cssVars["--detail-accent-deep"],
+  };
 
   return (
     <motion.main
@@ -1346,27 +1628,27 @@ export default function LyricDetail() {
               <img src={post.cover} alt={`${post.artist} - ${post.song}`} />
             </motion.div>
 
-            <div className="detail-hero-copy">
+            <div className="detail-hero-copy" lang={interfaceLocale}>
               <h1 className="font-serif">{post.song}</h1>
               <div className="detail-artist-line">
                 <ArtistLinks artists={artistLinks} />
               </div>
 
               <div className="detail-hero-meta">
-                <span>◉ Türkçe Çeviri</span>
+                <span>◉ {pageTranslationLabel}</span>
                 {post.releaseStatus && <span>◷ {post.releaseStatus}</span>}
                 {hasAlbum && (
                   <Link to={albumPath(albumSlug)} className="detail-hero-album-link">
                     ◇ {albumName}
                   </Link>
                 )}
-                {post.reading_time && <span>◷ {post.reading_time} dk okuma</span>}
+                {post.reading_time && <span>◷ {post.reading_time} {ui.readingBadge}</span>}
                 {year && <span>▣ {year}</span>}
               </div>
 
               <div className="detail-actions">
                 <a href="#lyrics-reader" className="detail-primary-action" onClick={scrollToReader}>
-                  Çeviriyi oku
+                  {ui.readTranslation}
                 </a>
                 {post.spotify?.track?.url || post.spotify?.trackUrl ? (
                   <a
@@ -1375,7 +1657,7 @@ export default function LyricDetail() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Spotify'da dinle
+                    {ui.listenSpotify}
                   </a>
                 ) : null}
                 {!post.spotify?.track?.url && !post.spotify?.trackUrl && post.appleMusicUrl ? (
@@ -1385,11 +1667,11 @@ export default function LyricDetail() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Apple Music'te ön ekle
+                    {ui.preAddApple}
                   </a>
                 ) : null}
                 <button type="button" className="detail-ghost-action" onClick={sharePost}>
-                  ↗ {shared ? "Kopyalandı" : "Paylaş"}
+                  ↗ {shared ? ui.copied : ui.share}
                 </button>
               </div>
             </div>
@@ -1397,42 +1679,51 @@ export default function LyricDetail() {
         </div>
       </header>
 
-      <DetailVideo post={post} embedUrl={videoEmbedUrl} onRead={scrollToReader} />
+      <DetailVideo post={post} embedUrl={videoEmbedUrl} onRead={scrollToReader} ui={ui} locale={interfaceLocale} />
 
       <section className="detail-reading-shell">
         <img src={post.cover} alt="" aria-hidden className="detail-reading-atmosphere" />
-        <aside className="detail-info-panel">
-          <h2 className="font-serif">Şarkı Bilgisi</h2>
-          <MetaRow label="Sanatçı" value={<ArtistLinks artists={artistLinks} />} />
-          <MetaRow label="Albüm" value={hasAlbum ? albumName : "Tekli"} />
-          <MetaRow label="Durum" value={post.releaseStatus || ""} />
-          <MetaRow label="İlk performans" value={post.performanceSource || ""} />
-          <MetaRow label="Yayın" value={year ? String(year) : ""} />
-          <MetaRow label="Tür" value={genres.join(", ")} />
-          <MetaRow label="Besteci" value={songwriters} />
-          <MetaRow label="Süre" value={post.spotify?.track?.duration || ""} />
-          <MetaRow label="Okuma" value={post.reading_time ? `${post.reading_time} dk` : ""} />
-          <MetaRow label="Tarih" value={formatDate(post.date)} />
+        <aside className="detail-info-panel" lang={interfaceLocale}>
+          <h2 className="font-serif">{ui.songInfo}</h2>
+          <MetaRow label={ui.artist} value={<ArtistLinks artists={artistLinks} />} />
+          <MetaRow label={ui.album} value={hasAlbum ? albumName : ui.single} />
+          <MetaRow label={ui.status} value={post.releaseStatus || ""} />
+          <MetaRow label={ui.firstPerformance} value={post.performanceSource || ""} />
+          <MetaRow label={ui.release} value={year ? String(year) : ""} />
+          <MetaRow label={ui.genre} value={genres.join(", ")} />
+          <MetaRow label={ui.composer} value={songwriters} />
+          <MetaRow label={ui.duration} value={post.spotify?.track?.duration || ""} />
+          <MetaRow label={ui.reading} value={post.reading_time ? `${post.reading_time} ${ui.minutes}` : ""} />
+          <MetaRow label={ui.date} value={formatDate(post.date)} />
           <div className="detail-tag-block">
-            <span>Etiketler</span>
+            <span>{ui.tags}</span>
             <div>
-              {tags.length ? tags.map((tag) => <b key={tag}>{tag}</b>) : <b>Türkçe Çeviri</b>}
+              {tags.length ? tags.map((tag) => <b key={tag}>{tag}</b>) : <b>{pageTranslationLabel}</b>}
             </div>
           </div>
           <div className="detail-translator">
             <span aria-hidden />
             <div>
               <strong>melike</strong>
-              <small>çeviri ve notlar</small>
+              <small>{ui.translationAndNotes}</small>
             </div>
           </div>
         </aside>
 
         <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
           {isLyricsLoading ? (
-            <LyricsSkeleton />
+            <LyricsSkeleton label={ui.loadingLyrics} />
           ) : (
-            <DetailLyricsTable post={post} sections={sections} notes={notes} selectedKey={selectedNote?.key} onSelect={setSelectedNote} cardPalette={cardPalette} />
+            <DetailLyricsTable
+              post={post}
+              sections={sections}
+              notes={notes}
+              selectedKey={selectedNote?.key}
+              onSelect={setSelectedNote}
+              cardPalette={cardPalette}
+              languages={languages}
+              annotationDialogId={annotationDialogId}
+            />
           )}
 
           <div className="detail-reader-signoff" style={{ display: "flex", justifyContent: "flex-end", paddingRight: "16px" }}>
@@ -1442,17 +1733,27 @@ export default function LyricDetail() {
 
       </section>
 
-      <AnnotationDialog selected={selectedNote} onClose={() => setSelectedNote(null)} />
+      <AnnotationDialog
+        id={annotationDialogId}
+        selected={selectedNote}
+        onClose={closeAnnotation}
+        annotationLanguage={languages.annotations}
+        theme={annotationTheme}
+      />
 
-      <section className="detail-related">
+      <section className="detail-related" lang={interfaceLocale}>
         {related.length > 0 && (
           <>
             <div className="detail-section-heading">
-              <h2 className="font-serif">{sameAlbumRelated.length ? `${albumName} albümünden` : "Önerilen çeviriler"}</h2>
+              <h2 className="font-serif">
+                {sameAlbumRelated.length
+                  ? (interfaceLocale === "en" ? `${ui.fromAlbum} ${albumName}` : `${albumName} ${ui.fromAlbum}`)
+                  : ui.recommended}
+              </h2>
               {sameAlbumRelated.length ? (
-                <Link to={albumPath(albumSlug)}>Albümdeki tüm çeviriler →</Link>
+                <Link to={albumPath(albumSlug)}>{ui.allAlbumTranslations}</Link>
               ) : (
-                <span>{sameArtistRelated.length ? `${post.artist} ve aynı dünyadan` : "okumaya devam et"}</span>
+                <span>{sameArtistRelated.length ? `${post.artist} ${ui.sameWorld}` : ui.keepReading}</span>
               )}
             </div>
             <div className="detail-related-grid">
@@ -1463,7 +1764,7 @@ export default function LyricDetail() {
                     <img src={p.cover} alt="" loading="lazy" />
                     <span>
                       <strong className="font-serif">{p.song}</strong>
-                      <em>“{pr.tr}”</em>
+                      <em lang={languagesFor(p).translation}>“{pr.tr}”</em>
                     </span>
                   </Link>
                 );

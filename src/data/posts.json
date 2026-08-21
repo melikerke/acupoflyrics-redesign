@@ -1,5 +1,314 @@
 [
   {
+    "id": "5255",
+    "title": "Radikal KORKMAM BEN English Translation",
+    "song": "KORKMAM BEN",
+    "slug": "radikal-korkmam-ben-english-translation",
+    "date": "2026-08-21T09:33:20.712Z",
+    "artist": "Radikal",
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "categories": [
+      "Radikal",
+      "KORKMAM BEN"
+    ],
+    "category_slugs": [
+      "radikal",
+      "korkmam-ben"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: İbrahim",
+        "lines": [
+          "(Radikal)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: İbrahim",
+        "lines": [
+          "(Radikal)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Vedat",
+        "lines": [
+          "Geceleri hep unuturum",
+          "Tıpış tıpış geldim ayağına (Ayağına)",
+          "Büyüdüm, sevmeyi öğrendim",
+          "Tek lafınla"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Vedat",
+        "lines": [
+          "I always forget everything at night",
+          "I came crawling back to you (Back to you)",
+          "I grew up, I learned how to love",
+          "With just a single word from you"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Yusuf Emre",
+        "lines": [
+          "Baş ucumda saklı anılar, hep bi' çare",
+          "Beklerim, doğar zifiri karanlığıma (Ah)",
+          "Serseri bi' düşünce, oyalar vade",
+          "Gel, tut elimden, kazandın bi' hane"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Yusuf Emre",
+        "lines": [
+          "Memories hidden by my bedside, always in a bind",
+          "I wait, it rises into my pitch-black darkness (Ah)",
+          "A renegade thought, stalling for time",
+          "Come, take my hand, you’ve earned a place in me"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "Korkmam ben senin yalanlarından (Oh-oh, oh-oh)",
+          "İşlemez anılarıma",
+          "Yalancılar giremez rüyalarıma, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh; Rüyalar)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "I’m not afraid of your lies (Oh-oh, oh-oh)",
+          "They can’t pierce my memories",
+          "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh; Dreams)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Yuşa",
+        "lines": [
+          "Tekrar kazdım kuyunu",
+          "Oynadı o bu oyunu",
+          "Aradım, bu sefer açmadı, yine bozdu oyunu",
+          "Fark etmez, denerim yine (Yine)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Yuşa",
+        "lines": [
+          "I dug your pit once again",
+          "She played this game",
+          "I called, she didn't pick up this time, she flaked again",
+          "Doesn't matter, I’ll try once more (Again)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Vedat & Yusuf Emre",
+        "lines": [
+          "Aynı hissi ararım başkasında",
+          "Hazzı vermiyo' bile bile",
+          "Boş verdi, kaçtı yine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Vedat & Yusuf Emre",
+        "lines": [
+          "I look for that same feeling in someone else",
+          "Knowing damn well it won’t give that same rush",
+          "She didn’t care, she ran away again"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: İbrahim",
+        "lines": [
+          "(Woo, woo)",
+          "(Kapa, kapa, kapa, kapa)",
+          "Kapattığın kapı şimdi-şimdi mazinde",
+          "Kaçtığın her gece sana beni getirir",
+          "Uzağa gitsen de kalbinde",
+          "Her zaman adım, benim adım yankılanır",
+          "Durma, içinde tuttuklarını hadi söyle",
+          "Pişman değilsen o gözler neden öyle?",
+          "Herkes seni terk ettiğinde",
+          "Ağzından tek bi' isim dökülecek (Ra-Ra-Ra-Radikal)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: İbrahim",
+        "lines": [
+          "(Woo, woo)",
+          "(Shut it, shut it, shut it, shut it)",
+          "The door you closed is now—now in your past",
+          "Every night you run away brings you back to me",
+          "Even if you go far away, in your heart",
+          "My name, my name will always echo",
+          "Don't stop, go ahead and say what you're holding inside",
+          "If you’re not regretful, why do your eyes look like that?",
+          "When everyone walks out on you",
+          "Only one name will fall from your lips... (Ra-Ra-Ra-Radikal)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "Korkmam ben senin yalanlarından (Oh-oh, oh-oh)",
+          "İşlemez anılarıma",
+          "Yalancılar giremez rüyalarıma, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "I’m not afraid of your lies (Oh-oh, oh-oh)",
+          "They can’t pierce my memories",
+          "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "Korkmam ben senin yalanlarından",
+          "İşlemez anılarıma",
+          "Yalancılar giremez rüyalarıma, ah-ah-ah-ah-ah-ah-ah-ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Vedat",
+        "lines": [
+          "I’m not afraid of your lies",
+          "They can’t pierce my memories",
+          "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah"
+        ]
+      }
+    ],
+    "excerpt": "I always forget everything at night",
+    "annotations": {
+      "came crawling back": "The Turkish phrase ‘Tıpış tıpış gelmek’ describes returning submissively after a mistake. ‘To come crawling back’ preserves its strong sense of regret and surrender.",
+      "always in a bind": "‘Bi’ çare’ conveys helplessness or having no solution. ‘In a bind’ is a natural English idiom for being trapped in a difficult situation, reflecting the narrator’s mental struggle.",
+      "stalling for time": "‘Oyalar vade’ refers to delaying a process or buying time. ‘Stalling for time’ captures how the intrusive thought keeps the narrator from moving on.",
+      "earned a place in me": "‘Hane’ literally means a house or household. ‘Earned a place in me’ keeps that sense of belonging and suggests a permanent place in the narrator’s heart.",
+      "pierce my memories": "‘İşlemez’ suggests that something cannot penetrate a protected surface. ‘Pierce’ emphasizes that the lies are not sharp enough to damage the memories.",
+      "dug your pit": "‘Kuyu kazmak’ means secretly plotting against someone. The English image ‘to dig a pit’ preserves the original metaphor of sabotage and revenge.",
+      "flaked again": "‘Bozdu oyunu’ means ruining the plan or breaking the rules of the game. The modern slang ‘to flake’ describes someone who breaks their word or bails at the last minute."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1E4KvEuWVyWB3x2QEjLIEG",
+        "name": "KORKMAM BEN",
+        "url": "https://open.spotify.com/track/1E4KvEuWVyWB3x2QEjLIEG",
+        "isrc": "TRUM72600481",
+        "durationMs": 151874,
+        "duration": "2:32",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "16CDaDlBd2bji8I4Ck1iuV",
+        "name": "Radikal",
+        "url": "https://open.spotify.com/artist/16CDaDlBd2bji8I4Ck1iuV",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe1494eccd64ee30706374603",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "16CDaDlBd2bji8I4Ck1iuV",
+          "name": "Radikal",
+          "url": "https://open.spotify.com/artist/16CDaDlBd2bji8I4Ck1iuV"
+        }
+      ],
+      "album": {
+        "id": "7lTxKP2O3JDhL46lE6V1MR",
+        "name": "KORKMAM BEN",
+        "url": "https://open.spotify.com/album/7lTxKP2O3JDhL46lE6V1MR",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5",
+        "artists": [
+          {
+            "id": "16CDaDlBd2bji8I4Ck1iuV",
+            "name": "Radikal",
+            "url": "https://open.spotify.com/artist/16CDaDlBd2bji8I4Ck1iuV"
+          }
+        ],
+        "releaseDate": "2026-08-21",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Universal Music Türkiye",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Universal Music Türkiye",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "1E4KvEuWVyWB3x2QEjLIEG",
+            "name": "KORKMAM BEN",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 151874,
+            "duration": "2:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1E4KvEuWVyWB3x2QEjLIEG",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-21T09:35:46.170Z",
+      "trackUrl": "https://open.spotify.com/track/1E4KvEuWVyWB3x2QEjLIEG",
+      "albumUrl": "https://open.spotify.com/album/7lTxKP2O3JDhL46lE6V1MR",
+      "artistUrl": "https://open.spotify.com/artist/16CDaDlBd2bji8I4Ck1iuV",
+      "albumName": "KORKMAM BEN",
+      "albumType": "Single",
+      "releaseDate": "2026-08-21",
+      "duration": "2:32",
+      "isrc": "TRUM72600481",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a0e15e3fdc009f0d89724a5"
+    },
+    "genius": {
+      "url": "https://genius.com/Radikal-korkmam-ben-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=1d1ecNSsWQc",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/tr/album/korkmam-ben-single/6798354143",
+    "seo": {
+      "title": "Radikal KORKMAM BEN English Translation",
+      "description": "Radikal – KORKMAM BEN Turkish lyrics and a carefully crafted English translation. Explore the song’s meaning, idioms and notes.",
+      "canonical": "https://www.acupoflyrics.com/radikal-korkmam-ben-english-translation/"
+    }
+  },
+  {
     "id": "5254",
     "title": "Ed Sheeran Thinking Out Loud Türkçe Çeviri",
     "song": "Thinking Out Loud",

@@ -3,6 +3,7 @@ import artistsRaw from "../data/artists.json";
 import { popGundemiArticles } from "../data/popGundemi";
 import { linesFor } from "./searchLines";
 import { MOOD_NAMES, moodsForPost, primaryMoodForPost } from "./moodClassifier";
+import { languagesFor } from "./languages";
 
 const total = posts.length;
 
@@ -16,6 +17,7 @@ const FEATURED_PREFIXES = [
 function cleanSongTitle(value) {
   let title = String(value || "")
     .replace(/\s*T[üu]rkçe\s+Çeviri\s*/gi, " ")
+    .replace(/\s*English\s+Translation\s*/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -622,7 +624,13 @@ export function albumBlurb(album) {
   if (!album) return "";
   const kind = albumTypeLabel(album.albumType).toLowerCase();
   const when = album.year ? `${album.year} yılında ` : "";
-  return `${album.name}, ${album.artist} imzalı bir ${kind}. ${when}yayımlandı. Bu ${kind}ten ${album.tracks.length} şarkının Türkçe çevirisi acupoflyrics arşivinde tek tek işlendi — sözlerin altındaki anlamı, mecazları ve çeviri notlarını birlikte.`;
+  const targetLanguages = [...new Set(album.tracks.map((track) => languagesFor(track).translation))];
+  const translatedSongs = targetLanguages.length === 1 && targetLanguages[0] === "en"
+    ? `${album.tracks.length} şarkının Türkçeden İngilizceye çevirisi`
+    : targetLanguages.length === 1 && targetLanguages[0] === "tr"
+      ? `${album.tracks.length} şarkının Türkçe çevirisi`
+      : `${album.tracks.length} şarkının farklı dillerdeki çevirileri`;
+  return `${album.name}, ${album.artist} imzalı bir ${kind}. ${when}yayımlandı. Bu ${kind}ten ${translatedSongs} acupoflyrics arşivinde tek tek işlendi — sözlerin altındaki anlamı, mecazları ve çeviri notlarını birlikte.`;
 }
 
 export function getAlbum(slug) {

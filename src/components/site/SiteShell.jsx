@@ -84,7 +84,7 @@ export function SiteFooter() {
       <div className="site-footer-inner">
         <div className="site-footer-brand">
           <div className="acl-logo font-serif" style={{ fontSize: 22 }}>acupoflyrics</div>
-          <p>Özenli Türkçe çeviriler — {totalPosts} şarkı.</p>
+          <p>Özenli şarkı çevirileri — {totalPosts} şarkı.</p>
         </div>
         <FooterCol title="Keşfet" items={[["Keşfet", discoverPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
         <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />

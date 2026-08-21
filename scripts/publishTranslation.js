@@ -47,7 +47,7 @@ function parseArgs(argv) {
 function usage() {
   return [
     "Kullanım:",
-    '  npm run publish:translation -- --spotify "SPOTIFY_LINK" --translation "/dosya/ceviri.txt" [--lyrics "/dosya/orijinal.txt"] [--commit] [--push]',
+    '  npm run publish:translation -- --spotify "SPOTIFY_LINK" --translation "/dosya/ceviri.txt" [--lyrics "/dosya/orijinal.txt"] [--original-language en] [--translation-language tr] [--annotations-language tr] [--commit] [--push]',
     "",
     "Çeviri dosyası formatı:",
     "  [Verse 1]",
@@ -238,6 +238,11 @@ async function main() {
   const record = {
     song: args.song || cleanDisplaySong(bundle.track?.name) || null,
     artist: bundle.artists?.map((artist) => artist.name).filter(Boolean).join(", ") || bundle.artist?.name || null,
+    languages: {
+      original: args["original-language"] || "en",
+      translation: args["translation-language"] || "tr",
+      annotations: args["annotations-language"] || args["translation-language"] || "tr",
+    },
     spotify: bundle,
     genius: geniusData?.matched
       ? { url: geniusData.song?.url, songId: geniusData.song?.id, description: geniusData.description }

@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { moodsForPost } from "../src/lib/moodClassifier.js";
+import { languagesFor } from "../src/lib/languages.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
@@ -66,7 +67,7 @@ function searchLines(post) {
   return lines;
 }
 
-function trLineCount(post) {
+function translationLineCount(post) {
   let count = 0;
   for (const block of post.blocks || []) {
     if (block.original) continue;
@@ -111,6 +112,7 @@ const index = posts.map((post) => ({
   excerpt: post.excerpt,
   categories: post.categories,
   category_slugs: post.category_slugs,
+  ...(post.languages ? { languages: languagesFor(post) } : {}),
   spotify: compactSpotify(post.spotify),
   // seo/oldUrl intentionally omitted — only the prerender script needs them,
   // and it reads src/data/posts.json directly. Keeps the JS bundle slim.
@@ -123,15 +125,15 @@ const index = posts.map((post) => ({
 }));
 
 // ---- Content validation: a translation site must not ship untranslated posts.
-const missingTr = posts.filter((post) => trLineCount(post) === 0);
-if (missingTr.length) {
-  console.warn(`\n⚠  UYARI: ${missingTr.length} postta hiç Türkçe çeviri satırı yok:`);
-  for (const post of missingTr) console.warn(`   - ${post.slug}`);
-  if (process.env.STRICT_TR === "1") {
-    console.error("\nSTRICT_TR=1 olduğu için build durduruldu. Çevirileri tamamlayın.");
+const missingTranslations = posts.filter((post) => translationLineCount(post) === 0);
+if (missingTranslations.length) {
+  console.warn(`\n⚠  UYARI: ${missingTranslations.length} postta hiç çeviri satırı yok:`);
+  for (const post of missingTranslations) console.warn(`   - ${post.slug}`);
+  if (process.env.STRICT_TRANSLATIONS === "1" || process.env.STRICT_TR === "1") {
+    console.error("\nKatı çeviri denetimi açık olduğu için build durduruldu. Çevirileri tamamlayın.");
     process.exit(1);
   }
-  console.warn("   Bu postlar salt İngilizce yayınlanır. Build'i kesmek için STRICT_TR=1 kullanın.\n");
+  console.warn("   Bu postlar yalnızca orijinal sözlerle yayınlanır. Build'i kesmek için STRICT_TRANSLATIONS=1 kullanın.\n");
 }
 
 await writeFile(path.join(ROOT, "src/data/postIndex.json"), JSON.stringify(index, null, 2), "utf8");

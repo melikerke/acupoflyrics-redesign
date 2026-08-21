@@ -30,7 +30,7 @@ export default function DiscoverPage() {
 
   useSeo({
     title: "Keşfet — Şarkı Çevirilerini Mood, Tür, Albüm ve Sanatçıya Göre Gezin | acupoflyrics",
-    description: `acupoflyrics arşivindeki ${totalPosts} Türkçe şarkı çevirisini keşfet: trend olanlar, en yeniler, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`,
+    description: `acupoflyrics arşivindeki ${totalPosts} şarkı çevirisini keşfet: trend olanlar, en yeniler, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`,
     path: discoverPath(),
     image: heroCovers[0],
     breadcrumbs: [

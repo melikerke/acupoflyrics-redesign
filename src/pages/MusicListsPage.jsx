@@ -43,7 +43,7 @@ export default function MusicListsPage() {
 
   useSeo({
     title: "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics",
-    description: "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların Türkçe çevirilerini acupoflyrics arşivinde bul.",
+    description: "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların çevirilerini acupoflyrics arşivinde bul.",
     path: "/listeler",
     breadcrumbs: [
       { name: "Ana sayfa", path: "/" },

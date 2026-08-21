@@ -4,6 +4,7 @@
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { languagesFor, translationLabel, translationSlugSuffix } from "../src/lib/languages.js";
 
 const FILES = {
   posts: ["src/data/posts.json", "data/content/posts.json"],
@@ -69,8 +70,11 @@ export function recordToPost(record, existingPosts = []) {
     .map((artist) => artist?.name?.trim())
     .filter(Boolean);
   const creditedNames = creditedArtistNames.length ? creditedArtistNames : [artistName];
-  const slug = record.slug || slugify(`${artistName} ${song} turkce ceviri`);
+  const requestedLanguages = languagesFor({ languages: record.languages });
+  const slug = record.slug || slugify(`${artistName} ${song} ${translationSlugSuffix({ languages: requestedLanguages })}`);
   const existing = existingPosts.find((p) => p.slug === slug);
+  const languages = languagesFor({ languages: record.languages || existing?.languages });
+  const titleLocale = languages.translation === "tr" ? "tr" : "en";
 
   const { en, tr, blocks, annotations } = stanzasToBlocks(record.stanzas);
 
@@ -85,11 +89,12 @@ export function recordToPost(record, existingPosts = []) {
   return {
     ...(existing || {}),
     id: String(record.id || existing?.id || maxId + 1),
-    title: `${artistName} ${song} Türkçe Çeviri`,
+    title: `${artistName} ${song} ${translationLabel({ languages }, titleLocale)}`,
     song,
     slug,
     date: record.date || existing?.date || record.savedAt || new Date().toISOString(),
     artist: artistName,
+    languages,
     // Artist slug first so artistSlugFor() (category_slugs[0]) resolves to the
     // artist, not the album.
     categories: record.categories || [...creditedNames, albumName].filter(Boolean),
@@ -98,7 +103,11 @@ export function recordToPost(record, existingPosts = []) {
     cover: cover || record.cover || existing?.cover || null,
     reading_time,
     blocks,
-    excerpt: en.find(Boolean) || "",
+    excerpt: record.excerpt || (
+      languages.translation === "en"
+        ? tr.find((line) => /\p{L}/u.test(line) && !/^\([^)]*\)$/.test(line))
+        : en.find(Boolean)
+    ) || "",
     // Per-line translator notes, keyed by word → shown on the detail page.
     annotations,
     // General translator note → "Bu çeviride zorlandığım yer" card.

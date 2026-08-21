@@ -21,7 +21,7 @@ export default function MoodPage() {
 
   const path = moodPath(slug);
   useSeo({
-    title: mood ? `${mood.name} Şarkıları — Mood'a Göre Türkçe Çeviriler | acupoflyrics` : "Mood bulunamadı",
+    title: mood ? `${mood.name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics` : "Mood bulunamadı",
     description: mood?.description,
     path,
     image: mood?.cover,

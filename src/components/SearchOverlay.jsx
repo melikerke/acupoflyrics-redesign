@@ -223,7 +223,7 @@ const Key = ({ children }) => <kbd style={{ border: "1px solid var(--color-line)
 
 function Hint() {
   return <div style={{ padding: "20px 18px", fontSize: 12, color: "var(--color-muted)", lineHeight: 1.7 }}>
-    Bir hisle başla — <span style={{ color: "var(--color-ink-soft)" }}>“ateş”, “özlem”, “gece”</span> — ya da sanatçı adıyla. Acupoflyrics hem orijinal sözlerde hem Türkçe çeviride arar.
+    Bir hisle başla — <span style={{ color: "var(--color-ink-soft)" }}>“ateş”, “özlem”, “gece”</span> — ya da sanatçı adıyla. Acupoflyrics hem orijinal sözlerde hem çevirilerde arar.
   </div>;
 }
 function Group({ label, show, children }) {

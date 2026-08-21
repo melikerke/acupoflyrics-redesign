@@ -27,6 +27,8 @@ const BIIIG_INPUT = path.join(process.cwd(), "scripts/aiStudioBiiiG.raw.json");
 const BIIIG_REPORT = "/tmp/acupoflyrics-ai-studio-biiig-report.json";
 const AUG21_INPUT = path.join(process.cwd(), "scripts/aiStudioAug21.raw.json");
 const AUG21_REPORT = "/tmp/acupoflyrics-ai-studio-aug21-report.json";
+const KORKMAM_INPUT = path.join(process.cwd(), "scripts/aiStudioKorkmamBen.raw.json");
+const KORKMAM_REPORT = "/tmp/acupoflyrics-ai-studio-korkmam-ben-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1058,6 +1060,80 @@ const TRACKS = [
       { word: "hep tazedir", text: "‘Evergreen’, her mevsim yeşil kalan bitki imgesinden hareketle ruhun hiç yaşlanmayan, canlı kalan yönünü anlatır." },
     ],
   },
+  {
+    batch: "korkmam",
+    sourceKey: "korkmamBen",
+    label: "Radikal — KORKMAM BEN",
+    artist: "Radikal",
+    title: "KORKMAM BEN",
+    slug: "radikal-korkmam-ben-english-translation",
+    spotifyUrl: "https://open.spotify.com/track/1E4KvEuWVyWB3x2QEjLIEG",
+    youtubeUrl: "https://www.youtube.com/watch?v=1d1ecNSsWQc",
+    geniusUrl: "https://genius.com/Radikal-korkmam-ben-lyrics",
+    appleMusicUrl: "https://music.apple.com/tr/album/korkmam-ben-single/6798354143",
+    releaseDate: "2026-08-21",
+    languages: { original: "tr", translation: "en", annotations: "en" },
+    modelEnd: "\nÇEVİRİ NOTLARI / TRANSLATION NOTES",
+    translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 3],
+    sectionOverrides: [
+      "Intro: İbrahim",
+      "Verse 1: Vedat",
+      "Pre-Chorus: Yusuf Emre",
+      "Chorus: Vedat",
+      "Verse 2: Yuşa",
+      "Bridge: Vedat & Yusuf Emre",
+      "Verse 3: İbrahim",
+      "Chorus: Vedat",
+      "Chorus: Vedat",
+    ],
+    preserveParentheticals: true,
+    enforceLineParity: true,
+    translationOverrides: {
+      0: ["(Radikal)"],
+      1: [
+        "I always forget everything at night",
+        "I came crawling back to you (Back to you)",
+        "I grew up, I learned how to love",
+        "With just a single word from you",
+      ],
+      3: [
+        "I’m not afraid of your lies (Oh-oh, oh-oh)",
+        "They can’t pierce my memories",
+        "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh; Dreams)",
+      ],
+      6: [
+        "(Woo, woo)",
+        "(Shut it, shut it, shut it, shut it)",
+        "The door you closed is now—now in your past",
+        "Every night you run away brings you back to me",
+        "Even if you go far away, in your heart",
+        "My name, my name will always echo",
+        "Don't stop, go ahead and say what you're holding inside",
+        "If you’re not regretful, why do your eyes look like that?",
+        "When everyone walks out on you",
+        "Only one name will fall from your lips... (Ra-Ra-Ra-Radikal)",
+      ],
+      7: [
+        "I’m not afraid of your lies (Oh-oh, oh-oh)",
+        "They can’t pierce my memories",
+        "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah (Oh-oh, oh-oh)",
+      ],
+      8: [
+        "I’m not afraid of your lies",
+        "They can’t pierce my memories",
+        "Liars ain’t allowed in my dreams, ah-ah-ah-ah-ah-ah-ah-ah",
+      ],
+    },
+    annotationOverrides: [
+      { word: "came crawling back", text: "The Turkish phrase ‘Tıpış tıpış gelmek’ describes returning submissively after a mistake. ‘To come crawling back’ preserves its strong sense of regret and surrender." },
+      { word: "always in a bind", text: "‘Bi’ çare’ conveys helplessness or having no solution. ‘In a bind’ is a natural English idiom for being trapped in a difficult situation, reflecting the narrator’s mental struggle." },
+      { word: "stalling for time", text: "‘Oyalar vade’ refers to delaying a process or buying time. ‘Stalling for time’ captures how the intrusive thought keeps the narrator from moving on." },
+      { word: "earned a place in me", text: "‘Hane’ literally means a house or household. ‘Earned a place in me’ keeps that sense of belonging and suggests a permanent place in the narrator’s heart." },
+      { word: "pierce my memories", text: "‘İşlemez’ suggests that something cannot penetrate a protected surface. ‘Pierce’ emphasizes that the lies are not sharp enough to damage the memories." },
+      { word: "dug your pit", text: "‘Kuyu kazmak’ means secretly plotting against someone. The English image ‘to dig a pit’ preserves the original metaphor of sabotage and revenge." },
+      { word: "flaked again", text: "‘Bozdu oyunu’ means ruining the plan or breaking the rules of the game. The modern slang ‘to flake’ describes someone who breaks their word or bails at the last minute." },
+    ],
+  },
 ];
 
 const INITIALS = ["g", "kk", "n", "d", "tt", "r", "m", "b", "pp", "s", "ss", "", "j", "jj", "ch", "k", "t", "p", "h"];
@@ -1260,12 +1336,13 @@ function preserveParenthetical(content) {
   return PRESERVED_ADLIBS.test(content.trim()) || PRESERVED_TRANSLATED_ECHOES.has(clean);
 }
 
-function cleanTranslationLine(value) {
-  return String(value || "")
-    .replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "")
-    .replace(/\s*\(([^)]*\p{L}[^)]*)\)/gu, (whole, content) => (
+function cleanTranslationLine(value, { preserveParentheticals = false } = {}) {
+  const withoutFootnotes = String(value || "").replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "");
+  return (preserveParentheticals
+    ? withoutFootnotes
+    : withoutFootnotes.replace(/\s*\(([^)]*\p{L}[^)]*)\)/gu, (whole, content) => (
       preserveParenthetical(content) ? whole : ""
-    ))
+    )))
     .replace(/\s+([,.;!?])/g, "$1")
     .replace(/\s{2,}/g, " ")
     .trim();
@@ -1360,11 +1437,11 @@ function parseTrack(source, track) {
       return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
     }),
     translation: (track.translationOverrides?.[index] || translatedStanzas[translationMap[index]].lines)
-      .map(cleanTranslationLine)
+      .map((line) => cleanTranslationLine(line, { preserveParentheticals: track.preserveParentheticals }))
       .filter(Boolean),
     notes: [],
   }));
-  if (track.batch === "aug21") {
+  if (track.enforceLineParity || track.batch === "aug21") {
     const mismatch = stanzas.find((stanza) => stanza.original.length !== stanza.translation.length);
     if (mismatch) {
       throw new Error(`${track.label}: ${mismatch.section || "başlıksız kıta"} satırları eşleşmiyor (${mismatch.original.length}/${mismatch.translation.length}).`);
@@ -1464,6 +1541,14 @@ async function findYoutube(track, spotifyBundle) {
 function descriptionFor(track, bundle) {
   const artist = track.artistDisplay || track.artist;
   const romanized = track.hasHangul || track.hasHan ? ", romanize okunuşu" : "";
+  if (track.languages?.translation === "en") {
+    const album = bundle.album?.name && bundle.album.name !== track.title
+      ? ` from ${bundle.album.name}`
+      : "";
+    const detailed = `${artist} – ${track.title} Turkish lyrics and a carefully crafted English translation${album}. Explore the song’s meaning, idioms and notes.`;
+    if (detailed.length <= 160) return detailed;
+    return `${artist} – ${track.title} Turkish lyrics, English translation and notes. Explore the song’s meaning and idioms.`;
+  }
   const album = bundle.album?.name && bundle.album.name !== track.title ? ` ${bundle.album.name} albümündeki parçanın` : " Parçanın";
   const detailed = `${artist} – ${track.title} şarkı sözleri${romanized} ve özenli Türkçe çevirisi.${album} anlamını ve açıklamalarını keşfet.`;
   if (detailed.length <= 160) return detailed;
@@ -1498,10 +1583,11 @@ async function main() {
   const aug18Batch = process.argv.includes("--aug18");
   const biiigBatch = process.argv.includes("--biiig");
   const aug21Batch = process.argv.includes("--aug21");
-  const inputPath = aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const korkmamBatch = process.argv.includes("--korkmam");
+  const inputPath = korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   ));
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));
@@ -1563,6 +1649,7 @@ async function main() {
     }
     if (track.spotifyUrl) {
       const bundle = await withNetworkRetry(track.label, () => fetchTrackBundle(track.spotifyUrl, credentials));
+      if (track.releaseDate) bundle.album.releaseDate = track.releaseDate;
       console.log(`Spotify ✓ ${track.label}: ${bundle.track.name} — ${bundle.album.name}`);
       enriched.push({ ...track, spotify: bundle, spotifyScore: 99 });
       continue;
@@ -1631,6 +1718,7 @@ async function main() {
       genius: track.geniusUrl ? { url: track.geniusUrl } : null,
       stanzas: track.stanzas,
       youtubeUrl: track.youtube.selected?.url || null,
+      languages: track.languages,
       translatorNote: track.hasHangul ? "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi." : null,
       savedAt: new Date().toISOString(),
       source: "ai-studio-spotify-youtube",

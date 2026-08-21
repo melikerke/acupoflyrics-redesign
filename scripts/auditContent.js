@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import posts from "../src/data/posts.json" with { type: "json" };
+import { languageInfo, languagesFor, translationLabel } from "../src/lib/languages.js";
 
 const SITE_URL = "https://www.acupoflyrics.com";
 const REPORT_ROOT = path.join(process.cwd(), "reports", "site-audit");
@@ -76,7 +77,10 @@ function hasSuspiciousInlineGloss(line) {
 function translationQualityIssues(post) {
   const issues = [];
   const blocks = post.blocks || [];
-  const translation = lyricText(post, false).toLocaleLowerCase("tr-TR");
+  const languages = languagesFor(post);
+  const translationLocale = languageInfo(languages.translation).locale;
+  const translation = lyricText(post, false).toLocaleLowerCase(translationLocale);
+  const translatedLanguageName = languageInfo(languages.translation).turkishName;
 
   blocks.forEach((block, blockIndex) => {
     const lines = Array.isArray(block?.lines) ? block.lines : [];
@@ -90,7 +94,7 @@ function translationQualityIssues(post) {
       if (/^\s*\*[^*]/.test(line) || /\*[^*]+\*/.test(block.label || "")) {
         issues.push(rowFor(post, "markdown_artifact_in_lyrics", `${location}: ${line}`));
       }
-      if (!block.original && hasSuspiciousInlineGloss(line)) {
+      if (!block.original && languages.translation === "tr" && hasSuspiciousInlineGloss(line)) {
         issues.push(rowFor(post, "english_gloss_inside_translation", `${location}: ${line}`));
       }
       if (!block.original && /(?:\(\d+\)|[¹²³⁴⁵⁶⁷⁸⁹])\s*[.!?…]*$/.test(line)) {
@@ -111,7 +115,7 @@ function translationQualityIssues(post) {
         issues.push(rowFor(
           post,
           "section_line_count_mismatch",
-          `${block.label || `blok ${blockIndex + 1}`}: orijinal ${lines.length}, Türkçe ${translatedLines.length}`,
+          `${block.label || `blok ${blockIndex + 1}`}: orijinal ${lines.length}, ${translatedLanguageName} ${translatedLines.length}`,
         ));
       }
     }
@@ -121,7 +125,7 @@ function translationQualityIssues(post) {
     if (sourcePlatformPattern.test(String(note || ""))) {
       issues.push(rowFor(post, "source_platform_named_in_annotation", key));
     }
-    if (!translation.includes(String(key).toLocaleLowerCase("tr-TR"))) {
+    if (!translation.includes(String(key).toLocaleLowerCase(translationLocale))) {
       issues.push(rowFor(post, "annotation_not_clickable_in_translation", key));
     }
   });
@@ -165,8 +169,11 @@ const imageIssues = posts
 const translationIssues = posts
   .flatMap((post) => {
     const issues = [];
-    if (!hasOriginalLyrics(post)) issues.push(rowFor(post, "original_lyrics_missing", "İngilizce/orijinal söz bloğu yok"));
-    if (!hasTranslation(post)) issues.push(rowFor(post, "translation_missing", "Türkçe çeviri bloğu yok"));
+    const languages = languagesFor(post);
+    if (!hasOriginalLyrics(post)) {
+      issues.push(rowFor(post, "original_lyrics_missing", `${languageInfo(languages.original).turkishName}/orijinal söz bloğu yok`));
+    }
+    if (!hasTranslation(post)) issues.push(rowFor(post, "translation_missing", `${translationLabel(post)} bloğu yok`));
     return issues;
   });
 

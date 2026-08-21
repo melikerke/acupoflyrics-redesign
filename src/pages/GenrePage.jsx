@@ -21,7 +21,7 @@ export default function GenrePage() {
 
   const path = genrePath(slug);
   useSeo({
-    title: genre ? `${genre.name} Şarkı Sözleri ve Türkçe Çevirileri | acupoflyrics` : "Tür bulunamadı",
+    title: genre ? `${genre.name} Şarkı Sözleri ve Çevirileri | acupoflyrics` : "Tür bulunamadı",
     description: genre?.description,
     path,
     image: genre?.cover,

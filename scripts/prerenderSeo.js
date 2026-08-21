@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { translationMetaDescription } from "../src/lib/meta.js";
 import { spotifyImageUrl } from "../src/lib/images.js";
+import { languageInfo, languagesFor, translationLabel } from "../src/lib/languages.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
@@ -230,15 +231,43 @@ function staticPage({ kicker, title, description, image, children = "" }) {
   </div>`;
 }
 
+function translationPageTitle(post) {
+  const languages = languagesFor(post);
+  const locale = languages.translation === "tr" ? "tr" : "en";
+  return `${post.artist} ${post.song} ${translationLabel(post, locale)}`;
+}
+
+function staticSongCopy(post) {
+  const languages = languagesFor(post);
+  if (languages.translation === "tr") {
+    return {
+      kicker: "Şarkı sözleri ve Türkçe çeviri",
+      originalHeading: "Orijinal şarkı sözleri",
+      translationHeading: "Türkçe çeviri",
+    };
+  }
+
+  const originalName = languageInfo(languages.original).englishName;
+  const translationName = languageInfo(languages.translation).englishName;
+  return {
+    kicker: `${originalName} lyrics and ${translationName} translation`,
+    originalHeading: `Original ${originalName} lyrics`,
+    translationHeading: `${translationName} translation`,
+  };
+}
+
 function staticSong(post) {
+  const languages = languagesFor(post);
+  const copy = staticSongCopy(post);
   const sections = (post.blocks || []).map((block) => {
-    const language = block.original ? "Orijinal şarkı sözleri" : "Türkçe çeviri";
+    const language = block.original ? copy.originalHeading : copy.translationHeading;
+    const languageCode = block.original ? languages.original : languages.translation;
     const lines = (block.lines || []).filter(Boolean).map((line) => `<span>${escapeHtml(line)}</span>`).join("<br />");
-    return lines ? `<section><h2>${language}</h2><p>${lines}</p></section>` : "";
+    return lines ? `<section lang="${escapeHtml(languageCode)}"><h2>${escapeHtml(language)}</h2><p>${lines}</p></section>` : "";
   }).join("");
   const album = albumNameFor(post);
   return staticPage({
-    kicker: "Şarkı sözleri ve Türkçe çeviri",
+    kicker: copy.kicker,
     title: `${post.artist} — ${post.song}`,
     description: translationMetaDescription(post),
     image: post.cover,
@@ -348,12 +377,12 @@ const routes = [
       },
     },
   ),
-  route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} Türkçe şarkı çevirisini mood, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
-  route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem Türkçe çeviride.", posts[0]?.cover, { noindex: true }),
-  route("/listeler", "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics", "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların Türkçe çevirilerini arşivde bul.", posts[0]?.cover),
+  route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} şarkı çevirisini mood, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
+  route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem çevirilerde.", posts[0]?.cover, { noindex: true }),
+  route("/listeler", "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics", "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların çevirilerini arşivde bul.", posts[0]?.cover),
   route("/admin", "Admin — acupoflyrics", "acupoflyrics çeviri ve liste yönetim paneli.", posts[0]?.cover, { noindex: true }),
-  route("/albumler", "Albümler — Türkçe Şarkı Çevirileri | acupoflyrics", "Çevirisi bulunan albümler: kapaklar, çıkış yılları ve albümdeki tüm Türkçe çeviriler tek sayfada.", posts[0]?.cover),
-  route("/hakkimizda", "Hakkımızda | acupoflyrics", "acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyan bağımsız bir çeviri arşividir.", posts[0]?.cover),
+  route("/albumler", "Albümler — Şarkı Çevirileri | acupoflyrics", "Çevirisi bulunan albümler: kapaklar, çıkış yılları ve albümdeki tüm çeviriler tek sayfada.", posts[0]?.cover),
+  route("/hakkimizda", "Hakkımızda | acupoflyrics", "acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını diller arasında taşıyan bağımsız bir çeviri arşividir.", posts[0]?.cover),
   route("/iletisim", "İletişim | acupoflyrics", "Çeviri talebi, düzeltme önerisi ya da iş birliği için acupoflyrics ile iletişime geç.", posts[0]?.cover),
   route("/gizlilik", "Gizlilik ve çerezler | acupoflyrics", "acupoflyrics üzerindeki Google Analytics ölçümü, çerez tercihi ve veri kullanımı hakkında bilgi.", posts[0]?.cover),
   route("/pop-gunlugu", "Pop Günlüğü | acupoflyrics", "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla, sakin ve anlaşılır notlarla takip et.", popGundemiArticles[0]?.image, {
@@ -426,7 +455,7 @@ for (const post of posts) {
   const primaryArtist = creditedArtists(post)[0];
   routes.push(route(
     canonicalPath,
-    post.seo?.title || post.title || `${post.artist} ${post.song} Türkçe Çeviri`,
+    post.seo?.title || (post.languages ? translationPageTitle(post) : post.title) || translationPageTitle(post),
     description,
     post.cover,
     {
@@ -446,6 +475,7 @@ for (const post of posts) {
         inAlbum: albumNameFor(post) !== "Tekli" ? { "@type": "MusicAlbum", name: albumNameFor(post) } : undefined,
         image: post.cover,
         url: `${SITE}${canonicalPath}`,
+        inLanguage: languagesFor(post).original,
         isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc || undefined,
         sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
       },
@@ -469,18 +499,37 @@ for (const post of posts) {
     if (!artists.get(credit.slug).posts.some((item) => item.slug === post.slug)) artists.get(credit.slug).posts.push(post);
   }
 }
+
+function collectionTargetMode(items) {
+  const targets = [...new Set(items.map((item) => languagesFor(item).translation))];
+  if (targets.length === 1 && targets[0] === "en") return "en";
+  if (targets.length === 1 && targets[0] === "tr") return "tr";
+  return "mixed";
+}
+
 for (const artist of artists.values()) {
+  const targetMode = collectionTargetMode(artist.posts);
+  const title = targetMode === "en"
+    ? `${artist.name} English Translations | acupoflyrics`
+    : targetMode === "tr"
+      ? `${artist.name} Türkçe Çevirileri | acupoflyrics`
+      : `${artist.name} Şarkı Çevirileri | acupoflyrics`;
+  const description = targetMode === "en"
+    ? `${artist.name} Turkish lyrics, English translations, albums and most-read songs.`
+    : targetMode === "tr"
+      ? `${artist.name} şarkı sözleri, Türkçe çevirileri, albümleri ve en çok okunan parçaları.`
+      : `${artist.name} şarkı sözleri, farklı dillerdeki çevirileri, albümleri ve en çok okunan parçaları.`;
   routes.push(route(
     `/artist/${artist.slug}`,
-    `${artist.name} Türkçe Çevirileri | acupoflyrics`,
-    `${artist.name} şarkı sözleri, Türkçe çevirileri, albümleri ve en çok okunan parçaları.`,
+    title,
+    description,
     artist.cover,
     {
       type: "profile",
       staticHtml: staticCollectionPage({
         kicker: "Sanatçı",
         title: artist.name,
-        description: `${artist.name} şarkı sözleri, Türkçe çevirileri ve albümleri.`,
+        description,
         image: artist.cover,
         items: artist.posts,
       }),
@@ -503,10 +552,21 @@ for (const post of posts) {
   albums.get(slug).tracks.push(post);
 }
 for (const album of albums.values()) {
+  const targetMode = collectionTargetMode(album.tracks);
+  const title = targetMode === "en"
+    ? `${album.name} — ${album.artist} English Translations | acupoflyrics`
+    : targetMode === "tr"
+      ? `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`
+      : `${album.name} — ${album.artist} Şarkı Çevirileri | acupoflyrics`;
+  const description = targetMode === "en"
+    ? `${album.artist} ${album.name} Turkish lyrics and English translations with Spotify metadata and release context.`
+    : targetMode === "tr"
+      ? `${album.artist} ${album.name} albümündeki şarkıların Türkçe çevirileri, Spotify metadata ve albüm bağlamıyla.`
+      : `${album.artist} ${album.name} albümündeki şarkıların çevirileri, Spotify metadata ve albüm bağlamıyla.`;
   routes.push(route(
     `/album/${album.slug}`,
-    `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`,
-    `${album.artist} ${album.name} albümündeki şarkıların Türkçe çevirileri, Spotify metadata ve albüm bağlamıyla.`,
+    title,
+    description,
     album.cover,
     {
       type: "music.album",
@@ -515,7 +575,7 @@ for (const album of albums.values()) {
       staticHtml: staticCollectionPage({
         kicker: "Albüm",
         title: album.name,
-        description: `${album.artist} albümündeki ${album.count} şarkının Türkçe çevirisi.`,
+        description,
         image: album.cover,
         items: album.tracks,
       }),
@@ -531,16 +591,21 @@ for (const album of albums.values()) {
 for (const year of collectionYears) {
   const name = `${year} Şarkıları`;
   const yearPosts = posts.filter((post) => releaseYearFor(post) === year);
+  const targetMode = collectionTargetMode(yearPosts);
+  const yearTitle = targetMode === "tr" ? `${name} — Türkçe Şarkı Çevirileri | acupoflyrics` : `${name} — Şarkı Çevirileri | acupoflyrics`;
+  const yearDescription = targetMode === "tr"
+    ? `${year} yılında yayımlanan ve acupoflyrics arşivinde Türkçeye çevrilen ${yearPosts.length} şarkı.`
+    : `${year} yılında yayımlanan ve acupoflyrics arşivinde çevirisi bulunan ${yearPosts.length} şarkı.`;
   routes.push(route(
     `/collection/${slugify(name)}`,
-    `${name} — Türkçe Şarkı Çevirileri | acupoflyrics`,
-    `${year} yılında yayımlanan ve acupoflyrics arşivinde Türkçeye çevrilen ${yearPosts.length} şarkı.`,
+    yearTitle,
+    yearDescription,
     yearPosts[0]?.cover,
     {
       staticHtml: staticCollectionPage({
         kicker: "Yıl arşivi",
         title: name,
-        description: `${year} yılında yayımlanan ${yearPosts.length} şarkının Türkçe çevirisi.`,
+        description: yearDescription,
         image: yearPosts[0]?.cover,
         items: yearPosts,
       }),
@@ -554,11 +619,11 @@ for (const year of collectionYears) {
 for (const name of moodNames) {
   const moodPosts = posts.filter((post) => moodForPost(post) === name);
   const moodPath = `/mood/${slugify(name)}`;
-  routes.push(route(moodPath, `${name} Mood Şarkı Çevirileri | acupoflyrics`, `${name} hissi taşıyan şarkıların Türkçe çevirileri.`, moodPosts[0]?.cover, {
+  routes.push(route(moodPath, `${name} Mood Şarkı Çevirileri | acupoflyrics`, `${name} hissi taşıyan şarkıların çevirileri.`, moodPosts[0]?.cover, {
     staticHtml: staticCollectionPage({
       kicker: "Mood",
       title: name,
-      description: `${name} hissi taşıyan ${moodPosts.length} şarkının Türkçe çevirisi.`,
+      description: `${name} hissi taşıyan ${moodPosts.length} şarkının çevirisi.`,
       image: moodPosts[0]?.cover,
       items: moodPosts,
     }),
@@ -570,7 +635,7 @@ for (const name of moodNames) {
   }));
 }
 for (const name of genreNames) {
-  routes.push(route(`/genre/${slugify(name)}`, `${name} Türkçe Şarkı Çevirileri | acupoflyrics`, `${name} türündeki şarkıların Türkçe çevirileri, sanatçıları ve albümleri.`, posts[0]?.cover));
+  routes.push(route(`/genre/${slugify(name)}`, `${name} Şarkı Çevirileri | acupoflyrics`, `${name} türündeki şarkıların çevirileri, sanatçıları ve albümleri.`, posts[0]?.cover));
 }
 
 const byPath = new Map(routes.map((r) => [r.path, r]));
@@ -634,18 +699,18 @@ const feedPosts = [...posts]
 const feed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>acupoflyrics — Türkçe şarkı çevirileri</title>
+    <title>acupoflyrics — şarkı çevirileri</title>
     <link>${SITE}/</link>
-    <description>Şarkı sözlerinin hikâyesi ve anlamı, özenli Türkçe çevirilerle.</description>
+    <description>Şarkı sözlerinin hikâyesi ve anlamı, özenli çevirilerle.</description>
     <language>tr</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml" />
 ${feedPosts.map((post) => `    <item>
-      <title>${rssEscape(`${post.artist} - ${post.song} Türkçe Çeviri`)}</title>
+      <title>${rssEscape(`${post.artist} - ${post.song} ${translationLabel(post, languagesFor(post).translation === "tr" ? "tr" : "en")}`)}</title>
       <link>${SITE}${postPath(post)}</link>
       <guid isPermaLink="true">${SITE}${postPath(post)}</guid>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
-      <description>${rssEscape(post.excerpt || `${post.artist} ${post.song} Türkçe çeviri ve orijinal sözler.`)}</description>
+      <description>${rssEscape(languagesFor(post).translation === "tr" ? (post.excerpt || `${post.artist} ${post.song} Türkçe çeviri ve orijinal sözler.`) : translationMetaDescription(post))}</description>
     </item>`).join("\n")}
   </channel>
 </rss>

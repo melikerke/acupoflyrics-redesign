@@ -36,7 +36,7 @@ export default function CollectionPage() {
 
   const path = collectionPath(slug);
   useSeo({
-    title: collection ? `${collection.name} — Türkçe Şarkı Çevirileri | acupoflyrics` : "Yıl arşivi bulunamadı",
+    title: collection ? `${collection.name} — Şarkı Çevirileri | acupoflyrics` : "Yıl arşivi bulunamadı",
     description: collection?.description,
     path,
     image: collection?.cover,
@@ -72,7 +72,7 @@ export default function CollectionPage() {
         kicker="Yıl Arşivi"
         title={collection.name}
         titleSerif
-        meta={["Çıkış yılına göre", "Türkçe çeviri arşivi"]}
+        meta={["Çıkış yılına göre", "Şarkı çeviri arşivi"]}
         description={collection.description}
         stats={[
           { value: collection.count, label: "şarkı", icon: "note" },

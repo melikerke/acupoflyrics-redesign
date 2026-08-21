@@ -36,8 +36,8 @@ export default function AlbumsPage() {
   const collage = albumIndex.slice(0, 4).map((a) => a.cover);
 
   useSeo({
-    title: "Albümler — Türkçe Şarkı Çevirileri | acupoflyrics",
-    description: `Çevirisi bulunan ${albumIndex.length} albüm: kapaklar, çıkış yılları ve albümdeki tüm Türkçe çeviriler tek sayfada.`,
+    title: "Albümler — Şarkı Çevirileri | acupoflyrics",
+    description: `Çevirisi bulunan ${albumIndex.length} albüm: kapaklar, çıkış yılları ve albümdeki tüm çeviriler tek sayfada.`,
     path: "/albumler",
     image: collage[0],
     breadcrumbs: [
