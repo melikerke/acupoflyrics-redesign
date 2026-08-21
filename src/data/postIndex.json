@@ -45,7 +45,7 @@
     ],
     "firstPair": {
       "en": "(Radikal)",
-      "tr": "(Radikal)"
+      "tr": "(Radical)"
     },
     "heroPair": {
       "en": "Korkmam ben senin yalanlarından (Oh-oh, oh-oh)",
@@ -186,7 +186,7 @@
     ],
     "firstPair": {
       "en": "(Ooh, ooh, ooh)",
-      "tr": "(Ooh, ooh, ooh)"
+      "tr": "(Ooh, ooh, ooh...)"
     },
     "heroPair": {
       "en": "Take me back to the night we met",
@@ -236,7 +236,7 @@
     ],
     "firstPair": {
       "en": "Ayy, ayy, ayy, ayy (Ooh)",
-      "tr": "Ayy, ayy, ayy, ayy (Ooh)"
+      "tr": "Ayy, ayy... (Ooh)"
     },
     "heroPair": {
       "en": "You're the sunflower, I think your love would be too much",
@@ -251,7 +251,7 @@
     "artist": "Carly Rae Jepsen",
     "cover": "https://i.scdn.co/image/ab67616d0000b273edacad6830a0df8f6665bf7d",
     "date": "2026-08-21T08:20:01.994Z",
-    "reading_time": 6,
+    "reading_time": 5,
     "excerpt": "Keep me in a box like that",
     "categories": [
       "Carly Rae Jepsen",
@@ -279,8 +279,8 @@
       "albumArtist": "Carly Rae Jepsen"
     },
     "moods": [
-      "Love",
-      "Lonely"
+      "Motivation",
+      "Love"
     ],
     "firstPair": {
       "en": "Keep me in a box like that",
@@ -329,7 +329,8 @@
       "albumArtist": "Mariah Carey"
     },
     "moods": [
-      "Healing"
+      "Healing",
+      "Night"
     ],
     "firstPair": {
       "en": "Let you take me out, I knew what you were all about",
@@ -380,11 +381,11 @@
     ],
     "firstPair": {
       "en": "Come on, come on, come on",
-      "tr": "Hadi, hadi, hadi"
+      "tr": "Hadi ama, gel artık..."
     },
     "heroPair": {
       "en": "Come on, come on, come on",
-      "tr": "Hadi, hadi, hadi"
+      "tr": "Hadi ama, gel artık..."
     }
   },
   {
@@ -494,7 +495,7 @@
     "artist": "ENHYPEN",
     "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
     "date": "2026-08-21T08:20:01.993Z",
-    "reading_time": 3,
+    "reading_time": 2,
     "excerpt": "Mic check, mic check",
     "categories": [
       "ENHYPEN",
@@ -589,7 +590,7 @@
     "artist": "ENHYPEN",
     "cover": "https://i.scdn.co/image/ab67616d0000b27327154ec69768838c6c62f74b",
     "date": "2026-08-21T08:20:01.993Z",
-    "reading_time": 3,
+    "reading_time": 2,
     "excerpt": "Ooh, woah, ooh",
     "categories": [
       "ENHYPEN",
@@ -621,7 +622,7 @@
     ],
     "firstPair": {
       "en": "Ooh, woah, ooh",
-      "tr": "Ooh, woah, ooh"
+      "tr": "Ooh, woah..."
     },
     "heroPair": {
       "en": "I got it, I got it bad for you",
@@ -715,7 +716,7 @@
     ],
     "firstPair": {
       "en": "Woah, oh-oh-oh",
-      "tr": "Woah, oh-oh-oh"
+      "tr": "Woah, oh-oh-oh..."
     },
     "heroPair": {
       "en": "It's you and me only, two fools on this journey",
@@ -758,8 +759,7 @@
       "albumArtist": "Taylor Swift"
     },
     "moods": [
-      "Love",
-      "Sad"
+      "Love"
     ],
     "firstPair": {
       "en": "Oh, here we go again",
@@ -767,7 +767,7 @@
     },
     "heroPair": {
       "en": "My boy only breaks his favorite toys, toys, oh",
-      "tr": "Benim sevgilim sadece en sevdiği oyuncaklarını kırar, oyuncaklarını, ah"
+      "tr": "Benim sevgilim sadece en sevdiği oyuncakları kırar;"
     }
   },
   {
@@ -957,7 +957,7 @@
     },
     "heroPair": {
       "en": "I'm a loser, babe (Yeah)",
-      "tr": "Ben bir kaybedenim bebeğim;"
+      "tr": "Ben bir kaybedenim bebeğim; (Evet)"
     }
   },
   {
@@ -1197,7 +1197,7 @@
     "artist": "Morgan Wallen",
     "cover": "https://i.scdn.co/image/ab67616d0000b273a70a80359930eea5bfdf11f5",
     "date": "2026-08-17T08:18:04.000Z",
-    "reading_time": 3,
+    "reading_time": 4,
     "excerpt": "Wouldn't trade this holler for a stone-cold million dollars",
     "categories": [
       "Morgan Wallen",
@@ -1222,8 +1222,7 @@
       "artistImage": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30"
     },
     "moods": [
-      "Motivation",
-      "Love"
+      "Motivation"
     ],
     "firstPair": {
       "en": "Wouldn’t trade this holler for a stone-cold million dollars",
@@ -1369,7 +1368,7 @@
     ],
     "firstPair": {
       "en": "I saw you in the mirror",
-      "tr": "Seni aynada gördüm..."
+      "tr": "Seni aynada gördüm (yansımamdaydın)..."
     },
     "heroPair": {
       "en": "I'd drive you up to Bel Air",
@@ -1384,7 +1383,7 @@
     "artist": "KATSEYE",
     "cover": "https://i.scdn.co/image/ab67616d0000b2735631546bdc010851494d88ba",
     "date": "2026-08-14T09:23:42.050Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Eu sei que tu gosta da fruta, mas essa é diferente",
     "categories": [
       "KATSEYE",
@@ -1465,11 +1464,11 @@
     ],
     "firstPair": {
       "en": "What you gonna say? (Yeah)",
-      "tr": "Ne diyeceksin bakalım?"
+      "tr": "Ne diyeceksin bakalım? (Evet)"
     },
     "heroPair": {
       "en": "What you gonna say? (Yeah)",
-      "tr": "Ne diyeceksin bakalım?"
+      "tr": "Ne diyeceksin bakalım? (Evet)"
     }
   },
   {
@@ -1935,7 +1934,7 @@
     },
     "moods": [
       "Sad",
-      "Dreamy"
+      "Healing"
     ],
     "firstPair": {
       "en": "Yeah, I've been waiting too long",
@@ -2129,7 +2128,7 @@
     ],
     "firstPair": {
       "en": "It makes me wanna throw my life away",
-      "tr": "Bu his, tüm hayatımı bir kenara itme isteği uyandırıyor;"
+      "tr": "Bu his, tüm hayatımı bir kenara itme (fırlatıp atma) isteği uyandırıyor;"
     },
     "heroPair": {
       "en": "When the camera's on",
@@ -2368,7 +2367,7 @@
     ],
     "firstPair": {
       "en": "Who's your bias? I'm your bias",
-      "tr": "Bias'ın¹ (favorin) kim? Senin bias'ın benim!"
+      "tr": "Bias'ın (favorin) kim? Senin bias'ın benim!"
     },
     "heroPair": {
       "en": "It's me",
@@ -2470,7 +2469,7 @@
     },
     "heroPair": {
       "en": "neol wihae junbihan vibe, how do you like it?",
-      "tr": "Senin için hazırladığım şu havaya (vibe) bak; nasıl, beğendin mi?"
+      "tr": "Senin için hazırladığım şu havaya bak; nasıl, beğendin mi?"
     }
   },
   {
@@ -2711,7 +2710,7 @@
     },
     "heroPair": {
       "en": "ganggangsuwolrae, party rock, rock",
-      "tr": "Hadi ele ele tutuşup dönelim (Ganggangsullae),² partide coşalım!"
+      "tr": "Hadi ele ele tutuşup dönelim (Ganggangsullae), partide coşalım!"
     }
   },
   {
@@ -2807,7 +2806,7 @@
     },
     "heroPair": {
       "en": "Woah, get me remedied",
-      "tr": "Woah, bu gece şifalanıyorum (get me remedied)."
+      "tr": "Woah, bu gece şifalanıyorum."
     }
   },
   {
@@ -2851,7 +2850,7 @@
     ],
     "firstPair": {
       "en": "Bottle of '42 helps to ease the pain",
-      "tr": "Bir şişe '42 (Don Julio)¹ acıyı dindirmeye yardımcı olur;"
+      "tr": "Bir şişe '42 (Don Julio) acıyı dindirmeye yardımcı olur;"
     },
     "heroPair": {
       "en": "Therapy at the club (At the club)",
@@ -2899,11 +2898,11 @@
     ],
     "firstPair": {
       "en": "How can I not leak it?",
-      "tr": "Nasıl \"sızdırmam\" (leak) ha?"
+      "tr": "Nasıl \"sızdırmam\" ha?"
     },
     "heroPair": {
       "en": "How can I not leak it?",
-      "tr": "Nasıl \"sızdırmam\" (leak) ha?"
+      "tr": "Nasıl \"sızdırmam\" ha?"
     }
   },
   {
@@ -3104,7 +3103,7 @@
     "artist": "KISS OF LIFE",
     "cover": "https://i.scdn.co/image/ab67616d0000b273473b380c12e0b95969a89b9e",
     "date": "2026-08-10T07:50:32.699Z",
-    "reading_time": 5,
+    "reading_time": 4,
     "excerpt": "Mama said I'm right and in control",
     "categories": [
       "KISS OF LIFE",
@@ -3185,7 +3184,7 @@
     ],
     "firstPair": {
       "en": "They say, \"The holy water's watered down",
-      "tr": "Diyorlar ki; \"Kutsal suyun bile etkisi kalmadı (sulandırıldı),¹"
+      "tr": "Diyorlar ki; \"Kutsal suyun bile etkisi kalmadı (sulandırıldı),"
     },
     "heroPair": {
       "en": "You're takin' me out of the ordinary",
@@ -3285,7 +3284,7 @@
     },
     "heroPair": {
       "en": "neoreul jikil blue blood type",
-      "tr": "Seni koruyacak olan o \"asil kan\" (blue blood) benim."
+      "tr": "Seni koruyacak olan o \"asil kan\" benim."
     }
   },
   {
@@ -3343,7 +3342,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
     "date": "2026-08-07T14:31:47.000Z",
-    "reading_time": 2,
+    "reading_time": 4,
     "excerpt": "Senin o dünyanı yerle bir edip kendi ışığımla parlayacağım.",
     "categories": [
       "BLACKPINK",
@@ -3438,7 +3437,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e20e5c366b497518353497b0",
     "date": "2026-08-07T14:29:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "O seni öldürmeden önce bitir şu aşkı.",
     "categories": [
       "BLACKPINK",
@@ -3475,7 +3474,7 @@
     },
     "heroPair": {
       "en": "Let's kill this love",
-      "tr": "Hadi bitirelim şu aşkı!"
+      "tr": "Hadi, bitirelim şu aşkı!"
     }
   },
   {
@@ -3486,7 +3485,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
     "date": "2026-08-07T14:28:47.000Z",
-    "reading_time": 2,
+    "reading_time": 4,
     "excerpt": "Sonra görüşürüz çocuk; belki de asla.",
     "categories": [
       "BLACKPINK",
@@ -3534,7 +3533,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
     "date": "2026-08-07T14:27:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Eğer beni gerçekten seviyorsan, söyle bana.",
     "categories": [
       "BLACKPINK",
@@ -3581,7 +3580,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
     "date": "2026-08-07T14:26:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Şu anımız sonsuzluğa mühürlensin!",
     "categories": [
       "BLACKPINK",
@@ -3629,7 +3628,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273bfd46639322b597331d9ecef",
     "date": "2026-08-07T14:25:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Seni o ddu-du ddu-du sesiyle vuracağım!",
     "categories": [
       "BLACKPINK",
@@ -3676,7 +3675,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273df8dc2e4625e7d74310cad28",
     "date": "2026-08-07T14:24:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Son aşkınmışım gibi...",
     "categories": [
       "BLACKPINK",
@@ -3723,7 +3722,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
     "date": "2026-08-07T14:23:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Sadece yanımda kal, kal benimle...",
     "categories": [
       "BLACKPINK",
@@ -3771,7 +3770,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b27318a4a215052e9f396864bd73",
     "date": "2026-08-07T14:22:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Aşkımız ateşle oyun.",
     "categories": [
       "BLACKPINK",
@@ -3867,7 +3866,7 @@
     "artist": "BLACKPINK",
     "cover": "https://i.scdn.co/image/ab67616d0000b273a63d8a977b189ad64350f3f3",
     "date": "2026-08-07T14:20:47.000Z",
-    "reading_time": 2,
+    "reading_time": 3,
     "excerpt": "Hepsine bir füze gibi ıslık çaldırırım; bom, bom!",
     "categories": [
       "BLACKPINK",
@@ -3914,7 +3913,7 @@
     "artist": "Stray Kids",
     "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
     "date": "2026-08-07T14:00:00.000Z",
-    "reading_time": 3,
+    "reading_time": 4,
     "excerpt": "Sınır falan yok, asla tükenmeyiz biz",
     "categories": [
       "Stray Kids",
@@ -3962,7 +3961,7 @@
     "artist": "Stray Kids",
     "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
     "date": "2026-08-07T14:10:00.000Z",
-    "reading_time": 3,
+    "reading_time": 4,
     "excerpt": "Şundan bundan, her şeyden biraz...",
     "categories": [
       "Stray Kids",
@@ -4085,7 +4084,8 @@
       "albumArtist": "Stray Kids"
     },
     "moods": [
-      "Night"
+      "Night",
+      "Motivation"
     ],
     "firstPair": {
       "en": "Yeah, we farmin' every day, no sleep",
@@ -4231,11 +4231,11 @@
     ],
     "firstPair": {
       "en": "Da-da-da, da, da-da-da-da, da-da",
-      "tr": "Da-da-da, da, da-da-da-da, da-da"
+      "tr": "Da-da-da, da..."
     },
     "heroPair": {
       "en": "Da-da-da, da, da-da-da-da, da-da",
-      "tr": "Da-da-da, da, da-da-da-da, da-da"
+      "tr": "Da-da-da, da..."
     }
   },
   {

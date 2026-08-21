@@ -141,7 +141,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
         </div>
       </div>
       <Link key={`art-${post.slug}`} to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
-        <CoverImage src={post.cover} target={300} alt={`${post.artist} - ${post.song}`} fetchPriority="high" />
+        <CoverImage src={post.cover} target={640} alt={`${post.artist} - ${post.song}`} fetchPriority="high" />
       </Link>
       <div className="acl-hero-count" role="group" aria-label="Haftanın çevirisi slaytları">
         <button type="button" onClick={previous} aria-label="Önceki çeviri">

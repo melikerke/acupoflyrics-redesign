@@ -58,20 +58,36 @@ function lyricText(post, original) {
 
 const nativeScriptPattern = /[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/u;
 const sourcePlatformPattern = /\b(genius|musixmatch|lyrics?\s*translate)\b/i;
-const inlineGlossPattern = /\(([a-z][a-z -]{2,})\)/g;
+const inlineGlossPattern = /\(([\p{L}][\p{L}\p{N}'’ -]{2,})\)/giu;
 const adlibWords = new Set([
-  "ah", "ayy", "eh", "fah", "ha", "hey", "huh", "la", "mm", "na", "oh", "ooh",
-  "skrrt", "uh", "woo", "woah", "yeah", "yuh",
+  "ah", "ayy", "eh", "fah", "ha", "hey", "hoo", "huh", "la", "mm", "na", "nah", "oh", "ooh",
+  "pa", "ra", "ram", "skrrt", "uh", "woo", "woah", "yeah", "yuh",
+]);
+const knownSourceGlosses = new Set([
+  "adicto", "desperate measures", "editing point", "for keeps", "fucked up royally",
+  "go hard", "going mia", "greed", "i got it bad for you", "ideals", "kite",
+  "lost my jeong sin", "masterpiece", "me wrong", "mine", "o gi", "one hundred",
+  "pretend", "rewind", "sandlot", "seollem", "string", "stuck on you", "tag", "you read",
 ]);
 
-function hasSuspiciousInlineGloss(line) {
+function normalizeGloss(value) {
+  return String(value || "")
+    .toLocaleLowerCase()
+    .normalize("NFKD")
+    .replace(/\p{M}+/gu, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function hasSuspiciousInlineGloss(line, originalContext = "") {
   const matches = [...String(line || "").matchAll(inlineGlossPattern)];
-  return matches.some((match) => (
-    !match[1]
-      .split(/[\s-]+/)
-      .filter(Boolean)
-      .every((word) => adlibWords.has(word))
-  ));
+  const original = normalizeGloss(originalContext);
+  return matches.some((match) => {
+    const content = normalizeGloss(match[1]);
+    if (!content || content.split(" ").every((word) => adlibWords.has(word))) return false;
+    return knownSourceGlosses.has(content) || (` ${original} `).includes(` ${content} `);
+  });
 }
 
 function translationQualityIssues(post) {
@@ -94,8 +110,14 @@ function translationQualityIssues(post) {
       if (/^\s*\*[^*]/.test(line) || /\*[^*]+\*/.test(block.label || "")) {
         issues.push(rowFor(post, "markdown_artifact_in_lyrics", `${location}: ${line}`));
       }
-      if (!block.original && languages.translation === "tr" && hasSuspiciousInlineGloss(line)) {
-        issues.push(rowFor(post, "english_gloss_inside_translation", `${location}: ${line}`));
+      const originalContext = blocks[blockIndex - 1]?.original
+        ? (blocks[blockIndex - 1].lines || []).join("\n")
+        : "";
+      if (!block.original && hasSuspiciousInlineGloss(line, originalContext)) {
+        const issue = languages.original === "en"
+          ? "english_gloss_inside_translation"
+          : "source_gloss_inside_translation";
+        issues.push(rowFor(post, issue, `${location}: ${line}`));
       }
       if (!block.original && /(?:\(\d+\)|[¹²³⁴⁵⁶⁷⁸⁹])\s*[.!?…]*$/.test(line)) {
         issues.push(rowFor(post, "footnote_marker_inside_translation", `${location}: ${line}`));

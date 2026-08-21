@@ -1,0 +1,154 @@
+{
+  "230": {
+    "slug": "stray-kids-run-it-turkce-ceviri",
+    "translationMap": [0, 1, 2, null, 3, null, null, 4, null, 5]
+  },
+  "231": {
+    "slug": "stray-kids-this-and-that-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, null, 7, 8, 9]
+  },
+  "232": {
+    "slug": "stray-kids-after-you-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, null, 7, 8, 9]
+  },
+  "233": { "slug": "stray-kids-farming-turkce-ceviri" },
+  "234": { "slug": "stray-kids-i-do-turkce-ceviri" },
+  "235": {
+    "slug": "stray-kids-way-out-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "236": { "slug": "stray-kids-back-then-turkce-ceviri" },
+  "237": {
+    "slug": "stray-kids-this-and-that-festival-version-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "238": {
+    "slug": "blackpink-whistle-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, 8, null, 9, 10, 11, 12]
+  },
+  "239": {
+    "slug": "blackpink-boombayah-turkce-ceviri",
+    "skip": "Browser çıktısında satır sonları kaybolduğu için kıta yapısı güvenle ayrıştırılamıyor."
+  },
+  "240": {
+    "slug": "blackpink-playing-with-fire-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6]
+  },
+  "241": {
+    "slug": "blackpink-stay-turkce-ceviri",
+    "annotationKeyHints": ["çantada keklik", "tatlı bir suç"]
+  },
+  "242": {
+    "slug": "blackpink-as-if-its-your-last-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, null, null, 7, 8, null]
+  },
+  "243": {
+    "slug": "blackpink-ddu-du-ddu-du-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, null, 5, 6, 7, 8, 9]
+  },
+  "244": {
+    "slug": "blackpink-forever-young-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, null, 10, 11, 12]
+  },
+  "245": { "slug": "blackpink-really-turkce-ceviri" },
+  "246": {
+    "slug": "blackpink-see-u-later-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, null, 5, null, 6, null]
+  },
+  "247": { "slug": "blackpink-kill-this-love-turkce-ceviri" },
+  "248": { "slug": "blackpink-dont-know-what-to-do-turkce-ceviri" },
+  "249": {
+    "slug": "blackpink-kick-it-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, null, 5, null, 6, 7, 8]
+  },
+  "250": { "slug": "blackpink-hope-not-turkce-ceviri" },
+  "256": {
+    "slug": "artms-blue-blood-turkce-ceviri",
+    "annotationKeyHints": ["asil kan", "koruma kalkanının"]
+  },
+  "257": {
+    "slug": "morgan-wallen-been-by-now-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, null]
+  },
+  "258": {
+    "slug": "kiss-of-life-sweat-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 2, 6, 7, 8, 9]
+  },
+  "259": {
+    "slug": "aespa-feat-ty-dolla-ign-switchblade-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "260": {
+    "slug": "flo-side-effects-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, 3, 8, 9]
+  },
+  "261": {
+    "slug": "flo-small-doses-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "262": {
+    "slug": "flo-cry-ugly-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "263": {
+    "slug": "flo-leak-it-turkce-ceviri",
+    "preserveParentheticals": ["FLO"]
+  },
+  "264": { "slug": "flo-therapy-at-the-club-turkce-ceviri" },
+  "265": {
+    "slug": "flo-remedied-turkce-ceviri",
+    "preserveParentheticals": ["Speaker"]
+  },
+  "266": {
+    "slug": "flo-don-t-break-her-heart-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "267": { "slug": "alex-warren-ordinary-turkce-ceviri" },
+  "268": { "slug": "picheolin-party-rock-rock-turkce-ceviri" },
+  "269": { "slug": "picheolin-zzan-turkce-ceviri" },
+  "270": { "slug": "picheolin-sincerely-turkce-ceviri" },
+  "271": { "slug": "picheolin-mi-cheo-mi-cheo-turkce-ceviri" },
+  "272": {
+    "slug": "picheolin-love-sick-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "274": { "slug": "dino-like-it-turkce-ceviri" },
+  "275": {
+    "slug": "dayoung-jay-park-flirty-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 4, 7],
+    "annotationKeyHints": ["aramızda kalsın", "seni susuz", "kişisel"]
+  },
+  "276": {
+    "slug": "illit-it-s-me-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, null]
+  },
+  "277": {
+    "slug": "aespa-lemonade-turkce-ceviri",
+    "translationMap": [0, 1, null, 2, 4, 5, 6, 7, 8, 9, 10, 8, 11],
+    "annotationKeyHints": ["hepsinden bir limonata yapacağım"]
+  },
+  "278": {
+    "slug": "rescene-love-attack-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 6, 11, 12, 13, 14]
+  },
+  "279": {
+    "slug": "katseye-pinky-up-turkce-ceviri",
+    "annotationKeyHints": ["Serçe parmaklar havaya", "Sokrates"]
+  },
+  "280": {
+    "slug": "le-sserafim-boompala-turkce-ceviri",
+    "translationMap": [0, 1, 2, 3, 4, 5, 6, 7, null, null],
+    "annotationKeyHints": ["mañana", "Namaste, namaste", "Öz sevgi benim \"annem\""]
+  },
+  "302": {
+    "slug": "ateez-bad-turkce-ceviri",
+    "unavailable": "AI Studio konuşmasında bu istek için model yanıtı bulunmuyor."
+  },
+  "303": { "slug": "ayra-starr-zayn-heaven-baby-turkce-ceviri" },
+  "304": {
+    "slug": "phoebe-bridgers-lost-weekend-turkce-ceviri",
+    "translationMap": [0, null]
+  },
+  "305": { "slug": "morgan-wallen-dont-we-turkce-ceviri" },
+  "311": { "slug": "taylor-swift-who-s-afraid-of-little-old-me-turkce-ceviri" }
+}

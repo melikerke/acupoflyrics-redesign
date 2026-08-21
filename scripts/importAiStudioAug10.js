@@ -162,6 +162,7 @@ const TRACKS = [
     artist: "Charli xcx",
     title: "Camera",
     youtubeUrl: "https://www.youtube.com/watch?v=eO3zsYsDnbI",
+    annotationKeyHints: [null, null, "silahın namlusuna"],
   },
   {
     batch: "aug12",
@@ -188,6 +189,7 @@ const TRACKS = [
     artist: "RAYE",
     title: "WHERE IS MY HUSBAND!",
     youtubeUrl: "https://www.youtube.com/watch?v=rK5TyISxZ_M",
+    annotationKeyHints: ["Yalnız başıma akrobasiler yapıyorum"],
   },
   {
     batch: "aug12",
@@ -196,6 +198,7 @@ const TRACKS = [
     artist: "KiiiKiii",
     title: "Ever2Late!",
     youtubeUrl: "https://www.youtube.com/watch?v=G6uhnkDPca8",
+    annotationKeyHints: ["ebesi olmayan"],
   },
   {
     batch: "aug12",
@@ -229,6 +232,11 @@ const TRACKS = [
         "Gece gündüz güçlü kalacağım. (Bir lotus gibi süzülerek)",
       ],
     },
+    annotationKeyHints: [
+      "Bir uçurtmanın",
+      "Siyahın ve beyazın o sonsuz döngüsünde",
+      "Shaolin",
+    ],
   },
   {
     batch: "aug12",
@@ -246,6 +254,11 @@ const TRACKS = [
     artist: "KATSEYE",
     title: "That Way",
     translationMap: [0, 1, 2, 0, 4, 2, 0, 7],
+    annotationKeyHints: [
+      "Kapı işte tam orada",
+      "Vitrin alışverişi yapıyorum",
+      "mic drop",
+    ],
     noSpotifyTrack: true,
     spotifyFallbackTrackUrl: "https://open.spotify.com/track/4KmkJjHTNlr1jFY56Lyz4E",
     albumName: "WILD",
@@ -265,6 +278,7 @@ const TRACKS = [
     artist: "Dua Lipa",
     title: "Training Season",
     youtubeUrl: "https://www.youtube.com/watch?v=ZjBZ8MUnB0E",
+    annotationKeyHints: ["eğitim dönemi bitti"],
   },
   {
     batch: "aug13",
@@ -285,6 +299,7 @@ const TRACKS = [
     slug: "sombr-my-body-isnt-ready-turkce-ceviri",
     legacySlugs: ["sombr-my-body-isn-t-ready-turkce-ceviri"],
     youtubeUrl: "https://www.youtube.com/watch?v=ofywN3NgGqY",
+    annotationKeyHints: ["4 Temmuz", "kendi tenimin içinden sürünerek çıkabilseydim"],
   },
   {
     batch: "aug13",
@@ -301,6 +316,13 @@ const TRACKS = [
     artist: "KiiiKiii",
     title: "Hey Hi",
     skipYoutube: true,
+    annotationKeyHints: [
+      null,
+      null,
+      "gerçekleri anlatmamı ister misin",
+      "hava durumu perin",
+      null,
+    ],
   },
   {
     batch: "bouncy",
@@ -310,6 +332,7 @@ const TRACKS = [
     title: "BOUNCY (K-HOT CHILLI PEPPERS)",
     slug: "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
     youtubeUrl: "https://www.youtube.com/watch?v=U0G5OA6ZH5w",
+    annotationKeyHints: ["Bir, iki; Rahat", "Kore usulü acı havası", "şimdi dayağı yersin"],
   },
   {
     batch: "aug14",
@@ -318,6 +341,7 @@ const TRACKS = [
     artist: "KATSEYE",
     title: "Hootie Frutti",
     youtubeUrl: "https://www.youtube.com/watch?v=is8UDe2PhKQ",
+    annotationKeyHints: ["Matcha çayım elimde", "yirmi dolarlık \"smoothie\"ler"],
   },
   {
     batch: "aug14",
@@ -352,6 +376,7 @@ const TRACKS = [
     title: "She’s the Best",
     slug: "troye-sivan-shes-the-best-turkce-ceviri",
     youtubeUrl: "https://www.youtube.com/watch?v=mFA1P8ZzoLw",
+    annotationKeyHints: ["elbisesinde bir leke", null, null],
     annotationOverrides: [
       { word: "cum stain", text: "Açık cinsel içerikli ifade; karakterin özensiz ve toplumsal beklentileri umursamayan görünümünü vurguluyor." },
       { word: "Moodboard", text: "Belirli bir estetik veya gelecek fikri için ilham verici görsellerin toplandığı pano." },
@@ -412,6 +437,7 @@ const TRACKS = [
     artist: "Tame Impala",
     title: "Loser",
     youtubeUrl: "https://www.youtube.com/watch?v=s3a4OQR-10M",
+    annotationKeyHints: ["Veda"],
     annotationOverrides: [
       { word: "So much for closure", text: "Beklenen vedanın veya duygusal kapanışın işe yaramadığını belirten hayal kırıklığı ifadesi." },
       { word: "Desperate times call for desperate measures", text: "Çaresiz durumların alışılmadık ve sert önlemler gerektirebileceğini anlatan İngilizce deyim." },
@@ -427,6 +453,7 @@ const TRACKS = [
     slug: "aitana-conexion-psiquica-turkce-ceviri",
     translationMap: [0, 1, 2, 3, 4, 5, 6, 5],
     sectionOverrides: ["Verse 1", "Pre-Chorus", "Chorus", "Verse 2", "Pre-Chorus", "Chorus", "Bridge", "Chorus"],
+    annotationKeyHints: ["atsınlar beni içeri"],
     annotationOverrides: [
       { word: "conexión psíquica", text: "İki kişi arasında söze ihtiyaç bırakmayan, zihinsel ve sezgisel bir bağ." },
       { word: "que me lleven presa", text: "Yapılan şey yanlışsa bile sonuçlarını göze alacak kadar kararlı olmayı anlatan meydan okuma." },
@@ -444,6 +471,7 @@ const TRACKS = [
     modelEnd: "\nthumb_up",
     youtubeUrl: "https://www.youtube.com/watch?v=L8ZnXgbyUuc",
     translationMap: [0, 1, 2, 3, 1, 5, 6, 7],
+    annotationKeyHints: [null, "Eski toprak her zaman en iyisidir"],
     annotationOverrides: [
       { word: "Bang Bong", text: "BIGBANG'in G-DRAGON tarafından tasarlanan taç biçimli resmî ışıklı çubuğuna verilen ad." },
       { word: "Eski toprak her zaman en iyisidir", text: "Korecedeki ‘eski görevli en iyisidir’ atasözünden hareketle özgün olanın yerini kimsenin tutamayacağını anlatıyor." },
@@ -478,6 +506,7 @@ const TRACKS = [
     spotifyUrl: "https://open.spotify.com/track/42roIue3b1zBaGIpEmyy2b",
     youtubeUrl: "https://www.youtube.com/watch?v=WNySEn-VkpQ",
     geniusUrl: "https://genius.com/Enhypen-stuck-lyrics",
+    annotationKeyHints: ["hem kurtuluşum"],
     translationOverrides: {
       2: [
         "Sana ihtiyacım var kızım, affet beni (Affet);",
@@ -589,6 +618,7 @@ const TRACKS = [
     annotationOverrides: [
       { word: "Sırra kadem basıyoruz", text: "‘Going MIA’, askerî kökenli ‘missing in action’ ifadesinden gelir; burada gözden kaybolup dertlerden uzaklaşmak anlamında kullanılır." },
     ],
+    annotationKeyHints: ["Sırra kadem basıyoruz"],
   },
   {
     batch: "aug21",
@@ -635,6 +665,7 @@ const TRACKS = [
     annotationOverrides: [
       { word: "pervasız cesaret", text: "Korecedeki ‘객기’ (gaekgi), sonunu düşünmeden gösterilen aşırı ya da gereksiz cesareti anlatır." },
     ],
+    annotationKeyHints: ["pervasız cesaret"],
   },
   {
     batch: "aug21",
@@ -645,6 +676,7 @@ const TRACKS = [
     spotifyUrl: "https://open.spotify.com/track/1iMSo2imh5nnJL4QF7VL0i",
     youtubeUrl: "https://www.youtube.com/watch?v=IGJluJnnMxs",
     geniusUrl: "https://genius.com/Enhypen-highlight-lyrics",
+    annotationKeyHints: ["pervasız bir talihsizlik"],
     translationOverrides: {
       1: [
         "Hâlâ buradayız; evet, hiç ayrılmadık (Hiç gitmedik).",
@@ -730,6 +762,7 @@ const TRACKS = [
     title: "WAVE",
     spotifyUrl: "https://open.spotify.com/track/0RDjvRegB8u136bNVGFYgH",
     youtubeUrl: "https://www.youtube.com/watch?v=63rOINf75yY",
+    annotationKeyHints: ["yüz milyondan fazla hayranım"],
     translationMap: [0, 1, 2, 3, 4, 5, 6, 3, 4, null, 4],
     translationOverrides: {
       4: [
@@ -808,6 +841,7 @@ const TRACKS = [
     spotifyUrl: "https://open.spotify.com/track/569BvEAwdBNy9Ro0DtWWR5",
     youtubeUrl: "https://www.youtube.com/watch?v=-JcEobUz3Bc",
     geniusUrl: "https://genius.com/Mariah-carey-and-rochelle-jordan-didnt-mean-to-turn-you-on-lyrics",
+    annotationKeyHints: ["pes etmediğim"],
     translationOverrides: {
       0: [
         "Beni dışarı çıkarmana izin verdim, neyin peşinde olduğunu çok iyi biliyordum;",
@@ -938,6 +972,7 @@ const TRACKS = [
       { word: "nefesimi tutuyorum, yüzüm morarıyor", text: "‘Hold my breath, turn blue’, ev içindeki baskıyı veya gerilim anındaki nefessiz kalma hissini fiziksel bir imgeyle anlatır." },
       { word: "ip üzerinde yürümek", text: "‘Always a tightrope’, aile beklentileriyle kişinin kendi kimliği arasındaki zorlu dengeyi anlatır." },
     ],
+    annotationKeyHints: ["nefesimi tutuyorum, yüzüm morarıyor", "ip üzerinde yürümek"],
   },
   {
     batch: "aug21",
@@ -987,6 +1022,7 @@ const TRACKS = [
       { word: "ağır bir mağlubiyet aldı", text: "‘Take a big L’, hip-hop jargonunda yenilgiye uğramak veya küçük düşmek anlamına gelir." },
       { word: "Sen bir ayçiçeğisin", text: "Ayçiçeğinin güneşe yönelmesi, sevgilinin anlatıcıya bağlılığını ve anlatıcının bu yoğunluktan çekinmesini simgeler." },
     ],
+    annotationKeyHints: ["ipleri elimde tutuyorum", "ağır bir mağlubiyet", "Sen bir ayçiçeğisin"],
   },
   {
     batch: "aug21",
@@ -997,6 +1033,7 @@ const TRACKS = [
     spotifyUrl: "https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU",
     youtubeUrl: "https://www.youtube.com/watch?v=KtlgYxa6BMU",
     geniusUrl: "https://genius.com/Lord-huron-the-night-we-met-lyrics",
+    annotationKeyHints: [null, "Senin her şeyine sahiptim önce, sonra sadece çoğuna"],
     translationOverrides: {
       0: ["(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)", "(Ooh, ooh, ooh)"],
     },
@@ -1014,6 +1051,7 @@ const TRACKS = [
     spotifyUrl: "https://open.spotify.com/track/5lWRaa0fBxDE5yU91npPq7",
     youtubeUrl: "https://www.youtube.com/watch?v=PHzOOQfhPFg",
     geniusUrl: "https://genius.com/No-doubt-just-a-girl-lyrics",
+    annotationKeyHints: ["herhangi bir hak falan vermeye kalkma"],
     translationOverrides: {
       8: ["Oh, artık burama kadar...", "Oh, artık burama kadar...", "Oh, artık burama kadar geldi!"],
     },
@@ -1333,15 +1371,60 @@ function preserveParenthetical(content) {
     .toLocaleLowerCase("tr-TR")
     .replace(/[.!?…]+$/g, "")
     .trim();
-  return PRESERVED_ADLIBS.test(content.trim()) || PRESERVED_TRANSLATED_ECHOES.has(clean);
+  return PRESERVED_ADLIBS.test(clean) || PRESERVED_TRANSLATED_ECHOES.has(clean);
 }
 
-function cleanTranslationLine(value, { preserveParentheticals = false } = {}) {
+const ENGLISH_GLOSS_PARENTHETICALS = new Set([
+  "adicto",
+  "desperate measures",
+  "editing point",
+  "for keeps",
+  "fucked up royally",
+  "go hard",
+  "going mia",
+  "greed",
+  "i got it bad for you",
+  "ideals",
+  "kite",
+  "lost my jeong sin",
+  "masterpiece",
+  "me wrong",
+  "mine",
+  "o gi",
+  "one hundred",
+  "pretend",
+  "rewind",
+  "sandlot",
+  "seollem",
+  "string",
+  "stuck on you",
+  "tag",
+  "you read",
+]);
+
+function normalizeParenthetical(value) {
+  return String(value || "")
+    .toLocaleLowerCase("en-US")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isEnglishGlossParenthetical(content, originalContext) {
+  if (preserveParenthetical(content)) return false;
+  const normalized = normalizeParenthetical(content);
+  if (!normalized) return false;
+  const original = normalizeParenthetical(originalContext);
+  const appearsInOriginal = original && (` ${original} `).includes(` ${normalized} `);
+  return appearsInOriginal || ENGLISH_GLOSS_PARENTHETICALS.has(normalized);
+}
+
+function cleanTranslationLine(value, { preserveParentheticals = false, originalContext = "" } = {}) {
   const withoutFootnotes = String(value || "").replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]+/g, "");
   return (preserveParentheticals
     ? withoutFootnotes
     : withoutFootnotes.replace(/\s*\(([^)]*\p{L}[^)]*)\)/gu, (whole, content) => (
-      preserveParenthetical(content) ? whole : ""
+      isEnglishGlossParenthetical(content, originalContext) ? "" : whole
     )))
     .replace(/\s+([,.;!?])/g, "$1")
     .replace(/\s{2,}/g, " ")
@@ -1361,24 +1444,81 @@ function actualMatchedTerm(candidate, lyrics) {
   return match?.[0] || null;
 }
 
-function inlineAnnotations(translationBody, lyricalText) {
+function annotationKeyFromLine(line, lyrics) {
+  const clean = String(line || "").trim();
+  const candidates = [
+    clean,
+    ...clean.split(/[;,.!?…]+/).map((part) => part.trim()).filter(Boolean),
+  ];
+  return candidates
+    .map((candidate) => actualMatchedTerm(candidate, lyrics))
+    .find(Boolean) || null;
+}
+
+function annotationTermFromRawGloss(candidates, translationBody, lyricalText) {
+  const normalizedCandidates = candidates.map(normalizeParenthetical).filter(Boolean);
+  if (!normalizedCandidates.length) return null;
+  const targetLines = lyricalText.split("\n").filter(Boolean);
+
+  for (const rawLine of translationBody.split("\n")) {
+    if (rawLine.trim().startsWith("|||")) continue;
+    const parentheticals = [...rawLine.matchAll(/\(([^)]*)\)/g)].map((match) => normalizeParenthetical(match[1]));
+    if (!normalizedCandidates.some((candidate) => parentheticals.includes(candidate))) continue;
+
+    const rawWords = new Set(normalizeGlossForMatch(rawLine.replace(/\([^)]*\)/g, "")).split(" ").filter(Boolean));
+    const ranked = targetLines
+      .map((line) => {
+        const targetWords = new Set(normalizeGlossForMatch(line.replace(/\([^)]*\)/g, "")).split(" ").filter(Boolean));
+        const overlap = [...rawWords].filter((word) => targetWords.has(word)).length;
+        return { line, score: overlap / Math.max(1, Math.min(rawWords.size, targetWords.size)) };
+      })
+      .sort((a, b) => b.score - a.score);
+    if (ranked[0]?.score >= 0.5) return annotationKeyFromLine(ranked[0].line, lyricalText);
+  }
+  return null;
+}
+
+function normalizeGlossForMatch(value) {
+  return String(value || "")
+    .toLocaleLowerCase("tr-TR")
+    .normalize("NFKD")
+    .replace(/\p{M}+/gu, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function inlineAnnotations(translationBody, lyricalText, keyHints = [], trackLabel = "Parça") {
   const notes = new Map();
+  const unmatched = [];
+  let noteIndex = 0;
   for (const rawLine of translationBody.split("\n")) {
     const line = rawLine.trim();
     if (!line.startsWith("|||")) continue;
-    const note = line.replace(/^\|\|\|\s*/, "").replace(/\*/g, "").trim();
+    const note = line
+      .replace(/^\|\|\|\s*/, "")
+      .replace(/^[¹²³⁴⁵⁶⁷⁸⁹⁰]+\s*/, "")
+      .replace(/\*/g, "")
+      .trim();
     const colon = note.indexOf(":");
     if (colon < 1) continue;
     const heading = note.slice(0, colon);
     const candidates = [heading];
-    for (const match of heading.matchAll(/["“”']([^"“”']{2,70})["“”']/g)) candidates.push(match[1]);
-    for (const match of heading.matchAll(/\(([^)]{2,70})\)/g)) candidates.push(match[1]);
+    for (const match of note.matchAll(/["“”']([^"“”']{2,70})["“”']/g)) candidates.push(match[1]);
+    for (const match of note.matchAll(/\(([^)]{2,70})\)/g)) candidates.push(match[1]);
     for (const candidate of [...candidates]) {
       if (/[\uac00-\ud7a3]/.test(candidate)) candidates.push(romanizeHangul(candidate));
       if (/\p{Script=Han}/u.test(candidate)) candidates.push(romanizeCjk(candidate));
     }
-    const matched = candidates.map((candidate) => actualMatchedTerm(candidate, lyricalText)).find(Boolean);
-    if (matched && !notes.has(matched)) notes.set(matched, note);
+    const matched = candidates.map((candidate) => actualMatchedTerm(candidate, lyricalText)).find(Boolean)
+      || actualMatchedTerm(keyHints[noteIndex], lyricalText)
+      || annotationTermFromRawGloss(candidates, translationBody, lyricalText);
+    noteIndex += 1;
+    if (!matched) unmatched.push(note);
+    else if (!notes.has(matched)) notes.set(matched, note);
+  }
+  if (unmatched.length) {
+    throw new Error(`${trackLabel}: ${unmatched.length} AI Studio açıklaması hedef dizede eşleşmedi (${unmatched.join(" | ")}).`);
   }
   return [...notes.entries()].map(([word, text]) => ({ word, text }));
 }
@@ -1406,27 +1546,48 @@ function analysisAnnotations(model, lyricalText) {
   return [...notes.entries()].slice(0, 12).map(([word, text]) => ({ word, text }));
 }
 
-function parseTrack(source, track) {
+function bilingualTranslationNotes(model, lyricalText) {
+  const body = stripTurnChrome(model);
+  const marker = body.search(/ÇEVİRİ NOTLARI\s*\/\s*TRANSLATION NOTES/i);
+  if (marker < 0) return [];
+  const tail = body.slice(marker).replace(/\nBu format[\s\S]*$/i, "");
+  const sections = tail.split(/(?=^[¹²³⁴⁵⁶⁷⁸⁹⁰]+\s+)/m).slice(1);
+  const notes = [];
+  for (const section of sections) {
+    const heading = section.split("\n")[0].replace(/^[¹²³⁴⁵⁶⁷⁸⁹⁰]+\s*/, "").trim();
+    const english = section.match(/\nEN:\s*([\s\S]*?)\s*$/i)?.[1]?.trim();
+    const phrase = heading.replace(/\s*\([^)]*\)\s*$/, "").trim();
+    const word = actualMatchedTerm(phrase, lyricalText);
+    if (word && english) notes.push({ word, text: english });
+  }
+  return notes;
+}
+
+function parseTrack(source, track, { preserveMissing = false } = {}) {
   if (!source?.user || !source?.model) throw new Error(`${track.label}: orijinal söz veya çeviri eksik.`);
   const originalBody = stripTurnChrome(source.user);
   const originalStanzas = parseStanzas(originalBody);
   const translatedBody = cropTranslation(source.model, track);
   const translatedStanzas = parseStanzas(translatedBody);
   const translationMap = track.translationMap || originalStanzas.map((_, index) => index);
-  if (
-    !originalStanzas.length
-    || translationMap.length !== originalStanzas.length
-    || translationMap.some((index, stanzaIndex) => index == null && !track.translationOverrides?.[stanzaIndex])
-    || translationMap.some((index, stanzaIndex) => index != null && !translatedStanzas[index] && !track.translationOverrides?.[stanzaIndex])
-  ) {
+  const missingMappedStanza = translationMap.some((index) => (
+    index == null ? !preserveMissing : !translatedStanzas[index]
+  ));
+  if (!originalStanzas.length || translationMap.length !== originalStanzas.length || missingMappedStanza) {
     throw new Error(`${track.label}: kıta sayıları eşleşmiyor (${originalStanzas.length}/${translatedStanzas.length}).`);
   }
 
   const hasHangul = /[\uac00-\ud7a3]/.test(originalBody);
   const hasHan = /\p{Script=Han}/u.test(originalBody);
-  const stanzas = originalStanzas.map((stanza, index) => ({
-    section: track.sectionOverrides?.[index] || stanza.section,
-    original: stanza.lines.map((line) => {
+  const stanzas = originalStanzas.map((stanza, index) => {
+    const mappedIndex = translationMap[index];
+    const rawTranslation = mappedIndex == null ? null : translatedStanzas[mappedIndex]?.lines;
+    // AI Studio hedef metni yayın kaynağıdır. Eski override alanları denetim izi olarak
+    // dosyada kalsa da çeviri veya açıklama üretiminde bilinçli olarak kullanılmaz.
+    const selectedTranslation = rawTranslation;
+    return {
+      section: track.sectionOverrides?.[index] || stanza.section,
+      original: stanza.lines.map((line) => {
       const corrected = line
         .replace("차오르은 feel", "차오르는 feel")
         .replace("ㅂ-ㅣ-ㄱ", "B-I-G")
@@ -1434,29 +1595,35 @@ function parseTrack(source, track) {
         .replace(/\s*\(\[?\?\]?\)\s*/g, "")
         .replace(/[еЕ]/g, (character) => character === "Е" ? "E" : "e");
       const hangulRomanized = hasHangul ? romanizeHangul(corrected) : corrected;
-      return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
-    }),
-    translation: (track.translationOverrides?.[index] || translatedStanzas[translationMap[index]].lines)
-      .map((line) => cleanTranslationLine(line, { preserveParentheticals: track.preserveParentheticals }))
-      .filter(Boolean),
-    notes: [],
-  }));
-  if (track.enforceLineParity || track.batch === "aug21") {
-    const mismatch = stanzas.find((stanza) => stanza.original.length !== stanza.translation.length);
-    if (mismatch) {
-      throw new Error(`${track.label}: ${mismatch.section || "başlıksız kıta"} satırları eşleşmiyor (${mismatch.original.length}/${mismatch.translation.length}).`);
-    }
-  }
-  const lyricalText = stanzas.flatMap((stanza) => [...stanza.original, ...stanza.translation]).join("\n");
-  const annotationCandidates = ["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
-    ? inlineAnnotations(translatedBody, lyricalText)
-    : [...inlineAnnotations(translatedBody, lyricalText), ...analysisAnnotations(source.model, lyricalText)];
+        return hasHan || track.forceRomanize ? romanizeCjk(hangulRomanized) : hangulRomanized;
+      }),
+      translation: selectedTranslation
+        ? selectedTranslation
+          .map((line) => cleanTranslationLine(line, {
+            preserveParentheticals: track.preserveParentheticals,
+            originalContext: stanza.lines.join("\n"),
+          }))
+          .filter(Boolean)
+        : [],
+      missingTranslation: !selectedTranslation,
+      notes: [],
+    };
+  });
+  const translationText = stanzas.flatMap((stanza) => stanza.translation).join("\n");
+  const lyricalText = translationText;
+  const annotationCandidates = track.languages?.annotations === "en"
+    ? bilingualTranslationNotes(source.model, lyricalText)
+    : (["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
+      ? inlineAnnotations(translatedBody, lyricalText, track.annotationKeyHints, track.label)
+      : [
+        ...inlineAnnotations(translatedBody, lyricalText, track.annotationKeyHints, track.label),
+        ...analysisAnnotations(source.model, lyricalText),
+      ]);
   const notes = new Map();
   for (const note of annotationCandidates) {
     if (!notes.has(note.word)) notes.set(note.word, note.text);
   }
-  stanzas[0].notes = track.annotationOverrides
-    || [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
+  stanzas[0].notes = [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
   return { ...track, hasHangul, hasHan, stanzas };
 }
 
@@ -1574,6 +1741,16 @@ async function main() {
   loadEnv();
   const write = process.argv.includes("--write");
   const parseOnly = process.argv.includes("--parse-only");
+  const contentOnly = process.argv.includes("--content-only");
+  const preserveMissing = process.argv.includes("--preserve-missing");
+  if (preserveMissing && !contentOnly && !parseOnly) {
+    throw new Error("--preserve-missing yalnızca --content-only veya --parse-only ile kullanılabilir.");
+  }
+  const sourceKeyArgument = process.argv.find((argument) => argument.startsWith("--source-key="));
+  const sourceKeys = new Set((sourceKeyArgument?.split("=").slice(1).join("=") || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean));
   const demandBatch = process.argv.includes("--demand");
   const aug12Batch = process.argv.includes("--aug12");
   const thatWayBatch = process.argv.includes("--that-way");
@@ -1588,10 +1765,15 @@ async function main() {
   const reportPath = korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
     korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
-  ));
+  )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
+  if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
   const byLabel = new Map(extracted.items.map((item) => [item.key || item.label, item]));
-  const parsed = selectedTracks.map((track) => parseTrack(byLabel.get(track.sourceKey || track.label), track));
+  const parsed = selectedTracks.map((track) => parseTrack(
+    byLabel.get(track.sourceKey || track.label),
+    track,
+    { preserveMissing },
+  ));
 
   console.table(parsed.map((track) => ({
     artist: track.artistDisplay || track.artist,
@@ -1602,6 +1784,75 @@ async function main() {
     romanized: track.hasHangul || track.hasHan,
   })));
   if (parseOnly) return;
+
+  if (contentOnly) {
+    if (!write) {
+      console.log("İçerik ön izlemesi tamamlandı. Veri dosyalarını değiştirmek için --write ekleyin.");
+      return;
+    }
+    const posts = JSON.parse(await readFile(path.join(process.cwd(), "src/data/posts.json"), "utf8"));
+    const artists = JSON.parse(await readFile(path.join(process.cwd(), "src/data/artists.json"), "utf8"));
+    const updated = [];
+    for (const track of parsed) {
+      const candidates = posts.filter((post) => (
+        normalize(post.song) === normalize(track.title)
+        && normalize(post.artist).includes(normalize(track.artist))
+      ));
+      const post = track.slug
+        ? posts.find((candidate) => candidate.slug === track.slug)
+        : candidates[0];
+      if (!post || (!track.slug && candidates.length !== 1)) {
+        throw new Error(`${track.label}: güncellenecek tekil site kaydı bulunamadı (${candidates.length}).`);
+      }
+      const previousOriginals = post.blocks.filter((block) => block.original);
+      const previousTranslations = post.blocks.filter((block) => !block.original);
+      if (previousOriginals.length !== track.stanzas.length || previousTranslations.length !== track.stanzas.length) {
+        throw new Error(`${track.label}: mevcut post kıta yapısı AI Studio kaynağıyla eşleşmiyor (${previousOriginals.length}/${previousTranslations.length}/${track.stanzas.length}).`);
+      }
+      post.blocks = track.stanzas.flatMap((stanza, index) => {
+        const translation = stanza.missingTranslation
+          ? previousTranslations[index]?.lines
+          : stanza.translation;
+        if (!translation?.length) {
+          throw new Error(`${track.label}: ${stanza.section} için AI Studio çevirisi bulunamadı.`);
+        }
+        return [
+          { ...previousOriginals[index], lines: [...previousOriginals[index].lines] },
+          {
+            ...previousTranslations[index],
+            original: false,
+            label: previousTranslations[index].label || stanza.section,
+            lines: [...translation],
+          },
+        ];
+      });
+      const wordCount = post.blocks
+        .flatMap((block) => block.lines || [])
+        .join(" ")
+        .split(/\s+/)
+        .filter(Boolean)
+        .length;
+      post.reading_time = Math.max(1, Math.round(wordCount / 200));
+      const originalLines = post.blocks
+        .filter((block) => block.original)
+        .flatMap((block) => block.lines || []);
+      const translatedLines = post.blocks
+        .filter((block) => !block.original)
+        .flatMap((block) => block.lines || []);
+      const translationLanguage = (track.languages || post.languages)?.translation || "tr";
+      post.excerpt = (translationLanguage === "en"
+        ? translatedLines.find((line) => /\p{L}/u.test(line) && !/^\([^)]*\)$/.test(line))
+        : originalLines.find(Boolean)) || "";
+      post.annotations = Object.fromEntries(
+        track.stanzas.flatMap((stanza) => stanza.notes || []).map((note) => [note.word, note.text]),
+      );
+      if (track.languages) post.languages = track.languages;
+      updated.push({ title: post.title, slug: post.slug });
+    }
+    await writePublishData({ posts, artists });
+    console.table(updated);
+    return;
+  }
 
   const credentials = {
     clientId: process.env.SPOTIFY_CLIENT_ID,
