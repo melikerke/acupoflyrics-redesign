@@ -26,6 +26,8 @@ export const popJournalPath = (articleOrSlug) => {
 };
 
 export const discoverPath = () => "/discover";
+export const songsPath = (page = 1) => (Number(page) > 1 ? `/sarkilar/page/${Number(page)}` : "/sarkilar");
+export const artistsPath = () => "/sanatcilar";
 export const searchPath = (q) => (q ? `/search?q=${encodeURIComponent(q)}` : "/search");
 
 export const ORIGIN = "https://www.acupoflyrics.com";

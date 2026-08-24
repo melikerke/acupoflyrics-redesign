@@ -13,15 +13,16 @@
     }
   ],
   "redirects": [
-    { "source": "/ceviri/:slug", "destination": "/:slug", "permanent": true },
-    { "source": "/ceviri/:slug/", "destination": "/:slug", "permanent": true },
-    { "source": "/song/:slug", "destination": "/:slug", "permanent": true },
-    { "source": "/song/:slug/", "destination": "/:slug", "permanent": true },
+    { "source": "/ceviri/:slug", "destination": "/:slug/", "permanent": true },
+    { "source": "/ceviri/:slug/", "destination": "/:slug/", "permanent": true },
+    { "source": "/song/:slug", "destination": "/:slug/", "permanent": true },
+    { "source": "/song/:slug/", "destination": "/:slug/", "permanent": true },
     { "source": "/sanatci/:slug", "destination": "/artist/:slug", "permanent": true },
     { "source": "/sanatci/:slug/", "destination": "/artist/:slug", "permanent": true },
     { "source": "/kesfet", "destination": "/discover", "permanent": true },
     { "source": "/muzik-listeleri", "destination": "/listeler", "permanent": true },
     { "source": "/muzik-listeleri/", "destination": "/listeler", "permanent": true },
+    { "source": "/sarkilar/page/1", "destination": "/sarkilar", "permanent": true },
     { "source": "/home-preview", "destination": "/", "permanent": true },
     { "source": "/ceviri-preview", "destination": "/", "permanent": true },
     { "source": "/old-home", "destination": "/", "permanent": true }

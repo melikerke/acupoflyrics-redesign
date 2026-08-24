@@ -611,6 +611,54 @@ body {
   padding: 0 clamp(20px, 5vw, 48px) 44px;
 }
 
+.detail-sequence {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  padding: 0 0 28px;
+}
+
+.detail-sequence a {
+  display: grid;
+  gap: 4px;
+  min-height: 74px;
+  align-content: center;
+  padding: 14px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.detail-sequence a:last-child {
+  text-align: right;
+}
+
+.detail-sequence small {
+  color: var(--color-muted);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.detail-sequence strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .detail-sequence {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-sequence a:last-child {
+    text-align: left;
+  }
+}
+
 .detail-section-heading {
   margin-bottom: 16px;
   padding-top: 28px;

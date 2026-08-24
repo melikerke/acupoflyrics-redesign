@@ -4,6 +4,7 @@ import { genreGroups, getGenre, SORT_OPTIONS, sortPosts } from "../lib/content";
 import { canonical, genrePath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section, Shelf } from "../components/site/ui";
@@ -21,7 +22,7 @@ export default function GenrePage() {
 
   const path = genrePath(slug);
   useSeo({
-    title: genre ? `${genre.name} Şarkı Sözleri ve Çevirileri | acupoflyrics` : "Tür bulunamadı",
+    title: genre ? fitSeoTitle([`${genre.name} Şarkı Sözleri ve Çevirileri | acupoflyrics`]) : "Tür bulunamadı",
     description: genre?.description,
     path,
     image: genre?.cover,

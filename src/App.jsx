@@ -13,6 +13,8 @@ const MoodPage = lazy(() => import("./pages/MoodPage"));
 const GenrePage = lazy(() => import("./pages/GenrePage"));
 const DiscoverPage = lazy(() => import("./pages/DiscoverPage"));
 const AlbumsPage = lazy(() => import("./pages/AlbumsPage"));
+const SongsPage = lazy(() => import("./pages/SongsPage"));
+const ArtistsPage = lazy(() => import("./pages/ArtistsPage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 const MusicListsPage = lazy(() => import("./pages/MusicListsPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
@@ -119,6 +121,10 @@ export default function App() {
             <Route path="/mood/:slug" element={<MoodPage />} />
             <Route path="/genre/:slug" element={<GenrePage />} />
             <Route path="/discover" element={<DiscoverPage />} />
+            <Route path="/sarkilar" element={<SongsPage />} />
+            <Route path="/sarkilar/page/1" element={<Navigate to="/sarkilar" replace />} />
+            <Route path="/sarkilar/page/:page" element={<SongsPage />} />
+            <Route path="/sanatcilar" element={<ArtistsPage />} />
             <Route path="/albumler" element={<AlbumsPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/listeler" element={<MusicListsPage />} />

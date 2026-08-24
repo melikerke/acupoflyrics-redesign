@@ -34,6 +34,18 @@ def meta(key, blob):
     cm = re.match(r"<!\[CDATA\[(.*?)\]\]>", value, re.S)
     return html.unescape((cm.group(1) if cm else value).strip())
 
+def sanitize_seo_description(value, max_length=152):
+    text = re.sub(r"\s+", " ", value or "").strip()
+    if not text or re.search(r"%%?[^%\s]+%%?", text):
+        return ""
+    if len(text) <= max_length:
+        return text
+    clipped = text[:max_length - 1]
+    boundary = clipped.rfind(" ")
+    if boundary >= int(max_length * 0.72):
+        clipped = clipped[:boundary]
+    return clipped.rstrip(" ,;:|-–—.!?") + "…"
+
 # ---- 1. Categories (these are mostly ARTISTS on this site) ----
 categories = {}
 for cat in re.findall(r"<wp:category>.*?</wp:category>", data, re.S):
@@ -138,7 +150,7 @@ for it in re.findall(r"<item>.*?</item>", data, re.S):
         "oldUrl": link,
         "seo": {
             "title": title,
-            "description": meta("rank_math_description", it),
+            "description": sanitize_seo_description(meta("rank_math_description", it)),
             "canonical": meta("rank_math_canonical_url", it) or f"https://www.acupoflyrics.com/{slug}/",
         },
         "youtubeUrl": meta("youtube_linki", it) or None,

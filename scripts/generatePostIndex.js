@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { moodsForPost } from "../src/lib/moodClassifier.js";
@@ -142,7 +142,12 @@ await writeFile(path.join(ROOT, "public/data/posts.json"), JSON.stringify(posts)
 
 // Per-song JSON — the detail page fetches only its own song instead of the
 // whole 2.5 MB archive.
-await mkdir(path.join(ROOT, "public/data/posts"), { recursive: true });
+const perSongDirectory = path.join(ROOT, "public/data/posts");
+await mkdir(perSongDirectory, { recursive: true });
+const expectedPerSongFiles = new Set(posts.map((post) => `${post.slug}.json`));
+const stalePerSongFiles = (await readdir(perSongDirectory))
+  .filter((file) => file.endsWith(".json") && !expectedPerSongFiles.has(file));
+await Promise.all(stalePerSongFiles.map((file) => unlink(path.join(perSongDirectory, file))));
 await Promise.all(posts.map((post) =>
   writeFile(path.join(ROOT, `public/data/posts/${post.slug}.json`), JSON.stringify(post), "utf8"),
 ));
@@ -153,3 +158,4 @@ await writeFile(path.join(ROOT, "public/data/search-lines.json"), JSON.stringify
 
 console.log(`Generated src/data/postIndex.json for ${index.length} posts.`);
 console.log(`Generated ${posts.length} per-song files + search-lines.json.`);
+if (stalePerSongFiles.length) console.log(`Removed ${stalePerSongFiles.length} stale per-song JSON file(s).`);

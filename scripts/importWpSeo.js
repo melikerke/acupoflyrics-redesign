@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { sanitizeSeoDescription } from "../src/lib/meta.js";
 
 const ROOT = process.cwd();
 const XML_PATH = process.argv[2] || "/Users/melike/Downloads/acupoflyrics.WordPress.2026-06-30.xml";
@@ -50,7 +51,7 @@ async function main() {
     wpPosts.set(slug, {
       oldUrl: tag(item, "link") || `${SITE}/${slug}/`,
       title: tag(item, "title"),
-      description: meta(item, "rank_math_description"),
+      description: sanitizeSeoDescription(meta(item, "rank_math_description")),
       canonical: meta(item, "rank_math_canonical_url") || `${SITE}/${slug}/`,
       youtubeUrl: meta(item, "youtube_linki"),
     });
@@ -69,7 +70,7 @@ async function main() {
         oldUrl: wp.oldUrl,
         seo: {
           title: post.title || wp.title,
-          description: wp.description || post.seo?.description || post.excerpt || "",
+          description: wp.description || sanitizeSeoDescription(post.seo?.description) || sanitizeSeoDescription(post.excerpt) || "",
           canonical: wp.canonical,
         },
         youtubeUrl: post.youtubeUrl || wp.youtubeUrl || null,

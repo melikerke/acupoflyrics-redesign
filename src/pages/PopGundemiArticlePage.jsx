@@ -129,7 +129,7 @@ export default function PopGundemiArticlePage() {
             <p>{article.dek}</p>
           </div>
           <figure className="pop-story-visual">
-            <img src={article.image} alt={article.imageAlt || ""} />
+            <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} />
             <figcaption className="pop-story-cover-stamp">
               <span>{edition}</span>
               <strong>{article.kicker}</strong>
@@ -205,10 +205,10 @@ export default function PopGundemiArticlePage() {
                       <figure className="pop-story-inline-figure">
                         {section.imageSource ? (
                           <a href={section.imageSource} target="_blank" rel="noopener noreferrer">
-                            <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                            <img src={section.image} alt={section.imageAlt || `${section.heading} görseli`} loading="lazy" />
                           </a>
                         ) : (
-                          <img src={section.image} alt={section.imageAlt || ""} loading="lazy" />
+                          <img src={section.image} alt={section.imageAlt || `${section.heading} görseli`} loading="lazy" />
                         )}
                         {section.imageCaption && <figcaption>{section.imageCaption}</figcaption>}
                       </figure>

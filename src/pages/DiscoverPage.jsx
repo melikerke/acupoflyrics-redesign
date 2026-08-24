@@ -12,9 +12,10 @@ import {
   recentlyUpdated,
   totalPosts,
 } from "../lib/content";
-import { discoverPath, songPath } from "../lib/paths";
+import { artistsPath, discoverPath, songPath, songsPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Grid, Icon, Section, Shelf } from "../components/site/ui";
@@ -29,7 +30,7 @@ export default function DiscoverPage() {
   const rm = metricsFor(random);
 
   useSeo({
-    title: "Keşfet — Şarkı Çevirilerini Mood, Tür, Albüm ve Sanatçıya Göre Gezin | acupoflyrics",
+    title: fitSeoTitle(["Keşfet — Şarkı Çevirileri | acupoflyrics"]),
     description: `acupoflyrics arşivindeki ${totalPosts} şarkı çevirisini keşfet: trend olanlar, en yeniler, sanatçılar, albümler, koleksiyonlar, türler ve mood'lar.`,
     path: discoverPath(),
     image: heroCovers[0],
@@ -56,13 +57,13 @@ export default function DiscoverPage() {
         ]}
       />
 
-      <Section title="En yeniler" id="newest">
+      <Section title="En yeniler" id="newest" to={songsPath()} action="Tüm şarkılar">
         <Shelf>
           {newReleases.map((post) => <SongCard key={post.slug} post={post} />)}
         </Shelf>
       </Section>
 
-      <Section title="Sanatçılar" kicker="Premium sayfalar" id="artists">
+      <Section title="Sanatçılar" kicker="Sanatçı arşivleri" id="artists" to={artistsPath()} action="Tüm sanatçılar">
         <Grid min={140}>
           {artistCollections.map((a) => <ArtistCard key={a.slug} artist={a} />)}
         </Grid>

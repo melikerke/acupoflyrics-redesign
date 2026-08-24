@@ -19,6 +19,7 @@ const DATA_FILE = path.join(ROOT, "src/data/musicLists.json");
 const LIMIT = 10;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 const SPOTIFY_GLOBAL_TOP_50 = "37i9dQZEVXbMDoHDwVN2tF";
+const APPLE_GLOBAL_TOP_100 = "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31";
 const CIRCLE = "https://circlechart.kr";
 const FETCH_TIMEOUT_MS = 15000;
 
@@ -109,21 +110,41 @@ async function fetchBillboard(chart) {
   return { entries, updated: sourceDate };
 }
 
-async function fetchAppleMostPlayed() {
-  const res = await fetchWithTimeout(`https://rss.applemarketingtools.com/api/v2/us/music/most-played/${LIMIT}/songs.json`, {
-    headers: { "User-Agent": UA },
+async function fetchAppleGlobalMostPlayed() {
+  const res = await fetchWithTimeout(APPLE_GLOBAL_TOP_100, {
+    headers: { "User-Agent": UA, Accept: "text/html" },
   });
-  if (!res.ok) throw new Error(`Apple RSS ${res.status}`);
-  const data = await res.json();
-  const results = data?.feed?.results || [];
-  if (!results.length) throw new Error("Apple RSS boş döndü");
-  const updated = data?.feed?.updated ? new Date(data.feed.updated).toISOString().slice(0, 10) : null;
+  if (!res.ok) throw new Error(`Apple Music Global ${res.status}`);
+  const html = await res.text();
+  const serializedText = html.match(
+    /<script[^>]*id=["']serialized-server-data["'][^>]*>([\s\S]*?)<\/script>/i,
+  )?.[1];
+  if (!serializedText) throw new Error("Apple Music Global sayfa verisi bulunamadı");
+
+  let serialized;
+  try {
+    serialized = JSON.parse(serializedText);
+  } catch {
+    throw new Error("Apple Music Global sayfa verisi çözümlenemedi");
+  }
+  const sections = serialized?.data?.[0]?.data?.sections || [];
+  const trackSection = sections.find((section) => (
+    Array.isArray(section?.items)
+    && section.items.some((item) => item?.contentDescriptor?.kind === "song" && item?.rankingText)
+  ));
+  const results = (trackSection?.items || []).filter((item) => (
+    item?.contentDescriptor?.kind === "song" && item?.title
+  ));
+  if (results.length < LIMIT) {
+    throw new Error(`Apple Music Global boş/eksik döndü (${results.length}/${LIMIT})`);
+  }
+  const sourceDate = html.match(/"datePublished":"([^"]+)"/)?.[1] || null;
   return {
-    updated,
+    updated: sourceDate ? new Date(sourceDate).toISOString().slice(0, 10) : null,
     entries: results.slice(0, LIMIT).map((song, index) => ({
-      rank: index + 1,
-      title: song.name,
-      artist: song.artistName,
+      rank: Number(song.rankingText) || index + 1,
+      title: song.title,
+      artist: song.artistName || song.subtitleLinks?.map((link) => link.title).filter(Boolean).join(" & ") || "",
     })),
   };
 }
@@ -283,7 +304,7 @@ export async function updateCharts({ spotify, write = true } = {}) {
     "billboard-hot-100": () => fetchBillboard("hot-100"),
     "billboard-200": () => fetchBillboard("billboard-200"),
     "circle-chart": () => fetchCircleGlobalKpop(),
-    "apple-music-top-100": () => fetchAppleMostPlayed(),
+    "apple-music-top-100": () => fetchAppleGlobalMostPlayed(),
     "spotify-global-50": () => fetchSpotifyGlobal(spotify),
   };
 

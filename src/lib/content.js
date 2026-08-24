@@ -317,7 +317,8 @@ export function genreFor(post) {
   if (joined.includes("r&b") || joined.includes("soul") || includesArtist(post, RB)) return "R&B";
   if (joined.includes("rock") || joined.includes("metal") || includesArtist(post, ROCK)) return "Rock";
   if (joined.includes("edm") || joined.includes("dance") || joined.includes("electronic")) return "EDM";
-  if (joined.includes("indie") || joined.includes("alternative")) return "Indie";
+  if (joined.includes("alternative")) return "Alternative";
+  if (joined.includes("indie")) return "Indie";
   return "Pop";
 }
 

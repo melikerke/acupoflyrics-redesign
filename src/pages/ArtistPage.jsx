@@ -14,6 +14,7 @@ import { artistPath, canonical } from "../lib/paths";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import { languagesFor } from "../lib/languages";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
@@ -60,7 +61,11 @@ export default function ArtistPage() {
 
   const path = artistPath(slug);
   useSeo({
-    title: artist.posts.length ? `${artist.name} Şarkı Sözleri ve ${translationDirection.seo} | acupoflyrics` : "Sanatçı bulunamadı",
+    title: artist.posts.length ? fitSeoTitle([
+      `${artist.name} Şarkı Sözleri ve ${translationDirection.seo} | acupoflyrics`,
+      `${artist.name} ${translationDirection.seo} | acupoflyrics`,
+      `${artist.name} ${translationDirection.seo}`,
+    ]) : "Sanatçı bulunamadı",
     description: bio,
     path,
     image: artist.image,

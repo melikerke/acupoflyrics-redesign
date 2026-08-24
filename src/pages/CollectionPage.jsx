@@ -5,6 +5,7 @@ import { canonical, collectionPath } from "../lib/paths";
 import { themeFromColor } from "../lib/theme";
 import { useAlbumColor } from "../lib/color";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, Grid, Icon, Section } from "../components/site/ui";
@@ -36,7 +37,7 @@ export default function CollectionPage() {
 
   const path = collectionPath(slug);
   useSeo({
-    title: collection ? `${collection.name} — Şarkı Çevirileri | acupoflyrics` : "Yıl arşivi bulunamadı",
+    title: collection ? fitSeoTitle([`${collection.name} — Şarkı Çevirileri | acupoflyrics`]) : "Yıl arşivi bulunamadı",
     description: collection?.description,
     path,
     image: collection?.cover,

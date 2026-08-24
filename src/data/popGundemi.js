@@ -1,11 +1,139 @@
 export const popGundemiArticles = [
   {
+    slug: "24-agustos-2026-muzik-gundemi",
+    title: "24 Ağustos müzik gündemi: NCT 127, NEXZ ve ALPHA DRIVE ONE bugün dönüyor",
+    shortTitle: "24 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-24",
+    updatedAt: "2026-08-24T10:57:00+03:00",
+    readTime: "7 dk",
+    image: "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273820da6a43295fcb80ac9a1b3",
+    imageAlt: "NCT 127 BLINGY albümünün resmî kapak görseli",
+    imageCredit: "NCT 127 · SM Entertainment",
+    imageSource: "https://open.spotify.com/album/15F7TMmAOkR9fK74bf0sUu",
+    accent: "#b66572",
+    excerpt:
+      "CORTIS, GREENGREEN_playextended genişletilmiş albümünü iki yeni şarkıyla yayımladı. NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE ve NEXZ — SAUCIN' bugün 18.00 KST için planlanırken BbY WOW ve Unwritten global listelerde yükseliyor.",
+    dek:
+      "Bugünün taraması henüz yayımlanmamış K-pop dönüşlerini, ölçülmüş global ve viral hareketleri ve birbirinden ayrı tarih taşıyan beş müzik listesini tek dosyada topluyor. Çıkış saati gelmeyen kayıtlar yayımlanmış gibi gösterilmiyor.",
+    pullQuote:
+      "Apple Music Top 100: Global artık ABD RSS akışından değil, Apple'ın resmî küresel çalma listesinden ve kendi yayın tarihinden güncelleniyor.",
+    relatedTranslations: [
+      "cortis-redred-turkce-ceviri",
+      "cortis-juicy-j-motion-turkce-ceviri",
+      "nct-127-pinata-turkce-ceviri",
+      "enhypen-bloody-paradise-turkce-ceviri",
+      "olivia-rodrigo-stupid-song-turkce-ceviri",
+      "shakira-dai-dai-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "24 Ağustos 2026 sabah kontrolü",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "00.00 KST'de yayımlandı", text: "CORTIS, GREENGREEN_playextended'a PACK IT UP ve MONEYMONEYMONEY adlı iki yeni şarkı ekledi." },
+        { label: "12.00 TRT için planlandı", text: "NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE ve NEXZ — SAUCIN' 18.00 KST'de yayımlanacak." },
+        { label: "Global yükseliş", text: "BbY WOW Apple Music Global'da 5, Spotify Global'da 16 numarada; ABD Hot 100'e 73 numaradan girdi." },
+        { label: "Yeniden yükselen", text: "Natasha Bedingfield — Unwritten, 22 Ağustos Spotify Global ölçümünde 86 numaradan 64 numaraya çıktı." },
+        { label: "Listeler", text: "Beş listenin tamamı yenilendi; haftalık ve günlük kaynak tarihleri ayrı tutuldu." },
+      ],
+    },
+    summary: [
+      "Billboard Hot 100 ve Billboard 200, kaynağın 22 Ağustos hafta etiketiyle yenilendi. Circle Global'ın son günlük ölçümü 21 Ağustos, Spotify Global'ınki 22 Ağustos, Apple Music Top 100: Global'ın resmî yayın tarihi ise 23 Ağustos.",
+      "Apple Music kaynağında bir veri eşleme hatası düzeltildi: küresel liste yerine ABD most-played RSS akışını kullanan eski bağlantı kaldırıldı ve Apple'ın resmî Top 100: Global çalma listesi esas alındı. Başarısız veya boş bir kaynakla önceki veri silinmedi.",
+      "BIGHIT MUSIC'in duyurduğu CORTIS — GREENGREEN_playextended, 24 Ağustos 00.00 KST'de yayımlandı. Sekiz şarkılık genişletilmiş sürümdeki yeni kayıtlar PACK IT UP ve MONEYMONEYMONEY; ikisi de arşivde bulunmuyor.",
+      "KAROL G, rusowsky ve Judeline ortaklığı BbY WOW; Apple Music Global'da 5, Spotify Global'da 16 numaraya yükseldi ve ABD Hot 100'e 73 numaradan girdi. Şarkı arşivde bulunmuyor.",
+      "PARTYNEXTDOOR — Some of Your Love ile Netón Vega — RIKI son günlük ölçümlerde güçlü global hareket gösterdi. İki kayıt da arşivde bulunmuyor.",
+      "HUGEL, Imael Angel ve Ultra Naté ortaklığı Movin' To The Sun, UK Singles Chart'ta 4 numaradaki yerini korurken Spotify Global'da 46 numarayla yeni zirvesine ulaştı. TULUS — Teh Hijau ise aynı Spotify günlüğünde 16 basamak yükselerek 29 numara oldu.",
+      "Natasha Bedingfield — Unwritten, Spotify Global'da 22 ve Spotify UK'de 14 basamak yükseldi; resmî UK Singles Chart'ta da 37 numaradan 30 numaraya çıktı.",
+    ],
+    sections: [
+      {
+        heading: "CORTIS iki yeni şarkıyla sürpriz genişletilmiş albüm yayımladı",
+        body: [
+          "CORTIS, ikinci mini albümü GREENGREEN'in genişletilmiş sürümü GREENGREEN_playextended'ı 24 Ağustos 00.00 KST'de yayımladı. BIGHIT MUSIC kaynaklı albüm bilgisine ve Melon kaydına göre mevcut altı şarkıya PACK IT UP ile MONEYMONEYMONEY eklendi; toplam parça sayısı sekize çıktı.",
+          "İki yeni şarkı ilk kez 22 Ağustos'ta Seul'deki PUT YOUR PHONE DOWN BIRTHDAY PARTY konserinin ilk gününde seslendirildi. PACK IT UP, üyelerin seyahat için eşya toplarken yaptığı bir freestyleden; MONEYMONEYMONEY ise genç üyelerin para ve yapabilecekleri üzerine konuşmalarından doğdu. Beş üyenin tamamı iki şarkının da söz ve beste çalışmalarında yer alıyor.",
+          "MONEYMONEYMONEY için resmî görselleştirici de yayımlandı. PACK IT UP ve MONEYMONEYMONEY arşivde bulunmuyor; Korece satırlar içerdiği için iki çeviride de Latin alfabeli romanizasyon gerekli. Günün K-pop adaylarında sırasıyla yüksek ve çok yüksek önceliğe alındılar.",
+        ],
+      },
+      {
+        heading: "Üç K-pop başlık şarkısı bugün 18.00 KST için planlandı",
+        body: [
+          "NCT 127'nin yedinci stüdyo albümü BLINGY ve aynı adlı başlık şarkısı, grubun resmî Weverse takvimine göre 24 Ağustos saat 18.00 KST'de yayımlanacak. Sabah kontrolü 15.47 KST'de tamamlandığı için kayıt bu yazıda yayımlanmış olarak gösterilmiyor. Arşivde albümden Piñata bulunuyor; Blingy bulunmuyor.",
+          "NEXZ'in Korece mini albümü ve başlık şarkısı SAUCIN' ile ALPHA DRIVE ONE'ın UNBREAKABLE : 少年BEAST albümündeki BORN DIRE da aynı saat için planlandı. Üç şarkı da çıkış sonrasında platform ve söz metni doğrulaması bekliyor; Korece satırlar için Latin alfabeli romanizasyon gerekli.",
+          "Universal Music Japan, TUIDE'ın TUNE & PLAY EP'sini 24 Ağustos dijital takviminde duyurdu. Başlık şarkısı SUN KISS henüz ölçülmüş ana liste sinyali taşımadığı için orta öncelikli izleme kaydı olarak tutuluyor; Korece satırlar için romanizasyon gerekli.",
+        ],
+      },
+      {
+        heading: "BbY WOW iki global günlük listede güçlendi",
+        body: [
+          "KAROL G, rusowsky ve Judeline ortaklığı BbY WOW, Apple Music'in 23 Ağustos tarihli resmî küresel çalma listesinde 5 numarada. Spotify Global'ın 22 Ağustos ölçümünde 16 numaraya ulaşan şarkı, ABD Hot 100'e de 73 numaradan giriş yaptı. 7 Ağustos'ta yayımlanan kayıt arşivde bulunmuyor ve bugünün en yüksek öncelikli global çeviri adayı.",
+          "PARTYNEXTDOOR — Some of Your Love, P3'ün 10. yıl baskısındaki üç yeni kayıttan biri olarak 21 Ağustos'ta yayımlandı; 22 Ağustos Spotify Global ölçümünde 98 numarada ve Apple Music'in güncel küresel görünümünde ilk 15 içinde. Netón Vega — RIKI ise Spotify Global'da 31 numarayla yeni zirvesine ulaştı. İki şarkı da arşivde yok; Latin dışı alfabe kullanmadıkları için romanizasyon gerekmiyor.",
+          "Dance-pop kaydı Movin' To The Sun, resmî UK Singles Chart'ta 4 numarayı korudu ve Spotify Global'da 46 numarayla yeni zirvesini gördü. Endonezce pop kaydı Teh Hijau da Spotify Global'da 16 basamaklık sıçramayla 29 numaraya ulaştı. İki şarkı arşivde bulunmuyor; sözleri Latin alfabesiyle yazıldığı için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "Unwritten yeniden yükselişte",
+        body: [
+          "Natasha Bedingfield — Unwritten, Spotify Global'ın 22 Ağustos günlüğünde 86 numaradan 64 numaraya yükseldi; günlük dinlenme artışı 113 binin üzerinde. Aynı gün Spotify UK'de 40 numaradan 26 numaraya çıkan kayıt, 21–27 Ağustos resmî UK Singles Chart görünümünde de 37 numaradan 30 numaraya ilerledi.",
+          "Robyn — Dancing On My Own, UK Singles Chart'ta 44 numaradan 34 numaraya çıktı; ancak Spotify UK'deki sıra artışına günlük dinlenme artışı eşlik etmedi. Bu nedenle yeni bir viral patlama olarak değil, önceki Netflix ve TikTok canlanmasının devamı olarak düşük öncelikle izleniyor. Unwritten arşivde bulunmuyor ve romanizasyon gerektirmiyor.",
+        ],
+      },
+      {
+        heading: "Apple Music'in küresel liste kaynağı düzeltildi",
+        body: [
+          "Önceki otomatik akış, Apple Music Top 100: Global başlığı altında yanlışlıkla ABD most-played RSS verisini kullanıyordu. Bugünkü bakımda bu kaynak kaldırıldı; sıralama Apple'ın resmî Top 100: Global çalma listesindeki sıra numaraları ve sayfanın kendi yayın tarihi üzerinden alınmaya başlandı.",
+          "Düzeltme sonrasında Apple Music verisi 23 Ağustos günlük görünümünü taşıyor. Billboard Hot 100 ve Billboard 200 haftalık 22 Ağustos etiketiyle, Circle Global 21 Ağustos ve Spotify Global 22 Ağustos günlük ölçümüyle ayrı tutuldu. Beş kaynağın tamamı başarıyla doğrulandı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "CORTIS — MONEYMONEYMONEY", status: "Çok yüksek öncelik", detail: "24 Ağustos 00.00 KST'de yayımlandı; arşivde yok, romanizasyon gerekli." },
+      { name: "CORTIS — PACK IT UP", status: "Yüksek öncelik", detail: "Genişletilmiş albümdeki ikinci yeni şarkı; arşivde yok, romanizasyon gerekli." },
+      { name: "KAROL G, rusowsky & Judeline — BbY WOW", status: "Çok yüksek öncelik", detail: "Apple Music Global #5, Spotify Global #16 ve Hot 100'e #73 giriş; arşivde yok." },
+      { name: "PARTYNEXTDOOR — Some of Your Love", status: "Yüksek öncelik", detail: "Yeni P3 kaydı; iki global günlük listede görünürlük kazandı, arşivde yok." },
+      { name: "Netón Vega — RIKI", status: "Yüksek öncelik", detail: "Spotify Global'da #31 ile yeni zirve; arşivde yok." },
+      { name: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", status: "Çok yüksek öncelik", detail: "UK #4 ve Spotify Global'da #46 ile yeni zirve; arşivde yok." },
+      { name: "TULUS — Teh Hijau", status: "Yüksek öncelik", detail: "Spotify Global'da 16 basamak yükselerek #29 oldu; arşivde yok." },
+      { name: "NCT 127 — Blingy", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
+      { name: "ALPHA DRIVE ONE — BORN DIRE", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
+      { name: "NEXZ — SAUCIN'", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
+      { name: "Natasha Bedingfield — Unwritten", status: "Yüksek öncelik", detail: "Spotify Global'da 22 basamak yükseldi; arşivde yok." },
+    ],
+    sources: [
+      { name: "Weverse Shop — GREENGREEN_playextended resmî tarih ve parça listesi", url: "https://shop.weverse.io/ko/shop/KRW/artists/255/sales/66913" },
+      { name: "Melon — GREENGREEN_playextended albüm ve BIGHIT MUSIC bilgisi", url: "https://www.melon.com/album/detail.htm?albumId=14469050" },
+      { name: "CORTIS — GREENGREEN_playextended resmî yayın bağlantısı", url: "https://cortis.lnk.to/GREENGREEN" },
+      { name: "CORTIS — MONEYMONEYMONEY resmî görselleştirici", url: "https://www.youtube.com/watch?v=OhdvNHmJDsw" },
+      { name: "NCT 127 / Weverse — BLINGY yayın takvimi", url: "https://weverse.io/nct127/fanpost/0-178276873" },
+      { name: "Yonhap — NCT 127 BLINGY basın toplantısı", url: "https://en.yna.co.kr/view/AEN20260824005200315" },
+      { name: "NEXZ / JYP — SAUCIN' yayın takvimi", url: "https://nexz.jype.com/notice?NoticeNumber=110" },
+      { name: "ALPHA DRIVE ONE — resmî yayın bağlantıları", url: "https://linktr.ee/ALPHADRIVEONE" },
+      { name: "WakeOne — ALPHA DRIVE ONE resmî sanatçı sayfası", url: "https://wake-one.com/en/artists/alpha-drive-one/" },
+      { name: "Universal Music Japan — TUIDE TUNE & PLAY duyurusu", url: "https://www.universal-music.co.jp/tuide/news/2026-08-18/" },
+      { name: "KAROL G — NO ME ARREPIENTO DE SENTIR TANTO", url: "https://music.apple.com/us/album/no-me-arrepiento-de-sentir-tanto/6796864741" },
+      { name: "PARTYNEXTDOOR — P3 10. yıl resmî yayın bağlantısı", url: "https://ovo-partynextdoor.ffm.to/p3_10year" },
+      { name: "Netón Vega — RIKI resmî yayın bağlantısı", url: "https://virginmusic.lnk.to/riki" },
+      { name: "Apple Music — Movin' To The Sun", url: "https://music.apple.com/us/album/movin-to-the-sun-single/6769069923" },
+      { name: "Apple Music — TULUS, Teh Hijau", url: "https://music.apple.com/us/album/teh-hijau-single/6784585100" },
+      { name: "Spotify Global günlük liste geçmişi", url: "https://kworb.net/spotify/country/global_daily.html" },
+      { name: "Spotify UK günlük liste geçmişi", url: "https://kworb.net/spotify/country/gb_daily.html" },
+      { name: "Official Charts — UK Singles, 21–27 Ağustos", url: "https://www.officialcharts.com/charts/singles-chart/20260821/7501/" },
+      { name: "Official Charts — ABD Billboard Hot 100", url: "https://www.officialcharts.com/charts/billboard-hot-100-chart/" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+    ],
+    storyShare:
+      "24 Ağustos müzik gündemi: CORTIS iki yeni şarkı yayımladı; üç K-pop dönüşü 18.00 KST için planlanırken BbY WOW ve Unwritten yükseliyor.",
+  },
+  {
     slug: "21-agustos-2026-muzik-gundemi",
     title: "21 Ağustos müzik gündemi: Sam Smith ve ENHYPEN'in yeni albümleri yayında",
     shortTitle: "21 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-21",
-    updatedAt: "2026-08-21T11:10:00+03:00",
+    updatedAt: "2026-08-24T10:00:00+03:00",
     readTime: "6 dk",
     image: "https://store.samsmithworld.com/cdn/shop/files/Sam_Smith_CD_9b5e5104-104a-4fd5-bfa5-e5c1ab46ecc0.png?v=1782216307&width=1500",
     imageAlt: "Sam Smith Hazel Eyes albümünün resmî CD ürün görseli",
@@ -19,6 +147,7 @@ export const popGundemiArticles = [
     pullQuote:
       "Steve Lacy — Oh Yeah?, 19–25 Ağustos Hot 100 döneminde 54 numaradan 20 numaraya yükseldi.",
     relatedTranslations: [
+      "enhypen-bloody-paradise-turkce-ceviri",
       "enhypen-knife-turkce-ceviri",
       "enhypen-no-doubt-turkce-ceviri",
       "flo-rida-enhypen-paul-russell-confessions-turkce-ceviri",
@@ -31,6 +160,7 @@ export const popGundemiArticles = [
         { label: "Yeni albümler", text: "Sam Smith — Hazel Eyes ve ENHYPEN — THE SIN : BLISS, resmî 21 Ağustos takvimine göre yayımlandı." },
         { label: "Liste sıçraması", text: "Steve Lacy — Oh Yeah?, ABD Hot 100'de 54 numaradan 20 numaraya çıktı." },
         { label: "Viral", text: "Sunflower, Just a Girl ve Thinking Out Loud, 20 Ağustos haftalık TikTok Global görünümünün ilk üçünde." },
+        { label: "24 Ağustos güncellemesi", text: "THE SIN : BLISS remix paketleri yayımlandı; albüm Hanteo haftalık listesinde birinci oldu." },
         { label: "Listeler", text: "Beş kaynak yenilendi; her listenin ölçüm dönemi ve veri tarihi ayrı tutuldu." },
       ],
     },
@@ -38,8 +168,9 @@ export const popGundemiArticles = [
       "Billboard Hot 100 ve Billboard 200, kaynağın 22 Ağustos hafta etiketiyle yenilendi. Circle Global'ın son günlük ölçümü 18 Ağustos, Apple Music küresel akışı 21 Ağustos, Spotify Global'ın son doğrulanmış günlük görünümü ise 19 Ağustos tarihini taşıyor.",
       "Sam Smith'in 12 şarkılık beşinci stüdyo albümü Hazel Eyes, Capitol Records UK'nin resmî ürün sayfasındaki 21 Ağustos yayın takvimine göre dinleyiciyle buluştu. Albümde Feist ve The TwoCity Chorus konuk olarak yer alıyor.",
       "BELIFT LAB'ın resmî duyurusuna göre ENHYPEN'in sekizinci mini albümü THE SIN : BLISS, 21 Ağustos 13.00 KST'de yayımlandı. Başlık şarkısı Bloody Paradise; müzik videosu 22 Ağustos 00.00 KST için planlandı.",
-      "Steve Lacy — Oh Yeah?, 19–25 Ağustos ABD Hot 100 görünümünde 34 basamaklık sıçramayla 20 numaraya yükseldi. Şarkı acupoflyrics arşivinde bulunmuyor.",
-      "Soundcharts'ın 20 Ağustos haftalık TikTok Global verisinde Post Malone & Swae Lee — Sunflower 410 bin kullanımla birinci, No Doubt — Just a Girl 201 binle ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. Üç şarkı da arşivde bulunmuyor.",
+      "Steve Lacy — Oh Yeah?, 19–25 Ağustos ABD Hot 100 görünümünde 34 basamaklık sıçramayla 20 numaraya yükseldi. Şarkının Türkçe çevirisi daha sonra arşive eklendi.",
+      "Soundcharts'ın 20 Ağustos haftalık TikTok Global verisinde Post Malone & Swae Lee — Sunflower 410 bin kullanımla birinci, No Doubt — Just a Girl 201 binle ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. Üç şarkının Türkçe çevirisi daha sonra arşive eklendi.",
+      "24 Ağustos güncellemesi: THE SIN : BLISS, Hanteo'nun 17–23 Ağustos haftalık albüm listesinde birinci oldu. BELIFT LAB ayrıca altı üyeye özel remix paketlerini 24 Ağustos 13.00 KST'de yayımladı.",
     ],
     sections: [
       {
@@ -53,21 +184,22 @@ export const popGundemiArticles = [
         heading: "ENHYPEN — Bloody Paradise, THE SIN : BLISS albümünün başlık şarkısı",
         body: [
           "BELIFT LAB, ENHYPEN'in sekizinci mini albümü THE SIN : BLISS için 21 Ağustos 13.00 KST yayın saatini açıkladı. Billboard Japan'ın albüm ön izlemesine göre altı şarkılık kaydın başlık parçası Bloody Paradise; albümde ayrıca dört dilde anlatım bölümleri bulunuyor.",
-          "Bloody Paradise arşivde bulunmuyor ve bugün yüksek öncelikli çeviri adayı. Korece özgün satırlarla birlikte Latin alfabeli romanizasyon hazırlanmalı. Müzik videosu 22 Ağustos 00.00 KST için planlandığından, bu kontrol sırasında klibin yayımlandığı ileri sürülmüyor.",
+          "Bloody Paradise ile albümün diğer beş şarkısı daha sonra romanize özgün sözler ve Türkçe çevirileriyle arşive eklendi. BELIFT LAB, altı üyeye özel Bloody Paradise remix paketlerini 24 Ağustos 13.00 KST'de yayımladı; her pakette üye remiksi, Voice Note ve İngilizce sürüm bulunuyor.",
+          "THE SIN : BLISS, Hanteo'nun 17–23 Ağustos haftalık albüm listesinde birinci oldu; ilk gün satışı 1,77 milyonun üzerinde açıklandı. Bu gelişmeler mevcut çeviri sayfalarına bağlandığı için yeni bir çeviri adayı oluşturulmuyor.",
         ],
       },
       {
         heading: "Global Pop & R&B: yeni yayınlar ve Steve Lacy sıçraması",
         body: [
           "ABD Hot 100'ün 19–25 Ağustos görünümünde Steve Lacy — Oh Yeah?, önceki haftaki 54 numaradan 20 numaraya yükseldi. RCA Records'ın resmî albüm duyurusu, parçanın 17 Temmuz'da yayımlanan aynı adlı albümün açılış şarkısı olduğunu doğruluyor. Bu 34 basamaklık hareket, bugünün ölçülmüş en güçlü global çeviri sinyali.",
-          "Son 24–48 saatte Mariah Carey ile Rochelle Jordan'ın Didn't Mean to Turn You On yeniden yorumu, Carly Rae Jepsen — Motivation, Lizzy McAlpine — Ugly things ve Remi Wolf — Bottle da yayımlandı. Bu kayıtlar arşivde bulunmuyor; ilk üçü yüksek, Bottle ise orta-yüksek öncelikle izleniyor. Bugünkü yayınlarda Latin dışı alfabe kullanılmadığı için romanizasyon gerekmiyor.",
+          "Son 24–48 saatte Mariah Carey ile Rochelle Jordan'ın Didn't Mean to Turn You On yeniden yorumu, Carly Rae Jepsen — Motivation, Lizzy McAlpine — Ugly things ve Remi Wolf — Bottle da yayımlandı. Mariah Carey ve Carly Rae Jepsen kayıtları daha sonra arşive eklendi; Ugly things ve Bottle çeviri bekliyor. Latin dışı alfabe kullanılmadığı için romanizasyon gerekmiyor.",
         ],
       },
       {
         heading: "Sunflower, Just a Girl ve Thinking Out Loud TikTok'ta yeniden öne çıktı",
         body: [
           "Soundcharts'ın 20 Ağustos haftalık TikTok Global görünümünde Sunflower 410 bin kullanımla birinci sırada. Aynı kaynağın 13 Ağustos'ta indekslenen görünümündeki 212 bin değere göre artış yaklaşık yüzde 93. Sony Pictures, Post Malone ve Swae Lee ortaklığının özgün yayınını 18 Ekim 2018 olarak doğruluyor.",
-          "No Doubt — Just a Girl 201 bin kullanımla ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. İki kayıt önceki erişilebilir ilk 95 görünümünde yer almıyordu. Güncel sayısal yükseliş doğrulanmış olsa da bu iki şarkının tetikleyicisi resmî olarak açıklanmadı; neden hakkında tahmin yürütülmedi.",
+          "No Doubt — Just a Girl 201 bin kullanımla ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. İki kayıt önceki erişilebilir ilk 95 görünümünde yer almıyordu. Güncel sayısal yükseliş doğrulanmış olsa da tetikleyici resmî olarak açıklanmadı; neden hakkında tahmin yürütülmedi. Üç çeviri daha sonra arşive eklendi.",
         ],
       },
       {
@@ -79,21 +211,23 @@ export const popGundemiArticles = [
       },
     ],
     memberStatus: [
-      { name: "Steve Lacy — Oh Yeah?", status: "Yüksek öncelik", detail: "ABD Hot 100'de 54'ten 20'ye yükseldi; arşivde yok." },
-      { name: "Mariah Carey feat. Rochelle Jordan — Didn't Mean to Turn You On", status: "Yüksek öncelik", detail: "20 Ağustos'ta yayımlanan yeni yorum; arşivde yok." },
-      { name: "Carly Rae Jepsen — Motivation", status: "Yüksek öncelik", detail: "21 Ağustos yeni yayını; arşivde yok." },
+      { name: "Steve Lacy — Oh Yeah?", status: "Arşivde", detail: "ABD Hot 100'de 54'ten 20'ye yükseldikten sonra çevirisi yayımlandı." },
+      { name: "Mariah Carey feat. Rochelle Jordan — Didn't Mean to Turn You On", status: "Arşivde", detail: "20 Ağustos'ta yayımlanan yeni yorumun çevirisi yayımlandı." },
+      { name: "Carly Rae Jepsen — Motivation", status: "Arşivde", detail: "21 Ağustos yayınının çevirisi yayımlandı." },
       { name: "Lizzy McAlpine — Ugly things", status: "Orta-yüksek", detail: "21 Ağustos yeni yayını; arşivde yok." },
       { name: "Remi Wolf — Bottle", status: "Orta-yüksek", detail: "20 Ağustos'ta yayımlandı; Mud albümüyle birlikte duyuruldu." },
-      { name: "ENHYPEN — Bloody Paradise", status: "Yüksek öncelik", detail: "21 Ağustos başlık şarkısı; Korece satırlar için romanizasyon gerekli." },
+      { name: "ENHYPEN — Bloody Paradise", status: "Arşivde", detail: "Romanize özgün sözler ve Türkçe çeviri yayımlandı; 24 Ağustos remix paketleri yeni aday değil." },
       { name: "Mimi — Bish Bash Bosh", status: "Orta-yüksek", detail: "20 Ağustos solo çıkışı; Korece satırlar için romanizasyon gerekli." },
       { name: "Tiger JK & Yoonmirae — Let Me Love You", status: "Orta", detail: "20 Ağustos ortak yayını; romanizasyon gerekli." },
       { name: "Kim Jaejoong — Tonight", status: "Orta", detail: "20 Ağustos Korece dönüş şarkısı; romanizasyon gerekli." },
-      { name: "Sunflower / Just a Girl / Thinking Out Loud", status: "Viral yükseliş", detail: "20 Ağustos TikTok Global ilk üçü; üçü de arşivde yok." },
+      { name: "Sunflower / Just a Girl / Thinking Out Loud", status: "Arşivde", detail: "20 Ağustos TikTok Global ilk üçündeki üç şarkının çevirisi yayımlandı." },
     ],
     sources: [
       { name: "Sam Smith resmî mağazası — Hazel Eyes yayın tarihi ve parça listesi", url: "https://store.samsmithworld.com/products/hazel-eyes-cd" },
       { name: "BELIFT LAB / Weverse — THE SIN : BLISS yayın duyurusu", url: "https://weverse.io/enhypen/notice/37455" },
       { name: "ENHYPEN — THE SIN : BLISS resmî yayın bağlantısı", url: "https://enhypen.lnk.to/THESINBLISS" },
+      { name: "BELIFT LAB / Weverse — Bloody Paradise remix paketleri", url: "https://weverse.io/enhypen/notice/38548" },
+      { name: "Chosun — THE SIN : BLISS Hanteo haftalık sonucu", url: "https://www.chosun.com/english/kpop-culture-en/2026/08/24/J43JVC3GLBAMRFK32SMMJ4NOR4/" },
       { name: "Billboard Japan — Bloody Paradise ve albüm ön izlemesi", url: "https://www.billboard-japan.com/d_news/detail/163923/2" },
       { name: "Soompi — Mimi solo çıkış duyurusu", url: "https://www.soompi.com/article/1859160wpp/oh-my-girls-mimi-announces-plans-for-solo-debut" },
       { name: "Yonhap — Tiger JK ve Yoonmirae ortak single bilgisi", url: "https://www.yna.co.kr/amp/view/AKR20260820053300005" },
@@ -526,11 +660,12 @@ export const popGundemiArticles = [
     shortTitle: "16 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-16",
-    updatedAt: "2026-08-16T10:35:00+03:00",
-    readTime: "4 dk",
+    updatedAt: "2026-08-24T10:00:00+03:00",
+    readTime: "5 dk",
     image: "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
     imageAlt: "ATEEZ GOLDEN HOUR Part.5 albüm kapağı",
     imageCredit: "ATEEZ · KQ Entertainment",
+    imageSource: "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
     accent: "#bd3c3b",
     excerpt:
       "ATEEZ'in BAD şarkısı Circle Global günlük listesinde bir numaraya yükseldi. Beş müzik listesi yenilenirken Phoebe Bridgers ve Ayra Starr'ın 14 Ağustos yayınları da arşiv açısından değerlendirildi.",
@@ -539,6 +674,9 @@ export const popGundemiArticles = [
     pullQuote:
       "ATEEZ — BAD, 14 Ağustos verisindeki üçüncü sıradan 16 Ağustos kontrolünde Circle Global günlük listesinin zirvesine çıktı.",
     relatedTranslations: [
+      "phoebe-bridgers-lost-weekend-turkce-ceviri",
+      "ayra-starr-zayn-heaven-baby-turkce-ceviri",
+      "ateez-bad-turkce-ceviri",
       "ateez-bouncy-k-hot-chilli-peppers-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
       "huntr-x-golden-turkce-ceviri",
@@ -552,13 +690,14 @@ export const popGundemiArticles = [
         { label: "Circle Global", text: "ATEEZ — BAD günlük listede bir numaraya yükseldi; Golden ikinci, BTS — SWIM üçüncü sırada." },
         { label: "Global platformlar", text: "Spotify Global'da Dai Dai birinci; Beauty And A Beat ikinci, Tame Impala — Loser üçüncü sırada." },
         { label: "Yeni albümler", text: "Phoebe Bridgers — Lost Weekend ve Ayra Starr — Starrgirl, 14 Ağustos'ta yayımlandı." },
+        { label: "24 Ağustos güncellemesi", text: "Lost Weekend, ABD Billboard 200'e 2 numaradan girerek Phoebe Bridgers'ın ilk solo ilk 10 albümü oldu." },
       ],
     },
     summary: [
       "Billboard Hot 100, Billboard 200, Circle Global, Apple Music Top 100: Global ve Spotify Global Top 50 kaynaklarının tamamı 16 Ağustos sabahında başarıyla yenilendi.",
-      "ATEEZ — BAD, Circle Global günlük listesinde üçüncü sıradan birinci sıraya çıktı. Şarkının Türkçe çevirisi arşivde henüz bulunmuyor.",
+      "ATEEZ — BAD, Circle Global günlük listesinde üçüncü sıradan birinci sıraya çıktı. Şarkının Türkçe çevirisi daha sonra arşive eklendi.",
       "KATSEYE — Animal, Spotify Global Top 50'ye beşinci sıradan girdi; şarkının çeviri sayfası arşivde mevcut.",
-      "Phoebe Bridgers'ın Lost Weekend ve Ayra Starr'ın Starrgirl albümleri 14 Ağustos'ta yayımlandı. Lost Weekend başlık parçası ile Ayra Starr ve ZAYN ortaklığı Heaven Baby arşivde bulunmuyor.",
+      "Phoebe Bridgers'ın Lost Weekend ve Ayra Starr'ın Starrgirl albümleri 14 Ağustos'ta yayımlandı. Lost Weekend, 23 Ağustos'ta açıklanan sonuçta ABD Billboard 200'e 2 numaradan ve 118 bin eşdeğer albüm birimiyle girdi; Lost Weekend ile Heaven Baby çevirileri arşive eklendi.",
     ],
     sections: [
       {
@@ -586,29 +725,30 @@ export const popGundemiArticles = [
         heading: "Phoebe Bridgers — Lost Weekend yayımlandı",
         body: [
           "Dead Oceans'ın 24 Haziran'da yayımladığı duyuruda açıklanan Lost Weekend, planlandığı gibi 14 Ağustos'ta yayımlandı. Albüm, Phoebe Bridgers'ın Punisher'dan sonraki üçüncü solo stüdyo albümü.",
-          "Resmi Bandcamp kaydı da dijital çıkış tarihini 14 Ağustos olarak gösteriyor. Arşivde albümün ilk şarkısı Lost Boys ve başlık parçası Lost Weekend için henüz Türkçe çeviri bulunmuyor; albümün yeni yayın olması nedeniyle önce başlık parçası izlenecek.",
+          "Resmi Bandcamp kaydı da dijital çıkış tarihini 14 Ağustos olarak gösteriyor. Billboard'ın 23 Ağustos tarihli haberine göre albüm, ABD Billboard 200'e 2 numaradan ve 118 bin eşdeğer albüm birimiyle girerek Bridgers'ın ilk solo ilk 10 albümü oldu. Başlık parçasının Türkçe çevirisi arşivde bulunuyor.",
         ],
       },
       {
         heading: "Ayra Starr — Starrgirl ve Heaven Baby",
         body: [
           "Official Charts'ın 2026 albüm takviminde 14 Ağustos yayını olarak yer alan Starrgirl dijital platformlarda yayımlandı. LOS40'ın 14 Ağustos tarihli haberine göre albüm 16 şarkıdan oluşuyor.",
-          "Albümde ZAYN'in yer aldığı Heaven Baby, global pop ve R&B arşivi için öne çıkan eksik parça. Aynı haberde yayın ve haber tarihi 14 Ağustos olarak belirtiliyor; şarkı için acupoflyrics arşivinde henüz sayfa bulunmuyor.",
+          "Albümde ZAYN'in yer aldığı Heaven Baby, global pop ve R&B arşivi için öne çıkan parçalardan biri. Aynı haberde yayın ve haber tarihi 14 Ağustos olarak belirtiliyor; şarkının Türkçe çevirisi daha sonra arşive eklendi.",
         ],
       },
       {
         heading: "Çeviri arşivinde doğrulanan eksikler",
         body: [
-          "Bu sabahki liste karşılaştırmasında ATEEZ — BAD doğrudan çok yüksek önceliğe çıktı. Korece bölümler için Latin alfabesiyle romanizasyon gerekli.",
-          "Yeni albümler tarafında Ayra Starr ve ZAYN — Heaven Baby ile Phoebe Bridgers — Lost Weekend çeviri bekliyor. Daha önce raporlanan ve bugün belirgin bir sıçrama göstermeyen parçalar günlük aday listesine yeniden eklenmedi.",
+          "Bu sabahki liste karşılaştırmasında ATEEZ — BAD doğrudan çok yüksek önceliğe çıktı. Korece bölümler Latin alfabesiyle romanize edilerek çeviri daha sonra arşive eklendi.",
+          "Ayra Starr ve ZAYN — Heaven Baby ile Phoebe Bridgers — Lost Weekend çevirileri de arşivde bulunuyor. 24 Ağustos güncellemesi yeni bir şarkı sayfası gerektirmedi.",
         ],
       },
     ],
     memberStatus: [
       { name: "Beş müzik listesi", status: "Güncellendi", detail: "Billboard, Circle, Apple Music ve Spotify kaynaklarının tamamı 16 Ağustos kontrolünde başarıyla doğrulandı." },
-      { name: "ATEEZ — BAD", status: "Circle Global #1", detail: "Günlük listede üçüncü sıradan birinci sıraya yükseldi; Türkçe çeviri bekliyor." },
+      { name: "ATEEZ — BAD", status: "Arşivde", detail: "Circle Global'da zirveye çıktıktan sonra romanize sözlerle Türkçe çevirisi yayımlandı." },
       { name: "KATSEYE — Animal", status: "Spotify Global #5", detail: "WILD yayını sonrasında ilk 10'a girdi; Türkçe çevirisi arşivde mevcut." },
       { name: "Lost Weekend · Starrgirl", status: "Yayında", detail: "İki albümün de 14 Ağustos çıkışı resmi ve güvenilir kaynaklarla doğrulandı." },
+      { name: "Phoebe Bridgers — Lost Weekend", status: "Billboard 200 #2", detail: "118 bin birimle sanatçının ilk solo ilk 10 albümü; başlık şarkısının çevirisi arşivde." },
     ],
     sources: [
       { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
@@ -619,6 +759,7 @@ export const popGundemiArticles = [
       { name: "KQ Entertainment — GOLDEN HOUR : Part.5 resmi yayın duyurusu", url: "https://ateez.kqent.com/contents/6a3d28a6edaad16ca982dcdc" },
       { name: "Dead Oceans — Lost Weekend resmi albüm duyurusu", url: "https://deadoceans.com/news/phoebe-bridgers-announces-new-album-lost-weekend-highly-anticipated-third-album-out-august-14th/" },
       { name: "Phoebe Bridgers — Lost Weekend resmi Bandcamp kaydı", url: "https://phoebebridgers.bandcamp.com/album/lost-weekend" },
+      { name: "Billboard — Lost Weekend Billboard 200 girişi", url: "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/" },
       { name: "Official Charts — 2026 yeni albüm takvimi", url: "https://www.officialcharts.com/chart-news/new-album-releases-2026/" },
       { name: "LOS40 — Ayra Starr ve ZAYN, Heaven Baby", url: "https://los40.com/2026/08/14/zayn-se-une-a-ayra-starr-en-heaven-baby-una-de-las-joyas-de-starrgirl/" },
     ],
@@ -1004,11 +1145,12 @@ export const popGundemiArticles = [
     shortTitle: "KATSEYE — WILD şimdi yayında",
     kicker: "Yeni müzik",
     date: "2026-08-10",
-    updatedAt: "2026-08-14T10:12:00+03:00",
-    readTime: "5 dk",
+    updatedAt: "2026-08-24T10:00:00+03:00",
+    readTime: "6 dk",
     image: "https://i.scdn.co/image/ab67616d0000b273f995fcdb4d6f1c273a3bc56b",
     imageAlt: "KATSEYE PINKY UP ve WILD dönemi görseli",
     imageCredit: "KATSEYE · HYBE x Geffen Records",
+    imageSource: "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6",
     accent: "#e88fab",
     artistSlug: "katseye",
     artistName: "KATSEYE",
@@ -1021,6 +1163,8 @@ export const popGundemiArticles = [
     relatedTranslations: [
       "katseye-pinky-up-turkce-ceviri",
       "katseye-animal-turkce-ceviri",
+      "katseye-hootie-frutti-turkce-ceviri",
+      "katseye-bel-air-turkce-ceviri",
       "katseye-that-way-turkce-ceviri",
       "katseye-gameboy-turkce-ceviri",
       "katseye-gnarly-turkce-ceviri",
@@ -1031,14 +1175,16 @@ export const popGundemiArticles = [
       items: [
         { label: "Yayın", text: "WILD, 14 Ağustos'ta HYBE x Geffen Records etiketiyle yayımlandı." },
         { label: "Dijital sürüm", text: "EP, PINKY UP'tan That Way'e uzanan beş ses kaydından oluşuyor." },
-        { label: "Arşiv", text: "PINKY UP ve Animal çevirileri hazır; That Way'in performans metni stüdyo sözleriyle karşılaştırılacak." },
+        { label: "Arşiv", text: "WILD'ın beş dijital şarkısının da Türkçe çevirisi arşivde." },
+        { label: "24 Ağustos güncellemesi", text: "WILD, 170 bin eşdeğer albüm birimiyle ABD Billboard 200'e bir numaradan girdi." },
       ],
     },
     summary: [
       "KATSEYE'nin üçüncü EP'si WILD, 14 Ağustos 2026'da HYBE x Geffen Records etiketiyle yayımlandı.",
       "Dijital parça listesinde PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way bulunuyor; Unloveu fiziksel baskıya özel bonus parça olarak duyuruldu.",
       "Apple Music kaydında PINKY UP ve Animal videolarıyla birlikte altı öğe görünse de dijital EP'nin ses parçası sayısı beş.",
-      "PINKY UP ve Animal çevirileri arşivde; That Way'in performans sürümü çevirisi resmi stüdyo sözleriyle yeniden karşılaştırılacak.",
+      "PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way çevirileri arşivde bulunuyor.",
+      "Billboard'ın 23 Ağustos tarihli haberine göre WILD, 170 bin eşdeğer albüm birimiyle ABD Billboard 200'e bir numaradan girdi.",
     ],
     sections: [
       {
@@ -1046,6 +1192,7 @@ export const popGundemiArticles = [
         body: [
           "WILD, KATSEYE'nin üçüncü EP'si ve beş parçalık dijital bir proje. PINKY UP ile Animal'ı sırasıyla Hootie Frutti, Bel Air ve That Way izliyor. Unloveu ise Target fiziksel baskısında bulunan özel bonus parça olarak duyuruldu.",
           "Spotify ve Apple Music sayfaları 14 Ağustos itibarıyla albüm sürümünü erişime açtı. Apple Music sayfasındaki altı öğelik toplam, beş ses kaydına ek olarak listelenen müzik videosunu da kapsıyor.",
+          "Billboard'ın 23 Ağustos'ta açıkladığı sonuçta WILD, 170 bin eşdeğer albüm birimiyle ABD Billboard 200'e bir numaradan girdi. Bu, EP'nin yayın haberinin devamı olarak aynı dosyada güncellendi.",
         ],
       },
       {
@@ -1072,16 +1219,17 @@ export const popGundemiArticles = [
       {
         heading: "Çeviri arşivinde sıradaki kontrol",
         body: [
-          "PINKY UP ve Animal çevirileri okunabilir durumda. Hootie Frutti ile Bel Air henüz arşivde bulunmuyor ve çeviri metinleri sağlandığında ayrı şarkı sayfalarıyla eklenecek.",
-          "That Way'in arşivdeki metni Spotify etkinliği performansına dayanıyor. Resmi stüdyo sözlerinde farklı bölüm, kelime ya da sıralama varsa mevcut sayfa aynı URL üzerinde güncellenecek. Gameboy ve Gnarly, WILD parçası olmadığı için ayrı dönem bağlantıları olarak tutuluyor.",
+          "PINKY UP, Animal, Hootie Frutti, Bel Air ve That Way çevirileri okunabilir durumda. WILD'ın beş dijital şarkısı da arşivde yer alıyor.",
+          "Gameboy ve Gnarly, WILD parçası olmadığı için ayrı dönem bağlantıları olarak tutuluyor. Unloveu fiziksel baskıya özel olduğu için dijital beşliyle aynı durum satırında gösterilmiyor.",
         ],
       },
     ],
     memberStatus: [
       { name: "PINKY UP", status: "Yayında + çevrildi", detail: "Resmi video, Spotify bağlantısı ve Türkçe çeviri hazır." },
       { name: "Animal", status: "Yayında + çevrildi", detail: "WILD'ın ikinci ön şarkısı çeviri arşivinde bulunuyor." },
-      { name: "That Way", status: "Karşılaştırma bekliyor", detail: "Performans çevirisi, yayımlanan stüdyo sürümünün resmi sözleriyle kontrol edilecek." },
-      { name: "Hootie Frutti + Bel Air", status: "Çeviri bekleniyor", detail: "İki yeni albüm parçası dijital platformlarda yayımlandı; arşivde henüz sayfaları yok." },
+      { name: "That Way", status: "Yayında + çevrildi", detail: "Stüdyo sürümünün Türkçe çevirisi arşivde bulunuyor." },
+      { name: "Hootie Frutti + Bel Air", status: "Yayında + çevrildi", detail: "İki albüm parçasının Türkçe çevirisi arşivde." },
+      { name: "KATSEYE — WILD", status: "Billboard 200 #1", detail: "170 bin eşdeğer albüm birimiyle ABD albüm listesinin zirvesine girdi." },
     ],
     sources: [
       { name: "Spotify — WILD", url: "https://open.spotify.com/album/2d0AkZUJV30oIOJAeEyzC6" },
@@ -1089,6 +1237,7 @@ export const popGundemiArticles = [
       { name: "Universal Music — Animal ve WILD duyurusu", url: "https://www.universal-music.co.jp/katseye/news/2026-07-24/" },
       { name: "Weverse — WILD resmi yayın duyurusu", url: "https://weverse.io/katseye/notice/34966" },
       { name: "Weverse — WILD HEARTS gösterim duyurusu", url: "https://weverse.io/katseye/notice/37360" },
+      { name: "Billboard — WILD Billboard 200 birinciliği", url: "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/" },
     ],
     storyShare:
       "KATSEYE'nin beş şarkılık WILD EP'si yayımlandı. Doğrulanan parça listesi, WILD HEARTS gösterimleri ve güncel Türkçe çeviri durumu Pop Günlüğü'nde.",

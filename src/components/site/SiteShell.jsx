@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { totalPosts } from "../../lib/content";
-import { discoverPath, popJournalPath, searchPath } from "../../lib/paths";
+import { artistsPath, discoverPath, popJournalPath, searchPath, songsPath } from "../../lib/paths";
 import { Icon } from "./ui";
 import "../../preview.css";
 import "../../site.css";
@@ -28,8 +28,9 @@ export function SiteNav() {
       <Link to="/" className="acl-logo font-serif">acupoflyrics</Link>
       <nav className="acl-menu" aria-label="Ana navigasyon">
         <Link to={discoverPath()}>Keşfet</Link>
+        <Link to={songsPath()}>Şarkılar</Link>
         <Link to="/albumler">Albümler</Link>
-        <Link to={`${discoverPath()}#artists`}>Sanatçılar</Link>
+        <Link to={artistsPath()}>Sanatçılar</Link>
         <Link to={`${discoverPath()}#moods`}>Mood</Link>
         <Link to="/listeler">Listeler</Link>
         <Link to={popJournalPath()}>Pop Günlüğü</Link>
@@ -86,7 +87,7 @@ export function SiteFooter() {
           <div className="acl-logo font-serif" style={{ fontSize: 22 }}>acupoflyrics</div>
           <p>Özenli şarkı çevirileri — {totalPosts} şarkı.</p>
         </div>
-        <FooterCol title="Keşfet" items={[["Keşfet", discoverPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
+        <FooterCol title="Keşfet" items={[["Tüm şarkılar", songsPath()], ["Tüm sanatçılar", artistsPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
         <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />
         <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Gizlilik ve çerezler", "/gizlilik"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
       </div>

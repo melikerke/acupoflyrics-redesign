@@ -12,6 +12,7 @@ export default function PageHero({
   cover,
   portrait,
   collage,
+  mediaAlt,
   kicker,
   title,
   titleSerif = false,
@@ -21,10 +22,12 @@ export default function PageHero({
   actions,
   stats,
 }) {
+  const coverAlt = mediaAlt || `${title || "Albüm"} albüm kapağı`;
+  const portraitAlt = mediaAlt || `${title || "Sanatçı"} sanatçı fotoğrafı`;
   const media = cover ? (
-    <div className="site-hero-art"><img src={cover} alt="" /></div>
+    <div className="site-hero-art"><img src={cover} alt={coverAlt} /></div>
   ) : portrait ? (
-    <div className="site-hero-portrait"><img src={portrait} alt="" /></div>
+    <div className="site-hero-portrait"><img src={portrait} alt={portraitAlt} /></div>
   ) : collage && collage.length > 0 ? (
     <div className="site-hero-mosaic" aria-hidden>
       {collage.slice(0, 4).map((c, i) => <img key={i} src={c} alt="" />)}

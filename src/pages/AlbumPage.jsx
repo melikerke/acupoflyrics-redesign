@@ -11,6 +11,7 @@ import { albumPath, artistPath, canonical } from "../lib/paths";
 import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, Grid, Icon, Section, Shelf } from "../components/site/ui";
@@ -67,7 +68,11 @@ export default function AlbumPage() {
 
   const path = albumPath(slug);
   useSeo({
-    title: album ? `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics` : "Albüm bulunamadı",
+    title: album ? fitSeoTitle([
+      `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`,
+      `${album.name} Albüm Çevirileri | acupoflyrics`,
+      `${album.name} Albüm Çevirileri`,
+    ]) : "Albüm bulunamadı",
     description: album?.description,
     path,
     image: album?.cover,

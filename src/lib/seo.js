@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { ORIGIN } from "./paths";
+import { completeSeoDescription, normalizeSeoTitle } from "./meta";
 
 function setMeta(name, content, attr = "name") {
   if (!content) return;
@@ -64,17 +65,19 @@ export function useSeo({
 }) {
   useEffect(() => {
     if (!title) return;
+    const metaTitle = normalizeSeoTitle(title);
+    const metaDescription = completeSeoDescription(description);
     const url = path ? `${ORIGIN}${path}` : undefined;
-    document.title = title;
-    setMeta("description", description);
-    setMeta("og:title", title, "property");
-    setMeta("og:description", description, "property");
+    document.title = metaTitle;
+    setMeta("description", metaDescription);
+    setMeta("og:title", metaTitle, "property");
+    setMeta("og:description", metaDescription, "property");
     setMeta("og:type", type, "property");
     if (url) setMeta("og:url", url, "property");
     if (image) setMeta("og:image", image, "property");
     setMeta("twitter:card", image ? "summary_large_image" : "summary");
-    setMeta("twitter:title", title);
-    setMeta("twitter:description", description);
+    setMeta("twitter:title", metaTitle);
+    setMeta("twitter:description", metaDescription);
     if (image) setMeta("twitter:image", image);
     setCanonical(url);
     setRobots(noindex);

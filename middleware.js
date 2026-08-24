@@ -1,5 +1,7 @@
 import { next } from "@vercel/functions";
+import { legacyAlbumRedirects } from "./server/legacyAlbumRedirects.js";
 import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
+import { legacyCategoryPathRedirects } from "./server/legacyCategoryPathRedirects.js";
 import { legacyPostRedirects } from "./server/legacyPostRedirects.js";
 
 export const config = {
@@ -58,8 +60,39 @@ function readBasicAuth(request) {
 
 const staticLegacyRedirects = {
   "/muzik-listeleri": "/listeler",
-  "/sanatcilar": "/discover",
 };
+
+const canonicalPrefixes = new Set([
+  "admin",
+  "album",
+  "albumler",
+  "api",
+  "artist",
+  "assets",
+  "collection",
+  "ceviri",
+  "data",
+  "discover",
+  "genre",
+  "gizlilik",
+  "hakkimizda",
+  "iletisim",
+  "listeler",
+  "mood",
+  "pop-gunlugu",
+  "sanatcilar",
+  "sanatci",
+  "sarkilar",
+  "search",
+  "song",
+]);
+
+function gone() {
+  return new Response("Bu eski arşiv adresi artık kullanılmıyor.", {
+    status: 410,
+    headers: { "Cache-Control": "public, max-age=0, s-maxage=86400" },
+  });
+}
 
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
@@ -69,33 +102,50 @@ export default function middleware(request) {
     return permanentRedirect(request, staticLegacyRedirects[normalizedPath]);
   }
 
+  const albumMatch = pathname.match(/^\/album\/([^/]+)\/?$/);
+  if (albumMatch) {
+    const legacyAlbumSlug = decodeURIComponent(albumMatch[1]).toLowerCase();
+    const destination = legacyAlbumRedirects[legacyAlbumSlug];
+    if (destination) return permanentRedirect(request, destination);
+  }
+
+  const exactCategoryDestination = legacyCategoryPathRedirects[normalizedPath.toLowerCase()];
+  if (exactCategoryDestination) {
+    return permanentRedirect(request, exactCategoryDestination);
+  }
+
   const categoryMatch = pathname.match(/^\/category\/([^/]+)\/?$/);
   if (categoryMatch) {
     const slug = decodeURIComponent(categoryMatch[1]).toLowerCase();
-    return permanentRedirect(request, legacyCategoryRedirects[slug] || "/discover");
+    const destination = legacyCategoryRedirects[slug];
+    return destination ? permanentRedirect(request, destination) : gone();
   }
   if (pathname === "/category" || pathname === "/category/") {
     return permanentRedirect(request, "/discover");
   }
+  if (pathname.startsWith("/category/")) return gone();
   if (pathname.startsWith("/tag/")) {
-    return permanentRedirect(request, "/discover");
+    return gone();
   }
   if (pathname.startsWith("/author/")) {
     return permanentRedirect(request, "/hakkimizda");
   }
 
-  const deepNestedPostMatch = pathname.match(/^\/(?:[^/]+\/){2,}([^/]+)\/?$/);
-  if (deepNestedPostMatch) {
-    const slug = decodeURIComponent(deepNestedPostMatch[1]).toLowerCase();
-    const destination = legacyPostRedirects[slug];
-    if (destination) return permanentRedirect(request, destination);
-  }
+  const firstSegment = normalizedPath.split("/").filter(Boolean)[0]?.toLowerCase();
+  if (!canonicalPrefixes.has(firstSegment)) {
+    const deepNestedPostMatch = pathname.match(/^\/(?:[^/]+\/){2,}([^/]+)\/?$/);
+    if (deepNestedPostMatch) {
+      const slug = decodeURIComponent(deepNestedPostMatch[1]).toLowerCase();
+      const destination = legacyPostRedirects[slug];
+      if (destination) return permanentRedirect(request, destination);
+    }
 
-  const nestedPostMatch = pathname.match(/^\/[^/]+\/([^/]+)\/?$/);
-  if (nestedPostMatch) {
-    const slug = decodeURIComponent(nestedPostMatch[1]).toLowerCase();
-    const destination = legacyPostRedirects[slug];
-    if (destination) return permanentRedirect(request, destination);
+    const nestedPostMatch = pathname.match(/^\/[^/]+\/([^/]+)\/?$/);
+    if (nestedPostMatch) {
+      const slug = decodeURIComponent(nestedPostMatch[1]).toLowerCase();
+      const destination = legacyPostRedirects[slug];
+      if (destination) return permanentRedirect(request, destination);
+    }
   }
 
   const rootPostMatch = pathname.match(/^\/([^/]+)\/?$/);

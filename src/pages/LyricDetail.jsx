@@ -19,7 +19,7 @@ import {
 import { albumPath, artistPath } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
-import { translationMetaDescription } from "../lib/meta";
+import { translationMetaDescription, translationMetaTitle } from "../lib/meta";
 import { languageInfo, languagesFor, translationLabel } from "../lib/languages";
 import { useSeo } from "../lib/seo";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
@@ -177,11 +177,7 @@ function cardLanguageLabel(language, kind, interfaceLocale) {
 }
 
 function detailMetaDescription(post, languages) {
-  if (!post || languages.translation !== "en") return translationMetaDescription(post);
-  const editorial = String(post.seo?.description || "").trim();
-  if (editorial) return editorial;
-  const originalLanguage = languageInfo(languages.original).englishName;
-  return `${post.artist} – ${post.song} lyrics with an English translation from the ${originalLanguage} original. Explore the song's meaning, credits and line-by-line notes.`;
+  return translationMetaDescription(post);
 }
 
 function escapeRegExp(value) {
@@ -1455,7 +1451,7 @@ export default function LyricDetail() {
   const metaArtist = post ? creditedArtistsFor(post)[0] : null;
   const metaAlbum = post ? albumNameFor(post) : "";
   useSeo({
-    title: post?.seo?.title || (post ? `${post.artist} ${post.song} ${pageTranslationLabel}` : "Çeviri bulunamadı | acupoflyrics"),
+    title: post ? translationMetaTitle(post) : "Çeviri bulunamadı | acupoflyrics",
     description: detailMetaDescription(post, languages),
     path: canonicalPath,
     image: post?.cover,
@@ -1517,6 +1513,9 @@ export default function LyricDetail() {
   }
 
   const sameArtistRelated = relatedTo(post, 4);
+  const archiveIndex = allPosts.findIndex((candidate) => candidate.slug === post.slug);
+  const previousPost = archiveIndex > 0 ? allPosts[archiveIndex - 1] : null;
+  const nextPost = archiveIndex >= 0 && archiveIndex < allPosts.length - 1 ? allPosts[archiveIndex + 1] : null;
   const sameAlbumRelated = allPosts.filter((candidate) => (
     candidate.slug !== post.slug
     && albumArtistFor(candidate) === albumArtistFor(post)
@@ -1742,6 +1741,22 @@ export default function LyricDetail() {
       />
 
       <section className="detail-related" lang={interfaceLocale}>
+        {(previousPost || nextPost) && (
+          <nav className="detail-sequence" aria-label={interfaceLocale === "en" ? "Browse songs" : "Şarkılar arasında gezin"}>
+            {previousPost ? (
+              <Link rel="prev" to={postPath(previousPost)}>
+                <small>{interfaceLocale === "en" ? "Previous song" : "Önceki şarkı"}</small>
+                <strong>{previousPost.artist} — {previousPost.song}</strong>
+              </Link>
+            ) : <span />}
+            {nextPost && (
+              <Link rel="next" to={postPath(nextPost)}>
+                <small>{interfaceLocale === "en" ? "Next song" : "Sonraki şarkı"}</small>
+                <strong>{nextPost.artist} — {nextPost.song}</strong>
+              </Link>
+            )}
+          </nav>
+        )}
         {related.length > 0 && (
           <>
             <div className="detail-section-heading">

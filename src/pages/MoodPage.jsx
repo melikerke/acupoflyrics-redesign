@@ -4,6 +4,7 @@ import { getMood, moodGroups, SORT_OPTIONS, sortPosts } from "../lib/content";
 import { canonical, moodPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { fitSeoTitle } from "../lib/meta";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section } from "../components/site/ui";
@@ -21,7 +22,7 @@ export default function MoodPage() {
 
   const path = moodPath(slug);
   useSeo({
-    title: mood ? `${mood.name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics` : "Mood bulunamadı",
+    title: mood ? fitSeoTitle([`${mood.name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]) : "Mood bulunamadı",
     description: mood?.description,
     path,
     image: mood?.cover,

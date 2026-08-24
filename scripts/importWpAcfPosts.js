@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { slugify } from "../server/ingest.js";
+import { sanitizeSeoDescription } from "../src/lib/meta.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const XML_PATH = path.join(ROOT, "data/raw/acupoflyrics-export.xml");
@@ -202,7 +203,7 @@ function postFromItem(item, existingPosts, attachments) {
   const youtubeUrl = meta("youtube_linki", item).trim() || null;
   const postId = plain("wp:post_id", item);
   const date = cdata("wp:post_date", item) || plain("pubDate", item);
-  const seoDescription = meta("rank_math_description", item);
+  const seoDescription = sanitizeSeoDescription(meta("rank_math_description", item));
 
   let song = stripTurkishSuffix(title);
   if (artist && song.toLocaleLowerCase("tr-TR").startsWith(artist.toLocaleLowerCase("tr-TR"))) {

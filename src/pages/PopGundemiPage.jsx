@@ -124,7 +124,7 @@ export default function PopGundemiPage() {
 
         {!isFiltering && <section className="pop-journal-lead" style={{ "--pop-accent": theme.vars["--acl-accent"] }}>
           <Link className="pop-journal-lead-visual" to={popJournalPath(featured)} aria-label={featured.title}>
-            <img src={featured.image} alt={featured.imageAlt || ""} />
+            <img src={featured.image} alt={featured.imageAlt || `${featured.title} görseli`} />
             <span>
               <small>Manşet · {formatDate(featured.date)}</small>
               <strong>{featured.kicker}</strong>
