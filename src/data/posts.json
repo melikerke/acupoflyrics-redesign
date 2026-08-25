@@ -1,5 +1,454 @@
 [
   {
+    "id": "5256",
+    "title": "Imagine Dragons Thunder Türkçe Çeviri",
+    "song": "Thunder",
+    "slug": "imagine-dragons-thunder-turkce-ceviri",
+    "date": "2026-08-25T14:31:27.266Z",
+    "artist": "Imagine Dragons",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Imagine Dragons",
+      "Evolve"
+    ],
+    "category_slugs": [
+      "imagine-dragons",
+      "evolve"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Just a young gun with a quick fuse",
+          "I was uptight, wanna let loose",
+          "I was dreaming of bigger things and",
+          "Wanna leave my own life behind",
+          "Not a \"Yes, sir,\" not a follower",
+          "Fit the box, fit the mold, have a seat",
+          "In the foyer, take a number",
+          "I was lightning before the thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Tetiği hassas, barutu kuru ateşli bir gençtim",
+          "Fazla gergindim, zincirlerimi kırmak istiyordum",
+          "Daha büyük şeylerin hayalini kuruyordum ve",
+          "Kendi hayatımı geride bırakmak niyetindeydim",
+          "\"Emredersiniz efendim\"ci biri değildim, takipçi de olmadım hiç",
+          "Kalıplara girmemi, o kutuya sığmamı istediler; \"Otur şuraya\" dediler",
+          "\"Bekleme odasına geç, numaranı al\"",
+          "Oysa ben, gök gürültüsünden önceki o şimşektim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Thunder, thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder",
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Gök gürültüsü, gürültü, gürültü...",
+          "Thunder, th-th-thunder, thunder..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder",
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder, thunder, thunder",
+          "Thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Gök gürültüsü, hisset o gürültüyü!",
+          "Önce şimşek çakar, sonra o büyük gürültü...",
+          "Thunder, hisset o gücü!",
+          "Önce şimşek, sonra gök gürültüsü!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Kids were laughin' in my classes",
+          "While I was schemin' for the masses",
+          "Who do you think you are?",
+          "Dreaming 'bout being a big star",
+          "They say, \"You're basic,\" they say, \"You're easy\"",
+          "You're always riding in the backseat",
+          "Now I'm smilin' from the stage while",
+          "You were clappin' in the nosebleeds"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sınıftakiler bana gülerdi (alaycı tonda)",
+          "Bense o sırada kitleleri nasıl ele geçireceğimin planlarını yapıyordum",
+          "Sahi, sen kendini ne sanıyorsun?",
+          "\"Büyük bir yıldız olacağım\" diye hayaller kurmak ha?",
+          "\"Sıradansın\" dediler bana, \"Basit bir tipsin\" dediler",
+          "\"Sen ancak hayatı arka koltuktan izlersin\" dediler",
+          "Bak şimdi, ben sahneden sana gülümsüyorum;",
+          "Sensen en arkadaki o \"ucuz koltuklarda\" beni alkışlıyorsun!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Thunder, thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder",
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Gök gürültüsü, gürültü...",
+          "Thunder, th-th-thunder, thunder..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder",
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder, thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Gök gürültüsü, hisset o gürültüyü!",
+          "Önce şimşek çakar, sonra o büyük gürültü...",
+          "Thunder, hisset o gücü!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder, thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Gök gürültüsü, hisset o gürültüyü!",
+          "Şimşek çaktı ve işte şimdi o ses geliyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder, thunder",
+          "Thunder, feel the thunder",
+          "Lightning, then the thunder, thunder",
+          "Thunder, feel the thunder (Never give up, never give up)",
+          "Lightning, then the thunder, thunder (Never give up on your dreams)",
+          "Thunder, feel the thunder (Never give up, never give up)",
+          "Lightning, then the thunder, thunder (Never give up on your dreams)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hisset o gürültüyü!",
+          "(Asla pes etme, asla pes etme!)",
+          "Önce şimşek, sonra gök gürültüsü...",
+          "(Hayallerinden asla vazgeçme!)",
+          "Gök gürültüsü, hisset o gücü!",
+          "(Asla pes etme, asla pes etme!)",
+          "Thunder...",
+          "(Hayallerinden asla vazgeçme!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder",
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder (Woo)",
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder",
+          "Thunder, thunder, thun—",
+          "Thunder, th-th-thunder, thunder"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Thunder, thunder, thun—",
+          "Gök gürültüsü... (Woo!)",
+          "Gök gürültüsü...",
+          "Hissediyor musun?",
+          "İşte bu benim sesim!"
+        ]
+      }
+    ],
+    "excerpt": "Just a young gun with a quick fuse",
+    "annotations": {
+      "numaranı al": "Bu ifade, birinin sistem içinde \"herhangi biri\" olmasını, sıradanlaşmasını simgeler. Dan burada, herkesin sıraya girdiği o \"normallik\" kalıbına girmeyi reddettiğini anlatıyor.",
+      "arka koltuktan": "Hayatı yöneten değil, izleyen kişi olmak demektir. Hater'lar Dan'e \"sen asla şoför koltuğuna (liderliğe) geçemezsin\" demiştir. Dan ise Verse 2'de bu durumu onlara iade ediyor.",
+      "en arkada": "Şarkının en \"kapak\" cümlesidir. \"Nosebleed seats\", stadyumlarda en tepedeki, sahneye en uzak ve en ucuz koltuklardır (yükseklikten burun kanattığına inanılır). Dan burada; \"Siz benimle dalga geçerken şimdi en ucuz biletleri alıp en arkadan beni izliyorsunuz\" diyerek muazzam bir alaycılık sergiliyor.",
+      "kitleleri nasıl ele geçireceğimin planlarını": "\"Scheme\" kelimesi genelde sinsi planlar için kullanılır. Dan'in okuldaki sessizliğini \"eziklik\" sananlara, o sırada dünyayı nasıl fethedeceğini planladığını söyleyerek verdiği sert bir cevaptır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1zB4vmk8tFRmM9UULNzbLB",
+        "name": "Thunder",
+        "url": "https://open.spotify.com/track/1zB4vmk8tFRmM9UULNzbLB",
+        "isrc": "USUM71704167",
+        "durationMs": 187146,
+        "duration": "3:07",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 10,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons",
+        "url": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "53XhwfbYqKCa1cC15pYq2q",
+          "name": "Imagine Dragons",
+          "url": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+        }
+      ],
+      "album": {
+        "id": "33pt9HBdGlAbRGBHQgsZsU",
+        "name": "Evolve",
+        "url": "https://open.spotify.com/album/33pt9HBdGlAbRGBHQgsZsU",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a",
+        "artists": [
+          {
+            "id": "53XhwfbYqKCa1cC15pYq2q",
+            "name": "Imagine Dragons",
+            "url": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+          }
+        ],
+        "releaseDate": "2017-06-23",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2018 KIDinaKORNER/Interscope Records",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2018 KIDinaKORNER/Interscope Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "31VOknKjFrEX47bZXzqcoF",
+            "name": "Next To Me",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 230288,
+            "duration": "3:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/31VOknKjFrEX47bZXzqcoF",
+            "isCurrent": false
+          },
+          {
+            "id": "28heol5hhOGj6KYbJrRteJ",
+            "name": "I Don’t Know Why",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 190120,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/28heol5hhOGj6KYbJrRteJ",
+            "isCurrent": false
+          },
+          {
+            "id": "6Qn5zhYkTa37e91HC1D7lb",
+            "name": "Whatever It Takes",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 201240,
+            "duration": "3:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Qn5zhYkTa37e91HC1D7lb",
+            "isCurrent": false
+          },
+          {
+            "id": "0pqnGHJpmpxLKifKRmU6WP",
+            "name": "Believer",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 204346,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP",
+            "isCurrent": false
+          },
+          {
+            "id": "1y3bE5i57eUm3hfLAc7h08",
+            "name": "Walking The Wire",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 232906,
+            "duration": "3:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1y3bE5i57eUm3hfLAc7h08",
+            "isCurrent": false
+          },
+          {
+            "id": "3zT2616WcD9Df5m21OsCX0",
+            "name": "Rise Up",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 231720,
+            "duration": "3:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3zT2616WcD9Df5m21OsCX0",
+            "isCurrent": false
+          },
+          {
+            "id": "0FfX0nofboxZjP0diT1eFv",
+            "name": "I’ll Make It Up To You",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 262600,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0FfX0nofboxZjP0diT1eFv",
+            "isCurrent": false
+          },
+          {
+            "id": "2SJf7W18D1AEpr8L9ATu0c",
+            "name": "Yesterday",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 205113,
+            "duration": "3:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2SJf7W18D1AEpr8L9ATu0c",
+            "isCurrent": false
+          },
+          {
+            "id": "1dekgAFF9uTCqLsklDaCWb",
+            "name": "Mouth Of The River",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 221560,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1dekgAFF9uTCqLsklDaCWb",
+            "isCurrent": false
+          },
+          {
+            "id": "1zB4vmk8tFRmM9UULNzbLB",
+            "name": "Thunder",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 187146,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1zB4vmk8tFRmM9UULNzbLB",
+            "isCurrent": true
+          },
+          {
+            "id": "2Iug43iQrHN8CbGsUd2tEt",
+            "name": "Start Over",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 186080,
+            "duration": "3:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Iug43iQrHN8CbGsUd2tEt",
+            "isCurrent": false
+          },
+          {
+            "id": "3adVVrcE2KS26OL4rYd27O",
+            "name": "Dancing In The Dark",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 233933,
+            "duration": "3:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3adVVrcE2KS26OL4rYd27O",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-25T14:32:01.486Z",
+      "trackUrl": "https://open.spotify.com/track/1zB4vmk8tFRmM9UULNzbLB",
+      "albumUrl": "https://open.spotify.com/album/33pt9HBdGlAbRGBHQgsZsU",
+      "artistUrl": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q",
+      "albumName": "Evolve",
+      "albumType": "Album",
+      "releaseDate": "2017-06-23",
+      "duration": "3:07",
+      "isrc": "USUM71704167",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a"
+    },
+    "genius": {
+      "url": "https://genius.com/Imagine-dragons-thunder-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=fKopy74weus",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "Imagine Dragons Thunder Türkçe Çeviri",
+      "description": "Imagine Dragons – Thunder şarkı sözleri ve özenli Türkçe çevirisi. Evolve albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/imagine-dragons-thunder-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5255",
     "title": "Radikal KORKMAM BEN English Translation",
     "song": "KORKMAM BEN",
@@ -201544,6 +201993,7 @@
     "song": "BTBT",
     "slug": "bi-soulja-boy-btbt-ft-devita-turkce-ceviri",
     "date": "Wed, 28 Aug 2024 14:03:52 +0000",
+    "updatedAt": "2026-08-25T14:51:01Z",
     "artist": "B.I, Soulja Boy, DeVita",
     "categories": [
       "B.I",

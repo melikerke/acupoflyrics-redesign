@@ -108,6 +108,7 @@ const index = posts.map((post) => ({
   artist: post.artist,
   cover: post.cover,
   date: post.date,
+  updatedAt: post.updatedAt || post.modified,
   reading_time: post.reading_time,
   excerpt: post.excerpt,
   categories: post.categories,

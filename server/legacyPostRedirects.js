@@ -695,6 +695,8 @@ export const legacyPostRedirects = {
   "illit-it-s-me-turkce-ceviri": "/illit-it-s-me-turkce-ceviri/",
   "im-home-turkce-ceviri": "/exo-i-m-home-turkce-ceviri/",
   "imaginary-friend": "/itzy-imaginary-friend-turkce-ceviri/",
+  "imagine-dragons-thunder": "/imagine-dragons-thunder-turkce-ceviri/",
+  "imagine-dragons-thunder-turkce-ceviri": "/imagine-dragons-thunder-turkce-ceviri/",
   "in-my-bed": "/ckay-in-my-bed-turkce-ceviri/",
   "in-your-fantasy": "/ateez-in-your-fantasy-turkce-ceviri/",
   "indila-tourner-dans-le-vide": "/indila-tourner-dans-le-vide-turkce-ceviri/",

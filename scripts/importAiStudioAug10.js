@@ -31,6 +31,8 @@ const KORKMAM_INPUT = path.join(process.cwd(), "scripts/aiStudioKorkmamBen.raw.j
 const KORKMAM_REPORT = "/tmp/acupoflyrics-ai-studio-korkmam-ben-report.json";
 const BTBT_INPUT = path.join(process.cwd(), "scripts/aiStudioBtbt.raw.json");
 const BTBT_REPORT = "/tmp/acupoflyrics-ai-studio-btbt-report.json";
+const THUNDER_INPUT = path.join(process.cwd(), "scripts/aiStudioThunder.raw.json");
+const THUNDER_REPORT = "/tmp/acupoflyrics-ai-studio-thunder-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1101,6 +1103,26 @@ const TRACKS = [
     ],
   },
   {
+    batch: "thunder",
+    sourceKey: "thunder",
+    label: "Imagine Dragons — Thunder",
+    artist: "Imagine Dragons",
+    title: "Thunder",
+    slug: "imagine-dragons-thunder-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/1zB4vmk8tFRmM9UULNzbLB",
+    youtubeUrl: "https://www.youtube.com/watch?v=fKopy74weus",
+    geniusUrl: "https://genius.com/Imagine-dragons-thunder-lyrics",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    modelEnd: "\nÇEVİRİ NOTLARI / TRANSLATION NOTES",
+    bilingualAnnotations: true,
+    annotationKeyHints: [
+      "numaranı al",
+      "arka koltuktan",
+      "ucuz koltuklarda",
+      "kitleleri nasıl ele geçireceğimin planlarını",
+    ],
+  },
+  {
     batch: "btbt",
     sourceKey: "btbt",
     label: "B.I, Soulja Boy, DeVita — BTBT",
@@ -1421,6 +1443,7 @@ const ENGLISH_GLOSS_PARENTHETICALS = new Set([
   "pretend",
   "rewind",
   "sandlot",
+  "scheming",
   "seollem",
   "string",
   "stuck on you",
@@ -1576,19 +1599,30 @@ function analysisAnnotations(model, lyricalText) {
   return [...notes.entries()].slice(0, 12).map(([word, text]) => ({ word, text }));
 }
 
-function bilingualTranslationNotes(model, lyricalText) {
+function bilingualTranslationNotes(model, lyricalText, language = "en", keyHints = [], trackLabel = "Parça") {
   const body = stripTurnChrome(model);
   const marker = body.search(/ÇEVİRİ NOTLARI\s*\/\s*TRANSLATION NOTES/i);
   if (marker < 0) return [];
   const tail = body.slice(marker).replace(/\nBu format[\s\S]*$/i, "");
   const sections = tail.split(/(?=^[¹²³⁴⁵⁶⁷⁸⁹⁰]+\s+)/m).slice(1);
   const notes = [];
-  for (const section of sections) {
+  for (const [index, section] of sections.entries()) {
     const heading = section.split("\n")[0].replace(/^[¹²³⁴⁵⁶⁷⁸⁹⁰]+\s*/, "").trim();
-    const english = section.match(/\nEN:\s*([\s\S]*?)\s*$/i)?.[1]?.trim();
-    const phrase = heading.replace(/\s*\([^)]*\)\s*$/, "").trim();
-    const word = actualMatchedTerm(phrase, lyricalText);
-    if (word && english) notes.push({ word, text: english });
+    const text = language === "tr"
+      ? section.match(/\nTR:\s*([\s\S]*?)(?=\nEN:|\s*$)/i)?.[1]?.trim()
+      : section.match(/\nEN:\s*([\s\S]*?)\s*$/i)?.[1]?.trim();
+    const candidates = [
+      heading.replace(/\s*\([^)]*\)\s*$/, "").trim(),
+      ...[...heading.matchAll(/\(([^)]{2,120})\)/g)].flatMap((match) => (
+        match[1].split(/\s*[/|]\s*/).map((part) => part.trim())
+      )),
+      keyHints[index],
+    ].filter(Boolean);
+    const word = candidates.map((candidate) => actualMatchedTerm(candidate, lyricalText)).find(Boolean);
+    if (!word || !text) {
+      throw new Error(`${trackLabel}: ${index + 1}. iki dilli açıklama hedef metinle eşleşmedi.`);
+    }
+    notes.push({ word, text });
   }
   return notes;
 }
@@ -1658,8 +1692,9 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
   });
   const translationText = stanzas.flatMap((stanza) => stanza.translation).join("\n");
   const lyricalText = translationText;
-  const annotationCandidates = track.languages?.annotations === "en"
-    ? bilingualTranslationNotes(source.model, lyricalText)
+  const annotationLanguage = track.languages?.annotations || "tr";
+  const annotationCandidates = track.bilingualAnnotations || annotationLanguage === "en"
+    ? bilingualTranslationNotes(source.model, lyricalText, annotationLanguage, track.annotationKeyHints, track.label)
     : (track.inlineAnnotationsOnly || ["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
       ? inlineAnnotations(translatedBody, lyricalText, track.annotationKeyHints, track.label)
       : [
@@ -1811,10 +1846,11 @@ async function main() {
   const aug21Batch = process.argv.includes("--aug21");
   const korkmamBatch = process.argv.includes("--korkmam");
   const btbtBatch = process.argv.includes("--btbt");
-  const inputPath = btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const thunderBatch = process.argv.includes("--thunder");
+  const inputPath = thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
   if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
@@ -1883,6 +1919,7 @@ async function main() {
         .filter(Boolean)
         .length;
       post.reading_time = Math.max(1, Math.round(wordCount / 200));
+      post.updatedAt = new Date().toISOString();
       const originalLines = post.blocks
         .filter((block) => block.original)
         .flatMap((block) => block.lines || []);
