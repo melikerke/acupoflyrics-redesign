@@ -29,6 +29,8 @@ const AUG21_INPUT = path.join(process.cwd(), "scripts/aiStudioAug21.raw.json");
 const AUG21_REPORT = "/tmp/acupoflyrics-ai-studio-aug21-report.json";
 const KORKMAM_INPUT = path.join(process.cwd(), "scripts/aiStudioKorkmamBen.raw.json");
 const KORKMAM_REPORT = "/tmp/acupoflyrics-ai-studio-korkmam-ben-report.json";
+const BTBT_INPUT = path.join(process.cwd(), "scripts/aiStudioBtbt.raw.json");
+const BTBT_REPORT = "/tmp/acupoflyrics-ai-studio-btbt-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1099,6 +1101,30 @@ const TRACKS = [
     ],
   },
   {
+    batch: "btbt",
+    sourceKey: "btbt",
+    label: "B.I, Soulja Boy, DeVita — BTBT",
+    artist: "B.I",
+    artistDisplay: "B.I, Soulja Boy, DeVita",
+    title: "BTBT",
+    slug: "bi-soulja-boy-btbt-ft-devita-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/4XcxgZSriCYamtIA7BgT7V",
+    youtubeUrl: "https://www.youtube.com/watch?v=Tzz82mwLZIw",
+    geniusUrl: "https://genius.com/Bi-and-soulja-boy-btbt-lyrics",
+    languages: { original: "ko-Latn", translation: "tr", annotations: "tr" },
+    translatorNote: "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi.",
+    // AI Studio sonraki nakaratları ve ikinci pre-chorus'u kısalttı. Yeni bir
+    // hedef metin üretmeden, modelin ilk tam bloklarını birebir tekrar kullan.
+    translationMap: [0, 1, 2, 0, 4, 2, 0, 6, 0, 8],
+    translationLineSplits: {
+      7: {
+        0: ["Evet;", "ön, arka, sağ ve sol..."],
+      },
+    },
+    annotationKeyHints: ["Beni böyle yalpalatıyorsun", "Bentley", "Cartier"],
+    inlineAnnotationsOnly: true,
+  },
+  {
     batch: "korkmam",
     sourceKey: "korkmamBen",
     label: "Radikal — KORKMAM BEN",
@@ -1398,7 +1424,10 @@ const ENGLISH_GLOSS_PARENTHETICALS = new Set([
   "seollem",
   "string",
   "stuck on you",
+  "soulja",
   "tag",
+  "thrill",
+  "btbt",
   "you read",
 ]);
 
@@ -1412,6 +1441,7 @@ function normalizeParenthetical(value) {
 
 function isEnglishGlossParenthetical(content, originalContext) {
   if (preserveParenthetical(content)) return false;
+  if (/[가-힣]/u.test(content) || /\p{Script=Han}|\p{Script=Hiragana}|\p{Script=Katakana}/u.test(content)) return true;
   const normalized = normalizeParenthetical(content);
   if (!normalized) return false;
   const original = normalizeParenthetical(originalContext);
@@ -1563,6 +1593,21 @@ function bilingualTranslationNotes(model, lyricalText) {
   return notes;
 }
 
+function splitTranslationLines(lines, splits, trackLabel, stanzaIndex) {
+  if (!splits) return lines;
+  return lines.flatMap((line, lineIndex) => {
+    const parts = splits[lineIndex];
+    if (!parts) return [line];
+    if (!Array.isArray(parts) || parts.length < 2 || parts.some((part) => typeof part !== "string" || !part.trim())) {
+      throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kıtanın ${lineIndex + 1}. satır bölümü geçersiz.`);
+    }
+    if (parts.join(" ") !== line) {
+      throw new Error(`${trackLabel}: satır bölümü AI Studio metnini birebir korumuyor ("${line}").`);
+    }
+    return parts;
+  });
+}
+
 function parseTrack(source, track, { preserveMissing = false } = {}) {
   if (!source?.user || !source?.model) throw new Error(`${track.label}: orijinal söz veya çeviri eksik.`);
   const originalBody = stripTurnChrome(source.user);
@@ -1584,7 +1629,9 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
     const rawTranslation = mappedIndex == null ? null : translatedStanzas[mappedIndex]?.lines;
     // AI Studio hedef metni yayın kaynağıdır. Eski override alanları denetim izi olarak
     // dosyada kalsa da çeviri veya açıklama üretiminde bilinçli olarak kullanılmaz.
-    const selectedTranslation = rawTranslation;
+    const selectedTranslation = rawTranslation
+      ? splitTranslationLines(rawTranslation, track.translationLineSplits?.[index], track.label, index)
+      : rawTranslation;
     return {
       section: track.sectionOverrides?.[index] || stanza.section,
       original: stanza.lines.map((line) => {
@@ -1613,7 +1660,7 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
   const lyricalText = translationText;
   const annotationCandidates = track.languages?.annotations === "en"
     ? bilingualTranslationNotes(source.model, lyricalText)
-    : (["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
+    : (track.inlineAnnotationsOnly || ["aug12", "aug13", "thatway", "aug14", "aug18"].includes(track.batch)
       ? inlineAnnotations(translatedBody, lyricalText, track.annotationKeyHints, track.label)
       : [
         ...inlineAnnotations(translatedBody, lyricalText, track.annotationKeyHints, track.label),
@@ -1707,7 +1754,9 @@ async function findYoutube(track, spotifyBundle) {
 
 function descriptionFor(track, bundle) {
   const artist = track.artistDisplay || track.artist;
-  const romanized = track.hasHangul || track.hasHan ? ", romanize okunuşu" : "";
+  const romanized = track.hasHangul || track.hasHan || /^ko-latn$/i.test(track.languages?.original || "")
+    ? ", romanize okunuşu"
+    : "";
   if (track.languages?.translation === "en") {
     const album = bundle.album?.name && bundle.album.name !== track.title
       ? ` from ${bundle.album.name}`
@@ -1761,10 +1810,11 @@ async function main() {
   const biiigBatch = process.argv.includes("--biiig");
   const aug21Batch = process.argv.includes("--aug21");
   const korkmamBatch = process.argv.includes("--korkmam");
-  const inputPath = korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const btbtBatch = process.argv.includes("--btbt");
+  const inputPath = btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
   if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));
@@ -1781,7 +1831,7 @@ async function main() {
     stanzas: track.stanzas.length,
     lines: track.stanzas.reduce((sum, stanza) => sum + stanza.original.length, 0),
     notes: track.stanzas[0].notes.length,
-    romanized: track.hasHangul || track.hasHan,
+    romanized: track.hasHangul || track.hasHan || /^ko-latn$/i.test(track.languages?.original || ""),
   })));
   if (parseOnly) return;
 
@@ -1970,7 +2020,7 @@ async function main() {
       stanzas: track.stanzas,
       youtubeUrl: track.youtube.selected?.url || null,
       languages: track.languages,
-      translatorNote: track.hasHangul ? "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi." : null,
+      translatorNote: track.translatorNote || (track.hasHangul ? "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi." : null),
       savedAt: new Date().toISOString(),
       source: "ai-studio-spotify-youtube",
     };

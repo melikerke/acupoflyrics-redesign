@@ -1,23 +1,136 @@
 export const popGundemiArticles = [
   {
+    slug: "25-agustos-2026-muzik-gundemi",
+    title: "25 Ağustos müzik gündemi: Olivia Rodrigo'dan serena joy, Taylor Swift'ten piyano performansı",
+    shortTitle: "25 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-25",
+    updatedAt: "2026-08-25T10:12:00+03:00",
+    readTime: "7 dk",
+    image: "https://www.universal-music.co.jp/olivia-rodrigo/wp-content/uploads/sites/3726/2026/08/Olivia-Rodrigo-serena-joy.jpeg",
+    imageAlt: "Olivia Rodrigo serena joy teklisinin resmî kapak görseli",
+    imageCredit: "Olivia Rodrigo · Universal Music",
+    imageSource: "https://www.universal-music.co.jp/olivia-rodrigo/news/2026-08-25/",
+    accent: "#96333f",
+    excerpt:
+      "Olivia Rodrigo'nun serena joy teklisi dijital platformlarda yayımlandı. Recording Academy, Taylor Swift'in Grammy Museum piyano performansını paylaşırken UK midweek ve iki günlük global liste ölçümleri yeni çeviri adaylarını öne çıkardı.",
+    dek:
+      "Yeni yayınlar, resmî performans videosu, geçici UK Singles Update görünümü ve yeniden yükselen eski parçalar günün öne çıkan müzik gelişmelerini oluşturuyor.",
+    pullQuote:
+      "Official UK Singles Update yalnızca Cuma–Pazar verisinden oluşan geçici görünüm; haftanın final listesi değil.",
+    relatedTranslations: [
+      "olivia-rodrigo-stupid-song-turkce-ceviri",
+      "olivia-rodrigo-the-cure-turkce-ceviri",
+      "taylor-swift-i-knew-it-i-knew-you-turkce-ceviri",
+      "taylor-swift-august-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "25 Ağustos 2026 gelişmeleri",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Yeni tekli", text: "Olivia Rodrigo — serena joy, 24 Ağustos'ta dijital yayımlandı; Universal Music duyuruyu 25 Ağustos'ta paylaştı." },
+        { label: "Resmî performans", text: "Recording Academy, Taylor Swift'in üç şarkılık Grammy Museum piyano performansını 24 Ağustos'ta yayımladı." },
+        { label: "Geçici UK görünümü", text: "Movin' To The Sun 2 numarada; Some of Your Love 20 ve Say Something 53 numaradan giriş yaptı." },
+        { label: "Yeniden yükselen", text: "Mac Miller — Cinderella, Spotify ve Apple ölçümlerinde aynı anda 12 basamak yükseldi." },
+      ],
+    },
+    summary: [
+      "Olivia Rodrigo — serena joy için 500 adetlik sınırlı CD 21 Ağustos'ta satışa çıktı; dijital yayın 24 Ağustos'ta gerçekleşti ve Universal Music'in sanatçı sayfasındaki duyuru 25 Ağustos'ta yayımlandı.",
+      "Recording Academy, Taylor Swift'in I Knew It, I Knew You, august ve All Too Well parçalarını birleştirdiği Grammy Museum piyano performansını 24 Ağustos'ta yayımladı. Etkinlik daha önce gerçekleşti; kesin etkinlik günü resmî kaynakta açıklanmadığı için haber tarihi olay tarihi gibi kullanılmadı.",
+      "Official UK Singles Update'ın geçici görünümünde Movin' To The Sun 2 numaraya yükseldi; PARTYNEXTDOOR — Some of Your Love 20 ve Sonny Fodera & Becky Hill — Say Something 53 numaradan giriş yaptı.",
+      "Spotify Global'ın 23 Ağustos günlüğünde TULUS — Teh Hijau 22, Raim Laode — Dunia Yang Nanti 54 numarayla yeni zirvelerine ulaştı. İki şarkı da arşivde bulunmuyor.",
+      "Mac Miller feat. Ty Dolla $ign — Cinderella, Spotify Global'da 45 numaradan 33 numaraya; Apple'ın dünya agregasyonunda 66 numaradan 54 numaraya yükseldi. P!nk feat. Nate Ruess — Just Give Me a Reason da 25 Ağustos TikTok US Viral görünümü ve Spotify hareketiyle yeniden görünürlük kazandı; iki trendin özgül tetikleyicisi resmî olarak açıklanmadı.",
+    ],
+    sections: [
+      {
+        heading: "Olivia Rodrigo — serena joy dijital platformlarda",
+        body: [
+          "Pitchfork'un 24 Ağustos tarihli haberine göre serena joy, önce 21 Ağustos'ta Kaliforniya'daki Analog Music Shop'ta 500 adetlik sınırlı CD olarak sunuldu; dijital yayın 24 Ağustos'ta başladı. Universal Music Japan, yeni tekliyi 25 Ağustos tarihli sanatçı duyurusuyla ayrıca doğruladı.",
+          "Şarkının adı Margaret Atwood'un The Handmaid's Tale romanındaki Serena Joy karakterinden geliyor. Bu bilgi yayın haberinde açıkça yer alıyor; şarkının politik veya sanatsal niyeti hakkında kaynakta bulunmayan ek yorum yapılmadı.",
+          "serena joy arşivde bulunmuyor ve bugünün en yüksek öncelikli global çeviri adayı. İngilizce sözler Latin alfabesinde olduğu için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "Taylor Swift'in Grammy Museum performansı resmî olarak yayımlandı",
+        body: [
+          "Recording Academy, Taylor Swift'in Grammy Museum'da piyano başında I Knew It, I Knew You, august ve All Too Well parçalarını birleştirdiği yaklaşık altı dakikalık performansı 24 Ağustos'ta resmî YouTube kanalında yayımladı.",
+          "Variety'nin 25 Ağustos tarihli haberine göre performans, 200'den az konuğun yer aldığı etkinlikteki yaklaşık 42 dakikalık söyleşinin ardından gerçekleşti. Haber etkinliği 'geçen hafta' olarak tanımlıyor; kesin gün resmî olarak açıklanmadığı için 24 Ağustos yalnızca video yayın tarihi olarak kaydedildi.",
+          "I Knew It, I Knew You ve august çevirileri arşivde bulunuyor. Performans yeni bir stüdyo kaydı veya açıklanmış yeniden kayıt projesi olarak sunulmadı.",
+        ],
+      },
+      {
+        heading: "UK midweek görünümünde üç yeni gelişme",
+        body: [
+          "Official UK Singles Update, 24–30 Ağustos etiketi taşısa da yalnızca Cuma–Pazar tüketiminden hesaplanan geçici bir midweek görünümü. HUGEL, Imael Angel ve Ultra Naté — Movin' To The Sun, önceki final listesinde 4 numaradayken geçici görünümde 2 numaraya çıktı.",
+          "PARTYNEXTDOOR — Some of Your Love 20, Sonny Fodera ve Becky Hill — Say Something ise 53 numaradan geçici listeye girdi. Bu sıralamalar final haftalık sonuç gibi yazılmadı; üç şarkı da arşivde bulunmuyor ve romanizasyon gerektirmiyor.",
+        ],
+      },
+      {
+        heading: "Spotify Global'da iki yeni zirve",
+        body: [
+          "TULUS — Teh Hijau, Spotify Global'ın 23 Ağustos günlüğünde 29 numaradan 22 numaraya yükselerek yeni zirvesine ulaştı ve 2,25 milyonun üzerinde günlük dinlenme kaydetti. Raim Laode — Dunia Yang Nanti de 70 numaradan 54 numaraya çıkarak yeni zirve gördü.",
+          "İki kayıt da Endonezce ve Latin alfabesiyle yayımlandı; romanizasyon gerekmiyor. Teh Hijau önceki raporda yer aldığı için yalnızca yeni zirve nedeniyle yeniden yazıldı. Dunia Yang Nanti ise bugünün yeni yüksek öncelikli adayı.",
+        ],
+      },
+      {
+        heading: "Cinderella ve Just Give Me a Reason yeniden yükseliyor",
+        body: [
+          "Mac Miller feat. Ty Dolla $ign — Cinderella, Spotify Global'ın 23 Ağustos günlüğünde 45 numaradan 33 numaraya yükseldi; Apple'ın 24 Ağustos dünya agregasyonunda da 66 numaradan 54 numaraya çıktı. İki platformdaki eş yönlü hareket parçayı bugünün güçlü yeniden yükselen adayı yapıyor.",
+          "P!nk feat. Nate Ruess — Just Give Me a Reason, 25 Ağustos TikTok US Viral görünümünde 411 binin üzerinde video kullanımıyla 43 numarada. Spotify Global'da 18–20 Ağustos arasında 58 basamak yükseldi ve 23 Ağustos'ta 116 numaradaki seyrini sürdürdü.",
+          "İki şarkı da arşivde bulunmuyor ve romanizasyon gerektirmiyor. Viral formatın başlangıcı veya resmî kampanya bağlantısı açıklanmadığı için tetikleyici hakkında spekülasyon yapılmadı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Olivia Rodrigo — serena joy", status: "Çok yüksek öncelik", detail: "24 Ağustos dijital yayını; arşivde yok, romanizasyon gerekmiyor." },
+      { name: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", status: "Çok yüksek öncelik", detail: "Geçici UK Singles Update'ta 2 numara; final haftalık sonuç henüz açıklanmadı." },
+      { name: "PARTYNEXTDOOR — Some of Your Love", status: "Çok yüksek öncelik", detail: "UK midweek görünümüne 20 numaradan girdi; arşivde yok." },
+      { name: "TULUS — Teh Hijau", status: "Yüksek öncelik", detail: "Spotify Global'da 22 numarayla yeni zirve; Endonezce Latin alfabe." },
+      { name: "Raim Laode — Dunia Yang Nanti", status: "Yüksek öncelik", detail: "Spotify Global'da 16 basamak yükselerek 54 numaraya ulaştı." },
+      { name: "Sonny Fodera & Becky Hill — Say Something", status: "Orta-yüksek", detail: "UK midweek görünümüne 53 numaradan girdi; arşivde yok." },
+      { name: "Mac Miller feat. Ty Dolla $ign — Cinderella", status: "Yüksek öncelik", detail: "Spotify ve Apple ölçümlerinde eşzamanlı 12 basamak yükseldi." },
+      { name: "P!nk feat. Nate Ruess — Just Give Me a Reason", status: "Yüksek öncelik", detail: "TikTok ve Spotify çapraz sinyali; tetikleyici resmî olarak açıklanmadı." },
+    ],
+    sources: [
+      { name: "Universal Music — Olivia Rodrigo serena joy duyurusu", url: "https://www.universal-music.co.jp/olivia-rodrigo/news/2026-08-25/" },
+      { name: "Olivia Rodrigo — serena joy resmî yayın bağlantısı", url: "https://oliviarodrigo.lnk.to/serenajoy" },
+      { name: "Pitchfork — serena joy yayın ve sınırlı CD bilgisi", url: "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-serena-joy/" },
+      { name: "Recording Academy — Taylor Swift resmî piyano performansı", url: "https://www.youtube.com/watch?v=_9jaJtmraXA" },
+      { name: "Recording Academy — Taylor Swift Grammy Museum söyleşisi", url: "https://www.youtube.com/watch?v=VJ0LV0T8C1E" },
+      { name: "Variety — Taylor Swift Grammy Museum performansı", url: "https://au.variety.com/2026/music/news/taylor-swift-sings-mashup-all-too-well-grammy-museum-video-39683/" },
+      { name: "Official Charts — UK Singles Update, 24–30 Ağustos", url: "https://www.officialcharts.com/charts/singles-chart-update/20260824/7501u/" },
+      { name: "Spotify Global günlük liste geçmişi", url: "https://kworb.net/spotify/country/global_daily.html" },
+      { name: "Apple Music dünya şarkı agregasyonu", url: "https://kworb.net/apple_songs/" },
+      { name: "Apple Music — Mac Miller, Cinderella", url: "https://music.apple.com/us/song/1772671128" },
+      { name: "Spotify — Just Give Me a Reason liste geçmişi", url: "https://www.kworb.net/spotify/track/1mKXFLRA179hdOWQBwUk9e.html" },
+      { name: "TikTok US Viral şarkı görünümü", url: "https://trendingtiktoksongs.com/charts/us/viral" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+    ],
+    storyShare:
+      "25 Ağustos müzik gündemi: Olivia Rodrigo — serena joy dijital platformlarda; Taylor Swift'in Grammy Museum performansı yayımlandı, UK midweek ve viral listelerde yeni hareketler var.",
+  },
+  {
     slug: "24-agustos-2026-muzik-gundemi",
-    title: "24 Ağustos müzik gündemi: NCT 127, NEXZ ve ALPHA DRIVE ONE bugün dönüyor",
+    title: "24 Ağustos müzik gündemi: CORTIS, NCT 127, NEXZ ve ALPHA DRIVE ONE'dan yeni yayınlar",
     shortTitle: "24 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-24",
-    updatedAt: "2026-08-24T10:57:00+03:00",
-    readTime: "7 dk",
+    updatedAt: "2026-08-25T10:12:00+03:00",
+    readTime: "8 dk",
     image: "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273820da6a43295fcb80ac9a1b3",
     imageAlt: "NCT 127 BLINGY albümünün resmî kapak görseli",
     imageCredit: "NCT 127 · SM Entertainment",
     imageSource: "https://open.spotify.com/album/15F7TMmAOkR9fK74bf0sUu",
     accent: "#b66572",
     excerpt:
-      "CORTIS, GREENGREEN_playextended genişletilmiş albümünü iki yeni şarkıyla yayımladı. NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE ve NEXZ — SAUCIN' bugün 18.00 KST için planlanırken BbY WOW ve Unwritten global listelerde yükseliyor.",
+      "CORTIS, GREENGREEN_playextended genişletilmiş albümünü iki yeni şarkıyla yayımladı. NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE, NEXZ — SAUCIN' ve TUIDE — SUN KISS de 24 Ağustos'ta yayımlandı.",
     dek:
-      "Bugünün taraması henüz yayımlanmamış K-pop dönüşlerini, ölçülmüş global ve viral hareketleri ve birbirinden ayrı tarih taşıyan beş müzik listesini tek dosyada topluyor. Çıkış saati gelmeyen kayıtlar yayımlanmış gibi gösterilmiyor.",
+      "CORTIS'in genişletilmiş albümünün ardından NCT 127, ALPHA DRIVE ONE, NEXZ ve TUIDE yeni yayınlarını dinleyiciyle buluşturdu; global ve viral listelerde de yeni hareketler görüldü.",
     pullQuote:
-      "Apple Music Top 100: Global artık ABD RSS akışından değil, Apple'ın resmî küresel çalma listesinden ve kendi yayın tarihinden güncelleniyor.",
+      "Blingy, ilk Melon görünümünde TOP100'e 98 ve HOT100'e 15 numaradan girdi.",
     relatedTranslations: [
       "cortis-redred-turkce-ceviri",
       "cortis-juicy-j-motion-turkce-ceviri",
@@ -27,20 +140,19 @@ export const popGundemiArticles = [
       "shakira-dai-dai-turkce-ceviri",
     ],
     livePanel: {
-      label: "24 Ağustos 2026 sabah kontrolü",
+      label: "24 Ağustos 2026 gelişmeleri",
       title: "Bugünün doğrulanmış başlıkları",
       items: [
         { label: "00.00 KST'de yayımlandı", text: "CORTIS, GREENGREEN_playextended'a PACK IT UP ve MONEYMONEYMONEY adlı iki yeni şarkı ekledi." },
-        { label: "12.00 TRT için planlandı", text: "NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE ve NEXZ — SAUCIN' 18.00 KST'de yayımlanacak." },
+        { label: "18.00 KST'de yayımlandı", text: "NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE, NEXZ — SAUCIN' ve TUIDE — SUN KISS platformlarda doğrulandı." },
+        { label: "İlk Melon görünümü", text: "Blingy TOP100'de 98 ve HOT100'de 15; BORN DIRE HOT100'de 30, TUIDE — GRLS 38 numarada." },
         { label: "Global yükseliş", text: "BbY WOW Apple Music Global'da 5, Spotify Global'da 16 numarada; ABD Hot 100'e 73 numaradan girdi." },
         { label: "Yeniden yükselen", text: "Natasha Bedingfield — Unwritten, 22 Ağustos Spotify Global ölçümünde 86 numaradan 64 numaraya çıktı." },
-        { label: "Listeler", text: "Beş listenin tamamı yenilendi; haftalık ve günlük kaynak tarihleri ayrı tutuldu." },
       ],
     },
     summary: [
-      "Billboard Hot 100 ve Billboard 200, kaynağın 22 Ağustos hafta etiketiyle yenilendi. Circle Global'ın son günlük ölçümü 21 Ağustos, Spotify Global'ınki 22 Ağustos, Apple Music Top 100: Global'ın resmî yayın tarihi ise 23 Ağustos.",
-      "Apple Music kaynağında bir veri eşleme hatası düzeltildi: küresel liste yerine ABD most-played RSS akışını kullanan eski bağlantı kaldırıldı ve Apple'ın resmî Top 100: Global çalma listesi esas alındı. Başarısız veya boş bir kaynakla önceki veri silinmedi.",
       "BIGHIT MUSIC'in duyurduğu CORTIS — GREENGREEN_playextended, 24 Ağustos 00.00 KST'de yayımlandı. Sekiz şarkılık genişletilmiş sürümdeki yeni kayıtlar PACK IT UP ve MONEYMONEYMONEY; ikisi de arşivde bulunmuyor.",
+      "NCT 127 — Blingy, ALPHA DRIVE ONE — BORN DIRE, NEXZ — SAUCIN' ve TUIDE — SUN KISS, planlandığı gibi 24 Ağustos 18.00 KST'de yayımlandı. 25 Ağustos ilk Melon görünümünde Blingy TOP100'e 98 numaradan girdi; Circle'ın son başarılı günlük ölçümü 22 Ağustos olduğu için bu çıkışlara Circle sırası atfedilmedi.",
       "KAROL G, rusowsky ve Judeline ortaklığı BbY WOW; Apple Music Global'da 5, Spotify Global'da 16 numaraya yükseldi ve ABD Hot 100'e 73 numaradan girdi. Şarkı arşivde bulunmuyor.",
       "PARTYNEXTDOOR — Some of Your Love ile Netón Vega — RIKI son günlük ölçümlerde güçlü global hareket gösterdi. İki kayıt da arşivde bulunmuyor.",
       "HUGEL, Imael Angel ve Ultra Naté ortaklığı Movin' To The Sun, UK Singles Chart'ta 4 numaradaki yerini korurken Spotify Global'da 46 numarayla yeni zirvesine ulaştı. TULUS — Teh Hijau ise aynı Spotify günlüğünde 16 basamak yükselerek 29 numara oldu.",
@@ -56,11 +168,11 @@ export const popGundemiArticles = [
         ],
       },
       {
-        heading: "Üç K-pop başlık şarkısı bugün 18.00 KST için planlandı",
+        heading: "Dört K-pop yayını 24 Ağustos 18.00 KST'de platformlarda",
         body: [
-          "NCT 127'nin yedinci stüdyo albümü BLINGY ve aynı adlı başlık şarkısı, grubun resmî Weverse takvimine göre 24 Ağustos saat 18.00 KST'de yayımlanacak. Sabah kontrolü 15.47 KST'de tamamlandığı için kayıt bu yazıda yayımlanmış olarak gösterilmiyor. Arşivde albümden Piñata bulunuyor; Blingy bulunmuyor.",
-          "NEXZ'in Korece mini albümü ve başlık şarkısı SAUCIN' ile ALPHA DRIVE ONE'ın UNBREAKABLE : 少年BEAST albümündeki BORN DIRE da aynı saat için planlandı. Üç şarkı da çıkış sonrasında platform ve söz metni doğrulaması bekliyor; Korece satırlar için Latin alfabeli romanizasyon gerekli.",
-          "Universal Music Japan, TUIDE'ın TUNE & PLAY EP'sini 24 Ağustos dijital takviminde duyurdu. Başlık şarkısı SUN KISS henüz ölçülmüş ana liste sinyali taşımadığı için orta öncelikli izleme kaydı olarak tutuluyor; Korece satırlar için romanizasyon gerekli.",
+          "NCT 127'nin dokuz şarkılık yedinci stüdyo albümü BLINGY ve aynı adlı başlık şarkısı, planlandığı gibi 24 Ağustos saat 18.00 KST'de yayımlandı. Resmî yayın bağlantısı, Spotify albüm kaydı, Melon ve müzik videosu çıkışı doğruluyor. 25 Ağustos ilk görünümünde Blingy Melon TOP100'de 98, HOT100'de 15 numarada; albüm parçaları Legacy ve 127 Million Miles HOT100'de sırasıyla 18 ve 19 numarada. Arşivde albümden Piñata var, yeni üç kayıt yok.",
+          "ALPHA DRIVE ONE'ın yedi şarkılık UNBREAKABLE : 少年BEAST albümündeki BORN DIRE ve NEXZ'in altı şarkılık dördüncü mini albümündeki SAUCIN' aynı saatte yayımlandı. BORN DIRE ilk Melon HOT100 görünümünde 30 numarada; SAUCIN' güncel TOP100/HOT100 görünümüne girmedi. İki başlık şarkısı da arşivde bulunmuyor.",
+          "TUIDE'ın TUNE & PLAY EP'si de 24 Ağustos 18.00 KST'de yayımlandı. Başlık şarkısı SUN KISS Melon HOT100'de 51 numaraya ulaşırken albüm parçası GRLS 38 numarayla daha güçlü ilk sinyal verdi. Bu nedenle GRLS yüksek, SUN KISS orta-yüksek önceliğe alındı. Bölümdeki tüm yeni K-pop kayıtları Korece satırlar içerdiği için Latin alfabeli romanizasyon gerekli.",
         ],
       },
       {
@@ -78,13 +190,6 @@ export const popGundemiArticles = [
           "Robyn — Dancing On My Own, UK Singles Chart'ta 44 numaradan 34 numaraya çıktı; ancak Spotify UK'deki sıra artışına günlük dinlenme artışı eşlik etmedi. Bu nedenle yeni bir viral patlama olarak değil, önceki Netflix ve TikTok canlanmasının devamı olarak düşük öncelikle izleniyor. Unwritten arşivde bulunmuyor ve romanizasyon gerektirmiyor.",
         ],
       },
-      {
-        heading: "Apple Music'in küresel liste kaynağı düzeltildi",
-        body: [
-          "Önceki otomatik akış, Apple Music Top 100: Global başlığı altında yanlışlıkla ABD most-played RSS verisini kullanıyordu. Bugünkü bakımda bu kaynak kaldırıldı; sıralama Apple'ın resmî Top 100: Global çalma listesindeki sıra numaraları ve sayfanın kendi yayın tarihi üzerinden alınmaya başlandı.",
-          "Düzeltme sonrasında Apple Music verisi 23 Ağustos günlük görünümünü taşıyor. Billboard Hot 100 ve Billboard 200 haftalık 22 Ağustos etiketiyle, Circle Global 21 Ağustos ve Spotify Global 22 Ağustos günlük ölçümüyle ayrı tutuldu. Beş kaynağın tamamı başarıyla doğrulandı.",
-        ],
-      },
     ],
     memberStatus: [
       { name: "CORTIS — MONEYMONEYMONEY", status: "Çok yüksek öncelik", detail: "24 Ağustos 00.00 KST'de yayımlandı; arşivde yok, romanizasyon gerekli." },
@@ -94,9 +199,10 @@ export const popGundemiArticles = [
       { name: "Netón Vega — RIKI", status: "Yüksek öncelik", detail: "Spotify Global'da #31 ile yeni zirve; arşivde yok." },
       { name: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", status: "Çok yüksek öncelik", detail: "UK #4 ve Spotify Global'da #46 ile yeni zirve; arşivde yok." },
       { name: "TULUS — Teh Hijau", status: "Yüksek öncelik", detail: "Spotify Global'da 16 basamak yükselerek #29 oldu; arşivde yok." },
-      { name: "NCT 127 — Blingy", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
-      { name: "ALPHA DRIVE ONE — BORN DIRE", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
-      { name: "NEXZ — SAUCIN'", status: "Çıkış doğrulaması bekliyor", detail: "24 Ağustos 18.00 KST için planlandı; romanizasyon gerekli." },
+      { name: "NCT 127 — Blingy", status: "Çok yüksek öncelik", detail: "24 Ağustos 18.00 KST'de yayımlandı; Melon TOP100 #98 ve HOT100 #15, romanizasyon gerekli." },
+      { name: "ALPHA DRIVE ONE — BORN DIRE", status: "Yüksek öncelik", detail: "24 Ağustos 18.00 KST'de yayımlandı; Melon HOT100 #30, romanizasyon gerekli." },
+      { name: "NEXZ — SAUCIN'", status: "Orta / izle", detail: "24 Ağustos 18.00 KST'de yayımlandı; ilk TOP100/HOT100 görünümünde yok, romanizasyon gerekli." },
+      { name: "TUIDE — GRLS / SUN KISS", status: "Yüksek / orta-yüksek", detail: "Melon HOT100'de #38 / #51; ikisi de arşivde yok, romanizasyon gerekli." },
       { name: "Natasha Bedingfield — Unwritten", status: "Yüksek öncelik", detail: "Spotify Global'da 22 basamak yükseldi; arşivde yok." },
     ],
     sources: [
@@ -105,11 +211,17 @@ export const popGundemiArticles = [
       { name: "CORTIS — GREENGREEN_playextended resmî yayın bağlantısı", url: "https://cortis.lnk.to/GREENGREEN" },
       { name: "CORTIS — MONEYMONEYMONEY resmî görselleştirici", url: "https://www.youtube.com/watch?v=OhdvNHmJDsw" },
       { name: "NCT 127 / Weverse — BLINGY yayın takvimi", url: "https://weverse.io/nct127/fanpost/0-178276873" },
+      { name: "NCT 127 — BLINGY resmî yayın bağlantısı", url: "https://nct127.lnk.to/BLINGY" },
+      { name: "Melon — NCT 127, BLINGY", url: "https://www.melon.com/album/detail.htm?albumId=14440766" },
       { name: "Yonhap — NCT 127 BLINGY basın toplantısı", url: "https://en.yna.co.kr/view/AEN20260824005200315" },
       { name: "NEXZ / JYP — SAUCIN' yayın takvimi", url: "https://nexz.jype.com/notice?NoticeNumber=110" },
+      { name: "NEXZ — SAUCIN' resmî yayın bağlantısı", url: "https://nexz.lnk.to/SAUCIN" },
+      { name: "Melon — NEXZ, SAUCIN'", url: "https://www.melon.com/album/detail.htm?albumId=14469715" },
       { name: "ALPHA DRIVE ONE — resmî yayın bağlantıları", url: "https://linktr.ee/ALPHADRIVEONE" },
+      { name: "Spotify — ALPHA DRIVE ONE, UNBREAKABLE : 少年BEAST", url: "https://open.spotify.com/album/630xDApcVnwfx60F1s4Srn" },
       { name: "WakeOne — ALPHA DRIVE ONE resmî sanatçı sayfası", url: "https://wake-one.com/en/artists/alpha-drive-one/" },
       { name: "Universal Music Japan — TUIDE TUNE & PLAY duyurusu", url: "https://www.universal-music.co.jp/tuide/news/2026-08-18/" },
+      { name: "Melon — TUIDE, TUNE & PLAY", url: "https://www.melon.com/album/detail.htm?albumId=14473644" },
       { name: "KAROL G — NO ME ARREPIENTO DE SENTIR TANTO", url: "https://music.apple.com/us/album/no-me-arrepiento-de-sentir-tanto/6796864741" },
       { name: "PARTYNEXTDOOR — P3 10. yıl resmî yayın bağlantısı", url: "https://ovo-partynextdoor.ffm.to/p3_10year" },
       { name: "Netón Vega — RIKI resmî yayın bağlantısı", url: "https://virginmusic.lnk.to/riki" },
@@ -125,7 +237,7 @@ export const popGundemiArticles = [
       { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
     ],
     storyShare:
-      "24 Ağustos müzik gündemi: CORTIS iki yeni şarkı yayımladı; üç K-pop dönüşü 18.00 KST için planlanırken BbY WOW ve Unwritten yükseliyor.",
+      "24 Ağustos müzik gündemi: CORTIS iki yeni şarkı yayımladı; NCT 127, ALPHA DRIVE ONE, NEXZ ve TUIDE dönüşleri platformlarda doğrulandı.",
   },
   {
     slug: "21-agustos-2026-muzik-gundemi",
@@ -143,7 +255,7 @@ export const popGundemiArticles = [
     excerpt:
       "Sam Smith'in beşinci albümü Hazel Eyes ile ENHYPEN'in sekizinci mini albümü THE SIN : BLISS yayımlandı. Steve Lacy — Oh Yeah? ABD Hot 100'de 34 basamak yükselirken üç eski kayıt TikTok Global'in ilk üçüne yerleşti.",
     dek:
-      "Bugünün taraması yeni global yayınları, K-pop çıkışlarını ve yeniden yükselen eski şarkıları tek dosyada topluyor. Beş müzik listesi yenilendi; haftalık Billboard dönemleri ile Circle, Apple Music ve Spotify'ın günlük ölçümleri ayrı tarihlerle gösteriliyor.",
+      "Sam Smith ve ENHYPEN'in yeni albümleri, Steve Lacy'nin Hot 100 sıçraması ve TikTok'ta yeniden öne çıkan üç eski şarkı günün başlıca müzik gelişmeleri.",
     pullQuote:
       "Steve Lacy — Oh Yeah?, 19–25 Ağustos Hot 100 döneminde 54 numaradan 20 numaraya yükseldi.",
     relatedTranslations: [
@@ -154,18 +266,16 @@ export const popGundemiArticles = [
       "sam-smith-taeyeon-im-not-the-only-one-turkce-ceviri",
     ],
     livePanel: {
-      label: "21 Ağustos 2026 kontrolü",
+      label: "21 Ağustos 2026 gelişmeleri",
       title: "Bugünün doğrulanmış başlıkları",
       items: [
         { label: "Yeni albümler", text: "Sam Smith — Hazel Eyes ve ENHYPEN — THE SIN : BLISS, resmî 21 Ağustos takvimine göre yayımlandı." },
         { label: "Liste sıçraması", text: "Steve Lacy — Oh Yeah?, ABD Hot 100'de 54 numaradan 20 numaraya çıktı." },
         { label: "Viral", text: "Sunflower, Just a Girl ve Thinking Out Loud, 20 Ağustos haftalık TikTok Global görünümünün ilk üçünde." },
         { label: "24 Ağustos güncellemesi", text: "THE SIN : BLISS remix paketleri yayımlandı; albüm Hanteo haftalık listesinde birinci oldu." },
-        { label: "Listeler", text: "Beş kaynak yenilendi; her listenin ölçüm dönemi ve veri tarihi ayrı tutuldu." },
       ],
     },
     summary: [
-      "Billboard Hot 100 ve Billboard 200, kaynağın 22 Ağustos hafta etiketiyle yenilendi. Circle Global'ın son günlük ölçümü 18 Ağustos, Apple Music küresel akışı 21 Ağustos, Spotify Global'ın son doğrulanmış günlük görünümü ise 19 Ağustos tarihini taşıyor.",
       "Sam Smith'in 12 şarkılık beşinci stüdyo albümü Hazel Eyes, Capitol Records UK'nin resmî ürün sayfasındaki 21 Ağustos yayın takvimine göre dinleyiciyle buluştu. Albümde Feist ve The TwoCity Chorus konuk olarak yer alıyor.",
       "BELIFT LAB'ın resmî duyurusuna göre ENHYPEN'in sekizinci mini albümü THE SIN : BLISS, 21 Ağustos 13.00 KST'de yayımlandı. Başlık şarkısı Bloody Paradise; müzik videosu 22 Ağustos 00.00 KST için planlandı.",
       "Steve Lacy — Oh Yeah?, 19–25 Ağustos ABD Hot 100 görünümünde 34 basamaklık sıçramayla 20 numaraya yükseldi. Şarkının Türkçe çevirisi daha sonra arşive eklendi.",
@@ -200,13 +310,6 @@ export const popGundemiArticles = [
         body: [
           "Soundcharts'ın 20 Ağustos haftalık TikTok Global görünümünde Sunflower 410 bin kullanımla birinci sırada. Aynı kaynağın 13 Ağustos'ta indekslenen görünümündeki 212 bin değere göre artış yaklaşık yüzde 93. Sony Pictures, Post Malone ve Swae Lee ortaklığının özgün yayınını 18 Ekim 2018 olarak doğruluyor.",
           "No Doubt — Just a Girl 201 bin kullanımla ikinci, Ed Sheeran — Thinking Out Loud 102 binle üçüncü sırada. İki kayıt önceki erişilebilir ilk 95 görünümünde yer almıyordu. Güncel sayısal yükseliş doğrulanmış olsa da tetikleyici resmî olarak açıklanmadı; neden hakkında tahmin yürütülmedi. Üç çeviri daha sonra arşive eklendi.",
-        ],
-      },
-      {
-        heading: "Her müzik listesi kendi ölçüm tarihiyle yenilendi",
-        body: [
-          "Billboard Hot 100 ve Billboard 200 haftalık listelerinin kaynak sayfaları 22 Ağustos hafta etiketiyle doğrulandı. Billboard'ın ileri tarihli hafta etiketi bir erişim tarihi gibi yorumlanmadı; iki liste haftalık ölçüm olarak tutuluyor.",
-          "Günlük kaynaklarda Circle Global'ın son geçerli veri günü 18 Ağustos, Apple Music Top 100: Global akışının yenilenme günü 21 Ağustos ve Spotify Global görünümünün son doğrulanmış günü 19 Ağustos. Kaynaklar aynı güne aitmiş gibi birleştirilmedi; üstteki genel tarih yalnızca 21 Ağustos'taki son başarılı kontrolü gösteriyor.",
         ],
       },
     ],

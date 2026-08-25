@@ -201548,37 +201548,26 @@
     "categories": [
       "B.I",
       "Soulja Boy",
-      "DeVita"
+      "DeVita",
+      "BTBT"
     ],
     "category_slugs": [
       "b-i",
       "soulja-boy",
-      "devita"
+      "devita",
+      "btbt"
     ],
     "image": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
-    "reading_time": 4,
+    "reading_time": 5,
     "blocks": [
       {
         "original": true,
+        "label": "Chorus: B.I",
         "lines": [
           "When my eyes are on you",
           "Sum makildeuthan jeonyul",
           "Oh, you know you get me loose",
-          "Make me go biteulbiteul"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Gözlerim sana kilitlendiğinde",
-          "Nefesim kesiliyor, tüylerim diken diken oluyor",
-          "Ah, biliyorsun gevşememi sağlıyorsun",
-          "Beni sersemleştiriyorsun"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Make me go biteulbiteul",
           "A dance floor made for two",
           "Dari bureuneun seonyul",
           "Oh, it's only me and you",
@@ -201587,34 +201576,26 @@
       },
       {
         "original": false,
+        "label": "Chorus: B.I",
         "lines": [
-          "Sadece ikimize özel dans pistinde",
-          "Ay ışığının fısıldadığı şarkıyla",
-          "Ah, bir sen varsın bir de ben",
-          "Beni sersemleştiriyorsun"
+          "Gözlerim üzerindeyken,",
+          "Nefes kesen bir ürperti sarıyor her yanımı.",
+          "Oh, biliyorsun; beni tüm bağlarımdan çözüyorsun...",
+          "Beni böyle yalpalatıyorsun!",
+          "İki kişilik bir dans pisti bu;",
+          "Ayın mırıldandığı o melodi...",
+          "Oh, sadece sen ve ben varız;",
+          "Beni böyle yalpalatıyorsun!"
         ]
       },
       {
         "original": true,
+        "label": "Verse 1: DeVita, B.I",
         "lines": [
           "You bring the demon out of me",
           "Blame it all on your body",
           "We might be an hour late",
-          "We ain't got no time to waste"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "İçimdeki şeytanı dışarı çıkarıyorsun",
-          "Suçu vücudunun güzelliğine atıyorum",
-          "Belki bir saat geç kalırız",
-          "Ama boşa harcayacak bir saniyemiz yok"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "We ain't got no time to waste",
           "Kkumeul kkuneun gibuniya",
           "Jabeun soneul nochi ma",
           "Naeireun an jungyohae",
@@ -201623,34 +201604,26 @@
       },
       {
         "original": false,
+        "label": "Verse 1: DeVita, B.I",
         "lines": [
-          "Sanki bir rüyanın içindeyim",
-          "Sakın elimi bırakma",
-          "Yarın diye bir şey yok bizim için",
-          "Bu ana kendini kaptır gitsin"
+          "İçimdeki şeytanı uyandırıyorsun;",
+          "Hepsini senin o vücuduna (endamına) borçluyuz.",
+          "Belki bir saat geç kalacağız ama;",
+          "Boşa harcayacak vaktimiz yok hiç.",
+          "Sanki bir rüyanın içindeyim;",
+          "Sıkıca tuttuğun şu elimi sakın bırakma.",
+          "Yarın hiç önemli değil;",
+          "Sadece şu ana odaklan."
         ]
       },
       {
         "original": true,
+        "label": "Pre-Chorus: B.I",
         "lines": [
-          "Oh, I got plеnty",
-          "I done seen 'em all, but of you therе ain't many",
+          "Oh, I got plenty",
+          "I done seen 'em all, but of you there ain't many",
           "Said they win the race, so I'm slow and I'm steady",
-          "But can't move this slow in a Bentley, oh"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Ah, çok şeyim var",
-          "Çok şey gördüm, ama senin gibisi az bulunur",
-          "Diyorlar ki, onlar yarışı kazanmış, e o zaman ben yavaş ama emin adımlarla ilerleyeyim",
-          "Ama Bentley'de de bu kadar yavaş gidilmez ki"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "But can't move this slow in a Bentley, oh",
           "You say you need a true love",
           "Someone to kiss and hug you",
           "You feigning for some touching, ayy",
@@ -201661,36 +201634,28 @@
       },
       {
         "original": false,
+        "label": "Pre-Chorus: B.I",
         "lines": [
-          "Gerçek bir aşka ihtiyacın olduğunu söylüyorsun",
-          "Seni öpüp sarılacak birine",
-          "Biraz şefkate hasretsin, değil mi?",
-          "Ben tüm bunları ve daha fazlasını yapabilirim",
-          "Umarım sana yeterim",
-          "Çünkü ben normalde böyle şeyler yapmam"
+          "Oh, bende çok var (seçenek)...",
+          "Hepsini gördüm ama senin gibisi pek çıkmıyor karşıma.",
+          "\"Yarışı biz kazanacağız\" dediler, o yüzden ben ağır ve emin gidiyorum;",
+          "Ama bir Bentley’in içindeyken o kadar da yavaş gidemezsin, oh!",
+          "Gerçek bir aşk istediğini söylüyorsun;",
+          "Seni öpecek, sarılacak birini...",
+          "Şu dokunuşlara müptelasın, ayy;",
+          "Ben tüm bunların fazlası olabilirim.",
+          "Sadece senin için yeterli olmayı umuyorum;",
+          "Çünkü ben normalde bunları hiç yapmam..."
         ]
       },
       {
         "original": true,
+        "label": "Chorus: B.I",
         "lines": [
           "When my eyes are on you",
           "Sum makildeuthan jeonyul",
           "Oh, you know you get me loose",
-          "Make me go biteulbiteul"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Gözlerim sana kilitlendiğinde",
-          "Nefesim kesiliyor, tüylerim diken diken oluyor",
-          "Ah, biliyorsun gevşememi sağlıyorsun",
-          "Beni sersemleştiriyorsun"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Make me go biteulbiteul",
           "A dance floor made for two",
           "Dari bureuneun seonyul",
           "Oh, it's only me and you",
@@ -201699,34 +201664,26 @@
       },
       {
         "original": false,
+        "label": "Chorus: B.I",
         "lines": [
-          "Sadece ikimize özel dans pistinde",
-          "Ay ışığının fısıldadığı şarkıyla",
-          "Ah, bir sen varsın bir de ben",
-          "Beni sersemleştiriyorsun"
+          "Gözlerim üzerindeyken,",
+          "Nefes kesen bir ürperti sarıyor her yanımı.",
+          "Oh, biliyorsun; beni tüm bağlarımdan çözüyorsun...",
+          "Beni böyle yalpalatıyorsun!",
+          "İki kişilik bir dans pisti bu;",
+          "Ayın mırıldandığı o melodi...",
+          "Oh, sadece sen ve ben varız;",
+          "Beni böyle yalpalatıyorsun!"
         ]
       },
       {
         "original": true,
+        "label": "Verse 2: B.I",
         "lines": [
           "Chumeul chuji nal wihae",
           "Manchwihae neoui hyanggie",
           "Sesangeul da algie",
-          "Insaengeun jjalbeuni siganeul mamkkeot nangbihae"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Dans et benim için",
-          "Kokunla sarhoş oluyorum",
-          "Dünyayı avucumuzun içi gibi biliyoruz",
-          "Hayat kısa, hadi zamanı boşa harcayalım"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Insaengeun jjalbeuni siganeul mamkkeot nangbihae",
           "Georireul banghwanghaja uri",
           "Dul ppunin geotcheoreom mariya",
           "Ajjilhago wiheomhalsurok",
@@ -201736,35 +201693,27 @@
       },
       {
         "original": false,
+        "label": "Verse 2: B.I",
         "lines": [
-          "Hadi sokaklarda amaçsızca dolaşalım",
-          "Sanki dünyada bir tek biz varmışız gibi",
-          "Ne kadar tehlikeli ve baş döndürücü olursa olsun",
-          "Kalbim o kadar hızlı atıyor ki",
-          "İşte bu yüzden seni seviyorum"
+          "Dans et sadece benim için;",
+          "Senin o kokunla sarhoş olmuşken...",
+          "Tüm dünyayı avcumun içi gibi biliyorum artık;",
+          "Hayat kısa, o yüzden şu zamanı gönlünce harca.",
+          "Sokaklarda aylaklık yapalım gel;",
+          "Sanki bu dünyada sadece ikimiz varmışız gibi...",
+          "İşler ne kadar tehlikeli ve baş döndürücü olursa;",
+          "Kalbimin ritmi o kadar artıyor;",
+          "İşte bu yüzden seviyorum seni."
         ]
       },
       {
         "original": true,
+        "label": "Pre-Chorus: DeVita, B.I",
         "lines": [
           "Oh, I got plenty",
           "I done seen 'em all, but of you there ain't many",
           "Said they win the race, so I'm slow and I'm steady",
-          "But can't move this slow in a Bentley, oh"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Ah, çok şeyim var",
-          "Çok şey gördüm, ama senin gibisi az bulunur",
-          "Diyorlar ki, onlar yarışı kazanmış, e o zaman ben yavaş ama emin adımlarla ilerleyeyim",
-          "Ama Bentley'de de bu kadar yavaş gidilmez ki"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "But can't move this slow in a Bentley, oh",
           "You say you need a true love",
           "Someone to kiss and hug you",
           "You feigning for some touching, ayy",
@@ -201775,36 +201724,28 @@
       },
       {
         "original": false,
+        "label": "Pre-Chorus: DeVita, B.I",
         "lines": [
-          "Gerçek bir aşka ihtiyacın olduğunu söylüyorsun",
-          "Seni öpüp sarılacak birine",
-          "Biraz şefkate hasretsin, değil mi?",
-          "Ben tüm bunları ve daha fazlasını yapabilirim",
-          "Umarım sana yeterim",
-          "Çünkü ben normalde böyle şeyler yapmam"
+          "Oh, bende çok var (seçenek)...",
+          "Hepsini gördüm ama senin gibisi pek çıkmıyor karşıma.",
+          "\"Yarışı biz kazanacağız\" dediler, o yüzden ben ağır ve emin gidiyorum;",
+          "Ama bir Bentley’in içindeyken o kadar da yavaş gidemezsin, oh!",
+          "Gerçek bir aşk istediğini söylüyorsun;",
+          "Seni öpecek, sarılacak birini...",
+          "Şu dokunuşlara müptelasın, ayy;",
+          "Ben tüm bunların fazlası olabilirim.",
+          "Sadece senin için yeterli olmayı umuyorum;",
+          "Çünkü ben normalde bunları hiç yapmam..."
         ]
       },
       {
         "original": true,
+        "label": "Chorus: B.I",
         "lines": [
           "When my eyes are on you",
           "Sum makildeuthan jeonyul",
           "Oh, you know you get me loose",
-          "Make me go biteulbiteul"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Gözlerim sana kilitlendiğinde",
-          "Nefesim kesiliyor, tüylerim diken diken oluyor",
-          "Ah, biliyorsun gevşememi sağlıyorsun",
-          "Beni sersemleştiriyorsun"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Make me go biteulbiteul",
           "A dance floor made for two",
           "Dari bureuneun seonyul",
           "Oh, it's only me and you",
@@ -201813,72 +201754,35 @@
       },
       {
         "original": false,
+        "label": "Chorus: B.I",
         "lines": [
-          "Sadece ikimize özel dans pistinde",
-          "Ay ışığının fısıldadığı şarkıyla",
-          "Ah, bir sen varsın bir de ben",
-          "Beni sersemleştiriyorsun"
+          "Gözlerim üzerindeyken,",
+          "Nefes kesen bir ürperti sarıyor her yanımı.",
+          "Oh, biliyorsun; beni tüm bağlarımdan çözüyorsun...",
+          "Beni böyle yalpalatıyorsun!",
+          "İki kişilik bir dans pisti bu;",
+          "Ayın mırıldandığı o melodi...",
+          "Oh, sadece sen ve ben varız;",
+          "Beni böyle yalpalatıyorsun!"
         ]
       },
       {
         "original": true,
+        "label": "Verse 3: Soulja Boy",
         "lines": [
           "Yeah",
           "Front back side to side",
           "Pull up, then I drop the top on a new ride",
           "Bust down, Cartier cost thirty-five",
-          "Thirty thousand square feet in the air, stay fly"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Evet",
-          "Öne arkaya sağa sola sallanıyoruz",
-          "Yeni arabamla gelip üstünü açıyorum, hava atıyorum resmen",
-          "Cartier'im var, tam 35.000 patlattım buna",
-          "Havada 30 bin metrekare, hep havalardayız"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Thirty thousand square feet in the air, stay fly",
           "Red carpet, I was fresh suit and tie",
           "Jumped off the stage, I don't even know why",
           "Everytime I drop a new hit, we on fire",
-          "Yeah, we going viral, I know that I inspired you"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Kırmızı halıda takım elbise, kravatla fiyakalıydım",
-          "Sahneden atladım gittim, niye yaptım ben de bilmiyorum",
-          "Her yeni parça çıkardığımda ortalığı yakıp yıkıyoruz",
-          "Evet, viral oluyoruz, sana da ilham oldum biliyorum"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Yeah, we going viral, I know that I inspired you",
           "Jump on a jet, let's get away",
           "Out of town, find somewhere away",
           "We can't be found, bust down that Cartier",
-          "I came from the ground, ain't no other man"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Hadi jete atlayalım, sıvışalım buralardan",
-          "Şehirden çıkalım, kafa dinleyecek bir yer bulalım",
-          "Bizi bulamazlar, Cartier'i de parlatırız oh mis",
-          "Sıfırdan geldim ben, benim gibisi yok valla"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "I came from the ground, ain't no other man",
           "In the town, rolling up the Zaza woods",
           "Right out the pound",
           "Don't look at my water, you gon' drown",
@@ -201887,34 +201791,35 @@
       },
       {
         "original": false,
+        "label": "Verse 3: Soulja Boy",
         "lines": [
-          "Şehirde en kaliteli ottan sarıyoruz",
-          "Hem de kiloyla alıyoruz, öyle böyle değil",
-          "Pırlantalarıma bakma, gözün kamaşır boğulursun",
-          "Herkes tanır Big Draco'yu, neler olacak görürsünüz"
+          "Evet;",
+          "ön, arka, sağ ve sol...",
+          "Çektim kapıya, yeni makinemin üstünü açtım!",
+          "Mücevherlerle dolu Cartier saatim otuz beş bin dolar;",
+          "Gökyüzünde otuz bin fitteyim, havalı kalıyorum!",
+          "Kırmızı halıdaydım, jilet gibiydim; takım elbise ve kravat...",
+          "Sahneden aşağı atladım, nedenini ben bile bilmiyorum.",
+          "Ne zaman yeni bir hit çıkarsam, ortalık alev alıyor;",
+          "Evet, viral oluyoruz; biliyorum sana ilham verdiğimi.",
+          "Atla jete, gidelim buralardan;",
+          "Şehrin dışına, uzak bir yerlere...",
+          "Kimse bulamasın bizi, parlat şu Cartier’i!",
+          "En dibinden geldim ben, başka kimse yok;",
+          "Şu şehirde, en iyileriyle dumanı tüttürüyoruz...",
+          "Zirvedeyiz artık!",
+          "Işıltıma bakma sakın, içinde boğulursun!",
+          "Herkes Big Draco'yu bilir, mevzu başlıyor!"
         ]
       },
       {
         "original": true,
+        "label": "Chorus: B.I",
         "lines": [
           "When my eyes are on you",
           "Sum makildeuthan jeonyul",
           "Oh, you know you get me loose",
-          "Make me go biteulbiteul"
-        ]
-      },
-      {
-        "original": false,
-        "lines": [
-          "Gözlerim sana kilitlendiğinde",
-          "Nefesim kesiliyor, tüylerim diken diken oluyor",
-          "Ah, biliyorsun gevşememi sağlıyorsun",
-          "Beni sersemleştiriyorsun"
-        ]
-      },
-      {
-        "original": true,
-        "lines": [
+          "Make me go biteulbiteul",
           "A dance floor made for two",
           "Dari bureuneun seonyul",
           "Oh, it's only me and you",
@@ -201923,15 +201828,21 @@
       },
       {
         "original": false,
+        "label": "Chorus: B.I",
         "lines": [
-          "Sadece ikimize özel dans pistinde",
-          "Ay ışığının fısıldadığı şarkıyla",
-          "Ah, bir sen varsın bir de ben",
-          "Beni sersemleştiriyorsun"
+          "Gözlerim üzerindeyken,",
+          "Nefes kesen bir ürperti sarıyor her yanımı.",
+          "Oh, biliyorsun; beni tüm bağlarımdan çözüyorsun...",
+          "Beni böyle yalpalatıyorsun!",
+          "İki kişilik bir dans pisti bu;",
+          "Ayın mırıldandığı o melodi...",
+          "Oh, sadece sen ve ben varız;",
+          "Beni böyle yalpalatıyorsun!"
         ]
       },
       {
         "original": true,
+        "label": "Post-Chorus",
         "lines": [
           "Make me go biteulbiteul",
           "Make me go biteulbiteul"
@@ -201939,20 +201850,21 @@
       },
       {
         "original": false,
+        "label": "Post-Chorus",
         "lines": [
-          "Beni sersemleştiriyorsun",
-          "Beni sersemleştiriyorsun"
+          "Beni böyle sarsıyorsun...",
+          "Beni böyle yalpalatıyorsun!"
         ]
       }
     ],
-    "excerpt": "When my eyes are on you Sum makildeuthan jeonyul",
+    "excerpt": "When my eyes are on you",
     "oldUrl": "https://acupoflyrics.com/bi-soulja-boy-btbt-ft-devita-turkce-ceviri/",
     "seo": {
       "title": "B.I, Soulja Boy, DeVita BTBT Türkçe Çeviri",
-      "description": "B.I, Soulja Boy, DeVita BTBT Türkçe Çeviri | Gözlerim sana kilitlendiğinde / Nefesim kesiliyor, tüylerim diken diken oluyor / Ah, biliyorsun gevşememi sağlıyorsun...",
-      "canonical": "https://acupoflyrics.com/bi-soulja-boy-btbt-ft-devita-turkce-ceviri/"
+      "description": "B.I, Soulja Boy, DeVita – BTBT şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/bi-soulja-boy-btbt-ft-devita-turkce-ceviri/"
     },
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Tzz82mwLZIw",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
     "spotify": {
       "track": {
@@ -201998,11 +201910,49 @@
         "name": "BTBT",
         "url": "https://open.spotify.com/album/6z2Ij8op0iB16BnmrCy0vH",
         "cover": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
+        "artists": [
+          {
+            "id": "0UntV1Bw2hk3fbRrm9eMP6",
+            "name": "B.I",
+            "url": "https://open.spotify.com/artist/0UntV1Bw2hk3fbRrm9eMP6"
+          },
+          {
+            "id": "6GMYJwaziB4ekv1Y6wCDWS",
+            "name": "Soulja Boy",
+            "url": "https://open.spotify.com/artist/6GMYJwaziB4ekv1Y6wCDWS"
+          }
+        ],
         "releaseDate": "2022-05-13",
+        "releaseDatePrecision": "day",
         "albumType": "Single",
         "rawAlbumType": "single",
-        "totalTracks": 1
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(C) 2022 IOK x Transparent Arts",
+            "type": "C"
+          },
+          {
+            "text": "(P) 2022 IOK x Transparent Arts",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4XcxgZSriCYamtIA7BgT7V",
+            "name": "BTBT",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 219549,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4XcxgZSriCYamtIA7BgT7V",
+            "isCurrent": true
+          }
+        ]
       },
+      "fetchedAt": "2026-08-25T12:00:43.518Z",
       "trackUrl": "https://open.spotify.com/track/4XcxgZSriCYamtIA7BgT7V",
       "albumUrl": "https://open.spotify.com/album/6z2Ij8op0iB16BnmrCy0vH",
       "artistUrl": "https://open.spotify.com/artist/0UntV1Bw2hk3fbRrm9eMP6",
@@ -202010,10 +201960,25 @@
       "albumType": "Single",
       "releaseDate": "2022-05-13",
       "duration": "3:40",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
-      "fetchedAt": "2026-07-13T09:51:13.540Z"
+      "isrc": "GBKPL2296992",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d"
     },
-    "source": "wordpress-spotify"
+    "source": "ai-studio-spotify-youtube",
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "annotations": {
+      "Beni böyle yalpalatıyorsun": "“비틀비틀” (Biteul-Biteul): Sarhoşluktan veya birinin cazibesinden dolayı dengesini kaybetme, sendeleyerek yürüme halini anlatan yansıma bir kelimedir.",
+      "Bentley": "“Bentley”: Lüks araba markası. B.I burada hem başarısını hem de hızını Bentley üzerinden vurguluyor.",
+      "Cartier": "“Cartier / Water”: Lüks marka ve mücevherlerin berraklığı (water/su) üzerinden yapılan klasik hip-hop gövde gösterisi."
+    },
+    "difficulty_note": "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi.",
+    "genius": {
+      "url": "https://genius.com/Bi-and-soulja-boy-btbt-lyrics"
+    }
   },
   {
     "id": "3055",

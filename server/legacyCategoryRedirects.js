@@ -78,6 +78,7 @@ export const legacyCategoryRedirects = {
   "bright-ideas": "/album/inji-bright-ideas",
   "bruce-wayne-feat-flo-milli-atl-jacob": "/album/be-first-bruce-wayne-feat-flo-milli-atl-jacob",
   "bruno-mars": "/artist/bruno-mars",
+  "btbt": "/album/b-i-btbt",
   "bts": "/artist/bts",
   "bts-rap-line": "/discover",
   "burna-boy": "/artist/burna-boy",

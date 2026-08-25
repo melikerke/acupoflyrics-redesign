@@ -23307,18 +23307,25 @@
     "artist": "B.I, Soulja Boy, DeVita",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
     "date": "Wed, 28 Aug 2024 14:03:52 +0000",
-    "reading_time": 4,
-    "excerpt": "When my eyes are on you Sum makildeuthan jeonyul",
+    "reading_time": 5,
+    "excerpt": "When my eyes are on you",
     "categories": [
       "B.I",
       "Soulja Boy",
-      "DeVita"
+      "DeVita",
+      "BTBT"
     ],
     "category_slugs": [
       "b-i",
       "soulja-boy",
-      "devita"
+      "devita",
+      "btbt"
     ],
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/4XcxgZSriCYamtIA7BgT7V",
       "albumUrl": "https://open.spotify.com/album/6z2Ij8op0iB16BnmrCy0vH",
@@ -23328,11 +23335,13 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732f485bcd37d1d6733d324f7d",
       "duration": "3:40",
       "albumType": "Single",
+      "label": null,
       "trackNumber": 1,
       "totalTracks": 1,
       "artistName": "B.I",
       "artistImage": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a",
-      "artistGenres": []
+      "artistGenres": [],
+      "albumArtist": "B.I"
     },
     "moods": [
       "Party",
@@ -23340,11 +23349,11 @@
     ],
     "firstPair": {
       "en": "When my eyes are on you",
-      "tr": "Gözlerim sana kilitlendiğinde"
+      "tr": "Gözlerim üzerindeyken,"
     },
     "heroPair": {
       "en": "When my eyes are on you",
-      "tr": "Gözlerim sana kilitlendiğinde"
+      "tr": "Gözlerim üzerindeyken,"
     }
   },
   {
