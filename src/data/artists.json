@@ -2110,5 +2110,17 @@
     "name": "Imagine Dragons",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38"
+  },
+  {
+    "slug": "dolly-parton",
+    "name": "Dolly Parton",
+    "count": 2,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a"
+  },
+  {
+    "slug": "sf9",
+    "name": "SF9",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960"
   }
 ]

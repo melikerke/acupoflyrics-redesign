@@ -33,6 +33,8 @@ const BTBT_INPUT = path.join(process.cwd(), "scripts/aiStudioBtbt.raw.json");
 const BTBT_REPORT = "/tmp/acupoflyrics-ai-studio-btbt-report.json";
 const THUNDER_INPUT = path.join(process.cwd(), "scripts/aiStudioThunder.raw.json");
 const THUNDER_REPORT = "/tmp/acupoflyrics-ai-studio-thunder-report.json";
+const AUG26_INPUT = path.join(process.cwd(), "scripts/aiStudioAug26.raw.json");
+const AUG26_REPORT = "/tmp/acupoflyrics-ai-studio-aug26-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1103,6 +1105,73 @@ const TRACKS = [
     ],
   },
   {
+    batch: "aug26",
+    sourceKey: "jolene",
+    label: "Dolly Parton — Jolene",
+    artist: "Dolly Parton",
+    title: "Jolene",
+    slug: "dolly-parton-jolene-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+    youtubeUrl: "https://www.youtube.com/watch?v=Ixrje2rXLMA",
+    geniusUrl: "https://genius.com/Dolly-parton-jolene-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/song/216345135",
+    releaseDate: "1973-10-15",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    modelEnd: "\nÇEVİRİ NOTLARI / TRANSLATION NOTES",
+    translationMap: [1, 2, 3, 4, 5, 6, 7],
+    bilingualAnnotations: true,
+    annotationKeyHints: [
+      "kıyas kabul etmez",
+      "sırf bunu yapabiliyorsun diye",
+      "seninle boy ölçüşemem",
+      "bahar esintisi",
+    ],
+  },
+  {
+    batch: "aug26",
+    sourceKey: "nineToFive",
+    label: "Dolly Parton — 9 to 5",
+    artist: "Dolly Parton",
+    title: "9 to 5",
+    slug: "dolly-parton-9-to-5-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+    youtubeUrl: "https://www.youtube.com/watch?v=UbxUSsFXYo4",
+    geniusUrl: "https://genius.com/Dolly-parton-9-to-5-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/song/273166378",
+    releaseDate: "1980-11-17",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    modelEnd: "\nÇEVİRİ NOTLARI / TRANSLATION NOTES",
+    originalStanzaSplits: {
+      3: [
+        { section: "Chorus", lineCount: 8 },
+        { section: "Chorus / Outro", lineCount: 9 },
+      ],
+    },
+    bilingualAnnotations: true,
+    annotationKeyHints: [
+      "koca bir fincan \"hırs\"",
+      "garazı",
+      "aynı gemidesin",
+      "talih yüzümüze gülecek",
+    ],
+  },
+  {
+    batch: "aug26",
+    sourceKey: "withoutWings",
+    label: "SF9 — Without Wings",
+    artist: "SF9",
+    title: "Without Wings",
+    slug: "sf9-without-wings-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/5sHBrlcEkcOYDiwkkr3TYT",
+    geniusUrl: "https://genius.com/Sf9-without-wings-lyrics",
+    releaseDate: "2026-08-26",
+    youtubeUrl: "https://www.youtube.com/watch?v=w54M18oEv8k",
+    languages: { original: "ko-Latn", translation: "tr", annotations: "tr" },
+    translatorNote: "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi.",
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["harbi bir \"hiçim\""],
+  },
+  {
     batch: "thunder",
     sourceKey: "thunder",
     label: "Imagine Dragons — Thunder",
@@ -1275,6 +1344,30 @@ function parseStanzas(value) {
   return stanzas;
 }
 
+function splitOriginalStanzas(stanzas, splits, trackLabel) {
+  if (!splits) return stanzas;
+  return stanzas.flatMap((stanza, stanzaIndex) => {
+    const parts = splits[stanzaIndex];
+    if (!parts) return [stanza];
+    let offset = 0;
+    const result = parts.map((part) => {
+      if (!part?.section || !Number.isInteger(part.lineCount) || part.lineCount < 1) {
+        throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kaynak kıta bölümü geçersiz.`);
+      }
+      const lines = stanza.lines.slice(offset, offset + part.lineCount);
+      offset += part.lineCount;
+      if (lines.length !== part.lineCount) {
+        throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kaynak kıta bölümü eksik.`);
+      }
+      return { section: part.section, lines };
+    });
+    if (offset !== stanza.lines.length) {
+      throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kaynak kıtanın tüm satırları bölünmedi.`);
+    }
+    return result;
+  });
+}
+
 function cropTranslation(model, track) {
   let body = stripTurnChrome(model);
   if (track.modelStart) {
@@ -1438,6 +1531,7 @@ const ENGLISH_GLOSS_PARENTHETICALS = new Set([
   "masterpiece",
   "me wrong",
   "mine",
+  "nothing i can do",
   "o gi",
   "one hundred",
   "pretend",
@@ -1645,7 +1739,11 @@ function splitTranslationLines(lines, splits, trackLabel, stanzaIndex) {
 function parseTrack(source, track, { preserveMissing = false } = {}) {
   if (!source?.user || !source?.model) throw new Error(`${track.label}: orijinal söz veya çeviri eksik.`);
   const originalBody = stripTurnChrome(source.user);
-  const originalStanzas = parseStanzas(originalBody);
+  const originalStanzas = splitOriginalStanzas(
+    parseStanzas(originalBody),
+    track.originalStanzaSplits,
+    track.label,
+  );
   const translatedBody = cropTranslation(source.model, track);
   const translatedStanzas = parseStanzas(translatedBody);
   const translationMap = track.translationMap || originalStanzas.map((_, index) => index);
@@ -1847,10 +1945,11 @@ async function main() {
   const korkmamBatch = process.argv.includes("--korkmam");
   const btbtBatch = process.argv.includes("--btbt");
   const thunderBatch = process.argv.includes("--thunder");
-  const inputPath = thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug26Batch = process.argv.includes("--aug26");
+  const inputPath = aug26Batch ? AUG26_INPUT : thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug26Batch ? AUG26_REPORT : thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug26Batch ? track.batch === "aug26" : thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
   if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));

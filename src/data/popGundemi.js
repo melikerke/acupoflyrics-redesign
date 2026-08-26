@@ -1,5 +1,95 @@
 export const popGundemiArticles = [
   {
+    slug: "26-agustos-2026-muzik-gundemi",
+    title: "26 Ağustos müzik gündemi: Dolly Parton 80 yaşında hayatını kaybetti, Jolene global listede yükseldi",
+    shortTitle: "26 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-26",
+    updatedAt: "2026-08-26T13:45:00+03:00",
+    readTime: "5 dk",
+    image: "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    imageAlt: "Dolly Parton'ın Jolene albümünün resmî kapak görseli",
+    imageCredit: "Dolly Parton · RCA / Sony Music Entertainment",
+    imageSource: "https://music.apple.com/us/album/jolene/1062400323",
+    accent: "#b44a32",
+    excerpt:
+      "Dolly Parton'ın 25 Ağustos'ta 80 yaşında hayatını kaybettiği temsilcisinin açıklamasıyla doğrulandı. Jolene, 9 to 5, Islands in the Stream ve I Will Always Love You, Apple Music Top 100: Global'in 26 Ağustos görünümünde ilk 10'a girdi.",
+    dek:
+      "Country müziğin en etkili şarkı yazarlarından Dolly Parton'ın ardından eserleri küresel listelere dönerken RIIZE, Japonca teklisi Sunburst'ü yayımladı; SF9'un TENACITY albümü ve Without Wings kaydı da gün içinde doğrulandı.",
+    pullQuote:
+      "Apple Music sıralaması 26 Ağustos'ta çalma listesinin resmî küresel görünümünden alındı; Billboard listeleri 29 Ağustos tarihli haftayı, Circle ise 23 Ağustos günlüğünü ölçüyor.",
+    relatedTranslations: [
+      "dolly-parton-jolene-turkce-ceviri",
+      "dolly-parton-9-to-5-turkce-ceviri",
+      "sf9-without-wings-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "26 Ağustos 2026 gelişmeleri",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Doğrulandı", text: "Dolly Parton, 25 Ağustos'ta Nashville'de 80 yaşında hayatını kaybetti; açıklama sanatçının temsilcisi tarafından yapıldı." },
+        { label: "Global liste", text: "Jolene Apple Music Top 100: Global'de 2; 9 to 5 ise 6 numarada. Parton'ın iki kaydı daha ilk 10'da." },
+        { label: "Yeni yayın", text: "RIIZE — Sunburst, 26 Ağustos tarihli Japonca tekli olarak resmî platformlarda yayımlandı." },
+        { label: "Yayınlandı", text: "SF9 — Without Wings ve TENACITY albümü 26 Ağustos tarihli resmî Spotify kaydıyla doğrulandı; Türkçe çeviri arşive eklendi." },
+      ],
+    },
+    summary: [
+      "Associated Press'in 25 Ağustos tarihli haberine göre Dolly Parton, kısa süren kanser tedavisinin ardından Nashville'de 80 yaşında hayatını kaybetti. Ölüm bilgisi temsilcisi Marcel Pariseau'nun açıklamasına dayanıyor; olay tarihi ile 26 Ağustos tarihli devam haberleri ayrı tutuldu.",
+      "Apple Music Top 100: Global'in 26 Ağustos tarihli resmî küresel görünümünde Jolene 2, 9 to 5 ise 6 numarada. Islands in the Stream 9 ve I Will Always Love You 10 numaraya çıktı. Bu sıralamalar ABD RSS akışı değil, Apple'ın küresel çalma listesinden alındı.",
+      "RIIZE'ın üçüncü Japonya teklisi Sunburst 26 Ağustos'ta yayımlandı ve resmî müzik videosu paylaşıldı. Şarkı arşivde bulunmuyor; Japonca sözler nedeniyle çeviride Latin alfabeli romanizasyon gerekli.",
+      "SF9'un ikinci stüdyo albümü TENACITY ve başlık şarkısı Without Wings için 26 Ağustos 18.00 KST yayın saati resmî kanallarda duyuruldu. Sabah taraması bu saatten önce tamamlandı; gün içi güncellemesinde Spotify kaydı doğrulandı ve romanize sözlerle Türkçe çeviri arşive eklendi.",
+    ],
+    sections: [
+      {
+        heading: "Dolly Parton 80 yaşında hayatını kaybetti",
+        body: [
+          "Associated Press'in 25 Ağustos'ta yayımladığı haberde, Dolly Parton'ın Nashville'deki Vanderbilt-Ingram Cancer Center'da ailesinin yanında hayatını kaybettiği bildirildi. Haberde ölüm nedeni, temsilcisinin ifadesiyle kısa süren kanser mücadelesi olarak açıklandı. Parton 80 yaşındaydı.",
+          "Parton, altmış yılı aşan kariyerinde Jolene, I Will Always Love You, Coat of Many Colors ve 9 to 5 gibi eserlerin yazarı ve yorumcusu olarak country müziğin küresel etkisini genişletti. Müzik dışındaki çalışmaları arasında çocuklara ücretsiz kitap ulaştıran Imagination Library programı da yer alıyordu.",
+          "Haberin yayın tarihi 25 Ağustos, olay tarihi de 25 Ağustos olarak kaydedildi. 26 Ağustos tarihli AP yazıları kariyer değerlendirmesi niteliğinde; ölümün gerçekleştiği tarih olarak kullanılmadı.",
+        ],
+      },
+      {
+        heading: "Jolene ve 9 to 5 Apple Music Global'in ilk 10'unda",
+        body: [
+          "Apple Music Top 100: Global'in 26 Ağustos görünümünde Jolene 2, 9 to 5 ise 6 numarada yer aldı. Dolly Parton ve Kenny Rogers ortaklığı Islands in the Stream 9; I Will Always Love You 10 numarada. Jolene ve 9 to 5 çevirileri arşive eklendi; diğer iki kayıt arşivde bulunmuyor.",
+          "Sıralama, Apple'ın resmî Top 100: Global çalma listesinden ve listenin kendi 26 Ağustos güncellemesinden alındı. Billboard Hot 100 ve Billboard 200 için kullanılan 29 Ağustos haftası ile Circle Global'ın 23 Ağustos günlük ölçümü bu görünümle birleştirilmedi.",
+          "Jolene, güncel çapraz platform etkisi nedeniyle yeniden yükselenler bölümünün en yüksek öncelikli adayıydı; AI Studio'da hazırlanan Türkçe çevirisi 26 Ağustos'ta arşive eklendi. İngilizce sözler Latin alfabesinde olduğu için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "RIIZE — Sunburst ve SF9 — Without Wings yayımlandı",
+        body: [
+          "RIIZE'ın üçüncü Japonya teklisinin başlık şarkısı Sunburst, 26 Ağustos'ta EMI Records / Universal Music etiketiyle platformlarda yayımlandı. Grubun Japonya resmî sitesi aynı gün müzik videosunun yayımlandığını doğruladı.",
+          "Sunburst arşivde bulunmuyor. Japonca sözler Latin dışı karakterler içerdiği için çeviri hazırlanırken romanizasyon gerekli. İlk günlük liste verileri henüz oluşmadığından adayın önceliği yeni yayın sinyaline dayanıyor.",
+          "SF9'un TENACITY albümü ve Without Wings başlık şarkısı için 18.00 KST yayın saati duyuruldu. Sabah taraması yaklaşık 14.00 KST'de tamamlandığı için ilk kayıtta yalnızca planlanan yayın olarak yer aldı; gün içi güncellemesinde 26 Ağustos tarihli Spotify kaydı ve FNC'nin resmî tam müzik videosu doğrulandı. Without Wings çevirisi, Korece dizelerin Latin alfabesiyle romanize edilmiş biçimiyle arşive eklendi.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Dolly Parton — Jolene", status: "Çeviri arşivde", detail: "Apple Music Global #2; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
+      { name: "Dolly Parton — 9 to 5", status: "Çeviri arşivde", detail: "Apple Music Global #6; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
+      { name: "RIIZE — Sunburst", status: "Yüksek öncelik", detail: "26 Ağustos'ta yayımlandı; arşivde yok, Japonca romanizasyon gerekli." },
+      { name: "SF9 — Without Wings", status: "Çeviri arşivde", detail: "26 Ağustos tarihli Spotify kaydı doğrulandı; Korece dizeler romanize edildi." },
+    ],
+    sources: [
+      { name: "Associated Press — Dolly Parton'ın ölümü", url: "https://apnews.com/article/87156f3e6a1547b88bf414529b644ad3" },
+      { name: "Associated Press — Dolly Parton'ın yaşamı ve etkisi", url: "https://apnews.com/article/8b8494ba94515327853881e60224c577" },
+      { name: "Dolly Parton — resmî internet sitesi", url: "https://dollyparton.com/" },
+      { name: "Apple Music — Dolly Parton, Jolene", url: "https://music.apple.com/us/album/jolene/1062400323" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "RIIZE Japonya resmî sitesi — Sunburst", url: "https://riizeofficial.jp/" },
+      { name: "Apple Music — RIIZE, Sunburst", url: "https://music.apple.com/us/album/sunburst-single/6794234139" },
+      { name: "FNC Store — SF9 TENACITY yayın tarihi", url: "https://www.fncstore.com/article/notice/1/33630/page/1/" },
+      { name: "Weverse — SF9 TENACITY showcase duyurusu", url: "https://weverse.io/sf9/notice/38313" },
+      { name: "SF9 ve FNC — Without Wings resmî müzik videosu", url: "https://www.youtube.com/watch?v=w54M18oEv8k" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+    ],
+    storyShare:
+      "26 Ağustos müzik gündemi: Dolly Parton 80 yaşında hayatını kaybetti; Jolene ve 9 to 5 Apple Music Global'in ilk 10'una döndü. RIIZE — Sunburst yayımlandı.",
+  },
+  {
     slug: "25-agustos-2026-muzik-gundemi",
     title: "25 Ağustos müzik gündemi: Olivia Rodrigo'dan serena joy, Taylor Swift'ten piyano performansı",
     shortTitle: "25 Ağustos — günün müzik gündemi",

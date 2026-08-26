@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "lists": [
     {
       "id": "billboard-hot-100",
       "name": "Billboard Hot 100",
       "description": "ABD'nin en popüler şarkıları",
       "period": "Haftalık",
-      "updated": "2026-08-22",
+      "updated": "2026-08-29",
       "sourceUrl": "https://www.billboard.com/charts/hot-100/",
       "icon": "note",
       "entries": [
@@ -21,6 +21,15 @@
         },
         {
           "rank": 2,
+          "title": "Boston",
+          "artist": "Stella Lefty",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
+          "spotifyUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+          "album": "Boston",
+          "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
+        },
+        {
+          "rank": 3,
           "title": "I Knew It, I Knew You",
           "artist": "Taylor Swift",
           "cover": "https://i.scdn.co/image/ab67616d0000b273a35a1d4983e2b4fd0094f910",
@@ -29,22 +38,13 @@
           "albumUrl": "https://open.spotify.com/album/3ZLIShtR6Fjs4nTWFpBUB6"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Been By Now",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273349f6c0133abbfca063891c1",
           "spotifyUrl": "https://open.spotify.com/track/3xwMjQriBVW0OGEvNKo9c0",
           "album": "Been By Now",
           "albumUrl": "https://open.spotify.com/album/2CW0gIlEO8iQBUdtRyxnb4"
-        },
-        {
-          "rank": 4,
-          "title": "Boston",
-          "artist": "Stella Lefty",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
-          "spotifyUrl": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
-          "album": "Boston",
-          "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
         },
         {
           "rank": 5,
@@ -107,12 +107,26 @@
       "name": "Billboard 200",
       "description": "En çok satan albümler",
       "period": "Haftalık",
-      "updated": "2026-08-22",
+      "updated": "2026-08-29",
       "sourceUrl": "https://www.billboard.com/charts/billboard-200/",
       "icon": "disc",
       "entries": [
         {
           "rank": 1,
+          "title": "WILD (EP)",
+          "artist": "KATSEYE"
+        },
+        {
+          "rank": 2,
+          "title": "Lost Weekend",
+          "artist": "Phoebe Bridgers",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27325a647ace83ba32770ab5d0f",
+          "spotifyUrl": "https://open.spotify.com/track/1GMPPheF4aMHMifOgp72eF",
+          "album": "Lost Weekend",
+          "albumUrl": "https://open.spotify.com/album/2NSzwyYvQvdOQAoEjrlw9c"
+        },
+        {
+          "rank": 3,
           "title": "This & That",
           "artist": "Stray Kids",
           "cover": "https://i.scdn.co/image/ab67616d0000b27337f636fa384b48481241cbd3",
@@ -121,21 +135,12 @@
           "albumUrl": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy"
         },
         {
-          "rank": 2,
-          "title": "petal",
-          "artist": "Ariana Grande",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
-          "spotifyUrl": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
-          "album": "petal",
-          "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT"
-        },
-        {
-          "rank": 3,
+          "rank": 4,
           "title": "you seem pretty sad for a girl so in love",
           "artist": "Olivia Rodrigo"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "Dandelion",
           "artist": "Ella Langley",
           "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
@@ -144,7 +149,7 @@
           "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
@@ -153,7 +158,7 @@
           "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
           "cover": "https://i.scdn.co/image/ab67616d0000b273a47374027a9f559917ba66ba",
@@ -162,14 +167,13 @@
           "albumUrl": "https://open.spotify.com/album/1VfncK0Rpng2xCmfkKfO7N"
         },
         {
-          "rank": 7,
-          "title": "All Eyes On Shiest",
-          "artist": "Pooh Shiesty"
-        },
-        {
           "rank": 8,
-          "title": "No Me Arrepiento de Sentir Tanto",
-          "artist": "Karol G"
+          "title": "petal",
+          "artist": "Ariana Grande",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+          "spotifyUrl": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+          "album": "petal",
+          "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT"
         },
         {
           "rank": 9,
@@ -178,8 +182,12 @@
         },
         {
           "rank": 10,
-          "title": "Chuck Timely & The Hourglass",
-          "artist": "Role Model"
+          "title": "The Art Of Loving",
+          "artist": "Olivia Dean",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
+          "spotifyUrl": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
+          "album": "The Art of Loving",
+          "albumUrl": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
         }
       ]
     },
@@ -188,7 +196,7 @@
       "name": "Circle Chart (Gaon)",
       "description": "Güney Kore'nin resmi müzik listesi",
       "period": "Günlük",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "sourceUrl": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
       "icon": "sparkle",
       "entries": [
@@ -235,17 +243,17 @@
         },
         {
           "rank": 6,
+          "title": "It`s Me",
+          "artist": "아일릿(ILLIT)"
+        },
+        {
+          "rank": 7,
           "title": "BiiiG",
           "artist": "BIGBANG (빅뱅)",
           "cover": "https://i.scdn.co/image/ab67616d0000b2734d02d148d2ae249bdd2991e3",
           "spotifyUrl": "https://open.spotify.com/track/4pZi0VxU2C8zuxCYfEtFuL",
           "album": "BiiiG",
           "albumUrl": "https://open.spotify.com/album/0TAVFAYcXBx6wMmUQYCWfq"
-        },
-        {
-          "rank": 7,
-          "title": "It`s Me",
-          "artist": "아일릿(ILLIT)"
         },
         {
           "rank": 8,
@@ -281,7 +289,7 @@
       "name": "Apple Music Top 100",
       "description": "Global Apple Music listesi",
       "period": "Günlük",
-      "updated": "2026-08-24",
+      "updated": "2026-08-26",
       "sourceUrl": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
       "icon": "headphones",
       "entries": [
@@ -296,6 +304,15 @@
         },
         {
           "rank": 2,
+          "title": "Jolene",
+          "artist": "Dolly Parton",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+          "spotifyUrl": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+          "album": "Jolene",
+          "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj"
+        },
+        {
+          "rank": 3,
           "title": "Janice STFU",
           "artist": "Drake",
           "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
@@ -304,7 +321,16 @@
           "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "title": "BbY WOW",
+          "artist": "KAROL G, Judeline & rusowsky",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368",
+          "spotifyUrl": "https://open.spotify.com/track/3h5T5JypYU7huFiVYhv1dr",
+          "album": "NO ME ARREPIENTO DE SENTIR TANTO",
+          "albumUrl": "https://open.spotify.com/album/7a0lnWtCz0eW15WsWu3dHQ"
+        },
+        {
+          "rank": 5,
           "title": "hate that i made you love me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -313,7 +339,16 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 4,
+          "rank": 6,
+          "title": "9 to 5",
+          "artist": "Dolly Parton",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+          "spotifyUrl": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+          "album": "9 To 5 And Odd Jobs",
+          "albumUrl": "https://open.spotify.com/album/64Ky1tqKPfwxhJs6msphWd"
+        },
+        {
+          "rank": 7,
           "title": "Been By Now",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273349f6c0133abbfca063891c1",
@@ -322,16 +357,7 @@
           "albumUrl": "https://open.spotify.com/album/2CW0gIlEO8iQBUdtRyxnb4"
         },
         {
-          "rank": 5,
-          "title": "BbY WOW",
-          "artist": "KAROL G, rusowsky & Judeline",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368",
-          "spotifyUrl": "https://open.spotify.com/track/3h5T5JypYU7huFiVYhv1dr",
-          "album": "NO ME ARREPIENTO DE SENTIR TANTO",
-          "albumUrl": "https://open.spotify.com/album/7a0lnWtCz0eW15WsWu3dHQ"
-        },
-        {
-          "rank": 6,
+          "rank": 8,
           "title": "stupid song",
           "artist": "Olivia Rodrigo",
           "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
@@ -340,40 +366,22 @@
           "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
-          "rank": 7,
-          "title": "Dead Fresh",
-          "artist": "Lil Baby",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27399f0c412a5d80626ae972cf4",
-          "spotifyUrl": "https://open.spotify.com/track/5ZAMlvo6ZUjVRZOGu2bJib",
-          "album": "Dead Fresh",
-          "albumUrl": "https://open.spotify.com/album/6DuuzOm5bLRIg4CVBQx136"
-        },
-        {
-          "rank": 8,
-          "title": "Man I Need",
-          "artist": "Olivia Dean",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
-          "spotifyUrl": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-          "album": "Man I Need",
-          "albumUrl": "https://open.spotify.com/album/0Bv6OJO0L5gcf20DMww54a"
-        },
-        {
           "rank": 9,
-          "title": "Loser",
-          "artist": "Tame Impala",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273e2aa48290b3cd1040be92345",
-          "spotifyUrl": "https://open.spotify.com/track/3RmFPuTTAjSQ2pbEd2j9oA",
-          "album": "Loser",
-          "albumUrl": "https://open.spotify.com/album/3xIGAElZCxV44QtMvXrPMa"
+          "title": "Islands In the Stream",
+          "artist": "Dolly Parton & Kenny Rogers",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+          "spotifyUrl": "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+          "album": "Greatest Hits",
+          "albumUrl": "https://open.spotify.com/album/3b3xKNoWtZLWdxuaL0sKCs"
         },
         {
           "rank": 10,
-          "title": "the cure",
-          "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
-          "spotifyUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
-          "album": "the cure",
-          "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y"
+          "title": "I Will Always Love You",
+          "artist": "Dolly Parton",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+          "spotifyUrl": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+          "album": "Jolene",
+          "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj"
         }
       ]
     },
@@ -382,7 +390,7 @@
       "name": "Spotify Global Top 50",
       "description": "Dünya genelinde en çok dinlenenler",
       "period": "Günlük",
-      "updated": "2026-08-23",
+      "updated": "2026-08-24",
       "sourceUrl": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
       "icon": "headphones",
       "entries": [
@@ -397,21 +405,21 @@
         },
         {
           "rank": 2,
-          "title": "Dai Dai",
-          "artist": "Shakira & Burna Boy",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
-          "spotifyUrl": "https://open.spotify.com/track/0kosUz0jePvjiz4ctmR6wL",
-          "album": "Dai Dai",
-          "albumUrl": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8"
-        },
-        {
-          "rank": 3,
           "title": "Loser",
           "artist": "Tame Impala",
           "cover": "https://i.scdn.co/image/ab67616d0000b273e2aa48290b3cd1040be92345",
           "spotifyUrl": "https://open.spotify.com/track/3RmFPuTTAjSQ2pbEd2j9oA",
           "album": "Loser",
           "albumUrl": "https://open.spotify.com/album/3xIGAElZCxV44QtMvXrPMa"
+        },
+        {
+          "rank": 3,
+          "title": "Dai Dai",
+          "artist": "Shakira & Burna Boy",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27303cadf1b3fe324c1dc710ed4",
+          "spotifyUrl": "https://open.spotify.com/track/0kosUz0jePvjiz4ctmR6wL",
+          "album": "Dai Dai",
+          "albumUrl": "https://open.spotify.com/album/2eeufspLkAubwTJfOGSrI8"
         },
         {
           "rank": 4,
@@ -433,15 +441,6 @@
         },
         {
           "rank": 6,
-          "title": "The One That Got Away",
-          "artist": "Katy Perry",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
-          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
-          "album": "Teenage Dream: The Complete Confection",
-          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
-        },
-        {
-          "rank": 7,
           "title": "Babydoll",
           "artist": "Dominic Fike",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
@@ -450,31 +449,40 @@
           "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         },
         {
+          "rank": 7,
+          "title": "the cure",
+          "artist": "Olivia Rodrigo",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+          "spotifyUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
+          "album": "the cure",
+          "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y"
+        },
+        {
           "rank": 8,
-          "title": "Billie Jean",
-          "artist": "Michael Jackson",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
-          "spotifyUrl": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj",
-          "album": "Thriller",
-          "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
-        },
-        {
-          "rank": 9,
-          "title": "SWIM",
-          "artist": "BTS",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273dfa17fad7f190c901603270e",
-          "spotifyUrl": "https://open.spotify.com/track/68lbSrXDORS51pmyjZv712",
-          "album": "ARIRANG",
-          "albumUrl": "https://open.spotify.com/album/3ukkRHDHbN8tNRPKsGZR1h"
-        },
-        {
-          "rank": 10,
           "title": "hate that i made you love me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
           "spotifyUrl": "https://open.spotify.com/track/20jbSiX29FDX4oQxBXyUEi",
           "album": "hate that i made you love me",
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
+        },
+        {
+          "rank": 9,
+          "title": "The One That Got Away",
+          "artist": "Katy Perry",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616",
+          "spotifyUrl": "https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu",
+          "album": "Teenage Dream: The Complete Confection",
+          "albumUrl": "https://open.spotify.com/album/5BvgP623rtvlc0HDcpzquz"
+        },
+        {
+          "rank": 10,
+          "title": "Iris",
+          "artist": "The Goo Goo Dolls",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+          "spotifyUrl": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+          "album": "Dizzy up the Girl",
+          "albumUrl": "https://open.spotify.com/album/4UMjBXcRqIgMZ1XumU2x5T"
         }
       ]
     }

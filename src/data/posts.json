@@ -1,5 +1,1204 @@
 [
   {
+    "id": "5259",
+    "title": "SF9 Without Wings Türkçe Çeviri",
+    "song": "Without Wings",
+    "slug": "sf9-without-wings-turkce-ceviri",
+    "date": "2026-08-26T10:44:26.883Z",
+    "artist": "SF9",
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "SF9",
+      "TENACITY"
+    ],
+    "category_slugs": [
+      "sf9",
+      "tenacity"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Day and night",
+          "I'm feeling tied",
+          "tto churakhae",
+          "gathyeo beorin igoteseo",
+          "nae simjangeun burning",
+          "kkeokeo beorin nalgae",
+          "balkkeuten meonjiman",
+          "Falling down deeper"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Gece gündüz,",
+          "Elim kolum bağlı hissediyorum.",
+          "Yine düşüyorum...",
+          "Hapsolduğum şu yerden,",
+          "Kalbim alevler içinde...",
+          "Kırılmış kanatlarım,",
+          "Ayak uçlarımda sadece tozlar...",
+          "Daha derine düşüyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "da kkeutnan deuthan timing",
+          "sala itji still alive",
+          "Don't know why my heart",
+          "Just keeps racing now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sanki her şey bitmiş gibi bir an;",
+          "Ama hala yaşıyorum, hala hayattayım!",
+          "Bilmiyorum neden kalbim;",
+          "Böyle delicesine çarpmaya devam ediyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "dasi nala",
+          "Without wings",
+          "baramjocha eopseodo",
+          "Fly high",
+          "da buseojindaedo",
+          "I'll never die again",
+          "Break out the walls of this cage",
+          "I'm a bird without wings"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Yeniden uçuyorum,",
+          "Kanatlarım olmasa da!",
+          "Esecek bir rüzgar bile bulamasam;",
+          "Yine de en tepede...",
+          "Her yerim paramparça olsa bile;",
+          "Bir daha asla ölmeyeceğim.",
+          "Yık şu kafesin duvarlarını;",
+          "Ben kanatları olmayan o kuşum artık!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "W-W",
+          "W-W, baby, I",
+          "W-W",
+          "Oh, just like a bird without wings",
+          "W-W",
+          "W-W, baby, I",
+          "Break out the walls of this cage",
+          "I'm a bird without wings"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "W-W... (Kanatsız)",
+          "W-W, bebeğim ben...",
+          "Oh, tıpkı kanatları olmayan bir kuş gibi...",
+          "Yık şu kafesin duvarlarını;",
+          "Ben kanatsız bir kuşum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Fake love",
+          "Did you make my melody?",
+          "See my light",
+          "Oh, take it to heart",
+          "nega eopseum jinjja nan duff",
+          "muneun yeolryeo iteo",
+          "ijen naega nareul kkeonae",
+          "I don't need wings to fly high"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sahte aşk...",
+          "Melodimi sen mi yarattın sahiden?",
+          "Işığımı gör artık;",
+          "Oh, bunu kalbine mühürle.",
+          "Sen yoksan, ben harbi bir \"hiçim\";",
+          "Kapı artık ardına kadar açık;",
+          "Şimdi kendimi bu yerden ben çıkarıyorum!",
+          "En yukarılara uçmak için kanatlara ihtiyacım yok benim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "da kkeutnan deuthan timing",
+          "sala itji still alive",
+          "Don't know why my heart",
+          "Just keeps racing now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sanki her şey bitmiş gibi;",
+          "Ama hala yaşıyorum!",
+          "Bilmiyorum neden kalbim;",
+          "Böyle delicesine çarpmaya devam ediyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "dasi nala",
+          "Without wings",
+          "baramjocha eopseodo",
+          "Fly high",
+          "da buseojindaedo",
+          "I'll never die again",
+          "Break out the walls of this cage",
+          "I'm a bird without wings"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Yeniden uçuyorum,",
+          "Kanatlarım olmasa da!",
+          "Esecek bir rüzgar bile bulamasam;",
+          "Yeniden uçuyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "I can rise again",
+          "kkeuti aniya",
+          "kkaeeona",
+          "That I'm not here alone in the night",
+          "kkeutnae salanameun my ego",
+          "nuneul tteumyeon ije let me go",
+          "dasi nalaolra",
+          "Again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Yeniden yükselebilirim;",
+          "Bu bir son değil!",
+          "Uyan artık;",
+          "Bu gecenin içinde yalnız olmadığımı biliyorum.",
+          "Sonunda hayatta kalan o benliğim;",
+          "Gözlerimi açtığımda artık \"bırak beni gideyim\"...",
+          "Yeniden havalanıyorum;",
+          "Yeniden!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "dasi nala",
+          "Without wings",
+          "baramjocha eopseodo",
+          "Fly high",
+          "da buseojindaedo",
+          "I'll never die again",
+          "Break out the walls of this cage",
+          "I'm a bird without wings"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Yeniden uçuyorum,",
+          "Kanatlarım olmasa da!",
+          "Esecek bir rüzgar bile bulamasam;",
+          "Yeniden uçuyorum!",
+          "Yık şu kafesin duvarlarını;",
+          "Ben kanatları olmayan o kuşum artık!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "W-W",
+          "W-W, baby, I",
+          "W-W",
+          "Oh, just like a bird without wings",
+          "W-W",
+          "W-W, baby, I",
+          "Break out the walls of this cage",
+          "I'm a bird without wings"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "W-W...",
+          "W-W, bebeğim ben...",
+          "Yık şu kafesin duvarlarını;",
+          "Ben kanatsız bir kuşum!"
+        ]
+      }
+    ],
+    "excerpt": "Day and night",
+    "annotations": {
+      "harbi bir \"hiçim": "“Duff”: Argoda işe yaramaz, yetersiz veya sahte şeyleri anlatmak için kullanılır. Şarkıcı burada partneri olmadan hissettiği o geçici boşluğu vurguluyor."
+    },
+    "difficulty_note": "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi.",
+    "spotify": {
+      "track": {
+        "id": "5sHBrlcEkcOYDiwkkr3TYT",
+        "name": "Without Wings",
+        "url": "https://open.spotify.com/track/5sHBrlcEkcOYDiwkkr3TYT",
+        "isrc": "KRA382603494",
+        "durationMs": 170000,
+        "duration": "2:50",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "7LOmc7gyMVMOWF8qwEdn2X",
+        "name": "SF9",
+        "url": "https://open.spotify.com/artist/7LOmc7gyMVMOWF8qwEdn2X",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "7LOmc7gyMVMOWF8qwEdn2X",
+          "name": "SF9",
+          "url": "https://open.spotify.com/artist/7LOmc7gyMVMOWF8qwEdn2X"
+        }
+      ],
+      "album": {
+        "id": "2KcgymTAsVC3HvbiKd8OyF",
+        "name": "TENACITY",
+        "url": "https://open.spotify.com/album/2KcgymTAsVC3HvbiKd8OyF",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4",
+        "artists": [
+          {
+            "id": "7LOmc7gyMVMOWF8qwEdn2X",
+            "name": "SF9",
+            "url": "https://open.spotify.com/artist/7LOmc7gyMVMOWF8qwEdn2X"
+          }
+        ],
+        "releaseDate": "2026-08-26",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 FNC ENTERTAINMENT,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 FNC ENTERTAINMENT,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "5sHBrlcEkcOYDiwkkr3TYT",
+            "name": "Without Wings",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 170000,
+            "duration": "2:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5sHBrlcEkcOYDiwkkr3TYT",
+            "isCurrent": true
+          },
+          {
+            "id": "0ASri6kpP7unK4Vve2JxKz",
+            "name": "Curtain Call",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 170000,
+            "duration": "2:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0ASri6kpP7unK4Vve2JxKz",
+            "isCurrent": false
+          },
+          {
+            "id": "58RsboPbGbnOHwqNASwATo",
+            "name": "PRESSURE",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 171000,
+            "duration": "2:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/58RsboPbGbnOHwqNASwATo",
+            "isCurrent": false
+          },
+          {
+            "id": "4WMf92rjMwKtH3e2LBXlsZ",
+            "name": "One More Kiss",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 144000,
+            "duration": "2:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4WMf92rjMwKtH3e2LBXlsZ",
+            "isCurrent": false
+          },
+          {
+            "id": "7yQwsgVu0HqZe7y7Nb3WIO",
+            "name": "Cross My Mind",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 193000,
+            "duration": "3:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7yQwsgVu0HqZe7y7Nb3WIO",
+            "isCurrent": false
+          },
+          {
+            "id": "0UgS7deMyVBVfMZH9TObeK",
+            "name": "Too Easily",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 148000,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0UgS7deMyVBVfMZH9TObeK",
+            "isCurrent": false
+          },
+          {
+            "id": "6WtC7TyfTVtskysaDPOHvW",
+            "name": "Mr. Bang Bang",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 162000,
+            "duration": "2:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6WtC7TyfTVtskysaDPOHvW",
+            "isCurrent": false
+          },
+          {
+            "id": "6dCfKNX2jc8ubhJsbw5Qyb",
+            "name": "Best Mistake",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 130000,
+            "duration": "2:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6dCfKNX2jc8ubhJsbw5Qyb",
+            "isCurrent": false
+          },
+          {
+            "id": "0TfM8DuthMxKBsbCjomWVs",
+            "name": "REAL FROM THE FAKE",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0TfM8DuthMxKBsbCjomWVs",
+            "isCurrent": false
+          },
+          {
+            "id": "2j7GQoiR0co8TrAZceyoLb",
+            "name": "Do You Want Me",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 181000,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2j7GQoiR0co8TrAZceyoLb",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-26T10:47:15.857Z",
+      "trackUrl": "https://open.spotify.com/track/5sHBrlcEkcOYDiwkkr3TYT",
+      "albumUrl": "https://open.spotify.com/album/2KcgymTAsVC3HvbiKd8OyF",
+      "artistUrl": "https://open.spotify.com/artist/7LOmc7gyMVMOWF8qwEdn2X",
+      "albumName": "TENACITY",
+      "albumType": "Album",
+      "releaseDate": "2026-08-26",
+      "duration": "2:50",
+      "isrc": "KRA382603494",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4"
+    },
+    "genius": {
+      "url": "https://genius.com/Sf9-without-wings-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=w54M18oEv8k",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "SF9 Without Wings Türkçe Çeviri",
+      "description": "SF9 – Without Wings şarkı sözleri, romanize okunuşu ve özenli Türkçe çevirisi. TENACITY albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/sf9-without-wings-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5258",
+    "title": "Dolly Parton 9 to 5 Türkçe Çeviri",
+    "song": "9 to 5",
+    "slug": "dolly-parton-9-to-5-turkce-ceviri",
+    "date": "2026-08-26T10:44:26.883Z",
+    "artist": "Dolly Parton",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Dolly Parton",
+      "9 To 5 And Odd Jobs"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "9-to-5-and-odd-jobs"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Tumble out of bed and I stumble to the kitchen",
+          "Pour myself a cup of ambition",
+          "And yawn and stretch and try to come to life",
+          "Jump in the shower and the blood starts pumpin'",
+          "Out on the street, the traffic starts jumpin'",
+          "With folks like me on the job from 9 to 5"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Yataktan yuvarlanıp mutfağa doğru sendeliyorum;",
+          "Kendime koca bir fincan \"hırs\" (kahve) dolduruyorum.",
+          "Esneyip geriniyorum, hayata dönmeye (ayılmaya) çalışıyorum...",
+          "Duşa atlıyorum ve kanım kaynamaya başlıyor;",
+          "Sokağa çıktığımda trafik çoktan kudurmuş...",
+          "Benim gibi, sabah 9 akşam 5 mesaisindeki insanlarla dolu her yer."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Workin' 9 to 5, what a way to make a livin'",
+          "Barely gettin' by, it's all takin' and no givin'",
+          "They just use your mind and they never give you credit",
+          "It's enough to drive you crazy if you let it",
+          "9 to 5, for service and devotion",
+          "You would think that I would deserve a fair promotion",
+          "Want to move ahead, but the boss won't seem to let me",
+          "I swear sometimes that man is out to get me, mm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dokuz-beş çalışmak; ne biçim bir hayat kurma yolu bu böyle?",
+          "Zar zor geçiniyoruz; hep onlar alıyor, hiç verdikleri yok.",
+          "Sadece aklını kullanıyorlar (sömürüyorlar) ve emeğinin hakkını asla vermiyorlar;",
+          "İzin verirsen, bu seni delirtmeye yeter de artar bile!",
+          "Dokuz-beş mesaisi; bunca hizmet ve sadakat için...",
+          "Adil bir terfiyi hak ettiğimi düşünürdün, değil mi?",
+          "İlerlemek istiyorum ama patron sanki izin vermeyecek;",
+          "Yemin ederim bazen o adamın bana bir \"garazı\" var!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "They let you dream just to watch 'em shatter",
+          "You're just a step on the bossman's ladder",
+          "But you've got dreams he'll never take away",
+          "In the same boat with a lot of your friends",
+          "Waitin' for the day your ship'll come in",
+          "And the tide's gonna turn an' it's all gonna roll your way"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Hayal kurmana izin verirler, sırf o hayallerin yıkılışını izlemek için;",
+          "Sen patronun o (yükselme) merdiveninde sadece bir basamaktan ibaretsin.",
+          "Ama senin öyle hayallerin var ki, asla elinden alamaz onları!",
+          "Birçok arkadaşınla aynı gemidesin sonuçta;",
+          "\"Günün birinde talih yüzümüze gülecek\" diye bekliyorsun.",
+          "Ve devran dönecek, her şey senin istediğin gibi yolunda gidecek!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Workin' 9 to 5, what a way to make a livin'",
+          "Barely gettin' by, it's all takin' and no givin'",
+          "They just use your mind and you never get the credit",
+          "It's enough to drive you crazy if you let it",
+          "9 to 5, yeah, they got you where they want you",
+          "There's a better life and you think about it, don't you?",
+          "It's a rich man's game no matter what they call it",
+          "And you spend your life puttin' money in his wallet"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dokuz-beş çalışmak; ne biçim bir hayat kurma yolu bu böyle?",
+          "Zar zor geçiniyoruz; hep onlar alıyor, hiç verdikleri yok.",
+          "Sadece aklını kullanıyorlar ve emeğinin hakkını asla vermiyorlar;",
+          "İzin verirsen, bu seni delirtmeye yeter de artar bile!",
+          "Dokuz-beş mesaisi; evet, seni tam da istedikleri kıvama getirdiler!",
+          "Daha iyi bir hayat var ve sen de bunu düşünüyorsun, değil mi?",
+          "Adına ne derlerse desinler, bu bir \"zengin adamın oyunu\";",
+          "Ve sen ömrünü onun cüzdanına para koymakla (onu zengin etmekle) harcıyorsun!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus / Outro",
+        "lines": [
+          "9 to 5, what a way to make a livin'",
+          "Barely gettin' by, it's all takin' and no givin'",
+          "They just use your mind and they never give you credit",
+          "It's enough to drive you crazy if you let it",
+          "9 to 5, yeah, they got you where they want you",
+          "There's a better life and you think about it, don't you?",
+          "It's a rich man's game no matter what they call it",
+          "And you spend your life puttin' money in his wallet",
+          "9 to 5—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Dokuz-beş mesaisi; ne biçim bir hayat yolu...",
+          "Zar zor geçiniyoruz; hep sömürü, hiç karşılık yok.",
+          "Dokuz-beş çalışmak...",
+          "Seni istedikleri yere hapsettiler;",
+          "Daha iyi bir hayat hayaliyle yaşıyorsun, değil mi?",
+          "Bu bir zengin adamın oyunu...",
+          "Ömrünü onun cüzdanını doldurmakla geçiriyorsun!",
+          "Sabah 9, akşam 5..."
+        ]
+      }
+    ],
+    "excerpt": "Tumble out of bed and I stumble to the kitchen",
+    "annotations": {
+      "koca bir fincan \"hırs": "Kahve yerine \"hırs\" kelimesini kullanması, işçinin o güne başlamak için duyduğu zorunlu motivasyonu anlatır. Türkçede de bu ironiyi koruduk.",
+      "garazı": "Birinin sürekli size zorluk çıkarması, size takık olması anlamındaki bu deyimi Türkçedeki en harbi karşılığı olan \"garazı olmak\" ile verdik.",
+      "aynı gemidesin": "Aynı zorlukları paylaşan insanlar için kullanılan bu evrensel deyimi, dayanışma ruhunu yansıtacak şekilde bıraktık.",
+      "talih yüzümüze gülecek": "İngilizcedeki \"Gemi limana gelecek\" (büyük bir fırsat yakalamak) deyimini, Türkçedeki \"Talih yüzüne gülmek\" veya \"Şansın dönmesi\" anlamıyla yerelleştirdik."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4w3tQBXhn5345eUXDGBWZG",
+        "name": "9 to 5",
+        "url": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+        "isrc": "USRN19400384",
+        "durationMs": 166749,
+        "duration": "2:47",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "32vWCbZh0xZ4o9gkz4PsEU",
+        "name": "Dolly Parton",
+        "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "32vWCbZh0xZ4o9gkz4PsEU",
+          "name": "Dolly Parton",
+          "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+        }
+      ],
+      "album": {
+        "id": "64Ky1tqKPfwxhJs6msphWd",
+        "name": "9 To 5 And Odd Jobs",
+        "url": "https://open.spotify.com/album/64Ky1tqKPfwxhJs6msphWd",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+        "artists": [
+          {
+            "id": "32vWCbZh0xZ4o9gkz4PsEU",
+            "name": "Dolly Parton",
+            "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+          }
+        ],
+        "releaseDate": "1980-11-17",
+        "releaseDatePrecision": "year",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 1980 Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "4w3tQBXhn5345eUXDGBWZG",
+            "name": "9 to 5",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 166749,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+            "isCurrent": true
+          },
+          {
+            "id": "2A5OYs01OjAhVkNhqlNYtK",
+            "name": "Hush-A-Bye Hard Times",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 230362,
+            "duration": "3:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2A5OYs01OjAhVkNhqlNYtK",
+            "isCurrent": false
+          },
+          {
+            "id": "6lyzUrhvbZIl8JU2iRKquL",
+            "name": "The House of the Rising Sun",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 243493,
+            "duration": "4:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6lyzUrhvbZIl8JU2iRKquL",
+            "isCurrent": false
+          },
+          {
+            "id": "3TSkQvUD9xyu5jims52uVM",
+            "name": "Deportee (Plane Wreck at Los Gatos)",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 283158,
+            "duration": "4:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3TSkQvUD9xyu5jims52uVM",
+            "isCurrent": false
+          },
+          {
+            "id": "2AsHiGqXY278Ok49uIg9Ai",
+            "name": "Sing for the Common Man",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 228031,
+            "duration": "3:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2AsHiGqXY278Ok49uIg9Ai",
+            "isCurrent": false
+          },
+          {
+            "id": "5PQOIflzV81tWs1vU398cl",
+            "name": "Working Girl",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 201036,
+            "duration": "3:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5PQOIflzV81tWs1vU398cl",
+            "isCurrent": false
+          },
+          {
+            "id": "3kItFKUqNYj6MfdnjDlHDS",
+            "name": "Detroit City",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 218828,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3kItFKUqNYj6MfdnjDlHDS",
+            "isCurrent": false
+          },
+          {
+            "id": "5DnMZlZpDSQxoYhW9e7XFu",
+            "name": "But You Know I Love You",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 199872,
+            "duration": "3:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DnMZlZpDSQxoYhW9e7XFu",
+            "isCurrent": false
+          },
+          {
+            "id": "2cfbYUJdrSPphSSHTIKJ2e",
+            "name": "Dark as a Dungeon",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 208619,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2cfbYUJdrSPphSSHTIKJ2e",
+            "isCurrent": false
+          },
+          {
+            "id": "4NO5uGNR5P0BFmTME6bXim",
+            "name": "Poor Folks Town",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 176860,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4NO5uGNR5P0BFmTME6bXim",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-26T10:47:15.564Z",
+      "trackUrl": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+      "albumUrl": "https://open.spotify.com/album/64Ky1tqKPfwxhJs6msphWd",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "9 To 5 And Odd Jobs",
+      "albumType": "Album",
+      "releaseDate": "1980-11-17",
+      "duration": "2:47",
+      "isrc": "USRN19400384",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e"
+    },
+    "genius": {
+      "url": "https://genius.com/Dolly-parton-9-to-5-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=UbxUSsFXYo4",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/song/273166378",
+    "seo": {
+      "title": "Dolly Parton 9 to 5 Türkçe Çeviri",
+      "description": "Dolly Parton – 9 to 5 şarkı sözleri ve özenli Türkçe çevirisi. 9 To 5 And Odd Jobs albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/dolly-parton-9-to-5-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5257",
+    "title": "Dolly Parton Jolene Türkçe Çeviri",
+    "song": "Jolene",
+    "slug": "dolly-parton-jolene-turkce-ceviri",
+    "date": "2026-08-26T10:44:26.882Z",
+    "artist": "Dolly Parton",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Dolly Parton",
+      "Jolene"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "jolene"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene",
+          "I'm beggin' of you, please don't take my man",
+          "Jolene, Jolene, Jolene, Jolene",
+          "Please don't take him just because you can"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Sana yalvarıyorum; lütfen adamımı elimden alma.",
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Lütfen sırf bunu yapabiliyorsun (gücün yetiyor) diye onu benden çalma."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Your beauty is beyond compare",
+          "With flaming locks of auburn hair",
+          "With ivory skin and eyes of emerald green",
+          "Your smile is like a breath of spring",
+          "Your voice is soft like summer rain",
+          "And I cannot compete with you, Jolene"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Güzelliğin kıyas kabul etmez, bambaşka;",
+          "Kızıl saçların sanki alev alev...",
+          "Fildişi gibi bir tenin ve zümrüt yeşili gözlerin var.",
+          "Gülüşün bahar esintisi gibi taze;",
+          "Sesin ise bir yaz yağmuru kadar yumuşak...",
+          "Ve ben seninle boy ölçüşemem, Jolene."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "He talks about you in his sleep",
+          "And there's nothin' I can do to keep",
+          "From cryin' when he calls your name, Jolene",
+          "And I can easily understand",
+          "How you could easily take my man",
+          "But you don't know what he means to me, Jolene"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Uykusunda bile senden bahsediyor;",
+          "Ve o senin adını sayıkladığında,",
+          "Ağlamaktan kendimi alamıyorum, Jolene.",
+          "Biliyorum, bunu anlamak hiç de zor değil;",
+          "Onu benden nasıl bu kadar kolayca alabileceğini görüyorum...",
+          "Ama onun benim için ne anlam ifade ettiğini hiç bilmiyorsun, Jolene."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene",
+          "I'm beggin' of you, please don't take my man",
+          "Jolene, Jolene, Jolene, Jolene",
+          "Please don't take him just because you can"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Sana yalvarıyorum; lütfen adamımı elimden alma.",
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Lütfen sırf bunu yapabiliyorsun diye onu benden çalma."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "You could have your choice of men",
+          "But I could never love again",
+          "He's the only one for me, Jolene",
+          "I had to have this talk with you",
+          "My happiness depends on you",
+          "And whatever you decide to do, Jolene"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "İstediğin adamı seçebilirsin, seçeneklerin sonsuz;",
+          "Ama ben bir daha asla böyle sevemem.",
+          "Benim için o tek ve biricik, Jolene.",
+          "Seninle bu konuşmayı yapmam gerekiyordu;",
+          "Çünkü benim mutluluğum tamamen sana bağlı;",
+          "Ve senin ne yapmaya karar vereceğine, Jolene..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene",
+          "I'm beggin' of you, please don't take my man",
+          "Jolene, Jolene, Jolene, Jolene",
+          "Please don't take him even though you can"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Sana yalvarıyorum; lütfen adamımı elimden alma.",
+          "Jolene, Jolene, Jolene, Jolene...",
+          "Lütfen sırf bunu yapabiliyorsun diye onu benden çalma; (Biliyorum yaparsın ama) yapma..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Jolene, Jolene"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Jolene, Jolene..."
+        ]
+      }
+    ],
+    "excerpt": "Jolene, Jolene, Jolene, Jolene",
+    "annotations": {
+      "kıyas kabul etmez": "Bir güzelliğin dünyadaki hiçbir şeyle karşılaştırılamayacak kadar eşsiz olduğunu anlatan en ağırbaşlı ifadedir.",
+      "sırf bunu yapabiliyorsun diye": "Şarkının en can alıcı noktası. Şarkıcı burada Jolene'in bu aşkı çalmak için özel bir çabaya ihtiyacı olmadığını, sadece varlığının bile kocasını elinden almaya yeteceğini acıyla kabul ediyor.",
+      "seninle boy ölçüşemem": "Yarışmak veya rekabet etmek yerine, Türkçedeki o \"gücü yetmemek\" ve \"denk olmamak\" anlamını veren \"boy ölçüşememek\" deyimini tercih ettik.",
+      "bahar esintisi": "Jolene'in güzelliği yıkıcı bir güç olmasına rağmen, şarkıcı onu en taze ve huzurlu doğa olaylarıyla betimliyor. Bu, kıskanılan kişiye duyulan o garip saygıyı yansıtır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2SpEHTbUuebeLkgs9QB7Ue",
+        "name": "Jolene",
+        "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+        "isrc": "USRN19600096",
+        "durationMs": 163275,
+        "duration": "2:43",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "32vWCbZh0xZ4o9gkz4PsEU",
+        "name": "Dolly Parton",
+        "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "32vWCbZh0xZ4o9gkz4PsEU",
+          "name": "Dolly Parton",
+          "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+        }
+      ],
+      "album": {
+        "id": "5DyOxuvdSmTSNAmkfcsBsj",
+        "name": "Jolene",
+        "url": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+        "artists": [
+          {
+            "id": "32vWCbZh0xZ4o9gkz4PsEU",
+            "name": "Dolly Parton",
+            "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+          }
+        ],
+        "releaseDate": "1973-10-15",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 1974 Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "2SpEHTbUuebeLkgs9QB7Ue",
+            "name": "Jolene",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 163275,
+            "duration": "2:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+            "isCurrent": true
+          },
+          {
+            "id": "6BFxfy7nDu9jzLq5qJKT0j",
+            "name": "When Someone Wants to Leave",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 127015,
+            "duration": "2:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6BFxfy7nDu9jzLq5qJKT0j",
+            "isCurrent": false
+          },
+          {
+            "id": "6xUx9zbReQRiskjcAGlQlw",
+            "name": "River of Happiness",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140304,
+            "duration": "2:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6xUx9zbReQRiskjcAGlQlw",
+            "isCurrent": false
+          },
+          {
+            "id": "3CkJeQjxbYJsLN2MLAvluL",
+            "name": "Early Morning Breeze",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 167480,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3CkJeQjxbYJsLN2MLAvluL",
+            "isCurrent": false
+          },
+          {
+            "id": "38XfMra7gVoBULRngSRWTN",
+            "name": "Highlight of My Life",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 139377,
+            "duration": "2:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/38XfMra7gVoBULRngSRWTN",
+            "isCurrent": false
+          },
+          {
+            "id": "6nRvgo4ySezQKD1D7NIqAu",
+            "name": "I Will Always Love You",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 177404,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+            "isCurrent": false
+          },
+          {
+            "id": "5Z5SHnV6a4UyE7e7DcTrhP",
+            "name": "Randy",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 113154,
+            "duration": "1:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5Z5SHnV6a4UyE7e7DcTrhP",
+            "isCurrent": false
+          },
+          {
+            "id": "3Ad4Vd2MLBBpApduPsydXk",
+            "name": "Living On Memories of You",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 167787,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3Ad4Vd2MLBBpApduPsydXk",
+            "isCurrent": false
+          },
+          {
+            "id": "5nEuQTJ1d6iQhdn3e0jX16",
+            "name": "Lonely Comin' Down",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 194012,
+            "duration": "3:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5nEuQTJ1d6iQhdn3e0jX16",
+            "isCurrent": false
+          },
+          {
+            "id": "4h302bPIcNoJhlBuYwyYV7",
+            "name": "It Must Be You",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 110598,
+            "duration": "1:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4h302bPIcNoJhlBuYwyYV7",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-26T10:47:15.310Z",
+      "trackUrl": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+      "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Jolene",
+      "albumType": "Album",
+      "releaseDate": "1973-10-15",
+      "duration": "2:43",
+      "isrc": "USRN19600096",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16"
+    },
+    "genius": {
+      "url": "https://genius.com/Dolly-parton-jolene-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ixrje2rXLMA",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/song/216345135",
+    "seo": {
+      "title": "Dolly Parton Jolene Türkçe Çeviri",
+      "description": "Dolly Parton – Jolene şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/dolly-parton-jolene-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5256",
     "title": "Imagine Dragons Thunder Türkçe Çeviri",
     "song": "Thunder",

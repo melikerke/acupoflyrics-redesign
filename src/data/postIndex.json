@@ -1,5 +1,162 @@
 [
   {
+    "id": "5259",
+    "slug": "sf9-without-wings-turkce-ceviri",
+    "title": "SF9 Without Wings Türkçe Çeviri",
+    "song": "Without Wings",
+    "artist": "SF9",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4",
+    "date": "2026-08-26T10:44:26.883Z",
+    "reading_time": 2,
+    "excerpt": "Day and night",
+    "categories": [
+      "SF9",
+      "TENACITY"
+    ],
+    "category_slugs": [
+      "sf9",
+      "tenacity"
+    ],
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5sHBrlcEkcOYDiwkkr3TYT",
+      "albumUrl": "https://open.spotify.com/album/2KcgymTAsVC3HvbiKd8OyF",
+      "artistUrl": "https://open.spotify.com/artist/7LOmc7gyMVMOWF8qwEdn2X",
+      "albumName": "TENACITY",
+      "releaseDate": "2026-08-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f275893fe11d76fda697eff4",
+      "duration": "2:50",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "SF9",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960",
+      "artistGenres": [],
+      "albumArtist": "SF9"
+    },
+    "moods": [
+      "Motivation",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Day and night",
+      "tr": "Gece gündüz,"
+    },
+    "heroPair": {
+      "en": "Without wings",
+      "tr": "Kanatlarım olmasa da!"
+    }
+  },
+  {
+    "id": "5258",
+    "slug": "dolly-parton-9-to-5-turkce-ceviri",
+    "title": "Dolly Parton 9 to 5 Türkçe Çeviri",
+    "song": "9 to 5",
+    "artist": "Dolly Parton",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+    "date": "2026-08-26T10:44:26.883Z",
+    "reading_time": 3,
+    "excerpt": "Tumble out of bed and I stumble to the kitchen",
+    "categories": [
+      "Dolly Parton",
+      "9 To 5 And Odd Jobs"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "9-to-5-and-odd-jobs"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+      "albumUrl": "https://open.spotify.com/album/64Ky1tqKPfwxhJs6msphWd",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "9 To 5 And Odd Jobs",
+      "releaseDate": "1980-11-17",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349cb2d53994caada391cf39e",
+      "duration": "2:47",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "Dolly Parton",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "artistGenres": [],
+      "albumArtist": "Dolly Parton"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Tumble out of bed and I stumble to the kitchen",
+      "tr": "Yataktan yuvarlanıp mutfağa doğru sendeliyorum;"
+    },
+    "heroPair": {
+      "en": "With folks like me on the job from 9 to 5",
+      "tr": "Benim gibi, sabah 9 akşam 5 mesaisindeki insanlarla dolu her yer."
+    }
+  },
+  {
+    "id": "5257",
+    "slug": "dolly-parton-jolene-turkce-ceviri",
+    "title": "Dolly Parton Jolene Türkçe Çeviri",
+    "song": "Jolene",
+    "artist": "Dolly Parton",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "date": "2026-08-26T10:44:26.882Z",
+    "reading_time": 2,
+    "excerpt": "Jolene, Jolene, Jolene, Jolene",
+    "categories": [
+      "Dolly Parton",
+      "Jolene"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "jolene"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+      "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Jolene",
+      "releaseDate": "1973-10-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+      "duration": "2:43",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "Dolly Parton",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "artistGenres": [],
+      "albumArtist": "Dolly Parton"
+    },
+    "moods": [
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "Jolene, Jolene, Jolene, Jolene",
+      "tr": "Jolene, Jolene, Jolene, Jolene..."
+    },
+    "heroPair": {
+      "en": "Jolene, Jolene, Jolene, Jolene",
+      "tr": "Jolene, Jolene, Jolene, Jolene..."
+    }
+  },
+  {
     "id": "5256",
     "slug": "imagine-dragons-thunder-turkce-ceviri",
     "title": "Imagine Dragons Thunder Türkçe Çeviri",
