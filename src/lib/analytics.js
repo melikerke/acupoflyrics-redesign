@@ -82,10 +82,10 @@ export function setAnalyticsConsent(granted) {
   });
 
   if (granted) {
-    // Analytics is deliberately kept out of the critical rendering path.
-    // The queued consent/page-view events are delivered once GTM is ready.
+    // Consent updates must reach GTM immediately. The route-level page_view
+    // has already been queued by App, so sending it again here would double
+    // count the first visit of every person who accepts the banner.
     window.aclLoadAnalytics?.();
-    trackPageView(`${window.location.pathname}${window.location.search}`);
     trackEvent("consent_update", { analytics_consent: "granted" });
   }
 }

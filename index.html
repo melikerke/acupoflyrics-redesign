@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://i.scdn.co" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-    <!-- Google Consent Mode v2 + Google Tag Manager -->
+    <!-- Google Consent Mode v2 (advanced) + Google Tag Manager -->
     <script>
       window.dataLayer = window.dataLayer || [];
       window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -43,19 +43,18 @@
           firstScript.parentNode.insertBefore(tag, firstScript);
         };
 
-        var storedConsent = null;
-        try { storedConsent = window.localStorage.getItem("acl_analytics_consent_v1"); } catch (_) {}
-        if (storedConsent === "granted") {
-          var scheduleAnalytics = function () {
-            if ("requestIdleCallback" in window) {
-              window.requestIdleCallback(window.aclLoadAnalytics, { timeout: 3500 });
-            } else {
-              window.setTimeout(window.aclLoadAnalytics, 1800);
-            }
-          };
-          if (document.readyState === "complete") scheduleAnalytics();
-          else window.addEventListener("load", scheduleAnalytics, { once: true });
-        }
+        // Load GTM for every visit after consent defaults are established.
+        // With analytics_storage denied, Google tags operate without cookies;
+        // granting consent later upgrades subsequent events to full measurement.
+        var scheduleAnalytics = function () {
+          if ("requestIdleCallback" in window) {
+            window.requestIdleCallback(window.aclLoadAnalytics, { timeout: 3500 });
+          } else {
+            window.setTimeout(window.aclLoadAnalytics, 1800);
+          }
+        };
+        if (document.readyState === "complete") scheduleAnalytics();
+        else window.addEventListener("load", scheduleAnalytics, { once: true });
       })();
     </script>
     <!-- End Google Tag Manager -->
