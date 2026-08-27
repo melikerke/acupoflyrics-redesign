@@ -2078,7 +2078,7 @@
   {
     "slug": "post-malone",
     "name": "Post Malone",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0"
   },
   {
@@ -2114,7 +2114,7 @@
   {
     "slug": "dolly-parton",
     "name": "Dolly Parton",
-    "count": 2,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a"
   },
   {
@@ -2122,5 +2122,17 @@
     "name": "SF9",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960"
+  },
+  {
+    "slug": "tulus",
+    "name": "Tulus",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe2569eea1e32fe495d52c9a3"
+  },
+  {
+    "slug": "kenny-rogers",
+    "name": "Kenny Rogers",
+    "count": 1,
+    "image": null
   }
 ]

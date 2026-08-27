@@ -35,6 +35,8 @@ const THUNDER_INPUT = path.join(process.cwd(), "scripts/aiStudioThunder.raw.json
 const THUNDER_REPORT = "/tmp/acupoflyrics-ai-studio-thunder-report.json";
 const AUG26_INPUT = path.join(process.cwd(), "scripts/aiStudioAug26.raw.json");
 const AUG26_REPORT = "/tmp/acupoflyrics-ai-studio-aug26-report.json";
+const AUG27_INPUT = path.join(process.cwd(), "scripts/aiStudioAug27.raw.json");
+const AUG27_REPORT = "/tmp/acupoflyrics-ai-studio-aug27-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1172,6 +1174,92 @@ const TRACKS = [
     annotationKeyHints: ["harbi bir \"hiçim\""],
   },
   {
+    batch: "aug27",
+    sourceKey: "hollywoodDreamsComeDown",
+    label: "Post Malone — Hollywood Dreams / Come Down",
+    artist: "Post Malone",
+    title: "Hollywood Dreams / Come Down",
+    slug: "post-malone-hollywood-dreams-come-down-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/2AWeWGtArpcK4ZTpPnXGfR",
+    youtubeUrl: "https://www.youtube.com/watch?v=8Yxn4RCZrGo",
+    geniusUrl: "https://genius.com/Post-malone-hollywood-dreams-come-down-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/august-26/6799168319",
+    releaseDate: "2026-08-26",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    // AI Studio iki bölüm arasındaki yalnızca "Go" vokallerinden oluşan
+    // interlude'u çevirmedi. Kaynağı silmeden ve yeni hedef metin üretmeden
+    // çeviri bloğunu boş bırak.
+    translationMap: [0, 1, 2, 3, 4, 5, null, 6, 7, 8, 9],
+    allowMissingTranslations: true,
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["Rodeo Drive", "Fleetwood", "Iverson"],
+  },
+  {
+    batch: "aug27",
+    sourceKey: "tehHijau",
+    label: "TULUS — Teh Hijau",
+    artist: "TULUS",
+    title: "Teh Hijau",
+    slug: "tulus-teh-hijau-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/4R9G7azXaZe93KTX65P9fU",
+    youtubeUrl: "https://www.youtube.com/watch?v=zyLmavBAY7k",
+    geniusUrl: "https://genius.com/Tulus-teh-hijau-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/teh-hijau-single/6784585100",
+    releaseDate: "2026-06-30",
+    languages: { original: "id", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["kurumuş ruhum yeniden yeşerecek"],
+  },
+  {
+    batch: "aug27",
+    sourceKey: "islandsInTheStream",
+    label: "Dolly Parton & Kenny Rogers — Islands in the Stream",
+    artist: "Dolly Parton",
+    artistDisplay: "Dolly Parton & Kenny Rogers",
+    title: "Islands in the Stream",
+    slug: "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+    youtubeUrl: "https://www.youtube.com/watch?v=UaNGtgYwSsU",
+    geniusUrl: "https://genius.com/Kenny-rogers-and-dolly-parton-islands-in-the-stream-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/song/282883594",
+    releaseDate: "1983-07-01",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["didik didik aradım", "Akıntının ortasındaki adalar"],
+  },
+  {
+    batch: "aug27",
+    sourceKey: "iWillAlwaysLoveYou",
+    label: "Dolly Parton — I Will Always Love You",
+    artist: "Dolly Parton",
+    title: "I Will Always Love You",
+    slug: "dolly-parton-i-will-always-love-you-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+    youtubeUrl: "https://www.youtube.com/watch?v=lKsQR72HY0s",
+    geniusUrl: "https://genius.com/Dolly-parton-i-will-always-love-you-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/song/1062400635",
+    releaseDate: "1974-02-04",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["Acı-tatlı hatıralar", "sana \"sevilmeyi\" diliyorum"],
+  },
+  {
+    batch: "aug27",
+    sourceKey: "coatOfManyColors",
+    label: "Dolly Parton — Coat of Many Colors",
+    artist: "Dolly Parton",
+    title: "Coat of Many Colors",
+    slug: "dolly-parton-coat-of-many-colors-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+    youtubeUrl: "https://www.youtube.com/watch?v=KFbYFHaigSk",
+    geniusUrl: "https://genius.com/Dolly-parton-coat-of-many-colors-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/coat-of-many-colors/217532812",
+    releaseDate: "1971-10-01",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["Hz. Yusuf'un giydiği o rengarenk rida"],
+  },
+  {
     batch: "thunder",
     sourceKey: "thunder",
     label: "Imagine Dragons — Thunder",
@@ -1519,11 +1607,14 @@ const ENGLISH_GLOSS_PARENTHETICALS = new Set([
   "adicto",
   "desperate measures",
   "editing point",
+  "fine tooth comb",
   "for keeps",
   "fucked up royally",
   "go hard",
   "going mia",
   "greed",
+  "high",
+  "hold down",
   "i got it bad for you",
   "ideals",
   "kite",
@@ -1748,7 +1839,7 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
   const translatedStanzas = parseStanzas(translatedBody);
   const translationMap = track.translationMap || originalStanzas.map((_, index) => index);
   const missingMappedStanza = translationMap.some((index) => (
-    index == null ? !preserveMissing : !translatedStanzas[index]
+    index == null ? !(preserveMissing || track.allowMissingTranslations) : !translatedStanzas[index]
   ));
   if (!originalStanzas.length || translationMap.length !== originalStanzas.length || missingMappedStanza) {
     throw new Error(`${track.label}: kıta sayıları eşleşmiyor (${originalStanzas.length}/${translatedStanzas.length}).`);
@@ -1946,10 +2037,11 @@ async function main() {
   const btbtBatch = process.argv.includes("--btbt");
   const thunderBatch = process.argv.includes("--thunder");
   const aug26Batch = process.argv.includes("--aug26");
-  const inputPath = aug26Batch ? AUG26_INPUT : thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = aug26Batch ? AUG26_REPORT : thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug27Batch = process.argv.includes("--aug27");
+  const inputPath = aug27Batch ? AUG27_INPUT : aug26Batch ? AUG26_INPUT : thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug27Batch ? AUG27_REPORT : aug26Batch ? AUG26_REPORT : thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    aug26Batch ? track.batch === "aug26" : thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug27Batch ? track.batch === "aug27" : aug26Batch ? track.batch === "aug26" : thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
   if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));

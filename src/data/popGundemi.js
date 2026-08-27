@@ -1,11 +1,115 @@
 export const popGundemiArticles = [
   {
+    slug: "27-agustos-2026-muzik-gundemi",
+    title: "27 Ağustos müzik gündemi: Post Malone — August 26 ilk kez resmî platformlarda",
+    shortTitle: "27 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-27",
+    updatedAt: "2026-08-27T11:00:00+03:00",
+    readTime: "6 dk",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/d6/de/99d6de9d-47b6-89cb-f98b-20005bff0765/26UM1IM02378.rgb.jpg/1200x630wp-60.jpg",
+    imageAlt: "Post Malone — August 26 mixtape'inin resmî kapak görseli",
+    imageCredit: "Post Malone · Mercury Records / Republic Records",
+    imageSource: "https://music.apple.com/us/album/august-26/6799168319",
+    accent: "#4f5f75",
+    excerpt:
+      "Post Malone — August 26, onuncu yıl remaster'ıyla ilk kez tüm resmî dijital platformlarda yayımlandı. Güncel Spotify ve Apple Music ölçümlerinde TULUS — Teh Hijau, eńau feat. Ari Lesmana — Sesi Potret ve Dolly Parton kataloğu öne çıktı.",
+    dek:
+      "Yeni katalog yayını, birbirinden ayrı günlük platform ölçümleri ve öğle saatinde yayımlanması planlanan TNX — Die Another Day, 27 Ağustos sabah dosyasında kaynak tarihleri karıştırılmadan toplandı.",
+    pullQuote:
+      "Spotify Global 25 Ağustos günlüğü ile Apple Music Top 100: Global'in 27 Ağustos görünümü aynı ölçüm değil; sıralamalar ayrı dönemleri temsil ediyor.",
+    relatedTranslations: [
+      "post-malone-swae-lee-sunflower-turkce-ceviri",
+      "post-malone-hollywood-dreams-come-down-turkce-ceviri",
+      "tulus-teh-hijau-turkce-ceviri",
+      "dolly-parton-jolene-turkce-ceviri",
+      "dolly-parton-9-to-5-turkce-ceviri",
+      "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+      "dolly-parton-i-will-always-love-you-turkce-ceviri",
+      "dolly-parton-coat-of-many-colors-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "27 Ağustos 2026 sabah kesimi",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Resmî katalog yayını", text: "Post Malone — August 26, onuncu yıl için yeniden master edilerek ilk kez tüm dijital platformlarda ve plak formatında resmen yayımlandı." },
+        { label: "Spotify Global", text: "TULUS — Teh Hijau 15 basamak yükselerek 27 numaraya; eńau feat. Ari Lesmana — Sesi Potret 11 basamak yükselerek 37 numaraya çıktı." },
+        { label: "Apple Music Global", text: "Dolly Parton — Jolene 1, Dolly Parton — 9 to 5 ise 2 numarada; Dolly Parton & Kenny Rogers — Islands in the Stream 3 numarada." },
+        { label: "Henüz yayımlanmadı", text: "TNX — Die Another Day için 27 Ağustos 18.00 KST yayın saati doğrulandı; sabah kesiminde platform yayını başlamamıştı." },
+      ],
+    },
+    summary: [
+      "Universal Music'in 26 Ağustos tarihli duyurusuna göre Post Malone — August 26, 2016'daki ilk paylaşımından on yıl sonra yeniden master edilerek ilk kez tüm resmî dijital platformlara ve plağa geldi. Post Malone — Hollywood Dreams / Come Down çevirisi arşive eklendi.",
+      "Spotify Global'ın 25 Ağustos günlüğünde TULUS — Teh Hijau 42 numaradan 27 numaraya yükseldi ve yaklaşık 2,28 milyon günlük dinlenme kaydetti. eńau feat. Ari Lesmana — Sesi Potret 48 numaradan 37 numaraya çıkarak yaklaşık 2,06 milyon dinlenmeye ulaştı.",
+      "KAROL G, Judeline & rusowsky — BbY WOW aynı Spotify günlüğünde 12 numaradan 7 numaraya yükselerek yeni zirve gördü. Önceki raporda yer alan kayıt, yalnız bu belirgin yeni sıçrama nedeniyle yeniden değerlendirildi.",
+      "Apple Music Top 100: Global'in 27 Ağustos tarihli resmî görünümünde Dolly Parton — Jolene 1, Dolly Parton — 9 to 5 2, Dolly Parton & Kenny Rogers — Islands in the Stream 3 ve Dolly Parton — I Will Always Love You 5 numarada. Bu görünüm Spotify'ın 25 Ağustos günlüğüyle birleştirilmedi.",
+      "P NATION'ın resmî program duyurusu TNX — Die Another Day için 27 Ağustos 18.00 KST yayın planını doğruluyor. Sabah taraması bu saatten önce tamamlandığı için parça yayımlanmış aday olarak gösterilmedi.",
+    ],
+    sections: [
+      {
+        heading: "Post Malone — August 26 ilk kez resmî platformlarda",
+        body: [
+          "Mercury Records ve Republic Records kaynaklı 26 Ağustos duyurusuna göre Post Malone — August 26, onuncu yıl için yeniden master edildi ve ilk kez tüm dijital platformlarda resmen yayımlandı. Proje aynı zamanda ilk kez standart plak ve sınırlı resimli plak olarak satışa çıktı.",
+          "Post Malone — August 26 ilk olarak Mayıs 2016'da mixtape olarak paylaşılmıştı. Yeni resmî katalog kaydı on parçadan oluşuyor; yayın tarihi 26 Ağustos 2026, özgün olay tarihi ise Mayıs 2016 olarak ayrı tutuldu.",
+          "Albümdeki parçalar için henüz anlamlı global liste verisi oluşmadı. Yeni resmî erişim nedeniyle öne çıkan Post Malone — Hollywood Dreams / Come Down çevirisi arşive eklendi; seçim ölçülmüş bir viral sıçrama iddiası taşımıyor.",
+        ],
+      },
+      {
+        heading: "Spotify Global'da üç belirgin yükseliş",
+        body: [
+          "Spotify Global'ın 25 Ağustos günlüğünde TULUS — Teh Hijau 15 basamak yükselerek 27 numaraya çıktı; günlük dinlenmesi yaklaşık 394 bin artarak 2,28 milyona ulaştı. Çeviri arşive eklendi; Endonezce sözler Latin alfabeyle yayımlandığı için romanizasyon gerekmedi.",
+          "eńau feat. Ari Lesmana — Sesi Potret 11 basamaklık yükselişle 37 numaraya ve 2,06 milyon günlük dinlenmeye ulaştı. Endonezya haftalık Spotify görünümünde de 1 numarada olan kayıt, bugün ilk kez global aday listesine alındı.",
+          "KAROL G, Judeline & rusowsky — BbY WOW 12 numaradan 7 numaraya yükseldi; yaklaşık 3,02 milyon günlük dinlenme ve haftalık 904 bin artış kaydetti. Önceki rapordaki adayın tekrarlanma nedeni bu yeni zirve ve belirgin günlük artış.",
+        ],
+      },
+      {
+        heading: "Dolly Parton kataloğu Apple Music Global'in ilk sıralarında",
+        body: [
+          "Apple Music Top 100: Global'in kendi 27 Ağustos tarihli görünümünde Dolly Parton — Jolene 1 ve Dolly Parton — 9 to 5 2 numarada. İki Türkçe çeviri de arşivde bulunduğu için yeni çeviri adayı olarak yeniden listelenmedi.",
+          "Dolly Parton & Kenny Rogers — Islands in the Stream 3, Dolly Parton — I Will Always Love You 5 ve Dolly Parton — Coat of Many Colors 9 numarada. Üç kaydın çevirisi de güncel katalog dönüşünün ardından arşive eklendi.",
+          "Apple Music görünümünün tarih ve sıralaması, Billboard Hot 100'ün 29 Ağustos haftası veya Spotify Global'ın 25 Ağustos günlüğü gibi sunulmadı; her listenin ölçüm dönemi ayrı tutuldu.",
+        ],
+      },
+      {
+        heading: "TNX — Die Another Day öğle saatinde bekleniyor",
+        body: [
+          "P NATION'ın Weverse duyurusu, TNX — Die Another Day için 27 Ağustos 18.00 KST yayın planını ve aynı günkü müzik programı faaliyetlerini doğruluyor. Türkiye saatiyle yayın öğlen gerçekleşeceği için sabah kesiminde platform kaydı henüz oluşmamıştı.",
+          "TNX — Die Another Day yayımlandıktan sonra Spotify, Melon veya resmî müzik videosu kaydı doğrulanmadan çeviri adayı statüsü verilmeyecek. Korece sözler içerirse Latin alfabeli romanizasyon gerekecek.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Post Malone — Hollywood Dreams / Come Down", status: "Çeviri arşivde", detail: "Post Malone — August 26 ile ilk kez resmî platformlarda; AI Studio çevirisi eklendi." },
+      { name: "TULUS — Teh Hijau", status: "Çeviri arşivde", detail: "Spotify Global'da 15 basamak yükselerek 27 numaraya çıktı; AI Studio çevirisi eklendi." },
+      { name: "eńau feat. Ari Lesmana — Sesi Potret", status: "Yüksek öncelik", detail: "Spotify Global'da 11 basamak yükseldi; arşivde yok, romanizasyon gerekmiyor." },
+      { name: "KAROL G, Judeline & rusowsky — BbY WOW", status: "Çok yüksek öncelik", detail: "Spotify Global'da 7 numarayla yeni zirve; arşivde yok." },
+      { name: "Dolly Parton & Kenny Rogers — Islands in the Stream", status: "Çeviri arşivde", detail: "Apple Music Top 100: Global'de 3 numara; AI Studio çevirisi eklendi." },
+      { name: "Dolly Parton — I Will Always Love You", status: "Çeviri arşivde", detail: "Apple Music Top 100: Global'de 5 numara; AI Studio çevirisi eklendi." },
+      { name: "Dolly Parton — Coat of Many Colors", status: "Çeviri arşivde", detail: "Apple Music Top 100: Global'de 9 numara; AI Studio çevirisi eklendi." },
+      { name: "TNX — Die Another Day", status: "Yayın bekleniyor", detail: "18.00 KST yayın saati doğrulandı; sabah kesiminde henüz platformlarda değildi." },
+    ],
+    sources: [
+      { name: "Universal Music — Post Malone — August 26 resmî yayın duyurusu", url: "https://www.universalmusic.ca/2026/08/26/post-malone-celebrates-10th-anniversary-of-august-26th-mixtape/" },
+      { name: "Post Malone — August 26 resmî yayın sayfası", url: "https://posty.lnk.to/august26" },
+      { name: "Apple Music — Post Malone — August 26", url: "https://music.apple.com/us/album/august-26/6799168319" },
+      { name: "Spotify Global — 25 Ağustos günlük görünümü", url: "https://kworb.net/spotify/country/global_daily.html" },
+      { name: "Soundcharts — Endonezya haftalık Spotify görünümü", url: "https://www.soundcharts.com/en/charts/spotify/indonesia" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "P NATION / Weverse — TNX — Die Another Day program duyurusu", url: "https://weverse.io/tnx/notice/38610" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+    ],
+    storyShare:
+      "27 Ağustos müzik gündemi: Post Malone — August 26 ilk kez resmî platformlarda; TULUS — Teh Hijau ve eńau feat. Ari Lesmana — Sesi Potret Spotify Global'da yükseldi.",
+  },
+  {
     slug: "26-agustos-2026-muzik-gundemi",
     title: "26 Ağustos müzik gündemi: Dolly Parton 80 yaşında hayatını kaybetti, Jolene global listede yükseldi",
     shortTitle: "26 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-26",
-    updatedAt: "2026-08-26T13:45:00+03:00",
+    updatedAt: "2026-08-27T11:00:00+03:00",
     readTime: "5 dk",
     image: "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
     imageAlt: "Dolly Parton'ın Jolene albümünün resmî kapak görseli",
@@ -21,6 +125,9 @@ export const popGundemiArticles = [
     relatedTranslations: [
       "dolly-parton-jolene-turkce-ceviri",
       "dolly-parton-9-to-5-turkce-ceviri",
+      "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+      "dolly-parton-i-will-always-love-you-turkce-ceviri",
+      "dolly-parton-coat-of-many-colors-turkce-ceviri",
       "sf9-without-wings-turkce-ceviri",
     ],
     livePanel: {
@@ -35,7 +142,7 @@ export const popGundemiArticles = [
     },
     summary: [
       "Associated Press'in 25 Ağustos tarihli haberine göre Dolly Parton, kısa süren kanser tedavisinin ardından Nashville'de 80 yaşında hayatını kaybetti. Ölüm bilgisi temsilcisi Marcel Pariseau'nun açıklamasına dayanıyor; olay tarihi ile 26 Ağustos tarihli devam haberleri ayrı tutuldu.",
-      "Apple Music Top 100: Global'in 26 Ağustos tarihli resmî küresel görünümünde Jolene 2, 9 to 5 ise 6 numarada. Islands in the Stream 9 ve I Will Always Love You 10 numaraya çıktı. Bu sıralamalar ABD RSS akışı değil, Apple'ın küresel çalma listesinden alındı.",
+      "Apple Music Top 100: Global'in 26 Ağustos tarihli resmî küresel görünümünde Jolene 2, 9 to 5 ise 6 numarada. Islands in the Stream 9 ve I Will Always Love You 10 numaraya çıktı. Dört kaydın da Türkçe çevirisi arşivde; sıralamalar Apple'ın küresel çalma listesinden alındı.",
       "RIIZE'ın üçüncü Japonya teklisi Sunburst 26 Ağustos'ta yayımlandı ve resmî müzik videosu paylaşıldı. Şarkı arşivde bulunmuyor; Japonca sözler nedeniyle çeviride Latin alfabeli romanizasyon gerekli.",
       "SF9'un ikinci stüdyo albümü TENACITY ve başlık şarkısı Without Wings için 26 Ağustos 18.00 KST yayın saati resmî kanallarda duyuruldu. Sabah taraması bu saatten önce tamamlandı; gün içi güncellemesinde Spotify kaydı doğrulandı ve romanize sözlerle Türkçe çeviri arşive eklendi.",
     ],
@@ -51,7 +158,7 @@ export const popGundemiArticles = [
       {
         heading: "Jolene ve 9 to 5 Apple Music Global'in ilk 10'unda",
         body: [
-          "Apple Music Top 100: Global'in 26 Ağustos görünümünde Jolene 2, 9 to 5 ise 6 numarada yer aldı. Dolly Parton ve Kenny Rogers ortaklığı Islands in the Stream 9; I Will Always Love You 10 numarada. Jolene ve 9 to 5 çevirileri arşive eklendi; diğer iki kayıt arşivde bulunmuyor.",
+          "Apple Music Top 100: Global'in 26 Ağustos görünümünde Jolene 2, 9 to 5 ise 6 numarada yer aldı. Dolly Parton ve Kenny Rogers ortaklığı Islands in the Stream 9; I Will Always Love You 10 numarada. Dört kaydın çevirisi de arşivde bulunuyor.",
           "Sıralama, Apple'ın resmî Top 100: Global çalma listesinden ve listenin kendi 26 Ağustos güncellemesinden alındı. Billboard Hot 100 ve Billboard 200 için kullanılan 29 Ağustos haftası ile Circle Global'ın 23 Ağustos günlük ölçümü bu görünümle birleştirilmedi.",
           "Jolene, güncel çapraz platform etkisi nedeniyle yeniden yükselenler bölümünün en yüksek öncelikli adayıydı; AI Studio'da hazırlanan Türkçe çevirisi 26 Ağustos'ta arşive eklendi. İngilizce sözler Latin alfabesinde olduğu için romanizasyon gerekmiyor.",
         ],
@@ -68,6 +175,9 @@ export const popGundemiArticles = [
     memberStatus: [
       { name: "Dolly Parton — Jolene", status: "Çeviri arşivde", detail: "Apple Music Global #2; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
       { name: "Dolly Parton — 9 to 5", status: "Çeviri arşivde", detail: "Apple Music Global #6; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
+      { name: "Dolly Parton & Kenny Rogers — Islands in the Stream", status: "Çeviri arşivde", detail: "Apple Music Global #9; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
+      { name: "Dolly Parton — I Will Always Love You", status: "Çeviri arşivde", detail: "Apple Music Global #10; AI Studio çevirisi eklendi, romanizasyon gerekmiyor." },
+      { name: "Dolly Parton — Coat of Many Colors", status: "Çeviri arşivde", detail: "Güncel katalog dönüşünün ardından AI Studio çevirisi arşive eklendi." },
       { name: "RIIZE — Sunburst", status: "Yüksek öncelik", detail: "26 Ağustos'ta yayımlandı; arşivde yok, Japonca romanizasyon gerekli." },
       { name: "SF9 — Without Wings", status: "Çeviri arşivde", detail: "26 Ağustos tarihli Spotify kaydı doğrulandı; Korece dizeler romanize edildi." },
     ],

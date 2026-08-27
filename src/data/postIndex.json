@@ -1,5 +1,267 @@
 [
   {
+    "id": "5264",
+    "slug": "dolly-parton-coat-of-many-colors-turkce-ceviri",
+    "title": "Dolly Parton Coat of Many Colors Türkçe Çeviri",
+    "song": "Coat of Many Colors",
+    "artist": "Dolly Parton",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072",
+    "date": "2026-08-27T07:57:05.582Z",
+    "reading_time": 3,
+    "excerpt": "Back through the years I go wanderin' once again",
+    "categories": [
+      "Dolly Parton",
+      "Coat Of Many Colors"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "coat-of-many-colors"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+      "albumUrl": "https://open.spotify.com/album/17CT6ru3CyDXAi6xVaSUzg",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Coat Of Many Colors",
+      "releaseDate": "1971-10-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072",
+      "duration": "3:06",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "Dolly Parton",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "artistGenres": [],
+      "albumArtist": "Dolly Parton"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Back through the years I go wanderin' once again",
+      "tr": "Yıllar öncesine, o eski günlere dönüyorum yine;"
+    },
+    "heroPair": {
+      "en": "She made my coat of many colors that I was so proud of",
+      "tr": "Benim o gururla taşıdığım rengarenk ceketimi elleriyle yaptı."
+    }
+  },
+  {
+    "id": "5263",
+    "slug": "dolly-parton-i-will-always-love-you-turkce-ceviri",
+    "title": "Dolly Parton I Will Always Love You Türkçe Çeviri",
+    "song": "I Will Always Love You",
+    "artist": "Dolly Parton",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "date": "2026-08-27T07:57:05.582Z",
+    "reading_time": 1,
+    "excerpt": "If I should stay",
+    "categories": [
+      "Dolly Parton",
+      "Jolene"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "jolene"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+      "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Jolene",
+      "releaseDate": "1974-02-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+      "duration": "2:57",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 6,
+      "totalTracks": 10,
+      "artistName": "Dolly Parton",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "artistGenres": [],
+      "albumArtist": "Dolly Parton"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "If I should stay",
+      "tr": "Eğer kalacak olursam;"
+    },
+    "heroPair": {
+      "en": "And I will always love you",
+      "tr": "Ve seni daima seveceğim..."
+    }
+  },
+  {
+    "id": "5262",
+    "slug": "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+    "title": "Dolly Parton & Kenny Rogers Islands in the Stream Türkçe Çeviri",
+    "song": "Islands in the Stream",
+    "artist": "Dolly Parton & Kenny Rogers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+    "date": "2026-08-27T07:57:05.581Z",
+    "reading_time": 3,
+    "excerpt": "Baby, when I met you there was peace unknown",
+    "categories": [
+      "Dolly Parton",
+      "Kenny Rogers",
+      "Greatest Hits"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "kenny-rogers",
+      "greatest-hits"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+      "albumUrl": "https://open.spotify.com/album/3b3xKNoWtZLWdxuaL0sKCs",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Greatest Hits",
+      "releaseDate": "1983-07-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+      "duration": "4:12",
+      "albumType": "Derleme",
+      "label": null,
+      "trackNumber": 8,
+      "totalTracks": 12,
+      "artistName": "Dolly Parton",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "artistGenres": [],
+      "albumArtist": "Dolly Parton"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Baby, when I met you there was peace unknown",
+      "tr": "Bebeğim, seninle tanıştığımda içimi eşsiz bir huzur kaplamıştı;"
+    },
+    "heroPair": {
+      "en": "Islands in the stream",
+      "tr": "Akıntının ortasındaki adalar gibiyiz;"
+    }
+  },
+  {
+    "id": "5261",
+    "slug": "tulus-teh-hijau-turkce-ceviri",
+    "title": "TULUS Teh Hijau Türkçe Çeviri",
+    "song": "Teh Hijau",
+    "artist": "TULUS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015",
+    "date": "2026-08-27T07:57:05.581Z",
+    "reading_time": 3,
+    "excerpt": "Hari-hari berulang",
+    "categories": [
+      "Tulus",
+      "Teh Hijau"
+    ],
+    "category_slugs": [
+      "tulus",
+      "teh-hijau"
+    ],
+    "languages": {
+      "original": "id",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4R9G7azXaZe93KTX65P9fU",
+      "albumUrl": "https://open.spotify.com/album/7A38wbAswxuZGB5aFvK9Qn",
+      "artistUrl": "https://open.spotify.com/artist/2iDVt6mFbtbDEZG5ax0dTi",
+      "albumName": "Teh Hijau",
+      "releaseDate": "2026-06-30",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015",
+      "duration": "3:33",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Tulus",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe2569eea1e32fe495d52c9a3",
+      "artistGenres": [],
+      "albumArtist": "Tulus"
+    },
+    "moods": [
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "Hari-hari berulang",
+      "tr": "Günler birbirini tekrarlıyor;"
+    },
+    "heroPair": {
+      "en": "Teh hijau ini yang di tanganku",
+      "tr": "Şu an elimdeki bu yeşil çay mesela..."
+    }
+  },
+  {
+    "id": "5260",
+    "slug": "post-malone-hollywood-dreams-come-down-turkce-ceviri",
+    "title": "Post Malone Hollywood Dreams / Come Down Türkçe Çeviri",
+    "song": "Hollywood Dreams / Come Down",
+    "artist": "Post Malone",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943",
+    "date": "2026-08-27T07:57:05.580Z",
+    "reading_time": 4,
+    "excerpt": "Ah, mm",
+    "categories": [
+      "Post Malone",
+      "August 26"
+    ],
+    "category_slugs": [
+      "post-malone",
+      "august-26"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2AWeWGtArpcK4ZTpPnXGfR",
+      "albumUrl": "https://open.spotify.com/album/6plj5TlnaY3rCX0wDoulQc",
+      "artistUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+      "albumName": "August 26",
+      "releaseDate": "2026-08-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943",
+      "duration": "5:02",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 8,
+      "totalTracks": 10,
+      "artistName": "Post Malone",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+      "artistGenres": [],
+      "albumArtist": "Post Malone"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Ah, mm",
+      "tr": "Ah, mm..."
+    },
+    "heroPair": {
+      "en": "Ah, mm",
+      "tr": "Ah, mm..."
+    }
+  },
+  {
     "id": "5259",
     "slug": "sf9-without-wings-turkce-ceviri",
     "title": "SF9 Without Wings Türkçe Çeviri",

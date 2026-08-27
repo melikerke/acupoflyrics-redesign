@@ -1,5 +1,2046 @@
 [
   {
+    "id": "5264",
+    "title": "Dolly Parton Coat of Many Colors Türkçe Çeviri",
+    "song": "Coat of Many Colors",
+    "slug": "dolly-parton-coat-of-many-colors-turkce-ceviri",
+    "date": "2026-08-27T07:57:05.582Z",
+    "artist": "Dolly Parton",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Dolly Parton",
+      "Coat Of Many Colors"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "coat-of-many-colors"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Back through the years I go wanderin' once again",
+          "Back to the seasons of my youth",
+          "I recall a box of rags that someone gave us",
+          "And how my mama put the rags to use"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Yıllar öncesine, o eski günlere dönüyorum yine;",
+          "Gençliğimin o geçtiği mevsimlere...",
+          "Birinin bize verdiği o bez parçalarıyla dolu kutuyu hatırlıyorum;",
+          "Ve annemin o parçaları nasıl değerlendirdiğini..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "There were rags of many colors, and every piece was small",
+          "And I didn't have a coat and it was way down in the fall",
+          "Mama sewed the rags together sewing every piece with love",
+          "She made my coat of many colors that I was so proud of"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Rengarenk kumaş parçaları vardı, her biri küçücüktü;",
+          "Ve benim hiç ceketim yoktu, oysa sonbahar gelmiş çatmıştı bile.",
+          "Annem o tüm parçaları birbirine dikti, her bir dikişe sevgisini kattı;",
+          "Benim o gururla taşıdığım rengarenk ceketimi elleriyle yaptı."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "As she sewed, she told a story from the Bible she had read",
+          "About a coat of many colors Joseph wore and then she said",
+          "\"Perhaps this coat will bring you good luck and happiness\"",
+          "And I just couldn't wait to wear it and Mama blessed it with a kiss"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Dikerken bir yandan da İncil'den okuduğu o hikayeyi anlatıyordu;",
+          "Hz. Yusuf'un giydiği o rengarenk rida üzerine... Sonra dedi ki;",
+          "\"Belki bu ceket sana şans ve mutluluk getirir.\"",
+          "Giyebilmek için sabırsızlanıyordum, annem ise ceketi bir öpücükle kutsadı."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "My coat of many colors that my mama made for me",
+          "Made only from rags but I wore it so proudly",
+          "Although we had no money, I was rich as I could be",
+          "In my coat of many colors my mama made for me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Annemin benim için elleriyle diktiği o rengarenk ceketim...",
+          "Sadece eski bez parçalarından yapılmıştı ama ben onu gururla giyerdim.",
+          "Paramız olmasa da, olabileceğim kadar zengindim ben;",
+          "Annemin benim için diktiği o rengarenk ceketin içinde."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4",
+        "lines": [
+          "So with patches on my britches and holes in both my shoes",
+          "In my coat of many colors I hurried off to school",
+          "Just to find the others laughin' and a-makin' fun of me",
+          "In my coat of many colors my mama made for me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4",
+        "lines": [
+          "Pantolonumdaki yamalarla ve delik deşik pabuçlarımla;",
+          "O rengarenk ceketimi kuşanıp, koştum okula...",
+          "Ama orada diğerlerinin bana güldüğünü, benimle dalga geçtiğini gördüm;",
+          "Annemin benim için diktiği o ceketin içinde."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 5",
+        "lines": [
+          "And, oh, I couldn't understand it, for I felt I was rich",
+          "And I told 'em of the love my mama sewed in every stitch",
+          "And I told 'em all the story Mama told me while she sewed",
+          "And how my coat of many colors was worth more than all their clothes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 5",
+        "lines": [
+          "Ve oh, bunu bir türlü anlayamıyordum; çünkü ben kendimi çok zengin hissediyordum.",
+          "Onlara annemin her bir ilmeğe işlediği o sevgiden bahsettim;",
+          "Annem dikerken anlattığı o tüm hikayeleri anlattım onlara...",
+          "Ve bu rengarenk ceketin, onların tüm kıyafetlerinden çok daha değerli olduğunu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But they didn't understand it and I tried to make them see",
+          "That one is only poor only if they choose to be",
+          "Now I know we had no money, but I was rich as I could be",
+          "In my coat of many colors my mama made for me",
+          "Made just for me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama onlar bunu anlamadılar; onlara şunu göstermeye çalıştım:",
+          "Bir insan sadece isterse (seçerse) fakir kalır aslında.",
+          "Şimdi biliyorum ki paramız yoktu ama ben olabileceğim kadar zengindim;",
+          "Annemin sadece benim için,",
+          "Sırf benim için diktiği o rengarenk ceketin içinde."
+        ]
+      }
+    ],
+    "excerpt": "Back through the years I go wanderin' once again",
+    "annotations": {
+      "Hz. Yusuf'un giydiği o rengarenk rida": "“Joseph's Coat of Many Colors”: İncil’de (ve Kur'an’da) Yusuf peygambere babası tarafından verilen, kardeşlerinin kıskançlığına sebep olan o meşhur renkli rida/giysi."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1l2Xmg54EUr3TDzNIaCr1z",
+        "name": "Coat of Many Colors",
+        "url": "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+        "isrc": "USRN17100007",
+        "durationMs": 186453,
+        "duration": "3:06",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "32vWCbZh0xZ4o9gkz4PsEU",
+        "name": "Dolly Parton",
+        "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "32vWCbZh0xZ4o9gkz4PsEU",
+          "name": "Dolly Parton",
+          "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+        }
+      ],
+      "album": {
+        "id": "17CT6ru3CyDXAi6xVaSUzg",
+        "name": "Coat Of Many Colors",
+        "url": "https://open.spotify.com/album/17CT6ru3CyDXAi6xVaSUzg",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072",
+        "artists": [
+          {
+            "id": "32vWCbZh0xZ4o9gkz4PsEU",
+            "name": "Dolly Parton",
+            "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+          }
+        ],
+        "releaseDate": "1971-10-01",
+        "releaseDatePrecision": "year",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 1971 Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "1l2Xmg54EUr3TDzNIaCr1z",
+            "name": "Coat of Many Colors",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 186453,
+            "duration": "3:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+            "isCurrent": true
+          },
+          {
+            "id": "7xP9KDxX2mqB8MgwZ2taLH",
+            "name": "Traveling Man",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 161410,
+            "duration": "2:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7xP9KDxX2mqB8MgwZ2taLH",
+            "isCurrent": false
+          },
+          {
+            "id": "2rtT6DnEuSPcISuKzKg3PU",
+            "name": "My Blue Tears",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 138324,
+            "duration": "2:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2rtT6DnEuSPcISuKzKg3PU",
+            "isCurrent": false
+          },
+          {
+            "id": "03U1gYWhNPuQXFzrrcyW6o",
+            "name": "If I Lose My Mind",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151550,
+            "duration": "2:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/03U1gYWhNPuQXFzrrcyW6o",
+            "isCurrent": false
+          },
+          {
+            "id": "0loPe5ZcMcwWSmXgoxKQzn",
+            "name": "The Mystery Of The Mystery",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 147638,
+            "duration": "2:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0loPe5ZcMcwWSmXgoxKQzn",
+            "isCurrent": false
+          },
+          {
+            "id": "6dyGIB5a6fpX3DHczPoUt0",
+            "name": "She Never Met A Man (She Didn't Like)",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 162837,
+            "duration": "2:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6dyGIB5a6fpX3DHczPoUt0",
+            "isCurrent": false
+          },
+          {
+            "id": "6oc3yOdUgjSK6ydBaOX1to",
+            "name": "Early Morning Breeze",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 176044,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6oc3yOdUgjSK6ydBaOX1to",
+            "isCurrent": false
+          },
+          {
+            "id": "3XXc7YhQ7Vl0IXWmWfZnnD",
+            "name": "The Way I See You",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 168413,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3XXc7YhQ7Vl0IXWmWfZnnD",
+            "isCurrent": false
+          },
+          {
+            "id": "343maiZvmnpCQEZC2nw66F",
+            "name": "Here I Am",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 200548,
+            "duration": "3:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/343maiZvmnpCQEZC2nw66F",
+            "isCurrent": false
+          },
+          {
+            "id": "67YTOkNK44BN8a3d0No7eN",
+            "name": "A Better Place To Live",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 159528,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/67YTOkNK44BN8a3d0No7eN",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T07:57:54.204Z",
+      "trackUrl": "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+      "albumUrl": "https://open.spotify.com/album/17CT6ru3CyDXAi6xVaSUzg",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Coat Of Many Colors",
+      "albumType": "Album",
+      "releaseDate": "1971-10-01",
+      "duration": "3:06",
+      "isrc": "USRN17100007",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fad1327fda63bea0e059072"
+    },
+    "genius": {
+      "url": "https://genius.com/Dolly-parton-coat-of-many-colors-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=KFbYFHaigSk",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/coat-of-many-colors/217532812",
+    "seo": {
+      "title": "Dolly Parton Coat of Many Colors Türkçe Çeviri",
+      "description": "Dolly Parton – Coat of Many Colors şarkı sözleri ve özenli Türkçe çevirisi. Coat Of Many Colors albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/dolly-parton-coat-of-many-colors-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5263",
+    "title": "Dolly Parton I Will Always Love You Türkçe Çeviri",
+    "song": "I Will Always Love You",
+    "slug": "dolly-parton-i-will-always-love-you-turkce-ceviri",
+    "date": "2026-08-27T07:57:05.582Z",
+    "artist": "Dolly Parton",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Dolly Parton",
+      "Jolene"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "jolene"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "If I should stay",
+          "I would only be in your way",
+          "So I'll go, but I know",
+          "I'll think of you each step of the way"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Eğer kalacak olursam;",
+          "Sadece senin yoluna engel olurum.",
+          "Bu yüzden gidiyorum ama biliyorum ki;",
+          "Attığım her adımda, aklımda hep sen olacaksın."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I will always love you",
+          "I will always love you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve seni daima seveceğim...",
+          "Seni her zaman seveceğim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Bittersweet memories",
+          "That's all I am taking with me",
+          "Goodbye, please don't cry",
+          "We both know that I'm not what you need"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Acı-tatlı hatıralar...",
+          "Yanımda götürdüğüm tek şey bunlar olacak.",
+          "Elveda, lütfen ağlama;",
+          "İkimiz de biliyoruz ki, senin ihtiyacın olan kişi ben değilim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I will always love you",
+          "I will always love you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama seni daima seveceğim...",
+          "Seni her zaman seveceğim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "I hope life treats you kind",
+          "And I hope that you have all that you ever dreamed of",
+          "And I wish you joy and happiness",
+          "But above all of this, I wish you love"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Dilerim hayat sana nazik davranır;",
+          "Ve umarım hayal ettiğin her şeye sahip olursun.",
+          "Sana neşe ve mutluluk diliyorum;",
+          "Ama tüm bunların ötesinde; sana \"sevilmeyi\" diliyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I will always love you",
+          "I will always love you",
+          "I will always love you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve seni daima seveceğim...",
+          "Seni her zaman seveceğim...",
+          "Seni daima seveceğim."
+        ]
+      }
+    ],
+    "excerpt": "If I should stay",
+    "annotations": {
+      "Acı-tatlı": "“Bittersweet”: Hem mutluluk hem de hüzün veren, buruk bir tadı olan hatıralar anlamında kullanılır. Türkçede \"buruk\" veya \"acı-tatlı\" olarak karşıladık.",
+      "sana \"sevilmeyi\" diliyorum": "“I wish you love”: Şarkının en asil ve fedakar yeri. Şarkıcı burada kendi sevgisinden vazgeçip, partnerine başkaları tarafından sevileceği huzurlu bir hayat diliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6nRvgo4ySezQKD1D7NIqAu",
+        "name": "I Will Always Love You",
+        "url": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+        "isrc": "USRN17300007",
+        "durationMs": 177404,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 6,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "32vWCbZh0xZ4o9gkz4PsEU",
+        "name": "Dolly Parton",
+        "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "32vWCbZh0xZ4o9gkz4PsEU",
+          "name": "Dolly Parton",
+          "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+        }
+      ],
+      "album": {
+        "id": "5DyOxuvdSmTSNAmkfcsBsj",
+        "name": "Jolene",
+        "url": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+        "artists": [
+          {
+            "id": "32vWCbZh0xZ4o9gkz4PsEU",
+            "name": "Dolly Parton",
+            "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+          }
+        ],
+        "releaseDate": "1974-02-04",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 1974 Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "2SpEHTbUuebeLkgs9QB7Ue",
+            "name": "Jolene",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 163275,
+            "duration": "2:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue",
+            "isCurrent": false
+          },
+          {
+            "id": "6BFxfy7nDu9jzLq5qJKT0j",
+            "name": "When Someone Wants to Leave",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 127015,
+            "duration": "2:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6BFxfy7nDu9jzLq5qJKT0j",
+            "isCurrent": false
+          },
+          {
+            "id": "6xUx9zbReQRiskjcAGlQlw",
+            "name": "River of Happiness",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 140304,
+            "duration": "2:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6xUx9zbReQRiskjcAGlQlw",
+            "isCurrent": false
+          },
+          {
+            "id": "3CkJeQjxbYJsLN2MLAvluL",
+            "name": "Early Morning Breeze",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 167480,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3CkJeQjxbYJsLN2MLAvluL",
+            "isCurrent": false
+          },
+          {
+            "id": "38XfMra7gVoBULRngSRWTN",
+            "name": "Highlight of My Life",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 139377,
+            "duration": "2:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/38XfMra7gVoBULRngSRWTN",
+            "isCurrent": false
+          },
+          {
+            "id": "6nRvgo4ySezQKD1D7NIqAu",
+            "name": "I Will Always Love You",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 177404,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+            "isCurrent": true
+          },
+          {
+            "id": "5Z5SHnV6a4UyE7e7DcTrhP",
+            "name": "Randy",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 113154,
+            "duration": "1:53",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5Z5SHnV6a4UyE7e7DcTrhP",
+            "isCurrent": false
+          },
+          {
+            "id": "3Ad4Vd2MLBBpApduPsydXk",
+            "name": "Living On Memories of You",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 167787,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3Ad4Vd2MLBBpApduPsydXk",
+            "isCurrent": false
+          },
+          {
+            "id": "5nEuQTJ1d6iQhdn3e0jX16",
+            "name": "Lonely Comin' Down",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 194012,
+            "duration": "3:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5nEuQTJ1d6iQhdn3e0jX16",
+            "isCurrent": false
+          },
+          {
+            "id": "4h302bPIcNoJhlBuYwyYV7",
+            "name": "It Must Be You",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 110598,
+            "duration": "1:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4h302bPIcNoJhlBuYwyYV7",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T07:57:53.963Z",
+      "trackUrl": "https://open.spotify.com/track/6nRvgo4ySezQKD1D7NIqAu",
+      "albumUrl": "https://open.spotify.com/album/5DyOxuvdSmTSNAmkfcsBsj",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Jolene",
+      "albumType": "Album",
+      "releaseDate": "1974-02-04",
+      "duration": "2:57",
+      "isrc": "USRN17300007",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16"
+    },
+    "genius": {
+      "url": "https://genius.com/Dolly-parton-i-will-always-love-you-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=lKsQR72HY0s",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/song/1062400635",
+    "seo": {
+      "title": "Dolly Parton I Will Always Love You Türkçe Çeviri",
+      "description": "Dolly Parton – I Will Always Love You şarkı sözleri ve özenli Türkçe çevirisi. Jolene albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/dolly-parton-i-will-always-love-you-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5262",
+    "title": "Dolly Parton & Kenny Rogers Islands in the Stream Türkçe Çeviri",
+    "song": "Islands in the Stream",
+    "slug": "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+    "date": "2026-08-27T07:57:05.581Z",
+    "artist": "Dolly Parton & Kenny Rogers",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Dolly Parton",
+      "Kenny Rogers",
+      "Greatest Hits"
+    ],
+    "category_slugs": [
+      "dolly-parton",
+      "kenny-rogers",
+      "greatest-hits"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Kenny Rogers",
+        "lines": [
+          "Baby, when I met you there was peace unknown",
+          "I set out to get you, with a finetooth comb",
+          "I was soft inside",
+          "There was something going on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Kenny Rogers",
+        "lines": [
+          "Bebeğim, seninle tanıştığımda içimi eşsiz bir huzur kaplamıştı;",
+          "Seni bulmak için her yolu denedim, didik didik aradım.",
+          "İçim yumuşacıktı o zamanlar...",
+          "Bambaşka bir şeyler oluyordu aramızda."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "You do something to me that I can't explain",
+          "Hold me closer and I feel no pain",
+          "Every beat of my heart",
+          "We got something going on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Bana açıklayamadığım bir şeyler yapıyorsun;",
+          "Beni kendine daha sıkı çektiğinde tüm acılarım diniyor.",
+          "Kalbimin her bir atışında;",
+          "Biliyorum, aramızda özel bir şeyler var."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Kenny Rogers, Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Tender love is blind",
+          "It requires a dedication",
+          "All this love we feel needs no conversation",
+          "We ride it together, ah-ah",
+          "Making love with each other, ah-ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Kenny Rogers, Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Şefkatli bir aşk kördür aslında;",
+          "Büyük bir adanmışlık gerektirir.",
+          "Hissettiğimiz bunca aşk için lafa söze hiç gerek yok;",
+          "Birlikte yol alıyoruz bu hayatta...",
+          "Birbirimize olan sevgimizi yaşayarak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Islands in the stream",
+          "That is what we are",
+          "No one in between",
+          "How can we be wrong?",
+          "Sail away with me",
+          "To another world",
+          "And we rely on each other, ah-ah",
+          "From one lover to another, ah-ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Akıntının ortasındaki adalar gibiyiz;",
+          "Biz buyuz işte...",
+          "Aramızda kimse yok;",
+          "Nasıl yanılıyor olabiliriz ki?",
+          "Benimle uzaklara yelken aç;",
+          "Bambaşka bir dünyaya...",
+          "Ve biz sadece birbirimize güveniyoruz;",
+          "İki aşık gibi, el ele..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Dolly Parton",
+        "lines": [
+          "I can't live without you if the love was gone",
+          "Everything is nothing if you got no one",
+          "And you just walk in the night",
+          "Slowly losing sight of the real thing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Dolly Parton",
+        "lines": [
+          "Eğer aşk biterse, sensiz yaşayamam ben;",
+          "Eğer yanında kimsen yoksa, her şey koca bir hiçtir.",
+          "Öylece gecenin karanlığında yürürsün ve",
+          "Gerçek olan ne varsa, yavaş yavaş gözden kaybedersin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "But that won't happen to us and we got no doubt",
+          "Too deep in love and we got no way out",
+          "And the message is clear",
+          "This could be the year for the real thing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Ama bu asla bizim başımıza gelmeyecek, zerre şüphemiz yok;",
+          "Aşka öyle derin daldık ki, artık geri dönüşümüz yok.",
+          "Ve mesaj çok net;",
+          "İşte bu yıl, o \"gerçek olanı\" yaşama yılımız olabilir."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Dolly Parton, Dolly Parton & Kenny Rogers",
+        "lines": [
+          "No more will you cry",
+          "Baby, I will hurt you never",
+          "We start and end as one",
+          "In love forever",
+          "We can ride it together, ah-ah",
+          "Making love with each other, ah-ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Dolly Parton, Dolly Parton & Kenny Rogers",
+        "lines": [
+          "Artık ağlamayacaksın;",
+          "Bebeğim, seni asla incitmeyeceğim.",
+          "Tek bir vücut gibi başlayıp biteceğiz bu yolda;",
+          "Sonsuza dek aşık kalarak...",
+          "Birlikte göğüs gerebiliriz her şeye;",
+          "Aşkımızı paylaşarak..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Islands in the stream",
+          "That is what we are",
+          "No one in between",
+          "How can we be wrong?",
+          "Sail away with me",
+          "To another world",
+          "And we rely on each other, ah-ah",
+          "From one lover to another, ah-ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Akıntının ortasındaki adalar gibiyiz;",
+          "Biz buyuz işte...",
+          "Aramızda kimse yok;",
+          "Nasıl yanılıyor olabiliriz ki?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Sail away",
+          "Oh, come sail away with me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Yelken açalım...",
+          "Oh, gel yelken açalım benimle uzaklara."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Islands in the stream",
+          "That is what we are",
+          "No one in between",
+          "How can we be wrong?",
+          "Sail away with me",
+          "To another world",
+          "And we rely on each other, ah-ah",
+          "From one lover to another, ah-ah",
+          "Islands in the stream",
+          "That is what we are",
+          "No one in between",
+          "How can we be wrong?",
+          "Sail away with me",
+          "To another world",
+          "And we rely on each other, ah-ah",
+          "From one lover to another, ah-ah",
+          "Islands in the stream",
+          "That is what we are",
+          "No one in between"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Kenny Rogers & Dolly Parton",
+        "lines": [
+          "Akıntının ortasındaki adalar gibiyiz;",
+          "Biz buyuz işte...",
+          "Aramızda kimse yok;",
+          "Nasıl yanılıyor olabiliriz ki?",
+          "Benimle uzaklara yelken aç;",
+          "Bambaşka bir dünyaya...",
+          "Ve biz sadece birbirimize güveniyoruz;",
+          "İki aşık gibi, el ele...",
+          "Akıntının ortasındaki adalarız biz...",
+          "Kimse giremez aramıza."
+        ]
+      }
+    ],
+    "excerpt": "Baby, when I met you there was peace unknown",
+    "annotations": {
+      "didik didik aradım": "“Fine-tooth comb”: İnce dişli tarakla aramak; yani bir şeyi tüm detaylarıyla, özenle ve hiçbir noktayı atlamadan aramak anlamındaki deyim.",
+      "Akıntı": "“Islands in the stream”: Şarkının ana metaforu. Hayatın karmaşasını ve zorluklarını bir \"akıntı\"ya (stream), birbirine tutunan iki aşığı ise bu akıntının ortasındaki sabit ve güvenli \"adalar\"a benzetiyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6dnco8haegnJYtylV26cBq",
+        "name": "Islands In the Stream",
+        "url": "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+        "isrc": "USRC18307961",
+        "durationMs": 251960,
+        "duration": "4:12",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "32vWCbZh0xZ4o9gkz4PsEU",
+        "name": "Dolly Parton",
+        "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "32vWCbZh0xZ4o9gkz4PsEU",
+          "name": "Dolly Parton",
+          "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+        },
+        {
+          "id": "4tw2Lmn9tTPUv7Gy7mVPI4",
+          "name": "Kenny Rogers",
+          "url": "https://open.spotify.com/artist/4tw2Lmn9tTPUv7Gy7mVPI4"
+        }
+      ],
+      "album": {
+        "id": "3b3xKNoWtZLWdxuaL0sKCs",
+        "name": "Greatest Hits",
+        "url": "https://open.spotify.com/album/3b3xKNoWtZLWdxuaL0sKCs",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+        "artists": [
+          {
+            "id": "32vWCbZh0xZ4o9gkz4PsEU",
+            "name": "Dolly Parton",
+            "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+          }
+        ],
+        "releaseDate": "1983-07-01",
+        "releaseDatePrecision": "day",
+        "albumType": "Derleme",
+        "rawAlbumType": "compilation",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 1984 Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "5OvqPEchlZOEBBhOtjaC46",
+            "name": "9 to 5",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 166940,
+            "duration": "2:47",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5OvqPEchlZOEBBhOtjaC46",
+            "isCurrent": false
+          },
+          {
+            "id": "4xOHlJDVe3DXaDT4J3Irck",
+            "name": "But You Know I Love You",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 199944,
+            "duration": "3:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4xOHlJDVe3DXaDT4J3Irck",
+            "isCurrent": false
+          },
+          {
+            "id": "7uIfKiKPAbFeno12ejViAC",
+            "name": "Heartbreak Express",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 193526,
+            "duration": "3:14",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7uIfKiKPAbFeno12ejViAC",
+            "isCurrent": false
+          },
+          {
+            "id": "6YRabD024N5PSSwwUpi3yn",
+            "name": "Old Flames (Can't Hold a Candle to You) - Single Version",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 203857,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6YRabD024N5PSSwwUpi3yn",
+            "isCurrent": false
+          },
+          {
+            "id": "3SbNbQQ7p7ocUccKJTSC8F",
+            "name": "Applejack",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 206805,
+            "duration": "3:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3SbNbQQ7p7ocUccKJTSC8F",
+            "isCurrent": false
+          },
+          {
+            "id": "2FrJp9qhis44d3vBUNBsNq",
+            "name": "Me and Little Andy",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 159022,
+            "duration": "2:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2FrJp9qhis44d3vBUNBsNq",
+            "isCurrent": false
+          },
+          {
+            "id": "5TEsa7dr4t6soClhUV9zqW",
+            "name": "Here You Come Again",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 178700,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5TEsa7dr4t6soClhUV9zqW",
+            "isCurrent": false
+          },
+          {
+            "id": "6dnco8haegnJYtylV26cBq",
+            "name": "Islands In the Stream",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 251960,
+            "duration": "4:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+            "isCurrent": true
+          },
+          {
+            "id": "2wrMieCOrwHOUF01wEcaD0",
+            "name": "Two Doors Down",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 183189,
+            "duration": "3:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2wrMieCOrwHOUF01wEcaD0",
+            "isCurrent": false
+          },
+          {
+            "id": "4P7eW4bvm0YPJqUddoa4jV",
+            "name": "It's All Wrong, But It's All Right",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 199436,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4P7eW4bvm0YPJqUddoa4jV",
+            "isCurrent": false
+          },
+          {
+            "id": "2jHBgyWOM9zFgv140Peins",
+            "name": "Do I Ever Cross Your Mind?",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 242595,
+            "duration": "4:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jHBgyWOM9zFgv140Peins",
+            "isCurrent": false
+          },
+          {
+            "id": "14UUdYhHRE6wgofaqwV0fb",
+            "name": "I Will Always Love You - (from the Original Motion Picture Soundtrack Album, \"The Best Little Whorehouse In Texas\")",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 185041,
+            "duration": "3:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/14UUdYhHRE6wgofaqwV0fb",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T07:57:53.698Z",
+      "trackUrl": "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq",
+      "albumUrl": "https://open.spotify.com/album/3b3xKNoWtZLWdxuaL0sKCs",
+      "artistUrl": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "albumName": "Greatest Hits",
+      "albumType": "Derleme",
+      "releaseDate": "1983-07-01",
+      "duration": "4:12",
+      "isrc": "USRC18307961",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82"
+    },
+    "genius": {
+      "url": "https://genius.com/Kenny-rogers-and-dolly-parton-islands-in-the-stream-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=UaNGtgYwSsU",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/song/282883594",
+    "seo": {
+      "title": "Dolly Parton & Kenny Rogers Islands in the Stream Türkçe Çeviri",
+      "description": "Dolly Parton & Kenny Rogers – Islands in the Stream şarkı sözleri ve Türkçe çevirisi. Parçanın anlamını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5261",
+    "title": "TULUS Teh Hijau Türkçe Çeviri",
+    "song": "Teh Hijau",
+    "slug": "tulus-teh-hijau-turkce-ceviri",
+    "date": "2026-08-27T07:57:05.581Z",
+    "artist": "TULUS",
+    "languages": {
+      "original": "id",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Tulus",
+      "Teh Hijau"
+    ],
+    "category_slugs": [
+      "tulus",
+      "teh-hijau"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Hari-hari berulang",
+          "Misteri lenyap senang",
+          "Ada saran kudengar",
+          "Lebih sering keluar ke alam",
+          "Saran lain kudengar",
+          "Cari hal asing yang menantang",
+          "Keluar dari benteng",
+          "Dari tempatmu yang sekarang"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Günler birbirini tekrarlıyor;",
+          "Gizem ve neşe çoktan silinip gitti...",
+          "Bazı tavsiyeler duyuyorum;",
+          "\"Doğaya daha çok çık\" diyorlar.",
+          "Başka bir tavsiye daha;",
+          "\"Seni zorlayacak yabancı şeyler ara...",
+          "Şu kalenden dışarı çık,",
+          "Şu an bulunduğun o yerden kurtul artık.\""
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ada yang hilang dariku belakangan",
+          "Sedang tak mudah bertemu rasa senang",
+          "Sedang kucari yang jadi pencetusnya",
+          "Mungkin hilangnya atau siklus hidupku"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Son zamanlarda benden eksilen bir şeyler var;",
+          "Mutlulukla karşılaşmak hiç de kolay olmuyor artık.",
+          "Bunun tetikleyicisi nedir, arayıp duruyorum;",
+          "Belki bir kayıptır bu, belki de hayatımın bir döngüsü..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun",
+          "Dan mungkin aku memang sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Belki de şu an yapamıyorumdur;",
+          "Aşık olamıyorumdur...",
+          "Ne herhangi bir şeye ne de herhangi birine kalbimi açamıyorum.",
+          "Ve belki de gerçekten şu an yapamıyorum;",
+          "Aşık olamıyorumdur...",
+          "Kalbimi herhangi bir şeye, herhangi birine açamıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude",
+        "lines": [
+          "Woah-oh, woah-oh-oh (Apapun, siapapun)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude",
+        "lines": [
+          "(Herhangi bir şeye, herhangi birine...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Tambah gerak tubuhmu",
+          "Baca buku yang baru",
+          "Ragam saran brilian",
+          "Yang belum kunjung jadi penawar"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bedenini daha çok hareket ettir,",
+          "Yeni bir kitap oku...",
+          "Böyle bir sürü \"dahiyane\" tavsiye;",
+          "Ama hiçbiri henüz bir derman olamadı bana."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Untuk yang hilang dariku belakangan",
+          "Sedang kucoba memahami alurnya",
+          "S'moga segera kutemukan jawaban",
+          "Tapi kini kurayakan hampa ini, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Son zamanlarda benden eksilen o her neyse...",
+          "Şimdi onun akışını anlamaya çalışıyorum.",
+          "Umarım cevabı yakında bulabilirim;",
+          "Ama şimdilik, sadece bu boşluğun tadını çıkarıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun",
+          "Dan mungkin aku memang sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Belki de şu an yapamıyorumdur;",
+          "Aşık olamıyorumdur...",
+          "Kalbimi herhangi birine açamıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Kulihat mana di kendaliku",
+          "Teh hijau ini yang di tanganku",
+          "Di tengah seram sedih yang menghantamku, uh",
+          "Lepaskan, lepas kemurunganku",
+          "Hijau kembali jiwa gersangku",
+          "Ambillah sayang sebanyak waktu yang kau perlu"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Kontrolümde ne var, bakıyorum;",
+          "Şu an elimdeki bu yeşil çay mesela...",
+          "Bana çarpan şu korkutucu hüznün tam ortasında;",
+          "Serbest bırakıyorum kendimi, bırakıyorum şu kederimi...",
+          "O kurumuş ruhum yeniden yeşerecek elbet;",
+          "Hadi canım benim, ihtiyacın olan tüm zamanı ayır kendine."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mungkin (Aku sedang tak bisa), aku sedang tak bisa",
+          "(Tak bisa jatuh cinta) Tak bisa jatuh cinta",
+          "(Membuka hati 'tuk apapun, siapapun) Uuh",
+          "Dan mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "(Membuka hati 'tuk apapun, siapapun) Aah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Belki de yapamıyorumdur...",
+          "Aşık olamıyorumdur...",
+          "Kalbimi birine açamıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Tanpa itu, tanpanya",
+          "Apapun yang mungkin hilang itu (Sabar, sayang)",
+          "Mungkin ini siklusnya",
+          "Sudah garis jalannya",
+          "Esok, esok akan lebih elok"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "O olmadan, onsuz da olsa;",
+          "Eksilen her neyse artık... (Sabret sevgilim).",
+          "Belki bu sadece bir döngüdür;",
+          "Alın yazısıdır...",
+          "Yarın, yarın her şey çok daha güzel olacak."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Dan mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun",
+          "Dan mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "Membuka hati 'tuk apapun, siapapun"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Belki de şu an aşık olamıyorumdur...",
+          "Kalbimi herhangi birine açamıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Dan mungkin aku sedang tak bisa",
+          "Tak bisa jatuh cinta",
+          "(Apapun, siapapun)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Ve belki de gerçekten yapamıyorum;",
+          "Aşık olamıyorumdur...",
+          "(Herhangi bir şeye, herhangi birine...)"
+        ]
+      }
+    ],
+    "excerpt": "Hari-hari berulang",
+    "annotations": {
+      "kurumuş ruhum yeniden yeşerecek": "“Jiwa gersangku”: Kurumuş, çoraklaşmış ruh. Şarkıcı burada duygusal tükenmişliğini kurak bir araziye benzetiyor ve yeşil çayın dinginliğiyle bir \"yeşerme\" (iyileşme) umudu besliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4R9G7azXaZe93KTX65P9fU",
+        "name": "Teh Hijau",
+        "url": "https://open.spotify.com/track/4R9G7azXaZe93KTX65P9fU",
+        "isrc": "FRX282637095",
+        "durationMs": 212879,
+        "duration": "3:33",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2iDVt6mFbtbDEZG5ax0dTi",
+        "name": "Tulus",
+        "url": "https://open.spotify.com/artist/2iDVt6mFbtbDEZG5ax0dTi",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe2569eea1e32fe495d52c9a3",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2iDVt6mFbtbDEZG5ax0dTi",
+          "name": "Tulus",
+          "url": "https://open.spotify.com/artist/2iDVt6mFbtbDEZG5ax0dTi"
+        }
+      ],
+      "album": {
+        "id": "7A38wbAswxuZGB5aFvK9Qn",
+        "name": "Teh Hijau",
+        "url": "https://open.spotify.com/album/7A38wbAswxuZGB5aFvK9Qn",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015",
+        "artists": [
+          {
+            "id": "2iDVt6mFbtbDEZG5ax0dTi",
+            "name": "Tulus",
+            "url": "https://open.spotify.com/artist/2iDVt6mFbtbDEZG5ax0dTi"
+          }
+        ],
+        "releaseDate": "2026-06-30",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 TulusCompany",
+            "type": "C"
+          },
+          {
+            "text": "2026 TulusCompany",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4R9G7azXaZe93KTX65P9fU",
+            "name": "Teh Hijau",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 212879,
+            "duration": "3:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4R9G7azXaZe93KTX65P9fU",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T07:57:53.432Z",
+      "trackUrl": "https://open.spotify.com/track/4R9G7azXaZe93KTX65P9fU",
+      "albumUrl": "https://open.spotify.com/album/7A38wbAswxuZGB5aFvK9Qn",
+      "artistUrl": "https://open.spotify.com/artist/2iDVt6mFbtbDEZG5ax0dTi",
+      "albumName": "Teh Hijau",
+      "albumType": "Single",
+      "releaseDate": "2026-06-30",
+      "duration": "3:33",
+      "isrc": "FRX282637095",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e4086e5f9d79cf18ed601015"
+    },
+    "genius": {
+      "url": "https://genius.com/Tulus-teh-hijau-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=zyLmavBAY7k",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/teh-hijau-single/6784585100",
+    "seo": {
+      "title": "TULUS Teh Hijau Türkçe Çeviri",
+      "description": "TULUS – Teh Hijau şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/tulus-teh-hijau-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5260",
+    "title": "Post Malone Hollywood Dreams / Come Down Türkçe Çeviri",
+    "song": "Hollywood Dreams / Come Down",
+    "slug": "post-malone-hollywood-dreams-come-down-turkce-ceviri",
+    "date": "2026-08-27T07:57:05.580Z",
+    "artist": "Post Malone",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Post Malone",
+      "August 26"
+    ],
+    "category_slugs": [
+      "post-malone",
+      "august-26"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Post Malone",
+        "lines": [
+          "Ah, mm",
+          "Huh, uh, uh, uh, uh, hm",
+          "Huh, uh, uh, uh, uh, hm",
+          "(Hm) Hoo, (Hm) woo",
+          "Ayy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Post Malone",
+        "lines": [
+          "Ah, mm...",
+          "Ayy!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Post Malone",
+        "lines": [
+          "I'm in a four-door, down Rodeo, oh",
+          "I'm getting fucked up, I'm losing control, oh",
+          "I'm bumping Fleetwood, she tryna turn off my song",
+          "She keep asking, \"Where the party at?\" (Ooh)",
+          "I got a flask full of vodka in my passenger seat",
+          "My homie got a mansion, says that we could crash it for free",
+          "We gotta take the phones because we can't let nobody see",
+          "We pop a pill, since you ain't have, not a thing to eat",
+          "Oh-whoa, hoo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Post Malone",
+        "lines": [
+          "Dört kapılı bir arabadayım, Rodeo Drive boyu aşağı iniyorum;",
+          "Körkütük sarhoş oluyorum, kontrolü kaybediyorum.",
+          "Fleetwood çalıyorum, o ise müziğimi kapatmaya çalışıyor;",
+          "Sürekli sorup duruyor: \"Parti nerede?\" (Ooh)",
+          "Yan koltukta vokdayla dolu bir mataram var;",
+          "Dostumun bir malikanesi var, orada bedavaya kalabileceğimizi söylüyor.",
+          "Telefonları ellerinden almalıyız çünkü kimsenin görmesine izin veremeyiz;",
+          "Yiyecek hiçbir şeyin olmadığı için birer hap atıyoruz..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Thunder only happens when it's raining",
+          "And players only love you when they're playing, ayy",
+          "Say, women, they will come and they will go, whoa",
+          "When the rain washes you clean, you'll know"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Gök sadece yağmur yağdığında gürler;",
+          "Ve oyuncular seni sadece oyun oynarken severler.",
+          "Kadınlar; gelirler ve giderler...",
+          "Yağmur seni yıkayıp temizlediğinde, her şeyi anlayacaksın."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Post Malone",
+        "lines": [
+          "You will know",
+          "You will know",
+          "You will know",
+          "You will know, oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Post Malone",
+        "lines": [
+          "Anlayacaksın...",
+          "Bileceksin her şeyi..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Post Malone",
+        "lines": [
+          "'Cause I got dreams, don't hold me down",
+          "So I'ma let you free, don't wanna hold you out",
+          "I'ma leave when the sun comes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Post Malone",
+        "lines": [
+          "Çünkü benim hayallerim var, sakın beni geri çekme;",
+          "Bu yüzden seni özgür bırakacağım, seni engellemek istemiyorum.",
+          "Güneş doğduğunda buralardan gitmiş olacağım..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Thunder only happens when it's raining",
+          "And players only love you when they're playing, ayy",
+          "Say, women, they will come and they will go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Gök sadece yağmur yağdığında gürler;",
+          "Ve oyuncular seni sadece oyun oynarken severler..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude",
+        "lines": [
+          "Go, go",
+          "Go, go-o-o",
+          "Go-o-o, go-o-o",
+          "Go-o-o",
+          "Part II: Come Down"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude",
+        "lines": []
+      },
+      {
+        "original": true,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "I thought that I would learn by now",
+          "(I would learn by now)",
+          "I thought that I would never come down",
+          "(I would never come down, oh)",
+          "Just last night we was going so hard (So hard)",
+          "But now I can't feel my heart (Heart)",
+          "And yeah, let me down easy (easy)",
+          "Don't let me down rough (Rough)",
+          "Don't let me go to sleep",
+          "Getting up is gon' be tough (Tough)",
+          "They was all actin' sleazy",
+          "They all said I was the one (The one)",
+          "And with any damn luck",
+          "I'ma wake up with the sun (Hope I wake)",
+          "Hope I wake up with the sun this morning (Oh)",
+          "I hope I wake up with the sun this morning (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Şimdiye kadar öğrenmiş olmam gerekirdi; (Çoktan öğrenmeliydim)",
+          "Bu \"yükseklikten\" asla aşağı inmeyeceğimi sanmıştım... (Asla inmem sanmıştım)",
+          "Daha dün gece her şeyi \"uçlarda\" yaşıyorduk;",
+          "Ama şimdi kalbimi bile hissedemiyorum...",
+          "Evet, beni yavaşça yere bırak;",
+          "Sertçe bırakma beni yere...",
+          "Uyumama izin verme sakın;",
+          "Çünkü uyanmak çok zor olacak...",
+          "Hepsi ne kadar da samimiyetsiz davranıyordu;",
+          "Hepsi \"o tek ve biricik\" kişinin ben olduğunu söylüyordu...",
+          "Eğer birazcık şansım varsa;",
+          "Bu sabah güneşle birlikte uyanırım... (Umarım uyanırım)",
+          "Umarım bu sabah o güneşi görürüm..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse: Post Malone",
+        "lines": [
+          "And let it pour, let it pour, let it pour, let me roll (Woo-ooh)",
+          "Man, I'm on a roll, I'm so up in my zone",
+          "They thought that I was fuckin' done with Iverson",
+          "But I'm still ballin' on these bitches, let 'em know",
+          "I just want everything, I want it all in advance (Woo-ooh)",
+          "They just want me call it quits",
+          "Homie, just roll up a cig",
+          "Lil Posty don't fuck with y'all",
+          "Never been fuckin' with y'all (Woo-ooh)",
+          "We pull up, they standing in awe",
+          "Yeah, your bitch, she know who we are"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse: Post Malone",
+        "lines": [
+          "Bırak yağsın, yağsın, aksın gitsin; bırak süzüleyim...",
+          "Dostum, tam havamdayım, kendi dünyamın içindeyim.",
+          "\"Iverson\" dönemimin bittiğini sanıyorlardı;",
+          "Ama ben hala bu sürtüklerin üzerinde \"büyük oynuyorum\", bilsinler artık!",
+          "Her şeyi istiyorum, hem de hepsini önceden istiyorum...",
+          "Onlar ise sadece pes etmemi bekliyorlar.",
+          "Dostum, sadece bir sigara sar...",
+          "Küçük Posty’nin (benim) sizinle işi olmaz hiç;",
+          "Sizinle harbi hiçbir zaman işim olmadı zaten!",
+          "Biz mekana girdiğimizde, hepsi hayranlıkla bakakalır;",
+          "Evet, senin hatunun bile bizim kim olduğumuzu çok iyi biliyor!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "I thought that I would learn by now (By now, woo-ooh)",
+          "I thought that I would never come down (Come down)",
+          "(Woo) Just last night we was going so hard (Woo-ooh)",
+          "But now I can't feel my heart",
+          "And yeah, let me down easy",
+          "Don't let me down rough (Oh)",
+          "Don't let me go to sleep",
+          "Getting up is gon' be tough (Ooh)",
+          "They was all actin' sleazy",
+          "They all said I was the one (Oh-whoa)",
+          "And with any damn luck",
+          "I'ma wake up with the sun",
+          "(Ooh) Hope I wake up with the sun this morning (Ooh)",
+          "I hope I wake up with the sun this morning (Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Post Malone",
+        "lines": [
+          "Şimdiye kadar öğrenmiş olmam gerekirdi;",
+          "Hiç aşağı inmeyeceğimi sanmıştım...",
+          "Daha dün gece uçuşlardaydık;",
+          "Ama şimdi kalbimi bile hissedemiyorum.",
+          "Beni yavaşça yere bırak...",
+          "Sertçe bırakma sakın...",
+          "Uyumama izin verme;",
+          "Çünkü uyanmak çok zor olacak..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Post Malone",
+        "lines": [
+          "Ooh, ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Post Malone",
+        "lines": [
+          "Ooh, ooh..."
+        ]
+      }
+    ],
+    "excerpt": "Ah, mm",
+    "annotations": {
+      "Rodeo": "“Rodeo”: Beverly Hills’teki meşhur lüks alışveriş caddesi Rodeo Drive.",
+      "Fleetwood": "“Fleetwood”: Efsanevi grup Fleetwood Mac; şarkının nakaratı onların \"Dreams\" şarkısından esinlenilmiştir.",
+      "Iverson": "“Iverson”: Post Malone’un çıkış hiti \"White Iverson\"a atıf; başarısının geçici olduğunu sananlara cevap veriyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2AWeWGtArpcK4ZTpPnXGfR",
+        "name": "Hollywood Dreams / Come Down",
+        "url": "https://open.spotify.com/track/2AWeWGtArpcK4ZTpPnXGfR",
+        "isrc": "USUM72605266",
+        "durationMs": 301506,
+        "duration": "5:02",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "url": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "url": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "album": {
+        "id": "6plj5TlnaY3rCX0wDoulQc",
+        "name": "August 26",
+        "url": "https://open.spotify.com/album/6plj5TlnaY3rCX0wDoulQc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943",
+        "artists": [
+          {
+            "id": "246dkjvS1zLTtiykXe5h60",
+            "name": "Post Malone",
+            "url": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          }
+        ],
+        "releaseDate": "2026-08-26",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Mercury Records/Republic Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Mercury Records/Republic Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "5m2bi24Cc5ABIC14HFJmrs",
+            "name": "Never Understand",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 271573,
+            "duration": "4:32",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5m2bi24Cc5ABIC14HFJmrs",
+            "isCurrent": false
+          },
+          {
+            "id": "3wQTfgNJg90kbxXiu2lD2g",
+            "name": "Money Made Me Do It",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 230093,
+            "duration": "3:50",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3wQTfgNJg90kbxXiu2lD2g",
+            "isCurrent": false
+          },
+          {
+            "id": "5c9Uyjh4J1tgMpvPc6dRHx",
+            "name": "Git Wit U",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 144360,
+            "duration": "2:24",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5c9Uyjh4J1tgMpvPc6dRHx",
+            "isCurrent": false
+          },
+          {
+            "id": "0dSgNSH3NFLhftecOSpzeh",
+            "name": "God Damn",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 180840,
+            "duration": "3:01",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0dSgNSH3NFLhftecOSpzeh",
+            "isCurrent": false
+          },
+          {
+            "id": "1vkZx3z5H0uVvrrCsMMn6I",
+            "name": "Fuck",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 213746,
+            "duration": "3:34",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1vkZx3z5H0uVvrrCsMMn6I",
+            "isCurrent": false
+          },
+          {
+            "id": "2iBXoEgsM7sIaBa2UKCeFf",
+            "name": "40 Funk",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 264146,
+            "duration": "4:24",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2iBXoEgsM7sIaBa2UKCeFf",
+            "isCurrent": false
+          },
+          {
+            "id": "3eqjedosKjwKzKFdhWqmbh",
+            "name": "Monta",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 234813,
+            "duration": "3:55",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3eqjedosKjwKzKFdhWqmbh",
+            "isCurrent": false
+          },
+          {
+            "id": "2AWeWGtArpcK4ZTpPnXGfR",
+            "name": "Hollywood Dreams / Come Down",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 301506,
+            "duration": "5:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2AWeWGtArpcK4ZTpPnXGfR",
+            "isCurrent": true
+          },
+          {
+            "id": "6mb8N7EPqXIhaeLzOIBS8I",
+            "name": "Lonely",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 254946,
+            "duration": "4:15",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6mb8N7EPqXIhaeLzOIBS8I",
+            "isCurrent": false
+          },
+          {
+            "id": "689A4vi9XLlNxcDkkIPbIP",
+            "name": "Oh God",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 170893,
+            "duration": "2:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/689A4vi9XLlNxcDkkIPbIP",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T07:57:53.163Z",
+      "trackUrl": "https://open.spotify.com/track/2AWeWGtArpcK4ZTpPnXGfR",
+      "albumUrl": "https://open.spotify.com/album/6plj5TlnaY3rCX0wDoulQc",
+      "artistUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+      "albumName": "August 26",
+      "albumType": "Album",
+      "releaseDate": "2026-08-26",
+      "duration": "5:02",
+      "isrc": "USUM72605266",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c74f1b6b6aca1217a9bb8943"
+    },
+    "genius": {
+      "url": "https://genius.com/Post-malone-hollywood-dreams-come-down-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=8Yxn4RCZrGo",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/august-26/6799168319",
+    "seo": {
+      "title": "Post Malone Hollywood Dreams / Come Down Türkçe Çeviri",
+      "description": "Post Malone – Hollywood Dreams / Come Down şarkı sözleri ve özenli Türkçe çevirisi. August 26 albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/post-malone-hollywood-dreams-come-down-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5259",
     "title": "SF9 Without Wings Türkçe Çeviri",
     "song": "Without Wings",
