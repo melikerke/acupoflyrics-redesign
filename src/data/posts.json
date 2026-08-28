@@ -1,5 +1,1551 @@
 [
   {
+    "id": "5269",
+    "title": "Charlie Puth One Call Away Türkçe Çeviri",
+    "song": "One Call Away",
+    "slug": "charlie-puth-one-call-away-turkce-ceviri",
+    "date": "2026-08-28T08:06:36.784Z",
+    "artist": "Charlie Puth",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Charlie Puth",
+      "One Call Away"
+    ],
+    "category_slugs": [
+      "charlie-puth",
+      "one-call-away"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm only one call away",
+          "I'll be there to save the day",
+          "Superman got nothing on me",
+          "I'm only one call away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sadece bir telefon uzağındayım;",
+          "Günü kurtarmak için hemen orada olacağım.",
+          "Superman bile benimle yarışamaz;",
+          "Ben sadece bir telefon uzağındayım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Call me, baby, if you need a friend",
+          "I just wanna give you love",
+          "C'mon, c'mon, c'mon",
+          "Reaching out to you, so take a chance"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Beni ara bebeğim, eğer bir dosta ihtiyacın olursa;",
+          "Sadece sana sevgimi vermek istiyorum.",
+          "Hadi, hadi artık...",
+          "Elimi sana uzatıyorum, hadi bu şansı değerlendir."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "No matter where you go",
+          "You know you're not alone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Nereye gidersen git;",
+          "Yalnız olmadığını biliyorsun artık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm only one call away",
+          "I'll be there to save the day",
+          "Superman got nothing on me",
+          "I'm only one call away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sadece bir telefon uzağındayım;",
+          "Günü kurtarmak için hemen orada olacağım.",
+          "Superman bile yanımda hiç kalır;",
+          "Ben sadece bir telefon uzağındayım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Come along with me and don't be scared",
+          "I just wanna set you free",
+          "C'mon, c'mon, c'mon",
+          "You and me can make it anywhere",
+          "But for now we could stay here for a while (Hey)",
+          "'Cause you know I just wanna see you smile"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Benimle gel ve sakın korkma;",
+          "Seni sadece özgür kılmak istiyorum.",
+          "Hadi, hadi, hadi...",
+          "Sen ve ben, her yerde her şeyi başarabiliriz.",
+          "Ama şimdilik, burada biraz daha kalabiliriz; (Hey!)",
+          "Çünkü biliyorsun, tek istediğim senin gülümsemen..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "No matter where you go",
+          "You know you're not alone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Nereye gidersen git;",
+          "Yalnız olmadığını biliyorsun artık."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm only one call away",
+          "I'll be there to save the day",
+          "Superman got nothing on me",
+          "I'm only one call away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sadece bir telefon uzağındayım;",
+          "Günü kurtarmak için hemen orada olacağım.",
+          "Superman bile yanımda hiç kalır;",
+          "Ben sadece bir telefon uzağındayım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "And when you're weak, I'll be strong",
+          "I'm gonna keep holding on",
+          "Now don't you worry, it won't be long, darling",
+          "And when you feel like hope is gone",
+          "Just run into my arms"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Ve sen zayıf düştüğünde, ben güçlü olacağım;",
+          "Seni sıkıca tutmaya devam edeceğim.",
+          "Şimdi sakın endişelenme, uzun sürmeyecek sevgilim;",
+          "Ve ne zaman umudun tükenmiş gibi hissedersen;",
+          "Sadece koş ve kollarıma atıl!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm only one call away",
+          "I'll be there to save the day",
+          "Superman got nothing on me",
+          "I'm only one, I'm only one call away",
+          "I'll be there to save the day",
+          "Superman got nothing on me",
+          "I'm only one call away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sadece bir telefon uzağındayım;",
+          "Günü kurtarmak için hemen orada olacağım.",
+          "Superman bile benimle yarışamaz;",
+          "Sadece bir, sadece bir telefon uzağındayım!",
+          "Günü kurtarmak için orada olacağım;",
+          "Superman yanımda hiç kalır;",
+          "Sadece bir telefon uzağındayım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "I'm only one call away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Sadece bir telefon uzağındayım..."
+        ]
+      }
+    ],
+    "excerpt": "I'm only one call away",
+    "annotations": {
+      "Superman yanımda hiç kalır": "“Superman got nothing on me”: \"Superman yanımda hiç kalır\" veya \"Superman'den daha hızlı ve güçlüyüm\" anlamındaki iddialı ve sevimli bir kıyaslama."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2uEJanMvnA1dXgX1ASnPQm",
+        "name": "One Call Away",
+        "url": "https://open.spotify.com/track/2uEJanMvnA1dXgX1ASnPQm",
+        "isrc": "USAT21502703",
+        "durationMs": 192075,
+        "duration": "3:12",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6VuMaDnrHyPL1p4EHjYLi7",
+          "name": "Charlie Puth",
+          "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7"
+        }
+      ],
+      "album": {
+        "id": "2xxwxdvN2zjplMH7gsy2QM",
+        "name": "One Call Away",
+        "url": "https://open.spotify.com/album/2xxwxdvN2zjplMH7gsy2QM",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18",
+        "artists": [
+          {
+            "id": "6VuMaDnrHyPL1p4EHjYLi7",
+            "name": "Charlie Puth",
+            "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7"
+          }
+        ],
+        "releaseDate": "2015-08-05",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2015 Artist Partner Group, Inc",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2015 Artist Partner Group, Inc",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "2uEJanMvnA1dXgX1ASnPQm",
+            "name": "One Call Away",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 192075,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2uEJanMvnA1dXgX1ASnPQm",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-28T08:06:36.744Z",
+      "trackUrl": "https://open.spotify.com/track/2uEJanMvnA1dXgX1ASnPQm",
+      "albumUrl": "https://open.spotify.com/album/2xxwxdvN2zjplMH7gsy2QM",
+      "artistUrl": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+      "albumName": "One Call Away",
+      "albumType": "Single",
+      "releaseDate": "2015-08-05",
+      "duration": "3:12",
+      "isrc": "USAT21502703",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18"
+    },
+    "genius": {
+      "url": "https://genius.com/Charlie-puth-one-call-away-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=BxuY9FET9Y4",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/one-call-away/1031416178?i=1031416179",
+    "seo": {
+      "title": "Charlie Puth One Call Away Türkçe Çeviri",
+      "description": "Charlie Puth – One Call Away şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/charlie-puth-one-call-away-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5268",
+    "title": "Lennon Stella Unforgivable Things Türkçe Çeviri",
+    "song": "Unforgivable Things",
+    "slug": "lennon-stella-unforgivable-things-turkce-ceviri",
+    "date": "2026-08-28T08:06:36.784Z",
+    "artist": "Lennon Stella",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Lennon Stella",
+      "Unforgivable Things"
+    ],
+    "category_slugs": [
+      "lennon-stella",
+      "unforgivable-things"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "It's the funeral you don't go to",
+          "It's a lie without a conscience",
+          "It's doing the thing you swore you'd never do again",
+          "It's pretending like you're trying",
+          "When you don't give a shit",
+          "It's giving someone hope when you know you've lost it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Gitmeye tenezzül etmediğin o cenaze gibidir bu...",
+          "Vicdan azabı duymadan söylenen o koca bir yalan;",
+          "\"Asla bir daha yapmayacağım\" diye yemin edip, yine o haltı yemek...",
+          "Sanki çabalıyormuşsun gibi rol yapmak,",
+          "Oysa zerre umrunda bile değilken...",
+          "Kendi umudunu çoktan yitirmişken, birine umut vermek..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I wanna be around you",
+          "I want you to stay",
+          "But if you don't wanna be here",
+          "Say something",
+          "You don't have to get so close to doing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Yanında olmak istiyorum;",
+          "Kalmanı istiyorum.",
+          "Ama eğer burada olmak istemiyorsan;",
+          "Bir şeyler söyle artık.",
+          "Böylesine...",
+          "Yapmak zorunda değilsin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Unforgivable things",
+          "Unforgivable things"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Affedilemez şeyler...",
+          "Affedilemez şeyler bunlar."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "It's talking someone out of",
+          "Seeing it for what it is",
+          "It's knowing that you're wrong, but still not giving in",
+          "It's telling her that you love her",
+          "Just to get her into bed",
+          "It's not sticking in the knife, it's when you're twisting it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Birini, gerçekleri olduğu gibi görmekten",
+          "Vazgeçirmeye (manipüle etmeye) çalışmaktır bu...",
+          "Hatalı olduğunu bilip de, yine de geri adım atmamak...",
+          "Sırf onu yatağa atabilmek için,",
+          "Seni sevdiğini söylemektir o kıza.",
+          "Mesele bıçağı saplamak değil aslında;",
+          "Asıl mesele, o bıçağı içeride \"çevirmektir\"."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I wanna be around you",
+          "I want you to stay",
+          "But if you don't wanna be here",
+          "Say something",
+          "You don't have to get so close to doing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Yanında olmak istiyorum;",
+          "Kalmanı istiyorum.",
+          "Ama eğer burada olmak istemiyorsan;",
+          "Bir şeyler söyle artık.",
+          "Böylesine...",
+          "Yapmak zorunda değilsin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Unforgivable things",
+          "Unforgivable things",
+          "Unforgivable things",
+          "Unforgivable things"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Affedilemez şeyler bunlar...",
+          "Affedilemez şeyler...",
+          "Bağışlanmayacak günahlar bunlar.",
+          "Affedilemez şeyler..."
+        ]
+      }
+    ],
+    "excerpt": "It's the funeral you don't go to",
+    "annotations": {
+      "geri adım atmamak": "“Giving in”: Teslim olmak, bir durumu kabul etmek. Karakterin haksız olmasına rağmen egosundan dolayı geri adım atmama inadını simgeliyor.",
+      "bıçağı içeride \"çevirmektir": "“Twisting the knife”: Birine sadece zarar vermekle kalmayıp, o acıyı daha da derinleştirmek ve işkence etmek anlamındaki meşhur deyim."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2Zj7NczSaCllfU2QGaevYB",
+        "name": "Unforgivable Things",
+        "url": "https://open.spotify.com/track/2Zj7NczSaCllfU2QGaevYB",
+        "isrc": "USQX92603706",
+        "durationMs": 155017,
+        "duration": "2:35",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1cZQSpDsxgKIX2yW5OR9Ot",
+        "name": "Lennon Stella",
+        "url": "https://open.spotify.com/artist/1cZQSpDsxgKIX2yW5OR9Ot",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb66dc7de5c2859688c562280c",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1cZQSpDsxgKIX2yW5OR9Ot",
+          "name": "Lennon Stella",
+          "url": "https://open.spotify.com/artist/1cZQSpDsxgKIX2yW5OR9Ot"
+        }
+      ],
+      "album": {
+        "id": "2Q268vFBrWzAj28Hv7vtgC",
+        "name": "Unforgivable Things",
+        "url": "https://open.spotify.com/album/2Q268vFBrWzAj28Hv7vtgC",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13",
+        "artists": [
+          {
+            "id": "1cZQSpDsxgKIX2yW5OR9Ot",
+            "name": "Lennon Stella",
+            "url": "https://open.spotify.com/artist/1cZQSpDsxgKIX2yW5OR9Ot"
+          }
+        ],
+        "releaseDate": "2026-08-27",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 Records Label, LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "2Zj7NczSaCllfU2QGaevYB",
+            "name": "Unforgivable Things",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 155017,
+            "duration": "2:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Zj7NczSaCllfU2QGaevYB",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-28T08:06:36.438Z",
+      "trackUrl": "https://open.spotify.com/track/2Zj7NczSaCllfU2QGaevYB",
+      "albumUrl": "https://open.spotify.com/album/2Q268vFBrWzAj28Hv7vtgC",
+      "artistUrl": "https://open.spotify.com/artist/1cZQSpDsxgKIX2yW5OR9Ot",
+      "albumName": "Unforgivable Things",
+      "albumType": "Single",
+      "releaseDate": "2026-08-27",
+      "duration": "2:35",
+      "isrc": "USQX92603706",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13"
+    },
+    "genius": {
+      "url": "https://genius.com/Lennon-stella-unforgivable-things-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=2VN0zjo1SC8",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/unforgivable-things/6792847889?i=6792847896",
+    "seo": {
+      "title": "Lennon Stella Unforgivable Things Türkçe Çeviri",
+      "description": "Lennon Stella – Unforgivable Things şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/lennon-stella-unforgivable-things-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5267",
+    "title": "OneRepublic Pay That Toll Türkçe Çeviri",
+    "song": "Pay That Toll",
+    "slug": "onerepublic-pay-that-toll-turkce-ceviri",
+    "date": "2026-08-28T08:06:36.784Z",
+    "artist": "OneRepublic",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "OneRepublic",
+      "Pay That Toll"
+    ],
+    "category_slugs": [
+      "onerepublic",
+      "pay-that-toll"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "People always tell me",
+          "\"There ain't nothing in this life that come free,\" come free",
+          "You can make a little bit of money",
+          "But it don't grow on trees, mhm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "İnsanlar bana hep şöyle der;",
+          "\"Bu hayatta hiçbir şey bedavaya gelmez,\" bedava olmaz...",
+          "Birazcık para kazanabilirsin belki;",
+          "Ama o paralar da öyle ağaçta yetişmez, mhm."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Yeah, put it on black, ring that bell",
+          "And throw a little coin down the wishing well",
+          "Yeah, you can go fast, fast as hell",
+          "But push it too hard, you're gonna wreck yourself"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Evet, her şeyi \"siyaha\" yatır (kumar), çal o zili;",
+          "Ve dilek kuyusuna bir bozukluk at bakalım.",
+          "Evet, hızlı gidebilirsin; hem de cehennem ateşi kadar hızlı...",
+          "Ama fazla zorlarsan eğer, sonunda kendini paramparça edersin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh, mama said, \"Boy, you should go slow",
+          "Been burning up and down that road\"",
+          "Oh, you think you got time, but before you know",
+          "Someday you're gonna pay that toll"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh, annem derdi ki; \"Oğlum, ağırdan almalısın;",
+          "Şu yollarda kendini yakıp duruyorsun...\"",
+          "Oh, vaktin var sanıyorsun ama bir de bakmışsın;",
+          "Günün birinde o \"bedeli\" ödeme vaktin gelmiş."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh-oh, oh-oh",
+          "Someday you're gonna pay that toll",
+          "Oh-oh, oh-oh",
+          "Someday you're gonna pay that toll"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh-oh, oh-oh...",
+          "Günün birinde o bedeli ödeyeceksin.",
+          "Oh-oh, oh-oh...",
+          "Günün birinde o bedeli ödeyeceksin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "People always try to find the signs",
+          "Behind the things that they see, they see",
+          "Might be something, might be nothing",
+          "Might be everything that you need, oh-oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "İnsanlar hep bir işaret arayıp dururlar;",
+          "Gördükleri her şeyin arkasında, o sahte dünyada...",
+          "Belki bir anlamı vardır, belki de koca bir hiçtir;",
+          "Belki de tam da ihtiyacın olan her şeydir o, oh-oh."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "So you put it on black, yeah, you ring that bell",
+          "You throw a little coin down the wishing well",
+          "Yeah, you can go fast, fast as hell",
+          "But push it too hard, you're gonna wreck yourself"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "O yüzden her şeyini siyaha yatırıyorsun, çalıyorsun o zili;",
+          "Dilek kuyusuna bir bozukluk fırlatıyorsun...",
+          "Evet, hızlı gidebilirsin, hem de çok hızlı;",
+          "Ama fazla zorlarsan, kendini mahvedersin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh, mama said, \"Boy, you should go slow",
+          "Been burning up and down that road\"",
+          "Oh, you think you got time, but before you know",
+          "Someday you're gonna pay that toll"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh, annem derdi ki; \"Oğlum, ağırdan almalısın;",
+          "Şu yollarda kendini yakıp duruyorsun...\"",
+          "Oh, vaktin var sanıyorsun ama bir de bakmışsın;",
+          "Günün birinde o bedeli ödeme vaktin gelmiş."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Ooh-ooh, you're gonna pay, you're gonna pay that toll (Oh yeah)",
+          "Ooh-ooh, you're gonna pay, you're gonna pay that toll (Ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Ooh-ooh, ödeyeceksin; o bedeli mutlaka ödeyeceksin (Oh evet)!",
+          "Ooh-ooh, ödeyeceksin o bedeli sonunda..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "Oh, mama said, \"Boy, you should go slow",
+          "Been burning up and down that road\"",
+          "Oh, you're crossing that line, but everybody knows",
+          "Someday you're gonna pay that toll"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Oh, annem derdi ki; \"Oğlum, yavaşlamalısın;",
+          "Şu yollarda kendini heba edip duruyorsun...\"",
+          "Oh, o sınırı aşıyorsun artık, herkes farkında bunun;",
+          "Günün birinde o bedeli ödeyeceksin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Oh, mama said, \"Boy, you should go slow (You're gonna pay)",
+          "Been burning up and down that road\" (You're gonna pay that toll)",
+          "Oh, you think you got time, but before you know (You're gonna pay)",
+          "Someday you're gonna pay that toll (You're gonna pay)",
+          "Pay that toll"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Oh, annem dedi ki; \"Oğlum, yavaşlamalısın; (Ödeyeceksin!)",
+          "Yollarda kendini yakıp duruyorsun...\" (O bedeli ödeyeceksin!)",
+          "Oh, vaktin var sanıyorsun ama bir bakmışsın; (Ödeyeceksin!)",
+          "Günün birinde o bedeli ödeme vaktin gelmiş.",
+          "O bedeli ödeyeceksin..."
+        ]
+      }
+    ],
+    "excerpt": "People always tell me",
+    "annotations": {
+      "her şeyi \"siyaha\" yatır": "“Put it on black”: Ruletteki en riskli bahislerden biri. Hayatta her şeyi tek bir ihtimale bağlayıp büyük risk almayı simgeliyor.",
+      "o \"bedeli\" ödeme vaktin gelmiş": "“Toll”: Hem otoyol geçiş ücreti hem de bir hatanın sonucunda ödenen bedel/hasar anlamında kullanılan zekice bir kelime oyunu."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "27vUVky3YOxLK8o7mGlCyp",
+        "name": "Pay That Toll",
+        "url": "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp",
+        "isrc": "QMRSZ2602055",
+        "durationMs": 167553,
+        "duration": "2:48",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic",
+        "url": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5Pwc4xIPtQLFEnJriah9YJ",
+          "name": "OneRepublic",
+          "url": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ"
+        }
+      ],
+      "album": {
+        "id": "43xlz2NkEE6ScD7HMXiSRh",
+        "name": "Pay That Toll",
+        "url": "https://open.spotify.com/album/43xlz2NkEE6ScD7HMXiSRh",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6",
+        "artists": [
+          {
+            "id": "5Pwc4xIPtQLFEnJriah9YJ",
+            "name": "OneRepublic",
+            "url": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ"
+          }
+        ],
+        "releaseDate": "2026-08-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 OneRepublic, LLC under exclusive license to BMG Rights Management (US) LLC",
+            "type": "C"
+          },
+          {
+            "text": "2026 OneRepublic, LLC under exclusive license to BMG Rights Management (US) LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "27vUVky3YOxLK8o7mGlCyp",
+            "name": "Pay That Toll",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 167553,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-28T08:06:36.235Z",
+      "trackUrl": "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp",
+      "albumUrl": "https://open.spotify.com/album/43xlz2NkEE6ScD7HMXiSRh",
+      "artistUrl": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ",
+      "albumName": "Pay That Toll",
+      "albumType": "Single",
+      "releaseDate": "2026-08-28",
+      "duration": "2:48",
+      "isrc": "QMRSZ2602055",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6"
+    },
+    "genius": {
+      "url": "https://genius.com/Onerepublic-pay-that-toll-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=mzFnjFy0puY",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/pay-that-toll/6799269280?i=6799269282",
+    "seo": {
+      "title": "OneRepublic Pay That Toll Türkçe Çeviri",
+      "description": "OneRepublic – Pay That Toll şarkı sözleri ve özenli Türkçe çevirisi. Parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/onerepublic-pay-that-toll-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5266",
+    "title": "JENNIE FALLEN ANGEL Türkçe Çeviri",
+    "song": "FALLEN ANGEL",
+    "slug": "jennie-fallen-angel-turkce-ceviri",
+    "date": "2026-08-28T08:06:36.783Z",
+    "artist": "JENNIE",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "JENNIE",
+      "Fallen Angel"
+    ],
+    "category_slugs": [
+      "jennie",
+      "fallen-angel"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Feel the breeze in my fingers",
+          "Out the window",
+          "Close your eyes and I'll take you",
+          "Where the wind blows"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Pencereden dışarı uzattığım,",
+          "Parmaklarımın arasındaki o esintiyi hisset...",
+          "Kapat gözlerini, seni götüreceğim;",
+          "Rüzgarın estiği o her yere."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Tell me where I'm going",
+          "I'm searching, I'm searching, I'm searching",
+          "For a love",
+          "I'm searching, I'm searching, I'm searching",
+          "But you're gone",
+          "Without you is no fun"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Söyle bana nereye gidiyorum?",
+          "Arıyorum, arıyorum, arıyorum...",
+          "Bir sevda peşindeyim.",
+          "Arıyorum, arıyorum;",
+          "Ama sen yoksun...",
+          "Sensiz hiçbir şeyin tadı yok."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Hey, can't you stay?",
+          "Don't leave a fallen angel out here on her own",
+          "Find a place",
+          "Wherever we land is where we turn into a home",
+          "Can't you stay?",
+          "Don't leave a fallen angel out here on her own",
+          "Find a place",
+          "Wherever we land is where we turn into a home"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hey, kalamaz mısın?",
+          "Düşmüş bir meleği burada, yapayalnız bırakma.",
+          "Bize bir yer bul;",
+          "Nereye inersek inelim, orayı bir \"yuvaya\" dönüştürelim.",
+          "Kalamaz mısın?",
+          "Düşmüş bir meleği dışarıda, tek başına bırakma.",
+          "Bir yer bulalım;",
+          "Nereye konarsak konalım, orası olsun bizim yuvamız..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Home, home, home",
+          "(Turn into a home)",
+          "Home, go home",
+          "(Turn into a home)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Yuva, yuva, yuva...",
+          "(Bir yuvaya dönüşen...)",
+          "Evimize, hadi evimize gidelim.",
+          "(Orayı bir yuvaya çevirelim...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Steal me just for the night",
+          "We’re falling into the sky",
+          "Watching you light up",
+          "Let it burn forever",
+          "And you wanna keep",
+          "A piece of my love",
+          "That nobody could touch",
+          "It's you that I want to"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sadece bu geceliğine çal beni buralardan;",
+          "Gökyüzünün derinliklerine düşüyoruz seninle...",
+          "Senin o parlayışını izlerken,",
+          "Bırak sonsuza dek yansın bu ateş.",
+          "Ve sen saklamak istiyorsun;",
+          "Aşkımın o küçücük parçasını...",
+          "Kimsenin dokunamayacağı o parçayı.",
+          "İstediğim tek kişi sensin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Without you these wings are of no use",
+          "Been searching, searching for you",
+          "Take my hand and run"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sen yoksan, bu kanatların hiçbir hükmü yok.",
+          "Seni arayıp durdum, hep seni...",
+          "Tut elimi ve koşalım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Hey, can't you stay?",
+          "Don't leave a fallen angel out here on her own",
+          "Find a place",
+          "Wherever we land is where we turn into a home",
+          "Can't you stay?",
+          "Don't leave a fallen angel out here on her own",
+          "Find a place",
+          "Wherever we land is where we turn into a home"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hey, kalamaz mısın?",
+          "Düşmüş bir meleği burada, yapayalnız bırakma.",
+          "Bize bir yer bul;",
+          "Nereye inersek inelim, orayı bir yuvaya dönüştürelim.",
+          "Kalamaz mısın?",
+          "Düşmüş bir meleği dışarıda, tek başına bırakma.",
+          "Bir yer bulalım;",
+          "Nereye konarsak konalım, orası olsun bizim yuvamız..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Home, home, home",
+          "(Turn into a home)",
+          "Home, go home",
+          "(Turn into a home)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Yuva, yuva, yuva...",
+          "(Bir yuvaya dönüşen...)",
+          "Evimize, hadi evimize gidelim.",
+          "(Orayı bir yuvaya çevirelim...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Don't, don't wanna go",
+          "Don't want you to leave me here",
+          "Don't, don't wanna go",
+          "Don't want you to leave me here",
+          "Don't, don't wanna go",
+          "Don't want you to leave me here",
+          "Don't, don't wanna go",
+          "Don't want you to leave me here"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Gitmek, gitmek istemiyorum hiç...",
+          "Beni burada bırakmanı istemiyorum.",
+          "Gitmek istemiyorum;",
+          "Beni burada öylece bırakma...",
+          "Gitmek, gitmek istemiyorum hiç...",
+          "Beni burada bırakmanı istemiyorum.",
+          "Gitmek istemiyorum;",
+          "Beni burada öylece bırakma..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Hey, can't you stay?",
+          "Don't leave a fallen angel out here on her own",
+          "Find a place",
+          "Wherever we land is where we turn into a home"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hey, kalamaz mısın?",
+          "Düşmüş bir meleği burada, yapayalnız bırakma.",
+          "Bize bir yer bul;",
+          "Nereye inersek inelim, orayı bir yuvaya dönüştürelim."
+        ]
+      }
+    ],
+    "excerpt": "Feel the breeze in my fingers",
+    "annotations": {},
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "75QkBCdRc5DGgcyPiVSg4b",
+        "name": "FALLEN ANGEL",
+        "url": "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+        "isrc": "USQX92604648",
+        "durationMs": 199166,
+        "duration": "3:19",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "250b0Wlc5Vk0CoUsaCY84M",
+        "name": "JENNIE",
+        "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3feb82fe1bb947a2aa65f6b8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "250b0Wlc5Vk0CoUsaCY84M",
+          "name": "JENNIE",
+          "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M"
+        }
+      ],
+      "album": {
+        "id": "2k3ICqEXZR7jmZESOqXxWx",
+        "name": "Fallen Angel",
+        "url": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+        "artists": [
+          {
+            "id": "250b0Wlc5Vk0CoUsaCY84M",
+            "name": "JENNIE",
+            "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M"
+          }
+        ],
+        "releaseDate": "2026-08-28",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 Columbia Records, a Division of Sony Music Entertainment, under exclusive license from OA ENTERTAINMENT, INC.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "75QkBCdRc5DGgcyPiVSg4b",
+            "name": "FALLEN ANGEL",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 199166,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+            "isCurrent": true
+          },
+          {
+            "id": "6uhCnqc4Tncn1vqkuGubPO",
+            "name": "HEAVEN",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 186720,
+            "duration": "3:07",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+            "isCurrent": false
+          },
+          {
+            "id": "0wufuctL2khYg953rfil7P",
+            "name": "Less than a Lover",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 145680,
+            "duration": "2:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0wufuctL2khYg953rfil7P",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-28T08:11:27.613Z",
+      "trackUrl": "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+      "albumUrl": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+      "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "albumName": "Fallen Angel",
+      "albumType": "EP",
+      "releaseDate": "2026-08-28",
+      "duration": "3:19",
+      "isrc": "USQX92604648",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a"
+    },
+    "genius": {
+      "url": "https://genius.com/Jennie-fallen-angel-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=s466YCiHfKw",
+    "source": "ai-studio-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/us/album/fallen-angel/6804046952?i=6804046959",
+    "seo": {
+      "title": "JENNIE FALLEN ANGEL Türkçe Çeviri",
+      "description": "JENNIE – FALLEN ANGEL şarkı sözleri ve özenli Türkçe çevirisi. Fallen Angel albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/jennie-fallen-angel-turkce-ceviri/"
+    }
+  },
+  {
+    "id": "5265",
+    "title": "Motive YIN YANG English Translation",
+    "song": "YIN YANG",
+    "slug": "motive-yin-yang-english-translation",
+    "date": "2026-08-27T09:28:08.994Z",
+    "artist": "Motive",
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "categories": [
+      "Motive",
+      "YIN YANG"
+    ],
+    "category_slugs": [
+      "motive",
+      "yin-yang"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Giriş",
+        "lines": [
+          "(FOB)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Giriş",
+        "lines": [
+          "(FOB)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Yürüdüğüm yollarda oldu bütün hayatım ziyan (Ziyan)",
+          "Artık birbirimiz için eskisi değiliz, inan (İnan bana)",
+          "(Tavsi—) Tavsiyemi bekleme, kendi kendine yan (Yan)",
+          "Bütünleştik diye düşünmüştüm, yin ve yang, yin ve yang, yin ve yang"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "On the paths I've walked, my whole life's gone to waste (To waste)",
+          "We're not who we used to be for each other, believe me (Believe me)",
+          "(Advi—) Don't wait for my advice, just burn on your own (Burn)",
+          "I thought we completed each other, yin and yang, yin and yang, yin and yang"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Umarım hayatın boyunca mutluluklar olur ve çocuklarınla",
+          "Seni çok daha iyi anlayan birisi, alkolle arası olmayan birisi",
+          "Veya istediğinde yüzde yüz seninle, seninle kendini unutan birisi",
+          "Benim seçeneğim daha erken verildi ve sabitlendim şeytanla",
+          "Gitmek zorundayım, sen beni bilirsin, sinirlenirim hep kaybedince",
+          "İçimde nelerin olduğunu merak ederdin hep kabuğuma çekildiğimde",
+          "Tavanı yüksek bi' hayal gücüm var ve kaybolurum koridorlarında",
+          "Şeytan hep fikrimi zorladığında, şeytan hiç fikrimi sormadığında"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "I hope you find happiness for the rest of your life, with your kids",
+          "Someone who understands you so much better, someone who doesn't have a problem with alcohol",
+          "Or someone who's one hundred percent there for you, who can lose themselves in you",
+          "My path was set earlier, and my fate was sealed with the devil",
+          "I have to go, you know me, I always get angry when I lose",
+          "You always wondered what was inside me when I withdrew into my shell",
+          "My imagination has high ceilings, and I get lost in its corridors",
+          "When the devil forces my hand, when the devil doesn't even ask for my opinion"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Yürüdüğüm yollarda oldu bütün hayatım ziyan (Ziyan)",
+          "Artık birbirimiz için eskisi değiliz, inan (İnan bana)",
+          "(Tavsi—) Tavsiyemi bekleme, kendi kendine yan (Yan)",
+          "Bütünleştik diye düşünmüştüm, yin ve yang, yin ve yang, yin ve yang"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "On the paths I've walked, my whole life's gone to waste (To waste)",
+          "We're not who we used to be for each other, believe me (Believe me)",
+          "(Advi—) Don't wait for my advice, just burn on your own (Burn)",
+          "I thought we completed each other, yin and yang, yin and yang, yin and yang"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Umarım hayatın boyunca sıcak bi' yatak, samimi bi' sarılış bulursun",
+          "Hepsiyle boğuştum bir bir, acımadılar, sırtımda bıçakları unuttum",
+          "Bi' yerde durursun, insansın, bi' yerde durursun, durmadım, diplere kavuştum",
+          "Dipleri severim, diplerim benim (Oysaki göklere âşıktım, ah)",
+          "Gitmek zorunda mı? İnan ki bilmem, ne bilsem bildiğim şey başıma bela",
+          "\"Bilmediklerimin peşinde kayboldum\" oldu \"Ner'deydin?\" diye sorduğunda cevap",
+          "Rüyamda buluştum gece seninle, öptüm bi' daha öpemiy'cekmiş gibi",
+          "Beni istemiyo' bedenim bile, farkında bi' hiçliğe sürüklediğimi her şeyimi"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "I hope for the rest of your life, you find a warm bed, a genuine embrace",
+          "I fought them all, one by one, they showed no mercy, I even forgot about the knives in my back",
+          "At some point you stop, you're human, you're supposed to stop—I didn't, and I hit rock bottom",
+          "I love the bottom, the bottom is mine (And yet, I used to be in love with the sky, ah)",
+          "Do I have to go? Honestly, I don't know, whatever I know just brings me trouble",
+          "“I got lost chasing the unknown” became my answer when you asked “Where were you?”",
+          "I met you in my dream last night, kissed you as if I could never kiss you again",
+          "Even my own body rejects me, I'm aware that I'm dragging everything I have into nothingness"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Yürüdüğüm yollarda oldu bütün hayatım ziyan (Ziyan)",
+          "Artık birbirimiz için eskisi değiliz, inan (İnan bana)",
+          "(Tavsi—) Tavsiyemi bekleme, kendi kendine yan (Yan)",
+          "Bütünleştik diye düşünmüştüm, yin ve yang, yin ve yang, yin ve yang"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "On the paths I've walked, my whole life's gone to waste (To waste)",
+          "We're not who we used to be for each other, believe me (Believe me)",
+          "(Advi—) Don't wait for my advice, just burn on your own (Burn)",
+          "I thought we completed each other, yin and yang, yin and yang, yin and yang"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış",
+        "lines": [
+          "(Yin ve yang)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Çıkış",
+        "lines": [
+          "(Yin and yang)"
+        ]
+      }
+    ],
+    "excerpt": "On the paths I've walked, my whole life's gone to waste (To waste)",
+    "annotations": {
+      "my whole life's gone to waste": "The Turkish phrase “Bütün hayatım ziyan oldu” is especially forceful. It conveys not only lost time, but also wasted potential, effort, and hope. “Gone to waste” preserves that sense of helplessness.",
+      "burn on your own": "“Burn” is figurative here: to suffer and wear oneself down. The line is a harsh way of saying, “I cannot help you or offer advice; you must face your pain alone.”",
+      "my fate was sealed with the devil": "The original line “Sabitlendim şeytanla” suggests that the narrator has made an inescapable pact with his darker side, destructive habits, or inner demons. “My fate was sealed” preserves that sense of inevitability.",
+      "knives in my back": "The image suggests so many betrayals—being stabbed in the back—that the narrator has become numb to the pain and begun to treat it as normal.",
+      "hit rock bottom": "“Hit rock bottom” is the idiomatic English equivalent of “diplere kavuşmak”: reaching the lowest possible point in one's life.",
+      "the bottom is mine": "This is one of the song's strongest contrasts. The narrator has embraced rock bottom so fully that it now feels like his own place, while the parenthetical recalls how hopeful and dream-driven he once was.",
+      "Even my own body rejects me": "This line expresses an extreme form of self-loathing: the narrator feels so alienated from himself that even his body seems to cast him out."
+    },
+    "difficulty_note": "This is a deeply personal and melancholic song about the end of a relationship and the immense regret that follows. The title “Yin and Yang” refers to the idea that the two people in the relationship thought they were a perfect, complementary pair, but it turned out to be an illusion. The lyrics are a raw confession of personal demons, self-destruction, and the painful acceptance that some things are broken beyond repair.",
+    "spotify": {
+      "track": {
+        "id": "3e0XM5ARlFVbWLfdR7zZvp",
+        "name": "YIN YANG",
+        "url": "https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp",
+        "isrc": "US7VG2610949",
+        "durationMs": 180923,
+        "duration": "3:01",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6sBSLIunx1Je0Y2T77wpkP",
+        "name": "Motive",
+        "url": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0512d2bb2a5fbbf46e29433f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6sBSLIunx1Je0Y2T77wpkP",
+          "name": "Motive",
+          "url": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+        }
+      ],
+      "album": {
+        "id": "5zTpynQLSJo8yiG5U8rJXn",
+        "name": "YIN YANG",
+        "url": "https://open.spotify.com/album/5zTpynQLSJo8yiG5U8rJXn",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+        "artists": [
+          {
+            "id": "6sBSLIunx1Je0Y2T77wpkP",
+            "name": "Motive",
+            "url": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP"
+          }
+        ],
+        "releaseDate": "2026-02-27",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 Savana",
+            "type": "C"
+          },
+          {
+            "text": "2026 Savana",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "3e0XM5ARlFVbWLfdR7zZvp",
+            "name": "YIN YANG",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 180923,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-27T09:28:07.436Z",
+      "trackUrl": "https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp",
+      "albumUrl": "https://open.spotify.com/album/5zTpynQLSJo8yiG5U8rJXn",
+      "artistUrl": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP",
+      "albumName": "YIN YANG",
+      "albumType": "Single",
+      "releaseDate": "2026-02-27",
+      "duration": "3:01",
+      "isrc": "US7VG2610949",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f"
+    },
+    "genius": {
+      "url": "https://genius.com/Motive-yin-yang-lyrics",
+      "songId": 12664243,
+      "description": "“YIN YANG”, Motive'nin UZI ile ortak albüm projesi Mortal Kombat‘tan sonra yayımlanan şarkısıdır. Şarkıda Motive, genel olarak karşısındaki kişiye karşı kendisini yeterli görmediğini esas alıyor ve ardından gerçekleşen ayrılıktan bahsetmektedir. Ayrıca Yin ve yang sembolü de şarkının ana teması olarak görülmektedir.Motive, şarkıyı ilk defa 7 Kasım 2025'te paylaştığı Instagram hikâyesinde paylaştı. Ardından aylar sonra, 25 Ocak 2026'da gerçekleşen Bostancı Gösteri Merkezi konserinde Motive, şarkının daha geniş versiyonunu dinleyicilere dinletti.Konserin ardından şarkı sosyal medyada viral hâline geldi. Bunun ardından 4 Şubat'ta Motive, X (Twitter) hesabı üzerinden gönderi paylaştı ve şunu ekledi:biliyorum, hissediyorum..ying yang istiyorsunuz.İki gün sonra, 7 Şubat'ta Motive, Instagram hikâye üzerinden parçadan başka bir kesit paylaştı. 16 Şubat tarihindeki Denizli konserinde ise şarkının tamamını ilk defa dinletti.Şarkının yayım tarihinin 27 Şubat'ta olacağı 23 Şubat tarihinde Motive'nin paylaştığı tanıtımlar ile duyuruldu.11 Haziran'da yayımlanan parça listesi aracılığıyla, şarkının Motive'nin beşinci solo stüdyo albümü PASAJ‘da olacağı kesinleşti."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=lDpXhLzJQsA",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5264",
     "title": "Dolly Parton Coat of Many Colors Türkçe Çeviri",
     "song": "Coat of Many Colors",

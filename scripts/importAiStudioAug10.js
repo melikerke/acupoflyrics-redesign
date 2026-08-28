@@ -37,6 +37,8 @@ const AUG26_INPUT = path.join(process.cwd(), "scripts/aiStudioAug26.raw.json");
 const AUG26_REPORT = "/tmp/acupoflyrics-ai-studio-aug26-report.json";
 const AUG27_INPUT = path.join(process.cwd(), "scripts/aiStudioAug27.raw.json");
 const AUG27_REPORT = "/tmp/acupoflyrics-ai-studio-aug27-report.json";
+const AUG28_INPUT = path.join(process.cwd(), "scripts/aiStudioAug28.raw.json");
+const AUG28_REPORT = "/tmp/acupoflyrics-ai-studio-aug28-report.json";
 const SITE_URL = "https://www.acupoflyrics.com";
 
 const TRACKS = [
@@ -1260,6 +1262,72 @@ const TRACKS = [
     annotationKeyHints: ["Hz. Yusuf'un giydiği o rengarenk rida"],
   },
   {
+    batch: "aug28",
+    sourceKey: "fallenAngel",
+    label: "JENNIE — FALLEN ANGEL",
+    artist: "JENNIE",
+    title: "FALLEN ANGEL",
+    slug: "jennie-fallen-angel-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+    youtubeUrl: "https://www.youtube.com/watch?v=s466YCiHfKw",
+    geniusUrl: "https://genius.com/Jennie-fallen-angel-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/fallen-angel/6804046952?i=6804046959",
+    releaseDate: "2026-08-28",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    translationMap: [0, 1, 2, 3, 4, 5, 6, null, 7, 8],
+    allowMissingTranslations: true,
+    reuseRepeatedTranslations: true,
+    inlineAnnotationsOnly: true,
+  },
+  {
+    batch: "aug28",
+    sourceKey: "payThatToll",
+    label: "OneRepublic — Pay That Toll",
+    artist: "OneRepublic",
+    title: "Pay That Toll",
+    slug: "onerepublic-pay-that-toll-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp",
+    youtubeUrl: "https://www.youtube.com/watch?v=mzFnjFy0puY",
+    geniusUrl: "https://genius.com/Onerepublic-pay-that-toll-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/pay-that-toll/6799269280?i=6799269282",
+    releaseDate: "2026-08-28",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["her şeyi \"siyaha\" yatır", "o \"bedeli\" ödeme vaktin gelmiş"],
+  },
+  {
+    batch: "aug28",
+    sourceKey: "unforgivableThings",
+    label: "Lennon Stella — Unforgivable Things",
+    artist: "Lennon Stella",
+    title: "Unforgivable Things",
+    slug: "lennon-stella-unforgivable-things-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/2Zj7NczSaCllfU2QGaevYB",
+    youtubeUrl: "https://www.youtube.com/watch?v=2VN0zjo1SC8",
+    geniusUrl: "https://genius.com/Lennon-stella-unforgivable-things-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/unforgivable-things/6792847889?i=6792847896",
+    releaseDate: "2026-08-27",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["geri adım atmamak", "bıçağı içeride \"çevirmektir\""],
+  },
+  {
+    batch: "aug28",
+    sourceKey: "oneCallAway",
+    label: "Charlie Puth — One Call Away",
+    artist: "Charlie Puth",
+    title: "One Call Away",
+    slug: "charlie-puth-one-call-away-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/2uEJanMvnA1dXgX1ASnPQm",
+    youtubeUrl: "https://www.youtube.com/watch?v=BxuY9FET9Y4",
+    geniusUrl: "https://genius.com/Charlie-puth-one-call-away-lyrics",
+    appleMusicUrl: "https://music.apple.com/us/album/one-call-away/1031416178?i=1031416179",
+    releaseDate: "2015-08-05",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["Superman bile benimle yarışamaz"],
+  },
+  {
     batch: "thunder",
     sourceKey: "thunder",
     label: "Imagine Dragons — Thunder",
@@ -1827,6 +1895,49 @@ function splitTranslationLines(lines, splits, trackLabel, stanzaIndex) {
   });
 }
 
+function reuseRepeatedTranslations(stanzas, trackLabel) {
+  return stanzas.map((stanza, stanzaIndex, allStanzas) => {
+    if (stanza.translation.length >= stanza.original.length) return stanza;
+
+    const previousEquivalent = allStanzas
+      .slice(0, stanzaIndex)
+      .reverse()
+      .find((candidate) => (
+        candidate.section === stanza.section
+        && candidate.original.length === stanza.original.length
+        && candidate.original.every((line, lineIndex) => line === stanza.original[lineIndex])
+        && candidate.translation.length >= stanza.original.length
+      ));
+
+    if (previousEquivalent) {
+      return {
+        ...stanza,
+        translation: [
+          ...stanza.translation,
+          ...previousEquivalent.translation.slice(stanza.translation.length, stanza.original.length),
+        ],
+        missingTranslation: false,
+      };
+    }
+
+    const period = stanza.translation.length;
+    const isRepeatedSourcePattern = period > 0
+      && stanza.original.length % period === 0
+      && stanza.original.every((line, lineIndex) => line === stanza.original[lineIndex % period]);
+    if (isRepeatedSourcePattern) {
+      return {
+        ...stanza,
+        translation: stanza.original.map((_, lineIndex) => stanza.translation[lineIndex % period]),
+        missingTranslation: false,
+      };
+    }
+
+    throw new Error(
+      `${trackLabel}: ${stanzaIndex + 1}. kıtadaki eksik satırlar önceki birebir tekrarlarla güvenle tamamlanamadı.`,
+    );
+  });
+}
+
 function parseTrack(source, track, { preserveMissing = false } = {}) {
   if (!source?.user || !source?.model) throw new Error(`${track.label}: orijinal söz veya çeviri eksik.`);
   const originalBody = stripTurnChrome(source.user);
@@ -1879,7 +1990,10 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
       notes: [],
     };
   });
-  const translationText = stanzas.flatMap((stanza) => stanza.translation).join("\n");
+  const completedStanzas = track.reuseRepeatedTranslations
+    ? reuseRepeatedTranslations(stanzas, track.label)
+    : stanzas;
+  const translationText = completedStanzas.flatMap((stanza) => stanza.translation).join("\n");
   const lyricalText = translationText;
   const annotationLanguage = track.languages?.annotations || "tr";
   const annotationCandidates = track.bilingualAnnotations || annotationLanguage === "en"
@@ -1894,8 +2008,8 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
   for (const note of annotationCandidates) {
     if (!notes.has(note.word)) notes.set(note.word, note.text);
   }
-  stanzas[0].notes = [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
-  return { ...track, hasHangul, hasHan, stanzas };
+  completedStanzas[0].notes = [...notes.entries()].slice(0, 16).map(([word, text]) => ({ word, text }));
+  return { ...track, hasHangul, hasHan, stanzas: completedStanzas };
 }
 
 function normalize(value) {
@@ -2038,10 +2152,11 @@ async function main() {
   const thunderBatch = process.argv.includes("--thunder");
   const aug26Batch = process.argv.includes("--aug26");
   const aug27Batch = process.argv.includes("--aug27");
-  const inputPath = aug27Batch ? AUG27_INPUT : aug26Batch ? AUG26_INPUT : thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
-  const reportPath = aug27Batch ? AUG27_REPORT : aug26Batch ? AUG26_REPORT : thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
+  const aug28Batch = process.argv.includes("--aug28");
+  const inputPath = aug28Batch ? AUG28_INPUT : aug27Batch ? AUG27_INPUT : aug26Batch ? AUG26_INPUT : thunderBatch ? THUNDER_INPUT : btbtBatch ? BTBT_INPUT : korkmamBatch ? KORKMAM_INPUT : aug21Batch ? AUG21_INPUT : biiigBatch ? BIIIG_INPUT : aug18Batch ? AUG18_INPUT : aug14Batch ? AUG14_INPUT : bouncyBatch ? BOUNCY_INPUT : aug13Batch ? AUG13_INPUT : thatWayBatch ? THAT_WAY_INPUT : aug12Batch ? AUG12_INPUT : demandBatch ? DEMAND_INPUT : INPUT;
+  const reportPath = aug28Batch ? AUG28_REPORT : aug27Batch ? AUG27_REPORT : aug26Batch ? AUG26_REPORT : thunderBatch ? THUNDER_REPORT : btbtBatch ? BTBT_REPORT : korkmamBatch ? KORKMAM_REPORT : aug21Batch ? AUG21_REPORT : biiigBatch ? BIIIG_REPORT : aug18Batch ? AUG18_REPORT : aug14Batch ? AUG14_REPORT : bouncyBatch ? BOUNCY_REPORT : aug13Batch ? AUG13_REPORT : thatWayBatch ? THAT_WAY_REPORT : aug12Batch ? AUG12_REPORT : demandBatch ? DEMAND_REPORT : REPORT;
   const selectedTracks = TRACKS.filter((track) => (
-    aug27Batch ? track.batch === "aug27" : aug26Batch ? track.batch === "aug26" : thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
+    aug28Batch ? track.batch === "aug28" : aug27Batch ? track.batch === "aug27" : aug26Batch ? track.batch === "aug26" : thunderBatch ? track.batch === "thunder" : btbtBatch ? track.batch === "btbt" : korkmamBatch ? track.batch === "korkmam" : aug21Batch ? track.batch === "aug21" : biiigBatch ? track.batch === "biiig" : aug18Batch ? track.batch === "aug18" : aug14Batch ? track.batch === "aug14" : bouncyBatch ? track.batch === "bouncy" : aug13Batch ? track.batch === "aug13" : thatWayBatch ? track.batch === "thatway" : aug12Batch ? track.batch === "aug12" : demandBatch ? track.batch === "demand" : !track.batch
   )).filter((track) => !sourceKeys.size || sourceKeys.has(track.sourceKey || track.label));
   if (!selectedTracks.length) throw new Error("Seçilen kaynak anahtarıyla eşleşen parça bulunamadı.");
   const extracted = JSON.parse(await readFile(inputPath, "utf8"));

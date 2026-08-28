@@ -1,5 +1,117 @@
 export const popGundemiArticles = [
   {
+    slug: "28-agustos-2026-muzik-gundemi",
+    title: "28 Ağustos müzik gündemi: JENNIE — Fallen Angel dijital EP'si yayımlandı",
+    shortTitle: "28 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-28",
+    updatedAt: "2026-08-28T10:10:00+03:00",
+    readTime: "5 dk",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/b0/ed/27b0edf5-ec5e-fb16-0193-298a679e7a50/196874698273.jpg/1200x630wp-60.jpg",
+    imageAlt: "JENNIE — Fallen Angel dijital EP'sinin resmî kapak görseli",
+    imageCredit: "JENNIE · OA Entertainment / Columbia Records",
+    imageSource: "https://music.apple.com/us/album/fallen-angel-ep/6804046952",
+    accent: "#8890a2",
+    excerpt:
+      "JENNIE — Fallen Angel üç parçalık dijital EP olarak yayımlandı. OneRepublic — Pay That Toll ve TNX — Die Another Day resmî platformlarda doğrulanırken haftalık TikTok görünümünde Charlie Puth — One Call Away ile Westlife — I Lay My Love On You (Remix) öne çıktı.",
+    dek:
+      "Yeni yayınlar, yeniden yükselen katalog kayıtları ve beş müzik listesinin birbirinden ayrı ölçüm dönemleri 28 Ağustos sabah dosyasında kaynak tarihleri karıştırılmadan toplandı.",
+    pullQuote:
+      "Billboard'un 29 Ağustos haftası, Circle'ın 25 Ağustos günlüğü, Apple Music'in 28 Ağustos görünümü ve Spotify Global'ın 26 Ağustos günlüğü aynı ölçüm değildir.",
+    relatedTranslations: [
+      "jennie-less-than-a-lover-turkce-ceviri",
+      "tame-impala-jennie-dracula-turkce-ceviri",
+      "dolly-parton-jolene-turkce-ceviri",
+      "dolly-parton-9-to-5-turkce-ceviri",
+      "dolly-parton-kenny-rogers-islands-in-the-stream-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "28 Ağustos 2026 sabah kesimi",
+      title: "Bugünün doğrulanmış başlıkları",
+      items: [
+        { label: "Yeni dijital EP", text: "JENNIE — Fallen Angel, üç parçalık dijital sürümüyle 28 Ağustos 13.00 KST'de dünya genelinde yayımlandı." },
+        { label: "Yeni global pop", text: "OneRepublic — Pay That Toll, grubun resmî yayın kanalları ve Spotify kaydıyla 28 Ağustos tarihli yeni tekli olarak doğrulandı." },
+        { label: "K-pop", text: "TNX — Die Another Day, 27 Ağustos 18.00 KST'de yayımlandı; çeviri arşivinde henüz bulunmuyor." },
+        { label: "Viral katalog", text: "Charlie Puth — One Call Away ve Westlife — I Lay My Love On You (Remix), 27 Ağustos haftalık TikTok Global görünümünün ilk 10'unda yer aldı." },
+      ],
+    },
+    summary: [
+      "OA Entertainment'ın resmî duyurusuna göre JENNIE — Fallen Angel dijital EP'si 28 Ağustos'ta yayımlandı. Üç parçalık sürüm JENNIE — FALLEN ANGEL, JENNIE — HEAVEN ve daha önce yayımlanan JENNIE — Less than a Lover kayıtlarından oluşuyor.",
+      "Universal Music'in 28 Ağustos duyurusu ve aynı tarihli Spotify kaydı OneRepublic — Pay That Toll teklisinin yayımlandığını doğruluyor. Lennon Stella — Unforgivable Things ise 27 Ağustos'ta resmî videosuyla birlikte paylaşıldı.",
+      "TNX — Die Another Day için P NATION'ın 27 Ağustos 18.00 KST planı ile Apple Music'in 27 Ağustos katalog kaydı birbiriyle uyumlu. Korece sözler içerdiği için olası çeviride Latin alfabeli romanizasyon gerekli.",
+      "Soundcharts'ın 27 Ağustos haftalık TikTok Global görünümünde Charlie Puth — One Call Away 101 bin kullanımla 3; Westlife — I Lay My Love On You (Remix) 100 bin kullanımla 7 numarada. Trendleri başlatan özgül video formatı resmî sanatçı hesapları tarafından açıklanmadı.",
+      "Müzik Listeleri sayfasında Billboard Hot 100 ve Billboard 200 29 Ağustos haftasıyla, Circle Global 25 Ağustos günlüğüyle, Apple Music Top 100: Global 28 Ağustos görünümüyle ve Spotify Global Top 50 26 Ağustos günlüğüyle güncellendi.",
+    ],
+    sections: [
+      {
+        heading: "JENNIE — Fallen Angel dijital EP'si yayında",
+        body: [
+          "OA Entertainment'ın Weverse duyurusu JENNIE — Fallen Angel için dünya genelindeki yayın saatini 28 Ağustos 13.00 KST olarak verdi. Apple Music katalog kaydı da üç parçalık dijital sürümü ve aynı yayın tarihini doğruluyor.",
+          "Dijital sürümde JENNIE — FALLEN ANGEL, JENNIE — HEAVEN ve JENNIE — Less than a Lover bulunuyor. JENNIE — Less than a Lover çevirisi arşivde; diğer iki kayıt henüz sitede yer almıyor.",
+          "30 Ekim için duyurulan fiziksel JENNIE — Fallen Angel sürümü altı parçadan oluşacak. Bu tarih dijital EP'nin 28 Ağustos yayın tarihiyle birleştirilmedi.",
+        ],
+      },
+      {
+        heading: "OneRepublic — Pay That Toll ve Lennon Stella — Unforgivable Things yayımlandı",
+        body: [
+          "Universal Music'in 28 Ağustos tarihli sanatçı duyurusu OneRepublic — Pay That Toll teklisinin yayımlandığını bildiriyor. Spotify kaydı da 28 Ağustos 2026 tarihini ve OneRepublic kredisini doğruluyor; ilk günlük liste ölçümü henüz oluşmadı.",
+          "Lennon Stella — Unforgivable Things, 27 Ağustos'ta video eşliğinde yayımlandı ve 23 Ekim'de çıkacak Lennon Stella — Sleeping Lion albümünün ilk paylaşımı olarak duyuruldu. İki parça da çeviri arşivinde bulunmuyor.",
+        ],
+      },
+      {
+        heading: "TNX — Die Another Day için platform kaydı doğrulandı",
+        body: [
+          "P NATION'ın resmî Weverse akışı TNX — Die Another Day için 27 Ağustos 18.00 KST yayın saatini duyurdu. Apple Music, parçayı 27 Ağustos tarihli tekli olarak katalogladı.",
+          "TNX — Die Another Day henüz çeviri arşivinde yok. Korece dizeler Latin dışı alfabe içerdiği için çeviri hazırlanırsa kaynak sözlerin romanize biçimi de eklenmeli.",
+        ],
+      },
+      {
+        heading: "Charlie Puth — One Call Away ve Westlife — I Lay My Love On You (Remix) TikTok'ta yükseldi",
+        body: [
+          "Soundcharts'ın 27 Ağustos haftalık TikTok Global listesinde Charlie Puth — One Call Away 101 bin kullanımla 3 numarada. Westlife — I Lay My Love On You (Remix) 100 bin kullanımla 7 numarada yer aldı.",
+          "Charlie Puth — One Call Away 2015, Westlife — I Lay My Love On You (Remix) ise 2000 tarihli katalog kayıtları. İki şarkı da sitede bulunmuyor; yükselişin özgül sosyal medya tetikleyicisi resmî hesaplarla henüz doğrulanmadı.",
+        ],
+      },
+      {
+        heading: "Beş listenin ölçüm dönemi ayrı tutuldu",
+        body: [
+          "Billboard Hot 100 ve Billboard 200, 29 Ağustos 2026 tarihli haftalık listeler olarak güncellendi. Circle Global 25 Ağustos günlük ölçümünü, Apple Music Top 100: Global ise çalma listesinin 28 Ağustos görünümünü taşıyor.",
+          "Spotify Global Top 50'nin en yeni doğrulanmış günlüğü 26 Ağustos. Dolly Parton — Jolene 1, Dolly Parton — 9 to 5 2 ve Dolly Parton & Kenny Rogers — Islands in the Stream 4 numarada; üç çeviri de arşivde olduğu için yeni aday listesine alınmadı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "JENNIE — FALLEN ANGEL", status: "Çok yüksek öncelik", detail: "28 Ağustos tarihli yeni dijital EP'nin başlık parçası; arşivde yok." },
+      { name: "JENNIE — HEAVEN", status: "Yüksek öncelik", detail: "JENNIE — Fallen Angel dijital EP'sinin yeni parçası; arşivde yok." },
+      { name: "OneRepublic — Pay That Toll", status: "Yüksek öncelik", detail: "28 Ağustos tarihli resmî yeni tekli; arşivde yok." },
+      { name: "Lennon Stella — Unforgivable Things", status: "Orta-yüksek öncelik", detail: "27 Ağustos tarihli yeni tekli ve video; arşivde yok." },
+      { name: "TNX — Die Another Day", status: "Yüksek öncelik", detail: "27 Ağustos tarihli yeni K-pop teklisi; arşivde yok, romanizasyon gerekli." },
+      { name: "Charlie Puth — One Call Away", status: "Yüksek öncelik", detail: "TikTok Global haftalık #3; arşivde yok, romanizasyon gerekmiyor." },
+      { name: "Westlife — I Lay My Love On You (Remix)", status: "Yüksek öncelik", detail: "TikTok Global haftalık #7; arşivde yok, romanizasyon gerekmiyor." },
+    ],
+    sources: [
+      { name: "OA Entertainment / Weverse — JENNIE — Fallen Angel dijital EP duyurusu", url: "https://weverse.io/jennie/notice/38516" },
+      { name: "OA Entertainment / Weverse — JENNIE — Fallen Angel fiziksel EP duyurusu", url: "https://weverse.io/jennie/notice/38567" },
+      { name: "Apple Music — JENNIE — Fallen Angel", url: "https://music.apple.com/us/album/fallen-angel-ep/6804046952" },
+      { name: "Universal Music — OneRepublic — Pay That Toll yayın duyurusu", url: "https://www.universal-music.co.jp/onerepublic/news/2026-08-28/" },
+      { name: "Spotify — OneRepublic — Pay That Toll", url: "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp" },
+      { name: "Official Charts — 28 Ağustos yeni yayınları", url: "https://www.officialcharts.com/chart-news/new-music-friday-august-28-2026/" },
+      { name: "FEMMUSIC — Lennon Stella — Unforgivable Things yayın bilgisi", url: "https://femmusic.com/2026/08/27/lennon-stella-unforgivable-things/" },
+      { name: "P NATION / Weverse — TNX — Die Another Day yayın akışı", url: "https://weverse.io/tnx/highlight" },
+      { name: "Apple Music — TNX — Die Another Day", url: "https://music.apple.com/us/artist/tnx/1616740816" },
+      { name: "Soundcharts — TikTok Global, 27 Ağustos haftası", url: "https://soundcharts.com/es/charts/tiktok/worldwide" },
+      { name: "Apple Music — Charlie Puth — One Call Away", url: "https://music.apple.com/us/song/1568998425" },
+      { name: "Apple Music — Westlife — I Lay My Love On You (Remix)", url: "https://music.apple.com/us/song/255642123" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify Global — 26 Ağustos günlük görünümü", url: "https://kworb.net/spotify/country/global_daily.html" },
+    ],
+    storyShare:
+      "28 Ağustos müzik gündemi: JENNIE — Fallen Angel dijital EP'si yayımlandı; OneRepublic — Pay That Toll ve TNX — Die Another Day platformlarda doğrulandı.",
+  },
+  {
     slug: "27-agustos-2026-muzik-gundemi",
     title: "27 Ağustos müzik gündemi: Post Malone — August 26 ilk kez resmî platformlarda",
     shortTitle: "27 Ağustos — günün müzik gündemi",

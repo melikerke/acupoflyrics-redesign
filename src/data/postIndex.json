@@ -1,5 +1,266 @@
 [
   {
+    "id": "5269",
+    "slug": "charlie-puth-one-call-away-turkce-ceviri",
+    "title": "Charlie Puth One Call Away Türkçe Çeviri",
+    "song": "One Call Away",
+    "artist": "Charlie Puth",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18",
+    "date": "2026-08-28T08:06:36.784Z",
+    "reading_time": 2,
+    "excerpt": "I'm only one call away",
+    "categories": [
+      "Charlie Puth",
+      "One Call Away"
+    ],
+    "category_slugs": [
+      "charlie-puth",
+      "one-call-away"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2uEJanMvnA1dXgX1ASnPQm",
+      "albumUrl": "https://open.spotify.com/album/2xxwxdvN2zjplMH7gsy2QM",
+      "artistUrl": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+      "albumName": "One Call Away",
+      "releaseDate": "2015-08-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c3fade2af1c66ea4b002ae18",
+      "duration": "3:12",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Charlie Puth",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace",
+      "artistGenres": [],
+      "albumArtist": "Charlie Puth"
+    },
+    "moods": [
+      "Lonely"
+    ],
+    "firstPair": {
+      "en": "I'm only one call away",
+      "tr": "Sadece bir telefon uzağındayım;"
+    },
+    "heroPair": {
+      "en": "I'm only one call away",
+      "tr": "Sadece bir telefon uzağındayım;"
+    }
+  },
+  {
+    "id": "5268",
+    "slug": "lennon-stella-unforgivable-things-turkce-ceviri",
+    "title": "Lennon Stella Unforgivable Things Türkçe Çeviri",
+    "song": "Unforgivable Things",
+    "artist": "Lennon Stella",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13",
+    "date": "2026-08-28T08:06:36.784Z",
+    "reading_time": 1,
+    "excerpt": "It's the funeral you don't go to",
+    "categories": [
+      "Lennon Stella",
+      "Unforgivable Things"
+    ],
+    "category_slugs": [
+      "lennon-stella",
+      "unforgivable-things"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2Zj7NczSaCllfU2QGaevYB",
+      "albumUrl": "https://open.spotify.com/album/2Q268vFBrWzAj28Hv7vtgC",
+      "artistUrl": "https://open.spotify.com/artist/1cZQSpDsxgKIX2yW5OR9Ot",
+      "albumName": "Unforgivable Things",
+      "releaseDate": "2026-08-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bf0f6cc1c378636e98d62d13",
+      "duration": "2:35",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Lennon Stella",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb66dc7de5c2859688c562280c",
+      "artistGenres": [],
+      "albumArtist": "Lennon Stella"
+    },
+    "moods": [
+      "Healing"
+    ],
+    "firstPair": {
+      "en": "It's the funeral you don't go to",
+      "tr": "Gitmeye tenezzül etmediğin o cenaze gibidir bu..."
+    },
+    "heroPair": {
+      "en": "Unforgivable things",
+      "tr": "Affedilemez şeyler..."
+    }
+  },
+  {
+    "id": "5267",
+    "slug": "onerepublic-pay-that-toll-turkce-ceviri",
+    "title": "OneRepublic Pay That Toll Türkçe Çeviri",
+    "song": "Pay That Toll",
+    "artist": "OneRepublic",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6",
+    "date": "2026-08-28T08:06:36.784Z",
+    "reading_time": 3,
+    "excerpt": "People always tell me",
+    "categories": [
+      "OneRepublic",
+      "Pay That Toll"
+    ],
+    "category_slugs": [
+      "onerepublic",
+      "pay-that-toll"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/27vUVky3YOxLK8o7mGlCyp",
+      "albumUrl": "https://open.spotify.com/album/43xlz2NkEE6ScD7HMXiSRh",
+      "artistUrl": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ",
+      "albumName": "Pay That Toll",
+      "releaseDate": "2026-08-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f553a896e1dc7ad7eca4eff6",
+      "duration": "2:48",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "OneRepublic",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd",
+      "artistGenres": [],
+      "albumArtist": "OneRepublic"
+    },
+    "moods": [
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "People always tell me",
+      "tr": "İnsanlar bana hep şöyle der;"
+    },
+    "heroPair": {
+      "en": "Someday you're gonna pay that toll",
+      "tr": "Günün birinde o \"bedeli\" ödeme vaktin gelmiş."
+    }
+  },
+  {
+    "id": "5266",
+    "slug": "jennie-fallen-angel-turkce-ceviri",
+    "title": "JENNIE FALLEN ANGEL Türkçe Çeviri",
+    "song": "FALLEN ANGEL",
+    "artist": "JENNIE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "date": "2026-08-28T08:06:36.783Z",
+    "reading_time": 3,
+    "excerpt": "Feel the breeze in my fingers",
+    "categories": [
+      "JENNIE",
+      "Fallen Angel"
+    ],
+    "category_slugs": [
+      "jennie",
+      "fallen-angel"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+      "albumUrl": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+      "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "albumName": "Fallen Angel",
+      "releaseDate": "2026-08-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+      "duration": "3:19",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 3,
+      "artistName": "JENNIE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3feb82fe1bb947a2aa65f6b8",
+      "artistGenres": [],
+      "albumArtist": "JENNIE"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Feel the breeze in my fingers",
+      "tr": "Pencereden dışarı uzattığım,"
+    },
+    "heroPair": {
+      "en": "Don't leave a fallen angel out here on her own",
+      "tr": "Düşmüş bir meleği burada, yapayalnız bırakma."
+    }
+  },
+  {
+    "id": "5265",
+    "slug": "motive-yin-yang-english-translation",
+    "title": "Motive YIN YANG English Translation",
+    "song": "YIN YANG",
+    "artist": "Motive",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+    "date": "2026-08-27T09:28:08.994Z",
+    "reading_time": 3,
+    "excerpt": "On the paths I've walked, my whole life's gone to waste (To waste)",
+    "categories": [
+      "Motive",
+      "YIN YANG"
+    ],
+    "category_slugs": [
+      "motive",
+      "yin-yang"
+    ],
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp",
+      "albumUrl": "https://open.spotify.com/album/5zTpynQLSJo8yiG5U8rJXn",
+      "artistUrl": "https://open.spotify.com/artist/6sBSLIunx1Je0Y2T77wpkP",
+      "albumName": "YIN YANG",
+      "releaseDate": "2026-02-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+      "duration": "3:01",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Motive",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb0512d2bb2a5fbbf46e29433f",
+      "artistGenres": [],
+      "albumArtist": "Motive"
+    },
+    "moods": [
+      "Love",
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "(FOB)",
+      "tr": "(FOB)"
+    },
+    "heroPair": {
+      "en": "(FOB)",
+      "tr": "(FOB)"
+    }
+  },
+  {
     "id": "5264",
     "slug": "dolly-parton-coat-of-many-colors-turkce-ceviri",
     "title": "Dolly Parton Coat of Many Colors Türkçe Çeviri",

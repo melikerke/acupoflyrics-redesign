@@ -47,7 +47,7 @@ function parseArgs(argv) {
 function usage() {
   return [
     "Kullanım:",
-    '  npm run publish:translation -- --spotify "SPOTIFY_LINK" --translation "/dosya/ceviri.txt" [--lyrics "/dosya/orijinal.txt"] [--original-language en] [--translation-language tr] [--annotations-language tr] [--commit] [--push]',
+    '  npm run publish:translation -- --spotify "SPOTIFY_LINK" --translation "/dosya/ceviri.txt" [--lyrics "/dosya/orijinal.txt"] [--original-language en] [--translation-language tr] [--annotations-language tr] [--translator-note-file "/dosya/not.txt"] [--commit] [--push]',
     "",
     "Çeviri dosyası formatı:",
     "  [Verse 1]",
@@ -235,6 +235,10 @@ async function main() {
   const aligned = buildTranslatedStanzas(lyrics, translationText);
   console.log(`${aligned.matched} kıta eşleşti${aligned.unmatched ? `, ${aligned.unmatched} çeviri bloğu dışarıda kaldı` : ""}.`);
 
+  const translatorNote = args["translator-note-file"]
+    ? (await readFile(args["translator-note-file"], "utf8")).trim()
+    : args["translator-note"] || null;
+
   const record = {
     song: args.song || cleanDisplaySong(bundle.track?.name) || null,
     artist: bundle.artists?.map((artist) => artist.name).filter(Boolean).join(", ") || bundle.artist?.name || null,
@@ -249,7 +253,7 @@ async function main() {
       : null,
     stanzas: aligned.stanzas,
     youtubeUrl: args.youtube || null,
-    translatorNote: null,
+    translatorNote,
     savedAt: new Date().toISOString(),
   };
 

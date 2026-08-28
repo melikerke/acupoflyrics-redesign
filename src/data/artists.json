@@ -32,7 +32,7 @@
   {
     "slug": "jennie",
     "name": "JENNIE",
-    "count": 17,
+    "count": 18,
     "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
   },
   {
@@ -1484,7 +1484,7 @@
   {
     "slug": "onerepublic",
     "name": "OneRepublic",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd"
   },
   {
@@ -2134,5 +2134,23 @@
     "name": "Kenny Rogers",
     "count": 1,
     "image": null
+  },
+  {
+    "slug": "motive",
+    "name": "Motive",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0512d2bb2a5fbbf46e29433f"
+  },
+  {
+    "slug": "lennon-stella",
+    "name": "Lennon Stella",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66dc7de5c2859688c562280c"
+  },
+  {
+    "slug": "charlie-puth",
+    "name": "Charlie Puth",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace"
   }
 ]
