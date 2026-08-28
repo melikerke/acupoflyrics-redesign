@@ -1281,6 +1281,34 @@ const TRACKS = [
   },
   {
     batch: "aug28",
+    sourceKey: "heaven",
+    label: "JENNIE — HEAVEN",
+    artist: "JENNIE",
+    title: "HEAVEN",
+    slug: "jennie-heaven-turkce-ceviri",
+    spotifyUrl: "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+    youtubeUrl: "https://www.youtube.com/watch?v=dkMPft1y21Y",
+    geniusUrl: "https://genius.com/Jennie-heaven-lyrics",
+    releaseDate: "2026-08-28",
+    languages: { original: "en", translation: "tr", annotations: "tr" },
+    repeatedTranslationLines: {
+      0: [{ at: 4, fromStanza: 0, fromLine: 2 }],
+      4: [
+        { at: 2, fromStanza: 4, fromLine: 0 },
+        { at: 3, fromStanza: 4, fromLine: 1 },
+      ],
+      6: [{ at: 3, fromStanza: 3, fromLine: 3 }],
+      7: [
+        { at: 2, fromStanza: 7, fromLine: 0 },
+        { at: 3, fromStanza: 7, fromLine: 1 },
+      ],
+      8: [{ at: 6, fromStanza: 7, fromLine: 2 }],
+    },
+    inlineAnnotationsOnly: true,
+    annotationKeyHints: ["lanet olasıca bir ustalığın var", "bir şeyler \"hissettiğimizi\" biliyoruz"],
+  },
+  {
+    batch: "aug28",
     sourceKey: "payThatToll",
     label: "OneRepublic — Pay That Toll",
     artist: "OneRepublic",
@@ -1938,6 +1966,49 @@ function reuseRepeatedTranslations(stanzas, trackLabel) {
   });
 }
 
+function reuseConfiguredTranslationLines(stanzas, plan, trackLabel) {
+  if (!plan) return stanzas;
+  const completed = [];
+  for (const [stanzaIndex, stanza] of stanzas.entries()) {
+    const entries = plan[stanzaIndex] || [];
+    if (!entries.length) {
+      completed.push(stanza);
+      continue;
+    }
+    const byPosition = new Map(entries.map((entry) => [entry.at, entry]));
+    if (byPosition.size !== entries.length) {
+      throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kıtanın tekrar planında yinelenen hedef konumu var.`);
+    }
+    const translation = [];
+    let rawIndex = 0;
+    for (let lineIndex = 0; lineIndex < stanza.original.length; lineIndex += 1) {
+      const entry = byPosition.get(lineIndex);
+      if (!entry) {
+        if (rawIndex >= stanza.translation.length) {
+          throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kıtanın tekrar planı eksik hedef satırı bıraktı.`);
+        }
+        translation.push(stanza.translation[rawIndex]);
+        rawIndex += 1;
+        continue;
+      }
+      const sourceStanza = entry.fromStanza === stanzaIndex ? stanza : completed[entry.fromStanza];
+      if (!sourceStanza || sourceStanza.original[entry.fromLine] !== stanza.original[lineIndex]) {
+        throw new Error(`${trackLabel}: yalnız birebir aynı orijinal satırların çevirisi tekrar kullanılabilir.`);
+      }
+      const reusedLine = sourceStanza.translation[entry.fromLine];
+      if (!reusedLine) {
+        throw new Error(`${trackLabel}: tekrar kullanılacak önceki AI Studio çeviri satırı bulunamadı.`);
+      }
+      translation.push(reusedLine);
+    }
+    if (rawIndex !== stanza.translation.length) {
+      throw new Error(`${trackLabel}: ${stanzaIndex + 1}. kıtanın tekrar planı ${stanza.translation.length - rawIndex} AI Studio satırını dışarıda bıraktı.`);
+    }
+    completed.push({ ...stanza, translation, missingTranslation: false });
+  }
+  return completed;
+}
+
 function parseTrack(source, track, { preserveMissing = false } = {}) {
   if (!source?.user || !source?.model) throw new Error(`${track.label}: orijinal söz veya çeviri eksik.`);
   const originalBody = stripTurnChrome(source.user);
@@ -1990,9 +2061,14 @@ function parseTrack(source, track, { preserveMissing = false } = {}) {
       notes: [],
     };
   });
+  const configuredStanzas = reuseConfiguredTranslationLines(
+    stanzas,
+    track.repeatedTranslationLines,
+    track.label,
+  );
   const completedStanzas = track.reuseRepeatedTranslations
-    ? reuseRepeatedTranslations(stanzas, track.label)
-    : stanzas;
+    ? reuseRepeatedTranslations(configuredStanzas, track.label)
+    : configuredStanzas;
   const translationText = completedStanzas.flatMap((stanza) => stanza.translation).join("\n");
   const lyricalText = translationText;
   const annotationLanguage = track.languages?.annotations || "tr";

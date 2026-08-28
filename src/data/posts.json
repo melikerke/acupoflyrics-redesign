@@ -1,5 +1,352 @@
 [
   {
+    "id": "5270",
+    "title": "JENNIE HEAVEN Türkçe Çeviri",
+    "song": "HEAVEN",
+    "slug": "jennie-heaven-turkce-ceviri",
+    "date": "2026-08-28T08:22:45.132Z",
+    "artist": "JENNIE",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "JENNIE",
+      "Fallen Angel"
+    ],
+    "category_slugs": [
+      "jennie",
+      "fallen-angel"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Know I got it down bad, why can't you see? (Oh, woah)",
+          "Kinda fucked up, but it's heaven to me",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Fena halde düştüğümü biliyorum, neden görmüyorsun? (Oh, woah)",
+          "Biraz berbat bir durum belki ama bana göre cennet bu!",
+          "Oh, woah... (Cennet)",
+          "Cennet...",
+          "Oh, woah... (Cennet)",
+          "Bana göre cennet burası..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse",
+        "lines": [
+          "Packed-up bags",
+          "In the back of my car",
+          "Yeah, you are goddamn good",
+          "At pushing way too far",
+          "When we're good, yeah, we're good",
+          "But we fight so hard",
+          "Crash and burn",
+          "That's my favorite part"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse",
+        "lines": [
+          "Hazırlanmış valizler;",
+          "Arabamın arka koltuğundalar...",
+          "Evet, lanet olasıca bir ustalığın var;",
+          "Sınırları zorlama konusunda.",
+          "İyiyken, evet; gerçekten çok iyiyiz;",
+          "Ama öyle bir kavga ediyoruz ki...",
+          "Çakılmak ve yanmak;",
+          "İşte bu benim en sevdiğim kısım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Yeah, we could skip",
+          "Yeah, we could skip",
+          "All of the toxic and the pain",
+          "If not crazy, then what fun would it be?",
+          "What would it be?",
+          "Ooh, ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Evet, hepsini atlayabiliriz...",
+          "Atlayabiliriz aslında;",
+          "Tüm o toksikliği ve şu acıyı.",
+          "Ama eğer \"çılgınca\" değilse, ne anlamı kalır ki?",
+          "Ne önemi kalır?",
+          "Ooh, ooh..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Know I got it down bad, why can't you see?",
+          "Why can't you? Why can't you see?",
+          "Kinda fucked up, but it's heaven to me",
+          "(Heaven, heaven to me)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Fena halde düştüğümü biliyorum, neden görmüyorsun?",
+          "Neden? Neden görmüyorsun?",
+          "Biraz berbat bir durum belki ama bana göre cennet bu!",
+          "(Cennet, bana göre cennet...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh, woah... (Cennet)",
+          "Cennet...",
+          "Oh, woah... (Cennet)",
+          "Cennet..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Light me up easily",
+          "Yeah, you could bring that side out of me",
+          "’Cause at least we know we feel something",
+          "Even if my heart breaks (Heart breaks)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Beni kolayca ateşe verebilirsin;",
+          "Evet, içimdeki o (karanlık) tarafı ortaya çıkarabilirsin.",
+          "Çünkü en azından bir şeyler \"hissettiğimizi\" biliyoruz;",
+          "Kalbimiz paramparça olsa bile... (Kalbim kırılsa bile)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Know I got it down bad, why can't you see?",
+          "Why can't you? Why can't you see?",
+          "Kinda fucked up, but it's heaven to me",
+          "(Heaven, heaven to me)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Fena halde düştüğümü biliyorum, neden görmüyorsun?",
+          "Neden? Neden görmüyorsun?",
+          "Biraz berbat bir durum belki ama bana göre cennet bu!",
+          "(Cennet, bana göre cennet...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh, woah... (Cennet)",
+          "Cennet...",
+          "Oh, woah... (Cennet)",
+          "Cennet..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "They say I need help",
+          "And yeah, I could see (Heaven)",
+          "I guess I'll never learn",
+          "Have mercy on me",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven",
+          "Oh, woah, oh, woah (Heaven)",
+          "Heaven"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Yardıma ihtiyacım olduğunu söylüyorlar;",
+          "Ve evet, bunu görebiliyorum (Cennet)...",
+          "Sanırım asla akıllanmayacağım ben;",
+          "Tanrım, merhamet et bana...",
+          "Oh, woah... (Cennet)",
+          "Cennet...",
+          "Oh, woah... (Cennet)",
+          "Bana göre cennet bu!"
+        ]
+      }
+    ],
+    "excerpt": "Know I got it down bad, why can't you see? (Oh, woah)",
+    "annotations": {
+      "lanet olasıca bir ustalığın var": "“Goddamn good at pushing”: Karşı tarafın, şarkıcının sabrını taşırma ve onu uç noktalara itme konusundaki manipülatif yeteneğine yapılan sitemkar bir vurgu.",
+      "bir şeyler \"hissettiğimizi\" biliyoruz": "“At least we feel something”: Toksik ilişkilerin temel felsefesi; uyuşmuş ve monoton bir hayattansa, acı verici de olsa yoğun duygular hissetmeyi tercih etme hali."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6uhCnqc4Tncn1vqkuGubPO",
+        "name": "HEAVEN",
+        "url": "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+        "isrc": "USQX92604649",
+        "durationMs": 186720,
+        "duration": "3:07",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "250b0Wlc5Vk0CoUsaCY84M",
+        "name": "JENNIE",
+        "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3feb82fe1bb947a2aa65f6b8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "250b0Wlc5Vk0CoUsaCY84M",
+          "name": "JENNIE",
+          "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M"
+        }
+      ],
+      "album": {
+        "id": "2k3ICqEXZR7jmZESOqXxWx",
+        "name": "Fallen Angel",
+        "url": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+        "artists": [
+          {
+            "id": "250b0Wlc5Vk0CoUsaCY84M",
+            "name": "JENNIE",
+            "url": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M"
+          }
+        ],
+        "releaseDate": "2026-08-28",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 Columbia Records, a Division of Sony Music Entertainment, under exclusive license from OA ENTERTAINMENT, INC.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "75QkBCdRc5DGgcyPiVSg4b",
+            "name": "FALLEN ANGEL",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 199166,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/75QkBCdRc5DGgcyPiVSg4b",
+            "isCurrent": false
+          },
+          {
+            "id": "6uhCnqc4Tncn1vqkuGubPO",
+            "name": "HEAVEN",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 186720,
+            "duration": "3:07",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+            "isCurrent": true
+          },
+          {
+            "id": "0wufuctL2khYg953rfil7P",
+            "name": "Less than a Lover",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 145680,
+            "duration": "2:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0wufuctL2khYg953rfil7P",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-08-28T08:22:45.086Z",
+      "trackUrl": "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+      "albumUrl": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+      "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "albumName": "Fallen Angel",
+      "albumType": "EP",
+      "releaseDate": "2026-08-28",
+      "duration": "3:07",
+      "isrc": "USQX92604649",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a"
+    },
+    "genius": {
+      "url": "https://genius.com/Jennie-heaven-lyrics"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=dkMPft1y21Y",
+    "source": "ai-studio-spotify-youtube",
+    "seo": {
+      "title": "JENNIE HEAVEN Türkçe Çeviri",
+      "description": "JENNIE – HEAVEN şarkı sözleri ve özenli Türkçe çevirisi. Fallen Angel albümündeki parçanın anlamını ve açıklamalarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/jennie-heaven-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5269",
     "title": "Charlie Puth One Call Away Türkçe Çeviri",
     "song": "One Call Away",

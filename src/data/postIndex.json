@@ -1,5 +1,57 @@
 [
   {
+    "id": "5270",
+    "slug": "jennie-heaven-turkce-ceviri",
+    "title": "JENNIE HEAVEN Türkçe Çeviri",
+    "song": "HEAVEN",
+    "artist": "JENNIE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+    "date": "2026-08-28T08:22:45.132Z",
+    "reading_time": 2,
+    "excerpt": "Know I got it down bad, why can't you see? (Oh, woah)",
+    "categories": [
+      "JENNIE",
+      "Fallen Angel"
+    ],
+    "category_slugs": [
+      "jennie",
+      "fallen-angel"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6uhCnqc4Tncn1vqkuGubPO",
+      "albumUrl": "https://open.spotify.com/album/2k3ICqEXZR7jmZESOqXxWx",
+      "artistUrl": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "albumName": "Fallen Angel",
+      "releaseDate": "2026-08-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273236bc23de8631dcf60b68d2a",
+      "duration": "3:07",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 3,
+      "artistName": "JENNIE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3feb82fe1bb947a2aa65f6b8",
+      "artistGenres": [],
+      "albumArtist": "JENNIE"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Know I got it down bad, why can't you see? (Oh, woah)",
+      "tr": "Fena halde düştüğümü biliyorum, neden görmüyorsun? (Oh, woah)"
+    },
+    "heroPair": {
+      "en": "Kinda fucked up, but it's heaven to me",
+      "tr": "Biraz berbat bir durum belki ama bana göre cennet bu!"
+    }
+  },
+  {
     "id": "5269",
     "slug": "charlie-puth-one-call-away-turkce-ceviri",
     "title": "Charlie Puth One Call Away Türkçe Çeviri",
