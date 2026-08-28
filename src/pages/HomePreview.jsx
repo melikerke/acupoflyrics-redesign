@@ -78,6 +78,19 @@ function takeUnique(items, count, used, fallback = []) {
   return selected;
 }
 
+const HOME_HERO_PRIORITY = [
+  "jennie-fallen-angel-turkce-ceviri",
+];
+
+function prioritizePosts(items, prioritySlugs) {
+  const priority = new Map(prioritySlugs.map((slug, index) => [slug, index]));
+  return [...(items || [])].sort((left, right) => {
+    const leftRank = priority.get(left.slug) ?? Number.MAX_SAFE_INTEGER;
+    const rightRank = priority.get(right.slug) ?? Number.MAX_SAFE_INTEGER;
+    return leftRank - rightRank;
+  });
+}
+
 function quoteFor(post) {
   const pair = firstPair(post);
   return {
@@ -508,7 +521,8 @@ function ArtistGrid({ items }) {
 export default function HomePreview() {
   const contentPlan = useMemo(() => {
     const used = new Set();
-    const heroPosts = takeUnique(newReleases, 5, used, allPosts);
+    const heroCandidates = prioritizePosts(newReleases, HOME_HERO_PRIORITY);
+    const heroPosts = takeUnique(heroCandidates, 5, used, allPosts);
     const preferredRising = newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri");
     const risingPost = takeUnique([preferredRising, ...newReleases], 1, used, allPosts)[0];
     const latest = takeUnique(newReleases, 8, used, allPosts);
