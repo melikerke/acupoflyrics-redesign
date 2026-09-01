@@ -309,6 +309,7 @@ export const legacyCategoryRedirects = {
   "mayorkun": "/artist/mayorkun",
   "megan-thee-stallion": "/artist/megan-thee-stallion",
   "meovv": "/artist/meovv",
+  "mexico": "/album/chung-ha-mexico",
   "mgk": "/artist/mgk",
   "mi-cheo-mi-cheo": "/album/picheolin-mi-cheo-mi-cheo",
   "michael-jackson": "/artist/michael-jackson",

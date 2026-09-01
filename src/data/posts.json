@@ -1,5 +1,413 @@
 [
   {
+    "id": "5271",
+    "title": "CHUNG HA México Türkçe Çeviri",
+    "song": "México",
+    "slug": "chung-ha-mexico-turkce-ceviri",
+    "date": "2026-09-01T10:28:01.771Z",
+    "artist": "CHUNG HA",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "CHUNG HA",
+      "México"
+    ],
+    "category_slugs": [
+      "chung-ha",
+      "mexico"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Huh",
+          "Huh huh uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Huh",
+          "Huh huh uh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Oh my god",
+          "Million bodies in this city to hold me",
+          "So why am I so cold and so lonely",
+          "Oh why?",
+          "Torn apart",
+          "I’ve been through enough pain in the darkness",
+          "Faking just to mask all my secrets",
+          "Oh why?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Aman Tanrım...",
+          "Bu şehirde bana sarılacak milyonlarca ten varken;",
+          "Neden bu kadar buz kesmiş ve yapayalnızım?",
+          "Ah, neden?",
+          "Paramparçayım...",
+          "Karanlığın içinde yeterince acı çektim;",
+          "Sırf sırlarımı gizlemek için rol yapıp duruyorum.",
+          "Ah, neden?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Oh, tell me do you ever feel the same?",
+          "Oh, do you wanna disappear and change your name?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Oh, söyle bana; sen de hiç böyle hissediyor musun?",
+          "Oh, buralardan yok olup adını değiştirmek istiyor musun?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Tú y yo",
+          "Vámonos",
+          "A escapar a México",
+          "A un lugar",
+          "Sin presión",
+          "Perdernos en México",
+          "Acelera hasta que salga el sol",
+          "Si es contigo yo voy hasta el final",
+          "Tú y yo",
+          "Vamos a escapar a México"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen ve ben",
+          "Hadi gidelim",
+          "Meksika’ya kaçalım...",
+          "Baskının olmadığı",
+          "Huzurlu bir yere;",
+          "Meksika’da kaybolalım.",
+          "Güneş doğana kadar bas gaza;",
+          "Eğer seninleysem, sonuna kadar giderim.",
+          "Sen ve ben;",
+          "Hadi Meksika’ya kaçalım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Vamos a escapar a México",
+          "Vamos a escapar a México"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Meksika’ya kaçalım...",
+          "Meksika yollarına düşelim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "It’s worth a shot",
+          "Living in tequila and sunshine",
+          "Talking about a once in a lifetime",
+          "Why not",
+          "I know this spot",
+          "Where we could get lost in the water",
+          "Everything is fire only hotter",
+          "Oh my love"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Denemeye değer...",
+          "Tekila ve güneş ışığının içinde yaşamak;",
+          "Ömürde bir kez gelecek o şanstan bahsediyorum.",
+          "Neden olmasın?",
+          "Bir yer biliyorum;",
+          "Suların içinde kaybolabileceğimiz...",
+          "Her şey ateşten de yakıcı orada;",
+          "Oh, aşkım benim."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Oh, tell me do you ever feel the same?",
+          "Oh, do you wanna disappear and change your name?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Oh, söyle bana; sen de hiç böyle hissediyor musun?",
+          "Oh, buralardan yok olup adını değiştirmek istiyor musun?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Tú y yo",
+          "Vámonos",
+          "A escapar a México",
+          "A un lugar",
+          "Sin presión",
+          "Perdernos en México",
+          "Acelera hasta que salga el sol",
+          "Si es contigo yo voy hasta el final",
+          "Tú y yo",
+          "Vamos a escapar a México"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen ve ben",
+          "Hadi gidelim",
+          "Meksika’ya kaçalım...",
+          "Baskının olmadığı",
+          "Huzurlu bir yere;",
+          "Meksika’da kaybolalım.",
+          "Güneş doğana kadar bas gaza;",
+          "Eğer seninleysem, sonuna kadar giderim.",
+          "Sen ve ben;",
+          "Hadi Meksika’ya kaçalım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Vamos a escapar a México",
+          "Vamos a escapar a México"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Meksika’ya kaçalım...",
+          "Meksika yollarına düşelim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Runaway runaway yeah",
+          "We can make our escape and",
+          "Runaway runaway",
+          "Vamos a escapar a México",
+          "Runaway runaway yeah",
+          "We can make our escape and",
+          "Runaway runaway",
+          "Vamos a escapar a"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Kaçalım, kaçalım buralardan;",
+          "Kendi kaçışımızı yaratalım...",
+          "Kaçalım, uzaklaşalım;",
+          "Hadi Meksika’ya kaçalım.",
+          "Kaçalım, kaçalım evet...",
+          "Kendi dünyamızı kuralım;",
+          "Kaçalım artık;",
+          "Meksika yollarına..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Tú y yo",
+          "Vámonos",
+          "A escapar a México",
+          "A un lugar",
+          "Sin presión",
+          "Perdernos en México",
+          "Acelera hasta que salga el sol",
+          "Si es contigo yo voy hasta el final",
+          "Tú y yo",
+          "Vamos a escapar a México"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Sen ve ben",
+          "Hadi gidelim",
+          "Meksika’ya kaçalım...",
+          "Baskının olmadığı",
+          "Huzurlu bir yere;",
+          "Meksika’da kaybolalım.",
+          "Güneş doğana kadar bas gaza;",
+          "Eğer seninleysem, sonuna kadar giderim.",
+          "Sen ve ben;",
+          "Hadi Meksika’ya kaçalım."
+        ]
+      }
+    ],
+    "excerpt": "Oh my god",
+    "annotations": {
+      "Denemeye değer": "Worth a shot: Bir şeyi denemenin getireceği riske değeceğini anlatan kalıp.",
+      "ömürde bir kez gelecek o şanstan": "Once in a lifetime: Hayatta insanın karşısına ancak bir kez çıkabilecek kadar nadir ve değerli olan durum/kişi.",
+      "bas gaza": "Acelera: İspanyolca “hızlan, gaza bas” komutu. Şarkıdaki kaçış ve özgürlük hissini pekiştiriyor.",
+      "Baskının olmadığı": "Sin presión: “Baskı olmadan.” Şehir hayatının, işin veya toplumun yarattığı stresten kurtulma isteğini temsil ediyor.",
+      "Meksika": "Mexico: Şarkıda sadece bir ülke değil; güneşin, rahatlığın ve “yeniden başlama”nın simgesi olarak kullanılmış."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7B6hyoYY4ODxOqB2PkWW80",
+        "name": "México",
+        "url": "https://open.spotify.com/track/7B6hyoYY4ODxOqB2PkWW80",
+        "isrc": "KRMIM2645221",
+        "durationMs": 192000,
+        "duration": "3:12",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2PSJ6YriU7JsFucxACpU7Y",
+        "name": "CHUNG HA",
+        "url": "https://open.spotify.com/artist/2PSJ6YriU7JsFucxACpU7Y",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2PSJ6YriU7JsFucxACpU7Y",
+          "name": "CHUNG HA",
+          "url": "https://open.spotify.com/artist/2PSJ6YriU7JsFucxACpU7Y"
+        }
+      ],
+      "album": {
+        "id": "18DhSaSrbJwTWKSSUybLtl",
+        "name": "México",
+        "url": "https://open.spotify.com/album/18DhSaSrbJwTWKSSUybLtl",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da",
+        "artists": [
+          {
+            "id": "2PSJ6YriU7JsFucxACpU7Y",
+            "name": "CHUNG HA",
+            "url": "https://open.spotify.com/artist/2PSJ6YriU7JsFucxACpU7Y"
+          }
+        ],
+        "releaseDate": "2026-09-01",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 MORE VISION,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 MORE VISION,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "7B6hyoYY4ODxOqB2PkWW80",
+            "name": "México",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7B6hyoYY4ODxOqB2PkWW80",
+            "isCurrent": true
+          },
+          {
+            "id": "0k1aM86PStK4z5O2QqvJjj",
+            "name": "Mexico (English Version)",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0k1aM86PStK4z5O2QqvJjj",
+            "isCurrent": false
+          },
+          {
+            "id": "5boA0gliRJZxBowAhQilEn",
+            "name": "México (Versión Español)",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 192000,
+            "duration": "3:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5boA0gliRJZxBowAhQilEn",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-01T10:28:01.771Z",
+      "trackUrl": "https://open.spotify.com/track/7B6hyoYY4ODxOqB2PkWW80",
+      "albumUrl": "https://open.spotify.com/album/18DhSaSrbJwTWKSSUybLtl",
+      "artistUrl": "https://open.spotify.com/artist/2PSJ6YriU7JsFucxACpU7Y",
+      "albumName": "México",
+      "albumType": "EP",
+      "releaseDate": "2026-09-01",
+      "duration": "3:12",
+      "isrc": "KRMIM2645221",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da"
+    },
+    "genius": null,
+    "youtubeUrl": null,
+    "source": "ai-studio-spotify",
+    "seo": {
+      "title": "CHUNG HA México Türkçe Çeviri",
+      "description": "CHUNG HA — México şarkı sözleri ve AI Studio’dan alınan Türkçe çevirisi. Şarkının anlamını ve çeviri notlarını keşfet.",
+      "canonical": "https://www.acupoflyrics.com/chung-ha-mexico-turkce-ceviri/"
+    }
+  },
+  {
     "id": "5270",
     "title": "JENNIE HEAVEN Türkçe Çeviri",
     "song": "HEAVEN",

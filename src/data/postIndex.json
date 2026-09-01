@@ -1,5 +1,58 @@
 [
   {
+    "id": "5271",
+    "slug": "chung-ha-mexico-turkce-ceviri",
+    "title": "CHUNG HA México Türkçe Çeviri",
+    "song": "México",
+    "artist": "CHUNG HA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da",
+    "date": "2026-09-01T10:28:01.771Z",
+    "reading_time": 2,
+    "excerpt": "Oh my god",
+    "categories": [
+      "CHUNG HA",
+      "México"
+    ],
+    "category_slugs": [
+      "chung-ha",
+      "mexico"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7B6hyoYY4ODxOqB2PkWW80",
+      "albumUrl": "https://open.spotify.com/album/18DhSaSrbJwTWKSSUybLtl",
+      "artistUrl": "https://open.spotify.com/artist/2PSJ6YriU7JsFucxACpU7Y",
+      "albumName": "México",
+      "releaseDate": "2026-09-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d429477ab7f341292f9cc4da",
+      "duration": "3:12",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 3,
+      "artistName": "CHUNG HA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79",
+      "artistGenres": [],
+      "albumArtist": "CHUNG HA"
+    },
+    "moods": [
+      "Healing",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Huh",
+      "tr": "Huh"
+    },
+    "heroPair": {
+      "en": "A escapar a México",
+      "tr": "Meksika’ya kaçalım..."
+    }
+  },
+  {
     "id": "5270",
     "slug": "jennie-heaven-turkce-ceviri",
     "title": "JENNIE HEAVEN Türkçe Çeviri",

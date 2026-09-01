@@ -1,11 +1,246 @@
 export const popGundemiArticles = [
   {
+    slug: "1-eylul-2026-muzik-gundemi",
+    title: "1 Eylül müzik gündemi: Girls' Generation-HRS — Skibidi yayımlandı",
+    shortTitle: "1 Eylül — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-09-01",
+    updatedAt: "2026-09-01T10:05:00+03:00",
+    readTime: "5 dk",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/a8/2b/2aa82b6e-1378-a90f-5281-90c4d642c33b/Untitled.jpg/1200x630wp-60.jpg",
+    imageAlt: "Girls' Generation-HRS — Skibidi dijital teklisinin resmî kapak görseli",
+    imageCredit: "Girls' Generation-HRS · SM Entertainment",
+    imageSource: "https://music.apple.com/us/album/skibidi-single/6803731727",
+    accent: "#d96388",
+    excerpt:
+      "Girls' Generation-HRS — Skibidi resmen yayımlanıp YouTube Music'in global eğilim görünümüne yeni giriş yaptı. CORTIS — MONEYMONEYMONEY aynı görünümde 20 numaraya yükselirken Natanael Cano — Mar Azul resmî videosuyla yeni giriş kaydetti.",
+    dek:
+      "31 Ağustos–1 Eylül aralığındaki yeni yayınlar ile Spotify, TikTok ve YouTube hareketleri; her platformun kendi ölçüm zamanı korunarak tek dosyada toplandı.",
+    pullQuote:
+      "YouTube Music'in 1 Eylül eğilim görünümü, Spotify Global'ın 30 Ağustos günlüğü ve TikTok'un güncel haftalık görünümü birbirinden ayrı ölçümlerdir.",
+    relatedTranslations: [
+      "cortis-redred-turkce-ceviri",
+      "post-malone-swae-lee-sunflower-turkce-ceviri",
+      "olivia-dean-so-easy-to-fall-in-love-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "1 Eylül 2026 sabah kesimi",
+      title: "Bugünün doğrulanmış hareketleri",
+      items: [
+        { label: "Yeni K-pop", text: "Girls' Generation-HRS — Skibidi, 31 Ağustos 18.00 KST'de yayımlandı ve 1 Eylül YouTube Music global eğilim görünümüne 23 numaradan girdi." },
+        { label: "K-pop yükselişi", text: "CORTIS — MONEYMONEYMONEY, YouTube Music global eğilim görünümünde üç basamak yükselerek 20 numaraya çıktı." },
+        { label: "Yeni Latin giriş", text: "Natanael Cano — Mar Azul resmî videosu YouTube Music global eğilim görünümüne 28 numaradan girdi; Meksika'da 1 numarada." },
+        { label: "Viral katalog", text: "Cigarettes After Sex — Apocalypse Spotify Global'da 29 basamak yükselirken Benson Boone — Beautiful Things ve Milky Chance — Naked And Alive TikTok Global ilk beşinde yer aldı." },
+      ],
+    },
+    summary: [
+      "SM Entertainment'ın resmî duyurusuna göre Girls' Generation-HRS — Skibidi, 31 Ağustos 18.00 KST'de yayımlandı. HYOYEON, YURI ve SOOYOUNG'dan oluşan birimin performans videosu 1 Eylül YouTube Music global eğilim görünümüne 23 numaradan girdi.",
+      "CORTIS — MONEYMONEYMONEY, YouTube Music'in aynı görünümünde üç basamak yükselerek 20 numaraya çıktı. Parça 24 Ağustos tarihli CORTIS — GREENGREEN_playextended içinde resmen yayımlandı; bugünkü sıçrama önceki rapordan sonraki yeni gelişme.",
+      "Natanael Cano — Mar Azul resmî videosu YouTube Music global eğilim görünümüne 28 numaradan girdi ve Meksika'da 1 numaraya ulaştı. Apple Music, parçayı 28 Ağustos tarihli Natanael Cano — Natanael Cano, Vol.1 içinde listeliyor.",
+      "Rema — TEA resmî videosu YouTube Music global eğilim görünümünde sekiz basamak yükselerek 113 numaraya çıktı; görünümde Nijerya'da 6 numarada ve dört ülkede listeleniyor.",
+      "Spotify Global'ın 30 Ağustos günlüğünde Cigarettes After Sex — Apocalypse 29 basamak yükselerek 77 numaraya çıktı. Soundcharts'ın güncel haftalık TikTok Global görünümünde Benson Boone — Beautiful Things 2, Milky Chance — Naked And Alive 4 numarada.",
+      "Müzik Listeleri sayfasında Billboard listeleri 29 Ağustos haftasıyla, Circle Global 29 Ağustos günlüğüyle, Apple Music Top 100: Global 31 Ağustos görünümüyle ve Spotify Global Top 50 30 Ağustos günlüğüyle güncellendi.",
+    ],
+    sections: [
+      {
+        heading: "Girls' Generation-HRS — Skibidi yayımlandı ve global eğilim görünümüne girdi",
+        body: [
+          "SM Entertainment'ın resmî Japonya sitesindeki 31 Ağustos duyurusu, Girls' Generation-HRS — Skibidi dijital teklisinin aynı gün 18.00 KST'de yayımlandığını doğruluyor. Apple Music kaydı iki parçalık teklide Girls' Generation-HRS — Skibidi ile Girls' Generation-HRS — Lowkey In Love bulunduğunu gösteriyor.",
+          "Girls' Generation-HRS — Skibidi performans videosu, YouTube Music'in 1 Eylül 02.40 EDT tarihli global eğilim görünümüne 23 numaradan girdi ve sekiz ülkenin yerel görünümünde yer aldı. Şarkı arşivde yok; Korece dizeler için Latin alfabeli romanizasyon gerekli.",
+        ],
+      },
+      {
+        heading: "CORTIS — MONEYMONEYMONEY 20 numaraya yükseldi",
+        body: [
+          "CORTIS'in resmî Japonya sitesi, CORTIS — MONEYMONEYMONEY görselleştiricisini 24 Ağustos tarihli resmî video olarak listeliyor. Apple Music kaydı da parçayı CORTIS — GREENGREEN_playextended içinde doğruluyor.",
+          "Video 1 Eylül tarihli YouTube Music global eğilim görünümünde üç basamak yükselerek 20 numaraya çıktı ve on ülkenin yerel görünümünde yer aldı. Bu yeni sıçrama nedeniyle parça bugünkü aday listesinde yeniden yer alıyor; arşivde yok ve Korece dizeler için romanizasyon gerekli.",
+        ],
+      },
+      {
+        heading: "Natanael Cano — Mar Azul ve Rema — TEA video görünümünde yükseliyor",
+        body: [
+          "Natanael Cano — Mar Azul resmî videosu YouTube Music global eğilim görünümüne 28 numaradan girdi; Meksika'da 1 numara oldu. Apple Music, parçayı 28 Ağustos'ta yayımlanan Natanael Cano — Natanael Cano, Vol.1 içinde listeliyor ve La Oficial çalma listesinin haftalık başlığına taşıyor.",
+          "Rema — TEA resmî videosu aynı global görünümde sekiz basamak yükselerek 113 numaraya çıktı. Apple Music, Afrobeats teklisinin yayın tarihini 7 Ağustos olarak veriyor. İki kayıt da arşivde yok; Latin alfabeli sözler nedeniyle romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "Cigarettes After Sex — Apocalypse Spotify'da yeniden yükseldi",
+        body: [
+          "Cigarettes After Sex — Apocalypse, Spotify Global'ın 30 Ağustos günlüğünde 29 basamak yükselerek 77 numaraya ve 1,44 milyon günlük dinlenmeye ulaştı. Günlük artış 28.875, yedi günlük artış 272.456 olarak ölçüldü.",
+          "Apple Music kaydı parçanın 20 Mart 2017 tarihli olduğunu doğruluyor. Çeviri arşivinde bulunmayan kayıt için romanizasyon gerekmiyor; yükselişin özgül sosyal medya tetikleyicisi resmî kaynaklarla henüz açıklanmadı.",
+        ],
+      },
+      {
+        heading: "Benson Boone — Beautiful Things ve Milky Chance — Naked And Alive TikTok ilk beşinde",
+        body: [
+          "Soundcharts'ın güncel haftalık TikTok Global görünümünde Benson Boone — Beautiful Things 100 bin kullanımla 2, Milky Chance — Naked And Alive 100 bin kullanımla 4 numarada. Aynı görünümün lideri Post Malone & Swae Lee — Sunflower; bu parçanın çevirisi arşivde olduğu için aday listesine alınmadı.",
+          "Benson Boone — Beautiful Things 18 Ocak 2024, Milky Chance — Naked And Alive 30 Mayıs 2024 tarihli. İki kayıt da arşivde yok ve romanizasyon gerektirmiyor; özgül trend formatları resmî hesaplarla henüz açıklanmadı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "Girls' Generation-HRS — Skibidi", status: "Çok yüksek öncelik", detail: "31 Ağustos yeni yayını; YouTube Music global eğilim görünümüne #23 giriş, arşivde yok, romanizasyon gerekli." },
+      { name: "CORTIS — MONEYMONEYMONEY", status: "Çok yüksek öncelik", detail: "YouTube Music global eğilim görünümünde +3 ile #20; arşivde yok, romanizasyon gerekli." },
+      { name: "Natanael Cano — Mar Azul", status: "Yüksek öncelik", detail: "Resmî video global eğilim görünümüne #28 giriş ve Meksika'da #1; arşivde yok." },
+      { name: "Rema — TEA", status: "Orta-yüksek öncelik", detail: "Resmî video global eğilim görünümünde +8; arşivde yok." },
+      { name: "Cigarettes After Sex — Apocalypse", status: "Yüksek öncelik", detail: "Spotify Global'da +29 ile #77 ve yedi günde +272 bin; arşivde yok." },
+      { name: "Benson Boone — Beautiful Things", status: "Yüksek öncelik", detail: "TikTok Global haftalık #2; arşivde yok, özgül tetikleyici henüz açıklanmadı." },
+      { name: "Milky Chance — Naked And Alive", status: "Yüksek öncelik", detail: "TikTok Global haftalık #4; arşivde yok, özgül tetikleyici henüz açıklanmadı." },
+    ],
+    sources: [
+      { name: "SMTOWN Official Japan — Girls' Generation-HRS — Skibidi yayın duyurusu", url: "https://smtown-official.jp/news/detail.php?nid=4SWkR23kJq4%3D" },
+      { name: "Apple Music — Girls' Generation-HRS — Skibidi", url: "https://music.apple.com/us/album/skibidi-single/6803731727" },
+      { name: "Girls' Generation / Weverse — Girls' Generation-HRS — Skibidi performans videosu", url: "https://weverse.io/girlsgeneration/media/4-240416258" },
+      { name: "CORTIS resmî sitesi — CORTIS — MONEYMONEYMONEY görselleştiricisi", url: "https://cortis-official.jp/mv/the%202nd%20ep%20%5Bgreengreen_playextended%5D" },
+      { name: "Apple Music — CORTIS — MONEYMONEYMONEY", url: "https://music.apple.com/us/song/6801189588" },
+      { name: "YouTube Music global eğilim görünümü — 1 Eylül", url: "https://kworb.net/youtube/trending_music.html" },
+      { name: "Natanael Cano — Natanael Cano, Vol.1 resmî sitesi", url: "https://natanaelcanovol1.com/" },
+      { name: "Apple Music — Natanael Cano — Natanael Cano, Vol.1", url: "https://music.apple.com/us/album/natanael-cano-vol-1/6797945945" },
+      { name: "Apple Music — La Oficial", url: "https://music.apple.com/ar/playlist/la-oficial/pl.daca4fa353174d7493a2394f03f623ea" },
+      { name: "Apple Music — Rema — TEA", url: "https://music.apple.com/us/album/tea-single/6791794028" },
+      { name: "Spotify Global — 30 Ağustos günlük görünümü", url: "https://kworb.net/spotify/country/global_daily.html" },
+      { name: "Apple Music — Cigarettes After Sex — Apocalypse", url: "https://music.apple.com/us/song/1217953345" },
+      { name: "Soundcharts — TikTok Global haftalık görünümü", url: "https://www.soundcharts.com/es/charts/tiktok/worldwide" },
+      { name: "Apple Music — Benson Boone — Beautiful Things", url: "https://music.apple.com/us/album/beautiful-things-single/1724488123" },
+      { name: "Apple Music — Milky Chance — Naked And Alive", url: "https://music.apple.com/us/song/1873689914" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { name: "Spotify — Top 50: Global", url: "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" },
+    ],
+    storyShare:
+      "1 Eylül müzik gündemi: Girls' Generation-HRS — Skibidi yayımlandı; CORTIS — MONEYMONEYMONEY YouTube Music global eğilim görünümünde 20 numaraya yükseldi.",
+  },
+  {
+    slug: "31-agustos-2026-muzik-gundemi",
+    title: "31 Ağustos müzik gündemi: Movin' To The Sun UK'de yeni zirvesinde",
+    shortTitle: "31 Ağustos — günün müzik gündemi",
+    kicker: "Günün müzik gündemi",
+    date: "2026-08-31",
+    updatedAt: "2026-08-31T10:45:00+03:00",
+    readTime: "5 dk",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/1200x630wp-60.jpg",
+    imageAlt: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun teklisinin resmî kapak görseli",
+    imageCredit: "HUGEL · Warner Music Group Germany",
+    imageSource: "https://music.apple.com/us/album/movin-to-the-sun-single/6769069923",
+    accent: "#d96843",
+    excerpt:
+      "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun UK Singles Chart'ta 2 numaraya çıktı. KAROL G, Judeline & rusowsky — BbY WOW Spotify Global'da liderliğini güçlendirirken PARTYNEXTDOOR — Some of Your Love UK listesine girdi.",
+    dek:
+      "29–31 Ağustos hafta sonunun global, K-pop ve viral hareketleri; haftalık ve günlük ölçüm dönemleri birbirine karıştırılmadan tek dosyada toplandı.",
+    pullQuote:
+      "UK Singles Chart 28 Ağustos haftasını, Spotify Global 29 Ağustos günlüğünü; Apple Music ve Circle listeleri ise kendi 31 ve 28 Ağustos ölçümlerini gösteriyor.",
+    relatedTranslations: [
+      "tulus-teh-hijau-turkce-ceviri",
+      "cortis-redred-turkce-ceviri",
+      "ateez-bad-turkce-ceviri",
+      "michael-jackson-billie-jean-turkce-ceviri",
+      "justin-bieber-beauty-and-a-beat-turkce-ceviri",
+    ],
+    livePanel: {
+      label: "31 Ağustos 2026 sabah kesimi",
+      title: "Hafta sonunun doğrulanmış hareketleri",
+      items: [
+        { label: "UK yeni zirve", text: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun, 28 Ağustos tarihli resmî UK Singles Chart'ta 4 numaradan 2 numaraya çıktı." },
+        { label: "Spotify Global", text: "KAROL G, Judeline & rusowsky — BbY WOW, 29 Ağustos günlüğünde 4,14 milyon dinlenmeyle 1 numaradaki üçüncü gününü kaydetti." },
+        { label: "UK yeni giriş", text: "PARTYNEXTDOOR — Some of Your Love, resmî UK Singles Chart'a 41 numaradan girdi." },
+        { label: "K-pop kontrolü", text: "Haftanın güçlü K-pop liste hareketleri arşivdeki çevirilerle eşleşti; yeni ve doğrulanmış eksik aday saptanmadı." },
+        { label: "Viral katalog", text: "Michael Jackson — Beat It iki günlük global platform ölçümünde birlikte yükselirken üç eski kayıt TikTok Global ilk 10'unda yer aldı." },
+      ],
+    },
+    summary: [
+      "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun, 28 Ağustos tarihli resmî UK Singles Chart'ta 2 numaraya yükselerek yeni zirvesine ulaştı. Aynı kayıt Spotify Global'ın 29 Ağustos günlüğünde 47, Apple Music dünya agregasyonunun 30 Ağustos görünümünde 3 numarada.",
+      "KAROL G, Judeline & rusowsky — BbY WOW, Spotify Global'ın 29 Ağustos günlüğünde 4.139.097 dinlenmeyle 1 numarada kaldı; günlük artış 491.026, yedi günlük artış 1.521.830 olarak ölçüldü.",
+      "PARTYNEXTDOOR — Some of Your Love, 28 Ağustos tarihli resmî UK Singles Chart'a 41 numaradan girdi. eńau & Ari Lesmana — Sesi Potret ile Raim Laode — Dunia Yang Nanti aynı Spotify günlüğünde sırasıyla 14 ve 47 basamak yükseldi.",
+      "Soompi'nin Ağustos beşinci hafta K-pop görünümünde ilk sekizdeki güncel kayıtların tamamı çeviri arşivinde. Bu nedenle bugünkü K-pop bölümünde yeni aday eklenmedi; CORTIS — MONEYMONEYMONEY ve CORTIS — PACK IT UP için 24 Ağustos dosyasındaki çeviri bekleme durumu sürüyor.",
+      "Soundcharts'ın güncel haftalık TikTok Global görünümünde Simi, Adekunle Gold & Deja — Happy Birthday 4, Westlife — I Lay My Love On You (Remix) 6 ve Goya Menor & Nektunez — Ameno Amapiano Remix 7 numarada. Özgül trend tetikleyicileri resmî hesaplarla henüz açıklanmadı.",
+      "Müzik Listeleri sayfasında Billboard listeleri 29 Ağustos haftasıyla, Circle Global 28 Ağustos günlüğüyle, Apple Music Top 100: Global 31 Ağustos görünümüyle ve Spotify Global Top 50 29 Ağustos günlüğüyle güncellendi.",
+    ],
+    sections: [
+      {
+        heading: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun UK'de 2 numaraya çıktı",
+        body: [
+          "Official Charts'ın 28 Ağustos tarihli nihai haftalık listesinde HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun 4 numaradan 2 numaraya yükseldi. Bu sonuç, önceki geçici hafta ortası tahmininin ardından gelen resmî haftalık sıralama ve şarkının yeni UK zirvesi.",
+          "22 Mayıs 2026 tarihli dance-pop kaydı çeviri arşivinde bulunmuyor. Latin dışı alfabe kullanmadığı için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "KAROL G, Judeline & rusowsky — BbY WOW Spotify Global'da liderliğini güçlendirdi",
+        body: [
+          "Spotify Global'ın 29 Ağustos günlüğünde KAROL G, Judeline & rusowsky — BbY WOW üçüncü gününü 1 numarada geçirdi. 4,14 milyon günlük dinlenmeye ulaşan kaydın gün içi artışı 491 binin, yedi günlük artışı 1,52 milyonun üzerinde.",
+          "7 Ağustos 2026'da yayımlanan İspanyolca kayıt arşivde bulunmuyor. Sözler Latin alfabesiyle yazıldığı için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "PARTYNEXTDOOR — Some of Your Love UK listesine girdi",
+        body: [
+          "PARTYNEXTDOOR — Some of Your Love, PARTYNEXTDOOR — PARTYNEXTDOOR 3 (P3) [10-YEAR EDITION] içindeki resmen yayımlanan arşiv kayıtlarından biri. Official Charts'ın nihai haftalık listesinde 41 numaradan giriş yaptı.",
+          "Apple Music katalog tarihi 20 Ağustos'u, resmî yayın bağlantısı ve haber kaynakları ise küresel yayını 21 Ağustos'u gösteriyor. Bu iki zaman damgası birleştirilmedi; kayıt çeviri arşivinde bulunmuyor.",
+        ],
+      },
+      {
+        heading: "eńau & Ari Lesmana — Sesi Potret ve Raim Laode — Dunia Yang Nanti yükseldi",
+        body: [
+          "Endonezce pop kaydı eńau & Ari Lesmana — Sesi Potret, Spotify Global'ın 29 Ağustos günlüğünde 14 basamak yükselerek 34 numaraya ve 2,03 milyon günlük dinlenmeye ulaştı. Raim Laode — Dunia Yang Nanti aynı gün 47 basamaklık artışla 89 numaraya çıktı.",
+          "eńau & Ari Lesmana — Sesi Potret 30 Ocak, Raim Laode — Dunia Yang Nanti 24 Nisan 2026 tarihli. İki şarkı da arşivde yok; Endonezce sözler Latin alfabesiyle yazıldığı için romanizasyon gerekmiyor.",
+        ],
+      },
+      {
+        heading: "Michael Jackson — Beat It ve TikTok katalog kayıtları yeniden görünür",
+        body: [
+          "Michael Jackson — Beat It, Spotify Global'ın 29 Ağustos günlüğünde 6 basamak yükselerek 29 numaraya çıktı; günlük dinlenme artışı 93 binin üzerinde. Apple Music dünya agregasyonunun 30 Ağustos görünümünde de 6 basamak yükselerek 40 numaraya ulaştı.",
+          "Soundcharts'ın güncel haftalık TikTok Global görünümünde Simi, Adekunle Gold & Deja — Happy Birthday 4, Westlife — I Lay My Love On You (Remix) 6 ve Goya Menor & Nektunez — Ameno Amapiano Remix 7 numarada. Dört kayıt da çeviri arşivinde bulunmuyor; trendleri başlatan özgül video formatları resmî sanatçı hesapları tarafından henüz açıklanmadı.",
+        ],
+      },
+      {
+        heading: "K-pop listesindeki güçlü kayıtların çevirileri arşivde",
+        body: [
+          "Soompi'nin Circle, Hanteo, Apple Music Korea ve YouTube verilerini birleştiren Ağustos beşinci hafta listesinde KiiiKiii — Pop Off Pop Off 1, CORTIS — REDRED 2, aespa — LEMONADE 3 ve ATEEZ — BAD 4 numarada. BIGBANG — BiiiG 35 basamaklık sıçramayla 7, ENHYPEN — Bloody Paradise ise yeni girişle 8 numarada.",
+          "Bu altı şarkının tamamı sitede olduğu için yeni çeviri adayı yazılmadı. CORTIS — MONEYMONEYMONEY ve CORTIS — PACK IT UP'ın 24 Ağustos'ta yayımlandığı daha önce doğrulandı; yeni bir liste sıçraması saptanmadığından bugünkü aday tablosunda tekrarlanmadı.",
+        ],
+      },
+    ],
+    memberStatus: [
+      { name: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", status: "Çok yüksek öncelik", detail: "Resmî UK Singles Chart'ta #2 ile yeni zirve; arşivde yok." },
+      { name: "KAROL G, Judeline & rusowsky — BbY WOW", status: "Çok yüksek öncelik", detail: "Spotify Global'da #1 ve günlük +491 bin; arşivde yok." },
+      { name: "PARTYNEXTDOOR — Some of Your Love", status: "Yüksek öncelik", detail: "Resmî UK Singles Chart'a #41 giriş; arşivde yok." },
+      { name: "eńau & Ari Lesmana — Sesi Potret", status: "Yüksek öncelik", detail: "Spotify Global'da +14 ile #34; arşivde yok." },
+      { name: "Raim Laode — Dunia Yang Nanti", status: "Yüksek öncelik", detail: "Spotify Global'da +47 ile #89; arşivde yok." },
+      { name: "Michael Jackson — Beat It", status: "Yüksek öncelik", detail: "Spotify ve Apple Music dünya ölçümlerinde birlikte yükseldi; arşivde yok." },
+      { name: "Simi, Adekunle Gold & Deja — Happy Birthday", status: "Orta-yüksek öncelik", detail: "TikTok Global haftalık #4; arşivde yok, tetikleyici henüz açıklanmadı." },
+      { name: "Westlife — I Lay My Love On You (Remix)", status: "Orta-yüksek öncelik", detail: "TikTok Global haftalık #6; arşivde yok, tetikleyici henüz açıklanmadı." },
+      { name: "Goya Menor & Nektunez — Ameno Amapiano Remix", status: "Orta / izle", detail: "TikTok Global haftalık #7; arşivde yok, özgül tetikleyici henüz açıklanmadı." },
+    ],
+    sources: [
+      { name: "Official Charts — 28 Ağustos resmî UK Singles Chart", url: "https://www.officialcharts.com/charts/singles-chart/20260828/7501/" },
+      { name: "Spotify Global — 29 Ağustos günlük görünümü", url: "https://kworb.net/spotify/country/global_daily.html" },
+      { name: "Apple Music — HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", url: "https://music.apple.com/us/album/movin-to-the-sun-single/6769069923" },
+      { name: "PARTYNEXTDOOR — PARTYNEXTDOOR 3 (P3) [10-YEAR EDITION] resmî yayın bağlantısı", url: "https://ovo-partynextdoor.ffm.to/p3_10year" },
+      { name: "Apple Music — PARTYNEXTDOOR — Some of Your Love", url: "https://music.apple.com/us/album/some-of-your-love/6803235614?i=6803236411" },
+      { name: "Apple Music — eńau & Ari Lesmana — Sesi Potret", url: "https://music.apple.com/us/album/sesi-potret/1868326919?i=1868326920" },
+      { name: "Apple Music — Raim Laode — Dunia Yang Nanti", url: "https://music.apple.com/us/album/dunia-yang-nanti/1894381175?i=6762495387" },
+      { name: "Apple Music dünya şarkı agregasyonu — 30 Ağustos görünümü", url: "https://kworb.net/apple_songs/" },
+      { name: "Apple Music — Michael Jackson — Beat It", url: "https://music.apple.com/us/album/beat-it/269572838?i=269573341" },
+      { name: "Soundcharts — TikTok Global haftalık görünümü", url: "https://www.soundcharts.com/es/charts/tiktok/worldwide" },
+      { name: "Apple Music — Simi, Adekunle Gold & Deja — Happy Birthday", url: "https://music.apple.com/us/album/happy-birthday/1628796614?i=1628796616" },
+      { name: "Apple Music — Westlife — I Lay My Love On You (Remix)", url: "https://music.apple.com/us/album/i-lay-my-love-on-you-remix/255641168?i=255642123" },
+      { name: "Soompi — Ağustos beşinci hafta K-pop listesi", url: "https://www.soompi.com/article/1866753wpp/soompis-k-pop-music-chart-2026-august-week-5" },
+      { name: "Billboard — Hot 100", url: "https://www.billboard.com/charts/hot-100/" },
+      { name: "Billboard — Billboard 200", url: "https://www.billboard.com/charts/billboard-200/" },
+      { name: "Circle Chart — Global günlük liste", url: "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { name: "Apple Music — Top 100: Global", url: "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+    ],
+    storyShare:
+      "31 Ağustos müzik gündemi: HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun UK'de yeni zirvesinde; KAROL G, Judeline & rusowsky — BbY WOW Spotify Global liderliğini güçlendirdi.",
+  },
+  {
     slug: "28-agustos-2026-muzik-gundemi",
     title: "28 Ağustos müzik gündemi: JENNIE — Fallen Angel dijital EP'si yayımlandı",
     shortTitle: "28 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-28",
-    updatedAt: "2026-08-28T10:10:00+03:00",
+    updatedAt: "2026-08-31T10:45:00+03:00",
     readTime: "5 dk",
     image: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/b0/ed/27b0edf5-ec5e-fb16-0193-298a679e7a50/196874698273.jpg/1200x630wp-60.jpg",
     imageAlt: "JENNIE — Fallen Angel dijital EP'sinin resmî kapak görseli",
@@ -19,7 +254,12 @@ export const popGundemiArticles = [
     pullQuote:
       "Billboard'un 29 Ağustos haftası, Circle'ın 25 Ağustos günlüğü, Apple Music'in 28 Ağustos görünümü ve Spotify Global'ın 26 Ağustos günlüğü aynı ölçüm değildir.",
     relatedTranslations: [
+      "jennie-fallen-angel-turkce-ceviri",
+      "jennie-heaven-turkce-ceviri",
       "jennie-less-than-a-lover-turkce-ceviri",
+      "onerepublic-pay-that-toll-turkce-ceviri",
+      "lennon-stella-unforgivable-things-turkce-ceviri",
+      "charlie-puth-one-call-away-turkce-ceviri",
       "tame-impala-jennie-dracula-turkce-ceviri",
       "dolly-parton-jolene-turkce-ceviri",
       "dolly-parton-9-to-5-turkce-ceviri",
@@ -47,7 +287,7 @@ export const popGundemiArticles = [
         heading: "JENNIE — Fallen Angel dijital EP'si yayında",
         body: [
           "OA Entertainment'ın Weverse duyurusu JENNIE — Fallen Angel için dünya genelindeki yayın saatini 28 Ağustos 13.00 KST olarak verdi. Apple Music katalog kaydı da üç parçalık dijital sürümü ve aynı yayın tarihini doğruluyor.",
-          "Dijital sürümde JENNIE — FALLEN ANGEL, JENNIE — HEAVEN ve JENNIE — Less than a Lover bulunuyor. JENNIE — Less than a Lover çevirisi arşivde; diğer iki kayıt henüz sitede yer almıyor.",
+          "Dijital sürümde JENNIE — FALLEN ANGEL, JENNIE — HEAVEN ve JENNIE — Less than a Lover bulunuyor. Üç şarkının çevirisi de artık arşivde.",
           "30 Ekim için duyurulan fiziksel JENNIE — Fallen Angel sürümü altı parçadan oluşacak. Bu tarih dijital EP'nin 28 Ağustos yayın tarihiyle birleştirilmedi.",
         ],
       },
@@ -55,7 +295,7 @@ export const popGundemiArticles = [
         heading: "OneRepublic — Pay That Toll ve Lennon Stella — Unforgivable Things yayımlandı",
         body: [
           "Universal Music'in 28 Ağustos tarihli sanatçı duyurusu OneRepublic — Pay That Toll teklisinin yayımlandığını bildiriyor. Spotify kaydı da 28 Ağustos 2026 tarihini ve OneRepublic kredisini doğruluyor; ilk günlük liste ölçümü henüz oluşmadı.",
-          "Lennon Stella — Unforgivable Things, 27 Ağustos'ta video eşliğinde yayımlandı ve 23 Ekim'de çıkacak Lennon Stella — Sleeping Lion albümünün ilk paylaşımı olarak duyuruldu. İki parça da çeviri arşivinde bulunmuyor.",
+          "Lennon Stella — Unforgivable Things, 27 Ağustos'ta video eşliğinde yayımlandı ve 23 Ekim'de çıkacak Lennon Stella — Sleeping Lion albümünün ilk paylaşımı olarak duyuruldu. OneRepublic — Pay That Toll ve Lennon Stella — Unforgivable Things çevirileri artık arşivde.",
         ],
       },
       {
@@ -69,7 +309,7 @@ export const popGundemiArticles = [
         heading: "Charlie Puth — One Call Away ve Westlife — I Lay My Love On You (Remix) TikTok'ta yükseldi",
         body: [
           "Soundcharts'ın 27 Ağustos haftalık TikTok Global listesinde Charlie Puth — One Call Away 101 bin kullanımla 3 numarada. Westlife — I Lay My Love On You (Remix) 100 bin kullanımla 7 numarada yer aldı.",
-          "Charlie Puth — One Call Away 2015, Westlife — I Lay My Love On You (Remix) ise 2000 tarihli katalog kayıtları. İki şarkı da sitede bulunmuyor; yükselişin özgül sosyal medya tetikleyicisi resmî hesaplarla henüz doğrulanmadı.",
+          "Charlie Puth — One Call Away 2015, Westlife — I Lay My Love On You (Remix) ise 2000 tarihli katalog kayıtları. Charlie Puth — One Call Away çevirisi artık arşivde; Westlife — I Lay My Love On You (Remix) henüz bulunmuyor. Yükselişin özgül sosyal medya tetikleyicisi resmî hesaplarla doğrulanmadı.",
         ],
       },
       {
@@ -81,12 +321,12 @@ export const popGundemiArticles = [
       },
     ],
     memberStatus: [
-      { name: "JENNIE — FALLEN ANGEL", status: "Çok yüksek öncelik", detail: "28 Ağustos tarihli yeni dijital EP'nin başlık parçası; arşivde yok." },
-      { name: "JENNIE — HEAVEN", status: "Yüksek öncelik", detail: "JENNIE — Fallen Angel dijital EP'sinin yeni parçası; arşivde yok." },
-      { name: "OneRepublic — Pay That Toll", status: "Yüksek öncelik", detail: "28 Ağustos tarihli resmî yeni tekli; arşivde yok." },
-      { name: "Lennon Stella — Unforgivable Things", status: "Orta-yüksek öncelik", detail: "27 Ağustos tarihli yeni tekli ve video; arşivde yok." },
+      { name: "JENNIE — FALLEN ANGEL", status: "Çeviri yayında", detail: "28 Ağustos tarihli dijital EP'nin başlık parçası arşive eklendi." },
+      { name: "JENNIE — HEAVEN", status: "Çeviri yayında", detail: "JENNIE — Fallen Angel dijital EP'sinin yeni parçası arşive eklendi." },
+      { name: "OneRepublic — Pay That Toll", status: "Çeviri yayında", detail: "28 Ağustos tarihli resmî yeni teklinin çevirisi arşivde." },
+      { name: "Lennon Stella — Unforgivable Things", status: "Çeviri yayında", detail: "27 Ağustos tarihli yeni teklinin çevirisi arşivde." },
       { name: "TNX — Die Another Day", status: "Yüksek öncelik", detail: "27 Ağustos tarihli yeni K-pop teklisi; arşivde yok, romanizasyon gerekli." },
-      { name: "Charlie Puth — One Call Away", status: "Yüksek öncelik", detail: "TikTok Global haftalık #3; arşivde yok, romanizasyon gerekmiyor." },
+      { name: "Charlie Puth — One Call Away", status: "Çeviri yayında", detail: "TikTok Global haftalık görünümünün ardından çeviri arşive eklendi." },
       { name: "Westlife — I Lay My Love On You (Remix)", status: "Yüksek öncelik", detail: "TikTok Global haftalık #7; arşivde yok, romanizasyon gerekmiyor." },
     ],
     sources: [
@@ -317,7 +557,7 @@ export const popGundemiArticles = [
     shortTitle: "25 Ağustos — günün müzik gündemi",
     kicker: "Günün müzik gündemi",
     date: "2026-08-25",
-    updatedAt: "2026-08-25T10:12:00+03:00",
+    updatedAt: "2026-08-31T10:45:00+03:00",
     readTime: "7 dk",
     image: "https://www.universal-music.co.jp/olivia-rodrigo/wp-content/uploads/sites/3726/2026/08/Olivia-Rodrigo-serena-joy.jpeg",
     imageAlt: "Olivia Rodrigo serena joy teklisinin resmî kapak görseli",
@@ -444,6 +684,7 @@ export const popGundemiArticles = [
     pullQuote:
       "Blingy, ilk Melon görünümünde TOP100'e 98 ve HOT100'e 15 numaradan girdi.",
     relatedTranslations: [
+      "tulus-teh-hijau-turkce-ceviri",
       "cortis-redred-turkce-ceviri",
       "cortis-juicy-j-motion-turkce-ceviri",
       "nct-127-pinata-turkce-ceviri",
@@ -492,7 +733,7 @@ export const popGundemiArticles = [
         body: [
           "KAROL G, rusowsky ve Judeline ortaklığı BbY WOW, Apple Music'in 23 Ağustos tarihli resmî küresel çalma listesinde 5 numarada. Spotify Global'ın 22 Ağustos ölçümünde 16 numaraya ulaşan şarkı, ABD Hot 100'e de 73 numaradan giriş yaptı. 7 Ağustos'ta yayımlanan kayıt arşivde bulunmuyor ve bugünün en yüksek öncelikli global çeviri adayı.",
           "PARTYNEXTDOOR — Some of Your Love, P3'ün 10. yıl baskısındaki üç yeni kayıttan biri olarak 21 Ağustos'ta yayımlandı; 22 Ağustos Spotify Global ölçümünde 98 numarada ve Apple Music'in güncel küresel görünümünde ilk 15 içinde. Netón Vega — RIKI ise Spotify Global'da 31 numarayla yeni zirvesine ulaştı. İki şarkı da arşivde yok; Latin dışı alfabe kullanmadıkları için romanizasyon gerekmiyor.",
-          "Dance-pop kaydı Movin' To The Sun, resmî UK Singles Chart'ta 4 numarayı korudu ve Spotify Global'da 46 numarayla yeni zirvesini gördü. Endonezce pop kaydı Teh Hijau da Spotify Global'da 16 basamaklık sıçramayla 29 numaraya ulaştı. İki şarkı arşivde bulunmuyor; sözleri Latin alfabesiyle yazıldığı için romanizasyon gerekmiyor.",
+          "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun, resmî UK Singles Chart'ta 4 numarayı korudu ve Spotify Global'da 46 numarayla yeni zirvesini gördü. TULUS — Teh Hijau da Spotify Global'da 16 basamaklık sıçramayla 29 numaraya ulaştı. TULUS — Teh Hijau çevirisi daha sonra arşive eklendi; HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun henüz bulunmuyor. İki kayıtta da romanizasyon gerekmiyor.",
         ],
       },
       {
@@ -510,7 +751,7 @@ export const popGundemiArticles = [
       { name: "PARTYNEXTDOOR — Some of Your Love", status: "Yüksek öncelik", detail: "Yeni P3 kaydı; iki global günlük listede görünürlük kazandı, arşivde yok." },
       { name: "Netón Vega — RIKI", status: "Yüksek öncelik", detail: "Spotify Global'da #31 ile yeni zirve; arşivde yok." },
       { name: "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", status: "Çok yüksek öncelik", detail: "UK #4 ve Spotify Global'da #46 ile yeni zirve; arşivde yok." },
-      { name: "TULUS — Teh Hijau", status: "Yüksek öncelik", detail: "Spotify Global'da 16 basamak yükselerek #29 oldu; arşivde yok." },
+      { name: "TULUS — Teh Hijau", status: "Çeviri yayında", detail: "Spotify Global yükselişinin ardından çeviri arşive eklendi." },
       { name: "NCT 127 — Blingy", status: "Çok yüksek öncelik", detail: "24 Ağustos 18.00 KST'de yayımlandı; Melon TOP100 #98 ve HOT100 #15, romanizasyon gerekli." },
       { name: "ALPHA DRIVE ONE — BORN DIRE", status: "Yüksek öncelik", detail: "24 Ağustos 18.00 KST'de yayımlandı; Melon HOT100 #30, romanizasyon gerekli." },
       { name: "NEXZ — SAUCIN'", status: "Orta / izle", detail: "24 Ağustos 18.00 KST'de yayımlandı; ilk TOP100/HOT100 görünümünde yok, romanizasyon gerekli." },
