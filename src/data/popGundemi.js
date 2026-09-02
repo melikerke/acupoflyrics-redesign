@@ -1,5 +1,211 @@
 export const popGundemiArticles = [
   {
+    "slug": "2-eylul-2026-muzik-gundemi",
+    "title": "2 Eylül müzik gündemi: KATSEYE — Animal UK yükseliş listesinin zirvesinde",
+    "shortTitle": "2 Eylül — günün müzik gündemi",
+    "kicker": "Günün müzik gündemi",
+    "date": "2026-09-02",
+    "updatedAt": "2026-09-02T10:20:00+03:00",
+    "readTime": "5 dk",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+    "imageAlt": "Alyssa Grace — bloodstream teklisinin resmî kapak görseli",
+    "imageCredit": "Alyssa Grace",
+    "imageSource": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+    "accent": "#a53844",
+    "excerpt": "KATSEYE — Animal, Official Charts'ın haftalık yükseliş görünümünde yeniden zirveye çıktı. Alyssa Grace — bloodstream ve Audrey Hobert — Sue Me ilk üçe yerleşirken Girls' Generation-HRS — Skibidi YouTube Music global eğilim görünümünde altı basamak yükseldi.",
+    "dek": "1–2 Eylül aralığındaki UK yükselişleri, YouTube Music hareketleri ve Spotify Global katalog sıçramaları; her platformun ölçüm tarihi ayrı tutularak tek dosyada toplandı.",
+    "pullQuote": "Official Trending Chart'ın cuma–pazartesi büyüme ölçümü, YouTube Music'in 2 Eylül eğilim görünümü ve Spotify Global'ın 31 Ağustos günlüğü birbirinden ayrı dönemlerdir.",
+    "relatedTranslations": [
+      "katseye-animal-turkce-ceviri",
+      "adela-aint-in-la-turkce-ceviri",
+      "dua-lipa-training-season-turkce-ceviri",
+      "linkin-park-numb-turkce-ceviri",
+      "katseye-hootie-frutti-turkce-ceviri",
+      "enhypen-bloody-paradise-turkce-ceviri",
+      "stray-kids-farming-turkce-ceviri",
+      "alyssa-grace-bloodstream-turkce-ceviri",
+      "audrey-hobert-sue-me-turkce-ceviri",
+      "ashe-stop-the-wedding-turkce-ceviri",
+      "alex-warren-cry-wolf-turkce-ceviri",
+      "noah-kahan-willing-and-able-turkce-ceviri",
+      "girls-generation-hrs-skibidi-turkce-ceviri",
+      "tove-lo-talking-body-turkce-ceviri",
+      "mazzy-star-fade-into-you-turkce-ceviri"
+    ],
+    "livePanel": {
+      "label": "2 Eylül 2026 sabah kesimi",
+      "title": "Bugünün doğrulanmış hareketleri",
+      "items": [
+        {
+          "label": "UK yükselişi",
+          "text": "KATSEYE — Animal, Official Trending Chart'ta yeniden 1 numaraya çıktı; Alyssa Grace — bloodstream 2, Audrey Hobert — Sue Me 3 numarada."
+        },
+        {
+          "label": "Yeni albüm girişi",
+          "text": "Alex Warren — CRY WOLF, 28 Ağustos tarihli Alex Warren — WILDCHILD albümünden Official Trending Chart'a 10 numaradan girdi."
+        },
+        {
+          "label": "K-pop yükselişi",
+          "text": "Girls' Generation-HRS — Skibidi, YouTube Music global eğilim görünümünde altı basamak yükselerek 17 numaraya çıktı."
+        },
+        {
+          "label": "Viral katalog",
+          "text": "Tove Lo — Talking Body Spotify Global'da 32, Mazzy Star — Fade Into You 18 basamak yükseldi; iki çeviri de arşive eklendi."
+        }
+      ]
+    },
+    "summary": [
+      "Official Charts'ın 1 Eylül tarihli haftalık yükseliş görünümünde KATSEYE — Animal yeniden 1 numaraya çıktı. Alyssa Grace — bloodstream 2, Audrey Hobert — Sue Me 3, Ashe — Stop The Wedding! 6 numarada yer aldı.",
+      "Alex Warren — CRY WOLF listeye 10 numaradan yeni giriş yaptı; Noah Kahan — Willing and Able 11 numarada. Arşivde KATSEYE — Animal ve ADÉLA — Ain't In LA bulunduğu için aday tablosuna yeniden alınmadı.",
+      "YouTube Music'in 2 Eylül 02.40 EDT tarihli global eğilim görünümünde Girls' Generation-HRS — Skibidi altı basamak yükselerek 17 numaraya çıktı. KATSEYE — Hootie Frutti 1, ENHYPEN — Bloody Paradise 2 ve Stray Kids — FARMING 6 numarada; bu üç parçanın çevirisi arşivde mevcut.",
+      "Spotify Global'ın 31 Ağustos günlüğünde Tove Lo — Talking Body 32 basamak yükselerek 122, Mazzy Star — Fade Into You 18 basamak yükselerek 125 numaraya çıktı. Dua Lipa — Training Season ve Linkin Park — Numb daha güçlü günlük sıçramalar kaydetti ancak çevirileri arşivde bulunduğu için aday listesine alınmadı.",
+      "Müzik Listeleri güncelleme işlemi çalıştırıldı; Billboard Hot 100 ve Billboard 200 5 Eylül haftasına, Circle Global 30 Ağustos günlüğüne ve Spotify Global Top 50 31 Ağustos günlüğüne yenilendi. Apple Music Top 100: Global 1 Eylül görünümünde kaldı; her listenin kendi ölçüm dönemi ayrı tutuldu."
+    ],
+    "sections": [
+      {
+        "heading": "KATSEYE — Animal UK yükseliş görünümünün zirvesine döndü",
+        "body": [
+          "Official Charts'ın 1 Eylül tarihli Official Trending Chart'ı, KATSEYE — Animal parçasını haftalık büyüme görünümünün 1 numarasına yerleştirdi. Liste cuma–pazartesi arasındaki ilk dört satış gününü ve hafta bazlı büyümeyi ölçüyor.",
+          "Alyssa Grace — bloodstream 2, Audrey Hobert — Sue Me 3, Ashe — Stop The Wedding! 6 numarada. Üç parçanın çevirisi 2 Eylül'de arşive eklendi."
+        ]
+      },
+      {
+        "heading": "Alex Warren — CRY WOLF ve Noah Kahan — Willing and Able listeye girdi",
+        "body": [
+          "Alex Warren — CRY WOLF, Official Trending Chart'a 10 numaradan yeni giriş yaptı. Spotify kaydı parçayı 28 Ağustos'ta yayımlanan Alex Warren — WILDCHILD albümüne bağlıyor.",
+          "Noah Kahan — Willing and Able aynı görünümde 11 numarada. Spotify kaydı parçanın Noah Kahan — The Great Divide albümündeki 24 Nisan tarihli sürümünü doğruluyor. İki çeviri de 2 Eylül'de arşive eklendi."
+        ]
+      },
+      {
+        "heading": "Girls' Generation-HRS — Skibidi global eğilim görünümünde yükseldi",
+        "body": [
+          "Girls' Generation-HRS — Skibidi performans videosu, YouTube Music'in 2 Eylül 02.40 EDT tarihli global eğilim görünümünde altı basamak yükselerek 17 numaraya çıktı; Güney Kore'de 2 numarada.",
+          "Parça 31 Ağustos'ta resmen yayımlandı; Korece özgün sözleriyle Türkçe çevirisi 2 Eylül'de arşive eklendi. KATSEYE — Hootie Frutti, ENHYPEN — Bloody Paradise ve Stray Kids — FARMING aynı görünümün üst sıralarında olsa da çevirileri arşivde mevcut."
+        ]
+      },
+      {
+        "heading": "Tove Lo — Talking Body ve Mazzy Star — Fade Into You yeniden yükseliyor",
+        "body": [
+          "Spotify Global'ın 31 Ağustos günlüğünde Tove Lo — Talking Body 32 basamak yükselerek 122 numaraya ve 1,32 milyon günlük dinlenmeye ulaştı. Spotify, parçanın yayın tarihini 24 Eylül 2014 olarak veriyor.",
+          "Mazzy Star — Fade Into You aynı günlük görünümde 18 basamak yükselerek 125 numaraya ve 1,31 milyon dinlenmeye çıktı. Spotify albüm kaydı 5 Ekim 1993 tarihli. İki çeviri de 2 Eylül'de arşive eklendi; yükselişlerin özgül sosyal medya tetikleyicisi resmî kaynaklarla henüz açıklanmadı."
+        ]
+      }
+    ],
+    "memberStatus": [
+      {
+        "name": "Alyssa Grace — bloodstream",
+        "status": "Çeviri yayımlandı",
+        "detail": "Official Trending Chart #2; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Audrey Hobert — Sue Me",
+        "status": "Çeviri yayımlandı",
+        "detail": "Official Trending Chart #3 ve ana listede yeni zirve; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Ashe — Stop The Wedding!",
+        "status": "Çeviri yayımlandı",
+        "detail": "Official Trending Chart #6; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Alex Warren — CRY WOLF",
+        "status": "Çeviri yayımlandı",
+        "detail": "Official Trending Chart'a #10 yeni giriş; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Noah Kahan — Willing and Able",
+        "status": "Çeviri yayımlandı",
+        "detail": "Official Trending Chart #11; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Girls' Generation-HRS — Skibidi",
+        "status": "Çeviri yayımlandı",
+        "detail": "YouTube Music global eğilim görünümünde +6 ile #17; Korece özgün sözler ve Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Tove Lo — Talking Body",
+        "status": "Çeviri yayımlandı",
+        "detail": "Spotify Global'da +32 ile #122; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      },
+      {
+        "name": "Mazzy Star — Fade Into You",
+        "status": "Çeviri yayımlandı",
+        "detail": "Spotify Global'da +18 ile #125; Türkçe çeviri 2 Eylül'de arşive eklendi."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Official Charts — 1 Eylül 2026 Official Trending Chart",
+        "url": "https://www.officialcharts.com/chart-news/trending-songs-uk-september-1-2026/"
+      },
+      {
+        "name": "Spotify — Alyssa Grace — bloodstream",
+        "url": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO"
+      },
+      {
+        "name": "Spotify — Audrey Hobert — Sue Me",
+        "url": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy"
+      },
+      {
+        "name": "Spotify — Ashe — Stop The Wedding!",
+        "url": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T"
+      },
+      {
+        "name": "Spotify — Alex Warren — CRY WOLF",
+        "url": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9"
+      },
+      {
+        "name": "Spotify — Noah Kahan — Willing and Able",
+        "url": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs"
+      },
+      {
+        "name": "YouTube Music global eğilim görünümü — 2 Eylül",
+        "url": "https://kworb.net/youtube/trending_music.html"
+      },
+      {
+        "name": "SMTOWN Official Japan — Girls' Generation-HRS — Skibidi yayın duyurusu",
+        "url": "https://smtown-official.jp/news/detail.php?nid=4SWkR23kJq4%3D"
+      },
+      {
+        "name": "Girls' Generation / Weverse — Girls' Generation-HRS — Skibidi performans videosu",
+        "url": "https://weverse.io/girlsgeneration/media/4-240416258"
+      },
+      {
+        "name": "Spotify Global — 31 Ağustos günlük görünümü",
+        "url": "https://kworb.net/spotify/country/global_daily.html"
+      },
+      {
+        "name": "Spotify — Tove Lo — Talking Body",
+        "url": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ"
+      },
+      {
+        "name": "Spotify — Mazzy Star — Fade Into You",
+        "url": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK"
+      },
+      {
+        "name": "Billboard — Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/"
+      },
+      {
+        "name": "Billboard — Billboard 200",
+        "url": "https://www.billboard.com/charts/billboard-200/"
+      },
+      {
+        "name": "Circle Chart — Global günlük liste",
+        "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day"
+      },
+      {
+        "name": "Apple Music — Top 100: Global",
+        "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31"
+      },
+      {
+        "name": "Spotify — Top 50: Global",
+        "url": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"
+      }
+    ],
+    "storyShare": "2 Eylül müzik gündemi: KATSEYE — Animal UK yükseliş görünümünün zirvesine döndü; Girls' Generation-HRS — Skibidi YouTube Music global eğilim görünümünde 17 numaraya yükseldi."
+  },
+  {
     slug: "1-eylul-2026-muzik-gundemi",
     title: "1 Eylül müzik gündemi: Girls' Generation-HRS — Skibidi yayımlandı",
     shortTitle: "1 Eylül — günün müzik gündemi",
@@ -22,6 +228,7 @@ export const popGundemiArticles = [
       "cortis-redred-turkce-ceviri",
       "post-malone-swae-lee-sunflower-turkce-ceviri",
       "olivia-dean-so-easy-to-fall-in-love-turkce-ceviri",
+      "girls-generation-hrs-skibidi-turkce-ceviri",
     ],
     livePanel: {
       label: "1 Eylül 2026 sabah kesimi",
@@ -46,7 +253,7 @@ export const popGundemiArticles = [
         heading: "Girls' Generation-HRS — Skibidi yayımlandı ve global eğilim görünümüne girdi",
         body: [
           "SM Entertainment'ın resmî Japonya sitesindeki 31 Ağustos duyurusu, Girls' Generation-HRS — Skibidi dijital teklisinin aynı gün 18.00 KST'de yayımlandığını doğruluyor. Apple Music kaydı iki parçalık teklide Girls' Generation-HRS — Skibidi ile Girls' Generation-HRS — Lowkey In Love bulunduğunu gösteriyor.",
-          "Girls' Generation-HRS — Skibidi performans videosu, YouTube Music'in 1 Eylül 02.40 EDT tarihli global eğilim görünümüne 23 numaradan girdi ve sekiz ülkenin yerel görünümünde yer aldı. Şarkı arşivde yok; Korece dizeler için Latin alfabeli romanizasyon gerekli.",
+          "Girls' Generation-HRS — Skibidi performans videosu, YouTube Music'in 1 Eylül 02.40 EDT tarihli global eğilim görünümüne 23 numaradan girdi ve sekiz ülkenin yerel görünümünde yer aldı. Korece özgün sözleriyle Türkçe çevirisi 2 Eylül'de arşive eklendi.",
         ],
       },
       {
@@ -79,7 +286,7 @@ export const popGundemiArticles = [
       },
     ],
     memberStatus: [
-      { name: "Girls' Generation-HRS — Skibidi", status: "Çok yüksek öncelik", detail: "31 Ağustos yeni yayını; YouTube Music global eğilim görünümüne #23 giriş, arşivde yok, romanizasyon gerekli." },
+      { name: "Girls' Generation-HRS — Skibidi", status: "Çeviri yayımlandı", detail: "31 Ağustos yeni yayını; YouTube Music global eğilim görünümüne #23 giriş, Türkçe çeviri 2 Eylül'de arşive eklendi." },
       { name: "CORTIS — MONEYMONEYMONEY", status: "Çok yüksek öncelik", detail: "YouTube Music global eğilim görünümünde +3 ile #20; arşivde yok, romanizasyon gerekli." },
       { name: "Natanael Cano — Mar Azul", status: "Yüksek öncelik", detail: "Resmî video global eğilim görünümüne #28 giriş ve Meksika'da #1; arşivde yok." },
       { name: "Rema — TEA", status: "Orta-yüksek öncelik", detail: "Resmî video global eğilim görünümünde +8; arşivde yok." },

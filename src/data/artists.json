@@ -542,7 +542,7 @@
   {
     "slug": "alex-warren",
     "name": "Alex Warren",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe027df2e591e1a050e5235cc"
   },
   {
@@ -2152,5 +2152,47 @@
     "name": "Charlie Puth",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace"
+  },
+  {
+    "slug": "alyssa-grace",
+    "name": "Alyssa Grace",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbdd45b55f2d0969721846fcc"
+  },
+  {
+    "slug": "audrey-hobert",
+    "name": "Audrey Hobert",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fc78e354b19324810f1e933"
+  },
+  {
+    "slug": "ashe",
+    "name": "Ashe",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ecbc7955919e10c45604e85"
+  },
+  {
+    "slug": "noah-kahan",
+    "name": "Noah Kahan",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5b141d30d14fb78458dac5ce"
+  },
+  {
+    "slug": "girls-generation-hrs",
+    "name": "Girls' Generation-HRS",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da1be596e5b1c5e63a013f0"
+  },
+  {
+    "slug": "tove-lo",
+    "name": "Tove Lo",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb052316e437e3525c9f9b473b"
+  },
+  {
+    "slug": "mazzy-star",
+    "name": "Mazzy Star",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3"
   }
 ]

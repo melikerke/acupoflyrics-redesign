@@ -1,5 +1,426 @@
 [
   {
+    "id": "5279",
+    "slug": "mazzy-star-fade-into-you-turkce-ceviri",
+    "title": "Mazzy Star Fade Into You Türkçe Çeviri",
+    "song": "Fade Into You",
+    "artist": "Mazzy Star",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+    "date": "2026-09-02T07:57:51.437Z",
+    "reading_time": 1,
+    "excerpt": "I wanna hold the hand inside you",
+    "categories": [
+      "Mazzy Star",
+      "So Tonight That I Might See"
+    ],
+    "category_slugs": [
+      "mazzy-star",
+      "so-tonight-that-i-might-see"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+      "albumUrl": "https://open.spotify.com/album/5K18gTgac0q6Jma5HkV1vA",
+      "artistUrl": "https://open.spotify.com/artist/37w38cCSGgKLdayTRjna4W",
+      "albumName": "So Tonight That I Might See",
+      "releaseDate": "1993-10-05",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+      "duration": "4:56",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 10,
+      "artistName": "Mazzy Star",
+      "artistImage": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3",
+      "artistGenres": [],
+      "albumArtist": "Mazzy Star"
+    },
+    "moods": [
+      "Night",
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "I wanna hold the hand inside you",
+      "tr": "Senin içindeki o \"asıl\" eli tutmak istiyorum;"
+    },
+    "heroPair": {
+      "en": "Fade into you",
+      "tr": "Senin içinde siliniyorum...²"
+    }
+  },
+  {
+    "id": "5278",
+    "slug": "tove-lo-talking-body-turkce-ceviri",
+    "title": "Tove Lo Talking Body Türkçe Çeviri",
+    "song": "Talking Body",
+    "artist": "Tove Lo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+    "date": "2026-09-02T07:57:14.070Z",
+    "reading_time": 4,
+    "excerpt": "Hey",
+    "categories": [
+      "Tove Lo",
+      "Queen Of The Clouds"
+    ],
+    "category_slugs": [
+      "tove-lo",
+      "queen-of-the-clouds"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+      "albumUrl": "https://open.spotify.com/album/5Z5O36p7BivXzkucc0PAfw",
+      "artistUrl": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
+      "albumName": "Queen Of The Clouds",
+      "releaseDate": "2014-09-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+      "duration": "3:58",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 4,
+      "totalTracks": 18,
+      "artistName": "Tove Lo",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb052316e437e3525c9f9b473b",
+      "artistGenres": [],
+      "albumArtist": "Tove Lo"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Hey",
+      "tr": "Hey!"
+    },
+    "heroPair": {
+      "en": "Now if we're talking body (Hey)",
+      "tr": "Eğer konu vücuda gelirse; (Hey!)"
+    }
+  },
+  {
+    "id": "5277",
+    "slug": "girls-generation-hrs-skibidi-turkce-ceviri",
+    "title": "Girls' Generation-HRS Skibidi Türkçe Çeviri",
+    "song": "Skibidi",
+    "artist": "Girls' Generation-HRS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d",
+    "date": "2026-09-02T07:46:25.233Z",
+    "reading_time": 3,
+    "excerpt": "Woah, hey",
+    "categories": [
+      "Girls' Generation-HRS",
+      "Skibidi"
+    ],
+    "category_slugs": [
+      "girls-generation-hrs",
+      "skibidi"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2L1dsjU3R3U4SX27qIiPrq",
+      "albumUrl": "https://open.spotify.com/album/1gOc9AX3LDW6Q84YCDO0Wq",
+      "artistUrl": "https://open.spotify.com/artist/1wlgozUz29VEBQxMDqQFK1",
+      "albumName": "Skibidi",
+      "releaseDate": "2026-08-31",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d",
+      "duration": "2:46",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 2,
+      "artistName": "Girls' Generation-HRS",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb8da1be596e5b1c5e63a013f0",
+      "artistGenres": [],
+      "albumArtist": "Girls' Generation-HRS"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Woah, hey",
+      "tr": "Woah, hey!"
+    },
+    "heroPair": {
+      "en": "Skibidi",
+      "tr": "Skibidi!"
+    }
+  },
+  {
+    "id": "5276",
+    "slug": "noah-kahan-willing-and-able-turkce-ceviri",
+    "title": "Noah Kahan Willing and Able Türkçe Çeviri",
+    "song": "Willing and Able",
+    "artist": "Noah Kahan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38",
+    "date": "2026-09-02T07:44:45.206Z",
+    "reading_time": 4,
+    "excerpt": "Oh, when my weight left the room, did you take a deep breath?",
+    "categories": [
+      "Noah Kahan",
+      "The Great Divide"
+    ],
+    "category_slugs": [
+      "noah-kahan",
+      "the-great-divide"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+      "albumUrl": "https://open.spotify.com/album/2fnkyn9EybagIoFJ7a13oz",
+      "artistUrl": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
+      "albumName": "The Great Divide",
+      "releaseDate": "2026-04-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38",
+      "duration": "4:57",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 8,
+      "totalTracks": 17,
+      "artistName": "Noah Kahan",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb5b141d30d14fb78458dac5ce",
+      "artistGenres": [],
+      "albumArtist": "Noah Kahan"
+    },
+    "moods": [
+      "Dark",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Oh, when my weight left the room, did you take a deep breath?",
+      "tr": "Oh, ben odadan çıktığımda derin bir nefes mi aldın?"
+    },
+    "heroPair": {
+      "en": "I'm willing and able",
+      "tr": "Ben hazırım ve buradayım;"
+    }
+  },
+  {
+    "id": "5275",
+    "slug": "alex-warren-cry-wolf-turkce-ceviri",
+    "title": "Alex Warren CRY WOLF Türkçe Çeviri",
+    "song": "CRY WOLF",
+    "artist": "Alex Warren",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae",
+    "date": "2026-09-02T07:43:11.264Z",
+    "reading_time": 3,
+    "excerpt": "The devil don't knock at your door",
+    "categories": [
+      "Alex Warren",
+      "WILDCHILD"
+    ],
+    "category_slugs": [
+      "alex-warren",
+      "wildchild"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+      "albumUrl": "https://open.spotify.com/album/1es3JGBHQfFNXd4xVktkSs",
+      "artistUrl": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB",
+      "albumName": "WILDCHILD",
+      "releaseDate": "2026-08-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae",
+      "duration": "2:42",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 5,
+      "totalTracks": 13,
+      "artistName": "Alex Warren",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb0548e7c357122cda80128c8f",
+      "artistGenres": [],
+      "albumArtist": "Alex Warren"
+    },
+    "moods": [
+      "Sad",
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "The devil don't knock at your door",
+      "tr": "Satacak bir ruhun yoksa eğer;"
+    },
+    "heroPair": {
+      "en": "Only so many times you can cry wolf",
+      "tr": "Ama \"yalancı çobanlık\"² yapmanın da bir sınırı var!"
+    }
+  },
+  {
+    "id": "5274",
+    "slug": "ashe-stop-the-wedding-turkce-ceviri",
+    "title": "Ashe Stop The Wedding! Türkçe Çeviri",
+    "song": "Stop The Wedding!",
+    "artist": "Ashe",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6",
+    "date": "2026-09-02T07:41:42.978Z",
+    "reading_time": 3,
+    "excerpt": "I found a secret note, \"Burn after reading this\"",
+    "categories": [
+      "Ashe",
+      "Stop The Wedding!"
+    ],
+    "category_slugs": [
+      "ashe",
+      "stop-the-wedding"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+      "albumUrl": "https://open.spotify.com/album/4dem9qxmFf4RD6fqoCH6wc",
+      "artistUrl": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM",
+      "albumName": "Stop The Wedding!",
+      "releaseDate": "2026-08-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6",
+      "duration": "3:19",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Ashe",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb1ecbc7955919e10c45604e85",
+      "artistGenres": [],
+      "albumArtist": "Ashe"
+    },
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "I found a secret note, \"Burn after reading this\"",
+      "tr": "Gizli bir not buldum; \"Okuduktan sonra yak bunu\" yazıyor..."
+    },
+    "heroPair": {
+      "en": "Stop the wedding (Ah-ah-ah)",
+      "tr": "Durdurun nikahı (nikahı durdurun)!"
+    }
+  },
+  {
+    "id": "5273",
+    "slug": "audrey-hobert-sue-me-turkce-ceviri",
+    "title": "Audrey Hobert Sue Me Türkçe Çeviri",
+    "song": "Sue Me",
+    "artist": "Audrey Hobert",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658",
+    "date": "2026-09-02T07:36:58.601Z",
+    "reading_time": 4,
+    "excerpt": "I knew you'd be at the party",
+    "categories": [
+      "Audrey Hobert",
+      "Who's the Clown?"
+    ],
+    "category_slugs": [
+      "audrey-hobert",
+      "who-s-the-clown"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+      "albumUrl": "https://open.spotify.com/album/6unMpOoIJqsLxuoTEFqdfP",
+      "artistUrl": "https://open.spotify.com/artist/4N0TAwz9vhnQtjCqS65aKS",
+      "albumName": "Who's the Clown?",
+      "releaseDate": "2025-08-15",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658",
+      "duration": "2:50",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 12,
+      "artistName": "Audrey Hobert",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb4fc78e354b19324810f1e933",
+      "artistGenres": [],
+      "albumArtist": "Audrey Hobert"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "I knew you'd be at the party",
+      "tr": "Partide olacağını biliyordum;"
+    },
+    "heroPair": {
+      "en": "Sue me, I wanna be wanted",
+      "tr": "Dava et beni, arzulanmak istiyorum!"
+    }
+  },
+  {
+    "id": "5272",
+    "slug": "alyssa-grace-bloodstream-turkce-ceviri",
+    "title": "Alyssa Grace bloodstream Türkçe Çeviri",
+    "song": "bloodstream",
+    "artist": "Alyssa Grace",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+    "date": "2026-09-02T07:35:28.617Z",
+    "reading_time": 3,
+    "excerpt": "Maybe I was too young to fully understand",
+    "categories": [
+      "Alyssa Grace",
+      "bloodstream"
+    ],
+    "category_slugs": [
+      "alyssa-grace",
+      "bloodstream"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+      "albumUrl": "https://open.spotify.com/album/4rndAJfXwOHMEPpMT8rn7Q",
+      "artistUrl": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K",
+      "albumName": "bloodstream",
+      "releaseDate": "2026-06-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+      "duration": "2:57",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 3,
+      "artistName": "Alyssa Grace",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebbdd45b55f2d0969721846fcc",
+      "artistGenres": [],
+      "albumArtist": "Alyssa Grace"
+    },
+    "moods": [
+      "Sad",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Maybe I was too young to fully understand",
+      "tr": "Belki de tam olarak anlamak için çok gençtim;"
+    },
+    "heroPair": {
+      "en": "Wondering what it takes for you to stay off my mind and far out of my bloodstream",
+      "tr": "Zihnimden çıkıp gitmen ve kanımdan tamamen temizlenmen için;"
+    }
+  },
+  {
     "id": "5271",
     "slug": "chung-ha-mexico-turkce-ceviri",
     "title": "CHUNG HA México Türkçe Çeviri",

@@ -1,5 +1,3299 @@
 [
   {
+    "id": "5279",
+    "title": "Mazzy Star Fade Into You Türkçe Çeviri",
+    "song": "Fade Into You",
+    "slug": "mazzy-star-fade-into-you-turkce-ceviri",
+    "date": "2026-09-02T07:57:51.437Z",
+    "artist": "Mazzy Star",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Mazzy Star",
+      "So Tonight That I Might See"
+    ],
+    "category_slugs": [
+      "mazzy-star",
+      "so-tonight-that-i-might-see"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I wanna hold the hand inside you",
+          "I wanna take the breath that's true",
+          "I look to you and I see nothing",
+          "I look to you to see the truth",
+          "You live your life, you go in shadows",
+          "You'll come apart and you'll go blind",
+          "Some kind of night into your darkness",
+          "Colors your eyes with what's not there"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Senin içindeki o \"asıl\" eli tutmak istiyorum;",
+          "O en gerçek nefesi içime çekmek...",
+          "Sana bakıyorum ama koca bir hiçlik görüyorum;",
+          "Sana, sadece hakikati görebilmek için bakıyorum.",
+          "Sen hayatını yaşıyorsun, gölgelerin arasında süzülüyorsun;",
+          "Parçalarına ayrılacaksın ve körleşeceksin...",
+          "Senin o karanlığının içine sızan bir gece sanki bu;¹",
+          "Gözlerini orada olmayan şeylerle renklendiren..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Fade into you",
+          "Strange you never knew",
+          "Fade into you",
+          "I think it's strange you never knew"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Senin içinde siliniyorum...²",
+          "Bunu hiç bilmemiş olman ne kadar garip.",
+          "İçinde kayboluyorum senin...",
+          "Bunu hiç fark etmemiş olman ne tuhaf geliyor bana."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "A stranger light comes on slowly",
+          "A stranger's heart without a home",
+          "You put your hands into your head",
+          "And then its smiles cover your heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Yabancı bir ışık yanıyor yavaşça;",
+          "Yurtsuz, yuvasız bir yabancının kalbi gibi...",
+          "Ellerini başının arasına alıyorsun;",
+          "Ve sonra o (sahte) gülüşün, kalbinin üzerini bir örtü gibi örtüyor."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Fade into you",
+          "Strange you never knew",
+          "Fade into you",
+          "I think it's strange you never knew",
+          "Fade into you",
+          "Strange you never knew",
+          "Fade into you",
+          "I think it's strange you never knew"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Senin içinde siliniyorum...",
+          "Bunu hiç bilmemiş olman ne kadar garip.",
+          "İçinde kayboluyorum senin...",
+          "Bunu hiç fark etmemiş olman ne tuhaf geliyor bana.",
+          "İçinde siliniyorum;",
+          "Bunu hiç bilmemiş olman ne kadar garip.",
+          "İçinde kayboluyorum;",
+          "Bunu hiç fark etmemiş olmanı hala garipsiyorum..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "I think it's strange you never knew"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Bunu hiç bilmemiş olman ne tuhaf..."
+        ]
+      }
+    ],
+    "excerpt": "I wanna hold the hand inside you",
+    "annotations": {
+      "¹*“Some kind of night into your darkness": "Sevgilinin zaten karanlık olan ruhunun, şarkıcıyla birleşince daha da derin ve gizemli bir boşluğa dönüştüğünü anlatan muazzam bir tasvir.*",
+      "²*“Fade into you": "Kelime anlamıyla birinin içinde \"solmak\" veya \"silinmek\" demektir. Kişiliğini bir başkasının varlığında eritmek ve onun bir parçası olmak anlamını taşır.*"
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1LzNfuep1bnAUR9skqdHCK",
+        "name": "Fade Into You",
+        "url": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+        "isrc": "USCA29300105",
+        "durationMs": 295600,
+        "duration": "4:56",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "37w38cCSGgKLdayTRjna4W",
+        "name": "Mazzy Star",
+        "url": "https://open.spotify.com/artist/37w38cCSGgKLdayTRjna4W",
+        "image": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "37w38cCSGgKLdayTRjna4W",
+          "name": "Mazzy Star",
+          "url": "https://open.spotify.com/artist/37w38cCSGgKLdayTRjna4W"
+        }
+      ],
+      "album": {
+        "id": "5K18gTgac0q6Jma5HkV1vA",
+        "name": "So Tonight That I Might See",
+        "url": "https://open.spotify.com/album/5K18gTgac0q6Jma5HkV1vA",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+        "artists": [
+          {
+            "id": "37w38cCSGgKLdayTRjna4W",
+            "name": "Mazzy Star",
+            "url": "https://open.spotify.com/artist/37w38cCSGgKLdayTRjna4W"
+          }
+        ],
+        "releaseDate": "1993-10-05",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 1993 Capitol Records Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 1993 Capitol Records Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 10,
+        "tracks": [
+          {
+            "id": "1LzNfuep1bnAUR9skqdHCK",
+            "name": "Fade Into You",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 295600,
+            "duration": "4:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+            "isCurrent": true
+          },
+          {
+            "id": "5AabqkMATMr8zsfPS5yJnr",
+            "name": "Bells Ring",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 272066,
+            "duration": "4:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5AabqkMATMr8zsfPS5yJnr",
+            "isCurrent": false
+          },
+          {
+            "id": "6nQVB7McD3XdFEZ0x8H9i0",
+            "name": "Mary Of Silence",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 362066,
+            "duration": "6:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6nQVB7McD3XdFEZ0x8H9i0",
+            "isCurrent": false
+          },
+          {
+            "id": "7pfqtkZsNheOoDziqquDT3",
+            "name": "Five String Serenade",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 264466,
+            "duration": "4:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7pfqtkZsNheOoDziqquDT3",
+            "isCurrent": false
+          },
+          {
+            "id": "3BdHMOIA9B0bN53jbE5nWe",
+            "name": "Blue Light",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 310733,
+            "duration": "5:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3BdHMOIA9B0bN53jbE5nWe",
+            "isCurrent": false
+          },
+          {
+            "id": "7jLyxBaU1KJvkTXGq7kpha",
+            "name": "She's My Baby",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 265000,
+            "duration": "4:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7jLyxBaU1KJvkTXGq7kpha",
+            "isCurrent": false
+          },
+          {
+            "id": "2Wy57u9egS9hpXtDGnzi8A",
+            "name": "Unreflected",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 222133,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Wy57u9egS9hpXtDGnzi8A",
+            "isCurrent": false
+          },
+          {
+            "id": "6mfeMz98JP6CUuCi4FvWg6",
+            "name": "Wasted",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 331600,
+            "duration": "5:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6mfeMz98JP6CUuCi4FvWg6",
+            "isCurrent": false
+          },
+          {
+            "id": "7l5nkTZpoD93OkynN0gcon",
+            "name": "Into Dust",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 336760,
+            "duration": "5:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7l5nkTZpoD93OkynN0gcon",
+            "isCurrent": false
+          },
+          {
+            "id": "6LYrGx5a39RNfXbNsaDcHq",
+            "name": "So Tonight That I Might See",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 439306,
+            "duration": "7:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6LYrGx5a39RNfXbNsaDcHq",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:57:46.964Z",
+      "trackUrl": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+      "albumUrl": "https://open.spotify.com/album/5K18gTgac0q6Jma5HkV1vA",
+      "artistUrl": "https://open.spotify.com/artist/37w38cCSGgKLdayTRjna4W",
+      "albumName": "So Tonight That I Might See",
+      "albumType": "Album",
+      "releaseDate": "1993-10-05",
+      "duration": "4:56",
+      "isrc": "USCA29300105",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea"
+    },
+    "genius": {
+      "url": "https://genius.com/Mazzy-star-fade-into-you-lyrics",
+      "songId": 67703,
+      "description": "“Fade Into You” by Mazzy Star evokes the feeling of deep longing with its slow and repetitive melody, wrapped in sorrowful strings that pull the song’s tone back and forth between hope and despair. Tambourines gently jingle, barely audible, with clockwork precision, eventually rising past monotony and punctuating the song with a sense of hopeful yet elusive joy.The musical arrangement as a whole is built around a 6/4 time signature, which essentially creates a rhythm that is based upon the number 6. It is the tambourine counting out the beat triplets while the kick drum and snare take turns marking the beginning of each triplet, creating a subdued and hypnotic rhythm.The song appeared as the first track on the album So Tonight That I Might See and was written by lead singer and lyricist Hope Sandoval with music composed and produced by the band’s guitarist, David Roback.While the song never made much of an impact on the music charts it became very well known and was often used in the soundtrack of television shows and films."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5278",
+    "title": "Tove Lo Talking Body Türkçe Çeviri",
+    "song": "Talking Body",
+    "slug": "tove-lo-talking-body-turkce-ceviri",
+    "date": "2026-09-02T07:57:14.070Z",
+    "artist": "Tove Lo",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Tove Lo",
+      "Queen Of The Clouds"
+    ],
+    "category_slugs": [
+      "tove-lo",
+      "queen-of-the-clouds"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Hey",
+          "Hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Hey!",
+          "Hey..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Bed, stay in bed",
+          "The feeling of your skin locked in my head",
+          "Smoke, smoke me broke",
+          "I don't care, I'm down for what you want"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Yatak... Yataktan çıkmayalım;",
+          "Teninin o hissi zihnime kazınmış resmen.",
+          "Sigara üstüne sigara, her şeyimi bitir;",
+          "Umrumda değil, ne istiyorsan ben ona varım."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Day drunk into the night, wanna keep you here",
+          "'Cause you dry my tears, yeah",
+          "Summer lovin' and fights, how it is for us",
+          "And it's all because"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Gündüzden geceye sarhoşuz, seni burada tutmak istiyorum;",
+          "Çünkü gözyaşlarımı silen tek kişi sensin.",
+          "Yaz aşkı ve kavgalar; bizim mevzumuz tam olarak bu...",
+          "Ve tüm bunların sebebi;"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on",
+          "Now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Eğer konu vücuda gelirse; (Hey!)",
+          "Seninkisi kusursuz, o yüzden bırak kendini üzerime! (Hey!)",
+          "Yemin ederim pek vaktini almayacak;",
+          "Eğer beni doğru düzgün seversen, ömür boyu sevişiriz!",
+          "Durmadan, durmadan, durmadan...",
+          "Şimdi mevzu vücuda gelirse;",
+          "Kusursuz bir vücudun var, hadi dokun bana!",
+          "Yemin ederim çok sürmeyecek;",
+          "Eğer beni harbi seversen, ömür boyu sevişiriz...",
+          "Durmadan, devamlı...",
+          "Şimdi mevzu vücuda gelirse;",
+          "Kusursuz bir vücudun var, hadi dokun bana!",
+          "Yemin ederim çok sürmeyecek;",
+          "Eğer beni harbi seversen, ömür boyu sevişiriz...",
+          "Durmadan, devamlı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Love, give me love",
+          "Anything you want, I'll give it up",
+          "Lips, lips I kiss",
+          "Bite me while I taste your fingertips"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Aşk, bana aşk ver;",
+          "Ne istersen, her şeyim feda olsun.",
+          "Dudaklar, öptüğüm o dudakların;",
+          "Parmak uçlarının tadına bakarken, ısır beni!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Day drunk into the night, wanna keep you here",
+          "'Cause you dry my tears, yeah",
+          "Summer lovin' and fights, how it is for us",
+          "And it's all because"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Gündüzden geceye sarhoşuz, seni burada tutmak istiyorum;",
+          "Çünkü gözyaşlarımı silen tek kişi sensin.",
+          "Yaz aşkı ve kavgalar; bizim mevzumuz tam olarak bu...",
+          "Ve tüm bunların sebebi;"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on",
+          "Oh, now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on (On and on and on)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Eğer konu vücuda gelirse; (Hey!)",
+          "Seninkisi kusursuz, o yüzden bırak kendini üzerime! (Hey!)",
+          "Yemin ederim pek vaktini almayacak;",
+          "Eğer beni doğru düzgün seversen, ömür boyu sevişiriz!",
+          "Durmadan, durmadan, durmadan..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "(Hey)",
+          "Uh-oh (Hey)",
+          "Bodies",
+          "Our baby-making bodies we just use for fun",
+          "Bodies (Hey)",
+          "Let's use 'em up 'til every little piece is gone (Let's go)",
+          "On and on and on (Let's go)",
+          "On and on (Let's go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "(Hey!)",
+          "Uh-oh...",
+          "Vücutlar...",
+          "Sadece eğlenmek için kullandığımız o \"bebek yapma\" makinelerimiz...¹",
+          "Vücutlar; (Hey!)",
+          "Hadi, her bir zerremiz tükenene dek kullanalım onları! (Hadi!)",
+          "Durmadan, durmadan...",
+          "Durmadan... (Hadi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh, now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on",
+          "Ooh, now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on (On and on and on)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh, eğer konu vücuda gelirse;",
+          "Seninkisi kusursuz, o yüzden bırak kendini üzerime!",
+          "Yemin ederim pek vaktini almayacak;",
+          "Eğer beni harbi seversen, ömür boyu sevişiriz...",
+          "Ooh, mevzu tenlere geldiğinde;",
+          "Kusursuzsun sen, hadi gel bana!",
+          "Sonsuza kadar devam edebiliriz...",
+          "Yemin ederim çok sürmeyecek;",
+          "Eğer beni harbi seversen, ömür boyu sevişiriz...",
+          "Durmadan, devamlı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Now if we're talking body (Hey)",
+          "Put it on me (Hey)",
+          "If you love me right, we fuck for life",
+          "On and on and on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Konu vücuda gelince;",
+          "Bırak kendini üzerime...",
+          "Doğru seversen, ömür boyu sürer bu;",
+          "Durmadan, devamlı..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Now if we're talking body (Hey)",
+          "You got a perfect one, so put it on me (Hey)",
+          "Swear it won't take you long",
+          "If you love me right, we fuck for life",
+          "On and on and on (Hey)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Konu vücuda gelirse;",
+          "Kusursuz bir vücudun var, o yüzden dokun bana!",
+          "Yemin ederim çok sürmeyecek;",
+          "Beni harbi seversen, sonsuza kadar sürer bu...",
+          "Durmadan, durmadan! (Hey!)"
+        ]
+      }
+    ],
+    "excerpt": "Hey",
+    "annotations": {
+      "¹*“Baby-making bodies": "Tove Lo burada üreme organlarına ve biyolojik vücut yapısına atıf yaparak, bu ciddi \"işlevi\" sadece bir \"oyun ve eğlence\" aracı olarak gördüğünü söylüyor.*"
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7cgu4JBW3hq1GwTM1ilkKQ",
+        "name": "Talking Body",
+        "url": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+        "isrc": "SEUM71401533",
+        "durationMs": 238426,
+        "duration": "3:58",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4NHQUGzhtTLFvgF5SZesLK",
+        "name": "Tove Lo",
+        "url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb052316e437e3525c9f9b473b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4NHQUGzhtTLFvgF5SZesLK",
+          "name": "Tove Lo",
+          "url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK"
+        }
+      ],
+      "album": {
+        "id": "5Z5O36p7BivXzkucc0PAfw",
+        "name": "Queen Of The Clouds",
+        "url": "https://open.spotify.com/album/5Z5O36p7BivXzkucc0PAfw",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+        "artists": [
+          {
+            "id": "4NHQUGzhtTLFvgF5SZesLK",
+            "name": "Tove Lo",
+            "url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK"
+          }
+        ],
+        "releaseDate": "2014-09-24",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2014 Universal Music AB",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2014 Universal Music AB",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 18,
+        "tracks": [
+          {
+            "id": "5wwqxEY2Z1JTzW9pQStSal",
+            "name": "THE SEX - Intro",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 6000,
+            "duration": "0:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5wwqxEY2Z1JTzW9pQStSal",
+            "isCurrent": false
+          },
+          {
+            "id": "4GRvHGd3CIKbwEXmPJioXU",
+            "name": "My Gun",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 216853,
+            "duration": "3:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4GRvHGd3CIKbwEXmPJioXU",
+            "isCurrent": false
+          },
+          {
+            "id": "20N8HzFUDR2Je9WmvXvVDZ",
+            "name": "Like Em Young",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 219946,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/20N8HzFUDR2Je9WmvXvVDZ",
+            "isCurrent": false
+          },
+          {
+            "id": "7cgu4JBW3hq1GwTM1ilkKQ",
+            "name": "Talking Body",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 238426,
+            "duration": "3:58",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+            "isCurrent": true
+          },
+          {
+            "id": "25I4pBnup7EeerWd61G61i",
+            "name": "Timebomb",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 214866,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/25I4pBnup7EeerWd61G61i",
+            "isCurrent": false
+          },
+          {
+            "id": "5baRIDFJwGwv93tkT6AST4",
+            "name": "THE LOVE - Interlude",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 5106,
+            "duration": "0:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5baRIDFJwGwv93tkT6AST4",
+            "isCurrent": false
+          },
+          {
+            "id": "6ubXleMWwmzwmKTBer20PX",
+            "name": "Moments",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 202346,
+            "duration": "3:22",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6ubXleMWwmzwmKTBer20PX",
+            "isCurrent": false
+          },
+          {
+            "id": "052Ab35V1PlCc5tEYo1Phx",
+            "name": "The Way That I Am",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 187546,
+            "duration": "3:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/052Ab35V1PlCc5tEYo1Phx",
+            "isCurrent": false
+          },
+          {
+            "id": "3mfu1aiVjGwjkAzDHcKsQW",
+            "name": "Got Love",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 228960,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3mfu1aiVjGwjkAzDHcKsQW",
+            "isCurrent": false
+          },
+          {
+            "id": "3zK3kzz1U8KEa8v9Kj8hu8",
+            "name": "Not On Drugs",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 182346,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3zK3kzz1U8KEa8v9Kj8hu8",
+            "isCurrent": false
+          },
+          {
+            "id": "43mtrPXEuZs82QddMIoqoY",
+            "name": "THE PAIN - Interlude",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 5333,
+            "duration": "0:05",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/43mtrPXEuZs82QddMIoqoY",
+            "isCurrent": false
+          },
+          {
+            "id": "6y4FCr8X7TKOLmmb6pk6PA",
+            "name": "Thousand Miles",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 214626,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6y4FCr8X7TKOLmmb6pk6PA",
+            "isCurrent": false
+          },
+          {
+            "id": "18AJRdgUoO9EYn11N7xzaT",
+            "name": "Habits (Stay High)",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 209160,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/18AJRdgUoO9EYn11N7xzaT",
+            "isCurrent": false
+          },
+          {
+            "id": "5Ji7E8Xi5kMoZiYFvmuf7H",
+            "name": "This Time Around",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 244373,
+            "duration": "4:04",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5Ji7E8Xi5kMoZiYFvmuf7H",
+            "isCurrent": false
+          },
+          {
+            "id": "2mI2EqovGKO6LbhV5TcTK3",
+            "name": "Run On Love - QOTC Edit",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 240973,
+            "duration": "4:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2mI2EqovGKO6LbhV5TcTK3",
+            "isCurrent": false
+          },
+          {
+            "id": "6vNHE8YbBwLJtTNjGFvWdx",
+            "name": "Love Ballad",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 210186,
+            "duration": "3:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6vNHE8YbBwLJtTNjGFvWdx",
+            "isCurrent": false
+          },
+          {
+            "id": "5JCi3pyggvk4B0yd0BK3ow",
+            "name": "Stay High - Habits Remix",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 258386,
+            "duration": "4:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JCi3pyggvk4B0yd0BK3ow",
+            "isCurrent": false
+          },
+          {
+            "id": "6O2urHAlufyVOPlpxpsWJu",
+            "name": "Not Made For This World",
+            "trackNumber": 18,
+            "discNumber": 1,
+            "durationMs": 218062,
+            "duration": "3:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6O2urHAlufyVOPlpxpsWJu",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:57:11.705Z",
+      "trackUrl": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+      "albumUrl": "https://open.spotify.com/album/5Z5O36p7BivXzkucc0PAfw",
+      "artistUrl": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
+      "albumName": "Queen Of The Clouds",
+      "albumType": "Album",
+      "releaseDate": "2014-09-24",
+      "duration": "3:58",
+      "isrc": "SEUM71401533",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8"
+    },
+    "genius": {
+      "url": "https://genius.com/Tove-lo-talking-body-lyrics",
+      "songId": 518089,
+      "description": "“Talking Body” subtly bemoans an overly casual approach to sex. According to Tove Lo:It’s about two people trying to get over their problems by having lots and lots of sex.It was the third single from her debut album, following up international hit “Habits (Stay High)” and “Not On Drugs,” hitting the Top 40 in the US and Canada.For reference, Tove Lo’s body is 5'6 and somewhere around 130 pounds. The model who stars in this song’s video, Filip Roséen, is listed as 6'2.Check out how much this mega-hit changed from the original demo:https://www.youtube.com/watch?t=4&v=_8lFVDt_bjk"
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5277",
+    "title": "Girls' Generation-HRS Skibidi Türkçe Çeviri",
+    "song": "Skibidi",
+    "slug": "girls-generation-hrs-skibidi-turkce-ceviri",
+    "date": "2026-09-02T07:46:25.233Z",
+    "artist": "Girls' Generation-HRS",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Girls' Generation-HRS",
+      "Skibidi"
+    ],
+    "category_slugs": [
+      "girls-generation-hrs",
+      "skibidi"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: All, Hyoyeon",
+        "lines": [
+          "Woah, hey",
+          "Woah (Yeah), hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: All, Hyoyeon",
+        "lines": [
+          "Woah, hey!",
+          "Evet, hey!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Hyoyeon, Sooyoung",
+        "lines": [
+          "다들 줄 서 있네, what's going on? (What?)",
+          "왜 같은 것만 가지려고 해 (Uh)",
+          "넌 너면 되잖아 don't be FOMO (Who?)",
+          "I'm 'bout to make you go out of control"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Hyoyeon, Sooyoung",
+        "lines": [
+          "Herkes sıraya girmiş, neler oluyor? (Ne?)",
+          "Neden hepiniz aynı şeye sahip olmaya çalışıyorsunuz? (Uh)",
+          "Sadece kendin olsan yeter, sakın \"bir şeyleri kaçırıyorum\"¹ korkusuna kapılma!",
+          "Sizi şimdi kontrolden çıkarmak üzereyim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Yuri, Sooyoung",
+        "lines": [
+          "On the weekend (Woah)",
+          "It's time to party (Hey)",
+          "밤은 milky (Woah)",
+          "우린 여기 (Hey)",
+          "내 걸음 맞춘 내 속도가 좋아 (Hey)",
+          "우리만의 새 길을 만들어 (Call me)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Yuri, Sooyoung",
+        "lines": [
+          "Hafta sonu geldi; (Woah)",
+          "Parti vakti! (Hey)",
+          "Gece bembeyaz... (Woah)",
+          "Biz buradayız! (Hey)",
+          "Kendi adımlarımın ritmi, kendi hızım hoşuma gidiyor; (Hey)",
+          "Sadece bize özel, yepyeni bir yol çiziyoruz! (Arayın beni!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Hyoyeon, Yuri, Sooyoung",
+        "lines": [
+          "Skibidi",
+          "Bad, bad, bad, bad, bad, bad",
+          "Light it up",
+          "Skibidi",
+          "Bad, bad, bad, bad, bad, bad",
+          "Light it up",
+          "You can dance",
+          "You can move",
+          "You can dance",
+          "Yes, I will dance"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Hyoyeon, Yuri, Sooyoung",
+        "lines": [
+          "Skibidi!",
+          "Fena, çok fena...",
+          "Aydınlatın her yeri!",
+          "Skibidi!",
+          "Fena, çok fena...",
+          "Aydınlatın her yeri!",
+          "Dans edebilirsin...",
+          "Hareket edebilirsin...",
+          "Dans edebilirsin...",
+          "Evet, ben dans edeceğim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Yuri, Hyoyeon",
+        "lines": [
+          "예상 밖의 답",
+          "나만의 색을 봐",
+          "틀려도 멈추지 마",
+          "It goes on and on (Ow)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Yuri, Hyoyeon",
+        "lines": [
+          "Beklenmedik o cevap benim...",
+          "Sadece benim renklerime bak;",
+          "Yanlış olsa bile durma sakın,",
+          "Böyle sürüp gidiyor bu... (Ow!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Sooyoung, Hyoyeon",
+        "lines": [
+          "On the weekend (Woah)",
+          "It's time to party (Hey)",
+          "밤은 milky (Woah)",
+          "눈부시지 (Hey)",
+          "마치 불같은",
+          "누군간 차가운 (Hey)",
+          "전부 다른 빛으로 빛나지 (Call me)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Sooyoung, Hyoyeon",
+        "lines": [
+          "Hafta sonu geldi;",
+          "Parti vakti!",
+          "Gece süt beyazı...",
+          "Göz kamaştırıyor!",
+          "Bazıları ateş gibi yakıcı,",
+          "Bazılarıysa buz gibi soğuk... (Hey)",
+          "Herkes bambaşka bir ışıkla parlıyor! (Beni arayın!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yuri, Hyoyeon, Sooyoung",
+        "lines": [
+          "Skibidi",
+          "Bad, bad, bad, bad, bad, bad",
+          "Light it up",
+          "Skibidi",
+          "Bad, bad, bad, bad, bad, bad",
+          "Light it up",
+          "You can dance",
+          "You can move",
+          "You can dance",
+          "Yes, I will dance"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yuri, Hyoyeon, Sooyoung",
+        "lines": [
+          "Skibidi!",
+          "Fena, çok fena...",
+          "Aydınlatın her yeri!",
+          "Skibidi!",
+          "Fena, çok fena...",
+          "Aydınlatın her yeri!",
+          "Dans edebilirsin...",
+          "Hareket edebilirsin...",
+          "Dans edebilirsin...",
+          "Evet, ben dans edeceğim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Yuri, Sooyoung, Hyoyeon",
+        "lines": [
+          "너의 색, 존재감 보여 줘",
+          "튀는 너의 걸음을 막 걸어 줘 (Ha)",
+          "때론 너도 규칙을 깨 so bad (Uh)",
+          "I'ma make you never forget what I do (Yeah, come on)",
+          "Don't go waste your time",
+          "Celebrate your life (Uh, uh, uh)",
+          "너도 알잖아",
+          "선택은 네가 하는 것 (Oh, yeah, oh, yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Yuri, Sooyoung, Hyoyeon",
+        "lines": [
+          "Kendi renklerini, o varlığını göster onlara!",
+          "O dikkat çekici adımlarınla yürü pervasızca... (Ha!)",
+          "Bazen sen de kuralları yık, hem de \"çok fena\"...",
+          "Sana neler yapabileceğimi asla unutturmayacağım! (Hadi ama!)",
+          "Vaktini boşa harcama hiç;",
+          "Kendi hayatını kutla! (Uh, uh, uh)",
+          "Sen de biliyorsun ya;",
+          "Seçimi yapacak olan tek kişi sensin!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sooyoung, Hyoyeon",
+        "lines": [
+          "Skibidi, bad, bad, bad, bad",
+          "Uh, we light it up",
+          "Skibidi, bad, bad, bad, bad",
+          "Uh, we light it up",
+          "(Light it up, light it up)",
+          "(Light it up, light it up) (Stop)",
+          "(Light it up, light it up) (Stop)",
+          "(Light it up, light it up)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sooyoung, Hyoyeon",
+        "lines": [
+          "Skibidi! Çok fena...",
+          "Hadi, aydınlatıyoruz buraları!",
+          "Skibidi! Çok fena...",
+          "Hadi, aydınlatıyoruz buraları!",
+          "(Yakın ışıkları, yakın!)",
+          "(Yakın ışıkları, yakın!) (DUR!)",
+          "(Yakın ışıkları, yakın!) (DUR!)",
+          "(Yakın ışıkları, yakın!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Sooyoung, Yuri",
+        "lines": [
+          "다들 줄 서 있네, what's going on?",
+          "왜 같은 것만 가지려고 해 (Hey)",
+          "넌 너면 되잖아, don't be FOMO",
+          "I'm 'bout to make you go out of control (Out of control)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Sooyoung, Yuri",
+        "lines": [
+          "Herkes sıraya girmiş, neler oluyor?",
+          "Neden hepiniz aynı şeye sahip olmaya çalışıyorsunuz?",
+          "Kendin olsan yeter, bir şeyleri kaçırıyorum diye korkma;",
+          "Sizi kontrolden çıkarmak üzereyim! (Kontrol dışı...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: All, Yuri",
+        "lines": [
+          "I got money in my bag",
+          "I got money for my stash (Skibidi)",
+          "우린 없는 게 없대 (What?)",
+          "What you know 'bout that?",
+          "Skibidi, bad, bad, bad, bad",
+          "Uh, we light it up (It up)",
+          "Skibidi, bad, bad, bad, bad",
+          "Uh, we light it up (Everybody)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: All, Yuri",
+        "lines": [
+          "Çantamda param var;",
+          "Zulaya koyacak param da... (Skibidi!)",
+          "Diyorlar ki; bizde her şeyden var! (Ne?)",
+          "Sen bu konuda ne biliyorsun ki?",
+          "Skibidi! Çok fena...",
+          "Hadi aydınlatıyoruz buraları!",
+          "Skibidi! Çok fena...",
+          "Hadi aydınlatıyoruz buraları! (Herkes eşlik etsin!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Hyoyeon",
+        "lines": [
+          "Skibidi"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Hyoyeon",
+        "lines": [
+          "Skibidi!"
+        ]
+      }
+    ],
+    "excerpt": "Woah, hey",
+    "annotations": {
+      "¹*“FOMO” (Fear of Missing Out)": "Bir şeyleri, trendleri veya sosyal olayları kaçırma korkusu. Kızlar burada herkesin birbirine benzemeye çalışmasını eleştiriyor.*"
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2L1dsjU3R3U4SX27qIiPrq",
+        "name": "Skibidi",
+        "url": "https://open.spotify.com/track/2L1dsjU3R3U4SX27qIiPrq",
+        "isrc": "KRA302600352",
+        "durationMs": 166000,
+        "duration": "2:46",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "1wlgozUz29VEBQxMDqQFK1",
+        "name": "Girls' Generation-HRS",
+        "url": "https://open.spotify.com/artist/1wlgozUz29VEBQxMDqQFK1",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8da1be596e5b1c5e63a013f0",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "1wlgozUz29VEBQxMDqQFK1",
+          "name": "Girls' Generation-HRS",
+          "url": "https://open.spotify.com/artist/1wlgozUz29VEBQxMDqQFK1"
+        }
+      ],
+      "album": {
+        "id": "1gOc9AX3LDW6Q84YCDO0Wq",
+        "name": "Skibidi",
+        "url": "https://open.spotify.com/album/1gOc9AX3LDW6Q84YCDO0Wq",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d",
+        "artists": [
+          {
+            "id": "1wlgozUz29VEBQxMDqQFK1",
+            "name": "Girls' Generation-HRS",
+            "url": "https://open.spotify.com/artist/1wlgozUz29VEBQxMDqQFK1"
+          }
+        ],
+        "releaseDate": "2026-08-31",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SM Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SM Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 2,
+        "tracks": [
+          {
+            "id": "2L1dsjU3R3U4SX27qIiPrq",
+            "name": "Skibidi",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 166000,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2L1dsjU3R3U4SX27qIiPrq",
+            "isCurrent": true
+          },
+          {
+            "id": "2dccgLL3pVqYTmppBYyzje",
+            "name": "Lowkey In Love",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 168000,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2dccgLL3pVqYTmppBYyzje",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:46:23.707Z",
+      "trackUrl": "https://open.spotify.com/track/2L1dsjU3R3U4SX27qIiPrq",
+      "albumUrl": "https://open.spotify.com/album/1gOc9AX3LDW6Q84YCDO0Wq",
+      "artistUrl": "https://open.spotify.com/artist/1wlgozUz29VEBQxMDqQFK1",
+      "albumName": "Skibidi",
+      "albumType": "EP",
+      "releaseDate": "2026-08-31",
+      "duration": "2:46",
+      "isrc": "KRA302600352",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a455ce9a315ffbadd1ef962d"
+    },
+    "genius": {
+      "url": "https://genius.com/Girls-generation-hrs-skibidi-lyrics",
+      "songId": 13983955,
+      "description": "“Skibidi”, originally a throwaway demo from SM Entertainment, is an EDM song with house chords and arabian string samples reminiscent of the company’s unique SMP (SM Performance) musical style.Upon the teasing of the song on Hyoyeon’s youtube channel, opinions of the track were very split on social media. Some fans loved the campy nature of the song, while others criticized it for being too unserious.The members described the song as having “more twists than I GOT A BOY”, referring to the infamously experimental track released by their group Girls' Generation."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5276",
+    "title": "Noah Kahan Willing and Able Türkçe Çeviri",
+    "song": "Willing and Able",
+    "slug": "noah-kahan-willing-and-able-turkce-ceviri",
+    "date": "2026-09-02T07:44:45.206Z",
+    "artist": "Noah Kahan",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Noah Kahan",
+      "The Great Divide"
+    ],
+    "category_slugs": [
+      "noah-kahan",
+      "the-great-divide"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Oh, when my weight left the room, did you take a deep breath?",
+          "I stole a beer, drove home, there was only one left",
+          "And I wrestle the feeling you're still thinking about that",
+          "Wide awake in your room, just seethin' about that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Oh, ben odadan çıktığımda derin bir nefes mi aldın?",
+          "Bir bira aşırdım, eve sürdüm; dolapta sadece bir tane kalmıştı zaten.",
+          "Hâlâ bunu düşündüğüne dair o hisle savaşıp duruyorum;",
+          "Odanda cinlerin tepende,¹ uyanık yatıp kafa yoruyorsun buna..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "When I make my flight, I'm the devil",
+          "But when I stay the night, then we drink",
+          "And we stay up and fight 'bout the childhood lie",
+          "That we both had the courage to leave"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Uçağıma bindiğimde, senin için \"şeytan\" oluyorum;",
+          "Ama gece sende kaldığımda, beraber içiyoruz.",
+          "Ve ikimizin de arkamızda bırakma cesareti gösterdiği;",
+          "O çocukluk yalanı hakkında sabaha kadar kavga ediyoruz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm willing and able",
+          "If you wanna kick this rock around",
+          "If you've got a bone to pick with me",
+          "If you've got a flag, plant it in the ground",
+          "Oh, I'll stay here 'til morning",
+          "Oh, we can fight like we used to fight",
+          "Bony-limbed, red-faced, and teary-eyed",
+          "Under the glow of the TV light"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben hazırım ve buradayım;",
+          "Eğer şu \"kayayı öylece tekmeleyip durmak\"² istersen...",
+          "Eğer benimle \"görülecek bir hesabın\"³ varsa;",
+          "Eğer dikecek bir bayrağın varsa, hadi sapla onu yere!",
+          "Oh, sabaha kadar burada kalacağım;",
+          "Eskiden kavga ettiğimiz gibi kavga edebiliriz yine;",
+          "O cılız kollarımızla, kıpkırmızı suratlarla ve yaşlı gözlerle...",
+          "Televizyonun o soluk ışığı altında."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "I'd be willing and able"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Ben hazırım ve buradayım..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Look at you leavin' again, it's all you know how to do",
+          "Go ahead, take the last of the drinks, the world belongs to you",
+          "They all say you're a light, all I see is a shadow",
+          "And I'll see you again in six months when you need your next song"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Yine çekip gidiyorsun, yapmayı bildiğin tek şey de bu zaten!",
+          "Hadi devam et, son içkileri de sen al; dünya senin etrafında dönüyor nasılsa.",
+          "Herkes senin bir \"ışık\" olduğunu söylüyor, bense sadece bir \"gölge\" görüyorum;",
+          "Ve altı ay sonra, yeni bir şarkıya ihtiyaç duyduğunda görüşürüz yine.⁴"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "'Cause if I call you out, I'm an asshole",
+          "But I tell the truth when I drink",
+          "So come home, let's fight 'bout the childhood lie",
+          "We don't care what the other one thinks"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çünkü seni ifşa edersem, ben \"pislik\" oluyorum;",
+          "Ama içince gerçekleri söylüyorum ben.",
+          "Hadi gel eve, o çocukluk yalanı hakkında kavga edelim;",
+          "Birbirimizin ne düşündüğü artık umrumuzda değil nasıl olsa."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I'm willing and able",
+          "If you wanna kick this rock around",
+          "If you've got a bone to pick with me",
+          "If you've got a flag, plant it in the ground",
+          "Oh, I'll stay here 'til morning",
+          "Oh, we can fight like we used to fight",
+          "Bony-limbed, red-faced, and teary-eyed",
+          "Under the glow of the TV light"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben hazırım ve buradayım;",
+          "Eğer şu \"kayayı öylece tekmeleyip durmak\" istersen...",
+          "Eğer benimle \"görülecek bir hesabın\" varsa;",
+          "Eğer dikecek bir bayrağın varsa, hadi sapla onu yere!",
+          "Oh, sabaha kadar burada kalacağım;",
+          "Eskiden kavga ettiğimiz gibi kavga edebiliriz yine;",
+          "O cılız kollarımızla, kıpkırmızı suratlarla ve yaşlı gözlerle...",
+          "Televizyonun o soluk ışığı altında."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Oh, I wish you could know me",
+          "And I wish I could know you much more sometimes",
+          "Wish I could do nothin' with you",
+          "Sit in the yard while the day dies",
+          "Leave it all on the table",
+          "And I'll say, \"I love you,\" and mean it this time",
+          "Say, \"I'm sorry,” for everything else",
+          "If we found a way to the other side"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Oh, keşke beni gerçekten tanıyabilseydin;",
+          "Ve bazen keşke seni çok daha yakından tanıyabilseydim ben de.",
+          "Keşke seninle hiçbir şey yapmadan öylece durabilseydik;",
+          "Gün biterken bahçede öylece otursaydık...",
+          "Eteğimizdeki tüm taşları dökseydik;⁵",
+          "Ve bu kez gerçekten inanarak \"seni seviyorum\" deseydim sana...",
+          "Geri kalan her şey için \"özür dilerim\" diyebilseydim;",
+          "Eğer o huzurlu tarafa geçmenin bir yolunu bulabilseydik."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able",
+          "I'd be willing and able"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım...",
+          "Ben hazırım ve buradayım..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "If you're willing, I'm able"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Eğer sen gönüllüysen, ben hazırım."
+        ]
+      }
+    ],
+    "excerpt": "Oh, when my weight left the room, did you take a deep breath?",
+    "annotations": {
+      "¹*“Seething": "İçten içe öfkeyle kaynamak, çok sinirlenmek anlamındaki ifadeyi Türkçedeki o \"cinleri tepesinde olmak\" vurgusuyla verdik.*",
+      "²*“Kick this rock around": "Bir sonuca varmayacak, faydasız bir işle uğraşmak veya bir konuyu boş yere deşmek anlamındaki metafor.*",
+      "³*“Bone to pick": "Birisiyle görülecek bir hesabı, çözülmesi gereken bir anlaşmazlığı olmak.*",
+      "⁴*“Need your next song": "Sanatçının, partnerinin yaşadıkları acıları ve kavgaları sadece şarkı yapmak için birer \"kaynak/malzeme\" olarak gördüğüne dair yaptığı çok sert bir iğneleme.*",
+      "⁵*“Leave it all on the table": "Her şeyi açıkça konuşmak, hiçbir şeyi gizli bırakmamak anlamındaki deyimi Türkçedeki \"eteklerdeki taşları dökmek\" ile karşıladık.*"
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6pk6E0SZxILzfaAGFngxEs",
+        "name": "Willing and Able",
+        "url": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+        "isrc": "USUM72600179",
+        "durationMs": 297262,
+        "duration": "4:57",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2RQXRUsr4IW1f3mKyKsy4B",
+        "name": "Noah Kahan",
+        "url": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5b141d30d14fb78458dac5ce",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2RQXRUsr4IW1f3mKyKsy4B",
+          "name": "Noah Kahan",
+          "url": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B"
+        }
+      ],
+      "album": {
+        "id": "2fnkyn9EybagIoFJ7a13oz",
+        "name": "The Great Divide",
+        "url": "https://open.spotify.com/album/2fnkyn9EybagIoFJ7a13oz",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38",
+        "artists": [
+          {
+            "id": "2RQXRUsr4IW1f3mKyKsy4B",
+            "name": "Noah Kahan",
+            "url": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B"
+          }
+        ],
+        "releaseDate": "2026-04-24",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Mercury Records, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Mercury Records, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 17,
+        "tracks": [
+          {
+            "id": "4fEUmNN8KK5sNqvKjBstKg",
+            "name": "End of August",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 317232,
+            "duration": "5:17",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4fEUmNN8KK5sNqvKjBstKg",
+            "isCurrent": false
+          },
+          {
+            "id": "3iU2qsthCTo5EeTE03l3Si",
+            "name": "Doors",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 231086,
+            "duration": "3:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3iU2qsthCTo5EeTE03l3Si",
+            "isCurrent": false
+          },
+          {
+            "id": "3WRgRy12YW4I9mjodKXWwy",
+            "name": "American Cars",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 272084,
+            "duration": "4:32",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3WRgRy12YW4I9mjodKXWwy",
+            "isCurrent": false
+          },
+          {
+            "id": "5tGnphp8D9Doa2ZULhJSMx",
+            "name": "Downfall",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 255521,
+            "duration": "4:16",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5tGnphp8D9Doa2ZULhJSMx",
+            "isCurrent": false
+          },
+          {
+            "id": "7mOe6qQYMq1MCzJcifwPu4",
+            "name": "Paid Time Off",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 227159,
+            "duration": "3:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7mOe6qQYMq1MCzJcifwPu4",
+            "isCurrent": false
+          },
+          {
+            "id": "4ck9vo0gEmjVHWUb5q2rYe",
+            "name": "The Great Divide",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 317961,
+            "duration": "5:18",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4ck9vo0gEmjVHWUb5q2rYe",
+            "isCurrent": false
+          },
+          {
+            "id": "4rECUI03C2RMqr5GYvqjlJ",
+            "name": "Haircut",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 289513,
+            "duration": "4:50",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4rECUI03C2RMqr5GYvqjlJ",
+            "isCurrent": false
+          },
+          {
+            "id": "6pk6E0SZxILzfaAGFngxEs",
+            "name": "Willing and Able",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 297262,
+            "duration": "4:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+            "isCurrent": true
+          },
+          {
+            "id": "6rlU0kRQNjMZ7t5I92yCIi",
+            "name": "Dashboard",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 230787,
+            "duration": "3:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6rlU0kRQNjMZ7t5I92yCIi",
+            "isCurrent": false
+          },
+          {
+            "id": "3EnTGnmNu1TDEcpbbTajuo",
+            "name": "23",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 281404,
+            "duration": "4:41",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3EnTGnmNu1TDEcpbbTajuo",
+            "isCurrent": false
+          },
+          {
+            "id": "7N3d1hsZZpmmnovfAtnVFU",
+            "name": "Porch Light",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 262726,
+            "duration": "4:23",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7N3d1hsZZpmmnovfAtnVFU",
+            "isCurrent": false
+          },
+          {
+            "id": "6OICC2Us0JVbUgGXFJJOzZ",
+            "name": "Deny Deny Deny",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 230689,
+            "duration": "3:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6OICC2Us0JVbUgGXFJJOzZ",
+            "isCurrent": false
+          },
+          {
+            "id": "18nzftpeT2fUyazRK3rDek",
+            "name": "Headed North",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 266785,
+            "duration": "4:27",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/18nzftpeT2fUyazRK3rDek",
+            "isCurrent": false
+          },
+          {
+            "id": "0BCWfP8NXjwmINTW1MyMu1",
+            "name": "We Go Way Back",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 242578,
+            "duration": "4:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0BCWfP8NXjwmINTW1MyMu1",
+            "isCurrent": false
+          },
+          {
+            "id": "0Shd736f6A7tJxzCTUI69X",
+            "name": "Spoiled",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 306065,
+            "duration": "5:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0Shd736f6A7tJxzCTUI69X",
+            "isCurrent": false
+          },
+          {
+            "id": "4y3VBhJPEztyRmNxfK3tZ5",
+            "name": "All Them Horses",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 313653,
+            "duration": "5:14",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4y3VBhJPEztyRmNxfK3tZ5",
+            "isCurrent": false
+          },
+          {
+            "id": "3x0J8f16jDLhOr4ohzoq9u",
+            "name": "Dan",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 305718,
+            "duration": "5:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3x0J8f16jDLhOr4ohzoq9u",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:44:41.751Z",
+      "trackUrl": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+      "albumUrl": "https://open.spotify.com/album/2fnkyn9EybagIoFJ7a13oz",
+      "artistUrl": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
+      "albumName": "The Great Divide",
+      "albumType": "Album",
+      "releaseDate": "2026-04-24",
+      "duration": "4:57",
+      "isrc": "USUM72600179",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d879855b819250d3d00a1a38"
+    },
+    "genius": {
+      "url": "https://genius.com/Noah-kahan-willing-and-able-lyrics",
+      "songId": 11731833,
+      "description": "“Willing and Able” is the eighth song on Noah Kahan’s fourth studio album, The Great Divide, which debuted on April 24th, 2026.“Willing and Able” talks about the difficulty of seeing the worst of people, and Kahan grapples with his image and the consequences of actions."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5275",
+    "title": "Alex Warren CRY WOLF Türkçe Çeviri",
+    "song": "CRY WOLF",
+    "slug": "alex-warren-cry-wolf-turkce-ceviri",
+    "date": "2026-09-02T07:43:11.264Z",
+    "artist": "Alex Warren",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Alex Warren",
+      "WILDCHILD"
+    ],
+    "category_slugs": [
+      "alex-warren",
+      "wildchild"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "The devil don't knock at your door",
+          "When you got no soul to sell",
+          "Why would I try to ruin your life",
+          "When you're doing it by yourself?",
+          "There ain't no water to drink",
+          "When you're poisoning the well",
+          "Tears run dry, nobody gon' buy",
+          "That empty cry for help"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Satacak bir ruhun yoksa eğer;",
+          "Şeytan kapını çalmaz bile.",
+          "Ben neden senin hayatını mahvetmeye çalışayım ki;",
+          "Zaten sen bunu kendi kendine yapıyorsun?",
+          "İçecek su bulamazsın elbet;",
+          "Kendi kuyunu kendin zehirlerken...¹",
+          "Gözyaşların kurudu artık, kimse yutmaz;",
+          "O boş yardım çığlıklarını."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "When I hear your name (Name)",
+          "It starts a fire in my veins",
+          "When I gave you grace (Grace)",
+          "You threw it right back in my face",
+          "So don't come crying to me",
+          "I won't lose any more sleep",
+          "I know you're spinning your lies",
+          "Only so many times you can cry wolf"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Adını duyduğumda (Adını);",
+          "Damarlarımda bir ateş başlıyor.",
+          "Sana bir lütuf sunduğumda;",
+          "Onu olduğu gibi yüzüme fırlattın.",
+          "O yüzden sakın bana ağlayarak gelme;",
+          "Senin için bir gece daha uykusuz kalamam.",
+          "Biliyorum yine yalanlar uydurup duruyorsun;",
+          "Ama \"yalancı çobanlık\"² yapmanın da bir sınırı var!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "What you've done in the dark",
+          "Gonna see the light of day",
+          "Ain't no sense in taking revenge",
+          "I don't wanna have to dig two graves"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Karanlıkta yaptığın o her şey;",
+          "Günün birinde gün ışığına çıkacak.",
+          "İntikam almanın hiçbir mantığı yok artık;",
+          "Çünkü sırf senin için iki tane mezar kazmak istemiyorum.³"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "When I hear your name (Name)",
+          "It starts a fire in my veins",
+          "When I gave you grace (Grace)",
+          "You threw it right back in my face",
+          "So don't come crying to me",
+          "I won't lose any more sleep",
+          "I know you're spinning your lies",
+          "Only so many times you can cry wolf"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Adını duyduğumda (Adını);",
+          "Damarlarımda bir ateş başlıyor.",
+          "Sana bir şans verdiğimde;",
+          "Onu olduğu gibi yüzüme fırlattın.",
+          "O yüzden sakın bana ağlayarak gelme;",
+          "Uykularımı kaçıramam artık.",
+          "Biliyorum yine yalanlar diziyorsun;",
+          "Yalancı çobanlık yapmanın da bir sınırı var!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "You were on the phone, said you were alone",
+          "Whispers in the dark, now your cover's blown",
+          "Let you set me up, just to watch me fall",
+          "I knew it was a trap, why'd I take the call?",
+          "Play the victim when you're not in control",
+          "Said you love me, I know you fucking don't",
+          "I was there for you, tell me where were you",
+          "When I needed you most?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Telefondaydın, yalnız olduğunu söylüyordun;",
+          "Karanlıktaki o fısıltılar... Şimdi masken düştü.",
+          "Bana tuzak kurmana izin verdim, sırf düşüşümü izle diye;",
+          "Bunun bir tuzak olduğunu biliyordum, neden o telefonu açtım ki?",
+          "Kontrol sende olmayınca hemen \"mağdur\"u oynuyorsun;",
+          "Beni sevdiğini söyledin, biliyorum; siktir git, sevmiyorsun!",
+          "Ben senin yanındaydım; söylesene sen neredeydin,",
+          "Sana en çok ihtiyacım olduğu o anda?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Don't come crying to me",
+          "I won't lose any more sleep",
+          "I know you're spinning your lies, oh",
+          "When I hear your name (Name)",
+          "It starts a fire in my veins",
+          "When I gave you grace (Grace)",
+          "You threw it right back in my face",
+          "So don't come crying to me",
+          "I won't lose any more sleep",
+          "I know you're spinning your lies",
+          "Only so many times you can cry",
+          "Only so many times you can cry wolf"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus / Outro",
+        "lines": [
+          "Sakın bana ağlayarak gelme;",
+          "Senin için uykularımdan olamam artık.",
+          "Biliyorum yine yalanlar uyduruyorsun, oh...",
+          "Adını duyduğumda;",
+          "Damarlarımda bir ateş başlıyor.",
+          "Sana lütfetmiştim oysa;",
+          "Yüzüme fırlattın hepsini...",
+          "O yüzden sakın bana ağlayarak gelme;",
+          "Senin için bir gece daha uykusuz kalamam.",
+          "Biliyorum yine yalanlar uydurup duruyorsun;",
+          "Sadece belli bir yere kadar \"kurt var\" diye bağırabilirsin;",
+          "Sadece bir yere kadar yalancı çobanlık yapabilirsin!"
+        ]
+      }
+    ],
+    "excerpt": "The devil don't knock at your door",
+    "annotations": {
+      "¹*“Poisoning the well": "Kendi kuyusunu zehirlemek; yani kendi yararına olan bir durumu veya ortamı kendi davranışlarıyla mahvetmek anlamındaki deyim.*",
+      "²*“Cry wolf": "Ezop Masalları'ndaki \"Yalancı Çoban\" hikayesine atıf. Sürekli yalan söyleyerek insanları kandıran birinin, gerçekten yardıma ihtiyacı olduğunda kimseyi inandıramaması durumu.*",
+      "³*“Dig two graves": "Konfüçyüs’ün \"İntikam yolculuğuna çıkmadan önce iki mezar kaz\" sözüne atıf. İntikamın sadece karşı tarafa değil, intikam alana da zarar vereceği gerçeğini vurguluyor.*"
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "649sdeRNPf05BOLBj1mAM9",
+        "name": "CRY WOLF",
+        "url": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+        "isrc": "USAT22602852",
+        "durationMs": 161698,
+        "duration": "2:42",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 5,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "name": "Alex Warren",
+        "url": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0548e7c357122cda80128c8f",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0fTSzq9jAh4c36UVb4V7CB",
+          "name": "Alex Warren",
+          "url": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB"
+        }
+      ],
+      "album": {
+        "id": "1es3JGBHQfFNXd4xVktkSs",
+        "name": "WILDCHILD",
+        "url": "https://open.spotify.com/album/1es3JGBHQfFNXd4xVktkSs",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae",
+        "artists": [
+          {
+            "id": "0fTSzq9jAh4c36UVb4V7CB",
+            "name": "Alex Warren",
+            "url": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB"
+          }
+        ],
+        "releaseDate": "2026-08-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Atlantic Recording Corporation",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Atlantic Recording Corporation",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 13,
+        "tracks": [
+          {
+            "id": "6Bd6dcMIg6EPfF7cYTWa36",
+            "name": "EMERALD EYES",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 156856,
+            "duration": "2:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Bd6dcMIg6EPfF7cYTWa36",
+            "isCurrent": false
+          },
+          {
+            "id": "06sZjwAy4DTJfpOuel7nv4",
+            "name": "SAME STARS",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 199858,
+            "duration": "3:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/06sZjwAy4DTJfpOuel7nv4",
+            "isCurrent": false
+          },
+          {
+            "id": "4BSeso8HRRJVQzYdKi1YOX",
+            "name": "PASSENGER",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 159771,
+            "duration": "2:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4BSeso8HRRJVQzYdKi1YOX",
+            "isCurrent": false
+          },
+          {
+            "id": "5QccUp5xZ4pp9cZOHnZJLU",
+            "name": "RESCUER",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 199166,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5QccUp5xZ4pp9cZOHnZJLU",
+            "isCurrent": false
+          },
+          {
+            "id": "649sdeRNPf05BOLBj1mAM9",
+            "name": "CRY WOLF",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 161698,
+            "duration": "2:42",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+            "isCurrent": true
+          },
+          {
+            "id": "2HZ75yrPInJwVW6te9OlDg",
+            "name": "FINE PLACE TO DIE",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 187423,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2HZ75yrPInJwVW6te9OlDg",
+            "isCurrent": false
+          },
+          {
+            "id": "5U0A00hCV85tCnencZkC0b",
+            "name": "ARE YOU HAVING FUN, ALEX?",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 86591,
+            "duration": "1:27",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5U0A00hCV85tCnencZkC0b",
+            "isCurrent": false
+          },
+          {
+            "id": "40bEIQPOf8bKNvmVnJxJhf",
+            "name": "I MISS YOU MORE",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 184251,
+            "duration": "3:04",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/40bEIQPOf8bKNvmVnJxJhf",
+            "isCurrent": false
+          },
+          {
+            "id": "2nmrNr1Qs04TwLdNEOVOuE",
+            "name": "ONLY THING LEFT",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 214887,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2nmrNr1Qs04TwLdNEOVOuE",
+            "isCurrent": false
+          },
+          {
+            "id": "50E5Op3ZjRibJGZjGBcGR6",
+            "name": "FEVER DREAM",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 153430,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/50E5Op3ZjRibJGZjGBcGR6",
+            "isCurrent": false
+          },
+          {
+            "id": "7HX5CyrZ0SX9HBqg4uPR50",
+            "name": "WON'T GO BACK AGAIN",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 168343,
+            "duration": "2:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7HX5CyrZ0SX9HBqg4uPR50",
+            "isCurrent": false
+          },
+          {
+            "id": "3sOa0MNB49lZnqRVgv6XJF",
+            "name": "LAST TIME",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 196854,
+            "duration": "3:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3sOa0MNB49lZnqRVgv6XJF",
+            "isCurrent": false
+          },
+          {
+            "id": "7vVGJVgv76NZGm2ze96JeX",
+            "name": "WILDCHILD",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 247692,
+            "duration": "4:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7vVGJVgv76NZGm2ze96JeX",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:43:08.903Z",
+      "trackUrl": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+      "albumUrl": "https://open.spotify.com/album/1es3JGBHQfFNXd4xVktkSs",
+      "artistUrl": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB",
+      "albumName": "WILDCHILD",
+      "albumType": "Album",
+      "releaseDate": "2026-08-28",
+      "duration": "2:42",
+      "isrc": "USAT22602852",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733be802fb2f77d0277f382bae"
+    },
+    "genius": {
+      "url": "https://genius.com/Alex-warren-cry-wolf-lyrics",
+      "songId": 12824415,
+      "description": "It explores repeated arguments and emotional warnings inside a relationship. When someone threatens that everything is falling apart too many times, it becomes difficult to know when the danger is real."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5274",
+    "title": "Ashe Stop The Wedding! Türkçe Çeviri",
+    "song": "Stop The Wedding!",
+    "slug": "ashe-stop-the-wedding-turkce-ceviri",
+    "date": "2026-09-02T07:41:42.978Z",
+    "artist": "Ashe",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Ashe",
+      "Stop The Wedding!"
+    ],
+    "category_slugs": [
+      "ashe",
+      "stop-the-wedding"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I found a secret note, \"Burn after reading this\"",
+          "It's supernatural, the feeling's sinking in",
+          "This isn't cold feet, these aren't fireworks",
+          "The sky is menacing and that's an iceberg",
+          "He thinks he's velvet smooth, I've fallen for the act",
+          "I'm in the other room and seeing through the cracks",
+          "The voices in my head are screaming, \"No, don't\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Gizli bir not buldum; \"Okuduktan sonra yak bunu\" yazıyor...",
+          "Doğaüstü bir şeyler oluyor sanki, bu his iliklerime işliyor.",
+          "Bu öyle basit bir heyecan değil, havai fişekler falan da değil bu;",
+          "Gökyüzü tehditkar bakıyor ve işte o, koca bir buzdağı!",
+          "O kendini \"kadife gibi pürüzsüz\" sanıyor, bense bu oyuna kanmıştım;",
+          "Şimdi diğer odadayım ve çatlakların arasından her şeyi görebiliyorum.",
+          "Kafamdaki o sesler bağırıyor; \"Hayır, yapma!\" diye..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You don't have to waste your night and wear your heart out",
+          "The warning signs are flashing now",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding (Ah-ah-ah)",
+          "Even though the table's set, the guests are waiting",
+          "You can burn the dress and run away",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding (Ah-ah-ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Geceni boşa harcayıp kalbini böyle tüketmek zorunda değilsin;",
+          "Uyarı işaretleri tam şu an yanıp sönüyor!",
+          "Durdurun nikahı (nikahı durdurun)!",
+          "Durdurun şu nikahı!",
+          "Masa kurulmuş, misafirler bekliyor olsa da;",
+          "Gelinliği yakıp kaçabilirsin buralardan...",
+          "Nikahı durdurun!",
+          "Durdurun şu nikahı!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "\"You've been such a good girl",
+          "Talking like you should, girl",
+          "Keep avoiding disappointing in your white satin heels\"",
+          "But you know how you really feel"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "\"Sen şimdiye dek hep çok 'iyi bir kız' oldun;",
+          "Konuşman gerektiği gibi konuştun...",
+          "Beyaz saten topuklularının içinde, kimseyi hayal kırıklığına uğratmamak için çabalayıp durdun...\"",
+          "Ama sen gerçekte nasıl hissettiğini çok iyi biliyorsun."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You don't have to waste your night and wear your heart out",
+          "The warning signs are flashing now",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding (Ah-ah-ah)",
+          "Even though the table's set, the guests are waiting",
+          "You can burn the dress and run away",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding (Ah-ah-ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Geceni boşa harcayıp kalbini böyle tüketmek zorunda değilsin;",
+          "Uyarı işaretleri tam şu an yanıp sönüyor!",
+          "Durdurun nikahı (nikahı durdurun)!",
+          "Durdurun şu nikahı!",
+          "Masa kurulmuş, misafirler bekliyor olsa da;",
+          "Gelinliği yakıp kaçabilirsin buralardan...",
+          "Nikahı durdurun!",
+          "Durdurun şu nikahı!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Ah-ah-ah)",
+          "(Ah-ah-ah)",
+          "(Ah-ah-ah)",
+          "(Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Ah-ah-ah...)",
+          "(Durdurun...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Stop the wedding, stop the wedding",
+          "If your heart is dreading, hands are sweating",
+          "While the sun is setting, you'll be getting out",
+          "Stop the wedding, stop the wedding",
+          "If your heart is dreading, hands are sweating",
+          "While the sun is setting, you'll be getting out"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Nikahı durdurun, durdurun şu nikahı!",
+          "Eğer kalbin korkuyla çarpıyorsa, ellerin terliyorsa;",
+          "Güneş batarken, buralardan kaçıp kurtulacaksın.",
+          "Nikahı durdurun, durdurun artık!",
+          "Kalbini bir korku sarmışsa, ellerin titriyorsa;",
+          "Bu gece buralardan kurtulacaksın artık!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You don't have to waste your life and wear your heart out",
+          "The warning signs are flashing now",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding",
+          "Even though your heart was set on never breaking",
+          "You can burn the dress and run away",
+          "Stop the wedding (Ah-ah-ah)",
+          "Stop the wedding (Ah-ah-ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hayatını boşa harcayıp kalbini tüketmek zorunda değilsin;",
+          "Uyarı işaretleri yanıp sönüyor!",
+          "Nikahı durdurun!",
+          "Durdurun şunu artık...",
+          "Kalbini asla kırmamaya söz vermiş olsan da;",
+          "Gelinliği yakıp kaçabilirsin buralardan...",
+          "Nikahı durdurun!",
+          "Nikahı durdurun!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Stop the wedding (Ah-ah-ah)",
+          "Only you can stop",
+          "Stop the wedding (Ah-ah-ah)",
+          "Oh-oh",
+          "Stop the wedding (Ah-ah-ah)",
+          "Only you can",
+          "Stop the wedding"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Nikahı durdurun!",
+          "Bunu sadece sen yapabilirsin...",
+          "Durdurun şu nikahı!",
+          "Oh-oh",
+          "Nikahı durdurun!",
+          "Sadece sen...",
+          "Nikahı durdurun!"
+        ]
+      }
+    ],
+    "excerpt": "I found a secret note, \"Burn after reading this\"",
+    "annotations": {
+      "buzdağı": "\"Iceberg\": Görünenden çok daha büyük bir tehlikeyi ve yalanı simgeleyen sarsıcı bir metafor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3zOYmiNOuyDL0ClxJcEJ0T",
+        "name": "Stop The Wedding!",
+        "url": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+        "isrc": "USAT22604492",
+        "durationMs": 198840,
+        "duration": "3:19",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6P5NO5hzJbuOqSdyPB7SJM",
+        "name": "Ashe",
+        "url": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1ecbc7955919e10c45604e85",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6P5NO5hzJbuOqSdyPB7SJM",
+          "name": "Ashe",
+          "url": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM"
+        }
+      ],
+      "album": {
+        "id": "4dem9qxmFf4RD6fqoCH6wc",
+        "name": "Stop The Wedding!",
+        "url": "https://open.spotify.com/album/4dem9qxmFf4RD6fqoCH6wc",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6",
+        "artists": [
+          {
+            "id": "6P5NO5hzJbuOqSdyPB7SJM",
+            "name": "Ashe",
+            "url": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM"
+          }
+        ],
+        "releaseDate": "2026-08-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Ashe, under exclusive license to Atlantic Recording Corporation",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Ashe, under exclusive license to Atlantic Recording Corporation",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "3zOYmiNOuyDL0ClxJcEJ0T",
+            "name": "Stop The Wedding!",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 198840,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:41:40.936Z",
+      "trackUrl": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+      "albumUrl": "https://open.spotify.com/album/4dem9qxmFf4RD6fqoCH6wc",
+      "artistUrl": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM",
+      "albumName": "Stop The Wedding!",
+      "albumType": "Single",
+      "releaseDate": "2026-08-07",
+      "duration": "3:19",
+      "isrc": "USAT22604492",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730893a0c33fd4b8497b0ef2f6"
+    },
+    "genius": {
+      "url": "https://genius.com/Ashe-stop-the-wedding-lyrics",
+      "songId": 13833222,
+      "description": "“Stop The Wedding!” is expected to be the lead single from Ashe’s upcoming fourth solo studio album, A4*. It was released on August 7, 2026.On June 30, 2026, Ashe announced that she had signed to Atlantic Records. The caption of the TikTok video included the emojis “🛑👰‍♀️💒”, subtly teasing the upcoming release of this song.During her headline set at Calgary Stampede on July 2, 2026, Ashe hid a reference to this song in the bridge of her 2020 single, “Save Myself”:I could’ve saved myself if I woulda stopped the weddingOver the next few days, Ashe replied to multiple fans' comments with “🛑👰‍♀️💒” emojis on various posts, leading fans to speculate their meaning.The audio was first teased on July 13, 2026, when a 7-second strings snippet was posted to TikTok. Once again, the caption contained the emojis “🛑👰‍♀️💒”. This, alongside the audio being named “STW”, led fans to believe that the title was “Stop The Wedding”. Two days later, the first lyric-containing snippet was shared to TikTok, and the title was finally confirmed via the name of the audio.The release date was revealed on July 17, 2026 via a wedding invitation on Ashe’s official website.The bridge was first teased on July 28, 2026, via TikTok and teased further the following day.The song made its live debut on July 30, 2026, during Ashe’s opening set for Benson Boone on his 2026 Wanted Man Tour in Denver, Colorado. It was one of two unreleased songs debuted live that evening, alongside “Lasso The Moon”.Finally, on August 3, 2026, “Stop The Wedding!” was officially announced, and it was released four days later. The official music video premiered at 10am ET on the track’s release date, with Ashe calling it her “favorite music video to date.” The song’s artwork was not revealed until it first became available on streaming platforms. The digital release coincided with a physical release in the form of a 7\" vinyl containing “Funeral” as its B-side.Notably, in October 2025, Ashe married The Brook & The Bluff drummer, John Canada. Her previous marriage and subsequent divorce inspired her biggest song to date, “Moral of the Story”."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5273",
+    "title": "Audrey Hobert Sue Me Türkçe Çeviri",
+    "song": "Sue Me",
+    "slug": "audrey-hobert-sue-me-turkce-ceviri",
+    "date": "2026-09-02T07:36:58.601Z",
+    "artist": "Audrey Hobert",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Audrey Hobert",
+      "Who's the Clown?"
+    ],
+    "category_slugs": [
+      "audrey-hobert",
+      "who-s-the-clown"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I knew you'd be at the party",
+          "Drinking a Coke and Bacardi",
+          "Not that it matters, but I'm breaking patterns",
+          "And getting so good at Pilates",
+          "Broke up with you in November",
+          "Sorry, I know you remember",
+          "Are you depressed or are you feeling better?",
+          "'Cause you're looking like it's the latter"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Partide olacağını biliyordum;",
+          "Bacardi-Kola içeceğini de...",
+          "Önemli olduğundan değil ama ben eski alışkanlıklarımı yıkıyorum;",
+          "Pilates’te de bayağı iyileştim hani.",
+          "Kasım'da ayrılmıştık seninle;",
+          "Üzgünüm, hatırladığını biliyorum...",
+          "Depresyonda mısın yoksa daha mı iyi hissediyorsun?",
+          "Çünkü bakıyorum da, ikincisi (daha iyi) gibi görünüyorsun."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I've been so careful with you, babe",
+          "But I'm out late",
+          "And being a saint is exhausting"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sana karşı çok dikkatli davrandım bebeğim;",
+          "Ama artık geç saatlere kadar dışarıdayım...",
+          "Ve bir \"aziz\" gibi davranmak gerçekten çok yorucu!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dava et beni, arzulanmak istiyorum!",
+          "Dava et beni, istenmek istiyorum...",
+          "Dava et beni, istiyorum işte;",
+          "Dava et beni, arzulanmak istiyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Just me or does he look amazing",
+          "When he's all in his Amazon Basics?",
+          "Let's rip 'em off, top to bot', let's rock",
+          "Suddenly all the lights are on",
+          "Taking it as a sign from God (Sign from God)",
+          "And I'm saying it over and over again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sadece ben mi öyle düşünüyorum; yoksa şu Amazon Basics kıyafetleri içinde bile",
+          "Muazzam mı görünüyor bu çocuk?",
+          "Hadi parçalayıp çıkaralım şunları; tepeden tırnağa, hadi coşalım!",
+          "Aniden tüm ışıklar yanıyor;",
+          "Bunu Tanrı'dan gelen bir işaret olarak görüyorum...",
+          "Ve bunu defalarca kez tekrarlıyorum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I've been so careful with you, babe",
+          "But your line's bait",
+          "So I'm thinking that I'm gonna cross it (Cross it)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Sana karşı çok nazik davrandım bebeğim;",
+          "Ama senin şu \"sınırların\" sadece birer yem...",
+          "O yüzden artık o çizgiyi aşmayı düşünüyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Sue me, I wanna be wanted (Wanted)",
+          "Sue me, I wanna be wanted (Wanted)",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted (Wanted)",
+          "Sue me, I wanna be toxic",
+          "Gonna blow up your life like atomic",
+          "Sue me, I wanna be sued, yeah, I wanna be",
+          "Sue me, I wanna be wanted"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dava et beni, arzulanmak istiyorum!",
+          "Dava et beni, toksik olmak istiyorum;",
+          "Hayatını atom bombası gibi patlatacağım!",
+          "Dava et beni, evet, dava edilmek istiyorum;",
+          "İstiyorum işte..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Your face, my face, it's kismet, babe",
+          "And I won't make you wait 'cause I know that you want it",
+          "Your face, my place, it's business, babe",
+          "And my roommate is here so let's ménage-à-trois it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Senin yüzün, benim yüzüm; bu kader bebeğim...",
+          "Seni bekletmeyeceğim çünkü senin de bunu istediğini biliyorum.",
+          "Senin yüzün, benim mekanım; bu bir iş bebeğim...",
+          "Ve oda arkadaşım da burada, hadi bir \"üçlü\" yapalım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Sue me, I wanna be, uh",
+          "Sue me, I wanna be, yeah",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted",
+          "Sue me, I wanna be wanted (Wanted)",
+          "Sue me, I wanna be wanted (Wanted)",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted",
+          "In my bones, yeah, I know it's platonic (Platonic)",
+          "But fucking your ex is iconic (Iconic)",
+          "Sue me, I wanna be, sue me, I wanna be",
+          "Sue me, I wanna be wanted"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Dava et beni...",
+          "İliklerime kadar biliyorum, bunun platonik olduğunu;",
+          "Ama \"eski sevgilinle\" yatmak tam bir ikoniklik!",
+          "Dava et beni, istiyorum işte;",
+          "Arzulanmak istiyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "And I'm sorry that your dog died",
+          "Sorry that I'm like your dream bride",
+          "You'll go to Heaven and I'll go to Hell in the meantime (Meantime)",
+          "Guess I'll see you in a Best Buy",
+          "You know that I think you're the best guy",
+          "But sue me, I wanna be, sue me, I gotta be",
+          "Sue me, I wanna be",
+          "Wanted"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Köpeğin öldüğü için üzgünüm bu arada...",
+          "Senin \"rüya gelinin\" gibi olduğum için de üzgünüm.",
+          "Sen cennete gideceksin, bense o sırada cehennemi boylayacağım;",
+          "Sanırım seni bir \"Best Buy\"da görürüm yine...",
+          "Biliyorsun, senin en iyi adam olduğunu düşünüyorum;",
+          "Ama dava et beni, istiyorum; dava et beni...",
+          "Sadece arzulanmak istiyorum."
+        ]
+      }
+    ],
+    "excerpt": "I knew you'd be at the party",
+    "annotations": {
+      "Bacardi-Kola": "Klasik bir parti içkisi; şarkıcı karşı tarafın ne kadar \"tahmin edilebilir\" olduğunu vurguluyor.",
+      "Dava et beni": "\"Sue me\": Birine meydan okumak için kullanılan, \"Yap yapacağını, umrumda değil\" anlamındaki kışkırtıcı ifade.",
+      "Amazon Basics": "Uygun fiyatlı, düz ve sıradan kıyafet markası. Şarkıcı, çocuğun o kadar yakışıklı olduğunu söylüyor ki en ucuz/basit şeyi giyse bile harika göründüğünü vurguluyor.",
+      "eski sevgilinle yatmak tam bir ikoniklik": "\"Fucking your ex is iconic\": Şarkının en \"savage\" dizesi. Bir arkadaşının veya hater'ının eski sevgilisiyle birlikte olmanın yarattığı o kaotik hazzı ve popüler kültürdeki o \"olay yaratan\" etkiyi vurguluyor.",
+      "Köpeğin öldüğü için üzgünüm": "\"Sorry your dog died\": O kadar ağır bir dizeden (eski sevgili mevzusu) sonra böyle sıradan bir taziye sunması, karakterin ne kadar duygusuz ve dalga geçen bir ruh halinde olduğunu gösteriyor.",
+      "Best Buy": "Amerika’da çok yaygın olan bir teknoloji mağazası; yine \"tahmin edilebilir ve sıradan\" bir yer vurgusu."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6ZAuQOgLrNQb9s7BXheuTy",
+        "name": "Sue me",
+        "url": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+        "isrc": "USRC12500621",
+        "durationMs": 170320,
+        "duration": "2:50",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4N0TAwz9vhnQtjCqS65aKS",
+        "name": "Audrey Hobert",
+        "url": "https://open.spotify.com/artist/4N0TAwz9vhnQtjCqS65aKS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4fc78e354b19324810f1e933",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4N0TAwz9vhnQtjCqS65aKS",
+          "name": "Audrey Hobert",
+          "url": "https://open.spotify.com/artist/4N0TAwz9vhnQtjCqS65aKS"
+        }
+      ],
+      "album": {
+        "id": "6unMpOoIJqsLxuoTEFqdfP",
+        "name": "Who's the Clown?",
+        "url": "https://open.spotify.com/album/6unMpOoIJqsLxuoTEFqdfP",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658",
+        "artists": [
+          {
+            "id": "4N0TAwz9vhnQtjCqS65aKS",
+            "name": "Audrey Hobert",
+            "url": "https://open.spotify.com/artist/4N0TAwz9vhnQtjCqS65aKS"
+          }
+        ],
+        "releaseDate": "2025-08-15",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2025 RCA Records, under exclusive license from Audrey Hobert",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "2Iu15Xr1bSM6cP6WyZNtDT",
+            "name": "I like to touch people",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 124453,
+            "duration": "2:04",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Iu15Xr1bSM6cP6WyZNtDT",
+            "isCurrent": false
+          },
+          {
+            "id": "6ZAuQOgLrNQb9s7BXheuTy",
+            "name": "Sue me",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 170320,
+            "duration": "2:50",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+            "isCurrent": true
+          },
+          {
+            "id": "62caJmQoQNQpA6dHygWrEt",
+            "name": "Drive",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 136133,
+            "duration": "2:16",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/62caJmQoQNQpA6dHygWrEt",
+            "isCurrent": false
+          },
+          {
+            "id": "52do0UW8A6zxZaZh5ptCAg",
+            "name": "Wet Hair",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 187600,
+            "duration": "3:08",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/52do0UW8A6zxZaZh5ptCAg",
+            "isCurrent": false
+          },
+          {
+            "id": "6TMz966mUk7TOOGO4l182X",
+            "name": "Bowling alley",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 154840,
+            "duration": "2:35",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6TMz966mUk7TOOGO4l182X",
+            "isCurrent": false
+          },
+          {
+            "id": "0xiySkh9JAa1f3r6MdBUa3",
+            "name": "Thirst Trap",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 185533,
+            "duration": "3:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0xiySkh9JAa1f3r6MdBUa3",
+            "isCurrent": false
+          },
+          {
+            "id": "16jOk9nU6477OLcpnjbqbE",
+            "name": "Chateau",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 198280,
+            "duration": "3:18",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/16jOk9nU6477OLcpnjbqbE",
+            "isCurrent": false
+          },
+          {
+            "id": "05e0Tkr6tpxbktIei9q8Mw",
+            "name": "Sex and the city",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 169546,
+            "duration": "2:50",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/05e0Tkr6tpxbktIei9q8Mw",
+            "isCurrent": false
+          },
+          {
+            "id": "4qUMw89VHpcD7bHsMNSmOE",
+            "name": "Shooting star",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 177973,
+            "duration": "2:58",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4qUMw89VHpcD7bHsMNSmOE",
+            "isCurrent": false
+          },
+          {
+            "id": "3it77Q8qERwYoq0C1YiyPs",
+            "name": "Don't go back to his ass",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 177253,
+            "duration": "2:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3it77Q8qERwYoq0C1YiyPs",
+            "isCurrent": false
+          },
+          {
+            "id": "6tthJ4M25QGZiCIG2np8tr",
+            "name": "Phoebe",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 233920,
+            "duration": "3:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6tthJ4M25QGZiCIG2np8tr",
+            "isCurrent": false
+          },
+          {
+            "id": "5KjJYrM3UXmvhqtQntrsJM",
+            "name": "Silver Jubilee",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 178280,
+            "duration": "2:58",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5KjJYrM3UXmvhqtQntrsJM",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:58:01.735Z",
+      "trackUrl": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+      "albumUrl": "https://open.spotify.com/album/6unMpOoIJqsLxuoTEFqdfP",
+      "artistUrl": "https://open.spotify.com/artist/4N0TAwz9vhnQtjCqS65aKS",
+      "albumName": "Who's the Clown?",
+      "albumType": "Album",
+      "releaseDate": "2025-08-15",
+      "duration": "2:50",
+      "isrc": "USRC12500621",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d754a73edca1a9d88ebd7658"
+    },
+    "genius": {
+      "url": "https://genius.com/Audrey-hobert-sue-me-lyrics",
+      "songId": 11779112,
+      "description": "In Audrey Hobert’s debut single “Sue me”, she wrestles with yearning to be desired so much that she is even willing to entertain her ex.The record, which is the second track on Hobert’s debut album Who’s the Clown, was first released as a single on May 9, 2025.Prior to the song’s release, she teased snippets of it via Instagram and TikTok."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5272",
+    "title": "Alyssa Grace bloodstream Türkçe Çeviri",
+    "song": "bloodstream",
+    "slug": "alyssa-grace-bloodstream-turkce-ceviri",
+    "date": "2026-09-02T07:35:28.617Z",
+    "artist": "Alyssa Grace",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Alyssa Grace",
+      "bloodstream"
+    ],
+    "category_slugs": [
+      "alyssa-grace",
+      "bloodstream"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Maybe I was too young to fully understand",
+          "So I never healed from it healthy, why I never trusted the man",
+          "You gotta love all that you have, and I'll take that to my grave",
+          "Soon you'll open up your eyes, and it'll all be gone one day",
+          "And I'm sitting here convincing you to pick up the phone and call",
+          "I am my father's daughter, but I'm nothing like him at all",
+          "And I hear him in the way I speak, or when I look in the mirror",
+          "The anger's growing in me, it shows, could it be any clearer?",
+          "That I'm like him 'cause he made me the way I am",
+          "When we're fighting, and all I need is somebody"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Belki de tam olarak anlamak için çok gençtim;",
+          "Bu yüzden o yaralar hiç sağlıklı iyileşmedi, işte bu yüzden o adama asla güvenmedim.",
+          "Sahip olduğun her şeyi sevmelisin, ben bunu mezara kadar taşıyacağım;",
+          "Yakında gözlerini açacaksın ve bir gün her şeyin uçup gittiğini göreceksin.",
+          "Ve ben burada oturmuş, seni o telefonu açıp araman için ikna etmeye çalışıyorum...",
+          "Ben babamın kızıyım ama aslında ona hiç benzemiyorum;",
+          "Yine de konuşma şeklimde onu duyuyorum ya da aynaya baktığımda onu görüyorum.",
+          "İçimdeki o öfke büyüyor ve dışarı taşıyor; daha ne kadar net olabilir ki?",
+          "Ona benziyorum çünkü beni bu hale getiren oydu...",
+          "Kavga ettiğimizde ve tek ihtiyacım olan biriyken..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I'm crying on my mama's floor, why don't you want this anymore?",
+          "And I'm craving you to change for me",
+          "You're saying, \"I hear you, and I love you, but my heart, it hurts for you",
+          "And I just cannot give you what you need\"",
+          "Am I too much? Am I enough? 'Cause you said you wouldn't give up",
+          "Now I'm numb on my knees, praying to God you'd talk to me",
+          "Wondering what it takes for you to stay off my mind and far out of my bloodstream"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve annemin evinde, yerde ağlıyorum; neden artık bunu istemiyorsun?",
+          "Benim için değişmeni ne kadar çok arzulamıştım...",
+          "Sen ise; \"Seni duyuyorum ve seni seviyorum ama kalbim senin için sızlıyor...",
+          "Ve sadece, ihtiyacın olanı sana veremiyorum\" diyorsun.",
+          "Fazla mı geldim sana? Yoksa yetersiz miyim? Hani asla vazgeçmeyeceğini söylemiştin...",
+          "Şimdi dizlerimin üzerinde, hissiz bir haldeyim; Tanrı'ya benimle konuşman için yalvarıyorum.",
+          "Zihnimden çıkıp gitmen ve kanımdan tamamen temizlenmen için;",
+          "Daha ne yapmam gerektiğini merak ediyorum..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "You never laid your hands on me, and that's something that I'm grateful for",
+          "But I should've known that you'd gone mad when I saw the way you punched your doors",
+          "And I don't regret loving you, 'cause I know that you needed it",
+          "But the way you treated me made me feel like a little kid",
+          "And something deep inside of me tells me that you're not better now",
+          "And I'm sorry that I couldn't help, but I'm so glad I made it out"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bana asla elini kaldırmadın, bunun için minnettarım;",
+          "Ama kapıları yumruklayışını gördüğümde, senin çoktan zıvanadan çıktığını anlamalıydım.",
+          "Seni sevdiğim için pişman değilim, çünkü buna ihtiyacın olduğunu biliyorum;",
+          "Ama bana davranış şeklin, kendimi küçücük bir çocuk gibi hissettirdi.",
+          "İçimde bir yerlerde bir ses, senin hala düzelmediğini söylüyor bana;",
+          "Sana yardım edemediğim için üzgünüm ama o evden/ilişkiden sağ çıktığım için çok mutluyum."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And I'm crying on my mama's floor, why don't you want this anymore?",
+          "And I'm craving you to change for me",
+          "You're saying, \"I hear you, and I love you, but my heart, it hurts for you",
+          "And I just cannot give you what you need\"",
+          "Am I too much? Am I enough? 'Cause you said you wouldn't give up",
+          "Now I'm numb on my knees, praying to God you'd talk to me",
+          "Wondering what it takes for you to stay off my mind and far out of my bloodstream"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Annemin evinde, yerde ağlıyorum; neden artık bunu istemiyorsun?",
+          "Benim için değişmeni ne kadar çok arzulamıştım...",
+          "Sen ise; \"Seni duyuyorum ve seni seviyorum ama kalbim senin için sızlıyor...",
+          "Ve sadece, ihtiyacın olanı sana veremiyorum\" diyorsun.",
+          "Fazla mı geldim sana? Yoksa yetersiz miyim? Hani asla vazgeçmeyeceğini söylemiştin...",
+          "Şimdi dizlerimin üzerinde, hissiz bir haldeyim; Tanrı'ya benimle konuşman için yalvarıyorum.",
+          "Zihnimden çıkıp gitmen ve kanımdan tamamen temizlenmen için;",
+          "Daha ne yapmam gerektiğini merak ediyorum..."
+        ]
+      }
+    ],
+    "excerpt": "Maybe I was too young to fully understand",
+    "annotations": {
+      "Fazla mı geldim sana? Yoksa yetersiz miyim?": "İlişkilerde sıkça yaşanan o \"birine ağır gelmek\" veya \"yeterince iyi olmamak\" arasındaki o kahredici ikilemi anlatan çok güçlü bir dize.",
+      "kanımdan tamamen temizlenmen": "\"Stay far out of my bloodstream\": Birini sadece unutmak değil, sanki bir zehirmiş gibi damarlarından/kanından tamamen söküp atmak isteğini simgeliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2oWFJJW9d1bIra3zHjR6GO",
+        "name": "bloodstream",
+        "url": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+        "isrc": "QT2JK2600011",
+        "durationMs": 177428,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4eZer1QvRM8Pna0rLToV1K",
+        "name": "Alyssa Grace",
+        "url": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebbdd45b55f2d0969721846fcc",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4eZer1QvRM8Pna0rLToV1K",
+          "name": "Alyssa Grace",
+          "url": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K"
+        }
+      ],
+      "album": {
+        "id": "4rndAJfXwOHMEPpMT8rn7Q",
+        "name": "bloodstream",
+        "url": "https://open.spotify.com/album/4rndAJfXwOHMEPpMT8rn7Q",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309",
+        "artists": [
+          {
+            "id": "4eZer1QvRM8Pna0rLToV1K",
+            "name": "Alyssa Grace",
+            "url": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K"
+          }
+        ],
+        "releaseDate": "2026-06-04",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Artist House, LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Artist House, LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "2oWFJJW9d1bIra3zHjR6GO",
+            "name": "bloodstream",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 177428,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+            "isCurrent": true
+          },
+          {
+            "id": "1RDPKmgZQ69BUD2YDwV5bc",
+            "name": "picking petals",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 228942,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1RDPKmgZQ69BUD2YDwV5bc",
+            "isCurrent": false
+          },
+          {
+            "id": "1kGNGaeQHJD4gtdKorYqZL",
+            "name": "dog with a bone",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 200060,
+            "duration": "3:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1kGNGaeQHJD4gtdKorYqZL",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-02T07:35:25.614Z",
+      "trackUrl": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+      "albumUrl": "https://open.spotify.com/album/4rndAJfXwOHMEPpMT8rn7Q",
+      "artistUrl": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K",
+      "albumName": "bloodstream",
+      "albumType": "EP",
+      "releaseDate": "2026-06-04",
+      "duration": "2:57",
+      "isrc": "QT2JK2600011",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c031feeff1647deb7577309"
+    },
+    "genius": {
+      "url": "https://genius.com/Alyssa-grace-bloodstream-lyrics",
+      "songId": 13536526,
+      "description": "“Bloodstream” by Alyssa Grace is an emotional song about the lasting effects of difficult relationships and family experiences. In the song, Alyssa reflects on how her father’s behavior affected her ability to trust others and how a painful relationship reminded her of those struggles. The lyrics describe feelings of heartbreak, disappointment, and wanting someone to change, while also showing personal growth and healing. Throughout the song, she recognizes that she cannot fix another person and expresses relief at finding the strength to move forward. The song explores themes of family influence, self-worth, emotional pain, and recovery."
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
     "id": "5271",
     "title": "CHUNG HA México Türkçe Çeviri",
     "song": "México",
