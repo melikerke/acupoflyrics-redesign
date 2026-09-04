@@ -114,6 +114,7 @@
     "artist": "MONSTA X",
     "cover": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
     "date": "2026-09-04T08:41:11.844Z",
+    "updatedAt": "2026-09-04T09:13:35.955Z",
     "reading_time": 3,
     "excerpt": "Wonderful presentation",
     "categories": [
@@ -151,11 +152,11 @@
     ],
     "firstPair": {
       "en": "Wonderful presentation",
-      "tr": "Harika bir sunum..."
+      "tr": "Harika bir sunum."
     },
     "heroPair": {
       "en": "They call it tragic, we call it magic",
-      "tr": "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz!"
+      "tr": "Onlar buna felaket diyor; biz buna büyü diyoruz."
     }
   },
   {

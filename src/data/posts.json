@@ -779,21 +779,21 @@
     "blocks": [
       {
         "original": true,
-        "label": "Intro",
+        "label": "Giriş",
         "lines": [
           "Wonderful presentation"
         ]
       },
       {
         "original": false,
-        "label": "Intro",
+        "label": "Giriş",
         "lines": [
-          "Harika bir sunum..."
+          "Harika bir sunum."
         ]
       },
       {
         "original": true,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
           "Get out of pocket",
           "I know, no one can stop this",
@@ -802,26 +802,28 @@
           "If you want me, you got me",
           "Nado neol arabwasseo",
           "Imi kkwettullin target",
-          "Bureul danggin michin heartbeat (Incoming)"
+          "Bureul danggin michin heartbeat",
+          "(Incoming)"
         ]
       },
       {
         "original": false,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
-          "Zıvanadan çıktık;",
-          "Biliyorum, kimse durduramaz bunu artık.",
-          "Kontrol edilemez bir çekim bu;",
-          "İkimizin birbirini işaret ettiği o an...",
-          "Eğer beni istiyorsan, beni çoktan kaptın demektir;",
-          "Ben de senin ne mal olduğunu (cazibeni) anladım.",
-          "Hedef çoktan on ikiden vuruldu;",
-          "Tetiklenen o deli kalp atışları... (Mevzu başlıyor!)"
+          "Sınırları aş.",
+          "Biliyorum, kimse durduramaz bunu.",
+          "Kontrol edilemeyen bir çekim;",
+          "Birbirimize yöneldiğimiz o an.",
+          "Beni istiyorsan, seninim.",
+          "Ben de seni tanıdım.",
+          "Hedef çoktan vuruldu;",
+          "Fitili ateşleyen çılgın kalp atışları…",
+          "(Geliyor!)"
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
           "Neukkyeobwa, babe",
           "Keojyeoganeun thrill",
@@ -836,22 +838,22 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Hisset bunu bebeğim;",
-          "Gittikçe büyüyen o heyecan...",
-          "Her yere yayılan o hararet...",
-          "Anlat bana neler hissettiğini.",
-          "Dizginleyemiyorum bunu;",
-          "Nefes kesen bir sahne bu resmen.",
-          "Israrcı uyarı işaretleri...",
-          "Her şey kontrolümden çıkıyor;",
-          "(Kontrolü kaybedip özgürleşiyorum...)"
+          "Hisset, bebeğim;",
+          "Giderek büyüyen heyecanı,",
+          "Yayılan harareti.",
+          "Söyle, ne hissediyorsun?",
+          "Dizginleyemiyorum.",
+          "Nefes kesen bir sahne,",
+          "Peşimi bırakmayan bir uyarı işareti…",
+          "Her şey kontrolden çıkıyor.",
+          "(Kontrolden çık, özgürleş.)"
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Oh",
           "It's the right place, right time",
@@ -865,35 +867,35 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Oh!",
-          "Doğru yer, doğru zaman...",
-          "Öyle fena ki, tehlikeli;",
-          "Bu akışın içinde sürükleniyorum...",
-          "Ama şimdi;",
-          "İçimde yanan o işaret ışığıyla,",
-          "Her şey canlanıyor!",
-          "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz!"
+          "Doğru yer, doğru zaman.",
+          "Öyle fena, öyle tehlikeli;",
+          "Bu akışa kapılıp gidiyorum.",
+          "Ama şimdi",
+          "İçimde bir işaret yanıyor;",
+          "Her şey canlanıyor.",
+          "Onlar buna felaket diyor; biz buna büyü diyoruz."
         ]
       },
       {
         "original": true,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
           "(Oh) We call it magic"
         ]
       },
       {
         "original": false,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
-          "(Oh) Biz buna sihir diyoruz!"
+          "(Oh) Biz buna büyü diyoruz."
         ]
       },
       {
         "original": true,
-        "label": "Verse 2 - Rap Section",
+        "label": "2. Kıta / Rap",
         "lines": [
           "Wingardium Leviosa bwa",
           "Juche motan nae momeun hankkeot bung",
@@ -908,22 +910,22 @@
       },
       {
         "original": false,
-        "label": "Verse 2 - Rap Section",
+        "label": "2. Kıta / Rap",
         "lines": [
-          "Wingardium Leviosa! Bak şuna;",
-          "Zapt edemediğim bedenim havalara uçuyor resmen.",
-          "Bu yüksek modu nasıl zapt ederim? Kendimden geçiyorum!",
-          "Dünyadaki tüm gözler sana odaklanmış...",
-          "Çekiyor, çekiyor, beni kendine daha çok çekiyor;",
-          "Tüm dünyaya cazibeni saçarak geziyorsun.",
-          "Senin ritmine ayak uyduruyorum, bak işte; tam bir \"banger\"!",
-          "Büyülenmiş gibiyim, huh;",
-          "Sana nasıl puan biçebilirim ki? (Puanın yetmez...)"
+          "Wingardium Leviosa, bak!",
+          "Zapt edemiyorum bedenimi, havalara uçuyorum.",
+          "Bu hissi nasıl dizginleyeyim? Kendimden geçiyorum.",
+          "Dünyanın bütün gözleri seni yakın plana alıyor;",
+          "Daha yakın, daha yakın, daha yakın, daha da yakın.",
+          "Bütün dünyaya cazibeni saça saça geziyorsun.",
+          "Senin ritmine kapıldım; bak, bomba gibiyim!",
+          "Büyülenmiş gibiyim, hah;",
+          "Sana nasıl puan verebilirim ki, ooh?"
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
           "Neukkyeobwa, babe",
           "Keojyeoganeun thrill",
@@ -938,22 +940,22 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Hisset bunu bebeğim;",
-          "Gittikçe büyüyen o heyecan...",
-          "Her yere yayılan o hararet...",
-          "Anlat bana neler hissettiğini.",
-          "Dizginleyemiyorum bunu;",
-          "Nefes kesen bir sahne bu resmen.",
-          "Israrcı uyarı işaretleri...",
-          "Her şey kontrolümden çıkıyor;",
-          "(Kontrolü kaybedip özgürleşiyorum...)"
+          "Hisset, bebeğim;",
+          "Giderek büyüyen heyecanı,",
+          "Yayılan harareti.",
+          "Söyle, ne hissediyorsun?",
+          "Dizginleyemiyorum.",
+          "Nefes kesen bir sahne,",
+          "Peşimi bırakmayan bir uyarı işareti…",
+          "Her şey kontrolden çıkıyor.",
+          "(Kontrolden çık, özgürleş.)"
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Oh",
           "It's the right place, right time",
@@ -962,26 +964,28 @@
           "But now",
           "Nae ane kyeojin sign",
           "Modeun geosi come alive",
-          "They call it tragic, we call it, we call it, we call it, we call it, we call it—"
+          "They call it tragic,",
+          "we call it, we call it, we call it, we call it, we call it—"
         ]
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Oh!",
-          "Doğru yer, doğru zaman...",
-          "Öyle fena ki, tehlikeli;",
-          "Bu akışın içinde sürükleniyorum...",
-          "Ama şimdi;",
-          "İçimde yanan o işaret ışığıyla,",
-          "Her şey canlanıyor!",
-          "Onlar buna \"trajedi\" diyor; bizse buna, biz buna, biz buna, biz buna, biz buna diyoruz ki..."
+          "Doğru yer, doğru zaman.",
+          "Öyle fena, öyle tehlikeli;",
+          "Bu akışa kapılıp gidiyorum.",
+          "Ama şimdi",
+          "İçimde bir işaret yanıyor;",
+          "Her şey canlanıyor.",
+          "Onlar buna felaket diyor;",
+          "Biz buna, biz buna, biz buna, biz buna, biz buna—"
         ]
       },
       {
         "original": true,
-        "label": "Bridge",
+        "label": "Köprü",
         "lines": [
           "It feels divine",
           "Heundeullineun state, jungsimeul ireogaji",
@@ -991,17 +995,17 @@
       },
       {
         "original": false,
-        "label": "Bridge",
+        "label": "Köprü",
         "lines": [
-          "İlahi hissettiriyor...",
-          "Sarsılan bu ruh halim, dengemi yitiriyorum.",
-          "O bir anlık parıltıda karşına çıkan \"diğer beni\" istiyorsun sen;",
-          "Sezgilerim gittikçe daha da netleşiyor..."
+          "Cennette gibiyim.",
+          "Sarsılıyorum, dengemi yitiriyorum.",
+          "Bir anlığına gördüğün o başka hâlimi istiyorsun.",
+          "İçime yayılan bu sezgi apaçık."
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Son Nakarat",
         "lines": [
           "Oh",
           "It's the right place, right time",
@@ -1023,45 +1027,45 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Son Nakarat",
         "lines": [
           "Oh!",
-          "Doğru yer, doğru zaman...",
-          "Öyle fena ki, tehlikeli;",
-          "Bu akışın içinde sürükleniyorum...",
-          "Ama şimdi;",
-          "İçimde yanan o işaret ışığıyla,",
-          "Her şey canlanıyor!",
-          "Onlar buna \"trajedi\" diyor; bizse buna...",
-          "Oh!",
-          "Doğru yer, doğru zaman;",
-          "Sonu ne olacak diye dert etme hiç! (Evet)",
-          "Şu anın içine dal, bırak kendini...",
-          "Şu an;",
-          "Sadece ikimizle dolup taşan bu gece... (Hayır, asla!)",
-          "Karanlığın içindeki o tek ışık sensin.",
-          "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz! (Evet!)"
+          "Doğru yer, doğru zaman.",
+          "Öyle fena, öyle tehlikeli;",
+          "Bu akışa kapılıp gidiyorum.",
+          "Ama şimdi",
+          "İçimde bir işaret yanıyor;",
+          "Her şey canlanıyor.",
+          "Onlar buna felaket diyor; biz buna—",
+          "Oh! (Ooh)",
+          "Doğru yer, doğru zaman.",
+          "Sonunu falan dert etme. (Evet)",
+          "Bu ana dal, bırak kendini.",
+          "Tam şimdi,",
+          "İkimizle dolup taşan bir gece… (Hayır, hayır)",
+          "Karanlığın içindeki tek ışık.",
+          "Onlar buna felaket diyor; biz buna büyü diyoruz. (Evet)"
         ]
       },
       {
         "original": true,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
           "We call it magic"
         ]
       },
       {
         "original": false,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
-          "Biz buna sihir diyoruz!"
+          "Biz buna büyü diyoruz."
         ]
       }
     ],
     "excerpt": "Wonderful presentation",
     "annotations": {
       "Wingardium Leviosa": "“Wingardium Leviosa”: Harry Potter evreninden gelen uçurma büyüsü. Rapçi burada aşkın ve tutkunun onu nasıl yerden kestiğini anlatıyor.",
-      "banger": "“Banger”: Çok kaliteli, sarsıcı ve hit olan şarkı/olay anlamındaki rap argosu."
+      "bomba gibiyim": "“Banger”: Çok kaliteli, sarsıcı ve hit olan şarkı/olay anlamındaki rap argosu."
     },
     "difficulty_note": null,
     "spotify": {
@@ -1204,7 +1208,8 @@
     },
     "genius": null,
     "youtubeUrl": "https://www.youtube.com/watch?v=QqqrJle7dRA",
-    "source": "user-provided"
+    "source": "user-provided",
+    "updatedAt": "2026-09-04T09:13:35.955Z"
   },
   {
     "id": "5280",
