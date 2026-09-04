@@ -7,7 +7,8 @@
     "artist": "LISA",
     "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
     "date": "2026-09-04T08:41:12.314Z",
-    "reading_time": 5,
+    "updatedAt": "2026-09-04T08:59:57.174Z",
+    "reading_time": 4,
     "excerpt": "Hello Sawadika",
     "categories": [
       "LISA",
@@ -44,11 +45,11 @@
     ],
     "firstPair": {
       "en": "Hello Sawadika",
-      "tr": "Merhaba, Sawadika!"
+      "tr": "Selam, Sawadika!"
     },
     "heroPair": {
       "en": "Hello Sawadika",
-      "tr": "Merhaba, Sawadika!"
+      "tr": "Selam, Sawadika!"
     }
   },
   {
@@ -59,6 +60,7 @@
     "artist": "JISOO",
     "cover": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
     "date": "2026-09-04T08:41:12.072Z",
+    "updatedAt": "2026-09-04T09:03:34.357Z",
     "reading_time": 2,
     "excerpt": "This isn't gonna work, I know",
     "categories": [
@@ -92,16 +94,16 @@
       "albumArtist": "JISOO"
     },
     "moods": [
-      "Sad",
-      "Love"
+      "Love",
+      "Sad"
     ],
     "firstPair": {
       "en": "This isn't gonna work, I know",
-      "tr": "Bu iş yürümeyecek, biliyorum"
+      "tr": "Bu iş yürümeyecek, biliyorum."
     },
     "heroPair": {
       "en": "It's just the way our bodies click",
-      "tr": "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+      "tr": "Bunun bir açıklaması yok;"
     }
   },
   {

@@ -21,11 +21,11 @@
     ],
     "image": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
     "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
-    "reading_time": 5,
+    "reading_time": 4,
     "blocks": [
       {
         "original": true,
-        "label": "Intro / Chorus",
+        "label": "Giriş / Nakarat",
         "lines": [
           "Hello Sawadika",
           "Yeah you know my wrist is cold",
@@ -47,29 +47,29 @@
       },
       {
         "original": false,
-        "label": "Intro / Chorus",
+        "label": "Giriş / Nakarat",
         "lines": [
-          "Merhaba, Sawadika!",
-          "Evet, biliyorsun bileğimde pırlantalar parlıyor;",
-          "Bu saati Cenevre’den bizzat aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor...",
-          "Merhaba, Sawadika!",
-          "Evet, biliyorsun bileğimde pırlantalar parlıyor;",
-          "Bu saati Cenevre’den bizzat aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi",
+          "Sawadika! İşte karşınızda!",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor..."
+          "Sawadika! İşte karşınızda!"
         ]
       },
       {
         "original": true,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
           "Who let this bitch out of the cage",
           "Move that",
@@ -90,28 +90,28 @@
       },
       {
         "original": false,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
-          "Kim saldı bu kadını kafesinden?",
-          "Çekilin yoldan;",
-          "Yol verin artık!",
-          "Cinayet mahalli sanki, yıktım geçtim her yeri;",
-          "Mevzunun tam göbeğindeyim.",
-          "Kaldırın elleri havaya;",
-          "Hadi şimdi kilitleyin beni (gücünüz yetiyorsa)!",
+          "Kim saldı bu kaltağı kafesten?",
+          "Çekilin!",
+          "Açılın önümden!",
+          "Yıktım geçtim, resmen cinayet;",
+          "Bu iş bende.",
+          "Eller havaya!",
+          "Şimdi de tıkın beni içeri!",
           "Şampiyonluk benim işim;",
-          "Bana \"bir numara\" derler.",
-          "Her şeyimi öyle bir savururum ki;",
-          "Sanki bir güzellik salonundaymışız gibi...",
-          "Kombinlerimle olay yaratırım;",
-          "Sanki hepsi birer \"highlight\" klibi!",
-          "Hedef alırım ve tam on ikiden vururum;",
-          "Silahımın ucundaki o dumanı üfleyerek..."
+          "Bana bir numara derler.",
+          "Savururum saçlarımı,",
+          "Sanki kuafördeyim.",
+          "Kombinlerim olay;",
+          "Her biri göz alıcı bir kare.",
+          "Nişan alır, tam on ikiden vururum;",
+          "Sonra namludaki dumanı üflerim."
         ]
       },
       {
         "original": true,
-        "label": "Verse 2",
+        "label": "2. Kıta",
         "lines": [
           "How many does it take",
           "How many does it take",
@@ -127,23 +127,23 @@
       },
       {
         "original": false,
-        "label": "Verse 2",
+        "label": "2. Kıta",
         "lines": [
-          "Daha kaç kişi lazım?",
-          "Daha kaç tane...",
-          "Daha kaç kişi?",
-          "Kaç kişi benim dalgamda süzülmeye çalışıyor?",
-          "Kaç kişi benim ismimi istiyor?",
-          "Kaç tane...",
-          "Kaçınızda disiplin var?",
-          "Kaçınız mevzuyu kavrayabildi?",
-          "Kaçınız benim geçtiğim o yollardan geçti?",
-          "Kaçınız beni gerçekten, derinden anlayabiliyor?"
+          "Kaç kişi lazım?",
+          "Kaç kişi lazım?",
+          "Kaç kişi?",
+          "Kaçınız benim rüzgârımla yükselmeye çalışıyor?",
+          "Kaçınız benim şanıma göz dikmiş?",
+          "Kaçınız…",
+          "Kaçınızda o disiplin var?",
+          "Kaçınız anlayabiliyor?",
+          "Kaçınız benim geçtiğim yollardan geçti?",
+          "Kaçınız anlıyor içimdeki beni?"
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Geçiş",
         "lines": [
           "Catch me in my feelings",
           "Up in the sky",
@@ -153,17 +153,17 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Geçiş",
         "lines": [
-          "Beni duygularımın içinde yakala;",
-          "Gökyüzünün en tepesinde...",
-          "Bebeğim, benim zihnimde",
-          "Sınır falan yok!"
+          "Duygulara dalmış bulursun beni,",
+          "Gökyüzünde, en tepede.",
+          "Bebeğim, benim aklımda",
+          "Sınır diye bir şey yok."
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Hello Sawadika",
           "Yeah you know my wrist is cold",
@@ -185,33 +185,34 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Merhaba, Sawadika!",
-          "Bileğimdeki pırlantalar buz kesmiş;",
-          "Bu saati Cenevre’den aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi...",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor...",
-          "Merhaba, Sawadika!",
-          "Bileğimdeki pırlantalar buz kesmiş;",
-          "Bu saati Cenevre’den aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi...",
+          "Sawadika! İşte karşınızda!",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor..."
+          "Sawadika! İşte karşınızda!"
         ]
       },
       {
         "original": true,
-        "label": "Verse 3 - Rap Section",
+        "label": "3. Kıta / Rap",
         "lines": [
           "Bang bang Bangkok bang",
           "Screaming ‘geng mak’ with my gang",
-          "Baht be going in my bank til I’m going out with a bag",
+          "Baht be going in my bank",
+          "til I’m going out with a bag",
           "Thai’d up like I’m booked booked",
           "I’m like hold up let me cook cook",
           "Put a show on when I show up",
@@ -220,20 +221,21 @@
       },
       {
         "original": false,
-        "label": "Verse 3 - Rap Section",
+        "label": "3. Kıta / Rap",
         "lines": [
-          "Bang bang Bangkok, patlat!",
-          "Ekibimle \"geng mak\" diye haykırıyoruz;",
-          "Banka hesabıma Baht’lar (paralar) yağıyor, koca bir çantayla çıkana dek!",
-          "İşim başımdan aşkın, kilitlendim mevzuya;",
-          "Şöyle bir durun da, bırakın \"pişireyim\" şu işi...",
-          "Ben ortaya çıktığımda şov başlar;",
-          "Bir tuk-tuk ile yanlayarak geliyorum!"
+          "Bam bam, Bangkok, bam!",
+          "Ekibimle “geng mak!” diye haykırıyoruz.",
+          "Hesabıma bahtlar yağıyor,",
+          "Çanta dolusu parayla çıkana dek.",
+          "İşim başımdan aşkın, takvimim dolu.",
+          "Bir durun, bırakın döktüreyim!",
+          "Ben göründüm mü şov başlar;",
+          "Tuk-tuk’la sıfır çiziyorum!"
         ]
       },
       {
         "original": true,
-        "label": "Verse 4",
+        "label": "4. Kıta",
         "lines": [
           "Step on the terrace the rooftop",
           "Hop in the back of the chop chop",
@@ -248,22 +250,22 @@
       },
       {
         "original": false,
-        "label": "Verse 4",
+        "label": "4. Kıta",
         "lines": [
-          "Teraslara, çatı katlarına adımımı atıyorum;",
-          "Hemen atla şu helikopterin arkasına...",
-          "Geliyor musun yoksa ne?",
-          "Saatinin o \"tik-tak\" sesi gibiyim;",
-          "Hepsini bir bir uyandırıyorum!",
-          "Evet, ben bela meraklısı biriyim;",
-          "Şok yaşatmak için yaşıyorum, sanki alerjik bir reaksiyon gibi...",
-          "Çok mu geldi? Fazla mı dramatik davranıyorum?",
-          "O kadar \"hasta\" bir tarzım var ki; en iyisi bana bir doktor çağırın!"
+          "Çıkıyorum çatıdaki terasa;",
+          "Atla helikopterin arka koltuğuna.",
+          "Geliyor musun, gelmiyor musun?",
+          "Saatindeki tik tak gibiyim;",
+          "Hepsini uyandırıyorum!",
+          "Evet, belaya bayılırım.",
+          "Şok için yaşarım; sanki alerjik şoktayım.",
+          "Çok mu geldi? Çok mu abartıyorum?",
+          "Fena halde iyiyim; bir doktor çağırın!"
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Geçiş",
         "lines": [
           "Catch me in my feelings",
           "Up in the sky",
@@ -273,17 +275,17 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Geçiş",
         "lines": [
-          "Beni duygularımın içinde yakala;",
-          "Gökyüzünün en tepesinde...",
-          "Bebeğim, benim zihnimde",
-          "Sınır falan yok!"
+          "Duygulara dalmış bulursun beni,",
+          "Gökyüzünde, en tepede.",
+          "Bebeğim, benim aklımda",
+          "Sınır diye bir şey yok."
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Hello Sawadika",
           "Yeah you know my wrist is cold",
@@ -305,29 +307,29 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Merhaba, Sawadika!",
-          "Bileğimdeki pırlantalar buz kesmiş;",
-          "Bu saati Cenevre’den aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi...",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor...",
-          "Merhaba, Sawadika!",
-          "Bileğimdeki pırlantalar buz kesmiş;",
-          "Bu saati Cenevre’den aldım.",
-          "Biliyorsan biliyorsun zaten mevzuyu...",
-          "Televizyonundaki o asıl kadın benim işte;",
-          "Ve Ferrari’m çivit mavisi...",
+          "Sawadika! İşte karşınızda!",
+          "Selam, Sawadika!",
+          "Evet, biliyorsun, bileğim pırlanta içinde;",
+          "Saatim Cenevre’den.",
+          "Anlayan anladı.",
+          "Ekranda gördüğün o kaltak benim;",
+          "Ferrari’m çivit mavisi.",
           "La la Lisa, tam bir diva;",
-          "Sawadika! İşte o gidiyor..."
+          "Sawadika! İşte karşınızda!"
         ]
       },
       {
         "original": true,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
           "Hello Sawadika",
           "Hello Sawadika",
@@ -337,12 +339,12 @@
       },
       {
         "original": false,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
-          "Merhaba, Sawadika!",
-          "Merhaba, Sawadika!",
-          "Merhaba, Sawadika!",
-          "Merhaba, Sawadika! İşte o gidiyor..."
+          "Selam, Sawadika!",
+          "Selam, Sawadika!",
+          "Selam, Sawadika!",
+          "Selam, Sawadika! İşte karşınızda!"
         ]
       }
     ],
@@ -435,7 +437,8 @@
     },
     "genius": null,
     "youtubeUrl": "https://www.youtube.com/watch?v=FyS5dAywkEo",
-    "source": "user-provided"
+    "source": "user-provided",
+    "updatedAt": "2026-09-04T08:59:57.174Z"
   },
   {
     "id": "5282",
@@ -463,7 +466,7 @@
     "blocks": [
       {
         "original": true,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
           "This isn't gonna work, I know",
           "You flirt with everyone, I know",
@@ -473,17 +476,17 @@
       },
       {
         "original": false,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
-          "Bu iş yürümeyecek, biliyorum",
-          "Herkesle flört ediyorsun, bunu da biliyorum",
-          "Sonunda sadece canım yanacak, biliyorum",
-          "Çünkü sen daldan dala konmaya bayılıyorsun"
+          "Bu iş yürümeyecek, biliyorum.",
+          "Herkesle flört ediyorsun, biliyorum.",
+          "Sonunda canım yanacak, biliyorum.",
+          "Çünkü hep bir âşık oluyor, bir soğuyorsun."
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
           "Counting the reasons that we shouldn't",
           "Mess up this thing, be more than friends",
@@ -495,19 +498,20 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Bunu bozmamamız için, arkadaştan öte",
-          "Olmamamız için nedenleri sayıp duruyorum...",
-          "Ama beni böyle tuttuğunda,",
-          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
-          "Bunun bir açıklaması olmuyor...",
-          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+          "Arkadaşlıktan öteye geçmememiz,",
+          "Aramızdakini bozmamamız için",
+          "Nedenler sayıp duruyorum.",
+          "Ama bana böyle sarılınca,",
+          "Aramızdaki farkları bir öpücükle silince,",
+          "Bunun bir açıklaması yok;",
+          "Bedenlerimiz birbirine tam uyuyor işte."
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Your lips, my lips, click",
           "We were made to fit",
@@ -517,17 +521,17 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Senin dudakların, benim dudaklarım; \"tık\"...",
-          "Sanki birbirimiz için yaratılmışız.",
-          "Senin ellerin, benim kalçalarım; \"tık\"...",
-          "Birbirimize tam oturduk biz."
+          "Dudakların, dudaklarım — tık!",
+          "Birbirimize göre yaratılmışız.",
+          "Ellerin, kalçalarım — tık!",
+          "Birbirimize göre yaratılmışız."
         ]
       },
       {
         "original": true,
-        "label": "Verse 2",
+        "label": "2. Kıta",
         "lines": [
           "You say you wanna stay over",
           "And I swear it's not gonna go there",
@@ -537,17 +541,17 @@
       },
       {
         "original": false,
-        "label": "Verse 2",
+        "label": "2. Kıta",
         "lines": [
-          "Bu gece kalmak istediğini söylüyorsun",
-          "Ve ben \"mevzu oraya gitmeyecek\" diye yeminler ediyorum...",
-          "Ama sabah olduğunda, senin sol omzunda uyanıyorum;",
-          "Daha yakın, tam da olmak istediğim yerde."
+          "Bu gece bende kalmak istediğini söylüyorsun.",
+          "“İş o noktaya varmayacak,” diye yemin ediyorum.",
+          "Ama başım sol omzunda uyanıyorum;",
+          "Sana daha yakın, tam da olmak istediğim yerde."
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
           "Counting the reasons that we shouldn't",
           "Mess up this thing, be more than friends",
@@ -559,19 +563,20 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Bunu bozmamamız için, arkadaştan öte",
-          "Olmamamız için nedenleri sayıp duruyorum...",
-          "Ama beni böyle tuttuğunda,",
-          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
-          "Bunun bir açıklaması olmuyor...",
-          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+          "Arkadaşlıktan öteye geçmememiz,",
+          "Aramızdakini bozmamamız için",
+          "Nedenler sayıp duruyorum.",
+          "Ama bana böyle sarılınca,",
+          "Aramızdaki farkları bir öpücükle silince,",
+          "Bunun bir açıklaması yok;",
+          "Bedenlerimiz birbirine tam uyuyor işte."
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Your lips, my lips, click",
           "We were made to fit",
@@ -581,37 +586,41 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Senin dudakların, benim dudaklarım; \"tık\"...",
-          "Sanki birbirimiz için yaratılmışız.",
-          "Senin ellerin, benim kalçalarım; \"tık\"...",
-          "Birbirimize tam oturduk biz."
+          "Dudakların, dudaklarım — tık!",
+          "Birbirimize göre yaratılmışız.",
+          "Ellerin, kalçalarım — tık!",
+          "Birbirimize göre yaratılmışız."
         ]
       },
       {
         "original": true,
-        "label": "Bridge",
+        "label": "Köprü",
         "lines": [
           "I can't lie here and lie",
-          "Looking into your eyes, your eyes (We were made to fit)",
+          "Looking into your eyes, your eyes",
+          "(We were made to fit)",
           "I can't lie here and lie",
-          "Or hide the way that I feel inside (We were made to fit)"
+          "Or hide the way that I feel inside",
+          "(We were made to fit)"
         ]
       },
       {
         "original": false,
-        "label": "Bridge",
+        "label": "Köprü",
         "lines": [
-          "Burada öylece yatıp sana yalan söyleyemem;",
-          "Gözlerinin içine bakarken... (Birbirimiz için yaratılmışız)",
-          "Burada yan yana yatıp kendimi kandıramam;",
-          "Ya da içimdeki şu hisleri gizleyemem artık. (Birbirimiz için yaratılmışız)"
+          "Yanında yatıp da yalan söyleyemem,",
+          "Gözlerinin içine bakarken…",
+          "(Birbirimize göre yaratılmışız.)",
+          "Yanında yatıp da yalan söyleyemem,",
+          "İçimde hissettiklerimi saklayamam.",
+          "(Birbirimize göre yaratılmışız.)"
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "Your lips, my lips, click",
           "We were made to fit",
@@ -621,17 +630,17 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Senin dudakların, benim dudaklarım; \"tık\"...",
-          "Sanki birbirimiz için yaratılmışız.",
-          "Senin ellerin, benim kalçalarım; \"tık\"...",
-          "Birbirimize tam oturduk biz."
+          "Dudakların, dudaklarım — tık!",
+          "Birbirimize göre yaratılmışız.",
+          "Ellerin, kalçalarım — tık!",
+          "Birbirimize göre yaratılmışız."
         ]
       },
       {
         "original": true,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
           "But when you hold me like this",
           "And kiss away our differences",
@@ -641,19 +650,19 @@
       },
       {
         "original": false,
-        "label": "Outro",
+        "label": "Çıkış",
         "lines": [
-          "Ama beni böyle tuttuğunda,",
-          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
-          "Bunun bir açıklaması olmuyor...",
-          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+          "Ama bana böyle sarılınca,",
+          "Aramızdaki farkları bir öpücükle silince,",
+          "Bunun bir açıklaması yok;",
+          "Bedenlerimiz birbirine tam uyuyor işte."
         ]
       }
     ],
     "excerpt": "This isn't gonna work, I know",
     "annotations": {
-      "\"tık\"": "“Click”: Hem bir ses yansıması hem de bir durumun, bir parçanın veya iki insanın mükemmel bir uyum içinde birleşmesini anlatan modern bir tabir.",
-      "yatıp sana yalan söyleyemem": "“Lie here and lie”: \"Burada yatmak\" ve \"yalan söylemek\" arasındaki o meşhur kelime oyunu. JISOO burada hem fiziksel konumunu hem de duygusal dürüstlüğünü vurguluyor."
+      "tık": "“Click”: Hem bir ses yansıması hem de bir durumun, bir parçanın veya iki insanın mükemmel bir uyum içinde birleşmesini anlatan modern bir tabir.",
+      "yatıp da yalan söyleyemem": "“Lie here and lie”: \"Burada yatmak\" ve \"yalan söylemek\" arasındaki o meşhur kelime oyunu. JISOO burada hem fiziksel konumunu hem de duygusal dürüstlüğünü vurguluyor."
     },
     "difficulty_note": null,
     "spotify": {
@@ -741,7 +750,8 @@
     },
     "genius": null,
     "youtubeUrl": "https://www.youtube.com/watch?v=sf02ugzPFE4",
-    "source": "user-provided"
+    "source": "user-provided",
+    "updatedAt": "2026-09-04T09:03:34.357Z"
   },
   {
     "id": "5281",
