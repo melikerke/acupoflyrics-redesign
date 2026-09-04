@@ -167,6 +167,7 @@
     "artist": "Miley Cyrus",
     "cover": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
     "date": "2026-09-04T08:41:11.555Z",
+    "updatedAt": "2026-09-04T09:33:13.899Z",
     "reading_time": 4,
     "excerpt": "Let's go",
     "categories": [
@@ -204,11 +205,11 @@
     ],
     "firstPair": {
       "en": "Let's go",
-      "tr": "Hadi gidelim!"
+      "tr": "Hadi!"
     },
     "heroPair": {
       "en": "The bass persuades",
-      "tr": "Zaten o bas seni ikna ediyor."
+      "tr": "Bas seni ikna eder."
     }
   },
   {

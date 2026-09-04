@@ -1244,9 +1244,9 @@
       },
       {
         "original": false,
-        "label": "Intro",
+        "label": "Giriş",
         "lines": [
-          "Hadi gidelim!"
+          "Hadi!"
         ]
       },
       {
@@ -1265,16 +1265,16 @@
       },
       {
         "original": false,
-        "label": "Verse 1",
+        "label": "1. Kıta",
         "lines": [
-          "Sahneye adımını atarsın ama tek bir bakış bile yakalayamazsın;",
-          "Bense partiye, sanki mekanın sahibiymişim gibi girerim!",
-          "Meraları (doğayı) betonla kaplıyorlar çünkü atlar çoktan gitti artık;",
-          "Şu plak dönerken, dışarıda bir dünya olduğunu unutuyoruz resmen...",
-          "Hayaletler bile Bermuda'ya kaçtı, çünkü artık musallat olacak kimse kalmadı;",
-          "Şekerlere kimsenin istemediği o zehirler (fentanil) bulaştı.",
-          "Şöyle bir döndür dünyayı, her şeyi yok et bir anlığına;",
-          "Eğer hareket etmeyeceksek bebeğim, neden buradayız ki?"
+          "Ortama adımını at; kimsenin dikkatini çekemezsin.",
+          "Partiye, sanki parti benimmiş gibi giriyorum.",
+          "Atlar artık yok diye meraları asfaltlıyorlar.",
+          "Bu plak çalınca dışarıdaki dünya unutuluyor.",
+          "Hayaletler Bermuda’ya kaçıyor; musallat olacak kimse yok.",
+          "Şekere kimsenin istemediği fentanil katılmış.",
+          "Bir dakikalığına döndür şu plağı, her şey silinip gitsin.",
+          "Kıpırdamıyorsak bebeğim, bebeğim, niye buradayız?"
         ]
       },
       {
@@ -1288,11 +1288,11 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Fikrini değiştirmek gibi bir niyetim yok;",
-          "Zaten o bas seni ikna ediyor.",
-          "Hayır, düşüncelerini değiştirmek istemiyorum; (Hadi!)"
+          "Fikrini değiştirmek istemiyorum.",
+          "Bas seni ikna eder.",
+          "Hayır, fikrini değiştirmek istemiyorum. (Hadi!)"
         ]
       },
       {
@@ -1307,12 +1307,12 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Mhm)",
-          "Bu çocuklar dans etmek istemiyor hiç!",
-          "Sonsuza kadar böyle (donuk) kalamayız;",
-          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim..."
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Mhm)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor.",
+          "Böyle sonsuza dek kalamayız.",
+          "Geceye bırakalım kendimizi, bedenlerimiz yakınlaşsın. (Uh-huh)"
         ]
       },
       {
@@ -1331,16 +1331,16 @@
       },
       {
         "original": false,
-        "label": "Verse 2",
+        "label": "2. Kıta",
         "lines": [
-          "Gözlerini o telefon ekranına yapıştırdın;",
-          "Ama asıl \"hit\"i (gerçeği) kaçırdın, çünkü MTV devri bitti artık.",
-          "Hadi biraz nostaljik takıl, tıpkı bir sinema filmi gibi...",
-          "Sadece pencereden dışarı bak, ne görüyorsun?",
-          "Ağaçların tepesinde, tertemiz bir manzara var;",
-          "Evet, şu an \"kaos\" hükümdar ama duramayacağını çok iyi biliyorsun!",
-          "Yeni kombinin tam bir felaket;",
-          "O kadar çok sevdin ki, git de posterini as bari duvara!"
+          "Gözlerini telefon ekranına yapıştırmışsın.",
+          "Ama MTV olmayınca hit parçayı kaçırdın.",
+          "Analoğa dön (Evet), sinema misali. (Evet)",
+          "Bir bak pencereden dışarı; ne görüyorsun?",
+          "Ağaç tepelerinde görüş açık.",
+          "Evet, kaos hüküm sürüyor; ama biliyorsun, duramazsın, durmayacaksın.",
+          "Yeni kombin yıkılıyor.",
+          "O kadar seviyorsun; git posterini yapıp as."
         ]
       },
       {
@@ -1354,11 +1354,11 @@
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Nakarat Öncesi",
         "lines": [
-          "Fikrini değiştirmek gibi bir niyetim yok;",
-          "Zaten o bas seni ikna ediyor.",
-          "Hayır, düşüncelerini değiştirmek istemiyorum; (Hadi!)"
+          "Fikrini değiştirmek istemiyorum.",
+          "Bas seni ikna eder.",
+          "Hayır, fikrini değiştirmek istemiyorum. (Hadi!)"
         ]
       },
       {
@@ -1377,16 +1377,16 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Mhm)",
-          "Bu çocuklar dans etmek istemiyor hiç!",
-          "Sonsuza kadar böyle (donuk) kalamayız;",
-          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim...",
-          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Mhm)",
-          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
-          "Sonsuza kadar böyle (donuk) kalamayız;",
-          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim..."
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Mhm)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor.",
+          "Böyle sonsuza dek kalamayız.",
+          "Geceye bırakalım kendimizi, bedenlerimiz yakınlaşsın. (Uh-huh)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun? Mhm)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun?)",
+          "Böyle sonsuza dek kalamayız.",
+          "Geceye bırakalım kendimizi, bedenlerimiz yakınlaşsın. (Uh-huh)"
         ]
       },
       {
@@ -1401,12 +1401,12 @@
       },
       {
         "original": false,
-        "label": "Interlude",
+        "label": "Ara Bölüm",
         "lines": [
-          "Müziğin içinde bir şeyler hissediyorsun;",
-          "Bunun ne olduğunu tam olarak bilmiyorsun belki;",
-          "Ama ben o gözlerinde görebiliyorum;",
-          "Sen de bu ritmin içinde kendini kaybetmek istiyorsun!"
+          "Müzikte bir şey hissediyorsun.",
+          "Ne olduğunu bilmiyorsun.",
+          "Ama ben gözlerinde görebiliyorum.",
+          "Kendini bu müzikte kaybetmek istiyorsun; hadi!"
         ]
       },
       {
@@ -1421,12 +1421,12 @@
       },
       {
         "original": false,
-        "label": "Bridge",
+        "label": "Köprü",
         "lines": [
-          "Dans etmek istemiyor musun?",
-          "Sahi, dans etmek istemez misin?",
-          "Dans etmek istemiyor musun?",
-          "Sonsuza dek burada kalalım, teslim olalım; bedenlerimiz tek vücut olsun..."
+          "Dans etmek istemiyor musun? (Uh-huh, mhm)",
+          "Dans etmek istemiyor musun? (Uh-huh, mhm)",
+          "Dans etmek istemiyor musun? (Mhm-hm)",
+          "Sonsuza dek kal, bırak kendini, bedenlerimiz yakınlaşsın. (Uh)"
         ]
       },
       {
@@ -1445,24 +1445,24 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Son Nakarat",
         "lines": [
-          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Uh-huh, mhm)",
-          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
-          "Sonsuza kadar böyle (donuk) kalamayız; (Mhm)",
-          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim...",
-          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Mhm)",
-          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
-          "Böyle sonsuza dek bekleyemeyiz; (Mhm)",
-          "Hadi teslim ol geceye; bedenlerimiz tek vücut olsun artık."
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun? Uh-huh, mhm)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun?)",
+          "Böyle sonsuza dek kalamayız. (Mhm)",
+          "Geceye bırakalım kendimizi, bedenlerimiz yakınlaşsın. (Uh-huh)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun? Mhm)",
+          "Gençler dans etmek istemiyor, gençler dans etmek istemiyor. (Dans etmek istemiyor musun?)",
+          "Böyle sonsuza dek kalamayız. (Mhm)",
+          "Sonsuza dek bekle, bırak kendini, bedenlerimiz yakınlaşsın. (Uh)"
         ]
       }
     ],
     "excerpt": "Let's go",
     "annotations": {
-      "tek bir bakış bile yakalayamazsın": "“Won’t catch an eye”: İnsanların ekranlara kilitlendiği ve birbirinin yüzüne bakmadığı o modern duyarsızlığa atıf.",
+      "kimsenin dikkatini çekemezsin": "“Won’t catch an eye”: İnsanların ekranlara kilitlendiği ve birbirinin yüzüne bakmadığı o modern duyarsızlığa atıf.",
       "fentanil": "“Fentanyl”: Amerika’daki uyuşturucu krizine yapılan karanlık bir gönderme. Hayatın tatlı yanlarının (şeker) bile artık tehlikeli ve sahte olduğunu simgeliyor.",
-      "Yeni kombinin tam bir felaket": "“New fit is a monster”: Hem \"kombinin çok havalı/yıkılıyor\" anlamında bir övgü hem de dış görünüş takıntısına yapılan iğneleyici bir yorum."
+      "Yeni kombin yıkılıyor": "“New fit is a monster”: Hem \"kombinin çok havalı/yıkılıyor\" anlamında bir övgü hem de dış görünüş takıntısına yapılan iğneleyici bir yorum."
     },
     "difficulty_note": null,
     "spotify": {
@@ -1550,7 +1550,8 @@
     },
     "genius": null,
     "youtubeUrl": "https://www.youtube.com/watch?v=aWpw-Ynl0Yc",
-    "source": "user-provided"
+    "source": "user-provided",
+    "updatedAt": "2026-09-04T09:33:13.899Z"
   },
   {
     "id": "5279",
