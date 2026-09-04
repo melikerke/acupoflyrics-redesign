@@ -1,5 +1,1543 @@
 [
   {
+    "id": "5283",
+    "title": "LISA SaWaDiKa Türkçe Çeviri",
+    "song": "SaWaDiKa",
+    "slug": "lisa-sawadika-turkce-ceviri",
+    "date": "2026-09-04T08:41:12.314Z",
+    "artist": "LISA",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "LISA",
+      "SaWaDiKa"
+    ],
+    "category_slugs": [
+      "lisa",
+      "sawadika"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro / Chorus",
+        "lines": [
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go",
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro / Chorus",
+        "lines": [
+          "Merhaba, Sawadika!",
+          "Evet, biliyorsun bileğimde pırlantalar parlıyor;",
+          "Bu saati Cenevre’den bizzat aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor...",
+          "Merhaba, Sawadika!",
+          "Evet, biliyorsun bileğimde pırlantalar parlıyor;",
+          "Bu saati Cenevre’den bizzat aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Who let this bitch out of the cage",
+          "Move that",
+          "Get out of the way",
+          "Murder, killed that",
+          "I’m on the case",
+          "Hands up",
+          "Now lock me away",
+          "Championship",
+          "They call me the one",
+          "Whip my shit",
+          "Like it’s a salon",
+          "I throw fits",
+          "Like highlight clips",
+          "I aim, I hit",
+          "Blow smoke off the gun"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Kim saldı bu kadını kafesinden?",
+          "Çekilin yoldan;",
+          "Yol verin artık!",
+          "Cinayet mahalli sanki, yıktım geçtim her yeri;",
+          "Mevzunun tam göbeğindeyim.",
+          "Kaldırın elleri havaya;",
+          "Hadi şimdi kilitleyin beni (gücünüz yetiyorsa)!",
+          "Şampiyonluk benim işim;",
+          "Bana \"bir numara\" derler.",
+          "Her şeyimi öyle bir savururum ki;",
+          "Sanki bir güzellik salonundaymışız gibi...",
+          "Kombinlerimle olay yaratırım;",
+          "Sanki hepsi birer \"highlight\" klibi!",
+          "Hedef alırım ve tam on ikiden vururum;",
+          "Silahımın ucundaki o dumanı üfleyerek..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "How many does it take",
+          "How many does it take",
+          "How many",
+          "How many tryna ride my wave",
+          "How many want my name",
+          "How many-",
+          "How many got discipline",
+          "How many comprehend",
+          "How many that been where I been",
+          "How many get me from within"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Daha kaç kişi lazım?",
+          "Daha kaç tane...",
+          "Daha kaç kişi?",
+          "Kaç kişi benim dalgamda süzülmeye çalışıyor?",
+          "Kaç kişi benim ismimi istiyor?",
+          "Kaç tane...",
+          "Kaçınızda disiplin var?",
+          "Kaçınız mevzuyu kavrayabildi?",
+          "Kaçınız benim geçtiğim o yollardan geçti?",
+          "Kaçınız beni gerçekten, derinden anlayabiliyor?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Catch me in my feelings",
+          "Up in the sky",
+          "Baby there’s no ceiling",
+          "In my mind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Beni duygularımın içinde yakala;",
+          "Gökyüzünün en tepesinde...",
+          "Bebeğim, benim zihnimde",
+          "Sınır falan yok!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go",
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Merhaba, Sawadika!",
+          "Bileğimdeki pırlantalar buz kesmiş;",
+          "Bu saati Cenevre’den aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi...",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor...",
+          "Merhaba, Sawadika!",
+          "Bileğimdeki pırlantalar buz kesmiş;",
+          "Bu saati Cenevre’den aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi...",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3 - Rap Section",
+        "lines": [
+          "Bang bang Bangkok bang",
+          "Screaming ‘geng mak’ with my gang",
+          "Baht be going in my bank til I’m going out with a bag",
+          "Thai’d up like I’m booked booked",
+          "I’m like hold up let me cook cook",
+          "Put a show on when I show up",
+          "doing donuts in a tuktuk"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3 - Rap Section",
+        "lines": [
+          "Bang bang Bangkok, patlat!",
+          "Ekibimle \"geng mak\" diye haykırıyoruz;",
+          "Banka hesabıma Baht’lar (paralar) yağıyor, koca bir çantayla çıkana dek!",
+          "İşim başımdan aşkın, kilitlendim mevzuya;",
+          "Şöyle bir durun da, bırakın \"pişireyim\" şu işi...",
+          "Ben ortaya çıktığımda şov başlar;",
+          "Bir tuk-tuk ile yanlayarak geliyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4",
+        "lines": [
+          "Step on the terrace the rooftop",
+          "Hop in the back of the chop chop",
+          "Like are you coming or what?",
+          "I’m like the tick on your clock",
+          "Waking them up",
+          "Yes, I’m a trouble fanatic",
+          "Live for the shock like I’m anaphylactic",
+          "Is it too much? Am I overdramatic?",
+          "Sick I’m too sick better call me a medic"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4",
+        "lines": [
+          "Teraslara, çatı katlarına adımımı atıyorum;",
+          "Hemen atla şu helikopterin arkasına...",
+          "Geliyor musun yoksa ne?",
+          "Saatinin o \"tik-tak\" sesi gibiyim;",
+          "Hepsini bir bir uyandırıyorum!",
+          "Evet, ben bela meraklısı biriyim;",
+          "Şok yaşatmak için yaşıyorum, sanki alerjik bir reaksiyon gibi...",
+          "Çok mu geldi? Fazla mı dramatik davranıyorum?",
+          "O kadar \"hasta\" bir tarzım var ki; en iyisi bana bir doktor çağırın!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Catch me in my feelings",
+          "Up in the sky",
+          "Baby there’s no ceiling",
+          "In my mind"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Beni duygularımın içinde yakala;",
+          "Gökyüzünün en tepesinde...",
+          "Bebeğim, benim zihnimde",
+          "Sınır falan yok!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go",
+          "Hello Sawadika",
+          "Yeah you know my wrist is cold",
+          "Got this time piece from Geneva",
+          "If you know it then you know",
+          "I’m that bitch on your tv",
+          "And my Ferrari indigo",
+          "La la Lisa la diva",
+          "Sawadika there she go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Merhaba, Sawadika!",
+          "Bileğimdeki pırlantalar buz kesmiş;",
+          "Bu saati Cenevre’den aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi...",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor...",
+          "Merhaba, Sawadika!",
+          "Bileğimdeki pırlantalar buz kesmiş;",
+          "Bu saati Cenevre’den aldım.",
+          "Biliyorsan biliyorsun zaten mevzuyu...",
+          "Televizyonundaki o asıl kadın benim işte;",
+          "Ve Ferrari’m çivit mavisi...",
+          "La la Lisa, tam bir diva;",
+          "Sawadika! İşte o gidiyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Hello Sawadika",
+          "Hello Sawadika",
+          "Hello Sawadika",
+          "Hello Sawadika there she go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Merhaba, Sawadika!",
+          "Merhaba, Sawadika!",
+          "Merhaba, Sawadika!",
+          "Merhaba, Sawadika! İşte o gidiyor..."
+        ]
+      }
+    ],
+    "excerpt": "Hello Sawadika",
+    "annotations": {
+      "Sawadika": "“Sawadika”: Tayca merhaba/selamlar demek. LISA’nın Tayland kökenlerine ve küresel selamlaşma tarzına bir atıf.",
+      "geng mak": "“Geng mak”: Tayca \"Harikasın/Çok iyisin\" demek. LISA ekibini övüyor.",
+      "Baht": "“Baht”: Tayland para birimi.",
+      "tuk-tuk": "“Tuk-tuk”: Tayland’a özgü, üç tekerlekli popüler ulaşım aracı. LISA burada mütevazı bir araçla bile \"cool\" olunabileceğini vurguluyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1VWiDyYTrqQhhmnWANWkFa",
+        "name": "SaWaDiKa",
+        "url": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+        "isrc": "USRC12601645",
+        "durationMs": 188531,
+        "duration": "3:09",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5L1lO4eRHmJ7a0Q6csE5cT",
+        "name": "LISA",
+        "url": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5L1lO4eRHmJ7a0Q6csE5cT",
+          "name": "LISA",
+          "url": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT"
+        }
+      ],
+      "album": {
+        "id": "5WG9kRKPpHgnZ5pKku509O",
+        "name": "SaWaDiKa",
+        "url": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+        "artists": [
+          {
+            "id": "5L1lO4eRHmJ7a0Q6csE5cT",
+            "name": "LISA",
+            "url": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT"
+          }
+        ],
+        "releaseDate": "2026-09-02",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 RCA Records, under exclusive license from Lloud Co.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "1VWiDyYTrqQhhmnWANWkFa",
+            "name": "SaWaDiKa",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 188531,
+            "duration": "3:09",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-04T08:41:12.314Z",
+      "trackUrl": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+      "albumUrl": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "SaWaDiKa",
+      "albumType": "Single",
+      "releaseDate": "2026-09-02",
+      "duration": "3:09",
+      "isrc": "USRC12601645",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=FyS5dAywkEo",
+    "source": "user-provided"
+  },
+  {
+    "id": "5282",
+    "title": "JISOO CLICK Türkçe Çeviri",
+    "song": "CLICK",
+    "slug": "jisoo-click-turkce-ceviri",
+    "date": "2026-09-04T08:41:12.072Z",
+    "artist": "JISOO",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "JISOO",
+      "CLICK"
+    ],
+    "category_slugs": [
+      "jisoo",
+      "click"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "This isn't gonna work, I know",
+          "You flirt with everyone, I know",
+          "I'm just gonna get hurt, I know",
+          "'Cause you're always in and out of love"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bu iş yürümeyecek, biliyorum",
+          "Herkesle flört ediyorsun, bunu da biliyorum",
+          "Sonunda sadece canım yanacak, biliyorum",
+          "Çünkü sen daldan dala konmaya bayılıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Counting the reasons that we shouldn't",
+          "Mess up this thing, be more than friends",
+          "But when you hold me like this",
+          "And kiss away our differences",
+          "There's no explanation for it",
+          "It's just the way our bodies click"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bunu bozmamamız için, arkadaştan öte",
+          "Olmamamız için nedenleri sayıp duruyorum...",
+          "Ama beni böyle tuttuğunda,",
+          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
+          "Bunun bir açıklaması olmuyor...",
+          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Your lips, my lips, click",
+          "We were made to fit",
+          "Your hands, my hips, click",
+          "We were made to fit"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Senin dudakların, benim dudaklarım; \"tık\"...",
+          "Sanki birbirimiz için yaratılmışız.",
+          "Senin ellerin, benim kalçalarım; \"tık\"...",
+          "Birbirimize tam oturduk biz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "You say you wanna stay over",
+          "And I swear it's not gonna go there",
+          "But I wake up on your left shoulder",
+          "Closer, right where I wanna be"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bu gece kalmak istediğini söylüyorsun",
+          "Ve ben \"mevzu oraya gitmeyecek\" diye yeminler ediyorum...",
+          "Ama sabah olduğunda, senin sol omzunda uyanıyorum;",
+          "Daha yakın, tam da olmak istediğim yerde."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Counting the reasons that we shouldn't",
+          "Mess up this thing, be more than friends",
+          "But when you hold me like this",
+          "And kiss away our differences",
+          "There's no explanation for it",
+          "It's just the way our bodies click"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bunu bozmamamız için, arkadaştan öte",
+          "Olmamamız için nedenleri sayıp duruyorum...",
+          "Ama beni böyle tuttuğunda,",
+          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
+          "Bunun bir açıklaması olmuyor...",
+          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Your lips, my lips, click",
+          "We were made to fit",
+          "Your hands, my hips, click",
+          "We were made to fit"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Senin dudakların, benim dudaklarım; \"tık\"...",
+          "Sanki birbirimiz için yaratılmışız.",
+          "Senin ellerin, benim kalçalarım; \"tık\"...",
+          "Birbirimize tam oturduk biz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "I can't lie here and lie",
+          "Looking into your eyes, your eyes (We were made to fit)",
+          "I can't lie here and lie",
+          "Or hide the way that I feel inside (We were made to fit)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Burada öylece yatıp sana yalan söyleyemem;",
+          "Gözlerinin içine bakarken... (Birbirimiz için yaratılmışız)",
+          "Burada yan yana yatıp kendimi kandıramam;",
+          "Ya da içimdeki şu hisleri gizleyemem artık. (Birbirimiz için yaratılmışız)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Your lips, my lips, click",
+          "We were made to fit",
+          "Your hands, my hips, click",
+          "We were made to fit"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Senin dudakların, benim dudaklarım; \"tık\"...",
+          "Sanki birbirimiz için yaratılmışız.",
+          "Senin ellerin, benim kalçalarım; \"tık\"...",
+          "Birbirimize tam oturduk biz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "But when you hold me like this",
+          "And kiss away our differences",
+          "There's no explanation for it",
+          "It's just the way our bodies click"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Ama beni böyle tuttuğunda,",
+          "Ve tüm farklılıklarımızı bir öpücükle sildiğinde;",
+          "Bunun bir açıklaması olmuyor...",
+          "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+        ]
+      }
+    ],
+    "excerpt": "This isn't gonna work, I know",
+    "annotations": {
+      "\"tık\"": "“Click”: Hem bir ses yansıması hem de bir durumun, bir parçanın veya iki insanın mükemmel bir uyum içinde birleşmesini anlatan modern bir tabir.",
+      "yatıp sana yalan söyleyemem": "“Lie here and lie”: \"Burada yatmak\" ve \"yalan söylemek\" arasındaki o meşhur kelime oyunu. JISOO burada hem fiziksel konumunu hem de duygusal dürüstlüğünü vurguluyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "1zyNO73bPNPC6KBi3raNmZ",
+        "name": "CLICK",
+        "url": "https://open.spotify.com/track/1zyNO73bPNPC6KBi3raNmZ",
+        "isrc": "USWB12503602",
+        "durationMs": 159095,
+        "duration": "2:39",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6UZ0ba50XreR4TM8u322gs",
+        "name": "JISOO",
+        "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5e5e201c9d80e54939e50b25",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6UZ0ba50XreR4TM8u322gs",
+          "name": "JISOO",
+          "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs"
+        }
+      ],
+      "album": {
+        "id": "6wj16ihEX2pPqKzbtCZ0N3",
+        "name": "CLICK",
+        "url": "https://open.spotify.com/album/6wj16ihEX2pPqKzbtCZ0N3",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
+        "artists": [
+          {
+            "id": "6UZ0ba50XreR4TM8u322gs",
+            "name": "JISOO",
+            "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs"
+          }
+        ],
+        "releaseDate": "2026-09-04",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "Warner Records, © 2026 Warner Records Inc., under exclusive license from Blissoo Limited",
+            "type": "C"
+          },
+          {
+            "text": "Warner Records, ℗ 2026 Warner Records Inc., under exclusive license from Blissoo Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "1zyNO73bPNPC6KBi3raNmZ",
+            "name": "CLICK",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 159095,
+            "duration": "2:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1zyNO73bPNPC6KBi3raNmZ",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-04T08:41:12.072Z",
+      "trackUrl": "https://open.spotify.com/track/1zyNO73bPNPC6KBi3raNmZ",
+      "albumUrl": "https://open.spotify.com/album/6wj16ihEX2pPqKzbtCZ0N3",
+      "artistUrl": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+      "albumName": "CLICK",
+      "albumType": "Single",
+      "releaseDate": "2026-09-04",
+      "duration": "2:39",
+      "isrc": "USWB12503602",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=sf02ugzPFE4",
+    "source": "user-provided"
+  },
+  {
+    "id": "5281",
+    "title": "MONSTA X MAGIC Türkçe Çeviri",
+    "song": "MAGIC",
+    "slug": "monsta-x-magic-turkce-ceviri",
+    "date": "2026-09-04T08:41:11.844Z",
+    "artist": "MONSTA X",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "MONSTA X",
+      "The Phase"
+    ],
+    "category_slugs": [
+      "monsta-x",
+      "the-phase"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Wonderful presentation"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Harika bir sunum..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Get out of pocket",
+          "I know, no one can stop this",
+          "Tongje bulleungui kkeullim",
+          "Seororeul garikin moment",
+          "If you want me, you got me",
+          "Nado neol arabwasseo",
+          "Imi kkwettullin target",
+          "Bureul danggin michin heartbeat (Incoming)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Zıvanadan çıktık;",
+          "Biliyorum, kimse durduramaz bunu artık.",
+          "Kontrol edilemez bir çekim bu;",
+          "İkimizin birbirini işaret ettiği o an...",
+          "Eğer beni istiyorsan, beni çoktan kaptın demektir;",
+          "Ben de senin ne mal olduğunu (cazibeni) anladım.",
+          "Hedef çoktan on ikiden vuruldu;",
+          "Tetiklenen o deli kalp atışları... (Mevzu başlıyor!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Neukkyeobwa, babe",
+          "Keojyeoganeun thrill",
+          "Beonjyeoganeun heat",
+          "Tell me how you feel",
+          "Can't control it",
+          "Sum makhineun scene",
+          "Jibyohan warning sign",
+          "Tongjereul beoseona modeun ge",
+          "(Tongjereul beoseona break away)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Hisset bunu bebeğim;",
+          "Gittikçe büyüyen o heyecan...",
+          "Her yere yayılan o hararet...",
+          "Anlat bana neler hissettiğini.",
+          "Dizginleyemiyorum bunu;",
+          "Nefes kesen bir sahne bu resmen.",
+          "Israrcı uyarı işaretleri...",
+          "Her şey kontrolümden çıkıyor;",
+          "(Kontrolü kaybedip özgürleşiyorum...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh",
+          "It's the right place, right time",
+          "It's so bad, wiheomhan",
+          "Heureum soge nan hwipsseullyeo",
+          "But now",
+          "Nae ane kyeojin sign",
+          "Modeun geosi come alive",
+          "They call it tragic, we call it magic"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh!",
+          "Doğru yer, doğru zaman...",
+          "Öyle fena ki, tehlikeli;",
+          "Bu akışın içinde sürükleniyorum...",
+          "Ama şimdi;",
+          "İçimde yanan o işaret ışığıyla,",
+          "Her şey canlanıyor!",
+          "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Oh) We call it magic"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Oh) Biz buna sihir diyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Wingardium Leviosa bwa",
+          "Juche motan nae momeun hankkeot bung",
+          "Tteun gibun eotteoke chama nan hwak ga",
+          "Sesang-ui modeun nundeuri neol zoom",
+          "Ttaenggigo ttaenggigo ttaenggyeo deo ttaenggyeo",
+          "Jeon segyee maeryeogeul heulligo daenggyeo",
+          "Ne rideumeul taneun nan jigeum bwa, banger",
+          "Mabeobe geollin deut, huh",
+          "Neol eotteoke jeomsuro maegyeo, ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2 - Rap Section",
+        "lines": [
+          "Wingardium Leviosa! Bak şuna;",
+          "Zapt edemediğim bedenim havalara uçuyor resmen.",
+          "Bu yüksek modu nasıl zapt ederim? Kendimden geçiyorum!",
+          "Dünyadaki tüm gözler sana odaklanmış...",
+          "Çekiyor, çekiyor, beni kendine daha çok çekiyor;",
+          "Tüm dünyaya cazibeni saçarak geziyorsun.",
+          "Senin ritmine ayak uyduruyorum, bak işte; tam bir \"banger\"!",
+          "Büyülenmiş gibiyim, huh;",
+          "Sana nasıl puan biçebilirim ki? (Puanın yetmez...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Neukkyeobwa, babe",
+          "Keojyeoganeun thrill",
+          "Beonjyeoganeun heat",
+          "Tell me how you feel",
+          "Can't control it",
+          "Sum makhineun scene",
+          "Jibyohan warning sign",
+          "Tongjereul beoseona modeun ge",
+          "(Tongjereul beoseona break away)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Hisset bunu bebeğim;",
+          "Gittikçe büyüyen o heyecan...",
+          "Her yere yayılan o hararet...",
+          "Anlat bana neler hissettiğini.",
+          "Dizginleyemiyorum bunu;",
+          "Nefes kesen bir sahne bu resmen.",
+          "Israrcı uyarı işaretleri...",
+          "Her şey kontrolümden çıkıyor;",
+          "(Kontrolü kaybedip özgürleşiyorum...)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh",
+          "It's the right place, right time",
+          "It's so bad, wiheomhan",
+          "Heureum soge nan hwipsseullyeo",
+          "But now",
+          "Nae ane kyeojin sign",
+          "Modeun geosi come alive",
+          "They call it tragic, we call it, we call it, we call it, we call it, we call it—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh!",
+          "Doğru yer, doğru zaman...",
+          "Öyle fena ki, tehlikeli;",
+          "Bu akışın içinde sürükleniyorum...",
+          "Ama şimdi;",
+          "İçimde yanan o işaret ışığıyla,",
+          "Her şey canlanıyor!",
+          "Onlar buna \"trajedi\" diyor; bizse buna, biz buna, biz buna, biz buna, biz buna diyoruz ki..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "It feels divine",
+          "Heundeullineun state, jungsimeul ireogaji",
+          "Challaye seuchin tto dareun nal wonhae neon",
+          "Beonjyeoon jikgameun seonmyeonghae"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "İlahi hissettiriyor...",
+          "Sarsılan bu ruh halim, dengemi yitiriyorum.",
+          "O bir anlık parıltıda karşına çıkan \"diğer beni\" istiyorsun sen;",
+          "Sezgilerim gittikçe daha da netleşiyor..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Oh",
+          "It's the right place, right time",
+          "It's so bad, wiheomhan",
+          "Heureum soge nan hwipsseullyeo",
+          "But now",
+          "Nae ane kyeojin sign",
+          "Modeun geosi come alive",
+          "They call it tragic, we call it—",
+          "Oh (Ooh)",
+          "It's the right place, right time",
+          "Gyeolmal ttawin geokjeong ma (Yeah)",
+          "Sungane dive in ppajyeoga",
+          "Right now",
+          "Dullo kkwak chaeun night (No, no)",
+          "Eodum sok yuilhan light",
+          "They call it tragic, we call it magic (Yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Oh!",
+          "Doğru yer, doğru zaman...",
+          "Öyle fena ki, tehlikeli;",
+          "Bu akışın içinde sürükleniyorum...",
+          "Ama şimdi;",
+          "İçimde yanan o işaret ışığıyla,",
+          "Her şey canlanıyor!",
+          "Onlar buna \"trajedi\" diyor; bizse buna...",
+          "Oh!",
+          "Doğru yer, doğru zaman;",
+          "Sonu ne olacak diye dert etme hiç! (Evet)",
+          "Şu anın içine dal, bırak kendini...",
+          "Şu an;",
+          "Sadece ikimizle dolup taşan bu gece... (Hayır, asla!)",
+          "Karanlığın içindeki o tek ışık sensin.",
+          "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz! (Evet!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "We call it magic"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Biz buna sihir diyoruz!"
+        ]
+      }
+    ],
+    "excerpt": "Wonderful presentation",
+    "annotations": {
+      "Wingardium Leviosa": "“Wingardium Leviosa”: Harry Potter evreninden gelen uçurma büyüsü. Rapçi burada aşkın ve tutkunun onu nasıl yerden kestiğini anlatıyor.",
+      "banger": "“Banger”: Çok kaliteli, sarsıcı ve hit olan şarkı/olay anlamındaki rap argosu."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6o6wFh2PTFJbcM8mxTa30C",
+        "name": "MAGIC",
+        "url": "https://open.spotify.com/track/6o6wFh2PTFJbcM8mxTa30C",
+        "isrc": "QMDA62677433",
+        "durationMs": 157000,
+        "duration": "2:37",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4TnGh5PKbSjpYqpIdlW5nz",
+        "name": "MONSTA X",
+        "url": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8950dd242f5fa3cf2bf75708",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4TnGh5PKbSjpYqpIdlW5nz",
+          "name": "MONSTA X",
+          "url": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz"
+        }
+      ],
+      "album": {
+        "id": "1ylTJqv2qOK1RjNHNRLkcO",
+        "name": "The Phase",
+        "url": "https://open.spotify.com/album/1ylTJqv2qOK1RjNHNRLkcO",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
+        "artists": [
+          {
+            "id": "4TnGh5PKbSjpYqpIdlW5nz",
+            "name": "MONSTA X",
+            "url": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz"
+          }
+        ],
+        "releaseDate": "2026-09-04",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(C) 2026 Starship Entertainment co.,ltd",
+            "type": "C"
+          },
+          {
+            "text": "(P) 2026 Starship Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 6,
+        "tracks": [
+          {
+            "id": "6o6wFh2PTFJbcM8mxTa30C",
+            "name": "MAGIC",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 157000,
+            "duration": "2:37",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6o6wFh2PTFJbcM8mxTa30C",
+            "isCurrent": true
+          },
+          {
+            "id": "3PeXevMOvlbzqqr79qsH0L",
+            "name": "Type X",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 180000,
+            "duration": "3:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3PeXevMOvlbzqqr79qsH0L",
+            "isCurrent": false
+          },
+          {
+            "id": "75FJubRzHbjCEQMlX4wOi4",
+            "name": "SURVIVOR",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 149000,
+            "duration": "2:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/75FJubRzHbjCEQMlX4wOi4",
+            "isCurrent": false
+          },
+          {
+            "id": "6KzZkajhOa8SjVLM2mBo0W",
+            "name": "Electric Heart",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 172000,
+            "duration": "2:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6KzZkajhOa8SjVLM2mBo0W",
+            "isCurrent": false
+          },
+          {
+            "id": "2tUtIACSjNhwUCnRBbh0xY",
+            "name": "That’s My Girl",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 180000,
+            "duration": "3:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2tUtIACSjNhwUCnRBbh0xY",
+            "isCurrent": false
+          },
+          {
+            "id": "0wkx7lDE8GRHPU8OVhYjLo",
+            "name": "Sweet Night, Sweet Morning",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 174000,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0wkx7lDE8GRHPU8OVhYjLo",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-04T08:41:11.843Z",
+      "trackUrl": "https://open.spotify.com/track/6o6wFh2PTFJbcM8mxTa30C",
+      "albumUrl": "https://open.spotify.com/album/1ylTJqv2qOK1RjNHNRLkcO",
+      "artistUrl": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz",
+      "albumName": "The Phase",
+      "albumType": "EP",
+      "releaseDate": "2026-09-04",
+      "duration": "2:37",
+      "isrc": "QMDA62677433",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=QqqrJle7dRA",
+    "source": "user-provided"
+  },
+  {
+    "id": "5280",
+    "title": "Miley Cyrus Bass Persuades Türkçe Çeviri",
+    "song": "Bass Persuades",
+    "slug": "miley-cyrus-bass-persuades-turkce-ceviri",
+    "date": "2026-09-04T08:41:11.555Z",
+    "artist": "Miley Cyrus",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Miley Cyrus",
+      "Bass Persuades"
+    ],
+    "category_slugs": [
+      "miley-cyrus",
+      "bass-persuades"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Let's go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Hadi gidelim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Step into the scene, you won't catch an eye",
+          "Walk into the party like the party is mine",
+          "Paving over pastures 'cause horses are gone",
+          "Forgetting there's a world when this record is on",
+          "Ghosts run to Bermuda 'cause there's no one to haunt",
+          "Candy's cut with fentanyl that nobody wants",
+          "Spin it for a minute, make it all disappear",
+          "If we ain't moving, baby, baby, why are we here?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Sahneye adımını atarsın ama tek bir bakış bile yakalayamazsın;",
+          "Bense partiye, sanki mekanın sahibiymişim gibi girerim!",
+          "Meraları (doğayı) betonla kaplıyorlar çünkü atlar çoktan gitti artık;",
+          "Şu plak dönerken, dışarıda bir dünya olduğunu unutuyoruz resmen...",
+          "Hayaletler bile Bermuda'ya kaçtı, çünkü artık musallat olacak kimse kalmadı;",
+          "Şekerlere kimsenin istemediği o zehirler (fentanil) bulaştı.",
+          "Şöyle bir döndür dünyayı, her şeyi yok et bir anlığına;",
+          "Eğer hareket etmeyeceksek bebeğim, neden buradayız ki?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "And I don't wanna change your mind",
+          "The bass persuades",
+          "No, I don't wanna change your mind (Let's go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Fikrini değiştirmek gibi bir niyetim yok;",
+          "Zaten o bas seni ikna ediyor.",
+          "Hayır, düşüncelerini değiştirmek istemiyorum; (Hadi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "The kids don't wanna dance, the kids don't wanna dance (Mhm)",
+          "The kids don't wanna dance, the kids don't wanna dance",
+          "We can't stay like this forever",
+          "Let's surrender to the night, put our bodies close together, uh-huh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Mhm)",
+          "Bu çocuklar dans etmek istemiyor hiç!",
+          "Sonsuza kadar böyle (donuk) kalamayız;",
+          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Glued your eyes to the telephone screen",
+          "But you missed the hit without MTV",
+          "Go analog (Yeah) like a cinema (Yeah)",
+          "Just look out the window and what do you see?",
+          "In the treetops, it's a clear shot",
+          "Yeah, chaos is king, but you know that you can't stop, won't stop",
+          "New fit is a monster",
+          "Love it so much, go hang it on a poster"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Gözlerini o telefon ekranına yapıştırdın;",
+          "Ama asıl \"hit\"i (gerçeği) kaçırdın, çünkü MTV devri bitti artık.",
+          "Hadi biraz nostaljik takıl, tıpkı bir sinema filmi gibi...",
+          "Sadece pencereden dışarı bak, ne görüyorsun?",
+          "Ağaçların tepesinde, tertemiz bir manzara var;",
+          "Evet, şu an \"kaos\" hükümdar ama duramayacağını çok iyi biliyorsun!",
+          "Yeni kombinin tam bir felaket;",
+          "O kadar çok sevdin ki, git de posterini as bari duvara!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "And I don't wanna change your mind",
+          "The bass persuades",
+          "No, I don't wanna change your mind (Let's go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Fikrini değiştirmek gibi bir niyetim yok;",
+          "Zaten o bas seni ikna ediyor.",
+          "Hayır, düşüncelerini değiştirmek istemiyorum; (Hadi!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "The kids don't wanna dance, the kids don't wanna dance (Mhm)",
+          "The kids don't wanna dance, the kids don't wanna dance",
+          "We can't stay like this forever",
+          "Let's surrender to the night, put our bodies close together, uh-huh",
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance? Mhm)",
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance?)",
+          "We can't stay like this forever",
+          "Let's surrender to the night, put our bodies close together, uh-huh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Mhm)",
+          "Bu çocuklar dans etmek istemiyor hiç!",
+          "Sonsuza kadar böyle (donuk) kalamayız;",
+          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim...",
+          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Mhm)",
+          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
+          "Sonsuza kadar böyle (donuk) kalamayız;",
+          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Interlude",
+        "lines": [
+          "You feel something in the music",
+          "You don't know what it is",
+          "But I can see it in your eyes",
+          "You want to lose yourself to this, let's go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Interlude",
+        "lines": [
+          "Müziğin içinde bir şeyler hissediyorsun;",
+          "Bunun ne olduğunu tam olarak bilmiyorsun belki;",
+          "Ama ben o gözlerinde görebiliyorum;",
+          "Sen de bu ritmin içinde kendini kaybetmek istiyorsun!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Don't you want to dance? (Uh-huh, mhm)",
+          "Don't you want to dance? (Uh-huh, mhm)",
+          "Don't you want to dance? (Mhm-hm)",
+          "Stay forever, surrender, put our bodies close together, uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Dans etmek istemiyor musun?",
+          "Sahi, dans etmek istemez misin?",
+          "Dans etmek istemiyor musun?",
+          "Sonsuza dek burada kalalım, teslim olalım; bedenlerimiz tek vücut olsun..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance? Uh-huh, mhm)",
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance?)",
+          "We can't stay like this forever (Mhm)",
+          "Let's surrender to the night, put our bodies close together, uh-huh",
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance? Mhm)",
+          "The kids don't wanna dance, the kids don't wanna dance (Don't you want to dance?)",
+          "We can't stay like this forever (Mhm)",
+          "Wait forever, surrender, put our bodies close together, uh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Uh-huh, mhm)",
+          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
+          "Sonsuza kadar böyle (donuk) kalamayız; (Mhm)",
+          "Hadi, teslim olalım şu geceye; bedenlerimizi birbirine mühürleyelim...",
+          "Çocuklar dans etmek istemiyor, dans etmek istemiyorlar... (Dans etmek istemiyor musun? Mhm)",
+          "Bu çocuklar dans etmek istemiyor hiç! (Dans etmek istemiyor musun?)",
+          "Böyle sonsuza dek bekleyemeyiz; (Mhm)",
+          "Hadi teslim ol geceye; bedenlerimiz tek vücut olsun artık."
+        ]
+      }
+    ],
+    "excerpt": "Let's go",
+    "annotations": {
+      "tek bir bakış bile yakalayamazsın": "“Won’t catch an eye”: İnsanların ekranlara kilitlendiği ve birbirinin yüzüne bakmadığı o modern duyarsızlığa atıf.",
+      "fentanil": "“Fentanyl”: Amerika’daki uyuşturucu krizine yapılan karanlık bir gönderme. Hayatın tatlı yanlarının (şeker) bile artık tehlikeli ve sahte olduğunu simgeliyor.",
+      "Yeni kombinin tam bir felaket": "“New fit is a monster”: Hem \"kombinin çok havalı/yıkılıyor\" anlamında bir övgü hem de dış görünüş takıntısına yapılan iğneleyici bir yorum."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2FZcjBYK4dTt48q94pJbJD",
+        "name": "Bass Persuades",
+        "url": "https://open.spotify.com/track/2FZcjBYK4dTt48q94pJbJD",
+        "isrc": "USAT22604406",
+        "durationMs": 202460,
+        "duration": "3:22",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus",
+        "url": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5YGY8feqx7naU7z4HrwZM6",
+          "name": "Miley Cyrus",
+          "url": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6"
+        }
+      ],
+      "album": {
+        "id": "2ISe213QZCTwp18P7jvgC3",
+        "name": "Bass Persuades",
+        "url": "https://open.spotify.com/album/2ISe213QZCTwp18P7jvgC3",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
+        "artists": [
+          {
+            "id": "5YGY8feqx7naU7z4HrwZM6",
+            "name": "Miley Cyrus",
+            "url": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6"
+          }
+        ],
+        "releaseDate": "2026-09-03",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 MCEO, Inc., under exclusive license to Atlantic Recording Corporation",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 MCEO, Inc., under exclusive license to Atlantic Recording Corporation",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "2FZcjBYK4dTt48q94pJbJD",
+            "name": "Bass Persuades",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 202460,
+            "duration": "3:22",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2FZcjBYK4dTt48q94pJbJD",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-04T08:41:11.547Z",
+      "trackUrl": "https://open.spotify.com/track/2FZcjBYK4dTt48q94pJbJD",
+      "albumUrl": "https://open.spotify.com/album/2ISe213QZCTwp18P7jvgC3",
+      "artistUrl": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6",
+      "albumName": "Bass Persuades",
+      "albumType": "Single",
+      "releaseDate": "2026-09-03",
+      "duration": "3:22",
+      "isrc": "USAT22604406",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=aWpw-Ynl0Yc",
+    "source": "user-provided"
+  },
+  {
     "id": "5279",
     "title": "Mazzy Star Fade Into You Türkçe Çeviri",
     "song": "Fade Into You",

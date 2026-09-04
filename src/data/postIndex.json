@@ -1,5 +1,214 @@
 [
   {
+    "id": "5283",
+    "slug": "lisa-sawadika-turkce-ceviri",
+    "title": "LISA SaWaDiKa Türkçe Çeviri",
+    "song": "SaWaDiKa",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+    "date": "2026-09-04T08:41:12.314Z",
+    "reading_time": 5,
+    "excerpt": "Hello Sawadika",
+    "categories": [
+      "LISA",
+      "SaWaDiKa"
+    ],
+    "category_slugs": [
+      "lisa",
+      "sawadika"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+      "albumUrl": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "SaWaDiKa",
+      "releaseDate": "2026-09-02",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+      "duration": "3:09",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Hello Sawadika",
+      "tr": "Merhaba, Sawadika!"
+    },
+    "heroPair": {
+      "en": "Hello Sawadika",
+      "tr": "Merhaba, Sawadika!"
+    }
+  },
+  {
+    "id": "5282",
+    "slug": "jisoo-click-turkce-ceviri",
+    "title": "JISOO CLICK Türkçe Çeviri",
+    "song": "CLICK",
+    "artist": "JISOO",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
+    "date": "2026-09-04T08:41:12.072Z",
+    "reading_time": 2,
+    "excerpt": "This isn't gonna work, I know",
+    "categories": [
+      "JISOO",
+      "CLICK"
+    ],
+    "category_slugs": [
+      "jisoo",
+      "click"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/1zyNO73bPNPC6KBi3raNmZ",
+      "albumUrl": "https://open.spotify.com/album/6wj16ihEX2pPqKzbtCZ0N3",
+      "artistUrl": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+      "albumName": "CLICK",
+      "releaseDate": "2026-09-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737ba5e14a80aa07268e907c86",
+      "duration": "2:39",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "JISOO",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb5e5e201c9d80e54939e50b25",
+      "artistGenres": [],
+      "albumArtist": "JISOO"
+    },
+    "moods": [
+      "Sad",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "This isn't gonna work, I know",
+      "tr": "Bu iş yürümeyecek, biliyorum"
+    },
+    "heroPair": {
+      "en": "It's just the way our bodies click",
+      "tr": "Sadece vücutlarımızın o \"tık\" diye birbirine uyum sağlama şekli bu."
+    }
+  },
+  {
+    "id": "5281",
+    "slug": "monsta-x-magic-turkce-ceviri",
+    "title": "MONSTA X MAGIC Türkçe Çeviri",
+    "song": "MAGIC",
+    "artist": "MONSTA X",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
+    "date": "2026-09-04T08:41:11.844Z",
+    "reading_time": 3,
+    "excerpt": "Wonderful presentation",
+    "categories": [
+      "MONSTA X",
+      "The Phase"
+    ],
+    "category_slugs": [
+      "monsta-x",
+      "the-phase"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6o6wFh2PTFJbcM8mxTa30C",
+      "albumUrl": "https://open.spotify.com/album/1ylTJqv2qOK1RjNHNRLkcO",
+      "artistUrl": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz",
+      "albumName": "The Phase",
+      "releaseDate": "2026-09-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273676487edd6e865878f69b519",
+      "duration": "2:37",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 6,
+      "artistName": "MONSTA X",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb8950dd242f5fa3cf2bf75708",
+      "artistGenres": [],
+      "albumArtist": "MONSTA X"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Wonderful presentation",
+      "tr": "Harika bir sunum..."
+    },
+    "heroPair": {
+      "en": "They call it tragic, we call it magic",
+      "tr": "Onlar buna \"trajedi\" diyor; bizse buna \"sihir\" diyoruz!"
+    }
+  },
+  {
+    "id": "5280",
+    "slug": "miley-cyrus-bass-persuades-turkce-ceviri",
+    "title": "Miley Cyrus Bass Persuades Türkçe Çeviri",
+    "song": "Bass Persuades",
+    "artist": "Miley Cyrus",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
+    "date": "2026-09-04T08:41:11.555Z",
+    "reading_time": 4,
+    "excerpt": "Let's go",
+    "categories": [
+      "Miley Cyrus",
+      "Bass Persuades"
+    ],
+    "category_slugs": [
+      "miley-cyrus",
+      "bass-persuades"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2FZcjBYK4dTt48q94pJbJD",
+      "albumUrl": "https://open.spotify.com/album/2ISe213QZCTwp18P7jvgC3",
+      "artistUrl": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6",
+      "albumName": "Bass Persuades",
+      "releaseDate": "2026-09-03",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
+      "duration": "3:22",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Miley Cyrus",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e",
+      "artistGenres": [],
+      "albumArtist": "Miley Cyrus"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Let's go",
+      "tr": "Hadi gidelim!"
+    },
+    "heroPair": {
+      "en": "The bass persuades",
+      "tr": "Zaten o bas seni ikna ediyor."
+    }
+  },
+  {
     "id": "5279",
     "slug": "mazzy-star-fade-into-you-turkce-ceviri",
     "title": "Mazzy Star Fade Into You Türkçe Çeviri",

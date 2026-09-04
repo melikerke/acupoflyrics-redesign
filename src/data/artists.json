@@ -20,7 +20,7 @@
   {
     "slug": "lisa",
     "name": "LISA",
-    "count": 17,
+    "count": 18,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5cd3b3af8b72e32be78571ec"
   },
   {
@@ -152,7 +152,7 @@
   {
     "slug": "jisoo",
     "name": "JISOO",
-    "count": 5,
+    "count": 6,
     "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab"
   },
   {
@@ -1094,7 +1094,7 @@
   {
     "slug": "monsta-x",
     "name": "Monsta X",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7b2d6acfa19934dad2fb2140"
   },
   {
@@ -2194,5 +2194,11 @@
     "name": "Mazzy Star",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3"
+  },
+  {
+    "slug": "miley-cyrus",
+    "name": "Miley Cyrus",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e"
   }
 ]
