@@ -1,0 +1,69 @@
+
+> acupoflyrics-redesign@0.1.0 build
+> node scripts/generatePostIndex.js && node scripts/generateHomeIndex.js && node scripts/generateLegacyCategoryRedirects.js && vite build && node scripts/prerenderSeo.js
+
+Generated src/data/postIndex.json for 579 posts.
+Generated 579 per-song files + search-lines.json.
+Generated home index: 110243 bytes / 17215 bytes gzip; 579 lazy history cards.
+Generated 63 hierarchical WordPress category redirects.
+Generated 547 WordPress category redirects.
+Generated 113 legacy album redirects.
+Generated 1719 nested WordPress post redirects.
+vite v6.4.3 building for production...
+transforming...
+✓ 444 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                   7.79 kB │ gzip:   2.04 kB
+dist/.vite/manifest.json                         13.07 kB │ gzip:   1.57 kB
+dist/assets/PopGundemiPage-DcI62bYH.css          11.75 kB │ gzip:   2.64 kB
+dist/assets/PopGundemiArticlePage-CJveSw4a.css   17.14 kB │ gzip:   3.44 kB
+dist/assets/AdminPage-Pcr7C99w.css               20.23 kB │ gzip:   4.15 kB
+dist/assets/SiteShell-Bh6INS9_.css               64.16 kB │ gzip:  11.26 kB
+dist/assets/index-6rHyHPcB.css                   95.73 kB │ gzip:  18.46 kB
+dist/assets/collectionDescriptions-DYtZBjn3.js    0.04 kB │ gzip:   0.06 kB
+dist/assets/images-CVMycfXJ.js                    0.43 kB │ gzip:   0.26 kB
+dist/assets/NotFound-DvF-jQXp.js                  0.51 kB │ gzip:   0.35 kB
+dist/assets/theme-BH9yx8dl.js                     1.27 kB │ gzip:   0.49 kB
+dist/assets/catalogRelease-LnEnVOMN.js            1.48 kB │ gzip:   0.83 kB
+dist/assets/ArtistsPage-CbJ5j9Z-.js               1.53 kB │ gzip:   0.84 kB
+dist/assets/PageHero-DkhweHIm.js                  1.62 kB │ gzip:   0.68 kB
+dist/assets/ContactPage-BDpHJtbf.js               1.67 kB │ gzip:   0.84 kB
+dist/assets/history-5bBGtnlz.js                   1.92 kB │ gzip:   1.00 kB
+dist/assets/AboutPage-B6rZ0VKf.js                 2.07 kB │ gzip:   1.09 kB
+dist/assets/paths-zowJmOBi.js                     2.20 kB │ gzip:   1.05 kB
+dist/assets/MoodPage-jWzWMWFP.js                  2.21 kB │ gzip:   1.15 kB
+dist/assets/AlbumsPage-C0ySTP8Z.js                2.21 kB │ gzip:   1.14 kB
+dist/assets/SongsPage-BZ_q9PoL.js                 2.29 kB │ gzip:   1.19 kB
+dist/assets/CollectionPage-DvdJDsNE.js            2.45 kB │ gzip:   1.20 kB
+dist/assets/PrivacyPage-DSogV19x.js               2.54 kB │ gzip:   1.30 kB
+dist/assets/GenrePage-DkdHJ3WV.js                 2.65 kB │ gzip:   1.27 kB
+dist/assets/DiscoverPage-MbTmLuTK.js              3.32 kB │ gzip:   1.49 kB
+dist/assets/cards-ComMaal6.js                     3.71 kB │ gzip:   1.12 kB
+dist/assets/MusicListsPage-BydeOLRa.js            4.09 kB │ gzip:   1.84 kB
+dist/assets/seo-Cip2prg-.js                       4.42 kB │ gzip:   1.85 kB
+dist/assets/ArtistPage-D49EW7S_.js                4.45 kB │ gzip:   2.17 kB
+dist/assets/AlbumPage-C6H0zzNW.js                 4.82 kB │ gzip:   1.86 kB
+dist/assets/SearchPage-u144SOIe.js                6.38 kB │ gzip:   2.55 kB
+dist/assets/PopGundemiPage-Cy3EEUQC.js            7.85 kB │ gzip:   2.39 kB
+dist/assets/web-vitals-ByGxmBzI.js                9.60 kB │ gzip:   3.58 kB
+dist/assets/SiteShell-BH_X4Ag1.js                 9.89 kB │ gzip:   3.64 kB
+dist/assets/SearchOverlay-DJA4aTrt.js            12.75 kB │ gzip:   4.83 kB
+dist/assets/musicLists-DO4RFFrn.js               14.18 kB │ gzip:   4.06 kB
+dist/assets/AdminPage-DwWzW70m.js                28.37 kB │ gzip:   8.61 kB
+dist/assets/popGundemiIndex-jS6WD9EI.js          29.49 kB │ gzip:   9.85 kB
+dist/assets/LyricDetail-BetTrFba.js              41.02 kB │ gzip:  14.12 kB
+dist/assets/proxy-SiGjJw4N.js                   111.57 kB │ gzip:  36.68 kB
+dist/assets/HomePreview-BYk6MERn.js             125.19 kB │ gzip:  22.28 kB
+dist/assets/index-D9zbwN3w.js                   177.63 kB │ gzip:  58.23 kB
+dist/assets/PopGundemiArticlePage-8ihrtn8c.js   260.04 kB │ gzip:  69.44 kB
+dist/assets/content-CfAqmuiY.js                 751.94 kB │ gzip: 161.99 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.42s
+Generated static SEO HTML for 1309 routes.
+Generated sitemap.xml with 1023 indexable routes.
+Generated robots.txt, feed.xml and _redirects with 3157 redirect rules.

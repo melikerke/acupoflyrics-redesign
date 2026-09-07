@@ -1,0 +1,18 @@
+{
+  "scope": "Single final-CSS verification. Separate from 3-run mobile performance medians.",
+  "url": "http://127.0.0.1:4173/lisa-sawadika-turkce-ceviri/",
+  "scores": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "runWarnings": [],
+  "buildFingerprintFile": "final-css-build-fingerprint.json",
+  "failedScoredAudits": [],
+  "nonScoringDiagnostics": [
+    {
+      "id": "valid-source-maps",
+      "title": "Missing source maps for large first-party JavaScript"
+    }
+  ]
+}

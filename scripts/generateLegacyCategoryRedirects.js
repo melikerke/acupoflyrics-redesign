@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { compactSpotify } from "./lib/contentIndexes.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
@@ -33,18 +34,12 @@ function slugify(value = "") {
 }
 
 function albumNameFor(post) {
-  return String(post.spotify?.album?.name || post.spotify?.albumName || post.categories?.[1] || "Tekli").trim();
+  return String(compactSpotify(post.spotify).albumName || post.categories?.[1] || "Tekli").replace(/\s+/g, " ").trim();
 }
 
 function albumArtistFor(post) {
-  return String(
-    post.spotify?.albumArtist
-      || post.spotify?.album?.artist
-      || post.spotify?.artistName
-      || post.spotify?.artist?.name
-      || post.artist
-      || "",
-  ).trim();
+  const spotify = compactSpotify(post.spotify);
+  return String(spotify.albumArtist || spotify.artistName || post.artist || "").replace(/\s+/g, " ").trim();
 }
 
 const performerNames = new Set(

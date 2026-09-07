@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect, useState, Component } from "react";
 import { Navigate, Routes, Route, useLocation } from "react-router-dom";
 import ConsentBanner from "./components/ConsentBanner";
-import { installOutboundClickTracking, trackPageView } from "./lib/analytics";
+import { installOutboundClickTracking, installWebVitals, trackPageView } from "./lib/analytics";
 
 const SearchOverlay = lazy(() => import("./components/SearchOverlay"));
 const Home = lazy(() => import("./pages/HomePreview"));
@@ -81,6 +81,7 @@ export default function App() {
   }, [location.pathname]);
 
   useEffect(() => installOutboundClickTracking(), []);
+  useEffect(() => { installWebVitals(); }, []);
 
   // Global ⌘K / Ctrl-K.
   useEffect(() => {

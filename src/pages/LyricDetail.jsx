@@ -16,7 +16,7 @@ import {
   postPath,
   relatedTo,
 } from "../lib/content";
-import { albumPath, artistPath } from "../lib/paths";
+import { albumPath, artistPath, canonical } from "../lib/paths";
 import { addHistory } from "../lib/history";
 import { trackEvent } from "../lib/analytics";
 import { translationMetaDescription, translationMetaTitle } from "../lib/meta";
@@ -1440,7 +1440,7 @@ export default function LyricDetail() {
   const notes = useMemo(() => (post ? { ...annotationsFor(post.slug), ...(post.annotations || {}) } : {}), [post]);
 
   useEffect(() => {
-    if (post) addHistory(post.slug);
+    if (post) addHistory(post.slug, post);
   }, [post?.slug]);
 
   useEffect(() => {
@@ -1456,6 +1456,7 @@ export default function LyricDetail() {
     path: canonicalPath,
     image: post?.cover,
     type: "music.song",
+    locale: languages.translation === "en" ? "en" : "tr",
     noindex: !post,
     breadcrumbs: post
       ? [
@@ -1472,7 +1473,7 @@ export default function LyricDetail() {
           byArtist: { "@type": "MusicGroup", name: post.artist },
           ...(metaAlbum && metaAlbum !== "Tekli" ? { inAlbum: { "@type": "MusicAlbum", name: metaAlbum } } : {}),
           image: post.cover,
-          url: `${window.location.origin}${canonicalPath}`,
+          url: canonical(canonicalPath),
           ...(post.spotify?.track?.isrc || post.spotify?.isrc ? { isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc } : {}),
           sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
         }

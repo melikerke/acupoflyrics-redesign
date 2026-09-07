@@ -1,5 +1,57 @@
 [
   {
+    "id": "5284",
+    "slug": "adela-nicole-kidman-turkce-ceviri",
+    "title": "ADÉLA Nicole Kidman Türkçe Çeviri",
+    "song": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65",
+    "date": "2026-09-04T12:46:47.565Z",
+    "reading_time": 3,
+    "excerpt": "Ooh, ooh, woah",
+    "categories": [
+      "ADÉLA",
+      "PRIMA"
+    ],
+    "category_slugs": [
+      "ade-la",
+      "prima"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/70cHKK8bHAfJrOGVnfRG9J",
+      "albumUrl": "https://open.spotify.com/album/2yDFVH9CeOHt0sc9eI0aBs",
+      "artistUrl": "https://open.spotify.com/artist/2qanRMyA5bNuTvz1dK45OP",
+      "albumName": "PRIMA",
+      "releaseDate": "2026-09-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65",
+      "duration": "3:01",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 11,
+      "artistName": "ADÉLA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb2005cc18964c60e22c4759b5",
+      "artistGenres": [],
+      "albumArtist": "ADÉLA"
+    },
+    "moods": [
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Ooh, ooh, woah",
+      "tr": "Ooh, ooh, woah"
+    },
+    "heroPair": {
+      "en": "Ooh, ooh, woah",
+      "tr": "Ooh, ooh, woah"
+    }
+  },
+  {
     "id": "5283",
     "slug": "lisa-sawadika-turkce-ceviri",
     "title": "LISA SaWaDiKa Türkçe Çeviri",

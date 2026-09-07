@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { totalPosts } from "../../lib/content";
+import siteStats from "../../data/siteStats.json";
+const { totalPosts } = siteStats;
 import { artistsPath, discoverPath, popJournalPath, searchPath, songsPath } from "../../lib/paths";
 import { Icon } from "./ui";
 import "../../preview.css";

@@ -2,6 +2,7 @@ export const GA_MEASUREMENT_ID = "G-FNLLT3T2NN";
 export const ANALYTICS_CONSENT_KEY = "acl_analytics_consent_v1";
 
 export function readAnalyticsConsent() {
+  if (window.__aclAnalyticsConsent === "granted" || window.__aclAnalyticsConsent === "denied") return window.__aclAnalyticsConsent;
   try {
     const value = window.localStorage.getItem(ANALYTICS_CONSENT_KEY);
     return value === "granted" || value === "denied" ? value : null;
@@ -17,7 +18,7 @@ function gtag(...args) {
 }
 
 export function trackEvent(name, parameters = {}) {
-  if (!name || window.location.pathname.startsWith("/admin")) return;
+  if (!name || readAnalyticsConsent() !== "granted" || window.location.pathname.startsWith("/admin")) return;
   gtag("event", name, {
     ...parameters,
     send_to: GA_MEASUREMENT_ID,
@@ -67,6 +68,9 @@ export function installOutboundClickTracking() {
 
 export function setAnalyticsConsent(granted) {
   const value = granted ? "granted" : "denied";
+  const previous = readAnalyticsConsent();
+  window.__aclAnalyticsConsent = value;
+  window[`ga-disable-${GA_MEASUREMENT_ID}`] = !granted;
 
   try {
     window.localStorage.setItem(ANALYTICS_CONSENT_KEY, value);
@@ -82,10 +86,29 @@ export function setAnalyticsConsent(granted) {
   });
 
   if (granted) {
-    // Consent updates must reach GTM immediately. The route-level page_view
-    // has already been queued by App, so sending it again here would double
-    // count the first visit of every person who accepts the banner.
     window.aclLoadAnalytics?.();
+    if (previous !== "granted") trackPageView();
+    installWebVitals();
     trackEvent("consent_update", { analytics_consent: "granted" });
+  }
+}
+
+
+let vitalsInstalled = false;
+export async function installWebVitals() {
+  if (vitalsInstalled || readAnalyticsConsent() !== "granted" || window.location.pathname.startsWith("/admin")) return;
+  vitalsInstalled = true;
+  // Web Vitals describe a document visit, including its initial page URL.
+  const pagePath = window.location.pathname;
+  try {
+    const { onLCP, onINP, onCLS } = await import("web-vitals");
+    const report = ({ name, value, delta, id, rating }) => trackEvent("web_vital", {
+      metric_name: name, metric_value: value, metric_delta: delta,
+      metric_id: id, metric_rating: rating, page_path: pagePath,
+      transport_type: "beacon",
+    });
+    onLCP(report); onINP(report); onCLS(report);
+  } catch {
+    vitalsInstalled = false;
   }
 }

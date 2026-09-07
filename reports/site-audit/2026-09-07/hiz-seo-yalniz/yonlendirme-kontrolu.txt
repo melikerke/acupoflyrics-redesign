@@ -1,0 +1,18 @@
+
+> acupoflyrics-redesign@0.1.0 audit:redirects
+> node scripts/auditRedirects.js
+
+┌────────────────────────────────┬────────┐
+│ (index)                        │ Values │
+├────────────────────────────────┼────────┤
+│ canonicalRoutes                │ 1023   │
+│ flatCategoryRedirects          │ 547    │
+│ hierarchicalCategoryRedirects  │ 63     │
+│ legacyAlbumRedirects           │ 113    │
+│ invalidEntries                 │ 0      │
+│ missingTargets                 │ 0      │
+│ hijackedCanonicalRoutes        │ 0      │
+│ incorrectHierarchicalRedirects │ 0      │
+│ aliasesWithExtraHop            │ 0      │
+│ unknownCategoryIsGone          │ true   │
+└────────────────────────────────┴────────┘

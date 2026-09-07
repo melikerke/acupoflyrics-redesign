@@ -3,7 +3,10 @@ import { ORIGIN } from "./paths";
 import { completeSeoDescription, normalizeSeoTitle } from "./meta";
 
 function setMeta(name, content, attr = "name") {
-  if (!content) return;
+  if (!content) {
+    document.head.querySelector(`meta[${attr}="${name}"]`)?.remove();
+    return;
+  }
   let el = document.head.querySelector(`meta[${attr}="${name}"]`);
   if (!el) {
     el = document.createElement("meta");
@@ -60,13 +63,14 @@ export function useSeo({
   image,
   type = "website",
   noindex = false,
+  locale = "tr",
   breadcrumbs = [],
   jsonLd = null,
 }) {
   useEffect(() => {
     if (!title) return;
     const metaTitle = normalizeSeoTitle(title);
-    const metaDescription = completeSeoDescription(description);
+    const metaDescription = completeSeoDescription(description, locale);
     const url = path ? `${ORIGIN}${path}` : undefined;
     document.title = metaTitle;
     setMeta("description", metaDescription);
@@ -74,11 +78,11 @@ export function useSeo({
     setMeta("og:description", metaDescription, "property");
     setMeta("og:type", type, "property");
     if (url) setMeta("og:url", url, "property");
-    if (image) setMeta("og:image", image, "property");
+    setMeta("og:image", image, "property");
     setMeta("twitter:card", image ? "summary_large_image" : "summary");
     setMeta("twitter:title", metaTitle);
     setMeta("twitter:description", metaDescription);
-    if (image) setMeta("twitter:image", image);
+    setMeta("twitter:image", image);
     setCanonical(url);
     setRobots(noindex);
 
@@ -100,5 +104,5 @@ export function useSeo({
     setJsonLd("apl-structured-data", jsonLd);
     // Re-run whenever the serialisable inputs change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title, description, path, image, type, noindex, JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
+  }, [title, description, path, image, type, noindex, locale, JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
 }

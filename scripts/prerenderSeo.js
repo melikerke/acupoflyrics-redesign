@@ -5,25 +5,33 @@ import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { completeSeoDescription, fitSeoTitle, normalizeSeoTitle, translationMetaDescription, translationMetaTitle } from "../src/lib/meta.js";
 import { spotifyImageUrl } from "../src/lib/images.js";
 import { languageInfo, languagesFor, translationLabel } from "../src/lib/languages.js";
+import { moodDescriptions, genreDescriptions, collectionNoindex } from "../src/lib/collectionDescriptions.js";
+import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogReleaseYear } from "../src/lib/catalogRelease.js";
+import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
+import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
+import { staticSupportPage, staticChartsContent, staticArticleLinks } from "./lib/prerenderContent.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const DIST = path.join(ROOT, "dist");
+const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
 const SITE = "https://www.acupoflyrics.com";
 
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
+const catalogPosts = posts.map((post) => ({ ...post, spotify: compactSpotify(post.spotify) }));
+const homeIndex = JSON.parse(await readFile(path.join(ROOT, "src/data/homeIndex.json"), "utf8"));
+const musicLists = JSON.parse(await readFile(path.join(ROOT, "src/data/musicLists.json"), "utf8"));
 const artistsRaw = JSON.parse(await readFile(path.join(ROOT, "src/data/artists.json"), "utf8"));
-const template = await readFile(path.join(DIST, "index.html"), "utf8");
+const template = (await readFile(path.join(DIST, "index.html"), "utf8")).replace(/<div id="root">[\s\S]*<\/div>/, '<div id="root"></div>');
 
-function releaseYearFor(post) {
-  const raw = post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date;
-  const parsed = new Date(raw);
-  return Number.isNaN(parsed.getTime()) ? "" : String(parsed.getFullYear());
-}
+const releaseYearFor = catalogReleaseYear;
 
 const collectionYears = [...new Set(posts.map(releaseYearFor).filter((year) => /^\d{4}$/.test(year)))]
   .sort((a, b) => Number(b) - Number(a));
+const articleMonths = [...new Set(popGundemiArticles.map((article) => String(article.date).slice(0, 7)))].sort();
+const monthLabel = (value) => new Intl.DateTimeFormat("tr-TR", { month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}-01`));
+const articleDateRange = articleMonths.length ? `${monthLabel(articleMonths[0])}${articleMonths.length > 1 ? ` – ${monthLabel(articleMonths.at(-1))}` : ""}` : "";
 const SONGS_PER_PAGE = 48;
-const moodNames = ["Love", "Sad", "Happy", "Healing", "Dark", "Motivation", "Party", "Lonely", "Dreamy", "Night"];
+const moodNames = MOOD_NAMES;
+const postMoods = new Map(posts.map((post) => [post.slug, moodsForPost(post)]));
 const genreNames = ["Pop", "Rock", "Hip Hop", "Alternative", "K-pop", "R&B", "EDM", "Indie"];
 const KPOP_ARTISTS = new Set(["stray kids", "lisa", "jennie", "rosé", "rosie", "twice", "bts", "jin", "jimin", "jungkook", "ateez", "g-dragon", "blackpink", "jisoo", "aespa", "katseye", "itzy", "newjeans", "seventeen", "enhypen", "txt", "ive", "rm", "suga", "j-hope", "v", "zerobaseone", "le sserafim", "babymonster"]);
 const RAP_ARTISTS = ["kendrick lamar", "eminem", "doja cat", "nicki minaj", "cardi b", "tyler", "drake", "j. cole", "travis scott", "sza"];
@@ -53,18 +61,13 @@ function postPath(postOrSlug) {
 }
 
 function albumNameFor(post) {
-  return String(post.spotify?.album?.name || post.spotify?.albumName || post.categories?.[1] || "Tekli").trim();
+  const spotify = post.spotify?.album ? compactSpotify(post.spotify) : post.spotify;
+  return String(spotify?.albumName || post.categories?.[1] || "Tekli").replace(/\s+/g, " ").trim();
 }
 
 function albumArtistFor(post) {
-  return String(
-    post.spotify?.albumArtist
-      || post.spotify?.album?.artist
-      || post.spotify?.artistName
-      || post.spotify?.artist?.name
-      || post.artist
-      || "",
-  ).trim();
+  const spotify = post.spotify?.album ? compactSpotify(post.spotify) : post.spotify;
+  return String(spotify?.albumArtist || spotify?.artistName || post.artist || "").replace(/\s+/g, " ").trim();
 }
 
 function albumSlugForPost(post) {
@@ -141,24 +144,6 @@ function lyricLines(post, original) {
     .filter(Boolean);
 }
 
-function moodForPost(post) {
-  const text = [
-    post.song,
-    post.artist,
-    post.excerpt,
-    post.slug,
-    ...lyricLines(post, false).slice(0, 8),
-  ].join(" ").toLowerCase();
-  if (/heart|break|messy|cry|sad|lonely|alone|özlem|ağla|kırık|yara|pişman/.test(text)) return "Sad";
-  if (/love|aşk|sevg|kiss|heart|first/.test(text)) return "Love";
-  if (/night|gece|moon|dark|shadow|black|midnight/.test(text)) return "Night";
-  if (/heal|iyileş|light|hope|dream|wish|peace/.test(text)) return "Healing";
-  if (/fire|villain|bad|monster|war|kill|die|danger/.test(text)) return "Dark";
-  if (/dance|party|summer|hot|club|rush|energy/.test(text)) return "Party";
-  const fallback = ["Dreamy", "Lonely", "Motivation"];
-  const hash = [...String(post.slug || "")].reduce((total, char) => ((total * 31) + char.charCodeAt(0)) | 0, 0);
-  return fallback[Math.abs(hash) % fallback.length];
-}
 
 function staticGenreFor(post) {
   const spotifyGenres = post.spotify?.artistGenres || post.spotify?.artist?.genres || [];
@@ -192,7 +177,7 @@ function cleanHeroLine(value) {
 }
 
 function staticHome(items) {
-  const post = items[0];
+  const post = items.find((item) => item.slug === homeIndex.contentPlan.heroPosts[0]?.slug) || items[0];
   if (!post) return staticCollectionPage({
     kicker: "acupoflyrics",
     title: "Şarkı Sözleri ve Türkçe Çeviriler",
@@ -200,7 +185,7 @@ function staticHome(items) {
     items: [],
   });
 
-  const pair = firstPair(post);
+  const pair = homeIndex.contentPlan.heroPosts[0]?.heroPair || firstPair(post);
   const translatedLine = cleanHeroLine(pair.tr) || post.song;
   const originalLine = cleanHeroLine(pair.en) || post.song;
   const album = albumNameFor(post);
@@ -300,7 +285,7 @@ function staticSong(post, postIndex) {
     const language = block.original ? copy.originalHeading : copy.translationHeading;
     const languageCode = block.original ? languages.original : languages.translation;
     const lines = (block.lines || []).filter(Boolean).map((line) => `<span>${escapeHtml(line)}</span>`).join("<br />");
-    return lines ? `<section lang="${escapeHtml(languageCode)}"><h2>${escapeHtml(language)}</h2><p>${lines}</p></section>` : "";
+    return lines ? `<section lang="${escapeHtml(languageCode)}"><p class="seo-lyric-label">${escapeHtml(language)}</p><p>${lines}</p></section>` : "";
   }).join("");
   const album = albumNameFor(post);
   const artist = creditedArtists(post)[0];
@@ -347,7 +332,7 @@ function staticSong(post, postIndex) {
     description: translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
-    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · Albüm: ${albumLink}` : ""}</p>${sections}${relatedSections}${pager}`,
+    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · Albüm: ${albumLink}` : ""}</p><h2>${escapeHtml(copy.kicker)}</h2>${sections}${relatedSections}${pager}`,
   });
 }
 
@@ -378,15 +363,16 @@ function staticSongArchivePage(items, page, pageCount) {
 }
 
 function staticArticle(article) {
-  const sections = (article.sections || []).map((section) => `
-    <section><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</section>`).join("");
+  const sections = (article.sections || []).map((section, index) => `
+    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</section>`).join("");
+  const contents = (article.sections || []).length ? `<nav aria-label="Bu yazıda"><ol>${article.sections.map((section, index) => `<li><a href="#bolum-${index + 1}">${escapeHtml(section.heading)}</a></li>`).join("")}</ol></nav>` : "";
   return staticPage({
     kicker: article.kicker,
     title: article.title,
     description: article.dek || article.excerpt,
     image: article.image,
     imageAlt: article.imageAlt || `${article.shortTitle || article.title} görseli`,
-    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${sections}`,
+    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${contents}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
   });
 }
 
@@ -397,8 +383,9 @@ function routeFile(pathname) {
 
 function cleanHead(html) {
   return html
+    .replace(/\s*<style id="seo-prerender-styles">[\s\S]*?<\/style>/gi, "")
     .replace(/<title>[\s\S]*?<\/title>/i, "")
-    .replace(/\s*<meta\s+name="description"[\s\S]*?>/gi, "")
+    .replace(/\s*<meta\s+name="(?:description|robots)"[\s\S]*?>/gi, "")
     .replace(/\s*<meta\s+(?:name|property)="(?:og:[^"]+|twitter:[^"]+)"[\s\S]*?>/gi, "")
     .replace(/\s*<link\s+rel="canonical"[\s\S]*?>/gi, "")
     .replace(/\s*<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, "");
@@ -427,7 +414,7 @@ function htmlFor(route) {
     <meta name="twitter:title" content="${escapeHtml(route.title)}" />
     <meta name="twitter:description" content="${escapeHtml(route.description)}" />
     ${route.image ? `<meta name="twitter:image" content="${escapeHtml(route.image)}" />` : ""}
-    <script id="apl-structured-data" type="application/ld+json">${JSON.stringify(json)}</script>
+    <script id="apl-structured-data" type="application/ld+json">${JSON.stringify(json).replace(/</g, "\\u003c")}</script>
     ${route.breadcrumbs?.length ? `<script id="apl-breadcrumbs" type="application/ld+json">${JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -446,7 +433,7 @@ function htmlFor(route) {
 }
 
 function route(path, title, description, image, extra = {}) {
-  const normalizedDescription = completeSeoDescription(description);
+  const normalizedDescription = completeSeoDescription(description, extra.locale || "tr");
   const normalizedTitle = normalizeSeoTitle(title);
   return { path, title: normalizedTitle, description: normalizedDescription, image, ...extra };
 }
@@ -472,7 +459,7 @@ const routes = [
       },
     },
   ),
-  route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} şarkı çevirisini mood, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
+  route("/discover", "Keşfet — Şarkı Çevirileri | acupoflyrics", `acupoflyrics arşivindeki ${posts.length} şarkı çevirisini ruh hali, tür, albüm, sanatçı ve koleksiyonlara göre keşfet.`, posts[0]?.cover),
   route("/search", "Arama | acupoflyrics", "Şarkı, sanatçı, albüm, koleksiyon, tür ya da bir dize ara — hem orijinal sözlerde hem çevirilerde.", posts[0]?.cover, { noindex: true }),
   route("/listeler", "Müzik Listeleri — Billboard, Circle Chart, Spotify | acupoflyrics", "Dünya genelindeki popüler müzik listelerini takip et; listedeki şarkıların çevirilerini arşivde bul.", posts[0]?.cover),
   route("/admin", "Admin — acupoflyrics", "acupoflyrics çeviri ve liste yönetim paneli.", posts[0]?.cover, { noindex: true }),
@@ -486,10 +473,19 @@ const routes = [
       title: "Pop Günlüğü",
       description: "K-pop ve pop müzik gündeminde konuşulanları kaynaklarıyla takip et.",
       image: popGundemiArticles[0]?.image,
-      children: `<h2>Son yazılar</h2><ul>${popGundemiArticles.map((article) => `<li><a href="/pop-gunlugu/${escapeHtml(article.slug)}">${escapeHtml(article.shortTitle)}</a></li>`).join("")}</ul>`,
+      children: `<p>${popGundemiArticles.length} dosya${articleDateRange ? ` · ${escapeHtml(articleDateRange)}` : ""}</p><h2>Son yazılar</h2><ul>${popGundemiArticles.map((article) => `<li><a href="/pop-gunlugu/${escapeHtml(article.slug)}">${escapeHtml(article.shortTitle)}</a></li>`).join("")}</ul>`,
     }),
   }),
 ];
+
+for (const page of routes) {
+  const support = staticSupportPage(page.path, posts.length);
+  if (support) {
+    page.staticHtml = staticPage(support);
+    page.breadcrumbs = [{ name: "Ana sayfa", path: "/" }, { name: support.kicker, path: page.path }];
+  }
+
+}
 
 const songArchivePageCount = Math.max(1, Math.ceil(posts.length / SONGS_PER_PAGE));
 for (let page = 1; page <= songArchivePageCount; page += 1) {
@@ -575,6 +571,7 @@ for (const [postIndex, post] of posts.entries()) {
     post.cover,
     {
       type: "music.song",
+      locale: languagesFor(post).translation === "en" ? "en" : "tr",
       lastmod: post.date,
       staticHtml: staticSong(post, postIndex),
       breadcrumbs: [
@@ -622,7 +619,24 @@ function collectionTargetMode(items) {
   return "mixed";
 }
 
+const albums = new Map();
+const legacyAlbumRedirects = new Map();
+for (const post of catalogPosts) {
+  const name = albumNameFor(post);
+  if (!name || name === "Tekli") continue;
+  const artist = albumArtistFor(post);
+  const slug = albumSlugForPost(post);
+  const legacySlug = slugify(`${post.artist}-${name}`);
+  if (legacySlug && legacySlug !== slug) legacyAlbumRedirects.set(legacySlug, slug);
+  if (!albums.has(slug)) albums.set(slug, { slug, name, artist, cover: post.spotify?.coverUrl || post.cover, count: 0, releaseDate: post.spotify?.releaseDate || post.spotify?.album?.release_date || post.date, totalTracks: post.spotify?.totalTracks, tracks: [] });
+  albums.get(slug).count += 1;
+  albums.get(slug).tracks.push(post);
+}
+
 for (const artist of artists.values()) {
+  // Match the app's artist archive, including its existing category credits.
+  artist.posts = catalogPosts.filter((post) => primaryArtistSlug(post) === artist.slug || (post.category_slugs || []).includes(artist.slug));
+  artist.count = artist.posts.length;
   const targetMode = collectionTargetMode(artist.posts);
   const translationDirection = targetMode === "en"
     ? "İngilizce Çevirileri"
@@ -630,13 +644,9 @@ for (const artist of artists.values()) {
   const title = fitSeoTitle([
     `${artist.name} Şarkı Sözleri ve ${translationDirection} | acupoflyrics`,
     `${artist.name} ${translationDirection} | acupoflyrics`,
-    `${artist.name} ${translationDirection}`,
   ]);
-  const description = targetMode === "en"
-    ? `${artist.name} Turkish lyrics, English translations, albums and most-read songs.`
-    : targetMode === "tr"
-      ? `${artist.name} şarkı sözleri, Türkçe çevirileri, albümleri ve en çok okunan parçaları.`
-      : `${artist.name} şarkı sözleri, farklı dillerdeki çevirileri, albümleri ve en çok okunan parçaları.`;
+  const artistAlbums = [...albums.values()].filter((album) => (preferredArtistByName.get(album.artist.toLowerCase())?.slug || slugify(album.artist)) === artist.slug);
+  const description = artistArchiveSummary({ ...artist, posts: artist.posts, albums: artistAlbums });
   routes.push(route(
     `/artist/${artist.slug}`,
     title,
@@ -653,7 +663,7 @@ for (const artist of artists.values()) {
       }),
       breadcrumbs: [
         { name: "Ana sayfa", path: "/" },
-        { name: "Keşfet", path: "/discover" },
+        { name: "Sanatçılar", path: "/sanatcilar" },
         { name: artist.name, path: `/artist/${artist.slug}` },
       ],
     },
@@ -685,31 +695,13 @@ routes.push(route(
   },
 ));
 
-const albums = new Map();
-const legacyAlbumRedirects = new Map();
-for (const post of posts) {
-  const name = albumNameFor(post);
-  if (!name || name === "Tekli") continue;
-  const artist = albumArtistFor(post);
-  const slug = albumSlugForPost(post);
-  const legacySlug = slugify(`${post.artist}-${name}`);
-  if (legacySlug && legacySlug !== slug) legacyAlbumRedirects.set(legacySlug, slug);
-  if (!albums.has(slug)) albums.set(slug, { slug, name, artist, cover: post.spotify?.album?.cover || post.cover, count: 0, releaseDate: post.spotify?.album?.releaseDate || post.spotify?.releaseDate || post.date, tracks: [] });
-  albums.get(slug).count += 1;
-  albums.get(slug).tracks.push(post);
-}
 for (const album of albums.values()) {
-  const targetMode = collectionTargetMode(album.tracks);
   const title = fitSeoTitle([
     `${album.name} — ${album.artist} Albüm Çevirileri | acupoflyrics`,
     `${album.name} Albüm Çevirileri | acupoflyrics`,
-    `${album.name} Albüm Çevirileri`,
   ]);
-  const description = targetMode === "en"
-    ? `${album.artist} ${album.name} Turkish lyrics and English translations with Spotify metadata and release context.`
-    : targetMode === "tr"
-      ? `${album.artist} ${album.name} albümündeki şarkıların Türkçe çevirileri, Spotify metadata ve albüm bağlamıyla.`
-      : `${album.artist} ${album.name} albümündeki şarkıların çevirileri, Spotify metadata ve albüm bağlamıyla.`;
+  const coverage = albumCoverage(album);
+  const description = albumArchiveDescription(album);
   routes.push(route(
     `/album/${album.slug}`,
     title,
@@ -718,6 +710,7 @@ for (const album of albums.values()) {
     {
       type: "music.album",
       lastmod: album.releaseDate,
+      jsonLd: { "@context": "https://schema.org", "@type": "MusicAlbum", name: album.name, byArtist: { "@type": "MusicGroup", name: album.artist }, ...(album.releaseDate ? { datePublished: album.releaseDate } : {}), image: album.cover, ...(coverage.total ? { numTracks: coverage.total } : {}), url: `${SITE}/album/${album.slug}`, track: album.tracks.map((post) => ({ "@type": "MusicRecording", name: post.song, url: `${SITE}${postPath(post)}` })) },
       noindex: album.count < 2,
       staticHtml: staticCollectionPage({
         kicker: "Albüm",
@@ -737,6 +730,15 @@ for (const album of albums.values()) {
 
 const albumDirectory = [...albums.values()]
   .sort((a, b) => b.count - a.count || new Date(b.releaseDate) - new Date(a.releaseDate));
+const chartsRoute = routes.find((item) => item.path === "/listeler");
+if (chartsRoute) {
+  chartsRoute.staticHtml = staticPage({
+    kicker: "Global müzik listeleri", title: "Müzik Listeleri",
+    description: "Farklı listelerdeki şarkıları ve arşivdeki çevirilerini keşfet. Her kaynağın veri tarihi ayrı gösterilir.",
+    children: staticChartsContent(musicLists, posts, albumDirectory),
+  });
+  chartsRoute.breadcrumbs = [{ name: "Ana sayfa", path: "/" }, { name: "Müzik Listeleri", path: "/listeler" }];
+}
 const albumsRoute = routes.find((item) => item.path === "/albumler");
 if (albumsRoute) {
   albumsRoute.staticHtml = staticPage({
@@ -762,7 +764,7 @@ if (discoverRoute) {
   discoverRoute.staticHtml = staticPage({
     kicker: "Keşfet",
     title: "Şarkı çeviri arşivini keşfet",
-    description: `${posts.length} şarkı çevirisini sanatçı, albüm, yıl, tür ve mood arşivleri üzerinden gerçek bağlantılarla keşfet.`,
+    description: `${posts.length} şarkı çevirisini sanatçı, albüm, yıl, tür ve ruh hali arşivleri üzerinden gerçek bağlantılarla keşfet.`,
     image: posts[0]?.cover,
     imageAlt: posts[0] ? `${posts[0].artist} — ${posts[0].song} kapak görseli` : "acupoflyrics keşfet",
     children: `<h2>Ana arşivler</h2><ul>
@@ -780,9 +782,9 @@ if (discoverRoute) {
       (album) => `/album/${album.slug}`,
       (album) => `${album.artist} — ${album.name}`,
     )}</ul>
-    <h2>Yıllar</h2><ul>${collectionYears.map((year) => `<li><a href="/collection/${slugify(`${year} Şarkıları`)}">${year} Şarkıları</a></li>`).join("")}</ul>
-    <h2>Mood</h2><ul>${moodNames.map((name) => `<li><a href="/mood/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>
-    <h2>Türler</h2><ul>${genreNames.map((name) => `<li><a href="/genre/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>`,
+    <h2 id="collections">Yıllar</h2><ul>${collectionYears.map((year) => `<li><a href="/collection/${slugify(`${year} Şarkıları`)}">${year} Şarkıları</a></li>`).join("")}</ul>
+    <h2 id="moods">Ruh haline göre</h2><ul>${moodNames.filter((name) => posts.some((post) => postMoods.get(post.slug).includes(name))).map((name) => `<li><a href="/mood/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>
+    <h2 id="genres">Türler</h2><ul>${genreNames.filter((name) => posts.some((post) => (staticGenreFor(post) === name || (name === "Alternative" && ["Rock", "Indie"].includes(staticGenreFor(post)))))).map((name) => `<li><a href="/genre/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>`,
   });
   discoverRoute.breadcrumbs = [
     { name: "Ana sayfa", path: "/" },
@@ -819,29 +821,34 @@ for (const year of collectionYears) {
   ));
 }
 for (const name of moodNames) {
-  const moodPosts = posts.filter((post) => moodForPost(post) === name);
+  const moodPosts = posts.filter((post) => postMoods.get(post.slug).includes(name));
   const moodPath = `/mood/${slugify(name)}`;
-  routes.push(route(moodPath, fitSeoTitle([`${name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]), `${name} hissi taşıyan şarkıların çevirileri.`, moodPosts[0]?.cover, {
+  const label = name;
+  const description = moodDescriptions[name] || `${name} hissi taşıyan çeviriler.`;
+  routes.push(route(moodPath, fitSeoTitle([`${name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]), description, moodPosts[0]?.cover, {
+    noindex: collectionNoindex(moodPosts),
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `${name} mood`, description, url: `${SITE}${moodPath}` },
     staticHtml: staticCollectionPage({
       kicker: "Mood",
-      title: name,
-      description: `${name} hissi taşıyan ${moodPosts.length} şarkının çevirisi.`,
+      title: label,
+      description,
       image: moodPosts[0]?.cover,
       items: moodPosts,
     }),
     breadcrumbs: [
       { name: "Ana sayfa", path: "/" },
       { name: "Keşfet", path: "/discover" },
-      { name, path: moodPath },
+      { name: label, path: moodPath },
     ],
   }));
 }
 for (const name of genreNames) {
-  const genrePosts = posts.filter((post) => staticGenreFor(post) === name);
+  const genrePosts = catalogPosts.filter((post) => (staticGenreFor(post) === name || (name === "Alternative" && ["Rock", "Indie"].includes(staticGenreFor(post)))));
   const genrePath = `/genre/${slugify(name)}`;
-  const description = `${name} türündeki ${genrePosts.length} şarkının çevirilerini, sanatçılarını, albümlerini ve satır açıklamalarını acupoflyrics arşivinde keşfet.`;
-  routes.push(route(genrePath, fitSeoTitle([`${name} Şarkı Sözleri ve Çevirileri | acupoflyrics`]), description, genrePosts[0]?.cover || posts[0]?.cover, {
-    noindex: genrePosts.length === 0,
+  const description = genreDescriptions[name] || `${name} çevirileri.`;
+  routes.push(route(genrePath, fitSeoTitle([`${name} Şarkı Sözleri ve Çevirileri | acupoflyrics`]), description, genrePosts[0]?.cover, {
+    noindex: collectionNoindex(genrePosts),
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `${name} çevirileri`, description, url: `${SITE}${genrePath}` },
     staticHtml: staticCollectionPage({
       kicker: "Tür",
       title: name,
@@ -945,10 +952,12 @@ await writeFile(path.join(DIST, "sitemap.xml"), sitemap, "utf8");
 await writeFile(path.join(DIST, "_redirects"), redirects, "utf8");
 await writeFile(path.join(DIST, "feed.xml"), feed, "utf8");
 await writeFile(path.join(DIST, "robots.txt"), robots, "utf8");
-await writeFile(path.join(ROOT, "public/sitemap.xml"), sitemap, "utf8");
-await writeFile(path.join(ROOT, "public/_redirects"), redirects, "utf8");
-await writeFile(path.join(ROOT, "public/feed.xml"), feed, "utf8");
-await writeFile(path.join(ROOT, "public/robots.txt"), robots, "utf8");
+if (!process.env.ACL_SEO_DIST) {
+  await writeFile(path.join(ROOT, "public/sitemap.xml"), sitemap, "utf8");
+  await writeFile(path.join(ROOT, "public/_redirects"), redirects, "utf8");
+  await writeFile(path.join(ROOT, "public/feed.xml"), feed, "utf8");
+  await writeFile(path.join(ROOT, "public/robots.txt"), robots, "utf8");
+}
 
 console.log(`Generated static SEO HTML for ${byPath.size} routes.`);
 console.log(`Generated sitemap.xml with ${indexableRoutes.length} indexable routes.`);

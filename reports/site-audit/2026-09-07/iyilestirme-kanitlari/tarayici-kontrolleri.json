@@ -1,0 +1,72 @@
+{
+  "method": "Manuel tarayıcı kontrolü, yerel üretim önizlemesi. Fiziksel mobil cihaz testi değildir.",
+  "search": {
+    "query": "LISA",
+    "artistTranslations": 18,
+    "uppercaseFound": true,
+    "overlayQuery": "bts",
+    "pageInputAfterOverlay": "bts"
+  },
+  "saved": {
+    "song": "LISA — SaWaDiKa",
+    "savedVisibleOnSeparatePage": true,
+    "removeReturnedEmptyState": true,
+    "testChoiceRemoved": true
+  },
+  "lyric": {
+    "route": "/lisa-sawadika-turkce-ceviri/?lyric=LISA#lyrics-reader",
+    "matches": 12,
+    "firstMatchHighlighted": true,
+    "pairedLanguages": true,
+    "width": 390,
+    "documentWidth": 390,
+    "mobileMenuItemsTop": [
+      776,
+      776,
+      776,
+      776,
+      776
+    ]
+  },
+  "discoverAnchor": {
+    "route": "/discover#moods",
+    "width": 390,
+    "documentWidth": 390,
+    "scrollY": 402.5,
+    "targetViewportTop": 99.765625
+  },
+  "album": {
+    "route": "/album/ariana-grande-petal",
+    "coverage": "12 / 12",
+    "sourceTrackNumbers": "01–12"
+  },
+  "chart": {
+    "petal": "/album/ariana-grande-petal",
+    "This & That": "/album/stray-kids-this-that",
+    "missingAlbum": "/iletisim?song=Ultimate+Dolly+Parton&artist=Dolly+Parton&kind=translation"
+  },
+  "catalogNarrowMobile": {
+    "route": "/albumler",
+    "viewport": 360,
+    "documentWidth": 360,
+    "initialRows": 24,
+    "totalAlbums": 339
+  },
+  "existingDrafts": "posts.json, artists.json, musicLists.json, popGundemi.js diffs compared with initial snapshot and unchanged",
+  "production": "Not deployed; configured Vercel token invalid and no authenticated fallback session",
+  "readerPreferences": {
+    "route": "/lisa-sawadika-turkce-ceviri/#lyrics-reader",
+    "chosenTheme": "paper",
+    "selectedLabelAfterReload": "Kâğıt",
+    "persistedAfterReload": true,
+    "width": 390,
+    "documentWidth": 390
+  },
+  "desktopHero": {
+    "width": 1366,
+    "documentWidth": 1366,
+    "heroBottom": 736.07,
+    "actionsBottom": 667.45,
+    "actionsInsideHero": true
+  }
+}

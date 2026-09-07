@@ -1,0 +1,31 @@
+{
+  "scope": "Localhost production-preview lab comparison; not deployed production or field/Core Web Vitals data",
+  "baseline": "Git HEAD code rebuilt with the same current posts/artists/journal/chart content",
+  "current": "Current working tree production build",
+  "lighthouse": "12.8.2",
+  "createdAt": "2026-09-07T11:05:57+0300",
+  "rounds": 3,
+  "runOrder": "Alternating baseline/current order by round; sequential runs, never concurrent",
+  "content": {
+    "src/data/posts.json": "9fe5ea0c480494925d78f99503729db9875a8a2caa6716a80573af042ba86998",
+    "src/data/artists.json": "5cfb7b170ffab24b69b3ebcf4e9a0a13f09a4cdbd2b8705eb044bc2ff0b4f997",
+    "src/data/popGundemi.js": "133944da754f3896a20b569613d9e8d7d07a60346b4915787ada650f259fe0c5",
+    "src/data/musicLists.json": "6bea4bb093cef0df196de833d00abedf0cd87e30e8ece5e0146cb2ef18d18aab"
+  },
+  "toolchain": "Same Node installation and node_modules shared by both builds; Lighthouse12.8.2 and installed Chrome.",
+  "profile": {
+    "formFactor": "mobile",
+    "screen": "412x823 DPR1.75",
+    "throttlingMethod": "simulate",
+    "rttMs": 150,
+    "throughputKbps": 1638.4,
+    "cpuSlowdownMultiplier": 4
+  },
+  "limitations": [
+    "Local Vite production previews; not public production, not real-user CrUX/Core Web Vitals.",
+    "Baseline is HEAD source rebuilt with the same current four content files, not a historical production capture.",
+    "Remote Spotify images and baseline Google Fonts/analytics still use the network; image and load timing can vary.",
+    "Three runs per page and version; report medians and the complete runs.",
+    "Iteration1 records the first implementation before the final curated-home payload, Turkish font subset and accessibility corrections."
+  ]
+}

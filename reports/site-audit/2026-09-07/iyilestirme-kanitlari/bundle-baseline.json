@@ -1,0 +1,45 @@
+{
+  "method": "Built HEAD code with identical current content; raw file bytes and local Node gzip level6 estimates matching auditBuildPayload.js. No network or field timing claims.",
+  "largestJavascript": [
+    {
+      "file": "paths-4Olg8m7d.js",
+      "bytes": 1016024,
+      "gzipEstimateBytes": 230927
+    },
+    {
+      "file": "index-Dyspo1vq.js",
+      "bytes": 176541,
+      "gzipEstimateBytes": 57850
+    },
+    {
+      "file": "proxy-DEi-wfSr.js",
+      "bytes": 111568,
+      "gzipEstimateBytes": 36679
+    },
+    {
+      "file": "LyricDetail-DTBv2Eor.js",
+      "bytes": 40927,
+      "gzipEstimateBytes": 14086
+    },
+    {
+      "file": "AdminPage-D42JzPwW.js",
+      "bytes": 28305,
+      "gzipEstimateBytes": 8568
+    },
+    {
+      "file": "HomePreview-BWQvh41z.js",
+      "bytes": 16405,
+      "gzipEstimateBytes": 5498
+    },
+    {
+      "file": "musicLists-DO4RFFrn.js",
+      "bytes": 14180,
+      "gzipEstimateBytes": 4059
+    },
+    {
+      "file": "SearchOverlay-CSRCB8D2.js",
+      "bytes": 12679,
+      "gzipEstimateBytes": 4796
+    }
+  ]
+}

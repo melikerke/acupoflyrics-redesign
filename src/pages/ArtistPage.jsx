@@ -15,6 +15,7 @@ import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import { fitSeoTitle } from "../lib/meta";
+import { artistArchiveSummary } from "../lib/catalogRelease";
 import { languagesFor } from "../lib/languages";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
@@ -66,7 +67,7 @@ export default function ArtistPage() {
       `${artist.name} ${translationDirection.seo} | acupoflyrics`,
       `${artist.name} ${translationDirection.seo}`,
     ]) : "Sanatçı bulunamadı",
-    description: bio,
+    description: artistArchiveSummary(artist),
     path,
     image: artist.image,
     type: "profile",

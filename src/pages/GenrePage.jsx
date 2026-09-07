@@ -5,6 +5,7 @@ import { canonical, genrePath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import { fitSeoTitle } from "../lib/meta";
+import { collectionNoindex } from "../lib/collectionDescriptions";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section, Shelf } from "../components/site/ui";
@@ -24,6 +25,7 @@ export default function GenrePage() {
   useSeo({
     title: genre ? fitSeoTitle([`${genre.name} Şarkı Sözleri ve Çevirileri | acupoflyrics`]) : "Tür bulunamadı",
     description: genre?.description,
+    noindex: collectionNoindex(genre?.items),
     path,
     image: genre?.cover,
     breadcrumbs: genre

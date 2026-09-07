@@ -1,33 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  allPosts,
-  albumShelf,
-  artistSpotlight,
-  collections,
-  firstPair,
-  formatDate,
-  genreGroups,
-  kpopShelf,
-  lyricsQuote,
-  metricsFor,
-  moodGroups,
-  newReleases,
-  postPath,
-  popShelf,
-  rapShelf,
-  recentlyUpdated,
-  releaseYear,
-  rockShelf,
-  songOfTheDay,
-} from "../lib/content";
+import homeIndex from "../data/homeIndex.json";
+import { firstPair, formatDate, metricsFor, releaseYear } from "../lib/homeContent";
+const { albums: albumShelf, collections, moods: moodGroups, latestArticle: latestPopGundemi } = homeIndex;
 import { useAlbumColor } from "../lib/color";
 import { spotifyImageUrl } from "../lib/images";
-import { getHistory, LIBRARY_CHANGE_EVENT } from "../lib/history";
+import { getHistory, loadHistoryCards, LIBRARY_CHANGE_EVENT } from "../lib/history";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
-import { latestPopGundemi } from "../data/popGundemi";
-import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath, ORIGIN, popJournalPath } from "../lib/paths";
+import { albumPath, artistPath, collectionPath, discoverPath, genrePath, moodPath, ORIGIN, songPath as postPath, popJournalPath } from "../lib/paths";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
 import "../preview.css";
 import "../site.css";
@@ -67,39 +48,6 @@ function cleanHeroLine(value) {
     .trim();
 }
 
-function takeUnique(items, count, used, fallback = []) {
-  const selected = [];
-  for (const post of [...(items || []), ...(fallback || [])]) {
-    if (!post?.slug || used.has(post.slug)) continue;
-    used.add(post.slug);
-    selected.push(post);
-    if (selected.length >= count) break;
-  }
-  return selected;
-}
-
-const HOME_HERO_PRIORITY = [
-  "jennie-fallen-angel-turkce-ceviri",
-];
-
-function prioritizePosts(items, prioritySlugs) {
-  const priority = new Map(prioritySlugs.map((slug, index) => [slug, index]));
-  return [...(items || [])].sort((left, right) => {
-    const leftRank = priority.get(left.slug) ?? Number.MAX_SAFE_INTEGER;
-    const rightRank = priority.get(right.slug) ?? Number.MAX_SAFE_INTEGER;
-    return leftRank - rightRank;
-  });
-}
-
-function quoteFor(post) {
-  const pair = firstPair(post);
-  return {
-    post,
-    line: pair.tr || pair.en || post.excerpt || post.song,
-    source: pair.en || post.song,
-  };
-}
-
 function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
   const post = posts[activeIndex];
   const rawPair = post.heroPair || firstPair(post);
@@ -130,7 +78,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
         if (!event.currentTarget.contains(event.relatedTarget)) onPauseChange(false);
       }}
     >
-      <CoverImage key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} target={300} alt="" aria-hidden fetchPriority="high" />
+      <CoverImage key={`bg-${post.slug}`} className="acl-hero-bg" src={post.cover} target={300} alt="" aria-hidden fetchpriority="high" />
       <div className="acl-hero-vignette" aria-hidden />
       <div key={`copy-${post.slug}`} className={`acl-hero-copy ${titleClass}`}>
         <div className="acl-kicker">
@@ -154,7 +102,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
         </div>
       </div>
       <Link key={`art-${post.slug}`} to={postPath(post)} className="acl-hero-art" aria-label={`${post.artist} ${post.song}`}>
-        <CoverImage src={post.cover} target={640} alt={`${post.artist} - ${post.song}`} fetchPriority="high" />
+        <CoverImage src={post.cover} target={640} alt={`${post.artist} - ${post.song}`} fetchpriority="high" />
       </Link>
       <div className="acl-hero-count" role="group" aria-label="Haftanın çevirisi slaytları">
         <button type="button" onClick={previous} aria-label="Önceki çeviri">
@@ -519,42 +467,10 @@ function ArtistGrid({ items }) {
 }
 
 export default function HomePreview() {
-  const contentPlan = useMemo(() => {
-    const used = new Set();
-    const heroCandidates = prioritizePosts(newReleases, HOME_HERO_PRIORITY);
-    const heroPosts = takeUnique(heroCandidates, 5, used, allPosts);
-    const preferredRising = newReleases.find((post) => post.slug === "oasis-wonderwall-turkce-ceviri");
-    const risingPost = takeUnique([preferredRising, ...newReleases], 1, used, allPosts)[0];
-    const latest = takeUnique(newReleases, 8, used, allPosts);
-    const archiveNewest = takeUnique(allPosts, 6, used);
-    const archiveUpdated = takeUnique(recentlyUpdated, 6, used, allPosts);
-    const genreShelves = {
-      Pop: takeUnique(popShelf, 8, used, allPosts),
-      "Hip Hop": takeUnique(rapShelf, 8, used, allPosts),
-      "K-pop": takeUnique(kpopShelf, 8, used, allPosts),
-      Rock: takeUnique(rockShelf, 8, used, allPosts),
-    };
-    const spotlightPosts = takeUnique(
-      artistSpotlight.posts,
-      4,
-      used,
-      allPosts.filter((post) => post.artist === artistSpotlight.name),
-    );
-    const day = takeUnique([songOfTheDay], 1, used, allPosts)[0];
-    const quotePost = takeUnique([lyricsQuote.post], 1, used, allPosts)[0];
-
-    return {
-      heroPosts,
-      risingPost,
-      latest,
-      archiveNewest,
-      archiveUpdated,
-      genreShelves,
-      spotlight: { ...artistSpotlight, posts: spotlightPosts },
-      day,
-      quote: quoteFor(quotePost),
-    };
-  }, []);
+  const contentPlan = useMemo(() => ({
+    ...homeIndex.contentPlan,
+    ...homeIndex.dailyFeatures[new Date().getDate() - 1],
+  }), []);
   const { heroPosts } = contentPlan;
   const [heroIndex, setHeroIndex] = useState(0);
   const [heroMotionEnabled, setHeroMotionEnabled] = useState(() => !window.__aclFromHomepagePrerender);
@@ -597,10 +513,16 @@ export default function HomePreview() {
   };
 
   useEffect(() => {
-    const refreshLibrary = () => setRecentHistory(getHistory());
+    let active = true;
+    const refreshLibrary = () => {
+      setRecentHistory(getHistory());
+      loadHistoryCards().then((items) => { if (active) setRecentHistory(items); });
+    };
+    refreshLibrary();
     window.addEventListener(LIBRARY_CHANGE_EVENT, refreshLibrary);
     window.addEventListener("storage", refreshLibrary);
     return () => {
+      active = false;
       window.removeEventListener(LIBRARY_CHANGE_EVENT, refreshLibrary);
       window.removeEventListener("storage", refreshLibrary);
     };

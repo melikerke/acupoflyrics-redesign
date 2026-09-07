@@ -1,0 +1,23 @@
+{
+  "method": "Original HEAD HomePreview rendered with the same current content and original site components; compared with optimized HomePreview output. Attribute spelling normalized for React 18 fetch priority.",
+  "homeMarkupEqual": true,
+  "baselineHash": "9ff885f148cd00520acc8caf58a2e5679b0ad45113cdd8f583c635345faef26f",
+  "currentHash": "9ff885f148cd00520acc8caf58a2e5679b0ad45113cdd8f583c635345faef26f",
+  "bytes": 42564,
+  "unchangedFiles": {
+    "src/components/SearchOverlay.jsx": true,
+    "src/pages/SearchPage.jsx": true,
+    "src/pages/SongsPage.jsx": true,
+    "src/pages/ArtistsPage.jsx": true,
+    "src/pages/AlbumsPage.jsx": true,
+    "src/pages/DiscoverPage.jsx": true,
+    "src/pages/ContactPage.jsx": true,
+    "src/pages/MusicListsPage.jsx": true,
+    "src/pages/AdminPage.jsx": true,
+    "src/components/site/PageHero.jsx": true,
+    "src/lib/theme.js": true,
+    "src/index.css": true,
+    "src/preview.css": true,
+    "src/site.css": true
+  }
+}

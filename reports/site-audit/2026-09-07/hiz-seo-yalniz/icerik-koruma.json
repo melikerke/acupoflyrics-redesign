@@ -1,0 +1,6 @@
+{
+  "src/data/posts.json": true,
+  "src/data/artists.json": true,
+  "src/data/musicLists.json": true,
+  "src/data/popGundemi.js": true
+}

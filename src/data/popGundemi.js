@@ -1,5 +1,137 @@
 export const popGundemiArticles = [
   {
+    "slug": "4-eylul-2026-muzik-gundemi",
+    "title": "4 Eylül müzik gündemi: ADÉLA — PRIMA ve yeni yayınlar",
+    "shortTitle": "4 Eylül — günün müzik gündemi",
+    "kicker": "Günün müzik gündemi",
+    "date": "2026-09-04",
+    "updatedAt": "2026-09-06T10:07:00+03:00",
+    "readTime": "6 dk",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/1200x630wp-60.jpg",
+    "imageAlt": "ADÉLA — PRIMA albümünün resmî kapak görseli",
+    "imageCredit": "ADÉLA / Capitol Records · Apple Music",
+    "imageSource": "https://music.apple.com/us/album/prima/6792883860",
+    "accent": "#a53844",
+    "excerpt": "ADÉLA — PRIMA ve Ellie Goulding — I Know Too Much yayımlandı. Beyoncé feat. Pharrell Williams — CAN I WATCH YOU ve Nemzzz feat. Travis Scott — GASS haftanın yeni yayınları arasında; CORTIS — FaSHioN klibi ise 100 milyon izlenmeyi aştı.",
+    "dek": "2–6 Eylül'deki yeni yayınlar ve doğrulanmış liste ya da video hareketleri, farklı dönemlere ait veriler birbirinden ayrılarak tek dosyada toplandı.",
+    "pullQuote": "ADÉLA — PRIMA ve Ellie Goulding — I Know Too Much, 4 Eylül'ün yeni albüm yayınları arasında.",
+    "relatedTranslations": [
+      "adela-aint-in-la-turkce-ceviri",
+      "adela-nicole-kidman-turkce-ceviri",
+      "ellie-goulding-4-seasons-turkce-ceviri",
+      "ashe-stop-the-wedding-turkce-ceviri"
+    ],
+    "livePanel": {
+      "label": "4 Eylül 2026",
+      "title": "Yeni yayınlar ve liste hareketleri",
+      "items": [
+        { "label": "Yeni albüm", "text": "ADÉLA — PRIMA yayımlandı; ADÉLA — Nicole Kidman, Apple Music New Music Daily'de öne çıkarıldı." },
+        { "label": "K-pop", "text": "KWON EUNBI — DEJAVU, 3 Eylül'de yayımlandı." },
+        { "label": "Katalog yükselişi", "text": "The Cranberries — Linger (Remastered 2026), 2 Eylül Spotify Global günlük verisinde 121 basamak yükseldi." }
+      ]
+    },
+    "summary": [
+      "ADÉLA — PRIMA, Apple Music'te 4 Eylül tarihli 11 parçalık bir albüm olarak yer alıyor. Ellie Goulding — I Know Too Much için de sanatçının resmî mağazasında aynı yayın tarihi bulunuyor.",
+      "Ashe — Funeral 3 Eylül'de, Take That feat. Michael Patrick Kelly — Feel My Love ise 4 Eylül'de yayımlandı.",
+      "KWON EUNBI — DEJAVU yeni yayınlar arasında. TEN — OUTWEST için Spotify ile Apple Music'in gösterdiği tarihler farklı.",
+      "KAROL G & Bruno Mars — Still yeni bir video ile gündemde; The Cranberries — Linger (Remastered 2026) ise günlük dinlenme listesinde yükseldi.",
+      "4 Eylül yayın kayıtları Beyoncé feat. Pharrell Williams — CAN I WATCH YOU ve Nemzzz feat. Travis Scott — GASS parçalarını doğruluyor. Circle Global'ın 2 Eylül günlüğünde JENNIE — Less than a Lover 10 numaraya girdi.",
+      "CORTIS — FaSHioN klibi, BIGHIT MUSIC'in aktardığı bilgiye göre 5 Eylül'de 100 milyon YouTube izlenmesini geçti. Parça yeni bir yayın değil; Spotify kaydındaki çıkış tarihi 8 Eylül 2025."
+    ],
+    "sections": [
+      {
+        "heading": "ADÉLA — PRIMA ve Ellie Goulding — I Know Too Much yayımlandı",
+        "body": [
+          "ADÉLA — PRIMA'nın 4 Eylül tarihli Apple Music kaydı 11 parça içeriyor. ADÉLA — Nicole Kidman, aynı gün Apple Music New Music Daily'nin editoryal tanıtımında öne çıkarıldı. Bu görünürlük, bir dinlenme sıralaması değil, platformun editoryal seçimi.",
+          "Ellie Goulding — I Know Too Much da 4 Eylül'de yayımlandı. Sanatçının resmî mağazası yayın tarihini doğruluyor; Official Charts'ın 4 Eylül tarihli yeni müzik seçkisi albümü haftanın yayınları arasında gösteriyor."
+        ]
+      },
+      {
+        "heading": "Ashe — Funeral ve yeni iş birlikleri",
+        "body": [
+          "Ashe — Funeral için 2 Eylül'de yayımlanan resmî basın duyurusu, parçanın 3 Eylül'de dinleyiciyle buluşacağını açıklamıştı. Spotify'daki yayın kaydı bu tarihi doğruluyor. Duyuruda Ashe — The Girl Of Your Dreams albümünün çıkış tarihi de 16 Ekim olarak veriliyor; albüm henüz yayımlanmadı.",
+          "Take That feat. Michael Patrick Kelly — Feel My Love, 4 Eylül'de yayımlandı. Grubun resmî bağlantısı Michael Patrick Kelly'nin konuk sanatçı kredisini doğruluyor.",
+          "Tinie Tempah, Tropkillaz & AFROJACK — To The Floor (Vai Descendo), Spotify'da 3 Eylül tarihli bir tekli olarak kayıtlı. Tinie Tempah — 12AM EP'sinin yayın tarihi ise 4 Eylül; tekli ile EP'nin tarihleri aynı değil."
+        ]
+      },
+      {
+        "heading": "KWON EUNBI — DEJAVU ve TEN — OUTWEST",
+        "body": [
+          "KWON EUNBI — DEJAVU, 3 Eylül'de Kore saatiyle 18.00'de yayımlandı. The Korea Times'ın aynı gün yayımlanan röportajı, parçayı sanatçının RBW'ye geçişinden sonraki ilk teklisi olarak tanıtıyor. Spotify yayın kaydı ve Mnet'in 3 Eylül tarihli sahne videosu da yayını destekliyor.",
+          "TEN — OUTWEST'in Spotify kaydı 4 Eylül tarihini gösteriyor. Ancak Apple Music, kontrol sırasında TEN — OUTWEST için 7 Eylül tarihli ön yayın sayfası gösteriyordu. Platformlar arasındaki bu tarih farkının nedeni henüz doğrulanmadı; iki kayıt tek bir ortak tarih gibi sunulmuyor."
+        ]
+      },
+      {
+        "heading": "KAROL G & Bruno Mars — Still: yeni şarkı değil, yeni video",
+        "body": [
+          "KAROL G & Bruno Mars — Still, Apple Music'e göre 4 Ağustos'ta yayımlandı. LOS40'ın 2 Eylül tarihli haberinde ise parçanın Los Angeles performansından görüntüler içeren yeni videosunun yayımlandığı bildirildi.",
+          "Kworb'un 4 Eylül saat 04.40 EDT tarihli YouTube müzik eğilimleri derlemesinde KAROL G & Bruno Mars — Still, 14 basamak yükselerek 3 numarada yer aldı. Bu, üçüncü tarafın ülkelerdeki eğilimleri birleştiren görünümüdür; YouTube'un resmî global dinlenme listesi değildir."
+        ]
+      },
+      {
+        "heading": "The Cranberries — Linger günlük listede yükseldi",
+        "body": [
+          "Kworb'un aktardığı 2 Eylül Spotify Global günlük verisinde The Cranberries — Linger (Remastered 2026), 121 basamak yükselerek 73 numaraya ulaştı. Günlük dinlenmesi 430.638 artışla 1.606.598 oldu.",
+          "The Cranberries — Linger, 1993 tarihli bir katalog parçası; listede izlenen yeniden düzenlenmiş sürümün platform tarihi 22 Mayıs 2026. Bu nedenle yeni çıkan bir şarkı olarak değerlendirilmiyor. Yükselişi belirli bir TikTok veya Reels akımına bağlayan doğrulanmış bir açıklama bulunmuyor."
+        ]
+      },
+      {
+        "heading": "Beyoncé feat. Pharrell Williams — CAN I WATCH YOU ve Nemzzz feat. Travis Scott — GASS yayınlandı",
+        "body": [
+          "Beyoncé feat. Pharrell Williams — CAN I WATCH YOU, Spotify'da 4 Eylül tarihli Beyoncé — B'DAY (20th Anniversary Deluxe Edition) albümünde yer alıyor. Parça aynı gün Spotify R&B X ve New Music Friday UK & Ireland listelerinin kontrol edilen görünümlerinde öne çıkarıldı. Bu sıralamalar platformun editoryal seçimi; global dinlenme listesi değildir.",
+          "Nemzzz feat. Travis Scott — GASS için tekli kaydı 3 Eylül, Nemzzz — LOCKED IN albüm kaydı 4 Eylül tarihini gösteriyor. Parça Spotify New Joints ve New Music Friday UK & Ireland listelerinin ilk sırasında yer aldı. Tekli ve albüm tarihlerinin farklı olduğu açıkça korunuyor."
+        ]
+      },
+      {
+        "heading": "JENNIE — Less than a Lover Circle Global günlüğüne girdi",
+        "body": [
+          "Circle Global'ın 2 Eylül tarihli günlüğünde JENNIE — Less than a Lover 10 numaraya girdi. Aynı listede HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast — Golden 1, BTS — SWIM 2 ve ATEEZ — BAD 3 numarada.",
+          "Spotify kaydı JENNIE — Less than a Lover için 24 Temmuz yayın tarihini veriyor. Bu nedenle parça yeni yayın olarak değil, yeni doğrulanan liste hareketi olarak değerlendiriliyor."
+        ]
+      },
+      {
+        "heading": "CORTIS — FaSHioN klibi 100 milyon izlenmeyi geçti",
+        "body": [
+          "BIGHIT MUSIC'in 5 Eylül'de paylaştığı bilgiyi aktaran Soompi'ye göre CORTIS — FaSHioN klibi aynı gün Kore saatiyle yaklaşık 04.00'te YouTube'da 100 milyon izlenmeyi geçti. Bu, grubun söz konusu eşiğe ulaşan ilk klibi olarak bildirildi.",
+          "CORTIS — FaSHioN yeni yayımlanmış bir parça değil. Spotify kaydı parçayı CORTIS — COLOR OUTSIDE THE LINES EP'sine bağlıyor ve çıkış tarihini 8 Eylül 2025 olarak gösteriyor; 5 Eylül 2026 tarihi yalnızca video izlenme kilometre taşıdır."
+        ]
+      }
+    ],
+    "memberStatus": [],
+    "sources": [
+      { "name": "Apple Music — ADÉLA — PRIMA / yayın kaydı ve kapak", "url": "https://music.apple.com/us/album/prima/6792883860" },
+      { "name": "Apple Music — New Music Daily / 4 Eylül kontrolü", "url": "https://music.apple.com/us/playlist/new-music-daily/pl.2b0e6e332fdf4b7a91164da3162127b5" },
+      { "name": "Ellie Goulding resmî mağazası — Ellie Goulding — I Know Too Much", "url": "https://shop.elliegoulding.com/products/i-know-too-much-cd?currency=USD" },
+      { "name": "Official Charts — 4 Eylül 2026 yeni yayınlar", "url": "https://www.officialcharts.com/chart-news/new-music-friday-september-4-2026/" },
+      { "name": "Sacks & Co. — Ashe / 2 Eylül 2026 basın duyurusu", "url": "https://sacksco.com/pr/ashe.html" },
+      { "name": "Spotify — Ashe — Funeral", "url": "https://open.spotify.com/track/6LdPN8UPj0Ne9Reg6XkDyO" },
+      { "name": "Resmî yayın bağlantısı — Take That feat. Michael Patrick Kelly — Feel My Love", "url": "https://takethat.lnk.to/feelmylove" },
+      { "name": "Spotify — Take That feat. Michael Patrick Kelly — Feel My Love", "url": "https://open.spotify.com/track/6bu09h9svqGjpo7Qi3Xscn" },
+      { "name": "Spotify — Tinie Tempah, Tropkillaz & AFROJACK — To The Floor (Vai Descendo)", "url": "https://open.spotify.com/track/0VCLJHFuhgOQUVyWSU3aKr" },
+      { "name": "Tinie Tempah resmî Audiomack hesabı — Tinie Tempah — 12AM", "url": "https://audiomack.com/tinie-tempah/album/12am-1" },
+      { "name": "The Korea Times — KWON EUNBI röportajı / 3 Eylül 2026", "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260903/kwon-eun-bi-opens-new-chapter-with-1st-single-since-label-move" },
+      { "name": "Spotify — KWON EUNBI — DEJAVU", "url": "https://open.spotify.com/album/50XHxZ6jnr6kUNSX3X95Lg" },
+      { "name": "Mnet — KWON EUNBI — DEJAVU / 3 Eylül sahnesi", "url": "https://www.mnetplus.world/media/en/videos/6a9952fe0d73224a638b970c" },
+      { "name": "Spotify — TEN — OUTWEST", "url": "https://open.spotify.com/track/4Bn4b4N7rWCqPlKfEZi6PB" },
+      { "name": "Apple Music — TEN — OUTWEST / 7 Eylül ön yayın kaydı", "url": "https://music.apple.com/us/album/outwest-single/6806439847" },
+      { "name": "Apple Music — KAROL G & Bruno Mars — Still / 4 Ağustos yayın kaydı", "url": "https://music.apple.com/us/album/still-single/6803274765" },
+      { "name": "LOS40 — KAROL G & Bruno Mars — Still video haberi / 2 Eylül 2026", "url": "https://los40.com/2026/09/02/karol-g-y-bruno-mars-estrenan-el-videoclip-de-still-con-imagenes-ineditas-de-su-actuacion-en-los-angeles/" },
+      { "name": "Kworb — YouTube müzik eğilimleri / 4 Eylül 04.40 EDT görünümü", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Kworb — Spotify Global günlük verisi / 2 Eylül 2026", "url": "https://kworb.net/spotify/country/global_daily.html" },
+      { "name": "Spotify — The Cranberries — Linger (Remastered 2026)", "url": "https://open.spotify.com/track/6lWdwhzIAYX5XwTqhcBmVO" },
+      { "name": "Spotify — Beyoncé feat. Pharrell Williams — CAN I WATCH YOU", "url": "https://open.spotify.com/track/25kqjl0To6q08zgnRkKqE1" },
+      { "name": "Spotify — R&B X / 5 Eylül kontrolü", "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX4SBhb3fqCJd?theme=0" },
+      { "name": "Spotify — Nemzzz feat. Travis Scott — GASS", "url": "https://open.spotify.com/track/4TtFvGGps7haO0XbmhVz2y" },
+      { "name": "Spotify — New Music Friday UK & Ireland / 5 Eylül kontrolü", "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX4W3aJJYCDfV" },
+      { "name": "Circle Global — 2 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Spotify — JENNIE — Less than a Lover", "url": "https://open.spotify.com/track/1gK5uqArBDmAJSr0DwvJ1b" },
+      { "name": "Soompi — CORTIS — FaSHioN 100 milyon izlenme haberi / 5 Eylül 2026", "url": "https://www.soompi.com/article/1868229wpp/cortiss-fashion-becomes-their-1st-mv-to-hit-100-million-views" },
+      { "name": "HYBE LABELS — CORTIS — FaSHioN resmî klibi", "url": "https://www.youtube.com/watch?v=5BtPashsXGI" },
+      { "name": "Spotify — CORTIS — FaSHioN", "url": "https://open.spotify.com/track/4ecdsGz3Hg6TKPwQ0ZOdJz" }
+    ],
+    "storyShare": "4–6 Eylül müzik gündemi: ADÉLA — PRIMA ve Ellie Goulding — I Know Too Much yayımlandı; CORTIS — FaSHioN klibi 100 milyon izlenmeyi geçti."
+  },
+  {
     "slug": "2-eylul-2026-muzik-gundemi",
     "title": "2 Eylül müzik gündemi: KATSEYE — Animal UK yükseliş listesinin zirvesinde",
     "shortTitle": "2 Eylül — günün müzik gündemi",

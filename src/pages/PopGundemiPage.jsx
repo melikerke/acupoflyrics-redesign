@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { popGundemiArticles } from "../data/popGundemi";
+import popGundemiArticles from "../data/popGundemiIndex.json";
 import { useAlbumColor } from "../lib/color";
 import { popJournalPath } from "../lib/paths";
 import { themeFromColor } from "../lib/theme";
@@ -138,7 +138,7 @@ export default function PopGundemiPage() {
             <p>{featured.excerpt}</p>
             <div className="pop-journal-lead-meta">
               <span>{articleMeta(featured)}</span>
-              <span>{featured.sources.length} kaynak</span>
+              <span>{featured.sourceCount} kaynak</span>
             </div>
             <Link className="pop-journal-read" to={popJournalPath(featured)}>
               Dosyayı oku <Icon name="arrow" size={15} />

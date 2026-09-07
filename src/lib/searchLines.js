@@ -32,3 +32,7 @@ export function loadSearchLines() {
 export function linesFor(slug) {
   return (cache && cache[slug]) || [];
 }
+
+export function articleTextFor(slug) {
+  return cache?.__articles?.[slug] || "";
+}

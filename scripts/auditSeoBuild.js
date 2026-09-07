@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const DIST = path.join(ROOT, "dist");
+const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
 const SITE = "https://www.acupoflyrics.com";
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
 
@@ -100,7 +100,8 @@ const songRoutes = new Set(posts.map((post) => normalizePath(`/${post.slug}/`)))
 const underlinkedSongs = [...songRoutes].filter((route) => (incoming.get(route)?.size || 0) < 2);
 const placeholderPages = [...pages.values()].filter((page) => /%%?[^%\s]+%%?/.test(`${page.title} ${page.description}`));
 const missingAltPages = [...pages.values()].filter((page) => page.badImages.length > 0);
-const shortDescriptions = [...pages.values()].filter((page) => !page.noindex && page.description.length < 110);
+// A description has no minimum character quota; short complete sentences are valid.
+const missingDescriptions = [...pages.values()].filter((page) => !page.noindex && !page.description);
 const longDescriptions = [...pages.values()].filter((page) => !page.noindex && page.description.length > 152);
 const longTitles = [...pages.values()].filter((page) => !page.noindex && page.title.length > 65);
 const metadataMismatches = [...pages.values()].filter((page) => (
@@ -119,7 +120,7 @@ const findings = {
   brokenInternalLinks: brokenLinks.length,
   placeholderPages: placeholderPages.length,
   missingMeaningfulAltPages: missingAltPages.length,
-  shortDescriptions: shortDescriptions.length,
+  missingDescriptions: missingDescriptions.length,
   longDescriptions: longDescriptions.length,
   longTitles: longTitles.length,
   metadataMismatches: metadataMismatches.length,
@@ -133,7 +134,7 @@ const details = [
   ["Bozuk iç link", brokenLinks],
   ["Placeholder", placeholderPages.map((page) => page.route)],
   ["Anlamlı alt metni eksik", missingAltPages.map((page) => page.route)],
-  ["Kısa açıklama", shortDescriptions.map((page) => `${page.route} (${page.description.length})`)],
+  ["Eksik açıklama", missingDescriptions.map((page) => page.route)],
   ["Uzun açıklama", longDescriptions.map((page) => `${page.route} (${page.description.length})`)],
   ["Uzun başlık", longTitles.map((page) => `${page.route} (${page.title.length})`)],
   ["Metadata uyuşmazlığı", metadataMismatches.map((page) => page.route)],

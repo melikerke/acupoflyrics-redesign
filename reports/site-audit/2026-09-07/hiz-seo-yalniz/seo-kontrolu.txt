@@ -1,0 +1,20 @@
+
+> acupoflyrics-redesign@0.1.0 audit:seo
+> node scripts/auditSeoBuild.js
+
+┌───────────────────────────┬────────┐
+│ (index)                   │ Values │
+├───────────────────────────┼────────┤
+│ htmlPages                 │ 1309   │
+│ indexablePages            │ 1023   │
+│ orphanRoutes              │ 0      │
+│ unreachableRoutes         │ 0      │
+│ underlinkedSongs          │ 0      │
+│ brokenInternalLinks       │ 0      │
+│ placeholderPages          │ 0      │
+│ missingMeaningfulAltPages │ 0      │
+│ missingDescriptions       │ 0      │
+│ longDescriptions          │ 0      │
+│ longTitles                │ 0      │
+│ metadataMismatches        │ 0      │
+└───────────────────────────┴────────┘

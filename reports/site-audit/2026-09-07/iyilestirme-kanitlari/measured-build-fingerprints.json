@@ -1,0 +1,13 @@
+{
+  "scope": "Exact measured build fingerprints. Final timing process reads these files but does not modify dist.",
+  "builds": {
+    "baseline": {
+      "sha256": "ce45f98a9f508821e0dfaf195888396f727e55f5d60ded490451b91758c9b900",
+      "fileCount": 33
+    },
+    "final": {
+      "sha256": "5ecc0c3a7125d31d76a7d603c53922135eb773e923719e2a09461573fe5c25a9",
+      "fileCount": 45
+    }
+  }
+}

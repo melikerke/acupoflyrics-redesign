@@ -5,6 +5,7 @@ import { canonical, moodPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import { fitSeoTitle } from "../lib/meta";
+import { collectionNoindex } from "../lib/collectionDescriptions";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section } from "../components/site/ui";
@@ -24,6 +25,7 @@ export default function MoodPage() {
   useSeo({
     title: mood ? fitSeoTitle([`${mood.name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]) : "Mood bulunamadı",
     description: mood?.description,
+    noindex: collectionNoindex(mood?.items),
     path,
     image: mood?.cover,
     breadcrumbs: mood

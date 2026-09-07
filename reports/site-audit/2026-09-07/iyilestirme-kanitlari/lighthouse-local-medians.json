@@ -1,0 +1,58 @@
+[
+  {
+    "page": "home",
+    "version": "baseline",
+    "performance": 67.0,
+    "fcp": 4301.805750000001,
+    "lcp": 6160.601100000001,
+    "tbt": 31,
+    "cls": 0,
+    "speedIndex": 4360.6011,
+    "transferBytes": 1510509,
+    "accessibility": 96.0,
+    "bestPractices": 100,
+    "seo": 100
+  },
+  {
+    "page": "home",
+    "version": "current",
+    "performance": 76.0,
+    "fcp": 3084.5019,
+    "lcp": 5070.734399999999,
+    "tbt": 0,
+    "cls": 0,
+    "speedIndex": 3084.5019,
+    "transferBytes": 1722864,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100
+  },
+  {
+    "page": "song",
+    "version": "baseline",
+    "performance": 64.0,
+    "fcp": 3622.5765499999998,
+    "lcp": 6840.020650000001,
+    "tbt": 23.5,
+    "cls": 0.2411678814874308,
+    "speedIndex": 3622.5765499999998,
+    "transferBytes": 1382695,
+    "accessibility": 96.0,
+    "bestPractices": 100,
+    "seo": 100
+  },
+  {
+    "page": "song",
+    "version": "current",
+    "performance": 74.0,
+    "fcp": 2859.7119000000002,
+    "lcp": 5639.660249999999,
+    "tbt": 12,
+    "cls": 0,
+    "speedIndex": 2859.7119000000002,
+    "transferBytes": 1015636,
+    "accessibility": 97.0,
+    "bestPractices": 100,
+    "seo": 100
+  }
+]

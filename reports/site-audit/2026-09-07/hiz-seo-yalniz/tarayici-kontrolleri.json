@@ -1,0 +1,16 @@
+{
+  "search": "Original dialog and result rows restored; lisa returns songs, journal, lines, artist and albums. Escape closes it.",
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "tabs": [
+      "Ana sayfa",
+      "Keşfet",
+      "Ara",
+      "Listeler"
+    ],
+    "newHomeSearchForm": false,
+    "savedPageLink": false
+  },
+  "production": "Local production preview only; no deployment performed."
+}

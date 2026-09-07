@@ -1,0 +1,45 @@
+
+> acupoflyrics-redesign@0.1.0 test:improvements
+> node --test tests/*.test.js src/lib/lyricReader.test.js src/lib/meaning.test.js scripts/testSiteImprovements.js && node scripts/testHeroPair.js && node scripts/testPrerenderSeo.js
+
+✔ local request store persists once, handles concurrent writes and updates status (17.654666ms)
+✔ request validation strips unsolicited private fields and rejects invalid input (0.162083ms)
+✔ encrypted archive omits plaintext, decrypts with the correct key and detects wrong keys/tampering (108.100833ms)
+✔ mocked remote conflict re-reads the archive and preserves both submissions (152.711292ms)
+✔ unconfigured remote storage and exhausted conflicts fail instead of claiming success (58.249208ms)
+✔ request API rejects bad origins, oversized/invalid bodies and unsupported methods without writes (1.835459ms)
+✔ request API returns a minimal acknowledgement, idempotent retry and clear rate limiting (3.716417ms)
+✔ production request handler checks editor credentials without relying on middleware (2.16225ms)
+✔ request body byte limit covers parsed bodies, buffers and chunked streams without a truthful length header (1.652042ms)
+✔ middleware protects GET/PATCH inbox paths and allows only canonical public submissions (1.721041ms)
+✔ chart matching cannot send a same-title song by the wrong artist to a translation (0.457208ms)
+✔ album charts return an album route type, never a similarly named individual song (0.039417ms)
+✔ favorites toggle, sanitize persisted entries and notify other UI consumers (1.69175ms)
+✔ favorites retain successive choices in memory when storage writes or reads are unavailable (0.45325ms)
+✔ preserves supplied labels and unmatched original blocks without inventing choruses (0.542792ms)
+✔ unequal line counts remain visible and preserve blank positions (0.075208ms)
+✔ untrusted saved reader preferences cannot break the reading layout (0.063875ms)
+✔ card selection remains adjacent when removing a middle line (0.078459ms)
+✔ meaning is optional and empty input never generates editorial copy (1.403209ms)
+✔ meaning source normalization allows only credential-free HTTP(S) and removes duplicates (0.67075ms)
+✔ admin export JSON and save conversion preserve meaning, older records preserve it, explicit removal clears it (1.623333ms)
+✔ homepage dependency graph does not load the complete song, artist or article catalogs (42.032292ms)
+✔ generated home data preserves the SSR first hero and limits data to the visible sections (22.692125ms)
+✔ first visits fetch nothing; new history stores small cards and old slugs migrate on demand (1.253667ms)
+✔ history keeps successive session entries when storage reads work but writes fail (0.390375ms)
+✔ Turkish case variants and international artist accents find the same songs (0.445625ms)
+✔ highlight ranges preserve original accented characters, apostrophes and whitespace (0.157958ms)
+✔ catalog filters combine, include credited artists, and can be reset (1.01925ms)
+✔ pagination preserves actual totals beyond old 36-result cap without duplicates (0.153292ms)
+✔ the production search returns the same LISA/ROSÉ matches and every matching song (208.280083ms)
+✔ failed lazy lyric requests can retry and concurrent requests are shared (0.887292ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 394.2235
+Hero selection passed: ad-libs skipped, meaningful title matches preferred, bilingual lines aligned, and short/instrumental fallbacks preserved.
+SEO regressions passed: 10 mood collections, 31 article link sets, support pages, private routes, compact indexes and generated-site link audit.

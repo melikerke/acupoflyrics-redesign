@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
     plugins: [react(), tailwindcss(), apiPlugin(env)],
+    build: { manifest: true },
     // Honor the PORT env var (Vite ignores it by default) so tooling that
     // assigns a port can drive the dev server. Falls back to Vite's default.
     server: { port: process.env.PORT ? Number(process.env.PORT) : 5173 },

@@ -1,0 +1,508 @@
+{
+  "method": {
+    "scope": "Localhost production-preview lab comparison; not deployed production or field/Core Web Vitals data",
+    "baseline": "Git HEAD code rebuilt with the same current posts/artists/journal/chart content",
+    "current": "Current working tree production build",
+    "lighthouse": "12.8.2",
+    "createdAt": "2026-09-07T11:05:57+0300",
+    "rounds": 3,
+    "runOrder": "Baseline: 3 runs per route from earlier alternating same-session set. Final: 3 sequential rounds, home then song, after final payload/font changes. No concurrent Lighthouse runs.",
+    "content": {
+      "src/data/posts.json": "9fe5ea0c480494925d78f99503729db9875a8a2caa6716a80573af042ba86998",
+      "src/data/artists.json": "5cfb7b170ffab24b69b3ebcf4e9a0a13f09a4cdbd2b8705eb044bc2ff0b4f997",
+      "src/data/popGundemi.js": "133944da754f3896a20b569613d9e8d7d07a60346b4915787ada650f259fe0c5",
+      "src/data/musicLists.json": "6bea4bb093cef0df196de833d00abedf0cd87e30e8ece5e0146cb2ef18d18aab"
+    },
+    "toolchain": "Same Node installation and node_modules shared by both builds; Lighthouse12.8.2 and installed Chrome.",
+    "profile": {
+      "formFactor": "mobile",
+      "screen": "412x823 DPR1.75",
+      "throttlingMethod": "simulate",
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "cpuSlowdownMultiplier": 4
+    },
+    "limitations": [
+      "Local Vite production previews; not public production, not real-user CrUX/Core Web Vitals.",
+      "Baseline is HEAD source rebuilt with the same current four content files, not a historical production capture.",
+      "Remote Spotify images and baseline Google Fonts/analytics still use the network; image and load timing can vary.",
+      "Three runs per page and version; report medians and the complete runs.",
+      "Desktop hero fit and song comment contrast receive a later CSS-only correction; their separate verification is recorded alongside these measurements, without presenting this candidate fingerprint as that subsequent build."
+    ]
+  },
+  "units": {
+    "fcp": "ms",
+    "lcp": "ms",
+    "tbt": "ms",
+    "speedIndex": "ms",
+    "transferBytes": "bytes",
+    "cls": "unitless",
+    "categoryScores": "0–100"
+  },
+  "buildFingerprints": {
+    "baseline": {
+      "sha256": "ce45f98a9f508821e0dfaf195888396f727e55f5d60ded490451b91758c9b900",
+      "fileCount": 33
+    },
+    "final": {
+      "sha256": "5ecc0c3a7125d31d76a7d603c53922135eb773e923719e2a09461573fe5c25a9",
+      "fileCount": 45
+    }
+  },
+  "medians": [
+    {
+      "page": "home",
+      "version": "baseline",
+      "n": 3,
+      "performance": 67.0,
+      "fcp": 4301.805750000001,
+      "lcp": 6160.601100000001,
+      "tbt": 31,
+      "cls": 0,
+      "speedIndex": 4360.6011,
+      "transferBytes": 1510509,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcpRangeMs": [
+        5988.84655,
+        7901.805750000001
+      ],
+      "networkTransferByType": {
+        "Document": 5413,
+        "Fetch": 547,
+        "Font": 283819,
+        "Image": 587681,
+        "Other": 659,
+        "Script": 600660,
+        "Stylesheet": 31730
+      }
+    },
+    {
+      "page": "home",
+      "version": "final",
+      "n": 3,
+      "performance": 89.0,
+      "fcp": 2643.8277999999996,
+      "lcp": 3159.9482,
+      "tbt": 0,
+      "cls": 0,
+      "speedIndex": 2643.8277999999996,
+      "transferBytes": 1470186,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcpRangeMs": [
+        2732.7703999999994,
+        4129.29465
+      ],
+      "networkTransferByType": {
+        "Document": 6817,
+        "Font": 201898,
+        "Image": 1150953,
+        "Other": 659,
+        "Script": 77805,
+        "Stylesheet": 32054
+      }
+    },
+    {
+      "page": "song",
+      "version": "baseline",
+      "n": 3,
+      "performance": 64.0,
+      "fcp": 3622.5765499999998,
+      "lcp": 6840.020650000001,
+      "tbt": 23.5,
+      "cls": 0.2411678814874308,
+      "speedIndex": 3622.5765499999998,
+      "transferBytes": 1382695,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcpRangeMs": [
+        6601.2,
+        6911.61745
+      ],
+      "networkTransferByType": {
+        "Document": 7221,
+        "Fetch": 3978,
+        "Font": 343504,
+        "Image": 350142,
+        "Other": 659,
+        "Script": 645484,
+        "Stylesheet": 31730
+      }
+    },
+    {
+      "page": "song",
+      "version": "final",
+      "n": 3,
+      "performance": 77.0,
+      "fcp": 2406.2116,
+      "lcp": 5265.529,
+      "tbt": 11,
+      "cls": 0,
+      "speedIndex": 2406.2116,
+      "transferBytes": 936401,
+      "accessibility": 97.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcpRangeMs": [
+        5265.3485,
+        5270.51275
+      ],
+      "networkTransferByType": {
+        "Document": 8457,
+        "Fetch": 3431,
+        "Font": 261758,
+        "Image": 323409,
+        "Other": 659,
+        "Script": 303148,
+        "Stylesheet": 35539
+      }
+    }
+  ],
+  "deltas": [
+    {
+      "page": "home",
+      "performancePoints": 22.0,
+      "lcpReductionPercent": 48.707144827150074,
+      "transferReductionPercent": 2.6694975005114197
+    },
+    {
+      "page": "song",
+      "performancePoints": 13.0,
+      "lcpReductionPercent": 23.018814277994913,
+      "transferReductionPercent": 32.277111004234484
+    }
+  ],
+  "runs": [
+    {
+      "page": "home",
+      "version": "baseline",
+      "round": 1,
+      "performance": 67.0,
+      "fcp": 4360.6011,
+      "lcp": 6160.601100000001,
+      "tbt": 12.5,
+      "cls": 0,
+      "speedIndex": 4360.6011,
+      "transferBytes": 1510509,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-baseline-1.json",
+      "networkTransferByType": {
+        "Document": 5413,
+        "Stylesheet": 31730,
+        "Script": 600660,
+        "Image": 587681,
+        "Font": 283819,
+        "Other": 659,
+        "Fetch": 547
+      }
+    },
+    {
+      "page": "song",
+      "version": "baseline",
+      "round": 1,
+      "performance": 64.0,
+      "fcp": 1536.626,
+      "lcp": 6840.020650000001,
+      "tbt": 59.5,
+      "cls": 0.2413051102627028,
+      "speedIndex": 1941.9034899596686,
+      "transferBytes": 1382695,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-baseline-1.json",
+      "networkTransferByType": {
+        "Document": 7221,
+        "Stylesheet": 31730,
+        "Script": 645461,
+        "Image": 350142,
+        "Font": 343504,
+        "Fetch": 3978,
+        "Other": 659
+      }
+    },
+    {
+      "page": "home",
+      "version": "baseline",
+      "round": 2,
+      "performance": 64.0,
+      "fcp": 4301.805750000001,
+      "lcp": 7901.805750000001,
+      "tbt": 31,
+      "cls": 0,
+      "speedIndex": 5172.017828026344,
+      "transferBytes": 1746351,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-baseline-2.json",
+      "networkTransferByType": {
+        "Document": 5413,
+        "Stylesheet": 31730,
+        "Script": 600660,
+        "Image": 823523,
+        "Font": 283819,
+        "Other": 659,
+        "Fetch": 547
+      }
+    },
+    {
+      "page": "song",
+      "version": "baseline",
+      "round": 2,
+      "performance": 56.00000000000001,
+      "fcp": 3622.5765499999998,
+      "lcp": 6911.61745,
+      "tbt": 18,
+      "cls": 0.2411678814874308,
+      "speedIndex": 3622.5765499999998,
+      "transferBytes": 1382718,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-baseline-2.json",
+      "networkTransferByType": {
+        "Document": 7221,
+        "Stylesheet": 31730,
+        "Script": 645484,
+        "Image": 350142,
+        "Font": 343504,
+        "Fetch": 3978,
+        "Other": 659
+      }
+    },
+    {
+      "page": "home",
+      "version": "baseline",
+      "round": 3,
+      "performance": 75.0,
+      "fcp": 2353.5861750000004,
+      "lcp": 5988.84655,
+      "tbt": 31,
+      "cls": 0.0002875999068127208,
+      "speedIndex": 2353.5861750000004,
+      "transferBytes": 1510500,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-baseline-3.json",
+      "networkTransferByType": {
+        "Document": 5413,
+        "Stylesheet": 31730,
+        "Script": 600660,
+        "Image": 587672,
+        "Font": 283819,
+        "Other": 659,
+        "Fetch": 547
+      }
+    },
+    {
+      "page": "song",
+      "version": "baseline",
+      "round": 3,
+      "performance": 64.0,
+      "fcp": 4801.200000000001,
+      "lcp": 6601.2,
+      "tbt": 23.5,
+      "cls": 0,
+      "speedIndex": 5395.710992030503,
+      "transferBytes": 1259811,
+      "accessibility": 96.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-baseline-3.json",
+      "networkTransferByType": {
+        "Document": 7221,
+        "Stylesheet": 31730,
+        "Script": 645484,
+        "Image": 227236,
+        "Font": 343503,
+        "Fetch": 3978,
+        "Other": 659
+      }
+    },
+    {
+      "page": "home",
+      "version": "final",
+      "round": 1,
+      "performance": 83.0,
+      "fcp": 2564.4753,
+      "lcp": 4129.29465,
+      "tbt": 0,
+      "cls": 0,
+      "speedIndex": 2564.4753,
+      "transferBytes": 1470115,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-final-1.json",
+      "networkTransferByType": {
+        "Document": 6817,
+        "Script": 77805,
+        "Stylesheet": 32054,
+        "Image": 1150882,
+        "Font": 201898,
+        "Other": 659
+      }
+    },
+    {
+      "page": "song",
+      "version": "final",
+      "round": 1,
+      "performance": 77.0,
+      "fcp": 2406.2116,
+      "lcp": 5265.529,
+      "tbt": 43,
+      "cls": 0,
+      "speedIndex": 2406.2116,
+      "transferBytes": 936401,
+      "accessibility": 97.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-final-1.json",
+      "networkTransferByType": {
+        "Document": 8457,
+        "Script": 303148,
+        "Stylesheet": 35539,
+        "Image": 323409,
+        "Font": 261758,
+        "Fetch": 3431,
+        "Other": 659
+      }
+    },
+    {
+      "page": "home",
+      "version": "final",
+      "round": 2,
+      "performance": 89.0,
+      "fcp": 2645.9222999999997,
+      "lcp": 3159.9482,
+      "tbt": 0,
+      "cls": 0,
+      "speedIndex": 2645.9222999999997,
+      "transferBytes": 1470186,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-final-2.json",
+      "networkTransferByType": {
+        "Document": 6817,
+        "Script": 77805,
+        "Stylesheet": 32054,
+        "Image": 1150953,
+        "Font": 201898,
+        "Other": 659
+      }
+    },
+    {
+      "page": "song",
+      "version": "final",
+      "round": 2,
+      "performance": 77.0,
+      "fcp": 2406.1394,
+      "lcp": 5265.3485,
+      "tbt": 0,
+      "cls": 0,
+      "speedIndex": 2406.1394,
+      "transferBytes": 936401,
+      "accessibility": 97.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-final-2.json",
+      "networkTransferByType": {
+        "Document": 8457,
+        "Script": 303148,
+        "Stylesheet": 35539,
+        "Image": 323409,
+        "Font": 261758,
+        "Fetch": 3431,
+        "Other": 659
+      }
+    },
+    {
+      "page": "home",
+      "version": "final",
+      "round": 3,
+      "performance": 92.0,
+      "fcp": 2643.8277999999996,
+      "lcp": 2732.7703999999994,
+      "tbt": 0,
+      "cls": 0,
+      "speedIndex": 2643.8277999999996,
+      "transferBytes": 1470195,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-home-final-3.json",
+      "networkTransferByType": {
+        "Document": 6817,
+        "Script": 77805,
+        "Stylesheet": 32054,
+        "Image": 1150962,
+        "Font": 201898,
+        "Other": 659
+      }
+    },
+    {
+      "page": "song",
+      "version": "final",
+      "round": 3,
+      "performance": 77.0,
+      "fcp": 2408.2051,
+      "lcp": 5270.51275,
+      "tbt": 11,
+      "cls": 0,
+      "speedIndex": 2408.2051,
+      "transferBytes": 936401,
+      "accessibility": 97.0,
+      "bestPractices": 100,
+      "seo": 100,
+      "warnings": [],
+      "rawReport": "lighthouse-final-song-final-3.json",
+      "networkTransferByType": {
+        "Document": 8457,
+        "Script": 303148,
+        "Stylesheet": 35539,
+        "Image": 323409,
+        "Font": 261758,
+        "Fetch": 3431,
+        "Other": 659
+      }
+    }
+  ],
+  "postMeasurementVerification": {
+    "scope": "Single final-CSS verification. Separate from 3-run mobile performance medians.",
+    "url": "http://127.0.0.1:4173/lisa-sawadika-turkce-ceviri/",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "runWarnings": [],
+    "buildFingerprintFile": "final-css-build-fingerprint.json",
+    "failedScoredAudits": [],
+    "nonScoringDiagnostics": [
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Final build after desktop-only hero fit and comment contrast CSS corrections. Mobile performance medians remain tied to measured-build-fingerprints.json; this separate check verifies final accessibility.",
+  "sha256": "79c6d7495adc5fbd1a7b1aaff389d6ff27be3f19d49073c077c79567417f0b8b",
+  "fileCount": 53,
+  "includes": "Home and song HTML plus all built JS and CSS files"
+}

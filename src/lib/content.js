@@ -1,7 +1,7 @@
 import posts from "../data/postIndex.json";
-import artistsRaw from "../data/artists.json";
-import { popGundemiArticles } from "../data/popGundemi";
-import { linesFor } from "./searchLines";
+import artistsRaw from "../data/artistIndex.json";
+import popGundemiArticles from "../data/popGundemiIndex.json";
+import { articleTextFor, linesFor } from "./searchLines";
 import { MOOD_NAMES, moodsForPost, primaryMoodForPost } from "./moodClassifier";
 import { languagesFor } from "./languages";
 
@@ -252,8 +252,7 @@ function searchableArticleText(article) {
     article.kicker,
     article.excerpt,
     article.dek,
-    ...(article.summary || []),
-    ...(article.sections || []).flatMap((section) => [section.heading, ...(section.body || [])]),
+    articleTextFor(article.slug),
   ]
     .filter(Boolean)
     .join(" ")

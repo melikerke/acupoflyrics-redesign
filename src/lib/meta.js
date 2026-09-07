@@ -45,16 +45,12 @@ export function normalizeSeoTitle(value) {
   return fitSeoTitle([title, withoutSite, `${lead} | acupoflyrics`, lead]);
 }
 
-export function completeSeoDescription(value) {
-  let normalized = sanitizeSeoDescription(value);
-  if (!normalized) {
-    normalized = "Şarkı sözlerini, özenli çevirileri, sanatçı ve albüm arşivlerini acupoflyrics üzerinde bağlamlarıyla keşfet.";
-  }
-  if (normalized.length >= 110) return normalized;
-  const appendix = /lyrics?|English translation/i.test(normalized)
-    ? " Explore every song, album, original lyric and contextual line note in the acupoflyrics archive."
-    : " Şarkıları, sanatçıları, albümleri ve satır açıklamalarını acupoflyrics arşivinde keşfet.";
-  return sanitizeSeoDescription(`${normalized}${appendix}`);
+export function completeSeoDescription(value, locale = "tr") {
+  // A complete short sentence is better than padding to a character target.
+  // The brand includes "lyrics", so content text must never infer its locale.
+  return sanitizeSeoDescription(value) || (locale === "en"
+    ? "Discover song lyrics, thoughtful translations and contextual notes in the acupoflyrics archive."
+    : "Şarkı sözlerini, özenli çevirileri, sanatçı ve albüm arşivlerini acupoflyrics üzerinde bağlamlarıyla keşfet.");
 }
 
 export function translationMetaTitle(post) {

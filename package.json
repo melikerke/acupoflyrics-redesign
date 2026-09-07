@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generatePostIndex.js && node scripts/generateLegacyCategoryRedirects.js && vite build && node scripts/prerenderSeo.js",
+    "build": "node scripts/generatePostIndex.js && node scripts/generateHomeIndex.js && node scripts/generateLegacyCategoryRedirects.js && vite build && node scripts/prerenderSeo.js",
     "preview": "vite preview",
     "import:wp-seo": "node scripts/importWpSeo.js",
     "import:wp-acf": "node scripts/importWpAcfPosts.js",
@@ -19,14 +19,17 @@
     "fix:artist-credits": "node scripts/fixImportedArtistCredits.js",
     "repair:track-metadata": "node scripts/repairImportedTrackMetadata.js",
     "publish:translation": "node scripts/publishTranslation.js",
-    "update:charts": "node scripts/updateCharts.js"
+    "update:charts": "node scripts/updateCharts.js",
+    "audit:payload": "node scripts/auditBuildPayload.js",
+    "test:seo-performance": "node --test tests/home-index.test.js && node scripts/testPrerenderSeo.js"
   },
   "dependencies": {
     "@vercel/functions": "^3.7.5",
     "framer-motion": "^11.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0"
+    "react-router-dom": "^6.28.0",
+    "web-vitals": "^6.2.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",

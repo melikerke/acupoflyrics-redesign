@@ -45,8 +45,8 @@ export default function PrivacyPage() {
           <h2>Tercihin nasıl çalışıyor?</h2>
           <p>
             Analitiğe izin verirsen Google Analytics ölçümü etkinleşir. Reddedersen
-            analitik çerezleri yazılmaz; Google Consent Mode kapsamında sınırlı,
-            çerezsiz sinyaller işlenebilir. Tercihin yalnızca bu tarayıcıda saklanır
+            Google Analytics yüklenmez ve yeni kullanım olayları gönderilmez.
+            Tercihin yalnızca bu tarayıcıda saklanır
             ve dilediğin zaman değiştirilebilir.
           </p>
 

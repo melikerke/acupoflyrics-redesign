@@ -1,0 +1,344 @@
+{
+  "method": "Static build dependency graph. Gzip sizes are local estimates; this is not a network, LCP or Core Web Vitals measurement. Font subsets load on demand and are not included in route totals.",
+  "routePayloads": {
+    "app": {
+      "javascript": {
+        "bytes": 177627,
+        "gzipEstimateBytes": 58231,
+        "files": [
+          {
+            "file": "assets/index-D9zbwN3w.js",
+            "bytes": 177627,
+            "gzipEstimateBytes": 58231
+          }
+        ]
+      },
+      "css": {
+        "bytes": 95729,
+        "gzipEstimateBytes": 18455,
+        "files": [
+          {
+            "file": "assets/index-6rHyHPcB.css",
+            "bytes": 95729,
+            "gzipEstimateBytes": 18455
+          }
+        ]
+      }
+    },
+    "home": {
+      "javascript": {
+        "bytes": 322953,
+        "gzipEstimateBytes": 88791,
+        "files": [
+          {
+            "file": "assets/index-D9zbwN3w.js",
+            "bytes": 177627,
+            "gzipEstimateBytes": 58231
+          },
+          {
+            "file": "assets/HomePreview-BYk6MERn.js",
+            "bytes": 125193,
+            "gzipEstimateBytes": 22279
+          },
+          {
+            "file": "assets/SiteShell-BH_X4Ag1.js",
+            "bytes": 9894,
+            "gzipEstimateBytes": 3641
+          },
+          {
+            "file": "assets/paths-zowJmOBi.js",
+            "bytes": 2200,
+            "gzipEstimateBytes": 1048
+          },
+          {
+            "file": "assets/images-CVMycfXJ.js",
+            "bytes": 432,
+            "gzipEstimateBytes": 255
+          },
+          {
+            "file": "assets/history-5bBGtnlz.js",
+            "bytes": 1917,
+            "gzipEstimateBytes": 1001
+          },
+          {
+            "file": "assets/theme-BH9yx8dl.js",
+            "bytes": 1272,
+            "gzipEstimateBytes": 488
+          },
+          {
+            "file": "assets/seo-Cip2prg-.js",
+            "bytes": 4418,
+            "gzipEstimateBytes": 1848
+          }
+        ]
+      },
+      "css": {
+        "bytes": 159892,
+        "gzipEstimateBytes": 29710,
+        "files": [
+          {
+            "file": "assets/index-6rHyHPcB.css",
+            "bytes": 95729,
+            "gzipEstimateBytes": 18455
+          },
+          {
+            "file": "assets/SiteShell-Bh6INS9_.css",
+            "bytes": 64163,
+            "gzipEstimateBytes": 11255
+          }
+        ]
+      }
+    },
+    "song": {
+      "javascript": {
+        "bytes": 1130082,
+        "gzipEstimateBytes": 288403,
+        "files": [
+          {
+            "file": "assets/index-D9zbwN3w.js",
+            "bytes": 177627,
+            "gzipEstimateBytes": 58231
+          },
+          {
+            "file": "assets/LyricDetail-BetTrFba.js",
+            "bytes": 41022,
+            "gzipEstimateBytes": 14115
+          },
+          {
+            "file": "assets/SiteShell-BH_X4Ag1.js",
+            "bytes": 9894,
+            "gzipEstimateBytes": 3641
+          },
+          {
+            "file": "assets/paths-zowJmOBi.js",
+            "bytes": 2200,
+            "gzipEstimateBytes": 1048
+          },
+          {
+            "file": "assets/content-CfAqmuiY.js",
+            "bytes": 751943,
+            "gzipEstimateBytes": 161987
+          },
+          {
+            "file": "assets/popGundemiIndex-jS6WD9EI.js",
+            "bytes": 29493,
+            "gzipEstimateBytes": 9851
+          },
+          {
+            "file": "assets/history-5bBGtnlz.js",
+            "bytes": 1917,
+            "gzipEstimateBytes": 1001
+          },
+          {
+            "file": "assets/seo-Cip2prg-.js",
+            "bytes": 4418,
+            "gzipEstimateBytes": 1848
+          },
+          {
+            "file": "assets/proxy-SiGjJw4N.js",
+            "bytes": 111568,
+            "gzipEstimateBytes": 36681
+          }
+        ]
+      },
+      "css": {
+        "bytes": 159892,
+        "gzipEstimateBytes": 29710,
+        "files": [
+          {
+            "file": "assets/index-6rHyHPcB.css",
+            "bytes": 95729,
+            "gzipEstimateBytes": 18455
+          },
+          {
+            "file": "assets/SiteShell-Bh6INS9_.css",
+            "bytes": 64163,
+            "gzipEstimateBytes": 11255
+          }
+        ]
+      }
+    },
+    "journal": {
+      "javascript": {
+        "bytes": 232754,
+        "gzipEstimateBytes": 77494,
+        "files": [
+          {
+            "file": "assets/index-D9zbwN3w.js",
+            "bytes": 177627,
+            "gzipEstimateBytes": 58231
+          },
+          {
+            "file": "assets/PopGundemiPage-Cy3EEUQC.js",
+            "bytes": 7850,
+            "gzipEstimateBytes": 2387
+          },
+          {
+            "file": "assets/popGundemiIndex-jS6WD9EI.js",
+            "bytes": 29493,
+            "gzipEstimateBytes": 9851
+          },
+          {
+            "file": "assets/SiteShell-BH_X4Ag1.js",
+            "bytes": 9894,
+            "gzipEstimateBytes": 3641
+          },
+          {
+            "file": "assets/paths-zowJmOBi.js",
+            "bytes": 2200,
+            "gzipEstimateBytes": 1048
+          },
+          {
+            "file": "assets/theme-BH9yx8dl.js",
+            "bytes": 1272,
+            "gzipEstimateBytes": 488
+          },
+          {
+            "file": "assets/seo-Cip2prg-.js",
+            "bytes": 4418,
+            "gzipEstimateBytes": 1848
+          }
+        ]
+      },
+      "css": {
+        "bytes": 171637,
+        "gzipEstimateBytes": 32349,
+        "files": [
+          {
+            "file": "assets/index-6rHyHPcB.css",
+            "bytes": 95729,
+            "gzipEstimateBytes": 18455
+          },
+          {
+            "file": "assets/PopGundemiPage-DcI62bYH.css",
+            "bytes": 11745,
+            "gzipEstimateBytes": 2639
+          },
+          {
+            "file": "assets/SiteShell-Bh6INS9_.css",
+            "bytes": 64163,
+            "gzipEstimateBytes": 11255
+          }
+        ]
+      }
+    },
+    "article": {
+      "javascript": {
+        "bytes": 1237397,
+        "gzipEstimateBytes": 306883,
+        "files": [
+          {
+            "file": "assets/index-D9zbwN3w.js",
+            "bytes": 177627,
+            "gzipEstimateBytes": 58231
+          },
+          {
+            "file": "assets/PopGundemiArticlePage-8ihrtn8c.js",
+            "bytes": 260039,
+            "gzipEstimateBytes": 69442
+          },
+          {
+            "file": "assets/content-CfAqmuiY.js",
+            "bytes": 751943,
+            "gzipEstimateBytes": 161987
+          },
+          {
+            "file": "assets/popGundemiIndex-jS6WD9EI.js",
+            "bytes": 29493,
+            "gzipEstimateBytes": 9851
+          },
+          {
+            "file": "assets/paths-zowJmOBi.js",
+            "bytes": 2200,
+            "gzipEstimateBytes": 1048
+          },
+          {
+            "file": "assets/SiteShell-BH_X4Ag1.js",
+            "bytes": 9894,
+            "gzipEstimateBytes": 3641
+          },
+          {
+            "file": "assets/theme-BH9yx8dl.js",
+            "bytes": 1272,
+            "gzipEstimateBytes": 488
+          },
+          {
+            "file": "assets/seo-Cip2prg-.js",
+            "bytes": 4418,
+            "gzipEstimateBytes": 1848
+          },
+          {
+            "file": "assets/NotFound-DvF-jQXp.js",
+            "bytes": 511,
+            "gzipEstimateBytes": 347
+          }
+        ]
+      },
+      "css": {
+        "bytes": 177031,
+        "gzipEstimateBytes": 33152,
+        "files": [
+          {
+            "file": "assets/index-6rHyHPcB.css",
+            "bytes": 95729,
+            "gzipEstimateBytes": 18455
+          },
+          {
+            "file": "assets/PopGundemiArticlePage-CJveSw4a.css",
+            "bytes": 17139,
+            "gzipEstimateBytes": 3442
+          },
+          {
+            "file": "assets/SiteShell-Bh6INS9_.css",
+            "bytes": 64163,
+            "gzipEstimateBytes": 11255
+          }
+        ]
+      }
+    }
+  },
+  "largestJs": [
+    {
+      "file": "assets/content-CfAqmuiY.js",
+      "bytes": 751943,
+      "gzipEstimateBytes": 161987
+    },
+    {
+      "file": "assets/PopGundemiArticlePage-8ihrtn8c.js",
+      "bytes": 260039,
+      "gzipEstimateBytes": 69442
+    },
+    {
+      "file": "assets/index-D9zbwN3w.js",
+      "bytes": 177627,
+      "gzipEstimateBytes": 58231
+    },
+    {
+      "file": "assets/HomePreview-BYk6MERn.js",
+      "bytes": 125193,
+      "gzipEstimateBytes": 22279
+    },
+    {
+      "file": "assets/proxy-SiGjJw4N.js",
+      "bytes": 111568,
+      "gzipEstimateBytes": 36681
+    },
+    {
+      "file": "assets/LyricDetail-BetTrFba.js",
+      "bytes": 41022,
+      "gzipEstimateBytes": 14115
+    },
+    {
+      "file": "assets/popGundemiIndex-jS6WD9EI.js",
+      "bytes": 29493,
+      "gzipEstimateBytes": 9851
+    },
+    {
+      "file": "assets/AdminPage-DwWzW70m.js",
+      "bytes": 28372,
+      "gzipEstimateBytes": 8605
+    }
+  ],
+  "localFontSubsets": 14,
+  "checks": "One canonical; original home markup; original decorative hero image; local fonts exist; full article route is excluded from home imports."
+}

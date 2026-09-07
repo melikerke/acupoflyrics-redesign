@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+    "result": "200 0 https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/6c4b269cd416.external.html"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FyS5dAywkEo",
+    "result": "200 0 https://www.youtube.com/watch?v=FyS5dAywkEo",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/690570da5c99.external.html"
+  },
+  {
+    "url": "https://www.billboard.com/charts/hot-100/",
+    "result": "200 0 https://www.billboard.com/charts/hot-100/",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/803304b27638.external.html"
+  },
+  {
+    "url": "https://instagram.com/acupoflyrics",
+    "result": "200 1 https://www.instagram.com/acupoflyrics",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/3b585e46e36a.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+    "result": "200 0 https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/42ac5e86996f.external.html"
+  },
+  {
+    "url": "https://www.officialcharts.com/chart-news/trending-songs-uk-september-1-2026/",
+    "result": "200 0 https://www.officialcharts.com/chart-news/trending-songs-uk-september-1-2026/",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/9c8152488a26.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+    "result": "200 0 https://open.spotify.com/track/6ZAuQOgLrNQb9s7BXheuTy",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/41ac78416d84.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+    "result": "200 0 https://open.spotify.com/track/3zOYmiNOuyDL0ClxJcEJ0T",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/ad83e18ed92f.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+    "result": "200 0 https://open.spotify.com/track/649sdeRNPf05BOLBj1mAM9",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/607d742cafdd.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+    "result": "200 0 https://open.spotify.com/track/6pk6E0SZxILzfaAGFngxEs",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/05f5a07f6353.external.html"
+  },
+  {
+    "url": "https://kworb.net/youtube/trending_music.html",
+    "result": "200 0 https://kworb.net/youtube/trending_music.html",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/79049211e24c.external.html"
+  },
+  {
+    "url": "https://smtown-official.jp/news/detail.php?nid=4SWkR23kJq4%3D",
+    "result": "200 0 https://smtown-official.jp/news/detail.php?nid=4SWkR23kJq4%3D",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/31fd555d0397.external.html"
+  },
+  {
+    "url": "https://weverse.io/girlsgeneration/media/4-240416258",
+    "result": "200 0 https://weverse.io/girlsgeneration/media/4-240416258",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/ee6e667a51b1.external.html"
+  },
+  {
+    "url": "https://kworb.net/spotify/country/global_daily.html",
+    "result": "200 0 https://kworb.net/spotify/country/global_daily.html",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/e9345a0b9f50.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+    "result": "200 0 https://open.spotify.com/track/7cgu4JBW3hq1GwTM1ilkKQ",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/af2f53b4e238.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+    "result": "200 0 https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/dee949f44bae.external.html"
+  },
+  {
+    "url": "https://www.billboard.com/charts/billboard-200/",
+    "result": "200 0 https://www.billboard.com/charts/billboard-200/",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/5897891a2281.external.html"
+  },
+  {
+    "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
+    "result": "200 0 https://circlechart.kr/page_chart/global.circle?termGbn=day",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/29f659a6a92e.external.html"
+  },
+  {
+    "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
+    "result": "200 0 https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/2b944d03b84d.external.html"
+  },
+  {
+    "url": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
+    "result": "200 0 https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
+    "error": "",
+    "bodyfile": "/tmp/acup-crawl/0d8c635a2cab.external.html"
+  }
+]

@@ -1,0 +1,17 @@
+
+> acupoflyrics-redesign@0.1.0 test:seo-performance
+> node --test tests/home-index.test.js && node scripts/testPrerenderSeo.js
+
+✔ homepage dependency graph does not load the complete song, artist or article catalogs (44.489875ms)
+✔ home payload preserves the former shelves and priority hero without the full catalog (28.257791ms)
+✔ first visits fetch nothing; new history stores small cards and old slugs migrate on demand (1.870458ms)
+✔ history keeps successive session entries when storage reads work but writes fail (0.508917ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.410709
+SEO regressions passed: 10 mood collections, 31 article link sets, support pages, private routes, compact indexes and generated-site link audit.

@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 import { firstPair, formatDate, metricsFor, releaseYear } from "../../lib/content";
 import { albumPath, artistPath, collectionPath, genrePath, moodPath, songPath } from "../../lib/paths";
 import { Icon } from "./ui";
+import { spotifyImageUrl } from "../../lib/images";
 
 // SONG → song page. The everyday cover card (cover, song, artist, meta).
 export function SongCard({ post, showArtist = true }) {
   const m = metricsFor(post);
   return (
     <Link to={songPath(post)} className="acl-cover-card">
-      <img src={post.cover} alt={`${post.artist} — ${post.song}`} loading="lazy" />
+      <img src={spotifyImageUrl(post.cover, 300)} alt={`${post.artist} — ${post.song}`} width="300" height="300" loading="lazy" decoding="async" />
       <strong>{post.song}</strong>
       {showArtist && <span>{post.artist}</span>}
       <small>{m.readingTime} dk okuma · {releaseYear(post)}</small>
@@ -23,7 +24,7 @@ export function TrackCard({ post, index }) {
     <Link to={songPath(post)} className="site-track-card">
       <div className="site-track-cover">
         {typeof index === "number" && <span className="site-track-no">{index + 1}</span>}
-        <img src={post.cover} alt={`${post.artist} — ${post.song}`} loading="lazy" />
+        <img src={spotifyImageUrl(post.cover, 300)} alt={`${post.artist} — ${post.song}`} width="300" height="300" loading="lazy" decoding="async" />
         <span className="site-track-play"><Icon name="play" size={16} /></span>
       </div>
       <strong>{post.song}</strong>

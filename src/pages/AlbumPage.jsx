@@ -12,6 +12,7 @@ import { useAlbumColor } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import { fitSeoTitle } from "../lib/meta";
+import { albumArchiveDescription, albumCoverage } from "../lib/catalogRelease";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, Grid, Icon, Section, Shelf } from "../components/site/ui";
@@ -73,7 +74,7 @@ export default function AlbumPage() {
       `${album.name} Albüm Çevirileri | acupoflyrics`,
       `${album.name} Albüm Çevirileri`,
     ]) : "Albüm bulunamadı",
-    description: album?.description,
+    description: albumArchiveDescription(album),
     path,
     image: album?.cover,
     type: "music.album",
@@ -94,7 +95,7 @@ export default function AlbumPage() {
           byArtist: { "@type": "MusicGroup", name: album.artist },
           datePublished: album.releaseDate,
           image: album.cover,
-          numTracks: album.tracks.length,
+          ...(albumCoverage(album).total ? { numTracks: albumCoverage(album).total } : {}),
           url: canonical(path),
           track: album.tracks.map((t) => ({ "@type": "MusicRecording", name: t.song, url: canonical(`/${t.slug}/`) })),
         }
