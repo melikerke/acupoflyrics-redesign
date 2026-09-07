@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import {
   readAnalyticsConsent,
   setAnalyticsConsent,
 } from "../lib/analytics";
 
 export default function ConsentBanner() {
+  const { pathname } = useLocation();
+  const spanish = pathname === "/es" || pathname.startsWith("/es/");
   const [open, setOpen] = useState(() => readAnalyticsConsent() === null);
   const isAdmin = window.location.pathname.startsWith("/admin");
 
@@ -22,20 +25,19 @@ export default function ConsentBanner() {
   if (!open || isAdmin) return null;
 
   return (
-    <section className="acl-consent" role="dialog" aria-label="Çerez tercihleri">
+    <section className="acl-consent" role="dialog" aria-label={spanish ? "Preferencias de cookies" : "Çerez tercihleri"}>
       <div className="acl-consent-copy">
-        <span>Gizlilik tercihi</span>
+        <span>{spanish ? "Tu privacidad" : "Gizlilik tercihi"}</span>
         <p>
-          Siteyi iyileştirmek için toplu kullanım verisi toplayabiliriz.
-          Reklam kişiselleştirmesi kapalı kalır.
+          {spanish ? "Podemos recopilar datos de uso agregados para mejorar el sitio. La personalización de anuncios permanece desactivada." : "Siteyi iyileştirmek için toplu kullanım verisi toplayabiliriz. Reklam kişiselleştirmesi kapalı kalır."}
         </p>
       </div>
       <div className="acl-consent-actions">
         <button type="button" className="is-secondary" onClick={() => choose(false)}>
-          Reddet
+          {spanish ? "Rechazar" : "Reddet"}
         </button>
         <button type="button" className="is-primary" onClick={() => choose(true)}>
-          Analitiğe izin ver
+          {spanish ? "Permitir analítica" : "Analitiğe izin ver"}
         </button>
       </div>
     </section>

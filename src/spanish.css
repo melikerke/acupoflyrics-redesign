@@ -1,0 +1,15 @@
+/* Locale-specific layout; the existing Turkish pages keep their styles. */
+.spanish-search { display: grid; gap: 8px; max-width: 560px; margin-bottom: 20px; }
+.spanish-search input { width: 100%; min-height: 44px; border: 1px solid var(--acl-border); border-radius: 999px; padding: 10px 16px; background: var(--acl-card); color: var(--acl-text); font: inherit; }
+.spanish-search input:focus-visible { outline: 2px solid var(--acl-accent); outline-offset: 3px; }
+.spanish-translation-page #lyrics-reader,
+.spanish-translation-page .detail-lyric-section { scroll-margin-top: 100px; }
+.spanish-translation-page .detail-section-translation { white-space: pre-line; overflow-wrap: anywhere; }
+.spanish-translation-page .detail-section-pill { white-space: normal; }
+.spanish-translation-page .detail-reader-tools { grid-template-columns: minmax(0, 1fr); }
+.spanish-translation-page .detail-info-panel details { margin-top: 24px; }
+.spanish-translation-page .detail-info-panel summary { cursor: pointer; font-weight: 600; }
+.spanish-translation-page .detail-info-panel li { margin-top: 8px; font-size: 14px; }
+.spanish-related { padding: 28px clamp(20px, 3vw, 42px); border-top: 1px solid var(--color-line); }
+.spanish-related h2 { margin-bottom: 16px; font-size: 20px; }
+.spanish-related a { display: block; padding: 10px 0; }

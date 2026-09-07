@@ -1,11 +1,13 @@
 import { lazy, Suspense, useEffect, useState, Component } from "react";
-import { Navigate, Routes, Route, useLocation } from "react-router-dom";
+import { Navigate, Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import ConsentBanner from "./components/ConsentBanner";
 import { installOutboundClickTracking, installWebVitals, trackPageView } from "./lib/analytics";
 
 const SearchOverlay = lazy(() => import("./components/SearchOverlay"));
 const Home = lazy(() => import("./pages/HomePreview"));
 const LyricDetail = lazy(() => import("./pages/LyricDetail"));
+const SpanishHome = lazy(() => import("./pages/SpanishHome"));
+const SpanishTranslationPage = lazy(() => import("./pages/SpanishTranslationPage"));
 const ArtistPage = lazy(() => import("./pages/ArtistPage"));
 const AlbumPage = lazy(() => import("./pages/AlbumPage"));
 const CollectionPage = lazy(() => import("./pages/CollectionPage"));
@@ -67,6 +69,7 @@ function RouteFallback() {
 export default function App() {
 
   const location = useLocation();
+  const navigate = useNavigate();
   const [searchOpen, setSearchOpen] = useState(false);
 
   // Scroll to top on route change — instant, so smooth-scroll CSS can't leave
@@ -85,17 +88,19 @@ export default function App() {
 
   // Global ⌘K / Ctrl-K.
   useEffect(() => {
+    const spanish = location.pathname === "/es" || location.pathname.startsWith("/es/");
+    const openSearch = () => spanish ? navigate("/es#buscar") : setSearchOpen(true);
     const onKey = (e) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") { e.preventDefault(); setSearchOpen((v) => !v); }
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") { e.preventDefault(); if (spanish) openSearch(); else setSearchOpen((v) => !v); }
     };
-    const onOpenSearch = () => setSearchOpen(true);
+    const onOpenSearch = openSearch;
     window.addEventListener("keydown", onKey);
     window.addEventListener("acupoflyrics:open-search", onOpenSearch);
     return () => {
       window.removeEventListener("keydown", onKey);
       window.removeEventListener("acupoflyrics:open-search", onOpenSearch);
     };
-  }, []);
+  }, [location.pathname, navigate]);
 
   return (
     <>
@@ -109,6 +114,9 @@ export default function App() {
         <ErrorBoundary>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
+            <Route path="/es" element={<SpanishHome />} />
+            <Route path="/es/:slug" element={<SpanishTranslationPage />} />
+            <Route path="/es/*" element={<SpanishTranslationPage />} />
 
             {/* Songs — canonical pretty URL is /<slug>/; these are working aliases. */}
             <Route path="/song/:slug" element={<LyricDetail />} />

@@ -64,6 +64,7 @@ export function useSeo({
   type = "website",
   noindex = false,
   locale = "tr",
+  alternates = [],
   breadcrumbs = [],
   jsonLd = null,
 }) {
@@ -73,6 +74,15 @@ export function useSeo({
     const metaDescription = completeSeoDescription(description, locale);
     const url = path ? `${ORIGIN}${path}` : undefined;
     document.title = metaTitle;
+    document.documentElement.lang = locale;
+    document.head.querySelectorAll('link[rel="alternate"][hreflang]').forEach((link) => link.remove());
+    alternates.forEach(({ language, path: alternatePath }) => {
+      const link = document.createElement("link");
+      link.rel = "alternate";
+      link.hreflang = language;
+      link.href = `${ORIGIN}${alternatePath}`;
+      document.head.appendChild(link);
+    });
     setMeta("description", metaDescription);
     setMeta("og:title", metaTitle, "property");
     setMeta("og:description", metaDescription, "property");
@@ -104,5 +114,5 @@ export function useSeo({
     setJsonLd("apl-structured-data", jsonLd);
     // Re-run whenever the serialisable inputs change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title, description, path, image, type, noindex, locale, JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
+  }, [title, description, path, image, type, noindex, locale, JSON.stringify(alternates), JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
 }

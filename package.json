@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generatePostIndex.js && node scripts/generateHomeIndex.js && node scripts/generateLegacyCategoryRedirects.js && vite build && node scripts/prerenderSeo.js",
+    "build": "node scripts/generatePostIndex.js && node scripts/generateHomeIndex.js && node scripts/generateLegacyCategoryRedirects.js && node scripts/generateTranslations.js && vite build && node scripts/prerenderSeo.js",
     "preview": "vite preview",
     "import:wp-seo": "node scripts/importWpSeo.js",
     "import:wp-acf": "node scripts/importWpAcfPosts.js",
@@ -21,7 +21,8 @@
     "publish:translation": "node scripts/publishTranslation.js",
     "update:charts": "node scripts/updateCharts.js",
     "audit:payload": "node scripts/auditBuildPayload.js",
-    "test:seo-performance": "node --test tests/home-index.test.js && node scripts/testPrerenderSeo.js"
+    "test:seo-performance": "node --test tests/home-index.test.js && node scripts/testPrerenderSeo.js",
+    "test:translations": "node --test tests/spanish-translations.test.js"
   },
   "dependencies": {
     "@vercel/functions": "^3.7.5",

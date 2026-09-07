@@ -10,12 +10,15 @@ import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogRe
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks } from "./lib/prerenderContent.js";
+import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
+import { spanishHome } from "../src/lib/spanishMetadata.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
 const SITE = "https://www.acupoflyrics.com";
 
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
+const spanishTranslations = buildSpanishTranslations(await readFile(path.join(ROOT, "src/data/translations/es/submitted-2026-09-07.md"), "utf8"), posts);
 const catalogPosts = posts.map((post) => ({ ...post, spotify: compactSpotify(post.spotify) }));
 const homeIndex = JSON.parse(await readFile(path.join(ROOT, "src/data/homeIndex.json"), "utf8"));
 const musicLists = JSON.parse(await readFile(path.join(ROOT, "src/data/musicLists.json"), "utf8"));
@@ -243,9 +246,9 @@ function staticHome(items) {
   </div>`;
 }
 
-function staticPage({ kicker, title, description, image, imageAlt, children = "" }) {
+function staticPage({ kicker, title, description, image, imageAlt, children = "", locale = "tr" }) {
   return `<div class="seo-prerender">
-    <nav><a href="/">acupoflyrics</a><a href="/discover">Keşfet</a><a href="/sarkilar">Şarkılar</a><a href="/sanatcilar">Sanatçılar</a><a href="/search">Ara</a></nav>
+    ${locale === "es" ? '<nav aria-label="Navegación principal"><a href="/es">acupoflyrics</a><a href="/es">Canciones en español</a><a href="/" lang="tr">Türkçe</a></nav>' : '<nav><a href="/">acupoflyrics</a><a href="/discover">Keşfet</a><a href="/sarkilar">Şarkılar</a><a href="/sanatcilar">Sanatçılar</a><a href="/search">Ara</a></nav>'}
     <main>
       <article>
         ${kicker ? `<p class="seo-kicker">${escapeHtml(kicker)}</p>` : ""}
@@ -255,7 +258,7 @@ function staticPage({ kicker, title, description, image, imageAlt, children = ""
         ${children}
       </article>
     </main>
-    <footer class="seo-footer"><a href="/albumler">Albümler</a><a href="/listeler">Müzik Listeleri</a><a href="/pop-gunlugu">Pop Günlüğü</a><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a></footer>
+    ${locale === "es" ? '<footer class="seo-footer"><a href="/es">Todas las canciones</a><a href="/" lang="tr">Türkçe</a></footer>' : '<footer class="seo-footer"><a href="/albumler">Albümler</a><a href="/listeler">Müzik Listeleri</a><a href="/pop-gunlugu">Pop Günlüğü</a><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a></footer>'}
   </div>`;
 }
 
@@ -388,6 +391,7 @@ function cleanHead(html) {
     .replace(/\s*<meta\s+name="(?:description|robots)"[\s\S]*?>/gi, "")
     .replace(/\s*<meta\s+(?:name|property)="(?:og:[^"]+|twitter:[^"]+)"[\s\S]*?>/gi, "")
     .replace(/\s*<link\s+rel="canonical"[\s\S]*?>/gi, "")
+    .replace(/\s*<link\s+rel="alternate"[^>]*hreflang=[^>]*>/gi, "")
     .replace(/\s*<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, "");
 }
 
@@ -405,6 +409,7 @@ function htmlFor(route) {
     <meta name="description" content="${escapeHtml(route.description)}" />
     ${route.noindex ? '<meta name="robots" content="noindex, follow" />' : ""}
     <link rel="canonical" href="${escapeHtml(canonical)}" />
+    ${(route.alternates || []).map((item) => `<link rel="alternate" hreflang="${escapeHtml(item.language)}" href="${escapeHtml(`${SITE}${item.path}`)}" />`).join("\n    ")}
     <meta property="og:title" content="${escapeHtml(route.title)}" />
     <meta property="og:description" content="${escapeHtml(route.description)}" />
     <meta property="og:type" content="${escapeHtml(route.type || "website")}" />
@@ -428,7 +433,7 @@ function htmlFor(route) {
     <style id="seo-prerender-styles">
       html,body{margin:0;min-height:100%;background:#071012}.seo-prerender{min-height:100vh;padding:28px;background:#071012;color:#f7f3ec;font:16px/1.65 Inter,system-ui,sans-serif}.seo-prerender>nav,.seo-prerender main{width:min(920px,100%);margin:auto}.seo-prerender>nav{display:flex;flex-wrap:wrap;gap:22px;padding:0 0 32px}.seo-prerender a{color:inherit}.seo-prerender article{display:flow-root}.seo-prerender h1{max-width:18ch;margin:0 0 18px;font:400 clamp(38px,7vw,72px)/1.02 Fraunces,Georgia,serif}.seo-prerender h2{margin-top:34px;font:400 25px/1.2 Fraunces,Georgia,serif}.seo-kicker{color:#ef8dad;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.seo-description{max-width:68ch;color:rgba(247,243,236,.72)}.seo-cover{float:right;width:min(320px,42vw);margin:0 0 26px 32px;border-radius:10px}.seo-prerender section span{color:rgba(247,243,236,.82)}.seo-prerender li{margin:9px 0}.seo-footer,.seo-home-footer{display:flex;flex-wrap:wrap;gap:18px;width:min(920px,100%);margin:52px auto 0;padding:24px 0;border-top:1px solid rgba(255,255,255,.12);font-size:13px}.seo-home-footer{width:min(100% - 56px,1378px);margin-top:0;padding-bottom:32px}.seo-breadcrumbs{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0;color:rgba(247,243,236,.66);font-size:13px}.seo-song-meta{margin:18px 0 28px}.seo-related{clear:both}.seo-song-pager{clear:both;display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12)}.seo-song-pager a:last-child{text-align:right}.seo-home-prerender,.seo-home-prerender *{box-sizing:border-box}.seo-home-prerender{--seo-bg:#071012;--seo-bg-soft:#0b1518;--seo-text:#f7f3ec;--seo-muted:rgba(247,243,236,.7);--seo-faint:rgba(247,243,236,.52);--seo-border:rgba(255,255,255,.09);--seo-accent:#d28075;min-height:100vh;overflow:hidden;background:radial-gradient(circle at 55% 2%,rgba(36,22,20,.24),transparent 32%),linear-gradient(180deg,var(--seo-bg),var(--seo-bg-soft));color:var(--seo-text);font-family:Inter,system-ui,sans-serif}.seo-home-prerender a{color:inherit;text-decoration:none}.seo-home-nav{position:relative;z-index:3;display:grid;grid-template-columns:minmax(150px,.6fr) minmax(540px,1.3fr) minmax(190px,.5fr);align-items:center;gap:22px;min-height:84px;width:min(100%,1510px);margin:auto;padding:0 clamp(28px,4.4vw,66px)}.seo-home-logo{font:italic 300 27px/1 Fraunces,Georgia,serif}.seo-home-nav nav{display:flex;align-items:center;justify-content:center;gap:clamp(16px,2.3vw,36px)}.seo-home-nav nav a{font-size:14px;opacity:.86}.seo-home-search{justify-self:end;display:inline-flex;align-items:center;gap:10px;min-height:42px;padding:0 18px;border:1px solid var(--seo-border);border-radius:999px;background:rgba(22,30,35,.66);color:var(--seo-muted);font-size:14px}.seo-home-search kbd{color:var(--seo-faint);font:12px Inter,system-ui,sans-serif}.seo-home-shell{display:grid;grid-template-columns:minmax(0,2.18fr) minmax(330px,.82fr);gap:clamp(22px,3vw,38px);width:min(100%,1510px);margin:auto;padding:12px clamp(28px,4.4vw,66px) 42px}.seo-home-shell>h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.seo-home-main{min-width:0;padding-right:clamp(22px,3vw,38px);border-right:1px solid var(--seo-border)}.seo-home-hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,49%);align-items:center;height:580px;overflow:hidden}.seo-home-hero-bg{position:absolute;inset:-16%;width:132%;height:132%;object-fit:cover;opacity:.48;filter:blur(42px) saturate(1.18);transform:scale(1.05)}.seo-home-vignette{position:absolute;inset:0;background:radial-gradient(circle at 76% 48%,transparent 0,rgba(0,0,0,.08) 28%,rgba(0,0,0,.3) 74%),linear-gradient(90deg,var(--seo-bg) 0%,rgba(7,16,18,.82) 38%,transparent 100%),linear-gradient(180deg,transparent 0%,rgba(7,16,18,.72) 100%)}.seo-home-copy{position:relative;z-index:2;max-width:590px;padding:30px clamp(26px,3vw,44px) 44px}.seo-home-kicker{display:flex;align-items:center;gap:16px;margin-bottom:26px;color:var(--seo-accent);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-kicker i{width:34px;height:1px;background:currentColor}.seo-home-copy blockquote{margin:0;color:var(--seo-text);font:300 clamp(50px,5.1vw,76px)/.98 Fraunces,Georgia,serif}.seo-home-original{margin:22px 0 0;color:var(--seo-muted);font-size:clamp(19px,1.8vw,24px);font-weight:300;line-height:1.35}.seo-home-meta{margin:14px 0 0;color:var(--seo-muted);font-size:17px}.seo-home-actions{display:flex;align-items:center;gap:22px;margin-top:42px}.seo-home-primary,.seo-home-listen{display:inline-flex;align-items:center;gap:10px;min-height:52px}.seo-home-primary{padding:0 28px;border-radius:999px;background:var(--seo-accent);color:#fff!important;font-size:14px;font-weight:600;box-shadow:0 18px 34px rgba(0,0,0,.24)}.seo-home-listen{font-size:15px}.seo-home-listen span{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--seo-border);border-radius:50%;background:rgba(22,30,35,.66);font-size:11px}.seo-home-art{position:relative;z-index:2;justify-self:end;width:min(100%,650px);aspect-ratio:1;overflow:hidden;border:1px solid rgba(255,255,255,.12);border-radius:8px;background:#111a1d;box-shadow:0 32px 78px rgba(0,0,0,.34)}.seo-home-art img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(1.06) contrast(1.04)}.seo-home-count{position:absolute;z-index:3;right:clamp(18px,2vw,32px);bottom:26px;display:flex;align-items:center;gap:12px;color:var(--seo-faint);font-size:13px}.seo-home-count span:first-child{color:var(--seo-accent)}.seo-home-count i{width:38px;height:1px;background:var(--seo-faint)}.seo-home-recent{content-visibility:auto;contain-intrinsic-block-size:420px;padding:34px 0;border-top:1px solid var(--seo-border)}.seo-home-recent>div>span{color:var(--seo-accent);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-recent h2{margin:8px 0 22px;font:300 34px/1.1 Fraunces,Georgia,serif}.seo-home-recent ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:0;padding:0;list-style:none}.seo-home-recent li{border-top:1px solid var(--seo-border)}.seo-home-recent li a{display:block;padding:13px 0;color:var(--seo-muted);font-size:14px}@media(max-width:1180px){.seo-home-shell{grid-template-columns:minmax(0,1fr)}.seo-home-main{padding-right:0;border-right:0}}@media(max-width:860px){.seo-home-nav{min-height:72px;grid-template-columns:1fr auto;padding:0 18px}.seo-home-nav nav{display:none}.seo-home-search{width:42px;padding:0;justify-content:center}.seo-home-search span,.seo-home-search kbd{display:none}.seo-home-shell{padding:8px 18px 34px}.seo-home-hero{display:flex;flex-direction:column-reverse;align-items:stretch;height:clamp(610px,120vw,640px);gap:14px;padding-bottom:18px}.seo-home-art{width:min(70vw,260px);margin-inline:auto}.seo-home-copy{padding:0 18px 4px}.seo-home-kicker{margin-bottom:16px}.seo-home-copy blockquote{font-size:clamp(38px,10vw,52px)}.seo-home-original{margin-top:14px;font-size:clamp(16px,4vw,19px)}.seo-home-meta{margin-top:8px;font-size:14px}.seo-home-actions{flex-wrap:wrap;margin-top:20px}.seo-home-count{display:none}.seo-home-recent ul{grid-template-columns:1fr}}@media(max-width:620px){.seo-prerender{padding:20px}.seo-cover{float:none;width:100%;margin:8px 0 18px}.seo-song-pager{grid-template-columns:1fr}.seo-song-pager a:last-child{text-align:left}}
     </style>`;
-  const withHead = cleanHead(template).replace("</head>", `${tags}\n  </head>`);
+  const withHead = cleanHead(template).replace(/<html\b[^>]*>/i, `<html lang="${escapeHtml(route.locale || "tr")}">`).replace("</head>", `${tags}\n  </head>`);
   return withHead.replace('<div id="root"></div>', `<div id="root">${route.staticHtml || ""}</div>`);
 }
 
@@ -861,6 +866,29 @@ for (const name of genreNames) {
       { name: "Keşfet", path: "/discover" },
       { name, path: genrePath },
     ],
+  }));
+}
+
+const spanishLinks = (items) => `<ul>${items.map((item) => `<li><a href="${escapeHtml(item.path)}">${escapeHtml(`${item.song} — ${item.artist}`)}</a></li>`).join("")}</ul>`;
+routes.push(route(spanishHome.path, spanishHome.title, spanishHome.description, spanishTranslations[0]?.cover, {
+  locale: "es",
+  staticHtml: staticPage({ locale: "es", kicker: "En español", title: "Letras traducidas", description: spanishHome.description, children: `<h2>Canciones</h2>${spanishLinks(spanishTranslations)}` }),
+}));
+for (const item of spanishTranslations) {
+  const alternates = [{ language: "tr", path: item.sourcePath }, { language: "es", path: item.path }];
+  const languageLinks = `<details class="translation-languages"><summary>Traducciones ▾</summary><nav aria-label="Idioma de la traducción"><a href="${escapeHtml(item.sourcePath)}" lang="tr" hreflang="tr">Türkçe</a> · <a href="${escapeHtml(item.path)}" lang="es" hreflang="es">Español</a></nav></details>`;
+  const source = routes.find((candidate) => candidate.path === item.sourcePath);
+  if (!source) throw new Error(`Missing Turkish route for ${item.slug}`);
+  source.alternates = alternates;
+  source.staticHtml = source.staticHtml.replace("</h1>", `</h1>${languageLinks.replace('Idioma de la traducción', 'Çeviri dili').replace('Traducciones ▾', 'Çeviriler ▾')}`);
+  routes.push(route(item.path, item.title, item.description, item.cover, {
+    locale: "es", alternates,
+    breadcrumbs: [{ name: "Inicio", path: "/es" }, { name: item.song, path: item.path }],
+    staticHtml: staticPage({
+      locale: "es", kicker: "Traducción al español", title: item.song, description: item.artist,
+      image: item.cover, imageAlt: `Portada de ${item.song} — ${item.artist}`,
+      children: `${item.vocals ? `<p>${escapeHtml(item.vocals)}</p>` : ""}${languageLinks}<h2>Letra en español</h2>${item.sections.map((section, index) => `<section id="seccion-${index + 1}" lang="es"><h3>${escapeHtml(section.label)}</h3><p>${section.lines.map(escapeHtml).join("<br />")}</p></section>`).join("")}<h2>Más canciones en español</h2>${spanishLinks(spanishTranslations.filter((other) => other.slug !== item.slug))}`,
+    }),
   }));
 }
 

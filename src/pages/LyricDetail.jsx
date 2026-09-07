@@ -22,6 +22,8 @@ import { trackEvent } from "../lib/analytics";
 import { translationMetaDescription, translationMetaTitle } from "../lib/meta";
 import { languageInfo, languagesFor, translationLabel } from "../lib/languages";
 import { useSeo } from "../lib/seo";
+import TranslationLanguages from "../components/TranslationLanguages";
+import { languageAlternates } from "../lib/translationVariants";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 const DETAIL_COPY = {
@@ -904,6 +906,7 @@ function DetailLyricsTable({
 
   return (
     <div className="detail-lyrics-table" lang={interfaceLocale}>
+      <TranslationLanguages sourceSlug={post.slug} locale={interfaceLocale} />
       <div className="detail-reader-tools">
         <label>
           <span>{ui.searchLabel}</span>
@@ -1457,6 +1460,7 @@ export default function LyricDetail() {
     image: post?.cover,
     type: "music.song",
     locale: languages.translation === "en" ? "en" : "tr",
+    alternates: languageAlternates(post?.slug),
     noindex: !post,
     breadcrumbs: post
       ? [

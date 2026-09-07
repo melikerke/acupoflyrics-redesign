@@ -1,0 +1,10 @@
+.translation-languages { position: relative; width: fit-content; margin: 0 0 10px; color: var(--color-ink, #f7f3ec); font-size: 13px; line-height: 1.4; }
+.translation-languages > summary { display: flex; align-items: center; gap: 6px; min-height: 32px; width: fit-content; cursor: pointer; list-style: none; }
+.translation-languages > summary::-webkit-details-marker { display: none; }
+.translation-languages > summary > span { text-decoration: underline; text-underline-offset: 3px; }
+.translation-languages > summary:hover { color: #fff; }
+.translation-languages > summary:focus-visible, .translation-languages a:focus-visible { outline: 2px solid var(--detail-accent, #d6457a); outline-offset: 3px; border-radius: 3px; }
+.translation-languages[open] .translation-languages-chevron { transform: rotate(180deg); }
+.translation-languages > nav { position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; width: 176px; max-width: calc(100vw - 64px); padding: 5px; border: 1px solid rgba(255,255,255,.16); border-radius: 6px; background: #151b20; box-shadow: 0 8px 24px rgba(0,0,0,.24); }
+.translation-languages a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 36px; padding: 6px 10px; border-radius: 3px; color: #f7f3ec; text-decoration: none; }
+.translation-languages a:hover, .translation-languages a[aria-current="page"] { background: rgba(255,255,255,.07); }

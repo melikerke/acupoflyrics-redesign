@@ -3,6 +3,9 @@ import { legacyAlbumRedirects } from "./server/legacyAlbumRedirects.js";
 import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
 import { legacyCategoryPathRedirects } from "./server/legacyCategoryPathRedirects.js";
 import { legacyPostRedirects } from "./server/legacyPostRedirects.js";
+import { spanishTranslationPaths } from "./server/translationRoutes.js";
+
+const spanishRoutes = new Set(spanishTranslationPaths);
 
 export const config = {
   matcher: [
@@ -73,6 +76,7 @@ const canonicalPrefixes = new Set([
   "ceviri",
   "data",
   "discover",
+  "es",
   "genre",
   "gizlilik",
   "hakkimizda",
@@ -97,6 +101,14 @@ function gone() {
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
   const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+
+  if (normalizedPath === "/es" || normalizedPath.startsWith("/es/")) {
+    if (spanishRoutes.has(normalizedPath)) return next();
+    return new Response('<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, follow"><title>Traducción no encontrada | acupoflyrics</title><main><h1>Traducción no encontrada</h1><a href="/es">Ver canciones en español</a></main></html>', {
+      status: 404,
+      headers: { "Content-Type": "text/html; charset=utf-8", "X-Robots-Tag": "noindex, follow" },
+    });
+  }
 
   if (staticLegacyRedirects[normalizedPath]) {
     return permanentRedirect(request, staticLegacyRedirects[normalizedPath]);
