@@ -887,7 +887,7 @@ for (const item of spanishTranslations) {
     staticHtml: staticPage({
       locale: "es", kicker: "Traducción al español", title: item.song, description: item.artist,
       image: item.cover, imageAlt: `Portada de ${item.song} — ${item.artist}`,
-      children: `${item.vocals ? `<p>${escapeHtml(item.vocals)}</p>` : ""}${languageLinks}<h2>Letra en español</h2>${item.sections.map((section, index) => `<section id="seccion-${index + 1}" lang="es"><h3>${escapeHtml(section.label)}</h3><p>${section.lines.map(escapeHtml).join("<br />")}</p></section>`).join("")}<h2>Más canciones en español</h2>${spanishLinks(spanishTranslations.filter((other) => other.slug !== item.slug))}`,
+      children: `${item.vocals ? `<p>${escapeHtml(item.vocals)}</p>` : ""}${languageLinks}<h2>Letra en español</h2>${item.sections.map((section, index) => `<section id="seccion-${index + 1}" lang="es"><h3>${escapeHtml(section.label)}</h3>${section.original.length ? `<p lang="en">${section.original.map(escapeHtml).join("<br />")}</p>` : ""}<p lang="es">${section.lines.map(escapeHtml).join("<br />")}</p></section>`).join("")}<h2>Más canciones en español</h2>${spanishLinks(spanishTranslations.filter((other) => other.slug !== item.slug))}`,
     }),
   }));
 }

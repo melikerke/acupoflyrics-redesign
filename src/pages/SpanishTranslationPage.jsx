@@ -1,10 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import SpanishShell, { SpanishNav, SpanishFooter } from "../components/site/SpanishShell";
-import TranslationLanguages from "../components/TranslationLanguages";
+import DetailLyricsTable from "../components/DetailLyricsTable";
+import { MetaRow, DetailVideo, youtubeEmbedUrl } from "../components/DetailSongExtras";
+import { copyForLanguage } from "../lib/detailCopy";
 import { translations, languageAlternates } from "../lib/translationVariants";
 import { useSeo } from "../lib/seo";
-import { useAlbumColor, rgb, shade } from "../lib/color";
+import { useAlbumColor, useAlbumPalette, isDark, rgb, shade } from "../lib/color";
 import { themeFromColor } from "../lib/theme";
 
 export default function SpanishTranslationPage() {
@@ -16,6 +18,21 @@ export default function SpanishTranslationPage() {
   const [attempt, setAttempt] = useState(0);
   const accent = useAlbumColor(entry?.cover);
   const theme = themeFromColor(accent);
+  const cardPalette = useAlbumPalette(entry?.cover, [accent, shade(accent, .72), shade(accent, .46)]);
+  const readerRef = useRef(null);
+  const [shared, setShared] = useState(false);
+  const ui = copyForLanguage("es");
+  const languages = { original: "en", translation: "es", annotations: "es" };
+  const readerPost = useMemo(() => ({ ...entry, ...content?.sourceMetadata, date: entry?.translationDate }), [entry, content]);
+  const sections = useMemo(() => content?.sections.map((section) => ({ label: section.label, original: section.original, translation: section.lines })) || [], [content]);
+  const readTranslation = () => readerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const share = async () => {
+    const data = { title: entry.title, url: `https://www.acupoflyrics.com${entry.path}` };
+    try {
+      if (navigator.share) await navigator.share(data);
+      else { await navigator.clipboard.writeText(data.url); setShared(true); }
+    } catch { /* Cancelling the native share sheet leaves the page unchanged. */ }
+  };
   useEffect(() => {
     if (!entry) return;
     const controller = new AbortController();
@@ -34,9 +51,9 @@ export default function SpanishTranslationPage() {
   });
   if (!entry) return <SpanishShell><h1>Traducción no encontrada</h1><Link to="/es">Ver canciones en español</Link></SpanishShell>;
   const vars = {
-    ...theme.vars, "--detail-accent": rgb(accent), "--detail-accent-soft": rgb(accent, .11),
-    "--detail-accent-line": rgb(accent, .36), "--detail-accent-deep": rgb(shade(accent, .62)),
-    "--detail-hero-top": rgb(shade(accent, .64)), "--detail-hero-bottom": rgb(shade(accent, .32)),
+    ...theme.vars, "--acl-accent": rgb(accent), "--acl-accent-soft": rgb(accent, .18), "--acl-glow": rgb(accent, .18), "--detail-accent": rgb(accent), "--detail-accent-soft": rgb(accent, .11),
+    "--detail-accent-line": rgb(accent, .36), "--detail-accent-deep": rgb(shade(accent, !isDark(accent) ? .44 : .62)),
+    "--detail-hero-top": rgb(shade(accent, !isDark(accent) ? .42 : .64)), "--detail-hero-bottom": rgb(shade(accent, !isDark(accent) ? .20 : .32)),
     "--color-ink": "#f7f3ec", "--color-ink-soft": "rgba(247,243,236,.78)", "--color-muted": "rgba(247,243,236,.64)",
     "--color-faint": "rgba(247,243,236,.48)", "--color-line": "rgba(255,255,255,.11)",
   };
@@ -51,26 +68,28 @@ export default function SpanishTranslationPage() {
           <h1 className="font-serif">{entry.song}</h1><div className="detail-artist-line">{entry.artist}</div>
           <div className="detail-hero-meta"><span>Traducción al español</span>{entry.album && <span>◇ {entry.album}</span>}<span>◷ {entry.readingMinutes} min de lectura</span></div>
           {entry.vocals && <p>{entry.vocals}</p>}
-          <div className="detail-actions"><a href="#lyrics-reader" className="detail-primary-action">Leer traducción</a>{entry.spotifyUrl && <a className="detail-ghost-action" href={entry.spotifyUrl} target="_blank" rel="noopener noreferrer">Escuchar en Spotify</a>}</div>
+          <div className="detail-actions"><a href="#lyrics-reader" className="detail-primary-action">Leer traducción</a>{entry.spotifyUrl && <a className="detail-ghost-action" href={entry.spotifyUrl} target="_blank" rel="noopener noreferrer">Escuchar en Spotify</a>}<button type="button" className="detail-ghost-action" onClick={share}>↗ {shared ? ui.copied : ui.share}</button></div>
         </div>
       </div></div>
     </header>
-    <main className="detail-reading-shell" id="lyrics-reader">
+    <DetailVideo post={readerPost} embedUrl={youtubeEmbedUrl(readerPost.youtubeUrl)} onRead={readTranslation} ui={ui} locale="es" />
+    <main className="detail-reading-shell">
+      <img src={entry.cover} alt="" aria-hidden="true" className="detail-reading-atmosphere" />
       <aside className="detail-info-panel">
-        <h2>Esta canción</h2><p>{entry.artist}</p><p>{entry.album}</p>
+        <h2 className="font-serif">{ui.songInfo}</h2>
+        <MetaRow label={ui.artist} value={entry.artist} />
+        <MetaRow label={ui.album} value={entry.album || ui.single} />
+        <MetaRow label={ui.release} value={entry.releaseDate?.slice(0, 4)} />
+        <MetaRow label={ui.composer} value={Array.isArray(readerPost.songwriters) ? readerPost.songwriters.join(", ") : readerPost.songwriters} />
+        <MetaRow label={ui.duration} value={readerPost.spotify?.track?.duration} />
+        <MetaRow label={ui.reading} value={`${entry.readingMinutes} ${ui.minutes}`} />
+        <MetaRow label={ui.date} value={new Intl.DateTimeFormat("es", { dateStyle: "long", timeZone: "UTC" }).format(new Date(entry.translationDate))} />
         <Link to="/es">← Todas las traducciones</Link>
-        {content && <details><summary>Secciones de la canción</summary><nav aria-label="Secciones de la canción"><ol>{content.sections.map((section, index) => <li key={index}><a href={`#seccion-${index + 1}`}>{section.label}</a></li>)}</ol></nav></details>}
       </aside>
-      <div className="detail-reader-column"><div className="detail-lyrics-table">
-        <TranslationLanguages sourceSlug={entry.sourceSlug} locale="es" />
-        <div className="detail-reader-tools"><h2>Letra en español</h2></div>
+      <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
         {!content && !error && <p role="status">Cargando traducción…</p>}
         {error && <div role="alert"><p>No se pudo cargar la traducción.</p><button type="button" onClick={() => setAttempt((value) => value + 1)}>Volver a intentar</button></div>}
-        <div className="detail-lyric-sections">{content?.sections.map((section, index) => <section className="detail-lyric-section" id={`seccion-${index + 1}`} key={index}>
-          <div className="detail-section-head"><h3 className="detail-section-pill" style={{ margin: 0 }}>{section.label}</h3></div>
-          <div className="detail-section-copy" style={{ gridTemplateColumns: "minmax(0, 1fr)" }}><div className="detail-section-col is-translation"><p className="detail-section-translation">{section.lines.join("\n")}</p></div></div>
-        </section>)}</div>
-      </div>
+        {content && <DetailLyricsTable post={readerPost} sections={sections} notes={{}} cardPalette={cardPalette} languages={languages} defaultView="both" />}
       <section className="spanish-related" aria-labelledby="mas-canciones"><h2 id="mas-canciones">Más canciones en español</h2><ul>{translations.filter((item) => item.slug !== slug).map((item) => <li key={item.slug}><Link to={item.path}>{item.song} — {item.artist}</Link></li>)}</ul></section>
       </div>
     </main>

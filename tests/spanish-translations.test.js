@@ -34,11 +34,24 @@ test("Spanish HTML contains every section and lyric line before JavaScript runs"
     assert.ok(html.includes(`<h1>${escape(item.song)}</h1>`));
     assert.ok(!html.includes('name="robots" content="noindex'));
     for (const [index, section] of item.sections.entries()) {
-      const block = `<section id="seccion-${index + 1}" lang="es"><h3>${escape(section.label)}</h3><p>${section.lines.map(escape).join("<br />")}</p></section>`;
+      const block = `<section id="seccion-${index + 1}" lang="es"><h3>${escape(section.label)}</h3>${section.original.length ? `<p lang="en">${section.original.map(escape).join("<br />")}</p>` : ""}<p lang="es">${section.lines.map(escape).join("<br />")}</p></section>`;
       assert.ok(html.includes(block), `Missing or altered section ${index + 1} of ${item.song}`);
     }
     if (item.vocals) assert.ok(html.includes(escape(item.vocals)));
   }
+});
+
+test("paired sections preserve every existing original and every supplied Spanish line", () => {
+  const submission = parseSpanishSubmission(submitted);
+  entries.forEach((item, index) => {
+    const source = posts.find((post) => post.slug === item.sourceSlug);
+    assert.deepEqual(item.sections.flatMap((section) => section.original), source.blocks.filter((block) => block.original).flatMap((block) => block.lines));
+    assert.deepEqual(item.sections.map(({ original, ...section }) => section), submission[index].sections);
+  });
+  assert.equal(entries[0].sections[2].original[0], "Kissy face, kissy face, sent to your phone but");
+  assert.equal(entries[0].sections[2].lines[0], "Caritas de beso, caritas de beso");
+  assert.deepEqual(entries[5].sections[3].original, ["(Mm) Hmm"]);
+  assert.equal(entries[7].sections[4].original.length, 12);
 });
 
 test("Turkish and Spanish URLs have self-canonicals and reciprocal language links", async () => {

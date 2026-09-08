@@ -7,6 +7,19 @@ export const SPANISH_SOURCE_SLUGS = [
   "jimin-who-turkce-ceviri", "jennie-like-jennie-turkce-ceviri",
 ];
 
+// Section boundaries reviewed against the existing originals. Translation
+// line counts differ, so never zip the two languages line by line.
+const ORIGINAL_SECTION_LENGTHS = [
+  [3, 8, 5, 4, 8, 4, 4, 8, 10, 4, 16],
+  [8, 4, 8, 4, 4, 8, 4],
+  [0, 4, 4, 8, 0, 4, 4, 8, 4, 10, 2],
+  [0, 8, 4, 3, 4, 8, 4, 4, 3],
+  [6, 3, 8, 6, 1, 8, 4, 8],
+  [6, 6, 3, 1, 6, 3, 3, 4, 2, 3],
+  [4, 4, 3, 4, 4, 3, 8, 4, 8],
+  [1, 5, 10, 3, 12, 14, 4],
+];
+
 // Only Markdown presentation markers are removed. Every lyric line, repeat,
 // accent and section credit stays exactly as submitted by the editor.
 export function parseSpanishSubmission(text) {
@@ -41,8 +54,18 @@ export function buildSpanishTranslations(text, posts) {
     if (!source || source.song.toLowerCase() !== translation.song.toLowerCase()) throw new Error(`Translation/source mismatch: ${translation.song}`);
     const slug = sourceSlug.replace(/-turkce-ceviri$/, "");
     const lines = translation.sections.flatMap((part) => part.lines);
+    const originals = source.blocks.filter((block) => block.original).flatMap((block) => block.lines);
+    const lengths = ORIGINAL_SECTION_LENGTHS[index];
+    if (lengths.length !== translation.sections.length || lengths.reduce((sum, n) => sum + n, 0) !== originals.length) throw new Error(`Original section mapping needs review: ${translation.song}`);
+    let offset = 0;
+    const sections = translation.sections.map((section, part) => {
+      const original = originals.slice(offset, offset + lengths[part]);
+      offset += lengths[part];
+      return { ...section, original };
+    });
     return {
-      ...translation, slug, sourceSlug, locale: "es", path: `/es/${slug}`, sourcePath: `/${sourceSlug}/`,
+      ...translation, sections, slug, sourceSlug, locale: "es", path: `/es/${slug}`, sourcePath: `/${sourceSlug}/`,
+      sourceMetadata: { spotify: source.spotify || null, youtubeUrl: source.youtubeUrl || source.youtube?.url || "", youtubeEmbedDisabled: Boolean(source.youtubeEmbedDisabled), songwriters: source.songwriters || source.composers || source.credits?.songwriters || source.credits?.composers || "" },
       cover: source.cover, album: source.spotify?.album?.name || source.spotify?.albumName || source.categories?.[1] || "",
       spotifyUrl: source.spotify?.track?.url || source.spotify?.trackUrl || "",
       releaseDate: source.spotify?.album?.releaseDate || source.spotify?.releaseDate || "",

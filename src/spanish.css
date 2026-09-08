@@ -6,10 +6,12 @@
 .spanish-translation-page .detail-lyric-section { scroll-margin-top: 100px; }
 .spanish-translation-page .detail-section-translation { white-space: pre-line; overflow-wrap: anywhere; }
 .spanish-translation-page .detail-section-pill { white-space: normal; }
-.spanish-translation-page .detail-reader-tools { grid-template-columns: minmax(0, 1fr); }
+
 .spanish-translation-page .detail-info-panel details { margin-top: 24px; }
 .spanish-translation-page .detail-info-panel summary { cursor: pointer; font-weight: 600; }
 .spanish-translation-page .detail-info-panel li { margin-top: 8px; font-size: 14px; }
 .spanish-related { padding: 28px clamp(20px, 3vw, 42px); border-top: 1px solid var(--color-line); }
 .spanish-related h2 { margin-bottom: 16px; font-size: 20px; }
 .spanish-related a { display: block; padding: 10px 0; }
+
+.spanish-translation-page .detail-section-copy.is-es { grid-template-columns: minmax(0, 1fr); }
