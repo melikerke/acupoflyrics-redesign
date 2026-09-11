@@ -1,5 +1,58 @@
 [
   {
+    "id": "5285",
+    "slug": "crush-benim-olsana-english-translation",
+    "title": "CRUSH Benim Olsana English Translation",
+    "song": "Benim Olsana",
+    "artist": "CRUSH",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2",
+    "date": "2026-09-11T12:17:00+03:00",
+    "reading_time": 3,
+    "excerpt": "From night till morning",
+    "categories": [
+      "CRUSH",
+      "Benim Olsana"
+    ],
+    "category_slugs": [
+      "crush",
+      "benim-olsana"
+    ],
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5PW7h2o6qYWUmwAultwZdf",
+      "albumUrl": "https://open.spotify.com/album/294VZB9TyHpZnhktpxVQtY",
+      "artistUrl": "https://open.spotify.com/artist/2JEo6ivzJS4vQbHZycSsS6",
+      "albumName": "Benim Olsana",
+      "releaseDate": "2026-09-11",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2",
+      "duration": "2:57",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "CRUSH",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebecdf990326951f571c05158d",
+      "artistGenres": [],
+      "albumArtist": "CRUSH"
+    },
+    "moods": [
+      "Night",
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "(Crush)",
+      "tr": "(Crush)"
+    },
+    "heroPair": {
+      "en": "Benim olsana",
+      "tr": "Come on, be mine"
+    }
+  },
+  {
     "id": "5284",
     "slug": "adela-nicole-kidman-turkce-ceviri",
     "title": "ADÉLA Nicole Kidman Türkçe Çeviri",

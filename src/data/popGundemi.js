@@ -1,5 +1,280 @@
 export const popGundemiArticles = [
   {
+    "slug": "10-11-eylul-2026-muzik-gundemi",
+    "title": "10–11 Eylül müzik gündemi: IU, LE SSERAFIM ve yeni pop yayınları",
+    "shortTitle": "10–11 Eylül — günün müzik gündemi",
+    "kicker": "Günün müzik gündemi",
+    "date": "2026-09-10",
+    "updatedAt": "2026-09-11T10:30:00+03:00",
+    "readTime": "9 dk",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/1200x630bb.jpg",
+    "imageAlt": "IU — Unknown Planet tekli kapağı",
+    "imageCredit": "IU / EDAM Entertainment · Apple Music",
+    "imageSource": "https://music.apple.com/us/album/unknown-planet-single/6808583617",
+    "accent": "#596693",
+    "excerpt": "IU — Unknown Planet ve IU — Dear my crazy soulmate 10 Eylül'de yayımlandı; LE SSERAFIM — Made My Night ise 11 Eylül'de Güney Kore'de dinleyiciyle buluştu. Becky Hill — Changes ve Victoria Monét — Juicy yeni global yayınlar arasında.",
+    "dek": "10–11 Eylül'deki global pop, R&B ve K-pop yayınları ile günlük Circle, Apple Music ve Spotify hareketleri; yayın bölgeleri ve ölçüm tarihleri birbirinden ayrılarak tek dosyada toplandı.",
+    "pullQuote": "IU — Unknown Planet, Melon Hot 100'ün 10 Eylül 21.00 görünümünde 1 numarada; IU — Dear my crazy soulmate 3 numarada yer aldı.",
+    "relatedTranslations": [],
+    "livePanel": {
+      "label": "10–11 Eylül 2026",
+      "title": "Yeni yayınlar ve günlük liste hareketleri",
+      "items": [
+        { "label": "Global pop", "text": "Becky Hill — Changes, Victoria Monét — Juicy, Barry Can't Swim & Sammy Virji — I Could Be Madonna ve Chloe Qisha — Question Of The Day yayımlandı." },
+        { "label": "K-pop", "text": "IU — Unknown Planet, IU — Dear my crazy soulmate, Mark Lee — My Friend, ALL(H)OURS — DANG DANG ve MCND — Devil Youth Club 10 Eylül'de yayımlandı." },
+        { "label": "11 Eylül", "text": "LE SSERAFIM — Made My Night Güney Kore'de yayımlandı; resmî duyuru diğer bölgeler için 9 Ekim tarihini gösteriyor." },
+        { "label": "Yeniden yükselen", "text": "Ravyn Lenae — Love Me Not, 9 Eylül Spotify Global günlük görünümüne 9 numaradan yeniden girdi." }
+      ]
+    },
+    "summary": [
+      "Becky Hill — Changes 10 Eylül tarihli platform kaydı ve resmî video ile geldi. Victoria Monét — Juicy de 10 Eylül'de paylaşıldı; Victoria Monét — Frequency Of Love albümü için açıklanan tarih 2 Ekim.",
+      "Barry Can't Swim & Sammy Virji — I Could Be Madonna ile Chloe Qisha — Question Of The Day, Official Charts'ın 11 Eylül yeni yayın seçkisinde yer alıyor.",
+      "IU — Unknown Planet ve IU — Dear my crazy soulmate, IU — Unknown Planet - Single içinde 10 Eylül'de yayımlandı. Melon Hot 100'ün aynı gün 21.00 görünümünde parçalar sırasıyla 1 ve 3 numarada.",
+      "Mark Lee — My Friend, Mark Lee'nin Upper Room etiketi altındaki ilk teklisi olarak 10 Eylül'de yayımlandı ve sözleri İngilizce.",
+      "ALL(H)OURS — DANG DANG, ALL(H)OURS — UNBOUND EP'sinin çift başlık parçalarından biri; MCND — Devil Youth Club ise MCND — Devil Youth Club EP'sinin başlık parçası. İki yayın da 10 Eylül tarihli.",
+      "LE SSERAFIM — Made My Night için Güney Kore yayın tarihi 11 Eylül 13.00 KST. SOURCE MUSIC'in resmî duyurusu diğer bölgelerdeki dijital yayın için 9 Ekim 13.00 KST tarihini veriyor.",
+      "Ravyn Lenae — Love Me Not yeni bir yayın değil: Apple Music parça tarihini 3 Mayıs 2024 olarak gösteriyor. 9 Eylül Spotify Global günlük görünümüne 9 numaradan yeniden girdi."
+    ],
+    "sections": [
+      {
+        "heading": "Becky Hill — Changes ve 10–11 Eylül global pop yayınları",
+        "body": [
+          "Becky Hill'in resmî sitesi Becky Hill — Changes klibini yayımladı; Qobuz kaydı parçayı Polydor Records etiketiyle 10 Eylül tarihli gösteriyor. Official Charts, parçayı 11 Eylül haftalık yeni yayın seçkisinde listeliyor. Platform tarihi ile haftalık seçki tarihi bu nedenle ayrı tutuluyor.",
+          "Victoria Monét — Juicy 10 Eylül'de yayımlandı. Sanatçının resmî sitesi Victoria Monét — Frequency Of Love albümünü 2 Ekim tarihli ön yayın olarak gösteriyor; bu tarih Victoria Monét — Juicy parçasının gerçekleşmiş yayın tarihi değil, bağlı olduğu albümün gelecekteki tarihidir.",
+          "Official Charts'ın 11 Eylül seçkisinde Barry Can't Swim & Sammy Virji — I Could Be Madonna ve Chloe Qisha — Question Of The Day da bulunuyor. Sammy Virji'nin resmî bağlantı sayfası iş birliğini doğruluyor; iki kayıt henüz dinlenme sıralaması olarak değerlendirilmedi."
+        ]
+      },
+      {
+        "heading": "IU — Unknown Planet ve IU — Dear my crazy soulmate yayımlandı",
+        "body": [
+          "Yonhap'ın EDAM Entertainment açıklamasına dayanan 10 Eylül haberi, IU — Unknown Planet ve IU — Dear my crazy soulmate parçalarının çift başlık olarak yayımlandığını ve ikisinin sözlerinin IU tarafından yazıldığını doğruluyor. Melon ile Apple Music kayıtları da iki parçalık teklinin tarihini 10 Eylül olarak gösteriyor.",
+          "Melon Hot 100'ün 10 Eylül saat 21.00 görünümünde IU — Unknown Planet 1, IU — Dear my crazy soulmate 3 numarada. Bu saatlik/30 günlük görünüm, günlük Circle Global ve Spotify Global listeleriyle aynı ölçüm değildir. Her iki parçada da Korece dizeler bulunduğu için çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "Mark Lee — My Friend, ALL(H)OURS — DANG DANG ve MCND — Devil Youth Club",
+        "body": [
+          "Melon ve Apple Music, Mark Lee — My Friend için 10 Eylül tarihini gösteriyor. Melon albüm açıklaması, kaydı Mark Lee'nin Upper Room'u kurduktan sonraki ilk teklisi olarak tanımlıyor. Söz kaydı parçanın İngilizce olduğunu gösterdiğinden romanizasyon gerekmiyor.",
+          "Bugs, ALL(H)OURS — UNBOUND EP'sini 10 Eylül tarihli altı parçalık bir yayın olarak kaydediyor. ALL(H)OURS — DANG DANG ile daha önce yayımlanan ALL(H)OURS — HOP çift başlık parçası olarak işaretli; grup üyelerinin söz yazımına katıldığı belirtiliyor.",
+          "MAKESTAR ile Bugs kayıtları MCND — Devil Youth Club için 10 Eylül tarihini doğruluyor. MCND — Devil Youth Club, aynı adlı yedinci EP'nin başlık parçası. ALL(H)OURS — DANG DANG ve MCND — Devil Youth Club Korece dizeler içerdiği için romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "LE SSERAFIM — Made My Night Güney Kore'de yayımlandı",
+        "body": [
+          "SOURCE MUSIC'in Weverse üzerinden yayımladığı resmî duyuru, LE SSERAFIM — Made My Night için Güney Kore tarihini 11 Eylül 13.00 KST olarak veriyor. Resmî klip ise 11 Eylül 00.00 KST'de açıldı.",
+          "Aynı duyuru diğer bölgelerdeki dijital yayın tarihini 9 Ekim 13.00 KST olarak gösteriyor. Bu nedenle 11 Eylül tarihi dünya çapında tek bir ortak yayın tarihi gibi sunulmuyor. Kontrol edilen söz kaydı İngilizce olduğundan romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "Ravyn Lenae — Love Me Not Spotify Global ilk 10'una yeniden girdi",
+        "body": [
+          "9 Eylül Spotify Global günlük görünümünde Ravyn Lenae — Love Me Not 9 numaradan ilk 10'a yeniden girdi. Bir önceki kayıtlı günlük ilk 10 görünümünde parça yoktu.",
+          "Apple Music, Ravyn Lenae — Love Me Not için 3 Mayıs 2024 tarihini gösteriyor; sanatçının resmî sitesi de parçayı katalogda tutuyor. Bu nedenle gelişme yeni yayın değil, yeniden yükseliş olarak sınıflandırılıyor."
+        ]
+      },
+      {
+        "heading": "Circle Global, Apple Music ve Spotify günlük dönemleri",
+        "body": [
+          "Circle Global 8 Eylül günlüğünde ENHYPEN — Bloody Paradise 10 numaradan 8 numaraya yükseldi; JISOO — CLICK 8 numaradan 10 numaraya geriledi. İki çeviri de sitede mevcut.",
+          "Apple Music Top 100: Global, resmî global çalma listesinin 10 Eylül görünümüne güncellendi ve ilk 10 değişmedi. Spotify Global Top 50 ise 9 Eylül günlüğüne güncellendi; Ravyn Lenae — Love Me Not 9 ve sombr — back to friends 7 numaradan ilk 10'a girdi. sombr — back to friends çevirisi sitede mevcut."
+        ]
+      }
+    ],
+    "memberStatus": [],
+    "sources": [
+      { "name": "Official Charts — 11 Eylül 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-11-september-2026/" },
+      { "name": "Becky Hill resmî sitesi — Becky Hill — Changes klibi", "url": "https://www.beckyhill.com/" },
+      { "name": "Qobuz — Becky Hill — Changes / 10 Eylül yayın kaydı", "url": "https://www.qobuz.com/ca-en/album/changes-becky-hill/t8zux8eva5dnr" },
+      { "name": "Victoria Monét resmî sitesi — Victoria Monét — Frequency Of Love", "url": "https://www.victoriamonet.co/" },
+      { "name": "Apple Music — Victoria Monét — Juicy", "url": "https://music.apple.com/us/album/juicy/6791645195?i=6791645418" },
+      { "name": "Stereogum — Victoria Monét — Juicy / 10 Eylül 2026", "url": "https://stereogum.com/2510977/victoria-monet-juicy/music" },
+      { "name": "Sammy Virji resmî bağlantıları — Barry Can't Swim & Sammy Virji — I Could Be Madonna", "url": "https://linktr.ee/sammyvirji" },
+      { "name": "Yonhap — IU — Unknown Planet ve IU — Dear my crazy soulmate / 10 Eylül 2026", "url": "https://en.yna.co.kr/view/AEN20260910002500315" },
+      { "name": "Melon — IU — Unknown Planet - Single / yayın ve parça listesi", "url": "https://www.melon.com/album/detail.htm?albumId=14535765" },
+      { "name": "Apple Music — IU — Unknown Planet - Single / kapak ve yayın kaydı", "url": "https://music.apple.com/us/album/unknown-planet-single/6808583617" },
+      { "name": "Melon Hot 100 — IU — Unknown Planet ve IU — Dear my crazy soulmate / 10 Eylül 21.00 görünümü", "url": "https://www.melon.com/chart/hot100/index.htm?chartType=D30" },
+      { "name": "Melon — Mark Lee — My Friend / yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14515064" },
+      { "name": "Apple Music — Mark Lee — My Friend / 10 Eylül yayın kaydı", "url": "https://music.apple.com/us/album/my-friend-single/6806221471" },
+      { "name": "Bugs — ALL(H)OURS — UNBOUND / yayın ve çift başlık kaydı", "url": "https://music.bugs.co.kr/album/4153959" },
+      { "name": "ALL(H)OURS resmî sitesi — ALL(H)OURS — UNBOUND içerikleri", "url": "https://all-h-ours.com/contents/curation" },
+      { "name": "MAKESTAR — MCND — Devil Youth Club / 10 Eylül yayın kaydı", "url": "https://www.makestar.com/product/20335" },
+      { "name": "Bugs — MCND — Devil Youth Club / söz ve video kaydı", "url": "https://music.bugs.co.kr/track/133832227" },
+      { "name": "SOURCE MUSIC / Weverse — LE SSERAFIM — Made My Night bölgesel yayın tarihleri", "url": "https://weverse.io/lesserafim/notice/38724" },
+      { "name": "Apple Music — Ravyn Lenae — Love Me Not / 3 Mayıs 2024 yayın kaydı", "url": "https://music.apple.com/us/song/1743852427" },
+      { "name": "Ravyn Lenae resmî sitesi — Ravyn Lenae — Love Me Not", "url": "https://www.ravynlenae.com/" },
+      { "name": "Circle Global — 8 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 10 Eylül görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 9 Eylül günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+    ],
+    "storyShare": "10–11 Eylül müzik gündemi: IU — Unknown Planet ve IU — Dear my crazy soulmate yayımlandı; LE SSERAFIM — Made My Night Güney Kore'de dinleyiciyle buluştu, global pop ve günlük listelerde yeni hareketler geldi."
+  },
+  {
+    "slug": "7-eylul-2026-muzik-gundemi",
+    "title": "7–9 Eylül müzik gündemi: yeni yayınlar ve liste hareketleri",
+    "shortTitle": "7–9 Eylül — günün müzik gündemi",
+    "kicker": "Günün müzik gündemi",
+    "date": "2026-09-07",
+    "updatedAt": "2026-09-10T10:30:00+03:00",
+    "readTime": "10 dk",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/63/19/2b/63192bc8-e409-d03a-394a-0f8e22d29a57/ami-identity-3831ece081ed1d559468ddad944ae414-2026-09-03T02-56-03.233Z_cropped.png/1200x630cw.png",
+    "imageAlt": "SOYEON'un Apple Music'teki resmî sanatçı görseli",
+    "imageCredit": "SOYEON / Cube Entertainment · Apple Music",
+    "imageSource": "https://music.apple.com/us/artist/soyeon/1037194059",
+    "accent": "#7e384d",
+    "excerpt": "almost monday — french kids ile Hearts2Hearts — Moonride, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE, Big Ocean — Love Sign ve Y:SY — ENERGY 9 Eylül'de yayımlandı; Bruno Mars — Risk It All Billboard Hot 100 ilk 10'una girdi.",
+    "dek": "7–9 Eylül'deki doğrulanmış yayınlar ile ABD, UK, Circle, Apple Music ve Spotify liste hareketleri; her kaynağın yayın ve ölçüm tarihi ayrılarak tek dosyada toplandı.",
+    "pullQuote": "9 Eylül yayınlarında global pop tarafında almost monday — french kids; K-pop tarafında Hearts2Hearts — Moonride, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE, Big Ocean — Love Sign ve Y:SY — ENERGY öne çıktı.",
+    "relatedTranslations": [
+      "le-sserafim-illit-katseye-iconic-by-mistake-turkce-ceviri",
+      "bruno-mars-risk-it-all-turkce-ceviri"
+    ],
+    "livePanel": {
+      "label": "7–9 Eylül 2026",
+      "title": "Yeni yayınlar ve liste hareketleri",
+      "items": [
+        { "label": "Yeni yayın", "text": "SOYEON feat. Kian84 — I’m gonna TOESA, SOYEON — What a Wonderful Life albümünün başlık parçası olarak 7 Eylül'de yayımlandı." },
+        { "label": "K-pop", "text": "MINHO — Make it hot ve VERIVERY — Don’t Panic! 7 Eylül'de yayımlandı; iki parça Spotify All New K-Pop'un ilk beşinde." },
+        { "label": "8 Eylül", "text": "John Legend — Daylight, &TEAM — Mark on Me ve D.O. — Guitarist yayımlandı." },
+        { "label": "9 Eylül", "text": "almost monday — french kids ile Hearts2Hearts — Moonride, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE, Big Ocean — Love Sign ve Y:SY — ENERGY yayımlandı." },
+        { "label": "Liste hareketi", "text": "Bruno Mars — Risk It All, 12 Eylül tarihli Billboard Hot 100 görünümünde 9 numaradan ilk 10'a girdi; çevirisi sitede mevcut." }
+      ]
+    },
+    "summary": [
+      "SOYEON — What a Wonderful Life, 7 Eylül tarihli sekiz parçalık bir albüm. Başlık parçası platformlarda SOYEON feat. Kian84 — I’m gonna TOESA adıyla yer alıyor; Korece özgün başlık 퇴사할게여.",
+      "MINHO — Make it hot, MINHO — Make it hot - The 2nd Mini Album EP'sinin başlık parçası olarak 7 Eylül'de yayımlandı.",
+      "VERIVERY — CONFETTI EP'si ve başlık parçası VERIVERY — Don’t Panic! 7 Eylül'de yayımlandı.",
+      "&TEAM — Mark on Me EP'si ve aynı adlı başlık parçası ile D.O. — DOPAMINE EP'sinin başlık parçası D.O. — Guitarist 8 Eylül'de yayımlandı.",
+      "John Legend — Daylight, 8 Eylül'de John Legend — Muse albüm duyurusuyla birlikte yayımlandı; albüm için açıklanan tarih 23 Ekim.",
+      "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun yeni bir yayın değil; 22 Mayıs tarihli parça 7 Eylül UK ara listesinde 2 numarada.",
+      "Official Trending Chart'ın 8 Eylül görünümünde James Marriott — Burn Down The Disco 10 ve Nemzzz feat. Travis Scott — GASS 12 numaradan yeni giriş yaptı; Jamie Miller — Babydoll altı sıra yükselerek 13 numaraya çıktı.",
+      "LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE, Circle Global'ın 5 Eylül günlüğüne 10 numaradan girdi; çevirisi sitede mevcut.",
+      "almost monday — french kids, almost monday — THANK GOD IT’S ALMOST MONDAY albümünün 9 Eylül tarihli odak parçası olarak yayımlandı; aynı gün Vevo canlı performansı paylaşıldı.",
+      "Hearts2Hearts — Moonride, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE ve Big Ocean — Love Sign 9 Eylül'de yayımlandı. Y:SY — GOODIES albümünün çift başlık parçaları Y:SY — ENERGY ile Y:SY — LANGUAGE da aynı gün geldi.",
+      "12 Eylül tarihli Billboard Hot 100 görünümünde Bruno Mars — Risk It All 9 numaradan ilk 10'a girdi. Parçanın çevirisi sitede mevcut."
+    ],
+    "sections": [
+      {
+        "heading": "SOYEON feat. Kian84 — I’m gonna TOESA yayımlandı",
+        "body": [
+          "Melon, SOYEON — What a Wonderful Life albümünün yayın tarihini 7 Eylül olarak ve başlık parçasını 퇴사할게여 (Narr. 기안84) adıyla kaydediyor. Apple Music ile Spotify'ın İngilizce kaydında parça SOYEON feat. Kian84 — I’m gonna TOESA olarak yer alıyor.",
+          "Spotify'ın 8 Eylül'de kontrol edilen All New K-Pop editoryal listesinde SOYEON feat. Kian84 — I’m gonna TOESA 5 numarada. Bu konum dinlenme sıralaması değil, platformun editoryal seçimi."
+        ]
+      },
+      {
+        "heading": "MINHO — Make it hot yeni EP'nin başlık parçası",
+        "body": [
+          "SHINee'nin resmî sitesi, MINHO — Make it hot - The 2nd Mini Album EP'sinin ve başlık parçasının 7 Eylül'de yayımlandığını doğruluyor. Apple Music kaydı EP'nin altı parçadan oluştuğunu gösteriyor.",
+          "MINHO — Make it hot, Spotify'ın 8 Eylül'de kontrol edilen All New K-Pop editoryal listesinde 2 numarada. Resmî video SHINee'nin Weverse medya sayfasında da yayımlandı."
+        ]
+      },
+      {
+        "heading": "VERIVERY — Don’t Panic! ile geri döndü",
+        "body": [
+          "Soompi'nin 7 Eylül güncellemesine göre VERIVERY — CONFETTI EP'si ile başlık parçası VERIVERY — Don’t Panic! aynı gün Kore saatiyle 18.00'de yayımlandı. Apple Music de beş parçalık EP için 7 Eylül tarihini gösteriyor.",
+          "VERIVERY — Don’t Panic!, Spotify All New K-Pop'un 8 Eylül görünümünde 4 numarada. Bu konum platformun editoryal seçimidir."
+        ]
+      },
+      {
+        "heading": "&TEAM — Mark on Me ve D.O. — Guitarist yayımlandı",
+        "body": [
+          "Universal Music Japan'ın &TEAM sayfası, &TEAM — Mark on Me EP'si ile aynı adlı başlık parçasının 8 Eylül'de yayımlandığını ve resmî klibin açıldığını doğruluyor. Weverse ürün kaydı yayın saatini 8 Eylül 18.00 KST olarak veriyor; Melon kaydı EP'nin altı parçadan oluştuğunu gösteriyor.",
+          "Apple Music, D.O. — DOPAMINE EP'sini 8 Eylül tarihli beş parçalık bir yayın olarak kaydediyor. Soompi'nin aynı gün güncellenen yayını ile Bugs kaydı, başlık parçasının D.O. — Guitarist olduğunu ve klibin 8 Eylül'de yayımlandığını doğruluyor. İki parçada da Korece dizeler bulunduğu için çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "John Legend — Daylight, John Legend — Muse duyurusuyla geldi",
+        "body": [
+          "Universal Music Canada'nın 8 Eylül tarihli resmî duyurusuna göre John Legend — Muse, 23 Ekim'de Republic Records etiketiyle yayımlanacak. Albümün tamamı Pharrell Williams tarafından üretildi ve ikili tarafından birlikte yazıldı.",
+          "Aynı duyuruyla albümün ilk teklisi John Legend — Daylight yayımlandı. 23 Ekim albüm tarihi gelecekteki yayın takvimidir; John Legend — Daylight için gerçekleşmiş yayın tarihi 8 Eylül'dür."
+        ]
+      },
+      {
+        "heading": "James Marriott — Burn Down The Disco, Nemzzz feat. Travis Scott — GASS ve Jamie Miller — Babydoll UK yükseliş görünümünde",
+        "body": [
+          "Official Charts'ın cuma–pazartesi tüketimini temel alan 8 Eylül Official Trending Chart görünümünde James Marriott — Burn Down The Disco 10 ve Nemzzz feat. Travis Scott — GASS 12 numaradan yeni giriş yaptı. Jamie Miller — Babydoll ise altı sıra yükselerek 13 numaraya çıktı.",
+          "James Marriott — Burn Down The Disco için Apple Music yayın tarihi 4 Eylül, Jamie Miller — Babydoll için 7 Ağustos. Nemzzz feat. Travis Scott — GASS'ın tekli kaydı 3 Eylül, bağlı olduğu Nemzzz — LOCKED IN albümü 4 Eylül tarihli; tekli ve albüm tarihleri birbirine karıştırılmıyor."
+        ]
+      },
+      {
+        "heading": "HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun UK ara listesinde 2 numarada",
+        "body": [
+          "Official Charts'ın cuma–pazar tüketimini kapsayan 7–13 Eylül tarihli Singles Chart Update görünümünde HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun 2 numarada; önceki haftanın resmî sırası 3.",
+          "Spotify yayın kaydı parçanın çıkış tarihini 22 Mayıs olarak gösteriyor. Bu nedenle gelişme yeni yayın değil, güncel bir UK liste hareketi olarak sınıflandırılıyor."
+        ]
+      },
+      {
+        "heading": "LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE Circle Global'a girdi",
+        "body": [
+          "Circle Global'ın 5 Eylül günlüğünde LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE 10 numaradan listeye girdi. Circle günlüğü ile 7 Eylül UK ara listesi farklı ölçüm dönemleridir.",
+          "Weverse ve Apple Music yayın kayıtları parçanın çıkış tarihini 12 Haziran olarak doğruluyor. Yeni bir yayın olmayan parçanın Türkçe çevirisi sitede mevcut."
+        ]
+      },
+      {
+        "heading": "almost monday — french kids, almost monday — THANK GOD IT’S ALMOST MONDAY albümüyle yayımlandı",
+        "body": [
+          "Universal Music Canada'nın 9 Eylül tarihli resmî duyurusu, almost monday — THANK GOD IT’S ALMOST MONDAY albümünün aynı gün yayımlandığını doğruluyor. Duyuruda almost monday — french kids albümün odak parçalarından biri olarak yer alıyor; Apple Music kaydı da albüm için 9 Eylül tarihini gösteriyor.",
+          "Grubun aynı gün paylaşılan Vevo canlı performansı, almost monday — french kids için yayın günündeki ikinci doğrulanmış gelişme. Bu bilgi bir liste sırası veya dinlenme ölçümü olarak sunulmuyor."
+        ]
+      },
+      {
+        "heading": "9 Eylül K-pop yayınları: Hearts2Hearts — Moonride, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE, Big Ocean — Love Sign ve Y:SY — ENERGY",
+        "body": [
+          "Universal Music Japan ile Melon kayıtları Hearts2Hearts — Moonride için 9 Eylül yayın tarihini doğruluyor. Kakao Entertainment'ın 10 Eylül tarihli resmî açıklaması, hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE parçasının bir gün önce yayımlandığını ve RIIZE üyesi SUNGCHAN'ın konuk sanatçı olduğunu belirtiyor.",
+          "Apple Music, Big Ocean — Love Sign teklisini 9 Eylül tarihli gösteriyor. Shore Fire'ın grup adına yayımladığı duyuru, parçanın İngilizce ve Korece sözler içerdiğini kaydediyor.",
+          "Melon Hot 100'ün kontrol edilen 30 günlük görünümünde Y:SY — ENERGY 96 numarada yer aldı. Y:SY — GOODIES albümünün çift başlık parçaları Y:SY — ENERGY ve Y:SY — LANGUAGE olarak duyuruldu; iki parça için de gerçekleşmiş yayın tarihi 9 Eylül. Korece dizeler nedeniyle bu dört adayın çevirisinde romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "Bruno Mars — Risk It All Billboard Hot 100 ilk 10'una girdi",
+        "body": [
+          "12 Eylül tarihli Billboard Hot 100 görünümünde Bruno Mars — Risk It All 9 numarada yer aldı; önceki kayıtlı ilk 10 görünümünde parça bulunmuyordu. Billboard Hot 100 ABD şarkı listesidir ve ölçüm dönemi günlük Circle Global, Apple Music ve Spotify görünümlerinden ayrıdır.",
+          "Atlantic Records'un resmî albüm duyurusu Bruno Mars — Risk It All için 27 Şubat yayın tarihini doğruluyor. Bu nedenle gelişme yeni yayın değil, yeni doğrulanan liste hareketidir. Türkçe çeviri sitede mevcut."
+        ]
+      }
+    ],
+    "memberStatus": [],
+    "sources": [
+      { "name": "Melon — SOYEON — What a Wonderful Life / 7 Eylül yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14470302" },
+      { "name": "Apple Music — SOYEON — What a Wonderful Life", "url": "https://music.apple.com/us/artist/soyeon/1037194059" },
+      { "name": "Spotify — SOYEON — What a Wonderful Life", "url": "https://open.spotify.com/album/67SjfNUpuN9TqanFth4ZRP" },
+      { "name": "SHINee resmî sitesi — MINHO — Make it hot yayın duyurusu", "url": "https://shinee.jp/news/2026/0907_2437.html" },
+      { "name": "Apple Music — MINHO — Make it hot - The 2nd Mini Album", "url": "https://music.apple.com/us/artist/minho/500011271" },
+      { "name": "SHINee Weverse — MINHO — Make it hot resmî video", "url": "https://weverse.io/shinee/media/1-180128378" },
+      { "name": "Soompi — VERIVERY — Don’t Panic! yayın haberi / 7 Eylül güncellemesi", "url": "https://www.soompi.com/article/1862193wpp/watch-verivery-announces-comeback-date-with-hilarious-teaser-for-confetti" },
+      { "name": "Apple Music — VERIVERY — CONFETTI", "url": "https://music.apple.com/us/artist/verivery/1436821750" },
+      { "name": "Universal Music Japan — &TEAM — Mark on Me yayın ve klip duyurusu / 8 Eylül 2026", "url": "https://www.universal-music.co.jp/andteam/news/2026-09-08/" },
+      { "name": "Weverse — &TEAM — Mark on Me / 8 Eylül 18.00 KST yayın kaydı", "url": "https://weverse.io/andteam/notice/37313" },
+      { "name": "Melon — &TEAM — Mark on Me / yayın ve parça listesi", "url": "https://www.melon.com/album/detail.htm?albumId=14530136" },
+      { "name": "Apple Music — D.O. — DOPAMINE / 8 Eylül yayın kaydı", "url": "https://music.apple.com/us/album/dopamine-the-4th-mini-album-ep/6807359386" },
+      { "name": "Soompi — D.O. — Guitarist yayın haberi / 8 Eylül güncellemesi", "url": "https://www.soompi.com/article/1865411wpp/doh-kyung-soo-announces-comeback-date-with-first-teasers-for-new-album-dopamine" },
+      { "name": "Bugs — D.O. — Guitarist / parça ve video kaydı", "url": "https://music.bugs.co.kr/track/34061998" },
+      { "name": "Universal Music Canada — John Legend — Muse ve John Legend — Daylight duyurusu / 8 Eylül 2026", "url": "https://www.universalmusic.ca/2026/09/08/john-legend-announces-new-album-muse-produced-in-full-by-pharrell-williams-out-october-23/" },
+      { "name": "Official Charts — Official Trending Chart / 8 Eylül 2026", "url": "https://www.officialcharts.com/chart-news/trending-songs-uk-september-8-2026/" },
+      { "name": "Apple Music — James Marriott — Burn Down The Disco / 4 Eylül yayın kaydı", "url": "https://music.apple.com/us/artist/james-marriott/458203329" },
+      { "name": "Apple Music — Jamie Miller — Babydoll / 7 Ağustos yayın kaydı", "url": "https://music.apple.com/us/album/babydoll-single/6794168372" },
+      { "name": "Spotify — All New K-Pop / 8 Eylül kontrolü", "url": "https://open.spotify.com/playlist/37i9dQZF1DXe5W6diBL5N4" },
+      { "name": "Official Charts — Singles Chart Update / 7–13 Eylül 2026", "url": "https://www.officialcharts.com/charts/singles-chart-update/20260907/7501u/" },
+      { "name": "Spotify — HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun", "url": "https://open.spotify.com/track/25DgjoTlKK8KjstM4cZ8L2" },
+      { "name": "Circle Global — 5 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Weverse — LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE yayın duyurusu", "url": "https://weverse.io/katseye/notice/36522" },
+      { "name": "Apple Music — LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE", "url": "https://music.apple.com/us/album/iconic-by-mistake-single/6776077182" },
+      { "name": "Universal Music Canada — almost monday — THANK GOD IT’S ALMOST MONDAY ve almost monday — french kids / 9 Eylül 2026", "url": "https://www.universalmusic.ca/2026/09/09/almost-monday-release-sophomore-album-thank-god-its-almost-monday/" },
+      { "name": "Apple Music — almost monday — THANK GOD IT’S ALMOST MONDAY / 9 Eylül yayın kaydı", "url": "https://music.apple.com/us/album/thank-god-its-almost-monday/6780642310" },
+      { "name": "Universal Music Japan — Hearts2Hearts — Moonride / 9 Eylül yayın kaydı", "url": "https://www.universal-music.co.jp/hearts2hearts/products/uu1as-03084/" },
+      { "name": "Melon — Hearts2Hearts — Moonride / yayın ve parça kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14531063" },
+      { "name": "Kakao Entertainment — hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE / 10 Eylül 2026", "url": "https://newsroom.kakaoent.com/news/kakao-entertainments-global-band-hrtz-wav-returns-with-alive/" },
+      { "name": "Spotify — hrtz.wav feat. SUNGCHAN of RIIZE — ALIVE", "url": "https://open.spotify.com/track/66WdJnnPdAKe8L6b5DQ7QI" },
+      { "name": "Apple Music — Big Ocean — Love Sign / 9 Eylül yayın kaydı", "url": "https://music.apple.com/us/album/love-sign-single/6805776083" },
+      { "name": "Shore Fire — Big Ocean — Love Sign yayın duyurusu", "url": "https://shorefire.com/releases/entry/k-pop-group-big-ocean-releasesnew-single-love-sign" },
+      { "name": "Melon Hot 100 — Y:SY — ENERGY / 10 Eylül kontrolü", "url": "https://www.melon.com/chart/hot100/index.htm?chartType=D30" },
+      { "name": "Sports Kyunghyang — Y:SY — GOODIES, Y:SY — ENERGY ve Y:SY — LANGUAGE yayın haberi", "url": "https://sports.khan.co.kr/en/article/202609100000007" },
+      { "name": "Billboard — Billboard Hot 100 / 12 Eylül 2026", "url": "https://www.billboard.com/charts/hot-100/" },
+      { "name": "Atlantic Records — Bruno Mars — The Romantic / Bruno Mars — Risk It All yayın bilgisi", "url": "https://press.atlanticrecords.com/sites/g/files/g2000014001/files/2026-03/Bruno%20Mars%20-%20The%20Romantic%20Album%20-%202.27.26.pdf" }
+    ],
+    "storyShare": "7–9 Eylül müzik gündemi: almost monday — french kids ve dört yeni K-pop yayını geldi; Bruno Mars — Risk It All Billboard Hot 100 ilk 10'una girdi."
+  },
+  {
     "slug": "4-eylul-2026-muzik-gundemi",
     "title": "4 Eylül müzik gündemi: ADÉLA — PRIMA ve yeni yayınlar",
     "shortTitle": "4 Eylül — günün müzik gündemi",

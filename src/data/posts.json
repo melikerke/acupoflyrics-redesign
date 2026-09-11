@@ -1,5 +1,321 @@
 [
   {
+    "id": "5285",
+    "title": "CRUSH Benim Olsana English Translation",
+    "song": "Benim Olsana",
+    "slug": "crush-benim-olsana-english-translation",
+    "date": "2026-09-11T12:17:00+03:00",
+    "artist": "CRUSH",
+    "languages": {
+      "original": "tr",
+      "translation": "en",
+      "annotations": "en"
+    },
+    "categories": [
+      "CRUSH",
+      "Benim Olsana"
+    ],
+    "category_slugs": [
+      "crush",
+      "benim-olsana"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Giriş: Miraç, Efe",
+        "lines": [
+          "(Crush)",
+          "(Ah-ah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Miraç, Efe",
+        "lines": [
+          "(Crush)",
+          "(Ah-ah)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Arda, Miraç",
+        "lines": [
+          "Geceden sabaha",
+          "Uyumuşum düşlerimde seni beklerken",
+          "Döndüm arkama",
+          "Kokun kalmış üzerimde onu koklarken",
+          "Neden acaba?",
+          "Artık benim ol ya da kimselerin olma",
+          "Benim olsana",
+          "Benim olsana"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "From night till morning",
+          "I fell asleep waiting for you in my dreams",
+          "I turned around",
+          "And your scent lingered on me as I breathed it in",
+          "I wonder why?",
+          "Be mine now, or be no one's",
+          "Come on, be mine",
+          "Come on, be mine"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bölüm 1: Oğuzhan, Milan, Batu, Miraç",
+        "lines": [
+          "İnsanoğlu doyumsuz",
+          "Sev beni bi' bebek gibi oyunsuz",
+          "Konuşmadan önce bi' dinle",
+          "Sen hariç bütün sorularımın cevabı olumsuz",
+          "Yakala uyum artık",
+          "Enerjimizi yeteri kadar fazla tattın",
+          "Telefonu kapattın",
+          "Bi' kusur işlemedim de sen iyice abarttın",
+          "Yok mu bi' tane artım?",
+          "Yani tehlikeli biri o, aşkı beni deli ediyo'",
+          "Eti benim, sen de kemiği ol",
+          "Kalbim kendini ele veriyo', sanki o da bunu biliyo'",
+          "İnsan hiç ölür mü aşktan? (Aşktan)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Humans are never satisfied",
+          "Love me like a baby, with no games",
+          "Listen for once before you speak",
+          "The answer to all my questions is no—except when it comes to you",
+          "Get in sync with me now",
+          "You've had more than a taste of our chemistry",
+          "You hung up the phone",
+          "I didn't do anything wrong, but you completely overreacted",
+          "Don't I get any credit?",
+          "I mean, she's a dangerous one, her love is driving me crazy",
+          "Let me be the flesh, and you be the bone",
+          "My heart is giving me away, and it's like she knows it",
+          "Can a person even die from love?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Efe, Arda",
+        "lines": [
+          "Geceden sabaha",
+          "Uyumuşum düşlerimde seni beklerken",
+          "Döndüm arkama",
+          "Kokun kalmış üzerimde onu koklarken",
+          "Neden acaba?",
+          "Artık benim ol ya da kimselerin olma",
+          "Benim olsana",
+          "Benim olsana"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "From night till morning",
+          "I fell asleep waiting for you in my dreams",
+          "I turned around",
+          "And your scent lingered on me as I breathed it in",
+          "I wonder why?",
+          "Be mine now, or be no one's",
+          "Come on, be mine",
+          "Come on, be mine"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bölüm 2: Barış, Milan",
+        "lines": [
+          "Gözlerin afet, sanki bi' lanet",
+          "Kalbimi al, bana kalbini bahşet",
+          "Çektiğim hasret gibi beni mahvet",
+          "Sen bi' deliysen ben bi' divane",
+          "Aklımı kaybettim yine, kahretsin",
+          "Sana yok bi' neden ya da çare",
+          "Gözlerimin feri senden ibaret",
+          "Anlamadım nasıl geldi bu hâle",
+          "Ya, peki derdin ne ki?",
+          "Bitmek bilmiyo' gibi gelgitlerin",
+          "Gelip aklımı çeldin",
+          "Gittiysem bile yine sana geldim geri, ah",
+          "Peki n'aparız ipin ucu kopunca?",
+          "Giriyo' birbirine sebep ve sonuçlar",
+          "Kaybettim kendimi yolunda",
+          "Dokunma bana, aklımdan zorum var"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Your eyes are a disaster, like they're a curse",
+          "Take my heart, and gift me yours",
+          "Ruin me like the longing I feel for you",
+          "If you're crazy, then I'm insane",
+          "I've lost my mind again, damn it",
+          "There's no reason or cure for you",
+          "You're the only light left in my eyes",
+          "I don't get how we ended up like this",
+          "Yeah, so what's your deal, anyway?",
+          "Your push and pull seems endless",
+          "You came and messed with my head",
+          "Even when I left, I still came right back to you, yeah",
+          "So what do we do when the thread finally snaps?",
+          "Cause and effect are getting all mixed up",
+          "I've lost myself on your path",
+          "Don't touch me, I'm not right in the head"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Miraç, Efe, Arda",
+        "lines": [
+          "Geceden sabaha",
+          "Uyumuşum düşlerimde seni beklerken",
+          "Döndüm arkama",
+          "Kokun kalmış üzerimde onu koklarken",
+          "Neden acaba?",
+          "Artık benim ol ya da kimselerin olma",
+          "Benim olsana",
+          "Benim olsana",
+          "(Let's go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "From night till morning",
+          "I fell asleep waiting for you in my dreams",
+          "I turned around",
+          "And your scent lingered on me as I breathed it in",
+          "I wonder why?",
+          "Be mine now, or be no one's",
+          "Come on, be mine",
+          "Come on, be mine",
+          "(Let's go)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış: Birlikte",
+        "lines": [
+          "Let's go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: All",
+        "lines": [
+          "Let's go"
+        ]
+      }
+    ],
+    "excerpt": "From night till morning",
+    "annotations": {
+      "Be mine now, or be no one's": "The Turkish line is an intense romantic ultimatum: the narrator wants complete commitment and cannot bear the idea of the other person belonging to anyone else.",
+      "more than a taste of our chemistry": "The Turkish lyric literally speaks of tasting the pair's energy. The English version keeps that sensory metaphor while expressing the attraction and compatibility between them.",
+      "Let me be the flesh, and you be the bone": "The image joins flesh and bone to describe two people becoming inseparable parts of one whole.",
+      "Your eyes are a disaster": "In Turkish, “afet” literally means a disaster, but it can also describe someone whose beauty is overwhelming or devastating.",
+      "when the thread finally snaps": "The Turkish expression describes the point at which control is lost and a situation can no longer be held together.",
+      "I'm not right in the head": "This renders the colloquial Turkish phrase “aklımdan zorum var,” which means the speaker feels mentally overwhelmed or a little out of control."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5PW7h2o6qYWUmwAultwZdf",
+        "name": "Benim Olsana",
+        "url": "https://open.spotify.com/track/5PW7h2o6qYWUmwAultwZdf",
+        "isrc": null,
+        "durationMs": 177000,
+        "duration": "2:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2JEo6ivzJS4vQbHZycSsS6",
+        "name": "CRUSH",
+        "url": "https://open.spotify.com/artist/2JEo6ivzJS4vQbHZycSsS6",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebecdf990326951f571c05158d",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2JEo6ivzJS4vQbHZycSsS6",
+          "name": "CRUSH",
+          "url": "https://open.spotify.com/artist/2JEo6ivzJS4vQbHZycSsS6"
+        }
+      ],
+      "album": {
+        "id": "294VZB9TyHpZnhktpxVQtY",
+        "name": "Benim Olsana",
+        "url": "https://open.spotify.com/album/294VZB9TyHpZnhktpxVQtY",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2",
+        "artists": [
+          {
+            "id": "2JEo6ivzJS4vQbHZycSsS6",
+            "name": "CRUSH",
+            "url": "https://open.spotify.com/artist/2JEo6ivzJS4vQbHZycSsS6"
+          }
+        ],
+        "releaseDate": "2026-09-11",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5PW7h2o6qYWUmwAultwZdf",
+            "name": "Benim Olsana",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 177000,
+            "duration": "2:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5PW7h2o6qYWUmwAultwZdf",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-11T12:17:00+03:00",
+      "trackUrl": "https://open.spotify.com/track/5PW7h2o6qYWUmwAultwZdf",
+      "albumUrl": "https://open.spotify.com/album/294VZB9TyHpZnhktpxVQtY",
+      "artistUrl": "https://open.spotify.com/artist/2JEo6ivzJS4vQbHZycSsS6",
+      "albumName": "Benim Olsana",
+      "albumType": "Single",
+      "releaseDate": "2026-09-11",
+      "duration": "2:57",
+      "isrc": null,
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf4570f52ce40f7080ad6db2"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZVVylrAkmfg",
+    "source": "user-supplied-spotify-youtube",
+    "appleMusicUrl": "https://music.apple.com/tr/album/benim-olsana/6808579640?i=6808579835",
+    "seo": {
+      "title": "CRUSH Benim Olsana English Translation",
+      "description": "CRUSH – Benim Olsana Turkish lyrics and a carefully matched English translation. Explore the song's meaning, idioms and English notes.",
+      "canonical": "https://www.acupoflyrics.com/crush-benim-olsana-english-translation/"
+    }
+  },
+  {
     "id": "5284",
     "title": "ADÉLA Nicole Kidman Türkçe Çeviri",
     "song": "Nicole Kidman",
