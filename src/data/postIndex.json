@@ -1,5 +1,321 @@
 [
   {
+    "id": "5291",
+    "slug": "taylor-swift-babylon-turkce-ceviri",
+    "title": "Taylor Swift Babylon Türkçe Çeviri",
+    "song": "Babylon",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "date": "2026-09-25T10:03:00.000Z",
+    "reading_time": 4,
+    "excerpt": "The casino doesn't like when you run the tables",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "releaseDate": "2026-09-25",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+      "duration": "3:39",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 4,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "The casino doesn't like when you run the tables",
+      "tr": "Kumarhane, masaları silip süpürmenden hoşlanmaz"
+    },
+    "heroPair": {
+      "en": "You never knew that it was Babylon",
+      "tr": "Onun Babil olduğunu hiç bilmiyordun"
+    }
+  },
+  {
+    "id": "5290",
+    "slug": "taylor-swift-pink-clouding-turkce-ceviri",
+    "title": "Taylor Swift Pink Clouding Türkçe Çeviri",
+    "song": "Pink Clouding",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "date": "2026-09-25T10:02:00.000Z",
+    "reading_time": 3,
+    "excerpt": "Met the magenta sunrise",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "releaseDate": "2026-09-25",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+      "duration": "3:11",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Met the magenta sunrise",
+      "tr": "Morcumsu bir gün doğumunda buluştuk"
+    },
+    "heroPair": {
+      "en": "Met the magenta sunrise",
+      "tr": "Morcumsu bir gün doğumunda buluştuk"
+    }
+  },
+  {
+    "id": "5289",
+    "slug": "taylor-swift-cleveland-turkce-ceviri",
+    "title": "Taylor Swift Cleveland! Türkçe Çeviri",
+    "song": "Cleveland!",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "date": "2026-09-25T10:01:00.000Z",
+    "reading_time": 3,
+    "excerpt": "She's not as hot as she was, but she was only a four",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "releaseDate": "2026-09-25",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+      "duration": "3:26",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "She's not as hot as she was, but she was only a four",
+      "tr": "Eskisi kadar güzel değilmiş, zaten en fazla dört edermiş"
+    },
+    "heroPair": {
+      "en": "He already took me to Cleveland",
+      "tr": "Beni çoktan Cleveland’a götürdü"
+    }
+  },
+  {
+    "id": "5288",
+    "slug": "taylor-swift-patient-zero-turkce-ceviri",
+    "title": "Taylor Swift Patient Zero Türkçe Çeviri",
+    "song": "Patient Zero",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "date": "2026-09-25T10:00:00.000Z",
+    "reading_time": 4,
+    "excerpt": "If you wanna party with somebody who might know",
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "releaseDate": "2026-09-25",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+      "duration": "3:46",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "If you wanna party with somebody who might know",
+      "tr": "Eğer bunu yaşamış biriyle takılmak istersen"
+    },
+    "heroPair": {
+      "en": "But if you’re sick of him, I got you, I was patient zero",
+      "tr": "Ama ondan bıktıysan ben buradayım, çünkü ben ilk vakaydım"
+    }
+  },
+  {
+    "id": "5287",
+    "slug": "nana-so-well-turkce-ceviri",
+    "title": "NANA So well Türkçe Çeviri",
+    "song": "So well",
+    "artist": "NANA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8",
+    "date": "2026-09-14T08:43:17.167Z",
+    "reading_time": 1,
+    "excerpt": "han georeum dwieseo",
+    "categories": [
+      "NANA",
+      "NANA Digital Single <So well>"
+    ],
+    "category_slugs": [
+      "nana",
+      "nana-digital-single-so-well"
+    ],
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5oR4PpaIfh3bcDDjMr4mC0",
+      "albumUrl": "https://open.spotify.com/album/1DzMo7MrDtDYWZaSKWPkUv",
+      "artistUrl": "https://open.spotify.com/artist/0y7Ayco2wqh26ps6bYsor8",
+      "albumName": "NANA Digital Single <So well>",
+      "releaseDate": "2026-09-14",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8",
+      "duration": "3:16",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "NANA",
+      "artistImage": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa",
+      "artistGenres": [],
+      "albumArtist": "NANA"
+    },
+    "moods": [
+      "Love",
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "han georeum dwieseo",
+      "tr": "Bir adım gerinden"
+    },
+    "heroPair": {
+      "en": "'Cause I know you so well",
+      "tr": "Çünkü seni çok iyi tanıyorum"
+    }
+  },
+  {
+    "id": "5286",
+    "slug": "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
+    "title": "Jhené Aiko, Kendrick Lamar So Good Türkçe Çeviri",
+    "song": "So Good",
+    "artist": "Jhené Aiko, Kendrick Lamar",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6",
+    "date": "2026-09-14T08:23:19.761Z",
+    "reading_time": 5,
+    "excerpt": "Face stupid, body stupid",
+    "categories": [
+      "Jhené Aiko",
+      "Kendrick Lamar",
+      "Westside Whimsy"
+    ],
+    "category_slugs": [
+      "jhene-aiko",
+      "kendrick-lamar",
+      "westside-whimsy"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4SHzTQlwm2Ov80IDdl883y",
+      "albumUrl": "https://open.spotify.com/album/1U5UY674wcDu0FisO7SXXp",
+      "artistUrl": "https://open.spotify.com/artist/5ZS223C6JyBfXasXxrRqOk",
+      "albumName": "Westside Whimsy",
+      "releaseDate": "2026-09-10",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6",
+      "duration": "3:57",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 14,
+      "totalTracks": 20,
+      "artistName": "Jhené Aiko",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eba549c55ea928defc166d971e",
+      "artistGenres": [],
+      "albumArtist": "Jhené Aiko"
+    },
+    "moods": [
+      "Party",
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "Face stupid, body stupid",
+      "tr": "Yüzün deli güzel, vücudun deli güzel¹"
+    },
+    "heroPair": {
+      "en": "You look so good",
+      "tr": "Öyle güzel görünüyorsun ki"
+    }
+  },
+  {
     "id": "5285",
     "slug": "crush-benim-olsana-english-translation",
     "title": "CRUSH Benim Olsana English Translation",

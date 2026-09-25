@@ -8,5 +8,7 @@ export const spanishTranslationPaths = [
   "/es/alex-warren-ordinary",
   "/es/billie-eilish-wildflower",
   "/es/jimin-who",
-  "/es/jennie-like-jennie"
+  "/es/jennie-like-jennie",
+  "/es/jhene-aiko-kendrick-lamar-so-good",
+  "/es/nana-so-well"
 ];

@@ -1,29 +1,41 @@
 export const popGundemiArticles = [
   {
     "slug": "10-11-eylul-2026-muzik-gundemi",
-    "title": "10–11 Eylül müzik gündemi: IU, LE SSERAFIM ve yeni pop yayınları",
-    "shortTitle": "10–11 Eylül — günün müzik gündemi",
+    "title": "10–25 Eylül müzik gündemi: Taylor Swift, Madonna ve Charli xcx yeni yayınları",
+    "shortTitle": "10–25 Eylül — günün müzik gündemi",
     "kicker": "Günün müzik gündemi",
     "date": "2026-09-10",
-    "updatedAt": "2026-09-11T10:30:00+03:00",
-    "readTime": "9 dk",
+    "updatedAt": "2026-09-25T10:20:00+03:00",
+    "readTime": "33 dk",
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/1200x630bb.jpg",
     "imageAlt": "IU — Unknown Planet tekli kapağı",
     "imageCredit": "IU / EDAM Entertainment · Apple Music",
     "imageSource": "https://music.apple.com/us/album/unknown-planet-single/6808583617",
     "accent": "#596693",
-    "excerpt": "IU — Unknown Planet ve IU — Dear my crazy soulmate 10 Eylül'de yayımlandı; LE SSERAFIM — Made My Night ise 11 Eylül'de Güney Kore'de dinleyiciyle buluştu. Becky Hill — Changes ve Victoria Monét — Juicy yeni global yayınlar arasında.",
-    "dek": "10–11 Eylül'deki global pop, R&B ve K-pop yayınları ile günlük Circle, Apple Music ve Spotify hareketleri; yayın bölgeleri ve ölçüm tarihleri birbirinden ayrılarak tek dosyada toplandı.",
-    "pullQuote": "IU — Unknown Planet, Melon Hot 100'ün 10 Eylül 21.00 görünümünde 1 numarada; IU — Dear my crazy soulmate 3 numarada yer aldı.",
-    "relatedTranslations": [],
+    "excerpt": "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours ve Sugababes — Ghost 25 Eylül'de yayımlandı. Circle, Apple Music ve Spotify günlük dönemleri yenilendi.",
+    "dek": "10–25 Eylül'deki global pop, R&B, Latin ve K-pop yayınları ile Billboard, Circle, Apple Music, Spotify ve YouTube hareketleri; yayın tarihleri ve ölçüm dönemleri ayrılarak tek dosyada toplandı.",
+    "pullQuote": "Taylor Swift — Patient Zero 25 Eylül'de yayımlandı; CBS ve MTV, Taylor Swift'in yönettiği klibin 27 Eylül'deki 2026 MTV Video Music Awards sırasında ilk kez gösterileceğini doğruladı.",
+    "relatedTranslations": [
+      "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
+      "nana-so-well-turkce-ceviri"
+    ],
     "livePanel": {
-      "label": "10–11 Eylül 2026",
-      "title": "Yeni yayınlar ve günlük liste hareketleri",
+      "label": "10–25 Eylül 2026",
+      "title": "Yeni yayınlar ve hafta sonu liste hareketleri",
       "items": [
-        { "label": "Global pop", "text": "Becky Hill — Changes, Victoria Monét — Juicy, Barry Can't Swim & Sammy Virji — I Could Be Madonna ve Chloe Qisha — Question Of The Day yayımlandı." },
-        { "label": "K-pop", "text": "IU — Unknown Planet, IU — Dear my crazy soulmate, Mark Lee — My Friend, ALL(H)OURS — DANG DANG ve MCND — Devil Youth Club 10 Eylül'de yayımlandı." },
-        { "label": "11 Eylül", "text": "LE SSERAFIM — Made My Night Güney Kore'de yayımlandı; resmî duyuru diğer bölgeler için 9 Ekim tarihini gösteriyor." },
-        { "label": "Yeniden yükselen", "text": "Ravyn Lenae — Love Me Not, 9 Eylül Spotify Global günlük görünümüne 9 numaradan yeniden girdi." }
+        { "label": "Global R&B", "text": "Jhené Aiko — Westside Whimsy 11 Eylül'de yayımlandı; Jhené Aiko — So Good (feat. Kendrick Lamar) Apple Music global görünümünde 4 numarada." },
+        { "label": "Global pop", "text": "Kings Of Leon — My Whole World, Slayyyter — crank 2, Tinashe — Pillow Fight ve Rachel Chinouriri — Make Believe yeni yayınlar arasında." },
+        { "label": "K-pop", "text": "NANA — So well ve KIM JIWOONG — DRIVE 14 Eylül'de yayımlandı; iki parçada da Korece dizeler bulunuyor." },
+        { "label": "Latin", "text": "La T y la M & J Balvin — Qué ironía yeni yayın; Blessd & Anuel AA — CAPCANA COCOA ise YouTube'un güncel müzik eğiliminde 4 numarada." },
+        { "label": "Yeniden yükselen", "text": "Romeo Santos — Eres Mía, 13 Eylül YouTube dünya müzik eğiliminde 3 numaraya çıktı; gelişme yeni yayın değil." },
+        { "label": "15 Eylül", "text": "Red Velvet - IRENE & SEULGI — Cheetah 14 Eylül'de yayımlandı; KAROL G, Judeline & rusowsky — BbY WOW Apple Music'in 15 Eylül görünümünde 1 numaraya çıktı." },
+        { "label": "16 Eylül", "text": "KISS OF LIFE — SWEAT (Japanese Ver.) yayımlandı; MW:MEU — With U bir gün önce geldi. KAROL G, Judeline & rusowsky — BbY WOW Billboard Hot 100 ilk 10'una girdi." },
+        { "label": "17 Eylül", "text": "LE SSERAFIM — Made My Night Circle Global ilk 10'una girdi; R. City feat. Adam Levine — Locked Away YouTube eğiliminde 19 numaraya yükseldi." },
+        { "label": "18 Eylül", "text": "ROSÉ — new trick yayımlandı; Teddy Swims — Perfect Man, Troye Sivan — Party ve yeni R&B iş birlikleri cuma yayınları arasında." },
+        { "label": "21 Eylül", "text": "ROSÉ — new trick Circle Global'da 2 ve YouTube eğiliminde 1 numarada; Maluma & Shakira — AGUA YouTube eğiliminde 4 numarada." },
+        { "label": "22 Eylül", "text": "ILLIT — Swingin’ Magic ve QWER — 소년만화 (Dreamer) yayımlandı; JOSHUA — Baby Come Home iki dil sürümüyle geldi." },
+        { "label": "24 Eylül", "text": "ONEUS — 눈을 돌리지마 (Don’t Turn Away), LIGHTSUM — どうして ve UNIS — Milky Way yayımlandı; Conep & Young Miko — After YouTube eğiliminde 109 sıra yükseldi." },
+        { "label": "25 Eylül", "text": "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours, Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry yayımlandı." }
       ]
     },
     "summary": [
@@ -33,7 +45,42 @@ export const popGundemiArticles = [
       "Mark Lee — My Friend, Mark Lee'nin Upper Room etiketi altındaki ilk teklisi olarak 10 Eylül'de yayımlandı ve sözleri İngilizce.",
       "ALL(H)OURS — DANG DANG, ALL(H)OURS — UNBOUND EP'sinin çift başlık parçalarından biri; MCND — Devil Youth Club ise MCND — Devil Youth Club EP'sinin başlık parçası. İki yayın da 10 Eylül tarihli.",
       "LE SSERAFIM — Made My Night için Güney Kore yayın tarihi 11 Eylül 13.00 KST. SOURCE MUSIC'in resmî duyurusu diğer bölgelerdeki dijital yayın için 9 Ekim 13.00 KST tarihini veriyor.",
-      "Ravyn Lenae — Love Me Not yeni bir yayın değil: Apple Music parça tarihini 3 Mayıs 2024 olarak gösteriyor. 9 Eylül Spotify Global günlük görünümüne 9 numaradan yeniden girdi."
+      "Ravyn Lenae — Love Me Not yeni bir yayın değil: Apple Music parça tarihini 3 Mayıs 2024 olarak gösteriyor. 9 Eylül Spotify Global günlük görünümüne 9 numaradan yeniden girdi.",
+      "Jhené Aiko — Westside Whimsy, 11 Eylül'de yayımlanan 20 parçalık R&B albümü. Jhené Aiko — So Good (feat. Kendrick Lamar), Apple Music Top 100: Global'ın 13 Eylül görünümünde 4 numarada.",
+      "Kings Of Leon — My Whole World 10 Eylül'de; Slayyyter — crank 2, Tinashe — Pillow Fight ve Rachel Chinouriri — Make Believe ise 10–11 Eylül aralığında yayımlandı.",
+      "PENTAGON — 겁쟁이 (Coward), grubun 10. yıl projesi kapsamında; Ryu Sujeong — Diamond ise Ryu Sujeong — ALL THE COLORS I AM EP'sinin başlık parçası olarak 11 Eylül'de yayımlandı.",
+      "La T y la M & J Balvin — Qué ironía 10 Eylül tarihli yeni Latin yayını. Blessd & Anuel AA — CAPCANA COCOA ve Romeo Santos — Eres Mía, 13 Eylül YouTube dünya müzik eğiliminde sırasıyla 4 ve 3 numarada.",
+      "NANA — So well ve KIM JIWOONG — DRIVE, Melon kayıtlarına göre 14 Eylül'de yayımlandı. Yandel — Encantadora ise yeni yayın değil; 14 Eylül YouTube dünya müzik eğiliminde 23 sıra yükselerek 9 numaraya çıktı.",
+      "14 Eylül liste yenilemesinde Circle Global 11 Eylül, Apple Music Top 100: Global 14 Eylül ve Spotify Global Top 50 12 Eylül görünümüne ilerledi; iki Billboard listesi 12 Eylül haftalık döneminde kaldı.",
+      "Red Velvet - IRENE & SEULGI — Cheetah, ikilinin Japonya'daki ilk özgün mini albümünün başlık parçası olarak 14 Eylül'de dijital platformlara geldi. Apple Music kayıtları beş parçalık EP'yi aynı tarihle gösteriyor.",
+      "15 Eylül liste yenilemesinde KAROL G, Judeline & rusowsky — BbY WOW Apple Music Top 100: Global'da 1 numaraya çıktı ve Spotify Global'ın 13 Eylül günlüğünde de lider. Ravyn Lenae — Love Me Not Spotify'da 5 numaraya yükseldi.",
+      "Fugees & Ms. Lauryn Hill — Killing Me Softly With His Song, 15 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 87 sıra yükselerek 19 numaraya; Romeo Santos feat. Carlos Santana — Necio ise 25 sıra yükselerek 16 numaraya çıktı.",
+      "Rolling Stone'da 14 Eylül'de yer alan Messina Touring Group açıklamasına göre Macklemore, Ed Sheeran — Loop Tour'un kalan ABD tarihlerinden çıkarıldı. Ed Sheeran tarafından ayrı bir resmî açıklama kontrol edilen kaynaklarda bulunmadığı için gelişme organizatör beyanına dayanan basın haberi olarak aktarılıyor.",
+      "16 Eylül liste yenilemesinde Billboard Hot 100 ve Billboard 200, 19 Eylül tarihli haftalık döneme; Circle Global 13 Eylül, Apple Music Top 100: Global 16 Eylül ve Spotify Global Top 50 14 Eylül günlük görünümüne ilerledi.",
+      "KAROL G, Judeline & rusowsky — BbY WOW, 19 Eylül tarihli Billboard Hot 100 görünümünde 10 numaraya girdi. YAO feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk — FOR OKINAWA ise Apple Music Top 100: Global'ın 16 Eylül görünümünde 10 numarada.",
+      "KISS OF LIFE — SWEAT (Japanese Ver.), KISS OF LIFE — SWEAT -JAPANESE EP- içinde 16 Eylül'de yayımlandı. MW:MEU — With U ve aynı adlı ilk mini albümün yayın tarihi 15 Eylül.",
+      "Kapo — OHNANA yeni bir yayın değil: Spotify kaydı 6 Haziran 2024 tarihli. Parça 16 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 134 sıra yükselerek 9 numaraya çıktı.",
+      "17 Eylül liste yenilemesinde Circle Global 14 Eylül, Apple Music Top 100: Global 17 Eylül ve Spotify Global Top 50 15 Eylül günlüğüne ilerledi. Billboard Hot 100 ile Billboard 200, 19 Eylül tarihli haftalık görünümde kaldı.",
+      "LE SSERAFIM — Made My Night, Circle Global'ın 14 Eylül günlüğüne 9 numaradan girdi. ADÉLA — Nicole Kidman Apple Music'te 8 ve Spotify'da 7 numarada; çevirisi sitede mevcut.",
+      "R. City feat. Adam Levine — Locked Away, 17 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 19 numaraya; Fuerza Regida — TU SANCHO ise 9 numaraya yükseldi. İki gelişme de yeni yayın değil.",
+      "ROSÉ — new trick platformlarda 17 Eylül tarihli; klip ve Kore basınındaki yayın kaydı saat farkı nedeniyle 18 Eylül. Parça İngilizce olduğu için romanizasyon gerekmiyor.",
+      "Teddy Swims — Perfect Man 18 Eylül, Troye Sivan — Party 17 Eylül, Anderson .Paak & Cordae — A Good Day 16 Eylül ve Joy Crookes feat. Denzel Curry — Painkiller 14 Eylül tarihli platform kayıtlarıyla Official Charts'ın 18 Eylül yeni yayın seçkisinde yer alıyor.",
+      "18 Eylül liste yenilemesinde Circle Global 15 Eylül, Apple Music Top 100: Global 18 Eylül ve Spotify Global Top 50 16 Eylül günlüğüne ilerledi. SOYEON feat. Kian84 — I'm gonna TOESA Circle Global'a 8 numaradan girdi.",
+      "Romeo Santos feat. Carlos Santana — Necio yeni bir yayın değil; 18 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 35 sıra yükselerek 8 numaraya çıktı.",
+      "21 Eylül liste yenilemesinde Billboard Hot 100 ve Billboard 200, 19 Eylül tarihli haftalık görünümlerde kaldı; Circle Global 18 Eylül, Apple Music Top 100: Global 21 Eylül ve Spotify Global Top 50 19 Eylül günlük görünümlerine ilerledi.",
+      "ROSÉ — new trick Circle Global'ın 18 Eylül günlüğünde 2 ve 21 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 1 numarada. Parça sitede bulunmuyor ve İngilizce olduğu için romanizasyon gerekmiyor.",
+      "Maluma & Shakira — AGUA 17 Eylül tarihli yeni yayın; 21 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 4 numarada. Fuerza Regida & Grupo Frontera — COQUETA ise 19 Aralık 2024 tarihli katalog parçası ve aynı görünümde 7 numarada.",
+      "22 Eylül liste yenilemesinde Circle Global 19 Eylül ve Spotify Global Top 50 20 Eylül günlüğüne ilerledi; Apple Music Top 100: Global 21 Eylül, iki Billboard listesi 19 Eylül döneminde kaldı.",
+      "JACKSON WANG — Thank You, platform kataloğunda 20 Eylül tarihli; sanatçının resmî sitesi kaydı yayımlanmış olarak gösteriyor. ILLIT — Swingin’ Magic ile QWER — 소년만화 (Dreamer) 21 Eylül'de yayımlandı. JOSHUA — Baby Come Home ise 22 Eylül'de Çince ve İngilizce sürümleriyle geldi.",
+      "Maluma — Borró Cassette 22 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 61 sıra yükselerek 38 numaraya, Galy Galiano — Me Bebí Tu Recuerdo 18 sıra yükselerek 32 numaraya çıktı; iki gelişme de yeni yayın değil.",
+      "24 Eylül liste yenilemesinde Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık görünüme ilerledi; Circle Global 21 Eylül, Apple Music Top 100: Global 23 Eylül ve Spotify Global Top 50 22 Eylül günlük görünümünde.",
+      "KAROL G, Judeline & rusowsky — BbY WOW Billboard Hot 100'de 10 numaradan 7 numaraya yükseldi. Jhené Aiko — Westside Whimsy Billboard 200'e 1 numaradan girdi; albüm listesi ile şarkı listesi aynı ölçüm olarak sunulmuyor.",
+      "ONEUS — 눈을 돌리지마 (Don’t Turn Away), LIGHTSUM — どうして ve UNIS — Milky Way 23 Eylül'de yayımlandı. Korece ve Japonca dizeler için çeviri hazırlanırken romanizasyon gerekiyor.",
+      "Conep & Young Miko — After, 24 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 109 sıra yükselerek 11 numaraya çıktı. Maluma — Borró Cassette ise önceki 38 numaralı görünümden sonra 17 numaraya çıkarak ilk 20 eşiğini geçti.",
+      "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours, Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry, Official Charts'ın 25 Eylül yeni yayın seçkisinde yer alıyor.",
+      "CBS ve MTV'nin 24 Eylül tarihli duyurusu, Taylor Swift — Patient Zero klibinin 27 Eylül'deki 2026 MTV Video Music Awards sırasında ilk kez gösterileceğini doğruluyor; klip tarihi şarkının 25 Eylül yayın tarihinden ayrı tutuluyor.",
+      "25 Eylül liste yenilemesinde Circle Global 22 Eylül, Apple Music Top 100: Global 24 Eylül ve Spotify Global Top 50 23 Eylül görünümüne ilerledi; Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık dönemlerinde kaldı.",
+      "Grupo Firme — El Beneficio De La Duda, 24 Eylül 22.40 EDT tarihli üçüncü taraf YouTube dünya müzik eğiliminde 42 sıra yükselerek 23 numaraya çıktı. Tony Dize — El Doctorado ise 19 numarayla ilk 20 eşiğine ulaştı; iki parça da yeni yayın değil."
     ],
     "sections": [
       {
@@ -79,6 +126,251 @@ export const popGundemiArticles = [
           "Circle Global 8 Eylül günlüğünde ENHYPEN — Bloody Paradise 10 numaradan 8 numaraya yükseldi; JISOO — CLICK 8 numaradan 10 numaraya geriledi. İki çeviri de sitede mevcut.",
           "Apple Music Top 100: Global, resmî global çalma listesinin 10 Eylül görünümüne güncellendi ve ilk 10 değişmedi. Spotify Global Top 50 ise 9 Eylül günlüğüne güncellendi; Ravyn Lenae — Love Me Not 9 ve sombr — back to friends 7 numaradan ilk 10'a girdi. sombr — back to friends çevirisi sitede mevcut."
         ]
+      },
+      {
+        "heading": "Jhené Aiko — Westside Whimsy ve Jhené Aiko — So Good (feat. Kendrick Lamar)",
+        "body": [
+          "Def Jam'in Universal Music üzerinden yayımladığı 11 Eylül duyurusu, Jhené Aiko — Westside Whimsy albümünün aynı gün yayımlandığını doğruluyor. Sanatçının resmî mağazasındaki parça listesinde Kendrick Lamar, Ab-Soul, Larry June, Tyga ve OHMA konuk sanatçılar arasında.",
+          "Jhené Aiko — So Good (feat. Kendrick Lamar), Apple Music Top 100: Global'ın 13 Eylül görünümünde 4 numaraya yerleşti. Jhené Aiko — He Belongs, Jhené Aiko — Ghost ve Jhené Aiko — Ceiling (Freestyle) da aynı görünümün ilk 10'unda; bunlar albümün yayın tarihiyle aynı şey olmayan günlük liste konumlarıdır."
+        ]
+      },
+      {
+        "heading": "Kings Of Leon — My Whole World ve yeni alternatif pop yayınları",
+        "body": [
+          "Associated Press'in 10 Eylül tarihli röportajı, Kings Of Leon — My Whole World parçasını 6 Kasım'da yayımlanacak Kings Of Leon — O My Beloved albümünün ilk teklisi olarak doğruluyor. Yeni tekli için gerçekleşmiş yayın tarihi 10 Eylül; 6 Kasım albüm tarihidir.",
+          "Slayyyter'ın resmî sitesi Slayyyter — crank 2 kaydını yayımlanmış olarak gösteriyor. Apple Music ile Spotify 10 Eylül tarihini, Sony Music'in basın sayfası ise duyuru tarihi olarak 11 Eylül'ü gösteriyor; platform tarihi ve basın yayını tarihi birleştirilmedi.",
+          "Tinashe — Pillow Fight, Tinashe — Popstar albümünün 25 Eylül'deki yayını öncesinde 10 Eylül'de paylaşıldı. Rachel Chinouriri — Make Believe ise Parlophone aracılığıyla 11 Eylül'de yayımlandı; Rachel Chinouriri — I think I spoke too soon albümü için açıklanan tarih 16 Ekim.",
+          "Dove Cameron — When In Rome için Apple Music yayın tarihi 9 Eylül. Official Charts parçayı 11 Eylül haftasının yeni yayın seçkisinde listeledi; bu nedenle platform tarihi ile haftalık seçki tarihi ayrı tutuluyor."
+        ]
+      },
+      {
+        "heading": "PENTAGON — 겁쟁이 (Coward) ve Ryu Sujeong — Diamond yayımlandı",
+        "body": [
+          "Melon'un 11 Eylül tarihli albüm kaydı, PENTAGON — 겁쟁이 (Coward) parçasını grubun 10. yıl projesi kapsamında yayımlanan tekli olarak tanımlıyor. Parça Korece sözler içerdiği için çeviride romanizasyon gerekir.",
+          "Bugs ve ajans açıklamasına dayanan Newsis haberi, Ryu Sujeong — ALL THE COLORS I AM EP'sinin ve başlık parçası Ryu Sujeong — Diamond'ın 11 Eylül'de yayımlandığını doğruluyor. Parçanın Korece dizelerinde romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "La T y la M & J Balvin — Qué ironía ve YouTube'daki Latin hareketi",
+        "body": [
+          "Apple Music ile Qobuz, La T y la M & J Balvin — Qué ironía için 10 Eylül yayın tarihini ve ortak sanatçı kredisini doğruluyor. Parça, 13 Eylül YouTube dünya müzik eğiliminde 22 sıra yükselerek 40 numaraya çıktı.",
+          "Blessd & Anuel AA — CAPCANA COCOA, yeni bir günlük yayın değil; 4 Eylül tarihli video 13 Eylül YouTube dünya müzik eğiliminde 4 numarada. Romeo Santos — Eres Mía ise 2014 tarihli katalog parçası olmasına rağmen aynı eğilim görünümünde 3 numaraya yükseldi. Eğilim verisi Kworb'un üçüncü taraf YouTube derlemesidir; resmî haftalık liste olarak sunulmuyor."
+        ]
+      },
+      {
+        "heading": "13 Eylül liste güncellemeleri",
+        "body": [
+          "Circle Global 10 Eylül günlüğüne ilerledi: ROSÉ & Bruno Mars — APT. 3, ILLIT — It's Me 5, CORTIS — REDRED 6 numarada; IU — Dear my crazy soulmate 8 ve LE SSERAFIM, ILLIT & KATSEYE — ICONIC BY MISTAKE 9 numaradan ilk 10'a girdi.",
+          "Apple Music Top 100: Global 13 Eylül görünümüne güncellendi ve Jhené Aiko — Westside Whimsy albümünden dört parça ilk 10'da yer aldı. Spotify Global Top 50'nin en yeni erişilebilir günlüğü 11 Eylül; Temper City — Self Aware 6, Ravyn Lenae — Love Me Not 7 ve The Goo Goo Dolls — Iris 8 numarada.",
+          "Billboard Hot 100 ile Billboard 200, 12 Eylül tarihli haftalık ABD listeleridir ve bu çalıştırmada ilk 10 sıraları değişmedi. UK Official Singles Chart 11–17 Eylül döneminde Sienna Spiro — Great Expectation 1 numarada; Dua Lipa — Training Season 18'den 7'ye, Jamie Miller — Babydoll 67'den 46'ya yükseldi."
+        ]
+      },
+      {
+        "heading": "NANA — So well ve KIM JIWOONG — DRIVE yayımlandı",
+        "body": [
+          "Melon, NANA — So well kaydını 14 Eylül tarihli dijital tekli olarak gösteriyor. Platformdaki parça açıklaması, uzun sürede oluşan güveni ve değişmeyen bağlılığı anlatan kaydın tekrar eden ‘Cause I know you so well’ dizesi etrafında kurulduğunu belirtiyor.",
+          "KIM JIWOONG — DRIVE da Melon'un 14 Eylül tarihli yeni yayınları arasında. Tek parçalık kayıt; şehir ışıkları, gece yolculuğu ve birlikte geçirilen anlar etrafında ilerleyen pop düzenlemesi olarak tanımlanıyor. NANA — So well ve KIM JIWOONG — DRIVE Korece dizeler içerdiği için çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "14 Eylül liste ve yeniden yükseliş görünümü",
+        "body": [
+          "14 Eylül yenilemesinde Circle Global 11 Eylül günlüğüne ilerledi; bu ölçüm NANA — So well ile KIM JIWOONG — DRIVE'ın 14 Eylül yayınından önceye ait. Apple Music Top 100: Global'ın 14 Eylül görünümünde Jhené Aiko — So Good (feat. Kendrick Lamar) 3, Jhené Aiko — He Belongs 5 ve Jhené Aiko — Ghost 10 numarada. Spotify Global Top 50'nin 12 Eylül günlüğünde Shakira & Burna Boy — Dai Dai 4 ve Michael Jackson — Billie Jean 8 numarada; iki parçanın da çevirisi sitede mevcut.",
+          "ARIA'nın 14 Eylül haftalık New Music Singles görünümünde HUGEL, Imael Angel & Ultra Naté — Movin' To The Sun 12 numaradan yeni giriş yaptı. Bu, 22 Mayıs tarihli parçanın yeni bir pazarda doğrulanan güncel liste hareketi; yeni yayın tarihi değildir.",
+          "Kworb'un 14 Eylül tarihli üçüncü taraf YouTube dünya müzik eğilimi derlemesinde Yandel — Encantadora 23 sıra yükselerek 9 numaraya çıktı. Apple Music, parçayı 2 Ekim 2015 tarihli katalog kaydı olarak gösteriyor; dolayısıyla gelişme ‘yeniden yükselen’ olarak sınıflandırılıyor. Aynı görünümde site çevirileri bulunan LISA — SaWaDiKa 1, JISOO — CLICK 3 ve Miley Cyrus — Bass Persuades 6 numarada."
+        ]
+      },
+      {
+        "heading": "Red Velvet - IRENE & SEULGI — Cheetah yayımlandı",
+        "body": [
+          "Red Velvet'ın Japonya resmî sitesi, Red Velvet - IRENE & SEULGI — Cheetah EP'sinin dijital yayınını 14 Eylül'de başlattığını ve aynı adlı parçanın başlık kaydı olduğunu doğruluyor. Apple Music ile Spotify da beş parçalık yayını 14 Eylül tarihli gösteriyor.",
+          "Red Velvet - IRENE & SEULGI — Cheetah Japonca dizeler içeriyor. Şarkı çeviri arşivinde bulunmadığı için olası Türkçe çeviride Latin alfabeli romanizasyon da gerekli. Fiziksel albüm için resmî sitede gösterilen 4 Kasım tarihi, 14 Eylül'deki dijital yayın tarihinden ayrı tutuluyor."
+        ]
+      },
+      {
+        "heading": "15 Eylül Apple Music ve Spotify global görünümü",
+        "body": [
+          "KAROL G, Judeline & rusowsky — BbY WOW, Apple Music Top 100: Global'ın 15 Eylül görünümünde 1 numaraya çıktı. Parça Spotify Global Top 50'nin en yeni erişilebilir 13 Eylül günlüğünde de 1 numarada. 7 Ağustos tarihli kayıt için bu gelişme yeni yayın değil, iki küresel listede eşzamanlı liderliktir.",
+          "Jhené Aiko feat. Kendrick Lamar — So Good Apple Music'te 3, Jhené Aiko — He Belongs 5 ve Jhené Aiko — Ghost 9 numarada. Jhené Aiko feat. Kendrick Lamar — So Good çevirisi arşive eklendi; diğer iki albüm parçası arşivde bulunmuyor ancak önceki görünüme göre belirgin yeni sıçrama göstermedikleri için günlük aday listesinde tekrarlanmadı.",
+          "Ravyn Lenae — Love Me Not, Spotify Global'ın 13 Eylül günlüğünde 5 numaraya yükseldi. Apple Music'in 3 Mayıs 2024 tarihli kaydı nedeniyle parça yeni yayın değil; önceki 9 ve 7 numaralı görünümlerden sonraki yeni zirvesi, yeniden yükseliş olarak değerlendiriliyor."
+        ]
+      },
+      {
+        "heading": "Fugees & Ms. Lauryn Hill — Killing Me Softly With His Song yeniden yükseliyor",
+        "body": [
+          "Kworb'un 15 Eylül tarihli üçüncü taraf YouTube dünya müzik eğilimi derlemesinde Fugees & Ms. Lauryn Hill — Killing Me Softly With His Song 87 sıra yükselerek 19 numaraya çıktı. Spotify kataloğu kaydı 13 Şubat 1996 tarihli gösteriyor; bu nedenle gelişme yeni yayın olarak sunulmuyor.",
+          "Aynı görünümde Romeo Santos feat. Carlos Santana — Necio 25 sıra yükselerek 16 numaraya çıktı. Spotify kataloğundaki 25 Şubat 2014 tarihi korunuyor. Her iki hareket de resmî haftalık satış listesi değil, üçüncü taraf YouTube eğilim derlemesidir."
+        ]
+      },
+      {
+        "heading": "Macklemore'un Ed Sheeran — Loop Tour programından çıkarılması basında yer aldı",
+        "body": [
+          "Rolling Stone'un 14 Eylül haberinde yer verdiği Messina Touring Group açıklaması, bazı ABD mekânlarının Macklemore'un yer aldığı konserlere izin vermeyeceklerini organizatöre bildirmesinin ardından sanatçının turun kalan ABD tarihlerinden çıkarıldığını söylüyor.",
+          "Kontrol edilen kaynaklarda Ed Sheeran'ın kendi hesabından ayrı bir açıklama bulunmadı. Bu nedenle karar, tur organizatörünün doğrudan beyanına dayanan ve basında yer alan bir gelişme olarak aktarılıyor; Ed Sheeran tarafından ayrıca doğrulanmış bir açıklama gibi sunulmuyor."
+        ]
+      },
+      {
+        "heading": "16 Eylül liste güncellemeleri",
+        "body": [
+          "Billboard Hot 100 ve Billboard 200, 19 Eylül tarihli haftalık ABD görünümlerine güncellendi. KAROL G, Judeline & rusowsky — BbY WOW Hot 100'de 10 numarada; bu konum Apple Music ve Spotify günlük liderliklerinden ayrı bir ölçümdür. Billboard 200'ün aynı tarihli görünümünde Ella Langley — Dandelion 1 numarada.",
+          "Circle Global 13 Eylül günlüğüne ilerledi ve ilk 10'u değişmedi. Apple Music Top 100: Global'ın 16 Eylül görünümünde KAROL G, Judeline & rusowsky — BbY WOW 1, YAO feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk — FOR OKINAWA 10 numarada. Spotify Global Top 50'nin 14 Eylül günlüğünde KAROL G, Judeline & rusowsky — BbY WOW liderliğini koruyor."
+        ]
+      },
+      {
+        "heading": "KISS OF LIFE — SWEAT (Japanese Ver.) ve MW:MEU — With U yayımlandı",
+        "body": [
+          "Nippon Columbia'nın KISS OF LIFE adına yayımladığı resmî kayıt, KISS OF LIFE — SWEAT -JAPANESE EP- için 16 Eylül tarihini veriyor. Altı parçalık yayının açılış kaydı KISS OF LIFE — SWEAT (Japanese Ver.); sitede KISS OF LIFE — SWEAT çevirisi bulunuyor ancak Japonca sürüm ayrı bir söz uyarlaması olduğu için çeviri hazırlanırken romanizasyon gerekir.",
+          "MAKESTAR ürün kaydı MW:MEU — With U albümünün tarihini 15 Eylül olarak gösteriyor; Spotify da aynı adlı başlık parçası MW:MEU — With U için 15 Eylül tarihini doğruluyor. Parçada Korece dizeler bulunduğu için çeviride romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "Kapo — OHNANA yeniden yükseliyor",
+        "body": [
+          "Kworb'un 16 Eylül tarihli üçüncü taraf YouTube dünya müzik eğilimi derlemesinde Kapo — OHNANA 134 sıra yükselerek 9 numaraya çıktı. Spotify kaydı parçanın çıkış tarihini 6 Haziran 2024 olarak gösteriyor; dolayısıyla gelişme yeni yayın değil, yeniden yükseliş olarak sınıflandırılıyor.",
+          "Aynı görünümde Fugees & Ms. Lauryn Hill — Killing Me Softly With His Song 13 numaraya yükseldi; bu parça bir önceki raporda zaten yer aldığı için yeni aday olarak tekrarlanmadı. Kworb verisi resmî haftalık satış veya dinlenme listesi değildir."
+        ]
+      },
+      {
+        "heading": "17 Eylül liste güncellemeleri ve LE SSERAFIM — Made My Night",
+        "body": [
+          "Circle Global 14 Eylül günlüğüne ilerledi. LE SSERAFIM — Made My Night 9 numaradan ilk 10'a girdi; BTS — SWIM 2, ATEEZ — BAD 3 ve CORTIS — REDRED 5 numarada. SOURCE MUSIC'in resmî duyurusunda LE SSERAFIM — Made My Night için Güney Kore yayın tarihi 11 Eylül, diğer bölgelerdeki dijital yayın tarihi 9 Ekim olarak ayrı ayrı veriliyor.",
+          "Apple Music Top 100: Global'ın 17 Eylül görünümünde KAROL G, Judeline & rusowsky — BbY WOW liderliğini korudu; ADÉLA — Nicole Kidman 8 numarada. Spotify Global Top 50'nin 15 Eylül günlüğünde ADÉLA — Nicole Kidman 7 numarada. ADÉLA — Nicole Kidman çevirisi sitede mevcut olduğu için yeni çeviri adayı olarak yazılmadı.",
+          "Billboard Hot 100 ile Billboard 200, 19 Eylül tarihli haftalık ABD görünümlerinde kaldı. Circle kaynağı ikinci doğrulama isteğinde zaman aşımına uğradı; 14 Eylül günlüğünde ilk çalıştırmada doğrulanmış 10 kayıt korundu ve liste boşaltılmadı."
+        ]
+      },
+      {
+        "heading": "R. City feat. Adam Levine — Locked Away ve Fuerza Regida — TU SANCHO yeniden yükseliyor",
+        "body": [
+          "Kworb'un 17 Eylül tarihli üçüncü taraf YouTube dünya müzik eğilimi derlemesinde R. City feat. Adam Levine — Locked Away dokuz sıra yükselerek 19 numaraya çıktı. Apple Music tekli kaydı parçanın yayın tarihini 29 Haziran 2015 olarak gösteriyor; gelişme yeni yayın değil.",
+          "Fuerza Regida — TU SANCHO aynı görünümde beş sıra yükselerek 9 numaraya çıktı. Apple Music, parçayı Fuerza Regida — 111XPANTIA albümünde 2 Mayıs 2025 tarihli gösteriyor. Kworb verisi resmî haftalık satış veya dinlenme listesi olarak sunulmuyor."
+        ]
+      },
+      {
+        "heading": "ROSÉ — new trick yayımlandı",
+        "body": [
+          "Apple Music ile Spotify, ROSÉ — new trick için 17 Eylül yayın tarihini gösteriyor. Yonhap'ın 18 Eylül tarihli haberi ve resmî klibin Kore saatine göre 18 Eylül'de açılması aynı yayının saat dilimi farkından kaynaklanan kayıtlarıdır; iki ayrı yayın gibi sunulmuyor.",
+          "ROSÉ — new trick İngilizce sözlerden oluşuyor ve sitede bulunmuyor. Çeviri hazırlanırken romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "18 Eylül global pop ve R&B yayınları",
+        "body": [
+          "Official Charts'ın 18 Eylül yeni yayın seçkisinde Teddy Swims — Perfect Man, Troye Sivan — Party, Anderson .Paak & Cordae — A Good Day ve Joy Crookes feat. Denzel Curry — Painkiller yer alıyor. Spotify kayıtları bu parçalar için sırasıyla 18, 17, 16 ve 14 Eylül tarihlerini gösteriyor; haftalık seçki tarihi platform yayın tarihi yerine kullanılmıyor.",
+          "Dört parça da İngilizce ve sitedeki çeviri arşivinde bulunmuyor. Yeni cuma seçkisinde ayrıca CA7RIEL, Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy — Sexy Magic ile HUGEL & Neton Vega — MAMI yer alıyor; günlük rapor gereksiz yere büyütülmemek için yalnızca pop ve R&B odağındaki öncelikli adaylar öne çıkarıldı."
+        ]
+      },
+      {
+        "heading": "18 Eylül liste güncellemeleri ve SOYEON feat. Kian84 — I'm gonna TOESA",
+        "body": [
+          "Circle Global 15 Eylül günlüğünde SOYEON feat. Kian84 — I'm gonna TOESA 8 numaradan ilk 10'a girdi. Melon ve Spotify kayıtları parçayı SOYEON — What a Wonderful Life albümünün 7 Eylül tarihli başlık kaydı olarak doğruluyor; Korece sözler nedeniyle çeviride romanizasyon gerekir.",
+          "Apple Music Top 100: Global'ın 18 Eylül görünümünde ADÉLA — Nicole Kidman 5, Jhené Aiko feat. Kendrick Lamar — So Good 7 ve Lil Baby — Dead Fresh 10 numarada. Spotify Global Top 50'nin 16 Eylül günlüğünde ADÉLA — Ain't In LA 3, Temper City — Self Aware 5 ve ADÉLA — Nicole Kidman 8 numarada; bu üç parçanın çevirileri sitede mevcut.",
+          "Billboard Hot 100 ile Billboard 200, 19 Eylül tarihli haftalık ABD görünümlerinde kaldı. Beş listenin tamamı başarıyla okundu ve her birinde 10 kayıt korundu."
+        ]
+      },
+      {
+        "heading": "Romeo Santos feat. Carlos Santana — Necio yeniden ilk 10'da",
+        "body": [
+          "Kworb'un 18 Eylül tarihli üçüncü taraf YouTube dünya müzik eğilimi derlemesinde Romeo Santos feat. Carlos Santana — Necio 35 sıra yükselerek 8 numaraya çıktı. Spotify kataloğu parçayı 25 Şubat 2014 tarihli gösteriyor; gelişme yeni yayın değil.",
+          "Parça 15 Eylül raporunda 16 numaraya yükselişi nedeniyle yer almıştı. Yeni ilk 10 eşiği belirgin bir gelişme olduğu için yeniden raporlandı; Kworb verisi resmî haftalık satış veya dinlenme listesi değildir."
+        ]
+      },
+      {
+        "heading": "20–21 Eylül liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 19 Eylül tarihli haftalık ABD görünümlerinde kaldı. Circle Global 18 Eylül günlüğüne ilerledi; Apple Music Top 100: Global 21 Eylül tarihli resmî küresel çalma listesi görünümüne, Spotify Global Top 50 ise 19 Eylül günlüğüne güncellendi. Beş kaynak da başarıyla doğrulandı ve her listede 10 kayıt korundu.",
+          "Apple Music Top 100: Global'da KAROL G, Judeline & rusowsky — BbY WOW 1, ADÉLA — Nicole Kidman 5 ve Olivia Rodrigo — stupid song 6 numarada. Spotify Global Top 50'de KAROL G, Judeline & rusowsky — BbY WOW 1, ADÉLA — Ain't In LA 2 ve Malcolm Todd — Earrings 3 numarada. Haftalık Billboard dönemleri, Circle ve Spotify günlükleri ile Apple Music çalma listesinin kendi yayın tarihi tek bir ölçüm penceresi gibi birleştirilmedi."
+        ]
+      },
+      {
+        "heading": "ROSÉ — new trick Circle Global'da 2, YouTube eğiliminde 1 numara",
+        "body": [
+          "ROSÉ — new trick, Circle Global'ın 18 Eylül günlüğünde 2 numaraya çıktı. Parça 21 Eylül tarihli Kworb üçüncü taraf YouTube dünya müzik eğiliminde de 1 numarada. Circle sırası günlük global listeyi, Kworb görünümü ise YouTube'daki eğilimi temsil ediyor; iki veri aynı liste olarak sunulmuyor.",
+          "17 Eylül platform tarihli parça sitedeki çeviri arşivinde bulunmuyor. İngilizce sözlerden oluştuğu için çeviri hazırlanırken romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "Maluma & Shakira — AGUA ve hafta sonu Latin hareketi",
+        "body": [
+          "Apple Music ile Spotify, Maluma & Shakira — AGUA için 17 Eylül yayın tarihini ve ortak sanatçı kredisini doğruluyor. Sony Music'in 18 Eylül tarihli duyurusu saat dilimi ve basın yayını kaydı olarak ayrı tutuluyor. Parça 21 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 4 numarada ve sitede bulunmuyor.",
+          "Fuerza Regida & Grupo Frontera — COQUETA aynı YouTube eğilim görünümünde 7 numarada. Spotify kaydı parçayı 19 Aralık 2024 tarihli gösterdiğinden bu hareket yeni yayın değil, yeniden yükseliş olarak sınıflandırılıyor. İki parça da İspanyolca ve Latin alfabesinde olduğu için romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "22 Eylül liste görünümü",
+        "body": [
+          "Circle Global 19 Eylül günlüğüne ilerledi: BTS — SWIM 2, ROSÉ & Bruno Mars — APT. 3, ATEEZ — BAD 4 ve ROSÉ — new trick 5 numarada. Spotify Global Top 50'nin 20 Eylül günlüğünde KAROL G, Judeline & rusowsky — BbY WOW 1, Malcolm Todd — Earrings 2 ve ADÉLA — Ain't In LA 3 numarada.",
+          "Apple Music Top 100: Global 21 Eylül görünümünde, Billboard Hot 100 ile Billboard 200 ise 19 Eylül tarihli haftalık dönemlerinde kaldı. Beş kaynak da başarıyla doğrulandı ve her listede 10 kayıt korundu; haftalık Billboard dönemleri, günlük Circle ve Spotify görünümleri ile Apple Music listesinin yayın tarihi birleştirilmedi."
+        ]
+      },
+      {
+        "heading": "ILLIT — Swingin’ Magic ve QWER — 소년만화 (Dreamer) yayımlandı",
+        "body": [
+          "ILLIT'ın Japonya resmî sitesi ile Apple Music, ILLIT — Swingin’ Magic için 21 Eylül tarihini doğruluyor. İki parçalık dijital tekli, Japonca ana sürümün yanında ILLIT — Swingin’ Magic (Korean Ver.) kaydını da içeriyor. İki sürüm de sitede bulunmuyor; Japonca ve Korece dizeler için romanizasyon gerekir.",
+          "QWER'in resmî Weverse duyurusu, QWER — Dreamer & Picaresque özel teklisinin 21 Eylül'de yayımlandığını ve doğrulama parçasının QWER — 소년만화 (Dreamer) olduğunu gösteriyor. Eşlik eden QWER — 피카레스크 (Picaresque) ile birlikte iki parça da Korece sözler içeriyor; çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "JACKSON WANG — Thank You yayımlandı",
+        "body": [
+          "JACKSON WANG'ın resmî sitesi JACKSON WANG — Thank You kaydını yayımlanmış olarak gösteriyor. Apple Music'in ABD kataloğundaki yayın tarihi 20 Eylül; sanatçının resmî duyurusunda 21 Eylül saati verildiği için platform tarihi ile duyuru saati ayrı tutuluyor.",
+          "JACKSON WANG — Thank You, Apple Music'in güncel yeni şarkılar seçkisinde de yer alıyor ve sitede bulunmuyor. Kontrol edilen sürüm İngilizce olduğu için romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "JOSHUA — Baby Come Home iki dil sürümüyle yayımlandı",
+        "body": [
+          "PLEDIS Entertainment'ın Weverse duyurusu, JOSHUA — Baby Come Home dijital tekli albümünün 22 Eylül saat 13.00 KST'de yayımlanacağını ve kaydın Çince JOSHUA — Baby Come Home ile JOSHUA — Baby Come Home (English Ver.) sürümlerini içerdiğini doğruluyor. Soompi'nin aynı gün güncellenen haberi yayının gerçekleştiğini ve Çince sürümde WeiBird'ün yer aldığını bildiriyor.",
+          "İki sürüm de sitede bulunmuyor. JOSHUA — Baby Come Home'un Çince sürümü için romanizasyon gerekir; JOSHUA — Baby Come Home (English Ver.) için gerekmez."
+        ]
+      },
+      {
+        "heading": "Maluma — Borró Cassette ve Galy Galiano — Me Bebí Tu Recuerdo yeniden yükseliyor",
+        "body": [
+          "Kworb'un 22 Eylül tarihli üçüncü taraf YouTube dünya müzik eğiliminde Maluma — Borró Cassette 61 sıra yükselerek 38 numaraya çıktı. Spotify tekli kaydı parçayı 29 Haziran 2015 tarihli gösteriyor; bu nedenle gelişme yeni yayın değil.",
+          "Galy Galiano — Me Bebí Tu Recuerdo aynı görünümde 18 sıra yükselerek 32 numarada. Apple Music katalog kaydı parçayı 1990 tarihli gösteriyor; Spotify'daki albüm kaydı ise 29 Şubat 1996. Kaynaklar arasındaki katalog tarihi farkı korunuyor ve gelişme yeniden yükseliş olarak sınıflandırılıyor. İki parça da İspanyolca ve Latin alfabesinde olduğu için romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "24 Eylül liste görünümü",
+        "body": [
+          "Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık ABD görünümlerine ilerledi. KAROL G, Judeline & rusowsky — BbY WOW Hot 100'de 10 numaradan 7 numaraya yükselerek yeni zirvesine ulaştı; Jhené Aiko — Westside Whimsy ise Billboard 200'e 1 numaradan girdi.",
+          "Circle Global 21 Eylül, Apple Music Top 100: Global 23 Eylül ve Spotify Global Top 50 22 Eylül günlük görünümünde. Circle Global'da BTS — SWIM 2, ATEEZ — BAD 3 ve CORTIS — REDRED 5; Apple Music'te KAROL G, Judeline & rusowsky — BbY WOW 1; Spotify'da aynı parça 1 numarada. Haftalık Billboard dönemleri, günlük Circle ve Spotify görünümleri ile Apple Music listesinin yayın tarihi birbirine karıştırılmadı."
+        ]
+      },
+      {
+        "heading": "ONEUS — 눈을 돌리지마 (Don’t Turn Away), LIGHTSUM — どうして ve UNIS — Milky Way yayımlandı",
+        "body": [
+          "ONEUS — 눈을 돌리지마 (Don’t Turn Away), ONEUS — FIRST LIGHT : 井 albümünün başlık parçası olarak 23 Eylül saat 18.00 KST'de yayımlandı. LIGHTSUM'ın Japonya resmî sitesi de LIGHTSUM — Re:idol mini albümünü ve açılış parçası LIGHTSUM — どうして kaydını 23 Eylül tarihli gösteriyor.",
+          "UNIS — Milky Way için duyurulan dijital yayın tarihi 23 Eylül saat 18.00 KST. Üç parça da sitede bulunmuyor; Korece ve Japonca dizeler için romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "Conep & Young Miko — After hızla yükseldi",
+        "body": [
+          "Nevarez Communications'ın 22 Eylül duyurusu, Conep & Young Miko — After iş birliğinin yayımlandığını doğruluyor. Parça 24 Eylül üçüncü taraf YouTube dünya müzik eğiliminde 109 sıra yükselerek 11 numaraya çıktı.",
+          "Maluma — Borró Cassette aynı görünümde 17 numaraya yükseldi. Parça 22 Eylül görünümünde 38 numaradaydı; 2015 tarihli kayıt bu kez ilk 20 eşiğini geçtiği için yeniden raporlandı. İki parça da İspanyolca ve Latin alfabesinde olduğu için romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "Taylor Swift — Patient Zero ve 25 Eylül global pop yayınları",
+        "body": [
+          "Taylor Swift'in resmî mağazası ile Apple Music, Taylor Swift — Patient Zero kaydını 25 Eylül tarihli gösteriyor. Paramount Press Express üzerinden yayımlanan CBS ve MTV duyurusu, Taylor Swift'in yönettiği klibin 27 Eylül'deki 2026 MTV Video Music Awards sırasında ilk kez gösterileceğini doğruluyor; şarkının yayın tarihi ile klibin gösterim tarihi ayrı tutuluyor.",
+          "Madonna'nın doğrulanmış resmî bağlantı sayfası Madonna & Charli xcx — Danceteria Afterhours kaydını yayımlanmış olarak gösteriyor. Official Charts'ın 25 Eylül seçkisinde Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry da yer alıyor. Sugababes'in resmî yayın sayfası Sugababes — Ghost kaydını, John Legend'ın resmî sitesi John Legend feat. Pharrell Williams — Fireflies sanatçı kredisini ve Remi Wolf'un resmî sitesi Remi Wolf — I Won’t Cry klibini doğruluyor."
+        ]
+      },
+      {
+        "heading": "25 Eylül liste görünümü",
+        "body": [
+          "Circle Global 22 Eylül günlüğüne ilerledi: BTS — SWIM 2, ROSÉ & Bruno Mars — APT. 3, ATEEZ — BAD 4 ve CORTIS — REDRED 5 numarada. Apple Music Top 100: Global'ın 24 Eylül görünümünde KAROL G, Judeline & rusowsky — BbY WOW 1; Spotify Global Top 50'nin 23 Eylül günlüğünde aynı parça 1 numarada.",
+          "Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık dönemlerinde kaldı. Beş kaynak da başarıyla doğrulandı ve her listede 10 kayıt korundu; haftalık Billboard dönemleri, günlük Circle ve Spotify görünümleri ile Apple Music listesinin yayın tarihi birleştirilmedi."
+        ]
+      },
+      {
+        "heading": "Grupo Firme — El Beneficio De La Duda ve Tony Dize — El Doctorado yeniden yükseliyor",
+        "body": [
+          "Kworb'un 24 Eylül saat 22.40 EDT tarihli üçüncü taraf YouTube dünya müzik eğiliminde Grupo Firme — El Beneficio De La Duda 42 sıra yükselerek 23 numaraya çıktı. Grupo Firme'nin resmî YouTube kaydı ile Apple Music, parçanın yayın tarihini 28 Mayıs 2024 olarak doğruluyor; gelişme yeni yayın değil.",
+          "Tony Dize — El Doctorado aynı görünümde 19 numaraya yükselerek ilk 20 eşiğine ulaştı. Apple Music kaydı parçayı 17 Kasım 2009 tarihli gösteriyor. İki parça da İspanyolca ve Latin alfabesinde olduğu için romanizasyon gerekmiyor."
+        ]
       }
     ],
     "memberStatus": [],
@@ -105,9 +397,126 @@ export const popGundemiArticles = [
       { "name": "Ravyn Lenae resmî sitesi — Ravyn Lenae — Love Me Not", "url": "https://www.ravynlenae.com/" },
       { "name": "Circle Global — 8 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
       { "name": "Apple Music — Top 100: Global / 10 Eylül görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
-      { "name": "Spotify — Global Top 50 / 9 Eylül günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      { "name": "Spotify — Global Top 50 / 9 Eylül günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "Universal Music — Jhené Aiko — Westside Whimsy / 11 Eylül 2026", "url": "https://www.universalmusic.ca/2026/09/11/jhene-aiko-releases-highly-anticipated-new-album-westside-whimsy/" },
+      { "name": "Jhené Aiko resmî mağazası — Jhené Aiko — Westside Whimsy parça listesi", "url": "https://shop.jheneaiko.com/products/westside-whimsy-digital-album" },
+      { "name": "Apple Music — Jhené Aiko — Westside Whimsy / 11 Eylül yayın kaydı", "url": "https://music.apple.com/us/album/westside-whimsy/6810715695" },
+      { "name": "Associated Press — Kings Of Leon — My Whole World ve Kings Of Leon — O My Beloved", "url": "https://apnews.com/article/83442ea40970ba9b35966aa40fc995ff" },
+      { "name": "Slayyyter resmî sitesi — Slayyyter — crank 2", "url": "https://www.slayyyter.com/music" },
+      { "name": "Apple Music — Slayyyter — crank 2 / 10 Eylül yayın kaydı", "url": "https://music.apple.com/us/artist/slayyyter/1424342162" },
+      { "name": "Sony Music — Slayyyter — crank 2 / 11 Eylül basın duyurusu", "url": "https://newsroom.sonymusic.pl/470992-wyprzedana-swiatowa-trasa-koncertowa-i-nowy-singiel-slayyyter-prezentuje-crank-2" },
+      { "name": "Apple Music — Tinashe — Popstar ve Tinashe — Pillow Fight", "url": "https://music.apple.com/us/artist/tinashe/464835513" },
+      { "name": "DMY — Rachel Chinouriri — Make Believe / 11 Eylül 2026", "url": "https://dmy.co/new-music/rachel-chinouriri-unveils-make-believe-new-single" },
+      { "name": "Apple Music — Dove Cameron — When In Rome / 9 Eylül yayın kaydı", "url": "https://music.apple.com/us/artist/dove-cameron/599822740" },
+      { "name": "Melon — PENTAGON — 겁쟁이 (Coward) / 11 Eylül yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14539009" },
+      { "name": "Bugs — Ryu Sujeong — ALL THE COLORS I AM ve Ryu Sujeong — Diamond", "url": "https://music.bugs.co.kr/album/4154786" },
+      { "name": "Apple Music — La T y la M & J Balvin — Qué ironía / 10 Eylül yayın kaydı", "url": "https://music.apple.com/us/artist/la-t-y-la-m/1546904452" },
+      { "name": "Qobuz — La T y la M & J Balvin — Qué ironía sanatçı kredisi", "url": "https://www.qobuz.com/co-es/album/que-ironia-la-t-y-la-m-j-balvin/l1xb1ax6chw5y" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 13 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Official Charts — UK Singles Chart / 11–17 Eylül 2026", "url": "https://www.officialcharts.com/charts/singles-chart/" },
+      { "name": "Circle Global — 10 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 13 Eylül görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 11 Eylül günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "Melon — NANA — So well / 14 Eylül yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14541747" },
+      { "name": "Melon — KIM JIWOONG — DRIVE / 14 Eylül yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14541908" },
+      { "name": "Circle Global — 11 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 14 Eylül görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 12 Eylül günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "ARIA — New Music Singles / 14 Eylül 2026 haftası", "url": "https://www.aria.com.au/charts/new-music-singles-chart" },
+      { "name": "Apple Music — Yandel — Encantadora / 2 Ekim 2015 yayın kaydı", "url": "https://music.apple.com/us/song/1046026054" },
+      { "name": "Yandel resmî YouTube — Yandel — Encantadora", "url": "https://www.youtube.com/watch?v=F877bV0Ai3E" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 14 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Red Velvet Japonya resmî sitesi — Red Velvet - IRENE & SEULGI — Cheetah dijital yayını", "url": "https://redvelvet-jp.net/news/index.php?year=2026" },
+      { "name": "Apple Music — Red Velvet - IRENE & SEULGI — Cheetah EP", "url": "https://music.apple.com/us/artist/red-velvet-irene-seulgi/1521791555" },
+      { "name": "Spotify — Red Velvet - IRENE & SEULGI — Cheetah", "url": "https://open.spotify.com/track/0WMhpKFwel1RuR4wF7wuHa" },
+      { "name": "Apple Music — Top 100: Global / 15 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 13 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "Spotify — KAROL G, Judeline & rusowsky — BbY WOW / 7 Ağustos 2026", "url": "https://open.spotify.com/track/3h5T5JypYU7huFiVYhv1dr" },
+      { "name": "Spotify — Ravyn Lenae — Love Me Not / 3 Mayıs 2024", "url": "https://open.spotify.com/track/1UNEuG9DYOWiikf00ayr52" },
+      { "name": "Spotify — Fugees & Ms. Lauryn Hill — Killing Me Softly With His Song / 13 Şubat 1996", "url": "https://open.spotify.com/track/0Q0IVlqMV64kNLlwjPj0Hl" },
+      { "name": "Spotify — Romeo Santos feat. Carlos Santana — Necio / 25 Şubat 2014", "url": "https://open.spotify.com/track/3DKWF8is9hzp84aSxnhlag" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 15 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Rolling Stone — Macklemore'un Ed Sheeran — Loop Tour programından çıkarılması / 14 Eylül 2026", "url": "https://mena.rollingstone.com/rs/macklemore-ed-sheeran-tour-free-palestine-statements/" },
+      { "name": "Billboard — Billboard Hot 100 / 19 Eylül 2026", "url": "https://www.billboard.com/charts/hot-100/" },
+      { "name": "Billboard — Billboard 200 / 19 Eylül 2026", "url": "https://www.billboard.com/charts/billboard-200/" },
+      { "name": "Circle Global — 13 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 16 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 14 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "Spotify — YAO feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk — FOR OKINAWA / 4 Eylül 2026", "url": "https://open.spotify.com/track/03PGemRNLrjn9Efmy2y6OY" },
+      { "name": "Nippon Columbia — KISS OF LIFE — SWEAT -JAPANESE EP- / 16 Eylül 2026", "url": "https://columbia.jp/artist-info/kissoflife/info/94192.html" },
+      { "name": "MAKESTAR — MW:MEU — With U / 15 Eylül 2026", "url": "https://www.makestar.com/product/20247" },
+      { "name": "Spotify — MW:MEU — With U / 15 Eylül 2026", "url": "https://open.spotify.com/track/2hN0AnYI3myW8m4GdNkSw1" },
+      { "name": "Spotify — Kapo — OHNANA / 6 Haziran 2024", "url": "https://open.spotify.com/track/1fTjqf10accJCDYstPwwZ6" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 16 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Circle Global — 14 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 17 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 15 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "SOURCE MUSIC / Weverse — LE SSERAFIM — Made My Night bölgesel yayın tarihleri", "url": "https://weverse.io/lesserafim/notice/38724" },
+      { "name": "Apple Music — R. City feat. Adam Levine — Locked Away / 29 Haziran 2015", "url": "https://music.apple.com/us/album/locked-away-feat-adam-levine-single/1009559990" },
+      { "name": "Apple Music — Fuerza Regida — TU SANCHO / 2 Mayıs 2025", "url": "https://music.apple.com/us/song/1804142885" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 17 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" },
+      { "name": "Yonhap — ROSÉ — new trick / 18 Eylül 2026", "url": "https://en.yna.co.kr/view/AEN20260918002300315" },
+      { "name": "Apple Music — ROSÉ — new trick / 17 Eylül 2026", "url": "https://music.apple.com/us/song/6812894907" },
+      { "name": "Spotify — ROSÉ — new trick", "url": "https://open.spotify.com/track/5GKBPdWbW4RQtx9VkQ6xKO" },
+      { "name": "Official Charts — 18 Eylül 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-18-september-2026/" },
+      { "name": "Spotify — Teddy Swims — Perfect Man / 18 Eylül 2026", "url": "https://open.spotify.com/track/6Gf8utzDFG6eImqetkF0Px" },
+      { "name": "Spotify — Troye Sivan — Party / 17 Eylül 2026", "url": "https://open.spotify.com/track/0zbf6dj8GkCdYRRRph7ELk" },
+      { "name": "Spotify — Anderson .Paak & Cordae — A Good Day / 16 Eylül 2026", "url": "https://open.spotify.com/track/0KDgGJf3DYJNzXDIlmRtxJ" },
+      { "name": "Spotify — Joy Crookes feat. Denzel Curry — Painkiller / 14 Eylül 2026", "url": "https://open.spotify.com/track/0TaAU8xgdmE84mlSt9EdSd" },
+      { "name": "Circle Global — 15 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" },
+      { "name": "Apple Music — Top 100: Global / 18 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" },
+      { "name": "Spotify — Global Top 50 / 16 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" },
+      { "name": "Kworb — YouTube dünya müzik eğilimi / 18 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" }
+      ,{ "name": "Circle Global — 18 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 21 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 19 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Kworb — YouTube dünya müzik eğilimi / 21 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" }
+      ,{ "name": "Apple Music — Maluma & Shakira — AGUA / 17 Eylül 2026", "url": "https://music.apple.com/us/song/6810372461" }
+      ,{ "name": "Sony Music — Maluma & Shakira — AGUA / 18 Eylül 2026 duyurusu", "url": "https://www.sonymusic.co.jp/artist/maluma/info/586964" }
+      ,{ "name": "Spotify — Maluma & Shakira — AGUA / 17 Eylül 2026", "url": "https://open.spotify.com/track/5UIyNcyxW33PXKyf86GJW9" }
+      ,{ "name": "Spotify — Fuerza Regida & Grupo Frontera — COQUETA / 19 Aralık 2024", "url": "https://open.spotify.com/track/1PREzVLuDT6PSE9sej4wnV" }
+      ,{ "name": "Circle Global — 19 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Spotify — Global Top 50 / 20 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "ILLIT Japonya resmî sitesi — ILLIT — Swingin’ Magic / 21 Eylül 2026", "url": "https://illit-official.jp/news/3df855b3fb50" }
+      ,{ "name": "Apple Music — ILLIT — Swingin’ Magic - Single / 21 Eylül 2026", "url": "https://music.apple.com/us/album/swingin-magic-single/6810131864" }
+      ,{ "name": "QWER / Weverse — QWER — Dreamer & Picaresque yayın etkinliği", "url": "https://weverse.io/qwer/notice/39428" }
+      ,{ "name": "JACKSON WANG resmî sitesi — JACKSON WANG — Thank You", "url": "https://www.jackson-wang.com/" }
+      ,{ "name": "Apple Music — JACKSON WANG — Thank You - Single / 20 Eylül 2026", "url": "https://music.apple.com/us/album/thank-you-single/6810476243" }
+      ,{ "name": "PLEDIS Entertainment / Weverse — JOSHUA — Baby Come Home / 22 Eylül 2026", "url": "https://weverse.io/seventeen/notice/39416" }
+      ,{ "name": "Soompi — JOSHUA — Baby Come Home yayın güncellemesi / 22 Eylül 2026", "url": "https://www.soompi.com/article/1871935wpp/watch-seventeens-joshua-unveils-live-clip-teaser-for-digital-single-baby-come-home" }
+      ,{ "name": "Kworb — YouTube dünya müzik eğilimi / 22 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" }
+      ,{ "name": "Spotify — Maluma — Borró Cassette / 29 Haziran 2015", "url": "https://open.spotify.com/album/4PAmAgjdsvX5oRLrJQvGCW" }
+      ,{ "name": "Apple Music — Galy Galiano — Me Bebí Tu Recuerdo / katalog kaydı", "url": "https://music.apple.com/us/artist/galy-galiano/296271" }
+      ,{ "name": "Spotify — Galy Galiano — Me Bebí Tu Recuerdo / albüm kaydı", "url": "https://open.spotify.com/intl-es/album/3th8wWPqpBjw4pzGuf0OqS" }
+      ,{ "name": "Billboard — Billboard Hot 100 / 26 Eylül 2026", "url": "https://www.billboard.com/charts/hot-100/" }
+      ,{ "name": "Billboard — Billboard 200 / 26 Eylül 2026", "url": "https://www.billboard.com/charts/billboard-200/" }
+      ,{ "name": "Billboard Colombia — KAROL G, Judeline & rusowsky — BbY WOW liste hareketi", "url": "https://billboard.com.co/bby-wow-la-formula-de-hace-mas-de-20-anos-que-llevo-a-karol-g-judeline-y-rusowsky-al-no-1-del-billboard-global-200-y-colombia-hot-100/" }
+      ,{ "name": "Circle Global — 21 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 23 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 22 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Newsis — ONEUS — 눈을 돌리지마 (Don’t Turn Away) / 23 Eylül 2026", "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260922_0003799631" }
+      ,{ "name": "Apple Music — ONEUS — FIRST LIGHT : 井", "url": "https://music.apple.com/us/artist/oneus/1437510375" }
+      ,{ "name": "LIGHTSUM Japonya resmî sitesi — LIGHTSUM — Re:idol", "url": "https://lightsum-official.jp/news/0817-2/" }
+      ,{ "name": "Warner Music Japan — LIGHTSUM — Re:idol", "url": "https://wmg.jp/lightsum" }
+      ,{ "name": "Soompi — UNIS — Milky Way yayın tarihi", "url": "https://www.soompi.com/article/1872168wpp/unis-announces-release-date-for-new-digital-single-milky-way" }
+      ,{ "name": "Nevarez Communications — Conep & Young Miko — After / 22 Eylül 2026", "url": "https://www.nevarezpr.com/2026/09/22/conep-version-de-after-junto-a-young-miko/" }
+      ,{ "name": "Kworb — YouTube dünya müzik eğilimi / 24 Eylül 2026", "url": "https://kworb.net/youtube/trending_music.html" }
+      ,{ "name": "Official Charts — 25 Eylül 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-25-september-2026/" }
+      ,{ "name": "Taylor Swift resmî mağazası — Taylor Swift — Patient Zero", "url": "https://store.taylorswift.com/" }
+      ,{ "name": "Apple Music — Taylor Swift — Patient Zero / 25 Eylül 2026", "url": "https://music.apple.com/us/album/patient-zero-single/6814832200" }
+      ,{ "name": "CBS ve MTV — Taylor Swift — Patient Zero klip duyurusu / 24 Eylül 2026", "url": "https://www.paramountpressexpress.com/mtv/shows/2026-mtv-video-music-awards-vmas/releases/?view=113292-taylor-swifts-new-single-patient-zero-music-video-to-world-premiere-during-the-2026-mtv-video-music-awards-vmas-sunday-sept-27-on-cbs" }
+      ,{ "name": "Madonna resmî bağlantıları — Madonna & Charli xcx — Danceteria Afterhours", "url": "https://linktr.ee/madonna" }
+      ,{ "name": "Sugababes resmî yayın sayfası — Sugababes — Ghost", "url": "https://sugababes.orcd.co/ghost" }
+      ,{ "name": "John Legend resmî sitesi — John Legend feat. Pharrell Williams — Fireflies", "url": "https://johnlegend.com/" }
+      ,{ "name": "Remi Wolf resmî sitesi — Remi Wolf — I Won’t Cry", "url": "https://www.remiwolf.com/videos/" }
+      ,{ "name": "Circle Global — 22 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 24 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 23 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Grupo Firme resmî YouTube — Grupo Firme — El Beneficio De La Duda", "url": "https://www.youtube.com/watch?v=iIgsCYgo5P4" }
+      ,{ "name": "Apple Music — Grupo Firme — El Beneficio De La Duda / 28 Mayıs 2024", "url": "https://music.apple.com/us/album/el-beneficio-de-la-duda-single/1747762611" }
+      ,{ "name": "Apple Music — Tony Dize — El Doctorado / 17 Kasım 2009", "url": "https://music.apple.com/bg/song/1811233664" }
     ],
-    "storyShare": "10–11 Eylül müzik gündemi: IU — Unknown Planet ve IU — Dear my crazy soulmate yayımlandı; LE SSERAFIM — Made My Night Güney Kore'de dinleyiciyle buluştu, global pop ve günlük listelerde yeni hareketler geldi."
+    "storyShare": "10–25 Eylül müzik gündemi: Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours ve Sugababes — Ghost yayımlandı; günlük listeler yenilendi."
   },
   {
     "slug": "7-eylul-2026-muzik-gundemi",

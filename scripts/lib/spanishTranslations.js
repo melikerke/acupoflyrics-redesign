@@ -5,6 +5,8 @@ export const SPANISH_SOURCE_SLUGS = [
   "lady-gaga-bruno-mars-die-with-a-smile-turkce-ceviri", "billie-eilish-birds-of-a-feather-turkce-ceviri",
   "alex-warren-ordinary-turkce-ceviri", "billie-eilish-wildflower-turkce-ceviri",
   "jimin-who-turkce-ceviri", "jennie-like-jennie-turkce-ceviri",
+  "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
+  "nana-so-well-turkce-ceviri",
 ];
 
 // Section boundaries reviewed against the existing originals. Translation
@@ -18,6 +20,15 @@ const ORIGINAL_SECTION_LENGTHS = [
   [6, 6, 3, 1, 6, 3, 3, 4, 2, 3],
   [4, 4, 3, 4, 4, 3, 8, 4, 8],
   [1, 5, 10, 3, 12, 14, 4],
+  [4, 8, 6, 4, 4, 8, 8, 8, 8, 4, 4, 8, 4],
+  [4, 7, 4, 7, 0, 14, 1],
+];
+
+const TRANSLATION_DATES = [
+  "2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07",
+  "2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07",
+  "2026-09-14",
+  "2026-09-14",
 ];
 
 // Only Markdown presentation markers are removed. Every lyric line, repeat,
@@ -41,13 +52,15 @@ export function parseSpanishSubmission(text) {
     if (!section) throw new Error(`Missing section heading for ${song.song}`);
     section.lines.push(line);
   }
-  if (songs.some((item) => !item.sections.length || item.sections.some((part) => !part.lines.length))) throw new Error("Empty translation section");
+  if (songs.some((item) => !item.sections.length || item.sections.some((part) => (
+    !part.lines.length && !/^Interludio instrumental$/i.test(part.label)
+  )))) throw new Error("Empty translation section");
   return songs;
 }
 
 export function buildSpanishTranslations(text, posts) {
   const submitted = parseSpanishSubmission(text);
-  if (submitted.length !== SPANISH_SOURCE_SLUGS.length) throw new Error("Expected the eight supplied translations");
+  if (submitted.length !== SPANISH_SOURCE_SLUGS.length) throw new Error(`Expected ${SPANISH_SOURCE_SLUGS.length} supplied translations`);
   return submitted.map((translation, index) => {
     const sourceSlug = SPANISH_SOURCE_SLUGS[index];
     const source = posts.find((item) => item.slug === sourceSlug);
@@ -69,7 +82,7 @@ export function buildSpanishTranslations(text, posts) {
       cover: source.cover, album: source.spotify?.album?.name || source.spotify?.albumName || source.categories?.[1] || "",
       spotifyUrl: source.spotify?.track?.url || source.spotify?.trackUrl || "",
       releaseDate: source.spotify?.album?.releaseDate || source.spotify?.releaseDate || "",
-      translationDate: "2026-09-07", readingMinutes: Math.max(1, Math.ceil(lines.join(" ").split(/\s+/).length / 200)),
+      translationDate: TRANSLATION_DATES[index], readingMinutes: Math.max(1, Math.ceil(lines.join(" ").split(/\s+/).length / 200)),
       lineCount: lines.length, excerpt: lines[0],
       title: fitSeoTitle([`${translation.song} — ${translation.artist}: letra en español`, `${translation.song}: traducción al español | acupoflyrics`]),
       description: sanitizeSeoDescription(`Lee la traducción al español de ${translation.song}, de ${translation.artist}, organizada por versos y estribillos. Disponible también en turco.`),

@@ -462,3 +462,143 @@ Pero ¿alguna vez conociste a JENNIE?
 Pero ¿alguna vez conociste a…?
 JENNIE, JENNIE, JENNIE
 Es JENNIE, JENNIE, JENNIE, JENNIE
+
+**So Good — Jhené Aiko feat. Kendrick Lamar**
+[Preestribillo: Kendrick Lamar]
+Cara de locura, cuerpo de locura
+Un bombón, de locura, me atontas
+Belleza e inteligencia, hey, ¿qué hacemos?
+Aquí hay dinero, baby
+[Estribillo: Jhené Aiko & Kendrick Lamar]
+Te ves tan bien
+Un pecado, pero divino
+Cuentas conmigo, cuento contigo
+Te deseo, uh
+Te ves tan bien
+De página central, un diez
+Esencial, es divino
+Me mantengo firme, ¿copias?
+[Verso 1: Kendrick Lamar, Kendrick Lamar & Jhené Aiko]
+Huh, voy a ponerme a mil pensando en ti, en ti, en ti (Un poco)
+Que se vayan todos a la mierda, diles que somos el único evangelio
+Nos escapamos cada vez que la casa se llena (Se llena)
+Que hablen, es normal que tengan tanto que decir
+Saca las cartas para jugar Spades, anima la fiesta
+En esta zona nadie se queda sin bailar, lo siento
+[Verso 2: Jhené Aiko, Jhené Aiko & Kendrick Lamar]
+No puedo dejar que una perra conflictiva se interponga
+Me sobra madurez para eso; además, estoy en la cima
+¿Quién andaba presumiendo hasta que le dieron sus nalgadas?
+Westside en todo
+[Refrán: Jhené Aiko, Jhené Aiko & Kendrick Lamar]
+Sube, sube, súbelo, intelectual del gueto
+Zigzagueando entre combustible de avión, desglosando decimales
+Que sea físico, espiritual, sexual
+Sienta ese culo aquí, deja que te bendiga
+[Preestribillo: Kendrick Lamar, Kendrick Lamar & Jhené Aiko]
+Cara de locura, cuerpo de locura
+Un bombón, de locura, me atontas
+Belleza e inteligencia, hey, ¿qué hacemos?
+Aquí hay dinero, baby, ¿qué…? Digo
+Cara de pura locura, cuerpo de locura
+Me atontas, un bombón, de locura
+Belleza e inteligencia, hey, ¿qué hacemos?
+Aquí hay dinero, baby
+[Estribillo: Jhené Aiko & Kendrick Lamar]
+Te ves tan bien
+Un pecado, pero divino
+Cuentas conmigo, cuento contigo
+Te deseo, uh
+Te ves tan bien
+De página central, un diez
+Esencial, es divino
+Me mantengo firme, ¿copias?
+[Refrán: Jhené Aiko & Kendrick Lamar, Jhené Aiko]
+Arriba, un poco; abajo, un poco
+Rápido, un poco; lento, un poco
+Persigue un poco, espera un poco
+Quédate un poco más, hablo en serio
+
+Arriba, un poco; abajo, un poco
+Rápido, un poco; lento, un poco
+Persigue un poco, espera un poco
+Quédate un poco más, hablo en serio
+[Verso 3: Kendrick Lamar]
+Hula-hula de bambú, estamos en sintonía
+911, qué belleza, estamos encajonados
+Ya basta, tu perra da pena, no somos amigos
+Su mamá también tiene tremendo culo, ahora todo tiene sentido
+Hago mi pasito de two-step y luego meneo el cuerpo
+Luego lo meneo, luego lo meneo
+Sonrío a la cámara porque sé que no estoy del todo bien
+Intento ocultar al villano que llevo dentro, porque sé que estos tipos hablan
+[Verso 4: Jhené Aiko]
+Okay, intento excitarte
+Okay, y meterte la cara ahí también, okay
+¿Eres mi amor de verano? Oki
+Así se mueven los amantes
+[Refrán: Jhené Aiko, Jhené Aiko & Kendrick Lamar]
+Sube, sube, súbelo, intelectual del gueto
+Zigzagueando entre combustible de avión, desglosando decimales
+Que sea físico, espiritual, sexual
+Sienta ese culo aquí
+[Estribillo: Jhené Aiko & Kendrick Lamar, Jhené Aiko]
+Te ves tan bien (Bien)
+Un pecado, pero divino (Yeah, yeah)
+Cuentas conmigo, cuento contigo
+Te deseo (Oh)
+Te ves tan bien (Bien)
+De página central, un diez (Un diez)
+Esencial, es divino (Esencial, es divino)
+Me mantengo firme, ¿copias? (Me mantengo firme)
+[Cierre: Jhené Aiko & Kendrick Lamar, Jhené Aiko]
+Arriba, un poco; abajo, un poco (Yeah)
+Rápido, un poco; lento, un poco
+Persigue un poco, espera un poco
+Quédate un poco más, hablo en serio
+
+**So well — NANA**
+[Verso 1]
+Un paso detrás de ti
+Te seguía y contemplaba
+Por encima de tu hombro
+La luz de incontables estrellas que se derramaba
+[Estribillo]
+Hasta desde el lugar más lejano
+Puedo sentirte
+Porque te conozco tan bien
+Ese viento que sopla con ternura
+Trae consigo
+Un saludo para ti y para mí
+Cada vez más cerca
+[Verso 2]
+Hasta la estación que terminó
+Algún día volverá
+Porque, como una flor que brotó en un resquicio del corazón,
+Tu belleza seguirá siempre igual
+[Estribillo]
+Hasta desde el lugar más lejano
+Puedo sentirte
+Porque te conozco tan bien
+Ese viento que sopla con ternura
+Trae consigo
+Un saludo para ti y para mí
+Cada vez más cerca
+[Interludio instrumental]
+[Estribillo]
+Entre nuestras miradas
+Las historias que compartimos con cariño
+No desaparecerán
+Puedes detenerte cuantas veces quieras
+También puedes regresar
+Porque te quiero
+Te conozco tan bien
+No importa lo que quieras hacer
+Cree en ti, sigue tu camino
+Sé lo que puedes hacer
+Vuela hacia el cielo, bien alto
+Y toma todo lo que quieras
+Te quiero tanto, te conozco tan bien
+Siempre estaré contigo
+[Cierre]
+Mm, siempre estaré contigo

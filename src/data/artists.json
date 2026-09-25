@@ -296,7 +296,7 @@
   {
     "slug": "kendrick-lamar",
     "name": "Kendrick Lamar",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918"
   },
   {
@@ -320,7 +320,7 @@
   {
     "slug": "taylor-swift",
     "name": "Taylor Swift",
-    "count": 9,
+    "count": 13,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
   },
   {
@@ -2200,5 +2200,17 @@
     "name": "Miley Cyrus",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e"
+  },
+  {
+    "slug": "jhene-aiko",
+    "name": "Jhené Aiko",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eba549c55ea928defc166d971e"
+  },
+  {
+    "slug": "nana",
+    "name": "NANA",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa"
   }
 ]

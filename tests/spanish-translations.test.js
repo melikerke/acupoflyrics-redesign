@@ -13,9 +13,9 @@ const origin = "https://www.acupoflyrics.com";
 const escape = (value) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const htmlFor = (pathname) => read(`dist/${pathname.replace(/^\/+|\/+$/g, "")}/index.html`);
 
-test("all eight submitted songs preserve accents, credits and repeated sections", async () => {
-  assert.deepEqual(entries.map((item) => item.song), ["APT.", "Golden", "Die With a Smile", "BIRDS OF A FEATHER", "Ordinary", "WILDFLOWER", "Who", "like JENNIE"]);
-  assert.deepEqual(entries.map((item) => item.lineCount), [77, 40, 50, 39, 44, 34, 42, 50]);
+test("all submitted songs preserve accents, credits and repeated sections", async () => {
+  assert.deepEqual(entries.map((item) => item.song), ["APT.", "Golden", "Die With a Smile", "BIRDS OF A FEATHER", "Ordinary", "WILDFLOWER", "Who", "like JENNIE", "So Good", "So well"]);
+  assert.deepEqual(entries.map((item) => item.lineCount), [77, 40, 50, 39, 44, 34, 42, 50, 78, 37]);
   assert.equal(entries[1].vocals, "Voces: EJAE, Audrey Nuna y REI AMI");
   assert.equal(entries[0].sections[0].lines[2], "¡Que empiece el juego!");
   assert.equal(entries[0].sections.filter((part) => part.label === "Estribillo: ROSÉ").length, 2);
@@ -70,7 +70,7 @@ test("Turkish and Spanish URLs have self-canonicals and reciprocal language link
   }
 });
 
-test("Spanish hub discovers all eight songs and links back through Turkish pages", async () => {
+test("Spanish hub discovers all submitted songs and links back through Turkish pages", async () => {
   const hub = await htmlFor("/es");
   assert.match(hub, /<html lang="es">/);
   for (const item of entries) {

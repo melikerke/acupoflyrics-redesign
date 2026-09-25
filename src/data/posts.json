@@ -1,5 +1,2934 @@
 [
   {
+    "id": "5291",
+    "title": "Taylor Swift Babylon Türkçe Çeviri",
+    "song": "Babylon",
+    "slug": "taylor-swift-babylon-turkce-ceviri",
+    "date": "2026-09-25T10:03:00.000Z",
+    "artist": "Taylor Swift",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "The casino doesn't like when you run the tables",
+          "And though the box is wrapped up nice, it's just a cage to you",
+          "Those electric fences buzz",
+          "The stallion flees the stable",
+          "And that small town's even smaller now in your rear view",
+          "You ran with all the wild things",
+          "A liberated libertine who then longed for home"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Kumarhane, masaları silip süpürmenden hoşlanmaz",
+          "Kutusu ne kadar güzel paketlenmiş olsa da, senin için hâlâ bir kafes",
+          "O elektrikli teller vızıldıyor",
+          "Aygır ahırdan kaçıyor",
+          "Ve o küçük kasaba, dikiz aynanda şimdi daha da küçük",
+          "Bütün o vahşi şeylerle birlikte koştun",
+          "Sınır tanımayan, özgür biriydin",
+          "Sonra da eve dönmeyi özledin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "'Cause it's where you're from",
+          "Aunt Virginia with a church dress on",
+          "No elbows on the table",
+          "And the neighbor's lawn always looked better",
+          "Your hand-me-down sweater should've been from the mall"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çünkü orası senin geldiğin yer",
+          "Kilise elbisesiyle Virginia Teyze",
+          "Masada dirsek yok",
+          "Komşunun çimleri hep daha güzel görünürdü",
+          "Üstündeki o elden düşme kazak keşke mağazadan alınmış olsaydı"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "And you hate this song",
+          "But you wake up on the train with your headphones gone",
+          "Then that melody is all you want",
+          "You never knew that it was Babylon",
+          "'Til it was gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ve sen bu şarkıdan nefret ediyorsun",
+          "Ama trende uyanıyorsun, kulaklıkların yok",
+          "Sonra tek istediğin şey o melodi oluyor",
+          "Onun Babil olduğunu hiç bilmiyordun",
+          "Ta ki kaybedene kadar"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Give the people what they want, then you keep it movin'",
+          "Make your plans and friends, a stranger's makeup on your tie",
+          "Twenty watches in the safe 'cause your time is money",
+          "Love is ice upon the ladder that you need to climb",
+          "She captured your attention, so free of all pretension",
+          "It stopped you cold"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "İnsanlara istediklerini veriyorsun, sonra yoluna devam ediyorsun",
+          "Planlar yapıyorsun, arkadaşlar ediniyorsun",
+          "Kravatında tanımadığın birinin makyajı",
+          "Kasada yirmi saat var",
+          "Çünkü senin için vakit nakit",
+          "Tırmanman gereken merdivende aşk, ayağını kaydıracak bir buz",
+          "O kadın dikkatini çekti",
+          "Üstelik hiç yapmacık değildi",
+          "Ve seni olduğun yerde durdurdu"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Because she loved you so",
+          "Pretty as a picture that you didn't post",
+          "Lookin' at you like you're made of solid gold",
+          "Never official",
+          "You mention you're single to the girls at the bar"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Çünkü seni öyle sevdi ki",
+          "Paylaşmadığın bir fotoğraf kadar güzeldi",
+          "Sana sanki saf altından yapılmışsın gibi bakıyordu",
+          "İlişkinizin adını hiç koymadın",
+          "Bardaki kızlara hâlâ bekâr olduğunu söylüyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You hate this song",
+          "But you wake up on the train with your headphones gone",
+          "And then that melody is all you want",
+          "You never knew that it was Babylon",
+          "'Til it was gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bu şarkıdan nefret ediyorsun",
+          "Ama trende uyanıyorsun, kulaklıkların yok",
+          "Sonra tek istediğin şey o melodi oluyor",
+          "Onun Babil olduğunu hiç bilmiyordun",
+          "Ta ki kaybedene kadar"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "You're using nostalgia as a weapon to hurt yourself",
+          "But darling, you end up hurting everybody else",
+          "The self-harm of never being where you are",
+          "It's bedtime, but you're sitting in your car",
+          "You're missin' all the best parts"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Nostaljiyi kendini incitmek için bir silah gibi kullanıyorsun",
+          "Ama canım, sonunda herkesi incitiyorsun",
+          "Hiçbir zaman bulunduğun yerde olamamanın kendine verdiği zarar",
+          "Uyku vakti ama sen hâlâ arabada oturuyorsun",
+          "Hayatın en güzel kısımlarını kaçırıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "And they're all at home",
+          "She's hangin' Christmas lights with your son",
+          "Sneak into the bathroom to call her mom",
+          "And say, \"It's not workin'",
+          "It's just not worth it if we're not what he wants\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ve hepsi evde",
+          "O, oğlunla Noel ışıklarını asıyor",
+          "Annesini aramak için gizlice banyoya gidiyor",
+          "Ve şöyle diyor:",
+          "“Yürümüyor bu iş",
+          "Eğer istediği şey biz değilsek",
+          "Buna değmez”"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But you love this song",
+          "You wake up on the train with your headphones gone",
+          "Then that melody is all you want",
+          "You never knew that it was Babylon",
+          "And now, it's almost gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama sen bu şarkıyı seviyorsun",
+          "Trende uyanıyorsun, kulaklıkların yok",
+          "Sonra tek istediğin şey o melodi oluyor",
+          "Onun Babil olduğunu hiç bilmiyordun",
+          "Ve şimdi neredeyse yok olmak üzere"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Aunt Virginia with a church dress on",
+          "No elbows on the table (It's almost gone)",
+          "And the neighbor's lawn always looked better",
+          "Your hand-me-down sweater should've been from the mall"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Kilise elbisesiyle Virginia Teyze",
+          "Masada dirsek yok",
+          "(Neredeyse yok)",
+          "Komşunun çimleri hep daha güzel görünürdü",
+          "Üstündeki o elden düşme kazak keşke mağazadan alınmış olsaydı"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But you love this song",
+          "You wake up on the train and you're all alone",
+          "Then that memory is all you want",
+          "You never knew that it was Babylon",
+          "'Til it was gone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama sen bu şarkıyı seviyorsun",
+          "Trende uyanıyorsun ve yapayalnızsın",
+          "Sonra tek istediğin şey o hatıra oluyor",
+          "Onun Babil olduğunu hiç bilmiyordun",
+          "Ta ki kaybedene kadar"
+        ]
+      }
+    ],
+    "excerpt": "The casino doesn't like when you run the tables",
+    "annotations": {
+      "masaları silip süpürmenden": "Kumar veya bilardo bağlamında masayı tamamen domine etmek, herkesi yenmek ve oyunu silip süpürmek anlamına gelir. Burada karakterin başarı ve kontrol arzusunu anlatıyor.",
+      "Kutusu ne kadar güzel paketlenmiş olsa da, senin için hâlâ bir kafes": "Dışarıdan güzel, düzenli ve cazip görünen bir hayatın karakter için yine de kısıtlayıcı bir kafes gibi hissettirmesi.",
+      "Aygır ahırdan kaçıyor": "Aygırın ahırdan kaçması, karakterin evinden, küçük kasabasından ve kendisini sınırlayan hayattan kaçışını simgeliyor.",
+      "Sınır tanımayan, özgür biriydin": "Toplumsal kurallara ve geleneksel ahlaki beklentilere pek aldırmadan özgür yaşayan kişi. Burada “günahkâr” gibi ahlaki bir yargıdan çok, sınırsız ve başına buyruk bir yaşam tarzı vurgulanıyor.",
+      "Komşunun çimleri hep daha güzel görünürdü": "“The grass is always greener on the other side” deyimine gönderme. Başkasının hayatının her zaman daha iyi görünmesi anlamına gelir.",
+      "elden düşme kazak": "Bir başkasından, genellikle aile içinden kalan eski kıyafet. Burada karakterin çocukken sahip olduklarından utanması ve daha “iyi” görünen bir hayatı istemesi anlatılıyor.",
+      "Babil": "Antik Babil; zenginlik, ihtişam, güç ve görkem imgeleriyle anılır. Şarkıda karakterin bir zamanlar değersiz veya sıradan gördüğü hayatın, kaybettikten sonra aslında ne kadar kıymetli olduğunu fark etmesiyle bağlantılı bir metafor olarak kullanılıyor.",
+      "vakit nakit": "“Vakit nakittir” deyimine doğrudan gönderme. Yirmi saat sahibi olması, başarı ve statü takıntısını abartılı biçimde gösteriyor.",
+      "aşk, ayağını kaydıracak bir buz": "Karakter için aşk, başarı merdivenini tırmanırken ayağını kaydırabilecek bir engel gibi görülüyor.",
+      "Paylaşmadığın bir fotoğraf kadar güzeldi": "Kadının güzelliği ve ilişkinin özelliği sosyal medyada sergilenmiyor. Bu satır, özel olanla gösteriş için paylaşılan hayat arasındaki farkı vurguluyor.",
+      "İlişkinizin adını hiç koymadın": "İlişkinin hiçbir zaman açıkça tanımlanmaması veya resmîleştirilmemesi. Karakter buna rağmen kendisini başkalarına hâlâ bekâr olarak tanıtıyor.",
+      "Hiçbir zaman bulunduğun yerde olamamanın kendine verdiği zarar": "Fiziksel kendine zarar vermeden değil, sürekli geçmişi özlemek veya geleceğin peşinde koşmak yüzünden içinde bulunduğun anı kaçırmanın insanın kendine verdiği duygusal zarardan bahsediyor.",
+      "hepsi evde": "Karakter dışarıda kendi düşünceleriyle oyalanırken, hayatının en değerli insanları evde onsuz yaşamaya devam ediyor.",
+      "neredeyse yok olmak üzere": "Karakter ancak kaybetmeye çok yaklaştığında, sahip olduğu hayatın değerini fark etmeye başlıyor.",
+      "Ta ki kaybedene kadar": "“Ta ki kaybedene kadar.” Şarkının ana fikrini özetliyor: insan bazen bir şeyin değerini ancak artık elinde olmadığında anlayabiliyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2j7wI9QWrP8cjKDdOLVQTU",
+        "name": "Babylon",
+        "url": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+        "isrc": "USUG12609685",
+        "durationMs": 219365,
+        "duration": "3:39",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 4,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "4hF2gTGuPYlykYuphDxi8J",
+        "name": "The Life of a Showgirl: The Encore",
+        "url": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-09-25",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Gms8M0f1kJxAA2pXuLdtI",
+            "name": "The Fate of Ophelia",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 226073,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0Gms8M0f1kJxAA2pXuLdtI",
+            "isCurrent": false
+          },
+          {
+            "id": "5oipiGvChU1G6LGUHdLCmo",
+            "name": "Elizabeth Taylor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 208291,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oipiGvChU1G6LGUHdLCmo",
+            "isCurrent": false
+          },
+          {
+            "id": "1vb2arLM2h2t21XZzMJkzi",
+            "name": "Opalite",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 235356,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1vb2arLM2h2t21XZzMJkzi",
+            "isCurrent": false
+          },
+          {
+            "id": "1UuiRzEKcTOvMg0pRGe9PZ",
+            "name": "Father Figure",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 212777,
+            "duration": "3:33",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1UuiRzEKcTOvMg0pRGe9PZ",
+            "isCurrent": false
+          },
+          {
+            "id": "1QlJbqli3d3LZPDsKuWKCd",
+            "name": "Eldest Daughter",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 246356,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1QlJbqli3d3LZPDsKuWKCd",
+            "isCurrent": false
+          },
+          {
+            "id": "20dYJ6Kq7Mdhr1O5pfwwNr",
+            "name": "Ruin The Friendship",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 220564,
+            "duration": "3:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/20dYJ6Kq7Mdhr1O5pfwwNr",
+            "isCurrent": false
+          },
+          {
+            "id": "7c23fATbCtszPVqbkqzfX5",
+            "name": "Actually Romantic",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 163699,
+            "duration": "2:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7c23fATbCtszPVqbkqzfX5",
+            "isCurrent": false
+          },
+          {
+            "id": "1IRSwAcop6oc61pSISQCNZ",
+            "name": "Wi$h Li$t",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 207349,
+            "duration": "3:27",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1IRSwAcop6oc61pSISQCNZ",
+            "isCurrent": false
+          },
+          {
+            "id": "35RmrxZRsl1BTqoe3HFI4B",
+            "name": "Wood",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 150517,
+            "duration": "2:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/35RmrxZRsl1BTqoe3HFI4B",
+            "isCurrent": false
+          },
+          {
+            "id": "4XQ6epTGOH2Hq9rKY0qYrM",
+            "name": "CANCELLED!",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211498,
+            "duration": "3:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4XQ6epTGOH2Hq9rKY0qYrM",
+            "isCurrent": false
+          },
+          {
+            "id": "1e72gbbH9cMDRdxgOA0kk0",
+            "name": "Honey",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 181534,
+            "duration": "3:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1e72gbbH9cMDRdxgOA0kk0",
+            "isCurrent": false
+          },
+          {
+            "id": "78CYukRkSSZ9PRH5rBWeXM",
+            "name": "The Life of a Showgirl (feat. Sabrina Carpenter)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 241766,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/78CYukRkSSZ9PRH5rBWeXM",
+            "isCurrent": false
+          },
+          {
+            "id": "11hcBLPtbMp4aQI6zGQLub",
+            "name": "Patient Zero",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 225868,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+            "isCurrent": false
+          },
+          {
+            "id": "7uxkx8HPBYkJKcimOyggUM",
+            "name": "Cleveland!",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 206164,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+            "isCurrent": false
+          },
+          {
+            "id": "3gyJbNBTRVRdZDA1yO3clm",
+            "name": "Pink Clouding",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 190690,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+            "isCurrent": false
+          },
+          {
+            "id": "2j7wI9QWrP8cjKDdOLVQTU",
+            "name": "Babylon",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 219365,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-25T11:25:19.701Z",
+      "trackUrl": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "albumType": "Album",
+      "releaseDate": "2026-09-25",
+      "duration": "3:39",
+      "isrc": "USUG12609685",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1"
+    },
+    "genius": null,
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5290",
+    "title": "Taylor Swift Pink Clouding Türkçe Çeviri",
+    "song": "Pink Clouding",
+    "slug": "taylor-swift-pink-clouding-turkce-ceviri",
+    "date": "2026-09-25T10:02:00.000Z",
+    "artist": "Taylor Swift",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Met the magenta sunrise",
+          "Fuchsia forever intertwined",
+          "Threw the rosewood on the fire",
+          "Neither of us knew at the time",
+          "That I was a liar"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Morcumsu bir gün doğumunda buluştuk",
+          "Fuşya gibi, sonsuza dek birbirimize dolanmıştık",
+          "Gül ağacını ateşe attık",
+          "O zaman ikimiz de bilmiyorduk",
+          "Benim bir yalancı olduğumu"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "And it was so good",
+          "Letting you want me, so good",
+          "To make promises, promises, pr-pr-promises"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ve öyle güzeldi ki",
+          "Beni istemene izin vermek, öyle güzeldi ki",
+          "Sana sözler vermek, sözler, sözler, s-s-sözler"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I was pink (Pink) cloudin' from the thrill of it (Hahaha)",
+          "Skydivin' as you wrapped your arms around my body",
+          "Gray (Gray) rockin' where the arrow hit (Hahaha)",
+          "Years later, I still wonder how to tell you sorry",
+          "I didn't wanna let you down (Pink cloud, pink cloud)",
+          "So I left you up there on a pink cloud (Pink cloud)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben pembe bulutlardaydım, sırf o heyecanın sarhoşluğuyla",
+          "Kollarını bedenime sardığında sanki serbest düşüşteydim",
+          "Okun saplandığı yerde kendimi gri bir kayaya çevirdim",
+          "Yıllar sonra bile sana nasıl özür dileyeceğimi düşünüyorum",
+          "Seni hayal kırıklığına uğratmak istemedim",
+          "Bu yüzden seni orada, pembe bulutların üzerinde bıraktım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "He cut me crimson, bled me dry",
+          "He crossеd my heart, I hoped to die (Hopеd to die)",
+          "Ripped all my orchids from the vine",
+          "You met me at a cursed time",
+          "I told you I was fine"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "O beni kıpkırmızı kesti, kanımı son damlasına kadar akıttı",
+          "Kalbimin üstüne çarpı çekti, ben de ölmeyi diledim",
+          "Tüm orkidelerimi dallarından kopardı",
+          "Sen benimle lanetli bir zamanda tanıştın",
+          "Ben de sana “İyiyim” dedim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "And you were so good (Good)",
+          "That's why you haunt me like you should (Should)",
+          "And all my promises, promises, pr-pr-promises"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Ve sen öyle iyiydin ki",
+          "İşte bu yüzden hak ettiğim gibi peşimi bırakmıyorsun",
+          "Ve verdiğim bütün o sözler, sözler, sözler, s-s-sözler"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "'Cause I was pink (Pink) cloudin' from the thrill of it (Hahaha)",
+          "Skydivin' as you wrapped your arms around my body",
+          "Gray (Gray) rockin' where the arrow hit (Hahaha)",
+          "Years later, I still wonder how to tell you sorry",
+          "I didn't want to let you down (Pink cloud, pink cloud)",
+          "So I left you up there on a (Pink) pink cloud (Pink cloud)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Çünkü ben pembe bulutlardaydım, sırf o heyecanın sarhoşluğuyla",
+          "Kollarını bedenime sardığında sanki serbest düşüşteydim",
+          "Okun saplandığı yerde kendimi gri bir kayaya çevirdim",
+          "Yıllar sonra bile sana nasıl özür dileyeceğimi düşünüyorum",
+          "Seni hayal kırıklığına uğratmak istemedim",
+          "Bu yüzden seni orada, pembe bulutların üzerinde bıraktım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "I hope you realized my kind of trouble wasn't worth it",
+          "And the way I treated you, you never deserved it",
+          "And I swear to God, to this day",
+          "I wake up scared that I left scars on a good person",
+          "And I gave you zero reason to believe it, so be it",
+          "But it didn't mean nothin' just 'cause I could leave it"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Umarım benim gibi bir belanın buna değmediğini anlamışsındır",
+          "Ve sana nasıl davrandıysam, bunların hiçbirini hak etmedin",
+          "Tanrı’ya yemin ederim, bugün bile",
+          "İyi bir insanda izler bıraktığım korkusuyla uyanıyorum",
+          "Buna inanman için sana tek bir neden bile vermedim, öyle olsun",
+          "Ama çekip gidebilmiş olmam, hiçbir şey hissetmediğim anlamına gelmiyordu"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I was pink cloudin' from the thrill of it (Hahaha)",
+          "Skydivin' as you wrapped your arms around my body",
+          "Gray (Gray) rockin' where the arrow hit (Where the arrow hit; Hahaha)",
+          "Years later, I still wonder how to tell you sorry"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ben pembe bulutlardaydım, sırf o heyecanın sarhoşluğuyla",
+          "Kollarını bedenime sardığında sanki serbest düşüşteydim",
+          "Okun saplandığı yerde kendimi gri bir kayaya çevirdim",
+          "Yıllar sonra bile sana nasıl özür dileyeceğimi düşünüyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "I hope you landed safely on the ground, hey (Pink cloud, pink cloud)",
+          "And I hope you're so happy now (Pink cloud, pink cloud)",
+          "I didn't wanna let you down (Pink cloud, pink cloud)",
+          "So I left you up there (Pink cloud) on a pink cloud"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Umarım yere sağ salim indin",
+          "Ve umarım şimdi gerçekten çok mutlusundur",
+          "Seni hayal kırıklığına uğratmak istemedim",
+          "Bu yüzden seni orada, pembe bulutların üzerinde bıraktım"
+        ]
+      }
+    ],
+    "excerpt": "Met the magenta sunrise",
+    "annotations": {
+      "pembe bulutlardaydım": "Bağımlılıktan iyileşmenin erken döneminde görülebilen yoğun iyimserlik ve coşku hâlini anlatan bir terimdir. Şarkıda bu ifade romantik bir ilişkiye uyarlanıyor: her şeyin büyülü, kusursuz ve olduğundan daha parlak göründüğü geçici bir coşku hâli.",
+      "gri bir kayaya çevirdim": "Birine karşı mümkün olduğunca nötr, tepkisiz ve duygusal olarak erişilemez davranma yöntemine verilen isim. Şarkıda anlatıcı, duygusal olarak yaralandığı noktada kendini kapattığını anlatıyor.",
+      "Kalbimin üstüne çarpı çekti, ben de ölmeyi diledim": "“Cross my heart and hope to die” İngilizcede “yemin ederim” anlamında kullanılan bir kalıptır. Burada ifade ikiye bölünerek kelime oyununa dönüştürülüyor: “kalbimin üstüne çarpı çekti / ben de ölmeyi diledim.”",
+      "orkidelerimi": "Orkideler burada kırılganlık, güzellik ve canlılık imgesi olarak kullanılıyor. “Ripped all my orchids from the vine” anlatıcının duygusal olarak parçalanmasını çağrıştırıyor.",
+      "pembe bulutların üzerinde": "“Pembe bulut” ve “serbest düşüş” imgeleri birlikte çalışıyor. İlişkinin verdiği yoğun coşku yükselme hissi yaratırken, sonunda kaçınılmaz bir düşüş ihtimalini de taşıyor.",
+      "tek bir neden bile vermedim": "Anlatıcı, hisleri gerçek olsa bile davranışlarının karşı tarafa buna inanması için hiçbir sebep vermediğini kabul ediyor.",
+      "çekip gidebilmiş olmam": "“Çekip gidebilmiş olmam, hiçbir şey hissetmediğim anlamına gelmez.” Şarkının pişmanlık temasını en açık anlatan satırlardan biri."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3gyJbNBTRVRdZDA1yO3clm",
+        "name": "Pink Clouding",
+        "url": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+        "isrc": "USUG12609684",
+        "durationMs": 190690,
+        "duration": "3:11",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "4hF2gTGuPYlykYuphDxi8J",
+        "name": "The Life of a Showgirl: The Encore",
+        "url": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-09-25",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Gms8M0f1kJxAA2pXuLdtI",
+            "name": "The Fate of Ophelia",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 226073,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0Gms8M0f1kJxAA2pXuLdtI",
+            "isCurrent": false
+          },
+          {
+            "id": "5oipiGvChU1G6LGUHdLCmo",
+            "name": "Elizabeth Taylor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 208291,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oipiGvChU1G6LGUHdLCmo",
+            "isCurrent": false
+          },
+          {
+            "id": "1vb2arLM2h2t21XZzMJkzi",
+            "name": "Opalite",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 235356,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1vb2arLM2h2t21XZzMJkzi",
+            "isCurrent": false
+          },
+          {
+            "id": "1UuiRzEKcTOvMg0pRGe9PZ",
+            "name": "Father Figure",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 212777,
+            "duration": "3:33",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1UuiRzEKcTOvMg0pRGe9PZ",
+            "isCurrent": false
+          },
+          {
+            "id": "1QlJbqli3d3LZPDsKuWKCd",
+            "name": "Eldest Daughter",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 246356,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1QlJbqli3d3LZPDsKuWKCd",
+            "isCurrent": false
+          },
+          {
+            "id": "20dYJ6Kq7Mdhr1O5pfwwNr",
+            "name": "Ruin The Friendship",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 220564,
+            "duration": "3:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/20dYJ6Kq7Mdhr1O5pfwwNr",
+            "isCurrent": false
+          },
+          {
+            "id": "7c23fATbCtszPVqbkqzfX5",
+            "name": "Actually Romantic",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 163699,
+            "duration": "2:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7c23fATbCtszPVqbkqzfX5",
+            "isCurrent": false
+          },
+          {
+            "id": "1IRSwAcop6oc61pSISQCNZ",
+            "name": "Wi$h Li$t",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 207349,
+            "duration": "3:27",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1IRSwAcop6oc61pSISQCNZ",
+            "isCurrent": false
+          },
+          {
+            "id": "35RmrxZRsl1BTqoe3HFI4B",
+            "name": "Wood",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 150517,
+            "duration": "2:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/35RmrxZRsl1BTqoe3HFI4B",
+            "isCurrent": false
+          },
+          {
+            "id": "4XQ6epTGOH2Hq9rKY0qYrM",
+            "name": "CANCELLED!",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211498,
+            "duration": "3:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4XQ6epTGOH2Hq9rKY0qYrM",
+            "isCurrent": false
+          },
+          {
+            "id": "1e72gbbH9cMDRdxgOA0kk0",
+            "name": "Honey",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 181534,
+            "duration": "3:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1e72gbbH9cMDRdxgOA0kk0",
+            "isCurrent": false
+          },
+          {
+            "id": "78CYukRkSSZ9PRH5rBWeXM",
+            "name": "The Life of a Showgirl (feat. Sabrina Carpenter)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 241766,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/78CYukRkSSZ9PRH5rBWeXM",
+            "isCurrent": false
+          },
+          {
+            "id": "11hcBLPtbMp4aQI6zGQLub",
+            "name": "Patient Zero",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 225868,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+            "isCurrent": false
+          },
+          {
+            "id": "7uxkx8HPBYkJKcimOyggUM",
+            "name": "Cleveland!",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 206164,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+            "isCurrent": false
+          },
+          {
+            "id": "3gyJbNBTRVRdZDA1yO3clm",
+            "name": "Pink Clouding",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 190690,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+            "isCurrent": true
+          },
+          {
+            "id": "2j7wI9QWrP8cjKDdOLVQTU",
+            "name": "Babylon",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 219365,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-25T11:25:18.656Z",
+      "trackUrl": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "albumType": "Album",
+      "releaseDate": "2026-09-25",
+      "duration": "3:11",
+      "isrc": "USUG12609684",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1"
+    },
+    "genius": null,
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5289",
+    "title": "Taylor Swift Cleveland! Türkçe Çeviri",
+    "song": "Cleveland!",
+    "slug": "taylor-swift-cleveland-turkce-ceviri",
+    "date": "2026-09-25T10:01:00.000Z",
+    "artist": "Taylor Swift",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "She's not as hot as she was, but she was only a four",
+          "She was never a girls' girl, she was just a—",
+          "And with all of that money, why's she dressed like trash?",
+          "When she smiles, it's annoying, and have you seen her"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Eskisi kadar güzel değilmiş, zaten en fazla dört edermiş",
+          "Hiçbir zaman kız kıza dayanışan biri değildi, o sadece bir—",
+          "O kadar parası var, neden hâlâ bu kadar kötü giyiniyor?",
+          "Gülümsemesi bile sinir bozucu, bir de hiç gördün mü onun—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Stumbling clumsily?",
+          "Would you even call that dancing?",
+          "I can see what you mean",
+          "And now I guess there's"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Beceriksizce sendeleyişini?",
+          "Sen buna gerçekten dans mı diyorsun?",
+          "Ne demek istediğinizi anlıyorum",
+          "Ve sanırım şimdi—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Somethin' we all can agree on",
+          "But my baby likes what he likes, oh-woah, oh-oh",
+          "He already took me to Cleveland",
+          "And showed me The Heights, so hate all you like",
+          "This is the love of my life, hey, hey, hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hepimizin kabul edebileceği bir şey var",
+          "Ama sevgilim neyi seviyorsa onu seviyor, oh-woah, oh-oh",
+          "Beni çoktan Cleveland’a götürdü",
+          "Cleveland Heights’ı gösterdi bana, siz istediğiniz kadar nefret edin",
+          "Bu hayatımın aşkı, hey, hey, hey"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "The taste of me is acquired, but it's his favorite dish",
+          "He says I look like an angel, they say, \"I hate that bi—\"",
+          "There, that house with the porch is where he lived as a kid",
+          "He's been saying forever, must not have read that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Ben herkese göre değilim ama onun en sevdiği tat benim",
+          "O bana “Bir melek gibi görünüyorsun” diyor, onlarsa “Şu ka—dan nefret ediyorum”",
+          "Bak, şu verandası olan ev var ya, çocukken orada yaşardı",
+          "O hep “sonsuza dek” deyip duruyor, demek ki okumamış—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Scathin' take 'bout how I'm fake",
+          "And he could find someone younger",
+          "I can see what they mean",
+          "And now I guess there's"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Benim ne kadar sahte olduğuma dair o zehir zemberek yorumu",
+          "Ve onun benden daha genç birini bulabileceğini",
+          "Ne demek istediklerini anlıyorum",
+          "Ve sanırım şimdi—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Somethin' we all can agree on",
+          "But my baby likes what he likes, oh-woah, oh-oh",
+          "He already took me to Cleveland",
+          "And he showed me The Heights (Hey), so hate all you like (Uh-huh)",
+          "This is the love of my life, hey, hey, hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hepimizin kabul edebileceği bir şey var",
+          "Ama sevgilim neyi seviyorsa onu seviyor, oh-woah, oh-oh",
+          "Beni çoktan Cleveland’a götürdü",
+          "Cleveland Heights’ı gösterdi bana, siz istediğiniz kadar nefret edin",
+          "Bu hayatımın aşkı, hey, hey, hey"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "He likes what he likes, what he likes and he likes me",
+          "He likes what he likes, what he likes and he likes me",
+          "You only need to find one person in this entire world (He likes what he likes, what he likes and he likes me)",
+          "Who doesn't find you completely insufferable (He likes what he likes, what he likes and)",
+          "And I have an important announcement to make",
+          "I found mine (That's right)",
+          "Well, I found mine (Hey, hey, hey)",
+          "Yeah, I found mine",
+          "Yes, that's"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "O neyi seviyorsa onu seviyor ve beni seviyor",
+          "O neyi seviyorsa onu seviyor ve beni seviyor",
+          "Şu koskoca dünyada tek ihtiyacın olan şey bir kişi bulmak",
+          "Seni tamamen çekilmez bulmayan bir kişi",
+          "Ve şimdi önemli bir duyurum var",
+          "Ben benimkini buldum",
+          "(Aynen öyle)",
+          "Evet, ben benimkini buldum",
+          "(Hey, hey, hey)",
+          "Evet, buldum",
+          "Evet, işte bu—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Somethin' we all can agree on (I guess we agree, but)",
+          "But my baby likes what he likes, oh-woah, oh-oh",
+          "He already took me to Cleveland (To Cleveland)",
+          "Now I'm wearin' white (Yeah), so hate all you like (Uh-huh)",
+          "This is the love of my life (Hey, hey, hey)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Hepimizin kabul edebileceği bir şey",
+          "(Sanırım bunda anlaşıyoruz ama)",
+          "Ama sevgilim neyi seviyorsa onu seviyor, oh-woah, oh-oh",
+          "Beni çoktan Cleveland’a götürdü",
+          "(Cleveland’a)",
+          "Şimdi beyazlar içindeyim, siz istediğiniz kadar nefret edin",
+          "(Evet)",
+          "Bu hayatımın aşkı",
+          "(Hey, hey, hey)"
+        ]
+      }
+    ],
+    "excerpt": "She's not as hot as she was, but she was only a four",
+    "annotations": {
+      "en fazla dört": "Birini genellikle on üzerinden puanlama mantığıyla küçümseyen bir ifade. Burada anlatıcı kendisi hakkında yapılan aşağılayıcı yorumları alaycı biçimde tekrar ediyor.",
+      "kız kıza dayanışan": "Diğer kadınları destekleyen, kadın dayanışmasına önem veren kadın için kullanılan güncel bir ifade. “She was never a girls’ girl” sözü, anlatıcının kadınlarla dayanışmadığını iddia eden eleştirileri taklit ediyor.",
+      "Cleveland Heights": "Cleveland Heights’a gönderme. Burada sevgilisinin büyüdüğü çevreyi ona göstermesi, ilişkinin daha kişisel ve ciddi bir noktaya geldiğini anlatıyor. “Heights” kelimesi aynı zamanda İngilizcede “yükseklikler” anlamına geldiği için hafif bir kelime oyunu da taşıyor.",
+      "herkese göre değilim": "İlk anda herkesin hoşuna gitmeyen ama zamanla sevilen bir tat veya şey için kullanılan deyim. “The taste of me is acquired” derken anlatıcı kendisiyle dalga geçerek “Ben herkese göre değilim ama onun favorisi benim” diyor.",
+      "en sevdiği tat": "“En sevdiği yemek” ifadesi, hemen önceki “acquired taste” metaforunu devam ettiriyor. Anlatıcı kendisini bir “tat/yemek” gibi tarif ederek sevgilisinin onu özellikle tercih ettiğini söylüyor.",
+      "zehir zemberek yorumu": "Çok sert, acımasız ve iğneleyici yorum veya görüş. Burada anlatıcının “sahte” olduğu ve sevgilisinin daha genç birini bulabileceği yönündeki eleştiriler kastediliyor.",
+      "çekilmez": "Katlanılmaz, çekilmez, tahammül edilmesi zor. Bridge’in esprisi, son derece romantik bir aşk ilanını kendisiyle dalga geçen bir cümleye çevirmesi: “Bu dünyada seni tamamen çekilmez bulmayan bir kişi bulman yeter.”",
+      "neyi seviyorsa onu seviyor": "Kelime kelime “Neyi seviyorsa onu seviyor.” Alt metni ise çok net: başkalarının ne düşündüğü önemli değil; sevgilisinin zevki, tercihi ve sevdiği kişi anlatıcının kendisi.",
+      "beyazlar içindeyim": "Beyaz giymek burada güçlü biçimde gelinlik ve evlilik çağrışımı yaratıyor. Şarkının sonunda dışarıdan gelen eleştiriler sürerken ilişkinin çok daha ciddi bir noktaya geldiği ima ediliyor.",
+      "hayatımın aşkı": "“Hayatımın aşkı.” Şarkının tamamındaki dedikodu ve eleştirilerin karşısına konulan en net cevap: anlatıcı için diğer insanların değerlendirmelerinden çok kendi ilişkisinin gerçekliği önemli."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7uxkx8HPBYkJKcimOyggUM",
+        "name": "Cleveland!",
+        "url": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+        "isrc": "USUG12609683",
+        "durationMs": 206164,
+        "duration": "3:26",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "4hF2gTGuPYlykYuphDxi8J",
+        "name": "The Life of a Showgirl: The Encore",
+        "url": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-09-25",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Gms8M0f1kJxAA2pXuLdtI",
+            "name": "The Fate of Ophelia",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 226073,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0Gms8M0f1kJxAA2pXuLdtI",
+            "isCurrent": false
+          },
+          {
+            "id": "5oipiGvChU1G6LGUHdLCmo",
+            "name": "Elizabeth Taylor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 208291,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oipiGvChU1G6LGUHdLCmo",
+            "isCurrent": false
+          },
+          {
+            "id": "1vb2arLM2h2t21XZzMJkzi",
+            "name": "Opalite",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 235356,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1vb2arLM2h2t21XZzMJkzi",
+            "isCurrent": false
+          },
+          {
+            "id": "1UuiRzEKcTOvMg0pRGe9PZ",
+            "name": "Father Figure",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 212777,
+            "duration": "3:33",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1UuiRzEKcTOvMg0pRGe9PZ",
+            "isCurrent": false
+          },
+          {
+            "id": "1QlJbqli3d3LZPDsKuWKCd",
+            "name": "Eldest Daughter",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 246356,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1QlJbqli3d3LZPDsKuWKCd",
+            "isCurrent": false
+          },
+          {
+            "id": "20dYJ6Kq7Mdhr1O5pfwwNr",
+            "name": "Ruin The Friendship",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 220564,
+            "duration": "3:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/20dYJ6Kq7Mdhr1O5pfwwNr",
+            "isCurrent": false
+          },
+          {
+            "id": "7c23fATbCtszPVqbkqzfX5",
+            "name": "Actually Romantic",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 163699,
+            "duration": "2:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7c23fATbCtszPVqbkqzfX5",
+            "isCurrent": false
+          },
+          {
+            "id": "1IRSwAcop6oc61pSISQCNZ",
+            "name": "Wi$h Li$t",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 207349,
+            "duration": "3:27",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1IRSwAcop6oc61pSISQCNZ",
+            "isCurrent": false
+          },
+          {
+            "id": "35RmrxZRsl1BTqoe3HFI4B",
+            "name": "Wood",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 150517,
+            "duration": "2:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/35RmrxZRsl1BTqoe3HFI4B",
+            "isCurrent": false
+          },
+          {
+            "id": "4XQ6epTGOH2Hq9rKY0qYrM",
+            "name": "CANCELLED!",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211498,
+            "duration": "3:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4XQ6epTGOH2Hq9rKY0qYrM",
+            "isCurrent": false
+          },
+          {
+            "id": "1e72gbbH9cMDRdxgOA0kk0",
+            "name": "Honey",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 181534,
+            "duration": "3:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1e72gbbH9cMDRdxgOA0kk0",
+            "isCurrent": false
+          },
+          {
+            "id": "78CYukRkSSZ9PRH5rBWeXM",
+            "name": "The Life of a Showgirl (feat. Sabrina Carpenter)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 241766,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/78CYukRkSSZ9PRH5rBWeXM",
+            "isCurrent": false
+          },
+          {
+            "id": "11hcBLPtbMp4aQI6zGQLub",
+            "name": "Patient Zero",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 225868,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+            "isCurrent": false
+          },
+          {
+            "id": "7uxkx8HPBYkJKcimOyggUM",
+            "name": "Cleveland!",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 206164,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+            "isCurrent": true
+          },
+          {
+            "id": "3gyJbNBTRVRdZDA1yO3clm",
+            "name": "Pink Clouding",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 190690,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+            "isCurrent": false
+          },
+          {
+            "id": "2j7wI9QWrP8cjKDdOLVQTU",
+            "name": "Babylon",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 219365,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-25T11:25:17.761Z",
+      "trackUrl": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "albumType": "Album",
+      "releaseDate": "2026-09-25",
+      "duration": "3:26",
+      "isrc": "USUG12609683",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1"
+    },
+    "genius": null,
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5288",
+    "title": "Taylor Swift Patient Zero Türkçe Çeviri",
+    "song": "Patient Zero",
+    "slug": "taylor-swift-patient-zero-turkce-ceviri",
+    "date": "2026-09-25T10:00:00.000Z",
+    "artist": "Taylor Swift",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Taylor Swift",
+      "The Life of a Showgirl: The Encore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "the-life-of-a-showgirl-the-encore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "If you wanna party with somebody who might know",
+          "About the devil on his shoulder under his halo",
+          "When the toxins take their hold, you'd rather die than let it go",
+          "But if you’re sick of him, I got you, I was patient zero"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Eğer bunu yaşamış biriyle takılmak istersen",
+          "Halesinin altında, omzundaki şeytanı bilen biriyle",
+          "O zehir içine işlediğinde, bırakmaktansa ölmeyi yeğlersin",
+          "Ama ondan bıktıysan ben buradayım, çünkü ben ilk vakaydım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "I've gotta be honest, I've been expecting your call",
+          "No, it’s not a bad time at all",
+          "I heard somebody saying there's trouble in paradise",
+          "And my lips are sealed tight now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Dürüst olmam gerekirse, aramanı bekliyordum",
+          "Hayır, hiç de kötü bir zamana denk gelmedin",
+          "Duyduğuma göre cennette işler pek yolunda değilmiş",
+          "Ama merak etme, ağzımdan tek kelime çıkmaz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "It's not for me to tell",
+          "Someone else what to do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Bana düşmez",
+          "Bir başkasına ne yapması gerektiğini söylemek"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But if you wanna party with somebody who might know",
+          "About the devil on his shoulder under his halo",
+          "When the toxins take their hold, you'd rather die than let it go",
+          "But if you're sick of him, I got you, I was patient zero"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama bunu yaşamış biriyle takılmak istersen",
+          "Halesinin altında, omzundaki şeytanı bilen biriyle",
+          "O zehir içine işlediğinde, bırakmaktansa ölmeyi yeğlersin",
+          "Ama ondan bıktıysan ben buradayım, çünkü ben ilk vakaydım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I bet he burst into your life like fireworks",
+          "I bet he even said \"I love you\" first",
+          "And when you saw another woman coming out of his place",
+          "I bet he kissed the rain off your face"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Bahse girerim, hayatına havai fişek gibi pat diye girdi",
+          "Bahse girerim, “Seni seviyorum” diyen de ilk oydu",
+          "Sonra onun evinden başka bir kadının çıktığını gördüğünde",
+          "Bahse girerim, yüzündeki yağmuru öperek sildi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Now he seems bored by you",
+          "And you don't know what to do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Şimdiyse senden sıkılmış gibi",
+          "Ve sen ne yapacağını bilmiyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But if you wanna party with somebody who might know",
+          "About the devil on his shoulder under his halo",
+          "When the toxins take their hold, you'd rather die than let it go",
+          "But if you're sick of him, I got you, I was patient zero (I was patient)",
+          "I was patient zero"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama bunu yaşamış biriyle takılmak istersen",
+          "Halesinin altında, omzundaki şeytanı bilen biriyle",
+          "O zehir içine işlediğinde, bırakmaktansa ölmeyi yeğlersin",
+          "Ama ondan bıktıysan ben buradayım, çünkü ben ilk vakaydım",
+          "(İlk vakaydım)",
+          "Ben ilk vakaydım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "So let’s get into it",
+          "I know he charmed your family and friends",
+          "And you thought it’s 'cause he loves you",
+          "But it’s 'cause he loves how everybody else loves him (Uh-huh)",
+          "I know it seems like he shines so bright",
+          "But he's bathing in your reflected light",
+          "On a free solo social climb (Uh-huh)",
+          "Take it from somebody who lost his games but won the race",
+          "Take it from someone who said all of this to his face",
+          "Someone who knows she's more than just the chase",
+          "Someone who had him and walked away",
+          "And so"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Hadi, açık konuşalım",
+          "Biliyorum, aileni ve arkadaşlarını çoktan büyüledi",
+          "Sen de bunu seni sevdiği için yaptığını sandın",
+          "Ama aslında herkesin ona hayran olmasını seviyor",
+          "(Uh-huh)",
+          "Biliyorum, sana ışıl ışıl parlıyor gibi geliyor",
+          "Ama o sadece senin ışığınla parlıyor",
+          "Halatsız bir sosyal tırmanışta yukarı çıkmaya çalışıyor",
+          "(Uh-huh)",
+          "Bunu, onun oyunlarında kaybedip sonunda yarışı kazanan birinden dinle",
+          "Bunu, bütün bunları onun yüzüne karşı söylemiş birinden dinle",
+          "Bir kadının sadece peşinden koşulacak bir hedef olmadığını bilen birinden",
+          "Onunla birlikte olup sonra çekip gidebilmiş birinden",
+          "Yani—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "If you wanna party with somebody who might know",
+          "About the devil on his shoulder under his halo",
+          "And when the toxins take their hold, you’d rather die than let it go",
+          "But if you're sick of him, I got you, I was patient zero"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Eğer bunu yaşamış biriyle takılmak istersen",
+          "Halesinin altında, omzundaki şeytanı bilen biriyle",
+          "O zehir içine işlediğinde, bırakmaktansa ölmeyi yeğlersin",
+          "Ama ondan bıktıysan ben buradayım, çünkü ben ilk vakaydım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "So if you wanna kick it, then I'm with it, I've been there",
+          "Felt the reeling, done the healing, said the curses and prayers",
+          "When the fever turns a dreamer into a pathetic ghost",
+          "If he's killing you, I see you, I was patient zero"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Yani biraz kafa dağıtmak istersen ben varım, ben de oradan geçtim",
+          "Başımın nasıl döndüğünü de bilirim, iyileşmenin nasıl bir şey olduğunu da; bedduaları da ettim, duaları da",
+          "O ateş bir hayalperesti acınası bir hayalete çevirdiğinde",
+          "Eğer o seni içten içe tüketiyorsa seni anlıyorum, çünkü ben ilk vakaydım"
+        ]
+      }
+    ],
+    "excerpt": "If you wanna party with somebody who might know",
+    "annotations": {
+      "ilk vaka": "Bir salgında ilk fark edilen veya başlangıç noktası olarak anılan vaka için kullanılan ifade. Şarkıda mecaz olarak, anlatıcının bu kişinin toksik davranışlarını daha önce yaşamış ve ondan çıkmış kişi olduğunu anlatıyor.",
+      "Halesinin altında, omzundaki şeytan": "Dışarıdan masum, iyi veya “melek gibi” görünen birinin içinde başka, karanlık bir taraf olması metaforu.",
+      "cennette işler pek yolunda değil": "Dışarıdan kusursuz görünen bir ilişkide aslında ciddi sorunlar yaşanması anlamına gelen bir deyim.",
+      "zehir": "Burada gerçek bir zehir değil; toksik ilişkinin ve karşı tarafın davranışlarının kişiyi yavaş yavaş içine çekmesi.",
+      "Halatsız bir sosyal tırmanış": "“Free solo”, halat veya güvenlik ekipmanı olmadan yapılan kaya tırmanışı. “Social climb” ise sosyal statü yükseltmeye çalışmak. Burada ikisi birleştirilerek, karşı tarafın insanları kullanarak tehlikeli biçimde yükselmeye çalıştığı anlatılıyor.",
+      "oyunlarında kaybedip sonunda yarışı kazanan": "Anlatıcı onun manipülatif oyunlarında incinmiş olsa da, sonunda o ilişkiden çıkıp kendi hayatında kazanan taraf olduğunu söylüyor.",
+      "peşinden koşulacak bir hedef": "Romantik ilişkide birini elde etmeye çalışmak, peşinden koşmak anlamında. Anlatıcı, kadının sadece “elde edilecek bir hedef” olmadığını vurguluyor.",
+      "takılmak": "Burada “tekmelemek” değil; birlikte takılmak, kafa dağıtmak, vakit geçirmek anlamında argo bir ifade.",
+      "Başımın nasıl döndüğünü": "Duygusal olarak sersemlemek, başı dönmüş gibi olmak, ne olduğunu anlayamamak hissi.",
+      "seni anlıyorum": "Gerçek anlamda öldürmekten çok, bir ilişkinin kişiyi içten içe tüketmesi. “Seni anlıyorum” ifadesi bu dayanışma tonunu Türkçede daha doğal veriyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "11hcBLPtbMp4aQI6zGQLub",
+        "name": "Patient Zero",
+        "url": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+        "isrc": "USUG12602391",
+        "durationMs": 225868,
+        "duration": "3:46",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "4hF2gTGuPYlykYuphDxi8J",
+        "name": "The Life of a Showgirl: The Encore",
+        "url": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2026-09-25",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Gms8M0f1kJxAA2pXuLdtI",
+            "name": "The Fate of Ophelia",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 226073,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0Gms8M0f1kJxAA2pXuLdtI",
+            "isCurrent": false
+          },
+          {
+            "id": "5oipiGvChU1G6LGUHdLCmo",
+            "name": "Elizabeth Taylor",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 208291,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oipiGvChU1G6LGUHdLCmo",
+            "isCurrent": false
+          },
+          {
+            "id": "1vb2arLM2h2t21XZzMJkzi",
+            "name": "Opalite",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 235356,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1vb2arLM2h2t21XZzMJkzi",
+            "isCurrent": false
+          },
+          {
+            "id": "1UuiRzEKcTOvMg0pRGe9PZ",
+            "name": "Father Figure",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 212777,
+            "duration": "3:33",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1UuiRzEKcTOvMg0pRGe9PZ",
+            "isCurrent": false
+          },
+          {
+            "id": "1QlJbqli3d3LZPDsKuWKCd",
+            "name": "Eldest Daughter",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 246356,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1QlJbqli3d3LZPDsKuWKCd",
+            "isCurrent": false
+          },
+          {
+            "id": "20dYJ6Kq7Mdhr1O5pfwwNr",
+            "name": "Ruin The Friendship",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 220564,
+            "duration": "3:41",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/20dYJ6Kq7Mdhr1O5pfwwNr",
+            "isCurrent": false
+          },
+          {
+            "id": "7c23fATbCtszPVqbkqzfX5",
+            "name": "Actually Romantic",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 163699,
+            "duration": "2:44",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7c23fATbCtszPVqbkqzfX5",
+            "isCurrent": false
+          },
+          {
+            "id": "1IRSwAcop6oc61pSISQCNZ",
+            "name": "Wi$h Li$t",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 207349,
+            "duration": "3:27",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1IRSwAcop6oc61pSISQCNZ",
+            "isCurrent": false
+          },
+          {
+            "id": "35RmrxZRsl1BTqoe3HFI4B",
+            "name": "Wood",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 150517,
+            "duration": "2:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/35RmrxZRsl1BTqoe3HFI4B",
+            "isCurrent": false
+          },
+          {
+            "id": "4XQ6epTGOH2Hq9rKY0qYrM",
+            "name": "CANCELLED!",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211498,
+            "duration": "3:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4XQ6epTGOH2Hq9rKY0qYrM",
+            "isCurrent": false
+          },
+          {
+            "id": "1e72gbbH9cMDRdxgOA0kk0",
+            "name": "Honey",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 181534,
+            "duration": "3:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1e72gbbH9cMDRdxgOA0kk0",
+            "isCurrent": false
+          },
+          {
+            "id": "78CYukRkSSZ9PRH5rBWeXM",
+            "name": "The Life of a Showgirl (feat. Sabrina Carpenter)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 241766,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/78CYukRkSSZ9PRH5rBWeXM",
+            "isCurrent": false
+          },
+          {
+            "id": "11hcBLPtbMp4aQI6zGQLub",
+            "name": "Patient Zero",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 225868,
+            "duration": "3:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+            "isCurrent": true
+          },
+          {
+            "id": "7uxkx8HPBYkJKcimOyggUM",
+            "name": "Cleveland!",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 206164,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
+            "isCurrent": false
+          },
+          {
+            "id": "3gyJbNBTRVRdZDA1yO3clm",
+            "name": "Pink Clouding",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 190690,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
+            "isCurrent": false
+          },
+          {
+            "id": "2j7wI9QWrP8cjKDdOLVQTU",
+            "name": "Babylon",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 219365,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-25T11:25:16.739Z",
+      "trackUrl": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+      "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "The Life of a Showgirl: The Encore",
+      "albumType": "Album",
+      "releaseDate": "2026-09-25",
+      "duration": "3:46",
+      "isrc": "USUG12602391",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1"
+    },
+    "genius": null,
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5287",
+    "title": "NANA So well Türkçe Çeviri",
+    "song": "So well",
+    "slug": "nana-so-well-turkce-ceviri",
+    "date": "2026-09-14T08:43:17.167Z",
+    "artist": "NANA",
+    "languages": {
+      "original": "ko-latn",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "NANA",
+      "NANA Digital Single <So well>"
+    ],
+    "category_slugs": [
+      "nana",
+      "nana-digital-single-so-well"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "han georeum dwieseo",
+          "neol ttarageoreumyeo nan baraboasseo",
+          "ne eokkaeneomeoro",
+          "ssodajineun sumaneun byeolbicheul"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bir adım gerinden",
+          "Peşinden yürürken seyrettim",
+          "Omzunun üzerinden",
+          "Dökülen sayısız yıldız ışığını"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "gajang meon goseseodo",
+          "nan neol neukkil suga isseo",
+          "'Cause I know you so well",
+          "dajeonghi bureooneun",
+          "jeo barame sillyeoone",
+          "neowa nareul hyanghan insaga",
+          "jeomjeom deo gakkai"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "En uzaklarda bile",
+          "Seni hissedebiliyorum",
+          "Çünkü seni çok iyi tanıyorum",
+          "Tatlı tatlı esen",
+          "Şu rüzgâra binip geliyor",
+          "Sana ve bana yönelen bir selam",
+          "Gitgide yaklaşıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "kkeuchi nan gyejeoldo",
+          "eonjenganeun dasi doraol geoya",
+          "maeum teume piwonaen han songi kkotcheoreom neoneun",
+          "neul idaero areumdaul teni"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Sona eren mevsim de",
+          "Bir gün yeniden dönecek",
+          "Kalbin bir aralığında yeşeren tek bir çiçek gibi",
+          "Sen hep böyle güzel kalacaksın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "gajang meon goseseodo",
+          "nan neol neukkil suga isseo",
+          "'Cause I know you so well",
+          "dajeonghi bureooneun",
+          "jeo barame sillyeoone",
+          "neowa nareul hyanghan insaga",
+          "jeomjeom deo gakkai"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "En uzaklarda bile",
+          "Seni hissedebiliyorum",
+          "Çünkü seni çok iyi tanıyorum",
+          "Tatlı tatlı esen",
+          "Şu rüzgâra binip geliyor",
+          "Sana ve bana yönelen bir selam",
+          "Gitgide yaklaşıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "seoroui nunbit sairo",
+          "sojunghi nanun iyagineun",
+          "sarajiji ana",
+          "myeot beonideun meomchwodo dwae",
+          "dasi doedorawado dwae",
+          "'Cause I love you",
+          "I know you so well",
+          "No matter what you wanna do",
+          "Believe in you, get on your way",
+          "I know what you can do",
+          "Fly up to the sky so high",
+          "And take whatever that you want",
+          "I love you so, I know you so well",
+          "I'll always be with you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bakışlarımızın arasında",
+          "Özenle paylaştığımız hikâye",
+          "Kaybolup gitmez",
+          "Kaç kez olursa olsun durabilirsin",
+          "Yine geri dönebilirsin",
+          "Çünkü seni seviyorum",
+          "Seni çok iyi tanıyorum",
+          "Ne yapmak istersen iste",
+          "Kendine inan, kendi yolunda ilerle",
+          "Neler yapabileceğini biliyorum",
+          "Göklere uç, alabildiğine yükseğe",
+          "Ve istediğin ne varsa al",
+          "Seni çok seviyorum, seni çok iyi tanıyorum",
+          "Hep seninle olacağım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Mm, I'll always be with you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Mm, hep seninle olacağım"
+        ]
+      }
+    ],
+    "excerpt": "han georeum dwieseo",
+    "annotations": {},
+    "difficulty_note": "Korece dizeler, okurun sözleri takip edebilmesi için Latin alfabesiyle romanize edildi.",
+    "spotify": {
+      "track": {
+        "id": "5oR4PpaIfh3bcDDjMr4mC0",
+        "name": "So well",
+        "url": "https://open.spotify.com/track/5oR4PpaIfh3bcDDjMr4mC0",
+        "isrc": "KRA382603854",
+        "durationMs": 196000,
+        "duration": "3:16",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0y7Ayco2wqh26ps6bYsor8",
+        "name": "NANA",
+        "url": "https://open.spotify.com/artist/0y7Ayco2wqh26ps6bYsor8",
+        "image": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0y7Ayco2wqh26ps6bYsor8",
+          "name": "NANA",
+          "url": "https://open.spotify.com/artist/0y7Ayco2wqh26ps6bYsor8"
+        }
+      ],
+      "album": {
+        "id": "1DzMo7MrDtDYWZaSKWPkUv",
+        "name": "NANA Digital Single <So well>",
+        "url": "https://open.spotify.com/album/1DzMo7MrDtDYWZaSKWPkUv",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8",
+        "artists": [
+          {
+            "id": "0y7Ayco2wqh26ps6bYsor8",
+            "name": "NANA",
+            "url": "https://open.spotify.com/artist/0y7Ayco2wqh26ps6bYsor8"
+          }
+        ],
+        "releaseDate": "2026-09-14",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 SUBLIME,under license to Kakao Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 SUBLIME,under license to Kakao Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5oR4PpaIfh3bcDDjMr4mC0",
+            "name": "So well",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 196000,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oR4PpaIfh3bcDDjMr4mC0",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-14T08:43:15.215Z",
+      "trackUrl": "https://open.spotify.com/track/5oR4PpaIfh3bcDDjMr4mC0",
+      "albumUrl": "https://open.spotify.com/album/1DzMo7MrDtDYWZaSKWPkUv",
+      "artistUrl": "https://open.spotify.com/artist/0y7Ayco2wqh26ps6bYsor8",
+      "albumName": "NANA Digital Single <So well>",
+      "albumType": "Single",
+      "releaseDate": "2026-09-14",
+      "duration": "3:16",
+      "isrc": "KRA382603854",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c24f9d322656e24999f349e8"
+    },
+    "genius": {
+      "url": "https://genius.com/Nana-kor-so-well-lyrics",
+      "songId": 14255880,
+      "description": "?"
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5286",
+    "title": "Jhené Aiko, Kendrick Lamar So Good Türkçe Çeviri",
+    "song": "So Good",
+    "slug": "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
+    "date": "2026-09-14T08:23:19.761Z",
+    "artist": "Jhené Aiko, Kendrick Lamar",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Jhené Aiko",
+      "Kendrick Lamar",
+      "Westside Whimsy"
+    ],
+    "category_slugs": [
+      "jhene-aiko",
+      "kendrick-lamar",
+      "westside-whimsy"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Pre-Chorus: Kendrick Lamar",
+        "lines": [
+          "Face stupid, body stupid",
+          "Hottie, stupid, got me stupid",
+          "Beauty and the brains, hey, what we doin'?",
+          "Money out here, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Kendrick Lamar",
+        "lines": [
+          "Yüzün deli güzel, vücudun deli güzel¹",
+          "Afetsin resmen, beni de deliye çevirdin",
+          "Hem güzelsin hem akıllı; hey, ne yapıyoruz biz?",
+          "Buralarda para var, bebeğim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "You look so good",
+          "Sinful, but godly",
+          "I got you, you got me",
+          "I want you, uh",
+          "You look so good",
+          "A centerfold, a dime piece",
+          "Essential, it's godly",
+          "I'm ten toes, copy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Öyle güzel görünüyorsun ki",
+          "Günahkâr ama ilahi",
+          "Sen bendesin, ben de sende",
+          "Seni istiyorum, uh",
+          "Öyle güzel görünüyorsun ki",
+          "Bir orta sayfa güzeli, on numara bir kadınsın²",
+          "Vazgeçilmezsin; ilahi bu",
+          "Ben bu işte sonuna kadar varım, anlaşıldı mı?³"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Kendrick Lamar, Kendrick Lamar & Jhené Aiko",
+        "lines": [
+          "Huh, I'll be on a sick one, thinkin' 'bout you, 'bout you, 'bout you (A little bit)",
+          "Fuck 'em all, tell 'em we the only gospel",
+          "Duckin' off anytime it's a house full (House full)",
+          "Let 'em talk, only right they have a mouthful",
+          "Break out the spades, pipe up the party",
+          "No wallflowers in the section, sorry"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Kendrick Lamar, Kendrick Lamar & Jhené Aiko",
+        "lines": [
+          "Hah, yine fena bir kafadayım; seni, seni, seni düşünüyorum⁴ (Azıcık)",
+          "Hepsini siktir et; söyle onlara, tek kutsal gerçek biziz",
+          "Ortalık kalabalıklaştı mı hemen gözden kayboluyoruz (Tıklım tıklım)",
+          "Bırak konuşsunlar; ağızları dolu olsun, hakları",
+          "Spades destesini çıkar, partiyi coştur⁵",
+          "Bizim locada duvar dibinde pinekleyen yok, kusura bakma"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "I can't let a messy bitch get in my way",
+          "I'm way too grown, plus, I'm top rank",
+          "Who was poppin' it 'til they got spanked?",
+          "Westside everything"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Drama peşindeki bir kaltak yoluma çıkamaz",
+          "Bu işler için fazla olgunum; üstelik en üst sıradayım",
+          "Şamarı yiyene kadar kimdi öyle caka satan?",
+          "Baştan aşağı Westside"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Pipe, pipe, pipe it up, ghetto intellectual",
+          "Swervin' through the jet fuel, breakin' down the decimals",
+          "Make it physical, spiritual, sexual",
+          "Sit your ass right here, let me bless you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Coştur, coştur, iyice coştur; getto entelektüeli",
+          "Jet Fuel’la zikzak çizip ondalıkları tek tek çözüyorum⁶",
+          "Hem bedensel, hem ruhsal, hem cinsel olsun",
+          "Kıçını şuraya koy da seni kutsayayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Kendrick Lamar, Kendrick Lamar & Jhené Aiko",
+        "lines": [
+          "Face stupid, body stupid",
+          "Hottie, stupid, got me stupid",
+          "Beauty and the brains, hey, what we doin'?",
+          "Money out here, baby, what we—? I say",
+          "Face so stupid, body stupid",
+          "Got me stupid, hottie, stupid",
+          "Beauty and the brains, hey, what we doin'?",
+          "Money out here, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Kendrick Lamar, Kendrick Lamar & Jhené Aiko",
+        "lines": [
+          "Yüzün deli güzel, vücudun deli güzel",
+          "Afetsin resmen, beni de deliye çevirdin",
+          "Hem güzelsin hem akıllı; hey, ne yapıyoruz biz?",
+          "Buralarda para var, bebeğim; biz ne—? Diyorum ki:",
+          "Yüzün öyle deli güzel, vücudun deli güzel",
+          "Deliye çevirdin beni; afetsin, deli güzel",
+          "Hem güzelsin hem akıllı; hey, ne yapıyoruz biz?",
+          "Buralarda para var, bebeğim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "You look so good",
+          "Sinful, but godly",
+          "I got you, you got me",
+          "I want you, uh",
+          "You look so good",
+          "A centerfold, a dime piece",
+          "Essential, it's godly",
+          "I'm ten toes, copy"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Öyle güzel görünüyorsun ki",
+          "Günahkâr ama ilahi",
+          "Sen bendesin, ben de sende",
+          "Seni istiyorum, uh",
+          "Öyle güzel görünüyorsun ki",
+          "Bir orta sayfa güzeli, on numara bir kadınsın",
+          "Vazgeçilmezsin; ilahi bu",
+          "Ben bu işte sonuna kadar varım, anlaşıldı mı?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "High, a little bit, low, a little bit",
+          "Fast, a little bit, slow, a little bit",
+          "Chase a little bit, wait a little bit",
+          "Stay a little bit, longer, I'm serious",
+          "High, a little bit, low, a little bit",
+          "Fast, a little bit, slow, a little bit",
+          "Chase a little bit, wait a little bit",
+          "Stay a little bit, longer, I'm serious"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "Biraz yukarı, biraz aşağı",
+          "Biraz hızlı, biraz yavaş",
+          "Biraz kovala, biraz bekle",
+          "Biraz daha kal, ciddiyim",
+          "Biraz yukarı, biraz aşağı",
+          "Biraz hızlı, biraz yavaş",
+          "Biraz kovala, biraz bekle",
+          "Biraz daha kal, ciddiyim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Kendrick Lamar",
+        "lines": [
+          "Bamboo hula hoop, we locked in",
+          "911 too cute, we boxed in",
+          "Knock it off, your bitch boof, we are not friends",
+          "Her mama got some ass too, that make a lot of sense",
+          "Do my little two-step, then wiggle with it",
+          "Then wiggle with it, then wiggle with it",
+          "Smile for the camera 'cause I know I'm slightly off",
+          "Tryna hide the villain in me 'cause I know these niggas talk"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Kendrick Lamar",
+        "lines": [
+          "Hula hoop gibi bambu halkalar; biz kenetlendik⁷",
+          "911 pek tatlı; içine tıkışmışız⁸",
+          "Kes numarayı; senin hatunun tırt, biz kanka değiliz",
+          "Annesinin de kıçı sağlam; şimdi taşlar yerine oturdu",
+          "Şöyle two-step dansımı yapar, sonra kıvırırım",
+          "Sonra kıvırırım, sonra yine kıvırırım",
+          "Kameraya gülümse; biraz kaçık olduğumu biliyorum",
+          "İçimdeki kötü yanı gizlemeye çalışıyorum; bu heriflerin çenesi durmaz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4: Jhené Aiko",
+        "lines": [
+          "Okay, I'm tryna put you in the mood",
+          "Okay, and put your face in it too, okay",
+          "Are you my summertime boo? Otay",
+          "It's how the lovers groove"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4: Jhené Aiko",
+        "lines": [
+          "Tamam, seni o havaya sokmaya çalışıyorum",
+          "Tamam, yüzünü de oraya gömmeye çalışıyorum, tamam⁹",
+          "Sen benim yaz aşkım mısın? Otay¹⁰",
+          "Sevgililer böyle salınır"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Pipe, pipe, pipe it up, ghetto intellectual",
+          "Swervin' through the jet fuel, breakin' down the decimals",
+          "Make it physical, spiritual, sexual",
+          "Sit your ass right here"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Jhené Aiko, Jhené Aiko & Kendrick Lamar",
+        "lines": [
+          "Coştur, coştur, iyice coştur; getto entelektüeli",
+          "Jet Fuel’la zikzak çizip ondalıkları tek tek çözüyorum",
+          "Hem bedensel, hem ruhsal, hem cinsel olsun",
+          "Kıçını şuraya koy"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "You look so good (Good)",
+          "Sinful, but godly (Yeah, yeah)",
+          "I got you, you got me",
+          "I want you (Oh)",
+          "You look so good (Good)",
+          "A centerfold, a dime piece (A dime piece)",
+          "Essential, it's godly (Essential, it's godly)",
+          "I'm ten toes, copy (I'm ten toes)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "Öyle güzel görünüyorsun ki (Çok güzel)",
+          "Günahkâr ama ilahi (Evet, evet)",
+          "Sen bendesin, ben de sende",
+          "Seni istiyorum (Oh)",
+          "Öyle güzel görünüyorsun ki (Çok güzel)",
+          "Bir orta sayfa güzeli, on numara bir kadınsın (On numara)",
+          "Vazgeçilmezsin; ilahi bu (Vazgeçilmezsin, ilahi bu)",
+          "Ben bu işte sonuna kadar varım, anlaşıldı mı? (Sonuna kadar)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "High, a little bit, low, a little bit (Yeah)",
+          "Fast, a little bit, slow, a little bit",
+          "Chase a little bit, wait a little bit",
+          "Stay a little bit, longer, I'm serious"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Jhené Aiko & Kendrick Lamar, Jhené Aiko",
+        "lines": [
+          "Biraz yukarı, biraz aşağı (Evet)",
+          "Biraz hızlı, biraz yavaş",
+          "Biraz kovala, biraz bekle",
+          "Biraz daha kal, ciddiyim"
+        ]
+      }
+    ],
+    "excerpt": "Face stupid, body stupid",
+    "annotations": {
+      "911": "Bağlama göre büyük olasılıkla Porsche 911; boxed in aracın dar kabininde yan yana sıkışmayı anlatıyor.",
+      "Stupid": "İlk kullanımlarda “akıl almayacak kadar güzel”; got me stupid kısmında ise “beni aptala/serseme çevirdi.” Türkçedeki “deli güzel–deliye çevirmek” oyunu iki anlamı birleştiriyor.",
+      "Centerfold / dime piece": "Derginin orta sayfa modeli ve “on üzerinden onluk, son derece çekici kadın.”",
+      "Ten toes / copy": "Sarsılmadan, sadakatle sonuna kadar durmak; copy ise telsiz dilinde “anlaşıldı mı?”",
+      "On a sick one": "Çılgın, aşırı veya hafif kafası güzel bir ruh hâli. Kesin bir uyuşturucu anlamına kapatılmadı.",
+      "Spades": "Siyah Amerikan sosyal kültüründe önemli yeri olan, çoğunlukla eşli oynanan kart oyunu.",
+      "Jet Fuel / decimals": "Hız, sarhoşluk veya aynı adlı madde ile para/miktar hesabını üst üste bindirebilen belirsiz bir kelime oyunu. Bu nedenle açıklama çevirinin içine eklenmedi.",
+      "Bamboo hula hoop": "Büyük olasılıkla hula hoop büyüklüğünde abartılan bambu desenli büyük halka küpeler.",
+      "Put your face in it": "Açık bir oral seks iması taşır. Özgünde organın adı söylenmediğinden Türkçede de “oraya” denerek ima korundu.",
+      "Otay": "Okay kelimesinin çocukça ve oyunlu telaffuzu; ses şakası kaybolmasın diye çevrilmeden bırakıldı."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4SHzTQlwm2Ov80IDdl883y",
+        "name": "So Good (feat. Kendrick Lamar)",
+        "url": "https://open.spotify.com/track/4SHzTQlwm2Ov80IDdl883y",
+        "isrc": "USUM72608344",
+        "durationMs": 237250,
+        "duration": "3:57",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 14,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5ZS223C6JyBfXasXxrRqOk",
+        "name": "Jhené Aiko",
+        "url": "https://open.spotify.com/artist/5ZS223C6JyBfXasXxrRqOk",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba549c55ea928defc166d971e",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5ZS223C6JyBfXasXxrRqOk",
+          "name": "Jhené Aiko",
+          "url": "https://open.spotify.com/artist/5ZS223C6JyBfXasXxrRqOk"
+        },
+        {
+          "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+          "name": "Kendrick Lamar",
+          "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+        }
+      ],
+      "album": {
+        "id": "1U5UY674wcDu0FisO7SXXp",
+        "name": "Westside Whimsy",
+        "url": "https://open.spotify.com/album/1U5UY674wcDu0FisO7SXXp",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6",
+        "artists": [
+          {
+            "id": "5ZS223C6JyBfXasXxrRqOk",
+            "name": "Jhené Aiko",
+            "url": "https://open.spotify.com/artist/5ZS223C6JyBfXasXxrRqOk"
+          }
+        ],
+        "releaseDate": "2026-09-10",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Def Jam Recordings, a division of UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Def Jam Recordings, a division of UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 20,
+        "tracks": [
+          {
+            "id": "3QTqVu4PUTIfY51aCW26vp",
+            "name": "Wild Cat(s)",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 66021,
+            "duration": "1:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3QTqVu4PUTIfY51aCW26vp",
+            "isCurrent": false
+          },
+          {
+            "id": "2tTJfK4SsdTXdST7RkU1f2",
+            "name": "Ghost",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 123114,
+            "duration": "2:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2tTJfK4SsdTXdST7RkU1f2",
+            "isCurrent": false
+          },
+          {
+            "id": "0LkFFeqYt7axkrrwjz8p4W",
+            "name": "Break",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 195610,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0LkFFeqYt7axkrrwjz8p4W",
+            "isCurrent": false
+          },
+          {
+            "id": "0XeGed4SIRNjbfxav2HHrl",
+            "name": "Love Bomb (w/ Ab-Soul)",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 151605,
+            "duration": "2:32",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0XeGed4SIRNjbfxav2HHrl",
+            "isCurrent": false
+          },
+          {
+            "id": "6SnWdqI4Js64g7ePavGQMe",
+            "name": "Ceiling (Freestyle)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 207555,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6SnWdqI4Js64g7ePavGQMe",
+            "isCurrent": false
+          },
+          {
+            "id": "7osNKRnHEL2Ew6RWsd8wtl",
+            "name": "Nothing Nice to Say",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 135237,
+            "duration": "2:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7osNKRnHEL2Ew6RWsd8wtl",
+            "isCurrent": false
+          },
+          {
+            "id": "1nnds2EF1xo3jKd9PHSHCG",
+            "name": "He Belongs",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 201133,
+            "duration": "3:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1nnds2EF1xo3jKd9PHSHCG",
+            "isCurrent": false
+          },
+          {
+            "id": "6PymmeIlzjxVzoW2kUhqY0",
+            "name": "Like, Whatever (feat. Tyga)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 211264,
+            "duration": "3:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6PymmeIlzjxVzoW2kUhqY0",
+            "isCurrent": false
+          },
+          {
+            "id": "6rk70rot8W6WeJtHMnSe1y",
+            "name": "You",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 103340,
+            "duration": "1:43",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6rk70rot8W6WeJtHMnSe1y",
+            "isCurrent": false
+          },
+          {
+            "id": "6sLqFwivCZz3BUXxulmngm",
+            "name": "Don't Be That Guy",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 174809,
+            "duration": "2:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6sLqFwivCZz3BUXxulmngm",
+            "isCurrent": false
+          },
+          {
+            "id": "1Zkd9Jh3BhtRW83jgR6J5r",
+            "name": "Lullaby",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 178970,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Zkd9Jh3BhtRW83jgR6J5r",
+            "isCurrent": false
+          },
+          {
+            "id": "5dD7pyuL0VAOnpmcZv7LDH",
+            "name": "Neighbors (feat. Larry June)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 215136,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5dD7pyuL0VAOnpmcZv7LDH",
+            "isCurrent": false
+          },
+          {
+            "id": "2qqnMabmdkKF2R9ORsKBKb",
+            "name": "Mine",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 164692,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2qqnMabmdkKF2R9ORsKBKb",
+            "isCurrent": false
+          },
+          {
+            "id": "4SHzTQlwm2Ov80IDdl883y",
+            "name": "So Good (feat. Kendrick Lamar)",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 237250,
+            "duration": "3:57",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4SHzTQlwm2Ov80IDdl883y",
+            "isCurrent": true
+          },
+          {
+            "id": "13Ahrjin5zQoRq9Gyabqhf",
+            "name": "Beach Boy",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 207830,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/13Ahrjin5zQoRq9Gyabqhf",
+            "isCurrent": false
+          },
+          {
+            "id": "3CJlF4EQZkGmg8AKUv8apG",
+            "name": "Unicorn",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 178564,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3CJlF4EQZkGmg8AKUv8apG",
+            "isCurrent": false
+          },
+          {
+            "id": "2wNjxzDSmoxzSfatPqxqgq",
+            "name": "I Don't Mind",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 190044,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2wNjxzDSmoxzSfatPqxqgq",
+            "isCurrent": false
+          },
+          {
+            "id": "2a8b0fpxEGII4IY1edx4Sz",
+            "name": "Nami’s Haiku",
+            "trackNumber": 18,
+            "discNumber": 1,
+            "durationMs": 139490,
+            "duration": "2:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2a8b0fpxEGII4IY1edx4Sz",
+            "isCurrent": false
+          },
+          {
+            "id": "5Mb5tVWnNvp9eNLBi43zsE",
+            "name": "A Living Light",
+            "trackNumber": 19,
+            "discNumber": 1,
+            "durationMs": 179374,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5Mb5tVWnNvp9eNLBi43zsE",
+            "isCurrent": false
+          },
+          {
+            "id": "0QhxPfUHiniKVEfZKiCNbB",
+            "name": "Golden Coast (feat. OHMA)",
+            "trackNumber": 20,
+            "discNumber": 1,
+            "durationMs": 88955,
+            "duration": "1:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0QhxPfUHiniKVEfZKiCNbB",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-09-14T08:23:18.098Z",
+      "trackUrl": "https://open.spotify.com/track/4SHzTQlwm2Ov80IDdl883y",
+      "albumUrl": "https://open.spotify.com/album/1U5UY674wcDu0FisO7SXXp",
+      "artistUrl": "https://open.spotify.com/artist/5ZS223C6JyBfXasXxrRqOk",
+      "albumName": "Westside Whimsy",
+      "albumType": "Album",
+      "releaseDate": "2026-09-10",
+      "duration": "3:57",
+      "isrc": "USUM72608344",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273707267fc9fe2391fd14d85d6"
+    },
+    "genius": {
+      "url": "https://genius.com/Jhene-aiko-so-good-lyrics",
+      "songId": 14227964,
+      "description": "“So Good” is a midtempo R&B duet that centers on mutual devotion and romantic attraction. Soundwise, it is driven by warm, late-‘90s synthesizer chords and a relaxed rhythm.This marks the first direct collaboration between Aiko and Lamar in over a decade. The duo first worked together on Lamar’s “Growing Apart (To Get Closer)” from his 2010 mixtape Overly Dedicated, followed by Lamar’s verse on Aiko’s 2013 single “Stay Ready (What a Life)” from her debut EP, Sail Out. Since then, they have only been featured on Playboi Carti’s 2025 track “BACKD00R.”"
+    },
+    "youtubeUrl": null,
+    "source": "spotify-genius"
+  },
+  {
     "id": "5285",
     "title": "CRUSH Benim Olsana English Translation",
     "song": "Benim Olsana",
