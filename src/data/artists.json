@@ -2212,5 +2212,11 @@
     "name": "NANA",
     "count": 1,
     "image": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa"
+  },
+  {
+    "slug": "manifest",
+    "name": "manifest",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a"
   }
 ]

@@ -1,5 +1,58 @@
 [
   {
+    "id": "5292",
+    "slug": "manifest-tralala-turkce-ceviri",
+    "title": "manifest TRALALA Türkçe Çeviri",
+    "song": "TRALALA",
+    "artist": "manifest",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8",
+    "date": "2026-10-09T10:03:46.946Z",
+    "reading_time": 4,
+    "excerpt": "Can't get your eyes off my, um, tra-la-la",
+    "categories": [
+      "manifest",
+      "TRALALA"
+    ],
+    "category_slugs": [
+      "manifest",
+      "tralala"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6hPPwiXH4Y4kmc121v9Fdg",
+      "albumUrl": "https://open.spotify.com/album/4pfxDNLAqfyDk5xVjddGIr",
+      "artistUrl": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf",
+      "albumName": "TRALALA",
+      "releaseDate": "2026-10-09",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8",
+      "duration": "3:16",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "manifest",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a",
+      "artistGenres": [],
+      "albumArtist": "manifest"
+    },
+    "moods": [
+      "Party",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Can't get your eyes off my, um, tra-la-la",
+      "tr": "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun"
+    },
+    "heroPair": {
+      "en": "Can't get your eyes off my, um, tra-la-la",
+      "tr": "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun"
+    }
+  },
+  {
     "id": "5291",
     "slug": "taylor-swift-babylon-turkce-ceviri",
     "title": "Taylor Swift Babylon Türkçe Çeviri",

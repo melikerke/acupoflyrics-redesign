@@ -1,5 +1,395 @@
 [
   {
+    "id": "5292",
+    "title": "manifest TRALALA Türkçe Çeviri",
+    "song": "TRALALA",
+    "slug": "manifest-tralala-turkce-ceviri",
+    "date": "2026-10-09T10:03:46.946Z",
+    "artist": "manifest",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "manifest",
+      "TRALALA"
+    ],
+    "category_slugs": [
+      "manifest",
+      "tralala"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Lidya",
+        "lines": [
+          "Can't get your eyes off my, um, tra-la-la",
+          "Look like an angel, God bless, mashallah, mm-mm",
+          "Move to the beat, it goes dum-da-ra-ra",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Lidya",
+        "lines": [
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, mm-mm",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "Gözlerini alamıyorsun",
+          "Gözlerini benden alamıyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Sueda, Hilal",
+        "lines": [
+          "Didn't mean to ask for attention when I came by",
+          "In the same location on the same night",
+          "Build up that tension, oh, day by day, oh",
+          "I know, you want what you can't get",
+          "That's the law of attraction",
+          "You're not getting that satisfaction",
+          "I'll be driving you crazy, oh, play by play, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Sueda, Hilal",
+        "lines": [
+          "Oraya geldiğimde dikkat çekmek istememiştim aslında",
+          "Sadece aynı gece, aynı yerdeydik",
+          "Aramızdaki gerilim günbegün artıyor, oh",
+          "Biliyorum, elde edemediğin şeyi istiyorsun",
+          "Çekim yasası böyle işler",
+          "Ama o tatmini elde edemeyeceksin",
+          "Seni adım adım delirteceğim, oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Mina",
+        "lines": [
+          "You can't help but notice me (Uh)",
+          "I can't help but notice you (You; Da-da-da-da-da)",
+          "You can't look away from me (Mm, ayy)",
+          "Feel your eyes all over you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Mina",
+        "lines": [
+          "Beni fark etmeden duramıyorsun, uh",
+          "Ben de seni fark etmeden edemiyorum",
+          "(Da-da-da-da-da)",
+          "Benden gözlerini kaçıramıyorsun, mm, ayy",
+          "Bakışlarını üzerimde hissediyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sueda",
+        "lines": [
+          "Can't get your eyes off my, um, tra-la-la",
+          "Look like an angel, God bless, mashallah, mm-mm",
+          "Move to the beat, it goes dum-da-ra-ra",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my (Can't get your eyes off my)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sueda",
+        "lines": [
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, mm-mm",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "Gözlerini alamıyorsun",
+          "Gözlerini benden alamıyorsun",
+          "(Gözlerini benden alamıyorsun)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Lidya, Mina",
+        "lines": [
+          "I do it on purpose",
+          "Now you look a little bit nervous (Yeah)",
+          "You're watching every movement",
+          "To the right, to the left, to the right, to the right, right",
+          "You're tryna calm your lady down",
+          "I'm messing with you on the daily now",
+          "All it takes is one look",
+          "Start a fight with your girl every time I'm around, 'round"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Lidya, Mina",
+        "lines": [
+          "Bunu bilerek yapıyorum",
+          "Şimdi biraz gergin görünüyorsun",
+          "(Evet)",
+          "Her hareketimi izliyorsun",
+          "Sağa, sola, sağa, sağa, sağa",
+          "Yanındaki kadını sakinleştirmeye çalışıyorsun",
+          "Ben de artık her gün seninle uğraşıyorum",
+          "Tek bir bakışım yetiyor",
+          "Ben ortalardayken sevgilinle her seferinde kavga çıkıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Esin",
+        "lines": [
+          "You can't help but notice me (Mm, uh)",
+          "I can't help but notice you (Da-da-da-da)",
+          "Building up that fantasy (Uh)",
+          "Feel your eyes all over you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Esin",
+        "lines": [
+          "Beni fark etmeden duramıyorsun, mm, uh",
+          "Ben de seni fark etmeden edemiyorum",
+          "(Da-da-da-da)",
+          "O fantezi kafanda giderek büyüyor, uh",
+          "Bakışlarını üzerimde hissediyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Hilal",
+        "lines": [
+          "Can't get your eyes off my, um, tra-la-la",
+          "Look like an angel, God bless, mashallah, mm-mm",
+          "Move to the beat, it goes dum-da-ra-ra",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my (Can't get your eyes off my, tra-la-la)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Hilal",
+        "lines": [
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, mm-mm",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "Gözlerini alamıyorsun",
+          "Gözlerini benden alamıyorsun",
+          "(Gözlerini şu tra-la-la’mdan alamıyorsun)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Zeynep",
+        "lines": [
+          "My friends know your friends",
+          "And we got a lot of intel on the weekends",
+          "Where you going out? I'm dressed up and I'll be there",
+          "Whoops, it must be a coincidence",
+          "And then your friends see my friends",
+          "Now we're pulling up, same club, same wristband",
+          "It's so obvious that you wanted this",
+          "And I love messing with your confidence"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Zeynep",
+        "lines": [
+          "Benim arkadaşlarım senin arkadaşlarını tanıyor",
+          "Hafta sonları hakkında epey istihbaratımız var",
+          "Nereye çıkıyorsun?",
+          "Ben hazırlanıp orada olacağım",
+          "Aaa, herhâlde tamamen tesadüf",
+          "Sonra senin arkadaşların benimkileri görüyor",
+          "Biz de geliyoruz: aynı kulüp, aynı bileklik",
+          "Bunu senin de istediğin o kadar belli ki",
+          "Özgüveninle oynamaya bayılıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Esin",
+        "lines": [
+          "You can't help but notice me (Mm, uh)",
+          "I can't help but notice you (Da-da-da-da)",
+          "You can't look away from me (Uh)",
+          "Feel your eyes all over you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Esin",
+        "lines": [
+          "Beni fark etmeden duramıyorsun, mm, uh",
+          "Ben de seni fark etmeden edemiyorum",
+          "(Da-da-da-da)",
+          "Benden gözlerini kaçıramıyorsun, uh",
+          "Bakışlarını üzerimde hissediyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Sueda, Zeynep, Lidya",
+        "lines": [
+          "Can't get your eyes off my, um, tra-la-la",
+          "Look like an angel, God bless, mashallah, mm-mm",
+          "Move to the beat, it goes dum-da-ra-ra (La-la-la-la-la-la-la)",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my (Can't get your eyes off my)",
+          "Can't get your eyes off my, um, tra-la-la",
+          "Look like an angel, God bless, mashallah (Uh)",
+          "Move to the beat, it goes dum-da-ra-ra",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my (You)",
+          "Can't get your eyes off my, um, tra-la-la (Uh)",
+          "Look like an angel, God bless, mashallah, mm-mm",
+          "Move to the beat, it goes dum-da-ra-ra",
+          "Can't get your eyes off my",
+          "Can't get your eyes off my, tra-la-la"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Sueda, Zeynep, Lidya",
+        "lines": [
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, mm-mm",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "(La-la-la-la-la-la-la)",
+          "Gözlerini alamıyorsun",
+          "Gözlerini benden alamıyorsun",
+          "(Gözlerini benden alamıyorsun)",
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, uh",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "Gözlerini alamıyorsun",
+          "Gözlerini benden alamıyorsun",
+          "(Sen)",
+          "Gözlerini şu... hm, tra-la-la’mdan alamıyorsun, uh",
+          "Melek gibi görünüyorum, Allah nazardan saklasın, maşallah, mm-mm",
+          "Ritme göre hareket et, dum-da-ra-ra",
+          "Gözlerini alamıyorsun",
+          "Gözlerini şu tra-la-la’mdan alamıyorsun"
+        ]
+      }
+    ],
+    "excerpt": "Can't get your eyes off my, um, tra-la-la",
+    "annotations": {
+      "Tra-la-la": "Normalde anlamsız, melodik bir mırıldanmayı ifade eder. Burada ise “Can’t get your eyes off my…” cümlesinin sonunda özellikle belirsiz bırakılarak anlatıcının bedeni, çekiciliği veya dikkat çeken bir özelliğine oyuncu biçimde göz kırpıyor. Bu nedenle Türkçede de açıkça neyi kastettiğini söylemeden bırakmak daha doğru.",
+      "Mashallah": "“Maşallah”, güzelliğe veya hoş bir şeye hayranlık ifade ederken aynı zamanda nazardan korunma dileği taşıyan bir sözdür. Şarkıda anlatıcının kendi güzelliğine yönelik flörtöz ve özgüvenli bir övgü olarak kullanılıyor.",
+      "Law of attraction": "“Çekim yasası” ifadesiyle kelime oyunu yapılıyor. Bir yandan insanların sahip olamadıkları şeylere daha fazla çekilmesi anlatılırken, diğer yandan iki kişi arasındaki fiziksel/romantik çekime gönderme yapılıyor.",
+      "Satisfaction": "Burada genel bir “memnuniyet”ten çok, istediği kişiyi elde etmenin vereceği tatmin kastediliyor. Anlatıcı karşı tarafa bunu elde edemeyeceğini söyleyerek onunla oynuyor.",
+      "Play by play": "Normalde bir olayın her aşamasını adım adım aktarmak anlamına gelir. Burada anlatıcının karşı tarafı yavaş yavaş, adım adım çıldırtacağı anlamında kullanılıyor.",
+      "Messing with you": "Birisiyle uğraşmak, onu bilerek kışkırtmak veya kafasıyla oynamak. Burada ciddi bir kötülükten çok flörtöz ve muzır bir kışkırtma var.",
+      "Building up that fantasy": "Karşı tarafın kafasında kurduğu romantik veya cinsel hayalin gittikçe büyümesini anlatıyor. Bu nedenle “birlikte fantezi kuruyoruz”dan ziyade, fantezinin onun zihninde geliştiği hissi daha doğru.",
+      "Intel": "“Intelligence”ın kısaltması; istihbarat veya içeriden bilgi anlamına gelir. Burada arkadaş çevresinden karşı tarafın hafta sonu planlarını öğrenmeyi komik biçimde ciddi bir “istihbarat operasyonu” gibi anlatıyor.",
+      "Pulling up": "Bir yere gelmek, varmak anlamında kullanılan gündelik argo. “Same club, same wristband” ile birlikte iki grubun aynı gece aynı kulüpte buluşmasını anlatıyor.",
+      "Messing with your confidence": "Karşı tarafın kendinden emin tavrını bilerek sarsmak, onunla oyun oynamak. Şarkının genelindeki “Seni fark ettiğimi biliyorum ama kontrol bende” tavrını özetleyen ifadelerden biri."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6hPPwiXH4Y4kmc121v9Fdg",
+        "name": "TRALALA",
+        "url": "https://open.spotify.com/track/6hPPwiXH4Y4kmc121v9Fdg",
+        "isrc": "TRAUR2600055",
+        "durationMs": 195869,
+        "duration": "3:16",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2WjzL05RyqIk5n53sZc9nf",
+        "name": "manifest",
+        "url": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2WjzL05RyqIk5n53sZc9nf",
+          "name": "manifest",
+          "url": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+        }
+      ],
+      "album": {
+        "id": "4pfxDNLAqfyDk5xVjddGIr",
+        "name": "TRALALA",
+        "url": "https://open.spotify.com/album/4pfxDNLAqfyDk5xVjddGIr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8",
+        "artists": [
+          {
+            "id": "2WjzL05RyqIk5n53sZc9nf",
+            "name": "manifest",
+            "url": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf"
+          }
+        ],
+        "releaseDate": "2026-10-09",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 Hypers Music",
+            "type": "C"
+          },
+          {
+            "text": "2026 Hypers Music",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "6hPPwiXH4Y4kmc121v9Fdg",
+            "name": "TRALALA",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 195869,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6hPPwiXH4Y4kmc121v9Fdg",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-09T10:03:44.999Z",
+      "trackUrl": "https://open.spotify.com/track/6hPPwiXH4Y4kmc121v9Fdg",
+      "albumUrl": "https://open.spotify.com/album/4pfxDNLAqfyDk5xVjddGIr",
+      "artistUrl": "https://open.spotify.com/artist/2WjzL05RyqIk5n53sZc9nf",
+      "albumName": "TRALALA",
+      "albumType": "Single",
+      "releaseDate": "2026-10-09",
+      "duration": "3:16",
+      "isrc": "TRAUR2600055",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dae056def422ee617c5ad0d8"
+    },
+    "genius": {
+      "url": "https://genius.com/Manifest-tralala-lyrics",
+      "songId": 14316981,
+      "description": "“TRALALA”  is the first fully English single that manifest has released. In the past their songs were fully in Turkish or, only one instance translated from Turkish to English. It was released on the 9th of October, before their sold out Wembley Arena concert in England. The song explores many different superstitions ranging the black cat, to nazar. Most of these superstitions can be found in the Turkish culture. On top of superstitions the song dives into the dynamics of  a relationship where both parties are attracted to each other, but they aren’t dating."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=0rW7Fbm4S7g",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5291",
     "title": "Taylor Swift Babylon Türkçe Çeviri",
     "song": "Babylon",

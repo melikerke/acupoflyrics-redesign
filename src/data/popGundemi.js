@@ -1,26 +1,30 @@
 export const popGundemiArticles = [
   {
     "slug": "10-11-eylul-2026-muzik-gundemi",
-    "title": "10–25 Eylül müzik gündemi: Taylor Swift, Madonna ve Charli xcx yeni yayınları",
-    "shortTitle": "10–25 Eylül — günün müzik gündemi",
+    "title": "10 Eylül–9 Ekim müzik gündemi: yeni cuma yayınları",
+    "shortTitle": "10 Eylül–9 Ekim — günün müzik gündemi",
     "kicker": "Günün müzik gündemi",
     "date": "2026-09-10",
-    "updatedAt": "2026-09-25T10:20:00+03:00",
-    "readTime": "33 dk",
+    "updatedAt": "2026-10-09T12:00:00+03:00",
+    "readTime": "35 dk",
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/1200x630bb.jpg",
     "imageAlt": "IU — Unknown Planet tekli kapağı",
     "imageCredit": "IU / EDAM Entertainment · Apple Music",
     "imageSource": "https://music.apple.com/us/album/unknown-planet-single/6808583617",
     "accent": "#596693",
-    "excerpt": "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours ve Sugababes — Ghost 25 Eylül'de yayımlandı. Circle, Apple Music ve Spotify günlük dönemleri yenilendi.",
-    "dek": "10–25 Eylül'deki global pop, R&B, Latin ve K-pop yayınları ile Billboard, Circle, Apple Music, Spotify ve YouTube hareketleri; yayın tarihleri ve ölçüm dönemleri ayrılarak tek dosyada toplandı.",
-    "pullQuote": "Taylor Swift — Patient Zero 25 Eylül'de yayımlandı; CBS ve MTV, Taylor Swift'in yönettiği klibin 27 Eylül'deki 2026 MTV Video Music Awards sırasında ilk kez gösterileceğini doğruladı.",
+    "excerpt": "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl 9 Ekim'in yeni pop yayınları arasında.",
+    "dek": "10 Eylül–9 Ekim'deki global pop, R&B, Latin ve K-pop yayınları ile Billboard, Circle, Apple Music, Spotify, UK ve kısa video hareketleri; yayın tarihleri ve ölçüm dönemleri ayrılarak tek dosyada toplandı.",
+    "pullQuote": "KickFlip — KICK OFF THE WALL Pt. 1 çift başlık parçayla, YESUNG — Where We Are 12 parçayla ve X:IN — Chain Reaction 11 parçayla yayımlandı.",
     "relatedTranslations": [
       "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
-      "nana-so-well-turkce-ceviri"
+      "nana-so-well-turkce-ceviri",
+      "taylor-swift-patient-zero-turkce-ceviri",
+      "taylor-swift-cleveland-turkce-ceviri",
+      "taylor-swift-pink-clouding-turkce-ceviri",
+      "taylor-swift-babylon-turkce-ceviri"
     ],
     "livePanel": {
-      "label": "10–25 Eylül 2026",
+      "label": "10 Eylül–9 Ekim 2026",
       "title": "Yeni yayınlar ve hafta sonu liste hareketleri",
       "items": [
         { "label": "Global R&B", "text": "Jhené Aiko — Westside Whimsy 11 Eylül'de yayımlandı; Jhené Aiko — So Good (feat. Kendrick Lamar) Apple Music global görünümünde 4 numarada." },
@@ -35,7 +39,17 @@ export const popGundemiArticles = [
         { "label": "21 Eylül", "text": "ROSÉ — new trick Circle Global'da 2 ve YouTube eğiliminde 1 numarada; Maluma & Shakira — AGUA YouTube eğiliminde 4 numarada." },
         { "label": "22 Eylül", "text": "ILLIT — Swingin’ Magic ve QWER — 소년만화 (Dreamer) yayımlandı; JOSHUA — Baby Come Home iki dil sürümüyle geldi." },
         { "label": "24 Eylül", "text": "ONEUS — 눈을 돌리지마 (Don’t Turn Away), LIGHTSUM — どうして ve UNIS — Milky Way yayımlandı; Conep & Young Miko — After YouTube eğiliminde 109 sıra yükseldi." },
-        { "label": "25 Eylül", "text": "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours, Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry yayımlandı." }
+        { "label": "25 Eylül", "text": "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours, Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry yayımlandı." },
+        { "label": "28 Eylül", "text": "Madonna & Charli xcx — Danceteria Afterhours UK ara görünümünde yeni zirve etkisi yarattı; Mac Miller feat. Ty Dolla $ign — Cinderella UK Top 40'a, BESTie — Love Options Circle Global ilk 10'una ulaştı." },
+        { "label": "29 Eylül", "text": "BOYNEXTDOOR — ANIMAL, NiziU — Sour Grapes, ALLDAY PROJECT — CRASH, MINZY — Calling ve YESUNG — Winds of Time için 28 Eylül tarihli platform kayıtları doğrulandı; beş parça da sitede bulunmuyor." },
+        { "label": "30 Eylül", "text": "WOOAH — VOODOO DOLL ile ONEW & YUJU — Mind Games yayımlandı; Cloonee, Prospa & Tristan Henry — Good Girl ve Madonna & Charli xcx — Danceteria Afterhours için UK yükselişi yeni bir resmî eğilim görünümüyle doğrulandı." },
+        { "label": "2 Ekim", "text": "Angèle, Caroline Polachek & SebastiAn — Love Triangle, Holly Humberstone — Too Cute To Be Lonely, Fontaines D.C. — Tongue ve Noah Kahan — Draw You Out global seçkide; CRAVITY — LOUDER, Alok, NAYEON & TWICE — Bye Bye Inhibitions ve LEO — Never Again K-pop taramasında doğrulandı." },
+        { "label": "3 Ekim", "text": "Victoria Monét — Frequency Of Love albümünün 2 Ekim'de yayımlanan 22 parçalık listesi ve konuk sanatçı kredileri doğrulandı; Apple Music liste kaynağı zaman aşımına uğradığı için 2 Ekim tarihli önceki veri korundu." },
+        { "label": "5 Ekim", "text": "Drake & Don Toliver — Solar Eclipse Apple Music globalde 1, Drake — Quebec 4 ve Drake, Don Toliver & Yebba — Cold Shoulder 5 numaraya çıktı; üç parça da Drake — HABIBTI (FOMO) genişletilmiş sürümünde 2 Ekim'de yayımlandı." },
+        { "label": "6 Ekim", "text": "KickFlip — 미완성 (Puzzle Piece), KickFlip feat. iann dior — Kick Off The Wall, YESUNG — Pedazos ve X:IN feat. Luísa Sonza — ZZIRIT yayımlandı; Hearts2Hearts — ICONIC HEART (Korean Ver.) bir gün önce geldi." },
+        { "label": "7 Ekim", "text": "Beş müzik listesi yenilendi. Taylor Swift — Patient Zero Billboard Hot 100'de 1, Drake & Don Toliver — Solar Eclipse Apple Music globalde 1 ve KAROL G, Judeline & rusowsky — BbY WOW Spotify Global'da 1 numarada; yeni çeviri adayı oluşturacak ayrı bir sıçrama doğrulanmadı." },
+        { "label": "8 Ekim", "text": "ONEW & ZICO — Tic Tac Toe, YOUNG POSSE — GO해, HWANG MIN HYUN — OUR ve KIM JAE HWAN — 사랑이라 부를지도 모를 거야 için 7 Ekim tarihli resmî platform kayıtları doğrulandı; dört parça da sitede bulunmuyor." },
+        { "label": "9 Ekim", "text": "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yeni pop yayınları arasında; N.Flying — 잔불 (Still) ile KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) 8 Ekim'de yayımlandı." }
       ]
     },
     "summary": [
@@ -80,7 +94,31 @@ export const popGundemiArticles = [
       "Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours, Sugababes — Ghost, John Legend feat. Pharrell Williams — Fireflies ve Remi Wolf — I Won’t Cry, Official Charts'ın 25 Eylül yeni yayın seçkisinde yer alıyor.",
       "CBS ve MTV'nin 24 Eylül tarihli duyurusu, Taylor Swift — Patient Zero klibinin 27 Eylül'deki 2026 MTV Video Music Awards sırasında ilk kez gösterileceğini doğruluyor; klip tarihi şarkının 25 Eylül yayın tarihinden ayrı tutuluyor.",
       "25 Eylül liste yenilemesinde Circle Global 22 Eylül, Apple Music Top 100: Global 24 Eylül ve Spotify Global Top 50 23 Eylül görünümüne ilerledi; Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık dönemlerinde kaldı.",
-      "Grupo Firme — El Beneficio De La Duda, 24 Eylül 22.40 EDT tarihli üçüncü taraf YouTube dünya müzik eğiliminde 42 sıra yükselerek 23 numaraya çıktı. Tony Dize — El Doctorado ise 19 numarayla ilk 20 eşiğine ulaştı; iki parça da yeni yayın değil."
+      "Grupo Firme — El Beneficio De La Duda, 24 Eylül 22.40 EDT tarihli üçüncü taraf YouTube dünya müzik eğiliminde 42 sıra yükselerek 23 numaraya çıktı. Tony Dize — El Doctorado ise 19 numarayla ilk 20 eşiğine ulaştı; iki parça da yeni yayın değil.",
+      "Official Charts'ın 27 Eylül ara görünümünde Madonna — Danceteria, Madonna & Charli xcx — Danceteria Afterhours remiksinin ardından 20 numaraya yöneldi. Cloonee, Prospa & Tristan Henry — Good Girl 27 numarayla yeni zirve yolunda; sitede iki çeviri de bulunmuyor.",
+      "Mac Miller feat. Ty Dolla $ign — Cinderella, 25 Eylül tarihli kesinleşen UK listesinde 14 sıra yükselerek 27 numaraya ve ilk Top 40 konumuna ulaştı. Parça 16 Eylül 2016 tarihli; gelişme yeni yayın değil.",
+      "28 Eylül liste yenilemesinde Circle Global 25 Eylül, Apple Music Top 100: Global 27 Eylül ve Spotify Global Top 50 26 Eylül günlük görünümüne ilerledi. BESTie — Love Options Circle Global'da 10 numarada; 2013 tarihli parça YouTube Shorts, TikTok ve Reels odaklı yeniden yükselişini sürdürüyor.",
+      "BOYNEXTDOOR — ANIMAL, NiziU — Sour Grapes ve ALLDAY PROJECT — CRASH 28 Eylül'de yayımlanan K-pop başlık parçaları. Melon kayıtları BOYNEXTDOOR — HOME: DELUXE, NiziU — Sour Grapes ve ALLDAY PROJECT — CRASH albümlerinin yayın tarihini ve başlık kredilerini doğruluyor.",
+      "MINZY — Calling, sanatçının yazım ve prodüksiyon sürecine katıldığı R&B teklisi olarak; YESUNG — Winds of Time ise 6 Ekim tarihli YESUNG — Where We Are albümünün alternatif pop ön yayını olarak 28 Eylül'de geldi. Korece dizeler nedeniyle beş adayın tümünde romanizasyon gerekir.",
+      "29 Eylül liste yenilemesinde Circle Global 26 Eylül, Apple Music Top 100: Global 28 Eylül ve Spotify Global Top 50 27 Eylül günlük görünümüne ilerledi. Billboard Hot 100 ile Billboard 200, 26 Eylül tarihli haftalık dönemlerinde kaldı; albüm ve şarkı listeleri birbirinin ölçümü gibi sunulmadı.",
+      "Official Charts'ın 29 Eylül eğilim listesinde Cloonee, Prospa & Tristan Henry — Good Girl 3, Madonna — Danceteria 4, DJ Goja, Jason Derulo & Melody — Mi Chico 5 ve KETTAMA — Comes and Goes 6 numarada. Madonna — Danceteria hareketi, Madonna & Charli xcx — Danceteria Afterhours remiksinin ardından geldi.",
+      "WOOAH — VOODOO DOLL ile ONEW & YUJU — Mind Games, Melon kayıtlarına göre 29 Eylül'de yayımlandı. İki parçada da Korece dizeler bulunduğu için çeviri hazırlanırken romanizasyon gerekir.",
+      "30 Eylül liste yenilemesinde Billboard Hot 100 ve Billboard 200, 3 Ekim tarihli haftalık dönemlere ilerledi; Miley Cyrus — Bass Persuades Billboard 200'de 1 numarada. Circle Global 27 Eylül, Apple Music Top 100: Global 29 Eylül ve Spotify Global Top 50 28 Eylül günlük görünümüne ilerledi.",
+      "Angèle, Caroline Polachek & SebastiAn — Love Triangle 29 Eylül'de, Holly Humberstone — Too Cute To Be Lonely 30 Eylül'de yayımlandı. Fontaines D.C. — Tongue ve Noah Kahan — Draw You Out, Official Charts'ın 2 Ekim yeni yayın seçkisinde yer aldı.",
+      "CRAVITY — LOUDER 30 Eylül'de; LEO — Never Again 1 Ekim'de; Alok, NAYEON & TWICE — Bye Bye Inhibitions 2 Ekim'de yayımlandı. CRAVITY — LOUDER ile LEO — Never Again için Korece dizelerde romanizasyon gerekir.",
+      "2 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 3 Ekim tarihli haftalık dönemlerinde kaldı. Circle Global 29 Eylül, Apple Music Top 100: Global 2 Ekim ve Spotify Global Top 50 30 Eylül günlük görünümüne ilerledi.",
+      "Victoria Monét — Frequency Of Love, Sony Music'in 2 Ekim tarihli duyurusuna göre 22 parçayla yayımlandı. Victoria Monét feat. SZA — See You In My Dreams ve Victoria Monét feat. Bruno Mars — That’s Why I Love You albümdeki yeni ve sitede bulunmayan iş birlikleri arasında.",
+      "3 Ekim liste yenilemesinde Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık dönemlerinde kaldı; Circle Global 30 Eylül ve Spotify Global Top 50 1 Ekim günlüğüne ilerledi. Apple Music kaynağı zaman aşımına uğradığı için başarılı son 2 Ekim görünümü korunarak boşaltılmadı.",
+      "Drake — HABIBTI (FOMO), 2 Ekim'de dört yeni parçayla genişletildi. Apple Music Top 100: Global'ın 5 Ekim görünümünde Drake & Don Toliver — Solar Eclipse 1, Drake — Quebec 4 ve Drake, Don Toliver & Yebba — Cold Shoulder 5 numarada; üç parça da sitede bulunmuyor.",
+      "5 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 3 Ekim tarihli haftalık dönemlerinde kaldı. Circle Global 2 Ekim, Apple Music Top 100: Global 5 Ekim ve Spotify Global Top 50 3 Ekim günlük/yayın görünümüne ilerledi.",
+      "Hearts2Hearts — ICONIC HEART (Korean Ver.) 5 Ekim'de yayımlandı. KickFlip — 미완성 (Puzzle Piece), KickFlip feat. iann dior — Kick Off The Wall, YESUNG — Pedazos ve X:IN feat. Luísa Sonza — ZZIRIT ise 6 Ekim tarihli yeni K-pop başlık parçaları.",
+      "6 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 3 Ekim tarihli haftalık dönemlerinde kaldı. Circle Global 3 Ekim, Apple Music Top 100: Global 6 Ekim ve Spotify Global Top 50 4 Ekim günlük/yayın görünümüne ilerledi.",
+      "7 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim tarihli haftalık dönemlere; Circle Global 4 Ekim, Apple Music Top 100: Global 7 Ekim ve Spotify Global Top 50 5 Ekim günlük/yayın görünümlerine ilerledi. Taylor Swift — Patient Zero, Taylor Swift — Cleveland!, Taylor Swift — Babylon ve Taylor Swift — Pink Clouding için çeviriler sitede mevcut; önceki raporlardaki diğer adaylarda yeni bir eşik aşılmadığı için aday listesi tekrarlanmadı.",
+      "ONEW & ZICO — Tic Tac Toe, YOUNG POSSE — GO해, HWANG MIN HYUN — OUR ve KIM JAE HWAN — 사랑이라 부를지도 모를 거야 7 Ekim'de yayımlandı. Melon kayıtları başlık parçalarını, sanatçı kredilerini ve yayın tarihlerini doğruluyor; dört parça da sitede bulunmuyor ve Korece dizeler için romanizasyon gerekiyor.",
+      "8 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim tarihli haftalık dönemlerinde kaldı. Circle Global 5 Ekim, Apple Music Top 100: Global 8 Ekim ve Spotify Global Top 50 6 Ekim günlük/yayın görünümlerine ilerledi; beş listede de 10 kayıt korundu.",
+      "Official Charts'ın 9 Ekim yeni yayın seçkisinde Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yer alıyor. Üç parça da sitede bulunmuyor.",
+      "Melon kayıtlarına göre N.Flying — 잔불 (Still) ile KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) 8 Ekim'de yayımlandı. İki parça da sitede bulunmuyor ve Korece dizeler için romanizasyon gerekiyor.",
+      "9 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim haftalık dönemlerinde kaldı. Circle Global 5 Ekim, Apple Music Top 100: Global 9 Ekim ve Spotify Global Top 50 7 Ekim günlük/yayın görünümlerine ilerledi; beş listede de 10 kayıt korundu."
     ],
     "sections": [
       {
@@ -371,6 +409,195 @@ export const popGundemiArticles = [
           "Kworb'un 24 Eylül saat 22.40 EDT tarihli üçüncü taraf YouTube dünya müzik eğiliminde Grupo Firme — El Beneficio De La Duda 42 sıra yükselerek 23 numaraya çıktı. Grupo Firme'nin resmî YouTube kaydı ile Apple Music, parçanın yayın tarihini 28 Mayıs 2024 olarak doğruluyor; gelişme yeni yayın değil.",
           "Tony Dize — El Doctorado aynı görünümde 19 numaraya yükselerek ilk 20 eşiğine ulaştı. Apple Music kaydı parçayı 17 Kasım 2009 tarihli gösteriyor. İki parça da İspanyolca ve Latin alfabesinde olduğu için romanizasyon gerekmiyor."
         ]
+      },
+      {
+        "heading": "Madonna & Charli xcx — Danceteria Afterhours ve UK ara liste hareketleri",
+        "body": [
+          "Official Charts'ın 27 Eylül First Look görünümünde Madonna — Danceteria 20 numaraya yöneldi. Kuruluş, hareketi Madonna & Charli xcx — Danceteria Afterhours remiksinin yayımlanmasına bağlıyor; bu nedenle 25 Eylül'deki yayın haberinin devamı aynı gündem dosyasında güncellendi.",
+          "Cloonee, Prospa & Tristan Henry — Good Girl aynı ara görünümde 27 numarayla yeni zirve yolunda. Spotify kaydı parçanın yayın tarihini 24 Temmuz 2026 ve tam sanatçı kredisini Cloonee, Prospa & Tristan Henry olarak gösteriyor. İki parça da sitede bulunmuyor ve İngilizce olduğu için romanizasyon gerekmiyor."
+        ]
+      },
+      {
+        "heading": "Mac Miller feat. Ty Dolla $ign — Cinderella ve BESTie — Love Options yeniden yükseliyor",
+        "body": [
+          "Official Charts'ın 25 Eylül tarihli kesinleşen UK listesinde Mac Miller feat. Ty Dolla $ign — Cinderella 14 sıra yükselerek 27 numaraya çıktı ve ilk UK Top 40 konumuna ulaştı. Spotify kaydı parçayı Mac Miller — The Divine Feminine albümünde 16 Eylül 2016 tarihli gösteriyor; gelişme yeni yayın değil.",
+          "Circle Global'ın 25 Eylül günlüğünde BESTie — Love Options 10 numarada. iMBC'nin YouTube verisine dayanan 22 Eylül haberi, 2013 tarihli parçanın 20 Eylül'de YouTube Korea günlük Shorts popüler şarkılar listesinde 2 numaraya ulaştığını ve kısa video kullanımının yükselişi tetiklediğini bildiriyor. Korece dizeler için romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "28 Eylül liste görünümü",
+        "body": [
+          "Billboard Hot 100 ve Billboard 200, 26 Eylül tarihli haftalık dönemlerinde kaldı. Circle Global 25 Eylül günlüğüne ilerledi; HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast — Golden 1, BTS — SWIM 2 ve BESTie — Love Options 10 numarada.",
+          "Apple Music Top 100: Global 27 Eylül görünümünde Taylor Swift — Patient Zero 1, Taylor Swift — Cleveland! 2, Taylor Swift — Pink Clouding 3 ve Taylor Swift — Babylon 4 numarada. Spotify Global Top 50'nin 26 Eylül günlüğünde KAROL G, Judeline & rusowsky — BbY WOW 1, Taylor Swift — Patient Zero 2 ve Taylor Swift — Cleveland! 3 numarada. Taylor Swift'in dört yeni çevirisi de sitede mevcut."
+        ]
+      },
+      {
+        "heading": "BOYNEXTDOOR — ANIMAL, NiziU — Sour Grapes ve ALLDAY PROJECT — CRASH yayımlandı",
+        "body": [
+          "Melon'un 28 Eylül tarihli kayıtları BOYNEXTDOOR — HOME: DELUXE yeniden paketlenmiş albümünün başlık parçasını BOYNEXTDOOR — ANIMAL, NiziU — Sour Grapes mini albümünün başlık parçasını NiziU — Sour Grapes ve ALLDAY PROJECT — CRASH EP'sinin başlık parçasını ALLDAY PROJECT — CRASH olarak gösteriyor. NiziU'nun resmî sitesi de NiziU — Sour Grapes yayınının 28 Eylül'de açıldığını doğruluyor.",
+          "BOYNEXTDOOR — ANIMAL doğrudan ilerleme ve sınırları aşma temasına, NiziU — Sour Grapes Ezop'un tilki ve üzüm anlatısına, ALLDAY PROJECT — CRASH ise elektro temelli bir parti enerjisine odaklanıyor. Üç parçada da Korece dizeler bulunduğu için Türkçe çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "MINZY — Calling ve YESUNG — Winds of Time yayımlandı",
+        "body": [
+          "Melon, MINZY — Calling teklisini 28 Eylül tarihli R&B/Soul yayını olarak kaydediyor. Albüm açıklamasına göre MINZY yazım, besteleme ve prodüksiyon sürecine katıldı; aynı kayıtta İngilizce sürüm ile MINZY — We Almost Were da bulunuyor.",
+          "YESUNG — Winds of Time, 28 Eylül'de YESUNG — Where We Are albümünün ön yayını olarak geldi. Melon ile SUPER JUNIOR'ın resmî Weverse medya kaydı müzik videosunu doğruluyor; SM Entertainment açıklamasına dayanan haber parçayı akustik ağırlıklı alternatif pop olarak tanımlıyor. MINZY — Calling ve YESUNG — Winds of Time Korece dizeler içerdiği için romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "29 Eylül liste görünümü",
+        "body": [
+          "Circle Global 26 Eylül günlüğüne ilerledi: HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast — Golden 1, BTS — SWIM 2, CORTIS — REDRED 6 ve aespa — LEMONADE 7 numarada. CORTIS — REDRED çevirisi sitede mevcut.",
+          "Apple Music Top 100: Global'ın 28 Eylül görünümünde Taylor Swift — Patient Zero 1, Taylor Swift — Cleveland! 2, Taylor Swift — Babylon 3 ve Taylor Swift — Pink Clouding 4 numarada; dört çeviri de sitede mevcut. Spotify Global Top 50'nin en yeni erişilebilir 27 Eylül günlüğünde KAROL G, Judeline & rusowsky — BbY WOW 1, Taylor Swift — Patient Zero 2 ve ADÉLA — Nicole Kidman 3 numarada. Billboard Hot 100 ile Billboard 200 ise 26 Eylül tarihli haftalık dönemlerinde kaldı."
+        ]
+      },
+      {
+        "heading": "UK eğilim listesinde yeni hareketler",
+        "body": [
+          "Official Charts'ın ilk dört satış günündeki hafta bazlı büyümeyi ölçen 29 Eylül eğilim görünümünde Cloonee, Prospa & Tristan Henry — Good Girl 3 numaraya, Madonna — Danceteria 4 numaraya çıktı. Kuruluş, Madonna — Danceteria hareketini Madonna & Charli xcx — Danceteria Afterhours remiksinin yayımlanmasıyla ilişkilendiriyor; önceki rapordaki iki aday yeni ve doğrulanmış sıçrama nedeniyle yeniden anılıyor.",
+          "DJ Goja, Jason Derulo & Melody — Mi Chico aynı görünümde 5, KETTAMA — Comes and Goes 6 numarada. Platform kayıtları DJ Goja, Jason Derulo & Melody — Mi Chico için 26 Haziran, KETTAMA — Comes and Goes için 20 Mayıs 2026 tarihini gösteriyor; iki gelişme de yeni yayın değil, güncel UK yükselişi."
+        ]
+      },
+      {
+        "heading": "WOOAH — VOODOO DOLL ve ONEW & YUJU — Mind Games yayımlandı",
+        "body": [
+          "Melon, WOOAH — VOODOO DOLL kaydını 29 Eylül tarihli dijital tekli olarak gösteriyor. Platform açıklaması parçayı Wish With W serisinin dördüncü çalışması ve karşı tarafın kalbini kazanmak için aşk büyüsü kuran, parlak ve kitsch bir dance-pop kaydı olarak tanımlıyor; aynı sayfada resmî klip de yer alıyor.",
+          "ONEW & YUJU — Mind Games de 29 Eylül'de yayımlandı. Melon şarkı kaydı ortak sanatçı kredisini ONEW & YUJU olarak doğruluyor ve parçayı R&B/Soul kategorisinde listeliyor. İki kayıtta da Korece dizeler bulunduğu için Türkçe çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "30 Eylül liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık ABD dönemlerine ilerledi. Billboard 200'de Miley Cyrus — Bass Persuades 1 numarada; şarkının çevirisi sitede mevcut. Bu albüm sıralaması, Billboard Hot 100 şarkı ölçümüyle aynı liste gibi sunulmuyor.",
+          "Circle Global 27 Eylül günlüğünde BTS — SWIM 1, HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast — Golden 2, CORTIS — REDRED 4 numarada. Apple Music Top 100: Global'ın 29 Eylül görünümünde Taylor Swift — Patient Zero 1; Spotify Global Top 50'nin 28 Eylül günlüğünde de Taylor Swift — Patient Zero 1 numarada. Listelerin kaynak ve ölçüm dönemleri ayrı tutuldu."
+        ]
+      },
+      {
+        "heading": "Angèle, Caroline Polachek & SebastiAn — Love Triangle ve 2 Ekim global pop yayınları",
+        "body": [
+          "Sony Music'in 29 Eylül tarihli duyurusu Angèle, Caroline Polachek & SebastiAn — Love Triangle kaydını Angèle — INSTINCT albümünün 16 Ekim'deki yayını öncesindeki son tekli olarak doğruluyor. Universal Music Canada ise Holly Humberstone — Too Cute To Be Lonely parçasının 30 Eylül'de yayımlandığını ve Holly Humberstone — Cruel World… So It Ends albümünün genişletilmiş sürümünün 13 Kasım'da geleceğini açıkladı.",
+          "Official Charts'ın 2 Ekim yeni yayın seçkisinde Fontaines D.C. — Tongue ve Noah Kahan — Draw You Out da yer alıyor. Fontaines D.C.'nin resmî sitesi Fontaines D.C. — Dopamine Chamber albümünün 16 Ekim tarihini ve Fontaines D.C. — Tongue kaydını gösteriyor; Noah Kahan'ın resmî bağlantı sayfasında Noah Kahan — Draw You Out ön kayıt bağlantısı bulunuyor. Dört parça da sitede yer almıyor."
+        ]
+      },
+      {
+        "heading": "CRAVITY — LOUDER, Alok, NAYEON & TWICE — Bye Bye Inhibitions ve LEO — Never Again yayımlandı",
+        "body": [
+          "Melon, CRAVITY — sonorous EP'sinin başlık parçası CRAVITY — LOUDER için 30 Eylül yayın tarihini gösteriyor; Soompi'nin duyuru kaydı da başlık parçasını ve dönüş takvimini doğruluyor. CRAVITY — LOUDER Korece dizeler içerdiği için çeviri hazırlanırken romanizasyon gerekir.",
+          "Melon kayıtlarına göre LEO — Never Again 1 Ekim'de, Alok, NAYEON & TWICE — Bye Bye Inhibitions ise 2 Ekim'de yayımlandı. LEO — Never Again Korece dizeler içerdiği için romanizasyon gerekir; Alok, NAYEON & TWICE — Bye Bye Inhibitions için tam söz dili çeviri alınmadan önce ayrıca kontrol edilmeli. Üç parça da sitede bulunmuyor."
+        ]
+      },
+      {
+        "heading": "2 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 29 Eylül günlüğüne, Apple Music Top 100: Global kendi 2 Ekim yayın görünümüne ve Spotify Global Top 50 30 Eylül günlüğüne ilerledi.",
+          "Beş kaynak da başarıyla doğrulandı ve her listede 10 kayıt korundu. Billboard Hot 100 şarkı ölçümü, Billboard 200 albüm ölçümü, Circle Global günlüğü, Apple Music listesinin kendi yayın tarihi ve Spotify Global günlük dönemi birbirinin yerine kullanılmadı."
+        ]
+      },
+      {
+        "heading": "Victoria Monét — Frequency Of Love yayımlandı",
+        "body": [
+          "Sony Music'in 2 Ekim tarihli resmî duyurusuna göre Victoria Monét — Frequency Of Love, Lovett Music ve RCA Records üzerinden 22 parçayla yayımlandı. Albümün konukları arasında SZA, Bruno Mars, Leon Thomas, Hazel Monét, Lucky Daye, Bryson Tiller ve Chlöe bulunuyor; duyuru ayrıca Victoria Monét — The Frequency Of Love Tour'un 27 Ekim'de başlayacağını belirtiyor.",
+          "Victoria Monét feat. SZA — See You In My Dreams ve Victoria Monét feat. Bruno Mars — That’s Why I Love You tam sanatçı kredileriyle albüm listesinde yer alıyor. İki parça da sitede bulunmuyor ve İngilizce olduğu için romanizasyon gerekmiyor. Daha önce raporlanan Victoria Monét — Juicy yeni bir gelişme olmadığı için çeviri adayı olarak yeniden yazılmadı."
+        ]
+      },
+      {
+        "heading": "3 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 30 Eylül günlüğüne ve Spotify Global Top 50 1 Ekim günlüğüne ilerledi; iki listede de 10 kayıt korundu.",
+          "Apple Music Top 100: Global kaynağı güncelleme sırasında zaman aşımına uğradı. Bu nedenle 2 Ekim tarihli son doğrulanmış 10 kayıt silinmedi veya boşaltılmadı. Billboard şarkı ve albüm listeleri, Circle Global günlüğü, Apple Music yayın tarihi ve Spotify Global günlük dönemi ayrı tutuldu."
+        ]
+      },
+      {
+        "heading": "Drake — HABIBTI (FOMO) dört yeni parçayla genişletildi",
+        "body": [
+          "Apple Music, Drake — HABIBTI (FOMO) kaydını 2 Ekim tarihli 15 parçalık genişletilmiş sürüm olarak gösteriyor. Rolling Stone Canada'ya göre yeni eklenen kayıtlar Drake & Don Toliver — Solar Eclipse, Drake — Quebec, Drake, Don Toliver & Yebba — Cold Shoulder ve Drake — Classic PT2; parçalar daha önce Drake'in FOMO filminde duyulmuştu.",
+          "Drake & Don Toliver — Solar Eclipse Apple Music Top 100: Global'ın 5 Ekim görünümünde 1 numaraya çıktı. Aynı listede Drake — Quebec 4, Drake, Don Toliver & Yebba — Cold Shoulder 5 numarada. Üç parça da sitede bulunmuyor ve İngilizce olduğu için romanizasyon gerekmiyor; Drake — Classic PT2 için aynı ölçekte ayrı bir global sıçrama doğrulanmadığından öncelikli aday tablosuna alınmadı."
+        ]
+      },
+      {
+        "heading": "5 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 2 Ekim günlüğüne, Apple Music Top 100: Global 5 Ekim görünümüne ve Spotify Global Top 50 3 Ekim günlüğüne ilerledi; beş listede de 10 kayıt korundu.",
+          "Apple Music Top 100: Global'ın bir önceki gün zaman aşımına uğrayan kaynağı bu yenilemede başarıyla doğrulandı. Billboard şarkı ve albüm listeleri, Circle Global günlüğü, Apple Music yayın tarihi ve Spotify Global günlük dönemi ayrı tutuldu."
+        ]
+      },
+      {
+        "heading": "Hearts2Hearts — ICONIC HEART (Korean Ver.) yayımlandı",
+        "body": [
+          "Melon, Hearts2Hearts — ICONIC HEART (Korean Ver.) kaydını 5 Ekim tarihli tekli olarak gösteriyor. SM Entertainment kaynaklı albüm açıklamasına göre parça, grubun Japonya çıkış şarkısının Korece sürümü ve Jersey club temelli bir dance-pop kaydı.",
+          "Hearts2Hearts — ICONIC HEART (Korean Ver.) sitede bulunmuyor. Parçada Korece dizeler bulunduğu için Türkçe çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "KickFlip — KICK OFF THE WALL Pt. 1 ve YESUNG — Where We Are yayımlandı",
+        "body": [
+          "JYP Entertainment açıklamasını aktaran KBS World, KickFlip — KICK OFF THE WALL Pt. 1 albümünün 6 Ekim saat 18.00 KST'de yayımlanacağını ve grubun ilk çift başlık parçalarını içerdiğini doğruladı. KBS'nin güncel dönüş seçkisine göre başlık parçaları KickFlip — 미완성 (Puzzle Piece) ile KickFlip feat. iann dior — Kick Off The Wall.",
+          "Weverse, YESUNG — Where We Are albümünün 6 Ekim yayın tarihini ve aynı gün düzenlenen geri sayım yayınını doğruluyor. YESUNG — Pedazos albümün başlık parçası; iki KickFlip başlık parçası ile YESUNG — Pedazos sitede bulunmuyor ve Korece dizeler için romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "X:IN feat. Luísa Sonza — ZZIRIT yayımlandı",
+        "body": [
+          "X:IN'in resmî sitesi X:IN — Chain Reaction albüm dönemini doğruluyor. BeBy Entertainment açıklamasına dayanan 6 Ekim tarihli BNT News haberi, dijital albümün aynı gün yayımlandığını ve 11 parçalık listenin başlık kaydını X:IN feat. Luísa Sonza — ZZIRIT olarak veriyor; fiziksel albüm tarihi 20 Ekim olarak ayrıca belirtiliyor.",
+          "X:IN feat. Luísa Sonza — ZZIRIT sitede bulunmuyor. Parçada Korece dizeler bulunduğu için Türkçe çeviri hazırlanırken romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "6 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 3 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 3 Ekim günlüğüne, Apple Music Top 100: Global 6 Ekim görünümüne ve Spotify Global Top 50 4 Ekim günlüğüne ilerledi; beş listede de 10 kayıt korundu.",
+          "Apple Music Top 100: Global'da Drake & Don Toliver — Solar Eclipse 1 numaradaki yerini korudu. Billboard şarkı ve albüm listeleri, Circle Global günlüğü, Apple Music yayın tarihi ve Spotify Global günlük dönemi ayrı tutuldu."
+        ]
+      },
+      {
+        "heading": "7 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 10 Ekim tarihli haftalık ABD dönemlerine ilerledi. Circle Global 4 Ekim günlüğüne, Apple Music Top 100: Global 7 Ekim görünümüne ve Spotify Global Top 50 5 Ekim günlüğüne ilerledi; beş listede de 10 kayıt korundu.",
+          "Taylor Swift — Patient Zero Billboard Hot 100'de 1, Drake & Don Toliver — Solar Eclipse Apple Music Top 100: Global'da 1 ve KAROL G, Judeline & rusowsky — BbY WOW Spotify Global Top 50'de 1 numarada. Taylor Swift — Patient Zero ile aynı yeni dönemden Taylor Swift — Cleveland!, Taylor Swift — Babylon ve Taylor Swift — Pink Clouding çevirileri sitede mevcut. Diğer liderlikler daha önce raporlandığı ve yeni bir eşik aşmadığı için yeni aday olarak tekrarlanmadı."
+        ]
+      },
+      {
+        "heading": "ONEW & ZICO — Tic Tac Toe ile YOUNG POSSE — GO해 yayımlandı",
+        "body": [
+          "Melon ve Apple Music, ONEW & ZICO — Tic Tac Toe kaydını 7 Ekim tarihli tek parçalık ortak tekli olarak gösteriyor. Melon albüm açıklamasına göre ONEW & ZICO — Tic Tac Toe, ONEW — 착각 projesinin ikinci başlık parçası; ONEW ve ZICO söz ile beste kredilerinde de yer alıyor.",
+          "Melon ve YOUNG POSSE'ın resmî kanalları, YOUNG POSSE — GO해 kaydının 7 Ekim'de yayımlandığını doğruluyor. İki parça da sitede bulunmuyor; Korece dizeler için Türkçe çeviri hazırlanırken romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "HWANG MIN HYUN — OUR ve KIM JAE HWAN — 사랑이라 부를지도 모를 거야 yayımlandı",
+        "body": [
+          "PLEDIS Entertainment'ın Weverse duyurusu ve Melon kaydı, HWANG MIN HYUN — OUR dijital teklisinin 7 Ekim'de üç parçayla yayımlandığını doğruluyor. Başlık parçası HWANG MIN HYUN — OUR; diğer iki kayıt HWANG MIN HYUN — Know You Better ve HWANG MIN HYUN — Hotline.",
+          "Melon'a göre KIM JAE HWAN — Love, From Here üç parçalık tekli albüm olarak 7 Ekim'de yayımlandı. Başlık parçası KIM JAE HWAN — 사랑이라 부를지도 모를 거야; KIM JAE HWAN beste ve gitar kredilerinde yer alıyor. İki başlık parçası da sitede bulunmuyor ve Korece dizeler için romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "8 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 10 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 5 Ekim günlüğüne, Apple Music Top 100: Global 8 Ekim görünümüne ve Spotify Global Top 50 6 Ekim günlüğüne ilerledi; beş listede de 10 kayıt korundu.",
+          "Apple Music Top 100: Global'da Drake & Don Toliver — Solar Eclipse 1, Spotify Global Top 50'de KAROL G, Judeline & rusowsky — BbY WOW 1 numarada. Circle Global ilk 10'una BTS — Body to Body girdi; parça sitede mevcut. Önceki raporlardaki adaylarda yeni bir eşik aşılmadığı için yeniden listelenmedi."
+        ]
+      },
+      {
+        "heading": "9 Ekim yeni pop yayınları",
+        "body": [
+          "Official Charts'ın 9 Ekim haftalık yeni yayın seçkisi Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl kayıtlarını yeni tekli olarak listeliyor. Üç parça da sitede bulunmuyor ve romanizasyon gerektirmiyor.",
+          "Troye Sivan — She's The Best albümü de 9 Ekim'de yayımlandı. Troye Sivan — She's The Best başlık parçasının çevirisi sitede mevcut olduğu için yeni çeviri adayı olarak yinelenmedi."
+        ]
+      },
+      {
+        "heading": "N.Flying — 잔불 (Still) ve KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) yayımlandı",
+        "body": [
+          "Melon, N.Flying — Still mini albümünü 8 Ekim tarihli yedi parçalık yayın olarak kaydediyor. Başlık parçası N.Flying — 잔불 (Still); albüm açıklaması Lee Seung Hyub'ın yedi parçanın tamamının söz ve beste sürecine katıldığını belirtiyor.",
+          "Melon, KENZIE — RE:WORKS 2 teklisini de 8 Ekim tarihli gösteriyor. KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS), NCT WISH'in 2025 tarihli parçasının yeniden yorumlanan sürümü. İki yeni kayıtta da Korece dizeler bulunduğu için çeviri hazırlanırken romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "9 Ekim liste görünümü",
+        "body": [
+          "Billboard Hot 100 ile Billboard 200, 10 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 5 Ekim günlüğünde kaldı; Apple Music Top 100: Global 9 Ekim görünümüne ve Spotify Global Top 50 7 Ekim günlüğüne ilerledi. Beş listede de 10 kayıt korundu.",
+          "Spotify Global ilk 10'undaki Olivia Rodrigo — the cure, Olivia Rodrigo — stupid song, Malcolm Todd — Earrings, Ashe — Stop The Wedding!, Katy Perry — The One That Got Away ve Justin Bieber & Nicki Minaj — Beauty And A Beat çevirileri sitede mevcut. Bu nedenle ayrı bir viral çeviri adayı oluşturulmadı."
+        ]
       }
     ],
     "memberStatus": [],
@@ -515,8 +742,80 @@ export const popGundemiArticles = [
       ,{ "name": "Grupo Firme resmî YouTube — Grupo Firme — El Beneficio De La Duda", "url": "https://www.youtube.com/watch?v=iIgsCYgo5P4" }
       ,{ "name": "Apple Music — Grupo Firme — El Beneficio De La Duda / 28 Mayıs 2024", "url": "https://music.apple.com/us/album/el-beneficio-de-la-duda-single/1747762611" }
       ,{ "name": "Apple Music — Tony Dize — El Doctorado / 17 Kasım 2009", "url": "https://music.apple.com/bg/song/1811233664" }
+      ,{ "name": "Official Charts — 27 Eylül 2026 First Look", "url": "https://www.officialcharts.com/chart-news/taylor-swift-life-of-a-showgirl-the-encore-first-look-top-3/" }
+      ,{ "name": "Spotify — Madonna & Charli xcx — Danceteria Afterhours / 24 Eylül 2026", "url": "https://open.spotify.com/track/3j7BhP71ROCpc9R3w9P9UE" }
+      ,{ "name": "Spotify — Cloonee, Prospa & Tristan Henry — Good Girl / 24 Temmuz 2026", "url": "https://open.spotify.com/track/263Ecah3YA4hVZHxR2Ex9p" }
+      ,{ "name": "Official Charts — Mac Miller feat. Ty Dolla $ign — Cinderella UK Top 40 girişi", "url": "https://www.officialcharts.com/chart-news/taylor-swift-i-knew-it-i-knew-you-number-1-single/" }
+      ,{ "name": "Spotify — Mac Miller feat. Ty Dolla $ign — Cinderella / 16 Eylül 2016", "url": "https://open.spotify.com/track/2lpygKqzPFtItQ4ss3cgfb" }
+      ,{ "name": "iMBC — BESTie — Love Options YouTube Shorts hareketi / 22 Eylül 2026", "url": "https://enews.imbc.com/News/ViewAmp/519051" }
+      ,{ "name": "Spotify — BESTie — Love Options / 17 Ekim 2013", "url": "https://open.spotify.com/track/63gCdrDtZlt1PMIGrzYEqt" }
+      ,{ "name": "Melon — BOYNEXTDOOR — HOME: DELUXE ve ANIMAL / 28 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14593412" }
+      ,{ "name": "NiziU resmî sitesi — NiziU — Sour Grapes / 28 Eylül 2026", "url": "https://niziu.com/s/n123/" }
+      ,{ "name": "Melon — NiziU — Sour Grapes / 28 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14581720" }
+      ,{ "name": "Melon — ALLDAY PROJECT — CRASH / 28 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14575403" }
+      ,{ "name": "Melon — MINZY — Calling / 28 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14565022" }
+      ,{ "name": "Melon — YESUNG — Winds of Time / 28 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14576316" }
+      ,{ "name": "SUPER JUNIOR Weverse — YESUNG — Winds of Time MV", "url": "https://weverse.io/superjunior/media" }
+      ,{ "name": "Official Charts — 29 Eylül 2026 UK eğilim listesi", "url": "https://www.officialcharts.com/chart-news/trending-songs-uk-29-september-2026/" }
+      ,{ "name": "Spotify — DJ Goja, Jason Derulo & Melody — Mi Chico", "url": "https://open.spotify.com/track/6c2ZcdXHkEFdsNArdJXrHX" }
+      ,{ "name": "Apple Music — KETTAMA — Comes and Goes / 20 Mayıs 2026", "url": "https://music.apple.com/us/album/comes-and-goes-single/6766618930" }
+      ,{ "name": "Melon — WOOAH — VOODOO DOLL / 29 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14581804" }
+      ,{ "name": "Melon — ONEW & YUJU — Mind Games / 29 Eylül 2026", "url": "https://www.melon.com/song/detail.htm?songId=603230483" }
+      ,{ "name": "Circle Global — 25 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 27 Eylül 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 26 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Official Charts — 2 Ekim 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-october-2-2026/" }
+      ,{ "name": "Sony Music — Angèle, Caroline Polachek & SebastiAn — Love Triangle / 29 Eylül 2026", "url": "https://www.sonymusic.ca/press_release/angele-devoile-love-triangle-feat-caroline-polachek-sebastian-le-dernier-extrait-avant-la-sortie-du-troisieme-album-dangele-instinct-le-16-octobr" }
+      ,{ "name": "Universal Music Canada — Holly Humberstone — Too Cute To Be Lonely / 30 Eylül 2026", "url": "https://www.universalmusic.ca/2026/09/30/holly-humberstone-announces-deluxe-album-cruel-worldso-it-ends/" }
+      ,{ "name": "Fontaines D.C. resmî sitesi — Fontaines D.C. — Tongue ve Dopamine Chamber", "url": "https://fontainesdc.com/" }
+      ,{ "name": "Noah Kahan resmî bağlantıları — Noah Kahan — Draw You Out", "url": "https://linktr.ee/noahkahanmusic" }
+      ,{ "name": "Melon — Alok, NAYEON & TWICE — Bye Bye Inhibitions / 2 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14600557" }
+      ,{ "name": "Melon — CRAVITY — sonorous ve CRAVITY — LOUDER / 30 Eylül 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14599499" }
+      ,{ "name": "Soompi — CRAVITY — sonorous dönüş duyurusu", "url": "https://www.soompi.com/article/1869574wpp/watch-cravity-announces-comeback-with-teaser-for-new-ep-sonorous" }
+      ,{ "name": "Melon — LEO — Never Again / 1 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14606270" }
+      ,{ "name": "Circle Global — 29 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 2 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 30 Eylül 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Sony Music — Victoria Monét — Frequency Of Love / 2 Ekim 2026", "url": "https://www.sonymusic.ca/press_release/victoria-monet-releases-new-album" }
+      ,{ "name": "Circle Global — 30 Eylül 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Spotify — Global Top 50 / 1 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Apple Music — Drake — HABIBTI (FOMO) / 2 Ekim 2026", "url": "https://music.apple.com/us/artist/drake/271256" }
+      ,{ "name": "Rolling Stone Canada — Drake — HABIBTI (FOMO) yeni parçaları / 2 Ekim 2026", "url": "https://ca.rollingstone.com/music/drake-expands-habibti-with-four-songs-from-fomo/" }
+      ,{ "name": "Circle Global — 2 Ekim 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 5 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 3 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Melon — Hearts2Hearts — ICONIC HEART (Korean Ver.) / 5 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14610276" }
+      ,{ "name": "KBS World — KickFlip — KICK OFF THE WALL Pt. 1 çift başlık parçaları / 6 Ekim 2026", "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=471772&lang=e" }
+      ,{ "name": "KBS World — JYP Entertainment KickFlip dönüş duyurusu", "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=471133&id=&lang=k&menu_cate=enternews&page=" }
+      ,{ "name": "Weverse — YESUNG — Where We Are yayın tarihi", "url": "https://shop.weverse.io/en/shop/USD/artists/128/notices/14338" }
+      ,{ "name": "Weverse — YESUNG — Where We Are geri sayım yayını", "url": "https://weverse.io/superjunior/notice/39563" }
+      ,{ "name": "X:IN resmî sitesi — X:IN — Chain Reaction", "url": "https://xin-official.jp/" }
+      ,{ "name": "BNT News — X:IN — Chain Reaction ve X:IN feat. Luísa Sonza — ZZIRIT / 6 Ekim 2026", "url": "https://www.bntnews.co.kr/article/view/bnt202610060169" }
+      ,{ "name": "Circle Global — 3 Ekim 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 6 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 4 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Billboard — Hot 100 / 10 Ekim 2026 haftası", "url": "https://www.billboard.com/charts/hot-100/" }
+      ,{ "name": "Billboard — 200 / 10 Ekim 2026 haftası", "url": "https://www.billboard.com/charts/billboard-200/" }
+      ,{ "name": "Circle Global — 4 Ekim 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 7 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 5 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Melon — ONEW & ZICO — Tic Tac Toe / 7 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14613791" }
+      ,{ "name": "Apple Music — ONEW & ZICO — Tic Tac Toe / 7 Ekim 2026", "url": "https://music.apple.com/us/album/tic-tac-toe-single/6817611418" }
+      ,{ "name": "Melon — YOUNG POSSE — GO해 / 7 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14624328" }
+      ,{ "name": "YOUNG POSSE resmî sitesi — YOUNG POSSE — GO해", "url": "https://youngposse.kr/contents/curation" }
+      ,{ "name": "Weverse — HWANG MIN HYUN — OUR yayın duyurusu", "url": "https://weverse.io/hwangminhyun/notice/39612" }
+      ,{ "name": "Melon — HWANG MIN HYUN — OUR / 7 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14628028" }
+      ,{ "name": "Melon — KIM JAE HWAN — Love, From Here / 7 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14614810" }
+      ,{ "name": "Circle Global — 5 Ekim 2026 günlüğü", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day" }
+      ,{ "name": "Apple Music — Top 100: Global / 8 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 6 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Official Charts — 9 Ekim 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-october-9-2026/" }
+      ,{ "name": "Melon — N.Flying — Still ve N.Flying — 잔불 (Still) / 8 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14625616" }
+      ,{ "name": "Melon — KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) / 8 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14628648" }
+      ,{ "name": "Apple Music — Top 100: Global / 9 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 7 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
     ],
-    "storyShare": "10–25 Eylül müzik gündemi: Taylor Swift — Patient Zero, Madonna & Charli xcx — Danceteria Afterhours ve Sugababes — Ghost yayımlandı; günlük listeler yenilendi."
+    "storyShare": "10 Eylül–9 Ekim müzik gündemi: Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yeni cuma yayınları arasında."
   },
   {
     "slug": "7-eylul-2026-muzik-gundemi",
