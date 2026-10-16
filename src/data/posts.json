@@ -1,5 +1,302 @@
 [
   {
+    "id": "5295",
+    "title": "Olivia Rodrigo feat. Chappell Roan expectations (Remix) Türkçe Çeviri",
+    "song": "expectations (Remix)",
+    "slug": "olivia-rodrigo-chappell-roan-expectations-remix-turkce-ceviri",
+    "date": "2026-10-16T10:00:00.000Z",
+    "artist": "Olivia Rodrigo feat. Chappell Roan",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Olivia Rodrigo",
+      "Chappell Roan",
+      "expectations (Remix)"
+    ],
+    "category_slugs": [
+      "olivia-rodrigo",
+      "chappell-roan",
+      "expectations-remix"
+    ],
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026949b83f85d782b21ce70583",
+    "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026949b83f85d782b21ce70583",
+    "reading_time": 6,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Chappell Roan",
+        "lines": [
+          "Ooh, Olivia does remixes now"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Chappell Roan",
+        "lines": [
+          "Ooh, Olivia artık remiks de yapıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Olivia Rodrigo",
+        "lines": [
+          "I met him at a party",
+          "I think he was on drugs",
+          "He wasn't smart or funny",
+          "I convinced myself he was",
+          "He had a great apartment",
+          "And a car his parents bought",
+          "I thought that he was perfect",
+          "And now his number's blocked"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Olivia Rodrigo",
+        "lines": [
+          "Onunla bir partide tanıştım",
+          "Sanırım kafası güzeldi",
+          "Ne zeki ne de komikti",
+          "Ben kendimi öyle olduğuna inandırmıştım",
+          "Harika bir dairesi vardı",
+          "Bir de ailesinin aldığı araba",
+          "Onun kusursuz olduğunu sanmıştım",
+          "Şimdiyse numarası engelli"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Olivia Rodrigo",
+        "lines": [
+          "Took a couple months (Took a couple months)",
+          "But now I am secure (Now I am secure)",
+          "I am so evolved (I am so evolved)",
+          "Now I ask for more and more and more and more and more"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Olivia Rodrigo",
+        "lines": [
+          "Birkaç ay sürdü (Birkaç ay sürdü)",
+          "Ama artık kendimden eminim (Artık kendimden eminim)",
+          "Ne kadar da olgunlaştım (Ne kadar da olgunlaştım)",
+          "Şimdi daha fazlasını istiyorum",
+          "Daha fazlasını, daha fazlasını, daha fazlasını, daha fazlasını"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Olivia Rodrigo",
+        "lines": [
+          "I won't settle for a guy with a fake job",
+          "They seem so desperate for loving, but baby, I'm not",
+          "Gave my heart with zero stipulations",
+          "Now I take careful consideration",
+          "I'm not kissing any boy that is passive",
+          "Their indecision is painfully unattractive",
+          "Past mistakes are just new information",
+          "These days, I've got expectations"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Olivia Rodrigo",
+        "lines": [
+          "Sahte bir işi olan bir adama razı olmayacağım",
+          "Onlar sevgi için çok çaresiz görünüyorlar",
+          "Ama bebeğim, ben değilim",
+          "Kalbimi hiçbir koşul koymadan verdim",
+          "Şimdiyse iyice düşünüp öyle karar veriyorum",
+          "Pasif kalan hiçbir çocuğu öpmeyeceğim",
+          "Kararsızlıkları dayanılmaz derecede itici",
+          "Geçmişteki hatalar",
+          "Artık sadece yeni bilgiler",
+          "Bugünlerde",
+          "Beklentilerim var"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Chappell Roan & Olivia Rodrigo",
+        "lines": [
+          "I took her to a concert",
+          "Front row, thought it'd be fun",
+          "Her hand moving up my skirt",
+          "New piercing on her tongue",
+          "She said she'd call me later",
+          "That was three weeks ago",
+          "Classic L.A. behavior (She could've just said no)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Chappell Roan & Olivia Rodrigo",
+        "lines": [
+          "Onu bir konsere götürdüm",
+          "En ön sıradaydık",
+          "Eğlenceli olur diye düşündüm",
+          "Eli eteğimin altında geziniyordu",
+          "Dilinde yeni bir piercing vardı",
+          "Beni sonra arayacağını söyledi",
+          "Üç hafta önceydi",
+          "Klasik L.A. davranışı",
+          "(Oysa sadece ‘hayır’ diyebilirdi)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Chappell Roan, Chappell Roan & Olivia Rodrigo",
+        "lines": [
+          "But in a couple months (In a couple months)",
+          "This love will be procured (Our love will be procured)",
+          "She will be evolved (She will be evolved)",
+          "And I will be adored, adored, adored, adored, adored"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Chappell Roan, Chappell Roan & Olivia Rodrigo",
+        "lines": [
+          "Ama birkaç ay içinde (Birkaç ay içinde)",
+          "Bu aşkı elde edeceğiz (Aşkımızı elde edeceğiz)",
+          "O da olgunlaşacak (O da olgunlaşacak)",
+          "Ve bana bayılacak",
+          "Bayılacak, bayılacak, bayılacak, bayılacak"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Chappell Roan",
+        "lines": [
+          "I won't settle for a girl with a fake job",
+          "They seem so desperate for loving, but, baby, I'm not",
+          "Gave my heart with zero stipulations",
+          "Now I take careful consideration",
+          "I'm not kissing any girl that is passive",
+          "Their indecision is painfully unattractive",
+          "Past mistakes are just new information",
+          "These days, I've got expectations"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Chappell Roan",
+        "lines": [
+          "Sahte bir işi olan bir kıza razı olmayacağım",
+          "Onlar sevgi için çok çaresiz görünüyorlar",
+          "Ama bebeğim, ben değilim",
+          "Kalbimi hiçbir koşul koymadan verdim",
+          "Şimdiyse iyice düşünüp öyle karar veriyorum",
+          "Pasif kalan hiçbir kızı öpmeyeceğim",
+          "Kararsızlıkları dayanılmaz derecede itici",
+          "Geçmişteki hatalar",
+          "Artık sadece yeni bilgiler",
+          "Bugünlerde",
+          "Beklentilerim var"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Olivia Rodrigo & Daniel Nigro",
+        "lines": [
+          "I've got big expectations",
+          "I've got real big expectations",
+          "I've got big expectations",
+          "I've got real big expectations",
+          "She's got big expectations",
+          "She's got real big expectations",
+          "She's got big expectations",
+          "She's got real big expectations"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Olivia Rodrigo & Daniel Nigro",
+        "lines": [
+          "Büyük beklentilerim var",
+          "Gerçekten çok büyük beklentilerim var",
+          "Büyük beklentilerim var",
+          "Gerçekten çok büyük beklentilerim var",
+          "Onun büyük beklentileri var",
+          "Gerçekten çok büyük beklentileri var",
+          "Onun büyük beklentileri var",
+          "Gerçekten çok büyük beklentileri var"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Olivia Rodrigo & Chappell Roan",
+        "lines": [
+          "I won't settle for a guy with a fake job",
+          "They seem so desperate for loving, but, baby, I'm not (No, baby, I'm not)",
+          "Gave my heart with zero stipulations",
+          "Now I take careful consideration (I take careful consideration, oh)",
+          "I'm not kissing any boy that is passive (Not kissin' no boy, no boy)",
+          "Their indecision is painfully unattractive (Unattractive)",
+          "Past mistakes are just new information",
+          "These days, I've got expectations (Ooh, ooh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Olivia Rodrigo & Chappell Roan",
+        "lines": [
+          "Sahte bir işi olan bir adama razı olmayacağım",
+          "Onlar sevgi için çok çaresiz görünüyorlar",
+          "Ama bebeğim, ben değilim (Hayır bebeğim, ben değilim)",
+          "Kalbimi hiçbir koşul koymadan verdim",
+          "Şimdiyse iyice düşünüp öyle karar veriyorum (İyice düşünüp öyle karar veriyorum, oh)",
+          "Pasif kalan hiçbir çocuğu öpmeyeceğim (Hayır, hiçbir çocuğu öpmeyeceğim)",
+          "Kararsızlıkları dayanılmaz derecede itici (İtici)",
+          "Geçmişteki hatalar",
+          "Artık sadece yeni bilgiler",
+          "Bugünlerde",
+          "Beklentilerim var (Ooh, ooh)"
+        ]
+      }
+    ],
+    "excerpt": "I won't settle for a guy with a fake job",
+    "annotations": {
+      "Fake job": "Kelime anlamıyla ‘sahte iş’. Burada anlatıcı, karşı tarafın işini ciddiye almadığını veya gerçek bir iş olarak görmediğini küçümseyici biçimde söylüyor; sözlerden bunun özellikle influencer, girişimci ya da ailesinden geçinen biri olduğu kesin olarak çıkmıyor.",
+      "Settle for": "Daha azına razı olmak veya istemediğin hâlde biriyle yetinmek. ‘I won't settle’ standartlarını düşürmeyeceğini söylüyor.",
+      "Secure": "Burada maddi güvenlikten çok kendinden emin, kendi içinde daha sağlam olma anlamında.",
+      "Evolved": "Kelime kelime ‘gelişmiş/evrim geçirmiş’; burada hafifçe kendisiyle dalga geçerek ‘artık olgunlaştım, akıllandım’ demek.",
+      "Zero stipulations": "Hiçbir şart veya koşul koymadan. Anlatıcı geçmişte kendini sorgusuz ve koşulsuz biçimde verdiğini söylüyor.",
+      "Careful consideration": "Bir şeyi iyice düşünüp tartmak. Çeviride daha güçlü bir deyim eklemeden nötr bırakıldı.",
+      "Passive": "İlişkide inisiyatif almayan, kararsız veya fazlasıyla edilgen kişi.",
+      "Past mistakes are just new information": "Geçmiş hataları utanç kaynağı değil, bundan sonra ne istemediğini öğreten deneyimler olarak görme fikri.",
+      "Classic L.A. behavior": "Üç hafta boyunca aramayıp ortadan kaybolma davranışına alaycı biçimde ‘klasik Los Angeles hareketi’ deniyor. Ghosting iması güçlü, ancak satır bütün L.A. insanları hakkında genelleme yapmıyor.",
+      "Procured": "‘Elde etmek/edinmek’. Bilerek biraz tuhaf ve resmî seçilmiş, bu yüzden satırın hafif komik tonu korunuyor.",
+      "Adored": "Sevilmekten daha güçlü: hayranlık duyulmak, el üstünde tutulmak. Karakter bunu teatral biçimde ‘bana bayılacak’ diye söylüyor.",
+      "Expectations": "Şarkının ana fikri: ilişkide ne istediklerini ve neye razı olmayacaklarını bilmek."
+    },
+    "difficulty_note": "Remikste Olivia Rodrigo ve Chappell Roan farklı ilişki deneyimlerini karşılıklı anlatıyor; vokal bölümleri ve parantez içi ad-libler ayrı tutuldu.",
+    "spotify": {
+      "track": {
+        "id": "4bkClAuofJULiaIZsuL3gT",
+        "name": "expectations",
+        "url": "https://open.spotify.com/track/4bkClAuofJULiaIZsuL3gT",
+        "durationMs": null,
+        "duration": null,
+        "explicit": true,
+        "previewUrl": null
+      },
+      "trackUrl": "https://open.spotify.com/track/4bkClAuofJULiaIZsuL3gT",
+      "albumUrl": "https://music.apple.com/us/album/expectations-single/6822390423",
+      "albumName": "expectations - Single",
+      "albumType": "Single",
+      "releaseDate": "2026-10-16",
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e39f546cd321f2a1d12a16e"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=gsZauX8gwxo",
+    "source": "user-provided"
+  },
+  {
     "id": "5292",
     "title": "manifest TRALALA Türkçe Çeviri",
     "song": "TRALALA",

@@ -1,5 +1,50 @@
 [
   {
+    "id": "5295",
+    "slug": "olivia-rodrigo-chappell-roan-expectations-remix-turkce-ceviri",
+    "title": "Olivia Rodrigo feat. Chappell Roan expectations (Remix) Türkçe Çeviri",
+    "song": "expectations (Remix)",
+    "artist": "Olivia Rodrigo feat. Chappell Roan",
+    "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026949b83f85d782b21ce70583",
+    "date": "2026-10-16T10:00:00.000Z",
+    "reading_time": 6,
+    "excerpt": "I won't settle for a guy with a fake job",
+    "categories": [
+      "Olivia Rodrigo",
+      "Chappell Roan",
+      "expectations (Remix)"
+    ],
+    "category_slugs": [
+      "olivia-rodrigo",
+      "chappell-roan",
+      "expectations-remix"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4bkClAuofJULiaIZsuL3gT",
+      "albumUrl": "https://music.apple.com/us/album/expectations-single/6822390423",
+      "albumName": "expectations - Single",
+      "releaseDate": "2026-10-16",
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e39f546cd321f2a1d12a16e",
+      "albumType": "Single"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Ooh, Olivia does remixes now",
+      "tr": "Ooh, Olivia artık remiks de yapıyor"
+    },
+    "heroPair": {
+      "en": "Ooh, Olivia does remixes now",
+      "tr": "Ooh, Olivia artık remiks de yapıyor"
+    }
+  },
+  {
     "id": "5292",
     "slug": "manifest-tralala-turkce-ceviri",
     "title": "manifest TRALALA Türkçe Çeviri",
