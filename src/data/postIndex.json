@@ -1,5 +1,41 @@
 [
   {
+    "id": "5296",
+    "slug": "tate-mcrae-housewife-turkce-ceviri",
+    "title": "Tate McRae Housewife Türkçe Çeviri",
+    "song": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://linkstorage.linkfire.com/medialinks/images/3133232e-4446-4c11-a20d-4b2763fc1203/artwork-440x440.jpg",
+    "date": "2026-10-16T12:00:00.000Z",
+    "reading_time": 5,
+    "excerpt": "I just wanna make a lot of money, be my own housewife",
+    "categories": [
+      "Tate McRae",
+      "Housewife"
+    ],
+    "category_slugs": [
+      "tate-mcrae",
+      "housewife"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {},
+    "moods": [
+      "Dreamy"
+    ],
+    "firstPair": {
+      "en": "Okay, okay",
+      "tr": "Tamamdır..."
+    },
+    "heroPair": {
+      "en": "I just wanna make a lot of money, be my own housewife",
+      "tr": "Ben sadece çok para kazanıp, kendi kendimin ev hanımı (housewife) olmak istiyorum;"
+    }
+  },
+  {
     "id": "5295",
     "slug": "olivia-rodrigo-chappell-roan-expectations-remix-turkce-ceviri",
     "title": "Olivia Rodrigo feat. Chappell Roan expectations (Remix) Türkçe Çeviri",
