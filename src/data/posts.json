@@ -35,8 +35,8 @@
         "original": false,
         "label": "Intro",
         "lines": [
-          "Tamamdır...",
-          "Evet."
+          "Tamam, tamam",
+          "Evet"
         ]
       },
       {
@@ -52,9 +52,13 @@
         "original": false,
         "label": "Verse 1",
         "lines": [
-          "Sanıyorlar ki benim cennetim magazinlerden (tabloids) ve patlayan flaşlardan ibaret;",
-          "Oysa gerçek şu ki; sadece koca bir balya nakit para,",
-          "İyi bir adam ve hakkıyla yaşanmış bir hayat istiyorum o kadar. (Biliyorum bunu)."
+          "Sanıyorlar ki benim cennetim",
+          "Magazin sayfaları ve patlayan flaşlar",
+          "Oysa gerçek daha çok şöyle:",
+          "Bir sürü para",
+          "İyi bir adam",
+          "Ve doğru yaşanmış bir hayat",
+          "(Bunu biliyorum)"
         ]
       },
       {
@@ -71,10 +75,13 @@
         "original": false,
         "label": "Pre-Chorus",
         "lines": [
-          "Sana söylemedikleri bazı şeyler var;",
-          "Ve sana satmaya çalıştıkları tüm o yalan hayaller...",
-          "Şöhretin bedeli seni dizlerinin üzerine çöktürebilir;",
-          "Ve o an geldiğinde, benimle uzaklara kaçmak ister misin? (Evet)"
+          "Sana anlatmadıkları bazı şeyler var",
+          "Sana satmaya çalıştıkları onca hayal var",
+          "Şöhretin bedeli",
+          "Seni dizlerinin üstüne çökertebilir",
+          "Ve bunu yaptığında",
+          "Benimle kaçmak ister misin?",
+          "(Evet)"
         ]
       },
       {
@@ -94,13 +101,19 @@
         "original": false,
         "label": "Chorus",
         "lines": [
-          "Ben sadece çok para kazanıp, kendi kendimin ev hanımı (housewife) olmak istiyorum;",
-          "Sen, sen, sen... Sadece ‘canım’ (honey) diye seslendiğim o kişi olabilirsin.",
-          "Benim o gizli kaçamağım (sex on the side) ol...",
-          "Sadece sen...",
-          "Uçsuz bucaksız yıldızlar, paha biçilemez arabaların farları, sanatı taklit eden bir hayat...",
-          "Ben sadece koca bir servet yapıp, kendi evimin hanımı olmak istiyorum;",
-          "Benim ol, benim ol..."
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Sen, sen, sen",
+          "Sana ‘canım’ dediğim kişi sen olabilirsin",
+          "Benim ufak kaçamağım ol",
+          "Sen, sen, sen, sen",
+          "Dönümlerce açık gökyüzü ve yıldızlar",
+          "Değerli arabaların farları",
+          "Sanatı taklit eden bir hayat",
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Benim ol",
+          "Benim ol"
         ]
       },
       {
@@ -117,10 +130,14 @@
         "original": false,
         "label": "Verse 2",
         "lines": [
-          "Hızlı sür, beni buralardan çıkar;",
-          "Pencereden Louis (Vuitton) çantalar uçuşuyor, dikiz aynasında L.A. (310) siliniyor...",
-          "Yok olduğunda hayat harika aslında;",
-          "Kayalık Dağlar (Rockies) o küçük kızı aldı belki ama şehir benim o en güzel yıllarımı çaldı."
+          "Hızlı sür",
+          "Beni buradan çıkar",
+          "Louis camdan dışarı",
+          "310 dikiz aynasında geride kalıyor",
+          "Ortadan kaybolunca hayat güzel",
+          "Kayalıklar kızı aldı",
+          "Ama şehir",
+          "Altın yılları aldı"
         ]
       },
       {
@@ -137,10 +154,13 @@
         "original": false,
         "label": "Pre-Chorus",
         "lines": [
-          "Bu endüstri seni öldürmeye çalışacak;",
-          "Ama önce seni borçlandırmaya (bill you) çalışacaklar elbet.",
-          "İçindeki o vahşi ve özgür ruhu çalmaya çalışacaklar;",
-          "Ve yaptıklarında, benimle kaçmaya var mısın?"
+          "Bu sektör seni öldürmeye çalışacak",
+          "Ama önce",
+          "Sana faturayı kesmeye çalışacak",
+          "İçindeki o vahşi ve özgür tarafı",
+          "Senden almaya çalışacaklar",
+          "Ve yaptıklarında",
+          "Benimle kaçmak ister misin?"
         ]
       },
       {
@@ -160,13 +180,19 @@
         "original": false,
         "label": "Chorus",
         "lines": [
-          "Ben sadece çok para kazanıp, kendi kendimin ev hanımı olmak istiyorum;",
-          "Sen, sen, sen... Sadece ‘canım’ dediğim o kişi olabilirsin.",
-          "Benim yan uğraşım (kaçamağım) ol!",
-          "Sadece sen...",
-          "Uçsuz bucaksız yıldızlar, paha biçilemez arabaların farları, sanatı taklit eden bir hayat...",
-          "Ben sadece çok para kazanıp kendi evimin hanımı olmak istiyorum;",
-          "Benim ol, benim ol..."
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Sen, sen, sen",
+          "Sana ‘canım’ dediğim kişi sen olabilirsin",
+          "Benim ufak kaçamağım ol",
+          "Sen, sen, sen, sen",
+          "Dönümlerce açık gökyüzü ve yıldızlar",
+          "Değerli arabaların farları",
+          "Sanatı taklit eden bir hayat",
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Benim ol",
+          "Benim ol"
         ]
       },
       {
@@ -187,14 +213,24 @@
         "original": false,
         "label": "Bridge",
         "lines": [
-          "Bahçeme giriyorum, ağaçlardan para topluyorum;",
-          "Hiçbir şeye para ödemem ben bebeğim, insanlar bana öder!",
-          "Ve senin tam yanımda olman, bu rüyanın sadece ‘vişne tanesi’ (icing on the dream)...",
-          "Sana muhtaç değilim, sadece seni istiyorum ve en sevdiğim şey de bu zaten!",
-          "Bahçemden para topluyorum...",
-          "Kimseyle ‘çıkmam’ (date) ben bebeğim, insanlar benimle çıkar!",
-          "Ve senin yanımda olman sadece pastanın kreması;",
-          "Sana ihtiyacım yok, seni arzuluyorum sadece..."
+          "Bahçeme gir",
+          "Ağaçtan parayı topla",
+          "Ben hiçbir şey için para ödemem, bebeğim",
+          "İnsanlar bana para öder",
+          "Ve senin yanımda olman",
+          "Bu rüyanın üstündeki krema sadece",
+          "Sana ihtiyacım yok",
+          "Seni istiyorum",
+          "En sevdiğim tarafı da bu",
+          "Bahçeme gir",
+          "Ağaçtan parayı topla",
+          "Ben kimseyle çıkmam, bebeğim",
+          "İnsanlar benimle çıkar",
+          "Ve senin yanımda olman",
+          "Bu rüyanın üstündeki krema sadece",
+          "Sana ihtiyacım yok",
+          "Seni istiyorum",
+          "En sevdiğim tarafı da bu"
         ]
       },
       {
@@ -214,25 +250,29 @@
         "original": false,
         "label": "Chorus",
         "lines": [
-          "Sadece çok para kazanıp, kendi kendimin ev hanımı olmak istiyorum;",
-          "Sen o tatlı sevgilim olabilirsin...",
-          "Benim yan kaçamağım ol...",
-          "Sadece sen...",
-          "Açık hava, lüks arabalar ve sanatı kıskandıran bir hayat...",
-          "Kendi kendimin ev hanımıyım ben!",
-          "Benim ol, benim ol..."
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Sen, sen, sen",
+          "Sana ‘canım’ dediğim kişi sen olabilirsin",
+          "Benim ufak kaçamağım ol",
+          "Sen, sen, sen, sen",
+          "Dönümlerce açık gökyüzü ve yıldızlar",
+          "Değerli arabaların farları",
+          "Sanatı taklit eden bir hayat",
+          "Ben sadece çok para kazanmak",
+          "Kendi evimin hanımı olmak istiyorum",
+          "Benim ol",
+          "Benim ol"
         ]
       }
     ],
     "excerpt": "I just wanna make a lot of money, be my own housewife",
     "annotations": {
-      "Loads of cash": "‘Koca bir balya nakit para’ sözü, göz kamaştıran şöhretten ziyade güç ve maddi özgürlük arzusunu vurguluyor.",
-      "Housewife": "Şarkıdaki ironi, başkasına hizmet eden geleneksel ‘ev hanımı’ rolünü tersine çevirip kendi zenginliğiyle kendi hayatını kurma fikrinde.",
-      "Life imitating art": "Oscar Wilde’ın ‘hayat sanatı taklit eder’ sözüne gönderme; yaşamın estetik ve kurgulanmış bir sanat eseri gibi görünmesi.",
-      "I don't need you, I want you": "Birine muhtaç olmakla onu kendi isteğiyle seçmek arasındaki farkı ve bağımsızlık temasını vurguluyor.",
-      "Icing on the dream": "Zaten güzel olan bir hayata eklenen hoş bir ayrıntı; sevgilinin yanında oluşu, anlatıcının kurduğu hayatın üstüne ekleniyor.",
-      "Modern jargon": "‘Sex on the side’ gizli/yan kaçamağa, ‘icing on the dream’ ise zaten güzel olan hayata eklenen hoş bir ayrıntıya gönderme yapıyor.",
-      "L.A. references": "‘310’, Los Angeles’ın Westside bölgesinin alan kodlarından biri; ‘Louis’ ise Louis Vuitton’a gönderme."
+      "310": "Los Angeles’ın özellikle Westside ve çevresinde kullanılan alan kodlarından biri. ‘310 in the mirror’, L.A.’i arkada bırakıp uzaklaşma imgesi taşıyor.",
+      "Be my own housewife": "Kelime kelime ‘kendi kendimin ev hanımı olmak.’ Buradaki ironi, bir başkasına bağlı geleneksel ‘housewife’ rolü yerine kendi parasını kazanıp kendi hayatını kurma fikrinde. Türkçede ‘kendi evimin hanımı olmak’ bu bağımsızlık hissini daha doğal veriyor.",
+      "Fake paradise / tabloids and flashing lights": "Anlatıcıya dışarıdan bakıldığında şöhret, magazin ve flaşların onun hayali olduğu düşünülüyor; oysa kendisinin istediği şey daha kişisel ve sade.",
+      "Sex on the side": "Ana ilişkinin ya da hayatın yanında duran gizli/ikincil cinsel ilişki için kullanılan ifade. Burada ciddi bir romantik bağdan çok hafif, kışkırtıcı bir ‘kaçamak’ havası var.",
+      "Acres of open stars": "Geniş, açık bir alanda sonsuzmuş gibi görünen yıldızlı gökyüzü imgesi. Şehir ve şöhret hayatının tersine ferahlık ve kaçış hissi yaratıyor."
     },
     "difficulty_note": "Şarkı, şöhret ve maddi özgürlük temasını ‘kendi kendinin ev hanımı’ imgesiyle ironik biçimde birleştiriyor.",
     "appleMusicUrl": "https://music.apple.com/us/album/housewife-single/6822497770",
