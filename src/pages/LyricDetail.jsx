@@ -503,6 +503,9 @@ export default function LyricDetail() {
   ));
   const recommendationPost = allPosts.find(item => item.slug === post.slug) || post;
   const related = relatedSongs(recommendationPost, allPosts, 4);
+  const artistLinks = creditedArtistsFor(post);
+  const sections = lyricSections(post.blocks);
+  const isLyricsLoading = indexedPost && fullPost === null;
 
   const parsedYear = new Date(post.spotify?.album?.releaseDate || post.date).getFullYear();
   const year = Number.isNaN(parsedYear) ? "" : parsedYear;
