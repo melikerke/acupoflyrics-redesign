@@ -2,7 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
-import { translationMetaTitle, isLegacyLyricDescription } from '../src/lib/meta.js';
+import { translationMetaTitle, isLegacyLyricDescription, usesCatalogTitle, catalogTranslationTitle } from '../src/lib/meta.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
@@ -113,7 +113,10 @@ const longTitlePages = [...pages.values()].filter((page) => !page.noindex && pag
 // Explicit, reported editorial exceptions: retain all artist credits plus "Sözleri".
 const creditedTitleExceptions = longTitlePages.filter(page => {
   const post = posts.find(post => `/${post.slug}` === page.route);
-  return post && songLyricsTitleSlugs.has(post.slug) && page.title === translationMetaTitle(post) && page.title.length <= 85;
+  return post && page.title === translationMetaTitle(post) && (
+    (usesCatalogTitle(post) && page.title === catalogTranslationTitle(post))
+    || (songLyricsTitleSlugs.has(post.slug) && page.title.length <= 85)
+  );
 });
 const longTitles = longTitlePages.filter(page => !creditedTitleExceptions.includes(page));
 if (creditedTitleExceptions.length) console.warn('Tam kredi / Sözleri başlık uzunluğu uyarıları:', creditedTitleExceptions.map(page => `${page.route} (${page.title.length})`).join(', '));

@@ -59,6 +59,7 @@ export function completeSeoDescription(value, locale = "tr") {
 
 export function translationMetaTitle(post) {
   if (!post) return "Şarkı Çevirileri | acupoflyrics";
+  if (usesCatalogTitle(post)) return catalogTranslationTitle(post);
   if (songEditorialDescriptions[post.slug]) {
     const song = post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri' ? "Est-ce que tu m'aimes ?" : post.song;
     const lead = `${post.artist} – ${song}`;
@@ -84,6 +85,15 @@ export function translationMetaTitle(post) {
     `${post.song} ${label}`,
   ].filter((candidate) => candidate && !hasSeoPlaceholder(candidate));
   return fitSeoTitle(candidates);
+}
+
+export function usesCatalogTitle(post) {
+  return languagesFor(post).translation === 'tr' && isLegacyLyricDescription(post.seo?.description);
+}
+
+export function catalogTranslationTitle(post) {
+  const full = `${post.artist} – ${post.song} Türkçe Çeviri, Sözleri ve Anlamı`;
+  return full.length <= 60 ? full : `${post.song} Sözleri ve Türkçe Çeviri – ${post.artist}`;
 }
 
 export function isLegacyLyricDescription(value) {
