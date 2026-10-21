@@ -1,5 +1,5 @@
 import { languageInfo, languagesFor, translationLabel } from "./languages.js";
-import { songEditorialDescriptions } from '../data/songEditorialSeo.js';
+import { songEditorialDescriptions, songLyricsTitleSlugs } from '../data/songEditorialSeo.js';
 
 const META_DESCRIPTION_MAX = 152;
 const META_TITLE_MAX = 65;
@@ -62,6 +62,7 @@ export function translationMetaTitle(post) {
     const song = post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri' ? "Est-ce que tu m'aimes ?" : post.song;
     const lead = `${post.artist} – ${song}`;
     const candidates = [`${lead} Türkçe Çeviri, Sözleri ve Anlamı`, `${lead} Türkçe Çeviri, Sözleri`, `${lead} Türkçe Çeviri`];
+    if (songLyricsTitleSlugs.has(post.slug)) return candidates[0].length <= 60 ? candidates[0] : candidates[1];
     return candidates.find(title => title.length <= 60) || (candidates.at(-1).length <= 65 ? candidates.at(-1) : `${lead} Çeviri`);
   }
   const languages = languagesFor(post);
@@ -84,7 +85,12 @@ export function translationMetaTitle(post) {
   return fitSeoTitle(candidates);
 }
 
+export function isLegacyLyricDescription(value) {
+  return /Türkçe\s+Çeviri\s*\|/iu.test(String(value || ''));
+}
+
 function isEditorialDescription(value) {
+  if (isLegacyLyricDescription(value)) return false;
   const text = sanitizeSeoDescription(value);
   return text.length >= 90 && /türkçe|çeviri|şarkı|anlam|lyrics?|translation|meaning/i.test(text);
 }

@@ -331,7 +331,7 @@ function staticSong(post, postIndex) {
     description: translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
-    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}${staticSongInsight(post.slug)}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${relatedSections}${pager}`,
+    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${staticSongInsight(post.slug)}${relatedSections}${pager}`,
   });
 }
 

@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { songInsights } from '../src/data/songInsights.js';
-import { songEditorialDescriptions } from '../src/data/songEditorialSeo.js';
-import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle } from '../src/lib/meta.js';
+import { songEditorialDescriptions, songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
+import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription } from '../src/lib/meta.js';
 import { publicationDate } from '../src/lib/songPublication.js';
 import { staticSongInsight } from '../scripts/lib/prerenderContent.js';
 
@@ -22,13 +22,34 @@ test('50 evidence-selected pages receive complete editorial metadata', () => {
     assert.ok(title.startsWith(`${post.artist} – `), slug);
     const longCredit = slug === 'the-weeknd-jennie-lily-rose-depp-one-of-the-girls-turkce-ceviri';
     assert.ok(title.includes(longCredit ? 'Çeviri' : 'Türkçe Çeviri'), slug);
-    assert.ok(title.length <= 65, `${slug}: ${title.length}`);
+    assert.ok(title.length <= (songLyricsTitleSlugs.has(slug) ? 85 : 65), `${slug}: ${title.length}`);
     assert.equal(normalizeSeoTitle(title), title);
     const description = translationMetaDescription(post);
     assert.ok(description.length >= 140 && description.length <= 155, `${slug}: ${description.length}`);
     assert.ok(!description.includes('…'), slug);
     assert.ok(publicationDate(post) >= '2026-10-21T00:00:00.000Z');
   }
+});
+
+test('eight follow-up pages retain full credits, Sözleri and handwritten descriptions', () => {
+  for (const slug of songLyricsTitleSlugs) {
+    const post = posts.find(post => post.slug === slug);
+    const title = translationMetaTitle(post);
+    assert.ok(title.startsWith(`${post.artist} – ${post.song} `));
+    assert.ok(title.includes('Türkçe Çeviri, Sözleri'));
+    assert.equal(normalizeSeoTitle(title), title);
+    assert.ok(title.length <= 85);
+    if (title.length > 60) assert.ok(!title.includes('ve Anlamı'));
+    assert.equal(translationMetaDescription(post), songEditorialDescriptions[slug]);
+    assert.ok(songEditorialDescriptions[slug].length <= 152);
+  }
+});
+
+test('legacy lyric-excerpt descriptions are never emitted', () => {
+  assert.ok(isLegacyLyricDescription('Sanatçı Türkçe Çeviri | sözler'));
+  for (const post of posts) assert.ok(!isLegacyLyricDescription(translationMetaDescription(post)), post.slug);
+  const sample = { artist: 'Örnek', song: 'Test', slug: 'test', seo: { description: 'Örnek Test Türkçe Çeviri | ' + 'söz '.repeat(40) } };
+  assert.ok(!translationMetaDescription(sample).includes('söz söz'));
 });
 
 test('seven insight sections have three FAQs, sources and identical initial HTML content', async () => {
@@ -44,7 +65,7 @@ test('seven insight sections have three FAQs, sources and identical initial HTML
       assert.ok(html.includes(escapeHtml(faq.question)), slug);
       assert.ok(html.includes(escapeHtml(faq.answer)), slug);
     }
-    assert.ok(html.indexOf('Şarkı ne anlatıyor?') < html.indexOf('class="seo-lyric-label"'));
+    assert.ok(html.indexOf('Şarkı ne anlatıyor?') > html.lastIndexOf('class="seo-lyric-label"'));
   }
   assert.equal(staticSongInsight('no-editorial-content'), '');
 });

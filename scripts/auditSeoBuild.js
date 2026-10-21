@@ -1,6 +1,8 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
+import { translationMetaTitle, isLegacyLyricDescription } from '../src/lib/meta.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
@@ -107,7 +109,15 @@ const missingAltPages = [...pages.values()].filter((page) => page.badImages.leng
 // A description has no minimum character quota; short complete sentences are valid.
 const missingDescriptions = [...pages.values()].filter((page) => !page.noindex && !page.description);
 const longDescriptions = [...pages.values()].filter((page) => !page.noindex && page.description.length > 152);
-const longTitles = [...pages.values()].filter((page) => !page.noindex && page.title.length > 65);
+const longTitlePages = [...pages.values()].filter((page) => !page.noindex && page.title.length > 65);
+// Explicit, reported editorial exceptions: retain all artist credits plus "Sözleri".
+const creditedTitleExceptions = longTitlePages.filter(page => {
+  const post = posts.find(post => `/${post.slug}` === page.route);
+  return post && songLyricsTitleSlugs.has(post.slug) && page.title === translationMetaTitle(post) && page.title.length <= 85;
+});
+const longTitles = longTitlePages.filter(page => !creditedTitleExceptions.includes(page));
+if (creditedTitleExceptions.length) console.warn('Tam kredi / Sözleri başlık uzunluğu uyarıları:', creditedTitleExceptions.map(page => `${page.route} (${page.title.length})`).join(', '));
+const legacyDescriptions = [...pages.values()].filter(page => !page.noindex && isLegacyLyricDescription(page.description));
 const metadataMismatches = [...pages.values()].filter((page) => (
   page.title !== page.ogTitle
   || page.title !== page.twitterTitle
@@ -127,6 +137,7 @@ const findings = {
   missingDescriptions: missingDescriptions.length,
   longDescriptions: longDescriptions.length,
   longTitles: longTitles.length,
+  legacyLyricDescriptions: legacyDescriptions.length,
   metadataMismatches: metadataMismatches.length,
 };
 
@@ -141,6 +152,7 @@ const details = [
   ["Eksik açıklama", missingDescriptions.map((page) => page.route)],
   ["Uzun açıklama", longDescriptions.map((page) => `${page.route} (${page.description.length})`)],
   ["Uzun başlık", longTitles.map((page) => `${page.route} (${page.title.length})`)],
+  ["Sözlerden kesilmiş eski açıklama", legacyDescriptions.map(page => page.route)],
   ["Metadata uyuşmazlığı", metadataMismatches.map((page) => page.route)],
 ];
 for (const [label, items] of details) {

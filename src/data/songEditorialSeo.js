@@ -1,7 +1,24 @@
 // Hand-written descriptions based on the supplied lyrics, not lyric excerpts.
 // Selection evidence: reports/site-audit/2026-10-21/content-priorities.json.
 export const editorialSeoUpdatedAt = '2026-10-21';
+// Preserve full credits and the requested search intent even where 60 characters cannot fit.
+export const songLyricsTitleSlugs = new Set([
+  'the-weeknd-kendrick-lamar-pray-for-me-turkce-ceviri',
+  'g-dragon-taeyang-daesung-home-sweet-home-turkce-ceviri',
+  'slimane-mon-amour-turkce-ceviri',
+  'blackpink-jump-turkce-ceviri',
+  'megan-thee-stallion-twice-mamushi-turkce-ceviri',
+  'bts-one-more-night-turkce-ceviri',
+  'lady-gaga-bruno-mars-die-with-a-smile-turkce-ceviri',
+  'shawn-mendes-camila-cabello-senorita-turkce-ceviri',
+]);
 export const songEditorialDescriptions = {
+  'the-weeknd-kendrick-lamar-pray-for-me-turkce-ceviri': 'The Weeknd, Kendrick Lamar — Pray For Me, yalnızlığı, fedakârlığı ve kurtuluş arayışını anlatıyor. Şarkı sözlerini Türkçe çevirisiyle birlikte oku.',
+  'g-dragon-taeyang-daesung-home-sweet-home-turkce-ceviri': 'G-DRAGON, TAEYANG, DAESUNG — HOME SWEET HOME, geri dönüşü ve ait olunan yere özlemi anlatıyor. Şarkı sözlerini Türkçe çevirisiyle birlikte keşfet.',
+  'slimane-mon-amour-turkce-ceviri': 'Slimane — Mon amour, karşılık bekleyen sevgiyi ve biten bir ilişkiyi yeniden kurma umudunu anlatıyor. Fransızca sözleri Türkçe çevirisiyle birlikte oku.',
+  'blackpink-jump-turkce-ceviri': 'BLACKPINK — JUMP, sahne özgüvenini, birlikte dans etmeyi ve kısıtlamalardan kurtulmayı anlatıyor. Şarkı sözlerini Türkçe çevirisiyle birlikte oku.',
+  'megan-thee-stallion-twice-mamushi-turkce-ceviri': 'Megan Thee Stallion, TWICE — Mamushi (Remix), başarıyı, yıldız olmayı ve özgüveni kutluyor. Remiksin sözlerini Türkçe çevirisiyle birlikte keşfet.',
+  'bts-one-more-night-turkce-ceviri': 'BTS — One More Night, sevdiğinin yanında bir gece daha kalmayı ve güzel bir düşten uyanmamayı anlatıyor. Şarkı sözlerini Türkçe çevirisiyle oku.',
   'temper-city-self-aware-turkce-ceviri': 'Temper City — Self Aware, yakınlık isterken zihninin engellerine takılan bir anlatıcıyı izliyor. Duygusal çelişkilerin Türkçe çevirisini sözlerle oku.',
   'katseye-hootie-frutti-turkce-ceviri': 'KATSEYE — Hootie Frutti, meyve ve tat imgeleriyle flörtü, özgüveni ve parti enerjisini birleştiriyor. Şarkı sözlerini Türkçe çevirisiyle birlikte oku.',
   'tame-impala-loser-turkce-ceviri': 'Tame Impala — Loser, bir ilişkiyi düzeltmeye çalışırken kontrolü kaybetmeyi anlatıyor. Pişmanlık ve kendini suçlamayı işleyen Türkçe çeviriyi oku.',

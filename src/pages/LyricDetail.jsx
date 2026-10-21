@@ -675,7 +675,6 @@ export default function LyricDetail() {
         </aside>
 
         <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
-          <SongInsight slug={post.slug} />
           {isLyricsLoading ? (
             <LyricsSkeleton label={ui.loadingLyrics} />
           ) : (
@@ -694,6 +693,7 @@ export default function LyricDetail() {
           <div className="detail-reader-signoff" style={{ display: "flex", justifyContent: "flex-end", paddingRight: "16px" }}>
             <time>{formatDate(post.date)}</time>
           </div>
+          {!isLyricsLoading && <SongInsight slug={post.slug} />}
         </div>
 
       </section>
