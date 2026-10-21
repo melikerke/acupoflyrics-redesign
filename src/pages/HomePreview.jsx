@@ -122,7 +122,7 @@ function Hero({ posts, activeIndex, onSelect, onPauseChange, motionEnabled }) {
 function SectionHead({ title, to = discoverPath() }) {
   return (
     <div className="acl-section-head">
-      <h2>{title}</h2>
+      {title ? <h2>{title}</h2> : null}
       <Link to={to}>Tümünü gör <Arrow /></Link>
     </div>
   );

@@ -80,7 +80,11 @@ for (const page of pages.values()) {
   }
 }
 
-const sitemap = await readFile(path.join(DIST, "sitemap.xml"), "utf8");
+let sitemap = await readFile(path.join(DIST, "sitemap.xml"), "utf8");
+if (sitemap.includes('<sitemapindex')) {
+  const children = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => path.basename(new URL(m[1]).pathname));
+  sitemap = (await Promise.all(children.map(file => readFile(path.join(DIST, file), 'utf8')))).join('\n');
+}
 const indexable = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => normalizePath(match[1])).filter(Boolean));
 const orphanRoutes = [...indexable].filter((route) => route !== "/" && (incoming.get(route)?.size || 0) === 0);
 

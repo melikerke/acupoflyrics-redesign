@@ -90,13 +90,13 @@ export function translationMetaDescription(post) {
   const languages = languagesFor(post);
   if (languages.translation === "en") {
     const originalLanguage = languageInfo(languages.original).englishName;
-    return sanitizeSeoDescription(`${post.artist} – ${post.song} ${originalLanguage} lyrics with English translation. Explore the meaning, album and contextual line notes.`);
+    return sanitizeSeoDescription(`${post.artist} – ${post.song} ${originalLanguage} lyrics with English translation. Read the original lyrics alongside the translation.`);
   }
 
   if (languages.translation !== "tr") {
     const originalLanguage = languageInfo(languages.original).englishName;
-    return sanitizeSeoDescription(`${post.artist} – ${post.song} ${originalLanguage} lyrics with ${translationLabel(post, "en").toLowerCase()}. Explore the meaning, album and contextual line notes.`);
+    return sanitizeSeoDescription(`${post.artist} – ${post.song} ${originalLanguage} lyrics with ${translationLabel(post, "en").toLowerCase()}. Read the original lyrics alongside the translation.`);
   }
 
-  return sanitizeSeoDescription(`${post.artist} – ${post.song} şarkı sözleri ve Türkçe çevirisi. Anlamını, albümünü ve satır açıklamalarını keşfet.`);
+  return sanitizeSeoDescription(`${post.artist} – ${post.song} şarkı sözleri ve Türkçe çevirisi. Orijinal sözlerle Türkçe çeviriyi birlikte okuyabilir, satırlar arasında arama yapabilirsin.`);
 }

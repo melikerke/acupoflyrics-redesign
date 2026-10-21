@@ -37,6 +37,7 @@ export function SiteNav() {
         <Link to={popJournalPath()}>Pop Günlüğü</Link>
       </nav>
       <div className="acl-nav-actions">
+        <a href="https://www.instagram.com/acupoflyrics/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: acupoflyrics">Instagram</a>
         <button className="acl-search" type="button" aria-label="Ara" onClick={openSearch}>
           <Icon name="search" size={15} />
           <span>Ara</span>
@@ -87,6 +88,7 @@ export function SiteFooter() {
         <div className="site-footer-brand">
           <div className="acl-logo font-serif" style={{ fontSize: 22 }}>acupoflyrics</div>
           <p>Özenli şarkı çevirileri — {totalPosts} şarkı.</p>
+          <a href="https://www.instagram.com/acupoflyrics/" target="_blank" rel="noopener noreferrer">Instagram · @acupoflyrics</a>
         </div>
         <FooterCol title="Keşfet" items={[["Tüm şarkılar", songsPath()], ["Tüm sanatçılar", artistsPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
         <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />

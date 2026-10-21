@@ -181,7 +181,18 @@ try {
     assert.match(html, /<p[ >]/, `${route} needs initial content`);
     assert.doesNotMatch(html, /Explore every song/);
   }
-  const sitemap = await readFile(path.join(scratch, "sitemap.xml"), "utf8");
+  const sitemapIndex = await readFile(path.join(scratch, "sitemap.xml"), "utf8");
+  assert.match(sitemapIndex, /<sitemapindex/);
+  const sitemapNames = [...sitemapIndex.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => path.basename(new URL(m[1]).pathname));
+  assert.equal(sitemapNames.length, 5);
+  const sitemap = (await Promise.all(sitemapNames.map(file => readFile(path.join(scratch, file), 'utf8')))).join('\n');
+  assert.doesNotMatch(sitemap, /\/sarkilar\/page\//);
+  const housewife = posts.find(post => post.slug === 'tate-mcrae-housewife-turkce-ceviri');
+  const songHtml = await readRoute(housewife.slug);
+  assert.match(songHtml, /Çeviri ve notlar/);
+  assert.match(songHtml, /Çevirmen:/);
+  assert.match(songHtml, /translationOfWork/);
+  for (const note of Object.values(housewife.annotations || {})) assert.ok(songHtml.includes(escapeHtml(note)));
   for (const route of ["search", "admin"]) {
     assert.match(await readRoute(route), /name="robots" content="noindex, follow"/);
     assert.ok(!sitemap.includes(`<loc>https://www.acupoflyrics.com/${route}</loc>`));

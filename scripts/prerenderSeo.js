@@ -12,6 +12,8 @@ import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks } from "./lib/prerenderContent.js";
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
+import { publicationDate, releaseLabel, translationSchema } from "../src/lib/songPublication.js";
+import { annotationsFor } from "../src/lib/annotations.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
@@ -123,7 +125,7 @@ function creditedArtists(post) {
       const meta = preferredArtistByName.get(key);
       return {
         slug: meta?.slug || categorySlug || slugify(name),
-        name: meta?.name || name,
+        name: key === 'tate mcrae' ? 'Tate McRae' : meta?.name || name,
         image: meta?.image,
       };
     });
@@ -196,7 +198,7 @@ function staticHome(items) {
   const cover = spotifyImageUrl(post.cover || post.image, 640);
   const background = spotifyImageUrl(post.cover || post.image, 300);
   const spotifyUrl = post.spotify?.trackUrl || post.spotify?.track?.url;
-  const recent = items.slice(0, 8);
+  const recent = homeIndex.contentPlan.latest;
 
   return `<div class="seo-home-prerender">
     <header class="seo-home-nav">
@@ -242,7 +244,7 @@ function staticHome(items) {
         </section>
       </div>
     </main>
-    <footer class="seo-home-footer"><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a></footer>
+    <footer class="seo-home-footer"><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a><a href="https://www.instagram.com/acupoflyrics/">Instagram · @acupoflyrics</a></footer>
   </div>`;
 }
 
@@ -282,6 +284,9 @@ function staticSongCopy(post) {
 }
 
 function staticSong(post, postIndex) {
+  const noteEntries = Object.entries({ ...annotationsFor(post.slug), ...(post.annotations || {}) }).filter(([, note]) => typeof note === 'string' && note.trim());
+  const notesHtml = noteEntries.length ? `<section aria-label="Çevirmen notları"><h2>Çeviri ve notlar</h2>${noteEntries.map(([term, note]) => `<details><summary>${escapeHtml(term)}</summary><p>${escapeHtml(note)}</p></details>`).join('')}</section>` : '';
+  const publication = `<section><h2>Şarkı Bilgisi</h2><p>Çevirmen: <a href="/hakkimizda">Melike</a></p><p>Yayın tarihi: <time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time></p>${publicationDate(post) !== post.date ? `<p>Güncelleme: <time datetime="${escapeHtml(publicationDate(post))}">${escapeHtml(publicationDate(post))}</time></p>` : ''}</section>`;
   const languages = languagesFor(post);
   const copy = staticSongCopy(post);
   const sections = (post.blocks || []).map((block) => {
@@ -335,7 +340,7 @@ function staticSong(post, postIndex) {
     description: translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
-    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · Albüm: ${albumLink}` : ""}</p><h2>${escapeHtml(copy.kicker)}</h2>${sections}${relatedSections}${pager}`,
+    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${relatedSections}${pager}`,
   });
 }
 
@@ -577,7 +582,7 @@ for (const [postIndex, post] of posts.entries()) {
     {
       type: "music.song",
       locale: languagesFor(post).translation === "en" ? "en" : "tr",
-      lastmod: post.date,
+      lastmod: publicationDate(post),
       staticHtml: staticSong(post, postIndex),
       breadcrumbs: [
         { name: "Ana sayfa", path: "/" },
@@ -595,6 +600,7 @@ for (const [postIndex, post] of posts.entries()) {
         inLanguage: languagesFor(post).original,
         isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc || undefined,
         sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
+        subjectOf: translationSchema(post, `${SITE}${canonicalPath}`),
       },
     },
   ));
@@ -659,6 +665,7 @@ for (const artist of artists.values()) {
     artist.cover,
     {
       type: "profile",
+      lastmod: artist.posts.map(publicationDate).filter(Boolean).sort().at(-1),
       staticHtml: staticCollectionPage({
         kicker: "Sanatçı",
         title: artist.name,
@@ -714,7 +721,7 @@ for (const album of albums.values()) {
     album.cover,
     {
       type: "music.album",
-      lastmod: album.releaseDate,
+      lastmod: album.tracks.map(publicationDate).filter(Boolean).sort().at(-1),
       jsonLd: { "@context": "https://schema.org", "@type": "MusicAlbum", name: album.name, byArtist: { "@type": "MusicGroup", name: album.artist }, ...(album.releaseDate ? { datePublished: album.releaseDate } : {}), image: album.cover, ...(coverage.total ? { numTracks: coverage.total } : {}), url: `${SITE}/album/${album.slug}`, track: album.tracks.map((post) => ({ "@type": "MusicRecording", name: post.song, url: `${SITE}${postPath(post)}` })) },
       noindex: album.count < 2,
       staticHtml: staticCollectionPage({
@@ -899,8 +906,18 @@ for (const routeData of byPath.values()) {
   await writeFile(file, htmlFor(routeData), "utf8");
 }
 
-const indexableRoutes = [...byPath.values()].filter((routeData) => !routeData.noindex);
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexableRoutes.map((r) => `  <url>\n    <loc>${escapeHtml(`${SITE}${r.path}`)}</loc>${r.lastmod ? `\n    <lastmod>${new Date(r.lastmod).toISOString()}</lastmod>` : ""}\n  </url>`).join("\n")}\n</urlset>\n`;
+const indexableRoutes = [...byPath.values()].filter((r) => !r.noindex && !/^\/sarkilar\/page\//.test(r.path));
+const songPaths = new Set(posts.map(postPath));
+const sitemapGroups = { songs: [], artists: [], albums: [], news: [], pages: [] };
+for (const r of indexableRoutes) {
+  const group = songPaths.has(r.path) || r.path.startsWith('/es/') ? 'songs' : r.path.startsWith('/artist/') ? 'artists' : r.path.startsWith('/album/') ? 'albums' : r.path.startsWith('/pop-gunlugu/') ? 'news' : 'pages';
+  sitemapGroups[group].push(r);
+}
+for (const [group, entries] of Object.entries(sitemapGroups)) {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map(r => `<url><loc>${escapeHtml(`${SITE}${r.path}`)}</loc>${r.lastmod && !Number.isNaN(Date.parse(r.lastmod)) ? `<lastmod>${new Date(r.lastmod).toISOString()}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>`;
+  await writeFile(path.join(DIST, `sitemap-${group}.xml`), xml, 'utf8');
+}
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${Object.keys(sitemapGroups).map(group => `<sitemap><loc>${SITE}/sitemap-${group}.xml</loc></sitemap>`).join('')}</sitemapindex>`;
 
 const robots = `User-agent: *
 Allow: /

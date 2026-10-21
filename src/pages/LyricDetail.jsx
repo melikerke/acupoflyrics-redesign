@@ -26,6 +26,7 @@ import DetailLyricsTable from "../components/DetailLyricsTable";
 import { MetaRow, DetailVideo, youtubeEmbedUrl } from "../components/DetailSongExtras";
 import { copyForLanguage, interfaceLocaleFor } from "../lib/detailCopy";
 import { languageAlternates } from "../lib/translationVariants";
+import { releaseLabel, translationSchema } from "../lib/songPublication";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function detailMetaDescription(post, languages) {
@@ -450,6 +451,8 @@ export default function LyricDetail() {
           url: canonical(canonicalPath),
           ...(post.spotify?.track?.isrc || post.spotify?.isrc ? { isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc } : {}),
           sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
+          inLanguage: languagesFor(post).original,
+          subjectOf: translationSchema(post, canonical(canonicalPath)),
         }
       : null,
   });
@@ -603,7 +606,7 @@ export default function LyricDetail() {
             </motion.div>
 
             <div className="detail-hero-copy" lang={interfaceLocale}>
-              <h1 className="font-serif">{post.song}</h1>
+              <h1 className="font-serif">{post.artist} — {post.song}</h1>
               <div className="detail-artist-line">
                 <ArtistLinks artists={artistLinks} />
               </div>
@@ -660,7 +663,7 @@ export default function LyricDetail() {
         <aside className="detail-info-panel" lang={interfaceLocale}>
           <h2 className="font-serif">{ui.songInfo}</h2>
           <MetaRow label={ui.artist} value={<ArtistLinks artists={artistLinks} />} />
-          <MetaRow label={ui.album} value={hasAlbum ? albumName : ui.single} />
+          <MetaRow label={interfaceLocale === 'tr' ? releaseLabel(post) : ui.album} value={hasAlbum ? albumName : ui.single} />
           <MetaRow label={ui.status} value={post.releaseStatus || ""} />
           <MetaRow label={ui.firstPerformance} value={post.performanceSource || ""} />
           <MetaRow label={ui.release} value={year ? String(year) : ""} />
@@ -678,7 +681,7 @@ export default function LyricDetail() {
           <div className="detail-translator">
             <span aria-hidden />
             <div>
-              <strong>melike</strong>
+              <strong>Melike</strong>
               <small>{ui.translationAndNotes}</small>
             </div>
           </div>
