@@ -1,5 +1,5 @@
 import { matchChartEntry } from "../../src/lib/chartMatching.js";
-import { aboutTitle, aboutSections } from "../../src/data/aboutContent.js";
+import { aboutTitle, aboutSections, aboutProfileImage } from "../../src/data/aboutContent.js";
 
 function escapeHtml(value = "") {
   return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -30,7 +30,7 @@ export function staticSupportPage(path, postCount) {
     "/hakkimizda": {
       kicker: "Hakkımızda", title: aboutTitle,
       description: `acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyor — bugüne kadar ${postCount} çeviri.`,
-      children: aboutSections.map(section => `<section>${section.title ? `<h2>${escapeHtml(section.title)}</h2>` : ''}${section.paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('')}</section>`).join('') + '<p><a href="/discover">Arşivi keşfet</a> · <a href="/iletisim">İletişime geç</a></p>',
+      children: `<figure><img src="${aboutProfileImage}" alt="Melike Erke — acupoflyrics Instagram profil fotoğrafı" width="100" height="100" style="border-radius:50%;object-fit:cover"><figcaption><a href="https://www.instagram.com/acupoflyrics/">Melike Erke · @acupoflyrics</a></figcaption></figure>` + aboutSections.map(section => `<section>${section.title ? `<h2>${escapeHtml(section.title)}</h2>` : ''}${section.paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('')}</section>`).join('') + '<p><a href="/discover">Arşivi keşfet</a> · <a href="/iletisim">İletişime geç</a> · <a href="/es">İspanyolca çeviriler</a></p>',
     },
     "/iletisim": {
       kicker: "İletişim", title: "Yaz, okuyorum.",

@@ -15,6 +15,7 @@ import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
 import { relatedSongs } from "../src/lib/relatedSongs.js";
 import { annotationsFor } from "../src/lib/annotations.js";
+import { aboutSchema } from "../src/data/aboutContent.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
@@ -481,6 +482,7 @@ const routes = [
 for (const page of routes) {
   const support = staticSupportPage(page.path, posts.length);
   if (support) {
+    if (page.path === '/hakkimizda') page.jsonLd = aboutSchema;
     page.staticHtml = staticPage(support);
     page.breadcrumbs = [{ name: "Ana sayfa", path: "/" }, { name: support.kicker, path: page.path }];
   }
