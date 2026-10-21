@@ -1,18 +1,20 @@
+import { ORIGIN } from '../lib/paths.js';
+
 export const aboutTitle = 'İki dil arasında, bir şarkının içinde';
 export const aboutProfileImage = '/images/acupoflyrics-instagram-profile.jpg';
 export const aboutSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
-  '@id': 'https://acupoflyrics.com/hakkimizda',
-  url: 'https://acupoflyrics.com/hakkimizda',
+  '@id': `${ORIGIN}/hakkimizda`,
+  url: `${ORIGIN}/hakkimizda`,
   name: 'Hakkımızda | acupoflyrics',
   mainEntity: {
     '@type': 'Person',
-    '@id': 'https://acupoflyrics.com/hakkimizda#melike-erke',
+    '@id': `${ORIGIN}/hakkimizda#melike-erke`,
     name: 'Melike Erke',
     jobTitle: 'Çevirmen',
-    url: 'https://acupoflyrics.com/hakkimizda',
-    image: `https://acupoflyrics.com${aboutProfileImage}`,
+    url: `${ORIGIN}/hakkimizda`,
+    image: `${ORIGIN}${aboutProfileImage}`,
     sameAs: ['https://www.instagram.com/acupoflyrics/'],
   },
 };
@@ -27,7 +29,7 @@ export const aboutSections = [
     'Argo, kelime oyunları ve birden fazla anlama gelebilen ifadelerde tek bir kesin yorum her zaman mümkün değil. Böyle yerlerde çevirmen notlarıyla tercihimi açıklamaya, belirsizlik varsa bunu görünür bırakmaya önem veriyorum. Notlar, şarkının tek doğru yorumunu ilan etmek için değil; başka bir dilde kolayca gözden kaçabilecek ayrıntıları paylaşmak için var.',
   ] },
   { title: 'Bu arşivde neler bulabilirsin?', paragraphs: [
-    'Arşivde İngilizce ve Korece sözlü şarkılar başta olmak üzere farklı kaynak dillerden eserler bulunuyor. Şarkıların kaynak dili ile çevirinin dili ayrı belirtiliyor; böylece okumak istediğin sürümü seçebilirsin.',
+    'Arşivde İngilizce, Korece ve Fransızca sözlü şarkılar başta olmak üzere farklı kaynak dillerden eserler bulunuyor. Şarkıların kaynak dili ile çevirinin dili ayrı belirtiliyor; böylece okumak istediğin sürümü seçebilirsin.',
     'acupoflyrics’te global pop, R&B, alternatif müzik ve K-pop başta olmak üzere farklı dönemlerden şarkılar yer alıyor. Yeni çıkanların yanında yıllar sonra yeniden dönüp dinlediğimiz parçalar da arşivin bir parçası. Türkçe çevirilerin yanı sıra seçili şarkılar için İngilizce ve İspanyolca çeviriler de bulunuyor.',
     'Orijinal sözlerle çeviriyi birlikte okuyabilir, satırlar arasında arama yapabilir ve mevcut açıklama notlarını inceleyebilirsin. İlgili sayfalardaki dinleme bağlantıları da seni müzik platformlarına götürür.',
   ] },
