@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { songInsights } from '../src/data/songInsights.js';
 import { songEditorialDescriptions, songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
-import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription } from '../src/lib/meta.js';
+import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription, catalogTranslationDescription } from '../src/lib/meta.js';
 import { publicationDate } from '../src/lib/songPublication.js';
 import { staticSongInsight } from '../scripts/lib/prerenderContent.js';
 
@@ -19,7 +19,7 @@ test('50 evidence-selected pages receive complete editorial metadata', () => {
     assert.ok(post, slug);
     assert.ok(songEditorialDescriptions[slug], slug);
     const title = translationMetaTitle(post);
-    assert.ok(title.startsWith(`${post.artist} – `), slug);
+    assert.ok(title.startsWith(`${post.artist} – `) || (songLyricsTitleSlugs.has(slug) && title.startsWith(`${post.song} Sözleri`)), slug);
     const longCredit = slug === 'the-weeknd-jennie-lily-rose-depp-one-of-the-girls-turkce-ceviri';
     assert.ok(title.includes(longCredit ? 'Çeviri' : 'Türkçe Çeviri'), slug);
     assert.ok(title.length <= (songLyricsTitleSlugs.has(slug) ? 85 : 65), `${slug}: ${title.length}`);
@@ -35,14 +35,30 @@ test('eight follow-up pages retain full credits, Sözleri and handwritten descri
   for (const slug of songLyricsTitleSlugs) {
     const post = posts.find(post => post.slug === slug);
     const title = translationMetaTitle(post);
-    assert.ok(title.startsWith(`${post.artist} – ${post.song} `));
-    assert.ok(title.includes('Türkçe Çeviri, Sözleri'));
+    if (title.length > 60) {
+      assert.equal(title, `${post.song} Sözleri ve Türkçe Çeviri – ${post.artist}`);
+    } else {
+      assert.ok(title.startsWith(`${post.artist} – ${post.song} `));
+      assert.ok(title.includes('Türkçe Çeviri, Sözleri'));
+    }
     assert.equal(normalizeSeoTitle(title), title);
     assert.ok(title.length <= 85);
     if (title.length > 60) assert.ok(!title.includes('ve Anlamı'));
     assert.equal(translationMetaDescription(post), songEditorialDescriptions[slug]);
     assert.ok(songEditorialDescriptions[slug].length <= 152);
   }
+});
+
+test('catalog descriptions use release metadata, not article dates or imaginary notes', () => {
+  const post = { artist: 'Sanatçı', song: 'Şarkı', date: '2026-10-21', spotify: { albumName: 'Albüm Adı', releaseDate: '2020-06-01', albumType: 'Album' } };
+  const description = catalogTranslationDescription(post);
+  assert.ok(description.includes('Albüm: Albüm Adı (2020).'));
+  assert.ok(!description.includes('2026'));
+  assert.ok(!description.includes('notlarını'));
+  assert.ok(catalogTranslationDescription({ ...post, annotations: { term: 'Açıklama' } }).includes('notlarını'));
+  assert.ok(catalogTranslationDescription({ ...post, spotify: { albumName: 'Tekli Adı', albumType: 'Single' } }).includes('Tekli: Tekli Adı.'));
+  assert.ok(!catalogTranslationDescription({ ...post, spotify: {} }).includes('2026'));
+  for (const item of posts) assert.ok(catalogTranslationDescription(item).length <= 152, item.slug);
 });
 
 test('legacy lyric-excerpt descriptions are never emitted', () => {

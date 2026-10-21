@@ -43,6 +43,7 @@ export function normalizeSeoTitle(value) {
   const title = String(value || "").replace(/\s+/g, " ").trim();
   // Preserve complete credits in the editorial template, even for long duets.
   if (/^.+ – .+ (?:Türkçe )?Çeviri(?:, Sözleri(?: ve Anlamı)?)?$/.test(title)) return title;
+  if (/^.+ Sözleri ve Türkçe Çeviri – .+$/.test(title)) return title;
   const withoutSite = title.replace(/\s*\|\s*acupoflyrics\s*$/i, "").trim();
   const lead = withoutSite.split(/\s+[—–]\s+/)[0];
   return fitSeoTitle([title, withoutSite, `${lead} | acupoflyrics`, lead]);
@@ -62,7 +63,7 @@ export function translationMetaTitle(post) {
     const song = post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri' ? "Est-ce que tu m'aimes ?" : post.song;
     const lead = `${post.artist} – ${song}`;
     const candidates = [`${lead} Türkçe Çeviri, Sözleri ve Anlamı`, `${lead} Türkçe Çeviri, Sözleri`, `${lead} Türkçe Çeviri`];
-    if (songLyricsTitleSlugs.has(post.slug)) return candidates[0].length <= 60 ? candidates[0] : candidates[1];
+    if (songLyricsTitleSlugs.has(post.slug)) return candidates[0].length <= 60 ? candidates[0] : `${song} Sözleri ve Türkçe Çeviri – ${post.artist}`;
     return candidates.find(title => title.length <= 60) || (candidates.at(-1).length <= 65 ? candidates.at(-1) : `${lead} Çeviri`);
   }
   const languages = languagesFor(post);
@@ -114,5 +115,26 @@ export function translationMetaDescription(post) {
     return sanitizeSeoDescription(`${post.artist} – ${post.song} ${originalLanguage} lyrics with ${translationLabel(post, "en").toLowerCase()}. Read the original lyrics alongside the translation.`);
   }
 
-  return sanitizeSeoDescription(`${post.artist} – ${post.song} şarkı sözleri ve Türkçe çevirisi. Orijinal sözlerle Türkçe çeviriyi birlikte okuyabilir, satırlar arasında arama yapabilirsin.`);
+  return catalogTranslationDescription(post);
+}
+
+export function catalogTranslationDescription(post) {
+  const lead = `${post.artist} – ${post.song} sözleri ve Türkçe çevirisi.`;
+  const album = String(post.spotify?.albumName || post.spotify?.album?.name || '').trim();
+  // Article publication dates are not recording release dates.
+  const release = String(post.spotify?.releaseDate || post.spotify?.album?.releaseDate || post.spotify?.album?.release_date || '');
+  const year = /^\d{4}(?:-|$)/.test(release) ? release.slice(0, 4) : '';
+  const type = String(post.spotify?.albumType || post.spotify?.album?.albumType || post.spotify?.album?.rawAlbumType || '').toLowerCase();
+  const kind = type === 'single' ? 'Tekli' : type === 'ep' ? 'EP' : 'Albüm';
+  const context = album ? `${kind}: ${album}${year ? ` (${year})` : ''}.` : year ? `Yayın yılı: ${year}.` : '';
+  const hasNotes = Object.values(post.annotations || {}).some(note => typeof note === 'string' && note.trim());
+  const reading = hasNotes ? 'Orijinal sözleri ve çeviri notlarını oku.' : 'Orijinal sözleri ve çeviriyi birlikte oku.';
+  const options = [
+    [lead, context, reading].filter(Boolean).join(' '),
+    [lead, context].filter(Boolean).join(' '),
+    [lead, year ? `Yayın yılı: ${year}.` : '', reading].filter(Boolean).join(' '),
+    `${lead} ${reading}`,
+    lead,
+  ];
+  return options.find(text => text.length <= META_DESCRIPTION_MAX) || sanitizeSeoDescription(lead);
 }
