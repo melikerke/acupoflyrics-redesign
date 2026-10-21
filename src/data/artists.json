@@ -176,7 +176,7 @@
   {
     "slug": "billie-eilish",
     "name": "Billie Eilish",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da"
   },
   {
@@ -428,7 +428,7 @@
   {
     "slug": "lana-del-rey",
     "name": "Lana Del Rey",
-    "count": 2,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261"
   },
   {
@@ -524,7 +524,7 @@
   {
     "slug": "adele",
     "name": "Adele",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17"
   },
   {
@@ -776,7 +776,7 @@
   {
     "slug": "eminem",
     "name": "Eminem",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
   },
   {
@@ -914,7 +914,7 @@
   {
     "slug": "indila",
     "name": "Indila",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6cd07d169e7e2ec94193a1d2"
   },
   {
@@ -1028,7 +1028,7 @@
   {
     "slug": "khalid",
     "name": "Khalid",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb8f77c3eddc1869e9542b04bc"
   },
   {
@@ -1574,7 +1574,7 @@
   {
     "slug": "cardi-b",
     "name": "Cardi B",
-    "count": 1,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d"
   },
   {
@@ -2218,5 +2218,29 @@
     "name": "manifest",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a"
+  },
+  {
+    "slug": "arctic-monkeys",
+    "name": "Arctic Monkeys",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f"
+  },
+  {
+    "slug": "the-neighbourhood",
+    "name": "The Neighbourhood",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816"
+  },
+  {
+    "slug": "tom-odell",
+    "name": "Tom Odell",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb89633578648b0b51f53d167f"
+  },
+  {
+    "slug": "cigarettes-after-sex",
+    "name": "Cigarettes After Sex",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e08fd554de35c3ef1db7fd9"
   }
 ]

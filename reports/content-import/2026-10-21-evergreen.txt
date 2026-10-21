@@ -1,0 +1,96 @@
+12 çeviri ekleme kontrolü — 21 Ekim 2026
+
+Sonuç: 591 mevcut kayıt değiştirilmeden korundu; 12 yeni kayıt eklendi. Toplam 603.
+Kullanıcının metinleri ve düzeltme listesi esas alındı. Eksik tekrarlar ve kısa vokaller kullanıcı onayıyla tamamlandı.
+Biçimlendirme kalıntıları ve 'Analiz: Bu Çeviride Ne Yaptık?' gibi hazırlık anlatıları şarkı sözlerine taşınmadı.
+Dil/kelime oyunu notları ayrı ve tıklanabilir açıklamalar olarak eklendi.
+Spotify Web API ile sanatçı, eser, albüm, kapak ve bağlantı doğrulandı.
+YouTube oEmbed ile 12 videonun başlığı ve kanalı doğrulandı.
+
+Cardi B — Bodak Yellow
+Yerel sayfa: /cardi-b-bodak-yellow-turkce-ceviri/
+Spotify: https://open.spotify.com/track/6KBYefIoo7KydImq1uUQlL
+YouTube: https://www.youtube.com/watch?v=PEGccV-NOm8 (Cardi B)
+6 bölüm; 62 kaynak satır; 103 Türkçe satır; 19 açıklama.
+
+Arctic Monkeys — I Wanna Be Yours
+Yerel sayfa: /arctic-monkeys-i-wanna-be-yours-turkce-ceviri/
+Spotify: https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n
+YouTube: https://www.youtube.com/watch?v=nyuo9-OjNNg (Arctic Monkeys - Topic)
+7 bölüm; 44 kaynak satır; 44 Türkçe satır; 4 açıklama.
+
+The Neighbourhood — Sweater Weather
+Yerel sayfa: /the-neighbourhood-sweater-weather-turkce-ceviri/
+Spotify: https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6
+YouTube: https://www.youtube.com/watch?v=GCdwKhTtNNw (TheNeighbourhoodVEVO)
+9 bölüm; 52 kaynak satır; 52 Türkçe satır; 3 açıklama.
+
+Tom Odell — Another Love
+Yerel sayfa: /tom-odell-another-love-turkce-ceviri/
+Spotify: https://open.spotify.com/track/3JvKfv6T31zO0ini8iNItO
+YouTube: https://www.youtube.com/watch?v=MwpMEbgC7DA (TomOdellVEVO)
+10 bölüm; 47 kaynak satır; 47 Türkçe satır; 3 açıklama.
+
+Lana Del Rey — Summertime Sadness
+Yerel sayfa: /lana-del-rey-summertime-sadness-turkce-ceviri/
+Spotify: https://open.spotify.com/track/3BJe4B8zGnqEdQPMvfVjuS
+YouTube: https://www.youtube.com/watch?v=nVjsGKrE6E8 (Lana Del Rey)
+13 bölüm; 53 kaynak satır; 53 Türkçe satır; 4 açıklama.
+
+Adele — Set Fire to the Rain
+Yerel sayfa: /adele-set-fire-to-the-rain-turkce-ceviri/
+Spotify: https://open.spotify.com/track/3di5hcvxxciiqwMH1jarhY
+YouTube: https://www.youtube.com/watch?v=uJdu4Lfy8aI (Adele Adkins - Topic)
+9 bölüm; 59 kaynak satır; 59 Türkçe satır; 4 açıklama.
+
+Billie Eilish, Khalid — lovely
+Yerel sayfa: /billie-eilish-khalid-lovely-turkce-ceviri/
+Spotify: https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4
+YouTube: https://www.youtube.com/watch?v=V1Pl8CzNzCw (BillieEilishVEVO)
+7 bölüm; 28 kaynak satır; 28 Türkçe satır; 4 açıklama.
+
+Eminem — Mockingbird
+Yerel sayfa: /eminem-mockingbird-turkce-ceviri/
+Spotify: https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s
+YouTube: https://www.youtube.com/watch?v=S9bCLPwzSC0 (EminemVEVO)
+6 bölüm; 91 kaynak satır; 91 Türkçe satır; 7 açıklama.
+
+Cardi B — Up
+Yerel sayfa: /cardi-b-up-turkce-ceviri/
+Spotify: https://open.spotify.com/track/1XXimziG1uhM0eDNCZCrUl
+YouTube: https://www.youtube.com/watch?v=rCiBgLOcuKU (Cardi B)
+12 bölüm; 61 kaynak satır; 61 Türkçe satır; 8 açıklama.
+
+Lana Del Rey — Young and Beautiful
+Yerel sayfa: /lana-del-rey-young-and-beautiful-turkce-ceviri/
+Spotify: https://open.spotify.com/track/2nMeu6UenVvwUktBCpLMK9
+YouTube: https://www.youtube.com/watch?v=o_1aF54DO60 (LanaDelReyVEVO)
+9 bölüm; 34 kaynak satır; 34 Türkçe satır; 5 açıklama.
+
+Indila — Dernière danse
+Yerel sayfa: /indila-derniere-danse-turkce-ceviri/
+Spotify: https://open.spotify.com/track/65uoaqX5qcjXZRheAj1qQT
+YouTube: https://www.youtube.com/watch?v=K5KAc5CoCuk (IndilaVEVO)
+6 bölüm; 40 kaynak satır; 40 Türkçe satır; 4 açıklama.
+
+Cigarettes After Sex — Apocalypse
+Yerel sayfa: /cigarettes-after-sex-apocalypse-turkce-ceviri/
+Spotify: https://open.spotify.com/track/1oAwsWBovWRIp7qLMGPIet
+YouTube: https://www.youtube.com/watch?v=sElE_BfQ67s (Cigarettes After Sex)
+8 bölüm; 29 kaynak satır; 33 Türkçe satır; 4 açıklama.
+
+Kontroller:
+- npm run build: başarılı.
+- 12 yeni URL: yerel önizlemede HTTP 200.
+- 12 yeni sayfanın başlangıç HTML'inde bütün kaynak/Türkçe satırlar ve notlar kontrol edildi.
+- Yeni çevirilere özel 3 regresyon testi: başarılı.
+- SEO regresyon ve üretilen site bağlantı denetimi: başarılı.
+- Genel Node testleri: 26 testten 25 başarılı. Bir eski İspanyolca testi sitemap.xml içinde doğrudan sayfa URL'leri bekliyor; mevcut sitemap.xml ise alt haritaların dizini. Alt haritaları kontrol eden güncel test geçiyor. Bu içerik görevi kapsamında eski test değiştirilmedi.
+- Tarayıcıda Arctic Monkeys — I Wanna Be Yours sayfası açıldı; çeviri, not düğmeleri ve iki müzik bağlantısı göründü.
+- src/data/posts.json ile data/content/posts.json aynı.
+- git diff --check: başarılı.
+
+Push kapsamı: Yalnızca bu rapordaki 12 yeni çeviri, ilgili sanatçı/arşiv indeksleri ve regresyon testleri.
+Yayın tabanı 589 kayıt; bu paketin ardından 601 kayıt. Yereldeki 603 toplamının içindeki, önceki çalışmalardan kalan 2 yeni kayıt bu pakete dahil edilmedi.
+Önceden bekleyen haber, müzik listesi ve diğer kullanıcı değişiklikleri yerelde korunmuştur.
+GitHub'a gönderim ile canlı deploy'un tamamlanması ayrı durumlardır; bu rapor tek başına canlı deploy doğrulaması değildir.
