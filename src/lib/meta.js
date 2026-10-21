@@ -1,5 +1,5 @@
 import { languageInfo, languagesFor, translationLabel } from "./languages.js";
-import { songEditorialDescriptions, songLyricsTitleSlugs } from '../data/songEditorialSeo.js';
+import { songEditorialDescriptions } from '../data/songEditorialSeo.js';
 
 const META_DESCRIPTION_MAX = 152;
 const META_TITLE_MAX = 65;
@@ -43,7 +43,7 @@ export function normalizeSeoTitle(value) {
   const title = String(value || "").replace(/\s+/g, " ").trim();
   // Preserve complete credits in the editorial template, even for long duets.
   if (/^.+ – .+ (?:Türkçe )?Çeviri(?:, Sözleri(?: ve Anlamı)?)?$/.test(title)) return title;
-  if (/^.+ Sözleri ve Türkçe Çeviri – .+$/.test(title)) return title;
+  if (/^.+ Sözleri(?: ve|,) Türkçe Çeviri – .+$/.test(title)) return title;
   const withoutSite = title.replace(/\s*\|\s*acupoflyrics\s*$/i, "").trim();
   const lead = withoutSite.split(/\s+[—–]\s+/)[0];
   return fitSeoTitle([title, withoutSite, `${lead} | acupoflyrics`, lead]);
@@ -60,13 +60,6 @@ export function completeSeoDescription(value, locale = "tr") {
 export function translationMetaTitle(post) {
   if (!post) return "Şarkı Çevirileri | acupoflyrics";
   if (usesCatalogTitle(post)) return catalogTranslationTitle(post);
-  if (songEditorialDescriptions[post.slug]) {
-    const song = post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri' ? "Est-ce que tu m'aimes ?" : post.song;
-    const lead = `${post.artist} – ${song}`;
-    const candidates = [`${lead} Türkçe Çeviri, Sözleri ve Anlamı`, `${lead} Türkçe Çeviri, Sözleri`, `${lead} Türkçe Çeviri`];
-    if (songLyricsTitleSlugs.has(post.slug)) return candidates[0].length <= 60 ? candidates[0] : `${song} Sözleri ve Türkçe Çeviri – ${post.artist}`;
-    return candidates.find(title => title.length <= 60) || (candidates.at(-1).length <= 65 ? candidates.at(-1) : `${lead} Çeviri`);
-  }
   const languages = languagesFor(post);
   const locale = languages.translation === "tr" ? "tr" : "en";
   const label = translationLabel(post, locale);
@@ -88,12 +81,33 @@ export function translationMetaTitle(post) {
 }
 
 export function usesCatalogTitle(post) {
-  return languagesFor(post).translation === 'tr' && isLegacyLyricDescription(post.seo?.description);
+  return languagesFor(post).translation === 'tr';
+}
+
+export function catalogTitleIdentity(post) {
+  // Only title presentation changes; full on-page credits and lyric text remain intact.
+  // Remix credit verified: https://music.apple.com/us/album/1796001176
+  const remix = post.slug === 'tyla-sean-paul-push-2-start-turkce-ceviri';
+  const artist = (remix ? 'Tyla, Sean Paul' : String(post.artist || '').replace(/Tate Mcrae/gi, 'Tate McRae'))
+    .replace(/\s+/g, ' ').trim().replace('Dolly Parton & Kenny Rogers', 'Dolly Parton, Kenny Rogers');
+  const artists = artist.split(/\s*,\s*|\s+feat\.?\s+|\s+ft\.?\s+/i).filter(Boolean);
+  let song = remix ? 'PUSH 2 START (Remix)' : String(post.song || '');
+  song = song.replace(/\s*\((?:from\s+|feat\.?\s+|ft\.?\s+)[^)]*\)/gi, '').replace(/\s*[-–]\s*bonus track\s*$/i, '').trim();
+  if (post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri') song = "Est-ce que tu m'aimes ?";
+  return { song, artists };
 }
 
 export function catalogTranslationTitle(post) {
-  const full = `${post.artist} – ${post.song} Türkçe Çeviri, Sözleri ve Anlamı`;
-  return full.length <= 60 ? full : `${post.song} Sözleri ve Türkçe Çeviri – ${post.artist}`;
+  const { song, artists } = catalogTitleIdentity(post);
+  const credit = artists.slice(0, 2).join(', ') + (artists.length > 2 ? ' vd.' : '');
+  const full = `${credit} – ${song} Türkçe Çeviri, Sözleri ve Anlamı`;
+  if (full.length <= 60) return full;
+  const long = `${song} Sözleri ve Türkçe Çeviri – ${credit}`;
+  if (long.length <= 65) return long;
+  // Prefer one credited artist plus vd. over cutting the search intent or song name.
+  const shortCredit = artists.length > 1 ? `${artists[0]} vd.` : credit;
+  const shorter = `${song} Sözleri ve Türkçe Çeviri – ${shortCredit}`;
+  return shorter.length <= 65 ? shorter : `${song} Sözleri, Türkçe Çeviri – ${shortCredit}`;
 }
 
 export function isLegacyLyricDescription(value) {

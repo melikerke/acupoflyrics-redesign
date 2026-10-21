@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { songInsights } from '../src/data/songInsights.js';
 import { songEditorialDescriptions, songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
-import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription, catalogTranslationDescription, usesCatalogTitle, catalogTranslationTitle } from '../src/lib/meta.js';
+import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription, catalogTranslationDescription, usesCatalogTitle, catalogTranslationTitle, catalogTitleIdentity } from '../src/lib/meta.js';
 import { publicationDate } from '../src/lib/songPublication.js';
 import { staticSongInsight } from '../scripts/lib/prerenderContent.js';
 
@@ -19,7 +19,7 @@ test('50 evidence-selected pages receive complete editorial metadata', () => {
     assert.ok(post, slug);
     assert.ok(songEditorialDescriptions[slug], slug);
     const title = translationMetaTitle(post);
-    assert.ok(title.startsWith(`${post.artist} – `) || ((usesCatalogTitle(post) || songLyricsTitleSlugs.has(slug)) && title.startsWith(`${post.song} Sözleri`)), slug);
+    assert.ok(title.includes(catalogTitleIdentity(post).song), slug);
     const longCredit = slug === 'the-weeknd-jennie-lily-rose-depp-one-of-the-girls-turkce-ceviri';
     assert.ok(title.includes(longCredit ? 'Çeviri' : 'Türkçe Çeviri'), slug);
     if (usesCatalogTitle(post)) assert.equal(title, catalogTranslationTitle(post));
@@ -32,13 +32,23 @@ test('50 evidence-selected pages receive complete editorial metadata', () => {
   }
 });
 
-test('all legacy Turkish titles use catalog spelling and the requested ordering in built HTML', async () => {
+test('ALL Turkish titles use the template in built HTML, regardless of old description format', async () => {
   const legacy = posts.filter(usesCatalogTitle);
-  assert.ok(legacy.length >= 271);
+  assert.equal(legacy.length, posts.length - 3, 'All pages except the three English translations must be covered');
+  const unique = new Set();
   for (const post of legacy) {
-    const full = `${post.artist} – ${post.song} Türkçe Çeviri, Sözleri ve Anlamı`;
-    const expected = full.length <= 60 ? full : `${post.song} Sözleri ve Türkçe Çeviri – ${post.artist}`;
+    const expected = catalogTranslationTitle(post);
     assert.equal(translationMetaTitle(post), expected);
+    assert.ok(expected.includes('Sözleri') && expected.includes('Türkçe Çeviri'));
+    assert.ok(!expected.includes('|'));
+    assert.ok(!unique.has(expected), `Duplicate title: ${expected}`);
+    unique.add(expected);
+    const { song, artists } = catalogTitleIdentity(post);
+    if (expected.length > 60) assert.ok(expected.startsWith(`${song} Sözleri`), post.slug);
+    if (artists.length > 2) {
+      assert.ok(expected.includes('vd.'), post.slug);
+      assert.ok(!expected.includes(artists.slice(0, 3).join(', ')), post.slug);
+    }
     assert.equal(normalizeSeoTitle(expected), expected);
     const html = await readFile(new URL(`../dist/${post.slug}/index.html`, import.meta.url), 'utf8');
     assert.ok(html.includes(`<title>${escapeHtml(expected)}</title>`), post.slug);
@@ -48,22 +58,31 @@ test('all legacy Turkish titles use catalog spelling and the requested ordering 
   assert.equal(usesCatalogTitle({ artist: 'Test', song: 'Test', languages: { original: 'tr', translation: 'en' } }), false);
 });
 
-test('eight follow-up pages retain full credits, Sözleri and handwritten descriptions', () => {
+test('eight follow-up pages retain Sözleri and handwritten descriptions', () => {
   for (const slug of songLyricsTitleSlugs) {
     const post = posts.find(post => post.slug === slug);
     const title = translationMetaTitle(post);
-    if (title.length > 60) {
-      assert.equal(title, `${post.song} Sözleri ve Türkçe Çeviri – ${post.artist}`);
-    } else {
-      assert.ok(title.startsWith(`${post.artist} – ${post.song} `));
-      assert.ok(title.includes('Türkçe Çeviri, Sözleri'));
-    }
+    assert.equal(title, catalogTranslationTitle(post));
     assert.equal(normalizeSeoTitle(title), title);
     assert.ok(title.length <= 85);
     if (title.length > 60) assert.ok(!title.includes('ve Anlamı'));
     assert.equal(translationMetaDescription(post), songEditorialDescriptions[slug]);
     assert.ok(songEditorialDescriptions[slug].length <= 152);
   }
+});
+
+test('title cleanup preserves version identity and the three English pages', () => {
+  const titleFor = slug => translationMetaTitle(posts.find(post => post.slug === slug));
+  assert.ok(titleFor('tyla-sean-paul-push-2-start-turkce-ceviri').includes('Sean Paul'));
+  assert.ok(titleFor('tyla-sean-paul-push-2-start-turkce-ceviri').includes('Remix'));
+  assert.notEqual(titleFor('tyla-push-2-start-turkce-ceviri'), titleFor('tyla-sean-paul-push-2-start-turkce-ceviri'));
+  assert.ok(titleFor('tate-mcrae-its-ok-im-ok-turkce-ceviri').includes('Tate McRae'));
+  for (const slug of ['rose-messy-turkce-ceviri', 'taylor-swift-right-where-you-left-me-turkce-ceviri', 'katseye-ft-yeonjun-touch-turkce-ceviri']) {
+    assert.ok(!/From F1|bonus track|ft\. YEONJUN/i.test(titleFor(slug)));
+  }
+  assert.equal(titleFor('crush-benim-olsana-english-translation'), 'CRUSH Benim Olsana English Translation');
+  assert.equal(titleFor('motive-yin-yang-english-translation'), 'Motive – YIN YANG English Translation');
+  assert.equal(titleFor('radikal-korkmam-ben-english-translation'), 'Radikal KORKMAM BEN English Translation');
 });
 
 test('catalog descriptions use release metadata, not article dates or imaginary notes', () => {
