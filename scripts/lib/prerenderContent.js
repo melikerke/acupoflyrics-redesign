@@ -1,4 +1,5 @@
 import { matchChartEntry } from "../../src/lib/chartMatching.js";
+import { aboutTitle, aboutSections } from "../../src/data/aboutContent.js";
 
 function escapeHtml(value = "") {
   return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -27,9 +28,9 @@ export function staticArticleLinks(article, posts, articles = []) {
 export function staticSupportPage(path, postCount) {
   const pages = {
     "/hakkimizda": {
-      kicker: "Hakkımızda", title: "İki dil arasında bir okuma alanı.",
+      kicker: "Hakkımızda", title: aboutTitle,
       description: `acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyor — bugüne kadar ${postCount} çeviri.`,
-      children: `<h2>Çevirmen: Melike Erke</h2><p>acupoflyrics çevirilerini hazırlayan Melike Erke’ye düzeltme ve çeviri önerilerini iletişim sayfasından iletebilirsin.</p><p>Burada çeviri, bir şarkının bıraktığı hissi Türkçede yeniden kurmak olarak anlaşılır. Çeviri tercihlerinin gerekçesi çevirmen notlarıyla açıklanır.</p><p>Spotify ve YouTube bağlantıları ilgili platformlara gider.</p><p>Bir düzeltme önerin ya da çevrilmesini istediğin bir şarkı varsa <a href="/iletisim">iletişim sayfasından</a> yazabilirsin.</p><p><a href="/discover">Arşivi keşfet</a></p>`,
+      children: aboutSections.map(section => `<section>${section.title ? `<h2>${escapeHtml(section.title)}</h2>` : ''}${section.paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('')}</section>`).join('') + '<p><a href="/discover">Arşivi keşfet</a> · <a href="/iletisim">İletişime geç</a></p>',
     },
     "/iletisim": {
       kicker: "İletişim", title: "Yaz, okuyorum.",

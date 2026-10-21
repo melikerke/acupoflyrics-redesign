@@ -5,6 +5,7 @@ import { LIGHT_THEME } from "../lib/theme";
 import { useSeo } from "../lib/seo";
 import SiteShell from "../components/site/SiteShell";
 import PageHero from "../components/site/PageHero";
+import { aboutTitle, aboutSections } from "../data/aboutContent";
 
 export default function AboutPage() {
   useSeo({
@@ -24,29 +25,17 @@ export default function AboutPage() {
         bg={newReleases[0]?.cover}
         collage={newReleases.slice(0, 4).map((p) => p.cover)}
         kicker="Hakkımızda"
-        title="İki dil arasında bir okuma alanı."
+        title={aboutTitle}
         titleSerif
         description={`acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyor — bugüne kadar ${totalPosts} çeviri.`}
       />
 
       <section className="acl-section" style={{ maxWidth: 720 }}>
         <div className="site-prose">
-          <h2>Çevirmen: Melike Erke</h2>
-          <p>acupoflyrics çevirilerini hazırlayan Melike Erke’ye düzeltme ve çeviri önerilerini iletişim sayfasından iletebilirsin.</p>
-          <p>
-            Burada çeviri, kelimeleri değiştirmek değil; bir şarkının bıraktığı hissi
-            Türkçede yeniden kurmak olarak anlaşılır. Her çeviri tek tek elle yapılır,
-            zor tercihlerin gerekçesi çevirmen notlarıyla açıklanır.
-          </p>
-          <p>
-            Sözlerin telifi sanatçılarına ve yayıncılarına aittir; bu sitedeki metinler
-            eğitim ve kültürel paylaşım amacıyla, kaynağına bağlantı verilerek sunulur.
-            Spotify ve YouTube bağlantıları ilgili platformlara gider.
-          </p>
-          <p>
-            Bir düzeltme önerin ya da çevrilmesini istediğin bir şarkı varsa{" "}
-            <Link to="/iletisim">iletişim sayfasından</Link> yazabilirsin.
-          </p>
+          {aboutSections.map((section, index) => <section key={section.title || index}>
+            {section.title && <h2>{section.title}</h2>}
+            {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+          </section>)}
         </div>
         <div className="site-hero-actions" style={{ marginTop: 26 }}>
           <Link className="site-btn" to={discoverPath()}>Arşivi keşfet</Link>
