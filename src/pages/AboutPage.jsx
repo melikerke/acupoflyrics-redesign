@@ -31,6 +31,8 @@ export default function AboutPage() {
 
       <section className="acl-section" style={{ maxWidth: 720 }}>
         <div className="site-prose">
+          <h2>Çevirmen: Melike Erke</h2>
+          <p>acupoflyrics çevirilerini hazırlayan Melike Erke’ye düzeltme ve çeviri önerilerini iletişim sayfasından iletebilirsin.</p>
           <p>
             Burada çeviri, kelimeleri değiştirmek değil; bir şarkının bıraktığı hissi
             Türkçede yeniden kurmak olarak anlaşılır. Her çeviri tek tek elle yapılır,

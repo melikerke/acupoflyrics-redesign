@@ -1,7 +1,18 @@
 import { languagesFor } from './languages.js';
 
 export function publicationDate(post) {
-  return post.updatedAt || post.modified || post.date;
+  return isoDate(post.updatedAt) || isoDate(post.modified) || isoDate(post.date);
+}
+
+export function isoDate(value) {
+  if (!value) return undefined;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? undefined : date.toISOString();
+}
+
+export function readablePublicationDate(value) {
+  const iso = isoDate(value);
+  return iso ? new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Istanbul' }).format(new Date(iso)) : '';
 }
 
 export function releaseLabel(post) {
@@ -18,8 +29,8 @@ export function translationSchema(post, url) {
     name: `${post.artist} — ${post.song} (${languagesFor(post).translation})`,
     url,
     inLanguage: languagesFor(post).translation,
-    author: { '@type': 'Person', name: 'Melike', url: 'https://www.acupoflyrics.com/hakkimizda' },
-    datePublished: post.date,
+    author: { '@type': 'Person', name: 'Melike Erke', url: 'https://www.acupoflyrics.com/hakkimizda' },
+    datePublished: isoDate(post.date),
     dateModified: publicationDate(post),
     translationOfWork: {
       '@type': 'CreativeWork',

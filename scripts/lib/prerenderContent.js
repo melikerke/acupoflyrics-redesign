@@ -29,7 +29,7 @@ export function staticSupportPage(path, postCount) {
     "/hakkimizda": {
       kicker: "Hakkımızda", title: "İki dil arasında bir okuma alanı.",
       description: `acupoflyrics, 2020'den beri şarkı sözlerinin hikâyesini ve anlamını Türkçeye taşıyor — bugüne kadar ${postCount} çeviri.`,
-      children: `<p>Burada çeviri, bir şarkının bıraktığı hissi Türkçede yeniden kurmak olarak anlaşılır. Çeviri tercihlerinin gerekçesi çevirmen notlarıyla açıklanır.</p><p>Spotify ve YouTube bağlantıları ilgili platformlara gider.</p><p>Bir düzeltme önerin ya da çevrilmesini istediğin bir şarkı varsa <a href="/iletisim">iletişim sayfasından</a> yazabilirsin.</p><p><a href="/discover">Arşivi keşfet</a></p>`,
+      children: `<h2>Çevirmen: Melike Erke</h2><p>acupoflyrics çevirilerini hazırlayan Melike Erke’ye düzeltme ve çeviri önerilerini iletişim sayfasından iletebilirsin.</p><p>Burada çeviri, bir şarkının bıraktığı hissi Türkçede yeniden kurmak olarak anlaşılır. Çeviri tercihlerinin gerekçesi çevirmen notlarıyla açıklanır.</p><p>Spotify ve YouTube bağlantıları ilgili platformlara gider.</p><p>Bir düzeltme önerin ya da çevrilmesini istediğin bir şarkı varsa <a href="/iletisim">iletişim sayfasından</a> yazabilirsin.</p><p><a href="/discover">Arşivi keşfet</a></p>`,
     },
     "/iletisim": {
       kicker: "İletişim", title: "Yaz, okuyorum.",

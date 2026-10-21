@@ -27,6 +27,7 @@ import { MetaRow, DetailVideo, youtubeEmbedUrl } from "../components/DetailSongE
 import { copyForLanguage, interfaceLocaleFor } from "../lib/detailCopy";
 import { languageAlternates } from "../lib/translationVariants";
 import { releaseLabel, translationSchema } from "../lib/songPublication";
+import { relatedSongs } from "../lib/relatedSongs";
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function detailMetaDescription(post, languages) {
@@ -500,27 +501,9 @@ export default function LyricDetail() {
     && albumNameFor(candidate) === albumNameFor(post)
     && albumNameFor(post) !== "Tekli"
   ));
-  const related = sameAlbumRelated.length >= 4
-    ? sameAlbumRelated.slice(0, 4)
-    : sameArtistRelated.length >= 4
-      ? sameArtistRelated
-    : [
-        ...sameAlbumRelated,
-        ...sameArtistRelated,
-        ...allPosts.filter((candidate) => (
-          candidate.slug !== post.slug &&
-          !sameAlbumRelated.some((item) => item.slug === candidate.slug) &&
-          !sameArtistRelated.some((item) => item.slug === candidate.slug) &&
-          candidate.category_slugs?.some((slug) => post.category_slugs?.includes(slug))
-        )),
-        ...allPosts.filter((candidate) => (
-          candidate.slug !== post.slug &&
-          !sameArtistRelated.some((item) => item.slug === candidate.slug)
-        )),
-      ].filter((candidate, index, items) => items.findIndex((item) => item.slug === candidate.slug) === index).slice(0, 4);
-  const artistLinks = creditedArtistsFor(post);
-  const sections = lyricSections(post.blocks);
-  const isLyricsLoading = indexedPost && fullPost === null;
+  const recommendationPost = allPosts.find(item => item.slug === post.slug) || post;
+  const related = relatedSongs(recommendationPost, allPosts, 4);
+
   const parsedYear = new Date(post.spotify?.album?.releaseDate || post.date).getFullYear();
   const year = Number.isNaN(parsedYear) ? "" : parsedYear;
   const light = !isDark(accent);
@@ -681,7 +664,7 @@ export default function LyricDetail() {
           <div className="detail-translator">
             <span aria-hidden />
             <div>
-              <strong>Melike</strong>
+              <strong>Melike Erke</strong>
               <small>{ui.translationAndNotes}</small>
             </div>
           </div>

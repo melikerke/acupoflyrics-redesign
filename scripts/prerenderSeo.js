@@ -12,7 +12,8 @@ import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks } from "./lib/prerenderContent.js";
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
-import { publicationDate, releaseLabel, translationSchema } from "../src/lib/songPublication.js";
+import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
+import { relatedSongs } from "../src/lib/relatedSongs.js";
 import { annotationsFor } from "../src/lib/annotations.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -37,6 +38,7 @@ const articleDateRange = articleMonths.length ? `${monthLabel(articleMonths[0])}
 const SONGS_PER_PAGE = 48;
 const moodNames = MOOD_NAMES;
 const postMoods = new Map(posts.map((post) => [post.slug, moodsForPost(post)]));
+const recommendationPosts = catalogPosts.map(post => ({ ...post, moods: postMoods.get(post.slug) }));
 const genreNames = ["Pop", "Rock", "Hip Hop", "Alternative", "K-pop", "R&B", "EDM", "Indie"];
 const KPOP_ARTISTS = new Set(["stray kids", "lisa", "jennie", "rosé", "rosie", "twice", "bts", "jin", "jimin", "jungkook", "ateez", "g-dragon", "blackpink", "jisoo", "aespa", "katseye", "itzy", "newjeans", "seventeen", "enhypen", "txt", "ive", "rm", "suga", "j-hope", "v", "zerobaseone", "le sserafim", "babymonster"]);
 const RAP_ARTISTS = ["kendrick lamar", "eminem", "doja cat", "nicki minaj", "cardi b", "tyler", "drake", "j. cole", "travis scott", "sza"];
@@ -286,7 +288,9 @@ function staticSongCopy(post) {
 function staticSong(post, postIndex) {
   const noteEntries = Object.entries({ ...annotationsFor(post.slug), ...(post.annotations || {}) }).filter(([, note]) => typeof note === 'string' && note.trim());
   const notesHtml = noteEntries.length ? `<section aria-label="Çevirmen notları"><h2>Çeviri ve notlar</h2>${noteEntries.map(([term, note]) => `<details><summary>${escapeHtml(term)}</summary><p>${escapeHtml(note)}</p></details>`).join('')}</section>` : '';
-  const publication = `<section><h2>Şarkı Bilgisi</h2><p>Çevirmen: <a href="/hakkimizda">Melike</a></p><p>Yayın tarihi: <time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time></p>${publicationDate(post) !== post.date ? `<p>Güncelleme: <time datetime="${escapeHtml(publicationDate(post))}">${escapeHtml(publicationDate(post))}</time></p>` : ''}</section>`;
+  const published = isoDate(post.date);
+  const modified = publicationDate(post);
+  const publication = `<section><h2>Şarkı Bilgisi</h2><p>Çevirmen: <a href="/hakkimizda">Melike Erke</a></p>${published ? `<p>Yayın tarihi: <time datetime="${published}">${readablePublicationDate(published)}</time></p>` : ''}${modified && modified !== published ? `<p>Güncelleme: <time datetime="${modified}">${readablePublicationDate(modified)}</time></p>` : ''}</section>`;
   const languages = languagesFor(post);
   const copy = staticSongCopy(post);
   const sections = (post.blocks || []).map((block) => {
@@ -301,21 +305,7 @@ function staticSong(post, postIndex) {
   const sameArtist = posts
     .filter((candidate) => candidate.slug !== post.slug && creditedArtists(candidate).some((credit) => credit.slug === artistSlug))
     .slice(0, 6);
-  const sameArtistSlugs = new Set(sameArtist.map((candidate) => candidate.slug));
-  const sharedCategory = posts
-    .filter((candidate) => (
-      candidate.slug !== post.slug
-      && !sameArtistSlugs.has(candidate.slug)
-      && candidate.category_slugs?.some((slug) => post.category_slugs?.includes(slug))
-    ))
-    .slice(0, 4);
-  const similar = sharedCategory.length >= 3
-    ? sharedCategory
-    : [...sharedCategory, ...posts.filter((candidate) => (
-        candidate.slug !== post.slug
-        && !sameArtistSlugs.has(candidate.slug)
-        && !sharedCategory.some((item) => item.slug === candidate.slug)
-      ))].slice(0, 4);
+  const similar = relatedSongs(recommendationPosts.find(item => item.slug === post.slug), recommendationPosts.filter(item => !sameArtist.some(other => other.slug === item.slug)), 4);
   const previous = postIndex > 0 ? posts[postIndex - 1] : null;
   const next = postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
   const artistLink = artist ? `<a href="/artist/${escapeHtml(artist.slug)}">${escapeHtml(artist.name)}</a>` : escapeHtml(post.artist);
