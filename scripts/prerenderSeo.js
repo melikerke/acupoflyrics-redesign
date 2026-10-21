@@ -9,12 +9,11 @@ import { moodDescriptions, genreDescriptions, collectionNoindex } from "../src/l
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogReleaseYear } from "../src/lib/catalogRelease.js";
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
-import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight } from "./lib/prerenderContent.js";
+import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink } from "./lib/prerenderContent.js";
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
 import { relatedSongs } from "../src/lib/relatedSongs.js";
-import { annotationsFor } from "../src/lib/annotations.js";
 import { aboutSchema } from "../src/data/aboutContent.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -287,8 +286,8 @@ function staticSongCopy(post) {
 }
 
 function staticSong(post, postIndex) {
-  const noteEntries = Object.entries({ ...annotationsFor(post.slug), ...(post.annotations || {}) }).filter(([, note]) => typeof note === 'string' && note.trim());
-  const notesHtml = noteEntries.length ? `<section aria-label="Çevirmen notları"><h2>Çeviri ve notlar</h2>${noteEntries.map(([term, note]) => `<details><summary>${escapeHtml(term)}</summary><p>${escapeHtml(note)}</p></details>`).join('')}</section>` : '';
+  const notesHtml = staticSongAnnotations(post);
+  const videoHtml = staticSongVideoLink(post);
   const published = isoDate(post.date);
   const modified = publicationDate(post);
   const publication = `<section><h2>Şarkı Bilgisi</h2><p>Çevirmen: <a href="/hakkimizda">Melike Erke</a></p>${published ? `<p>Yayın tarihi: <time datetime="${published}">${readablePublicationDate(published)}</time></p>` : ''}${modified && modified !== published ? `<p>Güncelleme: <time datetime="${modified}">${readablePublicationDate(modified)}</time></p>` : ''}</section>`;
@@ -331,7 +330,7 @@ function staticSong(post, postIndex) {
     description: translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
-    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${staticSongInsight(post.slug)}${relatedSections}${pager}`,
+    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}${videoHtml}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${staticSongInsight(post.slug)}${relatedSections}${pager}`,
   });
 }
 

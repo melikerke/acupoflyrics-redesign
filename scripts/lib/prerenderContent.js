@@ -3,6 +3,26 @@ import { aboutTitle, aboutSections, aboutProfileImage } from "../../src/data/abo
 import { songInsights } from '../../src/data/songInsights.js';
 import { editorialSeoUpdatedAt } from '../../src/data/songEditorialSeo.js';
 import { readablePublicationDate } from '../../src/lib/songPublication.js';
+import { annotationsFor } from '../../src/lib/annotations.js';
+import { languagesFor } from '../../src/lib/languages.js';
+
+// These are real initial-HTML elements, not JSON-LD or client-only dialog text.
+// Native details keeps every note readable/toggleable even without JavaScript.
+export function staticSongAnnotations(post) {
+  const entries = Object.entries({ ...annotationsFor(post.slug), ...(post.annotations || {}) })
+    .filter(([term, note]) => term.trim() && typeof note === 'string' && note.trim());
+  if (!entries.length) return '';
+  const language = languagesFor(post).annotations;
+  const english = language === 'en';
+  return `<section class="seo-translation-notes" lang="${escapeHtml(language)}" aria-label="${english ? 'Translator notes' : 'Çevirmen notları'}"><h2>${english ? 'Translation notes' : 'Çeviri ve notlar'}</h2>${entries.map(([term, note]) => `<details class="seo-translation-note"><summary class="detail-lyric-annot">${escapeHtml(term)}</summary><p class="seo-translation-note-text">${escapeHtml(note)}</p></details>`).join('')}</section>`;
+}
+
+export function staticSongVideoLink(post) {
+  const href = safeExternalUrl(post.youtubeUrl || post.youtube?.url);
+  if (!href || !/^(?:(?:www|m|music)\.)?youtube\.com$|^(?:www\.)?youtu\.be$|^(?:www\.)?youtube-nocookie\.com$/.test(new URL(href).hostname)) return '';
+  const english = languagesFor(post).translation === 'en';
+  return `<p class="seo-song-video"><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(`${post.artist} — ${post.song}`)} · ${english ? 'Open on YouTube' : "YouTube’da aç"}</a></p>`;
+}
 
 export function staticSongInsight(slug) {
   const insight = songInsights[slug];
