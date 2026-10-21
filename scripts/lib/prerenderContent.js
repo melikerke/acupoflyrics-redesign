@@ -1,5 +1,14 @@
 import { matchChartEntry } from "../../src/lib/chartMatching.js";
 import { aboutTitle, aboutSections, aboutProfileImage } from "../../src/data/aboutContent.js";
+import { songInsights } from '../../src/data/songInsights.js';
+import { editorialSeoUpdatedAt } from '../../src/data/songEditorialSeo.js';
+import { readablePublicationDate } from '../../src/lib/songPublication.js';
+
+export function staticSongInsight(slug) {
+  const insight = songInsights[slug];
+  if (!insight) return '';
+  return `<section aria-label="Şarkının anlamı ve sık sorulan sorular"><h2>Şarkı ne anlatıyor?</h2><p>${escapeHtml(insight.summary)}</p><p><small>Sözlere dayalı editoryal yorum · Güncelleme: <time datetime="${editorialSeoUpdatedAt}">${readablePublicationDate(editorialSeoUpdatedAt)}</time></small></p><h2>Sık sorulan sorular</h2>${insight.faq.map(item => `<details><summary>${escapeHtml(item.question)}</summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}<p><small>Yayın bilgileri ve açıklamalar için kaynaklar:</small></p><ul>${insight.sources.map(source => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`).join('')}</ul></section>`;
+}
 
 function escapeHtml(value = "") {
   return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

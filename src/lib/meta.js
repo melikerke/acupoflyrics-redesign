@@ -1,4 +1,5 @@
 import { languageInfo, languagesFor, translationLabel } from "./languages.js";
+import { songEditorialDescriptions } from '../data/songEditorialSeo.js';
 
 const META_DESCRIPTION_MAX = 152;
 const META_TITLE_MAX = 65;
@@ -40,6 +41,8 @@ export function fitSeoTitle(candidates, maxLength = META_TITLE_MAX) {
 
 export function normalizeSeoTitle(value) {
   const title = String(value || "").replace(/\s+/g, " ").trim();
+  // Preserve complete credits in the editorial template, even for long duets.
+  if (/^.+ – .+ (?:Türkçe )?Çeviri(?:, Sözleri(?: ve Anlamı)?)?$/.test(title)) return title;
   const withoutSite = title.replace(/\s*\|\s*acupoflyrics\s*$/i, "").trim();
   const lead = withoutSite.split(/\s+[—–]\s+/)[0];
   return fitSeoTitle([title, withoutSite, `${lead} | acupoflyrics`, lead]);
@@ -55,6 +58,12 @@ export function completeSeoDescription(value, locale = "tr") {
 
 export function translationMetaTitle(post) {
   if (!post) return "Şarkı Çevirileri | acupoflyrics";
+  if (songEditorialDescriptions[post.slug]) {
+    const song = post.slug === 'gims-est-ce-que-tu-maimes-turkce-ceviri' ? "Est-ce que tu m'aimes ?" : post.song;
+    const lead = `${post.artist} – ${song}`;
+    const candidates = [`${lead} Türkçe Çeviri, Sözleri ve Anlamı`, `${lead} Türkçe Çeviri, Sözleri`, `${lead} Türkçe Çeviri`];
+    return candidates.find(title => title.length <= 60) || (candidates.at(-1).length <= 65 ? candidates.at(-1) : `${lead} Çeviri`);
+  }
   const languages = languagesFor(post);
   const locale = languages.translation === "tr" ? "tr" : "en";
   const label = translationLabel(post, locale);
@@ -82,6 +91,7 @@ function isEditorialDescription(value) {
 
 export function translationMetaDescription(post) {
   if (!post) return "Aradığın şarkı sözlerini ve Türkçe çevirileri acupoflyrics arşivinde keşfet.";
+  if (songEditorialDescriptions[post.slug]) return songEditorialDescriptions[post.slug];
 
   if (isEditorialDescription(post.seo?.description)) {
     return sanitizeSeoDescription(post.seo.description);

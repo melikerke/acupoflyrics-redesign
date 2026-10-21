@@ -9,7 +9,7 @@ import { moodDescriptions, genreDescriptions, collectionNoindex } from "../src/l
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogReleaseYear } from "../src/lib/catalogRelease.js";
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
-import { staticSupportPage, staticChartsContent, staticArticleLinks } from "./lib/prerenderContent.js";
+import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight } from "./lib/prerenderContent.js";
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
@@ -331,7 +331,7 @@ function staticSong(post, postIndex) {
     description: translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
-    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${relatedSections}${pager}`,
+    children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}${staticSongInsight(post.slug)}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${relatedSections}${pager}`,
   });
 }
 

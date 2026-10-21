@@ -1,7 +1,10 @@
 import { languagesFor } from './languages.js';
+import { songEditorialDescriptions, editorialSeoUpdatedAt } from '../data/songEditorialSeo.js';
 
 export function publicationDate(post) {
-  return isoDate(post.updatedAt) || isoDate(post.modified) || isoDate(post.date);
+  const existing = isoDate(post.updatedAt) || isoDate(post.modified) || isoDate(post.date);
+  const editorial = songEditorialDescriptions[post.slug] ? isoDate(editorialSeoUpdatedAt) : undefined;
+  return [existing, editorial].filter(Boolean).sort().at(-1);
 }
 
 export function isoDate(value) {

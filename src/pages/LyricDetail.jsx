@@ -28,6 +28,7 @@ import { copyForLanguage, interfaceLocaleFor } from "../lib/detailCopy";
 import { languageAlternates } from "../lib/translationVariants";
 import { releaseLabel, translationSchema } from "../lib/songPublication";
 import { relatedSongs } from "../lib/relatedSongs";
+import SongInsight from '../components/SongInsight';
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function detailMetaDescription(post, languages) {
@@ -674,6 +675,7 @@ export default function LyricDetail() {
         </aside>
 
         <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
+          <SongInsight slug={post.slug} />
           {isLyricsLoading ? (
             <LyricsSkeleton label={ui.loadingLyrics} />
           ) : (
