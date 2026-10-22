@@ -23,9 +23,9 @@
       "annotations": "tr"
     },
     "genres": [
-      "soul",
-      "r&b",
-      "retro-soul"
+      "retro-soul",
+      "soul-ballad",
+      "melancholic-ballad"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
@@ -818,6 +818,11 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "baroque-pop",
+      "cinematic-pop",
+      "melancholic-ballad"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2nMeu6UenVvwUktBCpLMK9",
       "albumUrl": "https://open.spotify.com/album/1D92WOHWUI2AGQCCdplcXL",
@@ -836,7 +841,8 @@
       "albumArtist": "Lana Del Rey"
     },
     "moods": [
-      "Love"
+      "Love",
+      "Dreamy"
     ],
     "firstPair": {
       "en": "I've seen the world, done it all",
@@ -1030,6 +1036,11 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "soul-ballad",
+      "pop-soul",
+      "melancholic-ballad"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3di5hcvxxciiqwMH1jarhY",
       "albumUrl": "https://open.spotify.com/album/5duyQokC4FMcWPYTV9Gpf9",
@@ -1048,7 +1059,8 @@
       "albumArtist": "Adele"
     },
     "moods": [
-      "Motivation"
+      "Sad",
+      "Love"
     ],
     "firstPair": {
       "en": "I let it fall, my heart",
@@ -1082,6 +1094,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "cinematic-pop",
+      "melancholic-ballad"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3BJe4B8zGnqEdQPMvfVjuS",
       "albumUrl": "https://open.spotify.com/album/5VoeRuTrGhTbKelUfwymwu",
@@ -1100,6 +1116,7 @@
       "albumArtist": "Lana Del Rey"
     },
     "moods": [
+      "Sad",
       "Love"
     ],
     "firstPair": {
@@ -1134,6 +1151,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "acoustic-pop",
+      "melancholic-ballad"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3JvKfv6T31zO0ini8iNItO",
       "albumUrl": "https://open.spotify.com/album/0Gf1yE895FKK4YWVRuAeg8",
@@ -1152,8 +1173,8 @@
       "albumArtist": "Tom Odell"
     },
     "moods": [
-      "Love",
-      "Sad"
+      "Sad",
+      "Lonely"
     ],
     "firstPair": {
       "en": "I wanna take you somewhere so you know I care",
@@ -26486,6 +26507,10 @@
       "sam-smith",
       "taeyeon"
     ],
+    "genres": [
+      "soul-ballad",
+      "pop-soul"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/7lJ3JlojP8p7fwKWyRIfmZ",
       "albumUrl": "https://open.spotify.com/album/1EkQ1dUNlc0J0xPhxv1DgY",
@@ -28241,6 +28266,10 @@
       "adele",
       "25"
     ],
+    "genres": [
+      "soul-ballad",
+      "melancholic-ballad"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/0DuWDLjriRPjDRoPgaCslY",
       "albumUrl": "https://open.spotify.com/album/6TVfiWmo8KtflUAmkK9gGF",
@@ -28256,8 +28285,8 @@
       "artistGenres": []
     },
     "moods": [
-      "Love",
-      "Dark"
+      "Sad",
+      "Lonely"
     ],
     "firstPair": {
       "en": "Take your eyes off of me so I can leave",

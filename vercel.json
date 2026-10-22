@@ -25,6 +25,10 @@
     }
   ],
   "redirects": [
+    { "source": "/mood/sad", "destination": "/mood/huzunlu-sarkilar", "permanent": true },
+    { "source": "/mood/sad/", "destination": "/mood/huzunlu-sarkilar", "permanent": true },
+    { "source": "/mood/love", "destination": "/mood/ask-sarkilari", "permanent": true },
+    { "source": "/mood/love/", "destination": "/mood/ask-sarkilari", "permanent": true },
     {
       "source": "/ceviri/:slug",
       "destination": "/:slug/",

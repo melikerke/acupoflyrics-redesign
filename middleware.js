@@ -62,6 +62,8 @@ function readBasicAuth(request) {
 }
 
 const staticLegacyRedirects = {
+  "/mood/sad": "/mood/huzunlu-sarkilar",
+  "/mood/love": "/mood/ask-sarkilari",
   "/muzik-listeleri": "/listeler",
 };
 
@@ -82,6 +84,7 @@ const canonicalPrefixes = new Set([
   "hakkimizda",
   "iletisim",
   "listeler",
+  "linkler",
   "mood",
   "pop-gunlugu",
   "sanatcilar",

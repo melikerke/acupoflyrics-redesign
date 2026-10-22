@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { songInsights } from '../src/data/songInsights.js';
+import { submittedSongInsights } from '../src/data/submittedSongInsights.js';
+import { songInsightUpdates } from '../src/data/songInsightUpdates.js';
 import { songEditorialDescriptions, songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
 import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription, catalogTranslationDescription, usesCatalogTitle, catalogTranslationTitle, catalogTitleIdentity } from '../src/lib/meta.js';
 import { publicationDate } from '../src/lib/songPublication.js';
@@ -10,6 +12,18 @@ import { staticSongInsight } from '../scripts/lib/prerenderContent.js';
 const posts = JSON.parse(await readFile(new URL('../src/data/posts.json', import.meta.url), 'utf8'));
 const priorities = JSON.parse(await readFile(new URL('../reports/site-audit/2026-10-21/content-priorities.json', import.meta.url), 'utf8'));
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+
+test('ten document imports have synchronized dates and no unpublished editor instructions', () => {
+  assert.equal(Object.keys(submittedSongInsights).length, 10);
+  assert.deepEqual(Object.keys(songInsightUpdates).sort(), Object.keys(submittedSongInsights).sort());
+  for (const [slug, insight] of Object.entries(submittedSongInsights)) {
+    const post = posts.find(item => item.slug === slug);
+    assert.ok(post, slug);
+    assert.equal(songInsightUpdates[slug], insight.updatedAt);
+    assert.ok(publicationDate(post) >= `${insight.updatedAt}T00:00:00.000Z`);
+    assert.ok(!/Ekip:|teyit edin|Search Console|Yapıştırılan markdown/.test(JSON.stringify(insight)), slug);
+  }
+});
 
 test('50 evidence-selected pages receive complete editorial metadata', () => {
   assert.equal(priorities.rows.length, 50);
@@ -104,8 +118,8 @@ test('legacy lyric-excerpt descriptions are never emitted', () => {
   assert.ok(!translationMetaDescription(sample).includes('söz söz'));
 });
 
-test('twelve insight sections have three FAQs, sources and identical initial HTML content', async () => {
-  assert.equal(Object.keys(songInsights).length, 12);
+test('all insight sections have three FAQs, sources and identical initial HTML content', async () => {
+  assert.equal(Object.keys(songInsights).length, 22);
   for (const [slug, insight] of Object.entries(songInsights)) {
     assert.equal(insight.faq.length, 3, slug);
     assert.ok(insight.summary.length > 150);

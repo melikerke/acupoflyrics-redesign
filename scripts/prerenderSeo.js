@@ -5,11 +5,13 @@ import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { completeSeoDescription, fitSeoTitle, normalizeSeoTitle, translationMetaDescription, translationMetaTitle } from "../src/lib/meta.js";
 import { spotifyImageUrl } from "../src/lib/images.js";
 import { languageInfo, languagesFor, translationLabel } from "../src/lib/languages.js";
-import { moodDescriptions, genreDescriptions, collectionNoindex } from "../src/lib/collectionDescriptions.js";
+import { genreDescriptions, collectionNoindex } from "../src/lib/collectionDescriptions.js";
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogReleaseYear } from "../src/lib/catalogRelease.js";
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
-import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
-import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink } from "./lib/prerenderContent.js";
+import { moodsForPost } from "../src/lib/moodClassifier.js";
+import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink, staticLinksHub } from "./lib/prerenderContent.js";
+import { moodCollections, postsForMoodCollection, moodLandingPages } from '../src/lib/moodCollections.js';
+import { linksHubDescription } from '../src/lib/linksHub.js';
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
@@ -19,6 +21,7 @@ import { aboutSchema } from "../src/data/aboutContent.js";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = process.env.ACL_SEO_DIST ? path.resolve(process.env.ACL_SEO_DIST) : path.join(ROOT, "dist");
 const SITE = "https://www.acupoflyrics.com";
+const linksHubStyles = await readFile(path.join(ROOT, 'src/pages/LinksPage.css'), 'utf8');
 
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
 const spanishTranslations = buildSpanishTranslations(await readFile(path.join(ROOT, "src/data/translations/es/submitted-2026-09-07.md"), "utf8"), posts);
@@ -36,7 +39,6 @@ const articleMonths = [...new Set(popGundemiArticles.map((article) => String(art
 const monthLabel = (value) => new Intl.DateTimeFormat("tr-TR", { month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}-01`));
 const articleDateRange = articleMonths.length ? `${monthLabel(articleMonths[0])}${articleMonths.length > 1 ? ` – ${monthLabel(articleMonths.at(-1))}` : ""}` : "";
 const SONGS_PER_PAGE = 48;
-const moodNames = MOOD_NAMES;
 const postMoods = new Map(posts.map((post) => [post.slug, moodsForPost(post)]));
 const recommendationPosts = catalogPosts.map(post => ({ ...post, moods: postMoods.get(post.slug) }));
 const genreNames = ["Pop", "Rock", "Hip Hop", "Alternative", "K-pop", "R&B", "EDM", "Indie"];
@@ -246,7 +248,7 @@ function staticHome(items) {
         </section>
       </div>
     </main>
-    <footer class="seo-home-footer"><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a><a href="https://www.instagram.com/acupoflyrics/">Instagram · @acupoflyrics</a></footer>
+    <footer class="seo-home-footer"><a href="/hakkimizda">Hakkımızda</a><a href="/iletisim">İletişim</a><a href="/gizlilik">Gizlilik</a><a href="/linkler">Instagram bağlantıları</a><a href="https://www.instagram.com/acupoflyrics/">Instagram · @acupoflyrics</a></footer>
   </div>`;
 }
 
@@ -391,7 +393,7 @@ function cleanHead(html) {
 }
 
 function htmlFor(route) {
-  const canonical = `${SITE}${route.path}`;
+  const canonical = `${SITE}${route.canonicalPath || route.path}`;
   const json = route.jsonLd || {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -428,7 +430,7 @@ function htmlFor(route) {
     <style id="seo-prerender-styles">
       html,body{margin:0;min-height:100%;background:#071012}.seo-prerender{min-height:100vh;padding:28px;background:#071012;color:#f7f3ec;font:16px/1.65 Inter,system-ui,sans-serif}.seo-prerender>nav,.seo-prerender main{width:min(920px,100%);margin:auto}.seo-prerender>nav{display:flex;flex-wrap:wrap;gap:22px;padding:0 0 32px}.seo-prerender a{color:inherit}.seo-prerender article{display:flow-root}.seo-prerender h1{max-width:18ch;margin:0 0 18px;font:400 clamp(38px,7vw,72px)/1.02 Fraunces,Georgia,serif}.seo-prerender h2{margin-top:34px;font:400 25px/1.2 Fraunces,Georgia,serif}.seo-kicker{color:#ef8dad;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.seo-description{max-width:68ch;color:rgba(247,243,236,.72)}.seo-cover{float:right;width:min(320px,42vw);margin:0 0 26px 32px;border-radius:10px}.seo-prerender section span{color:rgba(247,243,236,.82)}.seo-prerender li{margin:9px 0}.seo-footer,.seo-home-footer{display:flex;flex-wrap:wrap;gap:18px;width:min(920px,100%);margin:52px auto 0;padding:24px 0;border-top:1px solid rgba(255,255,255,.12);font-size:13px}.seo-home-footer{width:min(100% - 56px,1378px);margin-top:0;padding-bottom:32px}.seo-breadcrumbs{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0;color:rgba(247,243,236,.66);font-size:13px}.seo-song-meta{margin:18px 0 28px}.seo-related{clear:both}.seo-song-pager{clear:both;display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12)}.seo-song-pager a:last-child{text-align:right}.seo-home-prerender,.seo-home-prerender *{box-sizing:border-box}.seo-home-prerender{--seo-bg:#071012;--seo-bg-soft:#0b1518;--seo-text:#f7f3ec;--seo-muted:rgba(247,243,236,.7);--seo-faint:rgba(247,243,236,.52);--seo-border:rgba(255,255,255,.09);--seo-accent:#d28075;min-height:100vh;overflow:hidden;background:radial-gradient(circle at 55% 2%,rgba(36,22,20,.24),transparent 32%),linear-gradient(180deg,var(--seo-bg),var(--seo-bg-soft));color:var(--seo-text);font-family:Inter,system-ui,sans-serif}.seo-home-prerender a{color:inherit;text-decoration:none}.seo-home-nav{position:relative;z-index:3;display:grid;grid-template-columns:minmax(150px,.6fr) minmax(540px,1.3fr) minmax(190px,.5fr);align-items:center;gap:22px;min-height:84px;width:min(100%,1510px);margin:auto;padding:0 clamp(28px,4.4vw,66px)}.seo-home-logo{font:italic 300 27px/1 Fraunces,Georgia,serif}.seo-home-nav nav{display:flex;align-items:center;justify-content:center;gap:clamp(16px,2.3vw,36px)}.seo-home-nav nav a{font-size:14px;opacity:.86}.seo-home-search{justify-self:end;display:inline-flex;align-items:center;gap:10px;min-height:42px;padding:0 18px;border:1px solid var(--seo-border);border-radius:999px;background:rgba(22,30,35,.66);color:var(--seo-muted);font-size:14px}.seo-home-search kbd{color:var(--seo-faint);font:12px Inter,system-ui,sans-serif}.seo-home-shell{display:grid;grid-template-columns:minmax(0,2.18fr) minmax(330px,.82fr);gap:clamp(22px,3vw,38px);width:min(100%,1510px);margin:auto;padding:12px clamp(28px,4.4vw,66px) 42px}.seo-home-shell>h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.seo-home-main{min-width:0;padding-right:clamp(22px,3vw,38px);border-right:1px solid var(--seo-border)}.seo-home-hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,49%);align-items:center;height:580px;overflow:hidden}.seo-home-hero-bg{position:absolute;inset:-16%;width:132%;height:132%;object-fit:cover;opacity:.48;filter:blur(42px) saturate(1.18);transform:scale(1.05)}.seo-home-vignette{position:absolute;inset:0;background:radial-gradient(circle at 76% 48%,transparent 0,rgba(0,0,0,.08) 28%,rgba(0,0,0,.3) 74%),linear-gradient(90deg,var(--seo-bg) 0%,rgba(7,16,18,.82) 38%,transparent 100%),linear-gradient(180deg,transparent 0%,rgba(7,16,18,.72) 100%)}.seo-home-copy{position:relative;z-index:2;max-width:590px;padding:30px clamp(26px,3vw,44px) 44px}.seo-home-kicker{display:flex;align-items:center;gap:16px;margin-bottom:26px;color:var(--seo-accent);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-kicker i{width:34px;height:1px;background:currentColor}.seo-home-copy blockquote{margin:0;color:var(--seo-text);font:300 clamp(50px,5.1vw,76px)/.98 Fraunces,Georgia,serif}.seo-home-original{margin:22px 0 0;color:var(--seo-muted);font-size:clamp(19px,1.8vw,24px);font-weight:300;line-height:1.35}.seo-home-meta{margin:14px 0 0;color:var(--seo-muted);font-size:17px}.seo-home-actions{display:flex;align-items:center;gap:22px;margin-top:42px}.seo-home-primary,.seo-home-listen{display:inline-flex;align-items:center;gap:10px;min-height:52px}.seo-home-primary{padding:0 28px;border-radius:999px;background:var(--seo-accent);color:#fff!important;font-size:14px;font-weight:600;box-shadow:0 18px 34px rgba(0,0,0,.24)}.seo-home-listen{font-size:15px}.seo-home-listen span{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--seo-border);border-radius:50%;background:rgba(22,30,35,.66);font-size:11px}.seo-home-art{position:relative;z-index:2;justify-self:end;width:min(100%,650px);aspect-ratio:1;overflow:hidden;border:1px solid rgba(255,255,255,.12);border-radius:8px;background:#111a1d;box-shadow:0 32px 78px rgba(0,0,0,.34)}.seo-home-art img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(1.06) contrast(1.04)}.seo-home-count{position:absolute;z-index:3;right:clamp(18px,2vw,32px);bottom:26px;display:flex;align-items:center;gap:12px;color:var(--seo-faint);font-size:13px}.seo-home-count span:first-child{color:var(--seo-accent)}.seo-home-count i{width:38px;height:1px;background:var(--seo-faint)}.seo-home-recent{content-visibility:auto;contain-intrinsic-block-size:420px;padding:34px 0;border-top:1px solid var(--seo-border)}.seo-home-recent>div>span{color:var(--seo-accent);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.seo-home-recent h2{margin:8px 0 22px;font:300 34px/1.1 Fraunces,Georgia,serif}.seo-home-recent ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:0;padding:0;list-style:none}.seo-home-recent li{border-top:1px solid var(--seo-border)}.seo-home-recent li a{display:block;padding:13px 0;color:var(--seo-muted);font-size:14px}@media(max-width:1180px){.seo-home-shell{grid-template-columns:minmax(0,1fr)}.seo-home-main{padding-right:0;border-right:0}}@media(max-width:860px){.seo-home-nav{min-height:72px;grid-template-columns:1fr auto;padding:0 18px}.seo-home-nav nav{display:none}.seo-home-search{width:42px;padding:0;justify-content:center}.seo-home-search span,.seo-home-search kbd{display:none}.seo-home-shell{padding:8px 18px 34px}.seo-home-hero{display:flex;flex-direction:column-reverse;align-items:stretch;height:clamp(610px,120vw,640px);gap:14px;padding-bottom:18px}.seo-home-art{width:min(70vw,260px);margin-inline:auto}.seo-home-copy{padding:0 18px 4px}.seo-home-kicker{margin-bottom:16px}.seo-home-copy blockquote{font-size:clamp(38px,10vw,52px)}.seo-home-original{margin-top:14px;font-size:clamp(16px,4vw,19px)}.seo-home-meta{margin-top:8px;font-size:14px}.seo-home-actions{flex-wrap:wrap;margin-top:20px}.seo-home-count{display:none}.seo-home-recent ul{grid-template-columns:1fr}}@media(max-width:620px){.seo-prerender{padding:20px}.seo-cover{float:none;width:100%;margin:8px 0 18px}.seo-song-pager{grid-template-columns:1fr}.seo-song-pager a:last-child{text-align:left}}
     </style>`;
-  const withHead = cleanHead(template).replace(/<html\b[^>]*>/i, `<html lang="${escapeHtml(route.locale || "tr")}">`).replace("</head>", `${tags}\n  </head>`);
+  const withHead = cleanHead(template).replace(/<html\b[^>]*>/i, `<html lang="${escapeHtml(route.locale || "tr")}">`).replace("</head>", `${tags}${route.path === '/linkler' ? `<style id="links-hub-styles">${linksHubStyles}</style>` : ''}\n  </head>`);
   return withHead.replace('<div id="root"></div>', `<div id="root">${route.staticHtml || ""}</div>`);
 }
 
@@ -439,6 +441,10 @@ function route(path, title, description, image, extra = {}) {
 }
 
 const routes = [
+  route('/linkler', 'Instagram’dan Şarkı Çevirilerine | acupoflyrics', linksHubDescription, undefined, {
+    staticHtml: staticLinksHub(posts),
+    jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'acupoflyrics bağlantıları', url: `${SITE}/linkler`, description: linksHubDescription },
+  }),
   route(
     "/",
     "Şarkı Sözleri ve Türkçe Çeviriler | acupoflyrics",
@@ -786,7 +792,7 @@ if (discoverRoute) {
       (album) => `${album.artist} — ${album.name}`,
     )}</ul>
     <h2 id="collections">Yıllar</h2><ul>${collectionYears.map((year) => `<li><a href="/collection/${slugify(`${year} Şarkıları`)}">${year} Şarkıları</a></li>`).join("")}</ul>
-    <h2 id="moods">Ruh haline göre</h2><ul>${moodNames.filter((name) => posts.some((post) => postMoods.get(post.slug).includes(name))).map((name) => `<li><a href="/mood/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>
+    <h2 id="moods">Ruh haline göre</h2><ul>${moodCollections.filter(mood => postsForMoodCollection(mood, posts).length).map(mood => `<li><a href="/mood/${mood.slug}">${escapeHtml(mood.name)}</a></li>`).join('')}</ul>
     <h2 id="genres">Türler</h2><ul>${genreNames.filter((name) => posts.some((post) => (staticGenreFor(post) === name || (name === "Alternative" && ["Rock", "Indie"].includes(staticGenreFor(post)))))).map((name) => `<li><a href="/genre/${slugify(name)}">${escapeHtml(name)}</a></li>`).join("")}</ul>`,
   });
   discoverRoute.breadcrumbs = [
@@ -823,14 +829,14 @@ for (const year of collectionYears) {
     },
   ));
 }
-for (const name of moodNames) {
-  const moodPosts = posts.filter((post) => postMoods.get(post.slug).includes(name));
-  const moodPath = `/mood/${slugify(name)}`;
-  const label = name;
-  const description = moodDescriptions[name] || `${name} hissi taşıyan çeviriler.`;
-  routes.push(route(moodPath, fitSeoTitle([`${name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]), description, moodPosts[0]?.cover, {
+for (const mood of moodCollections) {
+  const moodPosts = postsForMoodCollection(mood, posts);
+  const moodPath = `/mood/${mood.slug}`;
+  const label = mood.name;
+  const description = mood.description;
+  const moodRoute = route(moodPath, fitSeoTitle([`${label}${label.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`]), description, moodPosts[0]?.cover, {
     noindex: collectionNoindex(moodPosts),
-    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `${name} mood`, description, url: `${SITE}${moodPath}` },
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `${label} mood`, description, url: `${SITE}${moodPath}` },
     staticHtml: staticCollectionPage({
       kicker: "Mood",
       title: label,
@@ -843,7 +849,9 @@ for (const name of moodNames) {
       { name: "Keşfet", path: "/discover" },
       { name: label, path: moodPath },
     ],
-  }));
+  });
+  routes.push(moodRoute);
+  if (mood.alias) routes.push({ ...moodRoute, path: `/mood/${mood.alias}`, canonicalPath: moodPath, noindex: true });
 }
 for (const name of genreNames) {
   const genrePosts = catalogPosts.filter((post) => (staticGenreFor(post) === name || (name === "Alternative" && ["Rock", "Indie"].includes(staticGenreFor(post)))));
@@ -947,6 +955,10 @@ redirectLines.push(`/home-preview / 301`);
 redirectLines.push(`/ceviri-preview / 301`);
 redirectLines.push(`/old-home / 301`);
 redirectLines.push(`/kesfet /discover 301`);
+for (const mood of moodLandingPages.filter(mood => mood.alias)) {
+  redirectLines.push(`/mood/${mood.alias} /mood/${mood.slug} 301`);
+  redirectLines.push(`/mood/${mood.alias}/ /mood/${mood.slug} 301`);
+}
 redirectLines.push(`/muzik-listeleri /listeler 301`);
 redirectLines.push(`/muzik-listeleri/ /listeler 301`);
 redirectLines.push(`/sarkilar/page/1 /sarkilar 301`);

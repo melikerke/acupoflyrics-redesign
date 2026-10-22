@@ -20,6 +20,7 @@ const ArtistsPage = lazy(() => import("./pages/ArtistsPage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 const MusicListsPage = lazy(() => import("./pages/MusicListsPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
+const LinksPage = lazy(() => import("./pages/LinksPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const PopGundemiPage = lazy(() => import("./pages/PopGundemiPage"));
@@ -138,6 +139,7 @@ export default function App() {
             <Route path="/search" element={<SearchPage />} />
             <Route path="/listeler" element={<MusicListsPage />} />
             <Route path="/hakkimizda" element={<AboutPage />} />
+            <Route path="/linkler" element={<LinksPage />} />
             <Route path="/iletisim" element={<ContactPage />} />
             <Route path="/gizlilik" element={<PrivacyPage />} />
             <Route path="/pop-gunlugu" element={<PopGundemiPage />} />

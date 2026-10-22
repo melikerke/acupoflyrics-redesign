@@ -1,0 +1,27 @@
+INSTAGRAM PROFİL BAĞLANTISI
+Yayın sonrası profilde kullanılacak adres (hesapta henüz değiştirilmedi):
+https://www.acupoflyrics.com/linkler?utm_source=instagram&utm_medium=social&utm_campaign=profile&utm_content=bio
+
+GÖNDERİ CTA ÖRNEKLERİ — henüz paylaşılmadı
+
+Amy Winehouse — Back to Black
+Tam Türkçe çevirisi ve çevirmen notları sitede. Profildeki bağlantıdan Amy Winehouse — Back to Black çevirisine ulaş.
+Hikâye bağlantısı:
+https://www.acupoflyrics.com/amy-winehouse-back-to-black-turkce-ceviri/?utm_source=instagram&utm_medium=social&utm_campaign=song_translation&utm_content=story_amy-winehouse-back-to-black-turkce-ceviri
+
+Tommy Cash — Espresso Macchiato
+Tam Türkçe çevirisi ve kelime oyunlarının notları sitede. Profildeki bağlantıdan Tommy Cash — Espresso Macchiato çevirisini ara.
+Hikâye bağlantısı:
+https://www.acupoflyrics.com/tommy-cash-espresso-macchiato-turkce-ceviri/?utm_source=instagram&utm_medium=social&utm_campaign=song_translation&utm_content=story_tommy-cash-espresso-macchiato-turkce-ceviri
+
+Travis Scott, Playboi Carti — FE!N
+Tam Türkçe çevirisi ve argo ifadelerin notları sitede. Profildeki bağlantıdan Travis Scott, Playboi Carti — FE!N çevirisini ara.
+Hikâye bağlantısı:
+https://www.acupoflyrics.com/travis-scott-playboi-carti-fein-turkce-ceviri/?utm_source=instagram&utm_medium=social&utm_campaign=song_translation&utm_content=story_travis-scott-playboi-carti-fein-turkce-ceviri
+
+ÖLÇÜM
+Profil için campaign=profile, hikâyeler için campaign=song_translation kullanılır.
+Kaynak instagram, ortam social; utm_content her şarkıya özeldir.
+Site içindeki bağlantılara UTM eklenmez. Kanonik adresler UTM içermez.
+Ölçüm, ziyaretçinin analitik çerez iznine bağlıdır.
+Haftanın seçimi şu an Amy Winehouse — Back to Black. Bu editoryal seçim elle değiştirilir; son altı çeviri ve mood koleksiyonları veriden güncellenir.

@@ -55,7 +55,9 @@ test("paired sections preserve every existing original and every supplied Spanis
 });
 
 test("Turkish and Spanish URLs have self-canonicals and reciprocal language links", async () => {
-  const sitemap = await read("dist/sitemap.xml");
+  const sitemapIndex = await read("dist/sitemap.xml");
+  const sitemapFiles = [...sitemapIndex.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => new URL(url).pathname.split('/').pop());
+  const sitemap = (await Promise.all(sitemapFiles.map(file => read(`dist/${file}`)))).join('\n');
   for (const item of entries) {
     for (const [locale, pathname] of [["tr", item.sourcePath], ["es", item.path]]) {
       const html = await htmlFor(pathname);

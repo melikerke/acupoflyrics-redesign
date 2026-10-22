@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { getMood, moodGroups, SORT_OPTIONS, sortPosts } from "../lib/content";
 import { canonical, moodPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
@@ -23,7 +23,7 @@ export default function MoodPage() {
 
   const path = moodPath(slug);
   useSeo({
-    title: mood ? fitSeoTitle([`${mood.name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`]) : "Mood bulunamadı",
+    title: mood ? fitSeoTitle([`${mood.name}${mood.name.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`]) : "Mood bulunamadı",
     description: mood?.description,
     noindex: collectionNoindex(mood?.items),
     path,
@@ -41,6 +41,7 @@ export default function MoodPage() {
   });
 
   if (!mood) return <NotFound theme={LIGHT_THEME} title="Mood bulunamadı." />;
+  if (slug !== mood.slug) return <Navigate to={moodPath(mood.slug)} replace />;
 
   return (
     <SiteShell theme={LIGHT_THEME} wide>

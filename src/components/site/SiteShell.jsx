@@ -92,7 +92,7 @@ export function SiteFooter() {
         </div>
         <FooterCol title="Keşfet" items={[["Tüm şarkılar", songsPath()], ["Tüm sanatçılar", artistsPath()], ["Arama", searchPath()], ["Müzik Listeleri", "/listeler"]]} />
         <FooterCol title="İçerik" items={[["Mood", `${discoverPath()}#moods`], ["Türler", `${discoverPath()}#genres`], ["Albümler", "/albumler"], ["Pop Günlüğü", popJournalPath()]]} />
-        <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Gizlilik ve çerezler", "/gizlilik"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
+        <FooterCol title="Acupoflyrics" items={[["Hakkımızda", "/hakkimizda"], ["Instagram bağlantıları", "/linkler"], ["Gizlilik ve çerezler", "/gizlilik"], ["Çeviri talebi", "/iletisim"], ["İletişim", "/iletisim"]]} />
       </div>
       <div className="site-footer-base">
         <span>© {new Date().getFullYear()} acupoflyrics · İki dil arasında.</span>

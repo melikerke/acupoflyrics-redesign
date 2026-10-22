@@ -1,5 +1,12 @@
 // Editorial discovery labels, not claims about an artist's entire discography.
 export const songRecommendationProfiles = {
+  'amy-winehouse-back-to-black-turkce-ceviri': { genres: ['retro-soul', 'soul-ballad', 'melancholic-ballad'], moods: ['Sad', 'Lonely'], language: 'en' },
+  'adele-set-fire-to-the-rain-turkce-ceviri': { genres: ['soul-ballad', 'pop-soul', 'melancholic-ballad'], moods: ['Sad', 'Love'], language: 'en' },
+  'adele-love-in-the-dark-turkce-ceviri': { genres: ['soul-ballad', 'melancholic-ballad'], moods: ['Sad', 'Lonely'], language: 'en' },
+  'lana-del-rey-summertime-sadness-turkce-ceviri': { genres: ['cinematic-pop', 'melancholic-ballad'], moods: ['Sad', 'Love'], language: 'en' },
+  'lana-del-rey-young-and-beautiful-turkce-ceviri': { genres: ['baroque-pop', 'cinematic-pop', 'melancholic-ballad'], moods: ['Love', 'Dreamy'], language: 'en' },
+  'sam-smith-taeyeon-im-not-the-only-one-turkce-ceviri': { genres: ['soul-ballad', 'pop-soul'], moods: ['Sad', 'Lonely'], language: 'en' },
+  'tom-odell-another-love-turkce-ceviri': { genres: ['acoustic-pop', 'melancholic-ballad'], moods: ['Sad', 'Lonely'], language: 'en' },
   'stromae-papaoutai-turkce-ceviri': { genres: ['french-pop', 'electropop'], moods: ['Lonely', 'Sad'], language: 'fr' },
   'charlie-puth-attention-turkce-ceviri': { genres: ['funk-pop', 'dance-pop'], moods: ['Sad', 'Party'], language: 'en' },
   'tame-impala-let-it-happen-turkce-ceviri': { genres: ['psychedelic-pop', 'synth-pop'], moods: ['Dreamy', 'Healing'], language: 'en' },

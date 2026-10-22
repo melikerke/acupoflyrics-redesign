@@ -2,8 +2,9 @@ import posts from "../data/postIndex.json";
 import artistsRaw from "../data/artistIndex.json";
 import popGundemiArticles from "../data/popGundemiIndex.json";
 import { articleTextFor, linesFor } from "./searchLines";
-import { MOOD_NAMES, moodsForPost, primaryMoodForPost } from "./moodClassifier";
+import { moodsForPost, primaryMoodForPost } from "./moodClassifier";
 import { languagesFor } from "./languages";
+import { moodCollections, moodCollectionFor, postsForMoodCollection } from './moodCollections.js';
 
 const total = posts.length;
 
@@ -466,12 +467,12 @@ export const collections = collectionDefs.map(([name, test]) => {
   };
 }).filter((c) => c.items.length);
 
-export const moodGroups = MOOD_NAMES
-  .map((name) => {
-    const allItems = enriched.filter((p) => moodsFor(p).includes(name));
+export const moodGroups = moodCollections
+  .map((mood) => {
+    const allItems = postsForMoodCollection(mood, enriched);
     const items = allItems.slice(0, 8);
     const covers = [...new Set(allItems.map((post) => post.cover).filter(Boolean))].slice(0, 4);
-    return { name, slug: albumSlugFor(name), count: allItems.length, items, cover: covers[0], covers };
+    return { name: mood.name, slug: mood.slug, count: allItems.length, items, cover: covers[0], covers };
   })
   .filter((g) => g.items.length);
 
@@ -729,12 +730,9 @@ export function getCollection(slug) {
 }
 
 export function getMood(slug) {
-  const name = MOOD_NAMES.find(
-    (m) => albumSlugFor(m) === slug,
-  );
-  if (!name) return null;
-  const items = enriched.filter((p) => moodsFor(p).includes(name));
-  return decorate(name, slug, items, moodDescriptions[name] || `${name} hissi taşıyan çeviriler.`);
+  const mood = moodCollectionFor(slug);
+  if (!mood) return null;
+  return decorate(mood.name, mood.slug, postsForMoodCollection(mood, enriched), mood.description);
 }
 
 export function getGenre(slug) {

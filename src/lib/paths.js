@@ -5,6 +5,7 @@
 // dedicated destination. Import from here instead of hand-writing template
 // strings so the information architecture stays honest.
 
+import { canonicalMoodSlug } from '../data/moodLandingPages.js';
 const slugOf = (v) => (typeof v === "string" ? v : v?.slug);
 
 // Songs keep the established canonical pretty URL (`/<slug>/`) — the
@@ -18,7 +19,7 @@ export const songPath = (postOrSlug) => {
 export const artistPath = (artistOrSlug) => `/artist/${slugOf(artistOrSlug)}`;
 export const albumPath = (albumOrSlug) => `/album/${slugOf(albumOrSlug)}`;
 export const collectionPath = (collectionOrSlug) => `/collection/${slugOf(collectionOrSlug)}`;
-export const moodPath = (moodOrSlug) => `/mood/${slugOf(moodOrSlug)}`;
+export const moodPath = (moodOrSlug) => `/mood/${canonicalMoodSlug(slugOf(moodOrSlug))}`;
 export const genrePath = (genreOrSlug) => `/genre/${slugOf(genreOrSlug)}`;
 export const popJournalPath = (articleOrSlug) => {
   const slug = slugOf(articleOrSlug);

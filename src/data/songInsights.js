@@ -1,5 +1,7 @@
 // Editorial interpretations of the supplied lyrics. External facts have sources.
+import { submittedSongInsights } from './submittedSongInsights.js';
 export const songInsights = {
+  ...submittedSongInsights,
   'wham-last-christmas-turkce-ceviri': {
     updatedAt: '2026-10-22',
     summary: 'Wham! — Last Christmas, geçen Noel kalbini verdiği kişinin bunu hemen ertesi gün başkasına vermesinin ardından bir yıl sonra yaşananları anlatıyor. Anlatıcı aynı kişiyi kalabalık bir odada yeniden görüyor; hâlâ etkileniyor ama bu kez kendini korumaya kararlı. Neşeli Noel melodisinin altında, kırılmış bir güvenin ve ikinci kez aynı hataya düşmeme isteğinin hikâyesi var.',

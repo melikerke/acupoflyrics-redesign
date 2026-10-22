@@ -63,6 +63,7 @@ const index = posts.map((post) => ({
   excerpt: post.excerpt,
   categories: post.categories,
   category_slugs: post.category_slugs,
+  ...(post.themes?.length ? { themes: post.themes } : {}),
   ...(post.languages ? { languages: languagesFor(post) } : {}),
   ...((songRecommendationProfiles[post.slug]?.genres || post.genres)?.length
     ? { genres: songRecommendationProfiles[post.slug]?.genres || post.genres } : {}),

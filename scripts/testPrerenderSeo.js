@@ -7,9 +7,9 @@ import { build } from "esbuild";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { runInNewContext } from "node:vm";
 import { completeSeoDescription, normalizeSeoTitle, fitSeoTitle } from "../src/lib/meta.js";
-import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary } from "../src/lib/catalogRelease.js";
-import { moodDescriptions, genreDescriptions } from "../src/lib/collectionDescriptions.js";
+import { genreDescriptions } from "../src/lib/collectionDescriptions.js";
+import { moodCollections, postsForMoodCollection } from '../src/lib/moodCollections.js';
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { buildArticleIndex, buildArticleSearchIndex, buildArtistIndex } from "./lib/contentIndexes.js";
 import { staticArticleLinks, staticChartsContent } from "./lib/prerenderContent.js";
@@ -144,7 +144,6 @@ try {
     assert.equal(decodeHtml(html.match(/<meta name="description" content="([^"]*)"/)[1]), completeSeoDescription(artistArchiveSummary(artist)), `${artist.slug}: artist archive summary parity`);
   }
   for (const [kind, descriptions, getter, displayName, titleFor] of [
-    ["mood", moodDescriptions, runtime.getMood, (name) => name, (name) => `${name} Şarkıları — Mood'a Göre Çeviriler | acupoflyrics`],
     ["genre", genreDescriptions, runtime.getGenre, (name) => name, (name) => `${name} Şarkı Sözleri ve Çevirileri | acupoflyrics`],
   ]) {
     for (const name of Object.keys(descriptions)) {
@@ -166,16 +165,19 @@ try {
   assert.equal((await readRoute("albumler")).match(/<h1>/g)?.length, 1, "Repeat generation must replace prior route body");
   assert.equal((await readRoute("albumler")).match(/id="seo-prerender-styles"/g)?.length, 1, "Repeat generation must not duplicate styles");
   assert.equal((await readRoute("albumler")).match(/<h1>(.*?)<\/h1>/)[1], beforeRerender.match(/<h1>(.*?)<\/h1>/)[1]);
-  const moodsBySlug = new Map(posts.map((post) => [post.slug, moodsForPost(post)]));
-  for (const mood of MOOD_NAMES) {
-    const html = await readRoute(`mood/${slugify(mood)}`);
-    assert.ok(html.includes(`<h1>${escapeHtml(mood)}</h1>`), "Preserve original mood labels and URLs");
-    const expected = posts.filter((post) => moodsBySlug.get(post.slug).includes(mood)).map((post) => `/${post.slug}/`).sort();
+  for (const mood of moodCollections) {
+    const html = await readRoute(`mood/${mood.slug}`);
+    assert.ok(html.includes(`<h1>${escapeHtml(mood.name)}</h1>`));
+    const collection = runtime.getMood(mood.slug);
+    assert.equal(decodeHtml(html.match(/<meta name="description" content="([^"]*)"/)[1]), completeSeoDescription(collection.description));
+    assert.equal(decodeHtml(html.match(/<title>(.*?)<\/title>/)[1]), normalizeSeoTitle(fitSeoTitle([`${mood.name}${mood.name.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`])));
+    const expected = postsForMoodCollection(mood, posts).map((post) => `/${post.slug}/`).sort();
+    assert.deepEqual(expected, collection.items.map(post => `/${post.slug}/`).sort(), 'Runtime and static mood memberships match');
     const found = [...html.matchAll(/<a\b[^>]*href="(\/[^"/]+\/)"/g)].map((match) => match[1]).sort();
     assert.deepEqual(found, expected, `${mood}: prerender must include the same primary and secondary mood memberships as the app`);
     assert.equal(/name="robots" content="noindex/.test(html), expected.length === 0);
   }
-  for (const route of ["hakkimizda", "iletisim", "gizlilik", "listeler"]) {
+  for (const route of ["hakkimizda", "iletisim", "gizlilik", "listeler", "linkler"]) {
     const html = await readRoute(route);
     assert.match(html, /<h1[ >]/, `${route} needs a visible heading before JS`);
     assert.match(html, /<p[ >]/, `${route} needs initial content`);
@@ -212,7 +214,7 @@ try {
   execFileSync(process.execPath, ["scripts/auditSeoBuild.js"], {
     cwd: ROOT, env: { ...process.env, ACL_SEO_DIST: scratch }, stdio: "pipe", timeout: 30000,
   });
-  console.log(`SEO regressions passed: ${MOOD_NAMES.length} mood collections, ${popGundemiArticles.length} article link sets, support pages, private routes, compact indexes and generated-site link audit.`);
+  console.log(`SEO regressions passed: ${moodCollections.length} mood collections, ${popGundemiArticles.length} article link sets, support pages, private routes, compact indexes and generated-site link audit.`);
 } finally {
   await rm(scratch, { recursive: true, force: true });
 }
