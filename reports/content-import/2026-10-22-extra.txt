@@ -1,0 +1,38 @@
+22 Ekim 2026 — Üç kullanıcı çevirisi
+
+Tommy Cash — Espresso Macchiato
+Sayfa: /tommy-cash-espresso-macchiato-turkce-ceviri/
+10 bölüm; 41 özgün satır + 41 çeviri satırı; 6 tıklanabilir not.
+YouTube: https://www.youtube.com/watch?v=5MS_Fczs_98
+Kanal: Eurovision Song Contest (resmî video)
+Spotify: https://open.spotify.com/track/4f5sxA4nQywcBlU05Ixdc7
+Seçilen yayın: Tommy Cash — Espresso Macchiato, 7 Aralık 2024, tekli.
+“Corneo”ya temelsiz anlam verilmedi. 24 carati elmas değil, ayar/altın imgesiyle karşılandı.
+Kaynak dil: İngilizce ağırlıklı, bilerek bozulmuş İtalyanca karışımı. Arşiv dil kodu en.
+
+Travis Scott, Playboi Carti — FE!N
+Sayfa: /travis-scott-playboi-carti-fein-turkce-ceviri/
+9 bölüm; 55 özgün satır + 55 çeviri satırı; 15 tıklanabilir not.
+YouTube: https://www.youtube.com/watch?v=B9synWjqBn8
+Kanal: TravisScottVEVO
+Spotify: https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA
+Seçilen yayın: Travis Scott — UTOPIA, 28 Temmuz 2023, albüm.
+İki sanatçının Spotify kredisi korunuyor. Bölüm içindeki Sheck Wes vokal kredisi kullanıcı metnindeki gibi tutuldu.
+69 FE!N tekrarının tamamı çeviride mevcut. “O” ve “towed up” özgün biçimleriyle bırakıldı; belirsizlik notlarda açıklandı. Öldürme veya belirli bir uyuşturucuya ilişkin temelsiz kesin yorumlar kaldırıldı.
+
+Amy Winehouse — Back to Black
+Sayfa: /amy-winehouse-back-to-black-turkce-ceviri/
+6 bölüm; 43 özgün satır + 43 çeviri satırı; 6 tıklanabilir not.
+YouTube: https://www.youtube.com/watch?v=TJAfLE39ZZ8
+Kanal: AmyWinehouseVEVO
+Spotify: https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w
+Seçilen yayın: Amy Winehouse — Back To Black (Deluxe Edition), 2006 (servis yalnızca yıl veriyor).
+“Kara sevda” yerine karanlık; tüm nakaratlarda “Ben yüz kez öldüm”; “Ben bize dönüyorum” korundu. Boru imgesi yalnızca uyuşturucu piposuna indirgenmedi.
+
+Kontroller
+- 612 mevcut kayıt içerik düzeyinde değiştirilmeden korundu; çalışma kopyası 615 kayıt.
+- Üç kayıtta tür/mood etiketleri ve kaynak dil mevcut.
+- Spotify bilgileri mevcut Spotify bağlantısıyla alındı; video başlıkları/kanalları YouTube oEmbed ile doğrulandı.
+- Toplam 27 not, tüm sözler ve YouTube/Spotify bağlantıları ilk HTML'de doğrulandı.
+- Derleme, 33 seçili regresyon testi ve SEO/link denetimi geçti.
+- Bu turda commit, push veya deploy yapılmadı.

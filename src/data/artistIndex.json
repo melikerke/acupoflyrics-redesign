@@ -854,7 +854,7 @@
   {
     "slug": "playboi-carti",
     "name": "Playboi Carti",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
   },
   {
@@ -980,7 +980,7 @@
   {
     "slug": "travis-scott",
     "name": "Travis Scott",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71"
   },
   {
@@ -1774,5 +1774,17 @@
     "name": "A2O",
     "count": 1,
     "image": null
+  },
+  {
+    "slug": "tommy-cash",
+    "name": "Tommy Cash",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb889be712bb77955714ae4370"
+  },
+  {
+    "slug": "amy-winehouse",
+    "name": "Amy Winehouse",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c"
   }
 ]

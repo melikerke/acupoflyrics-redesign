@@ -1,5 +1,1379 @@
 [
   {
+    "id": "5320",
+    "title": "Amy Winehouse Back to Black Türkçe Çeviri",
+    "song": "Back to Black",
+    "slug": "amy-winehouse-back-to-black-turkce-ceviri",
+    "date": "2026-10-22T16:00:00+03:00",
+    "artist": "Amy Winehouse",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Amy Winehouse",
+      "Back To Black (Deluxe Edition)"
+    ],
+    "category_slugs": [
+      "amy-winehouse",
+      "back-to-black-deluxe-edition"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "He left no time to regret",
+          "Kept his dick wet",
+          "With his same old safe bet",
+          "Me and my head high",
+          "And my tears dry",
+          "Get on without my guy",
+          "You went back to what you knew",
+          "So far removed",
+          "From all that we went through",
+          "And I tread a troubled track",
+          "My odds are stacked",
+          "I'll go back to black"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Pişman olmaya bile vakit bırakmadı",
+          "Seksine devam etti",
+          "Yine o eski garanti seçeneğiyle",
+          "Ben başım dik",
+          "Gözlerim kuru",
+          "Onsuz devam ediyorum",
+          "Sen bildiğin şeye geri döndün",
+          "Öylesine uzakta",
+          "Birlikte yaşadığımız her şeyden",
+          "Ben ise dertli bir yolda yürüyorum",
+          "Şartlar aleyhime",
+          "Ben yine karanlığa döneceğim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "We only said goodbye with words",
+          "I died a hundred times",
+          "You go back to her",
+          "And I go back to",
+          "I go back to us"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biz sadece sözlerle vedalaştık",
+          "Ben yüz kez öldüm",
+          "Sen ona dönüyorsun",
+          "Ben ise geri dönüyorum",
+          "Ben bize dönüyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I love you much",
+          "It's not enough",
+          "You love blow and I love puff",
+          "And life",
+          "Is like a pipe",
+          "And I'm a tiny penny rollin' up the walls inside"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Seni çok seviyorum",
+          "Bu yetmiyor",
+          "Sen kokaini seviyorsun, ben de tüttürmeyi",
+          "Ve hayat",
+          "Bir boru gibi",
+          "Bense içinde duvarlara doğru yuvarlanan küçücük bir bozuk parayım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "We only said goodbye with words",
+          "I died a hundred times",
+          "You go back to her",
+          "And I go back to",
+          "We only said goodbye with words",
+          "I died a hundred times",
+          "You go back to her",
+          "And I go back to"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biz sadece sözlerle vedalaştık",
+          "Ben yüz kez öldüm",
+          "Sen ona dönüyorsun",
+          "Ben ise geri dönüyorum",
+          "Biz sadece sözlerle vedalaştık",
+          "Ben yüz kez öldüm",
+          "Sen ona dönüyorsun",
+          "Ben ise geri dönüyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Black, black, black, black",
+          "Black, black, black",
+          "I go back to",
+          "I go back to"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Karanlık, karanlık, karanlık, karanlık",
+          "Karanlık, karanlık, karanlık",
+          "Geri dönüyorum",
+          "Geri dönüyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "We only said goodbye with words",
+          "I died a hundred times",
+          "You go back to her",
+          "And I go back to",
+          "We only said goodbye with words",
+          "I died a hundred times",
+          "You go back to her",
+          "And I go back to black"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biz sadece sözlerle vedalaştık",
+          "Ben yüz kez öldüm",
+          "Sen ona dönüyorsun",
+          "Ben ise geri dönüyorum",
+          "Biz sadece sözlerle vedalaştık",
+          "Ben yüz kez öldüm",
+          "Sen ona dönüyorsun",
+          "Ben ise yine karanlığa dönüyorum"
+        ]
+      }
+    ],
+    "excerpt": "Amy Winehouse — Back to Black sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Seksine devam etti": "Özgün ifade çok kaba ve doğrudan cinseldir. Burada anlatıcının, karşı tarafın eski ve garanti gördüğü seçeneğiyle cinsel hayatına devam etmesine yönelik sitemi aktarılıyor.",
+      "Şartlar aleyhime": "“The odds are stacked against someone”, koşulların ve olasılıkların birinin aleyhine olmasıdır. Sözdeki kısaltılmış ifade bu dezavantaj hissini taşır.",
+      "karanlığa": "“Black” burada karanlık, yas veya boşluk gibi çağrışımlara açık bırakılır. “Kara sevda” şeklinde romantikleştirilmez; sözlerden belirli bir ruhsal teşhis çıkarılmaz.",
+      "Ben bize dönüyorum": "Karşı tarafın başka birine dönmesi ile anlatıcının hâlâ “biz”e dönmesi karşı karşıya konur. İlişkinin hatırasına dönüş olarak okunabilir; “eski günler” gibi ek bir nesne çeviriye konmaz.",
+      "tüttürmeyi": "“Blow” kokain için kullanılan argodur. “Puff” burada yaygın olarak esrar içme çağrışımıyla okunur; çeviri tüttürme fiilini korur. Sözdeki anlatıcıyla sanatçının biyografisi otomatik olarak eşitlenmez.",
+      "Bir boru gibi": "“Pipe” boru veya pipo anlamına gelebilir. Bozuk paranın içerideki duvarlarda yuvarlanması imgesi boru karşılığıyla korunur; benzetme yalnızca uyuşturucu piposuna sabitlenmez."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3FAclTFfvUuQYnEsptbK8w",
+        "name": "Back To Black",
+        "url": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+        "isrc": "GBUM70604698",
+        "durationMs": 241293,
+        "duration": "4:01",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 5,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6Q192DXotxtaysaqNPy5yR",
+        "name": "Amy Winehouse",
+        "url": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6Q192DXotxtaysaqNPy5yR",
+          "name": "Amy Winehouse",
+          "url": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR"
+        }
+      ],
+      "album": {
+        "id": "0E4xv5gPjykrwBgBZzI8XG",
+        "name": "Back To Black (Deluxe Edition)",
+        "url": "https://open.spotify.com/album/0E4xv5gPjykrwBgBZzI8XG",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+        "artists": [
+          {
+            "id": "6Q192DXotxtaysaqNPy5yR",
+            "name": "Amy Winehouse",
+            "url": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR"
+          }
+        ],
+        "releaseDate": "2006",
+        "releaseDatePrecision": "year",
+        "albumType": "Derleme",
+        "rawAlbumType": "compilation",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2007 Universal Island Records Ltd. A Universal Music Company.",
+            "type": "C"
+          },
+          {
+            "text": "This Compilation ℗ 2007 Universal Island Records Ltd. A Universal Music Company.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 19,
+        "tracks": [
+          {
+            "id": "3N4DI1vuTSX1tz7fa2NQZw",
+            "name": "Rehab",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 214946,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3N4DI1vuTSX1tz7fa2NQZw",
+            "isCurrent": false
+          },
+          {
+            "id": "0DMRKqrpd0QO4RWiEdMib0",
+            "name": "You Know I'm No Good",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 257186,
+            "duration": "4:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0DMRKqrpd0QO4RWiEdMib0",
+            "isCurrent": false
+          },
+          {
+            "id": "0RfzQhbvtn5lOaKdhpAni7",
+            "name": "Me & Mr Jones",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 153173,
+            "duration": "2:33",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0RfzQhbvtn5lOaKdhpAni7",
+            "isCurrent": false
+          },
+          {
+            "id": "2WsHmmKc1U4IbTzeGUu1Ks",
+            "name": "Just Friends",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 193306,
+            "duration": "3:13",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2WsHmmKc1U4IbTzeGUu1Ks",
+            "isCurrent": false
+          },
+          {
+            "id": "3FAclTFfvUuQYnEsptbK8w",
+            "name": "Back To Black",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 241293,
+            "duration": "4:01",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+            "isCurrent": true
+          },
+          {
+            "id": "3uliGwmB52ZA7brgpZMzyH",
+            "name": "Love Is A Losing Game",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 155413,
+            "duration": "2:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3uliGwmB52ZA7brgpZMzyH",
+            "isCurrent": false
+          },
+          {
+            "id": "7MDfN1ldfTMtuXXdVz2Pzc",
+            "name": "Tears Dry On Their Own",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 186440,
+            "duration": "3:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7MDfN1ldfTMtuXXdVz2Pzc",
+            "isCurrent": false
+          },
+          {
+            "id": "2pxCOdnHEZZ3A1XRNxjc1v",
+            "name": "Wake Up Alone",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 222000,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2pxCOdnHEZZ3A1XRNxjc1v",
+            "isCurrent": false
+          },
+          {
+            "id": "5DEitTu33CUjozBijXiLNb",
+            "name": "Some Unholy War",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 142693,
+            "duration": "2:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5DEitTu33CUjozBijXiLNb",
+            "isCurrent": false
+          },
+          {
+            "id": "3eVo0wD4kGwF3gshtecZso",
+            "name": "He Can Only Hold Her",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 166400,
+            "duration": "2:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3eVo0wD4kGwF3gshtecZso",
+            "isCurrent": false
+          },
+          {
+            "id": "7EzafK3PjsWEICREII1WXg",
+            "name": "Addicted",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 165120,
+            "duration": "2:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7EzafK3PjsWEICREII1WXg",
+            "isCurrent": false
+          },
+          {
+            "id": "6nLvaCZFR1wEzW3sIKpsnr",
+            "name": "Valerie - Live At BBC Radio 1 Live Lounge, London / 2007",
+            "trackNumber": 1,
+            "discNumber": 2,
+            "durationMs": 233733,
+            "duration": "3:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6nLvaCZFR1wEzW3sIKpsnr",
+            "isCurrent": false
+          },
+          {
+            "id": "5kG1ARHk8dli0bKiMN2oE6",
+            "name": "Cupid - Deluxe Edition Version",
+            "trackNumber": 2,
+            "discNumber": 2,
+            "durationMs": 228853,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5kG1ARHk8dli0bKiMN2oE6",
+            "isCurrent": false
+          },
+          {
+            "id": "52fqquVYihRW17ySEcy5mA",
+            "name": "Monkey Man",
+            "trackNumber": 3,
+            "discNumber": 2,
+            "durationMs": 176320,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/52fqquVYihRW17ySEcy5mA",
+            "isCurrent": false
+          },
+          {
+            "id": "5OlM5krdWS4ivOGVz3X8c0",
+            "name": "Some Unholy War - Down Tempo",
+            "trackNumber": 4,
+            "discNumber": 2,
+            "durationMs": 196080,
+            "duration": "3:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5OlM5krdWS4ivOGVz3X8c0",
+            "isCurrent": false
+          },
+          {
+            "id": "6huXEunO4jEFn9Q7WLoMZs",
+            "name": "Hey Little Rich Girl",
+            "trackNumber": 5,
+            "discNumber": 2,
+            "durationMs": 215000,
+            "duration": "3:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6huXEunO4jEFn9Q7WLoMZs",
+            "isCurrent": false
+          },
+          {
+            "id": "7ee1XEOzZgzTQWNaiHZvKY",
+            "name": "You're Wondering Now",
+            "trackNumber": 6,
+            "discNumber": 2,
+            "durationMs": 153413,
+            "duration": "2:33",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7ee1XEOzZgzTQWNaiHZvKY",
+            "isCurrent": false
+          },
+          {
+            "id": "1Nz1PPjU3ONNEgjg8Pkppg",
+            "name": "To Know Him Is To Love Him - Live For NapsterLive, London, UK / 2006",
+            "trackNumber": 7,
+            "discNumber": 2,
+            "durationMs": 145066,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1Nz1PPjU3ONNEgjg8Pkppg",
+            "isCurrent": false
+          },
+          {
+            "id": "113iEwaI5Se6Q287iXOIJy",
+            "name": "Love Is A Losing Game - Original Demo",
+            "trackNumber": 8,
+            "discNumber": 2,
+            "durationMs": 223893,
+            "duration": "3:44",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/113iEwaI5Se6Q287iXOIJy",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T12:26:23.542Z",
+      "trackUrl": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+      "albumUrl": "https://open.spotify.com/album/0E4xv5gPjykrwBgBZzI8XG",
+      "artistUrl": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR",
+      "albumName": "Back To Black (Deluxe Edition)",
+      "albumType": "Derleme",
+      "releaseDate": "2006",
+      "duration": "4:01",
+      "isrc": "GBUM70604698",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=TJAfLE39ZZ8",
+    "source": "user-provided",
+    "genres": [
+      "soul",
+      "r&b",
+      "retro-soul"
+    ],
+    "moods": [
+      "Sad",
+      "Lonely"
+    ]
+  },
+  {
+    "id": "5319",
+    "title": "Travis Scott, Playboi Carti FE!N Türkçe Çeviri",
+    "song": "FE!N",
+    "slug": "travis-scott-playboi-carti-fein-turkce-ceviri",
+    "date": "2026-10-22T16:00:00+03:00",
+    "artist": "Travis Scott, Playboi Carti",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Travis Scott",
+      "Playboi Carti",
+      "UTOPIA"
+    ],
+    "category_slugs": [
+      "travis-scott",
+      "playboi-carti",
+      "utopia"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Travis Scott & Sheck Wes",
+        "lines": [
+          "Just come outside for the night (Yeah)",
+          "Take your time, get your light (Yeah)",
+          "Johnny Dang, yeah, yeah",
+          "I been out geekin' (Bitch)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Travis Scott & Sheck Wes",
+        "lines": [
+          "Bu gecelik dışarı çık yeter (Evet)",
+          "Acele etme, ateşini yak (Evet)",
+          "Johnny Dang, evet, evet",
+          "Kendimden geçmiş dolaşıyorum (Sürtük)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Travis Scott",
+        "lines": [
+          "FE!N, FE!N, FE!N, FE!N, FE!N (Yeah)",
+          "FE!N, FE!N, FE!N, FE!N, FE!N (Yeah)",
+          "FE!N, FE!N, FE!N, FE!N, FE!N",
+          "FE!N, FE!N (Yeah), FE!N, FE!N, FE!N"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Travis Scott",
+        "lines": [
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA (Evet)",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA (Evet)",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA",
+          "MÜPTELA, MÜPTELA (Evet), MÜPTELA, MÜPTELA, MÜPTELA"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Travis Scott & Sheck Wes",
+        "lines": [
+          "The career's more at stake when you in your prime (At stake)",
+          "Fuck that paper, baby, my face on the dotted line (Dot, yeah)",
+          "I been flyin' out of town for some peace of mind (Yeah, yeah, bitch)",
+          "It's like always they just want a piece of mine (Ah)",
+          "I been focused on the future, never on right now (Ah)",
+          "What I'm sippin' not kombucha, either pink or brown (It's lit)",
+          "I'm the one that introduced you to the you right now (Mm, let's go)",
+          "Oh my God, that bitch bitin' (That bitch bitin')",
+          "Well, alright (Alright), tryna vibe (I'm tryna vibe this)",
+          "In the night, come alive",
+          "Ain't asleep, ain't a—, ain't a—, ain't-ain't"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Travis Scott & Sheck Wes",
+        "lines": [
+          "Zirvedeyken kariyerin daha çok risk altındadır (Risk altında)",
+          "Parayı siktir et bebeğim, imzayı ben atıyorum (Nokta, evet)",
+          "Biraz huzur bulmak için şehir dışına uçuyorum (Evet, evet, sürtük)",
+          "Sanki hep benden bir parça istiyorlar (Ah)",
+          "Geleceğe odaklandım, hiç şu ana değil (Ah)",
+          "Yudumladığım kombu çayı değil, ya pembe ya kahverengi (Ortalık yanıyor)",
+          "Seni şu anki hâlinle tanıştıran benim (Mm, hadi)",
+          "Tanrım, o sürtük beni kopyalıyor (O sürtük kopyalıyor)",
+          "Peki, tamam (Tamam), havaya girmeye çalışıyorum (Bunun havasına girmeye çalışıyorum)",
+          "Gecenin içinde canlan",
+          "Uyumuyorum, uyu—, uyu—, uyu-uyu—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Travis Scott",
+        "lines": [
+          "FE!N, FE!N, FE!N, FE!N, FE!N",
+          "FE!N, FE!N, FE!N, FE!N, FE!N",
+          "FE!N, FE!N, FE!N, FE!N, FE!N",
+          "FE!N, FE!N, FE!N, FE!N",
+          "FE!N, FE!N, FE!N, FE!N, FE!N"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Travis Scott",
+        "lines": [
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA",
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Playboi Carti",
+        "lines": [
+          "Schyeah, woah, what?",
+          "What?",
+          "(Homixide, Homixide, Homixide, Homixide)",
+          "What? (Yeah)",
+          "Woah, woah (Yeah, yeah)",
+          "(Homixide, Homixide, Homixide, Homixide)",
+          "Hit, yeah, hold up (Yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Playboi Carti",
+        "lines": [
+          "Schyeah, woah, ne?",
+          "Ne?",
+          "(Homixide, Homixide, Homixide, Homixide)",
+          "Ne? (Evet)",
+          "Woah, woah (Evet, evet)",
+          "(Homixide, Homixide, Homixide, Homixide)",
+          "Vur, evet, bekle (Evet)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Playboi Carti",
+        "lines": [
+          "Yeah, I just been poppin' my shit and gettin' it live, hold up (Shit)",
+          "Yeah, you try to come wrong 'bout this shit, we poppin' your tires, hold up (Shit)",
+          "Uh, hundred-round (Woah), feelin' like I'm on ten",
+          "Playin' both sides with these hoes (Hold up), shawty, I'm fuckin' your friend (Hold up)",
+          "I've been goin' crazy, shawty, I've been in the deep end",
+          "She not innocent, uh, she just tryna go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Playboi Carti",
+        "lines": [
+          "Evet, şovumu yapıp ortalığı canlandırıyorum, bekle (Siktir)",
+          "Evet, bu işte bize ters yaparsan lastiklerini patlatırız, bekle (Siktir)",
+          "Uh, yüzlük şarjör (Woah), on üzerinden on gibiyim",
+          "Bu kızlarla iki taraflı oynuyorum (Bekle), tatlım, arkadaşını sikiyorum (Bekle)",
+          "Çıldırıyorum tatlım, işin derinine daldım",
+          "O masum değil, uh, sadece takılmak istiyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Travis Scott & Playboi Carti",
+        "lines": [
+          "FE!N (Talkin' 'bout), FE!N, FE!N (Schyeah), FE!N, FE!N (Schyeah, oh, oh, what? Schyeah)",
+          "FE!N, FE!N (Schyeah), FE!N, FE!N, FE!N (Oh, oh)",
+          "FE!N, FE!N (Talkin' 'bout), FE!N, FE!N, FE!N, FE!N (Talkin' 'bout, let's go)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Travis Scott & Playboi Carti",
+        "lines": [
+          "MÜPTELA (Diyorum ya), MÜPTELA, MÜPTELA (Schyeah), MÜPTELA, MÜPTELA (Schyeah, oh, oh, ne? Schyeah)",
+          "MÜPTELA, MÜPTELA (Schyeah), MÜPTELA, MÜPTELA, MÜPTELA (Oh, oh)",
+          "MÜPTELA, MÜPTELA (Diyorum ya), MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA (Diyorum ya, hadi)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3: Playboi Carti & Travis Scott",
+        "lines": [
+          "I just been icin' my hoes, I just been drippin' my hoes (Drippin' my hoes)",
+          "This is a whole 'nother level, shawty (Oh), I got these hoes on they toes (Hoes on they toes)",
+          "I put the bitch on the road, she tryna fuck on the O, hold up, hold up",
+          "I got this ho with me, she tryna show me somethin', hold up, hold up (Oh)",
+          "I got flows for days, these niggas ain't on nothin', hold up, yeah (Oh)",
+          "Me and my boy locked in, you know we on one, hold up, uh (Slatt, slatt)",
+          "We in the spot goin' crazy until the sun up",
+          "You worried about that ho, that ho done chose up (Slatt, bitch-ass)",
+          "Uh, pistols all in the kitchen, can't give the zip code up, hold up, yeah, slatt (Wow)",
+          "FE!N, FE!N, FE!N (Huh? Huh? Huh? Huh? Yeah)",
+          "Why the fuck these niggas actin' like they know us?",
+          "00CACTUS, yeah, we towed up (Skrrt, skrrt), uh, yeah",
+          "Switch out the bag, these niggas get rolled up, hold up (It's lit), slatt",
+          "Everything hit, hold up, everything Homixide, Homixide (Homixide, Homixide, Homixide, Homixide)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3: Playboi Carti & Travis Scott",
+        "lines": [
+          "Kızlarımı pırlantalarla donatıyorum, kızlarımı şık giydiriyorum (Kızlarımı şık giydiriyorum)",
+          "Bu bambaşka bir seviye tatlım (Oh), bu kızları tetikte tutuyorum (Kızları tetikte)",
+          "Kızı yola çıkardım, O ile yatmaya çalışıyor, bekle, bekle",
+          "Yanımda bir hatun var, bana bir şey göstermeye çalışıyor, bekle, bekle (Oh)",
+          "Bende flow bitmez, bu herifler hiçbir iş yapmıyor, bekle, evet (Oh)",
+          "Dostumla kenetlendik, biliyorsun havamızdayız, bekle, uh (Slatt, slatt)",
+          "Mekânda güneş doğana kadar deliler gibi eğleniyoruz",
+          "Sen o sürtük için endişeleniyorsun, o çoktan seçimini yaptı (Slatt, ödlek)",
+          "Uh, mutfak tabancalarla dolu, posta kodunu veremem, bekle, evet, slatt (Vay)",
+          "MÜPTELA, MÜPTELA, MÜPTELA (Ha? Ha? Ha? Ha? Evet)",
+          "Bu herifler neden bizi tanıyormuş gibi davranıyor lan?",
+          "00CACTUS, evet, biz towed up (Skrrt, skrrt), uh, evet",
+          "Çantayı değiştir, bu herifler sarılıp paket oluyor, bekle (Ortalık yanıyor), slatt",
+          "Her şey tutuyor, bekle, her şey Homixide, Homixide (Homixide, Homixide, Homixide, Homixide)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Travis Scott & Playboi Carti",
+        "lines": [
+          "FE!N, FE!N, FE!N, FE!N, FE!N, FE!N (Homixide, Homixide, Homixide, Homixide, Homixide, Homixide, Homixide)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Travis Scott & Playboi Carti",
+        "lines": [
+          "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA (Homixide, Homixide, Homixide, Homixide, Homixide, Homixide, Homixide)"
+        ]
+      }
+    ],
+    "excerpt": "Travis Scott, Playboi Carti — FE!N sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "ateşini yak": "“Get your light” burada ateş yakma çağrışımıyla karşılandı; ifade tek başına neyin yakıldığını belirtmiyor. Bu, kesin bir nesne veya madde adı eklemeyen bağlamsal bir okuma.",
+      "Johnny Dang": "Mücevher ve özellikle diş takılarıyla tanınan kuyumcuya gönderme. Satır yalnızca adı söylüyor; çeviriye ayrıca takı taktığı iddiası eklenmedi.",
+      "Kendimden geçmiş": "“Geekin’”, bu argo bağlamında madde etkisinde aşırı uyarılmış veya yükselmiş olmayı çağrıştırır; belirli bir maddeyi kesinleştirmez.",
+      "MÜPTELA": "Başlıktaki “FE!N”, “fiend” kelimesinin stilize yazımıdır. Yoğun biçimde bir şeye düşkün veya bağımlı kişi anlamı taşır. Hangi bağımlılığın kastedildiği her tekrarda ayrı ayrı belirtilmez.",
+      "imzayı ben atıyorum": "“Paper” para veya evrak çağrışımı taşırken “dotted line” imza yerine işaret eder. “My face” imgesi konuşanın anlaşmadaki ağırlığını öne çıkarır; Türkçe satır bu böbürlenmeyi doğal bir ifadeyle karşılar.",
+      "benden bir parça": "“Peace of mind” ile “piece of mine” birbirine yakın duyulur. Bir önceki satır huzur ararken bu satır başkalarının ondan pay istemesine döner; ses oyunu Türkçede birebir korunmaz.",
+      "ya pembe ya kahverengi": "Söz, içeceğin kombu çayı olmadığını ve rengini söylüyor. “Lean” veya başka içeceklerle ilişkilendirilebilir; rengi tek başına kesin bir madde ya da içerik kanıtı saymıyoruz.",
+      "beni kopyalıyor": "“Biting”, rap argosunda başkasının tarzını veya sözlerini taklit etmek için kullanılır.",
+      "yüzlük şarjör": "“Hundred-round” yüz mermi kapasiteli bir şarjör imgesidir. “On ten” ise hemen ardından yoğunluk ve yüksek enerji hissi verir.",
+      "O ile": "Gönderilen sözdeki “O”nun kimi veya neyi belirttiği açık değil. Özel referans korunuyor; OxyContin veya başka bir madde adı olarak kesinleştirilmiyor.",
+      "towed up": "Bu argo ifadenin burada kullanılan anlamı güvenilir bir açıklamayla kesinleştirilemediği için özgün biçimi korundu. “Silahlıyız” veya “buraları biz yönetiyoruz” gibi ek bir iddia çeviriye konmadı.",
+      "sarılıp paket oluyor": "“Rolled up” için sarma/paketleme imgesi korunuyor. Argo tehdit tonu taşıyabilir, ancak açıkça “öldürülmek” diye kesinleştirilmiyor.",
+      "pırlantalarla donatıyorum": "“Ice” mücevherleri, “drip” ise gösterişli giyim ve tarzı çağrıştırır. İki ifade aynı satırda lüks görünüm üzerinden birleşir.",
+      "Homixide": "Tekrarlanan özel ad ve ekip sloganı çevrilmeden bırakıldı. Söylenişi “homicide” kelimesini çağrıştırsa da bu tekrarları gerçek bir suç itirafı olarak okumuyoruz.",
+      "Slatt": "Rapte bağlılık ve ekip aidiyeti çağrışımlarıyla kullanılan bir ünlem. Burada araya giren vokal olarak korunur."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "42VsgItocQwOQC3XWZ8JNA",
+        "name": "FE!N (feat. Playboi Carti)",
+        "url": "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA",
+        "isrc": "USSM12305010",
+        "durationMs": 191700,
+        "duration": "3:12",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 8,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+        "name": "Travis Scott",
+        "url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+          "name": "Travis Scott",
+          "url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+        },
+        {
+          "id": "699OTQXzgjhIYAHMy9RyPD",
+          "name": "Playboi Carti",
+          "url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD"
+        }
+      ],
+      "album": {
+        "id": "18NOKLkZETa4sWwLMIm0UZ",
+        "name": "UTOPIA",
+        "url": "https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+        "artists": [
+          {
+            "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+            "name": "Travis Scott",
+            "url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+          }
+        ],
+        "releaseDate": "2023-07-28",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 19,
+        "tracks": [
+          {
+            "id": "0hL9gOw6XBWsygEUcVjxEc",
+            "name": "HYAENA",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 222085,
+            "duration": "3:42",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0hL9gOw6XBWsygEUcVjxEc",
+            "isCurrent": false
+          },
+          {
+            "id": "1PH2MDbcBAU094DlgTIND1",
+            "name": "THANK GOD",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 184888,
+            "duration": "3:05",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1PH2MDbcBAU094DlgTIND1",
+            "isCurrent": false
+          },
+          {
+            "id": "3KCNiDi9Pza6ZD8FggNoaw",
+            "name": "MODERN JAM (feat. Teezo Touchdown)",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 255412,
+            "duration": "4:15",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3KCNiDi9Pza6ZD8FggNoaw",
+            "isCurrent": false
+          },
+          {
+            "id": "4kjI1gwQZRKNDkw1nI475M",
+            "name": "MY EYES",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 251249,
+            "duration": "4:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4kjI1gwQZRKNDkw1nI475M",
+            "isCurrent": false
+          },
+          {
+            "id": "04WxWo7XeVyx22xEsrWRUb",
+            "name": "GOD'S COUNTRY",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 127991,
+            "duration": "2:08",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/04WxWo7XeVyx22xEsrWRUb",
+            "isCurrent": false
+          },
+          {
+            "id": "7LSpFCvRZZot2AlmkUzy9k",
+            "name": "SIRENS",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 204447,
+            "duration": "3:24",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7LSpFCvRZZot2AlmkUzy9k",
+            "isCurrent": false
+          },
+          {
+            "id": "67nepsnrcZkowTxMWigSbb",
+            "name": "MELTDOWN (feat. Drake)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 246133,
+            "duration": "4:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/67nepsnrcZkowTxMWigSbb",
+            "isCurrent": false
+          },
+          {
+            "id": "42VsgItocQwOQC3XWZ8JNA",
+            "name": "FE!N (feat. Playboi Carti)",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 191700,
+            "duration": "3:12",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA",
+            "isCurrent": true
+          },
+          {
+            "id": "0OEe83mMZ5kaNw5uZQ7ilG",
+            "name": "DELRESTO (ECHOES) (feat. Beyoncé)",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 274137,
+            "duration": "4:34",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0OEe83mMZ5kaNw5uZQ7ilG",
+            "isCurrent": false
+          },
+          {
+            "id": "6wsqVwoiVH2kde4k4KKAFU",
+            "name": "I KNOW ?",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 211582,
+            "duration": "3:32",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6wsqVwoiVH2kde4k4KKAFU",
+            "isCurrent": false
+          },
+          {
+            "id": "0lodMO0qK83vfPiiD7FMEt",
+            "name": "TOPIA TWINS (feat. Rob49 & 21 Savage)",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 223173,
+            "duration": "3:43",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0lodMO0qK83vfPiiD7FMEt",
+            "isCurrent": false
+          },
+          {
+            "id": "4GL9GMX9t7Qkprvf1YighZ",
+            "name": "CIRCUS MAXIMUS (feat. The Weeknd & Swae Lee)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 258842,
+            "duration": "4:19",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4GL9GMX9t7Qkprvf1YighZ",
+            "isCurrent": false
+          },
+          {
+            "id": "2Q0aElTZQtEUsoiaQfizu6",
+            "name": "PARASAIL (feat. Yung Lean & Dave Chappelle)",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 154964,
+            "duration": "2:35",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Q0aElTZQtEUsoiaQfizu6",
+            "isCurrent": false
+          },
+          {
+            "id": "0bkV1iQHSxBaksUqgEkcbc",
+            "name": "SKITZO (feat. Young Thug)",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 366592,
+            "duration": "6:07",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0bkV1iQHSxBaksUqgEkcbc",
+            "isCurrent": false
+          },
+          {
+            "id": "7EiUtdeoWcKqLi5ELZCjYf",
+            "name": "LOST FOREVER (feat. Westside Gunn)",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 163071,
+            "duration": "2:43",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7EiUtdeoWcKqLi5ELZCjYf",
+            "isCurrent": false
+          },
+          {
+            "id": "0a4SMs889NwP8oWI7Vemle",
+            "name": "LOOOVE (feat. Kid Cudi)",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 226715,
+            "duration": "3:47",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0a4SMs889NwP8oWI7Vemle",
+            "isCurrent": false
+          },
+          {
+            "id": "4o82J5zr4DFEs9yj5szCVX",
+            "name": "K-POP (feat. Bad Bunny & The Weeknd)",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 185220,
+            "duration": "3:05",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/4o82J5zr4DFEs9yj5szCVX",
+            "isCurrent": false
+          },
+          {
+            "id": "1i9lZvlaDdWDPyXEE95aiq",
+            "name": "TELEKINESIS (feat. SZA & Future)",
+            "trackNumber": 18,
+            "discNumber": 1,
+            "durationMs": 353754,
+            "duration": "5:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/1i9lZvlaDdWDPyXEE95aiq",
+            "isCurrent": false
+          },
+          {
+            "id": "76gcXhY3Zv6wW0BTe9nHJo",
+            "name": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+            "trackNumber": 19,
+            "discNumber": 1,
+            "durationMs": 314836,
+            "duration": "5:15",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/76gcXhY3Zv6wW0BTe9nHJo",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T12:26:23.140Z",
+      "trackUrl": "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA",
+      "albumUrl": "https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ",
+      "artistUrl": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "albumName": "UTOPIA",
+      "albumType": "Album",
+      "releaseDate": "2023-07-28",
+      "duration": "3:12",
+      "isrc": "USSM12305010",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=B9synWjqBn8",
+    "source": "user-provided",
+    "genres": [
+      "hip-hop",
+      "trap",
+      "rage-rap"
+    ],
+    "moods": [
+      "Party",
+      "Motivation"
+    ]
+  },
+  {
+    "id": "5318",
+    "title": "Tommy Cash Espresso Macchiato Türkçe Çeviri",
+    "song": "Espresso Macchiato",
+    "slug": "tommy-cash-espresso-macchiato-turkce-ceviri",
+    "date": "2026-10-22T16:00:00+03:00",
+    "artist": "Tommy Cash",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Tommy Cash",
+      "Espresso Macchiato"
+    ],
+    "category_slugs": [
+      "tommy-cash",
+      "espresso-macchiato"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Mi amore, mi amore",
+          "Espresso macchiato, macchiato, macchiato",
+          "Por favore, por favore",
+          "Espresso macchiato corneo"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Aşkım, aşkım",
+          "Espresso macchiato, macchiato, macchiato",
+          "Lütfen, lütfen",
+          "Espresso macchiato corneo"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mi amore, mi amore",
+          "Espresso macchiato, macchiato, macchiato",
+          "Por favore, por favore",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Aşkım, aşkım",
+          "Espresso macchiato, macchiato, macchiato",
+          "Lütfen, lütfen",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Aha, aha, aha)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "(Aha, aha, aha)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Ciao, bella, I'm Tommaso",
+          "Addicted to tobacco",
+          "Mi like mi coffè very importante",
+          "No time to talk, scusi",
+          "My days are very busy",
+          "And I just own this little ristorante"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Merhaba güzelim, ben Tommaso",
+          "Tütün müptelasıyım",
+          "Kahvemi çok severim, benim için çok önemli",
+          "Konuşmaya vaktim yok, kusura bakma",
+          "Günlerim çok yoğun",
+          "Sadece şu küçük restoranın sahibiyim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Life may give you lemons when dancing with the demons",
+          "No stresso, no stresso, no need to be depresso"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Şeytanlarla dans ederken hayat sana limon verebilir",
+          "Stres yok, stres yok, depresyona gerek yok"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mi amore, mi amore",
+          "Espresso macchiato, macchiato, macchiato",
+          "Por favore, por favore",
+          "Espresso macchiato corneo",
+          "Mi amore, mi amore",
+          "Espresso macchiato, macchiato, macchiato",
+          "Por favore, por favore",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Aşkım, aşkım",
+          "Espresso macchiato, macchiato, macchiato",
+          "Lütfen, lütfen",
+          "Espresso macchiato corneo",
+          "Aşkım, aşkım",
+          "Espresso macchiato, macchiato, macchiato",
+          "Lütfen, lütfen",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Mi like to fly privati",
+          "With twenty-four carati",
+          "Also mi casa very grandioso",
+          "Mi money numeroso",
+          "I work around the clocko",
+          "That's why I'm sweating like a mafioso"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Özel jetle uçmayı severim",
+          "Yirmi dört ayar altınlarla",
+          "Evim de pek ihtişamlı",
+          "Param da pek çok",
+          "Gece gündüz çalışıyorum",
+          "İşte bu yüzden mafya babası gibi terliyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Life is like spaghetti, it's hard until you make it",
+          "No stresso, no stresso, it's gonna be espresso"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "Hayat spagetti gibidir, yapana kadar serttir",
+          "Stres yok, stres yok, espresso olacak"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Mi amore, mi amore",
+          "Espresso macchiato, macchiato, macchiato",
+          "Por favore, por favore",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Aşkım, aşkım",
+          "Espresso macchiato, macchiato, macchiato",
+          "Lütfen, lütfen",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "La-la-la-la, la-la-la-la",
+          "La-la-la-la, la-la-la-la, la-la-la-la, la-la-la",
+          "La-la-la-la, la-la-la-la",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "La-la-la-la, la-la-la-la",
+          "La-la-la-la, la-la-la-la, la-la-la-la, la-la-la",
+          "La-la-la-la, la-la-la-la",
+          "Espresso macchiato, espresso macchiato"
+        ]
+      }
+    ],
+    "excerpt": "Tommy Cash — Espresso Macchiato sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "corneo": "Bu kullanım, şarkının bilerek bozulmuş İtalyanca-İngilizce ses oyunları içinde bırakıldı. Bağlamda doğrulanmış bir anlamı olmadığı için “kornet” veya “en iyisi” gibi karşılıklar yüklenmedi.",
+      "Stres yok": "“No stresso” ve “depresso”, İngilizce kelimelere İtalyanca çağrışımlı sonlar ekleyen komik söyleyişlerdir. Şarkının dili standart İtalyanca değildir.",
+      "hayat sana limon verebilir": "“Life gives you lemons”, hayatın önüne güçlük çıkarmasını anlatan deyimi çağrıştırır. Limon imgesi, şarkının oyuncu dili içinde korunur.",
+      "yapana kadar serttir": "“Hard” hem sert hem zor demektir; “make it” de yapmak ve başarmak çağrışımlarını taşır. Spagetti şakası bu çift anlamla oynar; burada derin bir hayat öğretisi kesinleştirilmez.",
+      "mafya babası gibi terliyorum": "“Sweating like a mafioso”, şarkıda yoğun çalışma ile abartılı mafya tiplemesini bir araya getiren mizahi bir benzetmedir.",
+      "Yirmi dört ayar": "“Twenty-four carati”, burada lüks takı imgesidir. Yirmi dört ayar altının saflığını anlatır; elmasın ağırlığıyla aynı ölçü değildir."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4f5sxA4nQywcBlU05Ixdc7",
+        "name": "Espresso Macchiato",
+        "url": "https://open.spotify.com/track/4f5sxA4nQywcBlU05Ixdc7",
+        "isrc": "DGA0S2441622",
+        "durationMs": 173746,
+        "duration": "2:54",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "44XzG6GoJZNtkIGW19hsUK",
+        "name": "Tommy Cash",
+        "url": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb889be712bb77955714ae4370",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "44XzG6GoJZNtkIGW19hsUK",
+          "name": "Tommy Cash",
+          "url": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK"
+        }
+      ],
+      "album": {
+        "id": "2kaG6TKRUKPSs3eoyR7R0o",
+        "name": "Espresso Macchiato",
+        "url": "https://open.spotify.com/album/2kaG6TKRUKPSs3eoyR7R0o",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204",
+        "artists": [
+          {
+            "id": "44XzG6GoJZNtkIGW19hsUK",
+            "name": "Tommy Cash",
+            "url": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK"
+          }
+        ],
+        "releaseDate": "2024-12-07",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2024 Tommy Cash",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "4f5sxA4nQywcBlU05Ixdc7",
+            "name": "Espresso Macchiato",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 173746,
+            "duration": "2:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4f5sxA4nQywcBlU05Ixdc7",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T12:26:22.703Z",
+      "trackUrl": "https://open.spotify.com/track/4f5sxA4nQywcBlU05Ixdc7",
+      "albumUrl": "https://open.spotify.com/album/2kaG6TKRUKPSs3eoyR7R0o",
+      "artistUrl": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK",
+      "albumName": "Espresso Macchiato",
+      "albumType": "Single",
+      "releaseDate": "2024-12-07",
+      "duration": "2:54",
+      "isrc": "DGA0S2441622",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=5MS_Fczs_98",
+    "source": "user-provided",
+    "genres": [
+      "dance-pop",
+      "electropop"
+    ],
+    "moods": [
+      "Party",
+      "Happy"
+    ]
+  },
+  {
     "id": "5317",
     "title": "A2O LITE, A2O NEON Türkçe Çeviri",
     "song": "NEON",

@@ -1,5 +1,180 @@
 [
   {
+    "id": "5320",
+    "slug": "amy-winehouse-back-to-black-turkce-ceviri",
+    "title": "Amy Winehouse Back to Black Türkçe Çeviri",
+    "song": "Back to Black",
+    "artist": "Amy Winehouse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+    "date": "2026-10-22T16:00:00+03:00",
+    "reading_time": 2,
+    "excerpt": "Amy Winehouse — Back to Black sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Amy Winehouse",
+      "Back To Black (Deluxe Edition)"
+    ],
+    "category_slugs": [
+      "amy-winehouse",
+      "back-to-black-deluxe-edition"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "soul",
+      "r&b",
+      "retro-soul"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+      "albumUrl": "https://open.spotify.com/album/0E4xv5gPjykrwBgBZzI8XG",
+      "artistUrl": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR",
+      "albumName": "Back To Black (Deluxe Edition)",
+      "releaseDate": "2006",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+      "duration": "4:01",
+      "albumType": "Derleme",
+      "label": null,
+      "trackNumber": 5,
+      "totalTracks": 19,
+      "artistName": "Amy Winehouse",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c",
+      "artistGenres": [],
+      "albumArtist": "Amy Winehouse"
+    },
+    "moods": [
+      "Sad",
+      "Lonely"
+    ],
+    "firstPair": {
+      "en": "He left no time to regret",
+      "tr": "Pişman olmaya bile vakit bırakmadı"
+    },
+    "heroPair": {
+      "en": "I'll go back to black",
+      "tr": "Ben yine karanlığa döneceğim"
+    }
+  },
+  {
+    "id": "5319",
+    "slug": "travis-scott-playboi-carti-fein-turkce-ceviri",
+    "title": "Travis Scott, Playboi Carti FE!N Türkçe Çeviri",
+    "song": "FE!N",
+    "artist": "Travis Scott, Playboi Carti",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "date": "2026-10-22T16:00:00+03:00",
+    "reading_time": 5,
+    "excerpt": "Travis Scott, Playboi Carti — FE!N sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Travis Scott",
+      "Playboi Carti",
+      "UTOPIA"
+    ],
+    "category_slugs": [
+      "travis-scott",
+      "playboi-carti",
+      "utopia"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "hip-hop",
+      "trap",
+      "rage-rap"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA",
+      "albumUrl": "https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ",
+      "artistUrl": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "albumName": "UTOPIA",
+      "releaseDate": "2023-07-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+      "duration": "3:12",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 8,
+      "totalTracks": 19,
+      "artistName": "Travis Scott",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "artistGenres": [],
+      "albumArtist": "Travis Scott"
+    },
+    "moods": [
+      "Party",
+      "Motivation"
+    ],
+    "firstPair": {
+      "en": "Just come outside for the night (Yeah)",
+      "tr": "Bu gecelik dışarı çık yeter (Evet)"
+    },
+    "heroPair": {
+      "en": "FE!N, FE!N, FE!N, FE!N, FE!N (Yeah)",
+      "tr": "MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA, MÜPTELA (Evet)"
+    }
+  },
+  {
+    "id": "5318",
+    "slug": "tommy-cash-espresso-macchiato-turkce-ceviri",
+    "title": "Tommy Cash Espresso Macchiato Türkçe Çeviri",
+    "song": "Espresso Macchiato",
+    "artist": "Tommy Cash",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204",
+    "date": "2026-10-22T16:00:00+03:00",
+    "reading_time": 2,
+    "excerpt": "Tommy Cash — Espresso Macchiato sözleri ve Türkçe çevirisi. Orijinal sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Tommy Cash",
+      "Espresso Macchiato"
+    ],
+    "category_slugs": [
+      "tommy-cash",
+      "espresso-macchiato"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "dance-pop",
+      "electropop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4f5sxA4nQywcBlU05Ixdc7",
+      "albumUrl": "https://open.spotify.com/album/2kaG6TKRUKPSs3eoyR7R0o",
+      "artistUrl": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK",
+      "albumName": "Espresso Macchiato",
+      "releaseDate": "2024-12-07",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27336218449e888d773aed12204",
+      "duration": "2:54",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Tommy Cash",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb889be712bb77955714ae4370",
+      "artistGenres": [],
+      "albumArtist": "Tommy Cash"
+    },
+    "moods": [
+      "Party",
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "Mi amore, mi amore",
+      "tr": "Aşkım, aşkım"
+    },
+    "heroPair": {
+      "en": "Espresso macchiato, macchiato, macchiato",
+      "tr": "Espresso macchiato, macchiato, macchiato"
+    }
+  },
+  {
     "id": "5317",
     "slug": "a2o-lite-a2o-neon-turkce-ceviri",
     "title": "A2O LITE, A2O NEON Türkçe Çeviri",
