@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { relatedSongs } from '../src/lib/relatedSongs.js';
-import { moodLandingPages, breakupSongSlugs } from '../src/data/moodLandingPages.js';
+import { moodLandingPages, moodAliases, breakupSongSlugs } from '../src/data/moodLandingPages.js';
 import { moodCollectionFor, postsForMoodCollection, popularMoodPosts, moodPage, moodPagePath, moodPageTitle, MOOD_PAGE_SIZE } from '../src/lib/moodCollections.js';
 import middleware from '../middleware.js';
 import { moodPath } from '../src/lib/paths.js';
@@ -30,6 +30,9 @@ test('Turkish mood landing pages share membership and keep legacy aliases canoni
     assert.deepEqual(members.map(post => post.slug), postsForMoodCollection(mood, index).map(post => post.slug));
     const html = await read(`dist/mood/${mood.slug}/index.html`);
     assert.ok(html.includes(`<h1>${mood.name}</h1>`));
+    assert.match(html, /<title>Yabancı /);
+    assert.ok(html.match(/<title>(.*?)<\/title>/)[1].includes(`${mood.name} ve Türkçe Çevirileri`));
+    assert.ok(!html.includes('<h1>Yabancı '));
     assert.ok(html.includes('"@type":"CollectionPage"'));
     assert.ok(sitemap.includes(`https://www.acupoflyrics.com/mood/${mood.slug}</loc>`));
     assert.doesNotMatch(html, /name="robots" content="noindex/);
@@ -40,6 +43,10 @@ test('Turkish mood landing pages share membership and keep legacy aliases canoni
     for (let page = 1; page <= moodPage(ordered).pageCount; page++) {
       const part = moodPage(ordered, page);
       const pageHtml = await read(`dist${moodPagePath(mood, page)}/index.html`);
+      const pageTitle = pageHtml.match(/<title>(.*?)<\/title>/)[1];
+      assert.ok(pageTitle.startsWith(`Yabancı ${mood.name} ve Türkçe Çevirileri`));
+      assert.ok(!pageTitle.includes('…'));
+      if (page > 1) assert.ok(pageTitle.endsWith(`— Sayfa ${page}`));
       const actual = [...pageHtml.matchAll(/<a\b[^>]*href="(\/[^"/]+\/)"/g)].map(match => match[1]);
       assert.deepEqual(actual, part.items.map(post => `/${post.slug}/`));
       found.push(...actual);
@@ -50,19 +57,22 @@ test('Turkish mood landing pages share membership and keep legacy aliases canoni
       }
     }
     assert.equal(new Set(found).size, members.length);
-    if (mood.alias) {
-      assert.equal(moodPath(mood.alias), `/mood/${mood.slug}`);
-      assert.equal(moodCollectionFor(mood.alias), mood);
-      assert.ok(redirects.includes(`/mood/${mood.alias} /mood/${mood.slug} 301`));
-      assert.ok((await read(`dist/mood/${mood.alias}/index.html`)).includes(`<link rel="canonical" href="https://www.acupoflyrics.com/mood/${mood.slug}"`));
-      assert.ok(!sitemap.includes(`/mood/${mood.alias}</loc>`));
-      const response = middleware(new Request(`https://www.acupoflyrics.com/mood/${mood.alias}/?utm_source=instagram`));
+    for (const alias of moodAliases(mood)) {
+      assert.equal(moodPath(alias), `/mood/${mood.slug}`);
+      assert.equal(moodCollectionFor(alias), mood);
+      assert.ok(redirects.includes(`/mood/${alias} /mood/${mood.slug} 301`));
+      assert.ok((await read(`dist/mood/${alias}/index.html`)).includes(`<link rel="canonical" href="https://www.acupoflyrics.com/mood/${mood.slug}"`));
+      assert.ok(!sitemap.includes(`/mood/${alias}</loc>`));
+      const response = middleware(new Request(`https://www.acupoflyrics.com/mood/${alias}/?utm_source=instagram`));
       assert.equal(response.status, 301);
       assert.equal(new URL(response.headers.get('location')).pathname, `/mood/${mood.slug}`);
       assert.equal(new URL(response.headers.get('location')).searchParams.get('utm_source'), 'instagram');
-      const paged = middleware(new Request(`https://www.acupoflyrics.com/mood/${mood.alias}/page/2`));
+      const paged = middleware(new Request(`https://www.acupoflyrics.com/mood/${alias}/page/2`));
       assert.equal(paged.status, 301);
       assert.equal(new URL(paged.headers.get('location')).pathname, `/mood/${mood.slug}/page/2`);
+      const firstPage = middleware(new Request(`https://www.acupoflyrics.com/mood/${alias}/page/1`));
+      assert.equal(firstPage.status, 301);
+      assert.equal(new URL(firstPage.headers.get('location')).pathname, `/mood/${mood.slug}`);
     }
   }
   assert.equal(moodCollectionFor(undefined), undefined);
@@ -90,6 +100,16 @@ test('Instagram hub exposes feature, six latest songs, search and moods before J
 
 test('mood pagination, measured ranking and reviewed breakup coverage have safe boundaries', () => {
   assert.equal(moodLandingPages.length, 11);
+  for (const [oldSlug, slug, name] of [
+    ['iyi-hissettiren-sarkilar', 'rahatlatan-sarkilar', 'Rahatlatan Şarkılar'],
+    ['karanlik-atmosferli-sarkilar', 'karanlik-sarkilar', 'Karanlık Şarkılar'],
+    ['hayallere-daldiran-sarkilar', 'hayal-sarkilari', 'Hayal Şarkıları'],
+  ]) {
+    assert.equal(moodCollectionFor(oldSlug).slug, slug);
+    assert.equal(moodCollectionFor(slug).name, name);
+  }
+  assert.match(moodCollectionFor('rahatlatan-sarkilar').description, /^Zor bir günün ardından/);
+  assert.match(moodCollectionFor('rahatlatan-sarkilar').description, /yalnızca sakin tempolu parçalardan oluşmaz/);
   for (const mood of moodLandingPages) assert.ok(mood.description.split(/[.!?]\s/).length >= 2);
   const songs = [{ slug: 'unknown-z', artist: 'Z', song: 'Z' }, { slug: 'tame-impala-loser-turkce-ceviri', artist: 'Tame Impala', song: 'Loser' }, { slug: 'unknown-a', artist: 'A', song: 'A' }];
   assert.deepEqual(popularMoodPosts(songs).map(x => x.slug), ['tame-impala-loser-turkce-ceviri', 'unknown-a', 'unknown-z']);

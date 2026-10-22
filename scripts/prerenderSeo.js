@@ -12,6 +12,7 @@ import { moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink, staticLinksHub } from "./lib/prerenderContent.js";
 import { moodCollections, postsForMoodCollection, moodLandingPages, popularMoodPosts, moodPage, moodPagePath, moodPageTitle, moodRankingNote } from '../src/lib/moodCollections.js';
 import { linksHubDescription } from '../src/lib/linksHub.js';
+import { moodAliases } from '../src/data/moodLandingPages.js';
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
@@ -855,7 +856,7 @@ for (const mood of moodCollections) {
     ],
   });
   routes.push(moodRoute);
-  if (mood.alias) routes.push({ ...moodRoute, path: `/mood/${mood.alias}${page > 1 ? `/page/${page}` : ''}`, canonicalPath: moodPath, noindex: true });
+  for (const alias of moodAliases(mood)) routes.push({ ...moodRoute, path: `/mood/${alias}${page > 1 ? `/page/${page}` : ''}`, canonicalPath: moodPath, noindex: true });
   }
 }
 for (const name of genreNames) {
@@ -960,11 +961,13 @@ redirectLines.push(`/home-preview / 301`);
 redirectLines.push(`/ceviri-preview / 301`);
 redirectLines.push(`/old-home / 301`);
 redirectLines.push(`/kesfet /discover 301`);
-for (const mood of moodLandingPages.filter(mood => mood.alias)) {
-  redirectLines.push(`/mood/${mood.alias} /mood/${mood.slug} 301`);
-  redirectLines.push(`/mood/${mood.alias}/ /mood/${mood.slug} 301`);
-  redirectLines.push(`/mood/${mood.alias}/page/:page /mood/${mood.slug}/page/:page 301`);
-  redirectLines.push(`/mood/${mood.alias}/page/:page/ /mood/${mood.slug}/page/:page 301`);
+for (const mood of moodLandingPages) {
+  for (const alias of moodAliases(mood)) {
+    redirectLines.push(`/mood/${alias} /mood/${mood.slug} 301`);
+    redirectLines.push(`/mood/${alias}/ /mood/${mood.slug} 301`);
+    redirectLines.push(`/mood/${alias}/page/:page /mood/${mood.slug}/page/:page 301`);
+    redirectLines.push(`/mood/${alias}/page/:page/ /mood/${mood.slug}/page/:page 301`);
+  }
 }
 for (const mood of moodLandingPages) {
   redirectLines.push(`/mood/${mood.slug}/page/1 /mood/${mood.slug} 301`);
