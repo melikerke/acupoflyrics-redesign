@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { Navigate, useParams } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, Navigate, useParams, useSearchParams, useNavigate } from "react-router-dom";
 import { getMood, moodGroups, SORT_OPTIONS, sortPosts } from "../lib/content";
 import { canonical, moodPath } from "../lib/paths";
 import { LIGHT_THEME } from "../lib/theme";
@@ -11,21 +11,28 @@ import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section } from "../components/site/ui";
 import { MoodCard, SongCard } from "../components/site/cards";
 import NotFound from "../components/site/NotFound";
+import { popularMoodPosts, moodPage, moodPagePath, moodPageTitle, moodRankingNote } from '../lib/moodCollections.js';
 
-const MOOD_SORTS = SORT_OPTIONS.filter((o) => o.value !== "mood");
+const MOOD_SORTS = [{ value: 'popular', label: 'Aramada öne çıkanlar' }, ...SORT_OPTIONS.filter((o) => o.value !== "mood")];
 
 export default function MoodPage() {
-  const { slug } = useParams();
+  const { slug, page: pageParam } = useParams();
+  const [params] = useSearchParams();
+  const navigate = useNavigate();
   const mood = useMemo(() => getMood(slug), [slug]);
-  const [sort, setSort] = useState("newest");
-  const sorted = useMemo(() => (mood ? sortPosts(mood.items, sort) : []), [mood, sort]);
-  const others = useMemo(() => moodGroups.filter((m) => m.slug !== slug).slice(0, 8), [slug]);
+  const sort = MOOD_SORTS.some(o => o.value === params.get('sort')) ? params.get('sort') : 'popular';
+  const sorted = useMemo(() => (mood ? (sort === 'popular' ? popularMoodPosts(mood.items) : sortPosts(mood.items, sort)) : []), [mood, sort]);
+  const pagination = moodPage(sorted, pageParam || 1);
+  const { page, pageCount, valid, start, items } = pagination;
+  const others = useMemo(() => moodGroups.filter((m) => m.slug !== mood?.slug).slice(0, 8), [mood]);
 
-  const path = moodPath(slug);
+  const path = mood ? moodPagePath(mood, valid ? page : 1) : moodPath(slug);
+  const pageLink = number => `${moodPagePath(mood, number)}${sort === 'popular' ? '' : `?sort=${sort}`}#songs`;
+  const setSort = value => navigate(`${moodPagePath(mood)}${value === 'popular' ? '' : `?sort=${value}`}#songs`);
   useSeo({
-    title: mood ? fitSeoTitle([`${mood.name}${mood.name.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`]) : "Mood bulunamadı",
+    title: mood ? fitSeoTitle([moodPageTitle(mood, valid ? page : 1)]) : "Mood bulunamadı",
     description: mood?.description,
-    noindex: collectionNoindex(mood?.items),
+    noindex: !valid || page > 1 || sort !== 'popular' || collectionNoindex(mood?.items),
     path,
     image: mood?.cover,
     breadcrumbs: mood
@@ -36,12 +43,12 @@ export default function MoodPage() {
         ]
       : [],
     jsonLd: mood
-      ? { "@context": "https://schema.org", "@type": "CollectionPage", name: `${mood.name} mood`, description: mood.description, url: canonical(path) }
+      ? { "@context": "https://schema.org", "@type": "CollectionPage", name: mood.name, description: mood.description, url: canonical(path) }
       : null,
   });
 
-  if (!mood) return <NotFound theme={LIGHT_THEME} title="Mood bulunamadı." />;
-  if (slug !== mood.slug) return <Navigate to={moodPath(mood.slug)} replace />;
+  if (!mood || !valid) return <NotFound theme={LIGHT_THEME} title="Mood sayfası bulunamadı." />;
+  if (slug !== mood.slug || pageParam === '1') return <Navigate to={pageLink(page)} replace />;
 
   return (
     <SiteShell theme={LIGHT_THEME} wide>
@@ -52,7 +59,7 @@ export default function MoodPage() {
         bg={mood.cover}
         collage={mood.covers}
         kicker="Mood"
-        title={mood.name}
+        title={page === 1 ? mood.name : `${mood.name} · Sayfa ${page}`}
         titleSerif
         description={mood.description}
         stats={[
@@ -69,9 +76,16 @@ export default function MoodPage() {
           </div>
           <FilterBar options={MOOD_SORTS} value={sort} onChange={setSort} />
         </div>
+        {sort === 'popular' && <p style={{ opacity: 0.72, fontSize: 13 }}>{moodRankingNote}</p>}
+        <p aria-live="polite">{start + 1}–{start + items.length} / {mood.count} şarkı · Sayfa {page} / {pageCount}</p>
         <Grid min={180}>
-          {sorted.map((post) => <SongCard key={post.slug} post={post} />)}
+          {items.map((post) => <SongCard key={post.slug} post={post} />)}
         </Grid>
+        {pageCount > 1 && <nav className="site-pagination mood-pagination" aria-label={`${mood.name} sayfaları`}>
+          {page > 1 && <Link className="site-pagination-edge" rel="prev" to={pageLink(page - 1)}>← Önceki</Link>}
+          <div>{Array.from({ length: pageCount }, (_, index) => index + 1).map(number => <Link key={number} to={pageLink(number)} className={number === page ? 'is-active' : ''} aria-current={number === page ? 'page' : undefined} aria-label={`Sayfa ${number}`}>{number}</Link>)}</div>
+          {page < pageCount && <Link className="site-pagination-edge" rel="next" to={pageLink(page + 1)}>Sonraki →</Link>}
+        </nav>}
       </Section>
 
       {others.length > 0 && (

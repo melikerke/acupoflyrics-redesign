@@ -10,7 +10,7 @@ import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogRe
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink, staticLinksHub } from "./lib/prerenderContent.js";
-import { moodCollections, postsForMoodCollection, moodLandingPages } from '../src/lib/moodCollections.js';
+import { moodCollections, postsForMoodCollection, moodLandingPages, popularMoodPosts, moodPage, moodPagePath, moodPageTitle, moodRankingNote } from '../src/lib/moodCollections.js';
 import { linksHubDescription } from '../src/lib/linksHub.js';
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
@@ -830,19 +830,23 @@ for (const year of collectionYears) {
   ));
 }
 for (const mood of moodCollections) {
-  const moodPosts = postsForMoodCollection(mood, posts);
-  const moodPath = `/mood/${mood.slug}`;
+  const moodPosts = popularMoodPosts(postsForMoodCollection(mood, posts));
+  const pageCount = moodPage(moodPosts).pageCount;
   const label = mood.name;
   const description = mood.description;
-  const moodRoute = route(moodPath, fitSeoTitle([`${label}${label.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`]), description, moodPosts[0]?.cover, {
-    noindex: collectionNoindex(moodPosts),
-    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `${label} mood`, description, url: `${SITE}${moodPath}` },
-    staticHtml: staticCollectionPage({
-      kicker: "Mood",
-      title: label,
+  for (let page = 1; page <= pageCount; page++) {
+    const { items, start } = moodPage(moodPosts, page);
+    const moodPath = moodPagePath(mood, page);
+    const pagination = pageCount > 1 ? `<nav class="seo-archive-pagination" aria-label="${escapeHtml(label)} sayfaları">${page > 1 ? `<a rel="prev" href="${moodPagePath(mood, page - 1)}">← Önceki</a> ` : ''}${Array.from({ length: pageCount }, (_, i) => i + 1).map(number => `<a href="${moodPagePath(mood, number)}"${number === page ? ' aria-current="page"' : ''}>${number}</a>`).join(' ')}${page < pageCount ? ` <a rel="next" href="${moodPagePath(mood, page + 1)}">Sonraki →</a>` : ''}</nav>` : '';
+    const moodRoute = route(moodPath, fitSeoTitle([moodPageTitle(mood, page)]), description, moodPosts[0]?.cover, {
+    noindex: page > 1 || collectionNoindex(moodPosts),
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: label, description, url: `${SITE}${moodPath}` },
+    staticHtml: staticPage({
+      kicker: "Ruh hâline göre",
+      title: page === 1 ? label : `${label} · Sayfa ${page}`,
       description,
       image: moodPosts[0]?.cover,
-      items: moodPosts,
+      children: `<section id="songs"><h2>Şarkılar (${moodPosts.length})</h2><p>${escapeHtml(moodRankingNote)}</p><p>${items.length ? start + 1 : 0}–${start + items.length} / ${moodPosts.length} şarkı · Sayfa ${page} / ${pageCount}</p><ul>${staticLinks(items)}</ul>${pagination}</section>`,
     }),
     breadcrumbs: [
       { name: "Ana sayfa", path: "/" },
@@ -851,7 +855,8 @@ for (const mood of moodCollections) {
     ],
   });
   routes.push(moodRoute);
-  if (mood.alias) routes.push({ ...moodRoute, path: `/mood/${mood.alias}`, canonicalPath: moodPath, noindex: true });
+  if (mood.alias) routes.push({ ...moodRoute, path: `/mood/${mood.alias}${page > 1 ? `/page/${page}` : ''}`, canonicalPath: moodPath, noindex: true });
+  }
 }
 for (const name of genreNames) {
   const genrePosts = catalogPosts.filter((post) => (staticGenreFor(post) === name || (name === "Alternative" && ["Rock", "Indie"].includes(staticGenreFor(post)))));
@@ -958,6 +963,12 @@ redirectLines.push(`/kesfet /discover 301`);
 for (const mood of moodLandingPages.filter(mood => mood.alias)) {
   redirectLines.push(`/mood/${mood.alias} /mood/${mood.slug} 301`);
   redirectLines.push(`/mood/${mood.alias}/ /mood/${mood.slug} 301`);
+  redirectLines.push(`/mood/${mood.alias}/page/:page /mood/${mood.slug}/page/:page 301`);
+  redirectLines.push(`/mood/${mood.alias}/page/:page/ /mood/${mood.slug}/page/:page 301`);
+}
+for (const mood of moodLandingPages) {
+  redirectLines.push(`/mood/${mood.slug}/page/1 /mood/${mood.slug} 301`);
+  redirectLines.push(`/mood/${mood.slug}/page/1/ /mood/${mood.slug} 301`);
 }
 redirectLines.push(`/muzik-listeleri /listeler 301`);
 redirectLines.push(`/muzik-listeleri/ /listeler 301`);

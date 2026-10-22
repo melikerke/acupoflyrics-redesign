@@ -4,6 +4,7 @@ import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
 import { legacyCategoryPathRedirects } from "./server/legacyCategoryPathRedirects.js";
 import { legacyPostRedirects } from "./server/legacyPostRedirects.js";
 import { spanishTranslationPaths } from "./server/translationRoutes.js";
+import { moodLandingFor } from './src/data/moodLandingPages.js';
 
 const spanishRoutes = new Set(spanishTranslationPaths);
 
@@ -62,8 +63,6 @@ function readBasicAuth(request) {
 }
 
 const staticLegacyRedirects = {
-  "/mood/sad": "/mood/huzunlu-sarkilar",
-  "/mood/love": "/mood/ask-sarkilari",
   "/muzik-listeleri": "/listeler",
 };
 
@@ -104,6 +103,16 @@ function gone() {
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
   const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+  const moodMatch = normalizedPath.match(/^\/mood\/([^/]+)(?:\/page\/(\d+))?$/);
+  if (moodMatch) {
+    const mood = moodLandingFor(moodMatch[1]);
+    const page = moodMatch[2];
+    if (mood && (mood.slug !== moodMatch[1] || page === '1')) {
+      const url = new URL(request.url);
+      url.pathname = `/mood/${mood.slug}${page && page !== '1' ? `/page/${page}` : ''}`;
+      return new Response(null, { status: 301, headers: { Location: url.toString(), 'Cache-Control': 'public, max-age=0, s-maxage=86400' } });
+    }
+  }
 
   if (normalizedPath === "/es" || normalizedPath.startsWith("/es/")) {
     if (spanishRoutes.has(normalizedPath)) return next();

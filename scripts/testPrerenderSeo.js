@@ -9,7 +9,7 @@ import { runInNewContext } from "node:vm";
 import { completeSeoDescription, normalizeSeoTitle, fitSeoTitle } from "../src/lib/meta.js";
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary } from "../src/lib/catalogRelease.js";
 import { genreDescriptions } from "../src/lib/collectionDescriptions.js";
-import { moodCollections, postsForMoodCollection } from '../src/lib/moodCollections.js';
+import { moodCollections, postsForMoodCollection, popularMoodPosts, moodPage, moodPageTitle } from '../src/lib/moodCollections.js';
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { buildArticleIndex, buildArticleSearchIndex, buildArtistIndex } from "./lib/contentIndexes.js";
 import { staticArticleLinks, staticChartsContent } from "./lib/prerenderContent.js";
@@ -170,11 +170,12 @@ try {
     assert.ok(html.includes(`<h1>${escapeHtml(mood.name)}</h1>`));
     const collection = runtime.getMood(mood.slug);
     assert.equal(decodeHtml(html.match(/<meta name="description" content="([^"]*)"/)[1]), completeSeoDescription(collection.description));
-    assert.equal(decodeHtml(html.match(/<title>(.*?)<\/title>/)[1]), normalizeSeoTitle(fitSeoTitle([`${mood.name}${mood.name.endsWith('Şarkıları') ? '' : ' Şarkıları'} — Türkçe Çeviriler | acupoflyrics`])));
+    assert.equal(decodeHtml(html.match(/<title>(.*?)<\/title>/)[1]), normalizeSeoTitle(fitSeoTitle([moodPageTitle(mood)])));
     const expected = postsForMoodCollection(mood, posts).map((post) => `/${post.slug}/`).sort();
     assert.deepEqual(expected, collection.items.map(post => `/${post.slug}/`).sort(), 'Runtime and static mood memberships match');
     const found = [...html.matchAll(/<a\b[^>]*href="(\/[^"/]+\/)"/g)].map((match) => match[1]).sort();
-    assert.deepEqual(found, expected, `${mood}: prerender must include the same primary and secondary mood memberships as the app`);
+    const firstPage = moodPage(popularMoodPosts(postsForMoodCollection(mood, posts))).items.map(post => `/${post.slug}/`).sort();
+    assert.deepEqual(found, firstPage, `${mood.slug}: initial HTML must match the first runtime page`);
     assert.equal(/name="robots" content="noindex/.test(html), expected.length === 0);
   }
   for (const route of ["hakkimizda", "iletisim", "gizlilik", "listeler", "linkler"]) {

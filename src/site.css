@@ -598,6 +598,17 @@
 }
 
 /* ---- Album card (vertical) ---- */
+.mood-pagination > div { grid-column: 2; grid-row: 1; }
+.mood-pagination a { min-width: 44px; min-height: 44px; }
+.mood-pagination a[rel="prev"] { grid-column: 1; grid-row: 1; }
+.mood-pagination a[rel="next"] { grid-column: 3; grid-row: 1; }
+.mood-pagination a:focus-visible { outline: 2px solid var(--acl-accent); outline-offset: 3px; }
+@media (max-width: 700px) {
+  .mood-pagination > div { grid-column: 1 / -1; }
+  .mood-pagination a[rel="prev"] { grid-row: 2; }
+  .mood-pagination a[rel="next"] { grid-column: 2; grid-row: 2; }
+}
+
 .site-album-card {
   min-width: 0;
   color: var(--acl-text);

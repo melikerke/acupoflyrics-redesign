@@ -17,7 +17,7 @@ export function staticLinksHub(posts) {
     <form action="/search" method="get" role="search" class="links-search"><label for="hub-search">Şarkı veya sanatçı ara</label><div><input id="hub-search" name="q" type="search" placeholder="Şarkı ya da sanatçı adı…" required><button type="submit">Ara <span aria-hidden="true">↗</span></button></div></form>
     ${featured ? `<section aria-labelledby="hub-weekly"><h2 id="hub-weekly">Haftanın çevirisi</h2><a href="${href(featured)}" class="links-featured"><img src="${escapeHtml(featured.cover || featured.image)}" alt="${title(featured)} kapak görseli" width="120" height="120"><div><span class="links-kicker">Bu haftanın seçimi</span><strong>${title(featured)}</strong><span>Çeviriyi ve notları oku ↗</span></div></a></section>` : ''}
     <section aria-labelledby="hub-latest"><h2 id="hub-latest">Son çeviriler</h2><ol class="links-latest">${latest.map((post, index) => `<li><a href="${href(post)}"><span class="links-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><span>${title(post)}</span><span aria-hidden="true">↗</span></a></li>`).join('')}</ol><a href="/sarkilar" class="links-all">Tüm çevirilere göz at →</a></section>
-    <section aria-labelledby="hub-moods"><h2 id="hub-moods">Bugün hangi ruh hâlindesin?</h2><div class="links-moods">${moodLandingPages.map(mood => `<a href="/mood/${mood.slug}">${mood.name} <span aria-hidden="true">↗</span></a>`).join('')}</div></section>
+    <section aria-labelledby="hub-moods"><h2 id="hub-moods">Bugün hangi ruh hâlindesin?</h2><div class="links-moods">${moodLandingPages.slice(0, 3).map(mood => `<a href="/mood/${mood.slug}">${mood.name} <span aria-hidden="true">↗</span></a>`).join('')}</div></section>
     </div></main></div>`;
 }
 

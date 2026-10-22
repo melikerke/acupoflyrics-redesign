@@ -45,7 +45,7 @@ export default function LinksPage() {
         <Link to="/sarkilar" className="links-all" data-hub-section="archive">Tüm çevirilere göz at →</Link>
       </section>
       <section aria-labelledby="hub-moods"><h2 id="hub-moods">Bugün hangi ruh hâlindesin?</h2>
-        <div className="links-moods">{moodLandingPages.map(mood => <Link key={mood.slug} to={moodPath(mood)} data-hub-section="mood">{mood.name} <span aria-hidden="true">↗</span></Link>)}</div>
+        <div className="links-moods">{moodLandingPages.slice(0, 3).map(mood => <Link key={mood.slug} to={moodPath(mood)} data-hub-section="mood">{mood.name} <span aria-hidden="true">↗</span></Link>)}</div>
       </section>
     </div>
   </SiteShell>;

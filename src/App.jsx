@@ -129,6 +129,7 @@ export default function App() {
             <Route path="/album/:slug" element={<AlbumPage />} />
             <Route path="/collection/:slug" element={<CollectionPage />} />
             <Route path="/mood/:slug" element={<MoodPage />} />
+            <Route path="/mood/:slug/page/:page" element={<MoodPage />} />
             <Route path="/genre/:slug" element={<GenrePage />} />
             <Route path="/discover" element={<DiscoverPage />} />
             <Route path="/sarkilar" element={<SongsPage />} />
