@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { moodsForPost } from "../src/lib/moodClassifier.js";
+import { songRecommendationProfiles } from "../src/data/songRecommendationProfiles.js";
 import { languagesFor } from "../src/lib/languages.js";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { buildArtistIndex, buildArticleIndex, buildArticleSearchIndex, firstPair, heroPair, compactSpotify } from "./lib/contentIndexes.js";
@@ -9,6 +10,14 @@ import { buildArtistIndex, buildArticleIndex, buildArticleSearchIndex, firstPair
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
 const artists = JSON.parse(await readFile(path.join(ROOT, "src/data/artists.json"), "utf8"));
+// Do not silently publish new submissions with keyword-only mood guesses.
+for (const post of posts) {
+  if (post.source !== 'user-provided' || !(Date.parse(post.date) >= Date.parse('2026-10-22T00:00:00+03:00'))) continue;
+  const profile = songRecommendationProfiles[post.slug] || post;
+  if (!profile.genres?.length || !profile.moods?.length) {
+    throw new Error(`Yeni çeviride editoryal tür ve mood etiketi gerekli: ${post.slug}`);
+  }
+}
 const OUTPUT = process.env.ACL_CONTENT_OUTPUT ? path.resolve(process.env.ACL_CONTENT_OUTPUT) : ROOT;
 await mkdir(path.join(OUTPUT, "src/data"), { recursive: true });
 await writeFile(path.join(OUTPUT, "src/data/artistIndex.json"), JSON.stringify(buildArtistIndex(artists, posts), null, 2), "utf8");
@@ -55,6 +64,8 @@ const index = posts.map((post) => ({
   categories: post.categories,
   category_slugs: post.category_slugs,
   ...(post.languages ? { languages: languagesFor(post) } : {}),
+  ...((songRecommendationProfiles[post.slug]?.genres || post.genres)?.length
+    ? { genres: songRecommendationProfiles[post.slug]?.genres || post.genres } : {}),
   spotify: compactSpotify(post.spotify),
   // seo/oldUrl intentionally omitted — only the prerender script needs them,
   // and it reads src/data/posts.json directly. Keeps the JS bundle slim.

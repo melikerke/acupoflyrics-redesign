@@ -40,6 +40,9 @@ Bu belge, yeni çeviriler ve mevcut içeriklerin redaksiyonu için bağlayıcı 
 
 ## Yayın öncesi kontrol
 
+- Yeni çevirinin editoryal tür ve mood etiketleri `src/data/songRecommendationProfiles.js` içinde (veya kaydın `genres` ve `moods` alanlarında) tanımlanır. Otomatik kelime eşleşmesi tek başına yeterli değildir; 22 Ekim 2026 ve sonrası yeni kullanıcı çevirilerinde eksik etiket derlemeyi durdurur.
+- Kaynak dil doğrulanır. Önerilerde aynı sanatçı dışlanır; tür/duygu ve kaynak dil önceliklidir. Search Console tıklaması varsa uygun adaylar arasında kullanılır, site okunma sayısı gibi sunulmaz.
+
 - Özne ve yön doğru mu?
 - Her kaynak satırın Türkçe karşılığı var mı?
 - Tekrarlar ve ad-lib'ler korunmuş mu?

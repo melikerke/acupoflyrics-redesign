@@ -24,6 +24,11 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "k-pop",
+      "dance-pop",
+      "electropop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
       "albumUrl": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd",
@@ -42,7 +47,8 @@
       "albumArtist": "A2O LITE"
     },
     "moods": [
-      "Night"
+      "Motivation",
+      "Party"
     ],
     "firstPair": {
       "en": "Neon and beyond, that's what we on and beyond, yup",
@@ -76,6 +82,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "folk",
+      "protest-song"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/3ISMDCuo2KDOC64nXz0Vah",
       "albumUrl": "https://open.spotify.com/album/6SKvXijdo4yQ0042haWtEe",
@@ -94,7 +104,8 @@
       "albumArtist": "Manu Pilas"
     },
     "moods": [
-      "Party"
+      "Motivation",
+      "Sad"
     ],
     "firstPair": {
       "en": "Una mattina mi sono alzato",
@@ -128,6 +139,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "indie-folk",
+      "soft-rock"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
       "albumUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
@@ -146,6 +161,7 @@
       "albumArtist": "Taylor Swift"
     },
     "moods": [
+      "Sad",
       "Love"
     ],
     "firstPair": {
@@ -180,6 +196,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "french-pop",
+      "chanson"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/5oxKrYimzs8AZp8lkoar6V",
       "albumUrl": "https://open.spotify.com/album/3F2NC1OGndItyXyR6uJevP",
@@ -199,7 +219,7 @@
     },
     "moods": [
       "Love",
-      "Party"
+      "Sad"
     ],
     "firstPair": {
       "en": "C'est un beau roman, c'est une belle histoire",
@@ -233,6 +253,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "synth-pop",
+      "christmas-pop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78",
       "albumUrl": "https://open.spotify.com/album/6egzU9NKfora01qaNbvwfZ",
@@ -286,6 +310,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "acoustic-pop",
+      "soft-rock"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
       "albumUrl": "https://open.spotify.com/album/5kV0KBXfELibs6qQJLmOtg",
@@ -304,8 +332,8 @@
       "albumArtist": "Sting"
     },
     "moods": [
-      "Love",
-      "Party"
+      "Dreamy",
+      "Sad"
     ],
     "firstPair": {
       "en": "He deals the cards as a meditation",
@@ -339,6 +367,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "psychedelic-pop",
+      "synth-pop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
       "albumUrl": "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv",
@@ -357,7 +389,8 @@
       "albumArtist": "Tame Impala"
     },
     "moods": [
-      "Dark"
+      "Dreamy",
+      "Healing"
     ],
     "firstPair": {
       "en": "It's always around me, all this noise",
@@ -391,6 +424,10 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "funk-pop",
+      "dance-pop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
       "albumUrl": "https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR",
@@ -409,7 +446,8 @@
       "albumArtist": "Charlie Puth"
     },
     "moods": [
-      "Sad"
+      "Sad",
+      "Party"
     ],
     "firstPair": {
       "en": "Woah-oh, hm-hmm",
@@ -432,7 +470,7 @@
     "excerpt": "Stromae — Papaoutai sözleri ve Türkçe çevirisi. Orijinal Fransızca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
     "categories": [
       "Stromae",
-      "racine carrée"
+      "Racine carrée"
     ],
     "category_slugs": [
       "stromae",
@@ -443,11 +481,15 @@
       "translation": "tr",
       "annotations": "tr"
     },
+    "genres": [
+      "french-pop",
+      "electropop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/34dx8DACTJsc3rsJdaEIQw",
       "albumUrl": "https://open.spotify.com/album/6uyslsVGFsHKzdGUosFwBM",
       "artistUrl": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR",
-      "albumName": "racine carrée",
+      "albumName": "Racine carrée",
       "releaseDate": "2013-01-01",
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
       "duration": "3:52",
@@ -461,7 +503,8 @@
       "albumArtist": "Stromae"
     },
     "moods": [
-      "Lonely"
+      "Lonely",
+      "Sad"
     ],
     "firstPair": {
       "en": "Dites-moi d'où il vient",
@@ -21443,6 +21486,10 @@
     "category_slugs": [
       "ariana-grande"
     ],
+    "genres": [
+      "christmas-pop",
+      "dance-pop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/0lizgQ7Qw35od7CYaoMBZb",
       "albumUrl": "https://open.spotify.com/album/27MNgBEnLCKoafz1g2Zu97",
@@ -21460,7 +21507,8 @@
       "artistGenres": []
     },
     "moods": [
-      "Love"
+      "Love",
+      "Sad"
     ],
     "firstPair": {
       "en": "Santa, tell me if you're really there",
@@ -22174,6 +22222,10 @@
       "lisa",
       "alter-ego"
     ],
+    "genres": [
+      "christmas-pop",
+      "dance-pop"
+    ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2Dtev1Evm1XyyTRhb6UaD8",
       "albumUrl": "https://open.spotify.com/album/0WyGUQxsookdLIQnRy6MOl",
@@ -22190,7 +22242,8 @@
       "artistGenres": []
     },
     "moods": [
-      "Love"
+      "Love",
+      "Party"
     ],
     "firstPair": {
       "en": "Ooh, la-la-la",

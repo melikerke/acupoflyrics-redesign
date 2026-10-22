@@ -17,7 +17,7 @@ test('legacy and ISO publication dates normalize consistently', () => {
 test('recommendations require a match and are independent of newest-first order', () => {
   const source = { slug: 'source', artist: 'LP', moods: ['Sad'], spotify: { artistGenres: ['indie pop'] } };
   const list = [source, { slug: 'new', artist: 'Other', moods: ['Party'] }, { slug: 'sad', artist: 'Other', moods: ['Sad'] }, { slug: 'lp', artist: 'LP' }, { slug: 'genre', artist: 'Other', spotify: { artistGenres: ['indie pop'] } }];
-  assert.deepEqual(relatedSongs(source, list).map(p => p.slug), ['lp', 'genre', 'sad']);
+  assert.deepEqual(relatedSongs(source, list).map(p => p.slug), ['genre']);
   assert.deepEqual(relatedSongs(source, [...list].reverse()), relatedSongs(source, list));
   assert.deepEqual(relatedSongs(source, [list[1]]), []);
 });

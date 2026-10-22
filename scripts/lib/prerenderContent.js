@@ -24,10 +24,18 @@ export function staticSongVideoLink(post) {
   return `<p class="seo-song-video"><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(`${post.artist} — ${post.song}`)} · ${english ? 'Open on YouTube' : "YouTube’da aç"}</a></p>`;
 }
 
+export function staticSongSpotifyLink(post) {
+  const href = safeExternalUrl(post.spotify?.trackUrl || post.spotify?.track?.url);
+  if (!href || new URL(href).hostname !== 'open.spotify.com' || !/^\/(?:intl-[a-z-]+\/)?track\/[a-zA-Z0-9]+\/?$/.test(new URL(href).pathname)) return '';
+  const english = languagesFor(post).translation === 'en';
+  return `<p class="seo-song-spotify"><a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(`${post.artist} — ${post.song}`)} · ${english ? 'Listen on Spotify' : 'Spotify’da dinle'}</a></p>`;
+}
+
 export function staticSongInsight(slug) {
   const insight = songInsights[slug];
   if (!insight) return '';
-  return `<section class="song-insight" aria-label="Şarkının anlamı ve sık sorulan sorular"><span class="song-insight-kicker">Şarkının arka planı</span><h2 class="font-serif">Şarkı ne anlatıyor?</h2><p class="song-insight-summary">${escapeHtml(insight.summary)}</p><p class="song-insight-meta">Sözlere dayalı editoryal yorum · Güncelleme: <time datetime="${editorialSeoUpdatedAt}">${readablePublicationDate(editorialSeoUpdatedAt)}</time></p><h2 class="song-insight-faq-title font-serif">Sık sorulan sorular</h2><div class="song-insight-faq">${insight.faq.map(item => `<details><summary><span>${escapeHtml(item.question)}</span><span class="song-insight-toggle" aria-hidden="true"></span></summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}</div><footer class="song-insight-sources"><h3>Kaynaklar</h3><p>Yayın bilgileri ve açıklamalar için:</p><ul>${insight.sources.map(source => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`).join('')}</ul></footer></section>`;
+  const updatedAt = insight.updatedAt || editorialSeoUpdatedAt;
+  return `<section class="song-insight" aria-label="Şarkının anlamı ve sık sorulan sorular"><span class="song-insight-kicker">Şarkının arka planı</span><h2 class="font-serif">Şarkı ne anlatıyor?</h2><p class="song-insight-summary">${escapeHtml(insight.summary)}</p><p class="song-insight-meta">Sözlere dayalı editoryal yorum · Güncelleme: <time datetime="${updatedAt}">${readablePublicationDate(updatedAt)}</time></p><h2 class="song-insight-faq-title font-serif">Sık sorulan sorular</h2><div class="song-insight-faq">${insight.faq.map(item => `<details><summary><span>${escapeHtml(item.question)}</span><span class="song-insight-toggle" aria-hidden="true"></span></summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}</div><footer class="song-insight-sources"><h3>Kaynaklar</h3><p>Yayın bilgileri ve açıklamalar için:</p><ul>${insight.sources.map(source => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`).join('')}</ul></footer></section>`;
 }
 
 function escapeHtml(value = "") {

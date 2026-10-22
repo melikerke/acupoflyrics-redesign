@@ -9,7 +9,7 @@ import { moodDescriptions, genreDescriptions, collectionNoindex } from "../src/l
 import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogReleaseYear } from "../src/lib/catalogRelease.js";
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { MOOD_NAMES, moodsForPost } from "../src/lib/moodClassifier.js";
-import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink } from "./lib/prerenderContent.js";
+import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink } from "./lib/prerenderContent.js";
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
@@ -287,7 +287,7 @@ function staticSongCopy(post) {
 
 function staticSong(post, postIndex) {
   const notesHtml = staticSongAnnotations(post);
-  const videoHtml = staticSongVideoLink(post);
+  const videoHtml = staticSongVideoLink(post) + staticSongSpotifyLink(post);
   const published = isoDate(post.date);
   const modified = publicationDate(post);
   const publication = `<section><h2>Şarkı Bilgisi</h2><p>Çevirmen: <a href="/hakkimizda">Melike Erke</a></p>${published ? `<p>Yayın tarihi: <time datetime="${published}">${readablePublicationDate(published)}</time></p>` : ''}${modified && modified !== published ? `<p>Güncelleme: <time datetime="${modified}">${readablePublicationDate(modified)}</time></p>` : ''}</section>`;

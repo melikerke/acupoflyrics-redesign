@@ -1,5 +1,51 @@
 // Editorial interpretations of the supplied lyrics. External facts have sources.
 export const songInsights = {
+  'stromae-papaoutai-turkce-ceviri': {
+    updatedAt: '2026-10-22',
+    summary: 'Stromae — Papaoutai, babasının nerede olduğunu soran bir çocuğun bekleyişini, yetişkinlerin babalık sorumluluğuyla yan yana getiriyor. Sözler, çocuk sahibi olmayı bilmekle bir çocuğa gerçekten babalık yapmayı bilmek arasındaki farkı sorguluyor. Tekrarlanan soru, yokluğun kolay bir açıklamayla kapanmadığını hissettiriyor.',
+    faq: [
+      { question: 'Stromae — Papaoutai ne demek?', answer: 'Başlık, Fransızca “Papa, où t’es ?” sorusunun söylenişini tek kelimede birleştiriyor. Türkçesi “Baba, neredesin?”; çocuğun aynı soruya tekrar tekrar dönmesi şarkının merkezinde.' },
+      { question: 'Stromae — Papaoutai yalnızca babasını arayan bir çocuğu mu anlatıyor?', answer: 'İlk bölümde çocuğun sorusu öne çıkıyor. İkinci bölüm ise insanların nasıl ebeveyn olacağını, sorumsuzluğun nereden geldiğini ve biyolojik babalıkla sorumluluk üstlenmenin farkını sorgulayarak anlatıyı genişletiyor.' },
+      { question: 'Stromae — Papaoutai içindeki parmak sayma ne anlama geliyor?', answer: 'Parmakları tekrar tekrar saymak, sözlerde uzun bir bekleyişi ve çocukça bir tekrarı düşündürüyor. Bunun belirli bir saklambaç kuralına gönderme olduğu kesinleştirilemez; sonraki parmak kemirme imgesiyle birlikte huzursuzluk duygusu da okunabilir.' },
+    ],
+    sources: [
+      { label: 'Stromae — Papaoutai · resmî video', url: 'https://www.youtube.com/watch?v=oiKj0Z_Xnjc' },
+      { label: 'Stromae — Racine carrée · albüm kaydı', url: 'https://music.apple.com/us/album/racine-carr%C3%A9e/1440856001' },
+    ],
+  },
+  'sting-shape-of-my-heart-turkce-ceviri': {
+    updatedAt: '2026-10-22',
+    summary: 'Sting — Shape of My Heart, kart oyununda para ya da itibar değil, şansın ardındaki düzeni arayan bir anlatı kuruyor. İskambil sembolleri güç ve parayı temsil ederken kalbin bunlardan farklı olduğu vurgulanıyor. Değişmeyen maske imgesi ise duyguları saklamakla yakınlık kurmak arasındaki gerilimi ortaya çıkarıyor.',
+    faq: [
+      { question: 'Sting — Shape of My Heart ne demek?', answer: 'Başlık “Kalbimin şekli” anlamına geliyor. İskambildeki kupa biçimiyle insanın iç dünyası arasında bir çağrışım kuruyor; kalbin yalnızca oyunun güç ve para sembolleriyle açıklanamayacağını düşündürüyor.' },
+      { question: 'Sting — Shape of My Heart içindeki kart oyuncusu neden oynuyor?', answer: 'Sözlerde oyuncunun para ve saygı için oynamadığı açıkça söyleniyor. Sting de resmî diskografisinde aktarılan açıklamasında karakteri, şansın mantığını arayan ve duygularını dışarıya göstermeyen bir oyuncu olarak tarif ediyor.' },
+      { question: 'Sting — Shape of My Heart içindeki tek maske neyi anlatıyor?', answer: 'Sözlere dayalı okumada maske, sürekli değişen kimliklerden çok duyguların arkasına saklandığı sabit yüzü düşündürüyor. Oyunda işe yarayan bu kapalılık, bir ilişkide karşı tarafın kişiyi anlamasını zorlaştırabilir.' },
+    ],
+    sources: [
+      { label: 'Sting — Shape of My Heart · resmî diskografi ve sanatçının açıklaması', url: 'https://m.sting.com/discography/album/233' },
+      { label: 'Sting — Shape of My Heart · resmî video', url: 'https://www.youtube.com/watch?v=NlwIDxCjL-8' },
+    ],
+  },
+  'tame-impala-let-it-happen-turkce-ceviri': {
+    updatedAt: '2026-10-22',
+    summary: 'Tame Impala — Let It Happen, değişimi sürekli kontrol etmeye çalışmanın yorgunluğu ile onu kabullenme isteği arasındaki gerilimi anlatıyor. Koşturma, büyüyen okyanus ve yaklaşan hortum imgeleri, içeride biriken hareketi görünür kılıyor. Son bölümdeki hazır olma ifadesi, direnişten yoluna devam etmeye doğru bir geçiş olarak okunabilir.',
+    faq: [
+      { question: 'Tame Impala — Let It Happen ne demek?', answer: 'Başlık “Bırak olsun” veya bağlama göre “Bırak yaşansın” anlamına geliyor. Burada bir şeyin gerçekleşmesine sürekli engel olmak yerine ona alan açma fikri öne çıkıyor.' },
+      { question: 'Tame Impala — Let It Happen içindeki gölge ve hortum neyi temsil ediyor?', answer: 'Gölgede saklanma ve bağlanmamış şeyleri sürükleyen hortum, sözlerde kaçınma ve değişim imgeleri olarak okunabilir. Bunları tek bir psikolojik duruma veya belirli bir gerçek olaya kesin olarak bağlamıyoruz.' },
+      { question: 'Tame Impala — Let It Happen sonunda anlatıcı neye hazır?', answer: 'Anlatıcı o ana ve o sese hazır olduğunu, yoluna devam ettiğini söylüyor. Ardından belki de başından beri hazır olduğunu düşünmesi, değişimin yalnızca dışarıdan gelen bir olay değil, farkına varılan bir hazırlık da olabileceğini düşündürüyor.' },
+    ],
+    sources: [{ label: 'Tame Impala — Let It Happen · resmî tam ses kaydı', url: 'https://www.youtube.com/watch?v=odeHP8N4LKc' }],
+  },
+  'charlie-puth-attention-turkce-ceviri': {
+    updatedAt: '2026-10-22',
+    summary: 'Charlie Puth — Attention, ayrılık sonrasında yeniden yakınlaşan birinin sevgi değil ilgi istediğini düşünen anlatıcının bakış açısını sunuyor. Anlatıcı bir yandan eski çekime kapılıyor, diğer yandan bu yakınlığın kendisini geçmişe bağlı tuttuğunu fark ediyor. Eve birlikte dönmeyi reddetmesi, bu gelgitin içinde sınır koyma çabası olarak okunabilir.',
+    faq: [
+      { question: 'Charlie Puth — Attention ne demek?', answer: '“Attention”, dikkat veya ilgi anlamına geliyor. Şarkıdaki karşıtlık, birinin kalbini istemekle yalnızca ilgisini üzerinde tutmak arasında kuruluyor.' },
+      { question: 'Charlie Puth — Attention içindeki elbise ve parfüm imgeleri ne anlama geliyor?', answer: 'Elbisenin karmayla, parfümün pişmanlıkla eşleştirilmesi, karşılaşmanın anlatıcıda uyandırdığı duyguları yoğunlaştırıyor. Bunlar şiirsel imgeler; kıyafetin kesin olarak planlanmış bir intikam aracı olduğunu söylemek sözlerin ötesine geçer.' },
+      { question: 'Charlie Puth — Attention yeniden bir araya gelmeyi mi anlatıyor?', answer: 'Çekim sürüyor, fakat anlatıcı bu gece karşı tarafla eve dönmeyeceğini söylüyor. Bu nedenle sözler tamamlanmış bir barışmadan çok, yakınlaşma isteğiyle kendini koruma arasındaki kararsızlığı gösteriyor.' },
+    ],
+    sources: [{ label: 'Charlie Puth — Attention · resmî video', url: 'https://www.youtube.com/watch?v=nfs8NYg7yQM' }],
+  },
   'lp-lost-on-you-turkce-ceviri': {
     summary: 'LP — Lost on You, çözülmekte olan bir ilişkide verilen sevginin ve paylaşılan anıların karşı tarafta bir anlamı kalıp kalmadığını sorguluyor. Geçmişi hatırlatma isteği, hem sitem hem de bağı tamamen kaybetmeden kurtarma çabası taşıyor. Başlıktaki deyim, birinin anlamı veya değeri fark etmemesine işaret ediyor.',
     faq: [

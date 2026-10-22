@@ -1,3 +1,5 @@
+import { songRecommendationProfiles } from '../data/songRecommendationProfiles.js';
+
 // Mood tagging is intentionally done at build time, while the complete lyric
 // blocks are available. The browser receives the resulting `moods` array in
 // postIndex.json, so homepage groups never depend on the lazy search index.
@@ -183,7 +185,7 @@ function addFieldScores(scores, text, multiplier, cap) {
 }
 
 export function moodDetailsFor(post) {
-  const override = MOOD_OVERRIDES[post?.slug];
+  const override = songRecommendationProfiles[post?.slug]?.moods || MOOD_OVERRIDES[post?.slug];
   if (override) {
     return {
       moods: override,
@@ -229,6 +231,7 @@ export function moodDetailsFor(post) {
 }
 
 export function moodsForPost(post) {
+  if (songRecommendationProfiles[post?.slug]?.moods) return songRecommendationProfiles[post.slug].moods;
   if (Array.isArray(post?.moods)) {
     return post.moods.filter((mood) => MOOD_NAMES.includes(mood)).slice(0, 2);
   }
