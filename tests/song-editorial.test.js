@@ -104,8 +104,8 @@ test('legacy lyric-excerpt descriptions are never emitted', () => {
   assert.ok(!translationMetaDescription(sample).includes('söz söz'));
 });
 
-test('eleven insight sections have three FAQs, sources and identical initial HTML content', async () => {
-  assert.equal(Object.keys(songInsights).length, 11);
+test('twelve insight sections have three FAQs, sources and identical initial HTML content', async () => {
+  assert.equal(Object.keys(songInsights).length, 12);
   for (const [slug, insight] of Object.entries(songInsights)) {
     assert.equal(insight.faq.length, 3, slug);
     assert.ok(insight.summary.length > 150);

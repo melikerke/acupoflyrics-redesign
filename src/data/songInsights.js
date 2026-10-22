@@ -1,5 +1,19 @@
 // Editorial interpretations of the supplied lyrics. External facts have sources.
 export const songInsights = {
+  'wham-last-christmas-turkce-ceviri': {
+    updatedAt: '2026-10-22',
+    summary: 'Wham! — Last Christmas, geçen Noel kalbini verdiği kişinin bunu hemen ertesi gün başkasına vermesinin ardından bir yıl sonra yaşananları anlatıyor. Anlatıcı aynı kişiyi kalabalık bir odada yeniden görüyor; hâlâ etkileniyor ama bu kez kendini korumaya kararlı. Neşeli Noel melodisinin altında, kırılmış bir güvenin ve ikinci kez aynı hataya düşmeme isteğinin hikâyesi var.',
+    faq: [
+      { question: 'Wham! — Last Christmas ne demek?', answer: '“Geçen Noel” anlamına gelir. Şarkıda bir önceki yılın Noel’ine, kalbin hediye edilip karşılıksız kaldığı ana gönderme yapar.' },
+      { question: 'Wham! — Last Christmas bir Noel şarkısı mı, ayrılık şarkısı mı?', answer: 'İkisi birden. Noel atmosferinde geçiyor ve her yıl Noel listelerine giriyor; ama sözler bir aşk hayal kırıklığını ve sonrasında temkinli olmayı anlatıyor.' },
+      { question: 'Wham! — Last Christmas içindeki “Once bitten and twice shy” ne demek?', answer: 'Bir kez kötü deneyim yaşayan kişinin bir sonrakinde daha dikkatli davranmasını anlatan bir deyimdir. Türkçedeki “Sütten ağzı yanan yoğurdu üfleyerek yer” atasözüne yakındır.' },
+    ],
+    sources: [
+      { label: 'Wham! — Last Christmas · resmî video', url: 'https://www.youtube.com/watch?v=E8gmARGvPlI' },
+      { label: 'Wham! — Last Christmas · Noel listelerindeki başarısı — Official Charts', url: 'https://www.officialcharts.com/chart-news/christmas-number-1-2024-whams-last-christmas-makes-official-chart-history-again-andrew-ridgeley/' },
+      { label: 'Deyim açıklaması — Cambridge Dictionary', url: 'https://dictionary.cambridge.org/us/dictionary/english/once-bitten-twice-shy' },
+    ],
+  },
   'stromae-papaoutai-turkce-ceviri': {
     updatedAt: '2026-10-22',
     summary: 'Stromae — Papaoutai, babasının nerede olduğunu soran bir çocuğun bekleyişini, yetişkinlerin babalık sorumluluğuyla yan yana getiriyor. Sözler, çocuk sahibi olmayı bilmekle bir çocuğa gerçekten babalık yapmayı bilmek arasındaki farkı sorguluyor. Tekrarlanan soru, yokluğun kolay bir açıklamayla kapanmadığını hissettiriyor.',
