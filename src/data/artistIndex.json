@@ -206,7 +206,7 @@
   {
     "slug": "taylor-swift",
     "name": "Taylor Swift",
-    "count": 13,
+    "count": 14,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
   },
   {
@@ -914,7 +914,7 @@
   {
     "slug": "stromae",
     "name": "Stromae",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2"
   },
   {
@@ -1022,7 +1022,7 @@
   {
     "slug": "tame-impala",
     "name": "Tame Impala",
-    "count": 2,
+    "count": 3,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
   },
   {
@@ -1646,7 +1646,7 @@
   {
     "slug": "charlie-puth",
     "name": "Charlie Puth",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace"
   },
   {
@@ -1738,5 +1738,41 @@
     "name": "Cigarettes After Sex",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb2e08fd554de35c3ef1db7fd9"
+  },
+  {
+    "slug": "sting",
+    "name": "Sting",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216"
+  },
+  {
+    "slug": "wham",
+    "name": "Wham!",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ebf587c72f9e5159da9ce55"
+  },
+  {
+    "slug": "michel-fugain-le-big-bazar",
+    "name": "Michel Fugain & Le Big Bazar",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab"
+  },
+  {
+    "slug": "manu-pilas",
+    "name": "Manu Pilas",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0fac2076ba668ea28e789c20"
+  },
+  {
+    "slug": "a2o-lite",
+    "name": "A2O LITE",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3690f8e2ea217ae9019fe8d8"
+  },
+  {
+    "slug": "a2o",
+    "name": "A2O",
+    "count": 1,
+    "image": null
   }
 ]

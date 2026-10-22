@@ -1,5 +1,478 @@
 [
   {
+    "id": "5317",
+    "slug": "a2o-lite-a2o-neon-turkce-ceviri",
+    "title": "A2O LITE, A2O NEON Türkçe Çeviri",
+    "song": "NEON",
+    "artist": "A2O LITE, A2O",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+    "date": "2026-10-22T07:55:10.204Z",
+    "reading_time": 5,
+    "excerpt": "A2O LITE, A2O — NEON sözleri ve Türkçe çevirisi. Romanize Korece ve İngilizce sözleri, neon ve yeni nesil imgelerine ilişkin çeviri notlarıyla birlikte oku.",
+    "categories": [
+      "A2O LITE",
+      "A2O",
+      "NEON"
+    ],
+    "category_slugs": [
+      "a2o-lite",
+      "a2o",
+      "neon"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+      "albumUrl": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd",
+      "artistUrl": "https://open.spotify.com/artist/0Vkn28k7P4K95Ce3knN0hQ",
+      "albumName": "NEON",
+      "releaseDate": "2026-10-13",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+      "duration": "3:28",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "A2O LITE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3690f8e2ea217ae9019fe8d8",
+      "artistGenres": [],
+      "albumArtist": "A2O LITE"
+    },
+    "moods": [
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Neon and beyond, that's what we on and beyond, yup",
+      "tr": "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup"
+    },
+    "heroPair": {
+      "en": "Neon and beyond, that's what we on and beyond, yup",
+      "tr": "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup"
+    }
+  },
+  {
+    "id": "5316",
+    "slug": "manu-pilas-bella-ciao-turkce-ceviri",
+    "title": "Manu Pilas Bella Ciao Türkçe Çeviri",
+    "song": "Bella Ciao",
+    "artist": "Manu Pilas",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 1,
+    "excerpt": "Manu Pilas — Bella Ciao sözleri ve Türkçe çevirisi. Orijinal İtalyanca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Manu Pilas",
+      "Bella Ciao (Música Original de la Serie la Casa de Papel/ Money Heist)"
+    ],
+    "category_slugs": [
+      "manu-pilas",
+      "bella-ciao-mu-sica-original-de-la-serie-la-casa-de-papel-money-heist"
+    ],
+    "languages": {
+      "original": "it",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3ISMDCuo2KDOC64nXz0Vah",
+      "albumUrl": "https://open.spotify.com/album/6SKvXijdo4yQ0042haWtEe",
+      "artistUrl": "https://open.spotify.com/artist/2TJHmhbmT7L3gw2NKyDTHh",
+      "albumName": "Bella Ciao (Música Original de la Serie la Casa de Papel/ Money Heist)",
+      "releaseDate": "2018-04-20",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e",
+      "duration": "2:20",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Manu Pilas",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb0fac2076ba668ea28e789c20",
+      "artistGenres": [],
+      "albumArtist": "Manu Pilas"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Una mattina mi sono alzato",
+      "tr": "Bir sabah kalktım"
+    },
+    "heroPair": {
+      "en": "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+      "tr": "O bella ciao, bella ciao, bella ciao, ciao, ciao"
+    }
+  },
+  {
+    "id": "5315",
+    "slug": "taylor-swift-cardigan-turkce-ceviri",
+    "title": "Taylor Swift cardigan Türkçe Çeviri",
+    "song": "cardigan",
+    "artist": "Taylor Swift",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 3,
+    "excerpt": "Taylor Swift — cardigan sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Taylor Swift",
+      "folklore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "folklore"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
+      "albumUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "folklore",
+      "releaseDate": "2020-07-24",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+      "duration": "4:00",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 16,
+      "artistName": "Taylor Swift",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+      "artistGenres": [],
+      "albumArtist": "Taylor Swift"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Vintage tee, brand new phone",
+      "tr": "Eski bir tişört, yepyeni bir telefon"
+    },
+    "heroPair": {
+      "en": "And when I felt like I was an old cardigan",
+      "tr": "Ve kendimi eski bir hırka gibi hissettiğimde"
+    }
+  },
+  {
+    "id": "5314",
+    "slug": "michel-fugain-le-big-bazar-une-belle-histoire-turkce-ceviri",
+    "title": "Michel Fugain & Le Big Bazar Une belle histoire Türkçe Çeviri",
+    "song": "Une belle histoire",
+    "artist": "Michel Fugain & Le Big Bazar",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 2,
+    "excerpt": "Michel Fugain & Le Big Bazar — Une belle histoire sözleri ve Türkçe çevirisi. Orijinal Fransızca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Michel Fugain & Le Big Bazar",
+      "Fais comme l'oiseau"
+    ],
+    "category_slugs": [
+      "michel-fugain-le-big-bazar",
+      "fais-comme-l-oiseau"
+    ],
+    "languages": {
+      "original": "fr",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5oxKrYimzs8AZp8lkoar6V",
+      "albumUrl": "https://open.spotify.com/album/3F2NC1OGndItyXyR6uJevP",
+      "artistUrl": "https://open.spotify.com/artist/5KnLt0VENhwsfmQL3y2nsY",
+      "albumName": "Fais comme l'oiseau",
+      "releaseDate": "1972",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+      "duration": "3:15",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 5,
+      "totalTracks": 11,
+      "artistName": "Michel Fugain & Le Big Bazar",
+      "artistImage": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+      "artistGenres": [],
+      "albumArtist": "Michel Fugain & Le Big Bazar"
+    },
+    "moods": [
+      "Love",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "C'est un beau roman, c'est une belle histoire",
+      "tr": "Güzel bir roman bu, güzel bir hikâye"
+    },
+    "heroPair": {
+      "en": "C'est un beau roman, c'est une belle histoire",
+      "tr": "Güzel bir roman bu, güzel bir hikâye"
+    }
+  },
+  {
+    "id": "5313",
+    "slug": "wham-last-christmas-turkce-ceviri",
+    "title": "Wham! Last Christmas Türkçe Çeviri",
+    "song": "Last Christmas",
+    "artist": "Wham!",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 3,
+    "excerpt": "Wham! — Last Christmas sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Wham!",
+      "LAST CHRISTMAS"
+    ],
+    "category_slugs": [
+      "wham",
+      "last-christmas"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78",
+      "albumUrl": "https://open.spotify.com/album/6egzU9NKfora01qaNbvwfZ",
+      "artistUrl": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM",
+      "albumName": "LAST CHRISTMAS",
+      "releaseDate": "1984-11-29",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d",
+      "duration": "4:23",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 3,
+      "artistName": "Wham!",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb2ebf587c72f9e5159da9ce55",
+      "artistGenres": [],
+      "albumArtist": "Wham!"
+    },
+    "moods": [
+      "Sad",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Ah, ah-ah",
+      "tr": "Ah, ah-ah"
+    },
+    "heroPair": {
+      "en": "Last Christmas, I gave you my heart",
+      "tr": "Geçen Noel, kalbimi sana verdim"
+    }
+  },
+  {
+    "id": "5312",
+    "slug": "sting-shape-of-my-heart-turkce-ceviri",
+    "title": "Sting Shape of My Heart Türkçe Çeviri",
+    "song": "Shape of My Heart",
+    "artist": "Sting",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 2,
+    "excerpt": "Sting — Shape of My Heart sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Sting",
+      "Ten Summoner's Tales"
+    ],
+    "category_slugs": [
+      "sting",
+      "ten-summoner-s-tales"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
+      "albumUrl": "https://open.spotify.com/album/5kV0KBXfELibs6qQJLmOtg",
+      "artistUrl": "https://open.spotify.com/artist/0Ty63ceoRnnJKVEYP0VQpk",
+      "albumName": "Ten Summoner's Tales",
+      "releaseDate": "1993-03-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+      "duration": "4:39",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 10,
+      "totalTracks": 12,
+      "artistName": "Sting",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+      "artistGenres": [],
+      "albumArtist": "Sting"
+    },
+    "moods": [
+      "Love",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "He deals the cards as a meditation",
+      "tr": "Kartları meditasyon yapar gibi dağıtır"
+    },
+    "heroPair": {
+      "en": "But that's not the shape of my heart",
+      "tr": "Ama kalbimin şekli bu değil"
+    }
+  },
+  {
+    "id": "5311",
+    "slug": "tame-impala-let-it-happen-turkce-ceviri",
+    "title": "Tame Impala Let It Happen Türkçe Çeviri",
+    "song": "Let It Happen",
+    "artist": "Tame Impala",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 2,
+    "excerpt": "Tame Impala — Let It Happen sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Tame Impala",
+      "Currents"
+    ],
+    "category_slugs": [
+      "tame-impala",
+      "currents"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
+      "albumUrl": "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv",
+      "artistUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+      "albumName": "Currents",
+      "releaseDate": "2015-07-17",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "duration": "7:48",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 13,
+      "artistName": "Tame Impala",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "artistGenres": [],
+      "albumArtist": "Tame Impala"
+    },
+    "moods": [
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "It's always around me, all this noise",
+      "tr": "Hep etrafımda, tüm bu gürültü"
+    },
+    "heroPair": {
+      "en": "\"Let it happen, let it happen (It's gonna feel so good)",
+      "tr": "“Bırak olsun, bırak olsun (Çok iyi hissettirecek)"
+    }
+  },
+  {
+    "id": "5310",
+    "slug": "charlie-puth-attention-turkce-ceviri",
+    "title": "Charlie Puth Attention Türkçe Çeviri",
+    "song": "Attention",
+    "artist": "Charlie Puth",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 4,
+    "excerpt": "Charlie Puth — Attention sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Charlie Puth",
+      "Voicenotes"
+    ],
+    "category_slugs": [
+      "charlie-puth",
+      "voicenotes"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
+      "albumUrl": "https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR",
+      "artistUrl": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+      "albumName": "Voicenotes",
+      "releaseDate": "2018-05-11",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+      "duration": "3:29",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 13,
+      "artistName": "Charlie Puth",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace",
+      "artistGenres": [],
+      "albumArtist": "Charlie Puth"
+    },
+    "moods": [
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "Woah-oh, hm-hmm",
+      "tr": "Woah-oh, hm-hmm"
+    },
+    "heroPair": {
+      "en": "You just want attention, you don't want my heart",
+      "tr": "Sen sadece ilgi istiyorsun, kalbimi istemiyorsun"
+    }
+  },
+  {
+    "id": "5309",
+    "slug": "stromae-papaoutai-turkce-ceviri",
+    "title": "Stromae Papaoutai Türkçe Çeviri",
+    "song": "Papaoutai",
+    "artist": "Stromae",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
+    "date": "2026-10-22T12:00:00+03:00",
+    "reading_time": 4,
+    "excerpt": "Stromae — Papaoutai sözleri ve Türkçe çevirisi. Orijinal Fransızca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "Stromae",
+      "racine carrée"
+    ],
+    "category_slugs": [
+      "stromae",
+      "racine-carre-e"
+    ],
+    "languages": {
+      "original": "fr",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/34dx8DACTJsc3rsJdaEIQw",
+      "albumUrl": "https://open.spotify.com/album/6uyslsVGFsHKzdGUosFwBM",
+      "artistUrl": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR",
+      "albumName": "racine carrée",
+      "releaseDate": "2013-01-01",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
+      "duration": "3:52",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 13,
+      "artistName": "Stromae",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2",
+      "artistGenres": [],
+      "albumArtist": "Stromae"
+    },
+    "moods": [
+      "Lonely"
+    ],
+    "firstPair": {
+      "en": "Dites-moi d'où il vient",
+      "tr": "Söyleyin bana, nereden geliyor?"
+    },
+    "heroPair": {
+      "en": "Où t'es, papaoutai ?",
+      "tr": "Neredesin, baba neredesin?"
+    }
+  },
+  {
     "id": "5308",
     "slug": "cigarettes-after-sex-apocalypse-turkce-ceviri",
     "title": "Cigarettes After Sex Apocalypse Türkçe Çeviri",

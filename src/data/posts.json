@@ -1,5 +1,3957 @@
 [
   {
+    "id": "5317",
+    "title": "A2O LITE, A2O NEON Türkçe Çeviri",
+    "song": "NEON",
+    "slug": "a2o-lite-a2o-neon-turkce-ceviri",
+    "date": "2026-10-22T07:55:10.204Z",
+    "artist": "A2O LITE, A2O",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "A2O LITE",
+      "A2O",
+      "NEON"
+    ],
+    "category_slugs": [
+      "a2o-lite",
+      "a2o",
+      "neon"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro: Aijing",
+        "lines": [
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and—"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro: Aijing",
+        "lines": [
+          "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup",
+          "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup",
+          "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup",
+          "Neon ve ötesi, işte bizim olayımız—"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: OA, Merci, OA & Merci",
+        "lines": [
+          "Grab a hold on to something tight, A2O the LITE",
+          "gamgakdo mabi chunggyeok geu jache",
+          "Feel the energy and follow the LITE",
+          "I know you like that, right? siseon gojeong, li-li-like that (Incoming)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: OA, Merci, OA & Merci",
+        "lines": [
+          "Sıkı sıkı bir yere tutun, A2O the LITE",
+          "Duyular bile uyuşuyor, tam anlamıyla şok etkisi",
+          "Enerjiyi hisset ve LITE’ı takip et",
+          "Hoşuna gittiğini biliyorum, değil mi? Gözlerini buraya kilitle, li-li-like that (Geliyor!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Himeki, Aijing, Xili, Ayune, Young",
+        "lines": [
+          "imi gajin force",
+          "Here we come, come, here we come, come",
+          "Hear the drum, rum-uh-pum-pum",
+          "bunseok jung?",
+          "Hit the ground, run, do the math, hun",
+          "They ain't never seen another one",
+          "Oh, what, what you gone do?",
+          "jikyeobwa, nan Zalpha, dallajin New Gen, gachi norajulge"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Himeki, Aijing, Xili, Ayune, Young",
+        "lines": [
+          "Zaten içimizde olan o güç",
+          "İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz",
+          "Davulu duy, rum-uh-pum-pum",
+          "Hâlâ analiz mi ediyorsun?",
+          "Yere bas ve koş, hesabını yap, tatlım",
+          "Bizim gibisini daha önce hiç görmediler",
+          "Oh, ne yapacaksın şimdi?",
+          "İzle beni, ben Zalpha’yım, değişmiş yeni nesil, seninle de biraz oynayacağım"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Xili, Vora, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "dasi bul buchyeo mujigaebichui bul (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "natge nara modu nunchi mot chaege (Neon)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Xili, Vora, All",
+        "lines": [
+          "Biz neonuz ve ötesiyiz, taşlarımızdaki ışıltıyı gör",
+          "Gökkuşağı rengindeki ateşi yeniden tutuştur (Neon)",
+          "Biz neonuz ve ötesiyiz, beni bambaşka bir hâlde gör",
+          "Alçaktan uç, kimse fark etmesin (Neon)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Merci, OA, Merci & OA, All",
+        "lines": [
+          "Flashing neon, yeah",
+          "byeol gata",
+          "Flashing neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Merci, OA, Merci & OA, All",
+        "lines": [
+          "Yanıp sönen neon, yeah",
+          "Yıldızlar gibi",
+          "Yanıp sönen neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Ayune, Aijing, Ayune & Aijing",
+        "lines": [
+          "natseon naega natana, modu watching on me",
+          "igeon machi system down, hypnotic elixir",
+          "Energyneun focus on me, choejeoginikka",
+          "I know you like that, right? nega boyeo li-li-like that"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Ayune, Aijing, Ayune & Aijing",
+        "lines": [
+          "Tanımadığın bir hâlim ortaya çıkıyor, herkes gözünü bana dikmiş",
+          "Bu resmen sistem çökmesi gibi, hipnotize eden bir iksir",
+          "Enerji bana odaklanıyor, çünkü en uygun olan benim",
+          "Hoşuna gittiğini biliyorum, değil mi? Seni görüyorum, li-li-like that"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Young, Xili, OA, Rada, (Aijing)",
+        "lines": [
+          "imi gajin force",
+          "Here we come, come, here we come, come",
+          "Hear the drum, rum-uh-pum-pum",
+          "bunseok jung?",
+          "Hit the ground, run, do the math, hun",
+          "They ain't never seen another one",
+          "Oh, what, what you gone do?",
+          "jikyeobwa, nan Zalpha, dallajin New Gen, gachi norajulge (We are—)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Young, Xili, OA, Rada, (Aijing)",
+        "lines": [
+          "Zaten içimizde olan o güç",
+          "İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz",
+          "Davulu duy, rum-uh-pum-pum",
+          "Hâlâ analiz mi ediyorsun?",
+          "Yere bas ve koş, hesabını yap, tatlım",
+          "Bizim gibisini daha önce hiç görmediler",
+          "Oh, ne yapacaksın şimdi?",
+          "İzle beni, ben Zalpha’yım, değişmiş yeni nesil, seninle de biraz oynayacağım (Biz—)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Aijing, Himeki, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "dasi bul buchyeo mujigaebichui bul (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "natge nara modu nunchi mot chaege (Neon)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Aijing, Himeki, All",
+        "lines": [
+          "Biz neonuz ve ötesiyiz, taşlarımızdaki ışıltıyı gör",
+          "Gökkuşağı rengindeki ateşi yeniden tutuştur (Neon)",
+          "Biz neonuz ve ötesiyiz, beni bambaşka bir hâlde gör",
+          "Alçaktan uç, kimse fark etmesin (Neon)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: OA, Ayune, OA & Ayune, All",
+        "lines": [
+          "Flashing neon, yeah",
+          "byeol gata",
+          "Flashing neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: OA, Ayune, OA & Ayune, All",
+        "lines": [
+          "Yanıp sönen neon, yeah",
+          "Yıldızlar gibi",
+          "Yanıp sönen neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: All",
+        "lines": [
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, gyesok wiro ollaga, yup",
+          "Neon and beyond, kkwak jabado wiheomhae, yup",
+          "Neon and beyond, bicheul ttarawa-wa-wa-wa"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: All",
+        "lines": [
+          "Neon ve ötesi, işte bizim olayımız, daha da ötesi, yup",
+          "Neon ve ötesi, durmadan daha yukarı çıkıyoruz, yup",
+          "Neon ve ötesi, sıkı tutunsan bile tehlikeli, yup",
+          "Neon ve ötesi, ışığı takip et, gel, gel, gel, gel"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Merci, Young, Rada",
+        "lines": [
+          "Feel it rushing, neukkyeojyeo tonight",
+          "We're alive in these neon lights",
+          "han georeum deo into the unknown",
+          "jigeum i sungan (We got control)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Merci, Young, Rada",
+        "lines": [
+          "İçinden akıp geçtiğini hisset, bu gece hissediyorum",
+          "Bu neon ışıklarının altında hayattayız",
+          "Bilinmeyene doğru bir adım daha",
+          "Tam şu anda (Kontrol bizde)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Himeki, Vora, Young",
+        "lines": [
+          "We go higher, higher, higher",
+          "deo wiro ulla, ulla",
+          "Never, never, never coming down, down, down",
+          "meomchuji ana",
+          "machim teojigi jikjeon, it all explodes"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Himeki, Vora, Young",
+        "lines": [
+          "Daha yükseğe, daha yükseğe, daha yükseğe",
+          "Daha da yukarı, yukarı, yukarı",
+          "Asla, asla, asla aşağı inmiyoruz, inmiyoruz, inmiyoruz",
+          "Durmuyoruz",
+          "Tam patlamak üzereyken, her şey bir anda patlıyor"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Young, Rada, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "dasi bul buchyeo mujigaebichui bul (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "natge nara modu nunchi mot chaege (Neon)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Young, Rada, All",
+        "lines": [
+          "Biz neonuz ve ötesiyiz, taşlarımızdaki ışıltıyı gör",
+          "Gökkuşağı rengindeki ateşi yeniden tutuştur (Neon)",
+          "Biz neonuz ve ötesiyiz, beni bambaşka bir hâlde gör",
+          "Alçaktan uç, kimse fark etmesin (Neon)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Xili & Merci, Aijing & Young, All, Ayune & Himeki, OA, Xili & Aijing",
+        "lines": [
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "byeol gata (Here we come, come, here we come, come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "Neon (Here we come, here we come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "byeol gata (Here we come, come, here we come, come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "Neon"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Xili & Merci, Aijing & Young, All, Ayune & Himeki, OA, Xili & Aijing",
+        "lines": [
+          "Yanıp sönen neon, yeah (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Yıldızlar gibi (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Yanıp sönen neon, yeah (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Neon (İşte geliyoruz, işte geliyoruz)",
+          "Yanıp sönen neon, yeah (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Yıldızlar gibi (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Yanıp sönen neon, yeah (İşte geliyoruz, geliyoruz, işte geliyoruz, geliyoruz)",
+          "Neon"
+        ]
+      }
+    ],
+    "excerpt": "A2O LITE, A2O — NEON sözleri ve Türkçe çevirisi. Romanize Korece ve İngilizce sözleri, neon ve yeni nesil imgelerine ilişkin çeviri notlarıyla birlikte oku.",
+    "annotations": {
+      "Neon ve ötesi": "“Neon and beyond”, ulaşılan noktada durmayıp daha ötesine gitme fikrini taşır. Resmî albüm tanıtımı da hedefe ulaştıktan sonra durmadan ötesine bakma temasını vurgular.",
+      "Zalpha": "Gen Z ile Gen Alpha adlarının birleşiminden oluşan kuşak tanımıdır. Grubun kullandığı “Zalpha Pop” kavramının merkezindedir.",
+      "LITE": "Grup adını taşırken İngilizcedeki “light”, yani ışık sözcüğünü çağrıştırır. Neon ve ışık imgeleriyle birlikte okunabilen bir kelime oyunudur.",
+      "Duyular bile uyuşuyor": "“감각도 마비 충격 그 자체”, duyuların uyuşması ve şok etkisiyle fiziksel/duyusal yoğunluğu vurgular.",
+      "Hâlâ analiz mi ediyorsun?": "“분석 중?” kısa bir “Analiz mi ediyorsun?” sorusudur. Onları çözmeye çalışan kişiye meydan okuyan bir ton taşır.",
+      "seninle de biraz oynayacağım": "“같이 놀아줄게”, birlikte oynama ifadesidir. Bağlamdaki kendinden emin söyleyiş, meydan okuma ve üstünlük hissi de taşıyabilir.",
+      "taşlarımızdaki": "“Stones” burada büyük olasılıkla değerli taşlar veya mücevherlerdir. Kesinleştirmeden, parlama imgesini koruyan bir karşılık kullanılır.",
+      "Yeniden tutuştur": "“다시 불 붙여”, ateşi yeniden yakmak/tutuşturmak anlamındadır. Gökkuşağı rengindeki ateş imgesi korunur.",
+      "Alçaktan uç": "“낮게 날아 모두 눈치 못 채게”, kimse fark etmeden alçaktan uçma imgesidir; sözlerde radar ifadesi bulunmaz.",
+      "sistem çökmesi": "“System down”, sistemin çökmesi veya devre dışı kalmasıdır. Ortaya çıkan yeni hâlin etkisini teknolojik bir metaforla anlatır.",
+      "hipnotize eden bir iksir": "“Hypnotic elixir”, hipnotize eden iksir demektir; çekicilik ve baş döndürücü enerji imgesi olarak okunabilir.",
+      "en uygun olan benim": "“최적”, optimum veya en uygun anlamındadır. “En iyisi benim” demek daha serbest bir yorum olur.",
+      "durmadan daha yukarı çıkıyoruz": "“계속 위로 올라가”, sürekli yukarı çıkma ifadesidir; yükselme temasını sürdürür.",
+      "sıkı tutunsan bile tehlikeli": "“꽉 잡아도 위험해”, sıkı tutunulduğunda bile tehlikenin devam ettiğini söyler; hız ve kontrol edilmesi zor enerji hissi taşır.",
+      "İçinden akıp geçtiğini hisset": "“Feel it rushing”, güçlü bir akış veya heyecanı hissetme ifadesidir. Sözlerde doğrudan adrenalin denmez.",
+      "Bilinmeyene doğru": "“Into the unknown”, henüz bilinmeyen veya keşfedilmemiş olana doğru ilerlemektir.",
+      "Kontrol bizde": "“We got control”, kontrolün kendilerinde olduğunu söyleyen özgüvenli bir ifadedir."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5PvLNQRNRj61y3CU4SFIY4",
+        "name": "NEON",
+        "url": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+        "isrc": "KRMIM2655904",
+        "durationMs": 208000,
+        "duration": "3:28",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0Vkn28k7P4K95Ce3knN0hQ",
+        "name": "A2O LITE",
+        "url": "https://open.spotify.com/artist/0Vkn28k7P4K95Ce3knN0hQ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3690f8e2ea217ae9019fe8d8",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0Vkn28k7P4K95Ce3knN0hQ",
+          "name": "A2O LITE",
+          "url": "https://open.spotify.com/artist/0Vkn28k7P4K95Ce3knN0hQ"
+        },
+        {
+          "id": "7rBQch7KtqQNQjV5AxdHlE",
+          "name": "A2O",
+          "url": "https://open.spotify.com/artist/7rBQch7KtqQNQjV5AxdHlE"
+        }
+      ],
+      "album": {
+        "id": "4LcuVwt8mIj0SIoWQqnDkd",
+        "name": "NEON",
+        "url": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+        "artists": [
+          {
+            "id": "0Vkn28k7P4K95Ce3knN0hQ",
+            "name": "A2O LITE",
+            "url": "https://open.spotify.com/artist/0Vkn28k7P4K95Ce3knN0hQ"
+          },
+          {
+            "id": "7rBQch7KtqQNQjV5AxdHlE",
+            "name": "A2O",
+            "url": "https://open.spotify.com/artist/7rBQch7KtqQNQjV5AxdHlE"
+          }
+        ],
+        "releaseDate": "2026-10-13",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2026 A2O Entertainment",
+            "type": "C"
+          },
+          {
+            "text": "2026 A2O Entertainment",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5PvLNQRNRj61y3CU4SFIY4",
+            "name": "NEON",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 208000,
+            "duration": "3:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:55:09.971Z",
+      "trackUrl": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+      "albumUrl": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd",
+      "artistUrl": "https://open.spotify.com/artist/0Vkn28k7P4K95Ce3knN0hQ",
+      "albumName": "NEON",
+      "albumType": "Single",
+      "releaseDate": "2026-10-13",
+      "duration": "3:28",
+      "isrc": "KRMIM2655904",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=D968qfUZMUE",
+    "source": "user-provided",
+    "originalScriptBlocks": [
+      {
+        "label": "Intro: Aijing",
+        "lines": [
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, that's what we on and—"
+        ]
+      },
+      {
+        "label": "Verse 1: OA, Merci, OA & Merci",
+        "lines": [
+          "Grab a hold on to something tight, A2O the LITE",
+          "감각도 마비 충격 그 자체",
+          "Feel the energy and follow the LITE",
+          "I know you like that, right? 시선 고정, li-li-like that (Incoming)"
+        ]
+      },
+      {
+        "label": "Pre-Chorus: Himeki, Aijing, Xili, Ayune, Young",
+        "lines": [
+          "이미 가진 force",
+          "Here we come, come, here we come, come",
+          "Hear the drum, rum-uh-pum-pum",
+          "분석 중?",
+          "Hit the ground, run, do the math, hun",
+          "They ain't never seen another one",
+          "Oh, what, what you gone do?",
+          "지켜봐, 난 Zalpha, 달라진 New Gen, 같이 놀아줄게"
+        ]
+      },
+      {
+        "label": "Chorus: Xili, Vora, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "다시 불 붙여 무지개빛의 불 (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "낮게 날아 모두 눈치 못 채게 (Neon)"
+        ]
+      },
+      {
+        "label": "Post-Chorus: Merci, OA, Merci & OA, All",
+        "lines": [
+          "Flashing neon, yeah",
+          "별 같아",
+          "Flashing neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "label": "Verse 2: Ayune, Aijing, Ayune & Aijing",
+        "lines": [
+          "낯선 내가 나타나, 모두 watching on me",
+          "이건 마치 system down, hypnotic elixir",
+          "Energy는 focus on me, 최적이니까",
+          "I know you like that, right? 네가 보여 li-li-like that"
+        ]
+      },
+      {
+        "label": "Pre-Chorus: Young, Xili, OA, Rada, (Aijing)",
+        "lines": [
+          "이미 가진 force",
+          "Here we come, come, here we come, come",
+          "Hear the drum, rum-uh-pum-pum",
+          "분석 중?",
+          "Hit the ground, run, do the math, hun",
+          "They ain't never seen another one",
+          "Oh, what, what you gone do?",
+          "지켜봐, 난 Zalpha, 달라진 New Gen, 같이 놀아줄게 (We are—)"
+        ]
+      },
+      {
+        "label": "Chorus: Aijing, Himeki, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "다시 불 붙여 무지개빛의 불 (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "낮게 날아 모두 눈치 못 채게 (Neon)"
+        ]
+      },
+      {
+        "label": "Post-Chorus: OA, Ayune, OA & Ayune, All",
+        "lines": [
+          "Flashing neon, yeah",
+          "별 같아",
+          "Flashing neon, yeah",
+          "Neon"
+        ]
+      },
+      {
+        "label": "Refrain: All",
+        "lines": [
+          "Neon and beyond, that's what we on and beyond, yup",
+          "Neon and beyond, 계속 위로 올라가, yup",
+          "Neon and beyond, 꽉 잡아도 위험해, yup",
+          "Neon and beyond, 빛을 따라와-와-와-와"
+        ]
+      },
+      {
+        "label": "Bridge: Merci, Young, Rada",
+        "lines": [
+          "Feel it rushing, 느껴져 tonight",
+          "We're alive in these neon lights",
+          "한 걸음 더 into the unknown",
+          "지금 이 순간 (We got control)"
+        ]
+      },
+      {
+        "label": "Pre-Chorus: Himeki, Vora, Young",
+        "lines": [
+          "We go higher, higher, higher",
+          "더 위로 울라, 울라",
+          "Never, never, never coming down, down, down",
+          "멈추지 않아",
+          "마침 터지기 직전, it all explodes"
+        ]
+      },
+      {
+        "label": "Chorus: Young, Rada, All",
+        "lines": [
+          "We are neon and beyond, see the sparkles in our stones",
+          "다시 불 붙여 무지개빛의 불 (Neon)",
+          "We are neon and beyond, see me in a different form",
+          "낮게 날아 모두 눈치 못 채게 (Neon)"
+        ]
+      },
+      {
+        "label": "Post-Chorus: Xili & Merci, Aijing & Young, All, Ayune & Himeki, OA, Xili & Aijing",
+        "lines": [
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "별 같아 (Here we come, come, here we come, come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "Neon (Here we come, here we come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "별 같아 (Here we come, come, here we come, come)",
+          "Flashing neon, yeah (Here we come, come, here we come, come)",
+          "Neon"
+        ]
+      }
+    ],
+    "editorialSources": [
+      {
+        "url": "https://www.melon.com/album/detail.htm?albumId=14644795",
+        "label": "Resmî albüm tanıtımı"
+      }
+    ]
+  },
+  {
+    "id": "5316",
+    "title": "Manu Pilas Bella Ciao Türkçe Çeviri",
+    "song": "Bella Ciao",
+    "slug": "manu-pilas-bella-ciao-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Manu Pilas",
+    "languages": {
+      "original": "it",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Manu Pilas",
+      "Bella Ciao (Música Original de la Serie la Casa de Papel/ Money Heist)"
+    ],
+    "category_slugs": [
+      "manu-pilas",
+      "bella-ciao-mu-sica-original-de-la-serie-la-casa-de-papel-money-heist"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e",
+    "reading_time": 1,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Strofa 1",
+        "lines": [
+          "Una mattina mi sono alzato",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Una mattina mi sono alzato",
+          "E ho trovato l'invasor"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 1",
+        "lines": [
+          "Bir sabah kalktım",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Bir sabah kalktım",
+          "Ve işgalciyi gördüm"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Strofa 2",
+        "lines": [
+          "O partigiano, portami via",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "O partigiano, portami via",
+          "Ché mi sento di morir"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 2",
+        "lines": [
+          "Ey partizan, al götür beni",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Ey partizan, al götür beni",
+          "Çünkü ölecekmiş gibi hissediyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Strofa 3",
+        "lines": [
+          "E se io muoio da partigiano",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "E se io muoio da partigiano",
+          "Tu mi devi seppellir"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 3",
+        "lines": [
+          "Ve eğer bir partizan olarak ölürsem",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Ve eğer bir partizan olarak ölürsem",
+          "Beni sen gömmelisin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Strofa 4",
+        "lines": [
+          "E seppellire lassù in montagna",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "E seppellire lassù in montagna",
+          "Sotto l'ombra di un bel fior"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 4",
+        "lines": [
+          "Beni yukarıda, dağlarda göm",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Beni yukarıda, dağlarda göm",
+          "Güzel bir çiçeğin gölgesine"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Strofa 5",
+        "lines": [
+          "Tutte le genti che passeranno",
+          "O bella ciao, bella ciao, bella ciao ciao ciao",
+          "E le genti che passeranno",
+          "Mi diranno: \"Che bel fior\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 5",
+        "lines": [
+          "Oradan geçecek bütün insanlar",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Ve oradan geçecek insanlar",
+          "Bana “Ne güzel bir çiçek” diyecekler"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Strofa 6",
+        "lines": [
+          "E questo è il fiore del partigiano",
+          "O bella ciao, bella ciao, bella ciao ciao ciao",
+          "Questo è il fiore del partigiano",
+          "Morto per la libertà"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Strofa 6",
+        "lines": [
+          "Ve bu, o partizanın çiçeğidir",
+          "O bella ciao, bella ciao, bella ciao, ciao, ciao",
+          "Bu, o partizanın çiçeğidir",
+          "Özgürlük uğruna ölen"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "E questo è il fiore del partigiano",
+          "Morto per la libertà"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Ve bu, o partizanın çiçeğidir",
+          "Özgürlük uğruna ölen"
+        ]
+      }
+    ],
+    "excerpt": "Manu Pilas — Bella Ciao sözleri ve Türkçe çevirisi. Orijinal İtalyanca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "bella ciao": "“Bella ciao”, “Elveda güzelim” diye karşılanabilir. “Bella”nın kimi veya neyi temsil ettiği yoruma açıktır; mutlaka belirli bir sevgiliye seslenildiği söylenemez.",
+      "partizan": "“Partigiano”, burada İtalya’daki anti-faşist direnişçi figürünü anlatır. Sayfaya kullanıcının seçtiği Manu Pilas — Bella Ciao kaydı bağlanmıştır; metin, kullanıcının gönderdiği geleneksel sözlerin tam çevirisidir.",
+      "çiçeğidir": "Çiçek, özgürlük uğruna ölen kişinin hatırasıyla ilişkilendirilir. Direnişin sürmesi veya hatırlanma anlamları sözlere dayalı yorumlardır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "3ISMDCuo2KDOC64nXz0Vah",
+        "name": "Bella Ciao - Música Original de la Serie la Casa de Papel/ Money Heist",
+        "url": "https://open.spotify.com/track/3ISMDCuo2KDOC64nXz0Vah",
+        "isrc": "ES84S1800619",
+        "durationMs": 139844,
+        "duration": "2:20",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "2TJHmhbmT7L3gw2NKyDTHh",
+        "name": "Manu Pilas",
+        "url": "https://open.spotify.com/artist/2TJHmhbmT7L3gw2NKyDTHh",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0fac2076ba668ea28e789c20",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "2TJHmhbmT7L3gw2NKyDTHh",
+          "name": "Manu Pilas",
+          "url": "https://open.spotify.com/artist/2TJHmhbmT7L3gw2NKyDTHh"
+        }
+      ],
+      "album": {
+        "id": "6SKvXijdo4yQ0042haWtEe",
+        "name": "Bella Ciao (Música Original de la Serie la Casa de Papel/ Money Heist)",
+        "url": "https://open.spotify.com/album/6SKvXijdo4yQ0042haWtEe",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e",
+        "artists": [
+          {
+            "id": "2TJHmhbmT7L3gw2NKyDTHh",
+            "name": "Manu Pilas",
+            "url": "https://open.spotify.com/artist/2TJHmhbmT7L3gw2NKyDTHh"
+          }
+        ],
+        "releaseDate": "2018-04-20",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(C) 2018 Música Aparte distributed by Altafonte",
+            "type": "C"
+          },
+          {
+            "text": "(P) 2018 Atresmúsica distributed by Altafonte",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "3ISMDCuo2KDOC64nXz0Vah",
+            "name": "Bella Ciao - Música Original de la Serie la Casa de Papel/ Money Heist",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 139844,
+            "duration": "2:20",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3ISMDCuo2KDOC64nXz0Vah",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:43:34.801Z",
+      "trackUrl": "https://open.spotify.com/track/3ISMDCuo2KDOC64nXz0Vah",
+      "albumUrl": "https://open.spotify.com/album/6SKvXijdo4yQ0042haWtEe",
+      "artistUrl": "https://open.spotify.com/artist/2TJHmhbmT7L3gw2NKyDTHh",
+      "albumName": "Bella Ciao (Música Original de la Serie la Casa de Papel/ Money Heist)",
+      "albumType": "Single",
+      "releaseDate": "2018-04-20",
+      "duration": "2:20",
+      "isrc": "ES84S1800619",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273535fa894f77e2f52f5aacc7e"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=4JVaRloezno",
+    "source": "user-provided"
+  },
+  {
+    "id": "5315",
+    "title": "Taylor Swift cardigan Türkçe Çeviri",
+    "song": "cardigan",
+    "slug": "taylor-swift-cardigan-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Taylor Swift",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Taylor Swift",
+      "folklore"
+    ],
+    "category_slugs": [
+      "taylor-swift",
+      "folklore"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Vintage tee, brand new phone",
+          "High heels on cobblestones",
+          "When you are young, they assume you know nothing",
+          "Sequin smile, black lipstick",
+          "Sensual politics",
+          "When you are young, they assume you know nothing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Eski bir tişört, yepyeni bir telefon",
+          "Arnavut kaldırımlarında topuklular",
+          "Genç olduğunda hiçbir şey bilmediğini sanırlar",
+          "Payetli bir gülüş, siyah ruj",
+          "Tensel oyunlar",
+          "Genç olduğunda hiçbir şey bilmediğini sanırlar"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I knew you",
+          "Dancin' in your Levi's",
+          "Drunk under a streetlight, I",
+          "I knew you",
+          "Hand under my sweatshirt",
+          "Baby, kiss it better, I"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben seni tanıyordum",
+          "Levi's kotunla dans ederken",
+          "Sokak lambasının altında sarhoşken, ben",
+          "Seni tanıyordum",
+          "Elin sweatshirt'ümün altında",
+          "Bebeğim, öp de geçsin, ben"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "And when I felt like I was an old cardigan",
+          "Under someone's bed",
+          "You put me on and said I was your favorite"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Ve kendimi eski bir hırka gibi hissettiğimde",
+          "Birinin yatağının altında",
+          "Beni giydin ve en sevdiğin olduğumu söyledin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "A friend to all is a friend to none",
+          "Chase two girls, lose the one",
+          "When you are young, they assume you know nothing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Herkesin dostu olan kimsenin dostu değildir",
+          "İki kızın peşinden koş, o biricik kişiyi kaybet",
+          "Genç olduğunda hiçbir şey bilmediğini sanırlar"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "But I knew you",
+          "Playing hide-and-seek and",
+          "Giving me your weekends, I",
+          "I knew you",
+          "Your heartbeat on the High Line",
+          "Once in twenty lifetimes, I"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Ama ben seni tanıyordum",
+          "Saklambaç oynarken ve",
+          "Hafta sonlarını bana ayırırken, ben",
+          "Seni tanıyordum",
+          "High Line'daki kalp atışın",
+          "Yirmi ömürde bir yaşanacak kadar özel, ben"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "And when I felt like I was an old cardigan",
+          "Under someone's bed",
+          "You put me on and said I was your favorite"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Ve kendimi eski bir hırka gibi hissettiğimde",
+          "Birinin yatağının altında",
+          "Beni giydin ve en sevdiğin olduğumu söyledin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "To kiss in cars and downtown bars",
+          "Was all we needed",
+          "You drew stars around my scars",
+          "But now I'm bleedin'"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Arabalarda ve şehir merkezindeki barlarda öpüşmek",
+          "Tek ihtiyacımız buydu",
+          "Yaralarımın etrafına yıldızlar çizdin",
+          "Ama şimdi kanıyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "'Cause I knew you",
+          "Steppin' on the last train",
+          "Marked me like a bloodstain, I",
+          "I knew you",
+          "Tried to change the ending",
+          "Peter losing Wendy, I",
+          "I knew you",
+          "Leavin' like a father",
+          "Running like water, I",
+          "And when you are young, they assume you know nothing"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Çünkü seni tanıyordum",
+          "Son trene adım atarken",
+          "Bende kan lekesi gibi iz bıraktın, ben",
+          "Seni tanıyordum",
+          "Sonunu değiştirmeye çalıştın",
+          "Peter'ın Wendy'yi kaybetmesi, ben",
+          "Seni tanıyordum",
+          "Bir baba gibi çekip gidişini",
+          "Su gibi akıp kaçışını, ben",
+          "Ve genç olduğunda hiçbir şey bilmediğini sanırlar"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "But I knew you'd linger like a tattoo kiss",
+          "I knew you'd haunt all of my what-ifs",
+          "The smell of smoke would hang around this long",
+          "'Cause I knew everything when I was young",
+          "I knew I'd curse you for the longest time",
+          "Chasin' shadows in the grocery line",
+          "I knew you'd miss me once the thrill expired",
+          "And you'd be standin' in my front porch light",
+          "And I knew you'd come back to me",
+          "You'd come back to me",
+          "And you'd come back to me",
+          "And you'd come back"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Ama bir dövme öpücüğü gibi kalacağını biliyordum",
+          "Bütün “ya şöyle olsaydı”larıma musallat olacağını biliyordum",
+          "Duman kokusunun bu kadar uzun süre üzerimde kalacağını",
+          "Çünkü gençken her şeyi biliyordum",
+          "Sana uzun süre lanet okuyacağımı biliyordum",
+          "Market sırasında gölgelerin peşine düşeceğimi",
+          "Heyecan bitince beni özleyeceğini biliyordum",
+          "Ve verandamın ışığında duracağını",
+          "Ve bana geri döneceğini biliyordum",
+          "Bana geri dönecektin",
+          "Ve bana geri dönecektin",
+          "Ve geri dönecektin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "And when I felt like I was an old cardigan",
+          "Under someone's bed",
+          "You put me on and said I was your favorite"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Ve kendimi eski bir hırka gibi hissettiğimde",
+          "Birinin yatağının altında",
+          "Beni giydin ve en sevdiğin olduğumu söyledin"
+        ]
+      }
+    ],
+    "excerpt": "Taylor Swift — cardigan sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Tensel oyunlar": "“Sensual politics”, çekim ve ilişkiler içindeki hesapları çağrıştıran soyut bir ifadedir. Burada “tensel oyunlar” seçildi; tek bir somut olaya indirgenmez.",
+      "eski bir hırka": "Yatağın altında kalmış hırka, unutulmuş veya değersiz hissetme imgesi olarak okunabilir. Yeniden giyilmesi değer verilmesiyle ilişkilendirilir.",
+      "High Line": "New York’ta eski bir yükseltilmiş demiryolu üzerinde oluşturulmuş kamusal parktır.",
+      "Peter'ın Wendy'yi kaybetmesi": "Peter Pan ile Wendy’ye gönderme yapar; büyümeyi reddetme ve kaybetme temalarıyla ilişkilendirilebilir. Buradaki kişi adı Peter’dır.",
+      "Bir baba gibi çekip gidişini": "Baba tarafından terk edilme imgesine sert bir gönderme olarak okunabilir; anlatıcı veya sanatçı hakkında psikolojik teşhis değildir.",
+      "“ya şöyle olsaydı”larıma": "“What-ifs”, gerçekleşmemiş ihtimaller üzerine sorulan sorulardır. “Haunt” bu ihtimallerin zihinden çıkmamasını çağrıştırır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "4R2kfaDFhslZEMJqAFNpdd",
+        "name": "cardigan",
+        "url": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
+        "isrc": "USUG12002836",
+        "durationMs": 239560,
+        "duration": "4:00",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12184bdd29403de54cb9d9c7",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "album": {
+        "id": "2fenSS68JI1h4Fo296JfGr",
+        "name": "folklore",
+        "url": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+        "artists": [
+          {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          }
+        ],
+        "releaseDate": "2020-07-24",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2020 Taylor Swift",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2020 Taylor Swift",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 16,
+        "tracks": [
+          {
+            "id": "0Jlcvv8IykzHaSmj49uNW8",
+            "name": "the 1",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 210251,
+            "duration": "3:30",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0Jlcvv8IykzHaSmj49uNW8",
+            "isCurrent": false
+          },
+          {
+            "id": "4R2kfaDFhslZEMJqAFNpdd",
+            "name": "cardigan",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 239560,
+            "duration": "4:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
+            "isCurrent": true
+          },
+          {
+            "id": "2Eeur20xVqfUoM3Q7EFPFt",
+            "name": "the last great american dynasty",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 230999,
+            "duration": "3:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2Eeur20xVqfUoM3Q7EFPFt",
+            "isCurrent": false
+          },
+          {
+            "id": "4pvb0WLRcMtbPGmtejJJ6y",
+            "name": "exile (feat. Bon Iver)",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 285634,
+            "duration": "4:46",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4pvb0WLRcMtbPGmtejJJ6y",
+            "isCurrent": false
+          },
+          {
+            "id": "1MgV7FIyNxIG7WzMRJV5HC",
+            "name": "my tears ricochet",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 255893,
+            "duration": "4:16",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1MgV7FIyNxIG7WzMRJV5HC",
+            "isCurrent": false
+          },
+          {
+            "id": "0ZNU020wNYvgW84iljPkPP",
+            "name": "mirrorball",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 208977,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0ZNU020wNYvgW84iljPkPP",
+            "isCurrent": false
+          },
+          {
+            "id": "6KJqZcs9XDgVck7Lg9QOTC",
+            "name": "seven",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 208906,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6KJqZcs9XDgVck7Lg9QOTC",
+            "isCurrent": false
+          },
+          {
+            "id": "3hUxzQpSfdDqwM3ZTFQY0K",
+            "name": "august",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 261922,
+            "duration": "4:22",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+            "isCurrent": false
+          },
+          {
+            "id": "7kt9e9LFSpN1zQtYEl19o1",
+            "name": "this is me trying",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 195097,
+            "duration": "3:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7kt9e9LFSpN1zQtYEl19o1",
+            "isCurrent": false
+          },
+          {
+            "id": "2NmsngXHeC1GQ9wWrzhOMf",
+            "name": "illicit affairs",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 190898,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2NmsngXHeC1GQ9wWrzhOMf",
+            "isCurrent": false
+          },
+          {
+            "id": "6VsvKPJ4xjVNKpI8VVZ3SV",
+            "name": "invisible string",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 252880,
+            "duration": "4:13",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6VsvKPJ4xjVNKpI8VVZ3SV",
+            "isCurrent": false
+          },
+          {
+            "id": "2QDyYdZyhlP2fp79KZX8Bi",
+            "name": "mad woman",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 237258,
+            "duration": "3:57",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2QDyYdZyhlP2fp79KZX8Bi",
+            "isCurrent": false
+          },
+          {
+            "id": "08fa9LFcFBTcilB3iq2e2A",
+            "name": "epiphany",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 289749,
+            "duration": "4:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/08fa9LFcFBTcilB3iq2e2A",
+            "isCurrent": false
+          },
+          {
+            "id": "5kI4eCXXzyuIUXjQra0Cxi",
+            "name": "betty",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 294521,
+            "duration": "4:55",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5kI4eCXXzyuIUXjQra0Cxi",
+            "isCurrent": false
+          },
+          {
+            "id": "7MbT4I8qGntX4fMdqMQgke",
+            "name": "peace",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 234000,
+            "duration": "3:54",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/7MbT4I8qGntX4fMdqMQgke",
+            "isCurrent": false
+          },
+          {
+            "id": "6MWoRt97mnSTXZhu3ggi9C",
+            "name": "hoax",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 220042,
+            "duration": "3:40",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6MWoRt97mnSTXZhu3ggi9C",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:25.284Z",
+      "trackUrl": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd",
+      "albumUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+      "artistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "albumName": "folklore",
+      "albumType": "Album",
+      "releaseDate": "2020-07-24",
+      "duration": "4:00",
+      "isrc": "USUG12002836",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=zLSUp53y-HQ",
+    "source": "user-provided"
+  },
+  {
+    "id": "5314",
+    "title": "Michel Fugain & Le Big Bazar Une belle histoire Türkçe Çeviri",
+    "song": "Une belle histoire",
+    "slug": "michel-fugain-le-big-bazar-une-belle-histoire-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Michel Fugain & Le Big Bazar",
+    "languages": {
+      "original": "fr",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Michel Fugain & Le Big Bazar",
+      "Fais comme l'oiseau"
+    ],
+    "category_slugs": [
+      "michel-fugain-le-big-bazar",
+      "fais-comme-l-oiseau"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "C'est un beau roman, c'est une belle histoire",
+          "C'est une romance d'aujourd'hui",
+          "Il rentrait chez lui, là-haut vers le brouillard",
+          "Elle descendait dans le midi, le midi",
+          "Ils se sont trouvés au bord du chemin",
+          "Sur l'autoroute des vacances",
+          "C'était sans doute un jour de chance",
+          "Ils avaient le ciel à portée de main",
+          "Un cadeau de la providence",
+          "Alors pourquoi penser au lendemain"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Güzel bir roman bu, güzel bir hikâye",
+          "Günümüze ait bir aşk hikâyesi",
+          "O evine dönüyordu, yukarılara, sislerin olduğu yere",
+          "O ise güneye iniyordu, güneye",
+          "Yolun kenarında buldular birbirlerini",
+          "Tatil otoyolunda",
+          "Kuşkusuz şanslı bir gündü",
+          "Gökyüzü ellerinin uzanabileceği kadar yakındı",
+          "Kaderin bir hediyesiydi",
+          "Öyleyse neden yarını düşünsünlerdi?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "Ils se sont cachés dans un grand champ de blé",
+          "Se laissant porter par les courants",
+          "Se sont racontés leur vies qui commençaient",
+          "Ils n'étaient encore que des enfants, des enfants",
+          "Qui s'étaient trouvés au bord du chemin",
+          "Sur l'autoroute des vacances",
+          "C'était sans doute un jour de chance",
+          "Qui cueillirent le ciel au creux de leurs mains",
+          "Comme on cueille la providence",
+          "Refusant de penser au lendemain"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Büyük bir buğday tarlasında saklandılar",
+          "Akıntıya kendilerini bırakarak",
+          "Yeni başlayan hayatlarını anlattılar birbirlerine",
+          "Daha çocuktular, çocuk",
+          "Yolun kenarında birbirini bulan",
+          "Tatil otoyolunda",
+          "Kuşkusuz şanslı bir gündü",
+          "Gökyüzünü avuçlarının içine topladılar",
+          "Kaderi toplar gibi",
+          "Yarını düşünmeyi reddederek"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "C'est un beau roman, c'est une belle histoire",
+          "C'est une romance d'aujourd'hui",
+          "Il rentrait chez lui, là-haut vers le brouillard",
+          "Elle descendait dans le midi, le midi"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Güzel bir roman bu, güzel bir hikâye",
+          "Günümüze ait bir aşk hikâyesi",
+          "O evine dönüyordu, yukarılara, sislerin olduğu yere",
+          "O ise güneye iniyordu, güneye"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4",
+        "lines": [
+          "Ils se sont quittés au bord du matin",
+          "Sur l'autoroute des vacances",
+          "C'était fini le jour de chance",
+          "Ils reprirent alors chacun leur chemin",
+          "Saluèrent la providence en se faisant un signe de la main",
+          "Il rentra chez lui, là-haut vers le brouillard",
+          "Elle est descendue là-bas dans le midi"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4",
+        "lines": [
+          "Sabahın eşiğinde ayrıldılar",
+          "Tatil otoyolunda",
+          "O şanslı gün bitmişti",
+          "Sonra her biri kendi yoluna devam etti",
+          "Birbirlerine el sallarken kaderi de selamladılar",
+          "O evine döndü, yukarılara, sislerin olduğu yere",
+          "O ise oraya, güneye indi"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "C'est un beau roman, c'est une belle histoire",
+          "C'est une romance d'aujourd'hui"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Güzel bir roman bu, güzel bir hikâye",
+          "Günümüze ait bir aşk hikâyesi"
+        ]
+      }
+    ],
+    "excerpt": "Michel Fugain & Le Big Bazar — Une belle histoire sözleri ve Türkçe çevirisi. Orijinal Fransızca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "güneye": "Fransızcadaki “le Midi”, bu bağlamda Fransa’nın güneyini ifade eder.",
+      "Kaderin": "“Providence”, ilahi takdir veya insanın karşısına çıkan talih fikrini taşır. Karşılaşma bir armağan gibi anlatılır; olayın gerçekten önceden planlandığı iddia edilmez.",
+      "Akıntıya kendilerini bırakarak": "“Se laissant porter par les courants” akıntılara kapılma imgesini korur. Çeviriye kaynakta bulunmayan “hayat” sözcüğü eklenmez."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5oxKrYimzs8AZp8lkoar6V",
+        "name": "Une belle histoire",
+        "url": "https://open.spotify.com/track/5oxKrYimzs8AZp8lkoar6V",
+        "isrc": "FRZ087200211",
+        "durationMs": 195306,
+        "duration": "3:15",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 5,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5KnLt0VENhwsfmQL3y2nsY",
+        "name": "Michel Fugain & Le Big Bazar",
+        "url": "https://open.spotify.com/artist/5KnLt0VENhwsfmQL3y2nsY",
+        "image": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5KnLt0VENhwsfmQL3y2nsY",
+          "name": "Michel Fugain & Le Big Bazar",
+          "url": "https://open.spotify.com/artist/5KnLt0VENhwsfmQL3y2nsY"
+        }
+      ],
+      "album": {
+        "id": "3F2NC1OGndItyXyR6uJevP",
+        "name": "Fais comme l'oiseau",
+        "url": "https://open.spotify.com/album/3F2NC1OGndItyXyR6uJevP",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+        "artists": [
+          {
+            "id": "5KnLt0VENhwsfmQL3y2nsY",
+            "name": "Michel Fugain & Le Big Bazar",
+            "url": "https://open.spotify.com/artist/5KnLt0VENhwsfmQL3y2nsY"
+          }
+        ],
+        "releaseDate": "1972",
+        "releaseDatePrecision": "year",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "2000 BMG Rights Management (France) SARL",
+            "type": "C"
+          },
+          {
+            "text": "1972 BMG Rights Management (France) SARL",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 11,
+        "tracks": [
+          {
+            "id": "1v7ctPkzk1G3LXNhisLpvO",
+            "name": "Attention Mesdames et Messieurs",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 182133,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1v7ctPkzk1G3LXNhisLpvO",
+            "isCurrent": false
+          },
+          {
+            "id": "725PsGr5yXLJl8uENrVXPa",
+            "name": "Fais comme l'oiseau",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 186693,
+            "duration": "3:07",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/725PsGr5yXLJl8uENrVXPa",
+            "isCurrent": false
+          },
+          {
+            "id": "1ZqbCvIFM7shJCiOEQgspd",
+            "name": "Notre société",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 145400,
+            "duration": "2:25",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1ZqbCvIFM7shJCiOEQgspd",
+            "isCurrent": false
+          },
+          {
+            "id": "1lP7KNIasDjfWz8VAZrZ3i",
+            "name": "Les gens irremplaçables",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 161960,
+            "duration": "2:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1lP7KNIasDjfWz8VAZrZ3i",
+            "isCurrent": false
+          },
+          {
+            "id": "5oxKrYimzs8AZp8lkoar6V",
+            "name": "Une belle histoire",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 195306,
+            "duration": "3:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5oxKrYimzs8AZp8lkoar6V",
+            "isCurrent": true
+          },
+          {
+            "id": "7yOJmXi6E0FSOagMuKpbTL",
+            "name": "Leda, leda",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 183573,
+            "duration": "3:04",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7yOJmXi6E0FSOagMuKpbTL",
+            "isCurrent": false
+          },
+          {
+            "id": "7jXtZWWXWZvSwHP4vB2bWc",
+            "name": "L'arche de Noé",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 169440,
+            "duration": "2:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7jXtZWWXWZvSwHP4vB2bWc",
+            "isCurrent": false
+          },
+          {
+            "id": "5yzZgy8s5TWlIOAvYkvi9r",
+            "name": "Les cerises de Monsieur Clément",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 129733,
+            "duration": "2:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5yzZgy8s5TWlIOAvYkvi9r",
+            "isCurrent": false
+          },
+          {
+            "id": "0pRCcbpiRXqoouHgtdRMk3",
+            "name": "Nous sommes",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 203626,
+            "duration": "3:24",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0pRCcbpiRXqoouHgtdRMk3",
+            "isCurrent": false
+          },
+          {
+            "id": "2jYrJyIvGgfsjs23qrB8uH",
+            "name": "L'oiseau",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 102373,
+            "duration": "1:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2jYrJyIvGgfsjs23qrB8uH",
+            "isCurrent": false
+          },
+          {
+            "id": "6zGsJHpLeUWXGUMwgIhS3d",
+            "name": "Allez bouge-toi",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 190160,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6zGsJHpLeUWXGUMwgIhS3d",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:24.362Z",
+      "trackUrl": "https://open.spotify.com/track/5oxKrYimzs8AZp8lkoar6V",
+      "albumUrl": "https://open.spotify.com/album/3F2NC1OGndItyXyR6uJevP",
+      "artistUrl": "https://open.spotify.com/artist/5KnLt0VENhwsfmQL3y2nsY",
+      "albumName": "Fais comme l'oiseau",
+      "albumType": "Album",
+      "releaseDate": "1972",
+      "duration": "3:15",
+      "isrc": "FRZ087200211",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=hHiD6ShYCCA",
+    "source": "user-provided"
+  },
+  {
+    "id": "5313",
+    "title": "Wham! Last Christmas Türkçe Çeviri",
+    "song": "Last Christmas",
+    "slug": "wham-last-christmas-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Wham!",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Wham!",
+      "LAST CHRISTMAS"
+    ],
+    "category_slugs": [
+      "wham",
+      "last-christmas"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d",
+    "reading_time": 3,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Ah, ah-ah",
+          "Ooh-woah",
+          "Oh-oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Ah, ah-ah",
+          "Ooh-woah",
+          "Oh-oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away",
+          "This year, to save me from tears",
+          "I'll give it to someone special",
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away (You gave it away)",
+          "This year, to save me from tears",
+          "I'll give it to someone special (Special)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin",
+          "Bu yıl, kendimi gözyaşlarından korumak için",
+          "Onu özel birine vereceğim",
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin (Onu başkasına verdin)",
+          "Bu yıl, kendimi gözyaşlarından korumak için",
+          "Onu özel birine vereceğim (Özel birine)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "Once bitten and twice shy",
+          "I keep my distance, but you still catch my eye",
+          "Tell me, baby, do you recognise me?",
+          "Well, it's been a year, it doesn't surprise me",
+          "(Happy Christmas) I wrapped it up and sent it",
+          "With a note saying, \"I love you\", I meant it",
+          "Now I know what a fool I've been",
+          "But if you kissed me now, I know you'd fool me again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Bir kez canın yanınca, ikincisinde temkinli olursun",
+          "Mesafemi koruyorum ama hâlâ gözüm sana kayıyor",
+          "Söyle bana bebeğim, beni tanıdın mı?",
+          "Eh, bir yıl geçti, şaşırmıyorum",
+          "(Mutlu Noeller) Onu paketleyip gönderdim",
+          "“Seni seviyorum” yazan bir notla, içtenlikle söyledim",
+          "Şimdi ne kadar aptal olduğumu biliyorum",
+          "Ama beni şimdi öpsen, yine kandıracağını biliyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away (You gave it away)",
+          "This year, to save me from tears",
+          "I'll give it to someone special (Special)",
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away",
+          "This year, to save me from tears",
+          "I'll give it to someone special (Special)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin (Onu başkasına verdin)",
+          "Bu yıl, kendimi gözyaşlarından korumak için",
+          "Onu özel birine vereceğim (Özel birine)",
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin",
+          "Bu yıl, kendimi gözyaşlarından korumak için",
+          "Onu özel birine vereceğim (Özel birine)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh",
+          "Oh, my baby",
+          "Ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Oh",
+          "Oh, bebeğim",
+          "Ooh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "A crowded room, friends with tired eyes",
+          "I'm hiding from you and your soul of ice",
+          "My God, I thought you were someone to rely on",
+          "Me? I guess I was a shoulder to cry on",
+          "A face on a lover with a fire in his heart",
+          "A man undercover, but you tore him apart (Tore me apart)",
+          "Ooh-ooh",
+          "Now I've found a real love, you'll never fool me again"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Kalabalık bir oda, yorgun bakışlı dostlar",
+          "Senden ve buzdan ruhundan saklanıyorum",
+          "Tanrım, güvenilecek biri olduğunu sanmıştım",
+          "Ben mi? Sanırım sadece ağlayabileceğin bir omuzdum",
+          "Kalbinde ateş taşıyan bir âşığın yüzü",
+          "Kendini gizleyen bir adam, ama sen onu paramparça ettin (Beni paramparça ettin)",
+          "Ooh-ooh",
+          "Şimdi gerçek bir aşk buldum, beni bir daha asla kandıramayacaksın"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away (You gave it away)",
+          "This year, to save me from tears",
+          "I'll give it to someone special (Special)",
+          "Last Christmas, I gave you my heart",
+          "But the very next day, you gave it away (You gave me away)",
+          "This year, to save me from tears (Oh)",
+          "I'll give it to someone special (Special)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin (Onu başkasına verdin)",
+          "Bu yıl, kendimi gözyaşlarından korumak için",
+          "Onu özel birine vereceğim (Özel birine)",
+          "Geçen Noel, kalbimi sana verdim",
+          "Ama daha ertesi gün, onu başkasına verdin (Beni başkasına verdin)",
+          "Bu yıl, kendimi gözyaşlarından korumak için (Oh)",
+          "Onu özel birine vereceğim (Özel birine)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "Face on a lover with a fire in his heart (I gave you my heart)",
+          "A man undercover, but you tore him apart",
+          "Maybe next year",
+          "I'll give it to someone, I'll give it to someone special"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "Kalbinde ateş taşıyan bir âşığın yüzü (Kalbimi sana verdim)",
+          "Kendini gizleyen bir adam, ama sen onu paramparça ettin",
+          "Belki gelecek yıl",
+          "Onu birine vereceğim, onu özel birine vereceğim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Special",
+          "Someone",
+          "Someone"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Özel birine",
+          "Birine",
+          "Birine"
+        ]
+      }
+    ],
+    "excerpt": "Wham! — Last Christmas sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Bir kez canın yanınca": "“Once bitten and twice shy”, kötü bir deneyimden sonra temkinli olmayı anlatır. Türkçedeki “Sütten ağzı yanan yoğurdu üfleyerek yer” atasözüyle karşılanabilir.",
+      "ağlayabileceğin bir omuzdum": "“A shoulder to cry on”, dert anlatılan ve teselli bulunan kişidir. Sözde anlatıcı kendisini böyle bir destek olarak görür.",
+      "buzdan ruhundan": "“Soul of ice”, duygusal soğukluk imgesidir; karşı tarafın kalbindeki ateşle bir zıtlık kurar.",
+      "onu başkasına verdin": "“Gave it away” her nakaratta aynı biçimde korunur. Kalbin başkasına verilmesi imgesinden belirli bir aldatılma olayı kesin olarak çıkarılmaz."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2FRnf9qhLbvw8fu4IBXx78",
+        "name": "Last Christmas",
+        "url": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78",
+        "isrc": "GBBBM8400019",
+        "durationMs": 262960,
+        "duration": "4:23",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5lpH0xAS4fVfLkACg9DAuM",
+        "name": "Wham!",
+        "url": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2ebf587c72f9e5159da9ce55",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5lpH0xAS4fVfLkACg9DAuM",
+          "name": "Wham!",
+          "url": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM"
+        }
+      ],
+      "album": {
+        "id": "6egzU9NKfora01qaNbvwfZ",
+        "name": "LAST CHRISTMAS",
+        "url": "https://open.spotify.com/album/6egzU9NKfora01qaNbvwfZ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d",
+        "artists": [
+          {
+            "id": "5lpH0xAS4fVfLkACg9DAuM",
+            "name": "Wham!",
+            "url": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM"
+          }
+        ],
+        "releaseDate": "1984-11-29",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "1984 Sony Music Entertainment (UK) Ltd.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 3,
+        "tracks": [
+          {
+            "id": "2FRnf9qhLbvw8fu4IBXx78",
+            "name": "Last Christmas",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 262960,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78",
+            "isCurrent": true
+          },
+          {
+            "id": "73OZT1XgLleDwperqGjWH4",
+            "name": "Last Christmas - Pudding Mix",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 398466,
+            "duration": "6:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/73OZT1XgLleDwperqGjWH4",
+            "isCurrent": false
+          },
+          {
+            "id": "4GSIXi1NcsvfWQtZXyPYfy",
+            "name": "Everything She Wants",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 328333,
+            "duration": "5:28",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4GSIXi1NcsvfWQtZXyPYfy",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:23.312Z",
+      "trackUrl": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78",
+      "albumUrl": "https://open.spotify.com/album/6egzU9NKfora01qaNbvwfZ",
+      "artistUrl": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM",
+      "albumName": "LAST CHRISTMAS",
+      "albumType": "EP",
+      "releaseDate": "1984-11-29",
+      "duration": "4:23",
+      "isrc": "GBBBM8400019",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f2d2adaa21ad616df6241e7d"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=E8gmARGvPlI",
+    "source": "user-provided"
+  },
+  {
+    "id": "5312",
+    "title": "Sting Shape of My Heart Türkçe Çeviri",
+    "song": "Shape of My Heart",
+    "slug": "sting-shape-of-my-heart-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Sting",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Sting",
+      "Ten Summoner's Tales"
+    ],
+    "category_slugs": [
+      "sting",
+      "ten-summoner-s-tales"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "He deals the cards as a meditation",
+          "And those he plays never suspect",
+          "He doesn't play for the money he wins",
+          "He doesn't play for respect"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Kartları meditasyon yapar gibi dağıtır",
+          "Karşısında oynayanlar hiç şüphelenmez",
+          "Kazandığı para için oynamaz",
+          "Saygı görmek için oynamaz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "He deals the cards to find the answer",
+          "The sacred geometry of chance",
+          "The hidden law of a probable outcome",
+          "The numbers lead a dance"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Cevabı bulmak için kartları dağıtır",
+          "Şansın kutsal geometrisini",
+          "Olası bir sonucun gizli yasasını",
+          "Sayılar dansı yönetir"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I know that the spades are the swords of a soldier",
+          "I know that the clubs are weapons of war",
+          "I know that diamonds mean money for this art",
+          "But that's not the shape of my heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biliyorum, maçalar bir askerin kılıçlarıdır",
+          "Biliyorum, sinekler savaşın silahlarıdır",
+          "Biliyorum, karolar bu oyunda para demek",
+          "Ama kalbimin şekli bu değil"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 3",
+        "lines": [
+          "He may play the jack of diamonds",
+          "He may lay the queen of spades",
+          "He may conceal a king in his hand",
+          "While a memory of it fades"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 3",
+        "lines": [
+          "Karo valesini oynayabilir",
+          "Maça kızını masaya koyabilir",
+          "Elinde bir papaz gizleyebilir",
+          "Ona dair bir anı silinip giderken"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I know that the spades are the swords of a soldier",
+          "I know that the clubs are weapons of war",
+          "I know that diamonds mean money for this art",
+          "But that's not the shape of my heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biliyorum, maçalar bir askerin kılıçlarıdır",
+          "Biliyorum, sinekler savaşın silahlarıdır",
+          "Biliyorum, karolar bu oyunda para demek",
+          "Ama kalbimin şekli bu değil"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "That's not the shape, shape of my heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Bu değil şekli, kalbimin şekli"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Harmonica Solo",
+        "lines": [
+          "[Harmonica Solo]"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Harmonica Solo",
+        "lines": [
+          "[Mızıka solosu]"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 4",
+        "lines": [
+          "And if I told you that I loved you",
+          "You'd maybe think there's something wrong",
+          "I'm not a man of too many faces",
+          "The mask I wear is one"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 4",
+        "lines": [
+          "Ve seni sevdiğimi söyleseydim",
+          "Belki bir şeylerin ters gittiğini düşünürdün",
+          "Ben çok yüzlü bir adam değilim",
+          "Taktığım maske tek"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 5",
+        "lines": [
+          "But those who speak know nothing",
+          "And find out to their cost",
+          "Like those who curse their luck in too many places",
+          "And those who fear are lost"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 5",
+        "lines": [
+          "Ama konuşanlar hiçbir şey bilmez",
+          "Ve bunu bedelini ödeyerek öğrenirler",
+          "Birçok yerde şansına lanet edenler gibi",
+          "Ve korkanlar kaybolmuştur"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "I know that the spades are the swords of a soldier",
+          "I know that the clubs are weapons of war",
+          "I know that diamonds mean money for this art",
+          "But that's not the shape of my heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Biliyorum, maçalar bir askerin kılıçlarıdır",
+          "Biliyorum, sinekler savaşın silahlarıdır",
+          "Biliyorum, karolar bu oyunda para demek",
+          "Ama kalbimin şekli bu değil"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "That's not the shape of my heart",
+          "That's not the shape, the shape of my heart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Kalbimin şekli bu değil",
+          "Bu değil şekli, kalbimin şekli"
+        ]
+      }
+    ],
+    "excerpt": "Sting — Shape of My Heart sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Şansın kutsal geometrisini": "Anlatıcı kart oyununu olasılık ve düzen arayışıyla ilişkilendirir. “Kutsal geometri”, sözün imgesidir; evrenin gerçek bir yasası olarak sunulmaz.",
+      "maçalar": "İskambil takımları maça, sinek, karo ve kupadır. Sözlerde maça kılıçla, sinek savaş silahlarıyla, karo parayla eşleştirilir; kalp imgesi kupa işaretini de çağrıştırır.",
+      "Taktığım maske tek": "Önceki dizedeki çok yüzlü olmama düşüncesini sürdürür. Tek maske imgesi, sürekli farklı yüzler takınmama vurgusu olarak okunabilir."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "6CKoWCWAqEVWVjpeoJXyNH",
+        "name": "Shape Of My Heart",
+        "url": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
+        "isrc": "GBAAM9390010",
+        "durationMs": 279226,
+        "duration": "4:39",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 10,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "0Ty63ceoRnnJKVEYP0VQpk",
+        "name": "Sting",
+        "url": "https://open.spotify.com/artist/0Ty63ceoRnnJKVEYP0VQpk",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "0Ty63ceoRnnJKVEYP0VQpk",
+          "name": "Sting",
+          "url": "https://open.spotify.com/artist/0Ty63ceoRnnJKVEYP0VQpk"
+        }
+      ],
+      "album": {
+        "id": "5kV0KBXfELibs6qQJLmOtg",
+        "name": "Ten Summoner's Tales",
+        "url": "https://open.spotify.com/album/5kV0KBXfELibs6qQJLmOtg",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+        "artists": [
+          {
+            "id": "0Ty63ceoRnnJKVEYP0VQpk",
+            "name": "Sting",
+            "url": "https://open.spotify.com/artist/0Ty63ceoRnnJKVEYP0VQpk"
+          }
+        ],
+        "releaseDate": "1993-03-01",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 1993 UMG Recordings, Inc.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 1993 UMG Recordings, Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 12,
+        "tracks": [
+          {
+            "id": "05vL56xSoxthM0r7IfcQjo",
+            "name": "If I Ever Lose My Faith In You",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 270533,
+            "duration": "4:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/05vL56xSoxthM0r7IfcQjo",
+            "isCurrent": false
+          },
+          {
+            "id": "3vqsIHlQxjGsZPuJKsMOaw",
+            "name": "Love Is Stronger Than Justice (The Munificent Seven)",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 311040,
+            "duration": "5:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3vqsIHlQxjGsZPuJKsMOaw",
+            "isCurrent": false
+          },
+          {
+            "id": "0I1DJdLt9BKOb7GWmWxCjo",
+            "name": "Fields Of Gold",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 222120,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0I1DJdLt9BKOb7GWmWxCjo",
+            "isCurrent": false
+          },
+          {
+            "id": "4lGXmcamckp4IE9fmMjKsY",
+            "name": "Heavy Cloud No Rain",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 227906,
+            "duration": "3:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4lGXmcamckp4IE9fmMjKsY",
+            "isCurrent": false
+          },
+          {
+            "id": "50H91sLfRgD5hYXg5gjtQo",
+            "name": "She's Too Good For Me",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 150200,
+            "duration": "2:30",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/50H91sLfRgD5hYXg5gjtQo",
+            "isCurrent": false
+          },
+          {
+            "id": "2Wmm4aEFUISjdmVuy7VGL0",
+            "name": "Seven Days",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 278200,
+            "duration": "4:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2Wmm4aEFUISjdmVuy7VGL0",
+            "isCurrent": false
+          },
+          {
+            "id": "4KejRvDlbtq42GaQ0JWqfX",
+            "name": "Saint Augustine In Hell",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 318626,
+            "duration": "5:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4KejRvDlbtq42GaQ0JWqfX",
+            "isCurrent": false
+          },
+          {
+            "id": "6JZqIYmwDjYcw8nawqst7a",
+            "name": "It's Probably Me",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 308266,
+            "duration": "5:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6JZqIYmwDjYcw8nawqst7a",
+            "isCurrent": false
+          },
+          {
+            "id": "4u9T7zIjixFR27cfDnNC6f",
+            "name": "Everybody Laughed But You",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 234680,
+            "duration": "3:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4u9T7zIjixFR27cfDnNC6f",
+            "isCurrent": false
+          },
+          {
+            "id": "6CKoWCWAqEVWVjpeoJXyNH",
+            "name": "Shape Of My Heart",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 279226,
+            "duration": "4:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
+            "isCurrent": true
+          },
+          {
+            "id": "71W6rG3Wze7wOBdxBg2hCX",
+            "name": "Something The Boy Said",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 328933,
+            "duration": "5:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/71W6rG3Wze7wOBdxBg2hCX",
+            "isCurrent": false
+          },
+          {
+            "id": "7jZEFpKZ7w0RaKjtFcXaaz",
+            "name": "Epilogue (Nothing 'Bout Me)",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 221866,
+            "duration": "3:42",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7jZEFpKZ7w0RaKjtFcXaaz",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:22.297Z",
+      "trackUrl": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
+      "albumUrl": "https://open.spotify.com/album/5kV0KBXfELibs6qQJLmOtg",
+      "artistUrl": "https://open.spotify.com/artist/0Ty63ceoRnnJKVEYP0VQpk",
+      "albumName": "Ten Summoner's Tales",
+      "albumType": "Album",
+      "releaseDate": "1993-03-01",
+      "duration": "4:39",
+      "isrc": "GBAAM9390010",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=NlwIDxCjL-8",
+    "source": "user-provided"
+  },
+  {
+    "id": "5311",
+    "title": "Tame Impala Let It Happen Türkçe Çeviri",
+    "song": "Let It Happen",
+    "slug": "tame-impala-let-it-happen-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Tame Impala",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Tame Impala",
+      "Currents"
+    ],
+    "category_slugs": [
+      "tame-impala",
+      "currents"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "It's always around me, all this noise",
+          "But not nearly as loud as the voice saying",
+          "\"Let it happen, let it happen (It's gonna feel so good)",
+          "Just let it happen, let it happen\""
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Hep etrafımda, tüm bu gürültü",
+          "Ama şunu söyleyen ses kadar gürültülü değil",
+          "“Bırak olsun, bırak olsun (Çok iyi hissettirecek)",
+          "Sadece bırak olsun, bırak olsun”"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "All this running around tryin' to cover my shadow",
+          "An ocean growing inside, now all the others seem shallow",
+          "All this running around bearin' down on my shoulders",
+          "I can hear an alarm, must be morning"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Gölgemi gizlemek için bunca koşturmak",
+          "İçimde bir okyanus büyüyor, artık diğerleri sığ görünüyor",
+          "Bütün bu koşturmaca omuzlarıma yük oluyor",
+          "Bir alarm duyuyorum, sabah olmuş olmalı"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "I heard about a whirlwind that's comin' 'round",
+          "It's gonna carry off all that isn't bound",
+          "And when it happens, when it happens (I won't be holding on)",
+          "So let it happen, let it happen"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Yaklaşan bir hortumdan bahsedildiğini duydum",
+          "Bağlı olmayan ne varsa alıp götürecek",
+          "Ve olduğunda, olduğunda (Tutunmayacağım)",
+          "Öyleyse bırak olsun, bırak olsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "All this running around, I can't fight it much longer",
+          "Something's trying to get out and it's never been closer",
+          "If my take-off fails, make up some other story",
+          "But if I never come back, tell my mother I'm sorry"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Bunca koşturmaca, bununla daha fazla savaşamam",
+          "Bir şey dışarı çıkmaya çalışıyor, hiç bu kadar yakın olmamıştı",
+          "Eğer havalanamazsam, başka bir hikâye uydurun",
+          "Ama hiç geri dönmezsem, anneme üzgün olduğumu söyleyin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Instrumental Break",
+        "lines": [
+          "[Instrumental Break]"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Instrumental Break",
+        "lines": [
+          "[Enstrümantal ara]"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "[Non-Lyrical Vocals]"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "[Sözsüz vokaller]"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Guitar Solo",
+        "lines": [
+          "[Guitar Solo]"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Guitar Solo",
+        "lines": [
+          "[Gitar solosu]"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge",
+        "lines": [
+          "[Non-Lyrical Vocals]"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge",
+        "lines": [
+          "[Sözsüz vokaller]"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "Baby, now I'm ready, moving on",
+          "Oh, but maybe I was ready all along",
+          "Oh, I'm ready for the moment and the sound",
+          "Oh, but maybe I was ready all along",
+          "Oh, baby, now I'm ready, moving on",
+          "Oh, but maybe I was ready all along",
+          "Oh, I'm ready for the moment and the sound",
+          "Oh, but maybe I was ready all along",
+          "Oh, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Bebeğim, şimdi hazırım, yoluma devam ediyorum",
+          "Oh, ama belki de en başından beri hazırdım",
+          "Oh, o ana ve o sese hazırım",
+          "Oh, ama belki de en başından beri hazırdım",
+          "Oh, bebeğim, şimdi hazırım, yoluma devam ediyorum",
+          "Oh, ama belki de en başından beri hazırdım",
+          "Oh, o ana ve o sese hazırım",
+          "Oh, ama belki de en başından beri hazırdım",
+          "Oh, bebeğim"
+        ]
+      }
+    ],
+    "excerpt": "Tame Impala — Let It Happen sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Gölgemi gizlemek": "“Cover my shadow” açık uçlu bir imgedir. Çeviri gölgeyi korur; bunu belirli bir korku veya kişiliğin karanlık tarafı olarak kesinleştirmez.",
+      "havalanamazsam": "“Take-off”, kalkış veya havalanmadır. Bağlamda bir değişime başlamayı çağrıştırabilir; bu, sözlere dayalı bir yorumdur. “Story” ise doğrudan “yalan” değil, “hikâye” olarak karşılandı."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2X485T9Z5Ly0xyaghN73ed",
+        "name": "Let It Happen",
+        "url": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
+        "isrc": "AUUM71500292",
+        "durationMs": 467586,
+        "duration": "7:48",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5INjqkS1o8h1imAzPqGZBb",
+        "name": "Tame Impala",
+        "url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5INjqkS1o8h1imAzPqGZBb",
+          "name": "Tame Impala",
+          "url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+        }
+      ],
+      "album": {
+        "id": "79dL7FLiJFOO0EoehUHQBv",
+        "name": "Currents",
+        "url": "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+        "artists": [
+          {
+            "id": "5INjqkS1o8h1imAzPqGZBb",
+            "name": "Tame Impala",
+            "url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+          }
+        ],
+        "releaseDate": "2015-07-17",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2015 Modular Recordings",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2015 Modular Recordings, under exclusive license to Universal Music Australia Pty Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 13,
+        "tracks": [
+          {
+            "id": "2X485T9Z5Ly0xyaghN73ed",
+            "name": "Let It Happen",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 467586,
+            "duration": "7:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
+            "isCurrent": true
+          },
+          {
+            "id": "1cCbsojaA6GIT7Y3zuMJ1q",
+            "name": "Nangs",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 107533,
+            "duration": "1:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1cCbsojaA6GIT7Y3zuMJ1q",
+            "isCurrent": false
+          },
+          {
+            "id": "1UYj8qTWjneZJDVjUMwMub",
+            "name": "The Moment",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 255413,
+            "duration": "4:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1UYj8qTWjneZJDVjUMwMub",
+            "isCurrent": false
+          },
+          {
+            "id": "0xtIp0lgccN85GfGOekS5L",
+            "name": "Yes I'm Changing",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 270680,
+            "duration": "4:31",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/0xtIp0lgccN85GfGOekS5L",
+            "isCurrent": false
+          },
+          {
+            "id": "5M4yti0QxgqJieUYaEXcpw",
+            "name": "Eventually",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 318591,
+            "duration": "5:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5M4yti0QxgqJieUYaEXcpw",
+            "isCurrent": false
+          },
+          {
+            "id": "79chzfFIIq7cHkqcYYORk0",
+            "name": "Gossip",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 55413,
+            "duration": "0:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/79chzfFIIq7cHkqcYYORk0",
+            "isCurrent": false
+          },
+          {
+            "id": "6K4t31amVTZDgR3sKmwUJJ",
+            "name": "The Less I Know The Better",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 216320,
+            "duration": "3:36",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ",
+            "isCurrent": false
+          },
+          {
+            "id": "4a9fW33mYR8LhXBOLUhbfF",
+            "name": "Past Life",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 228040,
+            "duration": "3:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4a9fW33mYR8LhXBOLUhbfF",
+            "isCurrent": false
+          },
+          {
+            "id": "2gNfxysfBRfl9Lvi9T3v6R",
+            "name": "Disciples",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 108546,
+            "duration": "1:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2gNfxysfBRfl9Lvi9T3v6R",
+            "isCurrent": false
+          },
+          {
+            "id": "2O99aywAVBhaPrsiJ6zbSS",
+            "name": "'Cause I'm A Man",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 241986,
+            "duration": "4:02",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2O99aywAVBhaPrsiJ6zbSS",
+            "isCurrent": false
+          },
+          {
+            "id": "3I7OmVsk4Hm5LBbs2GmhlD",
+            "name": "Reality In Motion",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 252026,
+            "duration": "4:12",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3I7OmVsk4Hm5LBbs2GmhlD",
+            "isCurrent": false
+          },
+          {
+            "id": "5h9hkYIBWTZYFRmF6Iz1gt",
+            "name": "Love/Paranoia",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 185773,
+            "duration": "3:06",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5h9hkYIBWTZYFRmF6Iz1gt",
+            "isCurrent": false
+          },
+          {
+            "id": "52ojopYMUzeNcudsoz7O9D",
+            "name": "New Person, Same Old Mistakes",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 363240,
+            "duration": "6:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/52ojopYMUzeNcudsoz7O9D",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:21.244Z",
+      "trackUrl": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
+      "albumUrl": "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv",
+      "artistUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+      "albumName": "Currents",
+      "albumType": "Album",
+      "releaseDate": "2015-07-17",
+      "duration": "7:48",
+      "isrc": "AUUM71500292",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=odeHP8N4LKc",
+    "source": "user-provided"
+  },
+  {
+    "id": "5310",
+    "title": "Charlie Puth Attention Türkçe Çeviri",
+    "song": "Attention",
+    "slug": "charlie-puth-attention-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Charlie Puth",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Charlie Puth",
+      "Voicenotes"
+    ],
+    "category_slugs": [
+      "charlie-puth",
+      "voicenotes"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Woah-oh, hm-hmm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Woah-oh, hm-hmm"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1",
+        "lines": [
+          "You've been runnin' 'round, runnin' 'round, runnin' 'round",
+          "Throwin' that dirt all on my name",
+          "'Cause you knew that I, knew that I, knew that I'd call you up (Ah)",
+          "You've been going 'round, going 'round, going 'round every party in LA",
+          "'Cause you knew that I, knew that I, knew that I'd be at one, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1",
+        "lines": [
+          "Dolaşıp duruyorsun, dolaşıp duruyorsun, dolaşıp duruyorsun",
+          "Adımı karalayıp duruyorsun",
+          "Çünkü biliyordun, biliyordun, seni arayacağımı biliyordun (Ah)",
+          "Los Angeles'taki her partiyi dolaşıp, dolaşıp, dolaşıp duruyorsun",
+          "Çünkü biliyordun, biliyordun, birinde olacağımı biliyordun, oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I know that dress is karma, perfume regret",
+          "You got me thinking 'bout when you were mine, ooh",
+          "And now I'm all up on ya, what you expect?",
+          "But you're not coming home with me tonight"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "O elbisen karmanın ta kendisi, parfümün pişmanlık kokuyor",
+          "Bana, benim olduğun zamanları düşündürdün, ooh",
+          "Şimdi sana yine bu kadar yaklaşmışım, ne bekliyordun?",
+          "Ama bu gece benimle eve gelmiyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You just want attention, you don't want my heart",
+          "Maybe you just hate the thought of me with someone new",
+          "Yeah, you just want attention, I knew from the start",
+          "You're just making sure I'm never gettin' over you, huh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen sadece ilgi istiyorsun, kalbimi istemiyorsun",
+          "Belki de sadece beni yeni biriyle düşünmekten nefret ediyorsun",
+          "Evet, sen sadece ilgi istiyorsun, başından beri biliyordum",
+          "Seni bir türlü unutamayacağımdan emin olmak istiyorsun, ha"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2",
+        "lines": [
+          "You've been runnin' 'round, runnin' 'round, runnin' 'round",
+          "Throwin' that dirt all on my name",
+          "'Cause you knew that I, knew that I, knew that I'd call you up",
+          "Baby, now that we're, now that we're, now that we're",
+          "Right here standin' face to face",
+          "You already know, 'ready know, 'ready know that you won, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2",
+        "lines": [
+          "Dolaşıp duruyorsun, dolaşıp duruyorsun, dolaşıp duruyorsun",
+          "Adımı karalayıp duruyorsun",
+          "Çünkü biliyordun, biliyordun, seni arayacağımı biliyordun",
+          "Bebeğim, şimdi biz, şimdi biz, şimdi biz",
+          "Tam burada yüz yüze dururken",
+          "Kazandığını zaten biliyorsun, biliyorsun, biliyorsun, oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I know that dress is karma (Dress is karma), perfume regret, yeah",
+          "You got me thinking 'bout when you were mine, ooh",
+          "(You got me thinking 'bout when you were mine)",
+          "And now I'm all up on ya (All up on ya), what you expect? (Oh, baby)",
+          "But you're not coming home with me tonight (Oh, no)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "O elbisen karmanın ta kendisi (Elbisen karma), parfümün pişmanlık kokuyor, evet",
+          "Bana, benim olduğun zamanları düşündürdün, ooh",
+          "(Bana, benim olduğun zamanları düşündürdün)",
+          "Şimdi sana yine bu kadar yaklaşmışım (Sana yaklaşmışım), ne bekliyordun? (Oh, bebeğim)",
+          "Ama bu gece benimle eve gelmiyorsun (Oh, hayır)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You just want attention, you don't want my heart",
+          "Maybe you just hate the thought of me with someone new (One new)",
+          "Yeah, you just want attention (Oh), I knew from the start (The start)",
+          "You're just making sure I'm never gettin' over you (Over you), oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen sadece ilgi istiyorsun, kalbimi istemiyorsun",
+          "Belki de sadece beni yeni biriyle düşünmekten nefret ediyorsun (Yeni biriyle)",
+          "Evet, sen sadece ilgi istiyorsun (Oh), başından beri biliyordum (Başından)",
+          "Seni bir türlü unutamayacağımdan emin olmak istiyorsun (Seni unutamayacağımdan), oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus",
+        "lines": [
+          "What are you doin' to me?",
+          "What are you doin', huh? (What are you doin'?)",
+          "What are you doin' to me?",
+          "What are you doin', huh? (What are you doin'?)",
+          "What are you doin' to me?",
+          "What are you doin', huh? (What are you doin'?)",
+          "What are you doin' to me?",
+          "What are you doin', huh?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus",
+        "lines": [
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha? (Ne yapıyorsun?)",
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha? (Ne yapıyorsun?)",
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha? (Ne yapıyorsun?)",
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus",
+        "lines": [
+          "I know that dress is karma, perfume regret",
+          "You got me thinking 'bout when you were mine",
+          "And now I'm all up on ya, what you expect?",
+          "But you're not coming home with me tonight"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus",
+        "lines": [
+          "O elbisen karmanın ta kendisi, parfümün pişmanlık kokuyor",
+          "Bana, benim olduğun zamanları düşündürdün",
+          "Şimdi sana yine bu kadar yaklaşmışım, ne bekliyordun?",
+          "Ama bu gece benimle eve gelmiyorsun"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus",
+        "lines": [
+          "You just want attention, you don't want my heart",
+          "Maybe you just hate the thought of me with someone new",
+          "Yeah, you just want attention, I knew from the start",
+          "You're just making sure I'm never gettin' over you (Over you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus",
+        "lines": [
+          "Sen sadece ilgi istiyorsun, kalbimi istemiyorsun",
+          "Belki de sadece beni yeni biriyle düşünmekten nefret ediyorsun",
+          "Evet, sen sadece ilgi istiyorsun, başından beri biliyordum",
+          "Seni bir türlü unutamayacağımdan emin olmak istiyorsun (Seni unutamayacağımdan)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro",
+        "lines": [
+          "What are you doin' to me? (Hey)",
+          "What are you doin', huh? (What are you doin', love?)",
+          "What are you doin' to me?",
+          "What are you doin', huh? (Yeah, you just want attention)",
+          "What are you doin' to me? (I knew from the start)",
+          "What are you doin', huh? (You're just making sure I'm never gettin' over you)",
+          "What are you doin' to me?",
+          "What are you doin', huh? (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro",
+        "lines": [
+          "Bana ne yapıyorsun böyle? (Hey)",
+          "Ne yapıyorsun, ha? (Ne yapıyorsun, sevgilim?)",
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha? (Evet, sen sadece ilgi istiyorsun)",
+          "Bana ne yapıyorsun böyle? (Başından beri biliyordum)",
+          "Ne yapıyorsun, ha? (Seni bir türlü unutamayacağımdan emin olmak istiyorsun)",
+          "Bana ne yapıyorsun böyle?",
+          "Ne yapıyorsun, ha? (Oh)"
+        ]
+      }
+    ],
+    "excerpt": "Charlie Puth — Attention sözleri ve Türkçe çevirisi. Orijinal İngilizce sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Adımı karalayıp duruyorsun": "“Throwing dirt on my name”, birinin itibarını zedelemek veya arkasından kötü konuşmak anlamındaki deyimdir.",
+      "karmanın ta kendisi": "Elbise karma, parfüm pişmanlıkla eşleştirilir. Bu şiirsel imgeler eski ilişkinin geri dönen etkisini çağrıştırabilir; elbisenin kesin bir intikam aracı olduğu söylenmez.",
+      "unutamayacağımdan": "“Get over someone”, bir ilişkinin etkisini atlatmak anlamına gelir. Burada karşı tarafın anlatıcının kendisini atlatamamasını sağlamaya çalıştığı söyleniyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5cF0dROlMOK5uNZtivgu50",
+        "name": "Attention",
+        "url": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
+        "isrc": "USAT21700928",
+        "durationMs": 208786,
+        "duration": "3:29",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6VuMaDnrHyPL1p4EHjYLi7",
+          "name": "Charlie Puth",
+          "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7"
+        }
+      ],
+      "album": {
+        "id": "0mZIUXje90JtHxPNzWsJNR",
+        "name": "Voicenotes",
+        "url": "https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+        "artists": [
+          {
+            "id": "6VuMaDnrHyPL1p4EHjYLi7",
+            "name": "Charlie Puth",
+            "url": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7"
+          }
+        ],
+        "releaseDate": "2018-05-11",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2018 Artist Partner Group, Inc. for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company.",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2018 Artist Partner Group, Inc. for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 13,
+        "tracks": [
+          {
+            "id": "6qNALlmZa1ESnCxJmXE1K9",
+            "name": "The Way I Am",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 186080,
+            "duration": "3:06",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6qNALlmZa1ESnCxJmXE1K9",
+            "isCurrent": false
+          },
+          {
+            "id": "5cF0dROlMOK5uNZtivgu50",
+            "name": "Attention",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 208786,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
+            "isCurrent": true
+          },
+          {
+            "id": "6pQadiopoIsS4x78tjSkJt",
+            "name": "LA Girls",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 197106,
+            "duration": "3:17",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6pQadiopoIsS4x78tjSkJt",
+            "isCurrent": false
+          },
+          {
+            "id": "6wmAHw1szh5RCKSRjiXhPe",
+            "name": "How Long",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 200853,
+            "duration": "3:21",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6wmAHw1szh5RCKSRjiXhPe",
+            "isCurrent": false
+          },
+          {
+            "id": "1lsBTdE6MGsKeZCD6llNu7",
+            "name": "Done for Me (feat. Kehlani)",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 180493,
+            "duration": "3:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1lsBTdE6MGsKeZCD6llNu7",
+            "isCurrent": false
+          },
+          {
+            "id": "2ZrHbO88rM6Ijeg0aJmSzl",
+            "name": "Patient",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 190533,
+            "duration": "3:11",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2ZrHbO88rM6Ijeg0aJmSzl",
+            "isCurrent": false
+          },
+          {
+            "id": "5QLAHKawoQwVRNf1waaVW7",
+            "name": "If You Leave Me Now (feat. Boyz II Men)",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 243160,
+            "duration": "4:03",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5QLAHKawoQwVRNf1waaVW7",
+            "isCurrent": false
+          },
+          {
+            "id": "7aSvPfoqiM0zwPqupLGaHd",
+            "name": "BOY",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 263413,
+            "duration": "4:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7aSvPfoqiM0zwPqupLGaHd",
+            "isCurrent": false
+          },
+          {
+            "id": "6TapyDFlRUlZ4cmIaqJx4k",
+            "name": "Slow It Down",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 190053,
+            "duration": "3:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6TapyDFlRUlZ4cmIaqJx4k",
+            "isCurrent": false
+          },
+          {
+            "id": "17RMnDmv5CEo3s0tmipRyb",
+            "name": "Change (feat. James Taylor)",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 217560,
+            "duration": "3:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/17RMnDmv5CEo3s0tmipRyb",
+            "isCurrent": false
+          },
+          {
+            "id": "1PuQTv1Kr1gzLgVeATSuh6",
+            "name": "Somebody Told Me",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 216053,
+            "duration": "3:36",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1PuQTv1Kr1gzLgVeATSuh6",
+            "isCurrent": false
+          },
+          {
+            "id": "7k7JKDjCd9zuL0iF7iWaNs",
+            "name": "Empty Cups",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 170946,
+            "duration": "2:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7k7JKDjCd9zuL0iF7iWaNs",
+            "isCurrent": false
+          },
+          {
+            "id": "4jgF1sLf3TkQbZkLHsc6SI",
+            "name": "Through It All",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 206453,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4jgF1sLf3TkQbZkLHsc6SI",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:20.223Z",
+      "trackUrl": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
+      "albumUrl": "https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR",
+      "artistUrl": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+      "albumName": "Voicenotes",
+      "albumType": "Album",
+      "releaseDate": "2018-05-11",
+      "duration": "3:29",
+      "isrc": "USAT21700928",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=nfs8NYg7yQM",
+    "source": "user-provided"
+  },
+  {
+    "id": "5309",
+    "title": "Stromae Papaoutai Türkçe Çeviri",
+    "song": "Papaoutai",
+    "slug": "stromae-papaoutai-turkce-ceviri",
+    "date": "2026-10-22T12:00:00+03:00",
+    "artist": "Stromae",
+    "languages": {
+      "original": "fr",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Stromae",
+      "racine carrée"
+    ],
+    "category_slugs": [
+      "stromae",
+      "racine-carre-e"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Couplet 1",
+        "lines": [
+          "Dites-moi d'où il vient",
+          "Enfin je saurai où je vais",
+          "Maman dit que lorsqu'on cherche bien",
+          "On finit toujours par trouver",
+          "Elle dit qu'il n'est jamais très loin",
+          "Qu'il part très souvent travailler",
+          "Maman dit \"travailler c'est bien\"",
+          "Bien mieux qu'être mal accompagné",
+          "Pas vrai ?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Couplet 1",
+        "lines": [
+          "Söyleyin bana, nereden geliyor?",
+          "Sonunda nereye gittiğimi bileceğim",
+          "Annem der ki, insan iyice ararsa",
+          "Sonunda mutlaka bulur",
+          "Onun hiçbir zaman çok uzakta olmadığını söyler",
+          "Çok sık çalışmaya gittiğini",
+          "Annem der ki, “Çalışmak iyidir”",
+          "Kötü biriyle olmaktansa yalnız olmak çok daha iyi",
+          "Öyle değil mi?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pont",
+        "lines": [
+          "Où est ton papa ?",
+          "Dis-moi où est ton papa ?",
+          "Sans même devoir lui parler",
+          "Il sait ce qui ne va pas",
+          "Ah sacré papa",
+          "Dis-moi où es-tu caché ? Ça doit",
+          "Faire au moins mille fois que j'ai",
+          "Compté mes doigts, hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pont",
+        "lines": [
+          "Nerede senin baban?",
+          "Söyle bana, nerede senin baban?",
+          "Onunla konuşmana bile gerek kalmadan",
+          "Neyin ters gittiğini bilir",
+          "Ah, canım babam",
+          "Söyle bana, nereye saklandın? Galiba",
+          "En az bin kez oldu",
+          "Parmaklarımı sayıp durduğum, hey"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Refrain",
+        "lines": [
+          "Où t'es"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Refrain",
+        "lines": [
+          "Neredesin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Couplet 2",
+        "lines": [
+          "Quoi, qu'on y croit ou pas",
+          "Y aura bien un jour où on n'y croira plus",
+          "Un jour ou l'autre on sera tous papa",
+          "Et d'un jour à l'autre on aura disparu",
+          "Serons-nous détestables ?",
+          "Serons-nous admirables ?",
+          "Des géniteurs ou des génies ?",
+          "Dites-nous qui donne naissance aux irresponsables ?",
+          "Ah dites-nous qui, tiens",
+          "Tout le monde sait comment on fait des bébés",
+          "Mais personne sait comment on fait des papas",
+          "Monsieur Je-sais-tout en aurait hérité, c'est ça",
+          "Faut l'sucer d'son pouce ou quoi ?",
+          "Dites-nous où c'est caché, ça doit",
+          "Faire au moins mille fois qu'on a",
+          "Bouffé nos doigts, hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Couplet 2",
+        "lines": [
+          "Ne yani, inansak da inanmasak da",
+          "Artık inanmayacağımız bir gün elbet gelecek",
+          "Günün birinde hepimiz baba olacağız",
+          "Ve günün birinde birden yok olup gitmiş olacağız",
+          "Nefret edilesi mi olacağız?",
+          "Hayranlık duyulası mı?",
+          "Sadece çocuk yapanlar mı, yoksa dehalar mı?",
+          "Söyleyin bize, sorumsuzları kim dünyaya getiriyor?",
+          "Ah, söyleyin bize kim, hadi",
+          "Bebeklerin nasıl yapıldığını herkes biliyor",
+          "Ama kimse nasıl baba olunduğunu bilmiyor",
+          "Bay Çokbilmiş'e miras mı kalmış bu, öyle mi?",
+          "Bunu parmağımızdan mı uyduracağız yani?",
+          "Söyleyin bize, nerede saklı? Galiba",
+          "En az bin kez oldu",
+          "Parmaklarımızı kemirip durduğumuz, hey"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Refrain",
+        "lines": [
+          "Où t'es"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Refrain",
+        "lines": [
+          "Neredesin"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pont",
+        "lines": [
+          "Où est ton papa ?",
+          "Dis-moi où est ton papa ?",
+          "Sans même devoir lui parler",
+          "Il sait ce qui ne va pas",
+          "Ah sacré papa",
+          "Dis-moi où es-tu caché ? Ça doit",
+          "Faire au moins mille fois que j'ai",
+          "Compté mes doigts, hey",
+          "Où est ton papa ?",
+          "Dis-moi où est ton papa ?",
+          "Sans même devoir lui parler",
+          "Il sait ce qui ne va pas",
+          "Ah sacré papa",
+          "Dis-moi où es-tu caché ? Ça doit",
+          "Faire au moins mille fois que j'ai",
+          "Compté mes doigts, hey"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pont",
+        "lines": [
+          "Nerede senin baban?",
+          "Söyle bana, nerede senin baban?",
+          "Onunla konuşmana bile gerek kalmadan",
+          "Neyin ters gittiğini bilir",
+          "Ah, canım babam",
+          "Söyle bana, nereye saklandın? Galiba",
+          "En az bin kez oldu",
+          "Parmaklarımı sayıp durduğum, hey",
+          "Nerede senin baban?",
+          "Söyle bana, nerede senin baban?",
+          "Onunla konuşmana bile gerek kalmadan",
+          "Neyin ters gittiğini bilir",
+          "Ah, canım babam",
+          "Söyle bana, nereye saklandın? Galiba",
+          "En az bin kez oldu",
+          "Parmaklarımı sayıp durduğum, hey"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain",
+        "lines": [
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, papaoutai ?",
+          "Où t'es, où t'es où, papaoutai ?"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain",
+        "lines": [
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, baba neredesin?",
+          "Neredesin, neredesin, nerede, baba neredesin?"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Refrain",
+        "lines": [
+          "Où t'es"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Refrain",
+        "lines": [
+          "Neredesin"
+        ]
+      }
+    ],
+    "excerpt": "Stromae — Papaoutai sözleri ve Türkçe çevirisi. Orijinal Fransızca sözleri, Türkçe karşılıklarını ve çeviri notlarını birlikte oku.",
+    "annotations": {
+      "Parmaklarımı sayıp durduğum": "“Compté mes doigts”, parmaklarını tekrar tekrar sayma hareketidir. Bekleme ve sayma hissi taşıyabilir; sözlerden belirli bir saklambaç kuralı çıkarılamaz.",
+      "baba neredesin": "Stromae — Papaoutai başlığı, “Papa, où t’es?” sorusunun konuşmadaki seslerini bir araya getirir: “Baba, neredesin?”",
+      "Sadece çocuk yapanlar": "“Géniteurs”, biyolojik ebeveynleri anlatır. “Génies” (dehalar) ile ses benzerliği kurularak çocuk sahibi olmakla babalık yapmanın farkı sorgulanır.",
+      "parmağımızdan mı uyduracağız": "“Sucer de son pouce” imgesinde bilgiyi parmağından çıkarma fikri vardır. Türkçede “uydurmak” doğal karşılıktır; babalığın nasıl öğrenileceği alaycı biçimde sorulur."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "34dx8DACTJsc3rsJdaEIQw",
+        "name": "Papaoutai",
+        "url": "https://open.spotify.com/track/34dx8DACTJsc3rsJdaEIQw",
+        "isrc": "BET671300160",
+        "durationMs": 232146,
+        "duration": "3:52",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 2,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "5j4HeCoUlzhfWtjAfM1acR",
+        "name": "Stromae",
+        "url": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "5j4HeCoUlzhfWtjAfM1acR",
+          "name": "Stromae",
+          "url": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR"
+        }
+      ],
+      "album": {
+        "id": "6uyslsVGFsHKzdGUosFwBM",
+        "name": "racine carrée",
+        "url": "https://open.spotify.com/album/6uyslsVGFsHKzdGUosFwBM",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c",
+        "artists": [
+          {
+            "id": "5j4HeCoUlzhfWtjAfM1acR",
+            "name": "Stromae",
+            "url": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR"
+          }
+        ],
+        "releaseDate": "2013-01-01",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2013 Mosaert Label",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2013 Mosaert Label",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 13,
+        "tracks": [
+          {
+            "id": "7fWWbkok99Tvh8aly2Buox",
+            "name": "Ta fête",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 175426,
+            "duration": "2:55",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7fWWbkok99Tvh8aly2Buox",
+            "isCurrent": false
+          },
+          {
+            "id": "34dx8DACTJsc3rsJdaEIQw",
+            "name": "Papaoutai",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 232146,
+            "duration": "3:52",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/34dx8DACTJsc3rsJdaEIQw",
+            "isCurrent": true
+          },
+          {
+            "id": "4APjoR6Fmrrl707Z1cShHS",
+            "name": "bâtard",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 208826,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4APjoR6Fmrrl707Z1cShHS",
+            "isCurrent": false
+          },
+          {
+            "id": "66u6ycRUqlrW9C05QJUmSo",
+            "name": "ave cesaria",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 249520,
+            "duration": "4:10",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/66u6ycRUqlrW9C05QJUmSo",
+            "isCurrent": false
+          },
+          {
+            "id": "6M4nkEPZMj58acftDRTuKL",
+            "name": "Tous les mêmes",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 210933,
+            "duration": "3:31",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6M4nkEPZMj58acftDRTuKL",
+            "isCurrent": false
+          },
+          {
+            "id": "2AMysGXOe0zzZJMtH3Nizb",
+            "name": "Formidable",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 213933,
+            "duration": "3:34",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/2AMysGXOe0zzZJMtH3Nizb",
+            "isCurrent": false
+          },
+          {
+            "id": "7140k7JL2Jg6aSwXaUDLiB",
+            "name": "moules frites",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 158960,
+            "duration": "2:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7140k7JL2Jg6aSwXaUDLiB",
+            "isCurrent": false
+          },
+          {
+            "id": "1pRvlcrVxqdDAyYT1Ym3Wq",
+            "name": "carmen",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 189026,
+            "duration": "3:09",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1pRvlcrVxqdDAyYT1Ym3Wq",
+            "isCurrent": false
+          },
+          {
+            "id": "1utm8E02HhJjVHwVuRv3AE",
+            "name": "humain à l'eau",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 239226,
+            "duration": "3:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/1utm8E02HhJjVHwVuRv3AE",
+            "isCurrent": false
+          },
+          {
+            "id": "6sAtOPSyH7lmdazTYqOxjC",
+            "name": "quand c'est ?",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 180533,
+            "duration": "3:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6sAtOPSyH7lmdazTYqOxjC",
+            "isCurrent": false
+          },
+          {
+            "id": "6MLWeN4Ws0JkEJkmGr6VlC",
+            "name": "sommeil",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 218653,
+            "duration": "3:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6MLWeN4Ws0JkEJkmGr6VlC",
+            "isCurrent": false
+          },
+          {
+            "id": "62wjQmZdJ1H4qChl7N5mQ5",
+            "name": "merci",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 229320,
+            "duration": "3:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/62wjQmZdJ1H4qChl7N5mQ5",
+            "isCurrent": false
+          },
+          {
+            "id": "5a9vdoeBuXGewh9Oe0CfKA",
+            "name": "avf",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 225053,
+            "duration": "3:45",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5a9vdoeBuXGewh9Oe0CfKA",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-22T07:41:19.264Z",
+      "trackUrl": "https://open.spotify.com/track/34dx8DACTJsc3rsJdaEIQw",
+      "albumUrl": "https://open.spotify.com/album/6uyslsVGFsHKzdGUosFwBM",
+      "artistUrl": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR",
+      "albumName": "racine carrée",
+      "albumType": "Album",
+      "releaseDate": "2013-01-01",
+      "duration": "3:52",
+      "isrc": "BET671300160",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ab580fab750cc9baf0d52b5c"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=oiKj0Z_Xnjc",
+    "source": "user-provided"
+  },
+  {
     "id": "5308",
     "title": "Cigarettes After Sex Apocalypse Türkçe Çeviri",
     "song": "Apocalypse",
