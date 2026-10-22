@@ -14,9 +14,11 @@ export function recommendationProfile(post) {
   const defaults = [...credits].map(name => artistDiscoveryProfiles[name]).filter(Boolean);
   const taggedGenres = editorial.genres || post?.genres;
   const fetchedGenres = post?.spotify?.artistGenres || post?.spotify?.artist?.genres || [];
+  const genres = new Set((taggedGenres?.length ? taggedGenres : [...fetchedGenres, ...defaults.flatMap(p => p.genres)]).map(normalize));
   return {
     artists: credits,
-    genres: new Set((taggedGenres?.length ? taggedGenres : [...fetchedGenres, ...defaults.flatMap(p => p.genres)]).map(normalize)),
+    genres,
+    season: normalize(editorial.season || post?.season || (genres.has('christmas-pop') ? 'christmas' : '')),
     moods: new Set(editorial.moods || post?.moods || []),
     language: editorial.language || post?.languages?.original || defaults.find(p => p.language)?.language || null,
   };
@@ -25,18 +27,23 @@ export function recommendationProfile(post) {
 export function relatedSongs(post, candidates, limit = 4) {
   if (!post || limit <= 0) return [];
   const source = recommendationProfile(post);
-  const ranked = candidates.filter(item => item.slug !== post.slug).map(item => {
+  const scored = candidates.filter(item => item.slug !== post.slug).map(item => {
     const profile = recommendationProfile(item);
     if (overlap(source.artists, profile.artists)) return null;
+    // Seasonal songs only recommend songs from the same season, in both directions.
+    // Apply this before every tier, including the mood-only fallback.
+    if (source.season !== profile.season) return null;
     const genreMatches = overlap(source.genres, profile.genres);
     const moodMatches = overlap(source.moods, profile.moods);
     const sameLanguage = Boolean(source.language && source.language === profile.language);
-    // A shared automatic mood alone is not sufficient evidence of similarity.
-    if (!genreMatches && !sameLanguage) return null;
-    const tier = genreMatches ? 2 : 1;
+    if (!genreMatches && !sameLanguage && !moodMatches) return null;
+    const tier = genreMatches ? 2 : sameLanguage ? 1 : 0;
     const score = genreMatches * 10 + moodMatches * 6 + (sameLanguage ? 12 : 0);
     return { item, profile, tier, score, clicks: clicks.get(item.slug) || 0, tie: stableTie(`${post.slug}:${item.slug}`) };
-  }).filter(Boolean).sort((a, b) => b.tier - a.tier || (a.tier === 1 ? b.clicks - a.clicks : b.score - a.score) || b.clicks - a.clicks || b.score - a.score || a.tie - b.tie);
+  }).filter(Boolean);
+  // Mood-only results are a last resort, not padding for a short relevant list.
+  const direct = scored.filter(entry => entry.tier > 0);
+  const ranked = (direct.length ? direct : scored).sort((a, b) => b.tier - a.tier || (a.tier <= 1 ? b.clicks - a.clicks : b.score - a.score) || b.clicks - a.clicks || b.score - a.score || a.tie - b.tie);
   const selected = [], usedArtists = new Set(), usedSlugs = new Set();
   for (const entry of ranked) {
     if (usedSlugs.has(entry.item.slug) || overlap(usedArtists, entry.profile.artists)) continue;
