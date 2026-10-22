@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-22",
   "lists": [
     {
       "id": "billboard-hot-100",
       "name": "Billboard Hot 100",
       "description": "ABD'nin en popüler şarkıları",
       "period": "Haftalık",
-      "updated": "2026-10-10",
+      "updated": "2026-10-24",
       "sourceUrl": "https://www.billboard.com/charts/hot-100/",
       "icon": "note",
       "entries": [
@@ -14,10 +14,10 @@
           "rank": 1,
           "title": "Patient Zero",
           "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2de0f5e12f0b369fde79953",
-          "spotifyUrl": "https://open.spotify.com/track/49JeKZqejPtqJKpK7x9Ew4",
-          "album": "Patient Zero",
-          "albumUrl": "https://open.spotify.com/album/3r3lR28Ybv6d5N5DPWfQ1L"
+          "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
+          "spotifyUrl": "https://open.spotify.com/track/11hcBLPtbMp4aQI6zGQLub",
+          "album": "The Life of a Showgirl: The Encore",
+          "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J"
         },
         {
           "rank": 2,
@@ -30,33 +30,6 @@
         },
         {
           "rank": 3,
-          "title": "Cleveland!",
-          "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
-          "spotifyUrl": "https://open.spotify.com/track/7uxkx8HPBYkJKcimOyggUM",
-          "album": "The Life of a Showgirl: The Encore",
-          "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J"
-        },
-        {
-          "rank": 4,
-          "title": "Babylon",
-          "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
-          "spotifyUrl": "https://open.spotify.com/track/2j7wI9QWrP8cjKDdOLVQTU",
-          "album": "The Life of a Showgirl: The Encore",
-          "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J"
-        },
-        {
-          "rank": 5,
-          "title": "Pink Clouding",
-          "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273cf3de6b538d8b1ed73a4d5d1",
-          "spotifyUrl": "https://open.spotify.com/track/3gyJbNBTRVRdZDA1yO3clm",
-          "album": "The Life of a Showgirl: The Encore",
-          "albumUrl": "https://open.spotify.com/album/4hF2gTGuPYlykYuphDxi8J"
-        },
-        {
-          "rank": 6,
           "title": "Boston",
           "artist": "Stella Lefty",
           "cover": "https://i.scdn.co/image/ab67616d0000b273e6cb19b02e38d18246ac334f",
@@ -65,7 +38,7 @@
           "albumUrl": "https://open.spotify.com/album/4YLIRb8DdBTXbgHiFLicH2"
         },
         {
-          "rank": 7,
+          "rank": 4,
           "title": "Been By Now",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b273349f6c0133abbfca063891c1",
@@ -74,7 +47,25 @@
           "albumUrl": "https://open.spotify.com/album/2CW0gIlEO8iQBUdtRyxnb4"
         },
         {
-          "rank": 8,
+          "rank": 5,
+          "title": "Dracula",
+          "artist": "Tame Impala & JENNIE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676",
+          "spotifyUrl": "https://open.spotify.com/track/5yvVYFDUpbnjcnRBgjwTzM",
+          "album": "Dracula (with JENNIE)",
+          "albumUrl": "https://open.spotify.com/album/6KFq3hJB6JnNvDbEHRvPoK"
+        },
+        {
+          "rank": 6,
+          "title": "Nicole Kidman",
+          "artist": "ADELA",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273ac9d5d5263e9f03802d6864c",
+          "spotifyUrl": "https://open.spotify.com/track/70cHKK8bHAfJrOGVnfRG9J",
+          "album": "PRIMA",
+          "albumUrl": "https://open.spotify.com/album/2yDFVH9CeOHt0sc9eI0aBs"
+        },
+        {
+          "rank": 7,
           "title": "Hate That I Made You Love Me",
           "artist": "Ariana Grande",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b622d42c30697e1e1414343c",
@@ -83,7 +74,7 @@
           "albumUrl": "https://open.spotify.com/album/1x159B5VzbDWAGBik5cr1z"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Stupid Song",
           "artist": "Olivia Rodrigo",
           "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
@@ -92,13 +83,22 @@
           "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
+          "rank": 9,
+          "title": "BbY WOW",
+          "artist": "Karol G With Judeline & rusowsky",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368",
+          "spotifyUrl": "https://open.spotify.com/track/3h5T5JypYU7huFiVYhv1dr",
+          "album": "NO ME ARREPIENTO DE SENTIR TANTO",
+          "albumUrl": "https://open.spotify.com/album/7a0lnWtCz0eW15WsWu3dHQ"
+        },
+        {
           "rank": 10,
-          "title": "Dracula",
-          "artist": "Tame Impala & JENNIE",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676",
-          "spotifyUrl": "https://open.spotify.com/track/5yvVYFDUpbnjcnRBgjwTzM",
-          "album": "Dracula (with JENNIE)",
-          "albumUrl": "https://open.spotify.com/album/6KFq3hJB6JnNvDbEHRvPoK"
+          "title": "Babydoll",
+          "artist": "Dominic Fike",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+          "spotifyUrl": "https://open.spotify.com/track/7yNf9YjeO5JXUE3JEBgnYc",
+          "album": "Don't Forget About Me, Demos",
+          "albumUrl": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "name": "Billboard 200",
       "description": "En çok satan albümler",
       "period": "Haftalık",
-      "updated": "2026-10-10",
+      "updated": "2026-10-24",
       "sourceUrl": "https://www.billboard.com/charts/billboard-200/",
       "icon": "disc",
       "entries": [
@@ -127,21 +127,21 @@
         },
         {
           "rank": 3,
-          "title": "Dandelion",
-          "artist": "Ella Langley",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2738c4aa8e46455efcaa08c4085",
-          "spotifyUrl": "https://open.spotify.com/track/7FudQLDIYCX6F7ruexVn2X",
-          "album": "Dandelion",
-          "albumUrl": "https://open.spotify.com/album/5aWJ4c7FZJ8r0G7lRzLTn4"
-        },
-        {
-          "rank": 4,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
           "cover": "https://i.scdn.co/image/ab67616d0000b27335ea219ce47813b5e2dc3745",
           "spotifyUrl": "https://open.spotify.com/track/7AeM1BGYM7emrqmQn1PuWv",
           "album": "I’m The Problem",
           "albumUrl": "https://open.spotify.com/album/5IZ8sY5FjtL9hloXpv0XbD"
+        },
+        {
+          "rank": 4,
+          "title": "Dandelion",
+          "artist": "Ella Langley",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2738606848da949bbaddf447d87",
+          "spotifyUrl": "https://open.spotify.com/track/34D5CH3DKBGpAj8ktFOAUH",
+          "album": "Dandelion",
+          "albumUrl": "https://open.spotify.com/album/6nrtxtgaD9zSYBl9APvOCH"
         },
         {
           "rank": 5,
@@ -154,24 +154,11 @@
         },
         {
           "rank": 6,
-          "title": "POPSTAR",
-          "artist": "Tinashe",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273f8dc54881b35310061266cdf",
-          "spotifyUrl": "https://open.spotify.com/track/7aF0puGulyEEJkOQZNKNyu",
-          "album": "Popstar",
-          "albumUrl": "https://open.spotify.com/album/06CjF89lLSSiVWXujVVtQs"
+          "title": "HABIBTI",
+          "artist": "Drake"
         },
         {
           "rank": 7,
-          "title": "Silver Sands Marina",
-          "artist": "Kenny Chesney",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273cda67d73f6ab8b689e340041",
-          "spotifyUrl": "https://open.spotify.com/track/0Y09389VX44ZoMyzEOvuYr",
-          "album": "Silver Sands Marina",
-          "albumUrl": "https://open.spotify.com/album/52j8tm0SVupJQWPQEPjtzY"
-        },
-        {
-          "rank": 8,
           "title": "The Art Of Loving",
           "artist": "Olivia Dean",
           "cover": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
@@ -180,13 +167,18 @@
           "albumUrl": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Stick Season",
           "artist": "Noah Kahan",
           "cover": "https://i.scdn.co/image/ab67616d0000b2736ee35072df1af802cca09918",
           "spotifyUrl": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
           "album": "Stick Season",
           "albumUrl": "https://open.spotify.com/album/50ZenUP4O2Q5eCy2NRNvuz"
+        },
+        {
+          "rank": 9,
+          "title": "Palace For The People",
+          "artist": "Greta Van Fleet"
         },
         {
           "rank": 10,
@@ -200,12 +192,21 @@
       "name": "Circle Chart (Gaon)",
       "description": "Güney Kore'nin resmi müzik listesi",
       "period": "Günlük",
-      "updated": "2026-10-05",
+      "updated": "2026-10-19",
       "sourceUrl": "https://circlechart.kr/page_chart/global.circle?termGbn=day",
       "icon": "sparkle",
       "entries": [
         {
           "rank": 1,
+          "title": "NEON",
+          "artist": "A2O, A2O LITE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+          "spotifyUrl": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+          "album": "NEON",
+          "albumUrl": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd"
+        },
+        {
+          "rank": 2,
           "title": "Golden",
           "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
           "cover": "https://i.scdn.co/image/ab67616d0000b273333392a83a4514ae635ed982",
@@ -214,12 +215,12 @@
           "albumUrl": "https://open.spotify.com/album/2q4uMcogIfSvbjZevQTIDL"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "SWIM",
           "artist": "방탄소년단"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "APT.",
           "artist": "로제 (ROSE), Bruno Mars",
           "cover": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
@@ -228,7 +229,16 @@
           "albumUrl": "https://open.spotify.com/album/2IYQwwgxgOIn7t3iF6ufFD"
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "title": "SUPERSTAR",
+          "artist": "A2O, A2O SOUL",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273b701df06206b93f11ba72948",
+          "spotifyUrl": "https://open.spotify.com/track/1DWMei2F4L94avyzZh3Ms9",
+          "album": "SUPERSTAR",
+          "albumUrl": "https://open.spotify.com/album/1DzXeVnrXrHT6hciDfbGLf"
+        },
+        {
+          "rank": 6,
           "title": "BAD",
           "artist": "ATEEZ (에이티즈)",
           "cover": "https://i.scdn.co/image/ab67616d0000b2737e77585ffef632e51313b3e0",
@@ -237,7 +247,21 @@
           "albumUrl": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "title": "Looks Can Kill",
+          "artist": "IVE (아이브)",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273e9ba6f2900e344f17c05a9aa",
+          "spotifyUrl": "https://open.spotify.com/track/79kqYxIkS29va2I9AeL9ak",
+          "album": "Looks Can Kill",
+          "albumUrl": "https://open.spotify.com/album/6DStYRq1Xvia2jXG2XQv6g"
+        },
+        {
+          "rank": 8,
+          "title": "It`s Me",
+          "artist": "아일릿(ILLIT)"
+        },
+        {
+          "rank": 9,
           "title": "REDRED",
           "artist": "CORTIS (코르티스)",
           "cover": "https://i.scdn.co/image/ab67616d0000b27324ace1518851b27e9983f739",
@@ -246,33 +270,9 @@
           "albumUrl": "https://open.spotify.com/album/52J8GQoNp2vgDJ6992NjiM"
         },
         {
-          "rank": 6,
-          "title": "It`s Me",
-          "artist": "아일릿(ILLIT)"
-        },
-        {
-          "rank": 7,
-          "title": "LEMONADE",
-          "artist": "aespa",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
-          "spotifyUrl": "https://open.spotify.com/track/2oR7jPvWPC08Su4KYmKR3O",
-          "album": "LEMONADE - The 2nd Album",
-          "albumUrl": "https://open.spotify.com/album/2233LC6uuoi67lGcO2OaBm"
-        },
-        {
-          "rank": 8,
+          "rank": 10,
           "title": "연애의 조건 (Love Options)",
           "artist": "베스티 (BESTie)"
-        },
-        {
-          "rank": 9,
-          "title": "퇴사할게여 (Narr. 기안84)",
-          "artist": "소연 (SOYEON)"
-        },
-        {
-          "rank": 10,
-          "title": "Body to Body",
-          "artist": "방탄소년단"
         }
       ]
     },
@@ -281,18 +281,18 @@
       "name": "Apple Music Top 100",
       "description": "Global Apple Music listesi",
       "period": "Günlük",
-      "updated": "2026-10-09",
+      "updated": "2026-10-22",
       "sourceUrl": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31",
       "icon": "headphones",
       "entries": [
         {
           "rank": 1,
-          "title": "Solar Eclipse",
-          "artist": "Drake & Don Toliver",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732685b70af798b4f272c00d8a",
-          "spotifyUrl": "https://open.spotify.com/track/4IAWZw00ZI9DLKDjesx86u",
-          "album": "HABIBTI (FOMO)",
-          "albumUrl": "https://open.spotify.com/album/4gvyJRNQPBb1kOWqwZjUYI"
+          "title": "Housewife",
+          "artist": "Tate McRae",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737c6236a76fbcee4f1b8ace08",
+          "spotifyUrl": "https://open.spotify.com/track/2sFepQNyl1WjpROruP8bJ0",
+          "album": "Housewife",
+          "albumUrl": "https://open.spotify.com/album/6JvmSyocXef7RZDZFaymNl"
         },
         {
           "rank": 2,
@@ -305,15 +305,6 @@
         },
         {
           "rank": 3,
-          "title": "Patient Zero",
-          "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2de0f5e12f0b369fde79953",
-          "spotifyUrl": "https://open.spotify.com/track/49JeKZqejPtqJKpK7x9Ew4",
-          "album": "Patient Zero",
-          "albumUrl": "https://open.spotify.com/album/3r3lR28Ybv6d5N5DPWfQ1L"
-        },
-        {
-          "rank": 4,
           "title": "Nicole Kidman",
           "artist": "ADÉLA",
           "cover": "https://i.scdn.co/image/ab67616d0000b273ac9d5d5263e9f03802d6864c",
@@ -322,13 +313,22 @@
           "albumUrl": "https://open.spotify.com/album/2yDFVH9CeOHt0sc9eI0aBs"
         },
         {
+          "rank": 4,
+          "title": "NEON",
+          "artist": "A2O & A2O LITE",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+          "spotifyUrl": "https://open.spotify.com/track/5PvLNQRNRj61y3CU4SFIY4",
+          "album": "NEON",
+          "albumUrl": "https://open.spotify.com/album/4LcuVwt8mIj0SIoWQqnDkd"
+        },
+        {
           "rank": 5,
-          "title": "Quebec",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732685b70af798b4f272c00d8a",
-          "spotifyUrl": "https://open.spotify.com/track/67DgVQlvQ0qilSBN1hdkKN",
-          "album": "HABIBTI (FOMO)",
-          "albumUrl": "https://open.spotify.com/album/4gvyJRNQPBb1kOWqwZjUYI"
+          "title": "Lies (feat. Lana Del Rey)",
+          "artist": "Zach Bryan & Lana Del Rey",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2736c6962d2073c0378348cac37",
+          "spotifyUrl": "https://open.spotify.com/track/4EVSMqqVEehvyyOBmjNTlA",
+          "album": "Lies (feat. Lana Del Rey)",
+          "albumUrl": "https://open.spotify.com/album/2JGeJAaYYGEB2geK9ejaoF"
         },
         {
           "rank": 6,
@@ -341,24 +341,15 @@
         },
         {
           "rank": 7,
-          "title": "Cold Shoulder",
-          "artist": "Drake, Don Toliver & Yebba",
+          "title": "Solar Eclipse",
+          "artist": "Drake & Don Toliver",
           "cover": "https://i.scdn.co/image/ab67616d0000b2732685b70af798b4f272c00d8a",
-          "spotifyUrl": "https://open.spotify.com/track/50GVx8sCc1TDKHXumgYqEO",
+          "spotifyUrl": "https://open.spotify.com/track/4IAWZw00ZI9DLKDjesx86u",
           "album": "HABIBTI (FOMO)",
           "albumUrl": "https://open.spotify.com/album/4gvyJRNQPBb1kOWqwZjUYI"
         },
         {
           "rank": 8,
-          "title": "Janice STFU",
-          "artist": "Drake",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
-          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
-          "album": "ICEMAN",
-          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
-        },
-        {
-          "rank": 9,
           "title": "stupid song",
           "artist": "Olivia Rodrigo",
           "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
@@ -367,13 +358,22 @@
           "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
+          "rank": 9,
+          "title": "Janice STFU",
+          "artist": "Drake",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+          "spotifyUrl": "https://open.spotify.com/track/514joG57v4yKTsfQmz7stz",
+          "album": "ICEMAN",
+          "albumUrl": "https://open.spotify.com/album/0OAv7DCME2AV4q1KPO95HY"
+        },
+        {
           "rank": 10,
           "title": "the cure",
           "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
-          "spotifyUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
-          "album": "the cure",
-          "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y"
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         }
       ]
     },
@@ -382,12 +382,21 @@
       "name": "Spotify Global Top 50",
       "description": "Dünya genelinde en çok dinlenenler",
       "period": "Günlük",
-      "updated": "2026-10-07",
+      "updated": "2026-10-20",
       "sourceUrl": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
       "icon": "headphones",
       "entries": [
         {
           "rank": 1,
+          "title": "Housewife",
+          "artist": "Tate McRae",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2737c6236a76fbcee4f1b8ace08",
+          "spotifyUrl": "https://open.spotify.com/track/2sFepQNyl1WjpROruP8bJ0",
+          "album": "Housewife",
+          "albumUrl": "https://open.spotify.com/album/6JvmSyocXef7RZDZFaymNl"
+        },
+        {
+          "rank": 2,
           "title": "BbY WOW",
           "artist": "KAROL G & Judeline , rusowsky",
           "cover": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368",
@@ -396,7 +405,7 @@
           "albumUrl": "https://open.spotify.com/album/7a0lnWtCz0eW15WsWu3dHQ"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "Nicole Kidman",
           "artist": "ADÉLA",
           "cover": "https://i.scdn.co/image/ab67616d0000b273ac9d5d5263e9f03802d6864c",
@@ -405,7 +414,7 @@
           "albumUrl": "https://open.spotify.com/album/2yDFVH9CeOHt0sc9eI0aBs"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Ain't In LA",
           "artist": "ADÉLA",
           "cover": "https://i.scdn.co/image/ab67616d0000b273b176fc721e1faba78b1ef35b",
@@ -414,31 +423,22 @@
           "albumUrl": "https://open.spotify.com/album/3qGInqGfOePTekb0y7AZ4s"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "the cure",
           "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
-          "spotifyUrl": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96",
-          "album": "the cure",
-          "albumUrl": "https://open.spotify.com/album/6zme2NwcaBxbn3mWOcMY8y"
-        },
-        {
-          "rank": 5,
-          "title": "Patient Zero",
-          "artist": "Taylor Swift",
-          "cover": "https://i.scdn.co/image/ab67616d0000b273b2de0f5e12f0b369fde79953",
-          "spotifyUrl": "https://open.spotify.com/track/49JeKZqejPtqJKpK7x9Ew4",
-          "album": "Patient Zero",
-          "albumUrl": "https://open.spotify.com/album/3r3lR28Ybv6d5N5DPWfQ1L"
+          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+          "spotifyUrl": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H",
+          "album": "you seem pretty sad for a girl so in love",
+          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
         },
         {
           "rank": 6,
-          "title": "Earrings",
-          "artist": "Malcolm Todd",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
-          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
-          "album": "Sweet Boy",
-          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
+          "title": "expectations",
+          "artist": "Olivia Rodrigo & Chappell Roan",
+          "cover": "https://i.scdn.co/image/ab67616d0000b273706ab55cf3e8cb64efb0ccba",
+          "spotifyUrl": "https://open.spotify.com/track/3XmwAZpIMNpTJy8faw3ajD",
+          "album": "expectations (feat. Chappell Roan)",
+          "albumUrl": "https://open.spotify.com/album/1q9LM9xC5ebSY216u31FOx"
         },
         {
           "rank": 7,
@@ -460,21 +460,21 @@
         },
         {
           "rank": 9,
-          "title": "stupid song",
-          "artist": "Olivia Rodrigo",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
-          "spotifyUrl": "https://open.spotify.com/track/4LfCY65LvojKjWEnU7fNN4",
-          "album": "you seem pretty sad for a girl so in love",
-          "albumUrl": "https://open.spotify.com/album/3WZZF72ihlKPZBS4zSsNHl"
+          "title": "Die With A Smile",
+          "artist": "Lady Gaga & Bruno Mars",
+          "cover": "https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45",
+          "spotifyUrl": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe",
+          "album": "Die With A Smile",
+          "albumUrl": "https://open.spotify.com/album/10FLjwfpbxLmW8c25Xyc2N"
         },
         {
           "rank": 10,
-          "title": "Beauty And A Beat",
-          "artist": "Justin Bieber & Nicki Minaj",
-          "cover": "https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39",
-          "spotifyUrl": "https://open.spotify.com/track/190jyVPHYjAqEaOGmMzdyk",
-          "album": "Believe (Deluxe Edition)",
-          "albumUrl": "https://open.spotify.com/album/70f70xLCpH7wHaVvB2oZT9"
+          "title": "Earrings",
+          "artist": "Malcolm Todd",
+          "cover": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+          "spotifyUrl": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+          "album": "Sweet Boy",
+          "albumUrl": "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
         }
       ]
     }
