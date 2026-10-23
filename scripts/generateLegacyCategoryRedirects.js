@@ -83,6 +83,9 @@ for (const post of posts) {
   const target = `/album/${slugify(`${albumArtistFor(post)}-${albumName}`)}`;
   const legacyAlbumSlug = slugify(`${post.artist}-${albumName}`);
   const canonicalAlbumSlug = target.replace(/^\/album\//, "");
+  for (const alias of post.legacyAlbumSlugs || []) {
+    if (alias !== canonicalAlbumSlug) legacyAlbumRedirects[alias] = target;
+  }
   if (legacyAlbumSlug && legacyAlbumSlug !== canonicalAlbumSlug) {
     legacyAlbumRedirects[legacyAlbumSlug] = target;
   }

@@ -17259,14 +17259,14 @@
     },
     "categories": [
       "LISA",
-      "SaWaDiKa"
+      "PRESS PLAY"
     ],
     "category_slugs": [
       "lisa",
-      "sawadika"
+      "press-play"
     ],
-    "image": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
     "reading_time": 4,
     "blocks": [
       {
@@ -17604,9 +17604,9 @@
     "difficulty_note": null,
     "spotify": {
       "track": {
-        "id": "1VWiDyYTrqQhhmnWANWkFa",
+        "id": "0UECk3l1544vRUzYoZO5gI",
         "name": "SaWaDiKa",
-        "url": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+        "url": "https://open.spotify.com/track/0UECk3l1544vRUzYoZO5gI",
         "isrc": "USRC12601645",
         "durationMs": 188531,
         "duration": "3:09",
@@ -17632,10 +17632,10 @@
         }
       ],
       "album": {
-        "id": "5WG9kRKPpHgnZ5pKku509O",
-        "name": "SaWaDiKa",
-        "url": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
-        "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+        "id": "7H0c8sfmrbAbrMjYuEvWQk",
+        "name": "PRESS PLAY",
+        "url": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
         "artists": [
           {
             "id": "5L1lO4eRHmJ7a0Q6csE5cT",
@@ -17643,9 +17643,9 @@
             "url": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT"
           }
         ],
-        "releaseDate": "2026-09-02",
+        "releaseDate": "2026-10-23",
         "releaseDatePrecision": "day",
-        "albumType": "Single",
+        "albumType": "EP",
         "rawAlbumType": "single",
         "label": null,
         "copyrights": [
@@ -17654,37 +17654,95 @@
             "type": "P"
           }
         ],
-        "totalTracks": 1,
+        "totalTracks": 6,
         "tracks": [
           {
-            "id": "1VWiDyYTrqQhhmnWANWkFa",
+            "id": "0UECk3l1544vRUzYoZO5gI",
             "name": "SaWaDiKa",
             "trackNumber": 1,
             "discNumber": 1,
             "durationMs": 188531,
             "duration": "3:09",
             "explicit": true,
-            "url": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
+            "url": "https://open.spotify.com/track/0UECk3l1544vRUzYoZO5gI",
             "isCurrent": true
+          },
+          {
+            "id": "5Uexd0lzW1yRLgjlUqi3Uc",
+            "name": "V12",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 170882,
+            "duration": "2:51",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5Uexd0lzW1yRLgjlUqi3Uc",
+            "isCurrent": false
+          },
+          {
+            "id": "6esE3NNWOh6qiQSo4I62Lv",
+            "name": "Cobra",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 139363,
+            "duration": "2:19",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6esE3NNWOh6qiQSo4I62Lv",
+            "isCurrent": false
+          },
+          {
+            "id": "3bgnrHHwyYRtz3ykzAVImy",
+            "name": "Tarantino",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 171104,
+            "duration": "2:51",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3bgnrHHwyYRtz3ykzAVImy",
+            "isCurrent": false
+          },
+          {
+            "id": "4NOZnyEKqujVEhHYobZfrk",
+            "name": "Cut U Off",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 158541,
+            "duration": "2:39",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4NOZnyEKqujVEhHYobZfrk",
+            "isCurrent": false
+          },
+          {
+            "id": "2dvKssoXPLt3RwTEGCIdGd",
+            "name": "Sweat",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 154211,
+            "duration": "2:34",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2dvKssoXPLt3RwTEGCIdGd",
+            "isCurrent": false
           }
         ]
       },
-      "fetchedAt": "2026-09-04T08:41:12.314Z",
-      "trackUrl": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
-      "albumUrl": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
+      "fetchedAt": "2026-10-23T08:02:12.078Z",
+      "trackUrl": "https://open.spotify.com/track/0UECk3l1544vRUzYoZO5gI",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
       "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
-      "albumName": "SaWaDiKa",
-      "albumType": "Single",
-      "releaseDate": "2026-09-02",
+      "albumName": "PRESS PLAY",
+      "albumType": "EP",
+      "releaseDate": "2026-10-23",
       "duration": "3:09",
       "isrc": "USRC12601645",
       "label": null,
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e"
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5"
     },
     "genius": null,
     "youtubeUrl": "https://www.youtube.com/watch?v=FyS5dAywkEo",
     "source": "user-provided",
-    "updatedAt": "2026-09-04T08:59:57.174Z"
+    "updatedAt": "2026-09-04T08:59:57.174Z",
+    "legacyAlbumSlugs": [
+      "lisa-sawadika"
+    ]
   },
   {
     "id": "5282",

@@ -4,6 +4,7 @@ export const legacyAlbumRedirects = {
   "a2o-lite-a2o-neon": "/album/a2o-lite-neon",
   "billie-eilish-khalid-lovely-with-khalid": "/album/billie-eilish-lovely-with-khalid",
   "jhene-aiko-kendrick-lamar-westside-whimsy": "/album/jhene-aiko-westside-whimsy",
+  "lisa-sawadika": "/album/lisa-press-play",
   "dolly-parton-kenny-rogers-greatest-hits": "/album/dolly-parton-greatest-hits",
   "post-malone-swae-lee-sunflower-spider-man-into-the-spider-verse": "/album/post-malone-sunflower-spider-man-into-the-spider-verse",
   "mariah-carey-feat-rochelle-jordan-didn-t-mean-to-turn-you-on-with-rochelle-jordan": "/album/mariah-carey-didn-t-mean-to-turn-you-on-with-rochelle-jordan",

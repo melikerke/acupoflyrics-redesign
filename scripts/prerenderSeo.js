@@ -636,6 +636,9 @@ for (const post of catalogPosts) {
   const artist = albumArtistFor(post);
   const slug = albumSlugForPost(post);
   const legacySlug = slugify(`${post.artist}-${name}`);
+  for (const alias of post.legacyAlbumSlugs || []) {
+    if (alias !== slug) legacyAlbumRedirects.set(alias, slug);
+  }
   if (legacySlug && legacySlug !== slug) legacyAlbumRedirects.set(legacySlug, slug);
   if (!albums.has(slug)) albums.set(slug, { slug, name, artist, cover: post.spotify?.coverUrl || post.cover, count: 0, releaseDate: post.spotify?.releaseDate || post.spotify?.album?.release_date || post.date, totalTracks: post.spotify?.totalTracks, tracks: [] });
   albums.get(slug).count += 1;
