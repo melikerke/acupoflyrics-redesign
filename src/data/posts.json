@@ -1,5 +1,605 @@
 [
   {
+    "id": "5326",
+    "title": "ATEEZ Drip Türkçe Çeviri",
+    "song": "Drip",
+    "slug": "ateez-drip-turkce-ceviri",
+    "date": "2026-10-23T08:15:31.289Z",
+    "artist": "ATEEZ",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "ATEEZ",
+      "Drip"
+    ],
+    "category_slugs": [
+      "ateez",
+      "drip"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Giriş: Seonghwa",
+        "lines": [
+          "Yeah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Giriş: Seonghwa",
+        "lines": [
+          "Yeah!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "Pull up to the spot, yeah, we do it light speed, yeah",
+          "Do it, do it cold, ne namjawaneun dareuji, yeah",
+          "gatji dareun meot, gachineun hella pricey-cey",
+          "Light speed, light speed, light speed, yeah",
+          "bakyeo itji jeo nopeun gose ireumi, yeah",
+          "Halo on the move, tteo isseo nae meori wi, yeah",
+          "Shooting for the stars, deo binna nae sonmogi-i",
+          "Light speed, light speed, ooh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "",
+          "Mekâna yanaştık, ışık hızıyla giriyoruz, yeah!",
+          "Buz gibi yapıyoruz işimizi, senin adamından çok farklıyız, yeah!",
+          "",
+          "[Yeosang]",
+          "",
+          "Bizim havamız bambaşka, değerimiz desen servetlik!",
+          "Işık hızı, ışık hızı, ışık hızı, yeah!",
+          "",
+          "[Wooyoung]",
+          "",
+          "Adımız çoktan kazınmış o zirvelere, yeah!",
+          "Başımın üstünde hare bile süzülüyor, yeah!",
+          "",
+          "[Jongho]",
+          "",
+          "Yıldızları hedefliyorum, bileğim onlardan da parlak!",
+          "Işık hızı, ışık hızı, ooh!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Mingi",
+        "lines": [
+          "gijeogeul gidaryeojul baen",
+          "uriga natana juneun ge we'll show up faster",
+          "ttan geo pal sigane cut the chatter",
+          "sseureoganeun jungiya we stack the paper",
+          "oreul daero ollaon tim",
+          "jibyohago kkeunjilgin fiends",
+          "mudae wie seomyeon urireul",
+          "ireoke bureundago hadae, call me Boogie Man"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat: Mingi",
+        "lines": [
+          "Bir mucize olsun diye bekleyeceğimize,",
+          "Biz çıkageliriz; mucizeden bile hızlı yetişiriz!",
+          "Boş işlerle uğraşacağına kes şu gevezeliği!",
+          "Parayı silip süpürüyoruz, banknotları deste deste yığıyoruz!",
+          "",
+          "Zirveye kadar tırmanmış bir ekibiz!",
+          "Gözü dönmüş, inatçı, pes etmeyen canavarlarız!",
+          "Sahneye çıktığımızda bizi",
+          "Böyle çağırıyorlarmış: Boogie Man!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "lines": [
+          "Stars in my whip, hae jjeoneun jit",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip",
+          "Stars in my whip, hae jjeoneun jit",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "lines": [
+          "[San]",
+          "",
+          "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
+          "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
+          "",
+          "[Wooyoung]",
+          "",
+          "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
+          "Havamda boğuluyorlar, bo-boğuluyorlar!",
+          "",
+          "[Seonghwa]",
+          "",
+          "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
+          "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
+          "",
+          "[Yunho]",
+          "",
+          "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
+          "Havamda boğuluyorlar, bo-boğuluyorlar!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "lines": [
+          "Ha-ha, yeah",
+          "tto daeum location mothae rotation, line up kkokdaegie A-reul mention",
+          "Mic-reul gaesi reference jesi jasikdeul, meosinneun geon meositge bekkyeo",
+          "Turn up, high tension, meoseun imi jangchakdwae isseo",
+          "Swipe, swipe, swipe, heulleoneomchyeo dripping i-i-ice",
+          "natanamyeon machi jungnyeogui oryugachi",
+          "jinnulliji jeo eosaekan pyojeong bwa",
+          "I got my vision way too keen, white ice on my teeth",
+          "I play 'em like a machine, never gonna suffice"
+        ]
+      },
+      {
+        "original": false,
+        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "lines": [
+          "[Hongjoong]",
+          "",
+          "Ha-ha, yeah!",
+          "",
+          "Sıradaki durak yine başka bir yer, ama zirvedeki sıramız değişmez!",
+          "Listenin en tepesine A harfini yazın!",
+          "Mikrofonu açtım, örneği önünüze koydum!",
+          "Veletler, bari havalı olanı adam gibi kopyalayın!",
+          "",
+          "[Mingi]",
+          "",
+          "Coştur ortalığı, gerilim tavan; karizma zaten üstümüzde!",
+          "Çek kartı, çek, çek! Üstümüzden pırlantalar taşıyor!",
+          "",
+          "[Jongho]",
+          "",
+          "Ortaya çıktığım an sanki yerçekiminin ayarı bozuluyor!",
+          "Baskımız altında ezilip kalıyorlar; bak şu afallamış yüzlere!",
+          "",
+          "[San]",
+          "",
+          "Gözümden hiçbir şey kaçmaz, dişlerimde bembeyaz pırlantalar!",
+          "Onlarla makine gibi oynarım, ne yapsam da yetmez!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Hongjoong",
+        "lines": [
+          "I'm a different monster",
+          "Liquidate the roster",
+          "Watch me break the bank",
+          "Leave this game a whole disaster",
+          "(Yeah) Cash is cowing, okay",
+          "(Yeah) neomchyeoheulleo geumbit",
+          "(Yeah) Blue ocean, mankkik",
+          "jusigeuro, Buffett"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat: Hongjoong",
+        "lines": [
+          "Ben başka türden bir canavarım!",
+          "Bütün rakip kadroyu tasfiye ederim!",
+          "İzle de gör, bankayı nasıl boşaltıyorum!",
+          "Bu oyunu darmadağın edip giderim!",
+          "",
+          "(Yeah!) Para bile herkesi sindiriyor, tamam!",
+          "(Yeah!) Altın gibi parıltılar taşıyor her yerden!",
+          "(Yeah!) Rakipsiz mavi okyanusun tadını çıkarıyorum!",
+          "Borsada Warren Buffett kesildim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "lines": [
+          "Stars in my whip, hae jjeoneun jit",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip",
+          "Stars in my whip, hae jjeoneun jit",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "lines": [
+          "[Yeosang]",
+          "",
+          "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
+          "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
+          "",
+          "[Yunho]",
+          "",
+          "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
+          "Havamda boğuluyorlar, bo-boğuluyorlar!",
+          "",
+          "[Wooyoung]",
+          "",
+          "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
+          "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
+          "",
+          "[Seonghwa]",
+          "",
+          "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
+          "Havamda boğuluyorlar, bo-boğuluyorlar!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "lines": [
+          "I'm rising up, can't stop me now",
+          "They see the vision but I only see the crown",
+          "You know I'm watchin', how you move around",
+          "They actin' tough but I can only see a clown",
+          "Yeah, I'm rising up, can't stop me now",
+          "They see the vision but I only see the crown",
+          "Yeah, you know I'm watchin', how you move around",
+          "I keep on going, I'm going, I'm going",
+          "Ah, yeah, I'm moving up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "lines": [
+          "[Jongho]",
+          "",
+          "Durmadan yükseliyorum, artık beni kimse durduramaz!",
+          "Onlar geleceği görüyor, benim gözümse yalnızca taçta!",
+          "",
+          "[San]",
+          "",
+          "Nasıl hareket ettiğini izliyorum, haberin olsun!",
+          "Sert görünmeye çalışıyorlar ama ben yalnızca birer soytarı görüyorum!",
+          "",
+          "[Yunho]",
+          "",
+          "Yeah, yükselmeye devam ediyorum, artık beni kimse durduramaz!",
+          "Onlar geleceği görüyor, benim gözümse yalnızca taçta!",
+          "Yeah, nasıl hareket ettiğini izliyorum, haberin olsun!",
+          "",
+          "[Wooyoung]",
+          "",
+          "Ben durmadan devam ediyorum, devam, devam!",
+          "Ah, yeah, hep daha yukarı çıkıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "lines": [
+          "Yeah, I'm moving up",
+          "Let's go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "lines": [
+          "[Jongho]",
+          "",
+          "Yeah, yükselmeye devam ediyorum!",
+          "",
+          "[Seonghwa]",
+          "",
+          "Hadi!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Son Nakarat: Yeosang, San",
+        "lines": [
+          "Stars in my whip, hae jjeoneun jit",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Son Nakarat: Yeosang, San",
+        "lines": [
+          "[Yeosang]",
+          "",
+          "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
+          "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
+          "",
+          "[San]",
+          "",
+          "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
+          "Havamda boğuluyorlar, bo-boğuluyorlar!"
+        ]
+      }
+    ],
+    "excerpt": "ATEEZ — Drip sözleri ve Türkçe çevirisi. Romanize Korece ve İngilizce sözleri, üye bölümleri ve 22 çeviri notuyla birlikte oku.",
+    "annotations": {
+      "Havamda boğuluyorlar": "“Drip”: Düz anlamı damlamak; Amerikan hip-hop dilinde ise kıyafetleri, takıları, karizmayı ve genel olarak kişinin tarzını anlatır. ATEEZ — Drip nakaratında bu hava öylesine yoğunlaşır ki başkaları içinde boğulur. Üzerlerinden taşan lüks, karizma ve rakipleri gölgede bırakan sahne varlığı aynı su imgesinde buluşur. “Hava” karşılığı nakarattaki gösterişi taşırken şarkı adı Drip olarak korunur; kelimenin bütün çağrışımlarını tek bir Türkçe sözcükle vermek güçtür.",
+      "Buz gibi yapıyoruz işimizi": "“Do it cold, 네 남자와는 다르지”: 네 남자, “senin erkeğin / adamın”; 다르지, farklı olmayı ifade eder. Cold rap argosunda soğukkanlılığı, duygularını belli etmemeyi veya acımasız derecede iyi olmayı çağrıştırabilir. Satırın tavrı, “Biz bu işi soğukkanlılıkla yapıyoruz, senin adamın bizimle bir değil.” Çeviride “adam” seçimi korunur; bağlamdaki kişinin mutlaka romantik partner olduğu kesinleştirilmez.",
+      "değerimiz desen servetlik": "“갖지 다른 멋, 가치는 hella pricey”: 다른 멋 farklı tarz veya hava, 가치 ise değer demektir. Hella, “aşırı / çok” anlamında argo bir güçlendirme; pricey ise pahalıdır. “Bizim havamız bambaşka, değerimiz desen servetlik!” yalnızca kıyafetleri değil, grubun kendi değerini ve ulaşılmazlığını öven bir anlatım olarak okunur. “Paha biçilemez” daha serbest kalacağından pricey için “servetlik” tercih edilmiştir.",
+      "Başımın üstünde hare": "“박혀 있지 저 높은 곳에 이름이 / Halo on the move”: İlk satır ismin yüksek bir yere kazınmış veya yerleşmiş olmasını anlatır; zirvedeki konumun kalıcılığını ima eder. Halo, kutsal figürlerin başlarının çevresinde tasvir edilen ışık halkası, yani haledir. Çeviride gönderilen “Başımın üstünde hare bile süzülüyor!” ifadesi korunmuştur. Işık ve kutsallık imgeleri nakarattaki holy water ile de ilişkilendirilebilir; bu, sözler üzerinden yapılan yorumdur.",
+      "Yıldızları hedefliyorum": "“Shooting for the stars, 더 빛나 내 손목이”: Shoot for the stars büyük ve ulaşılması zor hedeflere yönelmeyi anlatan bir deyimdir. Korece bölümde bileğin daha çok parlaması söylenir. Rap bağlamında bilekteki ışık pahalı saatleri, pırlantaları ve bilezikleri çağrıştırır. “Yıldızları hedefliyorum, bileğim onlardan da parlak!” gökyüzündeki hedeflerle mücevherlerin ışıltısını bir arada tutar. Bilek vurgusunu kaldırmak lüks imgesini zayıflatırdı.",
+      "mucizeden bile hızlı yetişiriz": "“기적을 기다려줄 바엔 / 우리가 나타나 주는 게”: Korece yapı, bir mucizeyi beklemekle kendilerinin ortaya çıkmasını karşılaştırır. Ardından gelen we’ll show up faster, daha hızlı yetişeceklerini söyler. “Biz çıkageliriz; mucizeden bile hızlı yetişiriz!” kendilerini mucize beklemeye gerek bırakmayacak kadar etkili gören iddialı tavrı yansıtır. Bu, şarkının övünme dilidir.",
+      "banknotları deste deste yığıyoruz": "“We stack the paper”: Paper, rap argosunda para ve özellikle banknotları ifade edebilir; stack the paper para biriktirmek, deste deste yığmaktır. Korece 쓸어가는 중이야 ise silip süpürme veya önüne geleni toplama hareketini taşır. “Parayı silip süpürüyoruz, banknotları deste deste yığıyoruz!” iki dildeki imgeleri birleştirir. Burada paper’ın yalnızca “kâğıt” olarak çevrilmesi para argosunu kaybettirirdi.",
+      "Zirveye kadar tırmanmış bir ekibiz": "“오를 대로 올라온 팀 / 집요하고 끈질긴 fiends”: İlk ifade iyice yükselmiş bir ekibi; 집요하고 끈질긴 ise ısrarcı, inatçı ve pes etmeyen bir tavrı anlatır. Fiend iblis veya kötü ruh anlamlarının yanında bir şeye aşırı düşkün, takıntılı kişiyi de ifade edebilir. Sonraki Boogie Man ifadesiyle canavar imgesi güçlenir. Çevirideki “Gözü dönmüş, inatçı, pes etmeyen canavarlarız!” bu çağrışımı seçer; sözcüğün tek anlamı olduğu iddia edilmez.",
+      "Boogie Man": "“Call me Boogie Man”: Boogeyman / bogeyman, çocukları korkutmak için anlatılan hayalî varlık; Türkçede öcüye yakındır. Sözlerdeki Boogie Man yazımı ise boogie, yani dans etme ve hareketli müzikle eğlenme sözcüğünü de çağrıştırabilir. Böylece korkulan canavarla dans pistinin hâkimi anlamları birlikte okunabilir. Bu çift anlam sanatçı açıklamasıyla doğrulanmış değildir. Boogie Man ismini korumak, “öcü” karşılığında kaybolacak ses ve dans çağrışımını açık bırakır.",
+      "Arabamın içi yıldızlarla dolu": "“Stars in my whip”: Whip, Amerikan argosunda otomobildir. Arabanın içindeki yıldızlar, Rolls-Royce’un Starlight Headliner tasarımını çağrıştırır. Markanın resmî açıklamasında bu yıldızlı tavan görünümünün fiber optik ışıklarla oluşturulduğu belirtilir. “Arabamın içi yıldızlarla dolu!” lüks otomobil imgesini korur. Ancak sözlerde Rolls-Royce markası geçmediği için bu bağlantı kesin bir marka göndermesi değil, olası bir çağrışımdır.",
+      "tuğlaları üst üste diziyoruz": "“New house, we stackin’ bricks”: Brick tuğla, stacking bricks ise tuğlaları üst üste dizmektir. New house ile birlikte ev inşa etme veya mülk edinme imgesi kurulur. Rap dilinde brick bağlama göre para destelerini, büyük miktarları ya da yasa dışı madde paketlerini de çağrıştırabilir; bu söz bunlardan birini kesinleştirmez. “Yeni ev, tuğlaları üst üste diziyoruz!” doğrudan imgeyi korur. “Servetimizin üstüne servet koyuyoruz” daha serbest bir alternatif olurdu; “malikâne” ise özgün sözde olmayan ayrıntı eklerdi.",
+      "Kutsal su gibi bu havam": "“Feel like holy water, they drown in the drip”: Holy water, dinsel ritüel ve kutsamalarda kullanılan kutsal sudur. Drip ise hem sıvının damlamasını hem tarz ve gösterişi çağrıştırır. Burada olağanüstü bir hava kutsal suya benzetilirken diğerlerinin bu suda boğulması söylenir. Arınma veya kutsanma beklentisiyle boğulma imgesi arasındaki karşıtlık dikkat çekicidir. “Kutsal su gibi bu havam, onlar da içinde boğuluyor!” çevirisi bu yoğun karizmanın başkalarını bastırması yorumunu taşır.",
+      "Listenin en tepesine A harfini yazın": "“Line up 꼭대기에 A를 mention”: Line up sıralama veya dizilişi, 꼭대기 zirveyi, A를 mention ise A harfini belirtmeyi anlatır. A’nın ATEEZ’i temsil etmesi güçlü bir olası yorumdur; aynı harf en yüksek notu ve başarıyı da çağrıştırır. “Listenin en tepesine A harfini yazın!” bu üstünlük iddiasını aktarır. Belirli bir liste veya ödüle gönderme yapıldığına dair doğrulanmış bilgi yoktur.",
+      "Mikrofonu açtım, örneği önünüze koydum": "“Mic를 개시 reference 제시 / 멋있는 건 멋있게 베껴”: Mikrofonu kullanmaya başlamak ve bir referans sunmak, ardından “havalı olanı havalı biçimde kopyalayın” demek, kendilerini taklit edilen taraf olarak konumlandırır. 자식들 bağlama göre çocuklar, herifler veya veletler gibi karşılanabilir. “Veletler, bari havalı olanı adam gibi kopyalayın!” seçimi küçümseyici rap tavrını taşır. Sözlerin belirli bir gerçek sanatçıyı hedeflediği sonucuna varılmaz.",
+      "Çek kartı, çek, çek": "“Swipe, swipe, swipe / Dripping ice”: Swipe kart geçirmek, ekranda kaydırmak veya hızlıca çekmek gibi anlamlar taşıyabilir. Para ve lüks bağlamında kredi kartı çağrışımı güçlüdür; yine de kesinleşmiş tek okuma değildir. Ice rap argosunda pırlantaları ve gösterişli mücevherleri anlatır. “Çek kartı, çek, çek! Üstümüzden pırlantalar taşıyor!” tüketim ve taşan mücevher imgelerini bir araya getiren çeviri tercihidir.",
+      "yerçekiminin ayarı bozuluyor": "“마치 중력의 오류같이 / 짓눌리지 저 어색한 표정 봐”: 중력 yerçekimi, 오류 hata veya arıza; 짓눌리지 ise ezilme ve yoğun baskı altında kalma anlamını taşır. Ortaya çıkışlarının başkaları üzerinde anormal bir baskı oluşturduğu, yerçekiminde arıza olmuş gibi anlatılır. “Ortaya çıktığım an sanki yerçekiminin ayarı bozuluyor! Baskımız altında ezilip kalıyorlar; bak şu afallamış yüzlere!” fiziksel bir olayı değil, abartılı bir üstünlük metaforunu aktarır.",
+      "dişlerimde bembeyaz pırlantalar": "“White ice on my teeth”: Ice, rap argosunda mücevher ve pırlantadır; dişlerdeki ice, pırlantalı grillz aksesuarlarını çağrıştırır. Satır ayrıca grubun ATEEZ — Ice On My Teeth parçasıyla açık bir sözcük benzerliği taşır. Önceki şarkıya selam olması mümkündür; ancak yeni satırın özellikle o parçaya bilinçli gönderme olduğuna dair sanatçı açıklaması doğrulanmış değildir. “Dişlerimde bembeyaz pırlantalar!” hem takı imgesini hem bu olası bağlantıyı korur.",
+      "Bütün rakip kadroyu tasfiye ederim": "“Liquidate the roster / Watch me break the bank”: Liquidate finans dilinde varlıkları nakde çevirme veya tasfiye etme; roster takım kadrosu veya isim listesidir. Birlikte rakip kadroyu tamamen ortadan kaldırma imgesi oluştururlar. Break the bank bağlama göre çok büyük kazanç elde etme veya kaynakları tüketme gibi anlamlar taşıyabilir. Çeviride “İzle de gör, bankayı nasıl boşaltıyorum!” seçilmiştir. Tasfiye, banka ve servet sözcükleri, sonraki Buffett ve hisse senedi göndermelerine zemin kurar; gerçek bir suç itirafı olarak okunmaz.",
+      "Para bile herkesi sindiriyor": "“Cash is cowing, okay”: Gönderilen söz dökümünde bu şekilde yazılmıştır; gündelik İngilizcede yaygın ve yerleşik bir kalıp değildir. Cowing, to cow fiilinden geliyorsa birini korkutup sindirmeyi ifade edebilir. “Para bile herkesi sindiriyor, tamam!” bu olasılığa dayanan çeviri tercihidir ve kesin çeviri sayılmamalıdır. Resmî söz dökümü veya sanatçı açıklaması farklı bir yorumu gerektirebilir. Doğrulanmamış bir cash cow kelime oyunu eklenmemiştir.",
+      "Rakipsiz mavi okyanusun tadını çıkarıyorum": "“Blue ocean, 만끽”: Blue Ocean Strategy, mevcut pazarda aynı rakiplerle savaşmak yerine rekabetin olmadığı yeni bir pazar alanı yaratmayı anlatan strateji yaklaşımıdır. Korece 만끽, tadını doyasıya çıkarmaktır. “Rakipsiz mavi okyanusun tadını çıkarıyorum!” grubun kendine özgü bir alan oluşturduğu iddiasıyla okunabilir. Kavramın iş dünyasındaki anlamı yerleşiktir; ancak sözün özellikle Blue Ocean Strategy kitabına gönderme yaptığı doğrulanmış değildir.",
+      "Borsada Warren Buffett kesildim": "“주식으로, Buffett”: 주식으로, hisse senetleri aracılığıyla veya borsa üzerinden anlamına gelir. Buffett adı, uzun vadeli hisse senedi yatırımlarıyla tanınan Warren Buffett’ı çağrıştırır. Anlatıcı yalnızca zenginliğini değil, yatırım yaparak servetini büyütme iddiasını da öne çıkarır. “Borsada Warren Buffett kesildim!” ifadesindeki “kesilmek”, birine dönüşmüş gibi davranma anlamıyla Türkçe rap tavrını taşır. Bu satır gerçek yatırım portföyü hakkında doğrulanmış bir bilgi değildir.",
+      "benim gözümse yalnızca taçta": "“They see the vision but I only see the crown”: Vision geleceğe yönelik hedefi, planı veya büyük hayali; crown ise liderlik ve üstünlüğün simgesi olan tacı anlatır. Başkalarının hedefi görmesiyle anlatıcının doğrudan zafere odaklanması karşılaştırılır. “Onlar geleceği görüyor, benim gözümse yalnızca taçta!” bu ayrımı korur. “Taç benim olacak” gibi ek bir gelecek iddiası yerine, gözünün zaten taçta olduğu anlatılmıştır."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "5JaMKAodzzLdFM2ARRTXb9",
+        "name": "Drip",
+        "url": "https://open.spotify.com/track/5JaMKAodzzLdFM2ARRTXb9",
+        "isrc": "KRD442600027",
+        "durationMs": 181790,
+        "duration": "3:02",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "68KmkJeZGfwe1OUaivBa2L",
+        "name": "ATEEZ",
+        "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "68KmkJeZGfwe1OUaivBa2L",
+          "name": "ATEEZ",
+          "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L"
+        }
+      ],
+      "album": {
+        "id": "5RAg0Dd2xkkZ3LEZzPNxYT",
+        "name": "Drip",
+        "url": "https://open.spotify.com/album/5RAg0Dd2xkkZ3LEZzPNxYT",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20",
+        "artists": [
+          {
+            "id": "68KmkJeZGfwe1OUaivBa2L",
+            "name": "ATEEZ",
+            "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L"
+          }
+        ],
+        "releaseDate": "2026-10-23",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 KQ Entertainment under license to Sony Music Entertainment Korea Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "5JaMKAodzzLdFM2ARRTXb9",
+            "name": "Drip",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 181790,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5JaMKAodzzLdFM2ARRTXb9",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-23T08:11:15.651Z",
+      "trackUrl": "https://open.spotify.com/track/5JaMKAodzzLdFM2ARRTXb9",
+      "albumUrl": "https://open.spotify.com/album/5RAg0Dd2xkkZ3LEZzPNxYT",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "Drip",
+      "albumType": "Single",
+      "releaseDate": "2026-10-23",
+      "duration": "3:02",
+      "isrc": "KRD442600027",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+    "source": "user-provided",
+    "genres": [
+      "k-pop",
+      "hip-hop",
+      "pop-rap"
+    ],
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "originalScriptBlocks": [
+      {
+        "original": true,
+        "label": "Giriş: Seonghwa",
+        "lines": [
+          "Yeah"
+        ]
+      },
+      {
+        "original": true,
+        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "Pull up to the spot, yeah, we do it light speed, yeah",
+          "Do it, do it cold, 네 남자와는 다르지, yeah",
+          "갖지 다른 멋, 가치는 hella pricey-cey",
+          "Light speed, light speed, light speed, yeah",
+          "박혀 있지 저 높은 곳에 이름이, yeah",
+          "Halo on the move, 떠 있어 내 머리 위, yeah",
+          "Shooting for the stars, 더 빛나 내 손목이-이",
+          "Light speed, light speed, ooh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Mingi",
+        "lines": [
+          "기적을 기다려줄 바엔",
+          "우리가 나타나 주는 게 we'll show up faster",
+          "딴 거 팔 시간에 cut the chatter",
+          "쓸어가는 중이야 we stack the paper",
+          "오를 대로 올라온 팀",
+          "집요하고 끈질긴 fiends",
+          "무대 위에 서면 우리를",
+          "이렇게 부른다고 하대, call me Boogie Man"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "lines": [
+          "Stars in my whip, 해 쩌는 짓",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip",
+          "Stars in my whip, 해 쩌는 짓",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      },
+      {
+        "original": true,
+        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "lines": [
+          "Ha-ha, yeah",
+          "또 다음 location 못해 rotation, line up 꼭대기에 A를 mention",
+          "Mic를 개시 reference 제시 자식들, 멋있는 건 멋있게 베껴",
+          "Turn up, high tension, 멋은 이미 장착돼 있어",
+          "Swipe, swipe, swipe, 흘러넘쳐 dripping i-i-ice",
+          "나타나면 마치 중력의 오류같이",
+          "짓눌리지 저 어색한 표정 봐",
+          "I got my vision way too keen, white ice on my teeth",
+          "I play 'em like a machine, never gonna suffice"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Hongjoong",
+        "lines": [
+          "I'm a different monster",
+          "Liquidate the roster",
+          "Watch me break the bank",
+          "Leave this game a whole disaster",
+          "(Yeah) Cash is cowing, okay",
+          "(Yeah) 넘쳐흘러 금빛",
+          "(Yeah) Blue ocean, 만끽",
+          "주식으로, Buffett"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "lines": [
+          "Stars in my whip, 해 쩌는 짓",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip",
+          "Stars in my whip, 해 쩌는 짓",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "lines": [
+          "I'm rising up, can't stop me now",
+          "They see the vision but I only see the crown",
+          "You know I'm watchin', how you move around",
+          "They actin' tough but I can only see a clown",
+          "Yeah, I'm rising up, can't stop me now",
+          "They see the vision but I only see the crown",
+          "Yeah, you know I'm watchin', how you move around",
+          "I keep on going, I'm going, I'm going",
+          "Ah, yeah, I'm moving up"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "lines": [
+          "Yeah, I'm moving up",
+          "Let's go"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Son Nakarat: Yeosang, San",
+        "lines": [
+          "Stars in my whip, 해 쩌는 짓",
+          "New house, we stackin' bricks, pull up, I'm ownin'",
+          "Feel like holy water, yeah, they drown in the drip",
+          "They drown in the drip, dr-drown in the drip"
+        ]
+      }
+    ],
+    "editorialSources": [
+      {
+        "label": "Rolls-Royce — Starlight Headliner",
+        "url": "https://www.rolls-roycemotorcars.com/en_US/inspiring-greatness/objects/bespoke-craft-starlight-headliner.html"
+      },
+      {
+        "label": "Blue Ocean Strategy — kavramın açıklaması",
+        "url": "https://www.blueoceanstrategy.com/what-is-blue-ocean-strategy/"
+      }
+    ]
+  },
+  {
     "id": "5325",
     "title": "LISA Sweat Türkçe Çeviri",
     "song": "Sweat",
