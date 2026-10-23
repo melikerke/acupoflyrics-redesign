@@ -25,21 +25,21 @@
     "blocks": [
       {
         "original": true,
-        "label": "Giriş: Seonghwa",
+        "label": "Giriş",
         "lines": [
           "Yeah"
         ]
       },
       {
         "original": false,
-        "label": "Giriş: Seonghwa",
+        "label": "Giriş",
         "lines": [
           "Yeah!"
         ]
       },
       {
         "original": true,
-        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "label": "1. Verse",
         "lines": [
           "Pull up to the spot, yeah, we do it light speed, yeah",
           "Do it, do it cold, ne namjawaneun dareuji, yeah",
@@ -53,32 +53,21 @@
       },
       {
         "original": false,
-        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "label": "1. Verse",
         "lines": [
-          "[Seonghwa]",
-          "",
           "Mekâna yanaştık, ışık hızıyla giriyoruz, yeah!",
           "Buz gibi yapıyoruz işimizi, senin adamından çok farklıyız, yeah!",
-          "",
-          "[Yeosang]",
-          "",
           "Bizim havamız bambaşka, değerimiz desen servetlik!",
           "Işık hızı, ışık hızı, ışık hızı, yeah!",
-          "",
-          "[Wooyoung]",
-          "",
           "Adımız çoktan kazınmış o zirvelere, yeah!",
           "Başımın üstünde hare bile süzülüyor, yeah!",
-          "",
-          "[Jongho]",
-          "",
           "Yıldızları hedefliyorum, bileğim onlardan da parlak!",
           "Işık hızı, ışık hızı, ooh!"
         ]
       },
       {
         "original": true,
-        "label": "Ön Nakarat: Mingi",
+        "label": "Ön Nakarat",
         "lines": [
           "gijeogeul gidaryeojul baen",
           "uriga natana juneun ge we'll show up faster",
@@ -92,13 +81,12 @@
       },
       {
         "original": false,
-        "label": "Ön Nakarat: Mingi",
+        "label": "Ön Nakarat",
         "lines": [
           "Bir mucize olsun diye bekleyeceğimize,",
           "Biz çıkageliriz; mucizeden bile hızlı yetişiriz!",
           "Boş işlerle uğraşacağına kes şu gevezeliği!",
           "Parayı silip süpürüyoruz, banknotları deste deste yığıyoruz!",
-          "",
           "Zirveye kadar tırmanmış bir ekibiz!",
           "Gözü dönmüş, inatçı, pes etmeyen canavarlarız!",
           "Sahneye çıktığımızda bizi",
@@ -107,7 +95,7 @@
       },
       {
         "original": true,
-        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "label": "Nakarat",
         "lines": [
           "Stars in my whip, hae jjeoneun jit",
           "New house, we stackin' bricks, pull up, I'm ownin'",
@@ -121,32 +109,21 @@
       },
       {
         "original": false,
-        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "label": "Nakarat",
         "lines": [
-          "[San]",
-          "",
           "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
           "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
-          "",
-          "[Wooyoung]",
-          "",
           "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
           "Havamda boğuluyorlar, bo-boğuluyorlar!",
-          "",
-          "[Seonghwa]",
-          "",
           "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
           "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
-          "",
-          "[Yunho]",
-          "",
           "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
           "Havamda boğuluyorlar, bo-boğuluyorlar!"
         ]
       },
       {
         "original": true,
-        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "label": "2. Verse",
         "lines": [
           "Ha-ha, yeah",
           "tto daeum location mothae rotation, line up kkokdaegie A-reul mention",
@@ -161,36 +138,24 @@
       },
       {
         "original": false,
-        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "label": "2. Verse",
         "lines": [
-          "[Hongjoong]",
-          "",
           "Ha-ha, yeah!",
-          "",
           "Sıradaki durak yine başka bir yer, ama zirvedeki sıramız değişmez!",
           "Listenin en tepesine A harfini yazın!",
           "Mikrofonu açtım, örneği önünüze koydum!",
           "Veletler, bari havalı olanı adam gibi kopyalayın!",
-          "",
-          "[Mingi]",
-          "",
           "Coştur ortalığı, gerilim tavan; karizma zaten üstümüzde!",
           "Çek kartı, çek, çek! Üstümüzden pırlantalar taşıyor!",
-          "",
-          "[Jongho]",
-          "",
           "Ortaya çıktığım an sanki yerçekiminin ayarı bozuluyor!",
           "Baskımız altında ezilip kalıyorlar; bak şu afallamış yüzlere!",
-          "",
-          "[San]",
-          "",
           "Gözümden hiçbir şey kaçmaz, dişlerimde bembeyaz pırlantalar!",
           "Onlarla makine gibi oynarım, ne yapsam da yetmez!"
         ]
       },
       {
         "original": true,
-        "label": "Ön Nakarat: Hongjoong",
+        "label": "Ön Nakarat",
         "lines": [
           "I'm a different monster",
           "Liquidate the roster",
@@ -204,13 +169,12 @@
       },
       {
         "original": false,
-        "label": "Ön Nakarat: Hongjoong",
+        "label": "Ön Nakarat",
         "lines": [
           "Ben başka türden bir canavarım!",
           "Bütün rakip kadroyu tasfiye ederim!",
           "İzle de gör, bankayı nasıl boşaltıyorum!",
           "Bu oyunu darmadağın edip giderim!",
-          "",
           "(Yeah!) Para bile herkesi sindiriyor, tamam!",
           "(Yeah!) Altın gibi parıltılar taşıyor her yerden!",
           "(Yeah!) Rakipsiz mavi okyanusun tadını çıkarıyorum!",
@@ -219,7 +183,7 @@
       },
       {
         "original": true,
-        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "label": "Nakarat",
         "lines": [
           "Stars in my whip, hae jjeoneun jit",
           "New house, we stackin' bricks, pull up, I'm ownin'",
@@ -233,32 +197,21 @@
       },
       {
         "original": false,
-        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "label": "Nakarat",
         "lines": [
-          "[Yeosang]",
-          "",
           "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
           "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
-          "",
-          "[Yunho]",
-          "",
           "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
           "Havamda boğuluyorlar, bo-boğuluyorlar!",
-          "",
-          "[Wooyoung]",
-          "",
           "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
           "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
-          "",
-          "[Seonghwa]",
-          "",
           "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
           "Havamda boğuluyorlar, bo-boğuluyorlar!"
         ]
       },
       {
         "original": true,
-        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "label": "Köprü",
         "lines": [
           "I'm rising up, can't stop me now",
           "They see the vision but I only see the crown",
@@ -273,33 +226,22 @@
       },
       {
         "original": false,
-        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "label": "Köprü",
         "lines": [
-          "[Jongho]",
-          "",
           "Durmadan yükseliyorum, artık beni kimse durduramaz!",
           "Onlar geleceği görüyor, benim gözümse yalnızca taçta!",
-          "",
-          "[San]",
-          "",
           "Nasıl hareket ettiğini izliyorum, haberin olsun!",
           "Sert görünmeye çalışıyorlar ama ben yalnızca birer soytarı görüyorum!",
-          "",
-          "[Yunho]",
-          "",
           "Yeah, yükselmeye devam ediyorum, artık beni kimse durduramaz!",
           "Onlar geleceği görüyor, benim gözümse yalnızca taçta!",
           "Yeah, nasıl hareket ettiğini izliyorum, haberin olsun!",
-          "",
-          "[Wooyoung]",
-          "",
           "Ben durmadan devam ediyorum, devam, devam!",
           "Ah, yeah, hep daha yukarı çıkıyorum!"
         ]
       },
       {
         "original": true,
-        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "label": "Ara Bölüm",
         "lines": [
           "Yeah, I'm moving up",
           "Let's go"
@@ -307,20 +249,15 @@
       },
       {
         "original": false,
-        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "label": "Ara Bölüm",
         "lines": [
-          "[Jongho]",
-          "",
           "Yeah, yükselmeye devam ediyorum!",
-          "",
-          "[Seonghwa]",
-          "",
           "Hadi!"
         ]
       },
       {
         "original": true,
-        "label": "Son Nakarat: Yeosang, San",
+        "label": "Son Nakarat",
         "lines": [
           "Stars in my whip, hae jjeoneun jit",
           "New house, we stackin' bricks, pull up, I'm ownin'",
@@ -330,15 +267,10 @@
       },
       {
         "original": false,
-        "label": "Son Nakarat: Yeosang, San",
+        "label": "Son Nakarat",
         "lines": [
-          "[Yeosang]",
-          "",
           "Arabamın içi yıldızlarla dolu, yine acayip işler çeviriyorum!",
           "Yeni ev, tuğlaları üst üste diziyoruz; geldim mi her şeyin sahibi benim!",
-          "",
-          "[San]",
-          "",
           "Kutsal su gibi bu havam, onlar da içinde boğuluyor!",
           "Havamda boğuluyorlar, bo-boğuluyorlar!"
         ]
@@ -464,14 +396,14 @@
     "originalScriptBlocks": [
       {
         "original": true,
-        "label": "Giriş: Seonghwa",
+        "label": "Giriş",
         "lines": [
           "Yeah"
         ]
       },
       {
         "original": true,
-        "label": "1. Verse: Seonghwa, Yeosang, Wooyoung, Jongho",
+        "label": "1. Verse",
         "lines": [
           "Pull up to the spot, yeah, we do it light speed, yeah",
           "Do it, do it cold, 네 남자와는 다르지, yeah",
@@ -485,7 +417,7 @@
       },
       {
         "original": true,
-        "label": "Ön Nakarat: Mingi",
+        "label": "Ön Nakarat",
         "lines": [
           "기적을 기다려줄 바엔",
           "우리가 나타나 주는 게 we'll show up faster",
@@ -499,7 +431,7 @@
       },
       {
         "original": true,
-        "label": "Nakarat: San, Wooyoung, Seonghwa, Yunho",
+        "label": "Nakarat",
         "lines": [
           "Stars in my whip, 해 쩌는 짓",
           "New house, we stackin' bricks, pull up, I'm ownin'",
@@ -513,7 +445,7 @@
       },
       {
         "original": true,
-        "label": "2. Verse: Hongjoong, Mingi, Jongho, San",
+        "label": "2. Verse",
         "lines": [
           "Ha-ha, yeah",
           "또 다음 location 못해 rotation, line up 꼭대기에 A를 mention",
@@ -528,7 +460,7 @@
       },
       {
         "original": true,
-        "label": "Ön Nakarat: Hongjoong",
+        "label": "Ön Nakarat",
         "lines": [
           "I'm a different monster",
           "Liquidate the roster",
@@ -542,7 +474,7 @@
       },
       {
         "original": true,
-        "label": "Nakarat: Yeosang, Yunho, Wooyoung, Seonghwa",
+        "label": "Nakarat",
         "lines": [
           "Stars in my whip, 해 쩌는 짓",
           "New house, we stackin' bricks, pull up, I'm ownin'",
@@ -556,7 +488,7 @@
       },
       {
         "original": true,
-        "label": "Köprü: Jongho, San, Yunho, Wooyoung",
+        "label": "Köprü",
         "lines": [
           "I'm rising up, can't stop me now",
           "They see the vision but I only see the crown",
@@ -571,7 +503,7 @@
       },
       {
         "original": true,
-        "label": "Ara Bölüm: Jongho, Seonghwa",
+        "label": "Ara Bölüm",
         "lines": [
           "Yeah, I'm moving up",
           "Let's go"
@@ -579,7 +511,7 @@
       },
       {
         "original": true,
-        "label": "Son Nakarat: Yeosang, San",
+        "label": "Son Nakarat",
         "lines": [
           "Stars in my whip, 해 쩌는 짓",
           "New house, we stackin' bricks, pull up, I'm ownin'",

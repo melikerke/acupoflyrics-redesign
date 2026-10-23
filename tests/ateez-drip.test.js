@@ -9,12 +9,23 @@ const matches = posts.filter(post => post.slug === 'ateez-drip-turkce-ceviri');
 const post = matches[0];
 const hash = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 
-test('ATEEZ — Drip preserves supplied translation, speaker labels and all ten sections', () => {
+test('ATEEZ — Drip preserves lyric text in ten matched sections without speaker names', () => {
   assert.equal(matches.length, 1);
   const translated = post.blocks.filter(block => !block.original).map(block => block.lines);
   assert.equal(translated.length, 10);
-  assert.equal(hash(translated), 'afdbb8e4069ef361bcf653e4b00bee840ec6c1ea8c6d9838312bc2169bb41337');
-  assert.equal(hash(post.originalScriptBlocks), 'ba0328b93e0063102bdeb7e94c9a56cd12dcc933705c1474195e6e16df3e00b3');
+  assert.equal(hash(translated), 'f72d254fc89a05a27a3b907b7a166894b6579ad6c5387d15d4c912dfbd865f28');
+  assert.equal(hash(post.originalScriptBlocks), 'fec20103054ee038f2b1bfb49b556a64be3796b6c0535882c6060e05ca164d88');
+  for (let i = 0; i < post.blocks.length; i += 2) {
+    const original = post.blocks[i];
+    const translation = post.blocks[i + 1];
+    assert.equal(original.original, true);
+    assert.equal(translation.original, false);
+    assert.equal(original.label, translation.label);
+    for (const block of [original, translation]) {
+      assert.doesNotMatch(block.label, /Seonghwa|Yeosang|Wooyoung|Jongho|Mingi|San|Yunho|Hongjoong/);
+      assert.ok(block.lines.every(line => line.trim() && !/^\[.*\]$/.test(line)));
+    }
+  }
   assert.equal(post.originalScriptBlocks.length, 10);
   const romanized = post.blocks.filter(block => block.original).flatMap(block => block.lines).join('\n');
   assert.doesNotMatch(romanized, /[가-힣]/);
