@@ -127,6 +127,15 @@ export default function PopGundemiArticlePage() {
           )}
 
           <div className="pop-story-content">
+            {article.updateNotice && (
+              <section className="pop-story-summary pop-story-update" aria-label={article.updateNotice.label}>
+                <div className="pop-story-summary-heading">
+                  <h2 className="font-serif">{article.updateNotice.label}</h2>
+                </div>
+                <p>{article.updateNotice.text} <Link to={article.updateNotice.href}>{article.updateNotice.linkText} →</Link></p>
+                <p>{article.updateNotice.archiveNote}</p>
+              </section>
+            )}
             {article.summary?.length > 0 && (
               <section className="pop-story-summary" aria-labelledby="story-summary-title">
                 <div className="pop-story-summary-heading">

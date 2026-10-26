@@ -323,6 +323,8 @@ function staticSongArchivePage(items, page, pageCount) {
 }
 
 function staticArticle(article) {
+  const notice = article.updateNotice;
+  const update = notice ? `<section aria-label="${escapeHtml(notice.label)}"><h2>${escapeHtml(notice.label)}</h2><p>${escapeHtml(notice.text)} <a href="${escapeHtml(notice.href)}">${escapeHtml(notice.linkText)} →</a></p><p>${escapeHtml(notice.archiveNote)}</p></section>` : '';
   const linkedText = text => articleSongSegments(text, article, posts).map(part => {
     const href = articleLinkHref(part);
     return href ? `<a href="${escapeHtml(href)}">${escapeHtml(part.text)}</a>` : escapeHtml(part.text);
@@ -338,7 +340,7 @@ function staticArticle(article) {
     description: article.dek || article.excerpt,
     image: article.image,
     imageAlt: article.imageAlt || `${article.shortTitle || article.title} görseli`,
-    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${contents}${summary}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
+    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${update}${contents}${summary}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
   });
 }
 

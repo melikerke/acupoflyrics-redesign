@@ -483,6 +483,17 @@
   text-transform: uppercase;
 }
 
+.pop-story-update {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.pop-story-update p {
+  margin: 0;
+  line-height: 1.7;
+}
+
 .pop-story-summary-heading h2 {
   margin: 9px 0 0;
   color: var(--acl-text);

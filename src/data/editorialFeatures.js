@@ -33,7 +33,8 @@ export const editorialFeatures = [
         "body": [
           "14 Temmuz'da Kore basınından JoyNews24, Jihyo'nun JYP'den ayrılıp tek kişilik bir ajans kuracağını yazdı. JYP o gün yalnızca \"sözleşme yenileme görüşmeleri sürüyor\" demekle yetindi ve karar kesinleşince bilgi vereceğini söyledi.",
           "Zamanlama tesadüf değildi. TWICE üyeleri sözleşmelerini en son 2022'de yenilemişti ve bu sözleşmelerin süresi dolmak üzereydi. K-pop'ta bu dönem hep gergin geçer; hayranlar \"grup dağılıyor mu?\" diye sormaya başlar.",
-          "Jihyo da sessiz kalmadı. Temmuz sonunda hayranlarla yazıştığı Bubble uygulamasında dikkatle düşündüğü bir karar olduğunu söyledi ve hayranlara mümkün olan en kısa sürede haber vereceğine söz verdi. TWICE'ı ne kadar sevdiğini de özellikle vurguladı."
+        "Jihyo da sessiz kalmadı. Temmuz sonunda hayranlarla yazıştığı Bubble uygulamasında dikkatle düşündüğü bir karar olduğunu söyledi ve hayranlara mümkün olan en kısa sürede haber vereceğine söz verdi. TWICE'ı ne kadar sevdiğini de özellikle vurguladı.",
+        "Yazın konuşulanlar için 14 Temmuz tarihli TWICE ve JYP sözleşme gündemine göz at."
         ]
       },
       {
@@ -120,6 +121,10 @@ export const editorialFeatures = [
       "coldplay-twice-we-pray-turkce-ceviri"
     ],
     "inlineLinks": [
+      {
+        "label": "14 Temmuz tarihli TWICE ve JYP sözleşme gündemine",
+        "href": "/pop-gunlugu/twice-jyp-sozlesme-yenileme-iddialari"
+      },
       {
         "label": "TWICE — This Is For Türkçe çeviri",
         "href": "/twice-this-is-for-turkce-ceviri/"

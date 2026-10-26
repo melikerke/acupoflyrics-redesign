@@ -1,11 +1,30 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
+import { popGundemiArticles } from '../src/data/popGundemi.js';
 import { editorialFeatures } from '../src/data/editorialFeatures.js';
 import { articleSchema } from '../src/lib/articleSchema.js';
 import { normalizeSeoTitle } from '../src/lib/meta.js';
 import { articleSongSegments, articleLinkHref } from '../src/lib/articleSongLinks.js';
 const posts = JSON.parse(fs.readFileSync('src/data/posts.json', 'utf8'));
+
+test('July archive has a dated update before the old summary and both articles cross-link', () => {
+  const old = popGundemiArticles.find(a => a.slug === 'twice-jyp-sozlesme-yenileme-iddialari');
+  const news = editorialFeatures[0];
+  assert.equal(old.date, '2026-07-14');
+  assert.equal(old.updatedAt, '2026-10-26');
+  // Preserve the historical body, especially the other members' unconfirmed reports.
+  assert.equal(createHash('sha256').update(JSON.stringify(old.sections)).digest('hex'), '84ff91286372707d721be3406302ae7eab03d35627a48948bd77459f6ea18a41');
+  const page = decode(fs.readFileSync(`dist/pop-gunlugu/${old.slug}/index.html`, 'utf8'));
+  const visible = page.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, '');
+  assert.ok(visible.includes(old.updateNotice.text));
+  assert.ok(visible.includes(old.updateNotice.archiveNote));
+  assert.ok(visible.indexOf(old.updateNotice.label) < visible.indexOf(old.summaryTitle));
+  assert.ok(visible.includes(`href="/pop-gunlugu/${news.slug}"`));
+  const newPage = fs.readFileSync(`dist/pop-gunlugu/${news.slug}/index.html`, 'utf8');
+  assert.ok(newPage.includes(`href="/pop-gunlugu/${old.slug}"`));
+});
 const decode = text => text.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 
 test('new-tone articles retain URLs, summaries, copy, real inline links and metadata in first HTML', () => {
