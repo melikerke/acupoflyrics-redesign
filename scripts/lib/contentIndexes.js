@@ -60,7 +60,7 @@ export function buildArticleSearchIndex(articles) {
   return Object.fromEntries(articles.map((article) => [article.slug, [
     article.title, article.shortTitle, article.artistName, article.kicker,
     article.excerpt, article.dek, ...(article.summary || []),
-    ...(article.sections || []).flatMap((section) => [section.heading, ...(section.body || [])]),
+    ...(article.sections || []).flatMap((section) => [section.heading, ...(section.body || []), ...(section.list || []), ...(section.afterList || []), ...(section.questions || []).flatMap(({ question, answer }) => [question, answer])]),
   ].filter(Boolean).join(" ")]));
 }
 

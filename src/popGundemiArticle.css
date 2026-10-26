@@ -168,7 +168,8 @@
   text-wrap: balance;
 }
 
-.pop-story-section p {
+.pop-story-section p,
+.pop-story-section li {
   max-width: 72ch;
   margin: 0;
   color: color-mix(in srgb, var(--acl-text) 72%, var(--acl-muted));
@@ -179,6 +180,23 @@
 
 .pop-story-section p + p {
   margin-top: 22px;
+}
+
+.pop-story-section ul {
+  margin: 22px 0;
+  padding-left: 1.4em;
+  list-style: disc;
+}
+
+.pop-story-section li + li {
+  margin-top: 10px;
+}
+
+.pop-story-section h3 {
+  margin: 28px 0 12px;
+  color: var(--acl-text);
+  font-size: 21px;
+  line-height: 1.4;
 }
 
 .pop-story-section:first-child p:first-of-type {

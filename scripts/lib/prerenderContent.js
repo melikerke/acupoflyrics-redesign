@@ -71,8 +71,9 @@ export function staticArticleLinks(article, posts, articles = []) {
   const sources = (article.sources || []).filter((source) => safeExternalUrl(source.url));
   const position = articles.findIndex((item) => item.slug === article.slug);
   const neighbours = position < 0 ? [] : [articles[position - 1], articles[position + 1]].filter(Boolean);
-  return `${related.length ? `<section><h2>İlgili çeviriler</h2><ul>${related.map((post) => `<li><a href="/${escapeHtml(post.slug)}/">${escapeHtml(post.artist)} — ${escapeHtml(post.song)}</a></li>`).join("")}</ul></section>` : ""}
+  return `${related.length ? `<section><h2>${escapeHtml(article.relatedTitle || 'Şimdi sözlerine dalma zamanı')}</h2><p>${escapeHtml(article.relatedDescription || 'Yazıda geçen şarkıların Türkçe çevirilerini keşfet.')}</p><ul>${related.map((post) => `<li><a href="/${escapeHtml(post.slug)}/">${escapeHtml(post.artist)} — ${escapeHtml(post.song)}</a></li>`).join("")}</ul></section>` : ""}
     ${sources.length ? `<section><h2>Kaynaklar</h2><ul>${sources.map((source) => `<li><a href="${escapeHtml(safeExternalUrl(source.url))}" rel="noopener noreferrer">${escapeHtml(source.name)}</a></li>`).join("")}</ul></section>` : ""}
+    ${article.sourceNote ? `<p>${escapeHtml(article.sourceNote)}</p>` : ''}
     <p><a href="/pop-gunlugu">Pop Günlüğü'ne dön</a></p>
     ${neighbours.length ? `<nav aria-label="Diğer yazılar"><ul>${neighbours.map((item) => `<li><a href="/pop-gunlugu/${escapeHtml(item.slug)}">${escapeHtml(item.shortTitle || item.title)}</a></li>`).join("")}</ul></nav>` : ""}`;
 }

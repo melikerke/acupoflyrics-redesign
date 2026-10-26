@@ -2,7 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { buildPerformerCatalog, creditsFor, artistAliases } from "../src/lib/artistCatalog.js";
 import { articleAliases } from '../src/data/articleAliases.js';
-import { articleSongSegments } from '../src/lib/articleSongLinks.js';
+import { articleSongSegments, articleLinkHref } from '../src/lib/articleSongLinks.js';
+import { articleSchema } from '../src/lib/articleSchema.js';
 import { biographyFor, artistEntity } from '../src/lib/artistBiography.js';
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
@@ -322,8 +323,14 @@ function staticSongArchivePage(items, page, pageCount) {
 }
 
 function staticArticle(article) {
+  const linkedText = text => articleSongSegments(text, article, posts).map(part => {
+    const href = articleLinkHref(part);
+    return href ? `<a href="${escapeHtml(href)}">${escapeHtml(part.text)}</a>` : escapeHtml(part.text);
+  }).join('');
+  const paragraphs = lines => (lines || []).map(text => `<p>${linkedText(text)}</p>`).join('');
   const sections = (article.sections || []).map((section, index) => `
-    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${articleSongSegments(paragraph, article, posts).map(part => part.slug ? `<a href="/${escapeHtml(part.slug)}/">${escapeHtml(part.text)}</a>` : escapeHtml(part.text)).join('')}</p>`).join("")}</section>`).join("");
+    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${paragraphs(section.body)}${section.list?.length ? `<ul>${section.list.map(text => `<li>${linkedText(text)}</li>`).join('')}</ul>` : ''}${paragraphs(section.afterList)}${(section.questions || []).map(({ question, answer }) => `<h3>${escapeHtml(question)}</h3><p>${linkedText(answer)}</p>`).join('')}</section>`).join("");
+  const summary = article.summary?.length ? `<section aria-label="60 saniyede"><h2>${escapeHtml(article.summaryTitle || 'Kısa özet')}</h2><ol>${article.summary.map(text => `<li>${escapeHtml(text)}</li>`).join('')}</ol></section>` : '';
   const contents = (article.sections || []).length ? `<nav aria-label="Bu yazıda"><ol>${article.sections.map((section, index) => `<li><a href="#bolum-${index + 1}">${escapeHtml(section.heading)}</a></li>`).join("")}</ol></nav>` : "";
   return staticPage({
     kicker: article.kicker,
@@ -331,7 +338,7 @@ function staticArticle(article) {
     description: article.dek || article.excerpt,
     image: article.image,
     imageAlt: article.imageAlt || `${article.shortTitle || article.title} görseli`,
-    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${contents}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
+    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${contents}${summary}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
   });
 }
 
@@ -475,20 +482,11 @@ for (let page = 1; page <= songArchivePageCount; page += 1) {
 
 for (const article of popGundemiArticles) {
   const articlePath = `/pop-gunlugu/${article.slug}`;
-  const articleUrl = `${SITE}${articlePath}`;
-  const articleKeywords = [
-    article.artistName,
-    article.shortTitle,
-    article.kicker,
-    "Pop Günlüğü",
-    "müzik gündemi",
-    "Türkçe çeviri",
-  ].filter(Boolean);
 
   routes.push(route(
     articlePath,
-    `${article.shortTitle} | Pop Günlüğü`,
-    article.excerpt,
+    article.seoTitle || `${article.shortTitle} | Pop Günlüğü`,
+    article.metaDescription || article.excerpt,
     article.image,
     {
       type: "article",
@@ -499,29 +497,7 @@ for (const article of popGundemiArticles) {
         { name: "Pop Günlüğü", path: "/pop-gunlugu" },
         { name: article.shortTitle, path: articlePath },
       ],
-      jsonLd: {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-        headline: article.title,
-        alternativeHeadline: article.shortTitle,
-        description: article.excerpt,
-        url: articleUrl,
-        image: [article.image],
-        thumbnailUrl: article.image,
-        inLanguage: "tr-TR",
-        isAccessibleForFree: true,
-        articleSection: article.kicker,
-        keywords: articleKeywords,
-        datePublished: article.date,
-        dateModified: article.updatedAt || article.date,
-        author: { "@type": "Person", name: "Melike Erke", url: `${SITE}/hakkimizda` },
-        publisher: { "@type": "Organization", name: "acupoflyrics", url: SITE },
-        about: article.artistName
-          ? [{ "@type": "MusicGroup", name: article.artistName }]
-          : undefined,
-        citation: article.sources?.map((source) => source.url),
-      },
+      jsonLd: articleSchema(article, SITE),
     },
   ));
 }

@@ -3,7 +3,8 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { articleAliases } from '../data/articleAliases.js';
 import { getPopGundemiArticle, popGundemiArticles } from "../data/popGundemi";
 import { getPost, postPath, allPosts } from "../lib/content";
-import { articleSongSegments } from '../lib/articleSongLinks.js';
+import { articleSchema } from '../lib/articleSchema.js';
+import { articleLinkHref, articleSongSegments } from '../lib/articleSongLinks.js';
 import { useAlbumColor } from "../lib/color";
 import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
 import { themeFromColor } from "../lib/theme";
@@ -35,24 +36,12 @@ export default function PopGundemiArticlePage() {
   const { slug } = useParams();
   const article = getPopGundemiArticle(slug);
   const articlePath = article ? popJournalPath(article) : popJournalPath();
-  const articleUrl = `${ORIGIN}${articlePath}`;
   const fallbackColor = useMemo(() => colorFromHex(article?.accent), [article?.accent]);
   const coverColor = useAlbumColor(article?.image, fallbackColor);
   const storyTheme = useMemo(() => themeFromColor(coverColor), [coverColor]);
-  const articleKeywords = article
-    ? [
-        article.artistName,
-        article.shortTitle,
-        article.kicker,
-        "Pop Günlüğü",
-        "müzik gündemi",
-        "Türkçe çeviri",
-      ].filter(Boolean)
-    : [];
-
   useSeo({
-    title: article ? `${article.shortTitle} | Pop Günlüğü` : "Pop Günlüğü | acupoflyrics",
-    description: article?.excerpt,
+    title: article ? (article.seoTitle || `${article.shortTitle} | Pop Günlüğü`) : "Pop Günlüğü | acupoflyrics",
+    description: article?.metaDescription || article?.excerpt,
     path: articlePath,
     image: article?.image,
     type: "article",
@@ -62,31 +51,7 @@ export default function PopGundemiArticlePage() {
       { name: "Pop Günlüğü", path: popJournalPath() },
       { name: article?.shortTitle || "Yazı", path: article ? popJournalPath(article) : popJournalPath() },
     ],
-    jsonLd: article
-      ? {
-          "@context": "https://schema.org",
-          "@type": "Article",
-          mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-          headline: article.title,
-          alternativeHeadline: article.shortTitle,
-          description: article.excerpt,
-          url: articleUrl,
-          image: [article.image],
-          thumbnailUrl: article.image,
-          inLanguage: "tr-TR",
-          isAccessibleForFree: true,
-          articleSection: article.kicker,
-          keywords: articleKeywords,
-          datePublished: article.date,
-          dateModified: article.updatedAt || article.date,
-          author: { "@type": "Person", name: "Melike Erke", url: `${ORIGIN}/hakkimizda` },
-          publisher: { "@type": "Organization", name: "acupoflyrics", url: ORIGIN },
-          about: article.artistName
-            ? [{ "@type": "MusicGroup", name: article.artistName }]
-            : undefined,
-          citation: article.sources?.map((source) => source.url),
-        }
-      : null,
+    jsonLd: article ? articleSchema(article, ORIGIN) : null,
   });
 
   if (articleAliases[slug]) return <Navigate to={`/pop-gunlugu/${articleAliases[slug]}`} replace />;
@@ -98,15 +63,13 @@ export default function PopGundemiArticlePage() {
   const edition = article.edition || formatEdition(article.date);
   const issueLabel = article.issue || "Pop Günlüğü";
   const relatedTranslations = (article.relatedTranslations || []).map(getPost).filter(Boolean);
-  const livePanel = article.livePanel || {
-    label: "14 Temmuz 2026 itibarıyla",
-    title: "Son durum",
-    items: [
-      { label: "Resmi açıklama", text: "JYP, görüşmelerin sürdüğünü söylüyor." },
-      { label: "Yeni rapor", text: "JoyNews24, Jihyo'nun bireysel olarak ayrılabileceğini yazdı." },
-      { label: "Grup tarafı", text: "Haberlere göre TWICE üyeliğinin sürmesi bekleniyor." },
-    ],
-  };
+  const livePanel = article.livePanel;
+  const linkedText = text => articleSongSegments(text, article, allPosts).map((part, index) => {
+    const href = articleLinkHref(part);
+    if (!href) return part.text;
+    return href.startsWith('/') ? <Link key={index} to={href}>{part.text}</Link>
+      : <a key={index} href={href} target="_blank" rel="noopener noreferrer">{part.text}</a>;
+  });
 
   return (
     <SiteShell theme={storyTheme} wide>
@@ -168,7 +131,7 @@ export default function PopGundemiArticlePage() {
               <section className="pop-story-summary" aria-labelledby="story-summary-title">
                 <div className="pop-story-summary-heading">
                   <span>60 saniyede</span>
-                  <h2 id="story-summary-title" className="font-serif">Ayın kısa özeti</h2>
+                  <h2 id="story-summary-title" className="font-serif">{article.summaryTitle || "Kısa özet"}</h2>
                 </div>
                 <ol>
                   {article.summary.map((item, index) => (
@@ -181,7 +144,7 @@ export default function PopGundemiArticlePage() {
               </section>
             )}
 
-            <section className="pop-story-now" aria-label="Güncel durum">
+            {livePanel?.items?.length > 0 && <section className="pop-story-now" aria-label="Güncel durum">
               <div className="pop-story-now-heading">
                 <span>{livePanel.label}</span>
                 <h2>{livePanel.title}</h2>
@@ -191,7 +154,7 @@ export default function PopGundemiArticlePage() {
                   <p key={`${item.label}-${item.text}`}><strong>{item.label}</strong>{item.text}</p>
                 ))}
               </div>
-            </section>
+            </section>}
 
             {article.sections?.length > 0 && (
               <div className="pop-story-body">
@@ -203,7 +166,10 @@ export default function PopGundemiArticlePage() {
                   >
                     <span className="pop-story-section-number">{String(index + 1).padStart(2, "0")}</span>
                     <h2 className="font-serif">{section.heading}</h2>
-                    {section.body.map((paragraph) => <p key={paragraph}>{articleSongSegments(paragraph, article, allPosts).map((part, i) => part.slug ? <Link key={i} to={postPath(part.slug)}>{part.text}</Link> : part.text)}</p>)}
+                    {(section.body || []).map(paragraph => <p key={paragraph}>{linkedText(paragraph)}</p>)}
+                    {section.list?.length > 0 && <ul>{section.list.map(item => <li key={item}>{linkedText(item)}</li>)}</ul>}
+                    {(section.afterList || []).map(paragraph => <p key={paragraph}>{linkedText(paragraph)}</p>)}
+                    {(section.questions || []).map(({ question, answer }) => <div key={question}><h3>{question}</h3><p>{linkedText(answer)}</p></div>)}
                     {section.image && (
                       <figure className="pop-story-inline-figure">
                         {section.imageSource ? (
@@ -262,8 +228,8 @@ export default function PopGundemiArticlePage() {
               <section className="pop-story-related" aria-labelledby="related-translations-title">
                 <div className="pop-story-related-heading">
                   <span className="site-kicker">Haberde geçen sesler</span>
-                  <h2 id="related-translations-title" className="font-serif">Radardan çeviri arşivine</h2>
-                  <p>Haberi okudun; şimdi aynı dünyadan şarkıların sözlerine biraz daha yaklaş.</p>
+                  <h2 id="related-translations-title" className="font-serif">{article.relatedTitle || "Şimdi sözlerine dalma zamanı"}</h2>
+                  <p>{article.relatedDescription || "Yazıda geçen şarkıların Türkçe çevirilerini keşfet."}</p>
                 </div>
                 <div className="pop-story-related-grid">
                   {relatedTranslations.map((post) => (
@@ -293,10 +259,12 @@ export default function PopGundemiArticlePage() {
                 </div>
               </section>
 
+              {article.sourceNote && <p>{article.sourceNote}</p>}
+
               <div className="site-hero-actions pop-story-actions">
                 {article.artistSlug && (
                   <Link className="site-btn" to={artistPath(article.artistSlug)}>
-                    {article.artistName || "Sanatçı"} çevirilerini keşfet
+                    {article.artistLinkLabel || `${article.artistName || "Sanatçı"} çevirilerini keşfet`}
                   </Link>
                 )}
                 <Link className="site-btn-ghost" to={popJournalPath()}>Pop Günlüğü'ne dön</Link>

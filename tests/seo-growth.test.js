@@ -89,7 +89,7 @@ test('home, moods and contextual recommendations expose the editorial links', as
 test('new editorial features preserve sources, translation links and Melike Erke Article authorship', () => {
   for (const article of editorialFeatures) {
     const page = html(`pop-gunlugu/${article.slug}`);
-    const schema = ld(page).find(e => e['@type'] === 'Article');
+    const schema = ld(page).flatMap(e => e['@graph'] || [e]).find(e => e['@type'] === (article.schemaType || 'Article'));
     assert.equal(schema.author.name, 'Melike Erke');
     assert.equal(schema.author['@type'], 'Person');
     assert.equal(schema.datePublished, article.date);
