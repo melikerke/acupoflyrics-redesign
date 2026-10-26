@@ -50,5 +50,14 @@
       "rating": 5,
       "createdAt": "2026-09-26T11:14:09.639Z"
     }
+  ],
+  "manifest-tralala-turkce-ceviri": [
+    {
+      "id": "c-mvp39h5o-ktbo1c",
+      "name": "İngilizce okunuşu olsun",
+      "body": "İngilizce okunuşu olsun yanlış attınız",
+      "rating": 5,
+      "createdAt": "2026-10-26T10:03:17.916Z"
+    }
   ]
 }
