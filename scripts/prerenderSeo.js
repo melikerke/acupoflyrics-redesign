@@ -7,7 +7,7 @@ import { articleSchema } from '../src/lib/articleSchema.js';
 import { biographyFor, artistEntity } from '../src/lib/artistBiography.js';
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
-import { completeSeoDescription, fitSeoTitle, normalizeSeoTitle, translationMetaDescription, translationMetaTitle } from "../src/lib/meta.js";
+import { articleMetaTitle, completeSeoDescription, fitSeoTitle, normalizeSeoTitle, translationMetaDescription, translationMetaTitle } from "../src/lib/meta.js";
 import { spotifyImageUrl } from "../src/lib/images.js";
 import { languageInfo, languagesFor, translationLabel } from "../src/lib/languages.js";
 import { genreDescriptions, collectionNoindex } from "../src/lib/collectionDescriptions.js";
@@ -487,7 +487,7 @@ for (const article of popGundemiArticles) {
 
   routes.push(route(
     articlePath,
-    article.seoTitle || `${article.shortTitle} | Pop Günlüğü`,
+    articleMetaTitle(article),
     article.metaDescription || article.excerpt,
     article.image,
     {

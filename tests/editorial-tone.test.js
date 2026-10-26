@@ -5,9 +5,27 @@ import { createHash } from 'node:crypto';
 import { popGundemiArticles } from '../src/data/popGundemi.js';
 import { editorialFeatures } from '../src/data/editorialFeatures.js';
 import { articleSchema } from '../src/lib/articleSchema.js';
-import { normalizeSeoTitle } from '../src/lib/meta.js';
+import { articleMetaTitle, normalizeSeoTitle } from '../src/lib/meta.js';
 import { articleSongSegments, articleLinkHref } from '../src/lib/articleSongLinks.js';
 const posts = JSON.parse(fs.readFileSync('src/data/posts.json', 'utf8'));
+
+test('all editorial titles preserve the brand within the title budget', () => {
+  for (const article of popGundemiArticles) {
+    const title = articleMetaTitle(article);
+    assert.ok(title.endsWith(' | acupoflyrics'), article.slug);
+    assert.ok(title.length <= 65, `${article.slug}: ${title}`);
+    assert.equal(normalizeSeoTitle(title), title);
+    const page = decode(fs.readFileSync(`dist/pop-gunlugu/${article.slug}/index.html`, 'utf8'));
+    assert.ok(page.includes(`<title>${title}</title>`), article.slug);
+  }
+});
+
+test('related song cards preserve the original artist name casing', () => {
+  const css = fs.readFileSync('src/popGundemiArticle.css', 'utf8');
+  const rule = css.match(/\.pop-story-related-card small\s*\{([^}]+)\}/);
+  assert.ok(rule);
+  assert.match(rule[1], /text-transform:\s*none/);
+});
 
 test('July archive has a dated update before the old summary and both articles cross-link', () => {
   const old = popGundemiArticles.find(a => a.slug === 'twice-jyp-sozlesme-yenileme-iddialari');
@@ -37,7 +55,7 @@ test('new-tone articles retain URLs, summaries, copy, real inline links and meta
     const raw = fs.readFileSync(`dist/pop-gunlugu/${article.slug}/index.html`, 'utf8');
     const page = decode(raw);
     const visible = page.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, '').replace(/<[^>]*>/g, '');
-    assert.ok(page.includes(`<title>${normalizeSeoTitle(article.seoTitle)}</title>`), article.slug);
+    assert.ok(page.includes(`<title>${articleMetaTitle(article)}</title>`), article.slug);
     assert.ok(visible.includes(article.dek));
     for (const summary of article.summary) assert.ok(visible.includes(summary), summary);
     assert.doesNotMatch(visible, /Ekip notu:|Semrush|Schema:|14 Temmuz 2026 itibarıyla/);

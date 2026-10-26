@@ -746,7 +746,7 @@
   font-weight: 900;
   letter-spacing: 0.1em;
   text-overflow: ellipsis;
-  text-transform: uppercase;
+  text-transform: none;
   white-space: nowrap;
 }
 

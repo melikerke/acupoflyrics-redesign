@@ -49,6 +49,15 @@ export function normalizeSeoTitle(value) {
   return fitSeoTitle([title, withoutSite, `${lead} | acupoflyrics`, lead]);
 }
 
+export function articleMetaTitle(article) {
+  const suffix = ' | acupoflyrics';
+  const clean = value => String(value || '').replace(/\s*\|\s*(?:acupoflyrics|Pop Günlüğü)\s*$/i, '').trim();
+  const candidates = [article.seoTitle, article.shortTitle, article.title].map(clean).filter(Boolean);
+  const budget = META_TITLE_MAX - suffix.length;
+  const title = candidates.find(value => value.length <= budget) || fitSeoTitle([candidates[0] || 'Pop Günlüğü'], budget);
+  return `${title}${suffix}`;
+}
+
 export function completeSeoDescription(value, locale = "tr") {
   // A complete short sentence is better than padding to a character target.
   // The brand includes "lyrics", so content text must never infer its locale.

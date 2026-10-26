@@ -9,6 +9,7 @@ import { useAlbumColor } from "../lib/color";
 import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
 import { themeFromColor } from "../lib/theme";
 import { useSeo } from "../lib/seo";
+import { articleMetaTitle } from '../lib/meta.js';
 import SiteShell from "../components/site/SiteShell";
 import { Breadcrumbs, Icon } from "../components/site/ui";
 import NotFound from "../components/site/NotFound";
@@ -40,7 +41,7 @@ export default function PopGundemiArticlePage() {
   const coverColor = useAlbumColor(article?.image, fallbackColor);
   const storyTheme = useMemo(() => themeFromColor(coverColor), [coverColor]);
   useSeo({
-    title: article ? (article.seoTitle || `${article.shortTitle} | Pop Günlüğü`) : "Pop Günlüğü | acupoflyrics",
+    title: article ? articleMetaTitle(article) : "Pop Günlüğü | acupoflyrics",
     description: article?.metaDescription || article?.excerpt,
     path: articlePath,
     image: article?.image,

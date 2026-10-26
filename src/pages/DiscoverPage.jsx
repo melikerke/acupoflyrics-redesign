@@ -102,7 +102,7 @@ export default function DiscoverPage() {
       <Section title="Rastgele keşif" kicker="Şansını dene">
         <div className="site-random">
           <div>
-            <span className="site-kicker">No. {random.no} · {random.artist}</span>
+            <span className="site-kicker">No. {random.no} · <span style={{ textTransform: "none" }}>{random.artist}</span></span>
             <h3 className="font-serif">{random.song}</h3>
             <p>{rm.readingTime} dk okuma · İçine düşmek için bir tık uzakta.</p>
             <div className="site-hero-actions" style={{ marginTop: 20 }}>
