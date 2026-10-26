@@ -1,5 +1,9 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { buildPerformerCatalog, creditsFor, artistAliases } from "../src/lib/artistCatalog.js";
+import { articleAliases } from '../src/data/articleAliases.js';
+import { articleSongSegments } from '../src/lib/articleSongLinks.js';
+import { biographyFor, artistEntity } from '../src/lib/artistBiography.js';
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
 import { completeSeoDescription, fitSeoTitle, normalizeSeoTitle, translationMetaDescription, translationMetaTitle } from "../src/lib/meta.js";
@@ -10,7 +14,7 @@ import { albumCoverage, albumArchiveDescription, artistArchiveSummary, catalogRe
 import { heroPair, compactSpotify } from "./lib/contentIndexes.js";
 import { moodsForPost } from "../src/lib/moodClassifier.js";
 import { staticSupportPage, staticChartsContent, staticArticleLinks, staticSongInsight, staticSongAnnotations, staticSongVideoLink, staticSongSpotifyLink, staticLinksHub } from "./lib/prerenderContent.js";
-import { moodCollections, postsForMoodCollection, moodLandingPages, popularMoodPosts, moodPage, moodPagePath, moodPageTitle, moodRankingNote } from '../src/lib/moodCollections.js';
+import { moodCollections, postsForMoodCollection, moodLandingPages, popularMoodPosts, moodPage, moodPagePath, moodPageTitle } from '../src/lib/moodCollections.js';
 import { linksHubDescription } from '../src/lib/linksHub.js';
 import { moodAliases } from '../src/data/moodLandingPages.js';
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
@@ -84,57 +88,10 @@ function albumSlugForPost(post) {
   return slugify(`${albumArtistFor(post)}-${albumNameFor(post)}`);
 }
 
-function primaryArtistSlug(post) {
-  const exact = preferredArtistByName.get(String(post.artist || "").trim().toLowerCase());
-  return exact?.slug || post.category_slugs?.[0] || slugify(post.artist);
-}
-
-const performerNames = new Set(
-  posts.flatMap((post) => String(post.artist || "")
-    .split(/\s*,\s*/)
-    .map((name) => name.trim().toLowerCase())
-    .filter(Boolean)),
-);
-const categorySlugUse = new Map();
-for (const post of posts) {
-  const credits = new Set(String(post.artist || "").split(/\s*,\s*/).map((name) => name.trim().toLowerCase()));
-  for (let index = 0; index < (post.category_slugs || []).length; index += 1) {
-    const slug = post.category_slugs[index];
-    const name = String(post.categories?.[index] || "").trim().toLowerCase();
-    if (!credits.has(name)) continue;
-    const key = `${name}::${slug}`;
-    categorySlugUse.set(key, (categorySlugUse.get(key) || 0) + 1);
-  }
-}
-const preferredArtistByName = new Map();
-for (const artist of artistsRaw) {
-  const key = String(artist.name || "").trim().toLowerCase();
-  if (!performerNames.has(key)) continue;
-  const current = preferredArtistByName.get(key);
-  if (!current || (categorySlugUse.get(`${key}::${artist.slug}`) || 0) > (categorySlugUse.get(`${key}::${current.slug}`) || 0)) {
-    preferredArtistByName.set(key, artist);
-  }
-}
-
-function creditedArtists(post) {
-  return String(post.artist || "")
-    .split(/\s*,\s*/)
-    .map((name) => name.trim())
-    .filter(Boolean)
-    .map((name) => {
-      const key = name.toLowerCase();
-      const categoryIndex = (post.categories || []).findIndex(
-        (category) => String(category || "").trim().toLowerCase() === key,
-      );
-      const categorySlug = categoryIndex >= 0 ? post.category_slugs?.[categoryIndex] : null;
-      const meta = preferredArtistByName.get(key);
-      return {
-        slug: meta?.slug || categorySlug || slugify(name),
-        name: key === 'tate mcrae' ? 'Tate McRae' : meta?.name || name,
-        image: meta?.image,
-      };
-    });
-}
+const performerCatalog = buildPerformerCatalog(artistsRaw, posts);
+const preferredArtistByName = new Map(performerCatalog.map(artist => [artist.name.toLowerCase(), artist]));
+function creditedArtists(post) { return creditsFor(post, performerCatalog); }
+function primaryArtistSlug(post) { return creditedArtists(post)[0]?.slug || ''; }
 
 function firstPair(post) {
   let en = "";
@@ -172,7 +129,7 @@ function staticGenreFor(post) {
 
 function staticLinks(items) {
   return items.map((item) => `
-    <li><a href="${escapeHtml(postPath(item))}">${escapeHtml(item.artist)} — ${escapeHtml(item.song)}</a></li>`).join("");
+    <li><a href="${escapeHtml(postPath(item))}">${escapeHtml(item.artist)} — ${escapeHtml(item.song)} ${languagesFor(item).translation === 'tr' ? 'Türkçe çeviri' : 'English translation'}</a></li>`).join("");
 }
 
 function staticDirectoryLinks(items, pathFor, labelFor) {
@@ -224,6 +181,7 @@ function staticHome(items) {
     </header>
     <main class="seo-home-shell">
       <h1>Şarkı Sözleri ve Türkçe Çeviriler</h1>
+      <section aria-label="Çok okunanlar"><h2>Çok okunanlar</h2><ul>${staticLinks(homeIndex.popularSongs || [])}</ul></section>
       <div class="seo-home-main">
         <section class="seo-home-hero" aria-labelledby="seo-home-featured">
           <img class="seo-home-hero-bg" src="${escapeHtml(background)}" width="300" height="300" fetchpriority="high" decoding="async" alt="" aria-hidden="true" />
@@ -337,14 +295,14 @@ function staticSong(post, postIndex) {
   });
 }
 
-function staticCollectionPage({ kicker, title, description, image, items }) {
+function staticCollectionPage({ kicker, title, description, image, items, beforeList = '' }) {
   return staticPage({
     kicker,
     title,
     description,
     image,
     imageAlt: `${title} kapak görseli`,
-    children: `<h2>Şarkılar</h2><ul>${staticLinks(items)}</ul>`,
+    children: `${beforeList}<h2>Şarkılar</h2><ul>${staticLinks(items)}</ul>`,
   });
 }
 
@@ -365,7 +323,7 @@ function staticSongArchivePage(items, page, pageCount) {
 
 function staticArticle(article) {
   const sections = (article.sections || []).map((section, index) => `
-    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</section>`).join("");
+    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${(section.body || []).map((paragraph) => `<p>${articleSongSegments(paragraph, article, posts).map(part => part.slug ? `<a href="/${escapeHtml(part.slug)}/">${escapeHtml(part.text)}</a>` : escapeHtml(part.text)).join('')}</p>`).join("")}</section>`).join("");
   const contents = (article.sections || []).length ? `<nav aria-label="Bu yazıda"><ol>${article.sections.map((section, index) => `<li><a href="#bolum-${index + 1}">${escapeHtml(section.heading)}</a></li>`).join("")}</ol></nav>` : "";
   return staticPage({
     kicker: article.kicker,
@@ -557,7 +515,7 @@ for (const article of popGundemiArticles) {
         keywords: articleKeywords,
         datePublished: article.date,
         dateModified: article.updatedAt || article.date,
-        author: { "@type": "Organization", name: "acupoflyrics", url: SITE },
+        author: { "@type": "Person", name: "Melike Erke", url: `${SITE}/hakkimizda` },
         publisher: { "@type": "Organization", name: "acupoflyrics", url: SITE },
         about: article.artistName
           ? [{ "@type": "MusicGroup", name: article.artistName }]
@@ -647,16 +605,15 @@ for (const post of catalogPosts) {
 
 for (const artist of artists.values()) {
   // Match the app's artist archive, including its existing category credits.
-  artist.posts = catalogPosts.filter((post) => primaryArtistSlug(post) === artist.slug || (post.category_slugs || []).includes(artist.slug));
+  artist.posts = catalogPosts.filter(post => creditedArtists(post).some(credit => credit.slug === artist.slug));
   artist.count = artist.posts.length;
   const targetMode = collectionTargetMode(artist.posts);
   const translationDirection = targetMode === "en"
     ? "İngilizce Çevirileri"
     : targetMode === "tr" ? "Türkçe Çevirileri" : "Şarkı Çevirileri";
-  const title = fitSeoTitle([
-    `${artist.name} Şarkı Sözleri ve ${translationDirection} | acupoflyrics`,
-    `${artist.name} ${translationDirection} | acupoflyrics`,
-  ]);
+  const title = `${artist.name} Şarkı Sözleri ve ${translationDirection} | acupoflyrics`;
+  const biography = biographyFor(artist);
+  const bioHtml = biography ? `<section class="artist-biography"><h2>${escapeHtml(artist.name)} hakkında</h2><p>${escapeHtml(biography.text)}</p><p>${escapeHtml(biography.catalogText)} ${biography.songs.map(p => `<a href="${postPath(p)}">${escapeHtml(p.artist)} — ${escapeHtml(p.song)} Türkçe çeviri</a>`).join(', ')}.</p><details><summary>Biyografi kaynakları</summary><ul>${biography.sources.map(url => `<li><a href="${escapeHtml(url)}">${escapeHtml(new URL(url).hostname)}</a></li>`).join('')}</ul></details></section>` : '';
   const artistAlbums = [...albums.values()].filter((album) => (preferredArtistByName.get(album.artist.toLowerCase())?.slug || slugify(album.artist)) === artist.slug);
   const description = artistArchiveSummary({ ...artist, posts: artist.posts, albums: artistAlbums });
   routes.push(route(
@@ -666,6 +623,7 @@ for (const artist of artists.values()) {
     artist.cover,
     {
       type: "profile",
+      jsonLd: artistEntity(artist, biography),
       lastmod: artist.posts.map(publicationDate).filter(Boolean).sort().at(-1),
       staticHtml: staticCollectionPage({
         kicker: "Sanatçı",
@@ -673,6 +631,7 @@ for (const artist of artists.values()) {
         description,
         image: artist.cover,
         items: artist.posts,
+        beforeList: bioHtml,
       }),
       breadcrumbs: [
         { name: "Ana sayfa", path: "/" },
@@ -834,7 +793,7 @@ for (const year of collectionYears) {
   ));
 }
 for (const mood of moodCollections) {
-  const moodPosts = popularMoodPosts(postsForMoodCollection(mood, posts));
+  const moodPosts = popularMoodPosts(postsForMoodCollection(mood, posts), mood);
   const pageCount = moodPage(moodPosts).pageCount;
   const label = mood.name;
   const description = mood.description;
@@ -850,7 +809,7 @@ for (const mood of moodCollections) {
       title: page === 1 ? label : `${label} · Sayfa ${page}`,
       description,
       image: moodPosts[0]?.cover,
-      children: `<section id="songs"><h2>Şarkılar (${moodPosts.length})</h2><p>${escapeHtml(moodRankingNote)}</p><p>${items.length ? start + 1 : 0}–${start + items.length} / ${moodPosts.length} şarkı · Sayfa ${page} / ${pageCount}</p><ul>${staticLinks(items)}</ul>${pagination}</section>`,
+      children: `<section id="songs"><h2>Şarkılar (${moodPosts.length})</h2><p>${items.length ? start + 1 : 0}–${start + items.length} / ${moodPosts.length} şarkı · Sayfa ${page} / ${pageCount}</p><ul>${staticLinks(items)}</ul>${pagination}</section>`,
     }),
     breadcrumbs: [
       { name: "Ana sayfa", path: "/" },
@@ -959,6 +918,12 @@ for (const artist of artists.values()) {
 for (const [legacySlug, canonicalSlug] of legacyAlbumRedirects) {
   redirectLines.push(`/album/${legacySlug} /album/${canonicalSlug} 301`);
   redirectLines.push(`/album/${legacySlug}/ /album/${canonicalSlug} 301`);
+}
+for (const [alias, target] of Object.entries(artistAliases)) {
+  redirectLines.push(`/artist/${alias} /artist/${target} 301`, `/artist/${alias}/ /artist/${target} 301`);
+}
+for (const [alias, target] of Object.entries(articleAliases)) {
+  redirectLines.push(`/pop-gunlugu/${alias} /pop-gunlugu/${target} 301`, `/pop-gunlugu/${alias}/ /pop-gunlugu/${target} 301`);
 }
 redirectLines.push(`/home-preview / 301`);
 redirectLines.push(`/ceviri-preview / 301`);

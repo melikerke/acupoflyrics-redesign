@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { compactSpotify } from "./lib/contentIndexes.js";
+import { buildPerformerCatalog, artistAliases } from '../src/lib/artistCatalog.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const posts = JSON.parse(await readFile(path.join(ROOT, "src/data/posts.json"), "utf8"));
@@ -42,30 +43,7 @@ function albumArtistFor(post) {
   return String(spotify.albumArtist || spotify.artistName || post.artist || "").replace(/\s+/g, " ").trim();
 }
 
-const performerNames = new Set(
-  posts.flatMap((post) => String(post.artist || "").split(/\s*,\s*/).map(normalize).filter(Boolean)),
-);
-
-const categorySlugUse = new Map();
-for (const post of posts) {
-  const credits = new Set(String(post.artist || "").split(/\s*,\s*/).map(normalize));
-  for (let index = 0; index < (post.category_slugs || []).length; index += 1) {
-    const name = normalize(post.categories?.[index]);
-    if (!credits.has(name)) continue;
-    const key = `${name}::${post.category_slugs[index]}`;
-    categorySlugUse.set(key, (categorySlugUse.get(key) || 0) + 1);
-  }
-}
-
-const preferredArtistByName = new Map();
-for (const artist of artistsRaw) {
-  const name = normalize(artist.name);
-  if (!artist.slug || !performerNames.has(name)) continue;
-  const current = preferredArtistByName.get(name);
-  const score = categorySlugUse.get(`${name}::${artist.slug}`) || 0;
-  const currentScore = current ? categorySlugUse.get(`${name}::${current.slug}`) || 0 : -1;
-  if (!current || score > currentScore) preferredArtistByName.set(name, artist);
-}
+const preferredArtistByName = new Map(buildPerformerCatalog(artistsRaw, posts).map(artist => [normalize(artist.name), artist]));
 
 const albumTargetsByCategory = new Map();
 const albumTargetsByName = new Map();
@@ -113,6 +91,7 @@ for (const [slug, name] of Object.entries(legacyOnlyTerms)) terms.set(slug, name
 
 const redirects = {};
 for (const [slug, name] of [...terms].sort(([a], [b]) => a.localeCompare(b))) {
+  if (artistAliases[slug]) { redirects[slug] = `/artist/${artistAliases[slug]}`; continue; }
   const artist = preferredArtistByName.get(normalize(name));
   if (artist) {
     redirects[slug] = `/artist/${artist.slug}`;

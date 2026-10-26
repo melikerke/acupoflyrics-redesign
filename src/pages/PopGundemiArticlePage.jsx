@@ -1,7 +1,9 @@
 import { useMemo } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
+import { articleAliases } from '../data/articleAliases.js';
 import { getPopGundemiArticle, popGundemiArticles } from "../data/popGundemi";
-import { getPost, postPath } from "../lib/content";
+import { getPost, postPath, allPosts } from "../lib/content";
+import { articleSongSegments } from '../lib/articleSongLinks.js';
 import { useAlbumColor } from "../lib/color";
 import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
 import { themeFromColor } from "../lib/theme";
@@ -76,8 +78,8 @@ export default function PopGundemiArticlePage() {
           articleSection: article.kicker,
           keywords: articleKeywords,
           datePublished: article.date,
-          dateModified: article.updatedAt,
-          author: { "@type": "Organization", name: "acupoflyrics", url: ORIGIN },
+          dateModified: article.updatedAt || article.date,
+          author: { "@type": "Person", name: "Melike Erke", url: `${ORIGIN}/hakkimizda` },
           publisher: { "@type": "Organization", name: "acupoflyrics", url: ORIGIN },
           about: article.artistName
             ? [{ "@type": "MusicGroup", name: article.artistName }]
@@ -87,6 +89,7 @@ export default function PopGundemiArticlePage() {
       : null,
   });
 
+  if (articleAliases[slug]) return <Navigate to={`/pop-gunlugu/${articleAliases[slug]}`} replace />;
   if (!article) return <NotFound />;
   const articleIndex = popGundemiArticles.findIndex((item) => item.slug === article.slug);
   const newerArticle = articleIndex > 0 ? popGundemiArticles[articleIndex - 1] : null;
@@ -200,7 +203,7 @@ export default function PopGundemiArticlePage() {
                   >
                     <span className="pop-story-section-number">{String(index + 1).padStart(2, "0")}</span>
                     <h2 className="font-serif">{section.heading}</h2>
-                    {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                    {section.body.map((paragraph) => <p key={paragraph}>{articleSongSegments(paragraph, article, allPosts).map((part, i) => part.slug ? <Link key={i} to={postPath(part.slug)}>{part.text}</Link> : part.text)}</p>)}
                     {section.image && (
                       <figure className="pop-story-inline-figure">
                         {section.imageSource ? (

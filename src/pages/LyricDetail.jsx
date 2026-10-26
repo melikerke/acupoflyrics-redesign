@@ -744,7 +744,7 @@ export default function LyricDetail() {
                   <Link key={p.slug} to={postPath(p)} className="detail-related-card">
                     <img src={p.cover} alt="" loading="lazy" />
                     <span>
-                      <strong className="font-serif">{p.song}</strong>
+                      <strong className="font-serif">{p.song} {languagesFor(p).translation === 'tr' ? 'Türkçe çeviri' : 'English translation'}</strong>
                       <em lang={languagesFor(p).translation}>“{pr.tr}”</em>
                     </span>
                   </Link>

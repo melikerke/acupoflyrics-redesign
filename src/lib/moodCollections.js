@@ -1,15 +1,16 @@
 import { MOOD_NAMES, moodsForPost } from './moodClassifier.js';
+import { moodPins } from '../data/internalLinkPlan.js';
 import { moodDescriptions } from './collectionDescriptions.js';
 import { moodLandingPages, moodLandingFor, moodAliases, breakupSongSlugs } from '../data/moodLandingPages.js';
 import trafficEvidence from '../../reports/site-audit/2026-10-21/content-priorities.json' with { type: 'json' };
 
 export const MOOD_PAGE_SIZE = 48;
 const searchClicks = new Map(trafficEvidence.rows.map(([slug, clicks]) => [slug, clicks]));
-export const moodRankingNote = 'Önce 21 Ekim 2026 tarihli üç aylık Search Console kaydında daha çok arama tıklaması alan sayfalar gösterilir. Ölçümü olmayanlar alfabetik sıralanır; bu veriler toplam okunma sayısı değildir.';
 export const moodPagePath = (mood, page = 1) => `/mood/${mood.slug}${page > 1 ? `/page/${page}` : ''}`;
 export const moodPageTitle = (mood, page = 1) => `Yabancı ${mood.name} ve Türkçe Çevirileri${page > 1 ? ` — Sayfa ${page}` : ' | acupoflyrics'}`;
-export function popularMoodPosts(posts) {
-  return [...posts].sort((a, b) => (searchClicks.get(b.slug) || 0) - (searchClicks.get(a.slug) || 0)
+export function popularMoodPosts(posts, mood) {
+  const pins = moodPins[mood?.key] || [];
+  return [...posts].sort((a, b) => Number(pins.includes(b.slug)) - Number(pins.includes(a.slug)) || (searchClicks.get(b.slug) || 0) - (searchClicks.get(a.slug) || 0)
     || `${a.artist} — ${a.song}`.localeCompare(`${b.artist} — ${b.song}`, 'tr') || a.slug.localeCompare(b.slug));
 }
 export function moodPage(items, requestedPage = 1) {
@@ -30,9 +31,9 @@ export function moodCollectionFor(slug) {
 
 export function postsForMoodCollection(mood, posts) {
   if (!mood) return [];
-  return posts.filter(post => mood.key === 'Breakup'
+  return posts.filter(post => (moodPins[mood.key] || []).includes(post.slug) || (mood.key === 'Breakup'
     ? breakupSongSlugs.has(post.slug) || post.themes?.includes('breakup')
-    : moodsForPost(post).includes(mood.key));
+    : moodsForPost(post).includes(mood.key)));
 }
 
 export { moodLandingPages };

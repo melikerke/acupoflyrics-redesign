@@ -1,21 +1,28 @@
+import { editorialFeatures } from './editorialFeatures.js';
 export const popGundemiArticles = [
+  ...editorialFeatures,
   {
-    "slug": "10-11-eylul-2026-muzik-gundemi",
-    "title": "10 Eylül–9 Ekim müzik gündemi: yeni cuma yayınları",
-    "shortTitle": "10 Eylül–9 Ekim — günün müzik gündemi",
+    "slug": "10-eylul-26-ekim-2026-muzik-gundemi-arsivi",
+    "title": "10 Eylül–26 Ekim müzik gündemi: yeni yayınlar ve ekim sıçramaları",
+    "shortTitle": "10 Eylül–26 Ekim — günün müzik gündemi",
     "kicker": "Günün müzik gündemi",
     "date": "2026-09-10",
-    "updatedAt": "2026-10-09T12:00:00+03:00",
-    "readTime": "35 dk",
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/1200x630bb.jpg",
-    "imageAlt": "IU — Unknown Planet tekli kapağı",
-    "imageCredit": "IU / EDAM Entertainment · Apple Music",
-    "imageSource": "https://music.apple.com/us/album/unknown-planet-single/6808583617",
+    "updatedAt": "2026-10-26T09:57:00+03:00",
+    "readTime": "40 dk",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/de/67/1dde6726-f217-b447-46cd-94d5f9621797/196874712696.jpg/1200x630wp-60.jpg",
+    "imageAlt": "LISA — PRESS PLAY kapak görseli",
+    "imageCredit": "LLOUD / RCA Records · Apple Music",
+    "imageSource": "https://music.apple.com/us/album/press-play/6804002989",
     "accent": "#596693",
-    "excerpt": "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl 9 Ekim'in yeni pop yayınları arasında.",
-    "dek": "10 Eylül–9 Ekim'deki global pop, R&B, Latin ve K-pop yayınları ile Billboard, Circle, Apple Music, Spotify, UK ve kısa video hareketleri; yayın tarihleri ve ölçüm dönemleri ayrılarak tek dosyada toplandı.",
-    "pullQuote": "KickFlip — KICK OFF THE WALL Pt. 1 çift başlık parçayla, YESUNG — Where We Are 12 parçayla ve X:IN — Chain Reaction 11 parçayla yayımlandı.",
+    "excerpt": "RIIZE — Insomnia ve XIAOJUN — Hey, Somebody yayımlandı. Victony & Summer Walker feat. Don Toliver — SLICK (Remix) ile Romeo Santos feat. Ozuna — Sobredosis için YouTube video eğiliminde yeni hareket görüldü.",
+    "dek": "10 Eylül–26 Ekim'deki global pop, R&B, Latin ve K-pop yayınları ile Billboard, Circle, Apple Music, Spotify, UK ve kısa video hareketleri; yayın tarihleri ve liste dönemleri ayrılarak tek dosyada toplandı.",
+    "pullQuote": "RIIZE — Insomnia için daha önce duyurulan yayın gerçekleşti: Melon 26 Ekim Kore tarihini, Spotify 25 Ekim tarihini gösteriyor. Kore'deki gece yarısı Türkiye'de 25 Ekim 18.00'e denk geliyor.",
     "relatedTranslations": [
+      "lisa-tarantino-turkce-ceviri",
+      "wayv-vision-wings-turkce-ceviri",
+      "lisa-sawadika-turkce-ceviri",
+      "dove-cameron-khalid-we-go-down-together-turkce-ceviri",
+      "clean-bandit-zara-larsson-symphony-turkce-ceviri",
       "jhene-aiko-kendrick-lamar-so-good-turkce-ceviri",
       "nana-so-well-turkce-ceviri",
       "taylor-swift-patient-zero-turkce-ceviri",
@@ -24,9 +31,11 @@ export const popGundemiArticles = [
       "taylor-swift-babylon-turkce-ceviri"
     ],
     "livePanel": {
-      "label": "10 Eylül–9 Ekim 2026",
+      "label": "10 Eylül–26 Ekim 2026",
       "title": "Yeni yayınlar ve hafta sonu liste hareketleri",
       "items": [
+        { "label": "26 Ekim", "text": "RIIZE — Insomnia ve XIAOJUN — Hey, Somebody için yayımlanmış platform kayıtları doğrulandı. ILLIT — BREAK EVEN ise sabah kontrolünde henüz açıklanan yayın saatine ulaşmamıştı; Türkiye saatiyle 12.00 için planlanıyor." },
+        { "label": "23 Ekim", "text": "Dove Cameron — do the math, Clean Bandit x TÄRA — La Dolce Vita ve LISA — Tarantino yayımlandı. John Legend — Muse albümü de çıktı; BOL4 — 황금기 22 Ekim tarihli yeni yayınlar arasında." },
         { "label": "Global R&B", "text": "Jhené Aiko — Westside Whimsy 11 Eylül'de yayımlandı; Jhené Aiko — So Good (feat. Kendrick Lamar) Apple Music global görünümünde 4 numarada." },
         { "label": "Global pop", "text": "Kings Of Leon — My Whole World, Slayyyter — crank 2, Tinashe — Pillow Fight ve Rachel Chinouriri — Make Believe yeni yayınlar arasında." },
         { "label": "K-pop", "text": "NANA — So well ve KIM JIWOONG — DRIVE 14 Eylül'de yayımlandı; iki parçada da Korece dizeler bulunuyor." },
@@ -49,10 +58,19 @@ export const popGundemiArticles = [
         { "label": "6 Ekim", "text": "KickFlip — 미완성 (Puzzle Piece), KickFlip feat. iann dior — Kick Off The Wall, YESUNG — Pedazos ve X:IN feat. Luísa Sonza — ZZIRIT yayımlandı; Hearts2Hearts — ICONIC HEART (Korean Ver.) bir gün önce geldi." },
         { "label": "7 Ekim", "text": "Beş müzik listesi yenilendi. Taylor Swift — Patient Zero Billboard Hot 100'de 1, Drake & Don Toliver — Solar Eclipse Apple Music globalde 1 ve KAROL G, Judeline & rusowsky — BbY WOW Spotify Global'da 1 numarada; yeni çeviri adayı oluşturacak ayrı bir sıçrama doğrulanmadı." },
         { "label": "8 Ekim", "text": "ONEW & ZICO — Tic Tac Toe, YOUNG POSSE — GO해, HWANG MIN HYUN — OUR ve KIM JAE HWAN — 사랑이라 부를지도 모를 거야 için 7 Ekim tarihli resmî platform kayıtları doğrulandı; dört parça da sitede bulunmuyor." },
-        { "label": "9 Ekim", "text": "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yeni pop yayınları arasında; N.Flying — 잔불 (Still) ile KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) 8 Ekim'de yayımlandı." }
+        { "label": "9 Ekim", "text": "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yeni pop yayınları arasında; N.Flying — 잔불 (Still) ile KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) 8 Ekim'de yayımlandı." },
+        { "label": "10 Ekim", "text": "SEVENTEEN HOSHI — BOYFRIEND, PLEDIS'in duyurusuyla 18.00 KST'de; &TEAM — Fearless ise Japonya'da 00.00 JST'de yayımlandı. girl in red — we fell in love in october, Soundcharts TikTok Global görünümünde 1 numaraya çıktı." },
+        { "label": "11 Ekim", "text": "Jongho (ATEEZ) — 사랑한 만큼 ve POW — Love Again yayımlandı. Her iki Korece parça da sitede bulunmuyor; çeviri için Korece bölümlerin romanizasyonu gerekir." },
+        { "label": "12 Ekim", "text": "MEOVV — GO HARD, NCT WISH — I SPY, Xdinary Heroes — Obsessed with Youth ve SUNG HANBIN — UNDEAD yayımlandı. Spotify Global günlük görünümünde girl in red — we fell in love in october 24 sıra yükselerek 69 numaraya çıktı." },
+        { "label": "13 Ekim", "text": "KATSEYE — Unloveu dijital platformlarda yayımlandı; ABD'de 13 Ekim akşamı gerçekleşen yayın Türkiye'de 14 Ekim'e denk geliyor. Epik High & DAVICHI — Mise en scène de 13 Ekim'de yayımlandı." },
+        { "label": "14 Ekim", "text": "FLARE U — Bloom, LOVEHOOD mini albümünün başlık şarkısı olarak yayımlandı. Beş müzik listesi yenilendi; Billboard haftalık listeleri 17 Ekim, Circle Global 11 Ekim, Apple Music Global 14 Ekim ve Spotify Global 12 Ekim ölçüm tarihlerini gösteriyor." },
+        { "label": "15 Ekim", "text": "Blondie — Spectral Eyes, Blondie'nin 26 Şubat 2027'de çıkacak High Noon albümünün ilk single'ı olarak yayımlandı; yayın sanatçı sitesinde ve Associated Press'te doğrulandı. A2O LITE — NEON, 13 Ekim'deki çıkışından yaklaşık 29 saat sonra Melon Top 100'de 1 numaraya ulaştı; Yonhap, parçanın sonraki ölçümde 6. sıraya gerilediğini bildirdi." },
+        { "label": "16 Ekim", "text": "Olivia Rodrigo feat. Chappell Roan — expectations (Remix), Universal Music'in 16 Ekim duyurusuyla yayımlandı; Chappell Roan'ın ilk resmî featured sanatçı kredisi. tripleS — Andless da 24 üyeli grubun <LOVE&POP> pt.2 single'ı olarak aynı gün Melon'da listelendi. Beş müzik listesi güncellendi." }
       ]
     },
     "summary": [
+      "26 Ekim kontrolünde RIIZE — Insomnia ve XIAOJUN — Hey, Somebody yayımlanmış kayıtlar olarak doğrulandı. İki şarkı da çeviri arşivinde bulunmuyor. RIIZE — Insomnia için Korece romanizasyon; XIAOJUN — Hey, Somebody'nin Çince sürümü için pinyin gerekiyor.",
+      "23 Ekim kontrolünde Dove Cameron — do the math, Clean Bandit x TÄRA — La Dolce Vita ve LISA — Tarantino yeni yayın olarak; BOL4 — 황금기 ise 22 Ekim tarihli BOL4 — October Archive EP'sinin iki başlık parçasından biri olarak doğrulandı. LISA — Tarantino çevirisi daha sonra arşive eklendi.",
       "Becky Hill — Changes 10 Eylül tarihli platform kaydı ve resmî video ile geldi. Victoria Monét — Juicy de 10 Eylül'de paylaşıldı; Victoria Monét — Frequency Of Love albümü için açıklanan tarih 2 Ekim.",
       "Barry Can't Swim & Sammy Virji — I Could Be Madonna ile Chloe Qisha — Question Of The Day, Official Charts'ın 11 Eylül yeni yayın seçkisinde yer alıyor.",
       "IU — Unknown Planet ve IU — Dear my crazy soulmate, IU — Unknown Planet - Single içinde 10 Eylül'de yayımlandı. Melon Hot 100'ün aynı gün 21.00 görünümünde parçalar sırasıyla 1 ve 3 numarada.",
@@ -118,9 +136,83 @@ export const popGundemiArticles = [
       "8 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim tarihli haftalık dönemlerinde kaldı. Circle Global 5 Ekim, Apple Music Top 100: Global 8 Ekim ve Spotify Global Top 50 6 Ekim günlük/yayın görünümlerine ilerledi; beş listede de 10 kayıt korundu.",
       "Official Charts'ın 9 Ekim yeni yayın seçkisinde Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yer alıyor. Üç parça da sitede bulunmuyor.",
       "Melon kayıtlarına göre N.Flying — 잔불 (Still) ile KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) 8 Ekim'de yayımlandı. İki parça da sitede bulunmuyor ve Korece dizeler için romanizasyon gerekiyor.",
-      "9 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim haftalık dönemlerinde kaldı. Circle Global 5 Ekim, Apple Music Top 100: Global 9 Ekim ve Spotify Global Top 50 7 Ekim günlük/yayın görünümlerine ilerledi; beş listede de 10 kayıt korundu."
+      "9 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200, 10 Ekim haftalık dönemlerinde kaldı. Circle Global 5 Ekim, Apple Music Top 100: Global 9 Ekim ve Spotify Global Top 50 7 Ekim günlük/yayın görünümlerine ilerledi; beş listede de 10 kayıt korundu.",
+      "SEVENTEEN HOSHI — BOYFRIEND, PLEDIS'in duyurusuyla 10 Ekim 18.00 KST'de yayımlandı; Melon söz dökümünde Korece ve İngilizce dizeler bulunuyor, bu nedenle çeviride Korece bölümlere romanizasyon gerekir.",
+      "&TEAM — Fearless, grubun resmî sitesine göre 10 Ekim 00.00 JST'de Beyblade X: Beykingdom Arc açılış teması olarak yayımlandı; sözlerde Japonca dizeler için romanizasyon gerekir.",
+      "Soundcharts'ın TikTok Global listesinde girl in red — we fell in love in october 1 numara ve 348 bin görüntülenme ile yer aldı. Bu, yeni yayın değil, ekim ayında belirgin bir katalog sıçramasıdır; parça sitede bulunmuyor.",
+      "11 Ekim liste yenilemesinde Billboard Hot 100 ile Billboard 200 haftalık dönemi 10 Ekim olarak kaldı; Circle Global 8 Ekim'e, Apple Music Top 100: Global 11 Ekim'e ve Spotify Global Top 50 9 Ekim'e ilerledi. Beş listede de 10 kayıt korundu.",
+      "Jongho (ATEEZ) — 사랑한 만큼, Melon'a göre 11 Ekim'de yayımlanan iki parçalık solo dijital teklinin başlık kaydı; Korece sözleri için romanizasyon gerekir ve parça sitede bulunmuyor.",
+      "POW — Love Again, Apple Music ve Melon kayıtlarında 11 Ekim tarihli dijital tekli olarak listeleniyor; parça sitede bulunmuyor ve Korece sözler için romanizasyon gerekir.",
+      "Official Charts'ın 9–15 Ekim haftasında Ashe — Stop The Wedding! 10. sıradan 4. sıraya yükseldi. Çeviri sitede mevcut; bu nedenle yeni çeviri adayı değil, liste hareketi olarak kaydedildi.",
+      "12 Ekim liste yenilemesinde Billboard Hot 100 ile Billboard 200'ün haftalık dönemi 10 Ekim olarak kaldı; Circle Global 9 Ekim, Apple Music Top 100: Global 12 Ekim ve Spotify Global Top 50 10 Ekim görünümüne ilerledi.",
+      "MEOVV — GO HARD, THEBLACKLABEL / Universal Music Japan duyurusu ile Melon ve Apple Music kayıtlarında 12 Ekim tarihli iki parçalık single album yayını olarak doğrulandı; çeviri arşivinde bulunmuyor.",
+      "NCT WISH — I SPY, Melon ve Avex kayıtlarında 12 Ekim tarihli altı parçalık mini albümün başlık şarkısı olarak doğrulandı; çeviri arşivinde bulunmuyor.",
+      "Xdinary Heroes — Obsessed with Youth, JYP Entertainment ve Melon tarafından 12 Ekim tarihli IMPULSE EP'nin başlık parçası olarak doğrulandı; çeviri arşivinde bulunmuyor.",
+      "SUNG HANBIN — UNDEAD, Melon kayıtlarında 12 Ekim tarihli DEAD:ALIVE EP'nin başlık şarkısı olarak yer alıyor; çeviri arşivinde bulunmuyor. EP'deki Korece bölümler için romanizasyon gerekir.",
+      "Spotify Global'ın 11 Ekim günlük tablosunda girl in red — we fell in love in october 24 sıra yükselerek 69 numaraya ulaştı. Bu, önceki rapordaki TikTok görünümünden ayrı, yeni bir günlük Spotify sıçramasıdır; parça çeviri arşivinde hâlâ yok.",
+      "13 Ekim'de KATSEYE — Unloveu, HYBE x Geffen duyurusu ve Apple Music kataloğunda dijital tekli olarak yayımlandı; Epik High & DAVICHI — Mise en scène de Apple Music'te 13 Ekim tarihli yeni single olarak listelendi.",
+      "FLARE U — Bloom, FNC Entertainment'ın LOVEHOOD mini albümünde başlık parçası olarak 14 Ekim'de yayımlandı. Şarkının Korece bölümleri için romanizasyon gerekir.",
+      "14 Ekim liste güncellemesinde Billboard Hot 100 ve Billboard 200 haftalık listeleri 17 Ekim tarihli; Circle Global 11 Ekim; Apple Music Top 100: Global 14 Ekim; Spotify Global Top 50 12 Ekim ölçüm tarihli. Her listede 10 kayıt ve mevcut şema korundu.",
+      "Blondie'nin resmî sitesi Blondie — Spectral Eyes parçasını yeni single olarak duyuruyor; Associated Press ve Official Charts parçanın Johnny Marr tarafından yazıldığını, Marr'ın gitarda yer aldığını ve Blondie — High Noon albümünün 26 Şubat 2027 tarihini doğruluyor. Parça arşivde bulunmuyor.",
+      "Yonhap News Agency, A2O LITE — NEON'ın 13 Ekim 18.00 KST'deki yayınından 29 saat sonra, 14 Ekim 23.00 KST'de Melon Top 100'de 1 numaraya çıktığını ve 15 Ekim sabahı 6. sırada olduğunu bildirdi. Melon albüm kaydı yayın tarihini 13 Ekim olarak doğruluyor; parça arşivde bulunmuyor ve Korece bölümler için romanizasyon gerekir.",
+      "15 Ekim liste güncellemesinde Billboard Hot 100 ile Billboard 200 17 Ekim haftalık döneminde kaldı; Apple Music Top 100: Global 15 Ekim'e güncellendi. Circle Chart ve Spotify Global istekleri zaman aşımına uğradı; önceki Circle 11 Ekim ve Spotify 12 Ekim verileri silinmeden korundu.",
+      "Olivia Rodrigo feat. Chappell Roan — expectations (Remix), Universal Music'in resmî duyurusuna göre 16 Ekim'de yayımlandı. Remix, Chappell Roan'ın ilk featured sanatçı kredisi; video Bardia Zeinali tarafından yönetildi ve David Byrne ile Dan Nigro yer aldı. Parça mevcut çeviri arşivinde bulunmuyor.",
+      "tripleS — Andless, Melon'un resmî kaydında 16 Ekim tarihli <LOVE&POP> pt.2 single'ının tek parçası olarak listeleniyor. 24 üyeli tam grup yayını; çeviri arşivinde bulunmuyor ve Korece sözler için romanizasyon gerekir.",
+      "16 Ekim liste yenilemesinde Billboard Hot 100 ve Billboard 200 17 Ekim haftalık dönemini, Circle Global 13 Ekim, Apple Music Top 100: Global 16 Ekim ve Spotify Global Top 50 14 Ekim günlük görünümlerini gösteriyor. Beş kaynak da başarılı; her listede 10 kayıt ve mevcut şema korundu."
     ],
     "sections": [
+      {
+        "heading": "26 Ekim: global pop, R&B ve Afrobeats görünümü",
+        "body": [
+          "Victony & Summer Walker feat. Don Toliver — SLICK (Remix), Apple Music'e göre 16 Ekim'de yayımlandı. Kworb'un 26 Ekim 02.10 EDT tarihli YouTube dünya müzik video eğilimi derlemesinde klip 35 sıra yükselerek 32 numaraya ulaştı. Bu, yeni şarkı yayını veya resmî dinlenme listesi değil, üçüncü taraf video eğilimi göstergesidir.",
+          "UK, Spotify ve Apple Music taramasında öne çıkan Tate McRae — Housewife ile Olivia Rodrigo feat. Chappell Roan — expectations (Remix) çevirileri arşivde bulunduğundan yeniden eksik çeviri adayı olarak listelenmedi. TikTok ve Reels için doğrudan doğrulanabilen yeni bir parça sıçraması bulunmadı; erişilebilir olmayan sosyal platform ölçümleri başarı iddiasına dönüştürülmedi."
+        ]
+      },
+      {
+        "heading": "26 Ekim: RIIZE — Insomnia ve XIAOJUN — Hey, Somebody yayımlandı",
+        "body": [
+          "RIIZE — Insomnia, Melon'un parça kaydında 26 Ekim 2026 tarihli. Yayın, 26 Ekim 00.00 KST'ye, Türkiye'de 25 Ekim 18.00'e denk geliyor; Spotify'ın 25 Ekim tarihi bu bölgesel farkla birlikte okunmalı. Melon'un yayın dosyası parçayı akustik pop ve 2027 baharında planlanan ikinci tam albümün öncü teklisi olarak tanımlıyor. Önceki duyuru bilgisi artık gerçekleşmiş yayın olarak güncellendi.",
+          "XIAOJUN — Hey, Somebody, NCT'nin 26 Ekim tarihli resmî duyurusunda aynı gün yayımlanan ilk solo EP'nin başlık şarkısı olarak doğrulandı. Spotify kaydı da 26 Ekim tarihini ve beş parçalık EP'yi gösteriyor. Bandwagon'un 26 Ekim haberi Çince ve İngilizce sürümleri ayırıyor; XIAOJUN — Hey, Somebody (English Version) ayrı bir kayıt. Çince sürüm çevrilecekse pinyin, RIIZE — Insomnia'nın Korece bölümleri için romanizasyon gerekiyor.",
+          "ILLIT — BREAK EVEN için BELIFT LAB'ın resmî Weverse duyurusu 26 Ekim 18.00 KST, Türkiye saatiyle 12.00 yayın saatini veriyor. Sabah kontrolü bu saatten önce yapıldığı için albüm yayımlanmış gibi sunulmuyor."
+        ]
+      },
+      {
+        "heading": "26 Ekim: eski kayıt hareketi ve farklı liste dönemleri",
+        "body": [
+          "Romeo Santos feat. Ozuna — Sobredosis, Sony Music'in resmî YouTube ses kaydına göre 21 Temmuz 2017'de yayımlandı. Parçanın bir söz videosu, Kworb'un 26 Ekim 02.10 EDT derlemesine 7 numaradan girdi. Bu, katalog parçasına ilişkin yeni video görünürlüğü; özgün klibin veya şarkının toplam dinlenmelerinin aynı sıraya yükseldiği anlamına gelmiyor.",
+          "26 Ekim kontrolünde Circle Global'ın 22 Ekim, Apple Music Top 100: Global'ın 25 Ekim ve Spotify Global Top 50'nin 24 Ekim günlük görünümleri yenilendi. Billboard Hot 100 kaynağına erişilemedi; Billboard 200 sayfası çözümlenemedi. Bu iki haftalık listenin 24 Ekim tarihli önceki verileri korunuyor. Her listede 10 kayıt var; kontrol günü kaynakların ortak ölçüm tarihi değildir."
+        ]
+      },
+      {
+        "heading": "23 Ekim güncellemesi: global pop ve R&B yayınları",
+        "body": [
+          "Dove Cameron — do the math, sanatçının resmî sitesindeki dinleme bağlantısı ve Official Charts'ın 23 Ekim yeni yayın seçkisiyle doğrulandı. Seçkide bulunmak liste başarısı veya viral yükseliş anlamına gelmiyor; parça yeni yayın olarak değerlendiriliyor.",
+          "Clean Bandit x TÄRA — La Dolce Vita, CB X'in RadioDate üzerinde yayımlanan 23 Ekim tarihli basın bültenine göre aynı gün dijital platformlara geldi. İtalyanca ve Arapça vokalleri birleştiren dance-pop kaydı için Arapça bölümlerde romanizasyon gerekiyor. Bültenin tarihi ile bildirilen dijital çıkış tarihi bu kayıtta aynı gün.",
+          "John Legend — Muse, Universal Music Japan'ın 23 Ekim tarihli çıkış haberiyle yayımlanmış albüm olarak doğrulandı. Universal Music Canada'nın 8 Eylül duyurusu albümün Pharrell Williams tarafından üretildiğini ve 23 Ekim'de çıkacağını açıklamıştı. Böylece önceki dosyadaki gelecek yayın bilgisi gerçekleşmiş yayına dönüştü; eski tekliler yeni şarkı gibi yeniden listelenmedi."
+        ]
+      },
+      {
+        "heading": "LISA — Tarantino ve BOL4 — 황금기",
+        "body": [
+          "LISA — PRESS PLAY, Apple Music'te 23 Ekim 2026 yayın tarihiyle yer alıyor; LISA'nın resmî sitesi de yayını erişime açılmış olarak duyuruyor. Aynı sitenin izleme bağlantısı LISA — Tarantino resmî bağlantı sayfasına yönleniyor ve Apple Music parça kaydı LISA — Tarantino'yu doğruluyor. Bu kontrol yeni yayın tespitidir; henüz doğrulanmış bir liste sıçraması iddiası taşımıyor.",
+          "BOL4 — 황금기, Melon'un 22 Ekim 2026 tarihli BOL4 — October Archive EP kaydında iki başlık parçasından biri. Platformdaki yayın açıklaması modern rock düzenlemesi ve retro öğelerden söz ediyor. Çıkış günü 22 Ekim, bu dosyaya eklenme günü 23 Ekim; Korece sözler için romanizasyon gerekiyor."
+        ]
+      },
+      {
+        "heading": "23 Ekim kontrolü: yeniden yükselen kayıt ve liste dönemleri",
+        "body": [
+          "girl in red — we fell in love in october, Kworb'un Spotify Global 21 Ekim günlük tablosunda 29 sıra yükselerek 71 numaraya çıktı; günlük dinlenme sayısı 1.537.778, günlük artış 88.498. Apple Music özgün tekli kaydını 21 Kasım 2018 tarihli gösteriyor. Parça önceki dosyada da yer aldı; burada yeniden anılmasının nedeni yeni günlük sıçrama. Bu konum, daha önce izlenen 11 Ekim'deki 69. sıranın üstünde değil ve yeni zirve olarak sunulmuyor.",
+          "23 Ekim'de beş liste kaynağı başarıyla kontrol edildi; her birinin 10 kayıtlık site görünümü ve mevcut veri yapısı korundu. Billboard Hot 100 ile Billboard 200'ün hafta etiketi 24 Ekim, Circle Global günlük dönemi 20 Ekim, Apple Music Top 100: Global kaynak görünümü 22 Ekim ve Spotify Global Top 50 günlük dönemi 21 Ekim. Circle ve Spotify verileri ilerledi; Billboard ile Apple Music aynı doğrulanmış görünümde kaldı. Kontrol tarihi ortak bir ölçüm dönemi değildir."
+        ]
+      },
+      {
+        "heading": "22 Ekim güncellemesi: Crush feat. IU — 삐그덕 (seesaw) ve Lee Eun-sang — 꿈의 정원 (Garden of Dreams)",
+        "body": [
+          "Crush feat. IU — 삐그덕 (seesaw), Apple Music'in 21 Ekim 2026 tarihli tekli kaydında yayımlandı. Crush'ın resmî topluluk sayfasındaki 17 Ekim duyurusu yayın saatini 21 Ekim 18.00 KST olarak açıklamıştı. Duyuru tarihi, şarkının çıkış tarihi ve bu dosyanın 22 Ekim güncellemesi birbirinden ayrıdır.",
+          "Lee Eun-sang — 꿈의 정원 (Garden of Dreams), Genie'nin 21 Ekim 2026 tarihli dört parçalık EP kaydında başlık şarkısı olarak doğrulandı. Platformun yayın tanıtımı parçayı pop-rock olarak tanımlıyor. SBS'nin 21 Ekim tarihli haberi aynı gün 18.00 KST yayın saatini bildiriyor. Her iki yeni parça da çeviri arşivinde bulunmuyor; Korece bölümler için romanizasyon gerekiyor.",
+          "22 Ekim kontrolünde beş liste kaynağı başarıyla okundu ve her birinin 10 kayıtlık site görünümü korundu. Billboard Hot 100 ile Billboard 200'ün hafta etiketi 24 Ekim; Circle Global günlük dönemi 19 Ekim, Apple Music Top 100: Global kaynak görünümü 21 Ekim ve Spotify Global Top 50 günlük dönemi 20 Ekim. Kontrol tarihi bu kaynakların ortak ölçüm tarihi değildir."
+        ]
+      },
       {
         "heading": "Becky Hill — Changes ve 10–11 Eylül global pop yayınları",
         "body": [
@@ -598,10 +690,130 @@ export const popGundemiArticles = [
           "Billboard Hot 100 ile Billboard 200, 10 Ekim tarihli haftalık ABD dönemlerinde kaldı. Circle Global 5 Ekim günlüğünde kaldı; Apple Music Top 100: Global 9 Ekim görünümüne ve Spotify Global Top 50 7 Ekim günlüğüne ilerledi. Beş listede de 10 kayıt korundu.",
           "Spotify Global ilk 10'undaki Olivia Rodrigo — the cure, Olivia Rodrigo — stupid song, Malcolm Todd — Earrings, Ashe — Stop The Wedding!, Katy Perry — The One That Got Away ve Justin Bieber & Nicki Minaj — Beauty And A Beat çevirileri sitede mevcut. Bu nedenle ayrı bir viral çeviri adayı oluşturulmadı."
         ]
+      },
+      {
+        "heading": "10 Ekim K-pop yayınları ve ekim ayı TikTok sıçraması",
+        "body": [
+          "PLEDIS Entertainment'ın Weverse duyurusu ve Melon kaydı, SEVENTEEN HOSHI — BOYFRIEND'ün 10 Ekim 18.00 KST'de yayımlandığını doğruluyor. The Korea Times, parçayı HOSHI'nin söz yazımına katıldığı R&B tabanlı pop şarkısı olarak tanımlıyor. Melon söz dökümündeki Korece dizeler için romanizasyon gerekir.",
+          "&TEAM'in resmî sitesi, &TEAM — Fearless parçasının 10 Ekim 00.00 JST'de yayımlandığını ve Beyblade X: Beykingdom Arc için açılış teması olduğunu bildiriyor. Resmî paylaşım dijital yayını ve kampanyayı doğruluyor; söz dökümünde Japonca dizeler için romanizasyon gerekir.",
+          "Soundcharts TikTok Global sıralamasında girl in red — we fell in love in october 1 numarada ve 348 bin görüntülenmeyle yer aldı. Official Charts sanatçı sayfası parçanın chart history kaydını sunuyor; bu gelişme yeni yayın değil, ekim dönemindeki yeniden yükseliştir. Parça sitede bulunmuyor.",
+          "Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl, 9 Ekim raporunda zaten yer aldı; bu turda yeni bir gelişme doğrulanmadığı için aday tablosunda tekrarlanmadı."
+        ]
+      },
+      {
+        "heading": "11 Ekim müzik listeleri",
+        "body": [
+          "npm run update:charts beş listeyi yeniledi ve her listede 10 kayıt bulundu. Billboard Hot 100 ile Billboard 200'ün haftalık tarihi 10 Ekim olarak kaldı; Circle Global 8 Ekim, Apple Music Top 100: Global 11 Ekim ve Spotify Global Top 50 9 Ekim görünümüne ilerledi. JSON geçerli ve mevcut liste alanları korundu."
+        ]
+      },
+      {
+        "heading": "Jongho (ATEEZ) — 사랑한 만큼 ve POW — Love Again yayımlandı",
+        "body": [
+          "Melon'un şarkı ve albüm kayıtları Jongho (ATEEZ) — 사랑한 만큼 parçasının 11 Ekim'de yayımlanan solo dijital teklinin başlık parçası olduğunu doğruluyor. Kayıt iki parçalı ve B-side olarak instrumental sürüm içeriyor; Korece sözlü bölüm için Türkçe çeviri hazırlanırken romanizasyon gerekir.",
+          "Apple Music ile Melon, POW — Love Again için 11 Ekim tarihini gösteriyor. Maeil Business ve Sports Chosun haberleri, parçanın 18.00 KST'de yayımlandığını ve üyelerin üretim sürecine katkıda bulunduğunu bildiriyor. Korece sözler için romanizasyon gerekir. İki kayıt da mevcut `posts.json` arşivinde bulunmuyor."
+        ]
+      },
+      {
+        "heading": "12 Ekim K-pop yayınları ve 13 Ekim liste güncellemesi",
+        "body": [
+          "Melon, Universal Music Japan, Avex ve JYP Entertainment kayıtları 12 Ekim yayınlarını doğruluyor: MEOVV — GO HARD iki parçalık single album; NCT WISH — I SPY altı parçalık mini albümün başlık şarkısı; Xdinary Heroes — Obsessed with Youth, IMPULSE EP'nin başlık parçası. Melon ayrıca SUNG HANBIN — UNDEAD parçasını DEAD:ALIVE EP'nin başlık şarkısı olarak listeliyor. Dört eser de mevcut çeviri arşivinde bulunmuyor; Korece söz bölümleri için romanizasyon gerekir.",
+          "Spotify Global'ın 11 Ekim günlük tablosunda girl in red — we fell in love in october 24 sıra yükselerek 69 numaraya çıktı. Parça 2018 tarihli katalog kaydıdır; bu görünüm yeni yayın değil, ekim dönemindeki yeni bir global liste sıçramasıdır.",
+          "13 Ekim `npm run update:charts` çalıştırmasında beş kaynak da başarılı oldu ve her listede 10 kayıt bulundu. Billboard Hot 100 ile Billboard 200'ün haftalık dönemi 10 Ekim; Circle Global günlük görünümü 10 Ekim; Apple Music Top 100: Global 13 Ekim; Spotify Global Top 50 11 Ekim olarak kaydedildi. `musicLists.json` geçerli JSON ve mevcut liste yapısı korunuyor."
+        ]
+      },
+      {
+        "heading": "KATSEYE — Unloveu dijital yayını",
+        "body": [
+          "KATSEYE'nin Weverse duyurusu, Unloveu'nun 13 Ekim 17.00 PT / 20.00 ET yayın saatini verdi; Apple Music kataloğu single'ı 13 Ekim tarihli gösteriyor. Saat farkı nedeniyle Türkiye'de yayın 14 Ekim'e denk geliyor. Billboard Brasil, parçanın daha önce WILD EP'nin fiziksel sürümlerinde bonus parça olarak yer aldığını, yeni adımın dijital platform yayını olduğunu aktarıyor.",
+          "KATSEYE — Unloveu çeviri arşivinde bulunmuyor. İngilizce pop kaydı, yeni yayın olması nedeniyle çeviri adayı olarak bekliyor."
+        ]
+      },
+      {
+        "heading": "Epik High & DAVICHI — Mise en scène ve FLARE U — Bloom",
+        "body": [
+          "Epik High & DAVICHI — Mise en scène, 13 Ekim'de yayımlanan ortak single. Apple Music yayını ve SBS English haberi, iki sanatçının ilk ortak çalışması olduğunu ve parçanın ayrılık anındaki duyguları anlattığını doğruluyor. Korece sözler için çeviride romanizasyon gerekir.",
+          "FNC Entertainment ve Weverse Shop duyuruları, FLARE U — LOVEHOOD mini albümünün 14 Ekim tarihini doğruluyor. StarNews'in 14 Ekim tarihli grup röportajı, başlık parçasını FLARE U — Bloom olarak ve Korece adını 너의 계절이 왔어 (Bloom) biçiminde veriyor. Parça arşivde bulunmuyor; Korece bölümleri için romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "14 Ekim müzik listeleri",
+        "body": [
+          "`npm run update:charts` beş kaynağın tamamında başarılı oldu; Billboard Hot 100 ve Billboard 200 17 Ekim tarihli haftalık ölçümde, Circle Global 11 Ekim'de, Apple Music Top 100: Global 14 Ekim'de, Spotify Global Top 50 ise 12 Ekim günlük görünümünde. Her listede 10 kayıt korundu; `musicLists.json` geçerli JSON ve mevcut alan şeması değişmedi."
+        ]
+      },
+      {
+        "heading": "Blondie — Spectral Eyes ve Blondie — High Noon",
+        "body": [
+          "Blondie'nin resmî sitesi Blondie — Spectral Eyes parçasını yayımlanmış yeni single olarak gösteriyor. Associated Press ve Official Charts, parçanın Johnny Marr tarafından yazıldığını ve Marr'ın gitarda çaldığını doğruluyor. Blondie — High Noon, grubun 2017'den sonraki ilk stüdyo albümü olarak 26 Şubat 2027'de yayımlanacak. Blondie — Spectral Eyes mevcut çeviri arşivinde bulunmuyor."
+        ]
+      },
+      {
+        "heading": "A2O LITE — NEON Melon'da zirveye çıktı",
+        "body": [
+          "Melon'un albüm kaydı A2O LITE — NEON için 13 Ekim 2026 yayın tarihini doğruluyor. Yonhap News Agency'nin 15 Ekim tarihli haberine göre parça, yayımdan yaklaşık 29 saat sonra 14 Ekim 23.00 KST'de Melon Top 100'de 1 numaraya ulaştı; 15 Ekim sabahında 6. sıraya geriledi. Bu kısa süreli zirve yeni bir liste hareketidir; uzun dönemli başarı göstergesi olarak yorumlanmamalıdır. A2O LITE — NEON arşivde bulunmuyor; Korece sözler için romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "15 Ekim müzik listeleri",
+        "body": [
+          "`npm run update:charts` Billboard Hot 100, Billboard 200 ve Apple Music Top 100: Global kaynaklarında başarılı oldu. Billboard listeleri 17 Ekim haftalık dönemini, Apple Music global listesi 15 Ekim günlük görünümünü gösteriyor. Circle Chart ile Spotify Global Top 50 kaynakları zaman aşımına uğradı; bu iki listenin önceki verileri (Circle: 11 Ekim, Spotify: 12 Ekim) korundu. Beş listede de mevcut 10 kayıtlık yapı ve alan şeması değişmedi."
+        ]
+      },
+      {
+        "heading": "Olivia Rodrigo feat. Chappell Roan — expectations (Remix)",
+        "body": [
+          "Universal Music'in 16 Ekim tarihli duyurusu, Olivia Rodrigo feat. Chappell Roan — expectations (Remix) parçasının yayımlandığını doğruluyor. Bu, Chappell Roan'ın ilk featured sanatçı kredisi. Aynı duyuru, Bardia Zeinali yönetimindeki resmî videoda David Byrne ile yapımcı Dan Nigro'nun da yer aldığını belirtiyor. Parça çeviri arşivinde bulunmuyor."
+        ]
+      },
+      {
+        "heading": "tripleS — Andless yayımlandı",
+        "body": [
+          "Melon'un 16 Ekim tarihli kaydı tripleS — Andless parçasını <LOVE&POP> pt.2 single'ının tek eseri olarak listeliyor. MODHAUS'un duyurusunu aktaran Soompi, 24 üyeli tam grup yayınının 16 Ekim 13.00 KST'de planlandığını bildirmişti. Melon tanıtım metni parçayı KPop Demon Hunters ekibiyle birlikte geliştirilen elektronik pop çalışması olarak tanımlıyor. Çeviri arşivinde bulunmuyor; Korece sözler için romanizasyon gerekir."
+        ]
+      },
+      {
+        "heading": "16 Ekim müzik listeleri",
+        "body": [
+          "`npm run update:charts` beş kaynağın tamamında başarılı oldu. Billboard Hot 100 ve Billboard 200 17 Ekim haftalık döneminde; Circle Global 13 Ekim, Apple Music Top 100: Global 16 Ekim ve Spotify Global Top 50 14 Ekim günlük dönemlerinde. Her listede 10 kayıt ve mevcut alan yapısı korundu."
+        ]
+      },
+      {
+        "heading": "21 Ekim kontrolü: A2O, A2O SOUL — SUPERSTAR",
+        "body": [
+          "Melon, A2O, A2O SOUL — SUPERSTAR için 13 Ekim 2026 yayın tarihini ve iki sanatçılı krediyi doğruluyor. Parça, 21 Ekim'de alınan Circle Global günlük verisinin 18 Ekim döneminde 7 numarada; önceki 17 Ekim döneminde 8 numaradaydı. Bu gelişme yeni yayın değil, yayımlanmış parçanın liste hareketidir. Çeviri arşivinde bulunmuyor; Korece bölümleri için romanizasyon gerekiyor.",
+          "Beş liste yenilendi. Billboard Hot 100 şarkı ve Billboard 200 albüm listelerinin hafta etiketi 24 Ekim; Circle Global günlük dönemi 18 Ekim, Apple Music Top 100: Global görünümü 20 Ekim, Spotify Global Top 50 günlük dönemi 19 Ekim. Bu tarihler aynı ölçüm aralığını ifade etmiyor."
+        ]
+      },
+      {
+        "heading": "20 Ekim güncellemesi: yeni K-pop yayınları ve UK R&B",
+        "body": [
+          "JYP Entertainment'ın 19 Ekim tarihli diskografi kaydı, NMIXX — 긴 소원 (Birthday Wish) parçasını NMIXX — Strange Muse EP'sinin başlık şarkısı olarak doğruluyor. Yayın, moombahton, Afro ve future house öğeleri taşıyan pop çalışması olarak tanımlanıyor.",
+          "Melon'un 19 Ekim tarihli yayın dosyası, JEONGHAN X JOSHUA (SEVENTEEN) — 12 o'clock parçasını JEONGHAN X JOSHUA (SEVENTEEN) — DREAMSCAPE projesinin başlık şarkısı olarak doğruluyor. PLEDIS'in Weverse duyurusu da EP'nin 19 Ekim yayın tarihini veriyor.",
+          "MAX CHANGMIN — All Of My Life, Apple Music'in 19 Ekim tarihli EP kaydı ve Melon tanıtımında doğrulandı. Melon, aynı adlı başlık şarkısını pop-rock olarak tanımlıyor. Üç yeni K-pop başlık parçası çeviri arşivinde bulunmuyor; Korece bölümleri için romanizasyon gerekir.",
+          "Season 25 — Shotta's., Official R&B UK Chart'ın 19–25 Ekim listesine 1 numaradan girdi. Bu, genel UK Singles listesi değildir. Yayın tarihi Apple Music'te 20 Eylül, Amazon Music'te 25 Eylül olarak görünüyor; platform farkı kesinleştirilmedi. Gelişme yeni şarkı yayını değil, yeni liste girişidir; çeviri arşivinde bulunmuyor."
+        ]
+      },
+      {
+        "heading": "19 Ekim güncellemesi: global liste ve K-pop haberleri",
+        "body": [
+          "Apple Music, Zach Bryan & Lana Del Rey — Lies single'ının yayın tarihini 15 Ekim olarak gösteriyor. Parça, Apple Music Top 100: Global listesinin 19 Ekim kontrolünde 3 numarada. Bu tarih yeni bir yayın tarihi değil, listeye bakılan tarihtir. Parçanın çevirisi arşivde bulunmuyor.",
+          "18 Ekim tarihli KSTATION TV haberi, ONEW & ZICO — Tic Tac Toe parçasının 17 Ekim'deki MBC Music Core programında ilk birinciliğini kazandığını aktarıyor. Şarkının 7 Ekim yayın tarihi ile program ve haber tarihleri ayrı tutuluyor. Çeviri arşivinde bulunmayan parçanın Korece bölümleri için romanizasyon gerekir.",
+          "Soompi'nin 18 Ekim tarihli haberi, RIIZE'ın resmî hesabındaki duyuruyu aktararak RIIZE — Insomnia için 26 Ekim 00.00 KST yayın tarihini bildiriyor. Duyuru Kore'de 19 Ekim 00.00 KST'de yapıldı; 19 Ekim kontrolünde parça henüz yayımlanmamıştı. Yayının gerçekleştiği bilgisi bu dosyanın 26 Ekim bölümüne eklendi."
+        ]
       }
     ],
     "memberStatus": [],
     "sources": [
+      { "name": "Apple Music — Victony & Summer Walker feat. Don Toliver — SLICK (Remix) / yayın ve sanatçı kredisi", "url": "https://music.apple.com/us/album/slick-remix-feat-don-toliver-single/6821146861" },
+      { "name": "Kworb — 26 Ekim 2026 02.10 EDT YouTube dünya müzik video eğilimi", "url": "https://kworb.net/youtube/trending.html" },
+      { "name": "Melon — RIIZE — Insomnia / 26 Ekim yayın kaydı", "url": "https://www.melon.com/song/detail.htm?songId=603692202" },
+      { "name": "Melon — RIIZE — Insomnia / yayın dosyası", "url": "https://www.melon.com/musicstory/inform.htm?mstorySeq=17335" },
+      { "name": "Spotify — RIIZE — Insomnia / bölgesel tarih kaydı", "url": "https://open.spotify.com/album/1p2UyLZ2vf0jfwpAGishl1" },
+      { "name": "NCT resmî sitesi — XIAOJUN — Hey, Somebody / 26 Ekim yayın duyurusu", "url": "https://nct-jp.net/en/news/detail.php?id=1136797" },
+      { "name": "Spotify — XIAOJUN — Hey, Somebody - The 1st Mini Album / parça listesi", "url": "https://open.spotify.com/album/6M3nDcroueOxuORgRuVV1o" },
+      { "name": "Bandwagon — XIAOJUN — Hey, Somebody / Çince ve İngilizce sürümler", "url": "https://www.bandwagon.asia/articles/wayv-s-xiaojun-makes-solo-debut-with-hey-somebody-ep-and-music-video" },
+      { "name": "BELIFT LAB / Weverse — ILLIT — BREAK EVEN / resmî yayın saati", "url": "https://weverse.io/illit/notice/39478" },
+      { "name": "Sony Music Latin / resmî YouTube ses kaydı — Romeo Santos feat. Ozuna — Sobredosis", "url": "https://www.youtube.com/watch?v=muiC_SmP2AU" },
       { "name": "Official Charts — 11 Eylül 2026 yeni yayınları", "url": "https://www.officialcharts.com/chart-news/new-music-friday-11-september-2026/" },
       { "name": "Becky Hill resmî sitesi — Becky Hill — Changes klibi", "url": "https://www.beckyhill.com/" },
       { "name": "Qobuz — Becky Hill — Changes / 10 Eylül yayın kaydı", "url": "https://www.qobuz.com/ca-en/album/changes-becky-hill/t8zux8eva5dnr" },
@@ -814,8 +1026,81 @@ export const popGundemiArticles = [
       ,{ "name": "Melon — KENZIE & NCT WISH — Cheat Code (KENZIE RE:WORKS) / 8 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14628648" }
       ,{ "name": "Apple Music — Top 100: Global / 9 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
       ,{ "name": "Spotify — Global Top 50 / 7 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "PLEDIS Entertainment / Weverse — SEVENTEEN HOSHI — BOYFRIEND duyurusu", "url": "https://weverse.io/seventeen/notice/39727" }
+      ,{ "name": "Melon — SEVENTEEN HOSHI — BOYFRIEND / 10 Ekim ve söz kaydı", "url": "https://www.melon.com/song/detail.htm?songId=603347886" }
+      ,{ "name": "The Korea Times — SEVENTEEN HOSHI — BOYFRIEND / 10 Ekim 2026", "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20261010/seventeens-hoshi-drops-love-song-boyfriend-during-military-service" }
+      ,{ "name": "&TEAM resmî sitesi — &TEAM — Fearless / 10 Ekim yayını", "url": "https://www.andteam-official.jp/news/0d5bbf433334" }
+      ,{ "name": "Soundcharts — TikTok Global sıralaması", "url": "https://www.soundcharts.com/es/charts/tiktok/worldwide" }
+      ,{ "name": "Official Charts — girl in red — we fell in love in october chart history", "url": "https://www.officialcharts.com/songs/girl-in-red-we-fell-in-love-in-october/" }
+      ,{ "name": "Melon — Jongho (ATEEZ) — 사랑한 만큼 / 11 Ekim 2026 şarkı kaydı", "url": "https://www.melon.com/song/detail.htm?songId=603337579" }
+      ,{ "name": "Melon — Jongho (ATEEZ) — 사랑한 만큼 / 11 Ekim 2026 albüm kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14628547" }
+      ,{ "name": "Apple Music — POW — Love Again / 11 Ekim 2026", "url": "https://music.apple.com/us/album/love-again-single/6818431688" }
+      ,{ "name": "Maeil Business — POW — Love Again / 11 Ekim 2026", "url": "https://m.mk.co.kr/news/entertain/12172885" }
+      ,{ "name": "Sports Chosun — POW — Love Again / 11 Ekim 2026", "url": "https://www.sportschosun.com/en/celebrity/2026-10-11/202610110100070530004575" }
+      ,{ "name": "Official Charts — Singles Chart / 9–15 Ekim 2026", "url": "https://www.officialcharts.com/charts/singles-chart/" }
+      ,{ "name": "Universal Music Japan — MEOVV — GO HARD / 12 Ekim yayını", "url": "https://www.universal-music.co.jp/meovv/news/2026-10-12/" }
+      ,{ "name": "Melon — MEOVV — GO HARD / 12 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14632315" }
+      ,{ "name": "Apple Music — MEOVV — GO HARD / 12 Ekim 2026", "url": "https://music.apple.com/us/album/go-hard-single/6817645174" }
+      ,{ "name": "Avex — NCT WISH — I SPY / 12 Ekim 2026", "url": "https://www.avexnet.jp/news/1037492" }
+      ,{ "name": "Melon — NCT WISH — I SPY / 12 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14582521" }
+      ,{ "name": "JYP Entertainment — Xdinary Heroes — IMPULSE / 12 Ekim 2026", "url": "https://xdinaryheroes.jype.com/discography/3mxtwkcc" }
+      ,{ "name": "Melon — Xdinary Heroes — Obsessed with Youth / 12 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14632412" }
+      ,{ "name": "Melon — SUNG HANBIN — DEAD:ALIVE / 12 Ekim 2026", "url": "https://www.melon.com/album/detail.htm?albumId=14632590" }
+      ,{ "name": "KBS World — SUNG HANBIN — DEAD:ALIVE solo debut / 12 Ekim 2026", "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=471933&id=&lang=k&menu_cate=enternews&page=" }
+      ,{ "name": "Spotify Global Daily — girl in red — we fell in love in october / 11 Ekim 2026", "url": "https://kworb.net/spotify/country/global_daily.html" }
+      ,{ "name": "Spotify — Global Top 50 / 11 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Apple Music — Top 100: Global / 13 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Apple Music — Top 100: Global / 12 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 10 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "KATSEYE — Unloveu / resmi Weverse duyurusu", "url": "https://weverse.io/katseye/fanpost/3-242574968" }
+      ,{ "name": "Apple Music — KATSEYE — Unloveu", "url": "https://music.apple.com/us/artist/katseye/1754284416" }
+      ,{ "name": "Billboard Brasil — KATSEYE — Unloveu dijital yayın bilgisi", "url": "https://billboard.com.br/katseye-divulga-previa-do-mv-de-unloveu/" }
+      ,{ "name": "Apple Music — Epik High & DAVICHI — Mise en scène", "url": "https://music.apple.com/us/album/mise-en-sc%C3%A8ne-single/6819570311" }
+      ,{ "name": "SBS English — Epik High & DAVICHI — Mise en scène", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008796411" }
+      ,{ "name": "FNC Entertainment — FLARE U — LOVEHOOD", "url": "https://gfut.fncent.com/b/notice/66504" }
+      ,{ "name": "Weverse Shop — FLARE U — LOVEHOOD resmi yayın tarihi", "url": "https://shop.weverse.io/zh-cn/shop/USD/artists/289/notices/14521" }
+      ,{ "name": "StarNews — FLARE U — Bloom ve LOVEHOOD röportajı", "url": "https://www.starnewskorea.com/es/music/2026/10/14/2026100916051837838" }
+      ,{ "name": "Apple Music — Top 100: Global / 14 Ekim 2026 görünümü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "Spotify — Global Top 50 / 12 Ekim 2026 günlüğü", "url": "https://charts.spotify.com/charts/view/regional-global-daily/latest" }
+      ,{ "name": "Blondie — High Noon / resmî site ve Blondie — Spectral Eyes", "url": "https://blondie.net/" }
+      ,{ "name": "Associated Press — Blondie — Spectral Eyes ve Blondie — High Noon", "url": "https://apnews.com/article/a557083d63a0fae064705e1bb5efec6c" }
+      ,{ "name": "Official Charts — Blondie — High Noon ve Blondie — Spectral Eyes", "url": "https://www.officialcharts.com/chart-news/blondie-high-noon-new-album-release-date-preorder-tracklist-features/" }
+      ,{ "name": "Melon — A2O LITE — NEON single ve yayın tarihi", "url": "https://www.melon.com/album/detail.htm?albumId=14644795" }
+      ,{ "name": "Yonhap News Agency — A2O LITE — NEON Melon Top 100 zirvesi", "url": "https://en.yna.co.kr/view/AEN20261015001400315" }
+      ,{ "name": "Universal Music Japan — Olivia Rodrigo feat. Chappell Roan — expectations (Remix)", "url": "https://www.universal-music.co.jp/olivia-rodrigo/news/2026-10-16-3/" }
+      ,{ "name": "Melon — tripleS — Andless / <LOVE&POP> pt.2", "url": "https://www.melon.com/album/detail.htm?albumId=14758989" }
+      ,{ "name": "Soompi — tripleS — Andless / 16 Ekim geri dönüş duyurusu", "url": "https://www.soompi.com/article/1877020wpp/triples-announces-comeback-date-with-teaser-for-assemble26-lovepop-pt-2" }
+      ,{ "name": "Apple Music — Zach Bryan & Lana Del Rey — Lies / yayın kaydı", "url": "https://music.apple.com/us/album/lies-single/6822938067" }
+      ,{ "name": "Apple Music — Top 100: Global / 19 Ekim kontrolü", "url": "https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" }
+      ,{ "name": "KSTATION TV — ONEW & ZICO — Tic Tac Toe / 17 Ekim birinciliği", "url": "https://kstationtv.com/2026/10/18/onew-a-first-success-with-tic-tac-toe/?lang=en" }
+      ,{ "name": "Soompi / RIIZE resmî duyurusu — RIIZE — Insomnia", "url": "https://www.soompi.com/article/1879349wpp/watch-riize-drops-first-teasers-for-october-comeback-with-insomnia" }
+      ,{ "name": "JYP Entertainment — NMIXX — Strange Muse / 19 Ekim yayın kaydı", "url": "https://nmixx.jype.com/discography/vmgvjirm" }
+      ,{ "name": "Melon — JEONGHAN X JOSHUA (SEVENTEEN) — 12 o'clock / yayın dosyası", "url": "https://www.melon.com/musicstory/inform.htm?mstorySeq=17318" }
+      ,{ "name": "PLEDIS / Weverse — JEONGHAN X JOSHUA (SEVENTEEN) — DREAMSCAPE", "url": "https://weverse.io/seventeen/notice/39436/" }
+      ,{ "name": "Melon — MAX CHANGMIN — All Of My Life", "url": "https://www.melon.com/musicstory/inform.htm?mstorySeq=17320" }
+      ,{ "name": "Apple Music — MAX CHANGMIN — All Of My Life / EP yayın tarihi", "url": "https://music.apple.com/us/album/all-of-my-life-the-3rd-mini-album-ep/6819916816" }
+      ,{ "name": "Official R&B UK Chart — 19–25 Ekim 2026", "url": "https://www.officialcharts.com/charts/official-r-n-b-uk-chart/20261019/rnbchart/" }
+      ,{ "name": "Apple Music — Season 25 — Shotta's. / 20 Eylül kaydı", "url": "https://music.apple.com/us/album/shottas-single/6823706029" }
+      ,{ "name": "Amazon Music — Season 25 — Shotta's. / 25 Eylül kaydı", "url": "https://music.amazon.com.au/artists/B0C935PDPY/season-25" }
+      ,{ "name": "Melon — A2O, A2O SOUL — SUPERSTAR / yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14644792" }
+      ,{ "name": "Circle Global — 18 Ekim 2026 günlük dönem", "url": "https://circlechart.kr/page_chart/global.circle?termGbn=day&targetTime=18&hitYear=2026&hitMonth=10" }
+      ,{ "name": "Apple Music — Crush feat. IU — 삐그덕 (seesaw) / 21 Ekim yayın kaydı", "url": "https://music.apple.com/us/album/seesaw-feat-iu-single/6822679187" }
+      ,{ "name": "Crush resmî topluluk duyurusu — Crush feat. IU — 삐그덕 (seesaw)", "url": "https://crush.bstage.in/contents/6ad356f84967a71da7f9e62c" }
+      ,{ "name": "Genie — Lee Eun-sang — 꿈의 정원 (Garden of Dreams) / yayın ve parça listesi", "url": "https://www.genie.co.kr/detail/albumInfo?axnm=88325617" }
+      ,{ "name": "SBS — Lee Eun-sang — 꿈의 정원 (Garden of Dreams) / 21 Ekim haberi", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008808137" }
+      ,{ "name": "Dove Cameron — do the math / resmî yayın bağlantısı", "url": "https://dovecameron.lnk.to/DoTheMath" }
+      ,{ "name": "Official Charts — 23 Ekim yeni yayın seçkisi", "url": "https://www.officialcharts.com/new-releases/" }
+      ,{ "name": "CB X / RadioDate — Clean Bandit x TÄRA — La Dolce Vita / 23 Ekim bülteni", "url": "https://radiodate.it/radio-date/clean-bandit-x-tara-la-dolce-vita-240684-23-10-2026-radiodate/" }
+      ,{ "name": "Universal Music Japan — John Legend — Muse / 23 Ekim çıkış haberi", "url": "https://www.universal-music.co.jp/john-legend/news/2026-10-23/" }
+      ,{ "name": "Universal Music Canada — John Legend — Muse / 8 Eylül duyurusu", "url": "https://www.universalmusic.ca/2026/09/08/john-legend-announces-new-album-muse-produced-in-full-by-pharrell-williams-out-october-23/" }
+      ,{ "name": "LISA — Tarantino / resmî yayın bağlantısı", "url": "https://lisa.lnk.to/tarantino" }
+      ,{ "name": "Apple Music — LISA — PRESS PLAY / yayın tarihi ve kapak", "url": "https://music.apple.com/us/album/press-play/6804002989" }
+      ,{ "name": "Apple Music — LISA — Tarantino / parça kaydı", "url": "https://music.apple.com/us/song/tarantino/6804002999" }
+      ,{ "name": "Melon — BOL4 — October Archive / BOL4 — 황금기 yayın kaydı", "url": "https://www.melon.com/album/detail.htm?albumId=14968186" }
+      ,{ "name": "Kworb / Spotify Global — 21 Ekim günlük sıralama", "url": "https://kworb.net/spotify/country/global_daily.html" }
+      ,{ "name": "Apple Music — girl in red — we fell in love in october / özgün tekli tarihi", "url": "https://music.apple.com/us/album/we-fell-in-love-in-october-forget-her-single/1441416633" }
     ],
-    "storyShare": "10 Eylül–9 Ekim müzik gündemi: Carly Rae Jepsen — Love Depressed, Cat Burns — Is It That Deep? ve Slayyyter — I Think He's Got a Girl yeni cuma yayınları arasında."
+    "storyShare": "26 Ekim: RIIZE — Insomnia ve XIAOJUN — Hey, Somebody yayımlandı. Victony & Summer Walker feat. Don Toliver — SLICK (Remix) ile Romeo Santos feat. Ozuna — Sobredosis için yeni video eğilimi hareketi doğrulandı."
   },
   {
     "slug": "7-eylul-2026-muzik-gundemi",

@@ -1,4 +1,6 @@
 import { next } from "@vercel/functions";
+import { artistAliases } from './src/lib/artistCatalog.js';
+import { articleAliases } from './src/data/articleAliases.js';
 import { legacyAlbumRedirects } from "./server/legacyAlbumRedirects.js";
 import { legacyCategoryRedirects } from "./server/legacyCategoryRedirects.js";
 import { legacyCategoryPathRedirects } from "./server/legacyCategoryPathRedirects.js";
@@ -103,6 +105,17 @@ function gone() {
 export default function middleware(request) {
   const pathname = new URL(request.url).pathname;
   const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+  const articleMatch = normalizedPath.match(/^\/pop-gunlugu\/([^/]+)$/);
+  if (articleMatch && articleAliases[articleMatch[1]]) {
+    const url = new URL(request.url); url.pathname = `/pop-gunlugu/${articleAliases[articleMatch[1]]}`;
+    return new Response(null, { status: 301, headers: { Location: url.toString() } });
+  }
+  const artistMatch = normalizedPath.match(/^\/(?:artist|sanatci)\/([^/]+)$/);
+  if (artistMatch && artistAliases[artistMatch[1]]) {
+    const url = new URL(request.url);
+    url.pathname = `/artist/${artistAliases[artistMatch[1]]}`;
+    return new Response(null, { status: 301, headers: { Location: url.toString() } });
+  }
   const moodMatch = normalizedPath.match(/^\/mood\/([^/]+)(?:\/page\/(\d+))?$/);
   if (moodMatch) {
     const mood = moodLandingFor(moodMatch[1]);

@@ -1,1790 +1,1832 @@
 [
   {
-    "slug": "bts",
-    "name": "BTS",
-    "count": 31,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d"
-  },
-  {
-    "slug": "the-weeknd",
-    "name": "The Weeknd",
-    "count": 25,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc1719ac9e6a75c1c25835018"
-  },
-  {
-    "slug": "lisa",
-    "name": "LISA",
-    "count": 18,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5cd3b3af8b72e32be78571ec"
-  },
-  {
-    "slug": "jennie",
-    "name": "JENNIE",
-    "count": 19,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
-  },
-  {
-    "slug": "rose",
-    "name": "ROSÉ",
-    "count": 15,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcfb4350222919670128ff2dc"
-  },
-  {
-    "slug": "ariana-grande",
-    "name": "Ariana Grande",
-    "count": 25,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87"
-  },
-  {
-    "slug": "stray-kids",
-    "name": "Stray Kids",
-    "count": 20,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f"
-  },
-  {
-    "slug": "twice",
-    "name": "TWICE",
-    "count": 9,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3d8820046fd455b38d644864"
-  },
-  {
-    "slug": "exo",
-    "name": "EXO",
-    "count": 8,
-    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/exo-turkce-ceviri.jpeg"
-  },
-  {
-    "slug": "g-dragon",
-    "name": "G-DRAGON",
-    "count": 8,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb783a6a578e8eb992bfd74765"
-  },
-  {
-    "slug": "jin",
-    "name": "JIN",
-    "count": 7,
-    "image": "https://i.scdn.co/image/ab67616d0000b27395225518b75ecfe32a2e8558"
-  },
-  {
-    "slug": "chanyeol",
-    "name": "CHANYEOL",
-    "count": 6,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebad793cef19a94d1a6bf73cd6"
-  },
-  {
-    "slug": "blackpink",
-    "name": "BLACKPINK",
-    "count": 18,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056"
-  },
-  {
-    "slug": "jisoo",
-    "name": "JISOO",
-    "count": 6,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab"
-  },
-  {
-    "slug": "le-sserafim",
-    "name": "LE SSERAFIM",
-    "count": 6,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e"
-  },
-  {
-    "slug": "benny-blanco",
-    "name": "benny blanco",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbeaa76c01198c79968de6f97"
-  },
-  {
-    "slug": "billie-eilish",
-    "name": "Billie Eilish",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da"
-  },
-  {
-    "slug": "j-hope",
-    "name": "j-hope",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebff9ce914c873a6879cf78f38"
-  },
-  {
-    "slug": "megan-thee-stallion",
-    "name": "Megan Thee Stallion",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb65a9ac943abab7c9935ea282"
-  },
-  {
-    "slug": "meovv",
-    "name": "MEOVV",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb30694dffac56e2f59b053584"
-  },
-  {
-    "slug": "sabrina-carpenter",
-    "name": "Sabrina Carpenter",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb78e45cfa4697ce3c437cb455"
-  },
-  {
-    "slug": "selena-gomez",
-    "name": "Selena Gomez",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb815e520e3ce7fe210046ba66"
-  },
-  {
-    "slug": "aespa",
-    "name": "aespa",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b"
-  },
-  {
-    "slug": "ateez",
     "name": "ATEEZ",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc"
+    "slug": "ateez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+    "count": 6
   },
   {
-    "slug": "ayliva",
-    "name": "AYLIVA",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb996830f67fa1ae09c3b5edab"
+    "name": "LISA",
+    "slug": "lisa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5cd3b3af8b72e32be78571ec",
+    "count": 23
   },
   {
-    "slug": "charli-xcx",
-    "name": "Charli xcx",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6fa76436a2bba83b9f1d6fd1"
-  },
-  {
-    "slug": "dua-lipa",
-    "name": "Dua Lipa",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d"
-  },
-  {
-    "slug": "enhypen",
-    "name": "ENHYPEN",
-    "count": 9,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb590b808769f5826ce94d1dd4"
-  },
-  {
-    "slug": "katseye",
-    "name": "KATSEYE",
-    "count": 8,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6"
-  },
-  {
-    "slug": "katy-perry",
-    "name": "Katy Perry",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
-  },
-  {
-    "slug": "kendrick-lamar",
-    "name": "Kendrick Lamar",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918"
-  },
-  {
-    "slug": "lady-gaga",
-    "name": "Lady Gaga",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6"
-  },
-  {
-    "slug": "rihanna",
-    "name": "Rihanna",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac"
-  },
-  {
-    "slug": "tate-mcrae",
-    "name": "Tate McRae",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbed8016bd64422793ff3bc75"
-  },
-  {
-    "slug": "taylor-swift",
-    "name": "Taylor Swift",
-    "count": 14,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
-  },
-  {
-    "slug": "tyla",
-    "name": "Tyla",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb69719e4164b893213a525d25"
-  },
-  {
-    "slug": "anne-marie",
-    "name": "Anne-Marie",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf94a7e185158d0950f07310b"
-  },
-  {
-    "slug": "babymonster",
-    "name": "BABYMONSTER",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271"
-  },
-  {
-    "slug": "bruno-mars",
-    "name": "Bruno Mars",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
-  },
-  {
-    "slug": "coldplay",
-    "name": "Coldplay",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb"
-  },
-  {
-    "slug": "doechii",
-    "name": "Doechii",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579"
-  },
-  {
-    "slug": "future",
-    "name": "Future",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
-  },
-  {
-    "slug": "gracie-abrams",
-    "name": "Gracie Abrams",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e"
-  },
-  {
-    "slug": "harry-styles",
-    "name": "Harry Styles",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
-  },
-  {
-    "slug": "justin-bieber",
-    "name": "Justin Bieber",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034"
-  },
-  {
-    "slug": "lana-del-rey",
-    "name": "Lana Del Rey",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261"
-  },
-  {
-    "slug": "linkin-park",
-    "name": "LINKIN PARK",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb527d95dabbe8b8b527e8136f"
-  },
-  {
-    "slug": "maroon-5",
-    "name": "Maroon 5",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77"
-  },
-  {
-    "slug": "one-direction",
-    "name": "One Direction",
-    "count": 3,
-    "image": "https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8"
-  },
-  {
-    "slug": "raye",
-    "name": "RAYE",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9"
-  },
-  {
-    "slug": "seventeen",
-    "name": "SEVENTEEN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c"
-  },
-  {
-    "slug": "shawn-mendes",
-    "name": "Shawn Mendes",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb58b4b9419486550f6fda0535"
-  },
-  {
-    "slug": "xg",
-    "name": "XG",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3402cc21386cdeb1608ebb37"
-  },
-  {
-    "slug": "yeonjun",
-    "name": "YEONJUN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf4741dbec1334756811e019b"
-  },
-  {
-    "slug": "zara-larsson",
-    "name": "Zara Larsson",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd519a7e349541cba8f85e965"
-  },
-  {
-    "slug": "zayn",
-    "name": "ZAYN",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb830845d2fa6c5c7874176951"
-  },
-  {
-    "slug": "nsync",
-    "name": "*NSYNC",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9414ef07d0ca697726912df1"
-  },
-  {
-    "slug": "070-shake",
-    "name": "070 Shake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6338990250f5d5a447650ba9"
-  },
-  {
-    "slug": "adele",
-    "name": "Adele",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17"
-  },
-  {
-    "slug": "agust-d",
-    "name": "Agust D",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
-  },
-  {
-    "slug": "agust-d-2",
-    "name": "Agust D",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34"
-  },
-  {
-    "slug": "alex-warren",
-    "name": "Alex Warren",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe027df2e591e1a050e5235cc"
-  },
-  {
-    "slug": "allday-project",
-    "name": "ALLDAY PROJECT",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1c4e96c09862074fddbbbf1f"
-  },
-  {
-    "slug": "amber-coffman",
-    "name": "Amber Coffman",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6772690000c46cb4acd2212654689d3039df24"
-  },
-  {
-    "slug": "anderson-paak",
-    "name": "Anderson .Paak",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496"
-  },
-  {
-    "slug": "anitta",
-    "name": "Anitta",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb777419bf9a701a78fdd6515f"
-  },
-  {
-    "slug": "apache-207",
-    "name": "Apache 207",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd8b08d3199d2bd40f909e449"
-  },
-  {
-    "slug": "arcane",
-    "name": "Arcane",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba056b2ecc1a70ab57cdcc10b"
-  },
-  {
-    "slug": "b-i",
-    "name": "B.I",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a"
-  },
-  {
-    "slug": "bi",
-    "name": "B.I",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a"
-  },
-  {
-    "slug": "baekhyun",
-    "name": "BAEKHYUN",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7d4e246f8c54be347e06bffe"
-  },
-  {
-    "slug": "bayanni",
-    "name": "Bayanni",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebec9db3d4de7709c1425c9e92"
-  },
-  {
-    "slug": "bebe-rexha",
-    "name": "Bebe Rexha",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7623b3d99b9adc3200b834de"
-  },
-  {
-    "slug": "burna-boy",
-    "name": "Burna Boy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f"
-  },
-  {
-    "slug": "camila-cabello",
-    "name": "Camila Cabello",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb76470faf6330235edbcb90a9"
-  },
-  {
-    "slug": "chappell-roan",
-    "name": "Chappell Roan",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd258ecb0d66244e6300bcf64"
-  },
-  {
-    "slug": "chase-atlantic",
-    "name": "Chase Atlantic",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba4e2d7045cbcca592ba6c7dd"
-  },
-  {
-    "slug": "chezile",
-    "name": "Chezile",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb1593dbc8b1c5ee3c62b55a1"
-  },
-  {
-    "slug": "childish-gambino",
-    "name": "Childish Gambino",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
-  },
-  {
-    "slug": "chung-ha",
-    "name": "CHUNG HA",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79"
-  },
-  {
-    "slug": "ckay",
-    "name": "CKay",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba6145d4dcd91e2d660983970"
-  },
-  {
-    "slug": "cl",
-    "name": "CL",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc67fe879798c208fcf056dde"
-  },
-  {
-    "slug": "clean-bandit",
-    "name": "Clean Bandit",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf995542c4f68f8ae4f05b5f6"
-  },
-  {
-    "slug": "conan-gray",
-    "name": "Conan Gray",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4c2b62d4748524454a6f99b0"
-  },
-  {
-    "slug": "cordae",
-    "name": "Cordae",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9161ad9d53d8c24e2c79d5a5"
-  },
-  {
-    "slug": "cults",
-    "name": "Cults",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb92ec52fb43fbd4d2511a9d1d"
-  },
-  {
-    "slug": "daesung",
-    "name": "DAESUNG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcebb44ed3b29601d68cac28a"
-  },
-  {
-    "slug": "devita",
-    "name": "DeVita",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6b85e8af86e410e9df38c227"
-  },
-  {
-    "slug": "dj-khaled",
-    "name": "DJ Khaled",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd445349a29400dd5f5180c0f"
-  },
-  {
-    "slug": "doja-cat",
-    "name": "Doja Cat",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8a0644455ebfa7d3976f5101"
-  },
-  {
-    "slug": "dominic-fike",
-    "name": "Dominic Fike",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
-  },
-  {
-    "slug": "don-toliver",
-    "name": "Don Toliver",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc52b798deb89eb8414a51b7b"
-  },
-  {
-    "slug": "dove-cameron",
-    "name": "Dove Cameron",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5fcd837c1420d97f500ef9"
-  },
-  {
-    "slug": "drake",
-    "name": "Drake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
-  },
-  {
-    "slug": "ed-sheeran",
-    "name": "Ed Sheeran",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec"
-  },
-  {
-    "slug": "elyanna",
-    "name": "Elyanna",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb88b64e15982a3e8177913573"
-  },
-  {
-    "slug": "eminem",
-    "name": "Eminem",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
-  },
-  {
-    "slug": "f1-the-album",
-    "name": "F1 The Album",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7f4f23b9eba34d35ac86e6a8"
-  },
-  {
-    "slug": "fkj",
-    "name": "FKJ",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba6e6973a01eb04abf32b58bb"
-  },
-  {
-    "slug": "flo-rida",
-    "name": "Flo Rida",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb655ca8f3196953554b479452"
-  },
-  {
-    "slug": "florence-the-machine",
-    "name": "Florence + The Machine",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb836eb0a7a82eb8f4133ee04d"
-  },
-  {
-    "slug": "gims",
-    "name": "GIMS",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb77144f838397a467e807df65"
-  },
-  {
-    "slug": "giorgio-moroder",
-    "name": "Giorgio Moroder",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ae53e43ad044fe30298ac986a606bef7db4617bb"
-  },
-  {
-    "slug": "glorilla",
-    "name": "GloRilla",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc33cf3ad025517202d8efbc0"
-  },
-  {
-    "slug": "got7",
-    "name": "GOT7",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb51636490d389e8d2ab96026e"
-  },
-  {
-    "slug": "hwasa",
-    "name": "HWASA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0e82a43b4f076a736c515e6f"
-  },
-  {
-    "slug": "i-dle",
-    "name": "i-dle",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "indila",
-    "name": "Indila",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6cd07d169e7e2ec94193a1d2"
-  },
-  {
-    "slug": "itzy",
-    "name": "ITZY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba60be8af61d6184cd0402f80"
-  },
-  {
-    "slug": "ive",
-    "name": "IVE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840"
-  },
-  {
-    "slug": "j-cole",
-    "name": "J. Cole",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2"
-  },
-  {
-    "slug": "jade",
-    "name": "JADE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb6fff16f1d7f5569cbdf42ac"
-  },
-  {
-    "slug": "jason-derulo",
-    "name": "Jason Derulo",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfb65e1af01cf95c25bd29ed1"
-  },
-  {
-    "slug": "jimin",
-    "name": "Jimin",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcf3a9c35db52ba44f3b921e3"
-  },
-  {
-    "slug": "jordan-adetunji",
-    "name": "Jordan Adetunji",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6087e9ef4651828659a066be"
-  },
-  {
-    "slug": "jung-kook",
-    "name": "Jung Kook",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb71089d18c93e3a51e70ff0dc"
-  },
-  {
-    "slug": "justice",
-    "name": "Justice",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf140c161d9f9cc9afe85b6ed"
-  },
-  {
-    "slug": "justin-timberlake",
-    "name": "Justin Timberlake",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e"
-  },
-  {
-    "slug": "kai",
-    "name": "KAI",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2b654ee59c4ced1cc0012d8a"
-  },
-  {
-    "slug": "kali-uchis",
-    "name": "Kali Uchis",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993"
-  },
-  {
-    "slug": "kanye-west",
-    "name": "Kanye West",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a"
-  },
-  {
-    "slug": "kard",
-    "name": "KARD",
-    "count": 6,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb009b63b797a0690e0bf530a2"
-  },
-  {
-    "slug": "kehlani",
-    "name": "Kehlani",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcf865d7d399a41e1bd036149"
-  },
-  {
-    "slug": "khalid",
-    "name": "Khalid",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8f77c3eddc1869e9542b04bc"
-  },
-  {
-    "slug": "kiss-of-life",
-    "name": "KISS OF LIFE",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb94f24a151ca1320ec2f3ed92"
-  },
-  {
-    "slug": "lily-rose-depp",
-    "name": "Lily-Rose Depp",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc2fb4b8e035fbdad27da865f"
-  },
-  {
-    "slug": "little-simz",
-    "name": "Little Simz",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0"
-  },
-  {
-    "slug": "lngshot",
-    "name": "LNGSHOT",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "lp",
-    "name": "LP",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb433c36d13316024feb02e3bf"
-  },
-  {
-    "slug": "miguel",
-    "name": "Miguel",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a"
-  },
-  {
-    "slug": "minnie",
-    "name": "MINNIE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb63660addb22072fb9aa2b104"
-  },
-  {
-    "slug": "misamo",
-    "name": "MISAMO",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5177c8768acaa8f5bd1c22d6"
-  },
-  {
-    "slug": "monsta-x",
-    "name": "Monsta X",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7b2d6acfa19934dad2fb2140"
-  },
-  {
-    "slug": "nct-dream",
-    "name": "NCT DREAM",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebed95357b2b295b2be5058b0b"
-  },
-  {
-    "slug": "nf",
-    "name": "NF",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8fcc5c49d2116d7251ecbd65"
-  },
-  {
-    "slug": "nmixx",
-    "name": "NMIXX",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5dff706e8c9ec07f7850f014"
-  },
-  {
-    "slug": "olivia-rodrigo",
-    "name": "Olivia Rodrigo",
-    "count": 4,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44"
-  },
-  {
-    "slug": "one-or-eight",
-    "name": "ONE OR EIGHT",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "park-hyo-shin",
-    "name": "Park Hyo Shin",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a7d4f77e962baf427eeea80"
-  },
-  {
-    "slug": "paul-russell",
-    "name": "Paul Russell",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb71f849bbbce2b7415e0cf51b"
-  },
-  {
-    "slug": "pharrell-williams",
-    "name": "Pharrell Williams",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
-  },
-  {
-    "slug": "pierre-de-maere",
-    "name": "Pierre de Maere",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb736cfd6b66dd328050be02cd"
-  },
-  {
-    "slug": "playboi-carti",
-    "name": "Playboi Carti",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
-  },
-  {
-    "slug": "pomme",
-    "name": "Pomme",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcaf000b2968ec1c7a7262454"
-  },
-  {
-    "slug": "rm",
-    "name": "RM",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb943d108210401e2086bc4279"
-  },
-  {
-    "slug": "rosalia",
-    "name": "ROSALÍA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9354faf80eb87961466edfbf"
-  },
-  {
-    "slug": "sam-smith",
-    "name": "Sam Smith",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0e64fb94acbb752960c823e9"
-  },
-  {
-    "slug": "shakira",
-    "name": "Shakira",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
-  },
-  {
-    "slug": "sia",
-    "name": "Sia",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcc1806f0a2f6c9e449de9d3c"
-  },
-  {
-    "slug": "slimane",
-    "name": "Slimane",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb345072876c875cd6bc6f396b"
-  },
-  {
-    "slug": "soulja-boy",
-    "name": "Soulja Boy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34"
-  },
-  {
-    "slug": "speedy",
-    "name": "Speedy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f"
-  },
-  {
-    "slug": "stromae",
-    "name": "Stromae",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2"
-  },
-  {
-    "slug": "supreme-boi",
-    "name": "Supreme Boi",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273aed258d044bcd33cc71e0ab6"
-  },
-  {
-    "slug": "sza",
-    "name": "SZA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
-  },
-  {
-    "slug": "tablo",
-    "name": "TABLO",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3a38127e499b6f18e2deaecd"
-  },
-  {
-    "slug": "taeyang",
-    "name": "TAEYANG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7418a76d26fdc76f7b9ffa23"
-  },
-  {
-    "slug": "taeyeon",
-    "name": "TAEYEON",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd3cee7772514a1bcef46a9b6"
-  },
-  {
-    "slug": "teddy-swims",
-    "name": "Teddy Swims",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb36eb08698aa7794372c97b97"
-  },
-  {
-    "slug": "temper-city",
-    "name": "Temper City",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3"
-  },
-  {
-    "slug": "tini",
-    "name": "TINI",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca"
-  },
-  {
-    "slug": "tomorrow-x-together",
-    "name": "TOMORROW X TOGETHER",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
-  },
-  {
-    "slug": "tomorrow-x-together",
-    "name": "TOMORROW X TOGETHER",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62"
-  },
-  {
-    "slug": "travis-scott",
-    "name": "Travis Scott",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71"
-  },
-  {
-    "slug": "troye-sivan",
-    "name": "Troye Sivan",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b"
-  },
-  {
-    "slug": "tzuyu",
-    "name": "TZUYU",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe039b9b9ba211f98b42eb0d5"
-  },
-  {
-    "slug": "v",
-    "name": "V",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb89a07818e5d02039a6ef3181"
-  },
-  {
-    "slug": "wendy",
-    "name": "WENDY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9a2756203f547d1a758ede7a"
-  },
-  {
-    "slug": "woosung",
-    "name": "WOOSUNG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6030f28e5236ab125c73e255"
-  },
-  {
-    "slug": "yena",
-    "name": "YENA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba0cbe5ecc3014288c0bbbf4d"
-  },
-  {
-    "slug": "tame-impala",
-    "name": "Tame Impala",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
-  },
-  {
-    "slug": "oasis",
-    "name": "Oasis",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb4ddbc39706ef0f2ae0f7c9b"
-  },
-  {
-    "slug": "malcolm-todd",
-    "name": "Malcolm Todd",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9f6f7c2d12975d2a4b3a0fd8"
-  },
-  {
-    "slug": "olivia-dean",
-    "name": "Olivia Dean",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1"
-  },
-  {
-    "slug": "madonna",
-    "name": "Madonna",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
-  },
-  {
-    "slug": "onerepublic",
-    "name": "OneRepublic",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd"
-  },
-  {
-    "slug": "emin",
-    "name": "EMIN",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba143e8f8c71d53dd8bb55ebc"
-  },
-  {
-    "slug": "jony",
-    "name": "JONY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfaca175ff553179f6b3bed6a"
-  },
-  {
-    "slug": "bm",
-    "name": "BM",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27"
-  },
-  {
-    "slug": "j-seph",
-    "name": "J.seph",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1"
-  },
-  {
-    "slug": "somin",
-    "name": "SOMIN",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0"
-  },
-  {
-    "slug": "jiwoo",
-    "name": "JIWOO",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2"
-  },
-  {
-    "slug": "aitch",
-    "name": "Aitch",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb832acfd9c5ceff4baf912a83"
-  },
-  {
-    "slug": "huntr-x",
-    "name": "HUNTR/X",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b2736c1334650ced0e28f0b2e13f"
-  },
-  {
-    "slug": "the-goo-goo-dolls",
-    "name": "The Goo Goo Dolls",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe7b66b8c4ba729848574df7a"
-  },
-  {
-    "slug": "sombr",
-    "name": "sombr",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb78edaa6468cae153565c2c97"
-  },
-  {
-    "slug": "ella-langley",
-    "name": "Ella Langley",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
-  },
-  {
-    "slug": "michael-jackson",
-    "name": "Michael Jackson",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
-  },
-  {
-    "slug": "cardi-b",
-    "name": "Cardi B",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d"
-  },
-  {
-    "slug": "becky-g",
-    "name": "Becky G",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3d24f1805384b8d43c8cae42"
-  },
-  {
-    "slug": "slayyyter",
-    "name": "Slayyyter",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd475efee7c254f7e77a2d306"
-  },
-  {
-    "slug": "inji",
-    "name": "INJI",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbb9b2f1ed4018b6bd506516b"
-  },
-  {
-    "slug": "ellie-goulding",
-    "name": "Ellie Goulding",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb70a7b5f0ee7b18d2f2cc8d74"
-  },
-  {
-    "slug": "no-na",
-    "name": "no na",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8f7269973931f183b986d9a1"
-  },
-  {
-    "slug": "mark-tuan",
-    "name": "Mark Tuan",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4e75cd01388e56f8c0cd611c"
-  },
-  {
-    "slug": "mgk",
-    "name": "mgk",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb85e7615a199f8b17fabfcd61"
-  },
-  {
-    "slug": "",
-    "name": "千葉雄喜",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "cortis",
-    "name": "CORTIS",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8"
-  },
-  {
-    "slug": "juicy-j",
-    "name": "Juicy J",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "skilla-baby",
-    "name": "Skilla Baby",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe9167778343594cbe0f93852"
-  },
-  {
-    "slug": "rachel-chinouriri",
-    "name": "Rachel Chinouriri",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4ba395ca07ac729e7e01feb8"
-  },
-  {
-    "slug": "ari-lennox",
-    "name": "Ari Lennox",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8636ddd6c55ad1a8aeb6318f"
-  },
-  {
-    "slug": "logic",
-    "name": "Logic",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4309e7be1610df9a1fd34793"
-  },
-  {
-    "slug": "sb19",
-    "name": "SB19",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebec2fe226ac1b01a9f7e95481"
-  },
-  {
-    "slug": "swedish-house-mafia",
-    "name": "Swedish House Mafia",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9614fcf985ad6fc5b4a7c3de"
-  },
-  {
-    "slug": "lykke-li",
-    "name": "Lykke Li",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "ava-max",
-    "name": "Ava Max",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd8fa717584b01690e3919e32"
-  },
-  {
-    "slug": "paw-patrol",
-    "name": "PAW Patrol",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "alan-walker",
-    "name": "Alan Walker",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb572a8eae56feae217f618078"
-  },
-  {
-    "slug": "be-first",
-    "name": "BE:FIRST",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6bf365c18c1577d55108e361"
-  },
-  {
-    "slug": "flo-milli",
-    "name": "Flo Milli",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "atl-jacob",
-    "name": "ATL Jacob",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "arca",
-    "name": "Arca",
-    "count": 16,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4b88b2ab3ee04bb54003999e"
-  },
-  {
-    "slug": "shaboozey",
-    "name": "Shaboozey",
-    "count": 20,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebeb786bf6ceec60d49c2f39f0"
-  },
-  {
-    "slug": "jamie-foxx",
-    "name": "Jamie Foxx",
-    "count": 2,
-    "image": null
-  },
-  {
-    "slug": "gunna",
-    "name": "Gunna",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "leon-bridges",
-    "name": "Leon Bridges",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "teyana-taylor",
-    "name": "Teyana Taylor",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "sam-elliott",
-    "name": "Sam Elliott",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "orville-peck",
-    "name": "Orville Peck",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "cupcakke",
-    "name": "cupcakKe",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb65553fe65c9db9b59d15a855"
-  },
-  {
-    "slug": "tones-and-i",
-    "name": "Tones And I",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba2709df1d241734826f363e3"
-  },
-  {
-    "slug": "dinah-jane",
-    "name": "Dinah Jane",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb44a357ef8be80afe40c04117"
-  },
-  {
-    "slug": "davido",
-    "name": "Davido",
-    "count": 13,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2bf250c3e92f9e7542efd95c"
-  },
-  {
-    "slug": "black-sherif",
-    "name": "Black Sherif",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "jazzwrld",
-    "name": "JAZZWRLD",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "gl-ceejay",
-    "name": "GL_Ceejay",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "no11",
-    "name": "NO11",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "mayorkun",
-    "name": "Mayorkun",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "fola",
-    "name": "FOLA",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "leon-thomas",
-    "name": "Leon Thomas",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "aya-nakamura",
-    "name": "Aya Nakamura",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "llona",
-    "name": "Llona",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "red-velvet",
-    "name": "Red Velvet",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629"
-  },
-  {
-    "slug": "sienna-spiro",
-    "name": "SIENNA SPIRO",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfb0ab819bbd4502028cd1feb"
-  },
-  {
-    "slug": "stella-lefty",
-    "name": "STELLA LEFTY",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcbcd28b97defa1ada8c06d6c"
-  },
-  {
-    "slug": "anotr",
-    "name": "ANOTR",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb48b2dcdf9a2e05e01694cc57"
-  },
-  {
-    "slug": "54-ultra",
-    "name": "54 Ultra",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "sam-fender",
-    "name": "Sam Fender",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8"
-  },
-  {
-    "slug": "ludacris",
-    "name": "Ludacris",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "shabjdeed",
-    "name": "Shabjdeed",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1298d88ed54de31aedf76b43"
-  },
-  {
-    "slug": "smokaholic",
-    "name": "SMOKAHOLIC",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "latin-mafia",
-    "name": "LATIN MAFIA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093"
-  },
-  {
-    "slug": "fred-again",
-    "name": "Fred again..",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "bonnie-tyler",
-    "name": "Bonnie Tyler",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4ca4431cf4b1227eba8288d8"
-  },
-  {
-    "slug": "radiohead",
-    "name": "Radiohead",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59"
-  },
-  {
-    "slug": "morgan-wallen",
-    "name": "Morgan Wallen",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30"
-  },
-  {
-    "slug": "artms",
-    "name": "ARTMS",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc0be4bb287e7a4fc5452d5fc"
-  },
-  {
-    "slug": "flo",
-    "name": "FLO",
-    "count": 7,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb85729f18eb0edf40d80dc18a"
-  },
-  {
-    "slug": "picheolin",
-    "name": "Picheolin",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcd4b2a97a9e2314287942e0f"
-  },
-  {
-    "slug": "dino",
-    "name": "DINO",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf6207e28d7e9037fa8074cb6"
-  },
-  {
-    "slug": "illit",
-    "name": "ILLIT",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710"
-  },
-  {
-    "slug": "rescene",
-    "name": "RESCENE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36"
-  },
-  {
-    "slug": "ravyn-lenae",
-    "name": "Ravyn Lenae",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe881d4df24e1b39bd7154778"
-  },
-  {
-    "slug": "role-model",
-    "name": "ROLE MODEL",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfe9486c9ef6d86b4f39805c8"
-  },
-  {
-    "slug": "kiiikiii",
-    "name": "KiiiKiii",
-    "count": 3,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbb46a2477f053c63ff093867"
-  },
-  {
-    "slug": "nct-127",
-    "name": "NCT 127",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebdc904dcc7399f1fd90107392"
-  },
-  {
-    "slug": "wayv",
-    "name": "WayV",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfe7dda7543af010558a6b4b7"
-  },
-  {
-    "slug": "ade-la",
-    "name": "ADÉLA",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2c27abd675ecdf05325e9615"
-  },
-  {
-    "slug": "axmxp",
-    "name": "AxMxP",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0b51afcc1e232a12ae8a3c63"
-  },
-  {
-    "slug": "aitana",
-    "name": "Aitana",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf70cb5cef7d3848570900de5"
-  },
-  {
-    "slug": "bigbang",
-    "name": "BIGBANG",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb41f3b91c5c5bf6651da98956"
-  },
-  {
-    "slug": "steve-lacy",
-    "name": "Steve Lacy",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7e3150cffbfda40c6eaf28dd"
-  },
-  {
-    "slug": "carly-rae-jepsen",
-    "name": "Carly Rae Jepsen",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb55e3a8d4fe7f0053fffca258"
-  },
-  {
-    "slug": "post-malone",
-    "name": "Post Malone",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0"
-  },
-  {
-    "slug": "lord-huron",
-    "name": "Lord Huron",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0d4d3bb72e9375017fd94f71"
-  },
-  {
-    "slug": "no-doubt",
-    "name": "No Doubt",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6772690000c46c2bc169ddd09632b994baf3b1"
-  },
-  {
-    "slug": "radikal",
-    "name": "Radikal",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe1494eccd64ee30706374603"
-  },
-  {
-    "slug": "imagine-dragons",
-    "name": "Imagine Dragons",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38"
-  },
-  {
-    "slug": "dolly-parton",
-    "name": "Dolly Parton",
-    "count": 5,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a"
-  },
-  {
-    "slug": "sf9",
-    "name": "SF9",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960"
-  },
-  {
-    "slug": "tulus",
-    "name": "Tulus",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe2569eea1e32fe495d52c9a3"
-  },
-  {
-    "slug": "motive",
-    "name": "Motive",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0512d2bb2a5fbbf46e29433f"
-  },
-  {
-    "slug": "lennon-stella",
-    "name": "Lennon Stella",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb66dc7de5c2859688c562280c"
-  },
-  {
-    "slug": "charlie-puth",
-    "name": "Charlie Puth",
-    "count": 2,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace"
-  },
-  {
-    "slug": "alyssa-grace",
-    "name": "Alyssa Grace",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbdd45b55f2d0969721846fcc"
-  },
-  {
-    "slug": "audrey-hobert",
-    "name": "Audrey Hobert",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb4fc78e354b19324810f1e933"
-  },
-  {
-    "slug": "ashe",
-    "name": "Ashe",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1ecbc7955919e10c45604e85"
-  },
-  {
-    "slug": "noah-kahan",
-    "name": "Noah Kahan",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5b141d30d14fb78458dac5ce"
-  },
-  {
-    "slug": "girls-generation-hrs",
-    "name": "Girls' Generation-HRS",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8da1be596e5b1c5e63a013f0"
-  },
-  {
-    "slug": "tove-lo",
-    "name": "Tove Lo",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb052316e437e3525c9f9b473b"
-  },
-  {
-    "slug": "mazzy-star",
-    "name": "Mazzy Star",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3"
-  },
-  {
-    "slug": "miley-cyrus",
-    "name": "Miley Cyrus",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e"
-  },
-  {
-    "slug": "jhene-aiko",
-    "name": "Jhené Aiko",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eba549c55ea928defc166d971e"
-  },
-  {
-    "slug": "nana",
-    "name": "NANA",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa"
-  },
-  {
-    "slug": "manifest",
-    "name": "manifest",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a"
-  },
-  {
-    "slug": "arctic-monkeys",
-    "name": "Arctic Monkeys",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f"
-  },
-  {
-    "slug": "the-neighbourhood",
-    "name": "The Neighbourhood",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816"
-  },
-  {
-    "slug": "tom-odell",
-    "name": "Tom Odell",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb89633578648b0b51f53d167f"
-  },
-  {
-    "slug": "cigarettes-after-sex",
-    "name": "Cigarettes After Sex",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2e08fd554de35c3ef1db7fd9"
-  },
-  {
-    "slug": "sting",
-    "name": "Sting",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216"
-  },
-  {
-    "slug": "wham",
-    "name": "Wham!",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2ebf587c72f9e5159da9ce55"
-  },
-  {
-    "slug": "michel-fugain-le-big-bazar",
-    "name": "Michel Fugain & Le Big Bazar",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab"
-  },
-  {
-    "slug": "manu-pilas",
-    "name": "Manu Pilas",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0fac2076ba668ea28e789c20"
-  },
-  {
-    "slug": "a2o-lite",
-    "name": "A2O LITE",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3690f8e2ea217ae9019fe8d8"
-  },
-  {
-    "slug": "a2o",
-    "name": "A2O",
-    "count": 1,
-    "image": null
-  },
-  {
-    "slug": "tommy-cash",
-    "name": "Tommy Cash",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb889be712bb77955714ae4370"
-  },
-  {
-    "slug": "amy-winehouse",
     "name": "Amy Winehouse",
-    "count": 1,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c"
+    "slug": "amy-winehouse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c",
+    "count": 1
+  },
+  {
+    "name": "Travis Scott",
+    "slug": "travis-scott",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+    "count": 2
+  },
+  {
+    "name": "Playboi Carti",
+    "slug": "playboi-carti",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+    "count": 2
+  },
+  {
+    "name": "Tommy Cash",
+    "slug": "tommy-cash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb889be712bb77955714ae4370",
+    "count": 1
+  },
+  {
+    "name": "A2O LITE",
+    "slug": "a2o-lite",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3690f8e2ea217ae9019fe8d8",
+    "count": 1
+  },
+  {
+    "name": "A2O",
+    "slug": "a2o",
+    "image": "https://i.scdn.co/image/ab67616d0000b27325b69ed0c9ed813822eb3a3a",
+    "count": 1
+  },
+  {
+    "name": "Manu Pilas",
+    "slug": "manu-pilas",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0fac2076ba668ea28e789c20",
+    "count": 1
+  },
+  {
+    "name": "Taylor Swift",
+    "slug": "taylor-swift",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+    "count": 14
+  },
+  {
+    "name": "Michel Fugain & Le Big Bazar",
+    "slug": "michel-fugain-le-big-bazar",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b2b4b12565a8c7c8118cb8ab",
+    "count": 1
+  },
+  {
+    "name": "Wham!",
+    "slug": "wham",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ebf587c72f9e5159da9ce55",
+    "count": 1
+  },
+  {
+    "name": "Sting",
+    "slug": "sting",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+    "count": 1
+  },
+  {
+    "name": "Tame Impala",
+    "slug": "tame-impala",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+    "count": 3
+  },
+  {
+    "name": "Charlie Puth",
+    "slug": "charlie-puth",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6721f541fb123145d4cb3ace",
+    "count": 2
+  },
+  {
+    "name": "Stromae",
+    "slug": "stromae",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc129f1c9b5047760d66aae2",
+    "count": 2
+  },
+  {
+    "name": "Cigarettes After Sex",
+    "slug": "cigarettes-after-sex",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e08fd554de35c3ef1db7fd9",
+    "count": 1
+  },
+  {
+    "name": "Indila",
+    "slug": "indila",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6cd07d169e7e2ec94193a1d2",
+    "count": 2
+  },
+  {
+    "name": "Lana Del Rey",
+    "slug": "lana-del-rey",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261",
+    "count": 4
+  },
+  {
+    "name": "Cardi B",
+    "slug": "cardi-b",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d",
+    "count": 3
+  },
+  {
+    "name": "Eminem",
+    "slug": "eminem",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+    "count": 3
+  },
+  {
+    "name": "Billie Eilish",
+    "slug": "billie-eilish",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+    "count": 5
+  },
+  {
+    "name": "Khalid",
+    "slug": "khalid",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f77c3eddc1869e9542b04bc",
+    "count": 2
+  },
+  {
+    "name": "Adele",
+    "slug": "adele",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17",
+    "count": 2
+  },
+  {
+    "name": "Tom Odell",
+    "slug": "tom-odell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb89633578648b0b51f53d167f",
+    "count": 1
+  },
+  {
+    "name": "The Neighbourhood",
+    "slug": "the-neighbourhood",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816",
+    "count": 1
+  },
+  {
+    "name": "Arctic Monkeys",
+    "slug": "arctic-monkeys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+    "count": 1
+  },
+  {
+    "name": "Tate McRae",
+    "slug": "tate-mcrae",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbed8016bd64422793ff3bc75",
+    "count": 4
+  },
+  {
+    "name": "Olivia Rodrigo",
+    "slug": "olivia-rodrigo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb14eb4dcfd2f3858bed06e44",
+    "count": 5
+  },
+  {
+    "name": "Chappell Roan",
+    "slug": "chappell-roan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd258ecb0d66244e6300bcf64",
+    "count": 2
+  },
+  {
+    "name": "MEOVV",
+    "slug": "meovv",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb30694dffac56e2f59b053584",
+    "count": 5
+  },
+  {
+    "name": "KATSEYE",
+    "slug": "katseye",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbd594274bb5002f9275821e6",
+    "count": 10
+  },
+  {
+    "name": "manifest",
+    "slug": "manifest",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb145f766083fc566e994d739a",
+    "count": 1
+  },
+  {
+    "name": "NANA",
+    "slug": "nana",
+    "image": "https://i.scdn.co/image/ab67616d0000b273365a89fbb5dedb1b1bc1b6aa",
+    "count": 1
+  },
+  {
+    "name": "Jhené Aiko",
+    "slug": "jhene-aiko",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba549c55ea928defc166d971e",
+    "count": 1
+  },
+  {
+    "name": "Kendrick Lamar",
+    "slug": "kendrick-lamar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+    "count": 4
+  },
+  {
+    "name": "CRUSH",
+    "slug": "crush",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebecdf990326951f571c05158d",
+    "count": 1
+  },
+  {
+    "name": "ADÉLA",
+    "slug": "adela",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c27abd675ecdf05325e9615",
+    "count": 2
+  },
+  {
+    "name": "JISOO",
+    "slug": "jisoo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab",
+    "count": 6
+  },
+  {
+    "name": "Monsta X",
+    "slug": "monsta-x",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7b2d6acfa19934dad2fb2140",
+    "count": 2
+  },
+  {
+    "name": "Miley Cyrus",
+    "slug": "miley-cyrus",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6431a229c528350779bf77e",
+    "count": 1
+  },
+  {
+    "name": "Mazzy Star",
+    "slug": "mazzy-star",
+    "image": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3",
+    "count": 1
+  },
+  {
+    "name": "Tove Lo",
+    "slug": "tove-lo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb052316e437e3525c9f9b473b",
+    "count": 1
+  },
+  {
+    "name": "Girls' Generation-HRS",
+    "slug": "girls-generation-hrs",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da1be596e5b1c5e63a013f0",
+    "count": 1
+  },
+  {
+    "name": "Noah Kahan",
+    "slug": "noah-kahan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5b141d30d14fb78458dac5ce",
+    "count": 1
+  },
+  {
+    "name": "Alex Warren",
+    "slug": "alex-warren",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe027df2e591e1a050e5235cc",
+    "count": 3
+  },
+  {
+    "name": "Ashe",
+    "slug": "ashe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ecbc7955919e10c45604e85",
+    "count": 1
+  },
+  {
+    "name": "Audrey Hobert",
+    "slug": "audrey-hobert",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fc78e354b19324810f1e933",
+    "count": 1
+  },
+  {
+    "name": "Alyssa Grace",
+    "slug": "alyssa-grace",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbdd45b55f2d0969721846fcc",
+    "count": 1
+  },
+  {
+    "name": "CHUNG HA",
+    "slug": "chung-ha",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7540e44553a10ae139124d79",
+    "count": 2
+  },
+  {
+    "name": "JENNIE",
+    "slug": "jennie",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575",
+    "count": 20
+  },
+  {
+    "name": "Lennon Stella",
+    "slug": "lennon-stella",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66dc7de5c2859688c562280c",
+    "count": 1
+  },
+  {
+    "name": "OneRepublic",
+    "slug": "onerepublic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3202f1bcacc6d8f581f32ffd",
+    "count": 2
+  },
+  {
+    "name": "Motive",
+    "slug": "motive",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0512d2bb2a5fbbf46e29433f",
+    "count": 1
+  },
+  {
+    "name": "Dolly Parton",
+    "slug": "dolly-parton",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+    "count": 5
+  },
+  {
+    "name": "Kenny Rogers",
+    "slug": "kenny-rogers",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f4b9ecd2ef53484ca3206f82",
+    "count": 1
+  },
+  {
+    "name": "Tulus",
+    "slug": "tulus",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe2569eea1e32fe495d52c9a3",
+    "count": 1
+  },
+  {
+    "name": "Post Malone",
+    "slug": "post-malone",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+    "count": 2
+  },
+  {
+    "name": "SF9",
+    "slug": "sf9",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc281e1b3d55bccf3246b960",
+    "count": 1
+  },
+  {
+    "name": "Imagine Dragons",
+    "slug": "imagine-dragons",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38",
+    "count": 1
+  },
+  {
+    "name": "Radikal",
+    "slug": "radikal",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe1494eccd64ee30706374603",
+    "count": 1
+  },
+  {
+    "name": "Ed Sheeran",
+    "slug": "ed-sheeran",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec",
+    "count": 2
+  },
+  {
+    "name": "No Doubt",
+    "slug": "no-doubt",
+    "image": "https://i.scdn.co/image/ab6772690000c46c2bc169ddd09632b994baf3b1",
+    "count": 1
+  },
+  {
+    "name": "Lord Huron",
+    "slug": "lord-huron",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0d4d3bb72e9375017fd94f71",
+    "count": 1
+  },
+  {
+    "name": "Swae Lee",
+    "slug": "swae-lee",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ef376d3257503f734de0eefc",
+    "count": 1
+  },
+  {
+    "name": "Carly Rae Jepsen",
+    "slug": "carly-rae-jepsen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55e3a8d4fe7f0053fffca258",
+    "count": 1
+  },
+  {
+    "name": "Mariah Carey",
+    "slug": "mariah-carey",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
+    "count": 1
+  },
+  {
+    "name": "Rochelle Jordan",
+    "slug": "rochelle-jordan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e23231cace412e5c2b89bb04",
+    "count": 1
+  },
+  {
+    "name": "Steve Lacy",
+    "slug": "steve-lacy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e3150cffbfda40c6eaf28dd",
+    "count": 1
+  },
+  {
+    "name": "Baby Shark Boy",
+    "slug": "baby-shark-boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1da42794ef8973592f87b746",
+    "count": 1
+  },
+  {
+    "name": "JOOHONEY",
+    "slug": "joohoney",
+    "image": "https://i.scdn.co/image/ab67616d0000b273904d56ef805aa2a966d4811b",
+    "count": 1
+  },
+  {
+    "name": "ENHYPEN",
+    "slug": "enhypen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb590b808769f5826ce94d1dd4",
+    "count": 9
+  },
+  {
+    "name": "BIGBANG",
+    "slug": "bigbang",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41f3b91c5c5bf6651da98956",
+    "count": 1
+  },
+  {
+    "name": "Aitana",
+    "slug": "aitana",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf70cb5cef7d3848570900de5",
+    "count": 1
+  },
+  {
+    "name": "Ella Langley",
+    "slug": "ella-langley",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9",
+    "count": 3
+  },
+  {
+    "name": "Olivia Dean",
+    "slug": "olivia-dean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1",
+    "count": 3
+  },
+  {
+    "name": "Ayra Starr",
+    "slug": "ayra-starr",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc2074e9ac0e35662936cde67",
+    "count": 1
+  },
+  {
+    "name": "ZAYN",
+    "slug": "zayn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb830845d2fa6c5c7874176951",
+    "count": 4
+  },
+  {
+    "name": "Phoebe Bridgers",
+    "slug": "phoebe-bridgers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e2d4ab2b84463aa4c349311",
+    "count": 1
+  },
+  {
+    "name": "Morgan Wallen",
+    "slug": "morgan-wallen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb98a9ee5f9cac5e3efa057f30",
+    "count": 3
+  },
+  {
+    "name": "Becky G",
+    "slug": "becky-g",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d24f1805384b8d43c8cae42",
+    "count": 2
+  },
+  {
+    "name": "Troye Sivan",
+    "slug": "troye-sivan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b",
+    "count": 2
+  },
+  {
+    "name": "KiiiKiii",
+    "slug": "kiiikiii",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb46a2477f053c63ff093867",
+    "count": 3
+  },
+  {
+    "name": "AxMxP",
+    "slug": "axmxp",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0b51afcc1e232a12ae8a3c63",
+    "count": 1
+  },
+  {
+    "name": "sombr",
+    "slug": "sombr",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb78edaa6468cae153565c2c97",
+    "count": 2
+  },
+  {
+    "name": "Dua Lipa",
+    "slug": "dua-lipa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+    "count": 5
+  },
+  {
+    "name": "WayV",
+    "slug": "wayv",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe7dda7543af010558a6b4b7",
+    "count": 1
+  },
+  {
+    "name": "NCT 127",
+    "slug": "nct-127",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc904dcc7399f1fd90107392",
+    "count": 1
+  },
+  {
+    "name": "RAYE",
+    "slug": "raye",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
+    "count": 3
+  },
+  {
+    "name": "ROLE MODEL",
+    "slug": "role-model",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe9486c9ef6d86b4f39805c8",
+    "count": 1
+  },
+  {
+    "name": "Ravyn Lenae",
+    "slug": "ravyn-lenae",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe881d4df24e1b39bd7154778",
+    "count": 1
+  },
+  {
+    "name": "Charli xcx",
+    "slug": "charli-xcx",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6fa76436a2bba83b9f1d6fd1",
+    "count": 4
+  },
+  {
+    "name": "LE SSERAFIM",
+    "slug": "le-sserafim",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4037f03c5f92e7e6ea89b9e",
+    "count": 7
+  },
+  {
+    "name": "RESCENE",
+    "slug": "rescene",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb34198dac17e0f63b61c49c36",
+    "count": 1
+  },
+  {
+    "name": "aespa",
+    "slug": "aespa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b",
+    "count": 5
+  },
+  {
+    "name": "ILLIT",
+    "slug": "illit",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710",
+    "count": 2
+  },
+  {
+    "name": "DAYOUNG",
+    "slug": "dayoung",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55caf1afdcdb471c4b54375b",
+    "count": 1
+  },
+  {
+    "name": "Jay Park",
+    "slug": "jay-park",
+    "image": "https://i.scdn.co/image/ab67616d0000b27328abc680ce7b518b0c8d7770",
+    "count": 1
+  },
+  {
+    "name": "DINO",
+    "slug": "dino",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf6207e28d7e9037fa8074cb6",
+    "count": 1
+  },
+  {
+    "name": "Picheolin",
+    "slug": "picheolin",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd4b2a97a9e2314287942e0f",
+    "count": 5
+  },
+  {
+    "name": "FLO",
+    "slug": "flo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85729f18eb0edf40d80dc18a",
+    "count": 7
+  },
+  {
+    "name": "Ty Dolla $ign",
+    "slug": "ty-dolla-ign",
+    "image": "https://i.scdn.co/image/ab67616d0000b27353ca3f7b64b26001a22ea1c3",
+    "count": 1
+  },
+  {
+    "name": "KISS OF LIFE",
+    "slug": "kiss-of-life",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb94f24a151ca1320ec2f3ed92",
+    "count": 2
+  },
+  {
+    "name": "ARTMS",
+    "slug": "artms",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc0be4bb287e7a4fc5452d5fc",
+    "count": 1
+  },
+  {
+    "name": "BLACKPINK",
+    "slug": "blackpink",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056",
+    "count": 18
+  },
+  {
+    "name": "Stray Kids",
+    "slug": "stray-kids",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9887d2c9288f0e50a3fd69f",
+    "count": 20
+  },
+  {
+    "name": "CORTIS",
+    "slug": "cortis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb267afab76836557af2bd37c8",
+    "count": 2
+  },
+  {
+    "name": "Radiohead",
+    "slug": "radiohead",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
+    "count": 1
+  },
+  {
+    "name": "Bonnie Tyler",
+    "slug": "bonnie-tyler",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ca4431cf4b1227eba8288d8",
+    "count": 1
+  },
+  {
+    "name": "LATIN MAFIA",
+    "slug": "latin-mafia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093",
+    "count": 1
+  },
+  {
+    "name": "Fred again..",
+    "slug": "fred-again",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733693271d3ed5b2a619c705e1",
+    "count": 1
+  },
+  {
+    "name": "Shabjdeed",
+    "slug": "shabjdeed",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1298d88ed54de31aedf76b43",
+    "count": 1
+  },
+  {
+    "name": "SMOKAHOLIC",
+    "slug": "smokaholic",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737fe1bf97b3ee242dbd5139d7",
+    "count": 1
+  },
+  {
+    "name": "Justin Bieber",
+    "slug": "justin-bieber",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034",
+    "count": 5
+  },
+  {
+    "name": "Ludacris",
+    "slug": "ludacris",
+    "image": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    "count": 1
+  },
+  {
+    "name": "Sam Fender",
+    "slug": "sam-fender",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a3dfbf28e00c02d9d9494e8",
+    "count": 1
+  },
+  {
+    "name": "ANOTR",
+    "slug": "anotr",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb48b2dcdf9a2e05e01694cc57",
+    "count": 1
+  },
+  {
+    "name": "54 Ultra",
+    "slug": "54-ultra",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b42ed7f52290f1583760a7e2",
+    "count": 1
+  },
+  {
+    "name": "STELLA LEFTY",
+    "slug": "stella-lefty",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcbcd28b97defa1ada8c06d6c",
+    "count": 1
+  },
+  {
+    "name": "SIENNA SPIRO",
+    "slug": "sienna-spiro",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb0ab819bbd4502028cd1feb",
+    "count": 1
+  },
+  {
+    "name": "Red Velvet",
+    "slug": "red-velvet",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
+    "count": 5
+  },
+  {
+    "name": "BABYMONSTER",
+    "slug": "babymonster",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271",
+    "count": 3
+  },
+  {
+    "name": "Davido",
+    "slug": "davido",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2bf250c3e92f9e7542efd95c",
+    "count": 13
+  },
+  {
+    "name": "Llona",
+    "slug": "llona",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "Aya Nakamura",
+    "slug": "aya-nakamura",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "Leon Thomas",
+    "slug": "leon-thomas",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "Mayorkun",
+    "slug": "mayorkun",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "FOLA",
+    "slug": "fola",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "NO11",
+    "slug": "no11",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "JAZZWRLD",
+    "slug": "jazzwrld",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "GL_Ceejay",
+    "slug": "gl-ceejay",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "Black Sherif",
+    "slug": "black-sherif",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e2b0b3bdb38eeddcf7481fe",
+    "count": 1
+  },
+  {
+    "name": "Dinah Jane",
+    "slug": "dinah-jane",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb44a357ef8be80afe40c04117",
+    "count": 1
+  },
+  {
+    "name": "Tones And I",
+    "slug": "tones-and-i",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba2709df1d241734826f363e3",
+    "count": 1
+  },
+  {
+    "name": "cupcakKe",
+    "slug": "cupcakke",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb65553fe65c9db9b59d15a855",
+    "count": 1
+  },
+  {
+    "name": "Shaboozey",
+    "slug": "shaboozey",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeb786bf6ceec60d49c2f39f0",
+    "count": 20
+  },
+  {
+    "name": "Orville Peck",
+    "slug": "orville-peck",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 1
+  },
+  {
+    "name": "Sam Elliott",
+    "slug": "sam-elliott",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 1
+  },
+  {
+    "name": "Kehlani",
+    "slug": "kehlani",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf865d7d399a41e1bd036149",
+    "count": 2
+  },
+  {
+    "name": "Teyana Taylor",
+    "slug": "teyana-taylor",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 1
+  },
+  {
+    "name": "Leon Bridges",
+    "slug": "leon-bridges",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 1
+  },
+  {
+    "name": "Jamie Foxx",
+    "slug": "jamie-foxx",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 2
+  },
+  {
+    "name": "Gunna",
+    "slug": "gunna",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b36d630ae6524bd0d4163c1b",
+    "count": 1
+  },
+  {
+    "name": "Arca",
+    "slug": "arca",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4b88b2ab3ee04bb54003999e",
+    "count": 16
+  },
+  {
+    "name": "BE:FIRST",
+    "slug": "be-first",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6bf365c18c1577d55108e361",
+    "count": 1
+  },
+  {
+    "name": "Flo Milli",
+    "slug": "flo-milli",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dd5798e4f6da0ea947ee9193",
+    "count": 1
+  },
+  {
+    "name": "ATL Jacob",
+    "slug": "atl-jacob",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dd5798e4f6da0ea947ee9193",
+    "count": 1
+  },
+  {
+    "name": "Alan Walker",
+    "slug": "alan-walker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb572a8eae56feae217f618078",
+    "count": 1
+  },
+  {
+    "name": "Ava Max",
+    "slug": "ava-max",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8fa717584b01690e3919e32",
+    "count": 1
+  },
+  {
+    "name": "Swedish House Mafia",
+    "slug": "swedish-house-mafia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9614fcf985ad6fc5b4a7c3de",
+    "count": 1
+  },
+  {
+    "name": "Lykke Li",
+    "slug": "lykke-li",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ace7380e8ee73764ea11bbee",
+    "count": 1
+  },
+  {
+    "name": "SB19",
+    "slug": "sb19",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebec2fe226ac1b01a9f7e95481",
+    "count": 1
+  },
+  {
+    "name": "Logic",
+    "slug": "logic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4309e7be1610df9a1fd34793",
+    "count": 1
+  },
+  {
+    "name": "Ari Lennox",
+    "slug": "ari-lennox",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8636ddd6c55ad1a8aeb6318f",
+    "count": 1
+  },
+  {
+    "name": "Rachel Chinouriri",
+    "slug": "rachel-chinouriri",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ba395ca07ac729e7e01feb8",
+    "count": 1
+  },
+  {
+    "name": "Skilla Baby",
+    "slug": "skilla-baby",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9167778343594cbe0f93852",
+    "count": 1
+  },
+  {
+    "name": "Juicy J",
+    "slug": "juicy-j",
+    "image": "https://i.scdn.co/image/ab67616d0000b273eca615c30cc2bba6191d1544",
+    "count": 1
+  },
+  {
+    "name": "mgk",
+    "slug": "mgk",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85e7615a199f8b17fabfcd61",
+    "count": 1
+  },
+  {
+    "name": "千葉雄喜",
+    "slug": "mgk",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733a2464e14f8f6e4256252781",
+    "count": 1
+  },
+  {
+    "name": "Mark Tuan",
+    "slug": "mark-tuan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4e75cd01388e56f8c0cd611c",
+    "count": 1
+  },
+  {
+    "name": "no na",
+    "slug": "no-na",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f7269973931f183b986d9a1",
+    "count": 1
+  },
+  {
+    "name": "Ellie Goulding",
+    "slug": "ellie-goulding",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70a7b5f0ee7b18d2f2cc8d74",
+    "count": 1
+  },
+  {
+    "name": "INJI",
+    "slug": "inji",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb9b2f1ed4018b6bd506516b",
+    "count": 1
+  },
+  {
+    "name": "Slayyyter",
+    "slug": "slayyyter",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd475efee7c254f7e77a2d306",
+    "count": 1
+  },
+  {
+    "name": "benny blanco",
+    "slug": "benny-blanco",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbeaa76c01198c79968de6f97",
+    "count": 6
+  },
+  {
+    "name": "Selena Gomez",
+    "slug": "selena-gomez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb815e520e3ce7fe210046ba66",
+    "count": 5
+  },
+  {
+    "name": "Ariana Grande",
+    "slug": "ariana-grande",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+    "count": 25
+  },
+  {
+    "name": "Michael Jackson",
+    "slug": "michael-jackson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd",
+    "count": 1
+  },
+  {
+    "name": "Dominic Fike",
+    "slug": "dominic-fike",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9",
+    "count": 2
+  },
+  {
+    "name": "Katy Perry",
+    "slug": "katy-perry",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482",
+    "count": 4
+  },
+  {
+    "name": "The Goo Goo Dolls",
+    "slug": "the-goo-goo-dolls",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7b66b8c4ba729848574df7a",
+    "count": 1
+  },
+  {
+    "name": "Bruno Mars",
+    "slug": "bruno-mars",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26",
+    "count": 3
+  },
+  {
+    "name": "HUNTR/X",
+    "slug": "huntr-x",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736c1334650ced0e28f0b2e13f",
+    "count": 1
+  },
+  {
+    "name": "PinkPantheress",
+    "slug": "pinkpantheress",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+    "count": 1
+  },
+  {
+    "name": "Zara Larsson",
+    "slug": "zara-larsson",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd519a7e349541cba8f85e965",
+    "count": 3
+  },
+  {
+    "name": "KARD",
+    "slug": "kard",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb009b63b797a0690e0bf530a2",
+    "count": 6
+  },
+  {
+    "name": "Aitch",
+    "slug": "aitch",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb832acfd9c5ceff4baf912a83",
+    "count": 1
+  },
+  {
+    "name": "JIWOO",
+    "slug": "jiwoo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d00546e3c9825472d7376d2",
+    "count": 1
+  },
+  {
+    "name": "SOMIN",
+    "slug": "somin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb040e0a08bcb8a907d53d85c0",
+    "count": 1
+  },
+  {
+    "name": "J.seph",
+    "slug": "j-seph",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbd84d2bf7f7d6e158518a2d1",
+    "count": 1
+  },
+  {
+    "name": "BM",
+    "slug": "bm",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fa1acc1666d1f68606e1c27",
+    "count": 1
+  },
+  {
+    "name": "EMIN",
+    "slug": "emin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba143e8f8c71d53dd8bb55ebc",
+    "count": 1
+  },
+  {
+    "name": "JONY",
+    "slug": "jony",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfaca175ff553179f6b3bed6a",
+    "count": 1
+  },
+  {
+    "name": "BTS",
+    "slug": "bts",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf80ec63ea7a0ef0fba60957d",
+    "count": 26
+  },
+  {
+    "name": "One Direction",
+    "slug": "one-direction",
+    "image": "https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8",
+    "count": 3
+  },
+  {
+    "name": "Madonna",
+    "slug": "madonna",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b",
+    "count": 1
+  },
+  {
+    "name": "Coldplay",
+    "slug": "coldplay",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb",
+    "count": 3
+  },
+  {
+    "name": "Shawn Mendes",
+    "slug": "shawn-mendes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb58b4b9419486550f6fda0535",
+    "count": 3
+  },
+  {
+    "name": "Malcolm Todd",
+    "slug": "malcolm-todd",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9f6f7c2d12975d2a4b3a0fd8",
+    "count": 1
+  },
+  {
+    "name": "Oasis",
+    "slug": "oasis",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb4ddbc39706ef0f2ae0f7c9b",
+    "count": 1
+  },
+  {
+    "name": "Sabrina Carpenter",
+    "slug": "sabrina-carpenter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb78e45cfa4697ce3c437cb455",
+    "count": 5
+  },
+  {
+    "name": "Rihanna",
+    "slug": "rihanna",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac",
+    "count": 4
+  },
+  {
+    "name": "ONE OR EIGHT",
+    "slug": "one-or-eight",
+    "image": "https://i.ytimg.com/vi/Qcz-7evvAqY/hqdefault.jpg",
+    "count": 1
+  },
+  {
+    "name": "i-dle",
+    "slug": "i-dle",
+    "image": "https://i.ytimg.com/vi/DYgE3SGPEqk/hqdefault.jpg",
+    "count": 1
+  },
+  {
+    "name": "Harry Styles",
+    "slug": "harry-styles",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca",
+    "count": 2
+  },
+  {
+    "name": "EXO",
+    "slug": "exo",
+    "image": "https://acupoflyrics.com/wp-content/uploads/2024/08/exo-turkce-ceviri.jpeg",
+    "count": 2
+  },
+  {
+    "name": "LNGSHOT",
+    "slug": "lngshot",
+    "image": "https://i.ytimg.com/vi/HJgdT15UT4k/hqdefault.jpg",
+    "count": 1
+  },
+  {
+    "name": "Drake",
+    "slug": "drake",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+    "count": 1
+  },
+  {
+    "name": "Shakira",
+    "slug": "shakira",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac",
+    "count": 1
+  },
+  {
+    "name": "Burna Boy",
+    "slug": "burna-boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f",
+    "count": 3
+  },
+  {
+    "name": "Temper City",
+    "slug": "temper-city",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9808c3f9f50a2be81fb95c3",
+    "count": 1
+  },
+  {
+    "name": "TWICE",
+    "slug": "twice",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d8820046fd455b38d644864",
+    "count": 7
+  },
+  {
+    "name": "ROSÉ",
+    "slug": "rose",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcfb4350222919670128ff2dc",
+    "count": 15
+  },
+  {
+    "name": "ALLDAY PROJECT",
+    "slug": "allday-project",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1c4e96c09862074fddbbbf1f",
+    "count": 1
+  },
+  {
+    "name": "j-hope",
+    "slug": "j-hope",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff9ce914c873a6879cf78f38",
+    "count": 4
+  },
+  {
+    "name": "GloRilla",
+    "slug": "glorilla",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc33cf3ad025517202d8efbc0",
+    "count": 1
+  },
+  {
+    "name": "JIN",
+    "slug": "jin",
+    "image": "https://i.scdn.co/image/ab67616d0000b27395225518b75ecfe32a2e8558",
+    "count": 14
+  },
+  {
+    "name": "SEVENTEEN",
+    "slug": "seventeen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c",
+    "count": 2
+  },
+  {
+    "name": "YENA",
+    "slug": "yena",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0cbe5ecc3014288c0bbbf4d",
+    "count": 1
+  },
+  {
+    "name": "TOMORROW X TOGETHER",
+    "slug": "tomorrow-x-together",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54fc4bff90d96d3ef0179e62",
+    "count": 1
+  },
+  {
+    "name": "TABLO",
+    "slug": "tablo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a38127e499b6f18e2deaecd",
+    "count": 2
+  },
+  {
+    "name": "RM",
+    "slug": "rm",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb943d108210401e2086bc4279",
+    "count": 2
+  },
+  {
+    "name": "Maroon 5",
+    "slug": "maroon-5",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+    "count": 2
+  },
+  {
+    "name": "KAI",
+    "slug": "kai",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2b654ee59c4ced1cc0012d8a",
+    "count": 1
+  },
+  {
+    "name": "Elyanna",
+    "slug": "elyanna",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88b64e15982a3e8177913573",
+    "count": 2
+  },
+  {
+    "name": "TINI",
+    "slug": "tini",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca",
+    "count": 2
+  },
+  {
+    "name": "Little Simz",
+    "slug": "little-simz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0",
+    "count": 2
+  },
+  {
+    "name": "Miguel",
+    "slug": "miguel",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732d339b4e69a849c7d7d8035a",
+    "count": 1
+  },
+  {
+    "name": "Childish Gambino",
+    "slug": "childish-gambino",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
+    "count": 1
+  },
+  {
+    "name": "Kali Uchis",
+    "slug": "kali-uchis",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
+    "count": 1
+  },
+  {
+    "name": "FKJ",
+    "slug": "fkj",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6e6973a01eb04abf32b58bb",
+    "count": 1
+  },
+  {
+    "name": "G-DRAGON",
+    "slug": "g-dragon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb783a6a578e8eb992bfd74765",
+    "count": 8
+  },
+  {
+    "name": "Anderson .Paak",
+    "slug": "anderson-paak",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
+    "count": 1
+  },
+  {
+    "name": "Tyla",
+    "slug": "tyla",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69719e4164b893213a525d25",
+    "count": 3
+  },
+  {
+    "name": "Megan Thee Stallion",
+    "slug": "megan-thee-stallion",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb65a9ac943abab7c9935ea282",
+    "count": 4
+  },
+  {
+    "name": "Future",
+    "slug": "future",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583",
+    "count": 2
+  },
+  {
+    "name": "Gracie Abrams",
+    "slug": "gracie-abrams",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e",
+    "count": 2
+  },
+  {
+    "name": "Don Toliver",
+    "slug": "don-toliver",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc52b798deb89eb8414a51b7b",
+    "count": 1
+  },
+  {
+    "name": "Speedy",
+    "slug": "speedy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f",
+    "count": 1
+  },
+  {
+    "name": "Pharrell Williams",
+    "slug": "pharrell-williams",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e53d91ae9735b67c78c8c3f",
+    "count": 1
+  },
+  {
+    "name": "Doechii",
+    "slug": "doechii",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579",
+    "count": 2
+  },
+  {
+    "name": "Anne-Marie",
+    "slug": "anne-marie",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf94a7e185158d0950f07310b",
+    "count": 2
+  },
+  {
+    "name": "Doja Cat",
+    "slug": "doja-cat",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8a0644455ebfa7d3976f5101",
+    "count": 1
+  },
+  {
+    "name": "IVE",
+    "slug": "ive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840",
+    "count": 1
+  },
+  {
+    "name": "Lady Gaga",
+    "slug": "lady-gaga",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6",
+    "count": 3
+  },
+  {
+    "name": "The Weeknd",
+    "slug": "the-weeknd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc1719ac9e6a75c1c25835018",
+    "count": 25
+  },
+  {
+    "name": "Giorgio Moroder",
+    "slug": "giorgio-moroder",
+    "image": "https://i.scdn.co/image/ae53e43ad044fe30298ac986a606bef7db4617bb",
+    "count": 1
+  },
+  {
+    "name": "Florence + The Machine",
+    "slug": "florence-the-machine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb836eb0a7a82eb8f4133ee04d",
+    "count": 1
+  },
+  {
+    "name": "Justice",
+    "slug": "justice",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf140c161d9f9cc9afe85b6ed",
+    "count": 1
+  },
+  {
+    "name": "Conan Gray",
+    "slug": "conan-gray",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4c2b62d4748524454a6f99b0",
+    "count": 1
+  },
+  {
+    "name": "GIMS",
+    "slug": "gims",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb77144f838397a467e807df65",
+    "count": 1
+  },
+  {
+    "name": "GOT7",
+    "slug": "got7",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb51636490d389e8d2ab96026e",
+    "count": 1
+  },
+  {
+    "name": "Flo Rida",
+    "slug": "flo-rida",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb655ca8f3196953554b479452",
+    "count": 1
+  },
+  {
+    "name": "Paul Russell",
+    "slug": "paul-russell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71f849bbbce2b7415e0cf51b",
+    "count": 1
+  },
+  {
+    "name": "MINNIE",
+    "slug": "minnie",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63660addb22072fb9aa2b104",
+    "count": 1
+  },
+  {
+    "name": "Pomme",
+    "slug": "pomme",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaf000b2968ec1c7a7262454",
+    "count": 1
+  },
+  {
+    "name": "Dove Cameron",
+    "slug": "dove-cameron",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5fcd837c1420d97f500ef9",
+    "count": 1
+  },
+  {
+    "name": "V",
+    "slug": "v",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb89a07818e5d02039a6ef3181",
+    "count": 1
+  },
+  {
+    "name": "Park Hyo Shin",
+    "slug": "park-hyo-shin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a7d4f77e962baf427eeea80",
+    "count": 1
+  },
+  {
+    "name": "TAEYANG",
+    "slug": "taeyang",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7418a76d26fdc76f7b9ffa23",
+    "count": 1
+  },
+  {
+    "name": "DAESUNG",
+    "slug": "daesung",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcebb44ed3b29601d68cac28a",
+    "count": 1
+  },
+  {
+    "name": "ITZY",
+    "slug": "itzy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba60be8af61d6184cd0402f80",
+    "count": 1
+  },
+  {
+    "name": "WENDY",
+    "slug": "wendy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a2756203f547d1a758ede7a",
+    "count": 1
+  },
+  {
+    "name": "LINKIN PARK",
+    "slug": "linkin-park",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb527d95dabbe8b8b527e8136f",
+    "count": 2
+  },
+  {
+    "name": "CL",
+    "slug": "cl",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc67fe879798c208fcf056dde",
+    "count": 1
+  },
+  {
+    "name": "XG",
+    "slug": "xg",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3402cc21386cdeb1608ebb37",
+    "count": 2
+  },
+  {
+    "name": "Pierre de Maere",
+    "slug": "pierre-de-maere",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb736cfd6b66dd328050be02cd",
+    "count": 1
+  },
+  {
+    "name": "AYLIVA",
+    "slug": "ayliva",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb996830f67fa1ae09c3b5edab",
+    "count": 3
+  },
+  {
+    "name": "Chezile",
+    "slug": "chezile",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb1593dbc8b1c5ee3c62b55a1",
+    "count": 1
+  },
+  {
+    "name": "Anitta",
+    "slug": "anitta",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb777419bf9a701a78fdd6515f",
+    "count": 1
+  },
+  {
+    "name": "DJ Khaled",
+    "slug": "dj-khaled",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd445349a29400dd5f5180c0f",
+    "count": 1
+  },
+  {
+    "name": "MISAMO",
+    "slug": "misamo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5177c8768acaa8f5bd1c22d6",
+    "count": 1
+  },
+  {
+    "name": "YEONJUN",
+    "slug": "yeonjun",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf4741dbec1334756811e019b",
+    "count": 2
+  },
+  {
+    "name": "Slimane",
+    "slug": "slimane",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb345072876c875cd6bc6f396b",
+    "count": 1
+  },
+  {
+    "name": "J. Cole",
+    "slug": "j-cole",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2",
+    "count": 1
+  },
+  {
+    "name": "Cults",
+    "slug": "cults",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb92ec52fb43fbd4d2511a9d1d",
+    "count": 1
+  },
+  {
+    "name": "Amber Coffman",
+    "slug": "amber-coffman",
+    "image": "https://i.scdn.co/image/ab6772690000c46cb4acd2212654689d3039df24",
+    "count": 1
+  },
+  {
+    "name": "CKay",
+    "slug": "ckay",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6145d4dcd91e2d660983970",
+    "count": 1
+  },
+  {
+    "name": "JADE",
+    "slug": "jade",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6fff16f1d7f5569cbdf42ac",
+    "count": 1
+  },
+  {
+    "name": "Sia",
+    "slug": "sia",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc1806f0a2f6c9e449de9d3c",
+    "count": 1
+  },
+  {
+    "name": "Camila Cabello",
+    "slug": "camila-cabello",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb76470faf6330235edbcb90a9",
+    "count": 1
+  },
+  {
+    "name": "Justin Timberlake",
+    "slug": "justin-timberlake",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e",
+    "count": 1
+  },
+  {
+    "name": "HWASA",
+    "slug": "hwasa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e82a43b4f076a736c515e6f",
+    "count": 1
+  },
+  {
+    "name": "Lily-Rose Depp",
+    "slug": "lily-rose-depp",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc2fb4b8e035fbdad27da865f",
+    "count": 1
+  },
+  {
+    "name": "Kanye West",
+    "slug": "kanye-west",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+    "count": 1
+  },
+  {
+    "name": "070 Shake",
+    "slug": "070-shake",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6338990250f5d5a447650ba9",
+    "count": 1
+  },
+  {
+    "name": "TZUYU",
+    "slug": "tzuyu",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe039b9b9ba211f98b42eb0d5",
+    "count": 1
+  },
+  {
+    "name": "BAEKHYUN",
+    "slug": "baekhyun",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7d4e246f8c54be347e06bffe",
+    "count": 1
+  },
+  {
+    "name": "LP",
+    "slug": "lp",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb433c36d13316024feb02e3bf",
+    "count": 1
+  },
+  {
+    "name": "Jung Kook",
+    "slug": "jung-kook",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71089d18c93e3a51e70ff0dc",
+    "count": 2
+  },
+  {
+    "name": "WOOSUNG",
+    "slug": "woosung",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6030f28e5236ab125c73e255",
+    "count": 1
+  },
+  {
+    "name": "CHANYEOL",
+    "slug": "chanyeol",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad793cef19a94d1a6bf73cd6",
+    "count": 6
+  },
+  {
+    "name": "Sam Smith",
+    "slug": "sam-smith",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e64fb94acbb752960c823e9",
+    "count": 1
+  },
+  {
+    "name": "TAEYEON",
+    "slug": "taeyeon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd3cee7772514a1bcef46a9b6",
+    "count": 1
+  },
+  {
+    "name": "B.I",
+    "slug": "b-i",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4e2e216c2b0cea636899333a",
+    "count": 1
+  },
+  {
+    "name": "Soulja Boy",
+    "slug": "soulja-boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+    "count": 1
+  },
+  {
+    "name": "DeVita",
+    "slug": "devita",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b85e8af86e410e9df38c227",
+    "count": 1
+  },
+  {
+    "name": "Clean Bandit",
+    "slug": "clean-bandit",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf995542c4f68f8ae4f05b5f6",
+    "count": 1
+  },
+  {
+    "name": "*NSYNC",
+    "slug": "nsync",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9414ef07d0ca697726912df1",
+    "count": 1
+  },
+  {
+    "name": "Agust D",
+    "slug": "agust-d",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb926869b1f14b66c938902d34",
+    "count": 1
+  },
+  {
+    "name": "Chase Atlantic",
+    "slug": "chase-atlantic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba4e2d7045cbcca592ba6c7dd",
+    "count": 1
+  },
+  {
+    "name": "NCT DREAM",
+    "slug": "nct-dream",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed95357b2b295b2be5058b0b",
+    "count": 1
+  },
+  {
+    "name": "Supreme Boi",
+    "slug": "supreme-boi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aed258d044bcd33cc71e0ab6",
+    "count": 1
+  },
+  {
+    "name": "Bayanni",
+    "slug": "bayanni",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebec9db3d4de7709c1425c9e92",
+    "count": 1
+  },
+  {
+    "name": "Jason Derulo",
+    "slug": "jason-derulo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb65e1af01cf95c25bd29ed1",
+    "count": 1
+  },
+  {
+    "name": "Jordan Adetunji",
+    "slug": "jordan-adetunji",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6087e9ef4651828659a066be",
+    "count": 1
+  },
+  {
+    "name": "Bebe Rexha",
+    "slug": "bebe-rexha",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7623b3d99b9adc3200b834de",
+    "count": 1
+  },
+  {
+    "name": "NMIXX",
+    "slug": "nmixx",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5dff706e8c9ec07f7850f014",
+    "count": 1
+  },
+  {
+    "name": "SZA",
+    "slug": "sza",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
+    "count": 1
+  },
+  {
+    "name": "NF",
+    "slug": "nf",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8fcc5c49d2116d7251ecbd65",
+    "count": 1
+  },
+  {
+    "name": "Cordae",
+    "slug": "cordae",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9161ad9d53d8c24e2c79d5a5",
+    "count": 1
+  },
+  {
+    "name": "ROSALÍA",
+    "slug": "rosalia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9354faf80eb87961466edfbf",
+    "count": 1
+  },
+  {
+    "name": "Teddy Swims",
+    "slug": "teddy-swims",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36eb08698aa7794372c97b97",
+    "count": 1
+  },
+  {
+    "name": "Apache 207",
+    "slug": "apache-207",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8b08d3199d2bd40f909e449",
+    "count": 1
+  },
+  {
+    "name": "Jimin",
+    "slug": "jimin",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf3a9c35db52ba44f3b921e3",
+    "count": 1
   }
 ]

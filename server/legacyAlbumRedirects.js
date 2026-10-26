@@ -80,6 +80,7 @@ export const legacyAlbumRedirects = {
   "flo-rida-enhypen-paul-russell-confessions": "/album/flo-rida-confessions",
   "stray-kids-tablo-hop": "/album/stray-kids-hop",
   "stromae-pomme-arcane-ma-meilleure-ennemie-from-the-series-arcane-league-of-legends": "/album/stromae-ma-meilleure-ennemie-from-the-series-arcane-league-of-legends",
+  "stromae-pomme-ma-meilleure-ennemie-from-the-series-arcane-league-of-legends": "/album/stromae-ma-meilleure-ennemie-from-the-series-arcane-league-of-legends",
   "dove-cameron-khalid-we-go-down-together-with-khalid": "/album/dove-cameron-we-go-down-together-with-khalid",
   "twice-megan-thee-stallion-strategy": "/album/twice-strategy",
   "v-park-hyo-shin-winter-ahead-with-park-hyo-shin": "/album/v-winter-ahead-with-park-hyo-shin",

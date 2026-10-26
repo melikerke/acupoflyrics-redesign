@@ -1,5 +1,354 @@
 [
   {
+    "id": "5326",
+    "slug": "ateez-drip-turkce-ceviri",
+    "title": "ATEEZ Drip Türkçe Çeviri",
+    "song": "Drip",
+    "artist": "ATEEZ",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20",
+    "date": "2026-10-23T08:15:31.289Z",
+    "reading_time": 5,
+    "excerpt": "ATEEZ — Drip sözleri ve Türkçe çevirisi. Romanize Korece ve İngilizce sözleri, üye bölümleri ve 22 çeviri notuyla birlikte oku.",
+    "categories": [
+      "ATEEZ",
+      "Drip"
+    ],
+    "category_slugs": [
+      "ateez",
+      "drip"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "hip-hop",
+      "pop-rap"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5JaMKAodzzLdFM2ARRTXb9",
+      "albumUrl": "https://open.spotify.com/album/5RAg0Dd2xkkZ3LEZzPNxYT",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "Drip",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273761f1b46b99f5b8407b4fb20",
+      "duration": "3:02",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "ATEEZ",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+      "artistGenres": [],
+      "albumArtist": "ATEEZ"
+    },
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Yeah",
+      "tr": "Yeah!"
+    },
+    "heroPair": {
+      "en": "Feel like holy water, yeah, they drown in the drip",
+      "tr": "Kutsal su gibi bu havam, onlar da içinde boğuluyor!"
+    }
+  },
+  {
+    "id": "5325",
+    "slug": "lisa-sweat-turkce-ceviri",
+    "title": "LISA Sweat Türkçe Çeviri",
+    "song": "Sweat",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "date": "2026-10-23T07:35:36.406Z",
+    "reading_time": 3,
+    "excerpt": "LISA — Sweat sözleri ve Türkçe çevirisi. LISA — PRESS PLAY (2026) içindeki parçanın yoga imgelerini, flörtöz imalarını ve kelime oyunlarını notlarla oku.",
+    "categories": [
+      "LISA",
+      "PRESS PLAY"
+    ],
+    "category_slugs": [
+      "lisa",
+      "press-play"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "dance-pop",
+      "pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2dvKssoXPLt3RwTEGCIdGd",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+      "duration": "2:34",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 6,
+      "totalTracks": 6,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Party",
+      "Motivation"
+    ],
+    "firstPair": {
+      "en": "Let's sweat",
+      "tr": "Hadi, biraz ter dökelim!"
+    },
+    "heroPair": {
+      "en": "Let's sweat",
+      "tr": "Hadi, biraz ter dökelim!"
+    }
+  },
+  {
+    "id": "5324",
+    "slug": "lisa-cut-u-off-turkce-ceviri",
+    "title": "LISA Cut U Off Türkçe Çeviri",
+    "song": "Cut U Off",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "date": "2026-10-23T07:35:36.406Z",
+    "reading_time": 4,
+    "excerpt": "LISA — Cut U Off sözleri ve Türkçe çevirisi. LISA — PRESS PLAY (2026) içindeki parçanın bağları koparma temasını ve kelime oyunlarını notlarla oku.",
+    "categories": [
+      "LISA",
+      "PRESS PLAY"
+    ],
+    "category_slugs": [
+      "lisa",
+      "press-play"
+    ],
+    "themes": [
+      "breakup"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop-rap",
+      "hip-hop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4NOZnyEKqujVEhHYobZfrk",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+      "duration": "2:39",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 5,
+      "totalTracks": 6,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Motivation",
+      "Dark"
+    ],
+    "firstPair": {
+      "en": "Yeah",
+      "tr": "Yeah!"
+    },
+    "heroPair": {
+      "en": "Yeah",
+      "tr": "Yeah!"
+    }
+  },
+  {
+    "id": "5323",
+    "slug": "lisa-cobra-turkce-ceviri",
+    "title": "LISA Cobra Türkçe Çeviri",
+    "song": "Cobra",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "date": "2026-10-23T07:35:36.406Z",
+    "reading_time": 3,
+    "excerpt": "LISA — Cobra sözleri ve Türkçe çevirisi. LISA — PRESS PLAY (2026) içindeki parçanın dans argosunu ve çift anlamlarını çeviri notlarıyla oku.",
+    "categories": [
+      "LISA",
+      "PRESS PLAY"
+    ],
+    "category_slugs": [
+      "lisa",
+      "press-play"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "dance-pop",
+      "hip-hop",
+      "pop-rap"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/6esE3NNWOh6qiQSo4I62Lv",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+      "duration": "2:19",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 6,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Party",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Dance floor, tempo, fast, slow, go",
+      "tr": "Dans pisti, tempo; hızlı, yavaş, hadi!"
+    },
+    "heroPair": {
+      "en": "Got me movin' like a cobra",
+      "tr": "Kobra gibi kıvrıla kıvrıla oynuyorum!"
+    }
+  },
+  {
+    "id": "5322",
+    "slug": "lisa-v12-turkce-ceviri",
+    "title": "LISA V12 Türkçe Çeviri",
+    "song": "V12",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "date": "2026-10-23T07:35:36.406Z",
+    "reading_time": 3,
+    "excerpt": "LISA — V12 sözleri ve Türkçe çevirisi. LISA — PRESS PLAY (2026) içindeki parçanın otomobil, spor ve oyun göndermelerini çeviri notlarıyla keşfet.",
+    "categories": [
+      "LISA",
+      "PRESS PLAY"
+    ],
+    "category_slugs": [
+      "lisa",
+      "press-play"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop-rap",
+      "hip-hop",
+      "dance-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5Uexd0lzW1yRLgjlUqi3Uc",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+      "duration": "2:51",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 6,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "(Incoming)",
+      "tr": "(Incoming — Geliyor!)"
+    },
+    "heroPair": {
+      "en": "V12, V12",
+      "tr": "V12, V12!"
+    }
+  },
+  {
+    "id": "5321",
+    "slug": "lisa-tarantino-turkce-ceviri",
+    "title": "LISA Tarantino Türkçe Çeviri",
+    "song": "Tarantino",
+    "artist": "LISA",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+    "date": "2026-10-23T07:35:36.399Z",
+    "reading_time": 3,
+    "excerpt": "LISA — Tarantino sözleri ve Türkçe çevirisi. LISA — PRESS PLAY (2026) içindeki parçanın sinema göndermelerini ve çeviri notlarını birlikte oku.",
+    "categories": [
+      "LISA",
+      "PRESS PLAY"
+    ],
+    "category_slugs": [
+      "lisa",
+      "press-play"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop-rap",
+      "hip-hop",
+      "dance-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3bgnrHHwyYRtz3ykzAVImy",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
+      "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
+      "duration": "2:51",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 4,
+      "totalTracks": 6,
+      "artistName": "LISA",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
+      "artistGenres": [],
+      "albumArtist": "LISA"
+    },
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Yeah, yeah",
+      "tr": "Yeah, yeah!"
+    },
+    "heroPair": {
+      "en": "Tarantino, Tarantino",
+      "tr": "Tırnaklarım silahımın namlusu kadar uzun,"
+    }
+  },
+  {
     "id": "5320",
     "slug": "amy-winehouse-back-to-black-turkce-ceviri",
     "title": "Amy Winehouse Back to Black Türkçe Çeviri",
@@ -1423,6 +1772,111 @@
     }
   },
   {
+    "id": "5294",
+    "slug": "meovv-go-hard-turkce-ceviri",
+    "title": "MEOVV GO HARD Türkçe Çeviri",
+    "song": "GO HARD",
+    "artist": "MEOVV",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c",
+    "date": "2026-10-14T13:33:44.493Z",
+    "reading_time": 4,
+    "excerpt": "Yeah, 시간은 빨라, life's a movie (Movie)",
+    "categories": [
+      "MEOVV",
+      "GO HARD"
+    ],
+    "category_slugs": [
+      "meovv",
+      "go-hard"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/3P2MygdWs8lorZnwV3KrsJ",
+      "albumUrl": "https://open.spotify.com/album/5Si3zne2PC6ZkXOHDY2SXo",
+      "artistUrl": "https://open.spotify.com/artist/08hHTBHlv0WRXWlyrsb6Kv",
+      "albumName": "GO HARD",
+      "releaseDate": "2026-10-12",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c",
+      "duration": "3:08",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 2,
+      "artistName": "MEOVV",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb80d7494a715e38aed1a1ddbb",
+      "artistGenres": [],
+      "albumArtist": "MEOVV"
+    },
+    "moods": [
+      "Love",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Yeah, 시간은 빨라, life's a movie (Movie)",
+      "tr": "Evet, zaman çok hızlı, hayat bir film"
+    },
+    "heroPair": {
+      "en": "Yeah, 'cause we always go hard",
+      "tr": "Fena hâlde düşeriz aşka"
+    }
+  },
+  {
+    "id": "5293",
+    "slug": "katseye-unloveu-turkce-ceviri",
+    "title": "KATSEYE Unloveu Türkçe Çeviri",
+    "song": "Unloveu",
+    "artist": "KATSEYE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107",
+    "date": "2026-10-14T13:31:12.464Z",
+    "reading_time": 4,
+    "excerpt": "Unlove you, u-u-u-unlove you",
+    "categories": [
+      "KATSEYE",
+      "Unloveu"
+    ],
+    "category_slugs": [
+      "katseye",
+      "unloveu"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/51jUUdOdGqf0VeGtFOTbRe",
+      "albumUrl": "https://open.spotify.com/album/58745aGSmbG4rHAxveiJww",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "Unloveu",
+      "releaseDate": "2026-10-13",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107",
+      "duration": "3:53",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 2,
+      "artistName": "KATSEYE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb04ba72b2749f90d62152ebec",
+      "artistGenres": [],
+      "albumArtist": "KATSEYE"
+    },
+    "moods": [
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Unlove you, u-u-u-unlove you",
+      "tr": "Artık seni sevmiyorum, se-se-sevmiyorum"
+    },
+    "heroPair": {
+      "en": "Unlove you, u-u-u-unlove you",
+      "tr": "Artık seni sevmiyorum, se-se-sevmiyorum"
+    }
+  },
+  {
     "id": "5292",
     "slug": "manifest-tralala-turkce-ceviri",
     "title": "manifest TRALALA Türkçe Çeviri",
@@ -1902,18 +2356,18 @@
     "title": "LISA SaWaDiKa Türkçe Çeviri",
     "song": "SaWaDiKa",
     "artist": "LISA",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
     "date": "2026-09-04T08:41:12.314Z",
     "updatedAt": "2026-09-04T08:59:57.174Z",
     "reading_time": 4,
     "excerpt": "Hello Sawadika",
     "categories": [
       "LISA",
-      "SaWaDiKa"
+      "PRESS PLAY"
     ],
     "category_slugs": [
       "lisa",
-      "sawadika"
+      "press-play"
     ],
     "languages": {
       "original": "en",
@@ -1921,17 +2375,17 @@
       "annotations": "tr"
     },
     "spotify": {
-      "trackUrl": "https://open.spotify.com/track/1VWiDyYTrqQhhmnWANWkFa",
-      "albumUrl": "https://open.spotify.com/album/5WG9kRKPpHgnZ5pKku509O",
+      "trackUrl": "https://open.spotify.com/track/0UECk3l1544vRUzYoZO5gI",
+      "albumUrl": "https://open.spotify.com/album/7H0c8sfmrbAbrMjYuEvWQk",
       "artistUrl": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
-      "albumName": "SaWaDiKa",
-      "releaseDate": "2026-09-02",
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27373ae1df692b540f56d14617e",
+      "albumName": "PRESS PLAY",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae49c87dcf0b8e27f27303c5",
       "duration": "3:09",
-      "albumType": "Single",
+      "albumType": "EP",
       "label": null,
       "trackNumber": 1,
-      "totalTracks": 1,
+      "totalTracks": 6,
       "artistName": "LISA",
       "artistImage": "https://i.scdn.co/image/ab6761610000e5eb3c88464ba063f0ae5d326738",
       "artistGenres": [],
@@ -11204,7 +11658,7 @@
     "slug": "ava-max-paw-patrol-work-turkce-ceviri",
     "title": "Ava Max, PAW Patrol Work Türkçe Çeviri",
     "song": "Work",
-    "artist": "Ava Max, PAW Patrol",
+    "artist": "Ava Max",
     "cover": "https://i.scdn.co/image/ab67616d0000b2734f51f4dc751168282309f3f8",
     "date": "2026-07-31T10:33:40.977Z",
     "reading_time": 3,
@@ -17105,7 +17559,7 @@
     "slug": "rose-messy-turkce-ceviri",
     "title": "ROSÉ, F1 The Album Messy (From F1® The Movie) Türkçe Çeviri",
     "song": "Messy (From F1® The Movie)",
-    "artist": "ROSÉ, F1 The Album",
+    "artist": "ROSÉ",
     "cover": "https://i.scdn.co/image/ab67616d0000b27327303a68d325216fe413f62c",
     "date": "Thu, 08 May 2025 18:39:25 +0000",
     "reading_time": 2,
@@ -21624,7 +22078,7 @@
     "slug": "stromae-pomme-ma-meilleure-ennemie-turkce-ceviri",
     "title": "Stromae, Pomme, Arcane Ma Meilleure Ennemie Türkçe Çeviri",
     "song": "Ma Meilleure Ennemie",
-    "artist": "Stromae, Pomme, Arcane",
+    "artist": "Stromae, Pomme",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732aab4ea84f431ad7d92fecbb",
     "date": "Tue, 24 Dec 2024 18:14:34 +0000",
     "reading_time": 3,

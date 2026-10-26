@@ -13700,6 +13700,858 @@
     "source": "user-provided"
   },
   {
+    "id": "5294",
+    "title": "MEOVV GO HARD Türkçe Çeviri",
+    "song": "GO HARD",
+    "slug": "meovv-go-hard-turkce-ceviri",
+    "date": "2026-10-14T13:33:44.493Z",
+    "artist": "MEOVV",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "MEOVV",
+      "GO HARD"
+    ],
+    "category_slugs": [
+      "meovv",
+      "go-hard"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Verse 1: Ella, Narin",
+        "lines": [
+          "Yeah, 시간은 빨라, life's a movie (Movie)",
+          "더 늦기 전에 hit rewind (Rewind)",
+          "Watching back slow motion (Motion)",
+          "이 순간 I feel alive",
+          "밤새워 만들자 못 지킬 비밀",
+          "I see that look in your eyes",
+          "Yeah, 시간은 빨라 life's a movie (Movie)",
+          "그 주인공은 never die",
+          "Tell me that we're young and forever (Forever)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Ella, Narin",
+        "lines": [
+          "Evet, zaman çok hızlı, hayat bir film",
+          "(Film)",
+          "Daha da geç olmadan geri sar",
+          "(Geri sar)",
+          "Ağır çekimde yeniden izliyorum",
+          "(Ağır çekim)",
+          "İşte bu anda kendimi canlı hissediyorum",
+          "Sabaha kadar oturup tutamayacağımız sırlar yaratalım",
+          "Gözlerindeki o bakışı görüyorum",
+          "Evet, zaman çok hızlı, hayat bir film",
+          "(Film)",
+          "Ve o filmin başrolü asla ölmez",
+          "Söyle bana, hep genç kalacağız",
+          "Sonsuza dek",
+          "(Sonsuza dek)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Gawon, Sooin, Ella",
+        "lines": [
+          "해가 진다면 then we're going all night",
+          "땅이 꺼지면 then we're going sky high",
+          "And if we fall in love, fall in love, fall in love",
+          "겁 없이 fall hard",
+          "방해된다면 뛰어 넘어가 담",
+          "No one in the world that could bring us back down",
+          "깨진대도 부딪쳐봐, yeah, we'll take it too far",
+          "Yeah, 'cause we always go hard"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Gawon, Sooin, Ella",
+        "lines": [
+          "Güneş batarsa",
+          "Biz de bütün gece devam ederiz",
+          "Yer ayağımızın altından kayarsa",
+          "Biz göklere çıkarız",
+          "Ve eğer âşık olursak",
+          "Âşık olursak, âşık olursak",
+          "Korkmadan",
+          "Fena hâlde düşeriz aşka",
+          "Önümüze bir engel çıkarsa",
+          "Duvarı atlayıp geçeriz",
+          "Bu dünyada bizi aşağı çekebilecek kimse yok",
+          "Kırılsak bile",
+          "Çarpıp görelim",
+          "Evet, işi fazlasıyla ileri götürürüz",
+          "Çünkü biz hep",
+          "Sonuna kadar gideriz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Ella, Narin, Anna",
+        "lines": [
+          "We always go hard, hard, hard, hard",
+          "We always go hard, hard, hard, hard",
+          "We always go—",
+          "Break, break, break, break, break, break, break",
+          "틀에 박힌 chain, chain, chain, chain, chain, chain",
+          "We always going hard, hard, hard, hard, hard, hard, hard, hard",
+          "Hard, hard, hard, hard, hard, hard, hard, hard"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Ella, Narin, Anna",
+        "lines": [
+          "Biz hep sonuna kadar gideriz",
+          "Tam gaz, gaz, gaz, gaz",
+          "Biz hep sonuna kadar gideriz",
+          "Tam gaz, gaz, gaz, gaz",
+          "Biz hep—",
+          "Kır, kır, kır, kır, kır, kır, kır",
+          "O kalıplaşmış zincirleri",
+          "Zincirleri, zincirleri, zincirleri",
+          "Biz hep tam gaz gideriz",
+          "Gaz, gaz, gaz, gaz, gaz, gaz, gaz, gaz",
+          "Tam gaz, gaz, gaz, gaz, gaz, gaz, gaz, gaz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Narin, Anna",
+        "lines": [
+          "빨간 말, 앞만 봐, 거침없이 we go so, so harder",
+          "Than a hundred tons of heavy metal, smashing on your 어금니",
+          "꽉 물고 각오해 we ride or die, so pretty",
+          "Yet we, yeah, we always go hard",
+          "Hard, so hard, まだ見ぬ世界へ",
+          "壁を越えて 走り抜けて",
+          "맡겨봐 내일은 내일의 나에게",
+          "던져버리고 live fast, fast, fast"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Narin, Anna",
+        "lines": [
+          "Kırmızı at",
+          "Gözler sadece ileride",
+          "Hiç duraksamadan",
+          "Daha da, daha da sert gidiyoruz",
+          "Yüz tonluk ağır metalden bile daha sert",
+          "Azı dişlerine çarpar gibi",
+          "Dişini sık",
+          "Hazır ol",
+          "Biz ya hep ya hiçiz",
+          "Öyle güzeliz",
+          "Ama biz, evet",
+          "Biz hep sonuna kadar gideriz",
+          "Sert",
+          "Hem de çok sert",
+          "Henüz görmediğimiz dünyalara doğru",
+          "Duvarları aş",
+          "Koşup geç",
+          "Yarını",
+          "Yarının bana bırak",
+          "Her şeyi bir kenara fırlat",
+          "Hızlı yaşa",
+          "Hızlı, hızlı, hızlı"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Sooin, Ella, Gawon",
+        "lines": [
+          "해가 진다면 then we're going all night",
+          "땅이 꺼지면 then we're going sky high",
+          "And if we fall in love, fall in love, fall in love",
+          "겁 없이 fall hard",
+          "방해된다면 뛰어 넘어가 담",
+          "No one in the world that could bring us back down",
+          "깨진대도 부딪쳐봐, yeah, we'll take it too far",
+          "Yeah, 'cause we always go hard"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Sooin, Ella, Gawon",
+        "lines": [
+          "Güneş batarsa",
+          "Biz de bütün gece devam ederiz",
+          "Yer ayağımızın altından kayarsa",
+          "Biz göklere çıkarız",
+          "Ve eğer âşık olursak",
+          "Âşık olursak, âşık olursak",
+          "Korkmadan",
+          "Fena hâlde düşeriz aşka",
+          "Önümüze bir engel çıkarsa",
+          "Duvarı atlayıp geçeriz",
+          "Bu dünyada bizi aşağı çekebilecek kimse yok",
+          "Kırılsak bile",
+          "Çarpıp görelim",
+          "Evet, işi fazlasıyla ileri götürürüz",
+          "Çünkü biz hep",
+          "Sonuna kadar gideriz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Gawon, Sooin, Anna",
+        "lines": [
+          "We always go hard, hard, hard, hard",
+          "We always go hard, hard, hard, hard",
+          "We always go—",
+          "Break, break, break, break, break, break, break",
+          "틀에 박힌 chain, chain, chain, chain, chain, chain",
+          "We always going hard, hard, hard, hard, hard, hard, hard, hard",
+          "Hard, hard, hard, hard, hard, hard, hard, hard"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Gawon, Sooin, Anna",
+        "lines": [
+          "Biz hep sonuna kadar gideriz",
+          "Tam gaz, gaz, gaz, gaz",
+          "Biz hep sonuna kadar gideriz",
+          "Tam gaz, gaz, gaz, gaz",
+          "Biz hep—",
+          "Kır, kır, kır, kır, kır, kır, kır",
+          "O kalıplaşmış zincirleri",
+          "Zincirleri, zincirleri, zincirleri",
+          "Biz hep tam gaz gideriz",
+          "Gaz, gaz, gaz, gaz, gaz, gaz, gaz, gaz",
+          "Tam gaz, gaz, gaz, gaz, gaz, gaz, gaz, gaz"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Bridge: Narin, Ella, Gawon, Anna",
+        "lines": [
+          "두려움은 그저 한순간",
+          "I'm not sorry if I go too crazy, yeah",
+          "I'm always gonna go too far",
+          "I'm not sorry 'cause I'm never changing, no",
+          "Don't know how to slow it down",
+          "맘 가는 대로, live out loud",
+          "I'm always gonna go too far",
+          "I'm not sorry if I go too hard"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Bridge: Narin, Ella, Gawon, Anna",
+        "lines": [
+          "Korku sadece bir an sürer",
+          "Biraz fazla çıldırırsam",
+          "Özür dilemiyorum, evet",
+          "Ben hep fazla ileri gideceğim",
+          "Özür dilemiyorum",
+          "Çünkü asla değişmeyeceğim, hayır",
+          "Nasıl yavaşlanır bilmiyorum",
+          "İçimden geldiği gibi",
+          "Hayatı bağıra çağıra yaşıyorum",
+          "Ben hep fazla ileri gideceğim",
+          "Fazla sert gidersem de",
+          "Özür dilemiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Sooin, Ella, Gawon, Anna",
+        "lines": [
+          "Go too hard",
+          "Can I call you when I crash out?",
+          "Go too hard",
+          "And I don't know how to slow down",
+          "Never look back",
+          "Only thinking 'bout right now",
+          "Go too hard",
+          "But I'm never gonna slow down"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Sooin, Ella, Gawon, Anna",
+        "lines": [
+          "Fazla sert git",
+          "Dağıldığımda",
+          "Seni arayabilir miyim?",
+          "Fazla sert git",
+          "Nasıl yavaşlanır",
+          "Bilmiyorum",
+          "Asla arkana bakma",
+          "Aklımda sadece",
+          "Şu an var",
+          "Fazla sert git",
+          "Ama ben asla",
+          "Yavaşlamayacağım"
+        ]
+      }
+    ],
+    "excerpt": "Yeah, 시간은 빨라, life's a movie (Movie)",
+    "annotations": {},
+    "difficulty_note": "Go hard: Kelime kelime “sert gitmek” gibi görünse de İngilizce argoda bir şeyi bütün gücüyle yapmak, kendini tutmamak, sonuna kadar gitmek anlamına gelir. Bu yüzden Türkçede “tam gaz gitmek / sonuna kadar gitmek” hissi daha doğal.\n\n못 지킬 비밀: “Tutamayacağımız sırlar.” Yani gece boyunca birlikte yaratacakları ama muhtemelen saklamayı başaramayacakları sırlar. “Sırlar biriktirmek”ten biraz daha oyuncu bir ifade.\n\n그 주인공은 never die: “O filmin başrolü asla ölmez.” İlk satırdaki “hayat bir film” metaforunu devam ettiriyor; kendilerini kendi hayatlarının ölümsüz başrol karakterleri gibi görüyorlar.\n\nFall hard: Hem “sert düşmek” hem de birine çok güçlü biçimde âşık olmak anlamındaki “fall hard” arasında kelime oyunu var. “Fena hâlde düşmek aşka” bu iki anlamı mümkün olduğunca koruyor.\n\n깨진대도 부딪쳐봐: Yaklaşık olarak “Kırılsak bile çarpıp görelim.” Yani zarar görme ihtimali olsa bile geri çekilmemek, deneyip sonuna kadar gitmek.\n\n틀에 박힌 chain: 틀에 박힌 “kalıplaşmış, klişeleşmiş, belli bir kalıba sıkışmış” demek. Buradaki zincirler de onları kısıtlayan kalıpları veya kuralları çağrıştırıyor.\n\n빨간 말: Kelime anlamıyla “kırmızı at.” Şarkı bu imgeyi hız ve durdurulamazlık hissiyle birlikte kullanıyor. Belirli bir marka veya Ferrari göndermesi olduğunu kesinleştirmek için sözün kendisinde yeterli bilgi olmadığı için çeviride doğrudan bırakmak daha doğru.\n\n어금니 꽉 물고 각오해: “Azı dişlerini sık ve kendini hazırla.” Türkçedeki “dişini sık, hazır ol” ifadesine çok yakın; gelecek darbeye veya zorluğa karşı kendini hazırlama anlamı taşıyor.\n\nRide or die: Ne olursa olsun devam etmek, sonuna kadar birlikte gitmek anlamında kullanılan argo. Burada romantik sadakatten çok “ya hep ya hiç” tavrı öne çıkıyor.\n\nまだ見ぬ世界へ: Japonca “Henüz görmediğimiz bir dünyaya doğru.” Bilinmeyene ve yeni deneyimlere koşma temasını sürdürüyor.\n\n壁を越えて 走り抜けて: “Duvarları aş ve koşup geç.” Önüne çıkan engellerde durmadan ilerlemek anlamında.\n\n내일은 내일의 나에게: “Yarını yarının bana bırak.” Bugünü sonuna kadar yaşayıp yarının derdini şimdiden düşünmeme tavrı.\n\nLive out loud: Kendini saklamadan, bastırmadan, açık ve cesur biçimde yaşamak. “Hayatı bağıra çağıra yaşamak” ifadesi bu özgürlük ve taşkınlık hissini Türkçede koruyor.\n\nCrash out: Bağlama göre kontrolü kaybetmek, tükenmek veya tamamen dağılmak anlamlarına gelebilir. Burada sürekli “fazla ileri gitme / yavaşlayamama” temasının sonunda “Dağıldığımda seni arayabilir miyim?” anlamı en doğal karşılık.\n\nNever slow down: Şarkının bütün fikrini toparlıyor: sonuçları ne olursa olsun kendini frenlememek ve sürekli ileri gitmek.",
+    "spotify": {
+      "track": {
+        "id": "3P2MygdWs8lorZnwV3KrsJ",
+        "name": "GO HARD",
+        "url": "https://open.spotify.com/track/3P2MygdWs8lorZnwV3KrsJ",
+        "isrc": "KSA002652474",
+        "durationMs": 187833,
+        "duration": "3:08",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "08hHTBHlv0WRXWlyrsb6Kv",
+        "name": "MEOVV",
+        "url": "https://open.spotify.com/artist/08hHTBHlv0WRXWlyrsb6Kv",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb80d7494a715e38aed1a1ddbb",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "08hHTBHlv0WRXWlyrsb6Kv",
+          "name": "MEOVV",
+          "url": "https://open.spotify.com/artist/08hHTBHlv0WRXWlyrsb6Kv"
+        }
+      ],
+      "album": {
+        "id": "5Si3zne2PC6ZkXOHDY2SXo",
+        "name": "GO HARD",
+        "url": "https://open.spotify.com/album/5Si3zne2PC6ZkXOHDY2SXo",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c",
+        "artists": [
+          {
+            "id": "08hHTBHlv0WRXWlyrsb6Kv",
+            "name": "MEOVV",
+            "url": "https://open.spotify.com/artist/08hHTBHlv0WRXWlyrsb6Kv"
+          }
+        ],
+        "releaseDate": "2026-10-12",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 THEBLACKLABEL",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 THEBLACKLABEL",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 2,
+        "tracks": [
+          {
+            "id": "3P2MygdWs8lorZnwV3KrsJ",
+            "name": "GO HARD",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 187833,
+            "duration": "3:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/3P2MygdWs8lorZnwV3KrsJ",
+            "isCurrent": true
+          },
+          {
+            "id": "5tgjfuUxt53FdDWkUQTEFj",
+            "name": "Indestructible",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 169303,
+            "duration": "2:49",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/5tgjfuUxt53FdDWkUQTEFj",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-14T13:33:43.094Z",
+      "trackUrl": "https://open.spotify.com/track/3P2MygdWs8lorZnwV3KrsJ",
+      "albumUrl": "https://open.spotify.com/album/5Si3zne2PC6ZkXOHDY2SXo",
+      "artistUrl": "https://open.spotify.com/artist/08hHTBHlv0WRXWlyrsb6Kv",
+      "albumName": "GO HARD",
+      "albumType": "EP",
+      "releaseDate": "2026-10-12",
+      "duration": "3:08",
+      "isrc": "KSA002652474",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399461420f5e75af93d59f88c"
+    },
+    "genius": {
+      "url": "https://genius.com/Meovv-go-hard-lyrics",
+      "songId": 14366456,
+      "description": "?"
+    },
+    "youtubeUrl": "https://youtu.be/8aKR2Ho--5k",
+    "source": "spotify-genius"
+  },
+  {
+    "id": "5293",
+    "title": "KATSEYE Unloveu Türkçe Çeviri",
+    "song": "Unloveu",
+    "slug": "katseye-unloveu-turkce-ceviri",
+    "date": "2026-10-14T13:31:12.464Z",
+    "artist": "KATSEYE",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "KATSEYE",
+      "Unloveu"
+    ],
+    "category_slugs": [
+      "katseye",
+      "unloveu"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Intro",
+        "lines": [
+          "Unlove you, u-u-u-unlove you",
+          "Unlove you, u-u-u-unlove you",
+          "Unlove you, u-u-u-unlove you",
+          "Unlove you, u-u-u-unlove you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Intro",
+        "lines": [
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 1: Daniela, Megan",
+        "lines": [
+          "Tissues on the floor, I know a thing about it",
+          "I been there before, too many times for counting",
+          "And a heart don't break like a lot of things, baby",
+          "(Unlove you, u-u-u-unlove you)",
+          "You and slamming doors, one and the same, just sayin'",
+          "Couldn't hate you more and that's an understatement",
+          "'Cause you played games with my brain like crazy",
+          "(Unlove you, u-u-u-unlove you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 1: Daniela, Megan",
+        "lines": [
+          "Yerde peçeteler",
+          "Bu hâli iyi bilirim",
+          "Daha önce de yaşadım",
+          "Sayamayacağım kadar çok kez",
+          "Kalp de öyle her şey gibi",
+          "Kolayca kırılmıyor, bebeğim",
+          "(Artık seni sevmiyorum, se-se-sevmiyorum)",
+          "Sen ve çarpılan kapılar",
+          "Birbirinizden farksızsınız, söylemiş olayım",
+          "Senden daha fazla nefret edemezdim",
+          "Hatta bunu söylemek bile az kalır",
+          "Çünkü aklımla",
+          "Delicesine oyunlar oynadın",
+          "(Artık seni sevmiyorum, se-se-sevmiyorum)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Lara",
+        "lines": [
+          "You so quick to tell me— I need",
+          "Always on some dumb tip like I need to find me",
+          "Ah",
+          "Boy, please don't remind me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Lara",
+        "lines": [
+          "Bana neye ihtiyacım olduğunu söylemeye",
+          "Ne kadar da meraklısın",
+          "Sanki dönüp kendimi bulmam gerekiyormuş gibi",
+          "Hep aynı saçma laflar",
+          "Ah",
+          "Çocuk, lütfen",
+          "Bana hatırlatma"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Sophia",
+        "lines": [
+          "Lot of good nights that I let go to waste",
+          "You on my mind and some tears on my face",
+          "And you'll never get the damage you did",
+          "It's true, it's true",
+          "Lot of bad habits you burned in my mind",
+          "I'm not sayin' that it happened overnight",
+          "But time did it's s—, and finally, it hit",
+          "I do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Sophia",
+        "lines": [
+          "Boşa harcadığım",
+          "Ne çok güzel gece oldu",
+          "Aklımda sen",
+          "Yüzümde birkaç damla yaş",
+          "Ve bana verdiğin zararı",
+          "Asla anlayamayacaksın",
+          "Doğru",
+          "Gerçekten öyle",
+          "Aklıma kazıdığın",
+          "Ne çok kötü alışkanlık var",
+          "Bir gecede oldu demiyorum",
+          "Ama zaman yapacağını yaptı",
+          "Ve sonunda dank etti:",
+          "Artık seni sevmiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Lara, Daniela, Megan",
+        "lines": [
+          "Unlove you, I do",
+          "I, I do",
+          "Unlove you, I do",
+          "I, I do",
+          "Unlove you (Unlove you, u-u-u-unlove you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Lara, Daniela, Megan",
+        "lines": [
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "Artık seni sevmiyorum",
+          "(Artık seni sevmiyorum, se-se-sevmiyorum)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Verse 2: Lara",
+        "lines": [
+          "Yes, just like a lot of men",
+          "You like to project and I wore your words like a necklace",
+          "But that's not my headspace lately",
+          "Oh, baby"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Verse 2: Lara",
+        "lines": [
+          "Evet",
+          "Birçok erkek gibi",
+          "Kendi meselelerini bana yansıtmayı seviyorsun",
+          "Ben de sözlerini",
+          "Boynumda bir kolye gibi taşıdım",
+          "Ama son zamanlarda",
+          "Artık kafam öyle bir yerde değil",
+          "Oh, bebeğim"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Sophia, Lara",
+        "lines": [
+          "Lot of good nights that I let go to waste",
+          "You on my mind and some tears on my face",
+          "And you'll never get the damage you did",
+          "It's true, it's true (Oh-ooh)",
+          "Lot of bad habits you burned in my mind",
+          "I'm not sayin' that it happened overnight",
+          "But time did it's s—, and finally, it hit",
+          "I do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Sophia, Lara",
+        "lines": [
+          "Boşa harcadığım",
+          "Ne çok güzel gece oldu",
+          "Aklımda sen",
+          "Yüzümde birkaç damla yaş",
+          "Ve bana verdiğin zararı",
+          "Asla anlayamayacaksın",
+          "Doğru",
+          "Gerçekten öyle",
+          "Aklıma kazıdığın",
+          "Ne çok kötü alışkanlık var",
+          "Bir gecede oldu demiyorum",
+          "Ama zaman yapacağını yaptı",
+          "Ve sonunda dank etti:",
+          "Artık seni sevmiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Daniela, Megan",
+        "lines": [
+          "Unlove you, I do",
+          "I, I do",
+          "Unlove you, I do",
+          "I, I do (Unlove you, u-u-u-unlove you)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Daniela, Megan",
+        "lines": [
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "(Artık seni sevmiyorum, se-se-sevmiyorum)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Pre-Chorus: Lara",
+        "lines": [
+          "You so quick to tell me— I need (I need)",
+          "On some dumb tip like I need to find me (Find me)",
+          "Ah (Oh)",
+          "Boy, please don't remind me"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Pre-Chorus: Lara",
+        "lines": [
+          "Bana neye ihtiyacım olduğunu söylemeye",
+          "Ne kadar da meraklısın",
+          "Sanki dönüp kendimi bulmam gerekiyormuş gibi",
+          "Hep aynı saçma laflar",
+          "Ah",
+          "Çocuk, lütfen",
+          "Bana hatırlatma"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Chorus: Yoonchae, Sophia, Lara",
+        "lines": [
+          "Lot of good nights that I let go to waste (Good nights, oh)",
+          "You on my mind and some tears on my face",
+          "And you'll never get the damage you did (And you'll never get)",
+          "It's true, it's true (It's true)",
+          "Lot of bad habits you burned in my mind (Lot of bad habits, no)",
+          "I'm not sayin' that it happened overnight",
+          "But time did it's s—, and finally, it hit",
+          "I do"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Chorus: Yoonchae, Sophia, Lara",
+        "lines": [
+          "Boşa harcadığım",
+          "Ne çok güzel gece oldu",
+          "Aklımda sen",
+          "Yüzümde birkaç damla yaş",
+          "Ve bana verdiğin zararı",
+          "Asla anlayamayacaksın",
+          "Doğru",
+          "Gerçekten öyle",
+          "Aklıma kazıdığın",
+          "Ne çok kötü alışkanlık var",
+          "Bir gecede oldu demiyorum",
+          "Ama zaman yapacağını yaptı",
+          "Ve sonunda dank etti:",
+          "Artık seni sevmiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Post-Chorus: Lara",
+        "lines": [
+          "Unlove you, I do",
+          "I, I do (Ah)",
+          "Unlove you, I do",
+          "I, I do (I do)",
+          "Unlove you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Post-Chorus: Lara",
+        "lines": [
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "Artık seni sevmiyorum",
+          "Evet",
+          "Evet, sevmiyorum",
+          "Artık seni sevmiyorum"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Outro: Megan",
+        "lines": [
+          "Unlove you, u-u-u-unlove you",
+          "Unlove you, u-u-u-unlove you (Oh)",
+          "Unlove you, u-u-u-unlove you",
+          "Unlove you, u-u-u-unlove you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Outro: Megan",
+        "lines": [
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum",
+          "Artık seni sevmiyorum, se-se-sevmiyorum"
+        ]
+      }
+    ],
+    "excerpt": "Unlove you, u-u-u-unlove you",
+    "annotations": {},
+    "difficulty_note": "Unlove you: “Unlove” günlük İngilizcede yaygın bir fiil değil. “Love” kelimesine “un-” eklenerek bilinçli biçimde “birini artık sevmemek / sevgiyi geri çekmek” anlamı yaratılıyor. Türkçede en doğal karşılığı “Artık seni sevmiyorum” ya da “Seni sevmekten vazgeçtim.”\n\nTissues on the floor: Yerdeki peçeteler, uzun süre ağlamış olmanın görsel bir işareti.\n\nA heart don’t break like a lot of things: Kalbin sıradan bir eşya gibi kolayca kırılıp geçmediğini; kırıldığında etkisinin daha uzun ve karmaşık olduğunu ima ediyor.\n\nYou and slamming doors, one and the same: Karşı taraf ile sertçe çarpılan kapıları birbirine benzetiyor. İkisi de ani, sert ve incitici.\n\nThat’s an understatement: Söylenen şeyin gerçeğin şiddetini anlatmaya yetmemesi. “Senden daha fazla nefret edemezdim” bile hissettiği öfkeyi tam anlatmıyor.\n\nOn some dumb tip: Birinin sürekli aynı saçma düşünce veya tavırla gelmesi anlamında argo bir ifade. Burada karşı tarafın “Kendini bulmalısın” tarzı üstten konuşmasına laf sokuluyor.\n\nYou like to project: Psikolojide projection, kişinin kendi duygu, kusur veya sorunlarını başkasına yüklemesi anlamına gelir. Anlatıcı, karşı tarafın kendi problemlerini onun üzerine yansıttığını söylüyor.\n\nI wore your words like a necklace: Karşı tarafın sözlerini uzun süre üzerinde taşımak, onları kimliğinin bir parçası hâline getirmek metaforu. “Kolye” imgesi özellikle bu yükün sürekli üzerinde taşındığını gösteriyor.\n\nTime did its s—: Sansürlenmiş ifade büyük ihtimalle “time did its shit.” Yani “zaman kendi işini yaptı.” Zaman geçtikçe duyguların değişmesi ve iyileşmenin sonunda gerçekleşmesi anlatılıyor.\n\nFinally, it hit / I do: Bir anda gerçekleşen bir ayrılık değil; zaman içinde gelen fark ediş. En sonunda anlatıcı gerçekten “Artık onu sevmiyorum” diyebilecek noktaya geliyor.",
+    "spotify": {
+      "track": {
+        "id": "51jUUdOdGqf0VeGtFOTbRe",
+        "name": "Unloveu",
+        "url": "https://open.spotify.com/track/51jUUdOdGqf0VeGtFOTbRe",
+        "isrc": "USUM72604137",
+        "durationMs": 232527,
+        "duration": "3:53",
+        "explicit": true,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "3c0gDdb9lhnHGFtP4prQpn",
+        "name": "KATSEYE",
+        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb04ba72b2749f90d62152ebec",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "3c0gDdb9lhnHGFtP4prQpn",
+          "name": "KATSEYE",
+          "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+        }
+      ],
+      "album": {
+        "id": "58745aGSmbG4rHAxveiJww",
+        "name": "Unloveu",
+        "url": "https://open.spotify.com/album/58745aGSmbG4rHAxveiJww",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107",
+        "artists": [
+          {
+            "id": "3c0gDdb9lhnHGFtP4prQpn",
+            "name": "KATSEYE",
+            "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
+          }
+        ],
+        "releaseDate": "2026-10-13",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 HYBE UMG LLC",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 HYBE UMG LLC",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 2,
+        "tracks": [
+          {
+            "id": "51jUUdOdGqf0VeGtFOTbRe",
+            "name": "Unloveu",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 232527,
+            "duration": "3:53",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/51jUUdOdGqf0VeGtFOTbRe",
+            "isCurrent": true
+          },
+          {
+            "id": "6zCAatCapHUchtp1oUWCJW",
+            "name": "Animal",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 158494,
+            "duration": "2:38",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6zCAatCapHUchtp1oUWCJW",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-14T13:31:10.869Z",
+      "trackUrl": "https://open.spotify.com/track/51jUUdOdGqf0VeGtFOTbRe",
+      "albumUrl": "https://open.spotify.com/album/58745aGSmbG4rHAxveiJww",
+      "artistUrl": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      "albumName": "Unloveu",
+      "albumType": "EP",
+      "releaseDate": "2026-10-13",
+      "duration": "3:53",
+      "isrc": "USUM72604137",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c17ee618486cb8c7adaf5107"
+    },
+    "genius": {
+      "url": "https://genius.com/Katseye-unloveu-lyrics",
+      "songId": 13985779,
+      "description": "Serving as a confession for a wilting relationship, “Unloveu” is the Target exclusive bonus track off KATSEYE’s third Extended Play (EP), WILD.The track is only available at Target in the US and select International retailers. It marks the first time a member of KATSEYE contributed as a writer and producer to the group’s official discography.According to Lara Raj while on the TODAY show, the song was inspired by her first heartbreak when she was a teenager.I wrote this about my first heartbreak. When I was 16 and I feel like heartbreak is such a beautiful experience honestly, It’s such a beautiful thing, to make art and make music about, and it’s a universal thing that everyone experiences at some point in their life.Officially announced on July 30th, 2026, the song would be available to acquire via physical copies on August 14th, 2026."
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=avCBg9huOJo",
+    "source": "spotify-genius"
+  },
+  {
     "id": "5292",
     "title": "manifest TRALALA Türkçe Çeviri",
     "song": "TRALALA",
@@ -92354,8 +93206,9 @@
     "title": "Ava Max, PAW Patrol Work Türkçe Çeviri",
     "song": "Work",
     "slug": "ava-max-paw-patrol-work-turkce-ceviri",
+    "legacyAlbumSlugs": ["ava-max-paw-patrol-work-from-paw-patrol-the-dino-movie"],
     "date": "2026-07-31T10:33:40.977Z",
-    "artist": "Ava Max, PAW Patrol",
+    "artist": "Ava Max",
     "categories": [
       "Ava Max",
       "PAW Patrol",
@@ -144336,8 +145189,9 @@
     "title": "ROSÉ, F1 The Album Messy (From F1® The Movie) Türkçe Çeviri",
     "song": "Messy (From F1® The Movie)",
     "slug": "rose-messy-turkce-ceviri",
+    "legacyAlbumSlugs": ["rose-f1-the-album-messy-from-f1-the-movie"],
     "date": "Thu, 08 May 2025 18:39:25 +0000",
-    "artist": "ROSÉ, F1 The Album",
+    "artist": "ROSÉ",
     "categories": [
       "ROSÉ",
       "F1 The Album"
@@ -185176,8 +186030,9 @@
     "title": "Stromae, Pomme, Arcane Ma Meilleure Ennemie Türkçe Çeviri",
     "song": "Ma Meilleure Ennemie",
     "slug": "stromae-pomme-ma-meilleure-ennemie-turkce-ceviri",
+    "legacyAlbumSlugs": ["stromae-pomme-arcane-ma-meilleure-ennemie-from-the-series-arcane-league-of-legends"],
     "date": "Tue, 24 Dec 2024 18:14:34 +0000",
-    "artist": "Stromae, Pomme, Arcane",
+    "artist": "Stromae, Pomme",
     "categories": [
       "Stromae",
       "Pomme",

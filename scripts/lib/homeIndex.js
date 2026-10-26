@@ -1,3 +1,4 @@
+import { popularSongSlugs } from '../../src/data/internalLinkPlan.js';
 // Build the original homepage selections once; keep its layout and order intact.
 export function buildHomeIndex(content, latestArticle = null) {
   const used = new Set();
@@ -36,6 +37,7 @@ export function buildHomeIndex(content, latestArticle = null) {
   });
   return {
     version: 2,
+    popularSongs: popularSongSlugs.map(slug => content.allPosts.find(p => p.slug === slug)).filter(Boolean).map(card),
     contentPlan: { heroPosts: heroPosts.map(card), risingPost: card(risingPost), latest: latest.map(card), archiveNewest: archiveNewest.map(card), archiveUpdated: archiveUpdated.map(card), genreShelves: Object.fromEntries(Object.entries(genreShelves).map(([name, items]) => [name, items.map(card)])), spotlight: { slug: content.artistSpotlight.slug, name: content.artistSpotlight.name, bio: content.artistSpotlight.bio, posts: spotlightPosts.map(card) } },
     dailyFeatures,
     moods: content.moodGroups.map(({ slug, name, count, covers }) => ({ slug, name, count, covers: (covers || []).slice(0, 4) })),

@@ -1,4 +1,5 @@
 import posts from "../data/postIndex.json";
+import { buildPerformerCatalog, creditsFor } from "./artistCatalog.js";
 import artistsRaw from "../data/artistIndex.json";
 import popGundemiArticles from "../data/popGundemiIndex.json";
 import { articleTextFor, linesFor } from "./searchLines";
@@ -56,38 +57,7 @@ const enriched = posts.map((p, i) => ({
 
 export const allPosts = enriched;
 
-// The WordPress category export mixed real performers with album/song
-// categories. Only expose names that are actually credited as performers on a
-// post. When the export contains duplicate entries for the same artist, prefer
-// the slug that is used by that post's category data.
-const performerNames = new Set(
-  posts.flatMap((post) => String(post.artist || "")
-    .split(/\s*,\s*/)
-    .map((name) => name.trim().toLowerCase())
-    .filter(Boolean)),
-);
-const categorySlugUse = new Map();
-for (const post of posts) {
-  const credits = new Set(String(post.artist || "").split(/\s*,\s*/).map((name) => name.trim().toLowerCase()));
-  for (let index = 0; index < (post.category_slugs || []).length; index += 1) {
-    const slug = post.category_slugs[index];
-    const name = String(post.categories?.[index] || "").trim().toLowerCase();
-    if (!credits.has(name)) continue;
-    const key = `${name}::${slug}`;
-    categorySlugUse.set(key, (categorySlugUse.get(key) || 0) + 1);
-  }
-}
-const performersByName = new Map();
-for (const artist of artistsRaw) {
-  const key = String(artist.name || "").trim().toLowerCase();
-  if (!performerNames.has(key)) continue;
-  const current = performersByName.get(key);
-  if (!current || (categorySlugUse.get(`${key}::${artist.slug}`) || 0) > (categorySlugUse.get(`${key}::${current.slug}`) || 0)) {
-    performersByName.set(key, artist);
-  }
-}
-
-export const allArtists = [...performersByName.values()];
+export const allArtists = buildPerformerCatalog(artistsRaw, posts);
 export const totalPosts = total;
 
 export const getPost = (slug) => enriched.find((p) => p.slug === slug);
@@ -148,43 +118,9 @@ const artistByName = new Map(allArtists.map((a) => [a.name.toLowerCase(), a]));
 const artistBySlug = new Map(allArtists.map((a) => [a.slug, a]));
 
 // The slug of the post's real performing artist (used for /artist/:slug links).
-export function primaryArtistSlug(post) {
-  const byName = artistByName.get((post.artist || "").toLowerCase());
-  if (byName) return byName.slug;
-  for (const cs of post.category_slugs || []) {
-    const meta = artistBySlug.get(cs);
-    if (meta && meta.name.toLowerCase() === (post.artist || "").toLowerCase()) return cs;
-  }
-  return post.category_slugs?.[0] || albumSlugFor(post.artist);
-}
-
-export function creditedArtistsFor(post) {
-  const rawNames = String(post?.artist || "")
-    .split(/\s*,\s*/)
-    .map((name) => name.trim())
-    .filter(Boolean);
-  const names = rawNames.length ? rawNames : [post?.artist || ""].filter(Boolean);
-  const seen = new Set();
-  return names
-    .map((name) => {
-      const byName = artistByName.get(name.toLowerCase());
-      const bySlug = (post?.category_slugs || [])
-        .map((slug) => artistBySlug.get(slug))
-        .find((meta) => meta?.name.toLowerCase() === name.toLowerCase());
-      const slug = byName?.slug || bySlug?.slug || albumSlugFor(name);
-      return { name, slug };
-    })
-    .filter((artist) => {
-      if (!artist.name || seen.has(artist.slug)) return false;
-      seen.add(artist.slug);
-      return true;
-    });
-}
-
-function hasArtistCredit(post, slug) {
-  if (!slug) return false;
-  return primaryArtistSlug(post) === slug || (post.category_slugs || []).includes(slug);
-}
+export function primaryArtistSlug(post) { return creditedArtistsFor(post)[0]?.slug || ''; }
+export function creditedArtistsFor(post) { return creditsFor(post, allArtists); }
+function hasArtistCredit(post, slug) { return creditedArtistsFor(post).some(artist => artist.slug === slug); }
 
 export function getArtist(slug) {
   const meta = artistBySlug.get(slug);
@@ -732,7 +668,7 @@ export function getCollection(slug) {
 export function getMood(slug) {
   const mood = moodCollectionFor(slug);
   if (!mood) return null;
-  return decorate(mood.name, mood.slug, postsForMoodCollection(mood, enriched), mood.description);
+  return { ...decorate(mood.name, mood.slug, postsForMoodCollection(mood, enriched), mood.description), key: mood.key };
 }
 
 export function getGenre(slug) {

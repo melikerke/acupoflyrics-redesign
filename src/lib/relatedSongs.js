@@ -1,4 +1,5 @@
 import { songRecommendationProfiles, artistDiscoveryProfiles } from '../data/songRecommendationProfiles.js';
+import { relatedSongPins } from '../data/internalLinkPlan.js';
 import trafficEvidence from '../../reports/site-audit/2026-10-21/content-priorities.json' with { type: 'json' };
 
 const normalize = value => String(value || '').normalize('NFKC').toLowerCase().trim();
@@ -45,6 +46,15 @@ export function relatedSongs(post, candidates, limit = 4) {
   const direct = scored.filter(entry => entry.tier > 0);
   const ranked = (direct.length ? direct : scored).sort((a, b) => b.tier - a.tier || (a.tier <= 1 ? b.clicks - a.clicks : b.score - a.score) || b.clicks - a.clicks || b.score - a.score || a.tie - b.tie);
   const selected = [], usedArtists = new Set(), usedSlugs = new Set();
+  const pinned = candidates.find(item => item.slug === relatedSongPins[post.slug] && item.slug !== post.slug);
+  if (pinned) {
+    const profile = recommendationProfile(pinned);
+    if (profile.season === source.season && !overlap(profile.artists, source.artists)) {
+      selected.push(pinned); usedSlugs.add(pinned.slug);
+      for (const name of profile.artists) usedArtists.add(name);
+    }
+  }
+  if (selected.length >= limit) return selected.slice(0, limit);
   for (const entry of ranked) {
     if (usedSlugs.has(entry.item.slug) || overlap(usedArtists, entry.profile.artists)) continue;
     selected.push(entry.item); usedSlugs.add(entry.item.slug);

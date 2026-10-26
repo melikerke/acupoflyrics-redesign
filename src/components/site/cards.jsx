@@ -3,6 +3,7 @@ import { firstPair, formatDate, metricsFor, releaseYear } from "../../lib/conten
 import { albumPath, artistPath, collectionPath, genrePath, moodPath, songPath } from "../../lib/paths";
 import { Icon } from "./ui";
 import { spotifyImageUrl } from "../../lib/images";
+import { languagesFor } from '../../lib/languages.js';
 
 // SONG → song page. The everyday cover card (cover, song, artist, meta).
 export function SongCard({ post, showArtist = true }) {
@@ -10,7 +11,7 @@ export function SongCard({ post, showArtist = true }) {
   return (
     <Link to={songPath(post)} className="acl-cover-card">
       <img src={spotifyImageUrl(post.cover, 300)} alt={`${post.artist} — ${post.song}`} width="300" height="300" loading="lazy" decoding="async" />
-      <strong>{post.song}</strong>
+      <strong>{post.song} {languagesFor(post).translation === 'tr' ? 'Türkçe çeviri' : 'English translation'}</strong>
       {showArtist && <span>{post.artist}</span>}
       <small>{m.readingTime} dk okuma · {releaseYear(post)}</small>
     </Link>

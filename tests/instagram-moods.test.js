@@ -36,13 +36,14 @@ test('Turkish mood landing pages share membership and keep legacy aliases canoni
     assert.ok(html.includes('"@type":"CollectionPage"'));
     assert.ok(sitemap.includes(`https://www.acupoflyrics.com/mood/${mood.slug}</loc>`));
     assert.doesNotMatch(html, /name="robots" content="noindex/);
-    const ordered = popularMoodPosts(members);
+    const ordered = popularMoodPosts(members, mood);
     const found = [];
     assert.ok(!html.includes('Şarkılar Şarkıları'));
     assert.equal(moodPageTitle(mood).match(/Şarkılar(?:ı)?/g)?.length, 1);
     for (let page = 1; page <= moodPage(ordered).pageCount; page++) {
       const part = moodPage(ordered, page);
       const pageHtml = await read(`dist${moodPagePath(mood, page)}/index.html`);
+      assert.doesNotMatch(pageHtml, /Search Console|Ölçümü olmayanlar|toplam okunma sayısı/);
       const pageTitle = pageHtml.match(/<title>(.*?)<\/title>/)[1];
       assert.ok(pageTitle.startsWith(`Yabancı ${mood.name} ve Türkçe Çevirileri`));
       assert.ok(!pageTitle.includes('…'));

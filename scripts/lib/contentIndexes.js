@@ -1,3 +1,5 @@
+import { buildPerformerCatalog } from '../../src/lib/artistCatalog.js';
+
 export function firstPair(post) {
   let en = "";
   let tr = "";
@@ -44,9 +46,7 @@ export function heroPair(post) {
 }
 
 export function buildArtistIndex(artists, posts) {
-  const performers = new Set(posts.flatMap((post) => String(post.artist || "").split(/\s*,\s*/).map((name) => name.trim().toLowerCase()).filter(Boolean)));
-  return artists.filter((artist) => performers.has(String(artist.name || "").trim().toLowerCase()))
-    .map(({ slug, name, count, image }) => ({ slug, name, count, image }));
+  return buildPerformerCatalog(artists, posts);
 }
 
 export function buildArticleIndex(articles) {

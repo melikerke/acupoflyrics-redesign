@@ -11,7 +11,7 @@ import PageHero from "../components/site/PageHero";
 import { Breadcrumbs, FilterBar, Grid, Section } from "../components/site/ui";
 import { MoodCard, SongCard } from "../components/site/cards";
 import NotFound from "../components/site/NotFound";
-import { popularMoodPosts, moodPage, moodPagePath, moodPageTitle, moodRankingNote } from '../lib/moodCollections.js';
+import { popularMoodPosts, moodPage, moodPagePath, moodPageTitle } from '../lib/moodCollections.js';
 
 const MOOD_SORTS = [{ value: 'popular', label: 'Aramada öne çıkanlar' }, ...SORT_OPTIONS.filter((o) => o.value !== "mood")];
 
@@ -21,7 +21,7 @@ export default function MoodPage() {
   const navigate = useNavigate();
   const mood = useMemo(() => getMood(slug), [slug]);
   const sort = MOOD_SORTS.some(o => o.value === params.get('sort')) ? params.get('sort') : 'popular';
-  const sorted = useMemo(() => (mood ? (sort === 'popular' ? popularMoodPosts(mood.items) : sortPosts(mood.items, sort)) : []), [mood, sort]);
+  const sorted = useMemo(() => (mood ? (sort === 'popular' ? popularMoodPosts(mood.items, mood) : sortPosts(mood.items, sort)) : []), [mood, sort]);
   const pagination = moodPage(sorted, pageParam || 1);
   const { page, pageCount, valid, start, items } = pagination;
   const others = useMemo(() => moodGroups.filter((m) => m.slug !== mood?.slug).slice(0, 8), [mood]);
@@ -76,7 +76,6 @@ export default function MoodPage() {
           </div>
           <FilterBar options={MOOD_SORTS} value={sort} onChange={setSort} />
         </div>
-        {sort === 'popular' && <p style={{ opacity: 0.72, fontSize: 13 }}>{moodRankingNote}</p>}
         <p aria-live="polite">{start + 1}–{start + items.length} / {mood.count} şarkı · Sayfa {page} / {pageCount}</p>
         <Grid min={180}>
           {items.map((post) => <SongCard key={post.slug} post={post} />)}

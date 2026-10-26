@@ -546,6 +546,15 @@ export default function HomePreview() {
           <PopNewsBanner article={latestPopGundemi} />
           <RisingSongFeature post={contentPlan.risingPost} article={latestPopGundemi} />
           <NewTranslations items={contentPlan.latest} />
+          <section className="acl-section" aria-labelledby="popular-songs-heading">
+            <div className="acl-section-head"><h2 id="popular-songs-heading">Çok okunanlar</h2></div>
+            <div className="acl-cover-row">
+              {(homeIndex.popularSongs || []).map(post => <Link className="acl-cover-card" key={post.slug} to={postPath(post)}>
+                <CoverImage src={post.cover} target={300} alt="" loading="lazy" />
+                <strong>{post.song} Türkçe çeviri</strong><span>{post.artist}</span>
+              </Link>)}
+            </div>
+          </section>
           <RecentHistoryShelf history={recentHistory} />
           <RankedSection newest={contentPlan.archiveNewest} updated={contentPlan.archiveUpdated} />
           <GenreFilterShelf shelves={contentPlan.genreShelves} />

@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
+import { artistAliases } from '../lib/artistCatalog.js';
+import { biographyFor, artistEntity } from '../lib/artistBiography.js';
 import {
   artistFingerprint,
   genreFor,
@@ -38,7 +40,8 @@ const MOOD_TONES = {
 
 export default function ArtistPage() {
   const { slug } = useParams();
-  const artist = useMemo(() => getArtist(slug), [slug]);
+  const artist = useMemo(() => getArtist(artistAliases[slug] || slug), [slug]);
+  const biography = useMemo(() => biographyFor(artist), [artist]);
   const color = useAlbumColor(artist?.image || artist?.posts?.[0]?.cover, [44, 34, 52]);
   const theme = useMemo(() => themeFromColor(color), [color]);
   const [sort, setSort] = useState("newest");
@@ -62,11 +65,7 @@ export default function ArtistPage() {
 
   const path = artistPath(slug);
   useSeo({
-    title: artist.posts.length ? fitSeoTitle([
-      `${artist.name} Şarkı Sözleri ve ${translationDirection.seo} | acupoflyrics`,
-      `${artist.name} ${translationDirection.seo} | acupoflyrics`,
-      `${artist.name} ${translationDirection.seo}`,
-    ]) : "Sanatçı bulunamadı",
+    title: artist.posts.length ? `${artist.name} Şarkı Sözleri ve ${translationDirection.seo} | acupoflyrics` : "Sanatçı bulunamadı",
     description: artistArchiveSummary(artist),
     path,
     image: artist.image,
@@ -79,17 +78,11 @@ export default function ArtistPage() {
         ]
       : [],
     jsonLd: artist.posts.length
-      ? {
-          "@context": "https://schema.org",
-          "@type": "MusicGroup",
-          name: artist.name,
-          image: artist.image,
-          url: canonical(path),
-          ...(artist.spotifyUrl ? { sameAs: [artist.spotifyUrl] } : {}),
-        }
+      ? artistEntity(artist, biography)
       : null,
   });
 
+  if (artistAliases[slug]) return <Navigate to={artistPath(artistAliases[slug])} replace />;
   if (!artist.posts.length) {
     return <NotFound theme={theme} title="Sanatçı bulunamadı." />;
   }
@@ -117,6 +110,16 @@ export default function ArtistPage() {
           artist.latestRelease ? { value: releaseYear(artist.latestRelease), label: "son çıkış", icon: "calendar" } : null,
         ].filter(Boolean)}
       />
+
+      {biography && <Section title={`${artist.name} hakkında`}>
+        <div className="artist-biography" style={{ maxWidth: '75ch', lineHeight: 1.8 }}>
+          <p>{biography.text}</p>
+          <p>{biography.catalogText} {biography.songs.map((post, i) => <span key={post.slug}>
+            {i > 0 && ', '}<Link to={`/${post.slug}/`}>{post.artist} — {post.song} Türkçe çeviri</Link>
+          </span>)}.</p>
+          <details><summary>Biyografi kaynakları</summary><ul>{biography.sources.map(url => <li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{new URL(url).hostname}</a></li>)}</ul></details>
+        </div>
+      </Section>}
 
       {words.length > 0 && (
         <Section title="Dönüp durduğu kelimeler" kicker="Söz parmak izi">
