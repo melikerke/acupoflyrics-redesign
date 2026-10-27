@@ -344,7 +344,7 @@
   {
     "slug": "babymonster",
     "name": "BABYMONSTER",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271"
   },
   {
@@ -452,7 +452,7 @@
   {
     "slug": "raye",
     "name": "RAYE",
-    "count": 3,
+    "count": 4,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9"
   },
   {
@@ -926,7 +926,7 @@
   {
     "slug": "ive",
     "name": "IVE",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840"
   },
   {
@@ -1568,7 +1568,7 @@
   {
     "slug": "michael-jackson",
     "name": "Michael Jackson",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
   },
   {
@@ -1970,7 +1970,7 @@
   {
     "slug": "illit",
     "name": "ILLIT",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710"
   },
   {
@@ -2060,7 +2060,7 @@
   {
     "slug": "mariah-carey",
     "name": "Mariah Carey",
-    "count": 1,
+    "count": 2,
     "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63"
   },
   {
@@ -2290,5 +2290,23 @@
     "name": "Amy Winehouse",
     "count": 1,
     "image": "https://i.scdn.co/image/ab6761610000e5eb2ceb023b10da17590878e88c"
+  },
+  {
+    "slug": "jihyo",
+    "name": "JIHYO",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23bc8f178f9fd3e56f6f6a27"
+  },
+  {
+    "slug": "amma",
+    "name": "Amma",
+    "count": 1,
+    "image": null
+  },
+  {
+    "slug": "absolutely",
+    "name": "Absolutely",
+    "count": 1,
+    "image": null
   }
 ]

@@ -1,5 +1,59 @@
 [
   {
+    "name": "Mariah Carey",
+    "slug": "mariah-carey",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
+    "count": 2
+  },
+  {
+    "name": "Michael Jackson",
+    "slug": "michael-jackson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd",
+    "count": 2
+  },
+  {
+    "name": "RAYE",
+    "slug": "raye",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
+    "count": 4
+  },
+  {
+    "name": "Amma",
+    "slug": "amma",
+    "image": "https://i.scdn.co/image/ab67616d0000b27397c0928704e5a2bd8d4c5b90",
+    "count": 1
+  },
+  {
+    "name": "Absolutely",
+    "slug": "absolutely",
+    "image": "https://i.scdn.co/image/ab67616d0000b27397c0928704e5a2bd8d4c5b90",
+    "count": 1
+  },
+  {
+    "name": "IVE",
+    "slug": "ive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840",
+    "count": 2
+  },
+  {
+    "name": "BABYMONSTER",
+    "slug": "babymonster",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271",
+    "count": 4
+  },
+  {
+    "name": "ILLIT",
+    "slug": "illit",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710",
+    "count": 3
+  },
+  {
+    "name": "JIHYO",
+    "slug": "jihyo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23bc8f178f9fd3e56f6f6a27",
+    "count": 1
+  },
+  {
     "name": "ATEEZ",
     "slug": "ateez",
     "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
@@ -396,12 +450,6 @@
     "count": 1
   },
   {
-    "name": "Mariah Carey",
-    "slug": "mariah-carey",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
-    "count": 1
-  },
-  {
     "name": "Rochelle Jordan",
     "slug": "rochelle-jordan",
     "image": "https://i.scdn.co/image/ab67616d0000b273e23231cace412e5c2b89bb04",
@@ -528,12 +576,6 @@
     "count": 1
   },
   {
-    "name": "RAYE",
-    "slug": "raye",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
-    "count": 3
-  },
-  {
     "name": "ROLE MODEL",
     "slug": "role-model",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfe9486c9ef6d86b4f39805c8",
@@ -568,12 +610,6 @@
     "slug": "aespa",
     "image": "https://i.scdn.co/image/ab6761610000e5eb053bbb910dda6d4ab0618b8b",
     "count": 5
-  },
-  {
-    "name": "ILLIT",
-    "slug": "illit",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcc2491d95050faa5b710",
-    "count": 2
   },
   {
     "name": "DAYOUNG",
@@ -724,12 +760,6 @@
     "slug": "red-velvet",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd6c6537054755d396684e629",
     "count": 5
-  },
-  {
-    "name": "BABYMONSTER",
-    "slug": "babymonster",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb43a4c69b563a55f307bde271",
-    "count": 3
   },
   {
     "name": "Davido",
@@ -1000,12 +1030,6 @@
     "slug": "ariana-grande",
     "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
     "count": 25
-  },
-  {
-    "name": "Michael Jackson",
-    "slug": "michael-jackson",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd",
-    "count": 1
   },
   {
     "name": "Dominic Fike",
@@ -1395,12 +1419,6 @@
     "name": "Doja Cat",
     "slug": "doja-cat",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8a0644455ebfa7d3976f5101",
-    "count": 1
-  },
-  {
-    "name": "IVE",
-    "slug": "ive",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe9134cc9371327f8238b1840",
     "count": 1
   },
   {

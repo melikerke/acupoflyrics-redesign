@@ -1,5 +1,414 @@
 [
   {
+    "id": "5333",
+    "slug": "mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri",
+    "title": "Mariah Carey All I Want for Christmas Is You Türkçe Çeviri",
+    "song": "All I Want for Christmas Is You",
+    "artist": "Mariah Carey",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c0862332847213b151ffab31",
+    "date": "2026-10-27T11:08:17.670Z",
+    "reading_time": 4,
+    "excerpt": "Mariah Carey — All I Want for Christmas Is You sözleri ve Türkçe çevirisi. Noel gelenekleri, romantik ifadeler ve şarkının anlamı için 18 çeviri notu.",
+    "categories": [
+      "Mariah Carey",
+      "Merry Christmas"
+    ],
+    "category_slugs": [
+      "mariah-carey",
+      "merry-christmas"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop",
+      "soul"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0bYg9bo50gSsH3LtXe2SQn",
+      "albumUrl": "https://open.spotify.com/album/61ulfFSmmxMhc2wCdmdMkN",
+      "artistUrl": "https://open.spotify.com/artist/4iHNK0tOyZPYnBU7nGAgpQ",
+      "albumName": "Merry Christmas",
+      "releaseDate": "1994-10-28",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c0862332847213b151ffab31",
+      "duration": "4:02",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 2,
+      "totalTracks": 10,
+      "artistName": "Mariah Carey",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
+      "artistGenres": [],
+      "albumArtist": "Mariah Carey"
+    },
+    "moods": [
+      "Love",
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "I don't want a lot for Christmas",
+      "tr": "Noel için öyle çok şey istemiyorum,"
+    },
+    "heroPair": {
+      "en": "All I want for Christmas is you, yeah",
+      "tr": "Çünkü Noel'de tek istediğim sensin, yeah!"
+    }
+  },
+  {
+    "id": "5332",
+    "slug": "michael-jackson-thriller-turkce-ceviri",
+    "title": "Michael Jackson Thriller Türkçe Çeviri",
+    "song": "Thriller",
+    "artist": "Michael Jackson",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+    "date": "2026-10-27T11:08:17.662Z",
+    "reading_time": 5,
+    "excerpt": "Michael Jackson — Thriller sözleri ve Türkçe çevirisi. Korku sineması imgeleri, romantik çift anlamlar ve Vincent Price bölümü için 21 çeviri notu.",
+    "categories": [
+      "Michael Jackson",
+      "Thriller"
+    ],
+    "category_slugs": [
+      "michael-jackson",
+      "thriller"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop",
+      "funk",
+      "disco"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC",
+      "albumUrl": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ",
+      "artistUrl": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+      "albumName": "Thriller",
+      "releaseDate": "1982-11-30",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+      "duration": "5:59",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 4,
+      "totalTracks": 9,
+      "artistName": "Michael Jackson",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd",
+      "artistGenres": [],
+      "albumArtist": "Michael Jackson"
+    },
+    "moods": [
+      "Dark",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "It's close to midnight",
+      "tr": "Gece yarısı olmak üzere,"
+    },
+    "heroPair": {
+      "en": "'Cause this is thriller, thriller night",
+      "tr": "Çünkü bu gece tam bir korku filmi, dehşet gecesi!"
+    }
+  },
+  {
+    "id": "5331",
+    "slug": "raye-amma-absolutely-joy-turkce-ceviri",
+    "title": "RAYE, Amma & Absolutely Joy. Türkçe Çeviri",
+    "song": "Joy.",
+    "artist": "RAYE, Amma & Absolutely",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27397c0928704e5a2bd8d4c5b90",
+    "date": "2026-10-27T09:34:54.778Z",
+    "reading_time": 6,
+    "excerpt": "RAYE, Amma & Absolutely — Joy. Türkçe çevirisi. THIS MUSIC MAY CONTAIN HOPE. albümünden şarkının sözleri, anlamı, gospel dili ve 17 çeviri notu.",
+    "categories": [
+      "RAYE",
+      "Amma",
+      "Absolutely",
+      "THIS MUSIC MAY CONTAIN HOPE."
+    ],
+    "category_slugs": [
+      "raye",
+      "amma",
+      "absolutely",
+      "this-music-may-contain-hope"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop",
+      "soul",
+      "gospel",
+      "disco"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/5CKbUv7zkOdf8X2602qgei",
+      "albumUrl": "https://open.spotify.com/album/3ZN01xzenGMhWHdC5kfAe9",
+      "artistUrl": "https://open.spotify.com/artist/5KKpBU5eC2tJDzf0wmlRp2",
+      "albumName": "THIS MUSIC MAY CONTAIN HOPE.",
+      "releaseDate": "2026-03-27",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397c0928704e5a2bd8d4c5b90",
+      "duration": "4:24",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 15,
+      "totalTracks": 17,
+      "artistName": "RAYE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
+      "artistGenres": [],
+      "albumArtist": "RAYE"
+    },
+    "moods": [
+      "Healing",
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "Mr. Ray, are you somebody?",
+      "tr": "Bay Ray, sen bir değer ifade ediyor musun?"
+    },
+    "heroPair": {
+      "en": "But my joy comes in the morning",
+      "tr": "Ama sabah olduğunda sevincim geri gelecek!"
+    }
+  },
+  {
+    "id": "5330",
+    "slug": "ive-looks-can-kill-turkce-ceviri",
+    "title": "IVE Looks Can Kill Türkçe Çeviri",
+    "song": "Looks Can Kill",
+    "artist": "IVE",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27341ecb27528efa3aa1a43d404",
+    "date": "2026-10-27T09:25:10.414Z",
+    "reading_time": 4,
+    "excerpt": "IVE — Looks Can Kill Türkçe çevirisi. Girl Hero döneminin şarkısından romanize sözler, anlamı, 18 çeviri notu ve süper kahraman göndermeleri.",
+    "categories": [
+      "IVE",
+      "Looks Can Kill"
+    ],
+    "category_slugs": [
+      "ive",
+      "looks-can-kill"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "dance-pop",
+      "electropop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/47a5QAoyLzC8MwG49hbo76",
+      "albumUrl": "https://open.spotify.com/album/7iGqCu6Ny5cKSfub5sBibf",
+      "artistUrl": "https://open.spotify.com/artist/6RHTUrRF63xao58xh9FXYJ",
+      "albumName": "Looks Can Kill",
+      "releaseDate": "2026-10-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27341ecb27528efa3aa1a43d404",
+      "duration": "3:16",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 6,
+      "artistName": "IVE",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb449a2f7de5ed6d211cf0eee8",
+      "artistGenres": [],
+      "albumArtist": "IVE"
+    },
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Looks can kill, we're so lethal",
+      "tr": "Bakışlarımız adam öldürür, ölümcülüz biz!"
+    },
+    "heroPair": {
+      "en": "Looks can kill, we're so lethal",
+      "tr": "Bakışlarımız adam öldürür, ölümcülüz biz!"
+    }
+  },
+  {
+    "id": "5329",
+    "slug": "babymonster-deserve-turkce-ceviri",
+    "title": "BABYMONSTER DESERVE Türkçe Çeviri",
+    "song": "DESERVE",
+    "artist": "BABYMONSTER",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27329c909f6216434515f2ab438",
+    "date": "2026-10-27T09:19:06.543Z",
+    "reading_time": 3,
+    "excerpt": "BABYMONSTER — DESERVE Türkçe çevirisi. 23 Ekim 2026 tarihli teklinin romanize sözleri, anlamı, üye dağılımı ve 15 çeviri notu.",
+    "categories": [
+      "BABYMONSTER",
+      "DESERVE"
+    ],
+    "category_slugs": [
+      "babymonster",
+      "deserve"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "pop",
+      "ballad"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7It5Iy4mnJWMhESt7qfipt",
+      "albumUrl": "https://open.spotify.com/album/7Aj6krHADdqO0MQaYejME0",
+      "artistUrl": "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS",
+      "albumName": "DESERVE",
+      "releaseDate": "2026-10-23",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27329c909f6216434515f2ab438",
+      "duration": "3:10",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "BABYMONSTER",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb7eed59dfba0a93af631a6654",
+      "artistGenres": [],
+      "albumArtist": "BABYMONSTER"
+    },
+    "moods": [
+      "Sad",
+      "Love"
+    ],
+    "firstPair": {
+      "en": "oraenmaniya jal jinaen geoni",
+      "tr": "Uzun zaman oldu, nasılsın bakalım?"
+    },
+    "heroPair": {
+      "en": "You deserve someone that loves you right",
+      "tr": "Seni hakkıyla sevecek birini hak ediyorsun."
+    }
+  },
+  {
+    "id": "5328",
+    "slug": "illit-youre-under-arrest-turkce-ceviri",
+    "title": "ILLIT You’re Under Arrest Türkçe Çeviri",
+    "song": "You’re Under Arrest",
+    "artist": "ILLIT",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273df9518845a9897da168eb9df",
+    "date": "2026-10-27T09:11:36.031Z",
+    "reading_time": 2,
+    "excerpt": "ILLIT — You’re Under Arrest (I’ll Arrest You / 체포하겠어) Türkçe çevirisi. BREAK EVEN’den şarkının romanize sözleri, anlamı ve 10 çeviri notu.",
+    "categories": [
+      "ILLIT",
+      "BREAK EVEN"
+    ],
+    "category_slugs": [
+      "illit",
+      "break-even"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "electropop",
+      "dance-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0pMoUGdpD8nupNP1mSdZUn",
+      "albumUrl": "https://open.spotify.com/album/4xYpXVSKqRTsL3ucRd8EMM",
+      "artistUrl": "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN",
+      "albumName": "BREAK EVEN",
+      "releaseDate": "2026-10-26",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df9518845a9897da168eb9df",
+      "duration": "3:02",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 4,
+      "artistName": "ILLIT",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb5191923deb0a17fa49bf075b",
+      "artistGenres": [],
+      "albumArtist": "ILLIT"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "saekki songarak geon yaksogeun an haetjiman",
+      "tr": "Serçe parmaklarımızı kenetleyip söz vermedik belki,"
+    },
+    "heroPair": {
+      "en": "saekki songarak geon yaksogeun an haetjiman",
+      "tr": "Serçe parmaklarımızı kenetleyip söz vermedik belki,"
+    }
+  },
+  {
+    "id": "5327",
+    "slug": "jihyo-killin-me-good-turkce-ceviri",
+    "title": "JIHYO Killin’ Me Good Türkçe Çeviri",
+    "song": "Killin’ Me Good",
+    "artist": "JIHYO",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27392b61d0844e0d9fbfff2ca43",
+    "date": "2026-10-27T09:04:52.499Z",
+    "reading_time": 4,
+    "excerpt": "JIHYO — Killin’ Me Good sözleri ve Türkçe çevirisi. ZONE (2023) albümünden şarkıyı romanize Korece sözleri, anlamı ve 21 çeviri notuyla oku.",
+    "categories": [
+      "JIHYO",
+      "ZONE"
+    ],
+    "category_slugs": [
+      "jihyo",
+      "zone"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "r&b",
+      "dance-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/4Cyf87ul1le0xTWRFBoYd7",
+      "albumUrl": "https://open.spotify.com/album/1GIkapvyAw5lwdNw66hI44",
+      "artistUrl": "https://open.spotify.com/artist/7F1iAHRYxR3MY7yAEuFqgL",
+      "albumName": "ZONE",
+      "releaseDate": "2023-08-18",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27392b61d0844e0d9fbfff2ca43",
+      "duration": "3:06",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 7,
+      "artistName": "JIHYO",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb23bc8f178f9fd3e56f6f6a27",
+      "artistGenres": [],
+      "albumArtist": "JIHYO"
+    },
+    "moods": [
+      "Love",
+      "Happy"
+    ],
+    "firstPair": {
+      "en": "Yeah",
+      "tr": "Yeah!"
+    },
+    "heroPair": {
+      "en": "Killin' me, killin' me good, good, good (So good, so good)",
+      "tr": "Öldürüyorsun beni, ama öyle güzel ki! (Çok güzel, çok güzel!)"
+    }
+  },
+  {
     "id": "5326",
     "slug": "ateez-drip-turkce-ceviri",
     "title": "ATEEZ Drip Türkçe Çeviri",

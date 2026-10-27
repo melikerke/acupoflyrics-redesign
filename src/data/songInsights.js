@@ -2,6 +2,107 @@
 import { submittedSongInsights } from './submittedSongInsights.js';
 export const songInsights = {
   ...submittedSongInsights,
+  'michael-jackson-thriller-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'Thriller, gece yarısında ortaya çıkan yaratıklarla korku filmi atmosferi kuruyor. Anlatıcı daha sonra ekrandaki dehşetten sevdiği kişiyi korumayı ve ona sarılmayı teklif ediyor. Böylece korkunun verdiği ürpertiyle romantik heyecan iç içe geçiyor; Vincent Price bölümü de bu dünyayı gotik bir korku anlatısıyla tamamlıyor.',
+    faq: [
+      { question: 'Thriller ne demek?', answer: 'Gerilim ve heyecan yaratan film, roman veya hikâye türünü anlatır. Şarkıda korku gecesini çağrıştırırken “thrill” fiilinin romantik olarak heyecanlandırma anlamıyla da oynanıyor.' },
+      { question: 'Thriller içindeki kanal değiştirme sözü ne anlatıyor?', answer: 'Buradaki “dial”, televizyonun kanal düğmesine işaret ediyor. Ekrandaki korkudan korunma ve birbirine sarılma sözleriyle birlikte, korku anlatısının romantik bir yakınlaşmaya dönüştüğü noktayı oluşturuyor.' },
+      { question: 'Thriller çevirisindeki kırk gözlü yaratık belirli bir karakter mi?', answer: 'Sözler bu yaratığı belirli bir film karakteri olarak tanımlamıyor. Çeviri notunda onu kesin bir kültürel referans gibi sunmak yerine, korkuyu büyüten fantastik bir imge olarak ele alıyoruz.' },
+    ],
+    sources: [
+      { label: 'Michael Jackson — Thriller · Spotify kaydı', url: 'https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC' },
+      { label: 'Michael Jackson — Thriller · resmî video', url: 'https://www.youtube.com/watch?v=4V90AmXnguw' },
+    ],
+  },
+  'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'Mariah Carey bu şarkıda Noel hediyelerini, kar dileğini ve diğer kutlama beklentilerini ikinci plana atıyor. Tek isteği sevdiği kişinin yanında olması. Neşeli Noel atmosferinin içindeki özlem, sevgilisini kapısının önünde görme ve ona sımsıkı sarılma hayaliyle somutlaşıyor.',
+    faq: [
+      { question: 'All I Want for Christmas Is You ne demek?', answer: '“Noel’de tek istediğim sensin” anlamına gelir. Anlatıcı, bütün maddi hediyelerden daha çok sevdiği kişinin yanında olmasını istiyor.' },
+      { question: 'Şarkıdaki ökse otu neden önemli?', answer: 'Ökse otunun altında öpüşme geleneği, bekleyişe romantik bir anlam katıyor. Anlatıcı yalnızca kutlamayı değil, sevdiği insanla yakınlaşacağı anı bekliyor.' },
+      { question: 'Çeviride Noel çorabı ve ren geyikleri neden korunuyor?', answer: 'Bunlar şarkının Noel atmosferini kuran imgeler. Çeviri, bu ayrıntıları başka geleneklerle değiştirmeden Türkçede anlaşılır biçimde aktarıyor; gerekli kültürel açıklamalar da satır notlarında yer alıyor.' },
+    ],
+    sources: [
+      { label: 'Mariah Carey — All I Want for Christmas Is You · Spotify kaydı', url: 'https://open.spotify.com/track/0bYg9bo50gSsH3LtXe2SQn' },
+      { label: 'Mariah Carey — All I Want for Christmas Is You · resmî video', url: 'https://www.youtube.com/watch?v=aAkMkVFwAoo' },
+    ],
+  },
+  'raye-amma-absolutely-joy-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'RAYE, Amma & Absolutely — Joy., acıyı inkâr etmeden sevinci yeniden bulma umudunu gospel diliyle anlatıyor. RAYE kendisini bağlayan korkulara karşı çıkıp kendi değerini ilan ederken Amma içine attığı duygulardan, Absolutely ise karanlığın ardından gelecek ışıktan söz ediyor. Tekrarlanan beyanlar ve birlikte söyleme çağrısı, kişisel duayı ortak bir umut ifadesine dönüştürüyor.',
+    faq: [
+      { question: 'RAYE, Amma & Absolutely — Joy. ne demek?', answer: '“Joy”, sevinç demek. Şarkı, hiç üzülmemeyi değil; acı devam ederken bile sevince yeniden ulaşılabileceğine inanmayı anlatıyor. “Ben de biriyim” beyanı da şöhretten çok kişinin kendi değerini kabul etmesiyle ilgili.' },
+      { question: 'RAYE, Amma & Absolutely — Joy. hangi dinî metinlere gönderme yapıyor?', answer: 'Gece ağlamanın ardından sabahla gelen sevinç, Mezmurlar 30:5 ile; Tanrı’nın tüyleri ve kanatları altında korunma isteği, Mezmurlar 91:4 ile açık bir metinsel bağlantı kuruyor. “Father” hitabı da bu bölümün Tanrı’ya yönelen dua olarak okunmasını destekliyor.' },
+      { question: 'RAYE, Amma & Absolutely — Joy. hangi albümde, sanatçılar kardeş mi?', answer: 'Şarkı, 27 Mart 2026 tarihli RAYE — THIS MUSIC MAY CONTAIN HOPE. albümünün 15. parçası. RAYE, Apple Music albüm açıklamasında Amma ve Absolutely’nin kız kardeşleri olduğunu doğruluyor. Resmî video duyurusu, üç kardeşin Londra’da Joymobile adlı araçla dolaşıp insanlara ayçiçekleri dağıttığını anlatıyor.' },
+    ],
+    sources: [
+      { label: 'RAYE — THIS MUSIC MAY CONTAIN HOPE. · Apple Music ve sanatçının açıklaması', url: 'https://music.apple.com/us/album/i-know-youre-hurting/1871085677' },
+      { label: 'RAYE, Amma & Absolutely — Joy. · resmî video duyurusu', url: 'https://twntythree.com/raye-releases-official-video-for-joy-featuring-sisters-amma-and-absolutely/' },
+      { label: 'Mezmurlar 91:4 · Bible Gateway', url: 'https://www.biblegateway.com/passage/?search=Ps.91.4&version=NIV' },
+      { label: 'Mezmurlar 30:5 · Bible Gateway', url: 'https://search.biblegateway.com/verse/en/Psalm%2030%3A5' },
+      { label: 'James Brown sample’ı ve Zane Lowe görüşmesi · Rayo', url: 'https://www.hellorayo.co.uk/cool-fm/entertainment/music/raye-joy-song' },
+      { label: 'Fred Wesley & The J.B.’s — Damn Right I Am Somebody · Apple Music', url: 'https://music.apple.com/us/album/damn-right-i-am-somebody/1443878719' },
+    ],
+  },
+  'ive-looks-can-kill-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'IVE — Looks Can Kill, güzel ve sevimli görünmenin güçsüz olmak anlamına gelmediğini süper kahraman imgeleriyle anlatıyor. Bakışlar, ritim ve sahne hâkimiyeti ölümcül birer güç gibi sunulurken yumuşak patilerin içindeki pençeler görünüşle saklı güç arasındaki karşıtlığı kuruyor. Köprüde ise karanlık kostümün altında hâlâ aynı kişinin bulunduğu söyleniyor; tehditkâr ifadeler bu gösterişli karakterin mecazları olarak okunabilir.',
+    faq: [
+      { question: 'IVE — Looks Can Kill ne demek?', answer: 'Başlık “Bakışlar öldürebilir” anlamına geliyor. İngilizce “looks” hem bakışları hem dış görünüşü çağrıştırdığı için güzellik ve karizma da bu ölümcül güç imgesine katılıyor. “Lethal” ise ölümcül demek; şarkıdaki anlatım gerçek bir şiddet iddiası değil, abartılı özgüven ve performans dili.' },
+      { question: 'IVE — Looks Can Kill ne zaman yayımlandı, hangi albümde?', answer: 'Şarkının ön yayını 19 Ekim 2026’da yapıldı. Aynı adlı altı parçalık IVE — Looks Can Kill EP’si ise 26 Ekim 2026’da yayımlandı. Bu sayfadaki Spotify bağlantısı EP içindeki kayda gider; bu yüzden albüm tarihinde 26 Ekim görünür.' },
+      { question: 'IVE — Looks Can Kill içindeki Girl Hero ve “drop dead” ne anlatıyor?', answer: 'Resmî EP tanıtımı, önceki Girl Fantasy dünyasını Girl Hero adlı yeni bir karakterle sürdürüyor. Sözlerde sahne gücü süper kahramanlıkla birleşiyor. “I’m drop dead” alışılmadık bir ifade; çevirideki “Öldüresiye güzelim”, sözde açıkça geçmeyen “gorgeous” kelimesini güzellik deyimi çağrışımından tamamlayan bir yorum.' },
+    ],
+    sources: [
+      { label: 'IVE — Looks Can Kill · resmî EP duyurusu', url: 'https://ive-official.jp/mob/news/newsShw.php?cd=OF10439&site=DIVE' },
+      { label: 'IVE — Looks Can Kill · 19 Ekim tekli kaydı', url: 'https://music.apple.com/us/album/looks-can-kill-single/6822369065' },
+      { label: 'IVE — Looks Can Kill · resmî video', url: 'https://www.youtube.com/watch?v=rsNhWkC4neE' },
+    ],
+  },
+  'babymonster-deserve-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'BABYMONSTER — DESERVE, eski bir yakınlığın anıları geri gelirken sevilen kişinin daha iyi bir sevgiyi hak ettiğini söyleyen bir anlatıcıyı izliyor. Bahar, yaz meltemi ve çiçeklerle başlayan hatıralar, şemsiyesiz kalınan yağmura dönüşüyor. Özlem ve yeniden yakınlaşma ihtimalinin yanında, karşı tarafın mutluluğunu dileme ve unutulmama isteği de var.',
+    faq: [
+      { question: 'BABYMONSTER — DESERVE ne demek?', answer: '“Deserve”, hak etmek demek. Nakarattaki “you deserve better”, “Sen daha iyisini hak ediyorsun” anlamını taşıyor; sözlerin bağlamında hakkıyla sevilmek ve değer görmek öne çıkıyor.' },
+      { question: 'BABYMONSTER — DESERVE içindeki masal ve yağmur imgeleri ne anlatıyor?', answer: 'Mevsimler ve doğa imgeleri, geçmişteki yakınlık ile bugünkü kayıp hissini karşılaştırıyor. Masal satırının sonundaki “never”ın önceki veya sonraki düşünceyle ilişkisi belirsiz; çevirideki “Ama hiç de öyle değil” bu belirsizliği yorumlayan bir tercih. Yağmurda şemsiyesiz kalma ise korunmasızlık hissi olarak okunabilir.' },
+      { question: 'BABYMONSTER — DESERVE ne zaman yayımlandı?', answer: 'YG Entertainment’ın resmî diskografisine göre 23 Ekim 2026’da dijital tekli olarak yayımlandı. Retro esintili synthesizer melodileri ve duygusal vokalleri öne çıkaran pop baladı, geçmişteki anıları hatırlarken bir zamanlar sevilen kişinin mutluluğunu dile getiriyor.' },
+    ],
+    sources: [
+      { label: 'BABYMONSTER — DESERVE · YG resmî diskografisi', url: 'https://ygfamily.com/en/artists/babymonster/discography/1672' },
+      { label: 'BABYMONSTER — DESERVE · resmî video', url: 'https://www.youtube.com/watch?v=oC6brLXQe4I' },
+    ],
+  },
+  'illit-youre-under-arrest-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'ILLIT — You’re Under Arrest, açık bir ilişki sözü verilmediği hâlde küçük jestlerden aşk anlamı çıkaran bir anlatıcının sitemini taşıyor. En sevdiği buzlu çay ve gönderilen mesajlar, bu kez hoşlanma işareti değil suç delili gibi önüne konuyor. Tutuklama ve sorgulama imgeleri, “Madem hoşlanmıyordun, neden bana özel davrandın?” sorusunu tatlı ama alaycı bir aşk operasyonuna dönüştürüyor.',
+    faq: [
+      { question: 'ILLIT — You’re Under Arrest ile ILLIT — I’ll Arrest You aynı şarkı mı?', answer: 'Evet. Korece 체포하겠어 başlığı “Seni tutuklayacağım” anlamına gelir; I’ll Arrest You bu anlamın İngilizce karşılığıdır. Spotify ve resmî videoda kullanılan İngilizce ad ise You’re Under Arrest, yani “Tutuklusun”. Sayfada resmî yayın adı kullanılıyor.' },
+      { question: 'ILLIT — You’re Under Arrest içindeki buzlu çay neye gönderme?', answer: 'Wonhee, albüm tanıtımında buzlu çayın ILLIT — IYKYK’den geldiğini açıkladı. Önceden romantik bir jest olarak görülen ayrıntı, yeni şarkıda anlatıcının yanlış umut verildiği iddiasına delil oluyor.' },
+      { question: 'ILLIT — You’re Under Arrest hangi albümde?', answer: '26 Ekim 2026’da yayımlanan dört parçalık ILLIT — BREAK EVEN mini albümünün üçüncü şarkısı ve çıkış parçası. Albüm karşılık bulmayan bir ilişkiye harcanan zaman ve duyguları başa baş noktası benzetmesiyle ele alıyor.' },
+    ],
+    sources: [
+      { label: 'ILLIT — You’re Under Arrest · resmî video', url: 'https://www.youtube.com/watch?v=V2V9-9VhYJo' },
+      { label: 'ILLIT — BREAK EVEN · BELIFT LAB', url: 'https://beliftlab.com/artist/discography/ILLIT/22' },
+      { label: 'ILLIT — BREAK EVEN · albüm tanıtımı ve Wonhee’nin açıklaması', url: 'https://www.koreatimes.co.kr/entertainment/k-pop/20261026/illit-does-math-on-one-sided-love-in-5th-ep-break-even' },
+      { label: 'Miranda hakları · Cornell Legal Information Institute', url: 'https://www.law.cornell.edu/wex/miranda_rule' },
+    ],
+  },
+  'jihyo-killin-me-good-turkce-ceviri': {
+    updatedAt: '2026-10-27',
+    summary: 'JIHYO — Killin’ Me Good, ilk temastan başlayarak bedeni ve duyuları etkileyen yoğun bir çekimi anlatıyor. Anlatıcı önce kendini yeni hislere bırakıyor ve kendi tepkilerine bile şaşırıyor; ikinci bölümde ise roller değişiyor, aynı yoğunluğu karşısındaki kişiye yaşatmak istiyor. Romantik ve tensel imgeler iç içe geçerken sözler belirli bir kişisel deneyimin itirafı olarak sunulmuyor.',
+    faq: [
+      { question: 'JIHYO — Killin’ Me Good ne demek?', answer: 'Başlık, “Beni öldürüyorsun ama öyle güzel ki” karşıtlığıyla okunabilir. Buradaki öldürme gerçek anlamda değil, dayanılmayacak kadar yoğun ve hoş hisleri anlatan bir abartı. Çevirideki “zevkten” sözcüğü birebir karşılık değil, bağlama dayanan bir yerelleştirme.' },
+      { question: 'JIHYO — Killin’ Me Good hangi albümde, sözleri kime ait?', answer: 'Şarkı, 18 Ağustos 2023’te yayımlanan yedi parçalık ilk solo mini albüm JIHYO — ZONE’un çıkış parçası. Apple Music kredilerinde söz yazarı J.Y. Park; besteci, aranjör ve yapımcılardan biri Lindgren olarak yer alıyor. Girişteki L-Lindgren sesi de prodüktör etiketi.' },
+      { question: 'JIHYO — Killin’ Me Good hakkında sanatçı ne söylüyor?', answer: 'JIHYO, GRAMMY röportajında parçayı hızlı tempolu R&B olarak tanımlıyor. ELLE’ye ilk verse melodisinin ve ilk nakarat sonundaki vocoder efektinin dikkatini çektiğini anlatıyor; “brand new” satırının yeni bir solo kimlik mesajı vermek amacıyla seçilmediğini de belirtiyor. Harper’s Bazaar röportajında JIHYO — ZONE için tek bir mesajdan çok müzikal çeşitliliği öne çıkarıyor.' },
+    ],
+    sources: [
+      { label: 'JIHYO — ZONE · JYP resmî diskografisi', url: 'https://twice.jype.com/Default/DiscographyView?AamSeq=206&AmSeq=0&PgIndex=0' },
+      { label: 'JIHYO — Killin’ Me Good · Apple Music kredileri', url: 'https://music.apple.com/us/song/1697360132' },
+      { label: 'JIHYO — ZONE · GRAMMY röportajı', url: 'https://www.grammy.com/news/jihyo-twice-solo-debut-zone-interview-videos/' },
+      { label: 'JIHYO — ZONE · ELLE röportajı', url: 'https://www.elle.com/culture/music/a44841474/jihyo-twice-zone-interview/' },
+      { label: 'JIHYO — ZONE · Harper’s Bazaar röportajı', url: 'https://www.harpersbazaar.com/culture/art-books-music/a44819548/jihyo-twice-zone-album-interview-2023/' },
+    ],
+  },
   'wham-last-christmas-turkce-ceviri': {
     updatedAt: '2026-10-22',
     summary: 'Wham! — Last Christmas, geçen Noel kalbini verdiği kişinin bunu hemen ertesi gün başkasına vermesinin ardından bir yıl sonra yaşananları anlatıyor. Anlatıcı aynı kişiyi kalabalık bir odada yeniden görüyor; hâlâ etkileniyor ama bu kez kendini korumaya kararlı. Neşeli Noel melodisinin altında, kırılmış bir güvenin ve ikinci kez aynı hataya düşmeme isteğinin hikâyesi var.',
