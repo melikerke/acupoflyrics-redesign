@@ -1,4 +1,4 @@
-import { songRecommendationProfiles, artistDiscoveryProfiles } from '../data/songRecommendationProfiles.js';
+import { songRecommendationProfiles, artistDiscoveryProfiles, curatedRelatedSongs } from '../data/songRecommendationProfiles.js';
 import { relatedSongPins } from '../data/internalLinkPlan.js';
 import trafficEvidence from '../../reports/site-audit/2026-10-21/content-priorities.json' with { type: 'json' };
 
@@ -28,6 +28,9 @@ export function recommendationProfile(post) {
 export function relatedSongs(post, candidates, limit = 4) {
   if (!post || limit <= 0) return [];
   const source = recommendationProfile(post);
+  const curated = curatedRelatedSongs[post.slug];
+  if (curated) return [...new Set(curated)].map(slug => candidates.find(item => item.slug === slug))
+    .filter(item => item && item.slug !== post.slug && recommendationProfile(item).season === source.season).slice(0, limit);
   const scored = candidates.filter(item => item.slug !== post.slug).map(item => {
     const profile = recommendationProfile(item);
     if (overlap(source.artists, profile.artists)) return null;

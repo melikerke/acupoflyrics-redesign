@@ -28,7 +28,8 @@ import { copyForLanguage, interfaceLocaleFor } from "../lib/detailCopy";
 import { languageAlternates } from "../lib/translationVariants";
 import { releaseLabel, translationSchema } from "../lib/songPublication";
 import { relatedSongs } from "../lib/relatedSongs";
-import SongInsight from '../components/SongInsight';
+import SongInsight, { SongIntro } from '../components/SongInsight';
+import { withSongFaq } from '../lib/songFaqSchema.js';
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
 
 function detailMetaDescription(post, languages) {
@@ -443,7 +444,7 @@ export default function LyricDetail() {
         ]
       : [],
     jsonLd: post
-      ? {
+      ? withSongFaq({
           "@context": "https://schema.org",
           "@type": "MusicRecording",
           name: post.song,
@@ -455,7 +456,7 @@ export default function LyricDetail() {
           sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
           inLanguage: languagesFor(post).original,
           subjectOf: translationSchema(post, canonical(canonicalPath)),
-        }
+        }, post.slug)
       : null,
   });
 
@@ -504,6 +505,7 @@ export default function LyricDetail() {
   ));
   const recommendationPost = allPosts.find(item => item.slug === post.slug) || post;
   const related = relatedSongs(recommendationPost, allPosts, 4);
+  const showAlbumRecommendations = related.length > 0 && related.every(item => sameAlbumRelated.some(albumPost => albumPost.slug === item.slug));
   const artistLinks = creditedArtistsFor(post);
   const sections = lyricSections(post.blocks);
   const isLyricsLoading = indexedPost && fullPost === null;
@@ -594,6 +596,7 @@ export default function LyricDetail() {
 
             <div className="detail-hero-copy" lang={interfaceLocale}>
               <h1 className="font-serif">{post.artist} — {post.song}</h1>
+              <SongIntro slug={post.slug} />
               <div className="detail-artist-line">
                 <ArtistLinks artists={artistLinks} />
               </div>
@@ -727,11 +730,11 @@ export default function LyricDetail() {
           <>
             <div className="detail-section-heading">
               <h2 className="font-serif">
-                {sameAlbumRelated.length
+                {showAlbumRecommendations
                   ? (interfaceLocale === "en" ? `${ui.fromAlbum} ${albumName}` : `${albumName} ${ui.fromAlbum}`)
                   : ui.recommended}
               </h2>
-              {sameAlbumRelated.length ? (
+              {showAlbumRecommendations ? (
                 <Link to={albumPath(albumSlug)}>{ui.allAlbumTranslations}</Link>
               ) : (
                 <span>{sameArtistRelated.length ? `${post.artist} ${ui.sameWorld}` : ui.keepReading}</span>

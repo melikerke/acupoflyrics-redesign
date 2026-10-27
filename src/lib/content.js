@@ -6,6 +6,7 @@ import { articleTextFor, linesFor } from "./searchLines";
 import { moodsForPost, primaryMoodForPost } from "./moodClassifier";
 import { languagesFor } from "./languages";
 import { moodCollections, moodCollectionFor, postsForMoodCollection } from './moodCollections.js';
+import { recommendationProfile } from './relatedSongs.js';
 
 const total = posts.length;
 
@@ -178,7 +179,7 @@ export function artistFingerprint(list, n = 7) {
 }
 
 export function relatedTo(post, n = 4) {
-  return enriched.filter((p) => p.slug !== post.slug && p.artist === post.artist).slice(0, n);
+  return enriched.filter((p) => p.slug !== post.slug && p.artist === post.artist && recommendationProfile(p).season === recommendationProfile(post).season).slice(0, n);
 }
 
 function searchableArticleText(article) {

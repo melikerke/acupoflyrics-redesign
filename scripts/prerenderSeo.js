@@ -21,7 +21,9 @@ import { moodAliases } from '../src/data/moodLandingPages.js';
 import { buildSpanishTranslations } from "./lib/spanishTranslations.js";
 import { spanishHome } from "../src/lib/spanishMetadata.js";
 import { publicationDate, releaseLabel, translationSchema, isoDate, readablePublicationDate } from "../src/lib/songPublication.js";
-import { relatedSongs } from "../src/lib/relatedSongs.js";
+import { relatedSongs, recommendationProfile } from "../src/lib/relatedSongs.js";
+import { staticSongIntro } from './lib/prerenderContent.js';
+import { withSongFaq } from '../src/lib/songFaqSchema.js';
 import { aboutSchema } from "../src/data/aboutContent.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -212,13 +214,14 @@ function staticHome(items) {
   </div>`;
 }
 
-function staticPage({ kicker, title, description, image, imageAlt, children = "", locale = "tr" }) {
+function staticPage({ kicker, title, description, image, imageAlt, introHtml = '', children = "", locale = "tr" }) {
   return `<div class="seo-prerender">
     ${locale === "es" ? '<nav aria-label="Navegación principal"><a href="/es">acupoflyrics</a><a href="/es">Canciones en español</a><a href="/" lang="tr">Türkçe</a></nav>' : '<nav><a href="/">acupoflyrics</a><a href="/discover">Keşfet</a><a href="/sarkilar">Şarkılar</a><a href="/sanatcilar">Sanatçılar</a><a href="/search">Ara</a></nav>'}
     <main>
       <article>
         ${kicker ? `<p class="seo-kicker">${escapeHtml(kicker)}</p>` : ""}
         <h1>${escapeHtml(title)}</h1>
+        ${introHtml}
         ${description ? `<p class="seo-description">${escapeHtml(description)}</p>` : ""}
         ${image ? `<img class="seo-cover" src="${escapeHtml(spotifyImageUrl(image, 300))}" width="300" height="300" fetchpriority="high" decoding="async" alt="${escapeHtml(imageAlt || `${title} kapak görseli`)}" />` : ""}
         ${children}
@@ -265,9 +268,9 @@ function staticSong(post, postIndex) {
   const artist = creditedArtists(post)[0];
   const artistSlug = artist?.slug || primaryArtistSlug(post);
   const sameArtist = posts
-    .filter((candidate) => candidate.slug !== post.slug && creditedArtists(candidate).some((credit) => credit.slug === artistSlug))
+    .filter((candidate) => candidate.slug !== post.slug && creditedArtists(candidate).some((credit) => credit.slug === artistSlug) && recommendationProfile(candidate).season === recommendationProfile(post).season)
     .slice(0, 6);
-  const similar = relatedSongs(recommendationPosts.find(item => item.slug === post.slug), recommendationPosts.filter(item => !sameArtist.some(other => other.slug === item.slug)), 4);
+  const similar = relatedSongs(recommendationPosts.find(item => item.slug === post.slug), recommendationPosts, 4);
   const previous = postIndex > 0 ? posts[postIndex - 1] : null;
   const next = postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
   const artistLink = artist ? `<a href="/artist/${escapeHtml(artist.slug)}">${escapeHtml(artist.name)}</a>` : escapeHtml(post.artist);
@@ -289,7 +292,8 @@ function staticSong(post, postIndex) {
   return staticPage({
     kicker: copy.kicker,
     title: `${post.artist} — ${post.song}`,
-    description: translationMetaDescription(post),
+    introHtml: staticSongIntro(post.slug),
+    description: staticSongIntro(post.slug) ? '' : translationMetaDescription(post),
     image: post.cover,
     imageAlt: `${post.artist} — ${post.song} kapak görseli`,
     children: `${breadcrumbs}<p class="seo-song-meta">Sanatçı: ${artistLink}${albumLink ? ` · ${releaseLabel(post)}: ${albumLink}` : ""}</p>${publication}${videoHtml}<h2>${escapeHtml(copy.kicker)}</h2>${sections}${notesHtml}${staticSongInsight(post.slug)}${relatedSections}${pager}`,
@@ -523,7 +527,7 @@ for (const [postIndex, post] of posts.entries()) {
         ...(primaryArtist ? [{ name: primaryArtist.name, path: `/artist/${primaryArtist.slug}` }] : []),
         { name: post.song, path: canonicalPath },
       ],
-      jsonLd: {
+      jsonLd: withSongFaq({
         "@context": "https://schema.org",
         "@type": "MusicRecording",
         name: post.song,
@@ -535,7 +539,7 @@ for (const [postIndex, post] of posts.entries()) {
         isrcCode: post.spotify?.track?.isrc || post.spotify?.isrc || undefined,
         sameAs: [post.spotify?.track?.url || post.spotify?.trackUrl].filter(Boolean),
         subjectOf: translationSchema(post, `${SITE}${canonicalPath}`),
-      },
+      }, post.slug),
     },
   ));
 }

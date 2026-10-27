@@ -1,5 +1,8 @@
 // Editorial discovery labels, not claims about an artist's entire discography.
 export const songRecommendationProfiles = {
+  'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri': { genres: ['christmas-pop', 'pop-soul'], moods: ['Love', 'Happy'], language: 'en', season: 'christmas' },
+  'michael-jackson-thriller-turkce-ceviri': { genres: ['funk-pop', 'disco', 'dance-pop'], moods: ['Dark', 'Night', 'Party'], language: 'en' },
+  'raye-amma-absolutely-joy-turkce-ceviri': { genres: ['soul', 'gospel', 'disco'], moods: ['Healing', 'Happy'], language: 'en' },
   'amy-winehouse-back-to-black-turkce-ceviri': { genres: ['retro-soul', 'soul-ballad', 'melancholic-ballad'], moods: ['Sad', 'Lonely'], language: 'en' },
   'adele-set-fire-to-the-rain-turkce-ceviri': { genres: ['soul-ballad', 'pop-soul', 'melancholic-ballad'], moods: ['Sad', 'Love'], language: 'en' },
   'adele-love-in-the-dark-turkce-ceviri': { genres: ['soul-ballad', 'melancholic-ballad'], moods: ['Sad', 'Lonely'], language: 'en' },
@@ -18,6 +21,12 @@ export const songRecommendationProfiles = {
   'a2o-lite-a2o-neon-turkce-ceviri': { genres: ['k-pop', 'dance-pop', 'electropop'], moods: ['Motivation', 'Party'], language: 'ko' },
   'ariana-grande-santa-tell-me-turkce-ceviri': { genres: ['christmas-pop', 'dance-pop'], moods: ['Love', 'Sad'], language: 'en' },
   'lisa-moonlit-floor-santa-remix-turkce-ceviri': { genres: ['christmas-pop', 'dance-pop'], moods: ['Love', 'Party'], language: 'en' },
+};
+// Reviewed selections may include the same artist; do not pad with unrelated songs.
+export const curatedRelatedSongs = {
+  'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri': ['wham-last-christmas-turkce-ceviri', 'ariana-grande-santa-tell-me-turkce-ceviri'],
+  'michael-jackson-thriller-turkce-ceviri': ['michael-jackson-billie-jean-turkce-ceviri', 'dolly-parton-9-to-5-turkce-ceviri', 'dua-lipa-levitating-turkce-ceviri', 'charlie-puth-attention-turkce-ceviri'],
+  'raye-amma-absolutely-joy-turkce-ceviri': ['raye-where-is-my-husband-turkce-ceviri', 'raye-070-shake-escapism-turkce-ceviri', 'lisa-doja-cat-raye-born-again-turkce-ceviri'],
 };
 // Broad legacy discovery context; explicit song labels take precedence.
 export const artistDiscoveryProfiles = {

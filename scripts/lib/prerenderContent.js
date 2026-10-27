@@ -7,6 +7,12 @@ import { annotationsFor } from '../../src/lib/annotations.js';
 import { languagesFor } from '../../src/lib/languages.js';
 import { linksHubSongs, linksHubTitle, linksHubDescription, instagramProfileUrl } from '../../src/lib/linksHub.js';
 import { moodLandingPages } from '../../src/data/moodLandingPages.js';
+import { meaningHeadings } from '../../src/lib/songInsightPresentation.js';
+
+export function staticSongIntro(slug) {
+  const insight = songInsights[slug];
+  return insight?.summaryPlacement === 'intro' ? `<p class="song-insight-intro">${escapeHtml(insight.summary)}</p>` : '';
+}
 
 export function staticLinksHub(posts) {
   const { featured, latest } = linksHubSongs(posts);
@@ -50,7 +56,11 @@ export function staticSongInsight(slug) {
   const insight = songInsights[slug];
   if (!insight) return '';
   const updatedAt = insight.updatedAt || editorialSeoUpdatedAt;
-  return `<section class="song-insight" aria-label="Şarkının anlamı ve sık sorulan sorular"><span class="song-insight-kicker">Şarkının arka planı</span><h2 class="font-serif">Şarkı ne anlatıyor?</h2><p class="song-insight-summary">${escapeHtml(insight.summary)}</p><p class="song-insight-meta">Sözlere dayalı editoryal yorum · Güncelleme: <time datetime="${updatedAt}">${readablePublicationDate(updatedAt)}</time></p><h2 class="song-insight-faq-title font-serif">Sık sorulan sorular</h2><div class="song-insight-faq">${insight.faq.map(item => `<details><summary><span>${escapeHtml(item.question)}</span><span class="song-insight-toggle" aria-hidden="true"></span></summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}</div><footer class="song-insight-sources"><h3>Kaynaklar</h3><p>Yayın bilgileri ve açıklamalar için:</p><ul>${insight.sources.map(source => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`).join('')}</ul></footer></section>`;
+  const heading = meaningHeadings[slug];
+  const questions = heading ? insight.faq.slice(1) : insight.faq;
+  const summary = insight.summaryPlacement === 'intro' ? '' : `<span class="song-insight-kicker">Şarkının arka planı</span><h2 class="font-serif">Şarkı ne anlatıyor?</h2><p class="song-insight-summary">${escapeHtml(insight.summary)}</p>`;
+  const meaning = heading ? `<h2 class="font-serif">${escapeHtml(heading)}</h2><p class="song-insight-summary">${escapeHtml(insight.faq[0].answer)}</p>` : '';
+  return `<section class="song-insight" aria-label="Şarkının anlamı ve sık sorulan sorular">${summary}<p class="song-insight-meta">Sözlere dayalı editoryal yorum · Güncelleme: <time datetime="${updatedAt}">${readablePublicationDate(updatedAt)}</time></p>${meaning}<h2 class="song-insight-faq-title font-serif">Sık sorulan sorular</h2><div class="song-insight-faq">${questions.map(item => `<details><summary><span>${escapeHtml(item.question)}</span><span class="song-insight-toggle" aria-hidden="true"></span></summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}</div><footer class="song-insight-sources"><h3>Kaynaklar</h3><p>Yayın bilgileri ve açıklamalar için:</p><ul>${insight.sources.map(source => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`).join('')}</ul></footer></section>`;
 }
 
 function escapeHtml(value = "") {

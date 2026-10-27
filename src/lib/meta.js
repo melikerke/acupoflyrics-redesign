@@ -109,6 +109,7 @@ export function catalogTitleIdentity(post) {
 export function catalogTranslationTitle(post) {
   const { song, artists } = catalogTitleIdentity(post);
   const credit = artists.slice(0, 2).join(', ') + (artists.length > 2 ? ' vd.' : '');
+  if (post.slug === 'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri') return `${song} Sözleri ve Türkçe Çeviri – ${credit}`;
   const full = `${credit} – ${song} Türkçe Çeviri, Sözleri ve Anlamı`;
   if (full.length <= 60) return full;
   const long = `${song} Sözleri ve Türkçe Çeviri – ${credit}`;

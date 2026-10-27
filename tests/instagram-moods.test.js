@@ -85,7 +85,7 @@ test('Turkish mood landing pages share membership and keep legacy aliases canoni
 
 test('Instagram hub exposes feature, six latest songs, search and moods before JS', async () => {
   const { featured, latest } = linksHubSongs(posts);
-  assert.equal(featured.slug, amy.slug);
+  assert.equal(featured.slug, 'michael-jackson-thriller-turkce-ceviri');
   assert.equal(latest.length, 6);
   assert.deepEqual(linksHubSongs(index).latest.map(post => post.slug), latest.map(post => post.slug));
   const html = await read('dist/linkler/index.html');

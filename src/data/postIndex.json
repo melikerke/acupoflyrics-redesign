@@ -23,8 +23,8 @@
       "annotations": "tr"
     },
     "genres": [
-      "pop",
-      "soul"
+      "christmas-pop",
+      "pop-soul"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/0bYg9bo50gSsH3LtXe2SQn",
@@ -80,9 +80,9 @@
       "annotations": "tr"
     },
     "genres": [
-      "pop",
-      "funk",
-      "disco"
+      "funk-pop",
+      "disco",
+      "dance-pop"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC",
@@ -103,7 +103,8 @@
     },
     "moods": [
       "Dark",
-      "Night"
+      "Night",
+      "Party"
     ],
     "firstPair": {
       "en": "It's close to midnight",
@@ -142,7 +143,6 @@
       "annotations": "tr"
     },
     "genres": [
-      "pop",
       "soul",
       "gospel",
       "disco"

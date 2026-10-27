@@ -10,7 +10,7 @@ export const editorialFeatures = [
     "dek": "Yaz boyunca konuşulan söylenti sonunda netleşti. Jihyo JYP Entertainment'tan ayrıldı ve kendi şirketini kurdu. Peki bu TWICE için ne anlama geliyor? Kısacık cevap: Grup devam ediyor. Uzun cevabı aşağıda.",
     "kicker": "K-pop gündemi",
     "date": "2026-10-26",
-    "updatedAt": "2026-10-26",
+    "updatedAt": "2026-10-27",
     "artistName": "Jihyo",
     "artistSlug": "twice",
     "artistLinkLabel": "TWICE çevirilerini keşfet",
@@ -76,11 +76,12 @@ export const editorialFeatures = [
         ]
       },
       {
-        "heading": "TWICE şarkılarının sözlerine göz at",
+        "heading": "Jihyo ve TWICE şarkılarının sözlerine göz at",
         "body": [
-          "Jihyo'nun sesini en iyi tanıdığımız yer TWICE şarkıları. Sitedeki çevirilerden başla:"
+          "Jihyo'nun solo çıkışı Killin’ Me Good’dan başlayıp TWICE şarkılarıyla devam et:"
         ],
         "list": [
+          "JIHYO — Killin’ Me Good Türkçe çeviri",
           "TWICE — This Is For Türkçe çeviri",
           "TWICE — MARS Türkçe çeviri",
           "TWICE — OPTIONS Türkçe çeviri",
@@ -113,6 +114,7 @@ export const editorialFeatures = [
       }
     ],
     "relatedTranslations": [
+      "jihyo-killin-me-good-turkce-ceviri",
       "twice-this-is-for-turkce-ceviri",
       "twice-mars-turkce-ceviri",
       "twice-options-turkce-ceviri",
@@ -121,6 +123,10 @@ export const editorialFeatures = [
       "coldplay-twice-we-pray-turkce-ceviri"
     ],
     "inlineLinks": [
+      {
+        "label": "JIHYO — Killin’ Me Good Türkçe çeviri",
+        "href": "/jihyo-killin-me-good-turkce-ceviri/"
+      },
       {
         "label": "14 Temmuz tarihli TWICE ve JYP sözleşme gündemine",
         "href": "/pop-gunlugu/twice-jyp-sozlesme-yenileme-iddialari"

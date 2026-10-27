@@ -47,7 +47,7 @@ test('actual pages keep recommendations without leaking seasonal songs into nons
     assert.ok(selected.every(p=>!recommendationProfile(p).season),prefix);
   }
   const seasonal=relatedSongs(get('wham-last-christmas'),index);
-  assert.equal(seasonal.length,2);
+  assert.equal(seasonal.length,3);
   assert.ok(seasonal.every(p=>recommendationProfile(p).season==='christmas'));
 });
 

@@ -1,7 +1,9 @@
 // Editorial interpretations of the supplied lyrics. External facts have sources.
 import { submittedSongInsights } from './submittedSongInsights.js';
+import { submittedSongInsightsOct27 } from './submittedSongInsightsOct27.js';
 export const songInsights = {
   ...submittedSongInsights,
+  ...submittedSongInsightsOct27,
   'michael-jackson-thriller-turkce-ceviri': {
     updatedAt: '2026-10-27',
     summary: 'Thriller, gece yarısında ortaya çıkan yaratıklarla korku filmi atmosferi kuruyor. Anlatıcı daha sonra ekrandaki dehşetten sevdiği kişiyi korumayı ve ona sarılmayı teklif ediyor. Böylece korkunun verdiği ürpertiyle romantik heyecan iç içe geçiyor; Vincent Price bölümü de bu dünyayı gotik bir korku anlatısıyla tamamlıyor.',

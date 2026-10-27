@@ -2,7 +2,7 @@ import { ORIGIN, songPath } from './paths.js';
 
 export const linksHubTitle = 'Bir şarkıyla başla.';
 export const linksHubDescription = 'Instagram’dan buraya: haftanın çevirisi, son eklenen şarkılar ve ruh hâline göre keşif. Aradığın sözün Türkçesini bul.';
-export const weeklyTranslationSlug = 'amy-winehouse-back-to-black-turkce-ceviri';
+export const weeklyTranslationSlug = 'michael-jackson-thriller-turkce-ceviri';
 export const instagramProfileUrl = 'https://www.instagram.com/acupoflyrics/';
 
 export function linksHubSongs(posts) {

@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { songInsights } from '../src/data/songInsights.js';
 import { submittedSongInsights } from '../src/data/submittedSongInsights.js';
+import { submittedSongInsightsOct27 } from '../src/data/submittedSongInsightsOct27.js';
+import { meaningHeadings } from '../src/lib/songInsightPresentation.js';
 import { songInsightUpdates } from '../src/data/songInsightUpdates.js';
 import { songEditorialDescriptions, songLyricsTitleSlugs } from '../src/data/songEditorialSeo.js';
 import { translationMetaTitle, translationMetaDescription, normalizeSeoTitle, isLegacyLyricDescription, catalogTranslationDescription, usesCatalogTitle, catalogTranslationTitle, catalogTitleIdentity } from '../src/lib/meta.js';
@@ -15,7 +17,7 @@ const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;
 
 test('ten document imports have synchronized dates and no unpublished editor instructions', () => {
   assert.equal(Object.keys(submittedSongInsights).length, 10);
-  assert.deepEqual(Object.keys(songInsightUpdates).sort(), Object.keys(submittedSongInsights).sort());
+  assert.deepEqual(Object.keys(songInsightUpdates).sort(), Object.keys({ ...submittedSongInsights, ...submittedSongInsightsOct27 }).sort());
   for (const [slug, insight] of Object.entries(submittedSongInsights)) {
     const post = posts.find(item => item.slug === slug);
     assert.ok(post, slug);
@@ -119,7 +121,7 @@ test('legacy lyric-excerpt descriptions are never emitted', () => {
 });
 
 test('all insight sections have three FAQs, sources and identical initial HTML content', async () => {
-  assert.equal(Object.keys(songInsights).length, 29);
+  assert.equal(Object.keys(songInsights).length, 38);
   for (const [slug, insight] of Object.entries(songInsights)) {
     assert.equal(insight.faq.length, 3, slug);
     assert.ok(insight.summary.length > 150);
@@ -128,10 +130,10 @@ test('all insight sections have three FAQs, sources and identical initial HTML c
     const html = await readFile(new URL(`../dist/${slug}/index.html`, import.meta.url), 'utf8');
     assert.ok(html.includes(staticSongInsight(slug)), slug);
     for (const faq of insight.faq) {
-      assert.ok(html.includes(escapeHtml(faq.question)), slug);
+      assert.ok(html.includes(escapeHtml(faq === insight.faq[0] && meaningHeadings[slug] ? meaningHeadings[slug] : faq.question)), slug);
       assert.ok(html.includes(escapeHtml(faq.answer)), slug);
     }
-    assert.ok(html.indexOf('Şarkı ne anlatıyor?') > html.lastIndexOf('class="seo-lyric-label"'));
+    assert.ok(html.indexOf('class="song-insight"') > html.lastIndexOf('class="seo-lyric-label"'));
   }
   assert.equal(staticSongInsight('no-editorial-content'), '');
 });

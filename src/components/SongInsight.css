@@ -5,6 +5,7 @@
   color: var(--color-ink);
   overflow-wrap: anywhere;
 }
+.song-insight-intro { max-width: 68ch; margin: 18px 0; color: inherit; font-size: 15px; line-height: 1.8; overflow-wrap: anywhere; }
 .song-insight-kicker {
   display: block;
   margin-bottom: 12px;
