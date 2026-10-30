@@ -106915,46 +106915,52 @@
     "blocks": [
       {
         "original": true,
-        "label": "Verse 1",
+        "label": "1. Verse",
         "lines": [
-          "Tryna feel something real to cry again",
-          "They say the artist needs tears to write again"
+          "Tryna feel something real",
+          "To cry again",
+          "They say the artist needs tears",
+          "To write again"
         ]
       },
       {
         "original": false,
-        "label": "Verse 1",
+        "label": "1. Verse",
         "lines": [
-          "Yeniden ağlayabilmek için sahici bir şeyler hissetmeye çalışıyorum",
-          "Derler ki; sanatçının tekrar yazması için gözyaşı dökmesi lazımdır"
+          "Gerçekten bir şeyler hissetmeye çalışıyorum,",
+          "Yeniden ağlayabilmek için.",
+          "Derler ya, sanatçının gözyaşına ihtiyacı varmış,",
+          "Yeniden bir şeyler yazabilmek için."
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Ön Nakarat",
         "lines": [
-          "'Cause all of my favorite stories end in some kind of catastrophe",
-          "But I don't need someone to save me",
+          "'Cause all of my favorite stories",
+          "End in some kind of catastrophe",
+          "But I don’t need someone to save me",
           "'Cause this music and I will never die"
         ]
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Ön Nakarat",
         "lines": [
-          "Çünkü en sevdiğim tüm hikâyeler hep bir çeşit felaketle biter",
-          "Ama beni kurtaracak birine ihtiyacım yok",
-          "Çünkü bu müzik ve ben asla ölmeyeceğiz"
+          "Çünkü en sevdiğim hikâyelerin hepsi",
+          "Bir şekilde felaketle son buluyor.",
+          "Ama beni kurtaracak birine ihtiyacım yok,",
+          "Çünkü ben de müziğim de asla ölmeyeceğiz!"
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
           "It's such a fucked situation",
           "Petal in the pavement",
           "Just as long as she keeps getting it right",
-          "Heartbreak won't bite here in paradise",
+          "Heartbreak won’t bite here in paradise",
           "This is such a convenient conflation",
           "This record in rotation",
           "Long as she gets the ovation each night",
@@ -106963,44 +106969,42 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Ne berbat bir durum bu",
-          "Kaldırımın ortasında bir çiçek yaprağı",
-          "Yeter ki o hep doğru olanı yapsın",
-          "Bu cennette kalp kırıklığı diş geçiremez",
-          "Ne işlerine gelen bir karıştırma bu",
-          "Bu plak döndükçe dönüyor",
-          "Yeter ki her gece alkışını alsın",
-          "Kalp kırıklığı diş geçiremez; burası cennet"
+          "Ne boktan bir durum bu!",
+          "Kaldırımın ortasında bir çiçek yaprağı...",
+          "Yeter ki o kadın her şeyi doğru yapsın,",
+          "Bu cennette kalp kırıklığı ona dokunamazmış!",
+          "Ne de işlerine gelen bir çarpıtma!",
+          "Bu plak dönüp dönüp çalarken,",
+          "Yeter ki her gece alkışını alsın,",
+          "Kalp kırıklığı canını yakmazmış; burası cennet ya!"
         ]
       },
       {
         "original": true,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
-          "I hear them all say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)",
-          "They say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)"
+          "I hear them all say, \"Ooh, ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm, mm)",
+          "They say, \"Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh\" (Mm-mm)"
         ]
       },
       {
         "original": false,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
-          "Hepsinin şöyle dediğini duyuyorum: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)",
-          "Şöyle diyorlar: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)"
+          "Hepsinin sesini duyuyorum: “Ooh, ooh-ooh, ooh-ooh, ooh-ooh...” (Mm-mm, mm!)",
+          "Hep bir ağızdan: “Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh...” (Mm-mm!)"
         ]
       },
       {
         "original": true,
-        "label": "Verse 2",
+        "label": "2. Verse",
         "lines": [
-          "Tell me who's to blame, is it the people or myself? (Yep)",
-          "But this time feels so very different",
-          "This is not a cry for help",
+          "Tell me who's to blame, is it the people or myself? Yep",
+          "But this time feels so very different, this is not a cry for help",
           "A couple million for my thoughts, I've got plenty",
-          "But I am not the victim",
-          "Bitch, I'm practically drowning in my blessings",
+          "But I am not the victim, bitch, I'm practically drowning in my blessings",
           "It's bye, this time for real",
           "Tired of painting endless pictures of a life that isn't mine",
           "Trying different boys on for size",
@@ -107009,43 +107013,43 @@
       },
       {
         "original": false,
-        "label": "Verse 2",
+        "label": "2. Verse",
         "lines": [
-          "Söyle, suç kimde: İnsanlarda mı, bende mi? (Evet)",
-          "Ama bu kez her şey çok farklı hissettiriyor",
-          "Bu bir yardım çığlığı değil",
-          "Düşüncelerim birkaç milyon eder; daha anlatacak çok şeyim var",
-          "Ama ben kurban değilim",
-          "Kızım, ben lütuflarımın içinde boğuluyorum resmen",
-          "Elveda; bu kez gerçekten bitti",
-          "Bana ait olmayan bir hayatın durmadan resmini çizmekten yoruldum",
-          "Farklı çocukları üstüme uyuyor mu diye deneyip durmaktan",
-          "Bu benim lanetimse bırak aksın, aksın"
+          "Söyleyin bakalım, suçlu kim? İnsanlar mı, yoksa ben mi? Evet!",
+          "Ama bu kez her şey gerçekten çok farklı; bu bir yardım çığlığı değil!",
+          "Düşüncelerimin karşılığı birkaç milyon mu? Bende fazlasıyla var zaten!",
+          "Ama ben kurban falan değilim, sürtük; resmen nimetlere boğuluyorum!",
+          "Bu kez gerçekten elveda!",
+          "Bana ait bile olmayan bir hayatın resmini durmadan çizmekten bıktım!",
+          "Bir o erkeği, bir ötekini üstüme deneyip hangisi uyuyor diye bakmaktan...",
+          "Bu benim lanetimse varsın sürsün, bırakıyorum akışına!"
         ]
       },
       {
         "original": true,
-        "label": "Pre-Chorus",
+        "label": "Ön Nakarat",
         "lines": [
-          "'Cause all of my favorite stories end in some kind of catastrophe",
-          "But I don't need someone to save me",
+          "’Cause all of my favorite stories",
+          "End in some kind of catastrophe",
+          "But I don’t need someone to save me",
           "'Cause this music and I will never die"
         ]
       },
       {
         "original": false,
-        "label": "Pre-Chorus",
+        "label": "Ön Nakarat",
         "lines": [
-          "Çünkü en sevdiğim tüm hikâyeler bir çeşit felaketle biter",
-          "Ama beni kurtaracak birine ihtiyacım yok",
-          "Çünkü bu müzik ve ben asla ölmeyeceğiz"
+          "Çünkü en sevdiğim hikâyelerin hepsi",
+          "Bir şekilde felaketle son buluyor.",
+          "Ama beni kurtaracak birine ihtiyacım yok,",
+          "Çünkü ben de müziğim de asla ölmeyeceğiz!"
         ]
       },
       {
         "original": true,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "It's such a fucked situation",
+          "It’s such a fucked situation",
           "Petal in the pavement",
           "Just as long as she keeps getting it right",
           "Heartbreak won't bite here in paradise",
@@ -107057,51 +107061,61 @@
       },
       {
         "original": false,
-        "label": "Chorus",
+        "label": "Nakarat",
         "lines": [
-          "Ne berbat bir durum bu",
-          "Kaldırımın ortasında bir çiçek yaprağı",
-          "Yeter ki o hep doğru olanı yapsın",
-          "Bu cennette kalp kırıklığı diş geçiremez",
-          "Ne işlerine gelen bir karıştırma bu",
-          "Bu plak döndükçe dönüyor",
-          "Yeter ki her gece alkışını alsın",
-          "Kalp kırıklığı diş geçiremez; burası cennet"
+          "Ne boktan bir durum bu!",
+          "Kaldırımın ortasında bir çiçek yaprağı...",
+          "Yeter ki o kadın her şeyi doğru yapsın,",
+          "Bu cennette kalp kırıklığı ona dokunamazmış!",
+          "Ne de işlerine gelen bir çarpıtma!",
+          "Bu plak dönüp dönüp çalarken,",
+          "Yeter ki her gece alkışını alsın,",
+          "Kalp kırıklığı canını yakmazmış; burası cennet ya!"
         ]
       },
       {
         "original": true,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
-          "I hear them all say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)",
-          "They say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)",
-          "I hear them all say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)",
-          "They say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm)"
+          "I hear them all say, \"Ooh, ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm, mm)",
+          "They say, \"Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh\" (Mm-mm)",
+          "I hear them all say, \"Ooh-ooh, ooh-ooh, ooh-ooh\" (Mm-mm, mm)",
+          "They say, \"Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh\" (Mm-mm)"
         ]
       },
       {
         "original": false,
-        "label": "Post-Chorus",
+        "label": "Nakarat Sonrası",
         "lines": [
-          "Hepsinin şöyle dediğini duyuyorum: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)",
-          "Şöyle diyorlar: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)",
-          "Hepsinin şöyle dediğini duyuyorum: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)",
-          "Şöyle diyorlar: “Ooh-ooh, ooh-ooh, ooh-ooh” (Mm-mm)"
+          "Hepsinin sesini duyuyorum: “Ooh, ooh-ooh, ooh-ooh, ooh-ooh...” (Mm-mm, mm!)",
+          "Hep bir ağızdan: “Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh...” (Mm-mm!)",
+          "Hepsinin sesini duyuyorum: “Ooh-ooh, ooh-ooh, ooh-ooh...” (Mm-mm, mm!)",
+          "Hep bir ağızdan: “Ooh-ooh-ooh, ooh-ooh, ooh-ooh, ooh-ooh-ooh...” (Mm-mm!)"
         ]
       }
     ],
-    "excerpt": "Petal in the pavement",
+    "excerpt": "Ariana Grande — petal sözleri ve Türkçe çevirisi. Orijinal sözleri, güncellenmiş tam çeviriyi ve 20 çeviri notunu oku.",
     "annotations": {
-      "The artist needs tears": "Ariana, duygularını müziğe dökmenin bir zorunluluk hâline getirilmesini ve insanların onun acılarından beslenmesini eleştiriyor.",
-      "sanatçının tekrar yazması için gözyaşı": "Sanatçının üretmek için acı çekmesi gerektiği beklentisini ve insanların onun yaralarından yeni şarkılar çıkmasını beklemesini eleştiriyor.",
-      "favorite stories end in some kind of catastrophe": "Hem “Wicked” hikâyesine (Elphaba ve Glinda’nın ayrılığı) hem de kendi hayatındaki her mutlu dönemi takip eden trajedilere (Manchester, Mac Miller’ın kaybı) bir atıf.",
-      "Convenient conflation": "Medyanın ve insanların gerçekleri işine geldiği gibi birbirine karıştırıp sahte bir hikâye (record in rotation) yaratmasına bir eleştiri.",
-      "işlerine gelen bir karıştırma": "Birbirinden ayrı gerçeklerin, kolay tüketilen tek bir anlatıya dönüştürülmesini eleştiriyor. Hemen sonraki dönen plak imgesi, bu anlatının durmadan tekrarlanmasını da çağrıştırıyor.",
-      "Yep": "Ariana, suçlunun kim olduğu tartışmasından sıkıldığını ve hem kendini hem toplumu alaycı bir şekilde suçlayarak bu oyunu bitirdiğini söylüyor.",
-      "A couple million for my thoughts": "“A penny for your thoughts” deyimine bir gönderme. Kendi içsel sancılarının (thank u, next ve ghostin gibi şarkılarla) ticari bir başarıya, milyonlara dönüşmesini iğneleyici bir dille anlatıyor.",
-      "Düşüncelerim birkaç milyon eder": "“A penny for your thoughts” deyimini ters yüz ediyor: Düşünceleri bir kuruş değil, milyonlar ediyor. İç dünyasının hem sanat hem de ticari başarıya dönüşmesine alaycı bir gönderme.",
-      "If this is my curse": "Medyanın onun ilişki geçmişini bir “lanet” veya “erkek çalmak” gibi yansıtmasına karşı, “Madem öyle diyorsunuz, ben böyle yaşamaya devam edeceğim” dediği meydan okuyan tavır.",
-      "üstüme uyuyor mu diye": "“Trying boys on for size”, kıyafet dener gibi farklı ilişkileri deneyip hangisinin uyduğuna bakma imgesi kuruyor; medyanın ilişki geçmişini tüketim nesnesine çevirmesine de meydan okuyor."
+      "Gerçekten bir şeyler hissetmeye çalışıyorum": "1. “Tryna feel something real / To cry again”\n\nTryna, trying to ifadesinin konuşma dilindeki kısaltması; “çalışıyorum” veya “uğraşıyorum” demek. Anlatıcı yeniden gerçek bir şeyler hissetmeye, hatta ağlayabilmeye çalıştığını söylüyor.\n\nİki farklı yorum mümkün: Duygusal açıdan uyuşmuş hissetmek veya sanat üretmek için yoğun duygulara yeniden ulaşmaya çalışmak. Hemen sonraki satırda sanatçının gözyaşına ihtiyaç duyduğunun söylenmesi, ikinci yorumu güçlendiriyor.\n\n“Gerçekten bir şeyler hissetmeye çalışıyorum, yeniden ağlayabilmek için.”\n\n“Yeniden” kelimesi, anlatıcının daha önce ağlayabildiğini ama artık bu duyguyla arasına mesafe girdiğini düşündürüyor. “Yeniden üzülmek istiyorum” denmedi; cry doğrudan ağlamak, feel something real ise gerçek bir duygu hissetmek. Özellikle mutsuz olmak istediği kesin değil. Bunu Ariana'nın gerçek hayatta duygularını hissedemediğine ilişkin kesin bir açıklama olarak değil, şarkının anlatıcısı üzerinden kurulmuş şiirsel bir ifade olarak okumak gerekiyor.",
+      "sanatçının gözyaşına ihtiyacı varmış": "2. “They say the artist needs tears / To write again”\n\nSanatçının acı çekmeden iyi eser üretemeyeceği düşüncesi, sanat ve edebiyatta sık karşılaşılan bir anlayış. Burada bu düşüncenin romantikleştirilmesinden çok sorgulanması öne çıkıyor.\n\nThey say, “Onlar söylüyor” veya “Derler ki” demek. Sanatçının ağlaması gerektiğini doğrudan kendisi savunmuyor; başkalarının sanatçıdan beklediğini aktarıyor.\n\n“Derler ya, sanatçının gözyaşına ihtiyacı varmış, yeniden bir şeyler yazabilmek için.”\n\n“Varmış” eki, duyulan bir iddiayı aktarma ve ona mesafe koyma hissi veriyor. Şarkının devamıyla birlikte bu satır, sanatçıların acılarının yaratıcı bir kaynak gibi görülmesine yönelik bir eleştiri olarak okunabilir.",
+      "Çünkü en sevdiğim hikâyelerin hepsi": "3. “All of my favorite stories end in some kind of catastrophe”\n\nCatastrophe, felaket, büyük yıkım veya korkunç sonuç anlamına geliyor. Anlatıcı sevdiği hikâyelerin mutlu sonlarla değil, trajik olaylarla bittiğini söylüyor. Bunun yalnızca sevdiği filmler veya kitaplarla ilgili olduğunu varsaymamak gerekiyor; aşk hikâyelerini, sanat eserlerini veya genel olarak dramatik anlatıları da çağrıştırabilir.\n\n“Çünkü en sevdiğim hikâyelerin hepsi bir şekilde felaketle son buluyor.”\n\nSome kind of ifadesi “bir şekilde” diye çevrildi; felaketin türü belirtilmiyor. Ayrılık, kayıp, hayal kırıklığı veya başka bir yıkım olabilir. Satır, şarkının başındaki sanat ve acı ilişkisini güçlendiriyor. Hemen ardından kurtarılmaya ihtiyacı olmadığını söylemesi, anlatıcının kendisini sürekli trajik bir hikâyenin kahramanı olarak görmek istemediğini de düşündürüyor. Belirli bir gerçek hayat olayına gönderme olduğu kesinleştirilmiyor.",
+      "Ama beni kurtaracak birine ihtiyacım yok": "4. “I don't need someone to save me”\n\nSave me, kurtarmak anlamında. Romantik şarkılarda birinin diğerini kurtarması, sevgilinin acıyı sona erdirmesiyle ilişkilendirilebilir. Burada ise bu fikir reddediliyor.\n\n“Ama beni kurtaracak birine ihtiyacım yok.”\n\n“Kimseye ihtiyacım yok” denmiyor; bu önemli bir ayrım. İnsanlarla bağ kurmayı veya sevilmeyi reddetmekten çok, bir başkası tarafından kurtarılması gereken çaresiz bir karakter olarak görülmemek öne çıkıyor. Bu da şarkının bağımsızlık temasını güçlendiriyor.",
+      "Çünkü ben de müziğim de asla ölmeyeceğiz": "5. “This music and I will never die”\n\nKelimesi kelimesine “Bu müzik ve ben asla ölmeyeceğiz.” Burada fiziksel ölümsüzlükten çok sanatın kalıcılığı ve sanatçının müziği aracılığıyla yaşamaya devam etmesi düşüncesi var. Müziğiyle kurduğu bağın, ilişkilerden veya karşılaştığı sorunlardan daha kalıcı olduğunu söylüyor olabilir.\n\n“Çünkü ben de müziğim de asla ölmeyeceğiz!”\n\nOrijinalde this music, yani “bu müzik” deniyor. “Müziğim” tercihi, sanatçıyla eser arasındaki kişisel bağı Türkçede belirginleştiriyor. Daha birebir bir karşılık “Çünkü bu müzik de ben de asla ölmeyeceğiz” olurdu. Yalnızca “Müziğim sonsuza kadar yaşayacak” demek ise sanatçının kendisini de aynı cümleye katmasını kaybettirirdi.",
+      "Ne boktan bir durum bu": "6. “It's such a fucked situation”\n\nFucked, bağlama göre berbat, mahvolmuş, rezil veya boktan anlamına gelen kaba bir güçlendirme sözcüğü.\n\n“Ne boktan bir durum bu!”\n\n“Ne kadar kötü bir durum” gibi bir çeviri küfrü ve öfkeyi ortadan kaldırırdı. “Boktan”, şarkının bıkkın ve öfkeli tavrını doğal biçimde taşıyor. Çiçek yaprağı ve cennet gibi yumuşak, şiirsel imgelerle bu sert ifade arasında da güçlü bir karşıtlık oluşuyor.",
+      "Kaldırımın ortasında bir çiçek yaprağı": "7. “Petal in the pavement” — Şarkının en önemli metaforu\n\nPetal, çiçeğin taç yaprağı; pavement ise kaldırım veya sert zemin demek. Bir tarafta narin, yumuşak ve kolay zarar görebilen bir yaprak, diğer tarafta sert ve insanların üzerinde yürüdüğü bir yüzey var. Bu, kırılgan bir varlığın zorlu bir ortamda bulunmasını çağrıştırıyor.\n\nAriana, albüm adını açıklarken sert ve soğuk bir yüzeyin çatlaklarından büyüyen canlı bir şeyden söz ediyor. Bu açıklama, imgenin yalnızca kırılganlık değil dayanıklılık üzerinden de okunmasını destekliyor.\n\n“Kaldırımın ortasında bir çiçek yaprağı...”\n\nÖnceki çeviri taslağındaki “ezilmeye mahkûm” ifadesi orijinal sözde yok; yaprağın ezildiği veya ezileceği söylenmiyor. Bu nedenle ana çeviriden çıkarıldı. Görüntü zaten yeterince güçlü; ne ezilmeyi ne de kesin bir sonu ayrıca eklemek gerekiyor.",
+      "Yeter ki o kadın her şeyi doğru yapsın": "8. “Just as long as she keeps getting it right”\n\nShe sözcüğüyle birinci şahıstan üçüncü şahsa geçiliyor. Anlatıcı artık “Ben her şeyi doğru yaptığım sürece” değil, “O kadın her şeyi doğru yaptığı sürece” diyor. Bu, kendi kimliğiyle kamusal imajı arasında mesafe yaratması olarak okunabilir.\n\nKeep getting it right, her şeyi doğru yapmaya devam etmek, hata yapmamak veya beklentileri karşılamak demek. “Yeter ki o kadın her şeyi doğru yapsın” karşılığı bu koşullu beklentiyi taşıyor. Daha açık biçimi “Yeter ki o kadın her şeyi doğru yapmaya devam etsin” olurdu.\n\nSürekli kusursuz performans gösterme ve doğru kararlar verme beklentisi öne çıkıyor olabilir. Bu okumada nasıl hissettiğinden çok, dışarıdan nasıl göründüğü önemseniyor. Kamusal imaj yorumu sözlerin bağlamına dayanıyor; doğrulanmış tek açıklama olarak sunulmuyor.",
+      "Bu cennette kalp kırıklığı ona dokunamazmış": "9. “Heartbreak won't bite here in paradise”\n\nHeartbreak, kalp kırıklığı veya aşk acısı; bite ise ısırmak demek. Burada fiziksel ısırmadan çok, bir şeyin can yakması veya zarar vermesi kastediliyor.\n\n“Bu cennette kalp kırıklığı ona dokunamazmış!”\n\nParadise, yani cennet, ironik okunabilir. Anlatıcı bir yandan durumunu “boktan” diye tanımlıyor, diğer yandan dışarıdan kusursuz görünen hayatında acının ona dokunamayacağı varsayımını aktarıyor gibi. “Bu kadar başarılı, zengin ve ünlüyken nasıl üzgün olabilirsin?” düşüncesinin eleştirisi olarak okunabilir.\n\n“-mış” eki, duyulan bir iddiayı mesafeli ve hafif alaycı biçimde aktarıyor. “Bu cennette kalp kırıklığı canını yakmazmış!” da aynı tonu taşıyan bir alternatif.",
+      "Ne de işlerine gelen bir çarpıtma": "10. “This is such a convenient conflation”\n\nConflation, birbirinden farklı kavramları veya durumları tek bir şeymiş gibi birleştirmek anlamına geliyor. Convenient ise uygun, elverişli veya birinin işine gelen demek. Burada belirli bir anlatıyı sürdürmeyi kolaylaştıran bir karıştırma eleştiriliyor olabilir.\n\n“Ne de işlerine gelen bir çarpıtma!”\n\nBu karşılık eleştirel tonu öne çıkarıyor. Sözcüğün kavramsal anlamını daha açık taşıyan alternatif “Birbirinden farklı şeyleri bir tutmak ne de işlerine geliyor!” olurdu.\n\nKişisel hayatla sanatın, şöhretle mutluluğun veya başarıyla iyi olma hâlinin birbirine karıştırılması düşünülebilir. Örneğin bir şarkının doğrudan gerçek hayattaki belirli bir olayın itirafı sayılması. Ancak tam olarak hangi kavramların kastedildiği sözlerde açıklanmıyor; bu olasılıklar sanatçı tarafından doğrulanmış özel bir niyet olarak sunulmamalı.",
+      "Bu plak dönüp dönüp çalarken": "11. “This record in rotation”\n\nRecord, müzik bağlamında plak, kayıt, şarkı veya albüm anlamına gelebiliyor. In rotation ise bir şarkının radyoda, çalma listelerinde veya başka yayın ortamlarında düzenli olarak çalınmasını anlatıyor.\n\n“Bu plak dönüp dönüp çalarken...”\n\nPlak fiziksel olarak dönen bir nesne; aynı zamanda müzik de tekrar tekrar dinlenip dolaşıma giriyor. Çeviri bu iki çağrışımı birlikte koruyor. “Bu şarkı dönüp dönüp çalarken...” daha doğrudan bir alternatif.\n\nÖnceki satırla bağlantılı olarak, kişisel acıdan doğan eserin sürekli tüketilen bir ürüne dönüşmesini çağrıştırabilir. Bu, sözlere dayalı bir yorum; record sözcüğünün tek olası anlamı olduğu iddia edilmiyor.",
+      "Yeter ki her gece alkışını alsın": "12. “Long as she gets the ovation each night”\n\nOvation, coşkulu alkış ve takdir demek. Standing ovation ayakta alkışlanmak anlamına gelir; ancak bu satırda özellikle ayakta alkışlandığı söylenmiyor.\n\n“Yeter ki her gece alkışını alsın.”\n\nSahnede görülen ilgiyle kişisel hayatta yaşanan acı arasında karşıtlık kuruluyor. Sanki dışarıdan “Her gece insanlar onu alkışlıyor, daha ne isteyebilir?” deniyor. Alkışlanmanın duygusal acıyı ortadan kaldırmadığına ilişkin ironik bir okuma mümkün. Anlatıcının iyi olup olmadığından çok performansının başarılı olup olmadığının önemsenmesi, nakaratın eleştirel tonunu güçlendiriyor.",
+      "Hepsinin sesini duyuyorum": "13. “I hear them all say…”\n\nNakarat sonrasındaki ooh sesleri ilk bakışta yalnızca vokal melodisi gibi görünüyor. Ancak I hear them all say, yani “Hepsinin söylediğini duyuyorum” ifadesiyle sunulmaları, bir kalabalığın tepkisi olarak da okunmalarına izin veriyor.\n\n“Hepsinin sesini duyuyorum...” ve “Hep bir ağızdan...” karşılıkları bu toplu ses hissini koruyor. Hayranlar, izleyiciler veya sanatçının çevresindeki insanların oluşturduğu sesleri çağrıştırabilir. Sözler bu kalabalığı açıkça adlandırmadığından, özellikle paparazziler veya eleştirmenler olduğu kesinleştirilmiyor.",
+      "Söyleyin bakalım, suçlu kim": "14. “Tell me who's to blame, is it the people or myself?”\n\nWho's to blame, kimin suçlu olduğunu veya sorumluluğun kimde bulunduğunu sormak için kullanılıyor. Anlatıcı yalnızca dış dünyayı suçlamıyor; kendisinin de bu düzenin sürmesinde payı olup olmadığını sorguluyor.\n\n“Söyleyin bakalım, suçlu kim? İnsanlar mı, yoksa ben mi?”\n\nBu, şarkının öz eleştiri yönünü ortaya çıkarıyor. Şöhretin yarattığı beklentileri eleştirirken kendisinin de bazen onlara uyum sağlamış olabileceğini düşünüyor olabilir. Bunu doğrudan bir suç itirafı olarak okumak doğru olmaz.",
+      "bu bir yardım çığlığı değil": "15. “This is not a cry for help”\n\nCry for help, yardım çağrısı veya yardım çığlığı anlamına gelen yerleşik bir ifade. Bir kişinin zor durumda olduğunu dolaylı biçimde göstermesi için de kullanılabiliyor.\n\n“Bu bir yardım çığlığı değil!”\n\nAnlatıcı bunun bir yardım çağrısı olmadığını açıkça söylüyor. Duygularını, sektör hakkındaki eleştirilerini veya kişisel sınırlarını anlatmasının mutlaka kurtarılmaya ihtiyaç duyduğu anlamına gelmediğini vurguluyor olabilir. Bu düşünce, “Beni kurtaracak birine ihtiyacım yok” satırıyla doğrudan bağlantılı.",
+      "Düşüncelerimin karşılığı birkaç milyon mu": "16. “A couple million for my thoughts, I've got plenty”\n\nA penny for your thoughts, birinin ne düşündüğünü öğrenmek için kullanılan bir ifade; kelimesi kelimesine “Düşüncelerin için bir peni.” Burada bir peni yerine birkaç milyon denmesi, deyimin değiştirilmiş bir biçimini çağrıştırıyor.\n\nDüşüncelerin yüksek bir maddi değere sahip olması, ünlü bir sanatçının kişisel duygularının, açıklamalarının ve şarkılarının ticari değer taşıması üzerinden okunabilir.\n\n“Düşüncelerimin karşılığı birkaç milyon mu? Bende fazlasıyla var zaten!”\n\nI've got plenty iki türlü anlaşılabilir: Yeterince parası olması veya anlatacak çok düşüncesinin bulunması. “Düşüncelerime birkaç milyon mu biçiyorsunuz? Bende bolca var!” alternatifi de bu iki anlamı açık tutar. Ana çeviride de fazlasıyla sahip olunan şey özellikle adlandırılmadı.",
+      "Ama ben kurban falan değilim": "17. “I'm not the victim, bitch, I'm practically drowning in my blessings”\n\nVictim, kurban veya mağdur; blessings ise nimetler, sahip olunan güzel şeyler, şans ve ayrıcalıklar anlamına gelebiliyor. Drowning in my blessings, bu nimetlerin içinde boğulacak kadar fazlasına sahip olma imgesi.\n\n“Ama ben kurban falan değilim, sürtük; resmen nimetlere boğuluyorum!”\n\nBir yandan hayatındaki ayrıcalıkların farkında olduğunu söylüyor; diğer yandan bu ayrıcalıkların sorunlarını geçersiz kılmadığını ima ediyor olabilir. Boğulma sözcüğü, bolluğun içinde bunalmayı da çağrıştırıyor.\n\nBitch sözcüğünü tamamen çıkarmak meydan okuyan tavrı azaltırdı. Bununla birlikte “sürtük”, Türkçede daha kişisel bir hakaret gibi duyulabilir. “Ben mağdur falan değilim lan, resmen nimetlere boğuluyorum!” daha az cinsiyetlendirilmiş bir alternatif; ana çeviri ise gönderilen sert hitabı koruyor.",
+      "Bu kez gerçekten elveda": "18. “It's bye, this time for real”\n\nThis time for real, “bu kez gerçekten” veya “bu sefer ciddi” demek. Daha önce de vedalaşmış ya da uzaklaşmaya çalışmış olabileceğini düşündürüyor; şimdi bunun kesin olduğunu söylüyor.\n\n“Bu kez gerçekten elveda!”\n\nKime veya neye veda ettiği açık değil. Bir ilişkiye, kendisinden beklenen rollere veya eski yaşam biçimine veda ediyor olabilir. Sonraki satırda kendisine ait olmayan bir hayatı resmetmekten yorulduğunu söylemesi, son iki yorumu da destekliyor.",
+      "Bana ait bile olmayan bir hayatın resmini": "19. “Tired of painting endless pictures of a life that isn't mine”\n\nPainting pictures yalnızca gerçek anlamda resim yapmak değil; bir durumu belirli biçimde göstermek, hikâye oluşturmak veya başkalarının zihninde bir görüntü yaratmak şeklinde de okunabiliyor.\n\n“Bana ait bile olmayan bir hayatın resmini durmadan çizmekten bıktım!”\n\nBir sanatçının, kendisinden beklenen karakteri veya hayat hikâyesini sürekli yeniden üretmek zorunda hissetmesini çağrıştırıyor. Gerçek kimlikle kamuoyunun görmek istediği karakter arasında mesafe olduğu ima ediliyor olabilir. Ancak satırı belirli bir kişisel ilişkiye veya kamuoyundaki tartışmaya doğrudan bağlamak için ek kanıt gerekir.",
+      "Bir o erkeği, bir ötekini üstüme deneyip": "20. “Trying different boys on for size”\n\nTry something on for size, bir kıyafeti deneyip üzerine olup olmadığına bakmak anlamına geliyor. Mecazi olarak bir fikri, rolü veya seçeneği deneyip kendisine uygun olup olmadığını görmek için de kullanılıyor. Burada kıyafet yerine erkeklerden söz edilmesi bir kelime oyunu yaratıyor.\n\n“Bir o erkeği, bir ötekini üstüme deneyip hangisi uyuyor diye bakmaktan...”\n\n“Üstüme denemek” ifadesi kıyafet imgesini koruyor; farklı kişilerle yakınlaşarak kimin kendisine uyduğuna bakmak şeklinde okunabilir. Yalnızca “Farklı erkeklerle görüşmekten” denmesi bu benzetmeyi kaybettirirdi. Satır, önceki düşüncenin devamı gibi açık bırakıldı. Belirli bir kişiye veya ilişkiye kesin gönderme yapıldığı söylenmiyor."
     },
     "seo": {
       "title": "Ariana Grande petal Türkçe Çeviri ve Şarkı Sözleri",
@@ -107125,7 +107139,7 @@
         "id": "66CXWjxzNUsdJxJ2JdwvnR",
         "name": "Ariana Grande",
         "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb68412f2d0177a9ebc265ff58",
         "genres": [],
         "popularity": null,
         "followers": null
@@ -107142,6 +107156,13 @@
         "name": "petal",
         "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
         "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
+        "artists": [
+          {
+            "id": "66CXWjxzNUsdJxJ2JdwvnR",
+            "name": "Ariana Grande",
+            "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+          }
+        ],
         "releaseDate": "2026-07-31",
         "releaseDatePrecision": "day",
         "albumType": "Album",
@@ -107293,7 +107314,7 @@
           }
         ]
       },
-      "fetchedAt": "2026-07-31T08:28:30.747Z",
+      "fetchedAt": "2026-10-30T07:23:46.673Z",
       "trackUrl": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
       "albumUrl": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
       "artistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
@@ -107305,13 +107326,37 @@
       "label": null,
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
     },
-    "genius": {
-      "url": "https://genius.com/Ariana-grande-petal-lyrics",
-      "songId": 13474842,
-      "description": "The title track and subsequent second single of Ariana Grande’s eighth studio album, petal is a metaphor for how flowers can bloom petals even in the most volatile and rigid of conditions, like finding life in a crack of a concrete pavementFor Ariana, this is viewed through the perspective of love, loss and heartbreak; feeling as if she has to detail her life for the stageFlowers and Ariana Grande have had a long history, with one of the deluxe tracks off of Eternal Sunshine being named after a flower directly, Dandelion. However, probably her most correlated link to this album is the lotus flower tattoo that Ariana has, a flower known to emerge beautifully although born deep within layers of hard mud"
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Tc-gXkHAri8",
+    "source": "user-provided",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
     },
-    "youtubeUrl": "https://youtu.be/Tc-gXkHAri8?si=JToapjWuQU145kF8",
-    "source": "spotify-genius"
+    "updatedAt": "2026-10-30T07:26:18.549Z",
+    "genres": [
+      "pop",
+      "electropop"
+    ],
+    "moods": [
+      "Dark",
+      "Sad"
+    ],
+    "editorialSources": [
+      {
+        "label": "Ariana Grande — petal · resmî yayın duyurusu",
+        "url": "https://www.universalmusic.ca/2026/07/31/ariana-grande-releases-her-eighth-studio-album-petal-out-now/"
+      },
+      {
+        "label": "Ariana Grande · albüm adının açıklaması",
+        "url": "https://umusic.ie/music-news/ariana-grande-has-announced-her-eighth-studio-album-petal"
+      },
+      {
+        "label": "Ariana Grande — petal · albüm ve sanatçının açıklamaları",
+        "url": "https://music.apple.com/us/album/petal/1895420989"
+      }
+    ]
   },
   {
     "id": "5065",

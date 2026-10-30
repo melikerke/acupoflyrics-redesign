@@ -13371,8 +13371,9 @@
     "artist": "Ariana Grande",
     "cover": "https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7",
     "date": "2026-07-31T08:28:34.339Z",
+    "updatedAt": "2026-10-30T07:26:18.549Z",
     "reading_time": 3,
-    "excerpt": "Petal in the pavement",
+    "excerpt": "Ariana Grande — petal sözleri ve Türkçe çevirisi. Orijinal sözleri, güncellenmiş tam çeviriyi ve 20 çeviri notunu oku.",
     "categories": [
       "Ariana Grande",
       "petal"
@@ -13380,6 +13381,15 @@
     "category_slugs": [
       "ariana-grande",
       "petal"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "pop",
+      "electropop"
     ],
     "spotify": {
       "trackUrl": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
@@ -13394,19 +13404,21 @@
       "trackNumber": 3,
       "totalTracks": 12,
       "artistName": "Ariana Grande",
-      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb766397ec42a573a53eb5fb87",
-      "artistGenres": []
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb68412f2d0177a9ebc265ff58",
+      "artistGenres": [],
+      "albumArtist": "Ariana Grande"
     },
     "moods": [
+      "Dark",
       "Sad"
     ],
     "firstPair": {
-      "en": "Tryna feel something real to cry again",
-      "tr": "Yeniden ağlayabilmek için sahici bir şeyler hissetmeye çalışıyorum"
+      "en": "Tryna feel something real",
+      "tr": "Gerçekten bir şeyler hissetmeye çalışıyorum,"
     },
     "heroPair": {
       "en": "Petal in the pavement",
-      "tr": "Kaldırımın ortasında bir çiçek yaprağı"
+      "tr": "Kaldırımın ortasında bir çiçek yaprağı..."
     }
   },
   {
