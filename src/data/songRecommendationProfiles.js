@@ -24,6 +24,9 @@ export const songRecommendationProfiles = {
 };
 // Reviewed selections may include the same artist; do not pad with unrelated songs.
 export const curatedRelatedSongs = {
+  // Emotional pop discovery, rather than broad electropop matches.
+  'ariana-grande-petal-turkce-ceviri': ['gracie-abrams-here-you-come-there-you-go-turkce-ceviri', 'billie-eilish-wildflower-turkce-ceviri', 'sabrina-carpenter-please-please-please-turkce-ceviri', 'olivia-rodrigo-the-cure-turkce-ceviri'],
+  'jisoo-addicted-turkce-ceviri': ['katseye-unloveu-turkce-ceviri', 'aespa-whiplash-turkce-ceviri', 'lisa-cobra-turkce-ceviri', 'blackpink-me-and-my-turkce-ceviri'],
   'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri': ['wham-last-christmas-turkce-ceviri', 'ariana-grande-santa-tell-me-turkce-ceviri'],
   'michael-jackson-thriller-turkce-ceviri': ['michael-jackson-billie-jean-turkce-ceviri', 'dolly-parton-9-to-5-turkce-ceviri', 'dua-lipa-levitating-turkce-ceviri', 'charlie-puth-attention-turkce-ceviri'],
   'raye-amma-absolutely-joy-turkce-ceviri': ['raye-where-is-my-husband-turkce-ceviri', 'raye-070-shake-escapism-turkce-ceviri', 'lisa-doja-cat-raye-born-again-turkce-ceviri'],

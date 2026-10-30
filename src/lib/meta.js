@@ -109,15 +109,14 @@ export function catalogTitleIdentity(post) {
 export function catalogTranslationTitle(post) {
   const { song, artists } = catalogTitleIdentity(post);
   const credit = artists.slice(0, 2).join(', ') + (artists.length > 2 ? ' vd.' : '');
-  if (post.slug === 'mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri') return `${song} Sözleri ve Türkçe Çeviri – ${credit}`;
   const full = `${credit} – ${song} Türkçe Çeviri, Sözleri ve Anlamı`;
   if (full.length <= 60) return full;
   const long = `${song} Sözleri ve Türkçe Çeviri – ${credit}`;
   if (long.length <= 65) return long;
   // Prefer one credited artist plus vd. over cutting the search intent or song name.
   const shortCredit = artists.length > 1 ? `${artists[0]} vd.` : credit;
-  const shorter = `${song} Sözleri ve Türkçe Çeviri – ${shortCredit}`;
-  return shorter.length <= 65 ? shorter : `${song} Sözleri, Türkçe Çeviri – ${shortCredit}`;
+  // Keep the conjunction even beyond the preferred length; never degrade the template.
+  return `${song} Sözleri ve Türkçe Çeviri – ${shortCredit}`;
 }
 
 export function isLegacyLyricDescription(value) {
