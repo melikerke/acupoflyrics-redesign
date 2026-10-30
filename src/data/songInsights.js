@@ -2,6 +2,44 @@
 import { submittedSongInsights } from './submittedSongInsights.js';
 import { submittedSongInsightsOct27 } from './submittedSongInsightsOct27.js';
 export const songInsights = {
+  'jisoo-addicted-turkce-ceviri': {
+  "updatedAt": "2026-10-30",
+  "summaryPlacement": "intro",
+  "faqSchema": true,
+  "summary": "JISOO — ADDICTED, birine fena hâlde kapılıp bunun tehlikeli olduğunu bilse de kendini durduramama hissini taşıyor. Öpücükler birer doza, dokunuşlar insanı başka bir kafaya götüren deneyimlere dönüşüyor. Fiziksel yakınlık, yoğun arzu ve kontrol kaybı iç içe geçerken anlatıcı ne olduğunu tam açıklayamasa da bu çekime teslim oluyor.",
+  "faq": [
+    {
+      "question": "JISOO — ADDICTED ne demek, şarkı ne anlatıyor?",
+      "answer": "Addicted, “bağımlı” demek. Şarkı, bir insana duyulan yoğun çekimi bağımlılık ve kendinden geçme imgeleriyle anlatıyor. Bu, sanatçının gerçek madde kullanımına ilişkin bir açıklama değil; sözlere dayalı bir aşk ve arzu yorumu."
+    },
+    {
+      "question": "JISOO — ADDICTED ne zaman yayımlandı ve hangi albümden?",
+      "answer": "ADDICTED, Kore’de 30 Ekim 2026 tarihinde yayımlanan dijital tekli. Spotify kaydında uluslararası yayın günü 29 Ekim olarak görünüyor. BLISSOO’nun duyurusuna göre CLICK’in ardından, JISOO’nun ilk solo stüdyo albümü öncesindeki ikinci ön yayın teklisi; duyuruda albümün çıkış tarihi açıklanmamıştı."
+    },
+    {
+      "question": "JISOO — ADDICTED şarkısının sözlerini kim yazdı?",
+      "answer": "Resmî yayın kredilerinde söz yazarları Austin Wolfe, Tiina Vainikainen ve JISOO olarak listeleniyor. Yapımcılar The Wavys ve Sol Was; ek prodüksiyon kredisi The-Dream’e ait."
+    }
+  ],
+  "sources": [
+    {
+      "label": "JISOO — ADDICTED · resmî site",
+      "url": "https://www.jisoo.io/"
+    },
+    {
+      "label": "JISOO — ADDICTED · yayın bilgileri ve resmî krediler",
+      "url": "https://www.melon.com/album/detail.htm?albumId=15100921"
+    },
+    {
+      "label": "BLISSOO’nun ön yayın duyurusu · Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261027001900315"
+    },
+    {
+      "label": "JISOO — ADDICTED · resmî video",
+      "url": "https://www.youtube.com/watch?v=Pksr9T8m_aA"
+    }
+  ]
+},
   ...submittedSongInsights,
   ...submittedSongInsightsOct27,
   'michael-jackson-thriller-turkce-ceviri': {

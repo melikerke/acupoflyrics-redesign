@@ -1,5 +1,62 @@
 [
   {
+    "id": "5334",
+    "slug": "jisoo-addicted-turkce-ceviri",
+    "title": "JISOO ADDICTED Türkçe Çeviri",
+    "song": "ADDICTED",
+    "artist": "JISOO",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e",
+    "date": "2026-10-30T07:00:00.000Z",
+    "reading_time": 4,
+    "excerpt": "JISOO — ADDICTED sözleri ve Türkçe çevirisi. Bağımlılık metaforları, çift anlamlar ve fiziksel çekimi açıklayan 12 çeviri notuyla oku.",
+    "categories": [
+      "JISOO",
+      "ADDICTED"
+    ],
+    "category_slugs": [
+      "jisoo",
+      "addicted"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "dance-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/0SqDNsDiJyvrbXGsIvt0hN",
+      "albumUrl": "https://open.spotify.com/album/0vUguBVUu74NEtzLdXh4X5",
+      "artistUrl": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+      "albumName": "ADDICTED",
+      "releaseDate": "2026-10-29",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e",
+      "duration": "2:59",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "JISOO",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebb384ec634d894802cd19bceb",
+      "artistGenres": [],
+      "albumArtist": "JISOO"
+    },
+    "moods": [
+      "Love",
+      "Night"
+    ],
+    "firstPair": {
+      "en": "Now you got me so addicted, got me so addicted, got me so addicted",
+      "tr": "Şimdi öyle bir bağımlı ettin ki beni, öyle bağımlı ettin ki, öyle bağımlı ettin ki!"
+    },
+    "heroPair": {
+      "en": "Now you got me so addicted, got me so addicted, got me so addicted",
+      "tr": "Şimdi öyle bir bağımlı ettin ki beni, öyle bağımlı ettin ki, öyle bağımlı ettin ki!"
+    }
+  },
+  {
     "id": "5333",
     "slug": "mariah-carey-all-i-want-for-christmas-is-you-turkce-ceviri",
     "title": "Mariah Carey All I Want for Christmas Is You Türkçe Çeviri",

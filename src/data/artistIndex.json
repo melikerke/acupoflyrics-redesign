@@ -1,5 +1,11 @@
 [
   {
+    "name": "JISOO",
+    "slug": "jisoo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab",
+    "count": 7
+  },
+  {
     "name": "Mariah Carey",
     "slug": "mariah-carey",
     "image": "https://i.scdn.co/image/ab6761610000e5eb21453384a10b1f8e18877f63",
@@ -280,12 +286,6 @@
     "slug": "adela",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2c27abd675ecdf05325e9615",
     "count": 2
-  },
-  {
-    "name": "JISOO",
-    "slug": "jisoo",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab",
-    "count": 6
   },
   {
     "name": "Monsta X",

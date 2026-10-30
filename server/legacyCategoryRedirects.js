@@ -12,6 +12,7 @@ export const legacyCategoryRedirects = {
   "a2o-lite": "/artist/a2o-lite",
   "aboutzu": "/album/tzuyu-aboutzu",
   "absolutely": "/artist/absolutely",
+  "addicted": "/album/jisoo-addicted",
   "ade-la": "/artist/adela",
   "adele": "/artist/adele",
   "aespa": "/artist/aespa",

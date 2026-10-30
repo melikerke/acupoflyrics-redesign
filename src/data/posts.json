@@ -1,5 +1,359 @@
 [
   {
+    "id": "5334",
+    "title": "JISOO ADDICTED Türkçe Çeviri",
+    "song": "ADDICTED",
+    "slug": "jisoo-addicted-turkce-ceviri",
+    "date": "2026-10-30T07:00:00.000Z",
+    "artist": "JISOO",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "JISOO",
+      "ADDICTED"
+    ],
+    "category_slugs": [
+      "jisoo",
+      "addicted"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e",
+    "reading_time": 4,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Giriş",
+        "lines": [
+          "Now you got me so addicted, got me so addicted, got me so addicted",
+          "Got me so addicted, got me so addicted, got me so addicted",
+          "Got me so addicted, got me so addicted, got me so addicted"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Giriş",
+        "lines": [
+          "Şimdi öyle bir bağımlı ettin ki beni, öyle bağımlı ettin ki, öyle bağımlı ettin ki!",
+          "Sana fena hâlde bağımlıyım, bağımlıyım, bağımlıyım!",
+          "Sana bağımlıyım, bağımlıyım, bağımlıyım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "1. Verse",
+        "lines": [
+          "Every kiss a hit, every touch a trip",
+          "Here we go again, here we go again (Yeah, yeah)",
+          "Ooh, you're so hot, I'm melting in my shoes (Yeah, yeah, yeah)",
+          "You're my ecstasy, perfect fantasy (Yeah, yeah)",
+          "Something like a dream, only in a dream (Yeah, yeah)",
+          "Ooh, how you got me breaking all the rules (Yeah, yeah, yeah, yeah)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "1. Verse",
+        "lines": [
+          "Her öpücüğün bir doz, her dokunuşun ayrı bir kafa!",
+          "İşte yine başladık, yine aynı şey! (Yeah, yeah!)",
+          "Ooh, öyle ateşlisin ki ayakta eriyip bitiyorum! (Yeah, yeah, yeah!)",
+          "Sen benim ekstazimsin, kusursuz fantezimsin! (Yeah, yeah!)",
+          "Rüya gibi bir şeysin, ancak rüyalarda olacak türden! (Yeah, yeah!)",
+          "Ooh, bana bütün kurallarımı nasıl çiğnetiyorsun böyle? (Yeah, yeah, yeah, yeah!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat",
+        "lines": [
+          "Ooh, baby, I'm caught in your wave",
+          "I go crazy when you're calling my name",
+          "It's true, it's true",
+          "I don't understand it, but I'm giving into you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat",
+        "lines": [
+          "Ooh, bebeğim, dalgana kapılıp gidiyorum!",
+          "Adımı her söylediğinde aklımı kaçırıyorum!",
+          "Gerçek bu, hem de düpedüz gerçek!",
+          "Nasıl olduğunu anlamıyorum ama kendimi sana teslim ediyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Now you got me so addicted, got me so addicted, got me so addicted to ya",
+          "Got me so addicted, got me so addicted, got me so addicted",
+          "I love the rush, so dangerous",
+          "I'm hooked, I'm stuck",
+          "Oh, baby, I don't get it, how ya",
+          "Got me so addicted, got me so addicted, got me so addicted to ya",
+          "Got me so addicted, got me so addicted, got me so addicted",
+          "It's all I want, can't get enough",
+          "I'm hooked, I'm stuck on you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "Şimdi öyle bir bağımlı ettin ki beni, bağımlı ettin ki, sana fena hâlde bağımlıyım!",
+          "Bağımlı ettin beni, bağımlı ettin, bağımlı ettin!",
+          "O adrenalin patlamasına bayılıyorum, ne kadar da tehlikeli!",
+          "Bir kere kapıldım, artık kurtulamıyorum!",
+          "Ah bebeğim, aklım almıyor, nasıl oluyor da",
+          "Beni kendine böyle bağımlı ediyorsun, bağımlı ediyorsun, sana bağımlıyım!",
+          "Bağımlı ettin beni, bağımlı ettin, bağımlı ettin!",
+          "Tek istediğim bu, bir türlü doyamıyorum!",
+          "Fena hâlde kapıldım, sana takılıp kaldım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "2. Verse",
+        "lines": [
+          "Hate the goodbyes, crave a good time",
+          "Put, put your body right on top of mine",
+          "Look in your eyes, I'm hypnotized",
+          "Put, put the money on you, you and I",
+          "Smooth midnight, sweet paradise",
+          "Don't wanna let you go",
+          "Taking a ride all through the night",
+          "Starting to lose control"
+        ]
+      },
+      {
+        "original": false,
+        "label": "2. Verse",
+        "lines": [
+          "Vedalardan nefret ediyorum, güzel anlara doyamıyorum!",
+          "Gel, bedenini benimkinin tam üstüne bırak!",
+          "Gözlerine bakınca hipnotize oluyorum!",
+          "Bütün paramı sana basarım, seninle bana oynarım!",
+          "Gece yarısı her şey usul usul akıyor, burası tatlı bir cennet!",
+          "Gitmene izin vermek istemiyorum!",
+          "Bütün gece yollardayız, sabaha kadar sürüp gidiyor bu yolculuk!",
+          "Kontrolümü kaybetmeye başlıyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat",
+        "lines": [
+          "Ooh, baby, I'm caught in your wave",
+          "Caught in your wave (Your wave)",
+          "I go crazy when you're calling my name (Calling my name)",
+          "Calling my name It's true, it's true",
+          "I don't understand it, but I'm giving into you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat",
+        "lines": [
+          "Ooh, bebeğim, dalgana kapılıp gidiyorum!",
+          "Dalgana kapıldım! (Senin dalgana!)",
+          "Adımı her söylediğinde aklımı kaçırıyorum! (Adımı söylediğinde!)",
+          "Adımı söylediğinde... Gerçek bu, hem de düpedüz gerçek!",
+          "Nasıl olduğunu anlamıyorum ama kendimi sana teslim ediyorum!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Now you got me so addicted, got me so addicted, got me so addicted to ya",
+          "Got me so addicted, got me so addicted, got me so addicted (Ah)",
+          "I love the rush, so dangerous (Dangerous)",
+          "I'm hooked, I'm stuck",
+          "Oh, baby, I don't get it, how ya",
+          "Got me so addicted, got me so addicted, got me so addicted to ya (Ooh)",
+          "Got me so addicted, got me so addicted, got me so addicted",
+          "It's all I want, can't get enough (Oh)",
+          "I'm hooked, I'm stuck on you"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "Şimdi öyle bir bağımlı ettin ki beni, bağımlı ettin ki, sana fena hâlde bağımlıyım!",
+          "Bağımlı ettin beni, bağımlı ettin, bağımlı ettin! (Ah!)",
+          "O adrenalin patlamasına bayılıyorum, ne kadar da tehlikeli! (Tehlikeli!)",
+          "Bir kere kapıldım, artık kurtulamıyorum!",
+          "Ah bebeğim, aklım almıyor, nasıl oluyor da",
+          "Beni kendine böyle bağımlı ediyorsun, bağımlı ediyorsun, sana bağımlıyım! (Ooh!)",
+          "Bağımlı ettin beni, bağımlı ettin, bağımlı ettin!",
+          "Tek istediğim bu, bir türlü doyamıyorum! (Oh!)",
+          "Fena hâlde kapıldım, sana takılıp kaldım!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış",
+        "lines": [
+          "Na-na-na, na-na-na-na",
+          "Now I'm addicted to ya",
+          "Na-na-na, na-na-na-na",
+          "Now I'm addicted to ya",
+          "Na-na-na, na-na-na-na",
+          "Now I'm addicted to ya",
+          "Na-na-na, na-na-na-na",
+          "Now I'm addicted to ya"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Çıkış",
+        "lines": [
+          "Na-na-na, na-na-na-na!",
+          "Artık sana bağımlıyım!",
+          "Na-na-na, na-na-na-na!",
+          "Artık sana bağımlıyım!",
+          "Na-na-na, na-na-na-na!",
+          "Artık sana bağımlıyım!",
+          "Na-na-na, na-na-na-na!",
+          "Artık sana bağımlıyım!"
+        ]
+      }
+    ],
+    "excerpt": "JISOO — ADDICTED sözleri ve Türkçe çevirisi. Bağımlılık metaforları, çift anlamlar ve fiziksel çekimi açıklayan 12 çeviri notuyla oku.",
+    "annotations": {
+      "öyle bir bağımlı ettin ki beni": "1. “Addicted” — Şarkının asıl anlamı\n\nAddicted, bağımlı olmak anlamına geliyor. İngilizcede hem maddelere veya alışkanlıklara yönelik bağımlılık hem de bir insana, duyguya veya deneyime aşırı derecede kapılmak için kullanılabiliyor.\n\nBurada anlatıcı, karşısındaki kişiye duyduğu çekimi kontrol edemediği bir bağımlılığa benzetiyor. Yalnızca “Sana âşığım” demiyor; “Sana o kadar kapıldım ki artık kendimi durduramıyorum” hissini veriyor. Şarkının bütününde bu duygu, uyuşturucu etkisi ve sarhoşlukla ilgili sözcükler üzerinden güçlendiriliyor.\n\nBu nedenle nakaratta “Sana çok tutuldum” gibi daha romantik bir ifade yerine “Sana fena hâlde bağımlıyım” tercih edildi. Resmî yayın açıklaması da şarkıyı, insanın kendisini sürekli birine çekilirken bulması ve farkında olmadan bu duyguya derinden kapılması üzerinden anlatıyor.",
+      "Her öpücüğün bir doz": "2. “Every kiss a hit, every touch a trip” — Her öpücük bir doz, her dokunuş ayrı bir kafa\n\nİki kelime özellikle önemli: hit ve trip. Hit, normalde darbe, vuruş veya başarılı bir şarkı anlamına gelebiliyor. Uyuşturucu argosunda ise bir doz veya maddenin alınmasıyla ilişkili bir kullanım taşıyor. Trip, yolculuk anlamının yanı sıra özellikle halüsinojen maddelerin etkisi altında yaşanan deneyimi anlatabiliyor.\n\nBu iki kelimenin art arda kullanılması, öpücükleri ve dokunuşları sarhoş edici bir deneyime benzetiyor. “Her öpücüğün bir doz, her dokunuşun ayrı bir kafa!” karşılığında “ayrı bir kafa” özellikle korundu; Türkçede de yoğun biçimde etkilenmeyi ve farklı bir ruh hâline girmeyi çağrıştırıyor. “Her öpücüğün beni etkiliyor” gibi daha kibar bir çeviri, uyuşturucu göndermesini kaybettirirdi.",
+      "öyle ateşlisin ki ayakta eriyip bitiyorum": "3. “You're so hot, I'm melting in my shoes”\n\nHot, hem sıcak hem de fiziksel açıdan çok çekici veya seksi anlamına geliyor. Melting ise erimek demek. Anlatıcı, karşısındaki kişiyi o kadar çekici buluyor ki sanki sıcaklıktan eriyor.\n\nBurada alışılmış melt my heart gibi bir kalp metaforu yerine doğrudan melting in my shoes deniyor. İfade, bulunduğu yerde ayakta dururken bile eriyip gidecek kadar etkilenmeyi çağrıştırıyor.\n\n“Öyle ateşlisin ki ayakta eriyip bitiyorum!” çevirisinde shoes sözcüğü “ayakkabılarımın içinde” diye karşılanmadı; Türkçede yapay duran bu tamlama yerine ayakta erime görüntüsü korundu.",
+      "Sen benim ekstazimsin": "4. “You're my ecstasy, perfect fantasy”\n\nŞarkının en belirgin uyuşturucu çağrışımlarından biri. Ecstasy, hem yoğun mutluluk ve kendinden geçme hâlinin hem de bir uyuşturucunun adı. Şarkının hit, trip ve hooked gibi sözcükleriyle birlikte düşünüldüğünde çift anlamlı bir okuma güçleniyor; bunun yazarların açıkça doğruladığı bir niyet olduğu söylenmiyor.\n\nAnlatıcı karşısındaki kişiyi hem kendisini mutluluktan kendinden geçiren biri hem de vazgeçemediği bir etki gibi anlatıyor. “Sen benim ekstazimsin, kusursuz fantezimsin!” karşılığı bu çağrışımı koruyor. Ecstasy'yi yalnızca “mutluluğum” diye çevirmek, şarkının diğer uyuşturucu metaforlarıyla bağını zayıflatırdı.\n\nFantasy de yalnızca hayal değil, romantik veya cinsel fantezi çağrışımı taşıyabiliyor. Burada gerçek uyuşturucu kullanımından söz edildiğine dair bir kanıt yok; sözler yoğun çekimi anlatan mecazlar olarak okunuyor.",
+      "Rüya gibi bir şeysin": "5. “Something like a dream, only in a dream”\n\nBu satırdaki tekrar önemli. İlk bölüm karşısındaki kişinin rüya gibi olduğunu söylüyor; ikinci bölüm ise böyle birinin ancak rüyalarda bulunabileceğini ima ediyor. Yalnızca “Sen benim hayalimsin” demek yerine, onu gerçek olamayacak kadar kusursuz bulma hissini taşıyor.\n\n“Rüya gibi bir şeysin, ancak rüyalarda olacak türden!” çevirisinde iki ayrı düşünce tek bir “Sen bir rüyasın” ifadesine indirilmedi. Orijinaldeki abartılı hayranlık ve şaşkınlık korundu.",
+      "bana bütün kurallarımı nasıl çiğnetiyorsun": "6. “How you got me breaking all the rules”\n\nBreak the rules, kuralları çiğnemek demek. Ancak şarkı bu kuralların ne olduğunu açıklamıyor. Toplumsal beklentiler, kişinin kendi koyduğu sınırlar veya ilişkilerde uymaya çalıştığı prensipler olabilir.\n\nAnlatıcı, karşısındaki kişiye duyduğu çekim nedeniyle normalde yapmayacağı şeyleri yapmaya başladığını söylüyor. “Bana bütün kurallarımı nasıl çiğnetiyorsun böyle?” karşılığındaki “kurallarımı”, kaynakta açıkça bulunmayan sahipliği ekleyen bir çeviri tercihi; kendi sınırlarını kaybetme fikri, kontrol kaybı temasıyla uyumlu. Bunun mutlaka yasak bir ilişki veya aldatma anlamına geldiği söylenemez.",
+      "dalgana kapılıp gidiyorum": "7. “I'm caught in your wave”\n\nWave, dalga demek. Bir duygu dalgasına kapılmak ve yoğun bir deneyimin etkisinde kalmak için de kullanılabiliyor. Anlatıcı burada karşısındaki kişinin yarattığı duygusal akıntıya kapılmış gibi.\n\n“Dalgana kapılıp gidiyorum!” ifadesi, kişinin kendi yönünü belirleyememesi ve sürüklenmesi hissini koruyor. Dalga imgesini çekim ve kontrol kaybıyla ilişkilendirmek sözlere dayalı bir yorum; belirli bir klip sahnesine gönderme olarak yazıldığı iddia edilmiyor.",
+      "kendimi sana teslim ediyorum": "8. “I don't understand it, but I'm giving into you”\n\nGive in, direnmekten vazgeçmek, boyun eğmek veya bir şeye teslim olmak demek. Burada anlatıcının ne yaşadığını anlamadığını açıkça söylemesi önemli: Karşısındaki kişiye duyduğu çekimi mantıklı biçimde açıklayamıyor ama ona direnmek de istemiyor.\n\n“Nasıl olduğunu anlamıyorum ama kendimi sana teslim ediyorum!” karşılığı bu çelişkiyi koruyor. Teslimiyet fiziksel veya duygusal olarak okunabilir. Öpücükler, dokunuşlar ve yoğun çekim bağlamında flörtöz bir anlamı var; ifadeyi yalnızca cinsel teslimiyet olarak yorumlamak ise gereksiz derecede dar olurdu.",
+      "O adrenalin patlamasına bayılıyorum": "9. “I love the rush, so dangerous”\n\nRush, ani bir heyecan patlaması, yoğun coşku veya adrenalin hissi anlamına gelebiliyor. Uyuşturucu bağlamında maddenin yarattığı ani ve güçlü etkiyi de anlatabiliyor.\n\nAnlatıcı bu yoğunluğu seviyor ama aynı zamanda tehlikeli olduğunun farkında. “O adrenalin patlamasına bayılıyorum, ne kadar da tehlikeli!” karşılığı, sözcüğün heyecan boyutunu öne çıkarıyor; uyuşturucu çağrışımı şarkının diğer imgeleriyle birlikte okunuyor.\n\nTehlike onu uzaklaştırmıyor, çekimin bir parçası hâline geliyor. Yalnızca “Çok heyecanlıyım” demek, bağımlılık ve kontrol kaybı hissini zayıflatırdı.",
+      "Bir kere kapıldım, artık kurtulamıyorum": "10. “I'm hooked, I'm stuck”\n\nHooked, bir şeye fena hâlde bağlanmak veya bağımlı olmak anlamında. Hook, kanca demek; sözcük bir şeye takılıp kendini kurtaramama görüntüsünü de çağrıştırıyor. Stuck ise sıkışmış, takılıp kalmış veya bulunduğu durumdan çıkamayan anlamına geliyor.\n\n“Bir kere kapıldım, artık kurtulamıyorum!” karşılığı, iki ifadeyi bir duygusal ilerleyiş gibi aktarıyor: Önce kapılma, ardından çıkamama. Bu sıralama bir çeviri yorumu; özgün satır iki hâli yan yana veriyor.\n\nNakaratın sonundaki stuck on you doğrudan karşısındaki kişiye takılıp kalma anlamını güçlendiriyor. Bu yüzden son satır “Fena hâlde kapıldım, sana takılıp kaldım!” diye çevrildi.",
+      "Vedalardan nefret ediyorum": "11. “Hate the goodbyes, crave a good time”\n\nCrave, bir şeyi çok güçlü biçimde istemek veya arzulamak demek. Yiyeceklere, içeceklere veya bağımlılık yaratan şeylere duyulan yoğun istek için de kullanılabiliyor; bu nedenle şarkının bağımlılık temasına uyuyor.\n\nAnlatıcı uzak kalmak istemediği için vedalardan nefret ediyor, birlikte geçireceği güzel anları arzuluyor. “Vedalardan nefret ediyorum, güzel anlara doyamıyorum!” karşılığında “doyamamak”, arzulamanın birebir karşılığı yerine sürekli daha fazlasını istemeyi öne çıkaran bir yerelleştirme.",
+      "bedenini benimkinin tam üstüne bırak": "12. “Put your body right on top of mine”\n\nBu satırda fiziksel yakınlık açık. Anlatıcı, karşısındaki kişinin bedenini kendi bedeninin üzerine koymasını istiyor; öpücükler, dokunuşlar ve fanteziyle kurulan bağlam cinsel çağrışımı güçlendiriyor.\n\n“Gel, bedenini benimkinin tam üstüne bırak!” karşılığı, bedenlerin üst üste gelmesi görüntüsünü koruyor. “Bana sarıl” demek bu fiziksel ayrıntıyı kaybettirirdi. Belirli bir cinsel eylem eklenmiyor; sözün açıkça söylediği bedenlerin konumu, daha geniş yorumu ise yakınlık ve çekim."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "0SqDNsDiJyvrbXGsIvt0hN",
+        "name": "ADDICTED",
+        "url": "https://open.spotify.com/track/0SqDNsDiJyvrbXGsIvt0hN",
+        "isrc": "USWB12504993",
+        "durationMs": 179062,
+        "duration": "2:59",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6UZ0ba50XreR4TM8u322gs",
+        "name": "JISOO",
+        "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb384ec634d894802cd19bceb",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6UZ0ba50XreR4TM8u322gs",
+          "name": "JISOO",
+          "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs"
+        }
+      ],
+      "album": {
+        "id": "0vUguBVUu74NEtzLdXh4X5",
+        "name": "ADDICTED",
+        "url": "https://open.spotify.com/album/0vUguBVUu74NEtzLdXh4X5",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e",
+        "artists": [
+          {
+            "id": "6UZ0ba50XreR4TM8u322gs",
+            "name": "JISOO",
+            "url": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs"
+          }
+        ],
+        "releaseDate": "2026-10-29",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "Warner Records, © 2026 Warner Records Inc., under exclusive license from Blissoo Limited",
+            "type": "C"
+          },
+          {
+            "text": "Warner Records, ℗ 2026 Warner Records Inc., under exclusive license from Blissoo Limited",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "0SqDNsDiJyvrbXGsIvt0hN",
+            "name": "ADDICTED",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 179062,
+            "duration": "2:59",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0SqDNsDiJyvrbXGsIvt0hN",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-30T07:02:24.932Z",
+      "trackUrl": "https://open.spotify.com/track/0SqDNsDiJyvrbXGsIvt0hN",
+      "albumUrl": "https://open.spotify.com/album/0vUguBVUu74NEtzLdXh4X5",
+      "artistUrl": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+      "albumName": "ADDICTED",
+      "albumType": "Single",
+      "releaseDate": "2026-10-29",
+      "duration": "2:59",
+      "isrc": "USWB12504993",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273729eea5a028d73d2596e793e"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Pksr9T8m_aA",
+    "source": "user-provided",
+    "genres": [
+      "k-pop",
+      "dance-pop"
+    ],
+    "moods": [
+      "Love",
+      "Night"
+    ],
+    "editorialSources": [
+      {
+        "label": "JISOO — ADDICTED · resmî site",
+        "url": "https://www.jisoo.io/"
+      },
+      {
+        "label": "JISOO — ADDICTED · yayın bilgileri ve resmî krediler",
+        "url": "https://www.melon.com/album/detail.htm?albumId=15100921"
+      },
+      {
+        "label": "BLISSOO’nun ön yayın duyurusu · Yonhap",
+        "url": "https://en.yna.co.kr/view/AEN20261027001900315"
+      },
+      {
+        "label": "JISOO — ADDICTED · resmî video",
+        "url": "https://www.youtube.com/watch?v=Pksr9T8m_aA"
+      }
+    ]
+  },
+  {
     "id": "5333",
     "title": "Mariah Carey All I Want for Christmas Is You Türkçe Çeviri",
     "song": "All I Want for Christmas Is You",
