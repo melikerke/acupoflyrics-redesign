@@ -22,6 +22,8 @@ Bu belge, yeni çeviriler ve mevcut içeriklerin redaksiyonu için bağlayıcı 
 
 ## 4. Akış ve tam metin
 
+- Kullanıcı ayrıca istemedikçe yeni şarkı sayfasına giriş, özet, genel yorum veya yeni SSS metni eklenmez. Gönderilen paketteki sohbet girişleri çeviri metni sayılmaz; şarkı sözleri ve Çeviri Notları esas alınır.
+
 - Ana metin doğal, kısa ve mümkün olduğunca melodinin üzerine okunabilir kalır.
 - Tekrarlar, ad-lib'ler, yankı vokalleri ve ünlemler atlanmaz.
 - Açıklama, sözlük karşılığı veya İngilizce kelime ana söz satırına parantez içinde doldurulmaz.

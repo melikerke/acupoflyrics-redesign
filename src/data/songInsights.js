@@ -4,9 +4,7 @@ import { submittedSongInsightsOct27 } from './submittedSongInsightsOct27.js';
 export const songInsights = {
   'jisoo-addicted-turkce-ceviri': {
   "updatedAt": "2026-10-30",
-  "summaryPlacement": "intro",
   "faqSchema": true,
-  "summary": "JISOO — ADDICTED, birine fena hâlde kapılıp bunun tehlikeli olduğunu bilse de kendini durduramama hissini taşıyor. Öpücükler birer doza, dokunuşlar insanı başka bir kafaya götüren deneyimlere dönüşüyor. Fiziksel yakınlık, yoğun arzu ve kontrol kaybı iç içe geçerken anlatıcı ne olduğunu tam açıklayamasa da bu çekime teslim oluyor.",
   "faq": [
     {
       "question": "JISOO — ADDICTED ne demek, şarkı ne anlatıyor?",

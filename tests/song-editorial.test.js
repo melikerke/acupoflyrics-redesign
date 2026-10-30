@@ -124,7 +124,7 @@ test('all insight sections have three FAQs, sources and identical initial HTML c
   assert.equal(Object.keys(songInsights).length, 39);
   for (const [slug, insight] of Object.entries(songInsights)) {
     assert.equal(insight.faq.length, 3, slug);
-    assert.ok(insight.summary.length > 150);
+    if (insight.summary) assert.ok(insight.summary.length > 150);
     assert.ok(insight.sources.length);
     for (const source of insight.sources) assert.equal(new URL(source.url).protocol, 'https:');
     const html = await readFile(new URL(`../dist/${slug}/index.html`, import.meta.url), 'utf8');

@@ -6,7 +6,7 @@ import { meaningHeadings } from '../lib/songInsightPresentation.js';
 
 export function SongIntro({ slug }) {
   const insight = songInsights[slug];
-  return insight?.summaryPlacement === 'intro' ? <p className="song-insight-intro">{insight.summary}</p> : null;
+  return insight?.summary && insight.summaryPlacement === 'intro' ? <p className="song-insight-intro">{insight.summary}</p> : null;
 }
 
 export default function SongInsight({ slug }) {
@@ -16,7 +16,7 @@ export default function SongInsight({ slug }) {
   const meaningHeading = meaningHeadings[slug];
   const questions = meaningHeading ? insight.faq.slice(1) : insight.faq;
   return <section className="song-insight" aria-label="Şarkının anlamı ve sık sorulan sorular">
-    {insight.summaryPlacement !== 'intro' && <>
+    {insight.summary && insight.summaryPlacement !== 'intro' && <>
     <span className="song-insight-kicker">Şarkının arka planı</span>
     <h2 className="font-serif">Şarkı ne anlatıyor?</h2>
     <p className="song-insight-summary">{insight.summary}</p>
