@@ -1,5 +1,61 @@
 [
   {
+    "id": "5335",
+    "slug": "gracie-abrams-here-you-come-there-you-go-turkce-ceviri",
+    "title": "Gracie Abrams Here You Come, There You Go Türkçe Çeviri",
+    "song": "Here You Come, There You Go",
+    "artist": "Gracie Abrams",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97",
+    "date": "2026-10-30T07:12:05.306Z",
+    "reading_time": 2,
+    "excerpt": "Gracie Abrams — Here You Come, There You Go sözleri ve Türkçe çevirisi. Orijinal sözleri, tam çeviriyi ve 20 çeviri notunu oku.",
+    "categories": [
+      "Gracie Abrams",
+      "Here You Come, There You Go"
+    ],
+    "category_slugs": [
+      "gracie-abrams",
+      "here-you-come-there-you-go"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "indie-pop",
+      "pop-rock"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2zUjgk6YpHn78MCzkj4R5B",
+      "albumUrl": "https://open.spotify.com/album/2Qj0IRHX4YllH22PNlmaBQ",
+      "artistUrl": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5",
+      "albumName": "Here You Come, There You Go",
+      "releaseDate": "2026-10-29",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97",
+      "duration": "2:50",
+      "albumType": "Single",
+      "label": null,
+      "trackNumber": 1,
+      "totalTracks": 1,
+      "artistName": "Gracie Abrams",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebe1800836d95b63c49e60ea3b",
+      "artistGenres": [],
+      "albumArtist": "Gracie Abrams"
+    },
+    "moods": [
+      "Sad"
+    ],
+    "firstPair": {
+      "en": "Hell froze in my bedroom",
+      "tr": "Yatak odamda cehennem bile buz kesti."
+    },
+    "heroPair": {
+      "en": "Undo me like magic, here you come, there you go",
+      "tr": "Sonra bir sihir yapar gibi bütün düğümlerimi çözüveriyorsun. Bir geliyorsun, bir gidiyorsun."
+    }
+  },
+  {
     "id": "5334",
     "slug": "jisoo-addicted-turkce-ceviri",
     "title": "JISOO ADDICTED Türkçe Çeviri",

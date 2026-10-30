@@ -1,5 +1,11 @@
 [
   {
+    "name": "Gracie Abrams",
+    "slug": "gracie-abrams",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e",
+    "count": 3
+  },
+  {
     "name": "JISOO",
     "slug": "jisoo",
     "image": "https://i.scdn.co/image/ab6761610000e5eb430e142e7655af2c9be6aeab",
@@ -1377,12 +1383,6 @@
     "name": "Future",
     "slug": "future",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583",
-    "count": 2
-  },
-  {
-    "name": "Gracie Abrams",
-    "slug": "gracie-abrams",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e",
     "count": 2
   },
   {

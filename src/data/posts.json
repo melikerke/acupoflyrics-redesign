@@ -1,5 +1,343 @@
 [
   {
+    "id": "5335",
+    "title": "Gracie Abrams Here You Come, There You Go Türkçe Çeviri",
+    "song": "Here You Come, There You Go",
+    "slug": "gracie-abrams-here-you-come-there-you-go-turkce-ceviri",
+    "date": "2026-10-30T07:12:05.306Z",
+    "artist": "Gracie Abrams",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Gracie Abrams",
+      "Here You Come, There You Go"
+    ],
+    "category_slugs": [
+      "gracie-abrams",
+      "here-you-come-there-you-go"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97",
+    "reading_time": 2,
+    "blocks": [
+      {
+        "original": true,
+        "label": "1. Verse",
+        "lines": [
+          "Hell froze in my bedroom",
+          "A phenomenon I came to",
+          "Half-believing, I never met you before",
+          "That's when you decide you want more"
+        ]
+      },
+      {
+        "original": false,
+        "label": "1. Verse",
+        "lines": [
+          "Yatak odamda cehennem bile buz kesti.",
+          "Gözlerimin önünde yaşanan akılalmaz bir şeye tanık oldum.",
+          "Sanki seni hayatımda hiç tanımamışım gibi, buna yarı yarıya inanmışken...",
+          "Tam da o zaman benden daha fazlasını istemeye karar verdin."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Now you're wanting back in",
+          "Your big dramatic feelings",
+          "Funny how it happens when I'm good, when I'm so",
+          "'Cause I get reattached, I'm a double-knotted rope",
+          "Undo me like magic, here you come, there you go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "Şimdi yeniden hayatıma girmek istiyorsun,",
+          "O kocaman, abartılı duygularınla!",
+          "Ne tuhaf, değil mi? Hep ben iyiyken oluyor bu, tam da kendimi...",
+          "Çünkü yeniden bağlanıyorum sana; çift düğüm atılmış bir ip gibiyim.",
+          "Sonra bir sihir yapar gibi bütün düğümlerimi çözüveriyorsun. Bir geliyorsun, bir gidiyorsun."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat Sonrası",
+        "lines": [
+          "Here you come, there you go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat Sonrası",
+        "lines": [
+          "Bir geliyorsun, bir gidiyorsun..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "2. Verse",
+        "lines": [
+          "Go, oh, you spit it out, say what you're after",
+          "Pull doors in my life until it shatters",
+          "Oh, so my well-being's not a factor",
+          "No, it never stopped me loving you before"
+        ]
+      },
+      {
+        "original": false,
+        "label": "2. Verse",
+        "lines": [
+          "Hadi, çıkar ağzındaki baklayı! Söyle, neyin peşindesin?",
+          "Hayatıma açılan kapıları öyle bir çekiştiriyorsun ki her şey paramparça oluyor.",
+          "Demek benim iyi olmamın hiçbir önemi yok, öyle mi?",
+          "Gerçi bu, daha önce seni sevmeme de hiç engel olmamıştı."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Now you're wanting back in",
+          "Your big dramatic feelings",
+          "Funny how it happens when I'm good, when I'm so",
+          "'Cause I get reattached, I'm a double-knotted rope",
+          "Undo me like magic, here you come, there you go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "Şimdi yeniden hayatıma girmek istiyorsun,",
+          "O kocaman, abartılı duygularınla!",
+          "Ne tuhaf, değil mi? Hep ben iyiyken oluyor bu, tam da kendimi...",
+          "Çünkü yeniden bağlanıyorum sana; çift düğüm atılmış bir ip gibiyim.",
+          "Sonra bir sihir yapar gibi bütün düğümlerimi çözüveriyorsun. Bir geliyorsun, bir gidiyorsun."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü",
+        "lines": [
+          "Here you come, there you go",
+          "Call me your miracle",
+          "Kill and die and make it grow",
+          "Ah, ah, oh",
+          "Here you come, right on cue",
+          "Break my heart and make it new",
+          "What the hell can I do?",
+          "Ah, ah, ah"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Köprü",
+        "lines": [
+          "Bir geliyorsun, bir gidiyorsun.",
+          "Bana mucizen diyorsun.",
+          "Öldür, öl, sonra yeniden yeşert her şeyi...",
+          "Ah, ah, oh!",
+          "Yine çıkageliyorsun, tam da beklendiği anda.",
+          "Kalbimi kırıp sonra yeniden onarıyorsun.",
+          "Ben ne halt edebilirim ki?",
+          "Ah, ah, ah!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat",
+        "lines": [
+          "Now you're wanting back in",
+          "Your big dramatic feelings",
+          "Funny how it happens when I'm good, when I'm so",
+          "'Cause I get reattached, I'm a double-knotted rope",
+          "Undo me like magic, here you come, there you go (Oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat",
+        "lines": [
+          "Şimdi yeniden hayatıma girmek istiyorsun,",
+          "O kocaman, abartılı duygularınla!",
+          "Ne tuhaf, değil mi? Hep ben iyiyken oluyor bu, tam da kendimi...",
+          "Çünkü yeniden bağlanıyorum sana; çift düğüm atılmış bir ip gibiyim.",
+          "Sonra bir sihir yapar gibi bütün düğümlerimi çözüveriyorsun. Bir geliyorsun, bir gidiyorsun. (Oh!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat Sonrası",
+        "lines": [
+          "Here you come, there you go",
+          "Here you come, there you go (Oh)",
+          "Here you come, there you go"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat Sonrası",
+        "lines": [
+          "Bir geliyorsun, bir gidiyorsun.",
+          "Bir geliyorsun, bir gidiyorsun. (Oh!)",
+          "Bir geliyorsun, bir gidiyorsun..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış",
+        "lines": [
+          "Perfect, we got something"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Çıkış",
+        "lines": [
+          "Mükemmel, bir şey yakaladık!"
+        ]
+      }
+    ],
+    "excerpt": "Gracie Abrams — Here You Come, There You Go sözleri ve Türkçe çevirisi. Orijinal sözleri, tam çeviriyi ve 20 çeviri notunu oku.",
+    "annotations": {
+      "Yatak odamda cehennem bile buz kesti": "1. “Hell froze in my bedroom” — Yatak odamda cehennem bile buz kesti\n\nBu ifade İngilizcedeki hell freezes over deyimini çağrıştırıyor. Normalde when hell freezes over, gerçekleşmesi neredeyse imkânsız bir olay için kullanılıyor. Çünkü cehennem ateşle ilişkilendirilirken burada donmasından söz ediliyor.\n\nAncak Gracie bu deyimi kendi yatak odasına taşıyor. Bu, özel hayatında beklenmedik, neredeyse imkânsız görünen bir şeyin gerçekleştiğini düşündürüyor.\n\n“Yatak odamda cehennem bile buz kesti.”\n\nBu çeviriyi özellikle korudum çünkü “Odam buz gibiydi” demek deyimin bütün gücünü kaybettirirdi. Yatak odası da önemli: Dış dünyada yaşanan bir felaketten değil, anlatıcının en kişisel alanındaki duygusal sarsıntıdan söz ediliyor.",
+      "Gözlerimin önünde yaşanan akılalmaz": "2. “A phenomenon I came to” — Akılalmaz bir şeye tanık olmak\n\nPhenomenon, olağanüstü, dikkat çekici veya açıklaması zor bir olay anlamına geliyor. Ancak burada asıl önemli ifade came to. İngilizcede come to kendine gelmek, bilincini yeniden kazanmak veya bir şeyin farkına varmak anlamlarında kullanılabiliyor.\n\nDolayısıyla satırın yalnızca “Bir olaya tanık oldum” anlamına geldiği kesin değil. Önceki cehennemin donması imgesiyle birlikte düşününce, anlatıcının sanki bir duygusal şoktan sonra kendine geldiği düşünülebilir.\n\nDaha şiirsel bir alternatif: “Kendime geldiğimde karşılaştığım şey akıl almazdı.” Bu, came to ifadesindeki kendine gelme anlamını daha iyi koruyor; ana çevirideki tanık olma ifadesi ise yoruma dayalı bir tercih.",
+      "Sanki seni hayatımda hiç tanımamışım": "3. “Half-believing, I never met you before”\n\nAnlatıcı aslında tanıdığı birini hiç tanımamış gibi hissettiğini söylüyor. Half-believing, bir şeye yarı yarıya inanmak veya kendisini inandırmaya çalışmak anlamında okunabiliyor.\n\nBurada iki ihtimal var. İlki, karşısındaki kişinin değişmesi nedeniyle artık onu tanıyamaması. İkincisi, ayrılığın ardından o kişiyi hiç tanımamış gibi davranarak geçmişini geride bırakmaya çalışması.\n\n“Sanki seni hayatımda hiç tanımamışım gibi, buna yarı yarıya inanmışken...”\n\nBu ifade bilerek biraz kırık bırakıldı. Çünkü sözlerde de cümle tamamlanmadan sonraki düşünceye geçiliyor. Bu kırıklık, duygusal karışıklığı yansıtan bir tercih olarak okunabilir.",
+      "Tam da o zaman benden daha fazlasını": "4. “That's when you decide you want more”\n\nBu satır şarkının temel döngüsünü başlatıyor. Anlatıcı karşısındaki kişiden uzaklaşmaya, onu unutmaya veya hayatına devam etmeye başladığında o kişi yeniden ortaya çıkıyor.\n\nWant more, daha fazlasını istemek anlamına geliyor. Ancak bunun daha fazla sevgi, ilgi, yakınlık veya ilişki anlamına gelip gelmediği açık değil. Bu nedenle “Tam da o zaman benden daha fazlasını istemeye karar verdin” ifadesini tercih ettim.\n\nBuradaki sitem şu şekilde okunabilir: Karşısındaki kişi, anlatıcı hazır olduğunda değil, uzaklaşmaya başladığında geri geliyor.",
+      "Şimdi yeniden hayatıma girmek istiyorsun": "5. “Now you're wanting back in”\n\nWant back in, yeniden bir ilişkinin, grubun veya hayatın parçası olmak istemek anlamına geliyor. Burada fiziksel olarak bir yere girmekten çok, duygusal yakınlığa yeniden erişmek öne çıkıyor.\n\n“Şimdi yeniden hayatıma girmek istiyorsun.”\n\nBu ifade karşısındaki kişinin daha önce dışarıda kaldığını düşündürüyor. Anlatıcının onunla arasına bir sınır koymuş olması mümkün; fakat şarkının devamında yeniden bağlanması, bu sınırın korunmasının zor olduğunu gösteriyor.",
+      "O kocaman, abartılı duygularınla": "6. “Your big dramatic feelings”\n\nDramatic, İngilizcede aşırı duygusal, abartılı veya olayları büyüten bir tavrı anlatabiliyor. Big dramatic feelings ifadesi burada biraz alaycı okunuyor. Anlatıcı karşısındaki kişinin büyük aşk itiraflarını veya yoğun duygularını tamamen romantik bulmuyor; bunların ne kadar abartılı ve yorucu olduğunun farkında gibi.\n\n“O kocaman, abartılı duygularınla!”\n\nBu çeviride “kocaman” kelimesini özellikle korudum. Alaycı tavır, karşısındaki kişinin duygularını büyüklükleri üzerinden tarif etmesinden geliyor.",
+      "Ne tuhaf, değil mi? Hep ben iyiyken": "7. “Funny how it happens when I'm good, when I'm so”\n\nFunny how, İngilizcede bazen gerçekten komik bir şeyi değil, ironik veya sinir bozucu bir durumu anlatıyor. Burada neşeli bir “Ne komik!” yerine “Ne tuhaf tesadüf, değil mi?” gibi sitemli bir anlam taşıyor.\n\nWhen I'm good, kendisini iyi hissettiği, hayatının yolunda gittiği zamanları anlatıyor. Ancak ardından when I'm so diyerek cümle yarım bırakılıyor. Bu bilinçli bir kesinti olabilir: Sanki “Tam da kendimi çok iyi hissederken...” diyecek ama tamamlayamıyor.\n\n“Ne tuhaf, değil mi? Hep ben iyiyken oluyor bu, tam da kendimi...”\n\nEksikliği tamamlamadım çünkü gönderilen orijinal sözde de düşünce yarım kalıyor. Bu yarım kalmışlık, duygusal dağınıklıkla uyumlu bir okuma sunuyor.",
+      "Çünkü yeniden bağlanıyorum sana": "8. “I get reattached, I'm a double-knotted rope”\n\nReattached, yeniden bağlanmak anlamına geliyor. Duygusal bağlamda birine tekrar bağlanmak veya yeniden yakınlık hissetmek demek. Double-knotted rope ise iki kez düğümlenmiş bir ip.\n\nAnlatıcı kendisini kolay kolay çözülemeyecek kadar sıkı bağlanmış bir ipe benzetiyor. “Çünkü yeniden bağlanıyorum sana; çift düğüm atılmış bir ip gibiyim.”\n\nBu satırda hem duygusal bağlılık hem de fiziksel düğüm imgesi var. Attached kelimesinin fiziksel ve duygusal anlam taşıması da metaforu güçlendiriyor. “Bir kez sana yeniden bağlandığımda, kendimi kurtarmam çok zor oluyor” duygusu öne çıkıyor.",
+      "Sonra bir sihir yapar gibi bütün düğümlerimi": "9. “Undo me like magic”\n\nBu ifade önceki düğüm metaforunun devamı. Undo, bir şeyi çözmek, geri almak veya yapılmış bir şeyi bozmak anlamına geliyor; bir ipin düğümünü çözmek için de kullanılabilir. Undo someone ise mecazi olarak birini duygusal açıdan dağıtmak veya savunmasız bırakmak şeklinde okunabiliyor.\n\nBir yandan çift düğümlü bir ip gibi bağlanan anlatıcı, diğer yandan karşısındaki kişinin tek hareketiyle çözülebiliyor.\n\n“Sonra bir sihir yapar gibi bütün düğümlerimi çözüveriyorsun.”\n\nÇeviri fiziksel metaforu koruyor. Duygusal okumasında ise karşısındaki kişi anlatıcının bütün savunmasını, kendisini korumak için kurduğu düzeni kolayca bozabiliyor. Daha serbest alternatif “Bir sihir yapar gibi darmadağın ediyorsun beni” olurdu. İlk versiyon düğüm imgesini korurken ikincisi duygusal anlamı daha açık veriyor.",
+      "Bir geliyorsun, bir gidiyorsun": "10. “Here you come, there you go”\n\nHere you come, “işte geliyorsun”; there you go ise bu bağlamda “işte gidiyorsun” demek. Ancak önemli olan yalnızca fiziksel geliş ve gidiş değil, karşısındaki kişinin sürekli anlatıcının hayatına girip çıkması.\n\n“Bir geliyorsun, bir gidiyorsun.”\n\nTürkçede bu ifade kararsız, istikrarsız veya sürekli geri dönen biri için doğal biçimde kullanılıyor. Bu nedenle şarkı adının Türkçe karşılığı olarak “Bir Geliyorsun, Bir Gidiyorsun” tercih edilebilir.",
+      "Hadi, çıkar ağzındaki baklayı": "11. “Spit it out, say what you're after”\n\nSpit it out, birinin söylemekte zorlandığı şeyi açıkça söylemesini istemek için kullanılıyor. Türkçedeki doğal karşılığı “Çıkar ağzındaki baklayı!” Bu ifade biraz sabırsız ve sert bir ton taşıyor.\n\nAnlatıcı, karşısındaki kişinin ne istediğini artık dolandırmadan söylemesini istiyor. What you're after ise neyin peşinde olduğunu, ne elde etmeye çalıştığını anlatıyor.\n\n“Hadi, çıkar ağzındaki baklayı! Söyle, neyin peşindesin?”\n\nBurada belirsiz davranışlara artık tahammül etmek istememe hissi öne çıkıyor.",
+      "Hayatıma açılan kapıları": "12. “Pull doors in my life until it shatters”\n\nBu satır alışılmadık bir imge içeriyor. Pull doors, kapıları çekmek demek; ancak kapıların tam olarak neyi temsil ettiği açık değil. Hayata girmek için sürekli kapıları zorlamak veya sınırları aşmaya çalışmak şeklinde okunabilir. Until it shatters ise bir şeyin paramparça olmasına kadar devam etmeyi anlatıyor.\n\n“Hayatıma açılan kapıları öyle bir çekiştiriyorsun ki her şey paramparça oluyor.”\n\nBu yorumda kapılar, anlatıcının hayatına erişim sağlayan sınırları temsil ediyor. Karşısındaki kişi onları zorladıkça kurduğu düzen bozuluyor. Burada yerleşmiş bir deyim değil, şiirsel bir görüntü var; farklı yorumlar mümkün. Kaynaktaki it zamirinin gönderimi de bütünüyle açık olmadığından “her şey” çevirinin yorumlayıcı tercihi.",
+      "Demek benim iyi olmamın hiçbir önemi yok": "13. “So my well-being's not a factor”\n\nWell-being, kişinin fiziksel ve psikolojik olarak iyi olma hâlini anlatıyor. Not a factor ise bir karar verilirken dikkate alınmayan unsur demek.\n\nAnlatıcı, karşısındaki kişinin kendi iyiliğini önemsemediğini düşünüyor: “Demek benim iyi olmamın hiçbir önemi yok, öyle mi?”\n\nBu, karşısındaki kişinin sürekli gidip gelmesinin kendisini nasıl etkilediğinin hesaba katılmadığı yönünde doğrudan bir suçlama. Şarkıdaki kişinin davranışına yönelik anlatıcının değerlendirmesi olarak okunmalı.",
+      "Gerçi bu, daha önce seni sevmeme": "14. “No, it never stopped me loving you before”\n\nÖnceki satırda karşısındaki kişinin kendi iyiliğini önemsemediğini söyleyen anlatıcı, burada acı bir farkındalığı dile getiriyor: Bu durum daha önce de onu sevmekten vazgeçmesine neden olmamış.\n\n“Gerçi bu, daha önce seni sevmeme de hiç engel olmamıştı.”\n\nKendisine yönelik hafif bir hayal kırıklığı da hissediliyor. Sanki “Bana iyi gelmediğini biliyorum ama yine de seni sevdim” diyor. Cümlede yalnızca öfke değil, kabullenme ve kırgınlık da var.",
+      "Bana mucizen diyorsun": "15. “Call me your miracle”\n\nMiracle, mucize demek. Karşısındaki kişinin anlatıcıyı hayatındaki olağanüstü, kurtarıcı veya vazgeçilmez biri gibi görmesi şeklinde okunabilir.\n\n“Bana mucizen diyorsun.”\n\nKaynak ifade emir biçiminde “Bana mucizen de” diye de çevrilebilir; burada “diyorsun” seçimi, şarkı boyunca tekrarlanan davranışı anlatan bir yorum. Romantik görünen mucize sözü, kalp kırma ve gidip gelme döngüsünün içinde ironik bir anlam kazanıyor. Özel biri olduğunu söylemekle ona aynı özeni göstermemek arasındaki karşıtlık, duygusal çatışmayı güçlendiriyor.",
+      "Öldür, öl, sonra yeniden yeşert": "16. “Kill and die and make it grow”\n\nŞarkının en soyut ve yoruma açık satırlarından biri. Kill öldürmek, die ölmek, make it grow ise bir şeyi büyütmek veya gelişmesini sağlamak demek. Bu üç ifade bir araya geldiğinde yıkım, kayıp ve yeniden büyüme döngüsü oluşuyor.\n\nŞarkıda sürekli biten ve yeniden başlayan bir ilişki anlatıldığı için, burada da ilişkinin defalarca öldürülüp yeniden canlandırılması ima ediliyor olabilir.\n\n“Öldür, öl, sonra yeniden yeşert her şeyi...”\n\nGrow kelimesini “yeşertmek” diye karşılamak yeniden doğuş imgesini güçlendiriyor. “Yeniden” ve “her şeyi” ise kaynakta birebir bulunmayan, bu yorumu belirginleştiren tamamlamalar. Satırı gerçek bir ölümün anlatısı olarak sunmak için dayanak yok; yıkıcı ve yenileyici ilişki döngüsü üzerinden mecazi okunabilir.",
+      "Yine çıkageliyorsun, tam da beklendiği anda": "17. “Right on cue” — Tam zamanında mı, yine aynı senaryo mu?\n\nRight on cue, birinin tam beklenen anda ortaya çıkması veya bir şeyin tam zamanında gerçekleşmesi demek. Tiyatroda cue, oyuncunun sahneye girmesi veya bir eylemi başlatması için verilen işaret; bu nedenle ifade hafif teatral bir çağrışım da taşıyor.\n\n“Yine çıkageliyorsun, tam da beklendiği anda.”\n\nBurada romantik bir “Ne güzel, tam zamanında geldin” duygusundan çok, artık tahmin edilebilen davranışlar ve tekrarlanan bir senaryo öne çıkıyor. Daha alaycı bir alternatif “Şaşırtmadın, yine tam zamanında sahneye çıktın!” olabilir. Bu seçenek, ana çeviriye göre sitemi daha belirgin hâle getirir.",
+      "Kalbimi kırıp sonra yeniden onarıyorsun": "18. “Break my heart and make it new”\n\nİki zıt eylem bir arada: Break my heart kalbimi kırmak; make it new ise onu yeniden yapmak, yenilemek veya farklı bir duruma getirmek. Karşısındaki kişi hem anlatıcıyı incitiyor hem de yeniden umutlanmasına neden oluyor.\n\n“Kalbimi kırıp sonra yeniden onarıyorsun.”\n\nBu doğal bir karşılık; ancak make it new yalnızca onarmak değil, yeniden yaratmak veya dönüştürmek gibi daha güçlü bir anlam da taşıyabilir. Daha şiirsel alternatif “Kalbimi paramparça edip sonra yeniden var ediyorsun” olurdu. Romantik görünen yenileme imgesi, şarkının içinde yorucu bir ilişki döngüsünün parçası olarak okunuyor.",
+      "Ben ne halt edebilirim ki": "19. “What the hell can I do?”\n\nWhat the hell, İngilizcede öfke, çaresizlik veya şaşkınlığı güçlendiren bir ifade. Burada doğrudan cehennemden söz edilmiyor; anlatıcı ne yapacağını bilemediğini söylüyor.\n\n“Ben ne halt edebilirim ki?”\n\nBu çeviri hafif küfürlü ve çaresiz tonu koruyor. “Ne yapabilirim?” fazla kibar kalırdı; “Ne bok yiyebilirim?” ise orijinalinden daha sert bir Türkçe ifade olurdu. Bu yüzden “ne halt edebilirim” uygun bir orta nokta.",
+      "Mükemmel, bir şey yakaladık": "20. “Perfect, we got something” — Stüdyodan kalan bir an mı?\n\nŞarkının sonundaki bu ifade diğer sözlerden farklı. Perfect, we got something, “Mükemmel, elimizde bir şey var” veya “Harika, güzel bir şey yakaladık” anlamına geliyor.\n\n“Mükemmel, bir şey yakaladık!”\n\nKayıt sırasında söylenmiş bir stüdyo konuşması gibi duyulabilir. Ancak bu sesin kime ait olduğunu veya gerçek bir stüdyo anından bilinçli olarak bırakıldığını doğrulayan bir açıklama burada kaynaklandırılmıyor. Dolayısıyla bunu kesin bir yapım hikâyesi olarak sunmak doğru olmaz."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2zUjgk6YpHn78MCzkj4R5B",
+        "name": "Here You Come, There You Go",
+        "url": "https://open.spotify.com/track/2zUjgk6YpHn78MCzkj4R5B",
+        "isrc": "USUG12610237",
+        "durationMs": 169647,
+        "duration": "2:50",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 1,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "4tuJ0bMpJh08umKkEXKUI5",
+        "name": "Gracie Abrams",
+        "url": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe1800836d95b63c49e60ea3b",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "4tuJ0bMpJh08umKkEXKUI5",
+          "name": "Gracie Abrams",
+          "url": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5"
+        }
+      ],
+      "album": {
+        "id": "2Qj0IRHX4YllH22PNlmaBQ",
+        "name": "Here You Come, There You Go",
+        "url": "https://open.spotify.com/album/2Qj0IRHX4YllH22PNlmaBQ",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97",
+        "artists": [
+          {
+            "id": "4tuJ0bMpJh08umKkEXKUI5",
+            "name": "Gracie Abrams",
+            "url": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5"
+          }
+        ],
+        "releaseDate": "2026-10-29",
+        "releaseDatePrecision": "day",
+        "albumType": "Single",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2026 Gracie Abrams, under exclusive license to Interscope Records",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2026 Gracie Abrams, under exclusive license to Interscope Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 1,
+        "tracks": [
+          {
+            "id": "2zUjgk6YpHn78MCzkj4R5B",
+            "name": "Here You Come, There You Go",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 169647,
+            "duration": "2:50",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2zUjgk6YpHn78MCzkj4R5B",
+            "isCurrent": true
+          }
+        ]
+      },
+      "fetchedAt": "2026-10-30T07:08:57.088Z",
+      "trackUrl": "https://open.spotify.com/track/2zUjgk6YpHn78MCzkj4R5B",
+      "albumUrl": "https://open.spotify.com/album/2Qj0IRHX4YllH22PNlmaBQ",
+      "artistUrl": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5",
+      "albumName": "Here You Come, There You Go",
+      "albumType": "Single",
+      "releaseDate": "2026-10-29",
+      "duration": "2:50",
+      "isrc": "USUG12610237",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739937fa4eb69a49681d073c97"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=TOrvSefxrNg",
+    "source": "user-provided",
+    "genres": [
+      "indie-pop",
+      "pop-rock"
+    ],
+    "moods": [
+      "Breakup",
+      "Sad"
+    ],
+    "editorialSources": [
+      {
+        "label": "Gracie Abrams · resmî yayın ve deluxe albüm duyurusu",
+        "url": "https://www.universalmusic.ca/2026/10/29/gracie-abrams-announces-daughter-from-hell-deluxe-album-out-november-20-new-single-here-you-come-there-you-go-out-now/"
+      },
+      {
+        "label": "Gracie Abrams · şarkı yazımı hakkındaki açıklaması",
+        "url": "https://weverse.io/gracieabrams/artist/3-243183083"
+      },
+      {
+        "label": "Daughter from Hell (Deluxe) · resmî albüm ve parça listesi",
+        "url": "https://shop.gracieabrams.com/products/daughter-from-hell-deluxe-cd"
+      }
+    ]
+  },
+  {
     "id": "5334",
     "title": "JISOO ADDICTED Türkçe Çeviri",
     "song": "ADDICTED",

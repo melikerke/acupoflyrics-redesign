@@ -226,6 +226,7 @@ export const legacyCategoryRedirects = {
   "hello-axmxp": "/album/axmxp-hello-axmxp",
   "hello-world": "/discover",
   "her": "/album/minnie-her",
+  "here-you-come-there-you-go": "/album/gracie-abrams-here-you-come-there-you-go",
   "hit-me-hard-and-soft": "/album/billie-eilish-hit-me-hard-and-soft",
   "home-to-me": "/album/tones-and-i-home-to-me",
   "honk": "/album/no-na-honk",
