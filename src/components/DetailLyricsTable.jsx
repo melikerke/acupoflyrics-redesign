@@ -1,10 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { rgb, shade } from "../lib/color";
 import { languageInfo } from "../lib/languages";
 import { copyForLanguage, interfaceLocaleFor, columnLabel, cardLanguageLabel } from "../lib/detailCopy";
 import { trackEvent } from "../lib/analytics";
 import TranslationLanguages from "./TranslationLanguages";
+import SectionCardAction from './SectionCardAction';
+import { cardEntries, defaultCardSelection, sectionNavigation } from '../lib/readerControls';
+import './readerControls.css';
 
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -240,7 +243,7 @@ async function createLyricCardBlob({ post, card }) {
       lyricY += Math.round(lineHeight * 0.34);
       continue;
     }
-    ctx.fillStyle = item.isAccent ? cssRgb(theme.accent) : "#fffdf8";
+    ctx.fillStyle = item.isAccent && card.language !== "both" ? cssRgb(theme.accent) : "#fffdf8";
     ctx.font = `${item.isAccent ? "italic 500" : "400"} ${lyricFontSize}px ${serif}`;
     ctx.fillText(item.line, padding, lyricY);
     lyricY += lineHeight;
@@ -325,7 +328,6 @@ export default function DetailLyricsTable({
   const interfaceLocale = interfaceLocaleFor(languages);
   const ui = copyForLanguage(interfaceLocale);
   const languageOrder = [languages.original, languages.translation];
-  const slotForLanguage = (language) => (language === languages.original ? "original" : "translation");
   const [viewMode, setViewMode] = useState(() => {
     if (defaultView) return defaultView;
     try {
@@ -341,6 +343,25 @@ export default function DetailLyricsTable({
   const [cardDraft, setCardDraft] = useState(null);
   const [cardStatus, setCardStatus] = useState("");
   const [cardBusy, setCardBusy] = useState(false);
+  const cardDialog = useRef(null);
+  const returnFocus = useRef(null);
+  const navigation = sectionNavigation(sections, interfaceLocale);
+  useEffect(() => {
+    if (!cardDraft) return undefined;
+    const dialog = cardDialog.current;
+    dialog?.querySelector('button')?.focus();
+    const onKey = event => {
+      if (event.key === 'Escape') { event.preventDefault(); setCardDraft(null); }
+      if (event.key === 'Tab') {
+        const buttons = [...dialog.querySelectorAll('button:not([disabled]), a[href], input')];
+        const first = buttons[0], last = buttons[buttons.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    return () => { document.removeEventListener('keydown', onKey); returnFocus.current?.focus(); };
+  }, [Boolean(cardDraft)]);
   const keys = Object.keys(notes);
   const findKey = (line) => {
     if (!line) return undefined;
@@ -374,18 +395,23 @@ export default function DetailLyricsTable({
   }, [sections]);
 
   const jumpToSection = (index) => {
-    document.getElementById(`lyric-section-${index}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setQuery('');
+    requestAnimationFrame(() => {
+      const behavior = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth';
+      document.getElementById(`lyric-section-${index}`)?.scrollIntoView({ behavior, block: "start" });
+    });
   };
 
   const openCard = (section, language) => {
-    const lines = section[slotForLanguage(language)].filter(Boolean);
+    const entries = cardEntries(section, language, languages);
+    returnFocus.current = document.activeElement;
     setCardStatus("");
     setCardDraft({
       section,
       language,
       colorIndex: 0,
       ratio: "square",
-      selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
+      selected: defaultCardSelection(entries, language, CARD_MAX_LINES),
     });
   };
 
@@ -393,11 +419,11 @@ export default function DetailLyricsTable({
     setCardStatus("");
     setCardDraft((draft) => {
       if (!draft) return draft;
-      const lines = draft.section[slotForLanguage(language)].filter(Boolean);
+      const entries = cardEntries(draft.section, language, languages);
       return {
         ...draft,
         language,
-        selected: lines.slice(0, CARD_MAX_LINES).map((_, index) => index),
+        selected: defaultCardSelection(entries, language, CARD_MAX_LINES),
       };
     });
   };
@@ -418,7 +444,7 @@ export default function DetailLyricsTable({
       const lastSelected = Math.max(...draft.selected);
       const isAdjacent = index === firstSelected - 1 || index === lastSelected + 1;
 
-      if (!isAdjacent) {
+      if (draft.language !== 'both' && !isAdjacent) {
         return { ...draft, selected: [index] };
       }
 
@@ -441,7 +467,8 @@ export default function DetailLyricsTable({
 
   const buildCard = (draft) => {
     if (!draft) return null;
-    const lines = draft.section[slotForLanguage(draft.language)].filter(Boolean);
+    const entries = cardEntries(draft.section, draft.language, languages);
+    const lines = entries.map(entry => draft.language === 'both' ? `${languageInfo(entry.language).short}: ${entry.text}` : entry.text);
     const selectedLines = draft.selected.map((index) => lines[index]).filter(Boolean);
     const palette = cardPalette?.length ? cardPalette : [[218, 60, 120], [30, 215, 96], [38, 40, 56]];
     const colorIndex = Math.min(draft.colorIndex || 0, palette.length - 1);
@@ -450,6 +477,7 @@ export default function DetailLyricsTable({
       colorIndex,
       color: palette[colorIndex],
       lines,
+      entries,
       palette,
       selectedLines,
     };
@@ -573,18 +601,19 @@ export default function DetailLyricsTable({
             placeholder={ui.searchPlaceholder}
           />
         </label>
-        <div className="detail-smart-seek" aria-label={ui.sections}>
-          {sections.map((section, index) => (
+        {navigation.length > 0 && <div className="detail-smart-seek" aria-label={ui.sections}>
+          {navigation.map(({ label, index, indices }) => (
             <button
-              key={`${section.label}-${index}`}
+              key={`${label}-${index}`}
               type="button"
-              className={activeIndex === index ? "is-active" : ""}
+              className={indices.includes(activeIndex) ? "is-active" : ""}
+              aria-current={indices.includes(activeIndex) ? 'location' : undefined}
               onClick={() => jumpToSection(index)}
             >
-              {section.label}
+              {label}
             </button>
           ))}
-        </div>
+        </div>}
       </div>
       <div className="detail-floating-lyrics" aria-label={ui.lyricView}>
         <span>{ui.view}</span>
@@ -612,8 +641,6 @@ export default function DetailLyricsTable({
           const translationKey = findKey(translationText);
           const key = translationKey || originalKey;
           const active = key && selectedKey === key;
-          const hasOriginal = section.original.some(Boolean);
-          const hasTranslation = section.translation.some(Boolean);
           return (
             <article
               className={`detail-lyric-section${active ? " is-active" : ""}`}
@@ -624,6 +651,7 @@ export default function DetailLyricsTable({
               <header className="detail-section-head">
                 <span className="detail-section-pill" lang={interfaceLocale === "es" ? "es" : "en"}>{section.label}</span>
                 <i aria-hidden />
+                <SectionCardAction section={section} viewMode={viewMode} languages={languages} ui={ui} onCreate={openCard} />
               </header>
               <div className={`detail-section-copy is-${viewMode}`}>
                 {(viewMode === "both" || viewMode === languages.original) && (
@@ -632,7 +660,6 @@ export default function DetailLyricsTable({
                       <span className="detail-col-tag" lang={interfaceLocale}>
                         {columnLabel(languages.original, "original", interfaceLocale)}
                       </span>
-                      {hasOriginal && <button type="button" onClick={() => openCard(section, languages.original)}>{ui.createCard}</button>}
                     </div>
                     <p className="detail-section-original" lang={languages.original}>{renderLyricLines(section, "original", index)}</p>
                   </div>
@@ -643,7 +670,6 @@ export default function DetailLyricsTable({
                       <span className="detail-col-tag" lang={interfaceLocale}>
                         {columnLabel(languages.translation, "translation", interfaceLocale)}
                       </span>
-                      {hasTranslation && <button type="button" onClick={() => openCard(section, languages.translation)}>{ui.createCard}</button>}
                     </div>
                     <p className="detail-section-translation" lang={languages.translation}>{renderLyricLines(section, "translation", index)}</p>
                   </div>
@@ -663,7 +689,7 @@ export default function DetailLyricsTable({
         return createPortal((
         <div className="detail-card-modal" role="dialog" aria-modal="true" aria-label={ui.cardPreview} lang={interfaceLocale}>
           <button className="detail-card-backdrop" type="button" aria-label={ui.closeCard} onClick={() => setCardDraft(null)} />
-          <div className="detail-card-dialog">
+          <div className="detail-card-dialog" ref={cardDialog}>
             <header className="detail-card-dialog-head">
               <div>
                 <span>{ui.cardStudioKicker}</span>
@@ -692,11 +718,12 @@ export default function DetailLyricsTable({
                   <div className="detail-card-brand">
                     <span><i aria-hidden />acupoflyrics</span>
                   </div>
-                  <div className="detail-card-lines" lang={card.language}>
+                  <div className="detail-card-lines" lang={card.language === 'both' ? undefined : card.language}>
                     {card.selectedLines.map((line, lineIndex) => (
                       <p
                         key={`${line}-${lineIndex}`}
-                        className={lineIndex === card.selectedLines.length - 1 ? "is-accent" : undefined}
+                        lang={card.entries[card.selected[lineIndex]]?.language}
+                        className={card.language !== "both" && lineIndex === card.selectedLines.length - 1 ? "is-accent" : undefined}
                       >
                         {line}
                       </p>
@@ -743,6 +770,7 @@ export default function DetailLyricsTable({
                           key={language}
                           type="button"
                           className={card.language === language ? "is-active" : ""}
+                          aria-pressed={card.language === language}
                           onClick={() => setCardLanguage(language)}
                           lang={interfaceLocale}
                         >
@@ -772,14 +800,16 @@ export default function DetailLyricsTable({
                 <section className="detail-card-control-group is-lines">
                   <div className="detail-card-control-heading">
                     <span>{ui.lines}</span>
-                    <small>{ui.maxLines}</small>
+                    <small>{card.language === 'both' ? ui.maxLines.split(' · ')[0] : ui.maxLines}</small>
                   </div>
-                  <div className="detail-card-line-picker" aria-label={ui.cardLines} lang={card.language}>
+                  <div className="detail-card-line-picker" aria-label={ui.cardLines} lang={card.language === 'both' ? undefined : card.language}>
                     {card.lines.map((line, lineIndex) => (
                       <button
                         key={`${line}-${lineIndex}`}
                         type="button"
                         className={card.selected.includes(lineIndex) ? "is-selected" : ""}
+                        aria-pressed={card.selected.includes(lineIndex)}
+                        lang={card.entries[lineIndex]?.language}
                         onClick={() => toggleCardLine(lineIndex)}
                       >
                         <i aria-hidden>{card.selected.includes(lineIndex) ? "✓" : lineIndex + 1}</i>

@@ -1,0 +1,21 @@
+/* Controls only: lyric typography, column layout and section text stay unchanged. */
+.detail-section-card-action { position: relative; flex-shrink: 0; margin-block: -10px; }
+.detail-card-icon { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 44px; height: 44px; padding: 0 8px; border: 0; border-radius: 8px; background: transparent; color: #c4c8c5; font: inherit; font-size: 12px; font-weight: 500; white-space: nowrap; cursor: pointer; }
+.detail-card-icon svg { flex-shrink: 0; opacity: .75; }
+.detail-card-icon:focus-visible { outline: 2px solid var(--detail-accent); outline-offset: 2px; opacity: 1; }
+.detail-card-icon:active { transform: scale(.97); }
+.detail-card-language-menu { position: absolute; right: 0; top: calc(100% + 4px); z-index: 26; display: grid; min-width: 116px; padding: 4px; background: #121c20; border: 1px solid rgba(255,255,255,.16); border-radius: 12px; box-shadow: 0 12px 30px rgba(0,0,0,.3); }
+.detail-card-language-menu button { min-height: 44px; padding: 8px 18px; border: 0; border-radius: 8px; color: #f7f3ec; background: transparent; text-align: left; font: inherit; font-size: 13px; cursor: pointer; }
+.detail-card-language-menu button:focus-visible { outline: 2px solid var(--detail-accent); outline-offset: -2px; background: rgba(255,255,255,.08); }
+.detail-reader-tools:not(:has(.detail-smart-seek)) { grid-template-columns: 1fr; }
+/* Extend vertically, not sideways: neighbouring language targets never overlap. */
+.detail-view-mode-tabs button { position: relative; min-width: 44px; }
+.detail-view-mode-tabs button::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: max(100%, 44px); transform: translateY(-50%); }
+.detail-view-mode-tabs button:focus-visible { outline: 2px solid var(--detail-accent); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) {
+  .detail-card-icon:hover, .detail-card-icon:focus-visible, .detail-card-icon[aria-expanded='true'] { color: #f7f3ec; background: rgba(255,255,255,.06); }
+  .detail-card-language-menu button:hover { background: rgba(255,255,255,.08); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .detail-card-icon { transition: none; }
+}
