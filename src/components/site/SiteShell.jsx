@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import siteStats from "../../data/siteStats.json";
 const { totalPosts } = siteStats;
 import { artistsPath, discoverPath, popJournalPath, searchPath, songsPath } from "../../lib/paths";
@@ -15,7 +15,8 @@ function openConsentPreferences() {
   window.dispatchEvent(new CustomEvent("acupoflyrics:open-consent"));
 }
 
-export function SiteNav() {
+export function SiteNav({ compactMobile = false, onShare, shareLabel = 'Paylaş' }) {
+  const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 18);
@@ -25,7 +26,8 @@ export function SiteNav() {
   }, []);
 
   return (
-    <header className={`acl-nav ${scrolled ? "is-scrolled" : ""}`}>
+    <header className={`acl-nav ${scrolled ? "is-scrolled" : ""}${compactMobile ? ' acl-nav-compact' : ''}${onShare ? ' acl-nav-song' : ''}`}>
+      {onShare && <button type="button" className="acl-mobile-back" aria-label="Geri dön" onClick={() => navigate(window.history.state?.idx > 0 ? -1 : '/')}><Icon name="back" size={20} /></button>}
       <Link to="/" className="acl-logo font-serif">acupoflyrics</Link>
       <nav className="acl-menu" aria-label="Ana navigasyon">
         <Link to={discoverPath()}>Keşfet</Link>
@@ -37,13 +39,14 @@ export function SiteNav() {
         <Link to={popJournalPath()}>Pop Günlüğü</Link>
       </nav>
       <div className="acl-nav-actions">
-        <a href="https://www.instagram.com/acupoflyrics/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: acupoflyrics">Instagram</a>
+        <a className="acl-nav-instagram" href="https://www.instagram.com/acupoflyrics/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: acupoflyrics"><Icon name="instagram" size={20} /><span>Instagram</span></a>
         <button className="acl-search" type="button" aria-label="Ara" onClick={openSearch}>
           <Icon name="search" size={15} />
           <span>Ara</span>
           <kbd>⌘K</kbd>
         </button>
       </div>
+      {onShare && <button type="button" className="acl-mobile-share" onClick={onShare} aria-label={shareLabel}><Icon name="share" size={20} /></button>}
     </header>
   );
 }
@@ -64,7 +67,7 @@ export function MobileTabBar() {
         const active = to === "/" ? path === "/" : path.startsWith(to);
         if (icon === "search") {
           return (
-            <button key={label} type="button" className="acl-mobile-tab" onClick={openSearch} aria-label="Ara">
+            <button key={label} type="button" className={`acl-mobile-tab${active ? ' is-active' : ''}`} onClick={openSearch} aria-label="Ara" aria-current={active ? 'page' : undefined}>
               <Icon name="search" size={18} />
               <span>{label}</span>
             </button>

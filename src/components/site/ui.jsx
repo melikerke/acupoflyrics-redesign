@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 // ---- Icons (stroke, currentColor) ----
 const PATHS = {
+  instagram: <><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5h.01" /></>,
+  share: <><path d="M12 16V3m-4 4 4-4 4 4M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8" /></>,
   search: <><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></>,
   arrow: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>,
   back: <><path d="M19 12H5" /><path d="m11 18-6-6 6-6" /></>,

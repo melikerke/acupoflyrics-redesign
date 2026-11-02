@@ -291,7 +291,7 @@ function staticSong(post, postIndex) {
   </nav>`;
   return staticPage({
     kicker: copy.kicker,
-    title: `${post.artist} — ${post.song}`,
+    title: post.song,
     introHtml: staticSongIntro(post.slug),
     description: staticSongIntro(post.slug) ? '' : translationMetaDescription(post),
     image: post.cover,

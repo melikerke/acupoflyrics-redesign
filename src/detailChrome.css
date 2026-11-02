@@ -1,0 +1,36 @@
+/* Song metadata and cover only. No lyric reader or language-control selectors. */
+.detail-hero-meta > span, .detail-hero-meta > a { display: inline-flex; align-items: center; gap: 6px; }
+.detail-hero-meta svg { flex-shrink: 0; }
+.detail-info-disclosure > summary { display: none; }
+.detail-info-disclosure { grid-column: 1 / -1; }
+.detail-info-disclosure .detail-meta-row strong span { text-transform: none; letter-spacing: normal; font: inherit; margin: 0; color: inherit; }
+@media (min-width: 768px) and (max-width: 1100px) {
+  .detail-info-content { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 16px; }
+  .detail-info-content > h2, .detail-info-content .detail-tag-block, .detail-info-content .detail-translator { grid-column: 1 / -1; }
+}
+@media (max-width: 767px) {
+  .lyric-detail-page .detail-hero { padding-top: 0; }
+  .lyric-detail-page .detail-hero-inner { padding: 26px 20px; margin: 0; width: 100%; }
+  .lyric-detail-page .detail-hero-grid { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 20px 16px; align-items: start; text-align: left; }
+  .lyric-detail-page .detail-cover { width: 96px; height: 96px; margin: 0; border-radius: 10px; }
+  .lyric-detail-page .detail-hero-copy { display: contents; }
+  .lyric-detail-page .detail-title-block { grid-column: 2; align-self: center; min-width: 0; }
+  .lyric-detail-page .detail-title-block h1 { margin: 0; font-size: 26px; line-height: 1.18; letter-spacing: -.025em; }
+  .lyric-detail-page .detail-artist-line { display: block; margin: 10px 0 0; font-size: 15px; line-height: 1.5; }
+  .lyric-detail-page .detail-hero-meta { grid-column: 1 / -1; margin: 0; justify-content: flex-start; font-size: 12px; gap: 10px 16px; }
+  .lyric-detail-page .detail-actions { grid-column: 1 / -1; margin: 0; display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .lyric-detail-page .detail-actions > a { min-height: 48px; width: 100%; }
+  .lyric-detail-page .detail-actions > button { display: none; }
+  .lyric-detail-page .detail-info-panel { display: block; top: 0; padding: 0 18px !important; order: -1; }
+  .detail-info-disclosure > summary { display: flex; align-items: center; justify-content: space-between; min-height: 60px; cursor: pointer; list-style: none; }
+  .detail-info-disclosure > summary::-webkit-details-marker { display: none; }
+  .detail-info-disclosure > summary span { font-size: 22px; }
+  .detail-info-disclosure > summary svg { transform: rotate(90deg); }
+  .detail-info-disclosure[open] > summary svg { transform: rotate(-90deg); }
+  .detail-info-disclosure .detail-info-content { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 18px; padding: 0 0 18px; }
+  .detail-info-disclosure .detail-info-content > h2 { display: none; }
+  .detail-info-disclosure .detail-meta-row { display: flex; flex-direction: column; gap: 6px; padding: 14px 12px; }
+  .detail-info-disclosure .detail-meta-row > span { font-size: 12px; }
+  .detail-info-disclosure .detail-meta-row > strong { font-size: 13px; overflow-wrap: anywhere; }
+  .detail-info-disclosure .detail-tag-block, .detail-info-disclosure .detail-translator { grid-column: 1 / -1; }
+}

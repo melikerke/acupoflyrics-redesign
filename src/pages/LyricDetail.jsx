@@ -3,6 +3,8 @@ import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
 import { MobileTabBar, SiteFooter, SiteNav } from "../components/site/SiteShell";
+import { Icon } from '../components/site/ui';
+import '../detailChrome.css';
 import {
   allPosts,
   albumArtistFor,
@@ -26,11 +28,26 @@ import DetailLyricsTable from "../components/DetailLyricsTable";
 import { MetaRow, DetailVideo, youtubeEmbedUrl } from "../components/DetailSongExtras";
 import { copyForLanguage, interfaceLocaleFor } from "../lib/detailCopy";
 import { languageAlternates } from "../lib/translationVariants";
-import { releaseLabel, translationSchema } from "../lib/songPublication";
+import { translationSchema } from "../lib/songPublication";
 import { relatedSongs } from "../lib/relatedSongs";
 import SongInsight, { SongIntro } from '../components/SongInsight';
 import { withSongFaq } from '../lib/songFaqSchema.js';
 import { isDark, rgb, shade, useAlbumColor, useAlbumPalette } from "../lib/color";
+
+function SongInfoDisclosure({ title, children }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    const media = window.matchMedia('(min-width: 768px)');
+    const update = () => { if (ref.current) ref.current.open = media.matches; };
+    update();
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
+  return <details ref={ref} className="detail-info-disclosure" open>
+    <summary><span className="font-serif">{title}</span><Icon name="arrow" /></summary>
+    <div className="detail-info-content">{children}</div>
+  </details>;
+}
 
 function detailMetaDescription(post, languages) {
   return translationMetaDescription(post);
@@ -574,7 +591,7 @@ export default function LyricDetail() {
       transition={{ duration: 0.25 }}
       style={cssVars}
     >
-      <SiteNav />
+      <SiteNav compactMobile onShare={sharePost} shareLabel={shared ? ui.copied : ui.share} />
       <div className="detail-ambient" aria-hidden>
         <img src={post.cover} alt="" />
         <span className="detail-ambient-glow is-one" />
@@ -591,26 +608,28 @@ export default function LyricDetail() {
         <div className="detail-hero-inner">
           <div className="detail-hero-grid">
             <motion.div className="detail-cover">
-              <img src={post.cover} alt={`${post.artist} - ${post.song}`} />
+              <img src={post.cover} alt={`${post.artist} — ${post.song} albüm kapağı`} />
             </motion.div>
 
             <div className="detail-hero-copy" lang={interfaceLocale}>
-              <h1 className="font-serif">{post.artist} — {post.song}</h1>
+              <div className="detail-title-block">
+              <h1 className="font-serif">{post.song}</h1>
               <SongIntro slug={post.slug} />
               <div className="detail-artist-line">
                 <ArtistLinks artists={artistLinks} />
               </div>
+              </div>
 
               <div className="detail-hero-meta">
-                <span>◉ {pageTranslationLabel}</span>
-                {post.releaseStatus && <span>◷ {post.releaseStatus}</span>}
+                <span><Icon name="note" /> {pageTranslationLabel}</span>
+                {post.releaseStatus && <span><Icon name="clock" /> {post.releaseStatus}</span>}
                 {hasAlbum && (
                   <Link to={albumPath(albumSlug)} className="detail-hero-album-link">
-                    ◇ {albumName}
+                    <Icon name="disc" /> {albumName}
                   </Link>
                 )}
-                {post.reading_time && <span>◷ {post.reading_time} {ui.readingBadge}</span>}
-                {year && <span>▣ {year}</span>}
+                {post.reading_time && <span><Icon name="clock" /> {post.reading_time} {ui.readingBadge}</span>}
+                {year && <span><Icon name="calendar" /> {year}</span>}
               </div>
 
               <div className="detail-actions">
@@ -638,7 +657,7 @@ export default function LyricDetail() {
                   </a>
                 ) : null}
                 <button type="button" className="detail-ghost-action" onClick={sharePost}>
-                  ↗ {shared ? ui.copied : ui.share}
+                  <Icon name="share" /> {shared ? ui.copied : ui.share}
                 </button>
               </div>
             </div>
@@ -651,9 +670,10 @@ export default function LyricDetail() {
       <section className="detail-reading-shell">
         <img src={post.cover} alt="" aria-hidden className="detail-reading-atmosphere" />
         <aside className="detail-info-panel" lang={interfaceLocale}>
+          <SongInfoDisclosure title={ui.songInfo}>
           <h2 className="font-serif">{ui.songInfo}</h2>
           <MetaRow label={ui.artist} value={<ArtistLinks artists={artistLinks} />} />
-          <MetaRow label={interfaceLocale === 'tr' ? releaseLabel(post) : ui.album} value={hasAlbum ? albumName : ui.single} />
+          <MetaRow label={ui.album} value={hasAlbum ? albumName : ui.single} />
           <MetaRow label={ui.status} value={post.releaseStatus || ""} />
           <MetaRow label={ui.firstPerformance} value={post.performanceSource || ""} />
           <MetaRow label={ui.release} value={year ? String(year) : ""} />
@@ -675,6 +695,7 @@ export default function LyricDetail() {
               <small>{ui.translationAndNotes}</small>
             </div>
           </div>
+          </SongInfoDisclosure>
         </aside>
 
         <div className="detail-reader-column" id="lyrics-reader" ref={readerRef}>
