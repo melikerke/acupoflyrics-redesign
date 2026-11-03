@@ -4,7 +4,7 @@ export const editorialFeatures = [
     "slug": "27-ekim-2-kasim-2026-haftanin-muzik-gundemi",
     "title": "Haftanın Müzik Gündemi (27 Ekim–2 Kasım 2026): Tate McRae Kapıya Dayandı, Ella Langley — Choosin’ Texas Yarım Yıldır Zirvede",
     "shortTitle": "27 Ekim–2 Kasım 2026 müzik gündemi",
-    "seoTitle": "27 Ekim–2 Kasım 2026 Müzik Gündemi | acupoflyrics",
+    "seoTitle": "Tate McRae, Ella Langley, ILLIT (27 Ekim–2 Kasım) | acupoflyrics",
     "metaDescription": "Tate McRae’nin “Housewife”ı 2. sıradan girdi, “expectations” 63’ten 3’e çıktı. JISOO, IVE ve ILLIT’in dönüşleriyle haftanın müzik gündemi.",
     "excerpt": "Tate McRae — Housewife zirveyi zorlarken Ella Langley — Choosin’ Texas rekorunu uzatıyor. JISOO, IVE ve ILLIT de haftanın gündeminde.",
     "dek": "Bu hafta listelerde öyle bir tablo var ki, her şey bir şarkının etrafında dönüyor: Ella Langley’nin “Choosin’ Texas”ı. Tate McRae yeni şarkısıyla kariyerinin en yüksek noktasına çıktı, Olivia Rodrigo ile Chappell Roan beklenmedik bir sıçrama yaptı, Zach Bryan ile Lana Del Rey düeti ilk haftasında üst sıralara yerleşti. K-pop tarafında ise JISOO, IVE ve ILLIT aynı hafta içinde sahneye döndü. Sırayla gidelim.",
@@ -20,7 +20,7 @@ export const editorialFeatures = [
         "heading": "Tate McRae, “Housewife” ile kariyer rekoru kırdı",
         "body": [
           "Tate McRae’nin 15 Ekim’de yayımlanan yeni şarkısı “Housewife”, Billboard Hot 100’e 2. sıradan girdi. Bu, McRae’nin ana sanatçı olarak listede ulaştığı en yüksek sıra. Daha önce “greedy” (Ocak 2024) ve “Tit for Tat” (Ekim 2025) 3. sırada kalmıştı. Listenin zirvesini ise Morgan Wallen’ın “What I Want” şarkısında konuk sanatçı olarak 2025’te zaten görmüştü.",
-          "Şu detaya bak: “Housewife” ABD’de, 1 numaradaki şarkıdan daha çok dinlendi. Variety’nin verilerine göre ilk haftasında 22,9 milyon dinlenme aldı ve Streaming Songs listesine 1. sıradan girdi. Onu zirveden uzak tutan şey radyo oldu. Radyo verisini hesaba katmayan Billboard Global 200 ve Global Excl. U.S. listelerinde ise şarkı doğrudan 1 numaraya yerleşti.",
+          "Şu detaya bak: “Housewife” ABD’de, 1 numaradaki şarkıdan daha çok dinlendi. Variety’nin Martin Cid’de aktarılan verilerine göre ilk haftasında 22,9 milyon dinlenme aldı ve Streaming Songs listesine 1. sıradan girdi. Onu zirveden uzak tutan şey radyo oldu. Radyo verisini hesaba katmayan Billboard Global 200 ve Global Excl. U.S. listelerinde ise şarkı doğrudan 1 numaraya yerleşti.",
           "2 Kasım’da açıklanan yeni listede “Housewife” yine 2. sırada. Şarkı, McRae’nin henüz tarihi açıklanmayan dördüncü stüdyo albümünün ilk single’ı olarak sunuluyor."
         ]
       },
@@ -50,9 +50,9 @@ export const editorialFeatures = [
         ]
       },
       {
-        "heading": "ILLIT: “I’ll Arrest You”",
+        "heading": "ILLIT — You’re Under Arrest",
         "body": [
-          "ILLIT da 26 Ekim’de beşinci mini albümü BREAK EVEN’ı yayımladı. Dört şarkılık albümün ana şarkısı “I’ll Arrest You”; Hanteo verilerine göre albüm ilk gününde 382.991 kopya sattı. Bu, bir önceki albümün ilk gün satışından yaklaşık yüzde 40 fazla ve grubun bugüne kadarki en iyi açılışı.",
+          "ILLIT da 26 Ekim’de beşinci mini albümü BREAK EVEN’ı yayımladı. Dört şarkılık albümün ana şarkısı “You’re Under Arrest”; Hanteo verilerine göre albüm ilk gününde 382.991 kopya sattı. Bu, bir önceki albümün ilk gün satışından yaklaşık yüzde 40 fazla ve grubun bugüne kadarki en iyi açılışı.",
           "Ama dönüş tartışmasız geçmedi. Grup şarkıyı ilk kez 17–18 Ekim’deki İncheon konserinde seslendirdi. Kyunghyang Shinmun’un haberine göre o geceki polis üniformasını andıran kostümler, kadın polislerin cinselleştirilmesi eleştirisine yol açtı. Ajans tarafından bu konuda yapılmış bir açıklamaya ulaşamadık."
         ]
       },
@@ -60,8 +60,7 @@ export const editorialFeatures = [
         "heading": "Kısa kısa",
         "body": [],
         "list": [
-          "“Choosin’ Texas” 2 Kasım’da açıklanan listede 26. haftasını 1 numarada geçirdi ve Hot 100 tarihinde yarım yıl zirvede kalan ilk şarkı oldu. Bu rekorun hikâyesini ayrı bir yazıda anlattık: Ella Langley — Choosin’ Texas rekor yazısı.",
-          "Kasım ayında hangi K-pop gruplarının döneceğini merak ediyorsan takvimi derledik: Kasım 2026 K-pop comeback takvimi."
+          "“Choosin’ Texas” 2 Kasım’da açıklanan listede 26. haftasını 1 numarada geçirdi ve Hot 100 tarihinde yarım yıl zirvede kalan ilk şarkı oldu. Bu rekorun hikâyesini ayrı bir yazıda anlattık: Ella Langley — Choosin’ Texas rekor yazısı."
         ]
       }
     ],
@@ -104,7 +103,7 @@ export const editorialFeatures = [
         "href": "/ive-looks-can-kill-turkce-ceviri/"
       },
       {
-        "label": "“I’ll Arrest You”",
+        "label": "“You’re Under Arrest”",
         "href": "/illit-youre-under-arrest-turkce-ceviri/"
       },
       {
@@ -116,7 +115,7 @@ export const editorialFeatures = [
         "href": "/ive-looks-can-kill-turkce-ceviri/"
       },
       {
-        "label": "ILLIT — I’ll Arrest You",
+        "label": "ILLIT — You’re Under Arrest",
         "href": "/illit-youre-under-arrest-turkce-ceviri/"
       },
       {
@@ -184,6 +183,10 @@ export const editorialFeatures = [
       {
         "name": "Apple Music — Tate McRae — Housewife yayın kaydı",
         "url": "https://music.apple.com/us/album/housewife-single/6822497770"
+      },
+      {
+        "name": "ILLIT / Weverse — You’re Under Arrest resmî klibi",
+        "url": "https://weverse.io/illit/media/3-243100410"
       }
     ],
     "sourceNote": "Liste duyurularının tarihiyle listelerin ölçüm ve tarih etiketleri farklıdır. Bu yazı 27 Ekim–2 Kasım haftasının gelişmelerini ve önceki haftadan devam eden yayınları bir araya getirir.",

@@ -352,7 +352,7 @@ function staticArticle(article) {
     description: article.dek || article.excerpt,
     image: article.image,
     imageAlt: article.imageAlt || `${article.shortTitle || article.title} görseli`,
-    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${update}${pulse}${tldr}${releases}${tldr ? '' : contents}${summary}${sections}<p>Kaynak kontrolü: ${escapeHtml(journal.sourcesCheckedAt || article.updatedAt || article.date)}</p>${staticArticleLinks(article, posts, popGundemiArticles)}`,
+    children: `<p class="journal-byline"><span>Melike Erke</span> · Yayın: <time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time></p>${update}${pulse}${tldr}${releases}${tldr ? '' : contents}${summary}${sections}<p>Kaynak kontrolü: ${escapeHtml(journal.sourcesCheckedAt || article.updatedAt || article.date)}</p>${staticArticleLinks(article, posts, popGundemiArticles)}`,
   });
 }
 

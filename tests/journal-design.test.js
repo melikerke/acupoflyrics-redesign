@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import { popGundemiArticles } from '../src/data/popGundemi.js';
 import { journalFor, chartBadge, journalDate, releaseCalendar, spotifyTrackId } from '../src/lib/journal.js';
 import { articleSchema } from '../src/lib/articleSchema.js';
+import { articleMetaTitle } from '../src/lib/meta.js';
 
 const article = popGundemiArticles.find(a => a.slug === '27-ekim-2-kasim-2026-haftanin-muzik-gundemi');
 const journal = journalFor(article);
@@ -41,11 +42,27 @@ test('story tools resolve only real translations, source indexes and safe Spotif
 });
 
 test('chart movements derive from data and distinguish chart dates from announcement dates', () => {
+  assert.deepEqual(journal.charts.map(chart => chart.rank), [1, 2, 4, 7]);
   assert.equal(chartBadge(journal.charts[0]), '26. hafta zirvede');
-  assert.equal(chartBadge(journal.charts[2]), '63 → 3 → 7');
-  assert.equal(chartBadge(journal.charts[3]), 'Yeni giriş');
+  assert.equal(chartBadge(journal.charts.find(chart => chart.target === 'olivia')), '63 → 3 → 7');
+  assert.equal(chartBadge(journal.charts.find(chart => chart.target === 'lies')), 'Yeni giriş');
   assert.equal(journal.charts[0].announcedAt, '2026-11-02');
-  assert.equal(journal.charts[3].chartDate, '2026-10-31');
+  assert.equal(journal.charts.find(chart => chart.target === 'lies').chartDate, '2026-10-31');
+});
+
+test('weekly corrections preserve the official song URL and explicit source attribution', () => {
+  const illit = journal.stories.find(story => story.id === 'illit');
+  assert.equal(illit.heading, 'ILLIT — You’re Under Arrest');
+  assert.equal(illit.translationId, 'illit-youre-under-arrest-turkce-ceviri');
+  assert.match(illit.body.join(' '), /Dört şarkılık/);
+  assert.doesNotMatch(JSON.stringify(article), /I’ll Arrest You/);
+  assert.ok(illit.sourceIndexes.some(index => article.sources[index].url === 'https://weverse.io/illit/media/3-243100410'));
+  assert.match(article.sections[0].body.join(' '), /Variety’nin Martin Cid’de aktarılan verilerine göre/);
+  assert.match(journal.tldr[4].text, /kostümlerine yönelik eleştiriler/);
+  assert.equal(articleMetaTitle(article), article.seoTitle);
+  assert.ok(articleMetaTitle(article).length <= 65);
+  assert.ok(journal.calendarHref);
+  assert.doesNotMatch(JSON.stringify(article.sections), /Kasım 2026 K-pop comeback takvimi/);
 });
 
 test('KST release times convert to Turkey and downloadable ICS uses valid UTC instants', () => {
@@ -68,6 +85,11 @@ test('journal content and song entities are readable in first HTML without Spoti
     assert.ok(html.includes(`id="${story.legacyId}"`));
   }
   assert.ok(html.includes('id="kpop"'));
+  assert.match(html, /<p class="journal-byline"><span>Melike Erke<\/span>/);
+  assert.match(html, /Liste tarihi: 31 Ekim/);
+  const renderedSchemas = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(match => JSON.parse(match[1]));
+  const nodes = renderedSchemas.flatMap(schema => schema['@graph'] || (Array.isArray(schema) ? schema : [schema]));
+  assert.ok(nodes.some(schema => schema['@type'] === 'NewsArticle' && schema.author.name === 'Melike Erke'));
   assert.doesNotMatch(html, /<iframe[^>]+spotify/);
   const schema = articleSchema(article, 'https://www.acupoflyrics.com');
   assert.equal(schema['@type'], 'NewsArticle');
