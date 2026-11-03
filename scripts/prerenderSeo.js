@@ -4,6 +4,7 @@ import { buildPerformerCatalog, creditsFor, artistAliases } from "../src/lib/art
 import { articleAliases } from '../src/data/articleAliases.js';
 import { articleSongSegments, articleLinkHref } from '../src/lib/articleSongLinks.js';
 import { articleSchema } from '../src/lib/articleSchema.js';
+import { journalFor, chartBadge, journalDate } from '../src/lib/journal.js';
 import { biographyFor, artistEntity } from '../src/lib/artistBiography.js';
 import { fileURLToPath } from "node:url";
 import { popGundemiArticles } from "../src/data/popGundemi.js";
@@ -327,6 +328,7 @@ function staticSongArchivePage(items, page, pageCount) {
 }
 
 function staticArticle(article) {
+  const journal = journalFor(article);
   const notice = article.updateNotice;
   const update = notice ? `<section aria-label="${escapeHtml(notice.label)}"><h2>${escapeHtml(notice.label)}</h2><p>${escapeHtml(notice.text)} <a href="${escapeHtml(notice.href)}">${escapeHtml(notice.linkText)} →</a></p><p>${escapeHtml(notice.archiveNote)}</p></section>` : '';
   const linkedText = text => articleSongSegments(text, article, posts).map(part => {
@@ -334,8 +336,14 @@ function staticArticle(article) {
     return href ? `<a href="${escapeHtml(href)}">${escapeHtml(part.text)}</a>` : escapeHtml(part.text);
   }).join('');
   const paragraphs = lines => (lines || []).map(text => `<p>${linkedText(text)}</p>`).join('');
-  const sections = (article.sections || []).map((section, index) => `
-    <section id="bolum-${index + 1}"><h2>${escapeHtml(section.heading)}</h2>${paragraphs(section.body)}${section.list?.length ? `<ul>${section.list.map(text => `<li>${linkedText(text)}</li>`).join('')}</ul>` : ''}${paragraphs(section.afterList)}${(section.questions || []).map(({ question, answer }) => `<h3>${escapeHtml(question)}</h3><p>${linkedText(answer)}</p>`).join('')}</section>`).join("");
+  const articleTable = table => table ? `<div class="pop-story-table-scroll" role="region" aria-label="${escapeHtml(table.caption)}" tabindex="0"><table class="pop-story-table"><caption>${escapeHtml(table.caption)}</caption><thead><tr>${table.columns.map(column => `<th scope="col">${escapeHtml(column)}</th>`).join('')}</tr></thead><tbody>${table.rows.map(row => `<tr>${row.map(cell => `<td>${linkedText(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
+  const sections = journal.stories.map(section => {
+    const translation = posts.find(post => post.slug === section.translationId);
+    return `<article id="${escapeHtml(section.id)}">${section.id !== section.legacyId ? `<span id="${section.legacyId}"></span>` : ''}<h2>${escapeHtml(section.heading)}</h2>${paragraphs(section.body)}${section.list?.length ? `<ul>${section.list.map(text => `<li>${linkedText(text)}</li>`).join('')}</ul>` : ''}${articleTable(section.table)}${paragraphs(section.afterTable)}${paragraphs(section.afterList)}${(section.questions || []).map(({ question, answer }) => `<h3>${escapeHtml(question)}</h3><p>${linkedText(answer)}</p>`).join('')}${translation ? `<a href="/${escapeHtml(translation.slug)}/">${escapeHtml(`${translation.artist} — ${translation.song}`)} Türkçe çevirisini oku</a>` : ''}</article>`;
+  }).join('');
+  const pulse = journal.charts?.length ? `<section aria-label="Liste nabzı"><h2>Liste nabzı</h2>${journal.charts.map(chart => `<a href="#${escapeHtml(chart.target)}"><h3>${chart.rank}. ${escapeHtml(`${chart.artist} — ${chart.title}`)}</h3><p>${escapeHtml(chartBadge(chart))}</p><p>${escapeHtml(chart.line)}</p><small>${escapeHtml(chart.chartName)} · ${chart.chartDate ? 'Liste tarihi' : 'Duyuru'}: ${escapeHtml(journalDate(chart.chartDate || chart.announcedAt))}</small></a>`).join('')}</section>` : '';
+  const tldr = journal.tldr?.length ? `<nav aria-label="30 saniyede bu hafta"><h2>30 saniyede bu hafta</h2><ol>${journal.tldr.map(item => `<li><a href="#${escapeHtml(item.target)}">${escapeHtml(item.text)}</a></li>`).join('')}</ol></nav>` : '';
+  const releases = journal.kpop?.length ? `<section id="kpop"><h2>Bu haftanın K-pop çıkışları</h2>${journal.kpop.map(release => `<h3>${escapeHtml(`${release.artist} — ${release.release}`)}</h3><p>${escapeHtml(release.format)} · <time datetime="${escapeHtml(release.releaseAtKST)}">${escapeHtml(journalDate(release.releaseAtKST, true))} · Türkiye</time></p>`).join('')}</section>` : '';
   const summary = article.summary?.length ? `<section aria-label="60 saniyede"><h2>${escapeHtml(article.summaryTitle || 'Kısa özet')}</h2><ol>${article.summary.map(text => `<li>${escapeHtml(text)}</li>`).join('')}</ol></section>` : '';
   const contents = (article.sections || []).length ? `<nav aria-label="Bu yazıda"><ol>${article.sections.map((section, index) => `<li><a href="#bolum-${index + 1}">${escapeHtml(section.heading)}</a></li>`).join("")}</ol></nav>` : "";
   return staticPage({
@@ -344,7 +352,7 @@ function staticArticle(article) {
     description: article.dek || article.excerpt,
     image: article.image,
     imageAlt: article.imageAlt || `${article.shortTitle || article.title} görseli`,
-    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${update}${contents}${summary}${sections}${staticArticleLinks(article, posts, popGundemiArticles)}`,
+    children: `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>${update}${pulse}${tldr}${releases}${tldr ? '' : contents}${summary}${sections}<p>Kaynak kontrolü: ${escapeHtml(journal.sourcesCheckedAt || article.updatedAt || article.date)}</p>${staticArticleLinks(article, posts, popGundemiArticles)}`,
   });
 }
 

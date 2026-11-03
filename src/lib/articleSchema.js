@@ -1,5 +1,7 @@
 // Keep browser and first-HTML structured data identical.
+import { journalFor } from './journal.js';
 export function articleSchema(article, origin) {
+  const journal = journalFor(article);
   const url = `${origin}/pop-gunlugu/${article.slug}`;
   const story = {
     '@context': 'https://schema.org',
@@ -19,6 +21,10 @@ export function articleSchema(article, origin) {
     publisher: { '@type': 'Organization', name: 'acupoflyrics', url: origin },
     about: article.artistName ? [{ '@type': article.artistType || 'MusicGroup', name: article.artistName }] : undefined,
     citation: article.sources?.map(source => source.url),
+    mentions: journal.recordings?.map(recording => ({
+      '@type': 'MusicRecording', name: recording.title,
+      byArtist: recording.artists.map(name => ({ '@type': recording.group ? 'MusicGroup' : 'Person', name })),
+    })),
   };
   const questions = (article.sections || []).flatMap(section => section.questions || []);
   if (!questions.length) return story;

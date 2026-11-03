@@ -13,7 +13,10 @@ import { articleMetaTitle } from '../lib/meta.js';
 import SiteShell from "../components/site/SiteShell";
 import { Breadcrumbs, Icon } from "../components/site/ui";
 import NotFound from "../components/site/NotFound";
+import { JournalCharts, JournalSidebar, JournalStoryTools } from '../components/JournalWidgets';
+import { journalFor, journalDate } from '../lib/journal.js';
 import "../popGundemiArticle.css";
+import '../journal.css';
 
 function formatDate(value) {
   return new Date(value).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
@@ -65,6 +68,10 @@ export default function PopGundemiArticlePage() {
   const issueLabel = article.issue || "Pop Günlüğü";
   const relatedTranslations = (article.relatedTranslations || []).map(getPost).filter(Boolean);
   const livePanel = article.livePanel;
+  const journal = journalFor(article);
+  // The edition/date already appears above the headline, as in the supplied template.
+  // Keep the complete title for SEO and the underlying editorial record.
+  const displayTitle = journal.period ? article.title.replace(/^Haftanın Müzik Gündemi\s*\([^)]*\):\s*/, '') : article.title;
   const linkedText = text => articleSongSegments(text, article, allPosts).map((part, index) => {
     const href = articleLinkHref(part);
     if (!href) return part.text;
@@ -75,7 +82,7 @@ export default function PopGundemiArticlePage() {
   return (
     <SiteShell theme={storyTheme} wide>
       <article
-        className={`pop-article pop-story pop-story--editorial${article.layout ? ` pop-story--${article.layout}` : ""}`}
+        className={`pop-article pop-story pop-story--editorial journal${article.layout ? ` pop-story--${article.layout}` : ""}`}
         style={{ "--pop-accent": storyTheme.vars["--acl-accent"] }}
       >
         <Breadcrumbs
@@ -86,17 +93,18 @@ export default function PopGundemiArticlePage() {
           ]}
         />
 
-        <header className="pop-story-hero">
+        <header className="pop-story-hero journal-hero--text">
           <div className="pop-story-heading">
             <div className="pop-story-meta">
-              <span className="site-kicker">{article.kicker} · {formatDate(article.date)} · {article.readTime}</span>
               <span className="pop-story-edition">{issueLabel}</span>
+              <span className="site-kicker">{journal.period || formatDate(article.date)} · {article.readTime} okuma</span>
             </div>
-            <h1 className="font-serif">{article.title}</h1>
+            <h1>{displayTitle}</h1>
             <p>{article.dek}</p>
+            <div className="journal-byline"><span>Melike Erke</span><span>Yayın: {formatDate(article.date)}</span></div>
           </div>
-          <figure className="pop-story-visual">
-            <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} />
+          {!journal.charts?.length && <figure className="pop-story-visual">
+            <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} width="600" height="600" fetchPriority="high" />
             <figcaption className="pop-story-cover-stamp">
               <span>{edition}</span>
               <strong>{article.kicker}</strong>
@@ -108,24 +116,13 @@ export default function PopGundemiArticlePage() {
             ) : (
               <span>{article.imageCredit || "acupoflyrics"}</span>
             )}
-          </figure>
+          </figure>}
         </header>
 
+        <JournalCharts charts={journal.charts} />
+
         <div className={`pop-story-reading${hasSections ? " pop-story-reading--with-rail" : ""}`}>
-          {hasSections && (
-            <aside className="pop-story-rail" aria-label="Yazı içeriği">
-              <span className="site-kicker">Bu dosyada</span>
-              <nav>
-                {article.sections.map((section, index) => (
-                  <a key={section.heading} href={`#bolum-${index + 1}`}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    {section.heading}
-                  </a>
-                ))}
-              </nav>
-              <p>{article.readTime} okuma</p>
-            </aside>
-          )}
+          {hasSections && <JournalSidebar key={article.slug} article={article} journal={journal} />}
 
           <div className="pop-story-content">
             {article.updateNotice && (
@@ -135,22 +132,6 @@ export default function PopGundemiArticlePage() {
                 </div>
                 <p>{article.updateNotice.text} <Link to={article.updateNotice.href}>{article.updateNotice.linkText} →</Link></p>
                 <p>{article.updateNotice.archiveNote}</p>
-              </section>
-            )}
-            {article.summary?.length > 0 && (
-              <section className="pop-story-summary" aria-labelledby="story-summary-title">
-                <div className="pop-story-summary-heading">
-                  <span>60 saniyede</span>
-                  <h2 id="story-summary-title" className="font-serif">{article.summaryTitle || "Kısa özet"}</h2>
-                </div>
-                <ol>
-                  {article.summary.map((item, index) => (
-                    <li key={item}>
-                      <span>{String(index + 1).padStart(2, "0")}</span>
-                      <p>{item}</p>
-                    </li>
-                  ))}
-                </ol>
               </section>
             )}
 
@@ -168,16 +149,29 @@ export default function PopGundemiArticlePage() {
 
             {article.sections?.length > 0 && (
               <div className="pop-story-body">
-                {article.sections.map((section, index) => (
-                  <section
+                {journal.stories.map((section, index) => (
+                  <article
                     className="pop-story-section"
-                    id={`bolum-${index + 1}`}
+                    id={section.id}
                     key={section.heading}
                   >
-                    <span className="pop-story-section-number">{String(index + 1).padStart(2, "0")}</span>
-                    <h2 className="font-serif">{section.heading}</h2>
+                    {section.id !== section.legacyId && <span className="journal-anchor" id={section.legacyId} />}
+                    <div className="journal-story-meta"><span className={`journal-badge${section.tag === 'tartışma' ? ' journal-badge--new' : ''}`}>{section.tag || `${String(index + 1).padStart(2, '0')} · ${article.kicker}`}</span>{section.eventDate && <time dateTime={section.eventDate}>Olay: {journalDate(section.eventDate)}</time>}</div>
+                    <h2>{section.heading}</h2>
                     {(section.body || []).map(paragraph => <p key={paragraph}>{linkedText(paragraph)}</p>)}
                     {section.list?.length > 0 && <ul>{section.list.map(item => <li key={item}>{linkedText(item)}</li>)}</ul>}
+                    {section.table && (
+                      <div className="pop-story-table-scroll" role="region" aria-label={section.table.caption} tabIndex={0}>
+                        <table className="pop-story-table">
+                          <caption>{section.table.caption}</caption>
+                          <thead><tr>{section.table.columns.map(column => <th key={column} scope="col">{column}</th>)}</tr></thead>
+                          <tbody>{section.table.rows.map((row, rowIndex) => (
+                            <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{linkedText(cell)}</td>)}</tr>
+                          ))}</tbody>
+                        </table>
+                      </div>
+                    )}
+                    {(section.afterTable || []).map(paragraph => <p key={paragraph}>{linkedText(paragraph)}</p>)}
                     {(section.afterList || []).map(paragraph => <p key={paragraph}>{linkedText(paragraph)}</p>)}
                     {(section.questions || []).map(({ question, answer }) => <div key={question}><h3>{question}</h3><p>{linkedText(answer)}</p></div>)}
                     {section.image && (
@@ -198,7 +192,10 @@ export default function PopGundemiArticlePage() {
                         <p className="font-serif">{article.pullQuote}</p>
                       </aside>
                     )}
-                  </section>
+                    {section.facts?.length > 0 && <ul className="journal-facts">{section.facts.map(fact => <li key={fact}>{fact}</li>)}</ul>}
+                    <JournalStoryTools key={`${article.slug}-${section.id}`} story={section} />
+                    {section.sourceIndexes?.length > 0 && <div className="journal-story-sources">{section.sourceIndexes.map(i => article.sources[i]).filter(Boolean).map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.name} ↗</a>)}</div>}
+                  </article>
                 ))}
               </div>
             )}
@@ -257,6 +254,7 @@ export default function PopGundemiArticlePage() {
             )}
 
             <footer className="pop-story-footer">
+              <p className="journal-checked">Kaynak kontrolü: <time dateTime={journal.sourcesCheckedAt || article.updatedAt || article.date}>{formatDate(journal.sourcesCheckedAt || article.updatedAt || article.date)}</time></p>
               <section className="pop-story-sources">
                 <span className="site-kicker">Meraklısına kaynaklar</span>
                 <div>
