@@ -1,5 +1,17 @@
 [
   {
+    "name": "Dua Lipa",
+    "slug": "dua-lipa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+    "count": 6
+  },
+  {
+    "name": "BLACKPINK",
+    "slug": "blackpink",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056",
+    "count": 19
+  },
+  {
     "name": "Gracie Abrams",
     "slug": "gracie-abrams",
     "image": "https://i.scdn.co/image/ab6761610000e5eb18e3675ebfda9c29cfb2b57e",
@@ -564,12 +576,6 @@
     "count": 2
   },
   {
-    "name": "Dua Lipa",
-    "slug": "dua-lipa",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
-    "count": 5
-  },
-  {
     "name": "WayV",
     "slug": "wayv",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfe7dda7543af010558a6b4b7",
@@ -664,12 +670,6 @@
     "slug": "artms",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc0be4bb287e7a4fc5452d5fc",
     "count": 1
-  },
-  {
-    "name": "BLACKPINK",
-    "slug": "blackpink",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb623538b7014238c54ceee056",
-    "count": 18
   },
   {
     "name": "Stray Kids",

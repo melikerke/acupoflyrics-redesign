@@ -1,5 +1,64 @@
 [
   {
+    "id": "5336",
+    "slug": "dua-lipa-blackpink-kiss-and-make-up-turkce-ceviri",
+    "title": "Dua Lipa & BLACKPINK Kiss and Make Up Türkçe Çeviri",
+    "song": "Kiss and Make Up",
+    "artist": "Dua Lipa & BLACKPINK",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae395b47b186c2bc8c458e0f",
+    "date": "2026-11-03T12:42:15.475Z",
+    "reading_time": 5,
+    "excerpt": "Dua Lipa & BLACKPINK — Kiss and Make Up sözleri ve Türkçe çevirisi. İngilizce ve romanize Korece sözleri, tam çeviriyi ve 10 çeviri notunu oku.",
+    "categories": [
+      "Dua Lipa",
+      "BLACKPINK",
+      "Dua Lipa (Complete Edition)"
+    ],
+    "category_slugs": [
+      "dua-lipa",
+      "blackpink",
+      "dua-lipa-complete-edition"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "dance-pop",
+      "electropop",
+      "k-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7jr3iPu4O4bTCVwLMbdU2i",
+      "albumUrl": "https://open.spotify.com/album/0obMz8EHnr3dg6NCUK4xWp",
+      "artistUrl": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+      "albumName": "Dua Lipa (Complete Edition)",
+      "releaseDate": "2018-10-19",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae395b47b186c2bc8c458e0f",
+      "duration": "3:09",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 20,
+      "totalTracks": 25,
+      "artistName": "Dua Lipa",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+      "artistGenres": [],
+      "albumArtist": "Dua Lipa"
+    },
+    "moods": [
+      "Love"
+    ],
+    "firstPair": {
+      "en": "Kiss and make, kiss, kiss and make up",
+      "tr": "Öpüşüp barışalım, öp, öp de barışalım!"
+    },
+    "heroPair": {
+      "en": "Kiss and make, kiss, kiss and make up",
+      "tr": "Öpüşüp barışalım, öp, öp de barışalım!"
+    }
+  },
+  {
     "id": "5335",
     "slug": "gracie-abrams-here-you-come-there-you-go-turkce-ceviri",
     "title": "Gracie Abrams Here You Come, There You Go Türkçe Çeviri",

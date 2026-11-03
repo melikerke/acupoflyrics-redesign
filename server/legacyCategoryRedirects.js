@@ -162,6 +162,7 @@ export const legacyCategoryRedirects = {
   "drake": "/artist/drake",
   "drip": "/album/ateez-drip",
   "dua-lipa": "/artist/dua-lipa",
+  "dua-lipa-complete-edition": "/album/dua-lipa-dua-lipa-complete-edition",
   "echo": "/album/jin-echo",
   "ed-sheeran": "/artist/ed-sheeran",
   "ella-langley": "/artist/ella-langley",
