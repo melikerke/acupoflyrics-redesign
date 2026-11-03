@@ -60,7 +60,8 @@ test('weekly corrections preserve the official song URL and explicit source attr
   assert.match(article.sections[0].body.join(' '), /Variety’nin Martin Cid’de aktarılan verilerine göre/);
   assert.match(journal.tldr[4].text, /kostümlerine yönelik eleştiriler/);
   assert.equal(articleMetaTitle(article), article.seoTitle);
-  assert.ok(articleMetaTitle(article).length <= 65);
+  assert.match(articleMetaTitle(article), /^Müzik Gündemi: Tate McRae/);
+  assert.ok(articleMetaTitle(article).endsWith(' | acupoflyrics'));
   assert.ok(journal.calendarHref);
   assert.doesNotMatch(JSON.stringify(article.sections), /Kasım 2026 K-pop comeback takvimi/);
 });

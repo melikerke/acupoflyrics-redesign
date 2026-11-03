@@ -416,7 +416,7 @@ function htmlFor(route) {
 
 function route(path, title, description, image, extra = {}) {
   const normalizedDescription = completeSeoDescription(description, extra.locale || "tr");
-  const normalizedTitle = normalizeSeoTitle(title);
+  const normalizedTitle = normalizeSeoTitle(title, { preserveLength: extra.preserveTitle });
   return { path, title: normalizedTitle, description: normalizedDescription, image, ...extra };
 }
 
@@ -511,6 +511,7 @@ for (const article of popGundemiArticles) {
         { name: "Pop Günlüğü", path: "/pop-gunlugu" },
         { name: article.shortTitle, path: articlePath },
       ],
+      preserveTitle: article.preserveSeoTitle,
       jsonLd: articleSchema(article, SITE),
     },
   ));

@@ -13,8 +13,8 @@ test('all editorial titles preserve the brand within the title budget', () => {
   for (const article of popGundemiArticles) {
     const title = articleMetaTitle(article);
     assert.ok(title.endsWith(' | acupoflyrics'), article.slug);
-    assert.ok(title.length <= 65, `${article.slug}: ${title}`);
-    assert.equal(normalizeSeoTitle(title), title);
+    assert.ok(title.length <= (article.preserveSeoTitle ? 120 : 65), `${article.slug}: ${title}`);
+    assert.equal(normalizeSeoTitle(title, { preserveLength: article.preserveSeoTitle }), title);
     const page = decode(fs.readFileSync(`dist/pop-gunlugu/${article.slug}/index.html`, 'utf8'));
     assert.ok(page.includes(`<title>${title}</title>`), article.slug);
   }
@@ -29,7 +29,7 @@ test('related song cards preserve the original artist name casing', () => {
 
 test('July archive has a dated update before the old summary and both articles cross-link', () => {
   const old = popGundemiArticles.find(a => a.slug === 'twice-jyp-sozlesme-yenileme-iddialari');
-  const news = editorialFeatures[0];
+  const news = editorialFeatures.find(article => article.slug === 'twice-jihyo-jyp-ayrildi-emithaus');
   assert.equal(old.date, '2026-07-14');
   assert.equal(old.updatedAt, '2026-10-26');
   // Preserve the historical body, especially the other members' unconfirmed reports.
@@ -46,11 +46,12 @@ test('July archive has a dated update before the old summary and both articles c
 const decode = text => text.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 
 test('new-tone articles retain URLs, summaries, copy, real inline links and metadata in first HTML', () => {
-  assert.deepEqual(editorialFeatures.map(a => a.slug), [
+  const suppliedSlugs = [
     'twice-jihyo-jyp-ayrildi-emithaus',
     '19-26-ekim-2026-haftanin-muzik-gundemi',
     'lisa-press-play-ep-sarkilar-ne-anlatiyor',
-  ]);
+  ];
+  assert.deepEqual(editorialFeatures.filter(article => suppliedSlugs.includes(article.slug)).map(article => article.slug), suppliedSlugs);
   for (const article of editorialFeatures) {
     const raw = fs.readFileSync(`dist/pop-gunlugu/${article.slug}/index.html`, 'utf8');
     const page = decode(raw);
@@ -82,7 +83,7 @@ test('new-tone articles retain URLs, summaries, copy, real inline links and meta
 });
 
 test('Jihyo NewsArticle and FAQ schema agree with the visible questions', () => {
-  const article = editorialFeatures[0];
+  const article = editorialFeatures.find(article => article.slug === 'twice-jihyo-jyp-ayrildi-emithaus');
   const schema = articleSchema(article, 'https://www.acupoflyrics.com');
   const [news, faq] = schema['@graph'];
   assert.equal(news['@type'], 'NewsArticle');

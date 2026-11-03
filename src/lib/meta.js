@@ -39,8 +39,9 @@ export function fitSeoTitle(candidates, maxLength = META_TITLE_MAX) {
   return values.find((value) => value.length <= maxLength) || truncateSeoTitle(values.at(-1), maxLength);
 }
 
-export function normalizeSeoTitle(value) {
+export function normalizeSeoTitle(value, { preserveLength = false } = {}) {
   const title = String(value || "").replace(/\s+/g, " ").trim();
+  if (preserveLength && title && !hasSeoPlaceholder(title)) return title;
   // Preserve complete credits in the editorial template, even for long duets.
   if (/^.+ – .+ (?:Türkçe )?Çeviri(?:, Sözleri(?: ve Anlamı)?)?$/.test(title)) return title;
   if (/^.+ Sözleri(?: ve|,) Türkçe Çeviri – .+$/.test(title)) return title;
@@ -53,6 +54,8 @@ export function articleMetaTitle(article) {
   const suffix = ' | acupoflyrics';
   const clean = value => String(value || '').replace(/\s*\|\s*(?:acupoflyrics|Pop Günlüğü)\s*$/i, '').trim();
   const candidates = [article.seoTitle, article.shortTitle, article.title].map(clean).filter(Boolean);
+  // Editorially approved long titles may be shortened by search engines, not by us.
+  if (article.preserveSeoTitle && clean(article.seoTitle)) return `${clean(article.seoTitle)}${suffix}`;
   const budget = META_TITLE_MAX - suffix.length;
   const title = candidates.find(value => value.length <= budget) || fitSeoTitle([candidates[0] || 'Pop Günlüğü'], budget);
   return `${title}${suffix}`;

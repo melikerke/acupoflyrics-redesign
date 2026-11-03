@@ -169,3 +169,46 @@
   .journal-button, .journal-filters button { transition: none; }
   .journal-button:active, .journal-filters button:active { transform: none; }
 }
+
+/* White paper, translucent surfaces and the article's own cover colour.
+   Scoped to journal pages so lyrics and the rest of the site stay unchanged. */
+.acl-home.is-light:has(.journal) {
+  color-scheme: light;
+  background:
+    radial-gradient(ellipse 850px 620px at 92% 0, var(--acl-glow), transparent 75%),
+    radial-gradient(ellipse 600px 700px at 0 800px, color-mix(in srgb, var(--journal-tint) 8%, transparent), transparent 75%),
+    #fff;
+}
+.acl-home.is-light:has(.journal)::before { opacity: .025; }
+.is-light .journal .journal-glass {
+  background: linear-gradient(135deg, rgba(255,255,255,.88), rgba(255,255,255,.58));
+  border-color: var(--acl-border);
+  box-shadow: 0 6px 24px rgba(32,32,36,.035), inset 0 1px 0 #fff;
+}
+.is-light .journal.pop-story--editorial .pop-story-hero { background: transparent; }
+.is-light .journal.pop-story--editorial .pop-story-section {
+  background: rgba(255,255,255,.55);
+  border-color: rgba(32,32,36,.1);
+}
+.is-light .journal .journal-tldr {
+  border-color: color-mix(in srgb, var(--journal-accent) 24%, transparent);
+  background: linear-gradient(135deg, var(--acl-accent-soft), rgba(255,255,255,.8));
+}
+.is-light .journal .journal-badge:not(.journal-badge--new),
+.is-light .journal .journal-tldr li > span,
+.is-light .journal .journal-facts li { background: var(--acl-accent-soft); }
+.is-light .journal .journal-badge--record { color: var(--journal-accent); }
+.is-light .journal .journal-filters button,
+.is-light .journal .journal-button { background: rgba(255,255,255,.8); border-color: rgba(32,32,36,.22); }
+.is-light .journal .pop-story-edition,
+.is-light .journal .journal-play-button,
+.is-light .journal .journal-filters button[aria-pressed="true"],
+.is-light .journal .journal-button--primary { background: var(--journal-accent); color: #fff; border-color: transparent; }
+.is-light .journal .journal-player {
+  background: linear-gradient(110deg, var(--acl-accent-soft), rgba(255,255,255,.7));
+}
+.is-light .journal .journal-preview { background: var(--acl-accent-soft); padding: 16px 18px; border-radius: 0 12px 12px 0; }
+@media (hover: hover) and (pointer: fine) {
+  .is-light .journal .journal-chart:hover,
+  .is-light .journal .journal-button:hover { border-color: var(--journal-accent); }
+}

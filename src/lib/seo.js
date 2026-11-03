@@ -58,6 +58,7 @@ function setJsonLd(id, data) {
 // `breadcrumbs`: [{ name, path }] ordered root → current.
 export function useSeo({
   title,
+  preserveTitle = false,
   description,
   path,
   image,
@@ -70,7 +71,7 @@ export function useSeo({
 }) {
   useEffect(() => {
     if (!title) return;
-    const metaTitle = normalizeSeoTitle(title);
+    const metaTitle = normalizeSeoTitle(title, { preserveLength: preserveTitle });
     const metaDescription = completeSeoDescription(description, locale);
     const url = path ? `${ORIGIN}${path}` : undefined;
     document.title = metaTitle;
@@ -114,5 +115,5 @@ export function useSeo({
     setJsonLd("apl-structured-data", jsonLd);
     // Re-run whenever the serialisable inputs change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title, description, path, image, type, noindex, locale, JSON.stringify(alternates), JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
+  }, [title, preserveTitle, description, path, image, type, noindex, locale, JSON.stringify(alternates), JSON.stringify(breadcrumbs), JSON.stringify(jsonLd)]);
 }

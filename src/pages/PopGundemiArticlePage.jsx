@@ -7,7 +7,7 @@ import { articleSchema } from '../lib/articleSchema.js';
 import { articleLinkHref, articleSongSegments } from '../lib/articleSongLinks.js';
 import { useAlbumColor } from "../lib/color";
 import { ORIGIN, artistPath, popJournalPath } from "../lib/paths";
-import { themeFromColor } from "../lib/theme";
+import { journalThemeFromColor } from "../lib/journalTheme.js";
 import { useSeo } from "../lib/seo";
 import { articleMetaTitle } from '../lib/meta.js';
 import SiteShell from "../components/site/SiteShell";
@@ -42,9 +42,10 @@ export default function PopGundemiArticlePage() {
   const articlePath = article ? popJournalPath(article) : popJournalPath();
   const fallbackColor = useMemo(() => colorFromHex(article?.accent), [article?.accent]);
   const coverColor = useAlbumColor(article?.image, fallbackColor);
-  const storyTheme = useMemo(() => themeFromColor(coverColor), [coverColor]);
+  const storyTheme = useMemo(() => journalThemeFromColor(coverColor), [coverColor]);
   useSeo({
     title: article ? articleMetaTitle(article) : "Pop Günlüğü | acupoflyrics",
+    preserveTitle: article?.preserveSeoTitle,
     description: article?.metaDescription || article?.excerpt,
     path: articlePath,
     image: article?.image,
