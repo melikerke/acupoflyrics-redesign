@@ -22,10 +22,6 @@ function formatDate(value) {
   return new Date(value).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
 }
 
-function formatEdition(value) {
-  return new Date(value).toLocaleDateString("tr-TR", { month: "long", year: "numeric" });
-}
-
 function colorFromHex(value, fallback = [214, 69, 122]) {
   const hex = String(value || "").replace("#", "");
   if (!/^[0-9a-f]{6}$/i.test(hex)) return fallback;
@@ -65,7 +61,6 @@ export default function PopGundemiArticlePage() {
   const newerArticle = articleIndex > 0 ? popGundemiArticles[articleIndex - 1] : null;
   const olderArticle = articleIndex < popGundemiArticles.length - 1 ? popGundemiArticles[articleIndex + 1] : null;
   const hasSections = article.sections?.length > 0;
-  const edition = article.edition || formatEdition(article.date);
   const issueLabel = article.issue || "Pop Günlüğü";
   const relatedTranslations = (article.relatedTranslations || []).map(getPost).filter(Boolean);
   const livePanel = article.livePanel;
@@ -94,30 +89,26 @@ export default function PopGundemiArticlePage() {
           ]}
         />
 
-        <header className="pop-story-hero journal-hero--text">
+        <header className={`pop-story-hero journal-hero--text${article.image ? ' journal-hero--with-cover' : ''}`}>
           <div className="pop-story-heading">
             <div className="pop-story-meta">
               <span className="pop-story-edition">{issueLabel}</span>
               <span className="site-kicker">{journal.period || formatDate(article.date)} · {article.readTime} okuma</span>
             </div>
+          {article.image && <figure className="journal-cover">
+            {article.imageSource ? (
+              <a href={article.imageSource} target="_blank" rel="noopener noreferrer" aria-label={`Görsel kaynağı: ${article.imageCredit || article.title}`}>
+                <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} width="600" height="600" fetchPriority="high" />
+              </a>
+            ) : (
+              <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} width="600" height="600" fetchPriority="high" />
+            )}
+            {article.imageCredit && <figcaption>{article.imageCredit}</figcaption>}
+          </figure>}
             <h1>{displayTitle}</h1>
             <p>{article.dek}</p>
             <div className="journal-byline"><span>Melike Erke</span><span>Yayın: {formatDate(article.date)}</span></div>
           </div>
-          {!journal.charts?.length && <figure className="pop-story-visual">
-            <img src={article.image} alt={article.imageAlt || `${article.title} görseli`} width="600" height="600" fetchPriority="high" />
-            <figcaption className="pop-story-cover-stamp">
-              <span>{edition}</span>
-              <strong>{article.kicker}</strong>
-            </figcaption>
-            {article.imageSource ? (
-              <a href={article.imageSource} target="_blank" rel="noopener noreferrer">
-                {article.imageCredit || "acupoflyrics"}
-              </a>
-            ) : (
-              <span>{article.imageCredit || "acupoflyrics"}</span>
-            )}
-          </figure>}
         </header>
 
         <JournalCharts charts={journal.charts} />
