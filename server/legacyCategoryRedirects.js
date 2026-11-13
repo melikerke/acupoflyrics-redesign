@@ -212,6 +212,7 @@ export const legacyCategoryRedirects = {
   "golden-hour-part-2": "/album/ateez-golden-hour-part-2",
   "golden-hour-part-3": "/album/ateez-golden-hour-part-3",
   "golden-hour-part-5": "/album/ateez-golden-hour-part-5",
+  "golden-hour-part-6": "/album/ateez-golden-hour-part-6",
   "golden-hour-pt-2": "/album/ateez-golden-hour-part-2",
   "got7": "/artist/got7",
   "gracie-abrams": "/artist/gracie-abrams",

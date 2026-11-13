@@ -1344,9 +1344,9 @@ export const translationQueue = [
     "song": "UP",
     "releaseDate": "2026-11-13",
     "addedAt": "2026-11-03",
-    "romanization": "Korece/Japonca bölümler; yayımlanmış sözler teslim edildiğinde kontrol edilmeli",
-    "source": "https://www.kpopcomebacks.com/calendar/2026/11/",
-    "status": "Yayın bekleniyor"
+    "romanization": "Korece dizelerin romanizasyonu eklendi",
+    "source": "https://www.melon.com/song/detail.htm?songId=603862285",
+    "status": "Çeviri yayımlandı"
   },
   {
     "artist": "H1-KEY",

@@ -1,5 +1,11 @@
 [
   {
+    "name": "ATEEZ",
+    "slug": "ateez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+    "count": 7
+  },
+  {
     "name": "Dua Lipa",
     "slug": "dua-lipa",
     "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
@@ -76,12 +82,6 @@
     "slug": "jihyo",
     "image": "https://i.scdn.co/image/ab6761610000e5eb23bc8f178f9fd3e56f6f6a27",
     "count": 1
-  },
-  {
-    "name": "ATEEZ",
-    "slug": "ateez",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
-    "count": 6
   },
   {
     "name": "LISA",

@@ -1,5 +1,612 @@
 [
   {
+    "id": "5337",
+    "title": "ATEEZ UP Türkçe Çeviri",
+    "song": "UP",
+    "slug": "ateez-up-turkce-ceviri",
+    "date": "2026-11-13T12:34:57.137Z",
+    "artist": "ATEEZ",
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "originalLanguages": [
+      "ko",
+      "en"
+    ],
+    "categories": [
+      "ATEEZ",
+      "GOLDEN HOUR : Part.6"
+    ],
+    "category_slugs": [
+      "ateez",
+      "golden-hour-part-6"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Giriş",
+        "lines": [
+          "Oh, oh",
+          "Oh, oh",
+          "Oh, oh"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Giriş",
+        "lines": [
+          "Oh, oh!",
+          "Oh, oh!",
+          "Oh, oh!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 1: Yunho, Seonghwa, San, Yeosang, Wooyoung",
+        "lines": [
+          "[Yunho]",
+          "Yeah, hangyereul neomeo feel the power taking over me",
+          "tteoreo tteoreo aljana we are the enemy",
+          "[Seonghwa]",
+          "magabwa nobody's gonna ever stop the scene",
+          "dwijibeo michinnom gachi wanjeonhi",
+          "[San]",
+          "Ash covered, bulletproof, my skin",
+          "hyusik ttawi ain't for us, lock in",
+          "[Yeosang]",
+          "No more hesitating gyang mireo neoeo",
+          "[Wooyoung]",
+          "jageukhaji ma tear it all apart"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Kıta 1: Yunho, Seonghwa, San, Yeosang, Wooyoung",
+        "lines": [
+          "[Yunho]",
+          "Yeah, sınırları aşıyorum, gücün bütün bedenimi ele geçirdiğini hissediyorum!",
+          "Titreyin, titreyin! Biliyorsunuz, asıl düşman biziz!",
+          "[Seonghwa]",
+          "Hadi, engellemeye çalışın! Bu gösteriyi kimse durduramayacak!",
+          "Her şeyi altüst edeceğiz, tam bir delirmiş gibi!",
+          "[San]",
+          "Küllerle kaplıyım ama derim kurşun geçirmez!",
+          "Dinlenmek de neymiş? Bize göre değil! Tam konsantrasyon!",
+          "[Yeosang]",
+          "Artık tereddüt yok, basıp geç!",
+          "[Wooyoung]",
+          "Beni kışkırtma, yoksa her şeyi paramparça ederim!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Jongho, Wooyoung, Yeosang",
+        "lines": [
+          "[Jongho]",
+          "Woah, teokkkeutkkaji chaoreun dok",
+          "Can't hold it back anymore",
+          "[Wooyoung]",
+          "nan gyesok wonhae deo",
+          "I'm pushing all the way, sori jilleo, my name",
+          "[Yeosang]",
+          "(Mm, oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat: Jongho, Wooyoung, Yeosang",
+        "lines": [
+          "[Jongho]",
+          "Woah, zehir boğazıma kadar yükseldi!",
+          "Artık içimde tutamıyorum!",
+          "[Wooyoung]",
+          "Ben hâlâ daha fazlasını istiyorum!",
+          "Sonuna kadar zorluyorum, haykırın adımı!",
+          "[Yeosang]",
+          "(Mm, oh!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Seonghwa, San, Yunho, Yeosang, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "teojyeo onmome jindongi risin' up",
+          "ttaega dwaesseo ssak dwijibeo",
+          "[San]",
+          "michyeo nalttwieo 'bout to go up",
+          "Go up, up, up, up",
+          "[Yunho]",
+          "peojyeo onmome yeolgiga burnin' up",
+          "jeonbureul wonhae da wichiro",
+          "[Yeosang]",
+          "michyeo nalttwieo 'bout to go up",
+          "[Jongho]",
+          "kkeutkkaji ollaga, yeah, we go up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: Seonghwa, San, Yunho, Yeosang, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "Patlıyor içimdeki enerji, bütün bedenimde titreşimler yükseliyor!",
+          "Vakit geldi, her şeyi kökünden altüst edeceğiz!",
+          "[San]",
+          "Deliler gibi coşuyoruz, yükselmek üzereyiz!",
+          "Yukarı, yukarı, yukarı, yukarı!",
+          "[Yunho]",
+          "Alev alev yayılıyor sıcaklık bütün bedenime!",
+          "Her şeyi istiyorum. Herkes yerine!",
+          "[Yeosang]",
+          "Deliler gibi coşuyoruz, yükselmek üzereyiz!",
+          "[Jongho]",
+          "En tepeye kadar çıkacağız, yeah, yükseliyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 2: Hongjoong, Mingi",
+        "lines": [
+          "[Hongjoong]",
+          "pallyeonjjae join tension, sumdo an swigo take off",
+          "deo mugeowojin chegeup nae rivaleul naegeseo check up",
+          "I'm my enemy, tto daeum wi, oh, where are we?",
+          "Out of pitch, i symphonyreul jindujihwi (Fix on)",
+          "[Mingi]",
+          "TREASUREbuteo GOLDEN HOURkkaji dohwajireul chaewotji page by page",
+          "maeseukeomgwa isyumori kkeuteomneun pohwa sok paved the way, way, way, way",
+          "changdaehan giri yeollyeotji han kkeut chairo gallyeotji (Say my name, say my name)",
+          "geu iyuga urin mame deureoseo jeongsangeul jjikgo ollawatji (On my, my way)",
+          "yeonggeobui sigan sok ssaa ollin painful (Hoo)",
+          "[Hongjoong]",
+          "geochimeomneun chumeneun eopseo dareun rule (Hoo)",
+          "[Mingi]",
+          "kkumkkwowatdeon kkumdeureul ije hyeonsillo jeonbu i pane ollyeo",
+          "[Hongjoong]",
+          "kkeuchi eomneun taedo urin jeongsangi eopseo 'til we die"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Kıta 2: Hongjoong, Mingi",
+        "lines": [
+          "[Hongjoong]",
+          "Sekiz yıldır gerilimi sonuna kadar sıkıyoruz, nefes bile almadan havalanıyoruz!",
+          "Sıkletimiz artık çok daha ağır, rakiplerimi benimle kıyaslayıp kontrol edin!",
+          "Kendi düşmanım yine benim, sıradaki seviye nerede, ha, şimdi neredeyiz?",
+          "Alışılmış notaların dışına çıkmış bu senfoniyi ben yönetiyorum! (Fix on!)",
+          "[Mingi]",
+          "TREASURE'dan GOLDEN HOUR'a, tuvalimizi sayfa sayfa doldurduk!",
+          "Medyanın ve bitmek bilmeyen gündem bombardımanının ortasında kendi yolumuzu açtık, açtık, açtık!",
+          "Önümüzde kocaman bir yol açıldı, her şey kıl payı farklarla belirlendi! (Adımı söyle, adımı söyle!)",
+          "Çünkü bunu gerçekten seviyoruz; zirveye ulaşmak için tırmandık! (Kendi yolumdayım!)",
+          "Sonsuzluk kadar uzun gelen zaman boyunca biriktirdiğimiz acılar... (Hoo!)",
+          "[Hongjoong]",
+          "Durdurulamaz dansımızın kendine özgü kuralları var, başkasınınkine uymaz! (Hoo!)",
+          "[Mingi]",
+          "Bir zamanlar hayalini kurduğumuz her şeyi şimdi gerçeğe dönüştürüp ortaya koyuyoruz!",
+          "[Hongjoong]",
+          "Bu tavrımızın sonu yok; ölene dek ne sıradanlaşacağız ne de bir zirveyle yetineceğiz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: San, Yunho, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "[San]",
+          "teojyeo onmome jindongi risin' up",
+          "ttaega dwaesseo ssak dwijibeo",
+          "[Yunho]",
+          "michyeo nalttwieo 'bout to go up",
+          "Go up, up, up, up",
+          "[Yeosang]",
+          "peojyeo onmome yeolgiga burnin' up",
+          "jeonbureul wonhae da wichiro",
+          "[Wooyoung]",
+          "michyeo nalttwieo 'bout to go up",
+          "[Jongho]",
+          "kkeutkkaji ollaga, yeah, we go up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: San, Yunho, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "[San]",
+          "Patlıyor içimdeki enerji, bütün bedenimde titreşimler yükseliyor!",
+          "Vakit geldi, her şeyi kökünden altüst edeceğiz!",
+          "[Yunho]",
+          "Deliler gibi coşuyoruz, yükselmek üzereyiz!",
+          "Yukarı, yukarı, yukarı, yukarı!",
+          "[Yeosang]",
+          "Alev alev yayılıyor sıcaklık bütün bedenime!",
+          "Her şeyi istiyorum. Herkes yerine!",
+          "[Wooyoung]",
+          "Deliler gibi coşuyoruz, yükselmek üzereyiz!",
+          "[Jongho]",
+          "En tepeye kadar çıkacağız, yeah, yükseliyoruz!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü: Seonghwa, Wooyoung, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "deo gajyeowa deo I want more, yeah",
+          "kkeuchi eopseo nan I want more, yeah",
+          "[Wooyoung]",
+          "sesang modeun wi we breaking boundaries",
+          "ollaga moduui gieok soge sum swigil",
+          "[Jongho]",
+          "igose namgiri uriui balgiri",
+          "'Til the echo runs away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Köprü: Seonghwa, Wooyoung, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "Daha fazlasını getirin, daha fazlasını istiyorum, yeah!",
+          "Bunun sonu yok, ben daha fazlasını istiyorum, yeah!",
+          "[Wooyoung]",
+          "Dünyadaki bütün sınırları aşıyoruz!",
+          "Yükseliyoruz; herkesin hafızasında yaşamaya devam edelim diye!",
+          "[Jongho]",
+          "Burada izimizi bırakacağız,",
+          "Yankımız tamamen kaybolana dek!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ara Bölüm: Jongho",
+        "lines": [
+          "Runs away"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ara Bölüm: Jongho",
+        "lines": [
+          "Kaybolana dek..."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış: San, Yunho",
+        "lines": [
+          "[San]",
+          "Yeah, we goin' up, goin' up",
+          "Yeah, we goin' up",
+          "[Yunho]",
+          "michyeo nalttwieo 'bout to go up",
+          "Go up, up, up"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Çıkış: San, Yunho",
+        "lines": [
+          "[San]",
+          "Yeah, yükseliyoruz, yükseliyoruz!",
+          "Yeah, yükseliyoruz!",
+          "[Yunho]",
+          "Deliler gibi coşuyoruz, yükselmek üzereyiz!",
+          "Yukarı, yukarı, yukarı!"
+        ]
+      }
+    ],
+    "excerpt": "ATEEZ — UP sözleri ve Türkçe çevirisi. Üye bölümleri, Korece okunuşlar ve şarkının sekiz yıllık kariyere göndermeleri.",
+    "annotations": {
+      "asıl düşman biziz": "İlk kıtada tehdit rakiplere dönük. Hongjoong rapte aynı kelimeyi kendine çeviriyor: «Kendi düşmanım yine benim.» Böylece aşılması gereken sınır, grubun kendi geçmiş performansı da oluyor.",
+      "Tam konsantrasyon": "«Lock in» burada kilitlenmek değil, başka her şeyi bırakıp hedefe odaklanmak. Dinlenmeyi küçümseyen önceki sözle birleşince sahneye çıkmadan verilen kısa bir komut gibi duyuluyor.",
+      "zehir boğazıma kadar yükseldi": "Korece imge, zehrin çene ucuna kadar dolması. Hemen ardından gelen «Artık içimde tutamıyorum» sözü, zehri taşmak üzere olan öfke ya da hırs olarak okumaya izin veriyor.",
+      "Herkes yerine": "Korece «다 위치로» bir yön bildiriyor: «Herkes pozisyonuna!» Nakarat boyunca yukarı çıkmaktan söz edilse de bu satırda yön zirveye değil, herkesin kendi yerine.",
+      "Sıkletimiz artık çok daha ağır": "체급 dövüş sporlarındaki ağırlık kategorisi. Sekiz yıllık kariyerin ardından grup başka bir sıklette mücadele ediyor; hemen sonraki dizede Hongjoong karşısına rakip olarak yine kendisini koyuyor.",
+      "bu senfoniyi ben yönetiyorum": "«Out of pitch» beklenen notanın dışında kalmayı, hatta notayı tutturamamayı çağrıştırıyor. Hongjoong buna rağmen orkestrayı yöneten kişi: kulağa hata gibi gelen şeyin kontrolü onda.",
+      "tuvalimizi sayfa sayfa doldurduk": "도화지 aslında resim kâğıdı. Boş sayfaları doldurmak, ATEEZ’in ilk TREASURE kayıtlarından GOLDEN HOUR dönemine uzanan sekiz yılı anlatıyor. Mingi, eski sözlere döndüklerini ve ATEEZ — Pirate King’den bir melodiyi yeniden kullandıklarını da açıkladı.",
+      "gündem bombardımanının": "포화 topçu ateşi demek. Rap, medyanın ilgisini bu ateşin ortasında yol açmaya benzetiyor. Kimin adına ya da hangi başka gruba karşı yol açıldığı söylenmiyor.",
+      "Adımı söyle, adımı söyle": "Ön nakarattaki «haykırın adımı» çağrısı, rapin arka vokalinde «Say my name» olarak geri geliyor. Tekrar, aynı adlı ATEEZ — Say My Name’i çağrıştırıyor; her iki ifadenin de o şarkıdan alıntı olduğu doğrulanmış değil.",
+      "ne sıradanlaşacağız ne de bir zirveyle yetineceğiz": "정상 aynı sesle hem «zirve» (頂上) hem «normal olma hâli» (正常) anlamına gelebilir. Birkaç satır önce zirveye ulaşmaktan söz edilmesi ilk anlamı öne çıkarıyor. Türkçedeki «sıradanlaşmayacağız» ise ikinci anlamı da duyuran bir çeviri tercihi.",
+      "Burada izimizi bırakacağız": "발길 adımı, yürünüp geçilen yolu düşündürüyor. Önce insanların hafızasında nefes almaktan, sonra ayak izinden ve yankıdan söz ediliyor: ses kesildikten sonra geride ne kalacağı, köprünün asıl sorusu."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "2DpMn9r9LPpa5PaR4XGFBP",
+        "name": "UP",
+        "url": "https://open.spotify.com/track/2DpMn9r9LPpa5PaR4XGFBP",
+        "isrc": "KRD442600028",
+        "durationMs": 206320,
+        "duration": "3:26",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 3,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "68KmkJeZGfwe1OUaivBa2L",
+        "name": "ATEEZ",
+        "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "68KmkJeZGfwe1OUaivBa2L",
+          "name": "ATEEZ",
+          "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L"
+        }
+      ],
+      "album": {
+        "id": "5UKj0Dge5ik5jw3JVjoxof",
+        "name": "GOLDEN HOUR : Part.6",
+        "url": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38",
+        "artists": [
+          {
+            "id": "68KmkJeZGfwe1OUaivBa2L",
+            "name": "ATEEZ",
+            "url": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L"
+          }
+        ],
+        "releaseDate": "2026-11-13",
+        "releaseDatePrecision": "day",
+        "albumType": "EP",
+        "rawAlbumType": "single",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "(P) 2026 KQ Entertainment under license to Sony Music Entertainment Korea Inc.",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 5,
+        "tracks": [
+          {
+            "id": "2zJTkshMLjHy8YstGeb9H1",
+            "name": "ANEMIA",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 176307,
+            "duration": "2:56",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2zJTkshMLjHy8YstGeb9H1",
+            "isCurrent": false
+          },
+          {
+            "id": "19nXYWGmcxlCAEB9QUDKBu",
+            "name": "Drip",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 181790,
+            "duration": "3:02",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/19nXYWGmcxlCAEB9QUDKBu",
+            "isCurrent": false
+          },
+          {
+            "id": "2DpMn9r9LPpa5PaR4XGFBP",
+            "name": "UP",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 206320,
+            "duration": "3:26",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2DpMn9r9LPpa5PaR4XGFBP",
+            "isCurrent": true
+          },
+          {
+            "id": "7vI75pYCMrl7nrSyW0FVkG",
+            "name": "FAITH",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 208614,
+            "duration": "3:29",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7vI75pYCMrl7nrSyW0FVkG",
+            "isCurrent": false
+          },
+          {
+            "id": "6w2orlH7KU4anLRQG7VBmW",
+            "name": "Hollow Victory",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 195027,
+            "duration": "3:15",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6w2orlH7KU4anLRQG7VBmW",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-13T12:33:27.723Z",
+      "trackUrl": "https://open.spotify.com/track/2DpMn9r9LPpa5PaR4XGFBP",
+      "albumUrl": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "GOLDEN HOUR : Part.6",
+      "albumType": "EP",
+      "releaseDate": "2026-11-13",
+      "duration": "3:26",
+      "isrc": "KRD442600028",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=SGovymtCzvA",
+    "source": "user-provided",
+    "genres": [
+      "k-pop",
+      "hip-hop",
+      "pop-rap"
+    ],
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "originalScriptBlocks": [
+      {
+        "original": true,
+        "label": "Giriş",
+        "lines": [
+          "Oh, oh",
+          "Oh, oh",
+          "Oh, oh"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 1: Yunho, Seonghwa, San, Yeosang, Wooyoung",
+        "lines": [
+          "[Yunho]",
+          "Yeah, 한계를 넘어 feel the power taking over me",
+          "떨어 떨어 알잖아 we are the enemy",
+          "[Seonghwa]",
+          "막아봐 nobody's gonna ever stop the scene",
+          "뒤집어 미친놈 같이 완전히",
+          "[San]",
+          "Ash covered, bulletproof, my skin",
+          "휴식 따위 ain't for us, lock in",
+          "[Yeosang]",
+          "No more hesitating 걍 밀어 넣어",
+          "[Wooyoung]",
+          "자극하지 마 tear it all apart"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Jongho, Wooyoung, Yeosang",
+        "lines": [
+          "[Jongho]",
+          "Woah, 턱끝까지 차오른 독",
+          "Can't hold it back anymore",
+          "[Wooyoung]",
+          "난 계속 원해 더",
+          "I'm pushing all the way, 소리 질러, my name",
+          "[Yeosang]",
+          "(Mm, oh)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Seonghwa, San, Yunho, Yeosang, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "터져 온몸에 진동이 risin' up",
+          "때가 됐어 싹 뒤집어",
+          "[San]",
+          "미쳐 날뛰어 'bout to go up",
+          "Go up, up, up, up",
+          "[Yunho]",
+          "퍼져 온몸에 열기가 burnin' up",
+          "전부를 원해 다 위치로",
+          "[Yeosang]",
+          "미쳐 날뛰어 'bout to go up",
+          "[Jongho]",
+          "끝까지 올라가, yeah, we go up"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 2: Hongjoong, Mingi",
+        "lines": [
+          "[Hongjoong]",
+          "팔년째 조인 tension, 숨도 안 쉬고 take off",
+          "더 무거워진 체급 내 rival을 내게서 check up",
+          "I'm my enemy, 또 다음 위, oh, where are we?",
+          "Out of pitch, 이 symphony를 진두지휘 (Fix on)",
+          "[Mingi]",
+          "TREASURE부터 GOLDEN HOUR까지 도화지를 채웠지 page by page",
+          "매스컴과 이슈몰이 끝없는 포화 속 paved the way, way, way, way",
+          "창대한 길이 열렸지 한 끗 차이로 갈렸지 (Say my name, say my name)",
+          "그 이유가 우린 맘에 들어서 정상을 찍고 올라왔지 (On my, my way)",
+          "영겁의 시간 속 쌓아 올린 painful (Hoo)",
+          "[Hongjoong]",
+          "거침없는 춤에는 없어 다른 rule (Hoo)",
+          "[Mingi]",
+          "꿈꿔왔던 꿈들을 이제 현실로 전부 이 판에 올려",
+          "[Hongjoong]",
+          "끝이 없는 태도 우린 정상이 없어 'til we die"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: San, Yunho, Yeosang, Wooyoung, Jongho",
+        "lines": [
+          "[San]",
+          "터져 온몸에 진동이 risin' up",
+          "때가 됐어 싹 뒤집어",
+          "[Yunho]",
+          "미쳐 날뛰어 'bout to go up",
+          "Go up, up, up, up",
+          "[Yeosang]",
+          "퍼져 온몸에 열기가 burnin' up",
+          "전부를 원해 다 위치로",
+          "[Wooyoung]",
+          "미쳐 날뛰어 'bout to go up",
+          "[Jongho]",
+          "끝까지 올라가, yeah, we go up"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü: Seonghwa, Wooyoung, Jongho",
+        "lines": [
+          "[Seonghwa]",
+          "더 가져와 더 I want more, yeah",
+          "끝이 없어 난 I want more, yeah",
+          "[Wooyoung]",
+          "세상 모든 위 we breaking boundaries",
+          "올라가 모두의 기억 속에 숨 쉬길",
+          "[Jongho]",
+          "이곳에 남기리 우리의 발길이",
+          "'Til the echo runs away"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ara Bölüm: Jongho",
+        "lines": [
+          "Runs away"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış: San, Yunho",
+        "lines": [
+          "[San]",
+          "Yeah, we goin' up, goin' up",
+          "Yeah, we goin' up",
+          "[Yunho]",
+          "미쳐 날뛰어 'bout to go up",
+          "Go up, up, up"
+        ]
+      }
+    ],
+    "editorialSources": [
+      {
+        "label": "Melon — ATEEZ — UP: Korece sözler ve künye",
+        "url": "https://www.melon.com/song/detail.htm?songId=603862285"
+      },
+      {
+        "label": "Yonhap — Mingi’nin 12 Kasım basın toplantısındaki açıklaması",
+        "url": "https://en.yna.co.kr/view/AEN20261112012100315"
+      },
+      {
+        "label": "Soompi — ATEEZ’in albüm basın toplantısı",
+        "url": "https://www.soompi.com/article/1886248wpp/exclusive-ateez-reflects-on-bad-success-and-sets-their-sights-on-up-at-comeback-press-conference"
+      }
+    ]
+  },
+  {
     "id": "5336",
     "title": "Dua Lipa & BLACKPINK Kiss and Make Up Türkçe Çeviri",
     "song": "Kiss and Make Up",

@@ -175,6 +175,8 @@ export const legacyPostRedirects = {
   "ateez-in-your-fantasy-turkce-ceviri": "/ateez-in-your-fantasy-turkce-ceviri/",
   "ateez-lemon-drop": "/ateez-lemon-drop-turkce-ceviri/",
   "ateez-lemon-drop-turkce-ceviri": "/ateez-lemon-drop-turkce-ceviri/",
+  "ateez-up": "/ateez-up-turkce-ceviri/",
+  "ateez-up-turkce-ceviri": "/ateez-up-turkce-ceviri/",
   "attention": "/charlie-puth-attention-turkce-ceviri/",
   "attitude": "/ive-attitude-turkce-ceviri/",
   "audrey-hobert-sue-me": "/audrey-hobert-sue-me-turkce-ceviri/",

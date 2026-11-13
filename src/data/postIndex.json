@@ -1,5 +1,63 @@
 [
   {
+    "id": "5337",
+    "slug": "ateez-up-turkce-ceviri",
+    "title": "ATEEZ UP Türkçe Çeviri",
+    "song": "UP",
+    "artist": "ATEEZ",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38",
+    "date": "2026-11-13T12:34:57.137Z",
+    "reading_time": 5,
+    "excerpt": "ATEEZ — UP sözleri ve Türkçe çevirisi. Üye bölümleri, Korece okunuşlar ve şarkının sekiz yıllık kariyere göndermeleri.",
+    "categories": [
+      "ATEEZ",
+      "GOLDEN HOUR : Part.6"
+    ],
+    "category_slugs": [
+      "ateez",
+      "golden-hour-part-6"
+    ],
+    "languages": {
+      "original": "ko",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "k-pop",
+      "hip-hop",
+      "pop-rap"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/2DpMn9r9LPpa5PaR4XGFBP",
+      "albumUrl": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
+      "artistUrl": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L",
+      "albumName": "GOLDEN HOUR : Part.6",
+      "releaseDate": "2026-11-13",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f69b1e29cd8a05310d40da38",
+      "duration": "3:26",
+      "albumType": "EP",
+      "label": null,
+      "trackNumber": 3,
+      "totalTracks": 5,
+      "artistName": "ATEEZ",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
+      "artistGenres": [],
+      "albumArtist": "ATEEZ"
+    },
+    "moods": [
+      "Motivation",
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Oh, oh",
+      "tr": "Oh, oh!"
+    },
+    "heroPair": {
+      "en": "teojyeo onmome jindongi risin' up",
+      "tr": "Patlıyor içimdeki enerji, bütün bedenimde titreşimler yükseliyor!"
+    }
+  },
+  {
     "id": "5336",
     "slug": "dua-lipa-blackpink-kiss-and-make-up-turkce-ceviri",
     "title": "Dua Lipa & BLACKPINK Kiss and Make Up Türkçe Çeviri",
