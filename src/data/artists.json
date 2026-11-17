@@ -290,7 +290,7 @@
   {
     "slug": "katy-perry",
     "name": "Katy Perry",
-    "count": 4,
+    "count": 5,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482"
   },
   {
@@ -2308,5 +2308,11 @@
     "name": "Absolutely",
     "count": 1,
     "image": null
+  },
+  {
+    "slug": "skip-marley",
+    "name": "Skip Marley",
+    "count": 1,
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb39a239113a0c0e9eb94ac0d"
   }
 ]

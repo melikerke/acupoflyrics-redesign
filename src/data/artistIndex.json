@@ -1,5 +1,17 @@
 [
   {
+    "name": "Katy Perry",
+    "slug": "katy-perry",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482",
+    "count": 5
+  },
+  {
+    "name": "Skip Marley",
+    "slug": "skip-marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb39a239113a0c0e9eb94ac0d",
+    "count": 1
+  },
+  {
     "name": "ATEEZ",
     "slug": "ateez",
     "image": "https://i.scdn.co/image/ab6761610000e5eb630859e6682cfa878243bacc",
@@ -1042,12 +1054,6 @@
     "slug": "dominic-fike",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9",
     "count": 2
-  },
-  {
-    "name": "Katy Perry",
-    "slug": "katy-perry",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482",
-    "count": 4
   },
   {
     "name": "The Goo Goo Dolls",

@@ -1,5 +1,64 @@
 [
   {
+    "id": "5338",
+    "slug": "katy-perry-skip-marley-chained-to-the-rhythm-turkce-ceviri",
+    "title": "Katy Perry feat. Skip Marley Chained to the Rhythm Türkçe Çeviri",
+    "song": "Chained to the Rhythm",
+    "artist": "Katy Perry feat. Skip Marley",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+    "date": "2026-11-17T11:35:28.000Z",
+    "reading_time": 5,
+    "excerpt": "Katy Perry feat. Skip Marley — Chained to the Rhythm sözleri ve Türkçe çevirisi. Beyaz çitler, pembe gözlükler ve Oblivia göndermesi için satıra bağlı çeviri notları.",
+    "categories": [
+      "Katy Perry",
+      "Skip Marley",
+      "Witness (Deluxe)"
+    ],
+    "category_slugs": [
+      "katy-perry",
+      "skip-marley",
+      "witness-deluxe"
+    ],
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "genres": [
+      "dance-pop",
+      "disco",
+      "reggae-pop"
+    ],
+    "spotify": {
+      "trackUrl": "https://open.spotify.com/track/7qvxFz3JodM0A7xEM7k3YD",
+      "albumUrl": "https://open.spotify.com/album/0UlbGi4oAth8s6rwaGSU8Z",
+      "artistUrl": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+      "albumName": "Witness (Deluxe)",
+      "releaseDate": "2017-06-09",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+      "duration": "3:58",
+      "albumType": "Album",
+      "label": null,
+      "trackNumber": 9,
+      "totalTracks": 17,
+      "artistName": "Katy Perry",
+      "artistImage": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482",
+      "artistGenres": [],
+      "albumArtist": "Katy Perry"
+    },
+    "moods": [
+      "Party"
+    ],
+    "firstPair": {
+      "en": "Are we crazy?",
+      "tr": "Aklımızı mı kaçırdık?"
+    },
+    "heroPair": {
+      "en": "We're all chained to the rhythm",
+      "tr": "Hepimiz bu ritme zincirlenmişiz,"
+    }
+  },
+  {
     "id": "5337",
     "slug": "ateez-up-turkce-ceviri",
     "title": "ATEEZ UP Türkçe Çeviri",

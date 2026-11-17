@@ -1,5 +1,649 @@
 [
   {
+    "id": "5338",
+    "title": "Katy Perry feat. Skip Marley Chained to the Rhythm Türkçe Çeviri",
+    "song": "Chained to the Rhythm",
+    "slug": "katy-perry-skip-marley-chained-to-the-rhythm-turkce-ceviri",
+    "date": "2026-11-17T11:35:28.000Z",
+    "artist": "Katy Perry feat. Skip Marley",
+    "languages": {
+      "original": "en",
+      "translation": "tr",
+      "annotations": "tr"
+    },
+    "categories": [
+      "Katy Perry",
+      "Skip Marley",
+      "Witness (Deluxe)"
+    ],
+    "category_slugs": [
+      "katy-perry",
+      "skip-marley",
+      "witness-deluxe"
+    ],
+    "image": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+    "reading_time": 5,
+    "blocks": [
+      {
+        "original": true,
+        "label": "Kıta 1: Katy Perry",
+        "lines": [
+          "Are we crazy?",
+          "Living our lives through a lens",
+          "Trapped in our white picket fence",
+          "Like ornaments"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Kıta 1: Katy Perry",
+        "lines": [
+          "Aklımızı mı kaçırdık?",
+          "Hayatlarımızı bir ekranın ardından yaşıyoruz.",
+          "Beyaz çitlerle çevrili evlerimize hapsolmuşuz,",
+          "Sanki birer süs eşyasıymışız gibi."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "So comfortable, we're living in a bubble, bubble",
+          "So comfortable, we cannot see the trouble, trouble"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "Öyle rahatız ki kendi balonumuzda yaşıyoruz, balonumuzda.",
+          "Öyle rahatız ki etrafımızdaki sorunları göremiyoruz, göremiyoruz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 2: Katy Perry",
+        "lines": [
+          "Aren't you lonely",
+          "Up there in utopia",
+          "Where nothing will ever be enough?",
+          "Happily numb"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Kıta 2: Katy Perry",
+        "lines": [
+          "Hiç yalnız hissetmiyor musun kendini,",
+          "O kusursuz hayal dünyanda?",
+          "Hiçbir şeyin sana asla yetmeyeceği o yerde...",
+          "Mutlu mesut, hiçbir şey hissetmeden."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "So comfortable, we're living in a bubble, bubble",
+          "So comfortable, we cannot see the trouble, trouble"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "Öyle rahatız ki kendi balonumuzda yaşıyoruz, balonumuzda.",
+          "Öyle rahatız ki etrafımızdaki sorunları göremiyoruz, göremiyoruz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Katy Perry",
+        "lines": [
+          "So put your rose-colored glasses on",
+          "And party on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat: Katy Perry",
+        "lines": [
+          "Hadi, tak pembe gözlüklerini,",
+          "Ve eğlenmeye devam et!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Katy Perry",
+        "lines": [
+          "Turn it up, it's your favorite song",
+          "Dance, dance, dance to the distortion",
+          "Turn it up, keep it on repeat",
+          "Stumbling around like a wasted zombie",
+          "Yeah, we think we're free",
+          "Drink, this one's on me",
+          "We're all chained to the rhythm",
+          "To the rhythm, to the rhythm",
+          "Turn it up, it's your favorite song",
+          "Dance, dance, dance to the distortion",
+          "Turn it up, keep it on repeat",
+          "Stumbling around like a wasted zombie",
+          "Yeah, we think we're free",
+          "Drink, this one's on me",
+          "We're all chained to the rhythm",
+          "To the rhythm, to the rhythm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: Katy Perry",
+        "lines": [
+          "Aç sesi, en sevdiğin şarkı bu!",
+          "Dans et, dans et, dans et, her şey çarpıtılırken!",
+          "Aç sesi, tekrar tekrar çalsın!",
+          "Kafası güzel bir zombi gibi sendeleyip dur!",
+          "Evet, özgür olduğumuzu sanıyoruz.",
+          "İç bakalım, bu sefer benden!",
+          "Hepimiz bu ritme zincirlenmişiz,",
+          "Bu ritme, bu ritme!",
+          "Aç sesi, en sevdiğin şarkı bu!",
+          "Dans et, dans et, dans et, her şey çarpıtılırken!",
+          "Aç sesi, tekrar tekrar çalsın!",
+          "Kafası güzel bir zombi gibi sendeleyip dur!",
+          "Evet, özgür olduğumuzu sanıyoruz.",
+          "İç bakalım, bu sefer benden!",
+          "Hepimiz bu ritme zincirlenmişiz,",
+          "Bu ritme, bu ritme!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Kıta 3: Katy Perry",
+        "lines": [
+          "Are we tone deaf?",
+          "Keep sweeping it under the mat",
+          "Thought we could do better than that",
+          "I hope we can"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Kıta 3: Katy Perry",
+        "lines": [
+          "Bu kadar mı duyarsızlaştık?",
+          "Sorunları halının altına süpürüp duruyoruz.",
+          "Bundan daha iyisini yapabiliriz sanmıştım.",
+          "Umarım hâlâ yapabiliriz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "So comfortable, we're living in a bubble, bubble",
+          "So comfortable, we cannot see the trouble, trouble"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Refrain: Katy Perry",
+        "lines": [
+          "Öyle rahatız ki kendi balonumuzda yaşıyoruz, balonumuzda.",
+          "Öyle rahatız ki etrafımızdaki sorunları göremiyoruz, göremiyoruz."
+        ]
+      },
+      {
+        "original": true,
+        "label": "Ön Nakarat: Katy Perry",
+        "lines": [
+          "So put (So put) your rose-colored glasses on",
+          "And party on"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Ön Nakarat: Katy Perry",
+        "lines": [
+          "Hadi, tak (Hadi, tak!) pembe gözlüklerini,",
+          "Ve eğlenmeye devam et!"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Nakarat: Katy Perry & Skip Marley",
+        "lines": [
+          "Turn it up, it's your favorite song",
+          "Dance, dance, dance to the distortion",
+          "Turn it up, keep it on repeat",
+          "Stumbling around like a wasted zombie",
+          "Yeah, we think we're free",
+          "Drink, this one's on me",
+          "We're all chained to the rhythm",
+          "To the rhythm, to the rhythm",
+          "Turn it up, it's your favorite song (Oh)",
+          "Dance, dance, dance to the distortion",
+          "Turn it up, keep it on repeat",
+          "Stumbling around like a wasted zombie",
+          "Yeah, we think we're free",
+          "Drink, this one's on me",
+          "We're all chained to the rhythm",
+          "To the rhythm, to the rhythm (Woah, oh, oh)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Nakarat: Katy Perry & Skip Marley",
+        "lines": [
+          "Aç sesi, en sevdiğin şarkı bu!",
+          "Dans et, dans et, dans et, her şey çarpıtılırken!",
+          "Aç sesi, tekrar tekrar çalsın!",
+          "Kafası güzel bir zombi gibi sendeleyip dur!",
+          "Evet, özgür olduğumuzu sanıyoruz.",
+          "İç bakalım, bu sefer benden!",
+          "Hepimiz bu ritme zincirlenmişiz,",
+          "Bu ritme, bu ritme!",
+          "Aç sesi, en sevdiğin şarkı bu! (Oh!)",
+          "Dans et, dans et, dans et, her şey çarpıtılırken!",
+          "Aç sesi, tekrar tekrar çalsın!",
+          "Kafası güzel bir zombi gibi sendeleyip dur!",
+          "Evet, özgür olduğumuzu sanıyoruz.",
+          "İç bakalım, bu sefer benden!",
+          "Hepimiz bu ritme zincirlenmişiz,",
+          "Bu ritme, bu ritme! (Woah, oh, oh!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Köprü: Skip Marley",
+        "lines": [
+          "It is my desire",
+          "Break down the walls to connect, inspire",
+          "Ayy, up inna your high place, liars",
+          "Time is ticking for the empire",
+          "The truth they feed is feeble",
+          "As so many times before",
+          "They greed over the people",
+          "They stumbling and fumbling and we about to riot",
+          "They woke up, they woke up the lions (Woo!)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Köprü: Skip Marley",
+        "lines": [
+          "Tek isteğim şu:",
+          "Duvarları yıkıp insanları birleştirmek, onlara ilham vermek!",
+          "Hey, siz yukarıdaki yüksek makamlarınızda oturan yalancılar!",
+          "İmparatorluğun vakti daralıyor!",
+          "Bize yutturdukları gerçekler kof,",
+          "Daha önce de defalarca olduğu gibi.",
+          "Halkın sırtından kendi ceplerini dolduruyorlar!",
+          "Ama şimdi tökezliyor, ne yapacaklarını şaşırıyorlar;",
+          "Biz de ayaklanmak üzereyiz!",
+          "Uyandırdılar, uyandırdılar aslanları! (Woo!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Son Nakarat: Katy Perry & Skip Marley",
+        "lines": [
+          "Turn it up, it's your favorite song",
+          "Dance, dance, dance to the distortion",
+          "Turn it up, keep it on repeat (Turn it up, turn it up, yeah)",
+          "Stumbling around like a wasted zombie (Like a wasted zombie)",
+          "Yeah, we think we're free",
+          "Drink, this one's on me (Oh, we're all)",
+          "We're all chained to the rhythm (Oh, we're all)",
+          "To the rhythm, to the rhythm (Chained to the rhythm)"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Son Nakarat: Katy Perry & Skip Marley",
+        "lines": [
+          "Aç sesi, en sevdiğin şarkı bu!",
+          "Dans et, dans et, dans et, her şey çarpıtılırken!",
+          "Aç sesi, tekrar tekrar çalsın! (Aç sesi, aç sesi, yeah!)",
+          "Kafası güzel bir zombi gibi sendeleyip dur! (Kafası güzel bir zombi gibi!)",
+          "Evet, özgür olduğumuzu sanıyoruz.",
+          "İç bakalım, bu sefer benden! (Oh, hepimiz!)",
+          "Hepimiz bu ritme zincirlenmişiz! (Oh, hepimiz!)",
+          "Bu ritme, bu ritme! (Ritme zincirlenmişiz!)"
+        ]
+      },
+      {
+        "original": true,
+        "label": "Çıkış: Katy Perry",
+        "lines": [
+          "It goes on and on and on (Turn it up, it goes)",
+          "It goes on and on and on (Turn it up, it goes on and on and on)",
+          "It goes on and on and on (On and on and on, it goes)",
+          "'Cause we're all chained to the rhythm"
+        ]
+      },
+      {
+        "original": false,
+        "label": "Çıkış: Katy Perry",
+        "lines": [
+          "Böyle sürüp gidiyor, durmadan, durmadan! (Aç sesi, sürüp gidiyor!)",
+          "Böyle sürüp gidiyor, durmadan, durmadan! (Aç sesi, hiç durmadan!)",
+          "Böyle sürüp gidiyor, durmadan, durmadan! (Durmadan, durmadan, sürüp gidiyor!)",
+          "Çünkü hepimiz bu ritme zincirlenmişiz."
+        ]
+      }
+    ],
+    "excerpt": "Katy Perry feat. Skip Marley — Chained to the Rhythm sözleri ve Türkçe çevirisi. Beyaz çitler, pembe gözlükler ve Oblivia göndermesi için satıra bağlı çeviri notları.",
+    "annotations": {
+      "bu ritme zincirlenmişiz": "Ritme kapılmak başka, ritme zincirlenmek başka: ilki dans etmeyi seçtiğimizi, ikincisi istesek de duramadığımızı düşündürüyor. Klipteki Oblivia parkında dev hamster çarkı aynı çelişkiyi görünür kılıyor: koşan çok, ilerleyen yok.",
+      "bir ekranın ardından": "«Lens» aslında ekran değil, kamera merceği. «Ekran» anı yaşamakla onu kaydedip izlemek arasındaki mesafeyi bugünün Türkçesine taşıyor.",
+      "Beyaz çitlerle": "Amerikan banliyösündeki beyaz bahçe çiti, ev sahibi olmanın ve güvenceli bir hayatın tanıdık simgesi. Burada tersine dönüyor: İnsanlar çitin ardında güvende değil, ona hapsolmuş.",
+      "birer süs eşyası": "Kusursuz evin içindeki insanlar da manzaranın birer süsü olmuş. Benzetme giyinip süslenmekle değil, dışarıdan güzel görünen bir hayatın dekoruna dönüşmekle ilgili.",
+      "kendi balonumuzda": "«Living in a bubble», dışarıdaki hayatla teması az, korunaklı bir çevrede yaşamak demek. Sorunlar ortadan kalkmıyor; balonun içi o kadar rahat ki onları fark etmek zorlaşıyor.",
+      "kusursuz hayal dünyanda": "Ütopyada hiçbir şeyin yetmemesi bilinçli bir çelişki. Her istediğine sahip olmanın yeni istekleri bitirmediği bir hayatı akla getiriyor.",
+      "Mutlu mesut": "«Happily numb» mutlulukla hissizliği yan yana koyuyor. Anlatıcının sorusu şu: Gerçekten iyi misin, yoksa artık seni rahatsız eden hiçbir şeyi hissetmiyor musun?",
+      "pembe gözlüklerini": "Türkçedeki «dünyaya pembe gözlüklerle bakmak» aynı deyimi karşılıyor. Hemen ardından gelen eğlenme çağrısı ironik: Gözlükleri takınca sorun değil, onu görme ihtimali ortadan kalkıyor.",
+      "her şey çarpıtılırken": "«Distortion» hem sesin bozulması hem bir şeyin çarpıtılması. Dizeye müzik açısından bakınca dans edilen şey bozulmuş sesin kendisi; Türkçe karşılık ise gerçeğin çarpıtılması ihtimalini öne çıkarıyor.",
+      "Kafası güzel bir zombi": "«Wasted» sarhoşluk ya da başka bir maddenin etkisiyle kendinden geçme hâlini anlatabilir. «Kafası güzel» bu açıklığı koruyor; zombi benzetmesi de kalabalığın düşünmeden aynı hareketleri yapmasını çağrıştırıyor.",
+      "özgür olduğumuzu sanıyoruz": "Cümlenin ağırlığı «sanıyoruz» fiilinde. Dans edenler kendilerini özgür hissediyor; nakaratın aynı söz ve hareketlere dönmesi bu hisle çelişiyor.",
+      "bu sefer benden": "«This one’s on me», bir tur içkinin hesabını üstlenirken söylenir. Özgürlük sorgulanmışken gelen bu gündelik teklif, dikkati yeniden partiye çekiyor.",
+      "Bu kadar mı duyarsızlaştık": "«Tone deaf» müzikte perdeleri ayırt edememek, mecazen çevrede olup bitene duyarsız kalmak demek. Ritim üzerine kurulu bir şarkıda iki anlam da duyuluyor.",
+      "halının altına": "Sorunu çözmeden gözden uzaklaştırma deyimi Türkçede de var. Sonraki «Umarım hâlâ yapabiliriz» sözü, anlatıcının bu alışkanlığın değişebileceğini düşündüğünü gösteriyor.",
+      "Duvarları yıkıp": "Bob Marley’nin torunu, Jamaikalı sanatçı Skip Marley burada sözü devralıyor. Katy Perry kalabalığa «biz ne yapıyoruz?» diye sorarken Marley insanları bir araya getirmekten söz edip doğrudan güç sahiplerine sesleniyor.",
+      "yüksek makamlarınızda": "Jamaika Patois’sındaki «inna» burada «in» anlamında. «Yüksek» sözü bir yer tarifinden çok, oradan halka bakanların konumunu anlatıyor; dizede herhangi bir liderin adı verilmiyor.",
+      "İmparatorluğun vakti daralıyor": "Saatin işlemesi, güçlü görünen düzenin zamanının sınırsız olmadığını düşündürüyor. «İmparatorluk» sözcüğünü tek bir ülke ya da hükümetle eşitlemek için sözlerde bir işaret yok.",
+      "yutturdukları gerçekler kof": "«Feed» sözcüğü beslermiş gibi bilgi sunmayı, «feeble» ise sunulan şeyin zayıflığını anlatıyor. «Yutturmak», anlatıcının kendisine gerçek diye verilene güvenmediğini duyuruyor.",
+      "kendi ceplerini dolduruyorlar": "«Greed» açgözlülük demek. Özgün dizede cep ya da para geçmiyor; «halkın sırtından ceplerini doldurmak», çıkarlarını insanların önüne koymayı anlatan Türkçe bir karşılık.",
+      "uyandırdılar aslanları": "Ayaklanmadan söz edilir edilmez gelen aslanlar, nakarattaki zombilerin karşıtına dönüşüyor: Başta bilinçsizce hareket eden kalabalık, şimdi kendi gücünün farkına varıyor."
+    },
+    "difficulty_note": null,
+    "spotify": {
+      "track": {
+        "id": "7qvxFz3JodM0A7xEM7k3YD",
+        "name": "Chained To The Rhythm",
+        "url": "https://open.spotify.com/track/7qvxFz3JodM0A7xEM7k3YD",
+        "isrc": "USUM71700560",
+        "durationMs": 237733,
+        "duration": "3:58",
+        "explicit": false,
+        "popularity": null,
+        "trackNumber": 9,
+        "previewUrl": null
+      },
+      "artist": {
+        "id": "6jJ0s89eD6GaHleKKya26X",
+        "name": "Katy Perry",
+        "url": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcd50e745cf782f905769f482",
+        "genres": [],
+        "popularity": null,
+        "followers": null
+      },
+      "artists": [
+        {
+          "id": "6jJ0s89eD6GaHleKKya26X",
+          "name": "Katy Perry",
+          "url": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+        },
+        {
+          "id": "4ryoUS0W8qXokfMxrlJt6O",
+          "name": "Skip Marley",
+          "url": "https://open.spotify.com/artist/4ryoUS0W8qXokfMxrlJt6O"
+        }
+      ],
+      "album": {
+        "id": "0UlbGi4oAth8s6rwaGSU8Z",
+        "name": "Witness (Deluxe)",
+        "url": "https://open.spotify.com/album/0UlbGi4oAth8s6rwaGSU8Z",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+        "artists": [
+          {
+            "id": "6jJ0s89eD6GaHleKKya26X",
+            "name": "Katy Perry",
+            "url": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+          }
+        ],
+        "releaseDate": "2017-06-09",
+        "releaseDatePrecision": "day",
+        "albumType": "Album",
+        "rawAlbumType": "album",
+        "label": null,
+        "copyrights": [
+          {
+            "text": "© 2017 Capitol Records",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2017 Capitol Records",
+            "type": "P"
+          }
+        ],
+        "totalTracks": 17,
+        "tracks": [
+          {
+            "id": "6EzuVdWmzgOBmqHpzbbzfQ",
+            "name": "Witness",
+            "trackNumber": 1,
+            "discNumber": 1,
+            "durationMs": 250506,
+            "duration": "4:11",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6EzuVdWmzgOBmqHpzbbzfQ",
+            "isCurrent": false
+          },
+          {
+            "id": "3tqwKg0W8XfYORNrP4aIhu",
+            "name": "Hey Hey Hey",
+            "trackNumber": 2,
+            "discNumber": 1,
+            "durationMs": 214960,
+            "duration": "3:35",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3tqwKg0W8XfYORNrP4aIhu",
+            "isCurrent": false
+          },
+          {
+            "id": "2rk4s5NBhtHhhJIfjoaWES",
+            "name": "Roulette",
+            "trackNumber": 3,
+            "discNumber": 1,
+            "durationMs": 198680,
+            "duration": "3:19",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/2rk4s5NBhtHhhJIfjoaWES",
+            "isCurrent": false
+          },
+          {
+            "id": "3OtMnyUaiipcAT23A8liyi",
+            "name": "Swish Swish",
+            "trackNumber": 4,
+            "discNumber": 1,
+            "durationMs": 242520,
+            "duration": "4:03",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/3OtMnyUaiipcAT23A8liyi",
+            "isCurrent": false
+          },
+          {
+            "id": "60XMmxciP1qewvkcD16qKQ",
+            "name": "Déjà Vu",
+            "trackNumber": 5,
+            "discNumber": 1,
+            "durationMs": 197840,
+            "duration": "3:18",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/60XMmxciP1qewvkcD16qKQ",
+            "isCurrent": false
+          },
+          {
+            "id": "6Bat8YJaSEVzWwYFHqgqep",
+            "name": "Power",
+            "trackNumber": 6,
+            "discNumber": 1,
+            "durationMs": 226466,
+            "duration": "3:46",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6Bat8YJaSEVzWwYFHqgqep",
+            "isCurrent": false
+          },
+          {
+            "id": "6W20KhhJcEhRh71l5hQq8C",
+            "name": "Mind Maze",
+            "trackNumber": 7,
+            "discNumber": 1,
+            "durationMs": 248173,
+            "duration": "4:08",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6W20KhhJcEhRh71l5hQq8C",
+            "isCurrent": false
+          },
+          {
+            "id": "7BZSIG9TyowrVzSdZJpmeI",
+            "name": "Miss You More",
+            "trackNumber": 8,
+            "discNumber": 1,
+            "durationMs": 234280,
+            "duration": "3:54",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7BZSIG9TyowrVzSdZJpmeI",
+            "isCurrent": false
+          },
+          {
+            "id": "7qvxFz3JodM0A7xEM7k3YD",
+            "name": "Chained To The Rhythm",
+            "trackNumber": 9,
+            "discNumber": 1,
+            "durationMs": 237733,
+            "duration": "3:58",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/7qvxFz3JodM0A7xEM7k3YD",
+            "isCurrent": true
+          },
+          {
+            "id": "0frWUvNyEqlfy1WAxBAFbb",
+            "name": "Tsunami",
+            "trackNumber": 10,
+            "discNumber": 1,
+            "durationMs": 203133,
+            "duration": "3:23",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/0frWUvNyEqlfy1WAxBAFbb",
+            "isCurrent": false
+          },
+          {
+            "id": "4rHmKlFRiFzabiVO6e9w2e",
+            "name": "Bon Appétit",
+            "trackNumber": 11,
+            "discNumber": 1,
+            "durationMs": 227813,
+            "duration": "3:48",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/4rHmKlFRiFzabiVO6e9w2e",
+            "isCurrent": false
+          },
+          {
+            "id": "10jcBOZo0OwQVLPxp7bwB6",
+            "name": "Bigger Than Me",
+            "trackNumber": 12,
+            "discNumber": 1,
+            "durationMs": 240760,
+            "duration": "4:01",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/10jcBOZo0OwQVLPxp7bwB6",
+            "isCurrent": false
+          },
+          {
+            "id": "732x2Fy6jbt7qC70Zg463q",
+            "name": "Save As Draft",
+            "trackNumber": 13,
+            "discNumber": 1,
+            "durationMs": 228653,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/732x2Fy6jbt7qC70Zg463q",
+            "isCurrent": false
+          },
+          {
+            "id": "6Pp0cu0y4lOyRd04L3e9lS",
+            "name": "Pendulum",
+            "trackNumber": 14,
+            "discNumber": 1,
+            "durationMs": 240120,
+            "duration": "4:00",
+            "explicit": false,
+            "url": "https://open.spotify.com/track/6Pp0cu0y4lOyRd04L3e9lS",
+            "isCurrent": false
+          },
+          {
+            "id": "784C7m9r88GPKe2yOAzGYJ",
+            "name": "Into Me You See",
+            "trackNumber": 15,
+            "discNumber": 1,
+            "durationMs": 264400,
+            "duration": "4:24",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/784C7m9r88GPKe2yOAzGYJ",
+            "isCurrent": false
+          },
+          {
+            "id": "5CYXQ9WzVTUbyOYiSKwRFG",
+            "name": "Dance With The Devil",
+            "trackNumber": 16,
+            "discNumber": 1,
+            "durationMs": 229413,
+            "duration": "3:49",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/5CYXQ9WzVTUbyOYiSKwRFG",
+            "isCurrent": false
+          },
+          {
+            "id": "6HtHyWKAzwFwrSnnTunDMl",
+            "name": "Act My Age",
+            "trackNumber": 17,
+            "discNumber": 1,
+            "durationMs": 221613,
+            "duration": "3:42",
+            "explicit": true,
+            "url": "https://open.spotify.com/track/6HtHyWKAzwFwrSnnTunDMl",
+            "isCurrent": false
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-17T11:35:28.391Z",
+      "trackUrl": "https://open.spotify.com/track/7qvxFz3JodM0A7xEM7k3YD",
+      "albumUrl": "https://open.spotify.com/album/0UlbGi4oAth8s6rwaGSU8Z",
+      "artistUrl": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+      "albumName": "Witness (Deluxe)",
+      "albumType": "Album",
+      "releaseDate": "2017-06-09",
+      "duration": "3:58",
+      "isrc": "USUM71700560",
+      "label": null,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88"
+    },
+    "genius": null,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Um7pMggPnug",
+    "source": "user-provided",
+    "genres": [
+      "dance-pop",
+      "disco",
+      "reggae-pop"
+    ],
+    "moods": [
+      "Party"
+    ],
+    "editorialSources": [
+      {
+        "label": "Katy Perry feat. Skip Marley — Chained to the Rhythm · resmî klip",
+        "url": "https://www.youtube.com/watch?v=Um7pMggPnug"
+      },
+      {
+        "label": "Apple Music · 10 Şubat 2017 tarihli şarkı kaydı",
+        "url": "https://music.apple.com/tt/song/1395620400"
+      }
+    ]
+  },
+  {
     "id": "5337",
     "title": "ATEEZ UP Türkçe Çeviri",
     "song": "UP",
