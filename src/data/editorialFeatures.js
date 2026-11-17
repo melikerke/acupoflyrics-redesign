@@ -1,6 +1,308 @@
 // Supplied ready articles; drafts and unpublished automation work remain separate.
 export const editorialFeatures = [
   {
+    "slug": "2027-grammy-adaylari",
+    "title": "2027 Grammy adayları: RAYE 11 adaylıkla zirvede, K-pop cephesi ikiye bölündü",
+    "shortTitle": "2027 Grammy adayları",
+    "seoTitle": "2027 Grammy adayları: RAYE, Rosalía ve K-pop adayları",
+    "kicker": "Ödül gündemi",
+    "date": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "schemaType": "NewsArticle",
+    "readTime": "5 dk",
+    "excerpt": "69. Grammy Ödülleri adayları açıklandı. RAYE 11, Rosalía 9 adaylık aldı; JENNIE Yılın Kaydı'nda, IVE ve KiiiKiii yeni Asya pop kategorisinde. Tüm öne çıkanlar burada.",
+    "dek": "Grammy Ödülleri'nin 69. töreni için adaylar 16 Kasım Pazartesi günü açıklandı ve listenin tepesinde tek bir isim var: RAYE. İngiliz şarkıcı 11 adaylıkla yılın en çok aday gösterilen sanatçısı oldu; bu sayı, bir kadın sanatçının tek yılda aldığı en yüksek adaylık sayısına, yani Beyoncé'nin rekoruna eşit. Hemen arkasında 9 adaylıkla Rosalía geliyor.",
+    "summaryTitle": "Adaylıklarda öne çıkanlar",
+    "summary": [
+      "RAYE 11, Rosalía 9 adaylık aldı. Adaylık sayısına göre ilk altı sırayı bu yıl kadın sanatçılar paylaştı.",
+      "Ella Langley dört büyük kategorinin tamamında aday.",
+      "JENNIE iki dalda, IVE ve KiiiKiii ise ilk kez verilen Asya pop performansı kategorisinde aday."
+    ],
+    "sections": [
+      {
+        "heading": "En çok aday gösterilenler",
+        "body": [
+          "Bu yılın asıl hikâyesi ise iki başlıkta toplanıyor: en çok aday gösterilen altı ismin tamamı ilk kez kadın ve K-pop tarafı yeni açılan Asya pop kategorisi yüzünden ikiye bölünmüş durumda."
+        ],
+        "table": {
+          "caption": "69. Grammy Ödülleri’nde en çok aday gösterilen sanatçılar",
+          "columns": [
+            "Sanatçı",
+            "Adaylık"
+          ],
+          "rows": [
+            [
+              "RAYE",
+              "11"
+            ],
+            [
+              "Rosalía",
+              "9"
+            ],
+            [
+              "Ella Langley",
+              "7"
+            ],
+            [
+              "Miranda Lambert",
+              "7"
+            ],
+            [
+              "Olivia Rodrigo",
+              "7"
+            ],
+            [
+              "Phoebe Bridgers",
+              "7"
+            ],
+            [
+              "Bruno Mars",
+              "6"
+            ],
+            [
+              "Leon Thomas",
+              "6"
+            ],
+            [
+              "Olivia Dean",
+              "6"
+            ]
+          ]
+        },
+        "afterTable": [
+          "Ella Langley'nin yeri ayrı: aynı yıl hem Yılın Albümü, Yılın Kaydı ve Yılın Şarkısı'nda hem de En İyi Yeni Sanatçı'da aday. Ella Langley — Choosin' Texas için liste rekorunun hikâyesini daha önce yazmıştık."
+        ]
+      },
+      {
+        "heading": "Dört büyük kategori",
+        "body": [],
+        "table": {
+          "caption": "Dört büyük Grammy kategorisinin sekizer adayı",
+          "columns": [
+            "Yılın Albümü",
+            "Yılın Kaydı",
+            "Yılın Şarkısı",
+            "En İyi Yeni Sanatçı"
+          ],
+          "rows": [
+            [
+              "Phoebe Bridgers — Lost Weekend",
+              "Olivia Dean — Man I Need",
+              "ROSALÍA, Björk & Yves Tumor — Berghain",
+              "Angine de Poitrine"
+            ],
+            [
+              "Olivia Dean — The Art of Loving",
+              "Ella Langley — Choosin' Texas",
+              "Ella Langley — Choosin' Texas",
+              "Geese"
+            ],
+            [
+              "Ella Langley — Dandelion",
+              "Bruno Mars — I Just Might",
+              "Olivia Rodrigo — the cure",
+              "Ella Langley"
+            ],
+            [
+              "Bruno Mars — The Romantic",
+              "RAYE — WHERE IS MY HUSBAND!",
+              "Ariana Grande — hate that i made you love me",
+              "Slayyyter"
+            ],
+            [
+              "RAYE — THIS MUSIC MAY CONTAIN HOPE.",
+              "Olivia Rodrigo — the cure",
+              "Taylor Swift — I Knew It, I Knew You (Toy Story 5)",
+              "Sienna Spiro"
+            ],
+            [
+              "Olivia Rodrigo — you seem pretty sad for a girl so in love",
+              "ROSALÍA, Björk & Yves Tumor — Berghain",
+              "Olivia Dean — Man I Need",
+              "Don Toliver"
+            ],
+            [
+              "Rosalía — LUX (Complete Works)",
+              "Taylor Swift — The Fate of Ophelia",
+              "Bruno Mars — Risk It All",
+              "Remi Wolf"
+            ],
+            [
+              "Taylor Swift — The Life of a Showgirl",
+              "Tame Impala, JENNIE — Dracula",
+              "RAYE — WHERE IS MY HUSBAND!",
+              "The Womack Sisters"
+            ]
+          ]
+        },
+        "afterTable": [
+          "Yılın Şarkısı bir söz yazarlığı ödülü; tabloda kaydı ayırt etmek için eseri seslendiren sanatçı gösteriliyor.",
+          "En İyi Pop Vokal Albümü adayları: Olivia Dean — The Art of Loving, Ariana Grande — petal, Bruno Mars — The Romantic, RAYE — THIS MUSIC MAY CONTAIN HOPE. ve Olivia Rodrigo — you seem pretty sad for a girl so in love."
+        ]
+      },
+      {
+        "heading": "K-pop tarafı: JENNIE büyük kategoride, BTS listede yok",
+        "body": [
+          "Tame Impala, JENNIE — Dracula iki dalda aday: Yılın Kaydı ve En İyi Pop İkili/Grup Performansı. Bunlar JENNIE’nin solo sanatçı olarak ilk Grammy adaylıkları.",
+          "Bu yıl ilk kez verilecek En İyi Asya Pop Müzik Performansı kategorisinde altı aday var:"
+        ],
+        "table": {
+          "caption": "En İyi Asya Pop Müzik Performansı adayları",
+          "columns": [
+            "Sanatçı — Şarkı",
+            "Ülke"
+          ],
+          "rows": [
+            [
+              "IVE — BANG BANG",
+              "Güney Kore"
+            ],
+            [
+              "KiiiKiii — 404 (New Era)",
+              "Güney Kore"
+            ],
+            [
+              "BINI — Unang Kilig",
+              "Filipinler"
+            ],
+            [
+              "SB19 — VISA",
+              "Filipinler"
+            ],
+            [
+              "LiSA — YES",
+              "Japonya"
+            ],
+            [
+              "BABYMETAL, Polyphia — Sunset Kiss",
+              "Japonya / ABD"
+            ]
+          ]
+        },
+        "afterTable": [
+          "IVE ve KiiiKiii için bunlar ilk Grammy adaylıkları; ikisi de Starship Entertainment sanatçısı.",
+          "Listede BTS'in olmaması sürpriz değil. Grup 29 Temmuz'da, müziğin coğrafyaya ya da dile göre sınıflandırılmasına karşı olduğunu söyleyerek bu yıl başvuru yapmayacağını açıklamıştı. Stray Kids de başvurmadı; JYP bunu ekim ayında doğruladı. Korea Herald'a göre HYBE, SM, JYP ve YG sanatçılarını bu kategoriye göndermedi; gazete bunun koordineli bir boykot anlamına gelmeyebileceğini de not ediyor.",
+          "Recording Academy CEO'su Harvey Mason Jr. kategoriyi savundu: amaç Asyalı sanatçıları ayırmak değil, tanınma alanını genişletmek; bu kategorideki sanatçılar albüm, kayıt ve şarkı ödüllerine de aday olabiliyor."
+        ]
+      },
+      {
+        "heading": "Sürprizler ve dışarıda kalanlar",
+        "body": [
+          "Harry Styles: Hiç adaylık alamadı. 2023'te Harry's House ile Yılın Albümü'nü kazanmıştı.",
+          "Noah Kahan: The Great Divide ile yalnızca En İyi Çağdaş Folk Albümü'nde aday; Yılın Albümü beklentisi boşa çıktı.",
+          "Ariana Grande: Ariana Grande — petal, Yılın Albümü’ne giremedi. Buna karşılık Ariana Grande — hate that i made you love me ile Yılın Şarkısı ve En İyi Müzik Videosu’nda, albümüyle En İyi Pop Vokal Albümü’nde, Cynthia Erivo & Ariana Grande — For Good düetiyle de yeni Geleneksel Pop Vokal Performansı kategorisinde aday.",
+          "Madonna: Büyük kategorilerde yok; Sabrina Carpenter ile \"Bring Your Love\" (En İyi Pop İkili/Grup Performansı) ve \"Danceteria\" (En İyi Dans Pop Kaydı) ile listede.",
+          "Beyoncé: \"MORNING DEW (DONK)\" ile En İyi R&B Solo Performansı'nda aday gösterildi ve kariyerinin 100. adaylığına ulaştı.",
+          "En İyi Yeni Sanatçı: Billboard'a göre Angine de Poitrine, Remi Wolf ve The Womack Sisters beklenmeyen adaylar; Malcolm Todd ve Audrey Hobert ise dışarıda kaldı.",
+          "The Hollywood Reporter, beklentinin altında kalanlar arasında Gracie Abrams'ı da sayıyor."
+        ]
+      },
+      {
+        "heading": "Tören ne zaman?",
+        "body": [
+          "Tören 7 Şubat 2027 Pazar günü Los Angeles'taki Crypto.com Arena'da yapılacak; ABD'de ABC, Disney+ ve Hulu'dan yayınlanacak. Bu yıl toplam 100 kategori var ve beşi yeni: En İyi Asya Pop Müzik Performansı, En İyi R&B İş Birliği veya İkili/Grup Performansı, En İyi Geleneksel Pop Vokal Performansı, En İyi Geleneksel Folk Albümü ve En İyi Latin Şarkısı.",
+          "Aday olabilmek için kayıtların 31 Ağustos 2025 ile 28 Ağustos 2026 arasında yayımlanmış olması gerekiyordu."
+        ]
+      }
+    ],
+    "relatedTranslations": [
+      "raye-where-is-my-husband-turkce-ceviri",
+      "ella-langley-choosin-texas-turkce-ceviri",
+      "olivia-dean-man-i-need-turkce-ceviri",
+      "bruno-mars-risk-it-all-turkce-ceviri",
+      "taylor-swift-i-knew-it-i-knew-you-turkce-ceviri",
+      "taylor-swift-the-fate-of-ophelia-turkce-ceviri",
+      "olivia-rodrigo-the-cure-turkce-ceviri",
+      "ariana-grande-hate-that-i-made-you-love-me-turkce-ceviri",
+      "tame-impala-jennie-dracula-turkce-ceviri"
+    ],
+    "inlineLinks": [
+      {
+        "label": "RAYE — WHERE IS MY HUSBAND!",
+        "href": "/raye-where-is-my-husband-turkce-ceviri/"
+      },
+      {
+        "label": "Ella Langley — Choosin' Texas",
+        "href": "/ella-langley-choosin-texas-turkce-ceviri/"
+      },
+      {
+        "label": "Olivia Dean — Man I Need",
+        "href": "/olivia-dean-man-i-need-turkce-ceviri/"
+      },
+      {
+        "label": "Bruno Mars — Risk It All",
+        "href": "/bruno-mars-risk-it-all-turkce-ceviri/"
+      },
+      {
+        "label": "Taylor Swift — I Knew It, I Knew You",
+        "href": "/taylor-swift-i-knew-it-i-knew-you-turkce-ceviri/"
+      },
+      {
+        "label": "Taylor Swift — The Fate of Ophelia",
+        "href": "/taylor-swift-the-fate-of-ophelia-turkce-ceviri/"
+      },
+      {
+        "label": "Olivia Rodrigo — the cure",
+        "href": "/olivia-rodrigo-the-cure-turkce-ceviri/"
+      },
+      {
+        "label": "Ariana Grande — hate that i made you love me",
+        "href": "/ariana-grande-hate-that-i-made-you-love-me-turkce-ceviri/"
+      },
+      {
+        "label": "Tame Impala, JENNIE — Dracula",
+        "href": "/tame-impala-jennie-dracula-turkce-ceviri/"
+      },
+      {
+        "label": "liste rekorunun hikâyesini",
+        "href": "/pop-gunlugu/choosin-texas-neden-rekor-kirdi"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Grammy.com — 2027 tam aday listesi",
+        "url": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/"
+      },
+      {
+        "name": "Variety — adaylık sayıları",
+        "url": "https://variety.com/2026/music/news/grammy-nominations-2027-complete-list-2-1236948743/"
+      },
+      {
+        "name": "Rolling Stone — aday listesi",
+        "url": "https://www.rollingstone.com/music/music-news/grammy-nominations-2027-full-list-1235658661/"
+      },
+      {
+        "name": "Korea Herald — JENNIE ve Asya pop kategorisi",
+        "url": "https://www.koreaherald.com/article/10939069"
+      },
+      {
+        "name": "Korea JoongAng Daily — IVE, KiiiKiii ve JENNIE",
+        "url": "https://www.koreajoongangdaily.com/entertainment/jennie-ive-and-kiiikiii-earn-grammy-nominations/12973440"
+      },
+      {
+        "name": "The Hollywood Reporter — Asya pop kategorisi adayları",
+        "url": "https://www.hollywoodreporter.com/music/music-news/grammys-2027-asian-pop-performance-nominations-1236754517/"
+      },
+      {
+        "name": "The Hollywood Reporter — sürprizler ve dışarıda kalanlar",
+        "url": "https://www.hollywoodreporter.com/music/music-news/grammys-2027-snubs-surprises-harry-styles-noah-kahan-1236756402/"
+      },
+      {
+        "name": "Billboard — sürprizler ve dışarıda kalanlar",
+        "url": "https://www.billboard.com/lists/2027-grammy-nominations-snubs-surprises/"
+      },
+      {
+        "name": "E! News — sürprizler",
+        "url": "https://www.eonline.com/news/1438086/grammy-nominations-2027-snubs-surprises-noah-kahan-raye"
+      }
+    ],
+    "image": "https://media.grammy.net/uploads/2026/11/27G-Nominations_Nominations-Announcement_Hero_1644x925.avif",
+    "imageAlt": "69. Grammy Ödülleri adaylık duyurusunun resmî görseli",
+    "imageCredit": "Recording Academy / Grammy.com",
+    "imageSource": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "accent": "#ab8243"
+  },
+  {
     "slug": "27-ekim-2-kasim-2026-haftanin-muzik-gundemi",
     "title": "Haftanın Müzik Gündemi (27 Ekim–2 Kasım 2026): Tate McRae Kapıya Dayandı, Ella Langley — Choosin’ Texas Yarım Yıldır Zirvede",
     "shortTitle": "27 Ekim–2 Kasım 2026 müzik gündemi",
@@ -1193,6 +1495,105 @@ export const editorialFeatures = [
 ];
 
 export const translationQueue = [
+  {
+    "artist": "KiiiKiii",
+    "song": "404 (New Era)",
+    "addedAt": "2026-11-17",
+    "romanization": "Korece dizeler için gerekli",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "BINI",
+    "song": "Unang Kilig",
+    "addedAt": "2026-11-17",
+    "romanization": "Latin alfabesi; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "SB19",
+    "song": "VISA",
+    "addedAt": "2026-11-17",
+    "romanization": "Latin alfabesi; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "LiSA",
+    "song": "YES",
+    "addedAt": "2026-11-17",
+    "romanization": "Japonca dizeler için gerekli",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "BABYMETAL, Polyphia",
+    "song": "Sunset Kiss",
+    "addedAt": "2026-11-17",
+    "romanization": "Japonca dizeler varsa gerekli",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "Cynthia Erivo & Ariana Grande",
+    "song": "For Good",
+    "addedAt": "2026-11-17",
+    "romanization": "İngilizce; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "Madonna & Sabrina Carpenter",
+    "song": "Bring Your Love",
+    "addedAt": "2026-11-17",
+    "romanization": "İngilizce; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "Madonna",
+    "song": "Danceteria",
+    "addedAt": "2026-11-17",
+    "romanization": "Latin alfabesi; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "Beyoncé",
+    "song": "MORNING DEW (DONK)",
+    "addedAt": "2026-11-17",
+    "romanization": "İngilizce; gerekmiyor",
+    "source": "https://www.grammy.com/news/2027-grammys-full-nominations-full-winners-nominees-list/",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "Bruno Mars",
+    "song": "I Just Might",
+    "releaseDate": "2026-01-09",
+    "addedAt": "2026-11-17",
+    "romanization": "İngilizce; romanizasyon gerekmiyor",
+    "source": "https://www.bmg.com/news/bruno-mars-tops-global-charts-with-new-single-i-just-might",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "ROSALÍA, Björk & Yves Tumor",
+    "song": "Berghain",
+    "releaseDate": "2025-10-27",
+    "addedAt": "2026-11-17",
+    "romanization": "Latin alfabesi; romanizasyon gerekmiyor",
+    "source": "https://music.apple.com/us/song/1848167528",
+    "status": "Çeviri bekleniyor"
+  },
+  {
+    "artist": "IVE",
+    "song": "BANG BANG",
+    "releaseDate": "2026-02-09",
+    "addedAt": "2026-11-16",
+    "romanization": "Korece dizeler için romanizasyon gerekiyor",
+    "source": "https://music.apple.com/us/album/bang-bang-single/1872627662",
+    "status": "Çeviri bekleniyor"
+  },
   {
     "artist": "Clean Bandit x TÄRA",
     "song": "La Dolce Vita",
